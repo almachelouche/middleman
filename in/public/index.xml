@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Aug 2015 14:25:49 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Service Reminder Past Due With SSP</title>
+      <link>http://localhost:1313/service_reminders/service_reminder_past_due_with_ssp.html</link>
+      <pubDate>Thu, 20 Aug 2015 14:25:49 +0800</pubDate>
+      
+      <guid>http://localhost:1313/service_reminders/service_reminder_past_due_with_ssp.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service Reminder Past Due With EW</title>
+      <link>http://localhost:1313/service_reminders/service_reminder_past_due_with_ew.html</link>
+      <pubDate>Thu, 20 Aug 2015 14:25:45 +0800</pubDate>
+      
+      <guid>http://localhost:1313/service_reminders/service_reminder_past_due_with_ew.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service Reminder Due With SSP</title>
+      <link>http://localhost:1313/service_reminders/service_reminder_due_with_ssp.html</link>
+      <pubDate>Thu, 20 Aug 2015 14:25:30 +0800</pubDate>
+      
+      <guid>http://localhost:1313/service_reminders/service_reminder_due_with_ssp.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service Reminder Due With EW</title>
+      <link>http://localhost:1313/service_reminders/service_reminder_due_with_ew.html</link>
+      <pubDate>Thu, 20 Aug 2015 14:25:20 +0800</pubDate>
+      
+      <guid>http://localhost:1313/service_reminders/service_reminder_due_with_ew.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service Reminder Due Regular No Offer</title>
+      <link>http://localhost:1313/service_reminders/service_reminder_due_regular_with_flexi.html</link>
+      <pubDate>Thu, 20 Aug 2015 12:55:21 +0800</pubDate>
+      
+      <guid>http://localhost:1313/service_reminders/service_reminder_due_regular_with_flexi.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service Reminder Due No Offer</title>
+      <link>http://localhost:1313/service_reminders/service_reminder_due_no_offer.html</link>
+      <pubDate>Thu, 20 Aug 2015 12:55:21 +0800</pubDate>
+      
+      <guid>http://localhost:1313/service_reminders/service_reminder_due_no_offer.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service Reminder Past Due Declined No Offer</title>
+      <link>http://localhost:1313/service_reminders/service_reminder_past_due_declined_with_battery.html</link>
+      <pubDate>Thu, 20 Aug 2015 12:55:21 +0800</pubDate>
+      
+      <guid>http://localhost:1313/service_reminders/service_reminder_past_due_declined_with_battery.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service Reminder Past Due Declined No Offer</title>
+      <link>http://localhost:1313/service_reminders/service_reminder_past_due_declined_with_t_b.html</link>
+      <pubDate>Thu, 20 Aug 2015 12:55:21 +0800</pubDate>
+      
+      <guid>http://localhost:1313/service_reminders/service_reminder_past_due_declined_with_t_b.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service Reminder Past Due Declined No Offer</title>
+      <link>http://localhost:1313/service_reminders/service_reminder_past_due_regular_with_flexi.html</link>
+      <pubDate>Thu, 20 Aug 2015 12:55:21 +0800</pubDate>
+      
+      <guid>http://localhost:1313/service_reminders/service_reminder_past_due_regular_with_flexi.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
