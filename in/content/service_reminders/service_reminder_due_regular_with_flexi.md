@@ -4,6 +4,7 @@ draft = false
 title = "Service Reminder Due Regular No Offer"
 type = "service_reminder_due_regular_with_flexi"
 preheader = "It is time to bring your vehicle to the nearest Ford Service Centre and allow our experts to ensure your car runs smoothly."
+online = "https://s3-ap-southeast-1.amazonaws.com/edm2015india/Online/service_reminder_due_regular_with_flexi.html"
 
 +++
 

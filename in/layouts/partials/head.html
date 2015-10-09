@@ -200,7 +200,7 @@
       }
     }
   </style>
-  <!--[if mso | (IE)]>
+  {{ "<!--[if mso | (IE)]>" | safeHtml }}
 <style type="text/css">
 body {margin: 0; padding: 0; min-width: 100%!important;}
 .content {width: 640px; max-width: 640px;min-width:640px;}
@@ -262,18 +262,18 @@ a:hover,a:active{color:#616161;text-decoration:none}
 }
 .mso_ie_hide { display:none }
 </style>
-   <![endif]-->
+   {{ "<![endif]-->" | safeHtml }}
 </head>
 
 <body yahoo style="background-color:#f2f2f2">
-  <!--[if !mso]><!--><span class="preheader" style="display: none !important; visibility: hidden; opacity: 0; color: transparent; height: 0px; width: 0px; max-height:1px; max-width:1px; overflow:hidden; mso-hide:all;font-size:1px;">{{ .Params.preheader }}</span>
-  <!--<![endif]-->
+  {{ "<!--[if !mso]><!-->" | safeHtml }}<span class="preheader" style="display: none !important; visibility: hidden; opacity: 0; color: transparent; height: 0px; width: 0px; max-height:1px; max-width:1px; overflow:hidden; mso-hide:all;font-size:1px;">{{ .Params.preheader }}</span>
+  {{ "<!--<![endif]-->" | safeHtml }}
   <table class="content" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#f2f2f2" style="width: 100%;" id="wrapper">
     <tr>
       <td>
 
-        <!--[if (gte mso 9)|(IE)]>
+        {{ "<!--[if (gte mso 9)|(IE)]>" | safeHtml }}
 <table width="640" align="center" cellpadding="0" cellspacing="0" border="0">
     <tr>
         <td>
-            <![endif]-->
+            {{ "<![endif]-->" | safeHtml }}
