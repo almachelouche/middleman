@@ -1,0 +1,58 @@
+{{ partial "head.html" }}
+
+<body>
+  <div class="page-wrap">
+    <div class="sidebar">
+      <ul>
+        <li><a href="/#au">AU</a></li>
+        <li><a href="/#in">IN</a></li>
+        <li><a href="/#ph">PH</a></li>
+        <li><a href="/#th">TH</a></li>
+        <li><a href="/#vn">VN</a></li>
+        <li><a href="/#Modules">Modules</a></li>
+        <li><a href="{{ .Site.BaseURL }}ascii/ascii.html">ASCII Symbols</a></li>
+      </ul>
+    </div>
+      <table class="flat-table" border="1px">
+        <thead class="sticky">
+          <th>Market</th>
+          <th>HTML</th>
+          <th>Text</th>
+        </thead>
+        <tbody>
+          {{ range $key, $taxonomy := .Site.Taxonomies.markets }}
+          <tr id="{{ $key }}">
+            <td> {{ $key }} </td>
+            <td>
+              <ul>
+                {{ range $taxonomy.Pages }}
+                <li>
+                  <a class="download" href="{{ .Permalink }}" download>&#8595;</a>
+                  <a href="{{ .Permalink }}">{{ .LinkTitle}} </a>
+                </li>
+                {{ end }}
+              </ul>
+            </td>
+          </tr>
+          {{ end }}
+          {{ range $key, $taxonomy := .Site.Taxonomies.moduletypes }}
+          <tr id="Modules">
+            <td> {{ humanize $key }} Modules </td>
+            <td>
+              <ul>
+                {{ range $taxonomy.Pages }}
+                <li>
+                  <a class="download" href="{{ .Permalink }}" download>&#8595;</a>
+                  <a href="{{ .Permalink }}">{{ .LinkTitle}} </a>
+                </li>
+                {{ end }}
+              </ul>
+            </td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+  </div>
+</body>
+
+</html>

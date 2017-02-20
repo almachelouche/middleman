@@ -1,0 +1,95 @@
+{{- partial "email_modules/header" . -}}
+{{- $black := .Site.Data.emails.black -}}
+{{- $fordblue := .Site.Data.emails.fordblue -}}
+{{- $darkblue := .Site.Data.emails.darkblue -}}
+{{- $lightblue := .Site.Data.emails.lightblue -}}
+{{- $green := .Site.Data.emails.green -}}
+{{- $slatescreen := .Site.Data.emails.slatescreen -}}
+{{- $white := .Site.Data.emails.white -}}
+{{- $white_ot := .Site.Data.emails.white_ot -}}
+{{- $darkblue_ot := .Site.Data.emails.darkblue_ot -}}
+{{- $green_pb := .Site.Data.emails.green_pb -}}
+{{- $darkblue_pb := .Site.Data.emails.darkblue_pb -}}
+{{- $white_pb := .Site.Data.emails.white_pb -}}
+{{- $white_gt := .Site.Data.emails.white_gt -}}
+{{- $white_octa := .Site.Data.emails.white_octa -}}
+{{- $thaikingblack := .Site.Data.emails.thaikingblack -}}
+{{- $thaikingwhite := .Site.Data.emails.thaikingwhite -}}
+{{- $thaikinggrey := .Site.Data.emails.thaikinggrey -}}
+{{ range .Params.module }}
+{{"<!--" | safeHTML}}{{ .path }} {{"starts-->" | safeHTML}}
+  {{- if ne .segmentif nil -}}
+    {{- if (gt (len .segmentif) 0) -}}
+      {{- $nothing := (delimit .segmentif .segmentifdelimit) -}}
+       {{ "<%" | safeHTML }}InsertIf expression="${({{ $nothing }})}" %>
+    {{- end -}}
+  {{- end -}}
+  {{- if ne .segmentelseif nil -}}
+    {{- if (gt (len .segmentelseif) 0) -}}
+      {{- $nothing := (delimit .segmentelseif .segmentelseifdelimit) -}}
+       {{ "<%" | safeHTML }}InsertElse expression="${({{ $nothing }})}" %>
+    {{- end -}}
+  {{- end -}}
+  {{- if ne .segmentelse nil -}}
+    {{- if (gt (len .segmentelse) 0) -}}
+      {{- $nothing := (delimit .segmentelse .segmentelsedelimit) -}}
+       {{ "<%" | safeHTML }}InsertElse %>
+    {{- end -}}
+  {{- end -}}
+  {{- if eq .color "black" -}}
+    {{partial .path (dict "moduleinfo" . "color" $black)}}
+  {{- else if eq .color "thaikingblack" -}}
+    {{partial .path (dict "moduleinfo" . "color" $thaikingblack)}}
+  {{- else if eq .color "white" -}}
+    {{partial .path (dict "moduleinfo" . "color" $white)}}
+  {{- else if eq .color "thaikingwhite" -}}
+    {{partial .path (dict "moduleinfo" . "color" $thaikingwhite)}}
+  {{- else if eq .color "thaikinggrey" -}}
+    {{partial .path (dict "moduleinfo" . "color" $thaikinggrey)}}
+  {{- else if eq .color "fordblue" -}}
+    {{partial .path (dict "moduleinfo" . "color" $fordblue)}}
+  {{- else if eq .color "darkblue" -}}
+    {{partial .path (dict "moduleinfo" . "color" $darkblue)}}
+  {{- else if eq .color "lightblue" -}}
+    {{partial .path (dict "moduleinfo" . "color" $lightblue)}}
+  {{- else if eq .color "slatescreen" -}}
+    {{partial .path (dict "moduleinfo" . "color" $slatescreen)}}
+  {{- else if eq .color "green" -}}
+    {{partial .path (dict "moduleinfo" . "color" $green)}}
+  {{- else if eq .color "white_ot" -}}
+    {{partial .path (dict "moduleinfo" . "color" $white_ot)}}
+  {{- else if eq .color "darkblue_ot" -}}
+    {{partial .path (dict "moduleinfo" . "color" $darkblue_ot)}}
+  {{- else if eq .color "darkblue_pb" -}}
+    {{partial .path (dict "moduleinfo" . "color" $darkblue_pb)}}
+  {{- else if eq .color "green_pb" -}}
+    {{partial .path (dict "moduleinfo" . "color" $green_pb)}}
+  {{- else if eq .color "white_pb" -}}
+    {{partial .path (dict "moduleinfo" . "color" $white_pb)}} 
+  {{- else if eq .color "white_gt" -}}
+    {{partial .path (dict "moduleinfo" . "color" $white_gt)}}
+  {{- else if eq .color "white_octa" -}}
+    {{partial .path (dict "moduleinfo" . "color" $white_octa)}}
+  {{- else if eq .color "nothing" -}}
+    {{partial .path (dict "moduleinfo" . "color" $black)}}
+  {{- else -}}
+    <p style="text-align:center">{{.color}} is not a valid color for module with path: {{.path}}</p>
+  {{- end -}}
+  {{- if ne .segmentif nil -}}
+    {{- if (gt (len .segmentif) 0) -}}
+      {{ "<%/InsertIf%>" | safeHTML }}
+    {{- end -}}
+  {{- end -}}
+  {{- if ne .segmentelseif nil -}}
+    {{- if (gt (len .segmentelseif) 0) -}}
+      {{ "<%/InsertElse%>" | safeHTML }}
+    {{- end -}}
+  {{- end -}}
+  {{- if ne .segmentelse nil -}}
+    {{- if (gt (len .segmentelse) 0) -}}
+      {{ "<%/InsertElse%>" | safeHTML }}
+    {{- end -}}
+  {{- end -}}
+{{"<!--" | safeHTML}}{{ .path }} {{"ends-->" | safeHTML}}
+{{- end -}}
+{{ partial "email_modules/footer" . }}

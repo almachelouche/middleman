@@ -1,0 +1,144 @@
++++
+markets = ["th"]
+title = '''TH Enews 002 4 years plus'''
+
+
+[[module]]
+path='email_modules/preheader'
+color='''white'''
+
+preheader = '''ฟอร์ด เรนเจอร์ 6 รุ่นใหม่ และ เอเวอเรสต์ 2.2L ไททาเนียม พลัส พร้อมให้คุณสัมผัสแล้ว'''
+
+[[module]] #Header eNews
+path='email_modules/header/enews'
+color='black'
+
+  title = '''Insider'''
+  date = '''<span style="font-family:Tahoma, Verdana, Sans-serif">21 ตุลาคม 2016</span>'''
+  copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">เรื่องน่าสนใจวันนี้：</span><br />
+  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">โลกอนาคตอยู่ใกล้แค่เอื้อม |</span> 
+  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">5แนวคิดหลัก</span><span style="font-family:Tahoma, Verdana, Sans-serif;">ของ</span><span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">แผนการสัญจรอัจฉริยะจากฟอร์ด |</span>
+  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">สร้างมาเพื่อเป็นที่หนึ่ง</span>
+  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">| เกิดมาแกร่ง</span>
+  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">| อัพเดทใหม่จาก SYNC&trade;</span>'''
+
+[[module]] #Header Logo
+path='email_modules/header/logodesktop'
+color='black'
+
+  image = '''black'''
+  url_link = '''https://www.ford.co.th/'''
+ 
+[[module]] # eNews Top Story
+path='email_modules/custom/enews_topstory'
+color='black'
+
+  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">โลกอนาคตอยู่ใกล้แค่เอื้อม</span>'''
+  copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">อีกไม่นานพาหนะจากฟอร์ด</span>
+    <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">จะสามารถขับเคลื่อนได้ด้วยตัวเอง</span>
+    <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">สามารถจอด</span> 
+    <span style="font-family:Tahoma, Verdana, Sans-serif;">หรือ</span> 
+    <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">มุ่งหน้าสู่จุดหมายโดยไร้คนขับได้</span>
+    <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">ค้นพบเทคโนโลยีแห่งโลกอนาคต</span><span style="font-family:Tahoma, Verdana, Sans-serif;">ได้</span><span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">แล้ววันนี้</span>'''
+  cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกดูวิดีโอ</span>'''
+  cta1_url = '''https://www.facebook.com/FordThailand/videos/1041660529221549/'''
+  cta1_link_name = '''future_of_mobility'''
+  cta1_icon = '''play'''
+
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+
+  image = '''th_edm6_tomorrow_20160920'''
+  url_link = '''https://www.facebook.com/FordThailand/videos/1041660529221549/'''
+
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
+[[module]] #Split 02
+path='email_modules/split/02'
+color='lightblue'
+
+  title = '''Ford Smart Mobility'''
+  copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">เทคโนโลยีทางด้านการขับ</span><span style="font-family:Tahoma, Verdana, Sans-serif;">เคลื่อน</span>
+  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;"> อัจฉริยะของฟอร์ด</span> 
+  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">ด้วยวิสัยทัศน์และ</span>  
+  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">5 แนวคิดหลัก</span><span style="font-family:Tahoma, Verdana, Sans-serif;">สู่</span><span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">โลกอนาคต</span> <span style="font-family:Tahoma, Verdana, Sans-serif;">จาก</span><span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">ฟอร์ด</span>
+  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">จะเปลี่ยนฟอร์ดไปสู่องค์กร</span><span style="font-family:Tahoma, Verdana, Sans-serif;">แห่ง</span><br />
+  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">เทคโนโลยีทางด้านพาหนะ</span> <span style="font-family:Tahoma, Verdana, Sans-serif;">และ</span><span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">ขับเคลื่อนอัจฉริยะ</span>'''
+  cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">อ่านเพิ่มเติม</span>'''
+  cta1_url = '''http://digitalsnippets.ford.com/2016/06/the-five-pillars-of-ford-smart-mobility/'''
+  cta1_link_name = '''smart_mobility'''
+  cta1_icon = '''more'''
+  image = '''th_edm6_smartmobility_20160920'''
+
+[[module]] #Split 01
+path='email_modules/split/01'
+color='green'
+
+  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">สร้างมาเพื่อเป็นหนึ่ง</span>'''
+  copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">ฟอร์ด เอเวอเรสต์ ใหม่</span>
+  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">2.2L ไททาเนียม พลัส</span>
+  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">พร้อมให้คุณสัมผัสแล้ววันนี้</span>'''
+  cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกดูวิดีโอ</span>'''
+  cta1_url = '''https://www.youtube.com/watch?v=HgSaJOQg0jI'''
+  cta1_link_name = '''extraordinary_everest'''
+  cta1_icon = '''play'''
+  image = '''th_edm6_extraordinaryeverest_20160920'''
+
+[[module]] #Split 02
+path='email_modules/split/02'
+color='darkblue'
+
+  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">เกิดมาแกร่ง</span>'''
+  copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">สัมผัสสมรรถนะ</span>
+  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">เทคโนโลยีอัจฉริยะ</span>
+  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">และความสมบุกสมบันของ</span> 
+  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">ฟอร์ด เรนเจอร์</span>
+  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">ที่มาพร้อมบททดสอบสนามจริง</span>
+  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">แบบที่ไม่มีใครเคยสัมผัสมาก่อน</span>'''
+  cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกดูวิดีโอ</span>'''
+  cta1_url = '''http://www.ford.co.th/trucks/ranger/sot2/'''
+  cta1_link_name = '''ranger_sot'''
+  cta1_icon = '''play'''
+  image = '''th_edm6_sot_20161013'''
+
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
+[[module]]
+path='email_modules/cover/02'
+
+color='''slatescreen'''
+icon='''th_edm1_sync_20160801'''
+title='''<span style="font-family:Tahoma, Verdana, Sans-serif">อัพเดทซอฟต์แวร์ SYNC&trade;</span>'''
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">ติดตั้ง SYNC&trade; เวอร์ชันล่าสุดได้ง่ายๆ</span>
+          <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">เพียงคลิกปุ่มด้านล่างเพื่อทำการดาวน์โหลด</span>
+          <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">โปรแกรมอัพเดทผ่านทางหน้าเว็บ</span>
+          <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">Owner Portal</span> 
+          <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">หรือคุณสามารถนำรถฟอร์ดของคุณ</span><span style="font-family:Tahoma, Verdana, Sans-serif;">ให้</span><br />
+          <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">ตัวแทนจำหน่ายฟอร์ด<sup>1</sup>ติดตั้งอัพเดทให้</span>
+          <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">หรือติดต่อศูนย์ลูกค้าสัมพันธ์</span><br />
+          <span style="font-family:Tahoma, Verdana, Sans-serif;">เพื่อ</span><span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">สอบถามเพิ่มเติมได้ตลอดเวลา</span>'''
+cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิก ดาวน์โหลดโปรแกรมอัพเดท</span>'''
+cta1_url='''https://www.ford.co.th/owner/login'''
+cta1_link_name = '''sync_update'''
+
+[[module]] #TH Social
+path='email_modules/footer/th/social'
+color='white'
+
+[[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
+color='white'
+
+  text='''<span style="font-family:Tahoma, Verdana, Sans-serif">หมายเหตุ : <br /><br />[1] การอัพเดท SYNC&trade; ที่ตัวแทนจำหน่ายฟอร์ดอาจมีค่าใช้จ่าย</span>'''
+
+[[module]] #TH Online
+path='email_modules/footer/th/online'
+color='white'
+
+
++++

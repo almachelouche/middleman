@@ -1,0 +1,7 @@
+baseurl = "http://thebluehive.herokuapp.com/"
+languageCode = "en-us"
+title = "TheBlueHive"
+uglyurls = true
+[taxonomies]
+market = "markets"
+moduletype = "moduletypes"

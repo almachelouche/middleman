@@ -1,0 +1,58 @@
+<table align="center" class="resize_table_to_320" width="640" bgcolor="{{.color.backgroundcolor}}" border="0" cellspacing="0" cellpadding="0" style="max-width: 640px;">
+  <tr>
+    <td style="padding:30px; padding-top:0px; padding-left:15px;padding-right:15px" border="1" >
+      <table width="100%" cellpadding="0" border="0">
+          <tr>
+            <td >
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td align="center" class="drop" valign="top">
+                    <table border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td align="center" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; font-family: 'Arial','Helvetica','Sans-Serif';">
+                          {{ .moduleinfo.cta1_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.cta1_link_name }}" target="_blank" title="" style="color:{{.color.ctaicontext}}; text-decoration:none;">{{ .moduleinfo.cta1_text | safeHTML }}</a>
+                        </td>
+                        <td align="center" valign="top" style="padding-left:10px;">
+                          {{ .moduleinfo.cta1_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.cta1_link_name }}" target="_blank" title="" style="color:#FFFFFF; text-decoration:none;"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{ .moduleinfo.cta1_icon }}_{{.color.ctaicon}}.gif" width="20" height="20"  border="0" style="display:block;"/></a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td class="drop unit" style="padding-top:20px"  width="5"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
+                  <td align="center" class="drop" valign="top">
+                    <table border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td align="center" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; font-family: 'Arial','Helvetica','Sans-Serif';">
+                          {{ .moduleinfo.cta2_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.cta2_link_name }}" target="_blank" title="" style="color:{{.color.ctaicontext}}; text-decoration:none;">{{ .moduleinfo.cta2_text | safeHTML }}</a>
+                        </td>
+                        <td align="center" valign="top" style="padding-left:10px;">
+                          {{ .moduleinfo.cta2_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.cta2_link_name }}" target="_blank" title="" style="color:#FFFFFF; text-decoration:none;"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{ .moduleinfo.cta1_icon }}_{{.color.ctaicon}}.gif" width="20" height="20"  border="0" style="display:block;"/></a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td class="drop unit" style="padding-top:20px"  width="5"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
+                  <td align="center" class="drop" valign="top">
+                    <table align="center" border="0" cellspacing="0" cellpadding="0" style="table-layout: fixed;">
+                      <tr>
+                      <table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td align="center" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; font-family: 'Arial','Helvetica','Sans-Serif';">
+                            {{ .moduleinfo.cta3_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.cta3_link_name }}" target="_blank" title="" style="color:{{.color.ctaicontext}}; text-decoration:none;">{{ .moduleinfo.cta3_text | safeHTML }}</a>
+                          </td>
+                          <td align="center" valign="top" style="padding-left:10px;">
+                            {{ .moduleinfo.cta3_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.cta3_link_name }}" target="_blank" title="" style="color:#FFFFFF; text-decoration:none;"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{ .moduleinfo.cta1_icon }}_{{.color.ctaicon}}.gif" width="20" height="20"  border="0" style="display:block;"/></a>
+                          </td>
+                        </tr>
+                      </table>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+      </table>
+    </td>
+  </tr>
+</table>

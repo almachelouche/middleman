@@ -1,0 +1,15 @@
+<!-- image/banner Starts-->
+<table align="center" class="resize_table_to_320" width="640" border="0" cellspacing="0" cellpadding="0" style="max-width: 640px;" bgcolor="{{.color.backgroundcolor}}">
+    <tr>
+        <td align="left" valign="top">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td align="left" valign="top">
+                        {{ .moduleinfo.url_link | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.url_link_name }}" target="_blank" title=""><img class="img_R" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/covers/{{ .moduleinfo.image }}_desktop.jpg"alt="Image Banner" title="Image Banner" border="0" style="display:block;" /></a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<!-- image/banner Ends-->

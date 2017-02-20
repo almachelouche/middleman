@@ -1,0 +1,53 @@
+<!-- Promotion1 --> 
+<table align="center" class="resize_table_to_320" width="640" border="0" cellspacing="0" cellpadding="0" style="max-width: 640px;" bgcolor="{{.color.backgroundcolor}}">
+    <tr>
+		<td bgcolor="#FFFFFF" valign="top">
+        
+        {{ "<!--[if (gte mso 9)|(IE)]>" | safeHTML }}
+<table width="300" align="left" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td>
+        {{ "<![endif]-->    " | safeHTML }}    
+            <table class="col315" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" align="left">
+               <tr>
+                    <td width="50%" valign="top" align="center" style="font-family:Arial, Verdana, Sans-serif " height="70">
+                    	{{ .moduleinfo.image1_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.url1_link_name }}" target="_blank" title=""> <img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/block/{{.moduleinfo.image1}}.jpg" alt="{{ .moduleinfo.url1_link_name }}" width="160" /></a>
+                 	</td>
+                    <td width="50%" valign="top" align="center" style="font-family:Arial, Verdana, Sans-serif ">
+                    	{{ .moduleinfo.image2_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.url2_link_name }}" target="_blank" title=""> <img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/block/{{.moduleinfo.image2}}.jpg" alt="{{ .moduleinfo.url2_link_name }}" width="160" /></a>
+                 	</td>
+            	</tr>
+            </table>
+             {{ "<!--[if (gte mso 9)|(IE)]>" | safeHTML }}  
+        </td>
+    </tr>
+</table>
+{{ "<![endif]-->" | safeHTML }}      
+
+{{ "<!--[if mso]>" | safeHTML }}  
+   </td><td>
+{{ "<![endif]-->" | safeHTML }}  
+{{ "<!--[if (gte mso 9)|(IE)]>" | safeHTML }}  
+<table width="300" align="left" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td>
+        {{ "<![endif]--> " | safeHTML }}  
+             <table class="col315"  border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" align="left">
+               <tr>
+                    <td width="50%" valign="top" align="center" style="font-family:Arial, Verdana, Sans-serif " height="70">
+                    	{{ .moduleinfo.image3_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.url3_link_name }}" target="_blank" title=""> <img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/block/{{.moduleinfo.image3}}.jpg" alt="{{ .moduleinfo.url3_link_name }}" width="160" /></a>
+                 	</td>
+                    <td width="50%"  valign="top" align="center" style="font-family:Arial, Verdana, Sans-serif ">
+                    	{{ .moduleinfo.image4_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.url4_link_name }}" target="_blank" title=""> <img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/block/{{.moduleinfo.image4}}.jpg" alt="{{ .moduleinfo.url4_link_name }}" width="160" /></a>
+                 	</td>
+            	</tr>
+            </table>
+     {{ "<!--[if (gte mso 9)|(IE)]>" | safeHTML }}  
+        </td>
+    </tr>
+</table>
+{{ "<![endif]-->  " | safeHTML }}       
+{{ "<![endif]-->  " | safeHTML }}       
+        </td>
+	</tr>
+</table>
