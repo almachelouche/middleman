@@ -13,7 +13,7 @@ path='email_modules/header/enews'
 color='black'
 
   title = '''Insider'''
-  date = '''December 2016 DREAM'''
+  date = '''December 2016'''
   copy = '''IN THIS ISSUE:<br />5 fuel saving tips | Avoiding bill shock |<br />We froze a Ford | Ford Owners App'''
 
 [[module]] #Header Logo
@@ -27,7 +27,7 @@ color='black'
 path='email_modules/custom/enews_topstory'
 color='black'
 
-  title = '''5 ways to save fuel'''
+  title = '''5 ways to save fuel today!'''
   copy = '''A fuel-efficient engine is your first step to saving money at the pump. But the way you drive can also help with efficiency. Reduce your petrol station visits with these 5 easy tips.'''
   cta1_text = '''WATCH NOW'''
   cta1_url = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10155463691983747/?type=2&theater/'''
