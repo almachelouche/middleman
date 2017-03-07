@@ -8,7 +8,6 @@ pipelines:
             - apt-get -y install git
             - wget https://github.com/spf13/hugo/releases/download/v0.18/hugo_0.18-64bit.deb
             - dpkg -i hugo*.deb
-            - git clone https://github.com/eliasson/liquorice themes/liquorice
-            - hugo --theme=liquorice --baseURL https://__baseurl__ --buildDrafts
+            - hugo --baseURL https://waiting-treatment.aerobatic.io
             - npm install -g aerobatic-cli
             - aero deploy
