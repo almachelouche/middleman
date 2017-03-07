@@ -9,4 +9,4 @@ pipelines:
           - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git master
           - wget https://github.com/spf13/hugo/releases/download/v0.18/hugo_0.18-64bit.deb
           - dpkg -i hugo*.deb
-          - hugo --baseURL https://waiting-treatment.aerobatic.io
+          - hugo --baseURL https://hugogtb.herokuapp.com
