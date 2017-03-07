@@ -13,7 +13,7 @@ path='email_modules/header/enews'
 color='black'
 
   title = '''Insider'''
-  date = '''December 2016'''
+  date = '''December 2016 DREAM'''
   copy = '''IN THIS ISSUE:<br />5 fuel saving tips | Avoiding bill shock |<br />We froze a Ford | Ford Owners App'''
 
 [[module]] #Header Logo
