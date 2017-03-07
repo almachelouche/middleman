@@ -4,7 +4,7 @@ pipelines:
     master:
       - step:
           script:
-					  - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git master
+            - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git master
             - apt-get update -y && apt-get install wget
             - apt-get -y install git
             - wget https://github.com/spf13/hugo/releases/download/v0.18/hugo_0.18-64bit.deb
