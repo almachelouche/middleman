@@ -6,7 +6,7 @@ title = '''PH Anniversary 002 All New Everest'''
 path='email_modules/preheader'
 color='''white'''
 
-preheader = '''Can you believe it's been 12 months since you drove away in your new Ford Everest? We couldn't let this special date pass without saying thank you, once again, for choosing Ford.'
+preheader = '''Can you believe it's been 12 months since you drove away in your new Ford Everest? We couldn't let this special date pass without saying thank you, once again, for choosing Ford.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
