@@ -77,11 +77,6 @@ color='white'
 
   copy = '''VIN No: <% ${user.CustomAttribute['VIN']}%><br />Last reported service date: <%${user.CustomAttribute['Last_Reported_Service_Date']}%><br />Last reported mileage (Kms): <% ${user.CustomAttribute['Mileage']}%>'''
 
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -157,6 +152,19 @@ color='white'
   icon4_image='''in_edm2_summer_camp_5yr_20170316'''
   icon4_text = '''10%*off on all<br />Ford approved<br />Value Added Services'''
 
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
+path='email_modules/singles/ctablock'
+color='''white'''
+	
+	cta1_text = '''BOOK A SERVICE'''
+	cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
+	cta1_link_name = '''book_service'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''

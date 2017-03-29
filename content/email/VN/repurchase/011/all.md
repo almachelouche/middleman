@@ -64,7 +64,7 @@ color='fordblue'
   
 [[module]] #Split 02
 path='email_modules/split/02'
-color='green'
+color='black'
 
   title = '''Brake with confidence'''
   copy = '''When it’s time for a brake change, you can rely on Motorcraft brake parts. Recommended by Ford, Motocraft parts deliver excellent value without sacrificing quality.'''
