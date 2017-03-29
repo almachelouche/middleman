@@ -7,7 +7,7 @@ title = '''Test1'''
 path='email_modules/image/banner'
 color='white'
 
-  image = '''alexingrass''
+  image = '''alexingrass'''
   url_link = '''http://www.googl12e.com'''
 	
 [[module]]
