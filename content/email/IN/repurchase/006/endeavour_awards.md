@@ -153,15 +153,15 @@ color='white'
   icon5_image='''in_rsa_no_20160615'''
   icon5_link_name = ''''''
 
+[[module]] #Footer IN Social
+path='email_modules/footer/in/social'
+color='white'
+
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
 
-  text = '''*Terms and conditions apply. Images are for visual representation only. Accessories may not be a part of standard equipment. Features may differ by variants. Colors are indicative only and may vary in actual. Always consult an authorized Ford dealer for the latest information with respect to accessories, features, specification, prices, optional equipment and availability before deciding to place an order. Operating DVD player and Navigation System while driving can distract your attention and is prohibited by laws. Ford does not recommend playing DVD player and change navigation settings while driving. Stop the vehicle in a safe and legal manner before attempting these operations. If the speed of the vehicle exceeds 8 km/hr the video will not play. Navigation destination function will not work while the vehicle is running. Please contact Ford dealership or Ford customer relationship center for further details.'''
-
-[[module]] #Footer IN Social
-path='email_modules/footer/in/social'
-color='white'
+  text = '''*As per awards given by leading Indian auto magazines and television networks in the year 2016-17. The model shown in the letter/mailer is the Titanium 3.2L Diesel variant. Colors are indicative only. Features and specifications may vary from model to model. Features mentioned and Accessories shown may not be part of standard fitment. Before placing, an order and booking the vehicle always consult a Ford authorized dealer for the latest information with respect to features, specifications, price, optional equipment and availability of the vehicle. Ford India Private Limited ("Ford") reserves the right, subject to all applicable laws, at any time, at its discretion, and without notice, to discontinue or change the features, designs, materials, colors and other specifications and the prices of its products. You can reach us on 1800-419-9000 for any product information or reach our Customer Care on 1800-425-2500. visit: <a href="www.india.ford.com/suvs/endeavour" style="text-decoration:underline; color:#2D96CD;" >https://www.india.ford.com/suvs/endeavour/</a> '''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
