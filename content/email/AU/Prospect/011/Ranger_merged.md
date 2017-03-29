@@ -63,7 +63,7 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
     title='''Stick with the winners.'''
     copy=''''''
     cta1_text='''BOOK A TEST DRIVE'''
-    cta1_url='''https://www.ford.com.au/test-drive/'''
+    cta1_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
 		cta1_link_name = '''test1'''
     cta2_text='''LATEST OFFER'''
     cta2_url='''https://www.ford.com.au/latest-offers/national?offer=ranger-4x4-xlt-double-pick-up-3-2-diesel'''
@@ -80,7 +80,7 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
     cta1_url='''https://www.ford.com.au/latest-offers/national?offer=ranger-4x4-xlt-double-pick-up-3-2-diesel'''
 		cta1_link_name = '''latestoffer1'''
     cta2_text='''BOOK A TEST DRIVE'''
-    cta2_url='''https://www.ford.com.au/test-drive/'''
+    cta2_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
   	cta2_link_name = '''test1'''
 
 [[module]] #Cover 11
@@ -88,14 +88,14 @@ path='email_modules/cover/03'
 color='''slatescreen'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
-  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Plenty of trucks can boast brute strength. But it's the technology behind the muscle that makes the Ford Ranger a real hero. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Ranger 4x4 XLT Double Cab Pick Up 3.2L Diesel is available at $56,490* Driveaway.</span>'''
+  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Plenty of trucks can boast brute strength. But it's the technology behind the muscle that makes the Ford Ranger a real hero. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Ranger 4x4 XLT Double Cab Pick Up 3.2L Diesel is available at $55,490* Driveaway.</span>'''
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />The Ford Ranger has been tested to the limits to give you a truck that's in its element wherever you are. So when the going gets tough, the tough can get going.<br /><br /><span style="color:#FFFFFF">Right now, the Ford Ranger 4x4 XLT Double Cab Pick Up 3.2L Diesel is available at $56,490* Driveaway.</span>'''
+  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />The Ford Ranger has been tested to the limits to give you a truck that's in its element wherever you are. So when the going gets tough, the tough can get going.<br /><br /><span style="color:#FFFFFF">Right now, the Ford Ranger 4x4 XLT Double Cab Pick Up 3.2L Diesel is available at $55,490* Driveaway.</span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -190,7 +190,7 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
   title='''Ranger Accessories'''
   copy='''<a href="https://www.ford.com.au/commercial/ranger/smart-accessories/" name="accessories" style="text-decoration:underline; color:#2d96cd">Ford Genuine Accessories</a> are designed to fit perfectly and integrate seamlessly with Ranger's safety systems. So whether you need a soft tonneau cover to protect your cargo or a towpack for your weekend adventure, check out our range of extras that will help take your Ranger to the next level.<br /><br />So don't wait. Book a test drive to experience the Ford Ranger 4x4 XLT Double Cab Pick Up 3.2L Diesel today.'''
   cta1_text='''BOOK A TEST DRIVE'''
-  cta1_url='''https://www.ford.com.au/test-drive/'''
+  cta1_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
   cta1_link_name = '''test2'''
 
 [[module]]
@@ -251,7 +251,7 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
         2. Achieved when maintaining a steady speed of not more than 7km per hour.<br /><br />
         3. Buetooth® is a registered trademark of Bluetooth SIG Inc., and is used under licence. Some phones not compatible.<br /><br />
         4. Available at participating Ford Dealers on vehicles built from 2007. Customers will pay equal to or less than the maximum price as published by Ford for the period of the web quote for standard items in the A and B logbook services. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms1"  style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
-        5. Private and Blue Business Fleet customers who have not reached 105,000km/7 years only at participating Dealers. State Auto Club Roadside Assistance & Membership is provided at no cost for 12 months or until your next eligible standard service (whichever occurs first). Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
+        5. Private and Blue Business Fleet customers who have not reached 105,000km/7 years only at participating Dealers. State Auto Club Roadside Assistance & Membership is included for 12 months or until your next eligible standard service (whichever occurs first). Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
         6. Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="http://www.ford.com.au/owners/service/t-and-c/" name="terms2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
 
 

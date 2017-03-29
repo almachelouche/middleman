@@ -1,7 +1,6 @@
 +++
 markets = ["th"]
 title = '''TH Lost Customer & PMS Missed 010 All'''
-draft = true
 
 [[module]]
 path='email_modules/preheader'
@@ -19,8 +18,8 @@ color='white'
 [[module]]
 path='email_modules/cover/02'
 
-color='''fordblue'''
-icon='''th_edm2e_svcwrench_20160801'''
+color='''white'''
+icon='''th_edm2_svc_wrench_20170306'''
 title='''Your Ford may need attention'''
 copy='''Hi <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />We noticed that your Ford hasn’t been fully serviced lately. To stay safe on the road, it’s important that you follow your service plan and replace worn-out parts as soon as possible.<br /><br />Replacing old parts – like oil filters – helps prolong the life of your Ford.<br /><br />Ensure the road ahead is smooth and worry-free. Visit a Ford dealer for service and maintenance soon.<br /><br />It's important to book your service today. Just click below to contact <%${user.CustomAttribute['Dealer_Name']}%> (during business hours) or to find your nearest dealer.'''
 

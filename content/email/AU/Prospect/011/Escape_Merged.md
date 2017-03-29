@@ -63,7 +63,7 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
     title='''Smart Meets Style.'''
     copy=''''''
     cta1_text='''BOOK A TEST DRIVE'''
-    cta1_url='''https://www.ford.com.au/test-drive/'''
+    cta1_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
     cta1_link_name = '''latestoffer1'''
     cta2_text='''LATEST OFFER'''
     cta2_url='''http://www.ford.com.au/latest-offers/national?offer=escape-ambiente-fwd-mt'''
@@ -80,7 +80,7 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
     cta1_url='''http://www.ford.com.au/latest-offers/national?offer=escape-ambiente-fwd-mt'''
 		cta1_link_name = '''latestoffer1'''
     cta2_text='''BOOK A TEST DRIVE'''
-    cta2_url='''https://www.ford.com.au/test-drive/'''
+    cta2_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
 		cta2_link_name = '''test1'''
 
 [[module]] #Cover 11
@@ -88,14 +88,14 @@ path='email_modules/cover/03'
 color='''slatescreen'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
-  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />The moment you get behind the wheel of a New Ford Escape, you'll be amazed at its seamless combination of power and technology.</span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">Right now, the New Ford Escape Ambiente Petrol FWD Manual is available at $30,990* Driveaway.</span>'''
+  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />The moment you get behind the wheel of a New Ford Escape, you'll be amazed at its seamless combination of power and technology.</span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">Right now, the New Ford Escape Ambiente Petrol FWD Manual is available at $30,490* Driveaway.</span>'''
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />The New Ford Escape isn't just technology for technology's sake. Every feature has been engineered with one solid purpose in mind: to make life easier for you. </span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">Right now, the New Ford Escape Ambiente Petrol FWD Manual is available at $30,990* Driveaway.</span>'''
+  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />The New Ford Escape isn't just technology for technology's sake. Every feature has been engineered with one solid purpose in mind: to make life easier for you. </span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">Right now, the New Ford Escape Ambiente Petrol FWD Manual is available at $30,490* Driveaway.</span>'''
 
 [[module]] #Banner Image
 path = '''email_modules/image/banner_nolink'''
@@ -160,7 +160,7 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 	After all, that's what service should be.<br /><br />
 	So don't wait. Book a test drive to experience the New Ford Escape Ambiente Petrol FWD Manual today.'''
   cta1_text='''BOOK A TEST DRIVE'''
-  cta1_url='''https://www.ford.com.au/test-drive/'''
+  cta1_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
   cta1_link_name = '''moreinfo2'''
 
 [[module]] #Cover 02
@@ -188,10 +188,10 @@ path='email_modules/footer/disclaimer'
 color='white'
 
   text = '''Terms & Conditions<br /> <br />
-	* Limited offers available on 2016 plate models at participating Dealers while stocks last. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. See <a href="https://www.ford.com.au/" style="text-decoration:underline; color:#91a4b1">ford.com.au</a> for full details.<br /><br />
+	* Limited offer available at participating Dealers while stocks last. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. See <a href="https://www.ford.com.au/latest-offers/" name="latest_offer2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/latest-offers</a> for full details.<br /><br />
 	1. For SYNC® compatibility visit <a href="https://www.ford.com.au/technology/sync/" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/technology/sync</a>.<br /><br />
 	2. Available at participating Ford Dealers on vehicles built from 2007. Customers will pay equal to or less than the maximum price as published by Ford for the period of the web quote for standard items in the A and B logbook service together with selected routine maintenance items. See <a href="https://www.ford.com.au/owners/service/t-and-c/" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
-	3. Available to Private and Blue Business Fleet customers who have not reached 105,000km/7 years only at participating Dealers. State Auto Club Roadside Assistance & Membership is provided at no cost for 12 months or until your next eligible standard service (whichever occurs first). Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
+	3. Available to Private and Blue Business Fleet customers who have not reached 105,000km/7 years only at participating Dealers. State Auto Club Roadside Assistance & Membership is included for 12 months or until your next eligible standard service (whichever occurs first). Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
 	4. Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
 
 [[module]] #Footer AU Online

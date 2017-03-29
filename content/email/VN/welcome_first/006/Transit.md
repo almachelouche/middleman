@@ -1,6 +1,7 @@
 +++
 markets = ["vn"]
 title = '''VN Welcome First 006 Transit'''
+draft = true
 
 [[module]]
 path='email_modules/preheader'
@@ -78,6 +79,17 @@ color='fordblue'
   cta1_link_name = '''genuine_parts'''
   cta1_icon = '''more'''
   image = '''vn_edm1a_be100ford_20160801'''
+
+[[module]] #Cover 05
+path='email_modules/cover/02'
+color='''white'''
+
+  title = '''Kỹ năng lái xe an toàn và tiết kiệm nhiên liệu'''
+  copy = '''Hãy xem và tải Cẩm nang "Kỹ năng lái xe an toàn và tiết kiệm nhiên liệu" của Ford: từ kỹ năng lái xe trong điều kiện thời tiết xấu đến cách sử dụng công nghệ tiên tiến trên xe.'''
+  cta1_text = '''TÌM HIỂU THÊM'''
+  cta1_url = '''https://www.ford.com.vn/content/dam/Ford/website-assets/ap/vn/home/VN-Driving-Tips-Booklet.pdf'''
+  cta1_link_name = '''driving_skills'''
+  icon = '''vn_edm1a_drivingskill_20160801'''
 
 [[module]] #VN Social
 path='email_modules/footer/vn/social'

@@ -13,8 +13,8 @@ path='email_modules/header/enews'
 color='black'
 
   title = '''Insider'''
-  date = '''February 2017'''
-  copy = '''IN THIS ISSUE:<br />Ford: Best in 2016 | WATCH: Tyre Rotation | WATCH: EcoBoost'''
+  date = '''March 2017'''
+  copy = '''IN THIS ISSUE:<br />Ford: Best in 2016 | Adaptive Cruise Control | WATCH: EcoBoost'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -64,7 +64,7 @@ color='green'
   cta1_url = '''https://www.facebook.com/FordAustralia/videos/10155522166488747/'''
   cta1_link_name = '''fuel1'''
   cta1_icon = '''play'''
-  image = '''AU_edm6_ecoboost_20170110'''
+  image = '''AU_edm6_ecoboost_20170220'''
 
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'

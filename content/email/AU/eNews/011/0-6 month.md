@@ -13,7 +13,7 @@ path='email_modules/header/enews'
 color='black'
 
   title = '''Insider'''
-  date = '''February 2017'''
+  date = '''March 2017'''
   copy = '''IN THIS ISSUE:<br />Ford: Best in 2016 | WATCH: Tyre Rotation | SYNC 3 tips | Ford Owners App'''
 
 [[module]] #Header Logo
@@ -51,7 +51,7 @@ title = '''Make your tyres last'''
   cta1_url = '''https://youtu.be/me8D8UhsT6s'''
   cta1_link_name = '''tyre1'''
   cta1_icon = '''play'''
-  image = '''AU_edm6_tyre_20170110'''
+  image = '''AU_edm6_tyre_20170220'''
   
 
   [[module]] #Split 02
@@ -61,13 +61,13 @@ color='darkblue'
   title = '''Get more from SYNC<sup>®</sup>3'''
   copy = '''Did you know SYNC<sup>®</sup>3 has “<a href="https://www.youtube.com/watch?v=at7pjuoGkLY" name="sync2" style="text-decoration:underline; color:#FFFFFF">Speed Adaptive Volume Control</a>”? It’s also easy to adjust audio settings and screen brightness. Learn more with our SYNC<sup>®</sup>3 tutorials.'''
   cta1_text = '''SETTINGS OVERVIEW'''
-  cta1_url = '''https://youtu.be/me8D8UhsT6s'''
+  cta1_url = '''https://www.youtube.com/watch?v=gKokGy_tVSg'''
   cta1_link_name = '''overview'''
   cta2_text = '''FEATURES OVERVIEW'''
   cta2_url = '''https://www.youtube.com/watch?v=at7pjuoGkLY'''
   cta2_link_name = '''features'''
   cta1_icon = '''play'''
-  image = '''AU_edm6_sync_20170216'''
+  image = '''AU_edm6_sync_20170220'''
 
 
 [[module]] # Owner App Image Right
@@ -78,7 +78,7 @@ color='black'
   text1 = '''Want more information, tools, and tips right at your fingertips? Try the Ford Owners App.'''
   text2 = '''<br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Streamline service reminders<br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Locate a dealer/service centre<br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;View "how-to" videos<br />'''
   cta1_text = '''iOS'''
-  cta1_url = '''https://itunes.apple.com/in/app/ford-owners/id990342351?mt=8/'''
+  cta1_url = '''https://itunes.apple.com/au/app/ford-owners/id990342351?mt=8'''
   cta1_link_name = '''ios1'''
   cta2_text = '''ANDROID'''
   cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en/'''

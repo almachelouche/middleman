@@ -1,6 +1,8 @@
 +++
 markets = ["th"]
 title = '''TH Repurchase 002 Version B'''
+draft = true
+
 
 [[module]]
 path='email_modules/preheader'

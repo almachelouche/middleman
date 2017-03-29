@@ -1,6 +1,7 @@
 +++
 markets = ["vn"]
 title = '''VN Welcome Repeat 004 Ranger'''
+draft = true
 
 [[module]]
 path='email_modules/preheader'

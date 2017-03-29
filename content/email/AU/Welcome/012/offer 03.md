@@ -81,7 +81,7 @@ color='''white'''
 path = '''email_modules/image/3images'''
 color = '''white'''
 
-  image1 = '''au_svc_icon3'''
+  image1 = '''au_svc_icon_20170327'''
 	image1_url = '''https://www.ford.com.au/owners/service/roadside-assistance/'''
 	image1_link_name = '''icon1'''
   image2 = '''au_svc_icon2'''
@@ -125,7 +125,7 @@ color='white'
 	cta1_text='''Visit Ford Owners Website'''
 	cta1_url='''https://www.ford.com.au/owners/'''
 	cta2_text='''iOS'''
-	cta2_url='''https://itunes.apple.com/in/app/ford-owners/id990342351?mt=8'''
+	cta2_url='''https://itunes.apple.com/au/app/ford-owners/id990342351?mt=8'''
 	cta3_text='''Android'''
 	cta3_url='''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en'''
 	cta1_icon='''more'''
@@ -150,7 +150,7 @@ color='white'
 
   text = '''DISCLAIMERS:	
         <br /> <br />
-        1) Private and Blue Business Fleet customers only at participating Dealers who have not reached 7 years or 105,000 kms. State Auto Club Roadside Assistance & Membership is provided at no cost with the first seven standard services for 12 months or until your next eligible standard service (whichever occurs first). Standard services include all A and B logbook services. Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
+        1) Private and Blue Business Fleet customers only at participating Dealers who have not reached 7 years or 105,000 kms. State Auto Club Roadside Assistance & Membership is included with the first seven standard services for 12 months or until your next eligible standard service (whichever occurs first). Standard services include all A and B logbook services. Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
         2) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/"  name="terms2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
         3) At participating dealers for eligible new vehicles ordered and delivered by 31/03/2017. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. Extended warranty covers 5 years/100,000km from date of registration, whichever occurs first. Conditions apply. See <a href="https://www.ford.com.au/"  name="ford1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au</a>.'''
        

@@ -38,7 +38,7 @@ color='white'
   icon1 = '''in_edm5_power_20161122'''
   text1 = '''<span style="font-weight:bold">Powerful</span><br />73.8kW (100 PS)'''
   icon2 = '''in_edm5_airbags_20161122'''
-  text2 = '''<span style="font-weight:bold">Safe</span><br />standard airbags'''
+  text2 = '''<span style="font-weight:bold">Safe</span><br />Standard Airbags'''
   icon3 = '''in_edm5_autolamp_20161122'''
   text3 = '''<span style="font-weight:bold">Stylish</span><br />Day Time Running Lamps'''
 
@@ -102,8 +102,8 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-  text = '''*Terms and conditions <br /><br />1. Comparison of diesel variants of Ford Aspire Titanium and Maruti Suzuki Swift Dzire Zdi. Source: Maruti Suzuki company website. Swift Dzire is a registered trademark of Maruti Suzuki India Limited. Service Cost Source: CarDekho website. Prices are ex-showroom Delhi on February 2, 2017.<br /><br />2. Cash discount of &#8377;5,000 + Exchange Bonus is valid only on select variants of Next-Gen Figo.<br /><br />3. Exchange bonus will be &#8377;12,000/- on exchange of Ford Car and &#8377;7,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.<br /><br />4. Interest rate of 8.4%, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.<br /><br />5. Loyalty bonus applicable on Next-Gen Figo to existing Ford owners or their immediate family members (parents, brothers, sisters, spouse and children) in the form of Extended warranty (3rd Year). Extended warranty (3rd Year) for Next-Gen Figo is valid within 100,000 Kms or during 3 years from date of first purchase of car, whichever comes early.<br /><br />6. Offers as shown above is only for 2017 VINs based on inventory available at dealership and may change without any prior notice. For more information, please contact a Ford dealer.'''
-
+  text = '''*Terms and conditions <br /><br />1. Comparison of diesel variants of Ford Aspire Titanium and Maruti Suzuki Swift Dzire Zdi. Source: Maruti Suzuki company website. Swift Dzire is a registered trademark of Maruti Suzuki India Limited. Service Cost Source: CarDekho website. Prices are ex-showroom Delhi on February 2, 2017.<br /><br />2.Cash discount of ₹5,000 + Exchange Bonus is valid only on select variants of Ford Aspire.<br /><br />3. Exchange bonus will be &#8377;25,000/- on exchange of Ford Car and &#8377;18,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.<br /><br />4. Interest rate of 8.4%, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.<br /><br />5. Loyalty bonus applicable on Ford Aspire to existing Ford owners or their immediate family members (parents, brothers, sisters, spouse and children) in the form of Extended warranty (3rd Year). Extended warranty (3rd Year) for Ford Aspire is valid within 100,000 Kms or during 3 years from date of first purchase of car, whichever comes early. <br /><br />6. Offers as shown above is only for 2017 VINs based on inventory available at dealership and may change without any prior notice. For more information, please contact a Ford dealer.'''
+  
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
 color='white'

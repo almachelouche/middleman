@@ -38,7 +38,7 @@ color='white'
   icon1 = '''in_edm5_power_20161122'''
   text1 = '''<span style="font-weight:bold">Powerful</span><br />73.8kW (100 PS)'''
   icon2 = '''in_edm5_airbags_20161122'''
-  text2 = '''<span style="font-weight:bold">Safe</span><br />standard airbags'''
+  text2 = '''<span style="font-weight:bold">Safe</span><br />Standard Airbags'''
   icon3 = '''in_edm5_autolamp_20161122'''
   text3 = '''<span style="font-weight:bold">Stylish</span><br />Day Time Running Lamps'''
 

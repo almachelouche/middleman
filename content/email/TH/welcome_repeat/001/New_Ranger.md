@@ -1,6 +1,7 @@
 +++
 markets = ["th"]
 title = '''TH Welcome Repeat 001 New Ranger'''
+draft = true
 
 [[module]]
 path='email_modules/preheader'

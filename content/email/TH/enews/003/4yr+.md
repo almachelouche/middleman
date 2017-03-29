@@ -1,6 +1,7 @@
 +++
 markets = ["th"]
 title = '''TH Enews 003 Over 4 years THAIKING'''
+draft = true
 
 [[module]]
 path='email_modules/preheader'

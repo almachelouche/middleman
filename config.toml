@@ -1,4 +1,4 @@
-baseurl = "http://hugogtb.herokuapp.com/"
+baseurl = "http://thebluehive.herokuapp.com/"
 languageCode = "en-us"
 title = "TheBlueHive"
 uglyurls = true

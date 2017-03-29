@@ -11,10 +11,10 @@ color='''white'''
 preheader = '''Owning a Ford has never been easier, thanks to the new Owners App by Ford. It's simple, convenient and keeps you connected with Ford, anywhere and anytime.'''
 
 [[module]] #Header Logo
-path='email_modules/header/logo'
-color='white'
+path='email_modules/header/logodesktop'
+color='white_pb'
 
-  image = '''white'''
+  image = '''white_pb'''
   url_link = '''https://www.india.ford.com/'''
 
 [[module]] #Cover 01
