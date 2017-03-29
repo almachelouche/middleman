@@ -19,8 +19,33 @@ color='white'
 path='email_modules/cover/01'
 color='white'
 
-  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">ประหยัดสุดคุ้ม รับเดือนเมษายน</span>'''
-  copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">สวัสดีคุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />ฟอร์ดขอขอบคุณที่เป็นส่วนหนึ่ง ของครอบครัวฟอร์ดมาโดยตลอด หากคุณกำลังพิจารณามองหารถคันใหม่ เราอยากเชิญคุณมาพบกับข้อเสนอสุดพิเศษ เพียงลงทะเบียนทดลองขับที่โชว์รูมฟอร์ด<br /><br />ออกรถฟอร์ด เรนเจอร์ หรือ ฟอร์ด เอเวอร์เรส ภายในวันที่ 29 มีนาคม ถึง วันที่ 30 เมษายน 2560 รับดอกเบี้ยพิเศษ 0% พร้อมฟรีประกันภัยชั้นหนึ่ง<sup>*</sup><br /><br />และฟอร์ดยังมีข้อเสนอสุดพิเศษ สำหรับรถฟอร์ด เอคโคสปอร์ต หากคุณสนใจสามารถติดตามข้อเสนอราคาพิเศษบนเว็บไซต์ของเราได้ทันที</span>'''
+  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+  <span style="white-space:nowrap;">ประหยัดสุดคุ้ม</span>
+  <span style="white-space:nowrap;">รับเดือนเมษายน</span></span>'''
+  copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+  สวัสดีคุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>
+  <br />ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />
+
+  <span style="white-space:nowrap;">ฟอร์ดขอขอบคุณที่เป็นส่วนหนึ่ง</span>
+  <span style="white-space:nowrap;">ของครอบครัวฟอร์ดมาโดยตลอด</span> 
+  <span style="white-space:nowrap;">หากคุณกำลังพิจารณา</span>
+  <span style="white-space:nowrap;">มองหารถคันใหม่</span> 
+  <span style="white-space:nowrap;">เราอยากเชิญคุณมา</span>พบ<span style="white-space:nowrap;">กับข้อเสนอสุดพิเศษ</span> 
+  <span style="white-space:nowrap;">เพียงลงทะเบียนทดลองขับ</span>ที่<span style="white-space:nowrap;">โชว์รูมฟอร์ด</span><br /><br />
+  <span style="white-space:nowrap;">ออกรถฟอร์ด เรนเจอร์</span> 
+  <span style="white-space:nowrap;">หรือ</span> 
+  <span style="white-space:nowrap;">ฟอร์ด เอเวอร์เรส</span> 
+  <span style="white-space:nowrap;">ภายในวันที่ 29 มีนาคม</span>
+  <span style="white-space:nowrap;">ถึง</span> 
+  <span style="white-space:nowrap;">วันที่ 30 เมษายน 2560</span> 
+  <span style="white-space:nowrap;">รับดอกเบี้ยพิเศษ 0%</span> 
+  <span style="white-space:nowrap;">พร้อมฟรีประกันภัยชั้นหนึ่ง<sup>*</sup></span><br /><br />
+  <span style="white-space:nowrap;">และฟอร์ดยังมีข้อเสนอสุดพิเศษ</span>
+  <span style="white-space:nowrap;">สำหรับรถฟอร์ด เอคโคสปอร์ต</span>
+  <span style="white-space:nowrap;">หากคุณสนใจ</span> 
+  <span style="white-space:nowrap;">สามารถติดตามข้อเสนอราคาพิเศษ</span><br />
+  <span style="white-space:nowrap;">บนเว็บไซต์ของเราได้ทันที</span>
+</span>'''
   cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ข้อเสนอพิเศษ</span>'''
   cta1_url = '''https://www.ford.co.th/buying/latest-offers/'''
   cta1_link_name = '''latest_offers'''
@@ -42,7 +67,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
   <span style="white-space:nowrap;">(ยกเว้นฟอร์ด โฟกัส)</span> 
   <span style="white-space:nowrap;">รับส่วนลดเพิ่ม 10,000 บาททันที</span> 
   <span style="white-space:nowrap;">ข้อเสนอสุดพิเศษนี้</span> 
-  <span style="white-space:nowrap;">สำหรับวันที่ 1-31 มีนาคม พ.ศ. 2560</span> 
+  <span style="white-space:nowrap;">สำหรับวันที่ 1 – 30 เมษายน พ.ศ. 2560</span> 
   <span style="white-space:nowrap;">นี้เท่านั้น</span> 
 </span>'''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ดูเพิ่มเติม</span>'''
@@ -85,10 +110,51 @@ path='email_modules/footer/disclaimer'
 color='white'
 text='''<span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style="font-weight:bold">หมายเหตุ</span><br /><br />
-1.สำหรับฟอร์ด เรนเจอร์ รุ่น Wildtrak (ยกเว้นฟอร์ด เรนเจอร์ รุ่นที่มีระบบแผนที่นำทาง) อัตราดอกเบี้ย 0% (งวดที่ 1-24) โดยต้องเช่าซื้อรวม 60 เดือนเท่านั้น และอัตราดอกเบี้ยงวดที่ 25-60 เป็นไปตามที่ธนาคารกำหนด ทั้งนี้อัตราดอกเบี้ยที่ระบุในสัญญาเช่าซื้อตลอด 5 ปี = 3.14% / ฟรีประกันภัยชั้นหนึ่ง มูลค่าประกันภัยต่ำสุดที่ 22,261 บาท จากประกันภัยคุ้มภัย / เมื่อจัดไฟแนนซ์ผ่านฟอร์ด ลีสซิ่ง เท่านั้น
-2.คำนวณจากฟอร์ด เอคโค่ สปอร์ต รุ่น Trend ผ่อนต่อเดือนเพียง 5,999 บาท สำหรับค่างวดเดือนที่ 1-12 และ 9,027 บาท สำหรับ ค่างวดเดือนที่ 13-72  ที่ราคาพิเศษ 699,000 บาท 
-3.สำหรับฟอร์ด เอเวอเรสต์ ทุกรุ่น ยกเว้นรุ่น 2.2 Titanium + (MY17  NAVI) และ 3.2 Titanium + (MY17  NAVI) 
-อัตราดอกเบี้ย 0% (งวดที่ 1-24) โดยต้องเช่าซื้อรวม 60 เดือนเท่านั้น และอัตราดอกเบี้ยงวดที่ 25-60 เป็นไปตามที่ธนาคารกำหนด ทั้งนี้ อัตราดอกเบี้ยที่ระบุในสัญญาเช่าซื้อตลอด 5 ปี = 3.10% / ฟรีประกันภัยชั้นหนึ่ง เฉพาะบริษัทประกันภัยที่เข้าร่วมรายการ และเมื่อจัดไฟแนนซ์ผ่านฟอร์ด ลีสซิ่ง เท่านั้น 
+1.
+<span style=" white-space:nowrap;">สำหรับฟอร์ด เรนเจอร์</span> 
+<span style=" white-space:nowrap;">รุ่น Wildtrak</span>  
+<span style=" white-space:nowrap;">(ยกเว้นฟอร์ด เรนเจอร์</span>  
+<span style=" white-space:nowrap;">รุ่นที่มีระบบแผนที่นำทาง)</span> 
+<span style=" white-space:nowrap;">อัตราดอกเบี้ย 0% (งวดที่ 1-24)</span><br /> 
+<span style=" white-space:nowrap;">โดยต้องเช่าซื้อรวม</span>  
+<span style=" white-space:nowrap;">60 เดือนเท่านั้น</span> 
+<span style=" white-space:nowrap;">และอัตราดอกเบี้ยงวดที่ 25-60</span> 
+<span style=" white-space:nowrap;">เป็นไปตามที่ธนาคารกำหนด</span> 
+<span style=" white-space:nowrap;">ทั้งนี้อัตราดอกเบี้ย</span><br />  
+<span style=" white-space:nowrap;">ที่ระบุในสัญญาเช่าซื้อ</span> 
+<span style=" white-space:nowrap;">ตลอด 5 ปี = 3.14% /</span> 
+<span style=" white-space:nowrap;">ฟรีประกันภัยชั้นหนึ่ง</span>  
+<span style=" white-space:nowrap;">มูลค่าประกันภัยต่ำสุด</span>
+<span style=" white-space:nowrap;">ที่ 22,261 บาท</span>  
+<span style=" white-space:nowrap;">จากประกันภัยคุ้มภัย /</span><br />  
+<span style=" white-space:nowrap;">เมื่อจัดไฟแนนซ์ผ่านฟอร์ด ลีสซิ่ง</span>  
+<span style=" white-space:nowrap;">เท่า1นั้น</span> 
+<br />
+<span style=" white-space:nowrap;">2.คำนวณจากฟอร์ด เอคโค่ สปอร์ต</span>  
+<span style=" white-space:nowrap;">รุ่น Trend</span>  
+<span style=" white-space:nowrap;">ผ่อนต่อเดือนเพียง 5,999 บาท</span>  
+<span style=" white-space:nowrap;">สำหรับค่างวดเดือนที่ 1-12</span>  
+<span style=" white-space:nowrap;">และ 9,027 บาท</span>  
+<span style=" white-space:nowrap;">สำหรับ ค่างวดเดือนที่ 13-72</span>   
+<span style=" white-space:nowrap;">ที่ราคาพิเศษ 699,000 บาท </span> 
+<br />
+<span style=" white-space:nowrap;">3.สำหรับฟอร์ด เอเวอเรสต์</span> 
+<span style=" white-space:nowrap;">ทุกรุ่น</span>  
+<span style=" white-space:nowrap;">ยกเว้นรุ่น 2.2 Titanium + (MY17  NAVI)</span>  
+<span style=" white-space:nowrap;">และ 3.2 Titanium + (MY17  NAVI)</span> <br /> 
+<span style=" white-space:nowrap;">อัตราดอกเบี้ย 0%</span>  
+<span style=" white-space:nowrap;">(งวดที่ 1-24)</span>  
+<span style=" white-space:nowrap;">โดยต้องเช่าซื้อรวม</span>  
+<span style=" white-space:nowrap;">60 เดือนเท่านั้น</span>  
+<span style=" white-space:nowrap;">และอัตราดอกเบี้ยงวดที่ 25-60</span>  
+<span style=" white-space:nowrap;">เป็นไปตามที่ธนาคารกำหนด</span><br />  
+<span style=" white-space:nowrap;">ทั้งนี้อัตราดอกเบี้ย</span> 
+<span style=" white-space:nowrap;">ที่ระบุในสัญญาเช่าซื้อ</span> 
+<span style=" white-space:nowrap;">ตลอด 5 ปี = 3.10% /</span>  
+<span style=" white-space:nowrap;">ฟรีประกันภัยชั้นหนึ่ง</span><br />  
+<span style=" white-space:nowrap;">เฉพาะบริษัทประกันภัย</span>ที่<span style=" white-space:nowrap;">เข้าร่วมรายการ</span> 
+<span style=" white-space:nowrap;">และเมื่อจัดไฟแนนซ์ผ่านฟอร์ด ลีสซิ่ง </span> 
+<span style=" white-space:nowrap;">เท่านั้น</span> 
 </span>'''
 
 [[module]] #TH Social

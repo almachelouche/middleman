@@ -7,14 +7,14 @@ title = '''Test1'''
 path='email_modules/image/banner'
 color='white'
 
-  image = '''alexingrass''
-  url_link = '''http://www.googl12e.com'''
+  image = '''alexingrass'''
+  url_link = '''http://www.google.com'''
 	
 [[module]]
 path='email_modules/cover/01'
 color='''white'''
 
-	title='''Farewell, Sweet Prince''
+	title='''Farewell, Sweet Prince'''
 	copy='''Join us as we say a heartfelt goodbye to the man who changed GTB forever. A man who proved that guns <span style="font-style: italic;">do</span> belong in the workplace<sup>1</sup>. A leader who taught us that toddlers <span style="font-style: italic;">can</span> look good with cornrows<sup>2</sup>.<br /><br />Alex, you are truly irreplaceable<sup>3</sup>!'''
 
 [[module]] #Split 16

@@ -64,7 +64,7 @@ color='fordblue'
   
 [[module]] #Split 02
 path='email_modules/split/02'
-color='green'
+color='black'
 
   title = '''An toàn với Má phanh Motorcraft'''
   copy = '''Má phanh chính hãng Motorcraft được khuyến nghị bởi Ford toàn cầu cho các dòng xe Ford. Hãy sử dụng má phanh Motorcraft khi xe bạn đến thời hạn thay thế để đảm bảo an toàn cho bạn và những người trên xe.'''
