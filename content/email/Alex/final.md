@@ -8,7 +8,7 @@ path='email_modules/image/banner'
 color='white'
 
   image = '''alexingrass'''
-  url_link = '''http://www.googl12e.com'''
+  url_link = '''http://www.google.com'''
 	
 [[module]]
 path='email_modules/cover/01'
