@@ -86,7 +86,7 @@ path='email_modules/cover/01'
 color='''white_gt'''
 
   title = '''Your Free First Service '''
-  copy = '''Keep your vehicle in top shape with us. Enjoy a free inspection and a car wash - on us - within the first 3 months or 2500 kilometers, whichever comes first. <br /><br />Contact <%${user.CustomAttribute['Dealer_Name']}%> on <a href="tel:<%${user.CustomAttribute['Dealer_Phone']}%>" style="text-decoration:underline; color:#2D96CD;" ><%${user.CustomAttribute['Dealer_Phone']}%></a> for more information.'''
+  copy = '''Keep your vehicle in top shape with us. Enjoy a free inspection and a car wash - on us - within the first 3 months or 2500 kilometers, whichever comes first. <br /><br />Contact <%${user.CustomAttribute['Dealer_Name']}%> on <a href="tel:<%${user.CustomAttribute['Dealer_Phone']}%>" style="text-decoration:underline; color:#2D96CD;" ><%${user.CustomAttribute['Dealer_Phone']}%></a>/<%${user.CustomAttribute['Dealer_Additional_Phone']}%>  for more information.'''
 
 [[module]] #Cover 05
 path='email_modules/cover/02'
