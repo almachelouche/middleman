@@ -19,7 +19,7 @@ color='white'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''vn_edm5_retailcampaign_20170223''' 
+  image = '''vn_edm5_aprretailcampaign_20170330''' 
 
 [[module]]
 path='email_modules/cover/02'
@@ -61,18 +61,6 @@ color='fordblue'
   image = '''vn_edm5_3millionvnd_20160801'''
   
   
-  
-[[module]] #Split 02
-path='email_modules/split/02'
-color='black'
-
-  title = '''An toàn với Má phanh Motorcraft'''
-  copy = '''Má phanh chính hãng Motorcraft được khuyến nghị bởi Ford toàn cầu cho các dòng xe Ford. Hãy sử dụng má phanh Motorcraft khi xe bạn đến thời hạn thay thế để đảm bảo an toàn cho bạn và những người trên xe.'''
-  cta1_text = '''TÌM HIỂU THÊM'''
-  cta1_url = '''https://www.ford.com.vn/owner/service-and-maintenance/genuine-ford-parts/'''
-  cta1_link_name = '''motorcraft_brake'''
-  cta1_icon = '''more'''
-  image = '''vn_edm1a_motorcraft_brake_20170328'''
 
 [[module]] #Cover 05
 path='email_modules/cover/02'
