@@ -19,16 +19,16 @@ color='white'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''vn_edm5_retailcampaign_20170223''' 
+  image = '''vn_edm5_aprretailcampaign_20170330''' 
 
 [[module]]
 path='email_modules/cover/02'
 
 color='''white'''
-title='''Khi Lý trí mách bảo ...'''
+title='''Khi Lý trí quyết định ...'''
 copy='''Xin chào <%${user.CustomAttribute['Title']}%> <%${user['FirstName']}%><br /><br />Cơ hội lái về nhà một em Focus Mới 1.5L AT EcoBoost giá cực sốc chỉ 648 triệu đồng! Fiesta trẻ trung hay EcoSport cá tính cũng là những lựa chọn tuyệt vời, giá từ 536 triệu đồng.<br /><br />Ưu đãi chỉ dành riêng cho tháng 4. Hãy liên hệ ngay với đại lý!'''
 cta1_text='''TÌM HIỂU THÊM'''
-cta1_url='''https://www.ford.com.vn/promotion-corner/2016/hot-deal-1/'''
+cta1_url='''https://www.ford.com.vn/promotion-corner/2017/hot-deal-1/'''
 cta1_link_name = '''retail_campaign'''
 
 
@@ -61,18 +61,6 @@ color='fordblue'
   image = '''vn_edm5_3millionvnd_20160801'''
   
   
-  
-[[module]] #Split 02
-path='email_modules/split/02'
-color='black'
-
-  title = '''Brake with confidence'''
-  copy = '''When it’s time for a brake change, you can rely on Motorcraft brake parts. Recommended by Ford, Motocraft parts deliver excellent value without sacrificing quality.'''
-  cta1_text = '''FIND OUT MORE'''
-  cta1_url = '''https://www.ford.com.vn/owner/service-and-maintenance/genuine-ford-parts/'''
-  cta1_link_name = '''motorcraft_brake'''
-  cta1_icon = '''more'''
-  image = '''vn_edm1a_motorcraft_brake_20170328'''
 
 [[module]] #Cover 05
 path='email_modules/cover/02'
