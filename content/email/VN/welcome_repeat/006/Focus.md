@@ -43,6 +43,16 @@ color='black'
   cta2_link_name = '''oa_android'''
   image = '''vn_edm1a_ownerapp_20160801'''
 
+ [[module]]
+path='email_modules/split/07'
+color='white'
+
+title='''Cho chiếc xe của bạn thêm nổi bật'''
+copy='''Hãy trang bị cho chiếc xe của bạn phụ kiện chính hãng từ Ford. Các phụ kiện của Ford được thiết kế theo tiêu chuẩn chất lượng cao và chuyên biệt, sẵn sàng nâng cấp chiếc xe của bạn lên tầm cao mới.'''
+cta1_text='''XEM CHI TIẾT PHỤ KIỆN'''
+cta1_url='''https://www.ford.com.vn/cars/focus/accessories/'''
+cta1_link_name = '''acc_focus'''
+image='''vn_edm1a_Focus_20170324'''
 
 [[module]] #Split 03
 path='email_modules/split/03'
