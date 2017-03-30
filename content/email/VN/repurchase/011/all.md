@@ -25,7 +25,7 @@ color = '''white'''
 path='email_modules/cover/02'
 
 color='''white'''
-title='''Khi Lý trí mách bảo ...'''
+title='''Khi Lý trí quyết định ...'''
 copy='''Xin chào <%${user.CustomAttribute['Title']}%> <%${user['FirstName']}%><br /><br />Cơ hội lái về nhà một em Focus Mới 1.5L AT EcoBoost giá cực sốc chỉ 648 triệu đồng! Fiesta trẻ trung hay EcoSport cá tính cũng là những lựa chọn tuyệt vời, giá từ 536 triệu đồng.<br /><br />Ưu đãi chỉ dành riêng cho tháng 4. Hãy liên hệ ngay với đại lý!'''
 cta1_text='''TÌM HIỂU THÊM'''
 cta1_url='''https://www.ford.com.vn/promotion-corner/2017/hot-deal-1/'''
