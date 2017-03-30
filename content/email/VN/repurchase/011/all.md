@@ -19,7 +19,7 @@ color='white'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''vn_edm5_retailcampaign_20170223''' 
+  image = '''vn_edm5_aprretailcampaign_20170330''' 
 
 [[module]]
 path='email_modules/cover/02'
