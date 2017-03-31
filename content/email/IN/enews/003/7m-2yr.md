@@ -1,6 +1,6 @@
 +++
 markets = ["in"]
-title = '''IN Enews 003 0-6m'''
+title = '''IN Enews 003 7m-2yr'''
 
 [[module]]
 path='email_modules/preheader'
@@ -21,14 +21,14 @@ color='black'
 
   title = '''Insider'''
   date = '''02 May 2017'''
-  copy = '''IN THIS ISSUE:<br /> |  |  |  | <br />And more'''
+  copy = '''IN THIS ISSUE:<br />Service Price Promise SMS | Tips for child safety | Project Sujal<br />And more'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
 color='white_pb'
 
 title = ''''''
-  copy = '''Welcome to the Insider from Ford. In this newsletter, see the latest promotions and tips tailored just for you. It will inspire you to Go Further.<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;"></span><br /><br />'''
+  copy = '''Welcome to the Insider from Ford. In this newsletter, see the latest promotions and tips tailored just for you. It will inspire you to Go Further.<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Service Price Promise SMS</span><br /><br />Do you know how to access Ford's Service Price Promise Calculator? Let Mr. Doodles show you how it's even easier done than said'''
   cta1_text = '''WATCH NOW'''
   cta1_url = '''https://www.youtube.com/watch?v=xxEWETfxOao'''
   cta1_link_name = '''svc_sms'''
@@ -41,33 +41,33 @@ title = ''''''
 path='email_modules/image/banner'
 color='white'
 
-  image='''in_edm6_service_journey_20170330'''
+  image='''in_edm6_service_sms_20170330'''
   url_link='''https://www.youtube.com/watch?v=EpUVjpuhxEE&t=133s'''
   url_link_name='''svc_sms'''
-  
-[[module]] #Split 01
-path='email_modules/split/01'
-color='darkblue'
-
-  title = ''''''
-  copy = '''The fact drivers think parking lots are safe places is what makes them so dangerous. Parking lot crashes account for 14% of all insurance claims. But you can avoid danger by following just seven simple points listed in the link below.'''
-  cta1_text = '''LEARN MORE'''
-  cta1_url = '''https://www.at.ford.com/en/homepage/news-and-clipsheet/plants/na/sharonville-transmission/news-archive/2016/12/parking-lot-safety.html'''
-  cta1_link_name = '''parking_safety'''
-  cta1_icon = '''more'''
-  image = '''in_edm6_parking_lot_20170330'''
 
 [[module]] #Split 02
 path='email_modules/split/02'
 color='green'
 
-  title = ''''''
-  copy = '''Your first real drive can feel a bit daunting. It should. Because this time, it's not only your safety that's at risk. Follow the checklist below to make sure your first real drive is perfectly safe for you and others on the road.'''
-  cta1_text = '''LEARN MORE'''
-  cta1_url = '''https://m.at.ford.com/en/homepage/news-and-clipsheet/news/2017/2/are-you-a-new-driver--or-know-someone-who-is--heres-a-checklist-.html'''
+  title = '''Tips for child safety'''
+  copy = '''Children can be restless passengers, and that can distract drivers. Read our helpful article to learn how to keep your children comfortable and happy in the car, for everyone's safety. '''
+  cta1_text = '''READ NOW'''
+  cta1_url = '''https://www.at.ford.com/en/homepage/news-and-clipsheet/news/2017/1/travelling-with-kids-in-the-car--heres-a-survival-guide.html'''
   cta1_link_name = '''checklist_new_driver'''
   cta1_icon = '''more'''
   image = '''in_edm6_new_driver_20170330'''
+
+[[module]] #Split 01
+path='email_modules/split/01'
+color='lightblue'
+
+  title = '''Project Sujal'''
+  copy = '''Scarcity of clean drinking water is one of the biggest issues faced by children of rural India. Click the link below to witness how Ford is saving thousands of children by treating this issue as a core area for community development'''
+  cta1_text = '''WATCH NOW'''
+  cta1_url = '''https://youtu.be/1pnin7wzbes'''
+  cta1_link_name = '''sujal'''
+  cta1_icon = '''more'''
+  image = '''in_edm6_sujal_20170330'''
 
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
@@ -83,6 +83,37 @@ color='black'
   cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en'''
   cta2_link_name = '''oa_android'''
   image = '''owner_app_20160328'''
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+	
+	copy = '''Name&#58; <%${user['FirstName']}%> <%${user['LastName']}%><br />Email&#58; <%${user.CustomAttribute['RealEmail']}%><br />Phone&#58; <%${user.CustomAttribute['Mobile_Phone']}%><br />Address&#58; <%${user.CustomAttribute['Address_1']}%> <%${user.CustomAttribute['Address_2']}%><br /><br />Anything changed?'''
+    
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"        
+  
+[[module]]
+path='email_modules/singles/2textcta'
+color='''white'''
+	
+	cta1_text = '''UPDATE DETAILS'''
+	cta1_url = '''https://www.india.ford.com/#/overlay/content/ford/in/en_in/site-wide-content/overlays/forms/profile-update-form.html?req_firstName=<%${user['FirstName']}%>&req_lastName=<%${user['LastName']}%>&req_mobileNumber=<%${user.CustomAttribute['Mobile_Phone']}%>&req_EmailID=<%${user.CustomAttribute['RealEmail']}%>&req_BuildingNo=<%${user.CustomAttribute['Address_1']}%>&req_StreetRoad=<%${user.CustomAttribute['Address_2']}%>&req_Area=<%${user.CustomAttribute['Area']}%>&req_Landmark=<%${user.CustomAttribute['Landmark']}%>&req_city=<%${user.CustomAttribute['City']}%>&req_State=<%${user.CustomAttribute['State']}%>&req_postCode=<%${user.CustomAttribute['Post_Code']}%>/'''
+	cta1_link_name = '''profile_update'''
+	cta2_text = '''VISIT OWNER SITE'''
+	cta2_url = '''https://www.india.ford.com/owner/dashboard/'''
+	cta2_link_name = '''owner_dashboard'''
+    cta1_icon='''more'''
+
 
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
