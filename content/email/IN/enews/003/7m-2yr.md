@@ -42,7 +42,7 @@ path='email_modules/image/banner'
 color='white'
 
   image='''in_edm6_service_sms_20170330'''
-  url_link='''https://www.youtube.com/watch?v=EpUVjpuhxEE&t=133s'''
+  url_link='''https://www.youtube.com/watch?v=xxEWETfxOao'''
   url_link_name='''svc_sms'''
 
 [[module]] #Split 02
