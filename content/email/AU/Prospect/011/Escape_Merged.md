@@ -88,22 +88,14 @@ path='email_modules/cover/03'
 color='''slatescreen'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
-<<<<<<< HEAD
   copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />The moment you get behind the wheel of a New Ford Escape, you'll be amazed at its seamless combination of power and technology.</span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">Right now, the New Ford Escape Ambiente Petrol FWD Manual is available at $29,990* Driveaway.</span>'''
-=======
-  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />The moment you get behind the wheel of a New Ford Escape, you'll be amazed at its seamless combination of power and technology.</span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">Right now, the New Ford Escape Ambiente Petrol FWD Manual is available at $30,490* Driveaway.</span>'''
->>>>>>> bf69ce4ea9013af018549debb718513f100c2f4c
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-<<<<<<< HEAD
   copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />The New Ford Escape isn't just technology for technology's sake. Every feature has been engineered with one solid purpose in mind: to make life easier for you. </span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">Right now, the New Ford Escape Ambiente Petrol FWD Manual is available at $29,990* Driveaway.</span>'''
-=======
-  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />The New Ford Escape isn't just technology for technology's sake. Every feature has been engineered with one solid purpose in mind: to make life easier for you. </span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">Right now, the New Ford Escape Ambiente Petrol FWD Manual is available at $30,490* Driveaway.</span>'''
->>>>>>> bf69ce4ea9013af018549debb718513f100c2f4c
 
 [[module]] #Banner Image
 path = '''email_modules/image/banner_nolink'''
