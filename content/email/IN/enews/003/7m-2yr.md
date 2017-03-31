@@ -50,12 +50,12 @@ path='email_modules/split/02'
 color='green'
 
   title = '''Tips for child safety'''
-  copy = '''Children can be restless passengers, and that can distract drivers. Read our helpful article to learn how to keep your children comfortable and happy in the car, for everyone's safety. '''
+  copy = '''Children can be restless passengers, and that can distract drivers. Read our helpful article to learn how to keep your children comfortable and happy in the car, for everyone's safety.'''
   cta1_text = '''READ NOW'''
   cta1_url = '''https://www.at.ford.com/en/homepage/news-and-clipsheet/news/2017/1/travelling-with-kids-in-the-car--heres-a-survival-guide.html'''
   cta1_link_name = '''checklist_new_driver'''
   cta1_icon = '''more'''
-  image = '''in_edm6_new_driver_20170330'''
+  image = '''in_edm6_child_safety_20170330'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
@@ -84,18 +84,6 @@ color='black'
   cta2_link_name = '''oa_android'''
   image = '''owner_app_20160328'''
   
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
-    
-[[module]]
-path='email_modules/singles/icon'
-color='''white'''
-	
-	icon = '''th_edm2_ownerprofile_20160801'''
-    
 [[module]]
 path='email_modules/spacer/default'
 color='white'
