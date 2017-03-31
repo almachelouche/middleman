@@ -83,7 +83,31 @@ color='black'
   cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en'''
   cta2_link_name = '''oa_android'''
   image = '''owner_app_20160328'''
+  
+[[module]]
+path='email_modules/spacer/default'
+color='white'
 
+	height="30"
+    
+[[module]]
+path='email_modules/singles/icon'
+color='''white'''
+	
+	icon = '''th_edm2_ownerprofile_20160801'''
+    
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
+path='email_modules/singles/title'
+color='''white'''
+	
+	title = '''My Ford Profile'''
+    
 [[module]]
 path='email_modules/spacer/default'
 color='white'
