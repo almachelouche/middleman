@@ -88,22 +88,14 @@ path='email_modules/cover/03'
 color='''slatescreen'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
-<<<<<<< HEAD
   copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Ever wondered what's beyond the horizon? It's time to explore it all with the new Ford Everest. Sand, snow, desert or bush - nothing gets in the way of this powerful performer. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Everest Trend AWD is available at $58,990* Driveaway.</span>'''
-=======
-  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Ever wondered what's beyond the horizon? It's time to explore it all with the new Ford Everest. Sand, snow, desert or bush - nothing gets in the way of this powerful performer. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Everest Trend AWD is available at $59,990* Driveaway.</span>'''
->>>>>>> bf69ce4ea9013af018549debb718513f100c2f4c
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-<<<<<<< HEAD
   copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Ever wondered what's beyond the horizon? It's time to explore it all with the new Ford Everest. Sand, snow, desert or bush - nothing gets in the way of this powerful performer. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Everest Trend AWD is available at $58,990* Driveaway.</span>'''
-=======
-  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Ever wondered what's beyond the horizon? It's time to explore it all with the new Ford Everest. Sand, snow, desert or bush - nothing gets in the way of this powerful performer. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Everest Trend AWD is available at $59,990* Driveaway.</span>'''
->>>>>>> bf69ce4ea9013af018549debb718513f100c2f4c
 
 [[module]] #Banner Image
 path = '''email_modules/image/banner_nolink'''

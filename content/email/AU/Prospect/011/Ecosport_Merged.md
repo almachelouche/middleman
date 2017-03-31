@@ -88,22 +88,14 @@ path='email_modules/cover/03'
 color='''slatescreen'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
-<<<<<<< HEAD
   copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />The rhythm of the metropolis pumps through every fibre of the Ford EcoSport. Combining sleek design with advanced technology, this SUV is the hottest ticket in town. <br /><br /><span style="color:#FFFFFF">Right now, the Ford EcoSport Ambiente is available at $18,490* Driveaway.</span>'''
-=======
-  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />The rhythm of the metropolis pumps through every fibre of the Ford EcoSport. Combining sleek design with advanced technology, this SUV is the hottest ticket in town. <br /><br /><span style="color:#FFFFFF">Right now, the Ford EcoSport Ambiente Manual is available at $18,990* Driveaway.</span>'''
->>>>>>> bf69ce4ea9013af018549debb718513f100c2f4c
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-<<<<<<< HEAD
   copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Built for urban discoveries, this smart SUV makes city driving a breeze. So if you live for hustle, bustle and bright lights, the Ford EcoSport is the perfect match for you. <br /><br /><span style="color:#FFFFFF">Right now, the Ford EcoSport Ambiente is available at $18,490* Driveaway.</span>'''
-=======
-  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Built for urban discoveries, this smart SUV makes city driving a breeze. So if you live for hustle, bustle and bright lights, the Ford EcoSport is the perfect match for you. <br /><br /><span style="color:#FFFFFF">Right now, the Ford EcoSport Ambiente Manual is available at $18,990* Driveaway.</span>'''
->>>>>>> bf69ce4ea9013af018549debb718513f100c2f4c
 
 
 [[module]] #Banner Image
@@ -184,11 +176,7 @@ path='email_modules/footer/disclaimer'
 color='white'
 
   text = '''Terms & Conditions
-<<<<<<< HEAD
         <br /> <br />* Limited offer available on 2016 plate models at participating Dealers while stocks last. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. See <a href="https://www.ford.com.au/latest-offers/" name="latest_offer2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/latest-offers</a> for full details.<br /><br />
-=======
-        <br /> <br />* Limited offer available on 2016 plate models at participating Dealers while stocks last. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. See <a href="https://www.ford.com.au/latest-offers/" name="latest_offer2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/latest-offers</a> for full details.<br /><br />
->>>>>>> bf69ce4ea9013af018549debb718513f100c2f4c
         1. For SYNC® compatibility visit <a href="https://www.ford.com.au/technology/sync/" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/technology/sync</a>.<br /><br />
         2. Bluetooth® is a registered trademark of Bluetooth SIG Inc., and is used under licence. Some phones not compatible.<br /><br />
         3. iPod is a trademark of Apple Inc. Requires connection cable, sold separately. Please refer to <a href="https://www.ford.com.au/" name="ford1" style="text-decoration:underline; color:#91a4b1">ford.com.au</a> for compatibility.<br /><br />

@@ -89,12 +89,7 @@ color='''slatescreen'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
   copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,  <br /><br />
-	Athletic and toned, the Ford Focus is a distinctive presence wherever it goes. And once you get behind the wheel, you'll be hooked for life. </span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">
-<<<<<<< HEAD
-	Right now, the Ford Focus Trend Hatch is available at $21,590* Driveaway</span>'''
-=======
-	Right now, the Ford Focus Trend Hatch Manual is available at $22,990* Driveaway</span>'''
->>>>>>> bf69ce4ea9013af018549debb718513f100c2f4c
+	Athletic and toned, the Ford Focus is a distinctive presence wherever it goes. And once you get behind the wheel, you'll be hooked for life. </span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">Right now, the Ford Focus Trend Hatch is available at $21,590* Driveaway</span>'''
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
@@ -102,12 +97,7 @@ color='''slatescreen'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
   copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,  <br /><br />
-	Combining innovative technology, with a sleek and sporty design, the Ford Focus is the car built for pleasure seekers.</span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">
-<<<<<<< HEAD
-	Right now, the Ford Focus Trend Hatch is available at $21,590* Driveaway</span>'''
-=======
-	Right now, the Ford Focus Trend Hatch Manual is available at $22,990* Driveaway</span>'''
->>>>>>> bf69ce4ea9013af018549debb718513f100c2f4c
+	Combining innovative technology, with a sleek and sporty design, the Ford Focus is the car built for pleasure seekers.</span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">Right now, the Ford Focus Trend Hatch is available at $21,590* Driveaway</span>'''
 
   [[module]] #Banner Image
 path = '''email_modules/image/banner_nolink'''
