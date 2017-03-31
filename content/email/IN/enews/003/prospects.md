@@ -41,7 +41,7 @@ title = ''''''
 path='email_modules/image/banner'
 color='white'
 
-  image='''in_edm6_endeavour_video_20170330'''
+  image='''in_edm6_ode_video_20170330'''
   url_link='''https://www.youtube.com/watch?v=uDMtpsWlcH4'''
   url_link_name='''ode_to_the_road_image'''
   
@@ -67,7 +67,7 @@ color='green'
   cta1_url = '''https://www.youtube.com/watch?v=hlMChE_pDJ8&t=47s'''
   cta1_link_name = '''spp'''
   cta1_icon = '''more'''
-  image = '''in_edm6_spp_20170330_tile'''
+  image = '''in_edm6_spp_20170330'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
@@ -79,7 +79,7 @@ color='lightblue'
   cta1_url = '''https://youtu.be/1pnin7wzbes'''
   cta1_link_name = '''sujal'''
   cta1_icon = '''more'''
-  image = '''in_edm6_sujal_20170330_'''
+  image = '''in_edm6_sujal_20170330'''
 
 
 [[module]] #Footer IN Social
