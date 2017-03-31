@@ -90,7 +90,11 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
   copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,  <br /><br />
 	Athletic and toned, the Ford Focus is a distinctive presence wherever it goes. And once you get behind the wheel, you'll be hooked for life. </span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">
+<<<<<<< HEAD
 	Right now, the Ford Focus Trend Hatch is available at $21,590* Driveaway</span>'''
+=======
+	Right now, the Ford Focus Trend Hatch Manual is available at $22,990* Driveaway</span>'''
+>>>>>>> bf69ce4ea9013af018549debb718513f100c2f4c
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
@@ -99,7 +103,11 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
   copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,  <br /><br />
 	Combining innovative technology, with a sleek and sporty design, the Ford Focus is the car built for pleasure seekers.</span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">
+<<<<<<< HEAD
 	Right now, the Ford Focus Trend Hatch is available at $21,590* Driveaway</span>'''
+=======
+	Right now, the Ford Focus Trend Hatch Manual is available at $22,990* Driveaway</span>'''
+>>>>>>> bf69ce4ea9013af018549debb718513f100c2f4c
 
   [[module]] #Banner Image
 path = '''email_modules/image/banner_nolink'''
@@ -157,7 +165,7 @@ color='white'
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 title = '''Cover 13'''
-  copy = '''<br />All this and more is available to you now in the Ford Focus Trend Hatch.'''
+  copy = '''<br />All this and more is available to you now in the Ford Focus Trend Hatch Manual.'''
   cta1_url = '''https://www.ford.com.au/cars/focus/'''
   cta1_text = '''FIND OUT MORE'''
   cta1_icon = '''more'''
@@ -180,7 +188,7 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
   title='''The service you'll love, guaranteed'''
   copy='''We know that a new car is a big decision <%${user.CustomAttribute['FullName']}%>, so our job isn't done once you pick up your car.<br /><br />
 	With <a href="https://www.ford.com.au/owners/service/calculator?edm" name="calculator" style="text-decoration:underline; color:#2d96cd">Ford's Service Price Promise</a>&#178;, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership&#179; for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program&#8308;, so we can keep you on the road whilst your car is being serviced. After all, that's what service should be.<br /><br />
-	So don't wait. Book a test drive to experience the Ford Focus Trend Hatch today.'''
+	So don't wait. Book a test drive to experience the Ford Focus Trend Hatch Manual today.'''
   cta1_text='''BOOK A TEST DRIVE'''
   cta1_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
   cta1_link_name = '''TEST'''
@@ -193,7 +201,7 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
   title='''The service you'll love, guaranteed'''
   copy='''We know that a new car is a big decision <%${user.CustomAttribute['FullName']}%>, so our job isn't done once you pick up your car.<br /><br />
 	With <a href="https://www.ford.com.au/owners/service/calculator?edm" name="calculator" style="text-decoration:underline; color:#2d96cd">Ford's Service Price Promise</a>&#178;, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership&#179; for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program&#8308;, so we can keep you on the road whilst your car is being serviced. After all, that's what service should be.<br /><br />
-	So don't wait. Check out the latest offers on the Ford Focus Trend Hatch today.'''
+	So don't wait. Check out the latest offers on the Ford Focus Trend Hatch Manual today.'''
   cta1_text='''LATEST OFFER'''
   cta1_url='''https://www.ford.com.au/latest-offers/national?offer=focus-trend-hatch'''
   cta1_link_name = '''moreinfo2'''

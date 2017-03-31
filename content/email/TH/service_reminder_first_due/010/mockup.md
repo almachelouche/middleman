@@ -1,7 +1,7 @@
 +++
 markets = ["th"]
 title = '''TH Service Reminder First Past 010 mockup'''
-draft = true
+
 
 [[module]]
 path='email_modules/preheader'
@@ -64,20 +64,13 @@ color = '''white'''
 path='email_modules/split/04'
 color='green'
 
-  title='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">ประหยัดค่าน้ำมันเครื่อง</span><br /><span style="white-space:nowrap;">สูงสุด</span></span>'''
-  copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
-<span style="white-space:nowrap;">ด้วยโปรแกรมชุดน้ำมันเครื่องสุดคุ้ม</span> <br />
-<span style="white-space:nowrap;">(Oil Save Pack)</span>  <br />
-<span style="white-space:nowrap;">ให้คุณประหยัดสูงสุดถึง 18%</span> <br />
-<span style="white-space:nowrap;">ในการเปลี่ยนน้ำมันเครื่อง </span><br /> 
-<span style="white-space:nowrap;">ไส้กรองน้ำมันเครื่อง </span> <br />
-<span style="white-space:nowrap;">และโอริงน๊อตอ่างน้ำมันเครื่อง</span> 
-</span>'''
-  cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
-cta1_url='''https://www.ford.co.th/owner/oil-save-pack/'''
+  title='''Save on service'''
+  copy='''Sign up for Ford’s Scheduled Service Packs and enjoy up to 2500 THB discount, or a 0% interest rate when you use a K Bank credit card.'''
+  cta1_text='''FIND OUT MORE'''
+cta1_url='''https://www.ford.co.th/owner/schedule-service/'''
 cta1_icon='''more'''
-cta1_link_name = '''OSP'''
-image = '''th_edm2_savebigonoil18_20161221'''
+cta1_link_name = '''SSP'''
+image = '''th_edm5a_specialoffer_20160801'''
 
 
 [[module]]

@@ -88,14 +88,22 @@ path='email_modules/cover/03'
 color='''slatescreen'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
+<<<<<<< HEAD
   copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />The rhythm of the metropolis pumps through every fibre of the Ford EcoSport. Combining sleek design with advanced technology, this SUV is the hottest ticket in town. <br /><br /><span style="color:#FFFFFF">Right now, the Ford EcoSport Ambiente is available at $18,490* Driveaway.</span>'''
+=======
+  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />The rhythm of the metropolis pumps through every fibre of the Ford EcoSport. Combining sleek design with advanced technology, this SUV is the hottest ticket in town. <br /><br /><span style="color:#FFFFFF">Right now, the Ford EcoSport Ambiente Manual is available at $18,990* Driveaway.</span>'''
+>>>>>>> bf69ce4ea9013af018549debb718513f100c2f4c
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
+<<<<<<< HEAD
   copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Built for urban discoveries, this smart SUV makes city driving a breeze. So if you live for hustle, bustle and bright lights, the Ford EcoSport is the perfect match for you. <br /><br /><span style="color:#FFFFFF">Right now, the Ford EcoSport Ambiente is available at $18,490* Driveaway.</span>'''
+=======
+  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Built for urban discoveries, this smart SUV makes city driving a breeze. So if you live for hustle, bustle and bright lights, the Ford EcoSport is the perfect match for you. <br /><br /><span style="color:#FFFFFF">Right now, the Ford EcoSport Ambiente Manual is available at $18,990* Driveaway.</span>'''
+>>>>>>> bf69ce4ea9013af018549debb718513f100c2f4c
 
 
 [[module]] #Banner Image
@@ -131,7 +139,7 @@ path='email_modules/cover/04'
 color='white'
 
   title = '''Cover 13'''
-  copy = '''<br />All this and more is available to you now in the Ford EcoSport Ambiente.'''
+  copy = '''<br />All this and more is available to you now in the Ford EcoSport Ambiente Manual.'''
   cta1_url = '''https://www.ford.com.au/suv/ecosport/'''
   cta1_text = '''FIND OUT MORE'''
   cta1_icon = '''more'''
@@ -151,7 +159,7 @@ color='''white'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
   title='''The service you'll love, guaranteed'''
-  copy='''We know that a new car is a big decision <%${user.CustomAttribute['FullName']}%>, so our job isn't done once you pick up your car.<br /><br />With <a href="https://www.ford.com.au/owners/service/calculator?edm" name="calculator1" style="text-decoration:underline; color:#2d96cd">Ford's Service Price Promise</a>&#8308;, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership&#8309; for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program&#8310;, so we can keep you on the road whilst your car is being serviced. After all, that's what service should be.<br /><br />So don't wait. Check out the latest offers on Ford Ecosport here.'''
+  copy='''We know that a new car is a big decision <%${user.CustomAttribute['FullName']}%>, so our job isn't done once you pick up your car.<br /><br />With <a href="https://www.ford.com.au/owners/service/calculator?edm" name="calculator1" style="text-decoration:underline; color:#2d96cd">Ford's Service Price Promise</a>&#8308;, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership&#8309; for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program&#8310;, so we can keep you on the road whilst your car is being serviced. After all, that's what service should be.<br /><br />So don't wait. Book a test drive to experience the Ford EcoSport Ambiente Manual today.'''
   cta1_text='''BOOK A TEST DRIVE'''
   cta1_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
   cta1_link_name = '''testdrive1'''
@@ -162,7 +170,7 @@ color='''white'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
   title='''The service you'll love, guaranteed'''
-  copy='''We know that a new car is a big decision <%${user.CustomAttribute['FullName']}%>, so our job isn't done once you pick up your car.<br /><br />With <a href="https://www.ford.com.au/owners/service/calculator?edm" name="calculator1" style="text-decoration:underline; color:#2d96cd">Ford's Service Price Promise</a>&#8308;, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership&#8309; for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program&#8310;, so we can keep you on the road whilst your car is being serviced. After all, that's what service should be.<br /><br />So don't wait. Check out the latest offers on Ford Ecosport here.'''
+  copy='''We know that a new car is a big decision <%${user.CustomAttribute['FullName']}%>, so our job isn't done once you pick up your car.<br /><br />With <a href="https://www.ford.com.au/owners/service/calculator?edm" name="calculator1" style="text-decoration:underline; color:#2d96cd">Ford's Service Price Promise</a>&#8308;, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership&#8309; for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program&#8310;, so we can keep you on the road whilst your car is being serviced. After all, that's what service should be.<br /><br />So don't wait. Check out the latest offers on Ford EcoSport Ambiente Manual here.'''
   cta1_text='''LATEST OFFER'''
   cta1_url='''https://www.ford.com.au/latest-offers/national?offer=ecosport-ambiente'''
   cta1_link_name = '''latest_offer1'''
@@ -176,7 +184,11 @@ path='email_modules/footer/disclaimer'
 color='white'
 
   text = '''Terms & Conditions
+<<<<<<< HEAD
         <br /> <br />* Limited offer available on 2016 plate models at participating Dealers while stocks last. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. See <a href="https://www.ford.com.au/latest-offers/" name="latest_offer2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/latest-offers</a> for full details.<br /><br />
+=======
+        <br /> <br />* Limited offer available on 2016 plate models at participating Dealers while stocks last. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. See <a href="https://www.ford.com.au/latest-offers/" name="latest_offer2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/latest-offers</a> for full details.<br /><br />
+>>>>>>> bf69ce4ea9013af018549debb718513f100c2f4c
         1. For SYNC® compatibility visit <a href="https://www.ford.com.au/technology/sync/" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/technology/sync</a>.<br /><br />
         2. Bluetooth® is a registered trademark of Bluetooth SIG Inc., and is used under licence. Some phones not compatible.<br /><br />
         3. iPod is a trademark of Apple Inc. Requires connection cable, sold separately. Please refer to <a href="https://www.ford.com.au/" name="ford1" style="text-decoration:underline; color:#91a4b1">ford.com.au</a> for compatibility.<br /><br />

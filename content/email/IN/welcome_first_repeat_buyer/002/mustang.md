@@ -7,7 +7,7 @@ title = '''IN Welcome 002 Mustang'''
 path='email_modules/preheader'
 color='''nothing'''
 
-   preheader='''You are now in the driver's seat of the world's best-selling coupe. It's time to conjure up images of freedom and raw performance, while you burn the roads with unbridled power. '''
+   preheader='''You are now in the driver's seat of a true legend. It's time to experience freedom and raw performance while you unleash its unbridled power. The iconic Ford Mustang has arrived. And you are one of the elite few to own this moment. GET YOUR HEART RACING. UNLEASH YOUR TRUE SELF.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -21,7 +21,7 @@ path='email_modules/cover/01'
 color='''white'''
  
   title = '''Welcome to the ride of your life,<br /><%${user.CustomAttribute['FullName']}%>'''
-  copy = '''You are now in the driver's seat of a true legend. It's time to conjure up images of freedom and raw performance while you unleash its unbridled power. The iconic Ford Mustang has arrived. And you are one of the elite few to own this moment. <br /><br /><span style="font-weight:bold">GET YOUR HEART RACING. UNLEASH YOUR TRUE SELF.</span> '''
+  copy = '''You are now in the driver's seat of a true legend. It's time to experience freedom and raw performance while you unleash its unbridled power. The iconic Ford Mustang has arrived. And you are one of the elite few to own this moment. <br /><br /><span style="font-weight:bold">GET YOUR HEART RACING. UNLEASH YOUR TRUE SELF.</span> '''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -32,16 +32,16 @@ color = '''white'''
 path='email_modules/cover/01'
 color='''white_gt'''
  
-  title = '''Your first and second service is on the house'''
-  copy = '''Keep your Ford Mustang in top shape with us. Enjoy two free inspections and car washes - on us - within the first 2 months or 3000 kilometers and within the first 12 months or 15,000 kilometers. <br /><br />Contact <%${user.CustomAttribute['Dealer_Name']}%> on <a href="tel:<%${user.CustomAttribute['Dealer_Phone']}%>" style="text-decoration:underline; color:#2D96CD;" ><%${user.CustomAttribute['Dealer_Phone']}%></a> for more information.'''
+  title = '''Your first and second service is on us'''
+  copy = '''We're happy to offer two free inspections and car washes, so you can keep your Ford Mustang in top shape. Claim your first within 2 months or 3,000 kilometres, and your second within 12 months or 15,000 kilometres. <br /><br />Contact <%${user.CustomAttribute['Dealer_Name']}%> on <a href="tel:<%${user.CustomAttribute['Dealer_Phone']}%>" style="text-decoration:underline; color:#2D96CD;" ><%${user.CustomAttribute['Dealer_Phone']}%></a>/<%${user.CustomAttribute['Dealer_Additional_Phone']}%> for more information.'''
 
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
 	
-	cta1_text = '''FIND A DEALER'''
+	cta1_text = '''LOCATE A DEALER'''
 	cta1_url = '''https://www.india.ford.com/cars/mustang/locate-a-dealer/?intcmp=bb-fin-vhp-ford%20mustang-fin-lad-ford%20mustang-return/'''
-	cta1_link_name = '''locate_dealer'''
+	cta1_link_name = '''locate_dealer_mustang'''
 
 [[module]] #Dual 04
 path='email_modules/dual/04'
@@ -88,10 +88,10 @@ copy='''<br /><br /><span style="text-align:center; font-Size:24px; line-height:
 path='email_modules/cover/02'
 color='''white'''
 
-  title = '''Your Profile Details'''
+  title = '''My Ford Profile'''
   copy = '''Name&#58; <%${user['FirstName']}%> <%${user['LastName']}%><br />Email&#58; <%${user.CustomAttribute['RealEmail']}%><br />Phone&#58; <%${user.CustomAttribute['Mobile_Phone']}%><br />Address&#58; <%${user.CustomAttribute['Address_1']}%> <%${user.CustomAttribute['Address_2']}%><br /><br />Anything changed?'''
-  cta1_text = '''UPDATE YOUR DETAILS'''
-  cta1_url = '''https://www.india.ford.com/'''
+  cta1_text = '''UPDATE DETAILS'''
+  cta1_url = '''https://www.india.ford.com/#/overlay/content/ford/in/en_in/site-wide-content/overlays/forms/profile-update-form.html?req_firstName=<%${user['FirstName']}%>&req_lastName=<%${user['LastName']}%>&req_mobileNumber=<%${user.CustomAttribute['Mobile_Phone']}%>&req_EmailID=<%${user.CustomAttribute['RealEmail']}%>&req_BuildingNo=<%${user.CustomAttribute['Address_1']}%>&req_StreetRoad=<%${user.CustomAttribute['Address_2']}%>&req_Area=<%${user.CustomAttribute['Area']}%>&req_Landmark=<%${user.CustomAttribute['Landmark']}%>&req_city=<%${user.CustomAttribute['City']}%>&req_State=<%${user.CustomAttribute['State']}%>&req_postCode=<%${user.CustomAttribute['Post_Code']}%>'''
   cta1_link_name = '''profile_update'''
   icon = '''th_edm2_ownerprofile_20160801'''
 

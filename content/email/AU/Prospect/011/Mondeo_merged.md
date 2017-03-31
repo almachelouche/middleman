@@ -91,7 +91,11 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
   copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />
 	Hidden beneath the Mondeo's sleek and sophisticated design is technology so advanced, you'll need to experience it to believe it.</span><br /><br />
 	<span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">
+<<<<<<< HEAD
 	Right now, the Ford Mondeo Trend Hatch Petrol is available at $37,990* Driveaway.</span>'''
+=======
+	Right now, the Ford Mondeo Trend Hatch Petrol is available at $38,490* Driveaway.</span>'''
+>>>>>>> bf69ce4ea9013af018549debb718513f100c2f4c
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
@@ -101,7 +105,11 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
   copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />
 	Hidden beneath the Mondeo's sleek and sophisticated design is technology so advanced, you'll need to experience it to believe it.</span><br /><br />
 	<span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">
+<<<<<<< HEAD
 	Right now, the Ford Mondeo Trend Hatch Petrol is available at $37,990* Driveaway.</span>'''
+=======
+	Right now, the Ford Mondeo Trend Hatch Petrol is available at $38,490* Driveaway.</span>'''
+>>>>>>> bf69ce4ea9013af018549debb718513f100c2f4c
 
 
   [[module]] #Banner Image

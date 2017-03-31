@@ -91,7 +91,11 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
   copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,  <br /><br />
 	It's hard to know what to love most about the Ford Fiesta: the beauty behind its technology or the technology behind its beauty. Either way, it'll give you the ride of your life.</span><br /><br />
 	<span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">
+<<<<<<< HEAD
 	Right now, the Ford Fiesta Ambiente is available at $14,490* Driveaway.</span>'''
+=======
+	Right now, the Ford Fiesta Ambiente Manual is available at $14,740* Driveaway.</span>'''
+>>>>>>> bf69ce4ea9013af018549debb718513f100c2f4c
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
@@ -101,7 +105,11 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
   copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,  <br /><br />
 	The first thing you'll notice about the Ford Fiesta is how good it looks. But as the smarts within shine through, you'll see there's a lot more to this car than meets the eye.</span><br /><br />
 	<span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">
+<<<<<<< HEAD
 	Right now, the Ford Fiesta Ambiente is available at $14,490* Driveaway.</span>'''
+=======
+	Right now, the Ford Fiesta Ambiente Manual is available at $14,740* Driveaway.</span>'''
+>>>>>>> bf69ce4ea9013af018549debb718513f100c2f4c
 
   [[module]] #Banner Image
 path = '''email_modules/image/banner_nolink'''
@@ -139,7 +147,7 @@ path='email_modules/cover/04'
 color='white'
 
   title = '''Cover 13'''
-  copy = '''<br />All this and more available to you now in the Ford Fiesta Ambiente.'''
+  copy = '''<br />All this and more available to you now in the Ford Fiesta Ambiente Manual.'''
   cta1_url = '''https://www.ford.com.au/cars/fiesta/'''
   cta1_text = '''FIND OUT MORE'''
   cta1_icon = '''more'''
@@ -164,7 +172,7 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 	for a standard service before you go in. But the service doesn't stop there.
 	You can get State Auto Club Roadside Assistance and Membership&#8309; for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program&#8310;, so we can keep you on the road whilst your car is being serviced.
 	After all, that's what service should be.<br /><br />
-	So don't wait. Book a test drive to experience the Ford Fiesta Ambiente today.'''
+	So don't wait. Book a test drive to experience the Ford Fiesta Ambiente Manual today.'''
   cta1_text='''BOOK A TEST DRIVE'''
   cta1_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
   cta1_link_name = '''moreinfo3'''
@@ -180,7 +188,7 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 	for a standard service before you go in. But the service doesn't stop there.
 	You can get State Auto Club Roadside Assistance and Membership&#8309; for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program&#8310;, so we can keep you on the road whilst your car is being serviced.
 	After all, that's what service should be.<br /><br />
-	So don't wait. Check out the latest offers on the Ford Fiesta Ambiente today.'''
+	So don't wait. Check out the latest offers on the Ford Fiesta Ambiente Manual today.'''
   cta1_text='''LATEST OFFER'''
   cta1_url='''https://www.ford.com.au/latest-offers/national?offer=fiesta-ambiente'''
   cta1_link_name = '''moreinfo2'''
@@ -195,7 +203,11 @@ path='email_modules/footer/disclaimer'
 color='white'
 
   text = ''' Terms & Conditions<br /> <br />
+<<<<<<< HEAD
 	* Limited offer available on 2016 plate models at participating Dealers while stocks last. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. See <a href="https://www.ford.com.au/latest-offers/" name="latest_offer2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/latest-offers</a> for full details.<br /><br />
+=======
+	*Limited offer available on 2016 plate models at participating Dealers while stocks last. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. See <a href="https://www.ford.com.au/latest-offers/" name="latest_offer2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/latest-offers</a> for full details.<br /><br />
+>>>>>>> bf69ce4ea9013af018549debb718513f100c2f4c
 	1. For SYNC® compatibility visit <a href="https://www.ford.com.au/technology/sync/" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/technology/sync</a>.<br /><br />
 	2. Bluetooth® is a registered trademark of Bluetooth SIG Inc., and is used under licence. Some phones not compatible.<br /><br />
 	3. iPod is a trademark of Apple Inc. Requires connection cable, sold separately. Please refer to <a href="https://www.ford.com.au/" name="ford1" style="text-decoration:underline; color:#91a4b1">ford.com.au</a> for compatibility.<br /><br />

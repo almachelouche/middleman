@@ -512,7 +512,7 @@ segmentif = ["(user.CustomAttribute['SYNC_Available'] == 'YES')"]
   image2 = '''au_svc_icon2'''
 	image2_url = '''https://www.ford.com.au/owners/service/calculator?edm'''
 	image2_link_name = '''icon5'''
-  image3 = '''au_svc_icon3'''
+  image3 = '''au_svc_icon_20170327'''
 	image3_url = '''https://www.ford.com.au/owners/service/roadside-assistance/'''
 	image3_link_name = '''icon6'''
   image4 = '''au_svc_icon4'''
@@ -530,7 +530,7 @@ segmentelse = ["(user.CustomAttribute['SYNC_Available'] == 'NO') && (user.Custom
   image2 = '''au_svc_icon2'''
 	image2_url = '''https://www.ford.com.au/owners/service/calculator?edm'''
 	image2_link_name = '''icon2'''
-  image3 = '''au_svc_icon3'''
+  image3 = '''au_svc_icon_20170327'''
 	image3_url = '''https://www.ford.com.au/owners/service/roadside-assistance/'''
 	image3_link_name = '''icon3'''
 
@@ -540,7 +540,7 @@ color='white'
 segmentif = ["(user.CustomAttribute['Model'] == 'Mustang')"]
 
   title = '''Cover 13'''
-  copy = ''' As someone with a genuine passion for performance, we're sure you'll appreciate the many benefits of putting your pony in the trusted hands of Ford factory trained technicians who use diagnostic equipment specifically designed for Fords.<br /><br />You'll also receive free <%${user.CustomAttribute['StateAutoClub']}%> Roadside Assistance and Membership¹ for up to 12 months, free map updates for your SYNC® 2 Satellite Navigation System² when required, and you can even book a free loan car³ so we can keep you on the road.<br /><br /> '''
+  copy = ''' As someone with a genuine passion for performance, we're sure you'll appreciate the many benefits of putting your pony in the trusted hands of Ford factory trained technicians who use diagnostic equipment specifically designed for Fords.<br /><br />You'll also receive <%${user.CustomAttribute['StateAutoClub']}%> Roadside Assistance and Membership¹ for up to 12 months, free map updates for your SYNC® 2 Satellite Navigation System² when required, and you can even book a free loan car³ so we can keep you on the road.<br /><br /> '''
   cta1_url = '''https://www.ford.com.au/owners/service/'''
   cta1_text = '''FIND OUT MORE'''
   cta1_icon = '''more'''  
@@ -553,7 +553,7 @@ color='white'
 segmentelseif = ["(user.CustomAttribute['SYNC_Available'] == 'YES')"]
 
   title = '''Cover 13'''
-  copy = '''We know how important your <%${user.CustomAttribute['Model']}%> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%> in the trusted hands of Ford trained technicians who use diagnostic equipment specifically designed for Fords.<br /><br />You'll also receive free <%${user.CustomAttribute['StateAutoClub']}%> Roadside Assistance and Membership¹ for up to 12 months, free map updates for your SYNC® 2 Satellite Navigation System² when required, and you can even book a free loan car³ so we can keep you on the road.<br /><br /> '''
+  copy = '''We know how important your <%${user.CustomAttribute['Model']}%> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%> in the trusted hands of Ford trained technicians who use diagnostic equipment specifically designed for Fords.<br /><br />You'll also receive <%${user.CustomAttribute['StateAutoClub']}%> Roadside Assistance and Membership¹ for up to 12 months, free map updates for your SYNC® 2 Satellite Navigation System² when required, and you can even book a free loan car³ so we can keep you on the road.<br /><br /> '''
   cta1_url = '''https://www.ford.com.au/owners/service/'''
   cta1_text = '''FIND OUT MORE'''
   cta1_icon = '''more'''  
@@ -564,7 +564,7 @@ color='white'
 segmentelse = ["(user.CustomAttribute['SYNC_Available'] == 'NO') && (user.CustomAttribute['Model'] != 'Mustang')"]
 
   title = '''Cover 13'''
-  copy = '''We know how important your <%${user.CustomAttribute['Model']}%> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%> in the trusted hands of Ford trained technicians who use diagnostic equipment specifically designed for Fords.<br /><br />You'll also receive free <%${user.CustomAttribute['StateAutoClub']}%> Roadside Assistance and Membership¹ for up to 12 months and you can even book a free loan car² so we can keep you on the road.'''
+  copy = '''We know how important your <%${user.CustomAttribute['Model']}%> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%> in the trusted hands of Ford trained technicians who use diagnostic equipment specifically designed for Fords.<br /><br />You'll also receive <%${user.CustomAttribute['StateAutoClub']}%> Roadside Assistance and Membership¹ for up to 12 months and you can even book a free loan car² so we can keep you on the road.'''
   cta1_url = '''https://www.ford.com.au/owners/service/'''
   cta1_text = '''FIND OUT MORE'''
   cta1_icon = '''more'''
@@ -597,7 +597,7 @@ color='white'
 segmentif = ["(user.CustomAttribute['Model'] == 'Mustang')"]
 
   text = '''DISCLAIMERS:<br /><br />
-        1) Available to Private and Blue Business Fleet customers who have not reached 105,000km/7 years only at participating Dealers. State Auto Club Roadside Assistance & Membership is provided at no cost for 12 months or until your next eligible standard service (whichever occurs first). Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br /> 
+        1) Available to Private and Blue Business Fleet customers who have not reached 105,000km/7 years only at participating Dealers. State Auto Club Roadside Assistance & Membership is included for 12 months or until your next eligible standard service (whichever occurs first). Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br /> 
         2) SYNC Gen2 (SYNC® 2) customers who complete their scheduled servicing with participating Ford Dealers will receive free yearly map updates for up to 7 years (but no later than 30 September 2024). Customers must comply with scheduled servicing intervals. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
         3) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br /> 
         4) Available at participating Ford Dealers on vehicles built from 2007. Customers will pay equal to or less than the maximum price as published by Ford for the period of the web quote for standard items in the A and B logbook services. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms4" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
@@ -610,7 +610,7 @@ color='white'
 segmentelseif = ["(user.CustomAttribute['SYNC_Available'] == 'YES')"]
 
   text = '''DISCLAIMERS:<br /><br />
-        1) Available to Private and Blue Business Fleet customers who have not reached 105,000km/7 years only at participating Dealers. State Auto Club Roadside Assistance & Membership is provided at no cost for 12 months or until your next eligible standard service (whichever occurs first). Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms5" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br /> 
+        1) Available to Private and Blue Business Fleet customers who have not reached 105,000km/7 years only at participating Dealers. State Auto Club Roadside Assistance & Membership is included for 12 months or until your next eligible standard service (whichever occurs first). Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms5" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br /> 
         2) Customers must comply with scheduled servicing intervals. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms6" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
         3) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See  <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms7" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
         4) Available at participating Ford Dealers on vehicles built from 2007. Customers will pay equal to or less than the maximum price as published by Ford for the period of the web quote for standard items in the A and B logbook services. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms8" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
@@ -622,7 +622,7 @@ color='white'
 segmentelse = ["(user.CustomAttribute['Model'] != 'Mustang') && (user.CustomAttribute['SYNC_Available'] == 'NO')"]
 
   text = '''DISCLAIMERS:<br /><br />
-        1) Available to Private and Blue Business Fleet customers who have not reached 105,000km/7 years only at participating Dealers. State Auto Club Roadside Assistance & Membership is provided at no cost for 12 months or until your next eligible standard service (whichever occurs first). Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms9" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
+        1) Available to Private and Blue Business Fleet customers who have not reached 105,000km/7 years only at participating Dealers. State Auto Club Roadside Assistance & Membership is included for 12 months or until your next eligible standard service (whichever occurs first). Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms9" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
         2) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms10" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br /> 
         3) Available at participating Ford Dealers on vehicles built from 2007. Customers will pay equal to or less than the maximum price as published by Ford for the period of the web quote for standard items in the A and B logbook services. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
     

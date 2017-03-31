@@ -1,0 +1,35 @@
+<table align="center" class="resize_table_to_320" width="640" bgcolor="{{.color.backgroundcolor}}" border="0" cellspacing="0" cellpadding="0" style="max-width: 640px;">
+  <tr>
+    <td style="padding:0px; padding-top:0px; padding-left:15px;padding-right:15px" border="1" >
+      <table width="100%" cellpadding="0" border="0">
+          <tr>
+            <td >
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td align="center" class="drop" valign="top">
+                    <table border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+												<td height="40" valign="middle" align="center" bgcolor="{{.color.ctablockbg}}" style="padding-left:20px; padding-right:20px; text-align:center; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px;vertical-align: middle;">
+													{{ .moduleinfo.cta1_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.cta1_link_name }}" target="_blank" title="" style="width:100%; display:block; color:{{.color.ctablocktext}}; text-decoration:none;">{{ .moduleinfo.cta1_text | safeHTML }}</a>
+												</td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td class="drop unit" style="padding-top:20px"  width="5"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="0" height="0" border="0" style="display:block;" /></td>
+                  <td align="center" class="drop" valign="top">
+                    <table border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="40" valign="middle" align="center" style="border:1px solid {{.color.ctaoutline}};padding-left:20px; padding-right:20px; text-align:center; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px;vertical-align: middle;">
+												{{ .moduleinfo.cta2_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.cta2_link_name }}" target="_blank" title="" style="width:100%; display:block; color:{{.color.ctaoutline}}; text-decoration:none;">{{ .moduleinfo.cta2_text | safeHTML }}</a>
+                				</td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+      </table>
+    </td>
+  </tr>
+</table>

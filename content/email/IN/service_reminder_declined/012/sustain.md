@@ -28,6 +28,12 @@ color='''white_ot'''
   cta2_url = '''https://www.india.ford.com/locate-dealer/'''
   cta2_link_name = '''locate_dealer'''
   icon = '''in_edm2_svc_wrench_20160801'''
+  
+[[module]] #Cover 11
+path='email_modules/cover/03'
+color='white'
+
+  copy = '''VIN No: <% ${user.CustomAttribute['VIN']}%><br />Last reported service date: <%${user.CustomAttribute['Last_Reported_Service_Date']}%><br />Last reported mileage: <% ${user.CustomAttribute['Mileage']}%>'''
 
 [[module]] #Service Status No Copy
 path='email_modules/custom/svcstatus_nocopy'

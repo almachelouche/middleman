@@ -1,6 +1,7 @@
 +++
 markets = ["vn"]
 title = '''VN Welcome First 005 EcoSport'''
+draft = true
 
 [[module]]
 path='email_modules/preheader'

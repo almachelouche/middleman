@@ -7,8 +7,8 @@ title = '''Test1'''
 path='email_modules/image/banner'
 color='white'
 
-  image = '''alexingrass''
-  url_link = '''http://www.googl1e.com'''
+  image = '''alexingrass'''
+  url_link = '''http://www.google.com'''
 	
 [[module]]
 path='email_modules/cover/01'
