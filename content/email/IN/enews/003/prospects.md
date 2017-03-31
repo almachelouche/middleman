@@ -40,7 +40,7 @@ title = ''''''
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-https://www.youtube.com/watch?v=xxEWETfxOao
+
   image='''in_edm6_endeavour_video_20170330'''
   url_link='''https://www.youtube.com/watch?v=uDMtpsWlcH4'''
   url_link_name='''ode_to_the_road_image'''
