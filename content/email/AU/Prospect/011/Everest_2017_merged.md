@@ -63,7 +63,7 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
     title='''The unstoppable Ford Everest Trend comes out on top as Drive's 4WD of the year for 2016.'''
     copy=''''''
     cta1_text='''BOOK A TEST DRIVE'''
-    cta1_url='''https://www.ford.com.au/test-drive/'''
+    cta1_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
 		cta1_link_name = '''test1'''
     cta2_text='''LATEST OFFER'''
     cta2_url='''https://www.ford.com.au/latest-offers/melbourne?offer=everest-trend-4wd'''
@@ -80,7 +80,7 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
     cta1_url='''https://www.ford.com.au/latest-offers/melbourne?offer=everest-trend-4wd'''
 		cta1_link_name = '''latestoffer1'''
     cta2_text='''BOOK A TEST DRIVE'''
-    cta2_url='''https://www.ford.com.au/test-drive/'''
+    cta2_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
   	cta2_link_name = '''test1'''
 
 [[module]] #Cover 11
@@ -88,14 +88,14 @@ path='email_modules/cover/03'
 color='''slatescreen'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
-  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Ever wondered what's beyond the horizon? It's time to explore it all with the new Ford Everest. Sand, snow, desert or bush - nothing gets in the way of this powerful performer. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Everest Trend AWD is available at $62,990* Driveaway.</span>'''
+  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Ever wondered what's beyond the horizon? It's time to explore it all with the new Ford Everest. Sand, snow, desert or bush - nothing gets in the way of this powerful performer. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Everest Trend AWD is available at $58,990* Driveaway.</span>'''
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Ever wondered what's beyond the horizon? It's time to explore it all with the new Ford Everest. Sand, snow, desert or bush - nothing gets in the way of this powerful performer. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Everest Trend AWD is available at $62,990* Driveaway.</span>'''
+  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Ever wondered what's beyond the horizon? It's time to explore it all with the new Ford Everest. Sand, snow, desert or bush - nothing gets in the way of this powerful performer. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Everest Trend AWD is available at $58,990* Driveaway.</span>'''
 
 [[module]] #Banner Image
 path = '''email_modules/image/banner_nolink'''
@@ -159,7 +159,7 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
   title='''The service you'll love, guaranteed'''
   copy='''We know that a new car is a big decision <%${user.CustomAttribute['FullName']}%>, so our job isn't done once you pick up your car.<br /><br />With <a href="https://www.ford.com.au/owners/service/calculator?edm" name="calculator1" style="text-decoration:underline; color:#2d96cd;">Ford's Service Price Promise</a>², you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership³ for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program&#8308;, so we can keep you on the road whilst your car is being serviced. After all, that's what service should be. <br /><br />So don't wait. Book a test drive to experience the Ford Everest today.<br /><br />'''
   cta1_text='''BOOK A TEST DRIVE'''
-  cta1_url='''https://www.ford.com.au/test-drive/'''
+  cta1_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
   cta1_link_name = '''moreinfo2'''
 
 [[module]] #Cover 07
@@ -182,10 +182,10 @@ path='email_modules/footer/disclaimer'
 color='white'
 
   text = '''Terms & Conditions
-        <br /> <br />*Limited offer available at participating Dealers while stocks last. Recommended Driveaway price relates to 2017 model year vehicles onwards. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. See <a href="https://www.ford.com.au/latest-offers/" name="latest_offer2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/latest-offers</a> for full details.<br /><br />
+        <br /> <br />* Limited offer available on 2016 plate models at participating Dealers while stocks last. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. See <a href="https://www.ford.com.au/latest-offers/" name="latest_offer2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/latest-offers</a> for full details.<br /><br />
         1. Braked towing capacity when fitted with a Genuine Ford Tow Ball and Tow Pack. Subject to State and Territory Towing Regulations. <br /><br />
         2. Available at participating Ford Dealers on vehicles built from 2007. Customers will pay equal to or less than the maximum price as published by Ford for the period of the web quote for standard items in the A and B logbook service together with selected routine maintenance items. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
-        3. Available to Private and Blue Business Fleet customers who have not reached 105,000km/7 years only at participating Dealers. State Auto Club Roadside Assistance & Membership is provided at no cost for 12 months or until your next eligible standard service (whichever occurs first). Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
+        3. Available to Private and Blue Business Fleet customers who have not reached 105,000km/7 years only at participating Dealers. State Auto Club Roadside Assistance & Membership is included for 12 months or until your next eligible standard service (whichever occurs first). Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
         4. Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
