@@ -74,7 +74,7 @@ path='email_modules/split/01'
 color='lightblue'
 
   title = '''Project Sujal'''
-  copy = '''Scarcity of clean drinking water is one of the biggest issues faced by children of rural India. Click the link below to witness how Ford is saving thousands of children by treating this issue as a core area for community development'''
+  copy = '''Scarcity of clean drinking water is one of the biggest issues facing children in rural India. Discover what Ford is doing to ensure these communities have access to life's most vital resource.'''
   cta1_text = '''WATCH NOW'''
   cta1_url = '''https://youtu.be/1pnin7wzbes'''
   cta1_link_name = '''sujal'''
