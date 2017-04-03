@@ -40,7 +40,7 @@ path='email_modules/split/11'
 color='white'
 
   title = '''Limited time offer'''
-  copy = '''When you come in for service between April 1 and June 31, you'll enjoy a massive 20% off all Ford parts and labour¹.'''
+  copy = '''When you come in for service between April 1 and June 30, you'll enjoy a massive 20% off all Ford parts and labour¹.'''
   image_url = '''https://www.india.ford.com/locate-dealer/'''
   image_link_name = '''locate_dealer_image'''
   image = '''in_edm2_save20_20170105'''
