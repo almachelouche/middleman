@@ -56,12 +56,12 @@ color='white'
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
 color='''white'''    
-	cta1_text = '''LOCATE A DEALER'''
+	cta1_text = '''&nbsp;&nbsp;LOCATE A DEALER&nbsp;&nbsp;'''
 	cta1_url = '''https://www.india.ford.com/locate-dealer/'''
 	cta1_link_name = '''locate_dealer'''
-	cta2_text = '''&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KNOW MORE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'''
-	cta2_url = '''https://www.india.ford.com/suvs/endeavour/'''
-	cta2_link_name = '''endeavour'''
+	cta2_text = '''BOOK A TEST DRIVE'''
+	cta2_url = '''https://www.india.ford.com/suvs/ecosport/features/platinum-edition/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-ecosport.html'''
+	cta2_link_name = '''test_drive'''
   
 [[module]]
 path='email_modules/spacer/default'
