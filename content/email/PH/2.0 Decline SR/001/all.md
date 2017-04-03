@@ -23,11 +23,11 @@ icon='''ph_edm2d_svcwrench_urgent_20170328'''
 
 title = '''Your #Nameplate# needs attention'''
 copy = '''We noticed that you declined an important part of your servicing at your last appointment. Your #Nameplate# may now be unsafe to drive, and that’s got us worried.<br /><br />When you come into a Ford service center, you’re putting your vehicle into the best hands possible. Our trained technicians know the specifics of your Ford vehicle, only use genuine Ford parts and state-of-the-art diagnostic tools. No one else can guarantee that.<br /><br />It's important to book your service today. Just click below to contact #Ford Dealership# (during business hours) or to find your nearest dealer.'''
-cta1_text='''CALL #Dealer Phone Number#'''
-cta1_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''
-cta2_text='''FIND A DEALER'''
-cta2_url='''https://www.ford.co.th/locate-a-dealer/'''
-cta2_url_link_name='''find_dealer'''
+cta1_text='''FIND A DEALER'''
+cta1_url='''https://www.ford.co.th/locate-a-dealer/'''
+cta1_url_link_name='''find_dealer'''
+cta2_text='''CALL #Dealer Phone Number#'''
+cta2_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''
 
 [[module]] #Service Status No Copy
 path='email_modules/custom/svcstatus_nocopy'
