@@ -91,7 +91,8 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
   copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,  <br /><br />
 	It's hard to know what to love most about the Ford Fiesta: the beauty behind its technology or the technology behind its beauty. Either way, it'll give you the ride of your life.</span><br /><br />
 	<span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">
-	Right now, the Ford Fiesta Ambiente Manual is available at $14,740* Driveaway.</span>'''
+	Right now, the Ford Fiesta Ambiente is available at $14,490* Driveaway.</span>'''
+
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
@@ -101,7 +102,7 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
   copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,  <br /><br />
 	The first thing you'll notice about the Ford Fiesta is how good it looks. But as the smarts within shine through, you'll see there's a lot more to this car than meets the eye.</span><br /><br />
 	<span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">
-	Right now, the Ford Fiesta Ambiente Manual is available at $14,740* Driveaway.</span>'''
+	Right now, the Ford Fiesta Ambiente is available at $14,490* Driveaway.</span>'''
 
   [[module]] #Banner Image
 path = '''email_modules/image/banner_nolink'''
@@ -195,7 +196,7 @@ path='email_modules/footer/disclaimer'
 color='white'
 
   text = ''' Terms & Conditions<br /> <br />
-	*Limited offer available on 2016 plate models at participating Dealers while stocks last. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. See <a href="https://www.ford.com.au/latest-offers/" name="latest_offer2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/latest-offers</a> for full details.<br /><br />
+	* Limited offer available on 2016 plate models at participating Dealers while stocks last. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. See <a href="https://www.ford.com.au/latest-offers/" name="latest_offer2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/latest-offers</a> for full details.<br /><br />
 	1. For SYNC® compatibility visit <a href="https://www.ford.com.au/technology/sync/" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/technology/sync</a>.<br /><br />
 	2. Bluetooth® is a registered trademark of Bluetooth SIG Inc., and is used under licence. Some phones not compatible.<br /><br />
 	3. iPod is a trademark of Apple Inc. Requires connection cable, sold separately. Please refer to <a href="https://www.ford.com.au/" name="ford1" style="text-decoration:underline; color:#91a4b1">ford.com.au</a> for compatibility.<br /><br />
