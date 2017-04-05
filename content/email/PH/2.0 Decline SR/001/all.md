@@ -33,7 +33,7 @@ cta2_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''
 path='email_modules/custom/svcstatus_nocopy'
 color='darkblue'
       
-toptitle='''Your #Nameplate#’s Health Status'''
+toptitle='''Your <%${user.CustomAttribute['Model']}%>’s Health Status'''
   segmentAgreen = '''(user.CustomAttribute['Brake'] == null)'''
   segmentAyellow = '''(user.CustomAttribute['Brake'] == 'YBRAKE')'''
   segmentAred = '''(user.CustomAttribute['Brake'] == 'RBRAKE')'''
