@@ -14,7 +14,7 @@ path='email_modules/header/logo'
 color='white'
 
   image = '''white'''
-  url_link = '''https://www.ford.co.ph/'''
+  url_link = '''https://www.ford.com.ph/'''
 
 [[module]] #Cover 06
 path='email_modules/cover/02'
@@ -24,7 +24,7 @@ icon='''ph_edm2d_svcwrench_urgent_20170328'''
 title = '''Your <%${user.CustomAttribute['Model']}%> needs attention'''
 copy = '''We noticed that you declined an important part of your servicing at your last appointment. Your <%${user.CustomAttribute['Model']}%> may now be unsafe to drive, and that’s got us worried.<br /><br />When you come into a Ford service center, you’re putting your vehicle into the best hands possible. Our trained technicians know the specifics of your Ford vehicle, and only use genuine Ford parts and state-of-the-art diagnostic tools. No one else can guarantee that.<br /><br />It's important to book your service today. Just click below to contact <%${user.CustomAttribute['Dealer_Name']}%> (during business hours) or to find your nearest dealer.'''
 cta1_text='''FIND A DEALER'''
-cta1_url='''https://www.ford.co.ph/locate-a-dealer/'''
+cta1_url='''https://www.ford.com.ph/locate-a-dealer/'''
 cta1_url_link_name='''find_dealer'''
 cta2_text='''CALL <%${user.CustomAttribute['Dealer_Phone']}%>'''
 cta2_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''
