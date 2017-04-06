@@ -1,6 +1,6 @@
 +++
 markets = ["Alex"]
-draft = true
+draft = false
 title = '''Test1'''
 
 [[module]] #Banner Image
