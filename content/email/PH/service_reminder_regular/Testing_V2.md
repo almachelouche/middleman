@@ -49,7 +49,7 @@ cta2_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''
 path='email_modules/cover/03'
 
 color='''white'''
-copy='''VIN No: <% ${user.CustomAttribute['VIN']} %><br />Last reported service date: <% ${user.CustomAttribute['Last_Reported_Service_Date']} %><br />Last reported mileage: <% ${user.CustomAttribute['Mileage']} %>'''
+copy='''<span style="color:#b3b3b3;">VIN No: <% ${user.CustomAttribute['VIN']} %><br />Last reported service date: <% ${user.CustomAttribute['Last_Reported_Service_Date']} %><br />Last reported mileage: <% ${user.CustomAttribute['Mileage']} %></span>'''
 
 [[module]] #Custom 01
 path='email_modules/custom/3columntitle3icons'
