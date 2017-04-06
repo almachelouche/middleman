@@ -1,13 +1,13 @@
 +++
 markets = ["Alex"]
-draft = false
+draft = true
 title = '''Test1'''
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
-  image = '''alexingrass''
+  image = '''alexingrass'''
   url_link = '''http://www.google.com'''
 	
 [[module]]
