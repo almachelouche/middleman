@@ -12,7 +12,7 @@ segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
 [[module]]
 path='email_modules/preheaderbefore'
 color='''nothing'''
-segmentelseif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
+segmentelse = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 
 	 preheader = '''Did you forget to visit for maintenance? Book an appointment now.  '''
 
@@ -30,7 +30,7 @@ segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
 [[module]]
 path='email_modules/preheaderafter'
 color='''nothing'''
-segmentelseif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
+segmentelse = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 
 	 preheader = '''Did you forget to visit for maintenance? Book an appointment now.  '''
 
