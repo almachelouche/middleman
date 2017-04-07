@@ -3,10 +3,36 @@ markets = ["ph"]
 title = '''PH Regular Service Reminder_Mail Merge_V2'''
 
 [[module]]
-path='email_modules/preheader'
+path='email_modules/preheaderbefore'
+color='''nothing'''
+segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
+
+	 preheader = ''''''
+
+[[module]]
+path='email_modules/preheaderbefore'
+color='''nothing'''
+segmentelseif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
+
+	 preheader = ''''''
+
+[[module]]
+path='email_modules/body'
 color='''nothing'''
 
-preheader = '''Keep your vehicle in top shape with us. Book your maintenance today.'''
+[[module]]
+path='email_modules/preheaderafter'
+color='''nothing'''
+segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
+
+	 preheader = ''''''
+
+[[module]]
+path='email_modules/preheaderafter'
+color='''nothing'''
+segmentelseif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
+
+	 preheader = ''''''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
