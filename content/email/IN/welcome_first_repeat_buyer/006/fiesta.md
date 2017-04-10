@@ -1,7 +1,7 @@
 +++
 markets = ["in"]
 title = '''IN Welcome 006 Fiesta All'''
-draft = true
+
 
 [[module]]
 path='email_modules/preheaderbefore'
