@@ -21,7 +21,7 @@ color='black'
 
   title = '''Insider'''
   date = '''02 May 2017'''
-  copy = '''IN THIS ISSUE:<br />Ode to the Road | The unstoppable Endeavour | Service Price Promise | Project Sujal'''
+  copy = '''IN THIS ISSUE:<br />Ode to the Road | Service Price Promise | Unstoppable Endeavour | Project Sujal'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
