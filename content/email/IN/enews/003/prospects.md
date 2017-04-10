@@ -6,7 +6,7 @@ title = '''IN Enews 003 Prospects'''
 path='email_modules/preheader'
 color='''white'''
 
-	preheader = '''Welcome to the Insider from Ford. In this newsletter, see the latest promotions and tips tailored just for you. It will inspire you to Go Further.'''
+	preheader = '''In this latest edition of the Insider, we’ll take you through some of the latest happening, events and promotions at Ford.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -28,7 +28,7 @@ path='email_modules/custom/enews_topstory'
 color='white_pb'
 
 title = ''''''
-  copy = '''Welcome to the Insider from Ford. In this newsletter, see the latest promotions and tips tailored just for you. It will inspire you to Go Further.<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Ode to the Road</span><br /><br />For over a century, Ford vehicles have had no love greater than the road itself. So it's only fitting that Ford celebrate with an "Ode to the Road". Check it out! '''
+  copy = '''In this latest edition of the Insider, we’ll take you through some of the latest happening, events and promotions at Ford.<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Ode to the Road</span><br /><br />For over a century, Ford vehicles have had no love greater than the road itself. So it's only fitting that Ford celebrate with an "Ode to the Road". Check it out! '''
   cta1_text = '''WATCH NOW'''
   cta1_url = '''https://www.youtube.com/watch?v=uDMtpsWlcH4'''
   cta1_link_name = '''ode_to_the_road'''
@@ -49,18 +49,6 @@ color='white'
 path='email_modules/split/01'
 color='darkblue'
 
-  title = '''The unstoppable Endeavour'''
-  copy = '''The All-New Endeavour has conquered deserts, mountains and even podiums. This SUV's list of achievements never stops growing. Check out proof of its awesomeness in the video below.'''
-  cta1_text = '''WATCH NOW'''
-  cta1_url = '''https://www.youtube.com/watch?v=UIB_qMtTU54'''
-  cta1_link_name = '''endeavour_video'''
-  cta1_icon = '''more'''
-  image = '''in_edm6_endeavour_video_20170330'''
-
-[[module]] #Split 02
-path='email_modules/split/02'
-color='green'
-
   title = '''Service Price Promise'''
   copy = '''Ever wonder how Ford's Service Price Promise works? Let Mr. Doodles show you how Ford delivers affordable service, without the surprises. '''
   cta1_text = '''LEARN MORE'''
@@ -68,6 +56,21 @@ color='green'
   cta1_link_name = '''spp'''
   cta1_icon = '''more'''
   image = '''in_edm6_spp_20170330'''
+
+[[module]] #Split 02
+path='email_modules/split/02'
+color='green'
+
+  title = '''Unstoppable Endeavour'''
+  copy = '''The All-New Endeavour has conquered deserts, mountains and even podiums. Take a test drive to find out why this SUV's list of achievements never stops growing.'''
+  cta1_text = '''WATCH NOW'''
+  cta1_url = '''https://www.youtube.com/watch?v=UIB_qMtTU54'''
+  cta1_link_name = '''endeavour_video'''
+  cta1_icon = '''more'''
+  cta2_text = '''BOOK A TEST DRIVE'''
+  cta2_url = '''https://www.india.ford.com/suvs/endeavour/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-endeavour.html?campaign=ENFWTDC&intModel=Endeavour&modelCode=EN/'''
+  cta2_link_name = '''endeavour_test_drive'''
+  image = '''in_edm6_endeavour_video_20170330'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
@@ -84,6 +87,12 @@ color='lightblue'
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'
+
+[[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
+color='white'
+
+  text='''*Images and illustrations are for information purposes and are indicative only.'''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
