@@ -21,7 +21,7 @@ color='black'
 
   title = '''Insider'''
   date = '''02 May 2017'''
-  copy = '''IN THIS ISSUE:<br />Ford Figo & Ford Aspire SVP | Ford Figo vs the rest | Service Price Promise SMS |Project Sujal<br />And more'''
+  copy = '''IN THIS ISSUE:<br />Ford Figo & Ford Aspire SVP | Unstoppable Endeavour | Mustang sets hearts racing | Next-Gen Ford Figo<br />And more'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
@@ -41,20 +41,47 @@ title = ''''''
 path='email_modules/split/01'
 color='darkblue'
 
-  title = '''Figo vs the rest'''
-  copy = '''Watch the new Ford Figo's class-leading diesel performance as it is crowned the new king of its segment. Swift, Grand i10 and Bolt are probably feeling a tad slow after this.'''
-  cta1_text = '''READ NOW'''
-  cta1_url = '''https://www.motorbeam.com/2015/12/cars/ford-figo/maruti-swift-vs-ford-figo-vs-hyundai-grand-i10-vs-tata-bolt-shootout/'''
-  cta1_link_name = '''figo_review'''
+  title = '''Unstoppable Endeavour'''
+  copy = '''The All-New Endeavour has conquered deserts, mountains and even podiums. Take a test drive to find out why this SUV's list of achievements never stops growing.'''
+  cta1_text = '''WATCH NOW'''
+  cta1_url = '''https://www.youtube.com/watch?v=UIB_qMtTU54'''
+  cta1_link_name = '''endeavour_video'''
   cta1_icon = '''more'''
-  image = '''in_edm6_figo_review_20170330'''
+  cta2_text = '''BOOK A TEST DRIVE'''
+  cta2_url = '''https://www.india.ford.com/suvs/endeavour/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-endeavour.html?campaign=ENFWTDC&intModel=Endeavour&modelCode=EN/'''
+  cta2_link_name = '''endeavour_test_drive'''
+  image = '''in_edm6_endeavour_video_20170330'''
 
 [[module]] #Split 02
 path='email_modules/split/02'
 color='green'
 
-  title = '''Service Price Promise SMS'''
-  copy = '''Do you know how to access Ford's Service Price Promise Calculator? Let Mr. Doodles show you how it's even easier done than said.'''
+ title = '''Mustang sets hearts racing'''
+  copy = '''Re-live the excitement of Mustang's Grand Tour of India. Icon meets icon as Mustang covers 12,000km and visits some of our Republic's most famous landmarks. '''
+  cta1_text = '''WATCH NOW'''
+  cta1_url = '''https://www.youtube.com/watch?v=HKLV0i5CQpo'''
+  cta1_link_name = '''mustang_tour'''
+  cta1_icon = '''play'''
+  image = '''in_edm6_mustang_tour_20170406'''
+
+[[module]] #Split 01
+path='email_modules/split/01'
+color='lightblue'
+
+ title = '''Experience the Next-Gen Figo'''
+  copy = '''Ford Figo was designed for one thing: FUN. Discover what can happen when you get behind the wheel of a Figo and make the city your personal track. '''
+  cta1_text = '''WATCH NOW'''
+  cta1_url = '''https://www.youtube.com/watch?v=iq0wJIaIR1s'''
+  cta1_link_name = '''figo_video'''
+  cta1_icon = '''play'''
+  image = '''in_edm6_figo_video_20170406'''
+
+[[module]] #Split 02
+path='email_modules/split/02'
+color='darkblue'
+
+  title = '''Ford's Service Price Promise'''
+  copy = '''You've heard about Ford's Service Price Promise. Now calculate the cost of your service even before it reaches the dealership. Follow Mr. Doodles as he takes you through the simple process.'''
   cta1_text = '''WATCH NOW'''
   cta1_url = '''https://www.youtube.com/watch?v=xxEWETfxOao'''
   cta1_link_name = '''spp_sms'''
@@ -63,7 +90,7 @@ color='green'
 
 [[module]] #Split 01
 path='email_modules/split/01'
-color='lightblue'
+color='green'
 
   title = '''Project Sujal'''
   copy = '''Scarcity of clean drinking water is one of the biggest issues facing children in rural India. Discover what Ford is doing to ensure these communities have access to life's most vital resource.'''
