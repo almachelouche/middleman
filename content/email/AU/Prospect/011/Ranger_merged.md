@@ -88,14 +88,14 @@ path='email_modules/cover/03'
 color='''slatescreen'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
-  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Plenty of trucks can boast brute strength. But it's the technology behind the muscle that makes the Ford Ranger a real hero. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Ranger 4x4 XLT Double Cab Pick Up 3.2L Diesel Manual is available at $56,490* Driveaway.</span>'''
+  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Plenty of trucks can boast brute strength. But it's the technology behind the muscle that makes the Ford Ranger a real hero. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Ranger 4x4 XLT Double Cab Pick Up 3.2L Diesel Manual is available at $53,990* Driveaway.</span>'''
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />The Ford Ranger has been tested to the limits to give you a truck that's in its element wherever you are. So when the going gets tough, the tough can get going.<br /><br /><span style="color:#FFFFFF">Right now, the Ford Ranger 4x4 XLT Double Cab Pick Up 3.2L Diesel Manual is available at $56,490* Driveaway.</span>'''
+  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />The Ford Ranger has been tested to the limits to give you a truck that's in its element wherever you are. So when the going gets tough, the tough can get going.<br /><br /><span style="color:#FFFFFF">Right now, the Ford Ranger 4x4 XLT Double Cab Pick Up 3.2L Diesel Manual is available at $53,990* Driveaway.</span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -235,7 +235,7 @@ color='white'
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
   text = '''Terms & Conditions
-        <br /> <br />* Limited offer available at participating Dealers while stocks last. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. See <a href="https://www.ford.com.au/latest-offers/" name="latest_offer2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/latest-offers</a> for full details.<br /><br />
+        <br /> <br />* Limited offer available on 2016 plate models at participating Dealers while stocks last. Recommended offer price only. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. Ford Australia and Ford Dealers reserve the right to further reduce recommended prices, or otherwise change or extend these offers. See <a href="https://www.ford.com.au/" name="ford2" style="text-decoration:underline; color:#91a4b1">ford.com.au</a> for full details. Features and Recommended Driveaway price relate to 2017 model year vehicles onwards.<br /><br />
         1. Braked towing capacity when fitted with a genuine Ford towpack and towball. Subject to State and Territory regulations.<br /><br />
         2. Achieved when maintaining a steady speed of not more than 7km per hour.<br /><br />
         3. Buetooth® is a registered trademark of Bluetooth SIG Inc., and is used under licence. Some phones not compatible.'''
@@ -246,12 +246,12 @@ color='white'
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
   text = '''Terms & Conditions
-        <br /> <br />* Limited offer available at participating Dealers while stocks last. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. See <a href="https://www.ford.com.au/latest-offers/" name="latest_offer3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/latest-offers</a> for full details.<br /><br />
+        <br /> <br />* Limited offer available on 2016 plate models at participating Dealers while stocks last. Recommended offer price only. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. Ford Australia and Ford Dealers reserve the right to further reduce recommended prices, or otherwise change or extend these offers. See <a href="https://www.ford.com.au/" name="ford2" style="text-decoration:underline; color:#91a4b1">ford.com.au</a> for full details. Features and Recommended Driveaway price relate to 2017 model year vehicles onwards.<br /><br />
         1. Braked towing capacity when fitted with a genuine Ford towpack and towball. Subject to State and Territory regulations.<br /><br />
         2. Achieved when maintaining a steady speed of not more than 7km per hour.<br /><br />
         3. Buetooth® is a registered trademark of Bluetooth SIG Inc., and is used under licence. Some phones not compatible.<br /><br />
         4. Available at participating Ford Dealers on vehicles built from 2007. Customers will pay equal to or less than the maximum price as published by Ford for the period of the web quote for standard items in the A and B logbook services. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms1"  style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
-        5. Private and Blue Business Fleet customers who have not reached 105,000km/7 years only at participating Dealers. State Auto Club Roadside Assistance & Membership is included for 12 months or until your next eligible standard service (whichever occurs first). Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms2"  style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
+        5. Private and Blue Business Fleet customers who have not reached 105,000km/7 years only at participating Dealers. State Auto Club Roadside Assistance & Membership is provided at no cost for 12 months or until your next eligible standard service (whichever occurs first). Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms2"  style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
         6. Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="http://www.ford.com.au/owners/service/t-and-c/" name="terms3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
 
 
