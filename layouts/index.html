@@ -17,17 +17,20 @@
         <thead class="sticky">
           <th><img src="{{ .Site.BaseURL }}img/gtb.png" width="75"></th>
 					<th></th>
-					<th></th>
         </thead>
-				<thead class="sticky">
-          <th>Market</th>
-          <th>HTML</th>
-          <th>Text</th>
         </thead>
         <tbody>
+					<tr style="background-color:#53575c;">
+						<td>
+							<p align=center>Market</p>
+						</td>
+						<td>
+							<p>HTML</p>
+						</td>
+					</tr>
           {{ range $key, $taxonomy := .Site.Taxonomies.markets }}
           <tr id="{{ $key }}">
-            <td> {{ $key }} </td>
+            <td> {{ upper $key }} </td>
             <td>
               <ul>
                 {{ range $taxonomy.Pages }}
