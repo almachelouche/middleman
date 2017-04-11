@@ -28,7 +28,7 @@ path='email_modules/custom/enews_topstory'
 color='white_pb'
 
 title = ''''''
-  copy = '''Welcome to the Insider from Ford. In this newsletter, see the latest promotions and tips tailored just for you. It will inspire you to Go Further.<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Service Price Promise SMS</span><br /><br />Do you know how to access Ford's Service Price Promise Calculator? Let Mr. Doodles show you how it's even easier done than said'''
+  copy = '''This latest edition of the Insider will take you through some of the latest happening and events and promotions at Ford.<br /> Also read our helpful article below on how to keep your children comfortable and happy in the car, for everyone's safety.<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Ford’s Service Price Promise!</span><br /><br />Heard about Ford's Service Price Promise? It will help you calculate the cost of your service even before it reaches the dealership. Follow Mr. Doodles as he takes you through the simple process.'''
   cta1_text = '''WATCH NOW'''
   cta1_url = '''https://www.youtube.com/watch?v=xxEWETfxOao'''
   cta1_link_name = '''svc_sms'''
@@ -50,12 +50,12 @@ path='email_modules/split/02'
 color='green'
 
   title = '''Tips for child safety'''
-  copy = '''Children can be restless passengers, and that can distract drivers. Read our helpful article to learn how to keep your children comfortable and happy in the car, for everyone's safety.'''
+  copy = '''Children are more likely to be bored, hungry or just wanting to get outside and play, when in the car for too long. Read on some ways to keep them safe, comfortable and happy in the car.'''
   cta1_text = '''READ NOW'''
   cta1_url = '''https://www.at.ford.com/en/homepage/news-and-clipsheet/news/2017/1/travelling-with-kids-in-the-car--heres-a-survival-guide.html'''
   cta1_link_name = '''checklist_new_driver'''
   cta1_icon = '''more'''
-  image = '''in_edm6_child_safety_20170330'''
+  image = '''in_edm6_child_tips_20170406'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
@@ -130,6 +130,12 @@ color='''white'''
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'
+
+[[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
+color='white'
+
+  text='''*Images and illustrations are for information purposes and are indicative only.'''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'

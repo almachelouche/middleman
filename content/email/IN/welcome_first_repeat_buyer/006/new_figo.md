@@ -1,6 +1,6 @@
 +++
 markets = ["in"]
-title = '''IN Welcome 006 Endeavour Awards'''
+title = '''IN Welcome 006 New Figo All'''
 
 
 [[module]]
@@ -62,25 +62,7 @@ segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''in_edm1&4_np_endeavour_20160801'''
-
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
-  image = '''in_edm1&4_endeavour_awards_20170223'''
-
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
-
-[[module]]
-path='email_modules/singles/copy'
-color='''white'''
-	
-	copy = '''The All-New Endeavour has conquered deserts, mountains and now the podiums. You’re driving an SUV that has a list of extraordinary achievements and it never stops growing.'''
+  image = '''in_edm1&4_np_figo_20160801'''
 
 [[module]] #Cover 01
 path='email_modules/cover/01'
@@ -96,7 +78,7 @@ segmentif = ["(user.CustomAttribute['EWStatus'] == 'NO')"]
 
 
   title = '''Extended Peace of Mind'''
-  copy = '''Extend your Ford Endeavour's warranty up to 3 years and enjoy worry-free driving. Your warranty protects your Ford against mechanical and electrical failures, and labour charges too¹.'''
+  copy = '''Extend your Ford Figo's warranty up to 5 years and enjoy worry-free driving. Your warranty protects your Ford against mechanical and electrical failures, and labour charges too¹.'''
   cta1_text = '''GET PEACE OF MIND'''
   cta1_url = '''https://www.india.ford.com/owner/extended-warranty/'''
   cta1_link_name = '''warranty_info'''
@@ -107,12 +89,12 @@ path='email_modules/split/01'
 color='white'
 
   title = '''Time to Accessorise'''
-  copy = '''Make your Ford Endeavour your own, with Ford Genuine Accessories that define your style. From the nudge bar to the body graphics - customise your Ford with us.'''
+  copy = '''Make your Ford Figo your own, with Ford Genuine Accessories that define your style. From the chrome kit to the rear spoiler - customise your Ford with us.'''
   cta1_text = '''MAKE IT YOURS'''
-  cta1_url = '''https://www.india.ford.com/suvs/endeavour/accessories/'''
-  cta1_link_name = '''endeavour_exterior'''
+  cta1_url = '''https://www.india.ford.com/cars/figo/accessories/'''
+  cta1_link_name = '''figo_exterior'''
   cta1_icon = '''more'''
-  image = '''in_edm1_acc_endeavour_20160801'''
+  image = '''in_edm1_acc_figo_20160801'''
 
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
@@ -132,6 +114,7 @@ color='black'
 [[module]] #Dual 04
 path='email_modules/dual/04'
 color='white'
+segmentif = ["(user.CustomAttribute['SYNC_Available'] == 'YES')"]
 
   title1 = '''Owner Manual'''
   copy1 = '''Download your Owner Manual on your device for access anytime anywhere. '''
@@ -146,7 +129,7 @@ color='white'
   cta1c_link_name = ''''''
   icon1 = '''in_edm1_ownermannual_20160801'''
   title2 = '''Get In SYNC<sup style="font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;">®</sup>'''
-  copy2 = '''Your Ford Endeavour comes with Ford SYNC<sup style="font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;">®</sup> for hands-free control while you drive. '''
+  copy2 = '''Your Ford Figo comes with Ford SYNC<sup style="font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;">®</sup> for hands-free control while you drive. '''
   cta2a_text = '''<br /><br />LEARN ABOUT SYNC</a><sup style="font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; color:#2d96cd; top: -0.5em;text-decoration:none">®</sup>'''
   cta2a_url = '''https://www.india.ford.com/sync/'''
   cta2a_link_name = '''sync'''
@@ -157,6 +140,20 @@ color='white'
   cta2c_url = ''''''
   cta2c_link_name = ''''''
   icon2 = '''in_edm1_sync_20160801'''
+
+  [[module]]
+path='email_modules/cover/01'
+color='white'
+segmentelse = ["yes"]
+
+
+  icon='''in_edm1_ownermannual_20160801'''
+  title='''Owner Manual'''
+  copy='''Download your Owner Manual on your device for access anytime anywhere. '''
+  cta1_url='''https://www.india.ford.com/owner/owner-manual/'''
+  cta1_link_name = '''owner_manual_2'''
+  cta1_text='''DOWNLOAD NOW'''
+  cta1_icon='''more'''
 
 [[module]] #Footer 4 Icons
 path='email_modules/footer/4icons'

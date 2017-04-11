@@ -1,6 +1,8 @@
 +++
 markets = ["in"]
 title = '''IN Welcome 004 New Figo All'''
+draft = true
+
 [[module]]
 path='email_modules/preheaderbefore'
 color='''nothing'''
