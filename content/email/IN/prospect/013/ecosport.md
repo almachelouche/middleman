@@ -6,7 +6,7 @@ title = '''IN Prospect 013 EcoSport'''
 path='email_modules/preheader'
 color='''nothing'''
 
-	preheader = '''Get a 7.99 percent interest rate, exchange bonus of 15,000 rupees and more on Ford cars. When you purchase a Ford, you aren't just buying a great vehicle – you become our Family. And family always gets the most irresistible and amazing deals.'''
+	preheader = '''Get a 7.99 percent interest rate, exchange bonus of 15,000 rupees and more on Ford EcoSport. When you purchase a Ford, you aren't just buying a great vehicle – you become our Family. And family always gets the most irresistible and amazing deals.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -31,7 +31,13 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 	
-	copy = '''When you purchase a Ford, you aren't just buying a great vehicle – you become our Family. And family always gets the most irresistible and amazing deals.<br /><br />Get a <span style="font-weight:bold">7.99% interest rate</span>, a &#8377;4,000 <span style="font-weight:bold">cash discount</span>, and an <span style="font-weight:bold">exchange bonus</span> of &#8377;15,000 on all our award-winning cars. But do it quick. Offer ends April 30th.*'''
+	copy = '''When you purchase a Ford, you aren't just buying a great vehicle – you become our Family. And family always gets the most irresistible and amazing deals.<br /><br />Get a <span style="font-weight:bold">7.99% interest rate</span>, a &#8377;4,000 <span style="font-weight:bold">cash discount</span>, and an <span style="font-weight:bold">exchange bonus</span> of &#8377;15,000 on Ford EcoSport. But do it quick. Offer ends April 30th.*'''
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
 
 [[module]]
 path='email_modules/singles/2ctablock'
