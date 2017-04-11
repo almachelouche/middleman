@@ -32,7 +32,7 @@ color='white'
 path='email_modules/singles/title'
 color='''white_ot'''
 	
-	title = '''Your Ford <%${user.CustomAttribute['Model']}%> needs attention'''
+	title = '''Your Ford <%${user.CustomAttribute['Model']}%>'s <%${user.CustomAttribute[' BTBPriority ']}%> needs attention'''
     
 [[module]]
 path='email_modules/spacer/default'
