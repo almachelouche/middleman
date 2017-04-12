@@ -6,7 +6,7 @@ title = '''IN Prospect 013 Aspire&Figo'''
 path='email_modules/preheader'
 color='''nothing'''
 
-	preheader = '''Get a 7.99 percent interest rate, exchange bonus of 15,000 rupees and more on Ford cars. When you purchase a Ford, you aren't just buying a great vehicle – you become our Family. And family always gets the most irresistible and amazing deals.'''
+	preheader = '''Get a 7.99% interest rate, a cash discount, and an exchange bonus of ₹15,000*. Offer ends April 30th*.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -113,7 +113,7 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-  text = '''*Terms & conditions Apply. <br /><br />1. All Prices shown are ex-showroom Delhi for Next-Gen Figo Base Petrol, Ford Aspire Ambiente Petrol. <br /><br />2. Interest rate of 7.99% is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.<br /><br />3. Next-Gen Figo - &#8377;5,000 cash benefit + Exchange Bonus is valid only on select variants. &#8377;10,000 cash benefit + Exchange Bonus is valid only on select variants of Ford Aspire. <br /><br />4. Exchange bonus will be &#8377;20,000/- on exchange of Ford Car and &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners. <br /><br />5. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment. <br /><br />6. This offer is applicable for booking done between 1st April 2017 to 30th April 2017 with full payment on or before April 30, 2017. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer. '''
+  text = '''*Terms & conditions Apply. <br /><br />1. All Prices shown are ex-showroom Delhi for Next-Gen Figo Base Petrol, Ford Aspire Ambiente Petrol. <br /><br />2. Interest rate of 7.99% is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit. The Offer is not applicable for Jammu and Kashmir.<br /><br />3. Next-Gen Figo - &#8377;5,000 cash benefit + Exchange Bonus is valid only on select variants. &#8377;10,000 cash benefit + Exchange Bonus is valid only on select variants of Ford Aspire. <br /><br />4. Exchange bonus will be &#8377;20,000/- on exchange of Ford Car and &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners. <br /><br />5. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment. <br /><br />6. This offer is applicable for booking done between 1st April 2017 to 30th April 2017 with full payment on or before April 30, 2017. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer. '''
   
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
