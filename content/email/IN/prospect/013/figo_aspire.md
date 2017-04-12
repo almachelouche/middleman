@@ -6,7 +6,7 @@ title = '''IN Prospect 013 Aspire&Figo'''
 path='email_modules/preheader'
 color='''nothing'''
 
-	preheader = '''Get a 7.99% interest rate, a cash discount, and an exchange bonus of ₹15,000*. Offer ends April 30th*.'''
+	preheader = '''Get a 7.99% interest rate, a cash discount, and an exchange bonus of ₹15,000*. Offer ends April 30th.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
