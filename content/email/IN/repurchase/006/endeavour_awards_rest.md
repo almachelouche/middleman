@@ -1,6 +1,6 @@
 +++
 markets = ["in"]
-title = '''IN Repurchase 006 Endeavour Awards'''
+title = '''IN Repurchase 006 rest'''
 
 [[module]]
 path='email_modules/preheader'
