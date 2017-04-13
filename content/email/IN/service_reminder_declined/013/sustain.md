@@ -19,7 +19,7 @@ color='white_pb'
 path='email_modules/singles/icon'
 color='''white'''
 	
-	icon = '''in_edm2_svc_wrench_20160801'''
+	icon = '''in_edm2_svc_wrench_urgent_20160801'''
     
 [[module]]
 path='email_modules/spacer/default'
@@ -32,7 +32,7 @@ color='white'
 path='email_modules/singles/title'
 color='''white_ot'''
 	
-	title = '''Your Ford <%${user.CustomAttribute['Model']}%>'s <%${user.CustomAttribute[' BTBPriority ']}%> needs attention'''
+	title = '''Your Ford <%${user.CustomAttribute['Model']}%>'s <%${user.CustomAttribute['BTBPriority']}%> needs attention'''
     
 [[module]]
 path='email_modules/spacer/default'
@@ -63,7 +63,7 @@ path='email_modules/singles/2ctablock'
 color='''white'''
 
   cta1_text = '''GET A CALLBACK'''
-  cta1_url = '''https://www.india.ford.com/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking/'''
+  cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
   cta1_link_name = '''callback'''
   cta2_text = '''FIND A DEALER'''
   cta2_url = '''https://www.india.ford.com/locate-dealer/'''
