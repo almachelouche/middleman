@@ -18,12 +18,13 @@
 {{- $thaikingblack := .Site.Data.emails.thaikingblack -}}
 {{- $thaikingwhite := .Site.Data.emails.thaikingwhite -}}
 {{- $thaikinggrey := .Site.Data.emails.thaikinggrey -}}
+{{- $white_india := .Site.Data.emails.white_india -}}
 {{/* end defining of variables for colors, new colors require a new varible here as well as another if statement below */}}
 
 {{ range .Params.module }} {{/* ranges through the [[modules]] in the template file */}}
-{{"<!--" | safeHTML}}{{ .path }} {{"starts-->" | safeHTML}} {{/* places a comment into the html file to show when a module begins */}}
+{{"<!--" | safeHTML}}{{ .path }}{{.color}} {{"starts-->" | safeHTML}} {{/* places a comment into the html file to show when a module begins */}}
 {{/* for if segment beginning */}}
-  {{- if ne .segmentif nil -}} 
+  {{- if ne .segmentif nil -}}
     {{- if (gt (len .segmentif) 0) -}}
       {{- $nothing := (delimit .segmentif .segmentifdelimit) -}}
        {{ "<%" | safeHTML }}InsertIf expression="${({{ $nothing }})}" %>
@@ -73,13 +74,15 @@
   {{- else if eq .color "green_pb" -}}
     {{partial .path (dict "moduleinfo" . "color" $green_pb)}}
   {{- else if eq .color "white_pb" -}}
-    {{partial .path (dict "moduleinfo" . "color" $white_pb)}} 
+    {{partial .path (dict "moduleinfo" . "color" $white_pb)}}
   {{- else if eq .color "white_gt" -}}
     {{partial .path (dict "moduleinfo" . "color" $white_gt)}}
   {{- else if eq .color "white_octa" -}}
     {{partial .path (dict "moduleinfo" . "color" $white_octa)}}
   {{- else if eq .color "nothing" -}}
     {{partial .path (dict "moduleinfo" . "color" $black)}}
+  {{- else if eq .color "white_india" -}}
+    {{partial .path (dict "moduleinfo" . "color" $white_india)}}
   {{- else -}}
     <p style="text-align:center">{{.color}} is not a valid color for module with path: {{.path}}</p>
   {{- end -}}
