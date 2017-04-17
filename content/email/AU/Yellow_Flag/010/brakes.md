@@ -38,7 +38,7 @@ color='darkblue'
 
   toptitle='''Your current brakes status'''
   icon1='''au_edm2d_brake1_20161115'''
-  title1='''Good <br />to go<br /><br />'''
+  title1='''Good <br />to go<br />'''
   copy1='''<br /><br />Brake Lining: <br />Over 5mm (Disc) <br />or over 2mm (Drum)'''
   icon2='''au_edm2d_brake3_20161115'''
   title2='''May need replacing <br />before next scheduled service '''
