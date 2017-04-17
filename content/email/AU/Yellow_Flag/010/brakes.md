@@ -49,7 +49,7 @@ color='darkblue'
 	
 [[module]] #Cover 01
 path='email_modules/cover/01'
-color='white
+color='white'
 
   icon = '''in_edm2d_status_battery_black_20160801'''
   title = '''No one knows your Ford like we do'''
