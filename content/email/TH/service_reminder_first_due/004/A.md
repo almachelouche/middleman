@@ -21,18 +21,34 @@ path='email_modules/cover/02'
 
 color='''white'''
 icon='''th_edm2_svc_wrench_20160801'''
-title='''<span style="font-family:Tahoma, Verdana, Sans-serif">เวลาที่คุณเพลิดเพลิน ผ่านไปเร็วเสมอ</span>'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />ถึงเวลาพารถ <%${user.CustomAttribute['Model']}%> ของคุณไปตรวจเช็คระยะครั้งแรกแล้ว รับรองว่ารวดเร็วและครบครัน ให้คุณมั่นใจว่ารถ <%${user.CustomAttribute['Model']}%> ของคุณจะพร้อมสำหรับทุกการเดินทาง ไปกับศูนย์บริการฟอร์ดทั่วประเทศ
+title='''<span style="font-family:Tahoma, Verdana, Sans-serif">
+            <span style="white-space:nowrap;">เวลาที่คุณเพลิดเพลิน</span>
+            <span style="white-space:nowrap;">ผ่านไปเร็วเสมอ</span>
+          </span>'''
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></span><br /><br />
+
+<span style="font-family:Tahoma, Verdana, Sans-serif">
+            <span style="white-space:nowrap;">ถึงเวลาพารถ <%${user.CustomAttribute['Model']}%></span> 
+            <span style="white-space:nowrap;">ของคุณไปตรวจเช็คระยะครั้งแรกแล้ว</span> 
+            <span style="white-space:nowrap;">รับรองว่ารวดเร็วและครบครัน</span> 
+            <span style="white-space:nowrap;">ให้คุณมั่นใจว่ารถ <%${user.CustomAttribute['Model']}%></span> 
+            <span style="white-space:nowrap;">ของคุณจะพร้อมสำหรับทุกการเดินทาง</span> 
+            <span style="white-space:nowrap;">ไปกับศูนย์บริการฟอร์ดทั่วประเทศ</span>
+</span>
 <br /><br />
+<span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style="white-space:nowrap;">บริการใหม่!! ฟอร์ดเพิ่มความสะดวกสบาย</span>
-<span style="white-space:nowrap;">ให้คุณสามารถนัดหมายเช็คระยะที่ศูนย์บริการฟอร์ดง่ายๆ</span>
+<span style="white-space:nowrap;">ให้คุณสามารถนัดหมายเช็คระยะ</span>ที่<span style="white-space:nowrap;">ศูนย์บริการฟอร์ดง่ายๆ</span>
 <span style="white-space:nowrap;">ผ่านระบบ Online Booking ตลอด 7 วัน</span><br />
 <span style="white-space:nowrap;">พร้อมการรับประกันเช็คระยะภายใน 60  นาที</span>
-<span style="white-space:nowrap;">หากไม่ทัน</span>
-<span style="white-space:nowrap;">คุณจะได้รับบริการเช็คระยะครั้งนั้น "ฟรีทันที"</span></span>'''
+<span style="white-space:nowrap;">หากไม่ทัน</span><br />
+<span style="white-space:nowrap;">คุณจะได้รับบริการเช็คระยะครั้งนั้น</span> 
+<span style="white-space:nowrap;">"ฟรีทันที"</span>
+</span>'''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหมายตอนนี้</span>'''
 cta1_url='''https://onlinebooking.ford.co.th/'''
 cta1_link_name = '''book_now'''
+
 
 [[module]] #Custom 01
 path='email_modules/custom/3columntitle3icons'
