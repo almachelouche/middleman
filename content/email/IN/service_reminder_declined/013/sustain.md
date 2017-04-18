@@ -71,7 +71,7 @@ color='''white'''
 
 [[module]] #Service Status No Copy
 path='email_modules/custom/svcstatus_nocopy'
-color='white'
+color='white_india'
       
       toptitle='''Your Ford <%${user.CustomAttribute['Model']}%>'s Health Status'''
   segmentAgreen = '''(user.CustomAttribute['Brake'] == 'G')'''
