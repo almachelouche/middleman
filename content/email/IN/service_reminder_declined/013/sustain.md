@@ -41,7 +41,7 @@ color='white'
 	height="30" 
 
 [[module]] #Cover 11
-path='email_modules/cover/03'
+path='email_modules/singles/copy'
 color='white'
 
   copy = '''VIN No: <% ${user.CustomAttribute['VIN']}%><br />Last reported service date: <%${user.CustomAttribute['Last_Reported_Service_Date']}%><br />Last reported mileage (Kms): <% ${user.CustomAttribute['Mileage']}%>'''
