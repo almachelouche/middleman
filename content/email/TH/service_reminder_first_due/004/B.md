@@ -1,7 +1,6 @@
 +++
 markets = ["th"]
 title = '''TH Service Reminder First Due 004 UPC'''
-draft = true
 
 [[module]]
 path='email_modules/preheader'
@@ -21,17 +20,27 @@ path='email_modules/cover/02'
 
 color='''white'''
 icon='''th_edm2_svc_wrench_20160801'''
-title='''<span style="font-family:Tahoma, Verdana, Sans-serif">เวลาที่คุณเพลิดเพลิน ผ่านไปเร็วเสมอ</span>'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br /><span style="white-space:nowrap;">ฟอร์ดขอแจ้งให้คุณทราบว่า</span><span style="white-space:nowrap;">รถคันใหม่ของคุณ</span> 
-<span style="white-space:nowrap;"> ถึงกำหนดตรวจเช็คระยะครั้งแรกแล้ว</span> 
-<span style="white-space:nowrap;"> เนื่องจากรถใหม่ทุกคัน</span><span style="white-space:nowrap;">จะมีระยะในการปรับสภาพ</span><span style="white-space:nowrap;">การทำงานของรถ</span>
-<span style="white-space:nowrap;"> เมื่อออกจากโชว์รูม</span><span style="white-space:nowrap;">ไปวิ่งบนท้องถนน</span> 
-<span style="white-space:nowrap;"> ซึ่งบริการนี้</span><span style="white-space:nowrap;">เป็นเพียงการตรวจสอบ</span> 
-<span style="white-space:nowrap;"> เพื่อให้แน่ใจว่ารถของคุณ</span> 
-<span style=" white-space:nowrap;"> ทำงานอย่างเต็มสมรรถนะ</span><br /><br />
-<span style="white-space:nowrap;">นัดหมายล่วงหน้าเพื่อเข้ารับบริการได้ทันที</span> <br />
-<span style="white-space:nowrap;">ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%></span> <span style="white-space:nowrap;">(ระหว่างเวลาทำการ)</span><br />
-<span style="white-space:nowrap;">หรือค้นหาตัวแทนจำหน่ายใกล้บ้านคุณ</span></span>'''
+title='''<span style="font-family:Tahoma, Verdana, Sans-serif">
+            <span style="white-space:nowrap;">เวลาที่คุณเพลิดเพลิน</span>
+            <span style="white-space:nowrap;">ผ่านไปเร็วเสมอ</span>
+          </span>'''
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></span><br /><br />
+ <span style="font-family:Tahoma, Verdana, Sans-serif">
+            <span style="white-space:nowrap;">ฟอร์ดขอแจ้งให้คุณทราบว่า</span><span style="white-space:nowrap;">รถคันใหม่ของคุณ</span> <br />
+            <span style="white-space:nowrap;">ถึงกำหนดตรวจเช็คระยะครั้งแรกแล้ว</span> <br />
+            <span style="white-space:nowrap;">เนื่องจากรถใหม่ทุกคัน</span>จะ<span style="white-space:nowrap;">มีระยะในการปรับสภาพ</span><br />
+            <span style="white-space:nowrap;">การทำงานของรถ</span>
+            <span style="white-space:nowrap;">เมื่อออกจากโชว์รูมไปวิ่งบนท้องถนน</span> <br />
+            <span style="white-space:nowrap;">ซึ่งบริการนี้เป็นเพียงการตรวจสอบ</span> 
+            <span style="white-space:nowrap;">เพื่อให้แน่ใจว่ารถของคุณ</span><br />
+            <span style=" white-space:nowrap;">ทำงานอย่างเต็มสมรรถนะ</span>
+          </span><br /><br />
+<span style="font-family:Tahoma, Verdana, Sans-serif"> 
+            <span style="white-space:nowrap;">นัดหมายล่วงหน้าเพื่อเข้ารับบริการได้ทันที</span> <br />
+            <span style="white-space:nowrap;">ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%></span> 
+            <span style="white-space:nowrap;">(ระหว่างเวลาทำการ)</span><br />
+            <span style="white-space:nowrap;">หรือค้นหาตัวแทนจำหน่ายใกล้บ้านคุณ</span>
+          </span>'''
 
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">โทร <%${user.CustomAttribute['Dealer_Phone']}%></span>'''
 cta1_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''

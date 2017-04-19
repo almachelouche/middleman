@@ -1,7 +1,7 @@
 +++
 markets = ["th"]
 title = '''TH Service Reminder Regular Due 004 UPC'''
-draft = true
+
 
 [[module]]
 path='email_modules/preheader'
@@ -23,14 +23,19 @@ path='email_modules/cover/02'
 color='''white'''
 icon='''th_edm2_svc_wrench_20160801'''
 title='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">ได้เวลาเช็คสภาพรถของคุณแล้ว</span></span>'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></span><br /><br /><span style="white-space:nowrap;">รถ <%${user.CustomAttribute['Model']}%> ของคุณได้เวลาตรวจเช็คระยะแล้ว</span><span style="white-space:nowrap;"> ที่ศูนย์บริการฟอร์ด</span><br />
-<span style="white-space:nowrap;">เรามีช่างผู้ชำนาญงานของฟอร์ด</span>ที่<span style="white-space:nowrap;">พร้อมดูแลรถยนต์ของคุณ</span><br />
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />
+
+<span style="white-space:nowrap;">รถ <%${user.CustomAttribute['Model']}%> ของคุณได้เวลาตรวจเช็คระยะแล้ว</span>
+<span style="white-space:nowrap;"> ที่ศูนย์บริการฟอร์ด</span>
+<span style="white-space:nowrap;">เรามีช่างผู้ชำนาญงานของฟอร์ด</span><br />
+<span style="white-space:nowrap;">ที่พร้อมดูแลรถยนต์ของคุณ</span>
 <span style="white-space:nowrap;">ให้อยู่ในสภาพสมบูรณ์ทุกเมื่อ</span>
 <br /><br />
- <span style="white-space:nowrap;"><span style="white-space:nowrap;">เช็คระยะครั้งถัดไปวันที่ :  <strong><% ${user.CustomAttribute['NextServiceDate']} %></strong></span></span> 
+<span style="white-space:nowrap;">เช็คระยะครั้งถัดไปวันที่ :  <strong><% ${user.CustomAttribute['NextServiceDate']} %></strong></span> 
 <br /><br />
 <span style="white-space:nowrap;">นัดหมายล่วงหน้าเพื่อเข้ารับบริการได้ทันที</span> <br />
-<span style="white-space:nowrap;">ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%></span> <span style="white-space:nowrap;">(ระหว่างเวลาทำการ)</span><br />
+<span style="white-space:nowrap;">ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%></span>
+<span style="white-space:nowrap;">(ระหว่างเวลาทำการ)</span><br />
 <span style="white-space:nowrap;">หรือค้นหาตัวแทนจำหน่ายใกล้บ้านคุณ</span></span>'''
 
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">โทร <%${user.CustomAttribute['Dealer_Phone']}%></span>'''
