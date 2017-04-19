@@ -3,12 +3,8 @@
 <body bgcolor="#53575c">
   <div class="page-wrap">
     <div class="sidebar">
-      <ul>
-        <li><a href="/#au">AU</a></li>
-        <li><a href="/#in">IN</a></li>
-        <li><a href="/#ph">PH</a></li>
-        <li><a href="/#th">TH</a></li>
-        <li><a href="/#vn">VN</a></li>
+      <ul>{{ range $key, $taxonomy := .Site.Taxonomies.markets }}
+        <li><a href="/#{{$key}}">{{ upper $key }}</a></li>{{ end }}
         <li><a href="/#Modules">Modules</a></li>
         <li><a href="{{ .Site.BaseURL }}ascii/ascii.html">ASCII Symbols</a></li>
       </ul>
