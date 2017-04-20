@@ -46,7 +46,7 @@ cta2_url_link_name='''find_dealer'''
 
 [[module]] #Service Status No Copy
 path='email_modules/custom/svcstatus_nocopy'
-color='darkblue'
+color='white'
       
       toptitle='''<span style="font-family:Tahoma, Verdana, Sans-serif">ผลตรวจเช็ค <%${user.CustomAttribute['Model']}%> ของคุณ ครั้งหลังสุด</span>'''
   segmentAgreen = '''(user.CustomAttribute['Brake'] == null)'''
