@@ -100,11 +100,11 @@ color='white'
 
   title = ''''''
   icon1 = '''th_edm6_tyre_20170113'''
-  text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Goodyear tyres offer</span><br /><br />Buy 3 tyres, get 1 free. Plus, pay 0% interest for six months with a K Bank credit card.</span>'''
+  text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Goodyear tyres<br />offer</span><br /><br />Buy 3 tyres, get 1 free. Plus, pay 0% interest for six months with a K Bank credit card.</span>'''
   icon2 = '''th_edm6_battery_20170113'''
-  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Genuine Ford batteries</span><br /><br />Engineered specifically for Ford vehicles. Enjoy top quality at a competitive price.</span>'''
+  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Genuine Ford<br />batteries</span><br /><br />Engineered specifically for Ford vehicles. Enjoy top quality at a competitive price.</span>'''
   icon3 = '''th_edm6_brake_20170113'''
-  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Motorcraft brake pads</span><br /><br />Recommended by Ford, Motorcraft brakes deliver exceptional value and uncompromising quality.</span>'''
+  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Motorcraft brake<br />pads</span><br /><br />Recommended by Ford, Motorcraft brakes deliver exceptional value and uncompromising quality.</span>'''
 
 [[module]]
 path='email_modules/singles/ctablock'
