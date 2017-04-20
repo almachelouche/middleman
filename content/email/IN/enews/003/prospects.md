@@ -41,7 +41,7 @@ title = ''''''
 path='email_modules/image/banner'
 color='white'
 
-  image='''in_edm6_ford_safety_20170420'''
+  image='''in_edm6_airbag_20170420'''
   url_link='''https://www.india.ford.com/safety/'''
   url_link_name='''ford_safety_image'''
 
