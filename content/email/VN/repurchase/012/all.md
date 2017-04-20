@@ -32,6 +32,12 @@ cta1_url='''https://www.ford.com.vn/promotion-corner/2017/hot-deal-1/'''
 cta1_link_name = '''retail_campaign'''
 
 
+ [[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+
+  image = '''vn_edm5_roadshow_event_20170420'''
+  
 [[module]]
 path='email_modules/cover/02'
 
@@ -42,11 +48,6 @@ cta1_text='''SEE EVENT DATES'''
 cta1_url='''https://www.ford.com.vn/about/news-events/2017/article-3/'''
 cta1_link_name = '''roadshow'''
 
- [[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
-  image = '''vn_edm5_roadshow_event_20170420'''
 
 [[module]] #Split 02
 path='email_modules/split/02'
