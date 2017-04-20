@@ -49,7 +49,7 @@ path='email_modules/split/02'
 color='green'
 
   title = '''Make ownership easy'''
-  copy = '''Find everything you need to simplify owning a Ford vehicle on our website, including helpful info on: <ul style="margin: 20px; padding: 0;"><li><a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:none; color:#FFFFFF;">Warranties</a></li><li><a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:none; color:#FFFFFF;">Vehicle Maintenance</a></li><li><a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:none; color:##FFFFFF;">Expert Service</a></li><li><a href="https://www.ford-korea.com/owner/recall-guidance/" name="recall_guidance" style="text-decoration:none; color:#FFFFFF;">Safety Recalls</a></li></ul>'''
+  copy = '''Find everything you need to simplify owning a Ford vehicle on our website, including helpful info on: <ul style="margin: 20px; padding: 0;text-decoration:underline; color:#FFFFFF"><li><a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:none; color:#FFFFFF;">Warranties</a></li><li><a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:none; color:#FFFFFF;">Vehicle Maintenance</a></li><li><a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:none; color:##FFFFFF;">Expert Service</a></li><li><a href="https://www.ford-korea.com/owner/recall-guidance/" name="recall_guidance" style="text-decoration:none; color:#FFFFFF;">Safety Recalls</a></li></ul>'''
   image = '''sk_ford_edm1_greenmodule_20170419'''
 
 [[module]] #Dual 01
