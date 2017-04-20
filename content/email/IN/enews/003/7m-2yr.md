@@ -6,7 +6,7 @@ title = '''IN Enews 003 7m-2yr'''
 path='email_modules/preheader'
 color='''white'''
 
-	preheader = '''Welcome to the Insider from Ford. In this newsletter, see the latest promotions and tips tailored just for you. It will inspire you to Go Further.'''
+	preheader = '''This latest edition of the Insider will take you through some of the latest happening and events and promotions at Ford. Also read our helpful article below on how to keep your children comfortable and happy in the car, for everyone's safety.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -20,7 +20,7 @@ path='email_modules/header/enews'
 color='black'
 
   title = '''Insider'''
-  date = '''02 May 2017'''
+  date = '''04 May 2017'''
   copy = '''IN THIS ISSUE:<br />Service Price Promise SMS | Tips for child safety | Project Sujal<br />And more'''
 
 [[module]] # eNews Top Story
@@ -28,22 +28,33 @@ path='email_modules/custom/enews_topstory'
 color='white_pb'
 
 title = ''''''
-  copy = '''This latest edition of the Insider will take you through some of the latest happening and events and promotions at Ford.<br /> Also read our helpful article below on how to keep your children comfortable and happy in the car, for everyone's safety.<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Ford’s Service Price Promise!</span><br /><br />Heard about Ford's Service Price Promise? It will help you calculate the cost of your service even before it reaches the dealership. Follow Mr. Doodles as he takes you through the simple process.'''
-  cta1_text = '''WATCH NOW'''
-  cta1_url = '''https://www.youtube.com/watch?v=xxEWETfxOao'''
-  cta1_link_name = '''svc_sms'''
+  copy = '''This latest edition of the Insider will take you through some of the latest happening and events and promotions at Ford.<br /> Also read our helpful article below on how to keep your children comfortable and happy in the car, for everyone's safety.<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Your safety. Our priority.</span><br /><br />Nothing is more important to us than your safety. That's why Ford go further to design high-quality vehicles and smart technology that keep you more secure and in control - in all kinds of real-world conditions. Want to see how? Just click below.  '''
+  cta1_text = '''EXPLORE SAFETY'''
+  cta1_url = '''https://www.india.ford.com/safety/'''
+  cta1_link_name = '''ford_safety'''
   cta2_text = ''''''
   cta2_url = ''''''
   cta2_link_name = ''''''
-  cta1_icon = '''play'''
+  cta1_icon = '''more'''
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
+  image='''in_edm6_airbag_20170420'''
+  url_link='''https://www.india.ford.com/safety/'''
+  url_link_name='''ford_safety_image'''
+
+[[module]] #Split 01
+path='email_modules/split/01'
+color='darkblue'
+title = '''Ford's Service Price Promise!'''
+  copy = '''Heard about Ford's Service Price Promise? It will help you calculate the cost of your service even before it reaches the dealership. Follow Mr. Doodles as he takes you through the simple process.'''
+  cta1_text = '''WATCH NOW'''
+  cta1_url = '''https://www.youtube.com/watch?v=xxEWETfxOao'''
+  cta1_link_name = '''svc_sms'''
+  cta1_icon = '''play'''
   image='''in_edm6_service_sms_20170330'''
-  url_link='''https://www.youtube.com/watch?v=xxEWETfxOao'''
-  url_link_name='''svc_sms'''
 
 [[module]] #Split 02
 path='email_modules/split/02'
@@ -68,21 +79,6 @@ color='lightblue'
   cta1_link_name = '''sujal'''
   cta1_icon = '''more'''
   image = '''in_edm6_sujal_20170330'''
-
-[[module]] # Owner App Image Right
-path='email_modules/custom/ownerapp_imgr'
-color='black'
-
-  title = '''Ford Owners App'''
-  text1 = '''Owning a Ford has never been easier, thanks to the Ford Owners App:'''
-  text2 = '''<br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/3r79gbfZdO8" name="Decoder" style="text-decoration:underline; color:#B3B3B3">Decode your dashboard's icons</a><br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/eudIAyg1xp0" name="oa_rsa" style="text-decoration:underline; color:#B3B3B3">Access Roadside Assistance</a><br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/7FlXKGWiHYY" name="how-to_video" style="text-decoration:underline; color:#B3B3B3">Watch videos about your Ford</a><br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/kA0M4weGse0" name="dealer_locater_video" style="text-decoration:underline; color:#B3B3B3">Find a dealer near you</a>'''
-  cta1_text = '''iOS'''
-  cta1_url = '''https://itunes.apple.com/in/app/ford-owners/id990342351?mt=8'''
-  cta1_link_name = '''oa_ios'''
-  cta2_text = '''Android'''
-  cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en'''
-  cta2_link_name = '''oa_android'''
-  image = '''owner_app_20160328'''
   
 [[module]]
 path='email_modules/spacer/default'
