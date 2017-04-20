@@ -6,7 +6,7 @@ title = '''IN Enews 003 Prospects'''
 path='email_modules/preheader'
 color='''white'''
 
-	preheader = '''In this latest edition of the Insider, we’ll take you through some of the latest happening, events and promotions at Ford.'''
+	preheader = '''In this latest edition of the Insider, we'll take you through some of the latest happening, events and promotions at Ford.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -20,7 +20,7 @@ path='email_modules/header/enews'
 color='black'
 
   title = '''Insider'''
-  date = '''02 May 2017'''
+  date = '''04 May 2017'''
   copy = '''IN THIS ISSUE:<br />Ode to the Road | Service Price Promise | Unstoppable Endeavour | Project Sujal'''
 
 [[module]] # eNews Top Story
@@ -28,23 +28,35 @@ path='email_modules/custom/enews_topstory'
 color='white_pb'
 
 title = ''''''
-  copy = '''In this latest edition of the Insider, we’ll take you through some of the latest happening, events and promotions at Ford.<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Ode to the Road</span><br /><br />For over a century, Ford vehicles have had no love greater than the road itself. So it's only fitting that Ford celebrate with an "Ode to the Road". Check it out! '''
-  cta1_text = '''WATCH NOW'''
-  cta1_url = '''https://www.youtube.com/watch?v=uDMtpsWlcH4'''
-  cta1_link_name = '''ode_to_the_road'''
+  copy = '''In this latest edition of the Insider, we'll take you through some of the latest happening, events and promotions at Ford.<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Your safety. Our priority.</span><br /><br />Nothing is more important to us than your safety. That's why Ford go further to design high-quality vehicles and smart technology that keep you more secure and in control - in all kinds of real-world conditions. Want to see how? Just click below.  '''
+  cta1_text = '''EXPLORE SAFETY'''
+  cta1_url = '''https://www.india.ford.com/safety/'''
+  cta1_link_name = '''ford_safety'''
   cta2_text = ''''''
   cta2_url = ''''''
   cta2_link_name = ''''''
-  cta1_icon = '''play'''
+  cta1_icon = '''more'''
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
-  image='''in_edm6_ode_video_20170330'''
-  url_link='''https://www.youtube.com/watch?v=uDMtpsWlcH4'''
-  url_link_name='''ode_to_the_road_image'''
-  
+  image='''in_edm6_airbag_20170420'''
+  url_link='''https://www.india.ford.com/safety/'''
+  url_link_name='''ford_safety_image'''
+
+[[module]] #Split 02
+path='email_modules/split/02'
+color='lightblue'
+
+  title = '''Ode to the Road'''
+  copy = '''For over a century, Ford vehicles have had no love greater than the road itself. So it's only fitting that Ford celebrate with an "Ode to the Road". Check it out!'''
+  cta1_text = '''WATCH NOW'''
+  cta1_url = '''https://www.youtube.com/watch?v=uDMtpsWlcH4'''
+  cta1_link_name = '''ode_to_the_road'''
+  cta1_icon = '''play'''
+  image = '''in_edm6_ode_video_20170420'''
+
 [[module]] #Split 01
 path='email_modules/split/01'
 color='darkblue'
