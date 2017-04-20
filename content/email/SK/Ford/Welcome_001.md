@@ -14,7 +14,7 @@ path='email_modules/header/logo'
 color='white'
 
   image = '''white'''
-  url_link = ''''''
+  url_link = '''https://www.ford-korea.com'''
 
 [[module]] #Cover 01
 path='email_modules/cover/01'
@@ -41,33 +41,33 @@ path='email_modules/singles/ctablock'
 color='''fordblue'''
 	
 	cta1_text = '''LEARN MORE'''
-	cta1_url = ''''''
-	cta1_link_name = ''''''
+	cta1_url = '''https://www.ford-korea.com/owner/emergency/'''
+	cta1_link_name = '''era'''
     
 [[module]] #Split 02
 path='email_modules/split/02'
 color='green'
 
   title = '''Make ownership easy'''
-  copy = '''Find everything you need to simplify owning a Ford vehicle on our website, including helpful info on: <ul style="margin: 20px; padding: 0;"><li><a href="URL_GOES_HERE" name="warranties" style="text-decoration:none; color:#FFFFFF;">Warranties</a></li><li><a href="URL_GOES_HERE" name="warranties" style="text-decoration:none; color:#FFFFFF;">Vehicle Maintenance</a></li><li><a href="URL_GOES_HERE" name="warranties" style="text-decoration:none; color:#FFFFFF;">Expert Service</a></li><li><a href="URL_GOES_HERE" name="warranties" style="text-decoration:none; color:#FFFFFF;">Safety Recalls</a></li></ul>'''
+  copy = '''Find everything you need to simplify owning a Ford vehicle on our website, including helpful info on: <ul style="margin: 20px; padding: 0;"><li><a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:none; color:#FFFFFF;">Warranties</a></li><li><a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:none; color:#FFFFFF;">Vehicle Maintenance</a></li><li><a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:none; color:##FFFFFF;">Expert Service</a></li><li><a href="https://www.ford-korea.com/owner/recall-guidance/" name="recall_guidance" style="text-decoration:none; color:#FFFFFF;">Safety Recalls</a></li></ul>'''
   image = '''sk_ford_edm1_greenmodule_20170419'''
 
 [[module]] #Dual 01
 path='email_modules/dual/01'
 color='white'
 
-  icon1 = '''ph_edm2_svc_wrench_20160801'''
+  icon1 = '''ph_edm2_call_20160801'''
   title1 = '''Any questions?'''
-  copy1 = '''Feel free to call us at <a href="URL_GOES_HERE" name="LINK_NAME_GOES_HERE" style="text-decoration:none; color:#2d96cd;">02-1600-6003</a> with any queries.'''
-  icon2 = '''sk_ford_edm1_anyquestions_20170419'''
+  copy1 = '''Feel free to call us at <a href="tel:02-1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">02-1600-6003</a> with any queries.'''
+  icon2 = '''sk_ford_edm1_dealerlocator_20170419'''
   title2 = '''Dealer Locator'''
   copy2 = '''Pinpoint your nearest Ford dealership.'''
   cta1_text = '''CONTACT US'''
-  cta1_url = ''''''
-  cta1_link_name = ''''''
+  cta1_url = '''tel:02-1600-6003'''
+  cta1_link_name = '''tel'''
   cta2_text = '''FIND A DEALER'''
-  cta2_url = ''''''
-  cta2_link_name = ''''''
+  cta2_url = '''https://www.ford-korea.com/locate-a-dealer/'''
+  cta2_link_name = '''find_dealer'''
 
 [[module]] #Footer SK Ford Social
 path='email_modules/footer/sk/ford/social'
