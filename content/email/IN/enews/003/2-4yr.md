@@ -77,7 +77,7 @@ color='lightblue'
   cta1_text = '''WATCH NOW'''
   cta1_url = '''https://youtu.be/1pnin7wzbes'''
   cta1_link_name = '''sujal'''
-  cta1_icon = '''more'''
+  cta1_icon = '''play'''
   image = '''in_edm6_sujal_20170330'''
   
 [[module]]

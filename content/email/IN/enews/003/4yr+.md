@@ -21,7 +21,7 @@ color='black'
 
   title = '''Insider'''
   date = '''04 May 2017'''
-  copy = '''IN THIS ISSUE:<br />Ford Figo & Ford Aspire SVP | Unstoppable Endeavour | Mustang sets hearts racing <br />And more'''
+  copy = '''IN THIS ISSUE:<br />Ford Safety | Unstoppable Endeavour | Mustang sets hearts racing <br />And more'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
@@ -109,7 +109,7 @@ color='darkblue'
   cta1_text = '''WATCH NOW'''
   cta1_url = '''https://youtu.be/1pnin7wzbes'''
   cta1_link_name = '''sujal'''
-  cta1_icon = '''more'''
+  cta1_icon = '''play'''
   image = '''in_edm6_sujal_20170330'''
 
 [[module]]
