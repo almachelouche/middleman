@@ -78,10 +78,11 @@ color='green'
   cta1_text = '''WATCH NOW'''
   cta1_url = '''https://www.youtube.com/watch?v=UIB_qMtTU54'''
   cta1_link_name = '''endeavour_video'''
-  cta1_icon = '''more'''
+  cta1_icon = '''play'''
   cta2_text = '''BOOK A TEST DRIVE'''
   cta2_url = '''https://www.india.ford.com/suvs/endeavour/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-endeavour.html?campaign=ENFWTDC&intModel=Endeavour&modelCode=EN/'''
   cta2_link_name = '''endeavour_test_drive'''
+  cta2_icon = '''more'''
   image = '''in_edm6_endeavour_video_20170330'''
 
 [[module]] #Split 01
