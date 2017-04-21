@@ -36,7 +36,7 @@ color='white'
   icon3 = '''in_edm1c_ownerapp_c_20160801'''
   text3 = '''<a href="https://youtu.be/7FlXKGWiHYY" name="how-to_video_2" style="color:#5CB8B2; text-decoration:none;" >Step-by-step guide to Ford tech</a>.'''
   title4 = '''<a href="https://youtu.be/kA0M4weGse0" name="dealer_locater_video_1" style="color:#5CB8B2; text-decoration:none;" >Dashboard<br />Decoder'''
-  icon4 = '''in_edm1c_ownerapp_a_20160801'''
+  icon4 = '''th_edm1c_ownerapp_dashboard_20170421'''
   text4 = '''<a href="https://youtu.be/kA0M4weGse0" name="dealer_locater_video_2" style="color:#5CB8B2; text-decoration:none;" >Find the meaning of any dashboard icon</a>.'''
 
 [[module]] #Cover 12
