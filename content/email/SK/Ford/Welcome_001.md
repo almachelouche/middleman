@@ -34,7 +34,7 @@ path='email_modules/cover/01'
 color='''fordblue'''
  
   title = '''24시간 긴급출동 서비스'''
-  copy = '''포드 긴급출동 서비스는 365일 24시간 이용 가능합니다.운전 중 예상치 못한 긴급 상황이 발생하면, <a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주세요.'''
+  copy = '''포드 긴급출동 서비스는 365일 24시간 이용 가능합니다. 운전 중 예상치 못한 긴급 상황이 발생하면, <a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주세요.'''
   
 [[module]]
 path='email_modules/singles/ctablock'
@@ -77,6 +77,6 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
- text = '''본 이메일은 귀하의 요청에 따라 발송되었습니다. 이메일 수신을 원치 않으시면 <a href="<%unsubscribe_link_text%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. <br />Copyright © 2016 Ford Sales & Service Korea Inc.<br /><br />이메일이 제대로 보이지 않는 경우, <span class="mobile-display-block"></span><a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#91a4b1; text-decoration:underline">여기</a>를클릭하십시오. 웹페이지로보실수있습니다.'''
+ text = '''본 이메일은 귀하의 요청에 따라 발송되었습니다. 이메일 수신을 원치 않으시면 <a href="<%unsubscribe_link_text%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. <br />Copyright © 2016 Ford Sales & Service Korea Inc.<br /><br />이메일이 제대로 보이지 않는 경우, <span class="mobile-display-block"></span><a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.'''
 
 +++
