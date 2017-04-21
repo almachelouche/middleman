@@ -21,7 +21,7 @@ color='black'
 
   title = '''Insider'''
   date = '''04 May 2017'''
-  copy = '''IN THIS ISSUE:<br />Ford Safety | Unstoppable Endeavour | Mustang sets hearts racing <br />And more'''
+  copy = '''IN THIS ISSUE:<br />Ford Safety | New Sports Editions | Unstoppable Endeavour | <br />And more'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
@@ -58,7 +58,7 @@ color='lightblue'
   cta2_url = '''https://www.india.ford.com/cars/aspire/features/sports-edition/'''
   cta2_link_name = '''aspire_svp'''
   cta1_icon = '''more'''
-  image = ''''''
+  image = '''in_edm6_svp_20170421'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
