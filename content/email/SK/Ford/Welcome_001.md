@@ -20,7 +20,7 @@ color='white'
 path='email_modules/cover/01'
 color='''white'''
  
-  title = '''포드의 가족이 되신 것을 진심으로 환영합니다.'''
+  title = '''<span style="font-family:Malgun Gothic,sans-serif">포드의 가족이 되신 것을 진심으로 환영합니다.</span>'''
   copy = '''저희 포드는 새로운 가족이 되신 고객님께 다시 한 번 깊은 감사의 마음을 전합니다<br /><br />저희는 포드의 가족이 되신 고객님께 앞으로도 꾸준히 포드의 새로운 소식을 알려드리고자 합니다.<br /><br />고객님의 즐겁고 안전한 운전에 포드가 언제나 함께 하겠습니다.'''
 
 [[module]] #Banner Image No Link
@@ -49,7 +49,7 @@ path='email_modules/split/02'
 color='green'
 
   title = '''포드 오너를 위한 필수 정보'''
-  copy = '''웹사이트에는 더 쉽게 차량을 관리할 수 있도록 돕는 값진 정보가 가득합니다. 아래의 버튼을 클릭하시면 고객님께 꼭 필요한 서비스 정보를 확인하실 수 있습니다.<ul style="margin: 20px; padding: 0;text-decoration:underline; color:#FFFFFF"><li><a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:none; color:#FFFFFF;">보증 서비스</a></li><li><a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:none; color:#FFFFFF;">차량 관리</a></li><li><a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:none; color:#FFFFFF;">전문가의 공인 서비스 </a></li><li><a href="https://www.ford-korea.com/owner/recall-guidance/" name="recall_guidance" style="text-decoration:none; color:#FFFFFF;">리콜 안내</a></li></ul>'''
+  copy = '''웹사이트에는 더 쉽게 차량을 관리할 수 있도록 돕는 값진 정보가 가득합니다. 아래의 버튼을 클릭하시면 고객님께 꼭 필요한 서비스 정보를 확인하실 수 있습니다.<ul style="margin: 20px; padding: 0;text-decoration:underline; color:#FFFFFF"><li><a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF;">보증 서비스</a></li><li><a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#FFFFFF;">차량 관리</a></li><li><a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:underline; color:#FFFFFF;">전문가의 공인 서비스 </a></li><li><a href="https://www.ford-korea.com/owner/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#FFFFFF;">리콜 안내</a></li></ul>'''
   image = '''sk_ford_edm1_greenmodule_20170419'''
 
 [[module]] #Dual 01
