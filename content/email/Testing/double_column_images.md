@@ -1,7 +1,6 @@
 +++
 markets = ["01testing"]
 title = '''AU Module 01 Double Column Images'''
-draft = true
 
 [[module]]
 path='email_modules/preheader'
