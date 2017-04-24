@@ -7,7 +7,7 @@ title = '''TH Service Reminder Regular Past Due 004 BKK'''
 path='email_modules/preheader'
 color='''nothing'''
 
-	preheader = '''ดูฟอร์ดให้คุณสุขยิ่งกว่า กับบริการดีๆ พร้อมส่วนลดอะไหล่และค่าน้ำมันเครื่องสูงสุดถึง 18%'''
+	preheader = '''ฟอร์ดให้คุณสุขยิ่งกว่า กับบริการดีๆ พร้อมส่วนลดอะไหล่และค่าน้ำมันเครื่องสูงสุดถึง 18%'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

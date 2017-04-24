@@ -21,7 +21,7 @@ color='black'
 
   title = '''Insider'''
   date = '''04 May 2017'''
-  copy = '''IN THIS ISSUE:<br />Ford Safety | Service Price Promise | Tips for child safety | Project Sujal<br />And more'''
+  copy = '''IN THIS ISSUE:<br />Ford Safety | Video: Price Promise  | Driving with kids <br />And more'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
