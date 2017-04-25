@@ -21,14 +21,14 @@ color='black'
 
   title = '''Insider'''
   date = '''04 May 2017'''
-  copy = '''IN THIS ISSUE:<br />Ford Safety | Ode to the Road | Service Price Promise <br />And more'''
+  copy = '''IN THIS ISSUE:<br />Ford Safety | Ode to the Road | Service Price Promise and more'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
 color='white_pb'
 
 title = ''''''
-  copy = '''In this latest edition of the Insider, we'll take you through some of the latest happening, events and promotions at Ford.<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Your safety. Our priority.</span><br /><br />Nothing is more important to us than your safety. That's why Ford go further to design high-quality vehicles and smart technology that keep you more secure and in control - in all kinds of real-world conditions. Want to see how? Just click below.  '''
+  copy = '''In this latest edition of the Insider, we'll take you through some of the latest happening, events and promotions at Ford.<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Your safety. Our priority.</span><br /><br />Nothing is more important to us than your safety. That's why every Ford vehicle is packed with high-tech safety features that keep you more secure and in control. Want to see how? Just click below.'''
   cta1_text = '''EXPLORE SAFETY'''
   cta1_url = '''https://www.india.ford.com/safety/'''
   cta1_link_name = '''ford_safety'''
