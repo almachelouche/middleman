@@ -94,16 +94,6 @@ color = '''white'''
   image = '''vn_edm5_osp_20170223'''
 cta1_link_name = '''osp'''
 
-[[module]] #Cover 05
-path='email_modules/cover/02'
-color='''white'''
-
-  title = '''AN TÂM HƠN VỚI "BẢO HÀNH MỞ RỘNG"'''
-  copy = '''Sản phẩm "Bảo Hành mở rộng" sẽ giúp bạn yên tâm tận hưởng cùng chiếc xe của mình, không còn phải lo chi phí sửa chữa, thay thế kể cả khi đã hết bảo hành tiêu chuẩn.<br /><br />Thời gian bảo hành được mở rộng thêm tối đa 2 năm / 40 000 KM tùy điều kiện nào đến trước ngay khi hết bảo hành tiêu chuẩn. Ngoài ra quyền bảo hành mở rộng được phép chuyển nhượng sẽ làm tăng giá trị bán lại chiếc xe của bạn.'''
-  cta1_text = '''BẢO VỆ XẾ YÊU'''
-  cta1_url = '''https://www.ford.com.vn/owner/warranty/extended-warranty/'''
-  cta1_link_name = '''extended_warranty'''
-  icon = '''vn_edm_extendedwarranty_20160801'''
 
 [[module]] #Dual 01
 path='email_modules/dual/01'
