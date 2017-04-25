@@ -6,7 +6,7 @@ title = '''IN Enews 003 7m-2yr'''
 path='email_modules/preheader'
 color='''white'''
 
-	preheader = '''This latest edition of the Insider will take you through some of the latest happening and events and promotions at Ford. Also read our helpful article below on how to keep your children comfortable and happy in the car, for everyone's safety.'''
+	preheader = '''This latest edition of the Insider will take you through some of the latest happening and events and promotions at Ford. Also keep an eye out for some driving and safety tips below.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -21,7 +21,7 @@ color='black'
 
   title = '''Insider'''
   date = '''04 May 2017'''
-  copy = '''IN THIS ISSUE:<br />Ford Safety | Video: Price Promise  | Driving with kids and more'''
+  copy = '''IN THIS ISSUE:<br />Ford Safety | Video: Price Promise  | Driving with kids | And more'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
