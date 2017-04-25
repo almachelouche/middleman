@@ -21,7 +21,7 @@ color='black'
 
   title = '''Insider'''
   date = '''04 May 2017'''
-  copy = '''IN THIS ISSUE:<br />Ford Safety | Figo & Aspire Sports | The Unstoppable Endeavour| And more'''
+  copy = '''IN THIS ISSUE:<br />Ford Safety | Figo & Aspire Sports | The Unstoppable Endeavour | And more'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
