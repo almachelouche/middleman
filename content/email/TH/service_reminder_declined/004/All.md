@@ -110,7 +110,7 @@ color='white'
 path='email_modules/singles/ctablock'
 color='''white'''
 	
-    cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">Find A Dealer</span>'''
+    cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาศูนย์บริการได้ที่นี่</span>'''
 	cta1_url = '''https://www.ford.co.th/locate-a-dealer/'''
 	cta1_link_name = '''find_dealer'''
 
