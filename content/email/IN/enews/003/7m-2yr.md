@@ -6,7 +6,7 @@ title = '''IN Enews 003 7m-2yr'''
 path='email_modules/preheader'
 color='''white'''
 
-	preheader = '''This latest edition of the Insider will take you through some of the latest happening and events and promotions at Ford. Also read our helpful article below on how to keep your children comfortable and happy in the car, for everyone's safety.'''
+	preheader = '''This latest edition of the Insider will take you through some of the latest happenings and events and promotions at Ford. Also keep an eye out for some driving and safety tips below.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -21,14 +21,14 @@ color='black'
 
   title = '''Insider'''
   date = '''04 May 2017'''
-  copy = '''IN THIS ISSUE:<br />Ford Safety | Video: Price Promise  | Driving with kids <br />And more'''
+  copy = '''IN THIS ISSUE:<br />Ford Safety | Video: Price Promise  | Driving with kids | And more'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
 color='white_pb'
 
 title = ''''''
-  copy = '''This latest edition of the Insider will take you through some of the latest happening and events and promotions at Ford.<br /> Also read our helpful article below on how to keep your children comfortable and happy in the car, for everyone's safety.<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Your safety. Our priority.</span><br /><br />Nothing is more important to us than your safety. That's why Ford go further to design high-quality vehicles and smart technology that keep you more secure and in control - in all kinds of real-world conditions. Want to see how? Just click below.  '''
+  copy = '''This latest edition of the Insider will take you through some of the latest happenings and events and promotions at Ford. Also keep an eye out for some driving and safety tips below. <br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Your safety. Our priority.</span><br /><br />Nothing is more important to us than your safety. That's why every Ford vehicle is packed with high-tech safety features that keep you more secure and in control. Want to see how? Just click below.'''
   cta1_text = '''EXPLORE SAFETY'''
   cta1_url = '''https://www.india.ford.com/safety/'''
   cta1_link_name = '''ford_safety'''
@@ -118,7 +118,7 @@ color='''white'''
 	cta1_url = '''https://www.india.ford.com/#/overlay/content/ford/in/en_in/site-wide-content/overlays/forms/profile-update-form.html?req_firstName=<%${user['FirstName']}%>&req_lastName=<%${user['LastName']}%>&req_mobileNumber=<%${user.CustomAttribute['Mobile_Phone']}%>&req_EmailID=<%${user.CustomAttribute['RealEmail']}%>&req_BuildingNo=<%${user.CustomAttribute['Address_1']}%>&req_StreetRoad=<%${user.CustomAttribute['Address_2']}%>&req_Area=<%${user.CustomAttribute['Area']}%>&req_Landmark=<%${user.CustomAttribute['Landmark']}%>&req_city=<%${user.CustomAttribute['City']}%>&req_State=<%${user.CustomAttribute['State']}%>&req_postCode=<%${user.CustomAttribute['Post_Code']}%>/'''
 	cta1_link_name = '''profile_update'''
 	cta2_text = '''VISIT OWNER SITE'''
-	cta2_url = '''https://www.india.ford.com/owner/dashboard/'''
+	cta2_url = '''https://www.india.ford.com/owner/dashboard/#/overlay/content/ford/in/en_in/site-wide-content/overlays/form-overlay/login.html'''
 	cta2_link_name = '''owner_dashboard'''
     cta1_icon='''more'''
 
