@@ -100,7 +100,7 @@ color='white'
 path='email_modules/singles/title'
 color='''white'''
 	
-	title = '''Meet the EcoSport Platinum'''
+	title = '''My Ford Profile'''
     
 [[module]]
 path='email_modules/spacer/default'

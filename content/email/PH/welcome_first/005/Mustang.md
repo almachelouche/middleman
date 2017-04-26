@@ -62,7 +62,7 @@ path='email_modules/split/02'
 color='green'
 
   title = '''Worry-free servicing'''
-  copy = '''Keep your Ford running at its best, with our Scheduled Service Plan.<ul style="margin: 20px; padding: 0;"><li>Professional maintenance for up to five years</li><li>Protection against price increases on parts and labor</li><li>Service plans are fully transferrable</li></ul>'''
+  copy = '''Keep your Ford running at its best, with our pre-paid Scheduled Service Plan.<ul style="margin: 20px; padding: 0;"><li>Protection against out-of-pocket expenses and price increases on parts and labor</li><li>Professional maintenance for up to five years</li><li>Service plans are fully transferrable</li></ul>'''
   cta1_text = '''LEARN MORE'''
   cta1_url = '''https://www.ford.com.ph/owner/service-schedule-plan/'''
   cta1_link_name = '''ssp'''

@@ -49,7 +49,7 @@ path='email_modules/cover/01'
 color='''white_gt'''
  
   title = '''Another round on us.'''
-  copy = '''We're happy to offer a second inspection and car wash, for free, so you can keep your Ford Mustang in top shape. You can claim your second service within 12 months or 15,000 kilometers. <br /><br />Contact <%${user.CustomAttribute['Dealer_Name']}%> on <a href="tel:<%${user.CustomAttribute['Dealer_Phone']}%>" style="text-decoration:underline; color:#2D96CD;" ><%${user.CustomAttribute['Dealer_Phone']}%></a>/<%${user.CustomAttribute['Dealer_Additional_Phone']}%> for more information.'''
+  copy = '''We're happy to offer a second inspection and car wash, for free, so you can keep your Ford Mustang in top shape. You can claim your second service within 12 months or 15,000 kilometers. <br /><br />Contact <%${user.CustomAttribute['Dealer_Name']}%> on <a href="tel:<%${user.CustomAttribute['Dealer_Phone']}%>" style="text-decoration:underline; color:#2D96CD;" ><%${user.CustomAttribute['Dealer_Phone']}%></a> <%${user.CustomAttribute['Dealer_Additional_Phone']}%> for more information.'''
 
 [[module]]
 path='email_modules/singles/ctablock'

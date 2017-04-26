@@ -19,7 +19,7 @@ color='white_pb'
 path='email_modules/singles/icon'
 color='''white'''
 	
-	icon = '''in_edm2_svc_wrench_20160801'''
+	icon = '''in_edm2_svc_wrench_urgent_20160801'''
     
 [[module]]
 path='email_modules/spacer/default'
@@ -32,7 +32,7 @@ color='white'
 path='email_modules/singles/title'
 color='''white_ot'''
 	
-	title = '''Your Ford <%${user.CustomAttribute['Model']}%> needs attention'''
+	title = '''Your Ford <%${user.CustomAttribute['Model']}%>'s <%${user.CustomAttribute['BTBPriority']}%> needs attention'''
     
 [[module]]
 path='email_modules/spacer/default'
@@ -41,10 +41,16 @@ color='white'
 	height="30" 
 
 [[module]] #Cover 11
-path='email_modules/cover/03'
+path='email_modules/singles/copy'
 color='white'
 
   copy = '''VIN No: <% ${user.CustomAttribute['VIN']}%><br />Last reported service date: <%${user.CustomAttribute['Last_Reported_Service_Date']}%><br />Last reported mileage (Kms): <% ${user.CustomAttribute['Mileage']}%>'''
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30" 
 
 [[module]]
 path='email_modules/singles/copy'
@@ -63,7 +69,7 @@ path='email_modules/singles/2ctablock'
 color='''white'''
 
   cta1_text = '''GET A CALLBACK'''
-  cta1_url = '''https://www.india.ford.com/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking/'''
+  cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
   cta1_link_name = '''callback'''
   cta2_text = '''FIND A DEALER'''
   cta2_url = '''https://www.india.ford.com/locate-dealer/'''
@@ -71,7 +77,7 @@ color='''white'''
 
 [[module]] #Service Status No Copy
 path='email_modules/custom/svcstatus_nocopy'
-color='white'
+color='white_india'
       
       toptitle='''Your Ford <%${user.CustomAttribute['Model']}%>'s Health Status'''
   segmentAgreen = '''(user.CustomAttribute['Brake'] == 'G')'''

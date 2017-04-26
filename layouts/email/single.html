@@ -1,4 +1,6 @@
-{{- partial "email_modules/header" . -}}
+{{- partial "email_modules/header" . -}} {{/* pulls the header email module */}}
+
+{{/* defines variable for colors */}}
 {{- $black := .Site.Data.emails.black -}}
 {{- $fordblue := .Site.Data.emails.fordblue -}}
 {{- $darkblue := .Site.Data.emails.darkblue -}}
@@ -16,26 +18,33 @@
 {{- $thaikingblack := .Site.Data.emails.thaikingblack -}}
 {{- $thaikingwhite := .Site.Data.emails.thaikingwhite -}}
 {{- $thaikinggrey := .Site.Data.emails.thaikinggrey -}}
-{{ range .Params.module }}
-{{"<!--" | safeHTML}}{{ .path }} {{"starts-->" | safeHTML}}
+{{- $white_india := .Site.Data.emails.white_india -}}
+{{/* end defining of variables for colors, new colors require a new varible here as well as another if statement below */}}
+
+{{ range .Params.module }} {{/* ranges through the [[modules]] in the template file */}}
+{{"<!--" | safeHTML}}{{ .path }}{{.color}} {{"starts-->" | safeHTML}} {{/* places a comment into the html file to show when a module begins */}}
+{{/* for if segment beginning */}}
   {{- if ne .segmentif nil -}}
     {{- if (gt (len .segmentif) 0) -}}
       {{- $nothing := (delimit .segmentif .segmentifdelimit) -}}
        {{ "<%" | safeHTML }}InsertIf expression="${({{ $nothing }})}" %>
     {{- end -}}
   {{- end -}}
+{{/* for else if segment beginning */}}
   {{- if ne .segmentelseif nil -}}
     {{- if (gt (len .segmentelseif) 0) -}}
       {{- $nothing := (delimit .segmentelseif .segmentelseifdelimit) -}}
        {{ "<%" | safeHTML }}InsertElse expression="${({{ $nothing }})}" %>
     {{- end -}}
   {{- end -}}
+{{/* for else segment beginning */}}
   {{- if ne .segmentelse nil -}}
     {{- if (gt (len .segmentelse) 0) -}}
       {{- $nothing := (delimit .segmentelse .segmentelsedelimit) -}}
        {{ "<%" | safeHTML }}InsertElse %>
     {{- end -}}
   {{- end -}}
+{{/* sends the color variables from data folder into the partial for use defined by color='COLOR_GOES_HERE' */}}
   {{- if eq .color "black" -}}
     {{partial .path (dict "moduleinfo" . "color" $black)}}
   {{- else if eq .color "thaikingblack" -}}
@@ -65,31 +74,36 @@
   {{- else if eq .color "green_pb" -}}
     {{partial .path (dict "moduleinfo" . "color" $green_pb)}}
   {{- else if eq .color "white_pb" -}}
-    {{partial .path (dict "moduleinfo" . "color" $white_pb)}} 
+    {{partial .path (dict "moduleinfo" . "color" $white_pb)}}
   {{- else if eq .color "white_gt" -}}
     {{partial .path (dict "moduleinfo" . "color" $white_gt)}}
   {{- else if eq .color "white_octa" -}}
     {{partial .path (dict "moduleinfo" . "color" $white_octa)}}
   {{- else if eq .color "nothing" -}}
     {{partial .path (dict "moduleinfo" . "color" $black)}}
+  {{- else if eq .color "white_india" -}}
+    {{partial .path (dict "moduleinfo" . "color" $white_india)}}
   {{- else -}}
     <p style="text-align:center">{{.color}} is not a valid color for module with path: {{.path}}</p>
   {{- end -}}
+	{{/* for if statement ending */}}
   {{- if ne .segmentif nil -}}
     {{- if (gt (len .segmentif) 0) -}}
       {{ "<%/InsertIf%>" | safeHTML }}
     {{- end -}}
   {{- end -}}
+	{{/* for else if statement ending */}}
   {{- if ne .segmentelseif nil -}}
     {{- if (gt (len .segmentelseif) 0) -}}
       {{ "<%/InsertElse%>" | safeHTML }}
     {{- end -}}
   {{- end -}}
+	{{/* for else ending */}}
   {{- if ne .segmentelse nil -}}
     {{- if (gt (len .segmentelse) 0) -}}
       {{ "<%/InsertElse%>" | safeHTML }}
     {{- end -}}
   {{- end -}}
-{{"<!--" | safeHTML}}{{ .path }} {{"ends-->" | safeHTML}}
+{{"<!--" | safeHTML}}{{ .path }} {{"ends-->" | safeHTML}} {{/* module ending comment */}}
 {{- end -}}
-{{ partial "email_modules/footer" . }}
+{{ partial "email_modules/footer" . }} {{/* places footer module to close HTML file */}}

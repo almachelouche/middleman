@@ -1,33 +1,36 @@
 {{ partial "head.html" }}
 
-<body>
+<body bgcolor="#53575c">
   <div class="page-wrap">
     <div class="sidebar">
-      <ul>
-        <li><a href="/#au">AU</a></li>
-        <li><a href="/#in">IN</a></li>
-        <li><a href="/#ph">PH</a></li>
-        <li><a href="/#th">TH</a></li>
-        <li><a href="/#vn">VN</a></li>
+      <ul>{{ range $key, $taxonomy := .Site.Taxonomies.markets }}
+        <li><a href="/#{{$key}}">{{ upper $key }}</a></li>{{ end }}
         <li><a href="/#Modules">Modules</a></li>
         <li><a href="{{ .Site.BaseURL }}ascii/ascii.html">ASCII Symbols</a></li>
       </ul>
     </div>
       <table class="flat-table" border="1px">
         <thead class="sticky">
-          <th>Market</th>
-          <th>HTML</th>
-          <th>Text</th>
+          <th><img src="{{ .Site.BaseURL }}img/gtb.png" width="75"></th>
+					<th align=left>GTB Middleman Template Site</th>
         </thead>
         <tbody>
+					<tr style="background-color:#53575c;">
+						<td>
+							<p align=center>Market</p>
+						</td>
+						<td>
+							<p>HTML Files</p>
+						</td>
+					</tr>
           {{ range $key, $taxonomy := .Site.Taxonomies.markets }}
           <tr id="{{ $key }}">
-            <td> {{ $key }} </td>
+            <td> {{ upper $key }} </td>
             <td>
               <ul>
                 {{ range $taxonomy.Pages }}
                 <li>
-                  <a class="download" href="{{ .Permalink }}" download>&#8595;</a>
+                  <a style="color:#53575c;" class="download" href="{{ .Permalink }}" download>&#11015;</a>
                   <a href="{{ .Permalink }}">{{ .LinkTitle}} </a>
                 </li>
                 {{ end }}
@@ -42,7 +45,7 @@
               <ul>
                 {{ range $taxonomy.Pages }}
                 <li>
-                  <a class="download" href="{{ .Permalink }}" download>&#8595;</a>
+                  <a class="download" href="{{ .Permalink }}" download>&#11015;</a>
                   <a href="{{ .Permalink }}">{{ .LinkTitle}} </a>
                 </li>
                 {{ end }}
