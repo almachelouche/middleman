@@ -7,7 +7,7 @@ title = '''TH Service Reminder Declined 004 All'''
 path='email_modules/preheader'
 color='''nothing'''
 
-    preheader = '''Save big on Goodyear tyres, and discover the best brakes and batteries.'''
+    preheader = '''คุ้มสุดๆ! กับยางกู๊ดเยียร์ พร้อมข้อเสนอระบบเบรกและแบตเตอรี่ชั้นเยี่ยม'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -92,7 +92,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 	
-    copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif"><span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">Great parts. Great deals.</span><br /><br />Want to keep your Ford in top condition? Check out our latest deals on Ford-approved replacement parts.</span>'''
+    copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif"><span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">สุดคุ้มกับอะไหล่แท้จากฟอร์ด</span><br /><br />เพื่อให้สมรรถนะรถฟอร์ดของคุณ ทำงานได้อย่างเต็มประสิทธิภาพ ฟอร์ดมีข้อเสนอสุดคุ้มกับอะไหล่แท้จากฟอร์ด</span>'''
 
 [[module]] #Custom 3 Icon Text
 path='email_modules/custom/3icon_text'
@@ -100,11 +100,11 @@ color='white'
 
   title = ''''''
   icon1 = '''th_edm6_tyre_20170113'''
-  text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Goodyear tyres<br />offer</span><br /><br />Buy 3 tyres, get 1 free. Plus, pay 0% interest for six months with a K Bank credit card.</span>'''
+  text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">โปรยางสุดคุ้ม</span><br /><br />ซื้อยางกู๊ดเยียร์ 3 เส้น แถม 1 เส้นฟรี รับสิทธิ์ผ่อน 0% นาน 6 เดือน ด้วยบัตรเครดิตกสิกรไทย</span>'''
   icon2 = '''th_edm6_battery_20170113'''
-  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Genuine Ford<br />batteries</span><br /><br />Engineered specifically for Ford vehicles. Enjoy top quality at a competitive price.</span>'''
+  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้สุดคุ้ม</span><br /><br />คุ้มค่า คุ้มราคากับแบตเตอรี่ฟอร์ดแท้ สำหรับรถฟอร์ดโดยเฉพาะ</span>'''
   icon3 = '''th_edm6_brake_20170113'''
-  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Motorcraft brake<br />pads</span><br /><br />Recommended by Ford, Motorcraft brakes deliver exceptional value and uncompromising quality.</span>'''
+  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">ผ้าเบรก Ford-Motorcraft สุดคุ้ม</span><br /><br />ผ้าเบรก Ford-Motorcraft คุณภาพสูงในราคาที่คุ้มค่า</span>'''
 
 [[module]]
 path='email_modules/singles/ctablock'
