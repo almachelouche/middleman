@@ -65,7 +65,7 @@ title='''Get accessorized'''
 copy='''Beat the rainy season. Accessorize your Fiesta with Weathershield and enjoy fresh air anytime - even in a downpour.'''
 cta1_text='''VIEW ACCESSORIES'''
 cta1_url='''https://www.ford.com.ph/cars/fiesta/accessories/'''
-cta1_link_name = '''acc_explorer'''
+cta1_link_name = '''acc_fiesta'''
 image='''ph_edm1_acc_fiesta_20160801'''
 
 [[module]] #Split 02
