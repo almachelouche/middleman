@@ -48,7 +48,7 @@ color='''fordblue'''
 path='email_modules/split/02'
 color='green'
 
-  title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>포드 오너를 위한 필수 정보</b></span>'''
+  title = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;font-size:20px;"><b>포드 오너를 위한 필수 정보</b></span>'''
   copy = '''<span style="color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">포드 웹사이트에는 더 쉽게<br/>차량을 관리할 수 있도록 돕는<br/>값진 정보가 가득합니다. <br/><br/>아래의 버튼을 클릭하시면<br/>고객님께 꼭 필요한 서비스 정보를<br />확인하실 수 있습니다.
 	<ul style="margin: 20px; padding: 0;text-decoration:underline; color:#FFFFFF">
 		<li><a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF;">보증 서비스</a></li>
