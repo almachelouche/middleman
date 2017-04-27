@@ -1,7 +1,6 @@
 +++
 markets = ["th"]
-title = '''TH Anniversary 001 Everest'''
-draft = true
+title = '''TH Anniversary 002 Everest'''
 
 [[module]]
 path='email_modules/preheader'
