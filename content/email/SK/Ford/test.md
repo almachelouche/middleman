@@ -20,7 +20,7 @@ color='white'
 path='email_modules/cover/01'
 color='''white'''
  
-  title = '''포드의 가족이 되신 것을 진심으로 환영합니다. Hello World!'''
+  title = '''Hello World! 포드의 가족이 되신 것을 진심으로 환영합니다. Hello World!'''
   copy = '''저희 포드는 새로운 가족이 되신 고객님께 다시 한 번 깊은 감사의 마음을 전합니다<br /><br />저희는 포드의 가족이 되신 고객님께 앞으로도 꾸준히 포드의 새로운 소식을 알려드리고자 합니다.<br /><br />고객님의 즐겁고 안전한 운전에 포드가 언제나 함께 하겠습니다.'''
 
 [[module]] #Banner Image No Link
