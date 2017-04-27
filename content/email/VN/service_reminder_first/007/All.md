@@ -86,14 +86,13 @@ title='''Tiết kiệm lớn với Thẻ Dầu nhớt và Lọc dầu'''
 copy='''Khi mua Thẻ dầu (nhớt) và lọc dầu (nhớt), bạn có ngay tối đa 03 lần sử dụng cho việc thay dầu (nhớt) và lọc dầu (nhớt) chính hãng trong thời gian lên tới 18 tháng, tiết kiệm tới 13% so với bảo dưỡng thông thường. Thẻ có bán tại các Đại lý ủy quyền của Ford trên toàn quốc.'''
 cta1_text='''TÌM HIỂU THÊM'''
 cta1_url='''https://www.ford.com.vn/owner/service-and-maintenance/oil-save-pack/'''
+cta1_link_name = '''osp'''
 
  [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
   image = '''vn_edm5_osp_20170223'''
-cta1_link_name = '''osp'''
-
 
 [[module]] #Dual 01
 path='email_modules/dual/01'
