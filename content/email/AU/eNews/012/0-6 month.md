@@ -38,20 +38,20 @@ color='black'
 path='email_modules/image/banner'
 color='white'
 
-  image = '''AU_edm6_awards_20170216'''
-  url_link = '''https://www.ford.com.au/about-ford/awards/'''
+  image = ''''''
+  url_link = '''https://www.ford.com.au/forms/accessories/'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
 color='lightblue'
 
-title = '''Make your tyres last'''
-  copy = '''Rotating your tyres regularly can help save you money in the long run. Plus it’s a very quick procedure which won’t break the bank. Find out what it is and why it’s important for the health of your tyres and therefore your safety.'''
+title = '''There is a title to a piece'''
+  copy = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida metus a magna venenatis, vitae luctus mauris sollicitudin. Duis tristique.'''
   cta1_text = '''WATCH NOW'''
   cta1_url = '''https://youtu.be/me8D8UhsT6s'''
   cta1_link_name = '''tyre1'''
   cta1_icon = '''play'''
-  image = '''AU_edm6_tyre_20170220'''
+  image = ''''''
   
 
   [[module]] #Split 02
