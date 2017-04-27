@@ -64,7 +64,7 @@ color='darkblue'
   cta1_url = '''https://www.youtube.com/watch?v=gKokGy_tVSg'''
   cta1_link_name = '''brakes'''
   cta1_icon = '''play'''
-  image = '''AU_edm6_sync_20170220'''
+  image = '''AU_edm6_brakes_20170427'''
 
 
 [[module]] # Owner App Image Right

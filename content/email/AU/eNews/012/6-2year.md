@@ -64,7 +64,7 @@ color='green'
   cta1_url = '''https://www.youtube.com/watch?v=gKokGy_tVSg'''
   cta1_link_name = '''brakes'''
   cta1_icon = '''play'''
-  image = '''AU_edm6_sync_20170220'''
+  image = '''AU_edm6_brakes_20170427'''
   
   [[module]] #Split 01
 path='email_modules/split/01'
@@ -76,7 +76,7 @@ title = '''Ranger vs Skydiver'''
   cta1_url = '''https://www.youtube.com/watch?v=zZdPmyVz_Es'''
   cta1_link_name = '''ranger1'''
   cta1_icon = '''more'''
-  image = '''AU_edm6_radar_20170110'''
+  image = '''AU_edm6_ranger_20170427'''
 
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
