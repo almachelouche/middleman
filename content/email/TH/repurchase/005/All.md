@@ -30,8 +30,10 @@ color='white'
   <span style="white-space:nowrap;">ของครอบครัวฟอร์ดมาโดยตลอด</span> 
   <span style="white-space:nowrap;">หากคุณกำลังพิจารณา</span>
   <span style="white-space:nowrap;">มองหารถคันใหม่</span> 
-  <span style="white-space:nowrap;">เราอยากเชิญคุณมา</span>พบ<span style="white-space:nowrap;">กับข้อเสนอสุดพิเศษ</span> 
-  <span style="white-space:nowrap;">เพียงลงทะเบียนทดลองขับ</span>ที่<span style="white-space:nowrap;">โชว์รูมฟอร์ด</span><br /><br />
+  <span style="white-space:nowrap;">เราอยากเชิญคุณ</span>
+  <span style="white-space:nowrap;">มาพบกับข้อเสนอสุดพิเศษ</span> 
+  <span style="white-space:nowrap;">เพียงลงทะเบียนทดลองขับ</span>ที่
+  <span style="white-space:nowrap;">โชว์รูมฟอร์ด</span><br /><br />
   <span style="white-space:nowrap;">ออกรถฟอร์ด เรนเจอร์</span> 
   <span style="white-space:nowrap;">หรือ</span> 
   <span style="white-space:nowrap;">ฟอร์ด เอเวอร์เรส</span> 
@@ -39,7 +41,8 @@ color='white'
   <span style="white-space:nowrap;">ถึง</span> 
   <span style="white-space:nowrap;">วันที่ 30 เมษายน 2560</span> 
   <span style="white-space:nowrap;">รับดอกเบี้ยพิเศษ 0%</span> 
-  <span style="white-space:nowrap;">พร้อมฟรีประกันภัยชั้นหนึ่ง<sup>*</sup></span><br /><br />
+  <span style="white-space:nowrap;">พร้อมฟรี</span>  
+  <span style="white-space:nowrap;">ประกันภัยชั้นหนึ่ง<sup>*</sup></span><br /><br />
   <span style="white-space:nowrap;">และฟอร์ดยังมีข้อเสนอสุดพิเศษ</span>
   <span style="white-space:nowrap;">สำหรับรถฟอร์ด เอคโคสปอร์ต</span>
   <span style="white-space:nowrap;">หากคุณสนใจ</span> 

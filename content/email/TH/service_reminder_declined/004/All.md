@@ -7,7 +7,7 @@ title = '''TH Service Reminder Declined 004 All'''
 path='email_modules/preheader'
 color='''nothing'''
 
-    preheader = '''Save big on Goodyear tyres, and discover the best brakes and batteries.'''
+    preheader = '''คุ้มสุดๆ! กับยางกู๊ดเยียร์ พร้อมข้อเสนอระบบเบรกและแบตเตอรี่ชั้นเยี่ยม'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -23,8 +23,9 @@ icon='''th_edm2d_svcwrench_urgent_20160801'''
 
 title = '''<span style="color:#ff6600;font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">ได้เวลาเปลี่ยนอะไหล่ </span><span style=" white-space:nowrap;"><%${user.CustomAttribute['Model']}%></span> <span style=" white-space:nowrap;">ของคุณแล้ว</span></span>'''
   copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-            <span style=" white-space:nowrap;">เราพบว่าเมื่อคุณเข้ามาตรวจสภาพรถกับฟอร์ด</span><br>
-            <span style=" white-space:nowrap;">คุณได้ปฏิเสธการเปลี่ยนอะไหล่ครั้งที่ผ่านมา</span><br>
+            <span style=" white-space:nowrap;">เราพบว่าเมื่อคุณเข้า</span>มา<span style=" white-space:nowrap;">ตรวจสภาพรถกับฟอร์ด</span><br>
+            <span style=" white-space:nowrap;">คุณได้ปฏิเสธการเปลี่ยนอะไหล่</span>
+            <span style=" white-space:nowrap;">ครั้งที่ผ่านมา</span><br>
       <span style=" white-space:nowrap;">ซึ่งอาจเป็นสาเหตุให้เกิด</span>ความ<span style=" white-space:nowrap;">ไม่ปลอดภัยในการขับขี่ </span>
   <br><br>
 <span style=" white-space:nowrap;">เพียงคุณพารถฟอร์ดของคุณกลับมา</span> 
@@ -92,7 +93,13 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 	
-    copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif"><span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">Great parts. Great deals.</span><br /><br />Want to keep your Ford in top condition? Check out our latest deals on Ford-approved replacement parts.</span>'''
+    copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif">
+    <span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">
+    สุดคุ้มกับอะไหล่แท้จากฟอร์ด</span><br /><br />
+      <span style="white-space:nowrap;">เพื่อให้สมรรถนะรถฟอร์ดของคุณ </span>
+      <span style="white-space:nowrap;">ทำงานได้อย่างเต็มประสิทธิภาพ </span><br />
+      <span style="white-space:nowrap;">ฟอร์ดมีข้อเสนอสุดคุ้ม</span>กับ<span style="white-space:nowrap;">อะไหล่แท้จากฟอร์ด</span>
+    </span>'''
 
 [[module]] #Custom 3 Icon Text
 path='email_modules/custom/3icon_text'
@@ -100,17 +107,33 @@ color='white'
 
   title = ''''''
   icon1 = '''th_edm6_tyre_20170113'''
-  text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Goodyear tyres<br />offer</span><br /><br />Buy 3 tyres, get 1 free. Plus, pay 0% interest for six months with a K Bank credit card.</span>'''
+  text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">โปรยางสุดคุ้ม</span><br /><br />
+  <span style="white-space:nowrap;">ซื้อยางกู๊ดเยียร์ 3 เส้น</span> 
+  <span style="white-space:nowrap;">แถม 1 เส้นฟรี</span> 
+  <span style="white-space:nowrap;">รับสิทธิ์ผ่อน 0%</span> 
+  <span style="white-space:nowrap;">นาน 6 เดือน</span> 
+  <span style="white-space:nowrap;">ด้วยบัตรเครดิตกสิกรไทย</span></span>'''
   icon2 = '''th_edm6_battery_20170113'''
-  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Genuine Ford<br />batteries</span><br /><br />Engineered specifically for Ford vehicles. Enjoy top quality at a competitive price.</span>'''
+  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้สุดคุ้ม</span><br /><br />
+  <span style="white-space:nowrap;">คุ้มค่า คุ้มราคา</span>กับ
+  <span style="white-space:nowrap;">แบตเตอรี่ฟอร์ดแท้</span>
+  <span style="white-space:nowrap;">สำหรับรถฟอร์ดโดยเฉพาะ</span></span>'''
   icon3 = '''th_edm6_brake_20170113'''
-  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Motorcraft brake<br />pads</span><br /><br />Recommended by Ford, Motorcraft brakes deliver exceptional value and uncompromising quality.</span>'''
+  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">
+  <span style="white-space:nowrap;">ผ้าเบรก</span> 
+  <span style="white-space:nowrap;">Ford-Motorcraft</span> 
+  <span style="white-space:nowrap;">สุดคุ้ม</span></span><br /><br />
+
+  <span style="white-space:nowrap;">ผ้าเบรก</span> 
+  <span style="white-space:nowrap;">Ford-Motorcraft</span> 
+  <span style="white-space:nowrap;">คุณภาพสูง</span> 
+  <span style="white-space:nowrap;">ในราคาที่คุ้มค่า</span></span>'''
 
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
 	
-    cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">Find A Dealer</span>'''
+    cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาศูนย์บริการได้ที่นี่</span>'''
 	cta1_url = '''https://www.ford.co.th/locate-a-dealer/'''
 	cta1_link_name = '''find_dealer'''
 
