@@ -1,6 +1,7 @@
 +++
 markets = ["in"]
 title = '''IN Service Reminder Regular Due/Pdue 015 Summer Camp East'''
+draft=true
 
 [[module]]
 path='email_modules/preheaderbefore'
