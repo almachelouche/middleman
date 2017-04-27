@@ -27,8 +27,8 @@ color='black'
 path='email_modules/custom/enews_topstory'
 color='black'
 
-  title = '''Ford comes out on top'''
-  copy = '''2016 was huge for Ford. Four vehicles won Drive awards, resulting in us being their most awarded brand of the year! It’s all thanks to our commitment to deliver only the best vehicles and technology.'''
+  title = '''There is a title to a piece'''
+  copy = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida metus a magna venenatis, vitae luctus mauris sollicitudin. Duis tristique.'''
   cta1_text = '''FIND OUT MORE'''
   cta1_url = '''https://www.ford.com.au/about-ford/awards/'''
   cta1_link_name = ''''award1'''
@@ -38,7 +38,7 @@ color='black'
 path='email_modules/image/banner'
 color='white'
 
-  image = '''AU_edm6_awards_20170216'''
+  image = ''''''
   url_link = '''https://www.ford.com.au/about-ford/awards/'''
 
 [[module]] #Split 01
@@ -51,7 +51,7 @@ title = '''Time to get personal'''
   cta1_url = '''https://www.ford.com.au/forms/accessories/'''
   cta1_link_name = '''accessories1'''
   cta1_icon = '''more'''
-  image = '''AU_edm6_radar_20170110'''
+  image = ''''''
 
 
   [[module]] #Split 02
@@ -75,15 +75,9 @@ title = '''Ranger vs Skydiver'''
   cta1_text = '''WATCH VIDEO'''
   cta1_url = '''https://www.youtube.com/watch?v=zZdPmyVz_Es'''
   cta1_link_name = '''ranger1'''
-  cta1_icon = '''more'''
+  cta1_icon = '''play'''
   image = '''AU_edm6_ranger_20170427'''
 
-[[module]] #Footer Disclaimer
-path='email_modules/footer/disclaimer'
-color='white'
-
-  text='''Disclaimers:<br /><br />
-  1. In comparison to its larger conventional counterparts.<br /><br />'''
   
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
