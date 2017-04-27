@@ -19,6 +19,9 @@
 {{- $thaikingwhite := .Site.Data.emails.thaikingwhite -}}
 {{- $thaikinggrey := .Site.Data.emails.thaikinggrey -}}
 {{- $white_india := .Site.Data.emails.white_india -}}
+{{- $lincoln_white := .Site.Data.emails.lincoln_white -}}
+{{- $lincoln_black := .Site.Data.emails.lincoln_black -}}
+{{- $lincoln_grey := .Site.Data.emails.lincoln_grey -}}
 {{/* end defining of variables for colors, new colors require a new varible here as well as another if statement below */}}
 
 {{ range .Params.module }} {{/* ranges through the [[modules]] in the template file */}}
@@ -83,6 +86,12 @@
     {{partial .path (dict "moduleinfo" . "color" $black)}}
   {{- else if eq .color "white_india" -}}
     {{partial .path (dict "moduleinfo" . "color" $white_india)}}
+  {{- else if eq .color "lincoln_white" -}}
+    {{partial .path (dict "moduleinfo" . "color" $lincoln_white)}}
+  {{- else if eq .color "lincoln_black" -}}
+    {{partial .path (dict "moduleinfo" . "color" $lincoln_black)}}
+  {{- else if eq .color "lincoln_grey" -}}
+    {{partial .path (dict "moduleinfo" . "color" $lincoln_grey)}}
   {{- else -}}
     <p style="text-align:center">{{.color}} is not a valid color for module with path: {{.path}}</p>
   {{- end -}}
