@@ -19,7 +19,7 @@ color='white'
 [[module]] #Cover 06
 path='email_modules/cover/02'
 color='''white'''
-icon='''th_edm2d_svcwrench_urgent_20160801'''
+icon='''th_edm2_svc_wrench_urgent_20160801'''
 
 title = '''<span style="color:#ff6600;font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">ได้เวลาเปลี่ยนอะไหล่ </span><span style=" white-space:nowrap;"><%${user.CustomAttribute['Model']}%></span> <span style=" white-space:nowrap;">ของคุณแล้ว</span></span>'''
   copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
