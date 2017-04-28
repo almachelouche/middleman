@@ -92,9 +92,13 @@ path='email_modules/footer/lincoln_disclaimer'
 color='white'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
  text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">본 이메일은 귀하의 요청에 따라 발송되었습니다. 이메일 수신을 원치 않으시면 <a href="<%unsubscribe_link_text%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. <br />Copyright © 2017 Ford Sales & Service Korea Inc.<br /><br />이메일이 제대로 보이지 않는 경우, <span class="mobile-display-block"></span><a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.<br /><br /></span>'''
 =======
 text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><br/>앞으로 저희가 보내드리는 이메일 수신을 위해 귀하의 주소록이나 이메일 수신 허용 목록에 <br/><span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline;">fordnews@mail.edmasia.com</span>을 추가해주십시오.<br/><br/>본 이메일은 귀하의 요청에 따라 발송되었습니다.이메일 수신을 원치 않으시면 <a href="<%unsubscribe_link_text%>" style="color:#b45f1a; text-decoration:underline">여기</a>를 클릭하십시오. <br />본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다. <a href="https://www.lincoln-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#b45f1a;">개인정보처리방침</a> <br/><br/>Copyright © 2017 Ford Sales & Service Korea Inc.<br /><br />이메일이 제대로 보이지 않는 경우, <span class="mobile-display-block"></span><a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#b45f1a; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.<p> </p><p> </p><p> </p></span>'''
+=======
+text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><br/>앞으로 저희가 보내드리는 이메일 수신을 위해 귀하의 주소록이나 이메일 수신 허용 목록에 <br/><span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline;">fordnews@mail.edmasia.com</span>을 추가해주십시오.<br/><br/>본 이메일은 귀하의 요청에 따라 발송되었습니다.이메일 수신을 원치 않으시면 <a href="<%unsubscribe_link_text%>" style="color:#FFFFFF; text-decoration:underline">여기</a>를 클릭하십시오. <br />본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다. <a href="https://www.lincoln-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#FFFFFF;">개인정보처리방침</a> <br/><br/>Copyright © 2017 Ford Sales & Service Korea Inc.<br /><br />이메일이 제대로 보이지 않는 경우, <span class="mobile-display-block"></span><a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#FFFFFF; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.<p> </p><p> </p><p> </p></span>'''
+>>>>>>> 613473e3bdea35669aa71a230f09d045d545ffce
 
 
 >>>>>>> 9305b4faaaa3b858267c366141eaf32be6498220
