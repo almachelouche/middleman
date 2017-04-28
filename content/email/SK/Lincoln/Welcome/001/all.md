@@ -49,7 +49,7 @@ title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,
 path='email_modules/singles/ctablock'
 color='''lincoln_black'''
 
-	cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;color:#B3B3B3;">더 알아보기</span>'''
+	cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;color:#b45f1a;">더 알아보기</span>'''
 	cta1_url = '''http://www.lincoln-korea.com/parts-service/roadside-assistance'''
 	cta1_link_name = '''era'''
 
@@ -83,9 +83,7 @@ color='lincoln_white'
   cta2_url = '''https://www.ford-korea.com/locate-a-dealer/'''
   cta2_link_name = '''find_dealer'''
 
-[[module]] #Footer SK Ford Social
-path='email_modules/footer/sk/lincoln/social'
-color='white'
+
 
 [[module]] #Footer Disclaimer
 path='email_modules/footer/lincoln_disclaimer'
