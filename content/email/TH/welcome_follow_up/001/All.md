@@ -6,7 +6,7 @@ title = '''TH Welcome Follow Up_All'''
 path='email_modules/preheader'
 color='''white'''
 
-preheader = '''We’d like to introduce you to the Ford Owners App – a helpful app that makes owning a Ford vehicle easier than ever. It’s simple, convenient and keeps you connected with your Ford, anywhere and anytime. Try it out today.'''
+preheader = '''Ford Owners App แอพพลิเคชั่นเพื่อเจ้าของรถฟอร์ด เพื่อการดูแลรถฟอร์ดที่ง่ายขึ้น รวมทุกเรื่องที่คุณต้องการในหนึ่งเดียว'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
