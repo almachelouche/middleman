@@ -21,7 +21,7 @@ path='email_modules/cover/02'
 color='''white'''
 
 title = '''<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>링컨과 함께하는 새로운 여정의 시작</b></span>'''
-  copy = '''<span style="font-size:15px;line-height: 16px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><br /><br />링컨과의 새로운 여정을 시작할 귀하에게 다시 한 번 깊은 감사를 드립니다.<br /><br />링컨만의 감성을 완벽하게 누릴 수 있도록<br />앞으로도 꾸준히 링컨의 새로운 소식을 알려드리고자 합니다.<br /><br />귀하의 즐겁고 안전한 운전에 링컨이 언제나 함께 하겠습니다.</span>'''
+  copy = '''<span style="font-size:15px;line-height: 14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><br /><br />링컨과의 새로운 여정을 시작할 귀하에게 다시 한 번 깊은 감사를 드립니다.<br /><br />링컨만의 감성을 완벽하게 누릴 수 있도록<br /><br />앞으로도 꾸준히 링컨의 새로운 소식을 알려드리고자 합니다.<br /><br />귀하의 즐겁고 안전한 운전에 링컨이 언제나 함께 하겠습니다.</span>'''
 
 	icon=''''''
   cta1_text=''''''
@@ -49,7 +49,7 @@ title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,
 path='email_modules/singles/ctablock'
 color='''lincoln_black'''
 
-	cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;color:#b45f1a;">더 알아보기</span>'''
+	cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;color:rgb(51,51,51);">더 알아보기</span>'''
 	cta1_url = '''http://www.lincoln-korea.com/parts-service/roadside-assistance'''
 	cta1_link_name = '''era'''
 
@@ -57,9 +57,9 @@ color='''lincoln_black'''
 path='email_modules/split/02'
 color='lincoln_grey'
 
-title = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;font-size:20px;"><b>보다 편리하게 누리는, 프리미엄 서비스</b></span>'''
+title = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;font-size:20px;"><b>보다 편리하게 누리는,<br />프리미엄 서비스</b></span>'''
   copy = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">오직 특별한 분만을 위한<br />품격 있는 서비스를 제공합니다.<br /><br />
-아래의 버튼을 클릭하시면<br />자세한 서비스 정보를<br />확인하실 수 있습니다.
+아래의 버튼을 클릭하시면<br />귀하에게 자세한 서비스 정보를<br />확인하실 수 있습니다.
 	<ul style="margin: 20px; padding: 0;text-decoration:underline; color:#b45f1a">
 		<li><a href="http://www.lincoln-korea.com/parts-service/pick-delivery" name="pick_delivery" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">픽업&딜리버리 서비스</a></li>
 		<li><a href="http://www.lincoln-korea.com/parts-service/" name="parts_service" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">부품 및 서비스</a></li>
@@ -83,7 +83,9 @@ color='lincoln_white'
   cta2_url = '''https://www.ford-korea.com/locate-a-dealer/'''
   cta2_link_name = '''find_dealer'''
 
-
+[[module]] #Footer SK Lincoln Social
+path='email_modules/footer/sk/lincoln/social'
+color='white'
 
 [[module]] #Footer Disclaimer
 path='email_modules/footer/lincoln_disclaimer'
@@ -91,6 +93,6 @@ color='white'
 
  text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">본 이메일은 귀하의 요청에 따라 발송되었습니다. 이메일 수신을 원치 않으시면 <a href="<%unsubscribe_link_text%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. <br />Copyright © 2017 Ford Sales & Service Korea Inc.<br /><br />이메일이 제대로 보이지 않는 경우, <span class="mobile-display-block"></span><a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.<br /><br /></span>
  
- <span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><br/>앞으로 저희가 보내드리는 이메일 수신을 위해 귀하의 주소록이나 이메일 수신 허용 목록에 <br/><span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline;">fordnews@mail.edmasia.com</span>을 추가해주십시오.<br/><br/>본 이메일은 귀하의 요청에 따라 발송되었습니다.이메일 수신을 원치 않으시면 <a href="<%unsubscribe_link_text%>" style="color:#FFFFFF; text-decoration:underline">여기</a>를 클릭하십시오. <br />본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다. <a href="https://www.lincoln-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#FFFFFF;">개인정보처리방침</a> <br/><br/>Copyright © 2017 Ford Sales & Service Korea Inc.<br /><br />이메일이 제대로 보이지 않는 경우, <span class="mobile-display-block"></span><a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#FFFFFF; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.<p> </p><p> </p><p> </p></span>'''
+ <span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><br/>앞으로 저희가 보내드리는 이메일 수신을 위해 귀하의 주소록이나 이메일 수신 허용 목록에 <br/><span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline;">fordnews@mail.edmasia.com</span>을 추가해주십시오.<br/><br/>본 이메일은 귀하의 요청에 따라 발송되었습니다.이메일 수신을 원치 않으시면 <a href="<%unsubscribe_link_text%>" style="color:#FFFFFF; text-decoration:underline">여기</a>를 클릭하십시오. <br />본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다. <a href="https://www.lincoln-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#FFFFFF;">개인정보처리방침</a> <br/><br/>Copyright © 2017 Ford Sales & Service Korea Inc.<br /><br />이메일이 제대로 보이지 않는 경우, <span class="mobile-display-block"></span><a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#FFFFFF; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.<br /><br /></span>'''
 
 +++
