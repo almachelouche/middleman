@@ -21,7 +21,7 @@ path='email_modules/cover/02'
 color='''white'''
 
 title = '''<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>링컨과 함께하는 새로운 여정의 시작</b></span>'''
-  copy = '''<span style="font-size:15px;line-height: 14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><br /><br />링컨과의 새로운 여정을 시작할 귀하에게 다시 한 번 깊은 감사를 드립니다.<br /><br />링컨만의 감성을 완벽하게 누릴 수 있도록<br />앞으로도 꾸준히 링컨의 새로운 소식을 알려드리고자 합니다.<br /><br />귀하의 즐겁고 안전한 운전에 링컨이 언제나 함께 하겠습니다.</span>'''
+  copy = '''<span style="font-size:15px;line-height: 15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><br /><br />링컨과의 새로운 여정을 시작할 귀하에게 다시 한 번 깊은 감사를 드립니다.<br /><br />링컨만의 감성을 완벽하게 누릴 수 있도록<br />앞으로도 꾸준히 링컨의 새로운 소식을 알려드리고자 합니다.<br /><br />귀하의 즐겁고 안전한 운전에 링컨이 언제나 함께 하겠습니다.</span>'''
 
 	icon=''''''
   cta1_text=''''''
@@ -43,7 +43,7 @@ path='email_modules/cover/01'
 color='''lincoln_black'''
 
 title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>24시간 긴급출동 서비스</b></span>'''
-  copy = '''<span style="font-family:'Nanum-Gothic',Malgun Gothic,sans-serif;color:#FFFFFF;">링컨 긴급출동 서비스는 365일 24시간 이용 가능합니다.<br />운전 중 예상치 못한 긴급 상황이 발생하면, <a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주십시오.</span>'''
+  copy = '''<span style="font-family:'Nanum-Gothic',Malgun Gothic,sans-serif;">링컨 긴급출동 서비스는 365일 24시간 이용 가능합니다.<br />운전 중 예상치 못한 긴급 상황이 발생하면, <a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주십시오.</span>'''
 
 [[module]]
 path='email_modules/singles/ctablock'
@@ -72,10 +72,10 @@ color='lincoln_white'
 
   icon1 = '''ph_edm2_call_20160801'''
   title1 = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">기대 그 이상의 경험,<br />링컨 고객센터</span>'''
-  copy1 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">도움이나 의견이 필요하시면<br /><a href="tel:02-1600-6003" name="tel" style="text-decoration:none; color:#b45f1a;">02-1600-6003</a>으로 언제든 연락 주십시오.</span>'''
+  copy1 = '''<span style="font-size:14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">도움이나 의견이 필요하시면<br /><a href="tel:02-1600-6003" name="tel" style="text-decoration:none; color:#b45f1a;">02-1600-6003</a>으로 언제든 연락 주십시오.</span>'''
   icon2 = '''sk_ford_edm1_dealerlocator_20170419'''
   title2 = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">전시장 및<br />서비스 센터 찾기</span>'''
-  copy2 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">가장 가까운 전시장 및<br />서비스 센터를 찾아보십시오.</span>'''
+  copy2 = '''<span style="font-size:14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">가장 가까운 전시장 및<br />서비스 센터를 찾아보십시오.</span>'''
   cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">문의하기</span>'''
   cta1_url = '''https://www.ford-korea.com/contact-us/'''
   cta1_link_name = '''contact_us'''
@@ -91,8 +91,16 @@ color='white'
 path='email_modules/footer/lincoln_disclaimer'
 color='white'
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+ text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">본 이메일은 귀하의 요청에 따라 발송되었습니다. 이메일 수신을 원치 않으시면 <a href="<%unsubscribe_link_text%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. <br />Copyright © 2017 Ford Sales & Service Korea Inc.<br /><br />이메일이 제대로 보이지 않는 경우, <span class="mobile-display-block"></span><a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.<br /><br /></span>'''
+=======
 text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><br/>앞으로 저희가 보내드리는 이메일 수신을 위해 귀하의 주소록이나 이메일 수신 허용 목록에 <br/><span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline;">fordnews@mail.edmasia.com</span>을 추가해주십시오.<br/><br/>본 이메일은 귀하의 요청에 따라 발송되었습니다.이메일 수신을 원치 않으시면 <a href="<%unsubscribe_link_text%>" style="color:#b45f1a; text-decoration:underline">여기</a>를 클릭하십시오. <br />본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다. <a href="https://www.lincoln-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#b45f1a;">개인정보처리방침</a> <br/><br/>Copyright © 2017 Ford Sales & Service Korea Inc.<br /><br />이메일이 제대로 보이지 않는 경우, <span class="mobile-display-block"></span><a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#b45f1a; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.<p> </p><p> </p><p> </p></span>'''
+=======
+text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><br/>앞으로 저희가 보내드리는 이메일 수신을 위해 귀하의 주소록이나 이메일 수신 허용 목록에 <br/><span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline;">fordnews@mail.edmasia.com</span>을 추가해주십시오.<br/><br/>본 이메일은 귀하의 요청에 따라 발송되었습니다.이메일 수신을 원치 않으시면 <a href="<%unsubscribe_link_text%>" style="color:#FFFFFF; text-decoration:underline">여기</a>를 클릭하십시오. <br />본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다. <a href="https://www.lincoln-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#FFFFFF;">개인정보처리방침</a> <br/><br/>Copyright © 2017 Ford Sales & Service Korea Inc.<br /><br />이메일이 제대로 보이지 않는 경우, <span class="mobile-display-block"></span><a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#FFFFFF; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.<p> </p><p> </p><p> </p></span>'''
+>>>>>>> 613473e3bdea35669aa71a230f09d045d545ffce
 
 
+>>>>>>> 9305b4faaaa3b858267c366141eaf32be6498220
 
 +++
