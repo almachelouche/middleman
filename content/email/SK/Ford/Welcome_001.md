@@ -21,7 +21,7 @@ path='email_modules/cover/01'
 color='''white'''
  
  title = '''<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>포드의 가족이 되신 것을 진심으로 환영합니다.</b></span>'''
-  copy = '''<span style="letter-spacing:;font-size:15px;line-height: 14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;"><br /><br />저희 포드는 새로운 가족이 되신 고객님께 다시 한 번 깊은 감사의 마음을 전합니다.<br /><br />앞으로도 꾸준히 포드의 새로운 소식을 알려드리고자 합니다.<br /><br />고객님의 즐겁고 안전한 운전에 포드가 언제나 함께 하겠습니다.</span>'''
+  copy = '''<span style="font-size:15px;line-height: 14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><br /><br />저희 포드는 새로운 가족이 되신 고객님께 다시 한 번 깊은 감사의 마음을 전합니다.<br /><br />앞으로도 꾸준히 포드의 새로운 소식을 알려드리고자 합니다.<br /><br />고객님의 즐겁고 안전한 운전에 포드가 언제나 함께 하겠습니다.</span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
