@@ -21,7 +21,7 @@ path='email_modules/cover/01'
 color='''white'''
  
  title = '''<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>포드의 가족이 되신 것을 진심으로 환영합니다.</b></span>'''
-  copy = '''<span style="font-size:15px;line-height: 14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><br /><br />저희 포드는 새로운 가족이 되신 고객님께 다시 한 번 깊은 감사의 마음을 전합니다.<br /><br />앞으로도 꾸준히 포드의 새로운 소식을 알려드리고자 합니다.<br /><br />고객님의 즐겁고 안전한 운전에 포드가 언제나 함께 하겠습니다.</span>'''
+  copy = '''<span style="font-size:15px;line-height: 14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;"><br /><br />저희 포드는 새로운 가족이 되신 고객님께 다시 한 번 깊은 감사의 마음을 전합니다.<br /><br />앞으로도 꾸준히 포드의 새로운 소식을 알려드리고자 합니다.<br /><br />고객님의 즐겁고 안전한 운전에 포드가 언제나 함께 하겠습니다.</span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -49,7 +49,7 @@ path='email_modules/split/02'
 color='green'
 
   title = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;font-size:20px;"><b>포드 오너를 위한 필수 정보</b></span>'''
-  copy = '''<span style="color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">포드 웹사이트에는 더 쉽게<br/>차량을 관리할 수 있도록 돕는<br/>값진 정보가 가득합니다. <br/><br/>아래의 <span style="color:red;">링크</span>를 클릭하시면<br/>고객님께 꼭 필요한 서비스 정보를<br />확인하실 수 있습니다.
+  copy = '''<span style="color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">포드 웹사이트에는 더 쉽게<br/>차량을 관리할 수 있도록 돕는<br/>값진 정보가 가득합니다. <br/><br/>아래의 링크를 클릭하시면<br/>고객님께 꼭 필요한 서비스 정보를<br />확인하실 수 있습니다.
 	<ul style="margin: 20px; padding: 0;text-decoration:underline; color:#FFFFFF">
 		<li><a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF;">보증 서비스</a></li>
 		<li><a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">차량 관리</a></li>
@@ -64,7 +64,7 @@ color='white'
 
   icon1 = '''ph_edm2_call_20160801'''
   title1 = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">고객센터 문의하기</span>'''
-  copy1 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">도움이나 의견이 필요하시다면 <br/><a href="tel:02-1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">1600-6003</a>으로 언제든 문의주세요.</span>'''
+  copy1 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">도움이나 의견이 필요하시다면 <br/><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">1600-6003</a>으로 언제든 문의주세요.</span>'''
   icon2 = '''sk_ford_edm1_dealerlocator_20170419'''
   title2 = '''<span style="font-size:20px; font-family:'Nanum Gothic',Malgun Gothic,sans-serif">전시장 및 서비스 센터 찾기</span>'''
   copy2 = '''<span style="font-size:15px;font-family:Nanum Gothic,Malgun Gothic,sans-serif">가장 가까운 전시장 및<br />서비스 센터를 찾아보세요.</span>'''
