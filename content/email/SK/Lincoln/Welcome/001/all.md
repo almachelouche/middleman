@@ -49,7 +49,7 @@ title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,
 path='email_modules/singles/ctablock'
 color='''lincoln_black'''
 
-	cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;color:#b45f1a;">더 알아보기</span>'''
+	cta1_text = '''<span style="color:#b45f1a; font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">더 알아보기</span>'''
 	cta1_url = '''http://www.lincoln-korea.com/parts-service/roadside-assistance'''
 	cta1_link_name = '''era'''
 
