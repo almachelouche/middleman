@@ -1,6 +1,7 @@
 +++
 markets = ["in"]
 title = '''IN Service Reminder Declined 010 nooffer '''
+draft = true
 
 [[module]]
 path='email_modules/preheader'
