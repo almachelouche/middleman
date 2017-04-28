@@ -72,7 +72,7 @@ color='lincoln_white'
 
   icon1 = '''ph_edm2_call_20160801'''
   title1 = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">기대 그 이상의 경험,<br />링컨 고객센터</span>'''
-  copy1 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">도움이나 의견이 필요하시면<br /><a href="tel:02-1600-6003" name="tel" style="text-decoration:none; color:#b45f1a;">1600-6003</a>으로 언제든 연락 주십시오.</span>'''
+  copy1 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">도움이나 의견이 필요하시면<br /><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#b45f1a;">1600-6003</a>으로 언제든 연락 주십시오.</span>'''
   icon2 = '''sk_ford_edm1_dealerlocator_20170419'''
   title2 = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">가까운 전시장 및<br />서비스 센터 찾기</span>'''
   copy2 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">가장 가까운 전시장 및<br />서비스 센터를 찾아보십시오.</span>'''
