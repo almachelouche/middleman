@@ -43,7 +43,7 @@ path='email_modules/cover/01'
 color='''lincoln_black'''
 
 title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>24시간 긴급출동 서비스</b></span>'''
-  copy = '''<span style="font-family:'Nanum-Gothic',Malgun Gothic,sans-serif;">링컨 긴급출동 서비스는 365일 24시간 이용 가능합니다.<br />운전 중 예상치 못한 긴급 상황이 발생하면, <a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주십시오.</span>'''
+  copy = '''<span style="font-family:'Nanum-Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">링컨 긴급출동 서비스는 365일 24시간 이용 가능합니다.<br />운전 중 예상치 못한 긴급 상황이 발생하면, <a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주십시오.</span>'''
 
 [[module]]
 path='email_modules/singles/ctablock'
@@ -58,7 +58,7 @@ path='email_modules/split/02'
 color='lincoln_grey'
 
 title = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;font-size:20px;"><b>보다 편리하게 누리는,<br />프리미엄 서비스</b></span>'''
-  copy = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">오직 특별한 분만을 위한<br />품격 있는 서비스를 제공합니다.<br /><br />
+  copy = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">오직 특별한 분만을 위한<br />품격 있는 서비스를 제공합니다.<br /><br />
 아래의 링크를 클릭하시면<br />귀하에게 필요한 자세한 서비스 정보를<br />확인하실 수 있습니다.
 	<ul style="margin: 20px; padding: 0;text-decoration:underline; color:#b45f1a">
 		<li><a href="http://www.lincoln-korea.com/parts-service/pick-delivery" name="pick_delivery" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">픽업&딜리버리 서비스</a></li>
@@ -71,11 +71,11 @@ path='email_modules/dual/01'
 color='lincoln_white'
 
   icon1 = '''ph_edm2_call_20160801'''
-  title1 = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">기대 그 이상의 경험,<br />링컨 고객센터</span>'''
-  copy1 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">도움이나 의견이 필요하시면<br /><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#b45f1a;">1600-6003</a>으로 언제든 연락 주십시오.</span>'''
+  title1 = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;font-size:20px;">기대 그 이상의 경험,<br />링컨 고객센터</span>'''
+  copy1 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">도움이나 의견이 필요하시면<br /><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#b45f1a;">1600-6003</a>으로 언제든 연락 주십시오.</span>'''
   icon2 = '''sk_ford_edm1_dealerlocator_20170419'''
-  title2 = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">가까운 전시장 및<br />서비스 센터 찾기</span>'''
-  copy2 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">가장 가까운 전시장 및<br />서비스 센터를 찾아보십시오.</span>'''
+  title2 = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;font-size:20px;">가까운 전시장 및<br />서비스 센터 찾기</span>'''
+  copy2 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">가장 가까운 전시장 및<br />서비스 센터를 찾아보십시오.</span>'''
   cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">문의하기</span>'''
   cta1_url = '''https://www.ford-korea.com/contact-us/'''
   cta1_link_name = '''contact_us'''
