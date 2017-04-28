@@ -58,7 +58,7 @@ path='email_modules/split/02'
 color='lincoln_grey'
 
 title = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;font-size:20px;"><b>보다 편리하게 누리는, 프리미엄 서비스</b></span>'''
-  copy = '''<span style="color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">오직 특별한 분만을 위한<br />품격 있는 서비스를 제공합니다.<br /><br />
+  copy = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">오직 특별한 분만을 위한<br />품격 있는 서비스를 제공합니다.<br /><br />
 아래의 버튼을 클릭하시면<br />자세한 서비스 정보를<br />확인하실 수 있습니다.
 	<ul style="margin: 20px; padding: 0;text-decoration:underline; color:#b45f1a">
 		<li><a href="http://www.lincoln-korea.com/parts-service/pick-delivery" name="pick_delivery" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">픽업&딜리버리 서비스</a></li>
