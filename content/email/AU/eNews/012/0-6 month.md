@@ -14,7 +14,7 @@ color='black'
 
   title = '''Insider'''
   date = '''May 2017'''
-  copy = '''IN THIS ISSUE:<br />Ford: Best in 2016 | WATCH: Tyre Rotation | SYNC 3 tips | Ford Owners App'''
+  copy = '''IN THIS ISSUE:<br />Watch Ranger vs Skydiver |  SYNC 3 tips | VIDEO: Brake Tips |Ford Owners App'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -61,7 +61,7 @@ color='darkblue'
   title = '''Are your brakes safe?'''
   copy = '''Brakes don’t last forever. And when they wear out, it can spell danger for your daily commute. Discover how to keep your brakes in top shape for longer, and how to tell if they’re no longer roadworthy.'''
   cta1_text = '''WATCH VIDEO'''
-  cta1_url = '''https://www.youtube.com/watch?v=gKokGy_tVSg'''
+  cta1_url = '''https://www.youtube.com/watch?v=ZbiQXL4e5WQ'''
   cta1_link_name = '''brakes'''
   cta1_icon = '''play'''
   image = '''AU_edm6_brakes_20170427'''
