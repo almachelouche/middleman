@@ -48,7 +48,7 @@ segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
 color='''white'''
 icon='''th_edm2_svc_wrench_20160801'''
 title='''It’s time for a visit'''
-copy='''Hello <%${user['FirstName']}%><br /><br />Your <%${user.CustomAttribute['Model']}%> is due for service, and our experts can’t wait to make sure it’s running at its absolute best.<br /><br />Your next service is: <strong><% ${user.CustomAttribute['NextServiceDate']} %></strong>.<br /><br />It's important to book your service today. Just click below to contact <%${user.CustomAttribute['Dealer_Name']}%> (during business hours) or to find your nearest dealer.'''
+copy='''Hello <%${user['FirstName']}%><br /><br />Your <%${user.CustomAttribute['Model']}%> is due for service, and our experts can’t wait to make sure it’s running at its absolute best.<br /><br />Your next service is: <strong><% ${user.CustomAttribute['NextServiceDate']} %></strong>.<br /><br />It's important to book your service today. Just click below to contact <%${user.CustomAttribute['Dealer_Name']}%> (during business hours) or to find your nearest dealer.<br /><br />If you have already booked your appointment, please kindly disregard this email.'''
 
 cta1_text='''FIND A DEALER'''
 cta1_url='''https://www.ford.com.ph/locate-a-dealer/'''
@@ -63,7 +63,7 @@ segmentelse = ["(user.CustomAttribute['Esplit'] == 'Past Due')"]
 color='''white'''
 icon='''th_edm2_svc_wrench_urgent_20160801'''
 title='''<span style="color:#ff6600">You missed important service</span>'''
-copy='''Hello <%${user['FirstName']}%><br /><br />Is your <%${user.CustomAttribute['Model']}%> still in tip-top shape? Come in for service and let our experts inspect your Ford to ensure it’s still running at its absolute best.<br /><br />Book your service today. Just click below to contact <%${user.CustomAttribute['Dealer_Name']}%> (during business hours) or to find your nearest dealer.'''
+copy='''Hello <%${user['FirstName']}%><br /><br />Is your <%${user.CustomAttribute['Model']}%> still in tip-top shape? Come in for service and let our experts inspect your Ford to ensure it’s still running at its absolute best.<br /><br />Book your service today. Just click below to contact <%${user.CustomAttribute['Dealer_Name']}%> (during business hours) or to find your nearest dealer.<br /><br />If you have already booked your appointment, please kindly disregard this email.'''
 
 cta1_text='''FIND A DEALER'''
 cta1_url='''https://www.ford.com.ph/locate-a-dealer/'''
@@ -95,14 +95,14 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
 
-  image = '''th_edm2_whyfordsvc_20161115'''
+  image = '''ph_edm2b_tirepromotion_20161221'''
 
 [[module]] #Cover 05
 path='email_modules/cover/02'
 color='''slatescreen'''
 
   title = '''Extended Peace of Mind'''
-  copy = '''A Premium Extended Warranty gives you worry-free driving for up to 5 years. It covers most mechanical and electrical parts, and labor charges too.'''
+  copy = '''A Premium Extended Warranty<sup>1</sup> gives you worry-free driving for up to 5 years. It covers most mechanical and electrical parts, and labor charges too.'''
   cta1_text = '''GET PEACE OF MIND'''
   cta1_url = '''https://www.ford.com.ph/owner/warranties/'''
   cta1_link_name = '''extended_warranty'''
@@ -122,6 +122,12 @@ color='''white'''
   [[module]] #PH Social
 path = 'email_modules/footer/ph/social'
 color = 'white'
+
+[[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
+color='white'
+
+  text='''Disclaimer: <br /><br />[1] Extended Warranty covers vehicles for the first 36 months or up to 100,000 km, whichever comes first.'''
 
 [[module]] #PH Online
 path = 'email_modules/footer/ph/online'

@@ -87,20 +87,8 @@ path='email_modules/custom/3icon_text'
 color='white'
 
   title = ''''''
-  icon1 = '''th_edm6_tyre_20170113'''
-  text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">โปรยางสุดคุ้ม</span><br /><br />
-  <span style="white-space:nowrap;">ซื้อยางกู๊ดเยียร์ 3 เส้น</span> 
-  <span style="white-space:nowrap;">แถม 1 เส้นฟรี</span> 
-  <span style="white-space:nowrap;">รับสิทธิ์ผ่อน 0%</span> 
-  <span style="white-space:nowrap;">นาน 6 เดือน</span> 
-  <span style="white-space:nowrap;">ด้วยบัตรเครดิตกสิกรไทย</span></span>'''
-  icon2 = '''th_edm6_battery_20170113'''
-  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้สุดคุ้ม</span><br /><br />
-  <span style="white-space:nowrap;">คุ้มค่า คุ้มราคา</span>กับ
-  <span style="white-space:nowrap;">แบตเตอรี่ฟอร์ดแท้</span>
-  <span style="white-space:nowrap;">สำหรับรถฟอร์ดโดยเฉพาะ</span></span>'''
-  icon3 = '''th_edm6_brake_20170113'''
-  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">
+  icon1 = '''th_edm6_brake_20170113'''
+  text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">
   <span style="white-space:nowrap;">ผ้าเบรก</span> 
   <span style="white-space:nowrap;">Ford-Motorcraft</span> 
   <span style="white-space:nowrap;">สุดคุ้ม</span></span><br /><br />
@@ -109,6 +97,19 @@ color='white'
   <span style="white-space:nowrap;">Ford-Motorcraft</span> 
   <span style="white-space:nowrap;">คุณภาพสูง</span> 
   <span style="white-space:nowrap;">ในราคาที่คุ้มค่า</span></span>'''
+  icon2 = '''th_edm6_tyre_20170113'''
+  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">โปรยางสุดคุ้ม</span><br /><br />
+  <span style="white-space:nowrap;">ซื้อยางกู๊ดเยียร์ 3 เส้น</span> 
+  <span style="white-space:nowrap;">แถม 1 เส้นฟรี</span> 
+  <span style="white-space:nowrap;">รับสิทธิ์ผ่อน 0%</span> 
+  <span style="white-space:nowrap;">นาน 6 เดือน</span> 
+  <span style="white-space:nowrap;">ด้วยบัตรเครดิตกสิกรไทย</span></span>'''
+  icon3 = '''th_edm6_battery_20170113'''
+  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้สุดคุ้ม</span><br /><br />
+  <span style="white-space:nowrap;">คุ้มค่า คุ้มราคา</span>กับ
+  <span style="white-space:nowrap;">แบตเตอรี่ฟอร์ดแท้</span>
+  <span style="white-space:nowrap;">สำหรับรถฟอร์ดโดยเฉพาะ</span></span>'''
+
 
 [[module]]
 path='email_modules/singles/ctablock'
