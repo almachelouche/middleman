@@ -14,7 +14,7 @@ color='black'
 
   title = '''Insider'''
   date = '''March 2017'''
-  copy = '''IN THIS ISSUE:<br />New Ford Ranger FX4 | Ford: Best in 2016 | WATCH: EcoBoost | 2016 Plate Runout'''
+  copy = '''IN THIS ISSUE:<br />New Everest Ambiente | VIVID | WATCH: EcoBoost | Watch Ranger vs Skydiver'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'

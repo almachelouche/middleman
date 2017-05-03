@@ -14,7 +14,7 @@ color='black'
 
   title = '''Insider'''
   date = '''May 2017'''
-  copy = '''IN THIS ISSUE:<br />Watch Ranger vs Skydiver |  SYNC 3 tips | VIDEO: Brake Tips |Ford Owners App'''
+  copy = '''IN THIS ISSUE:<br />Genuine Ford Accessories | VIVID | VIDEO: Brake Tips |Ford Owners App'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -40,6 +40,13 @@ color='white'
 
   image = ''''''
   url_link = '''https://www.ford.com.au/forms/accessories/'''
+  
+  [[module]] #Header Logo
+path='email_modules/header/logodesktop'
+color='black'
+
+  image = '''black'''
+  url_link = '''https://www.ford.com.au/'''
   
   [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'

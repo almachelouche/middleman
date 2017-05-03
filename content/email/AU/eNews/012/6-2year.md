@@ -14,7 +14,7 @@ color='black'
 
   title = '''Insider'''
   date = '''May 2017'''
-  copy = '''IN THIS ISSUE:<br />Ford: Best in 2016 | Genuine Ford Accessories | VIDEO: Brake Tips | Watch Ranger vs Skydiver '''
+  copy = '''IN THIS ISSUE:<br />VIVID | Genuine Ford Accessories | VIDEO: Brake Tips | Watch Ranger vs Skydiver '''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -53,6 +53,18 @@ title = '''Time to get personal'''
   cta1_icon = '''more'''
   image = ''''''
 
+[[module]] #Split 01
+path='email_modules/split/01'
+color='lightblue'
+
+title = '''Time to get personal'''
+  title = '''Time to get personal'''
+  copy = '''Are you ready to take your Ranger or Everest to the next level? Get weekend ready with Ford genuine accessories, they’re waiting to help you take your vehicle to the limit. Learn why quality matters when it comes to accessories.'''
+  cta1_text = '''WATCH NOW'''
+  cta1_url = '''https://www.ford.com.au/forms/accessories/'''
+  cta1_link_name = '''accessories1'''
+  cta1_icon = '''more'''
+  image = ''''''
 
   [[module]] #Split 02
 path='email_modules/split/02'
