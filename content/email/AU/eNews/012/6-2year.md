@@ -14,7 +14,7 @@ color='black'
 
   title = '''Insider'''
   date = '''May 2017'''
-  copy = '''IN THIS ISSUE:<br />Ford: Best in 2016 | Adaptive Cruise Control | WATCH: EcoBoost'''
+  copy = '''IN THIS ISSUE:<br />Ford: Best in 2016 | Genuine Ford Accessories | VIDEO: Brake Tips | Watch Ranger vs Skydiver '''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -61,7 +61,7 @@ color='green'
   title = '''Are your brakes safe?'''
   copy = '''Brakes don’t last forever. And when they wear out, it can spell danger for your daily commute. Discover how to keep your brakes in top shape for longer, and how to tell if they’re no longer roadworthy.'''
   cta1_text = '''WATCH VIDEO'''
-  cta1_url = '''https://www.youtube.com/watch?v=gKokGy_tVSg'''
+  cta1_url = '''https://www.youtube.com/watch?v=ZbiQXL4e5WQ'''
   cta1_link_name = '''brakes'''
   cta1_icon = '''play'''
   image = '''AU_edm6_brakes_20170427'''
