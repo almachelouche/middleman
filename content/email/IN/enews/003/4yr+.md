@@ -20,7 +20,7 @@ path='email_modules/header/enews'
 color='black'
 
   title = '''Insider'''
-  date = '''04 May 2017'''
+  date = '''May 2017'''
   copy = '''IN THIS ISSUE:<br />Ford Safety | Figo & Aspire Sports | The Unstoppable Endeavour | And more'''
 
 [[module]] # eNews Top Story

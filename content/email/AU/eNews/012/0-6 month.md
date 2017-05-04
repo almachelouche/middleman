@@ -14,7 +14,7 @@ color='black'
 
   title = '''Insider'''
   date = '''May 2017'''
-  copy = '''IN THIS ISSUE:<br />Ford: Best in 2016 | WATCH: Tyre Rotation | SYNC 3 tips | Ford Owners App'''
+  copy = '''IN THIS ISSUE:<br />Genuine Ford Accessories | VIVID | VIDEO: Brake Tips |Ford Owners App'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -28,10 +28,35 @@ path='email_modules/custom/enews_topstory'
 color='black'
 
   title = '''Time to get personal'''
-  copy = '''Are you ready to take your Ford vehicle to the next level? Our wide range of Genuine Ford accessories are designed to exacting standards, and allow you to customise your Ford to your personal tastes and needs.'''
+  copy = '''When it comes to personalising your Ford, you can’t get better accessories than Ford Genuine Accessories. All genuine accessories undergo years of rigorous safety and durability testing, meaning they integrate perfectly with the design and safety features on your Ford.'''
   cta1_text = '''GET ACCESSORISED'''
   cta1_url = '''https://www.ford.com.au/forms/accessories/'''
   cta1_link_name = '''accessories1'''
+  cta1_icon = '''more'''
+
+  [[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+
+  image = ''''''
+  url_link = '''https://www.ford.com.au/forms/accessories/'''
+  
+  [[module]] #Header Logo
+path='email_modules/header/logodesktop'
+color='black'
+
+  image = '''black'''
+  url_link = '''https://www.ford.com.au/'''
+  
+  [[module]] # eNews Top Story
+path='email_modules/custom/enews_topstory'
+color='black'
+
+  title = '''Time to get personal'''
+  copy = '''Are you ready to take your Ranger or Everest to the next level? Get weekend ready with Ford genuine accessories, they’re waiting to help you take your vehicle to the limit. Learn why quality matters when it comes to accessories.'''
+  cta1_text = '''WATCH NOW'''
+  cta1_url = '''https://www.ford.com.au/forms/accessories/'''
+  cta1_link_name = '''accessories2'''
   cta1_icon = '''more'''
 
   [[module]] #Banner Image
@@ -45,8 +70,8 @@ color='white'
 path='email_modules/split/01'
 color='lightblue'
 
-title = '''There is a title to a piece'''
-  copy = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida metus a magna venenatis, vitae luctus mauris sollicitudin. Duis tristique.'''
+title = '''VIVID'''
+  copy = '''Thrilled to announce that we are an official Vivid Partner for Vivid Sydney. Australia, we invite you to celebrate technology, design and innovation as we Go Further in 2017.'''
   cta1_text = '''WATCH NOW'''
   cta1_url = '''https://youtu.be/me8D8UhsT6s'''
   cta1_link_name = '''tyre1'''
@@ -59,9 +84,9 @@ path='email_modules/split/02'
 color='darkblue'
 
   title = '''Are your brakes safe?'''
-  copy = '''Brakes don’t last forever. And when they wear out, it can spell danger for your daily commute. Discover how to keep your brakes in top shape for longer, and how to tell if they’re no longer roadworthy.'''
+  copy = '''Brakes don’t last forever. And when they wear out, it can spell danger for your daily commute. Discover how to keep your brakes in top shape for longer, and learn the warning signs of brakes needing attention.'''
   cta1_text = '''WATCH VIDEO'''
-  cta1_url = '''https://www.youtube.com/watch?v=gKokGy_tVSg'''
+  cta1_url = '''https://www.youtube.com/watch?v=ZbiQXL4e5WQ'''
   cta1_link_name = '''brakes'''
   cta1_icon = '''play'''
   image = '''AU_edm6_brakes_20170427'''
