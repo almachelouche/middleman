@@ -19,35 +19,12 @@ color='white'
 path='email_modules/cover/01'
 color='white'
 
-  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
-  <span style="white-space:nowrap;">ประหยัดสุดคุ้ม</span>
-  <span style="white-space:nowrap;">รับเดือนเมษายน</span></span>'''
+  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">Save big in May & June</span>'''
   copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
   สวัสดีคุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>
   <br />ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />
+We hope you continue to be a proud <Nameplate> owner just as much as we enjoy having you as part of our Ford family!<br /><br />But if you’re already thinking about an upgrade, why not test drive one of our latest vehicles?<br /><br />Enjoy free first-class insurance and pay as little as 8,999THB monthly when you purchase a new Ford Ranger before June 31, 2017. Plus, discover exclusive offers and special prices on Ford Everest and EcoSport.<br /><br />Visit our website and get into a new Ford today.
 
-  <span style="white-space:nowrap;">ฟอร์ดขอขอบคุณที่เป็นส่วนหนึ่ง</span>
-  <span style="white-space:nowrap;">ของครอบครัวฟอร์ดมาโดยตลอด</span> 
-  <span style="white-space:nowrap;">หากคุณกำลังพิจารณา</span>
-  <span style="white-space:nowrap;">มองหารถคันใหม่</span> 
-  <span style="white-space:nowrap;">เราอยากเชิญคุณ</span>
-  <span style="white-space:nowrap;">มาพบกับข้อเสนอสุดพิเศษ</span> 
-  <span style="white-space:nowrap;">เพียงลงทะเบียนทดลองขับ</span>ที่
-  <span style="white-space:nowrap;">โชว์รูมฟอร์ด</span><br /><br />
-  <span style="white-space:nowrap;">ออกรถฟอร์ด เรนเจอร์</span> 
-  <span style="white-space:nowrap;">หรือ</span> 
-  <span style="white-space:nowrap;">ฟอร์ด เอเวอร์เรส</span> 
-  <span style="white-space:nowrap;">ภายในวันที่ 29 มีนาคม</span>
-  <span style="white-space:nowrap;">ถึง</span> 
-  <span style="white-space:nowrap;">วันที่ 30 เมษายน 2560</span> 
-  <span style="white-space:nowrap;">รับดอกเบี้ยพิเศษ 0%</span> 
-  <span style="white-space:nowrap;">พร้อมฟรี</span>  
-  <span style="white-space:nowrap;">ประกันภัยชั้นหนึ่ง<sup>*</sup></span><br /><br />
-  <span style="white-space:nowrap;">และฟอร์ดยังมีข้อเสนอสุดพิเศษ</span>
-  <span style="white-space:nowrap;">สำหรับรถฟอร์ด เอคโคสปอร์ต</span>
-  <span style="white-space:nowrap;">หากคุณสนใจ</span> 
-  <span style="white-space:nowrap;">สามารถติดตามข้อเสนอราคาพิเศษ</span><br />
-  <span style="white-space:nowrap;">บนเว็บไซต์ของเราได้ทันที</span>
 </span>'''
   cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ข้อเสนอพิเศษ</span>'''
   cta1_url = '''https://www.ford.co.th/buying/latest-offers/'''
@@ -58,7 +35,7 @@ color='white'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''th_edm5a_retail_campaign_2017328'''
+  image = '''th_edm1_wildtrak_2017420'''
 
 [[module]]
 path='email_modules/split/03'
