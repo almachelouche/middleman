@@ -24,7 +24,7 @@ color='white'
 We hope you continue to be a proud <Nameplate> owner just as much as we enjoy having you as part of our Ford family!<br /><br />But if you’re already thinking about an upgrade, why not test drive one of our latest vehicles?<br /><br />Enjoy free first-class insurance and pay as little as 8,999THB monthly when you purchase a new Ford Ranger before June 31, 2017. Plus, discover exclusive offers and special prices on Ford Everest and EcoSport.<br /><br />Visit our website and get into a new Ford today.
 
 </span>'''
-  cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ข้อเสนอพิเศษ</span>'''
+  cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">SEE OFFERS</span>'''
   cta1_url = '''https://www.ford.co.th/buying/latest-offers/'''
   cta1_link_name = '''latest_offers'''
   cta1_icon = '''more'''
