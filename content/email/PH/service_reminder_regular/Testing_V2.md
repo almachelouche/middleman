@@ -83,11 +83,11 @@ color='white'
 segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
 
   title = '''Why Ford servicing?'''
-  icon1 = '''ph_edm2_fordsvc_a'''
+  icon1 = '''ph_edm2_fordsvc_a_20160801'''
   text1 = '''Your custom-designed service plan keeps your vehicle performing at its best.'''
-  icon2 = '''ph_edm2_fordsvc_b'''
+  icon2 = '''ph_edm2_fordsvc_b_20160801'''
   text2 = '''Ford service center equipment is built and calibrated specifically for your vehicle. '''
-  icon3 = '''ph_edm2_fordsvc_c'''
+  icon3 = '''ph_edm2_fordsvc_c_20160801'''
   text3 = '''A record of regular servicing improves your vehicle’s re-sale value.'''
 
 [[module]] #Banner Image No Link
