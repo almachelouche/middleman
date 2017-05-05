@@ -52,7 +52,7 @@ copy='''Hello <%${user['FirstName']}%><br /><br />Your <%${user.CustomAttribute[
 
 cta1_text='''FIND A DEALER'''
 cta1_url='''https://www.ford.com.ph/locate-a-dealer/'''
-cta1_url_link_name='''find_dealer'''
+cta1_link_name='''find_dealer'''
 cta2_text='''CALL <%${user.CustomAttribute['Dealer_Phone']}%>'''
 cta2_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''
 
@@ -67,7 +67,7 @@ copy='''Hello <%${user['FirstName']}%><br /><br />Is your <%${user.CustomAttribu
 
 cta1_text='''FIND A DEALER'''
 cta1_url='''https://www.ford.com.ph/locate-a-dealer/'''
-cta1_url_link_name='''find_dealer'''
+cta1_link_name='''find_dealer'''
 cta2_text='''CALL <%${user.CustomAttribute['Dealer_Phone']}%>'''
 cta2_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''
 
