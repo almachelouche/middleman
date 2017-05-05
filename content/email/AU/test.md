@@ -1,6 +1,5 @@
 +++
 markets = ["au"]
-draft = false
 title = '''test'''
 
 
@@ -21,7 +20,4 @@ color='white'
   icon4 = '''in_edm1c_ownerapp_d_20160801'''
   text4 = '''Because we're always here for you.'''
 
-[[module]] #Footer AU Online
-path='email_modules/footer/au/online'
-color='white'
 +++
