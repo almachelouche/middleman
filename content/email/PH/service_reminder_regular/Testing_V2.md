@@ -52,7 +52,7 @@ copy='''Hello <%${user['FirstName']}%><br /><br />Your <%${user.CustomAttribute[
 
 cta1_text='''FIND A DEALER'''
 cta1_url='''https://www.ford.com.ph/locate-a-dealer/'''
-cta1_url_link_name='''find_dealer'''
+cta1_link_name='''find_dealer'''
 cta2_text='''CALL <%${user.CustomAttribute['Dealer_Phone']}%>'''
 cta2_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''
 
@@ -67,7 +67,7 @@ copy='''Hello <%${user['FirstName']}%><br /><br />Is your <%${user.CustomAttribu
 
 cta1_text='''FIND A DEALER'''
 cta1_url='''https://www.ford.com.ph/locate-a-dealer/'''
-cta1_url_link_name='''find_dealer'''
+cta1_link_name='''find_dealer'''
 cta2_text='''CALL <%${user.CustomAttribute['Dealer_Phone']}%>'''
 cta2_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''
 
@@ -83,11 +83,11 @@ color='white'
 segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
 
   title = '''Why Ford servicing?'''
-  icon1 = '''ico_2e_fordsvc_a'''
+  icon1 = '''ph_edm2_fordsvc_a'''
   text1 = '''Your custom-designed service plan keeps your vehicle performing at its best.'''
-  icon2 = '''ico_2e_fordsvc_b'''
+  icon2 = '''ph_edm2_fordsvc_b'''
   text2 = '''Ford service center equipment is built and calibrated specifically for your vehicle. '''
-  icon3 = '''ico_2e_fordsvc_c_th'''
+  icon3 = '''ph_edm2_fordsvc_c'''
   text3 = '''A record of regular servicing improves your vehicle’s re-sale value.'''
 
 [[module]] #Banner Image No Link

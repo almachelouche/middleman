@@ -26,7 +26,7 @@ path='email_modules/cover/02'
 
 color='''white'''
 title='''Ưu đãi lớn chỉ riêng trong tháng 5 ...'''
-copy='''Xin chào <%${user.CustomAttribute['Title']}%> <%${user['FirstName']}%><br /><br />Giá mới đặc biệt hấp dẫn 620 triệu đồng cho Focus Trend Mới 1.5L AT EcoBoost và 605 triệu đồng cho EcoSport  cá tính cũng là những lựa chọn tuyệt vời, giá từ 536 triệu đồng.<br /><br />Ưu đãi chỉ dành riêng cho tháng 4. Hãy liên hệ ngay với đại lý!'''
+copy='''Xin chào <%${user.CustomAttribute['Title']}%> <%${user['FirstName']}%><br /><br />Giá mới đặc biệt hấp dẫn 620 triệu đồng cho Focus Trend Mới 1.5L AT EcoBoost và 599 triệu đồng cho EcoSport  cá tính cũng là một lựa chọn tuyệt vời.<br /><br />Ưu đãi chỉ dành riêng cho tháng 5. Hãy liên hệ ngay với đại lý!'''
 cta1_text='''TÌM HIỂU THÊM'''
 cta1_url='''https://www.ford.com.vn/promotion-corner/2017/hot-deal-1/'''
 cta1_link_name = '''retail_campaign'''
