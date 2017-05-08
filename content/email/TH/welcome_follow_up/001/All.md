@@ -43,7 +43,11 @@ title1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><a href="https
 <span style=" white-space:nowrap;">รถยนต์ตามระยะ</span></a></span>'''
   icon1 = '''in_edm1c_ownerapp_a_20160801'''
   text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><a href="https://youtu.be/3r79gbfZdO8" name="Decoder_2" style="color:#5CB8B2; text-decoration:none;" >
-  <span style=" white-space:nowrap;">รายการอะไหล่</span>และ<span style=" white-space:nowrap;">ช่วงเวลา</span>ที่<span style=" white-space:nowrap;">ต้องเปลี่ยนอะไหล่</span> <span style=" white-space:nowrap;">รถของคุณ</span></a>.</span>'''
+ <span style=" white-space:nowrap;">รายการอะไหล่</span>
+ <br>และ<span style=" white-space:nowrap;">ช่วงเวลา</span>
+ <br>ที่<span style=" white-space:nowrap;">ต้องเปลี่ยนอะไหล่</span>
+ <span style=" white-space:nowrap;">รถของคุณ</span></a>.</span>'''
+
   title2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><a href="https://youtu.be/eudIAyg1xp0" name="rsa_1" style="color:#5CB8B2; text-decoration:none;" >ค้นหา<span style=" white-space:nowrap;">ตัวแทนจำหน่าย</span></a></span>'''
   icon2 = '''in_edm1c_ownerapp_d_20160801'''
   text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><a href="https://youtu.be/eudIAyg1xp0" name="rsa_2" style="color:#5CB8B2; text-decoration:none;" >
@@ -60,7 +64,8 @@ title1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><a href="https
   <span style=" white-space:nowrap;">สัญลักษณ์</span>บนแผง<span style=" white-space:nowrap;">หน้าปัด</span>ควบคุมรถ</a>.</span>'''
   icon4 = '''th_edm1c_ownerapp_dashboard_20170421'''
   text4 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><a href="https://youtu.be/kA0M4weGse0" name="dealer_locater_video_2" style="color:#5CB8B2; text-decoration:none;" >
-  <span style=" white-space:nowrap;">ค้นหาความหมาย</span>ของ<span style=" white-space:nowrap;">สัญลักษณ์ต่างๆ</span>
+  <span style=" white-space:nowrap;">ค้นหาความหมาย</span>ของ<br>
+  <span style=" white-space:nowrap;">สัญลักษณ์ต่างๆ</span>
   <span style=" white-space:nowrap;">บนหน้าปัดรถยนต์</span></a>.</span>'''
 
 [[module]] #Cover 12
