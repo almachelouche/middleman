@@ -6,7 +6,7 @@ title = '''TH Repurchase 006 All'''
 path='email_modules/preheader'
 color='''nothing'''
 
-preheader = '''พบข้อเสนอสุดพิเศษได้ที่โชว์รูมฟอร์ดตลอดเดือนเมษายนนี้ ฟอร์ดขอขอบคุณที่เป็นส่วนหนึ่ง ของครอบครัวฟอร์ดมาโดยตลอด'''
+preheader = '''พบสุดยอดข้อเสนอสุดพิเศษ สำหรับฟอร์ดคันใหม่ของคุณ'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -19,12 +19,9 @@ color='white'
 path='email_modules/cover/01'
 color='white'
 
-  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">Save big in May & June</span>'''
-  copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">Hi GTB SH<br /><br />
-We hope you continue to be a proud <Nameplate> owner just as much as we enjoy having you as part of our Ford family!<br /><br />But if you’re already thinking about an upgrade, why not test drive one of our latest vehicles?<br /><br />Enjoy free first-class insurance and pay as little as 8,999THB monthly when you purchase a new Ford Ranger before June 31, 2017. Plus, discover exclusive offers and special prices on Ford Everest and EcoSport.<br /><br />Visit our website and get into a new Ford today.
-
-</span>'''
-  cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">SEE OFFERS</span>'''
+  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">ประหยัดสุดคุ้ม ในเดือนพฤษภาคม และ มิถุนายน</span>'''
+  copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">Hi GTB SH<br /><br />เราหวังว่าคุณจะได้รับความพึงพอใจจากการเป็นเจ้าของรถฟอร์ด <Nameplate> และได้เข้ามาร่วมเป็นส่วนหนึ่งในครอบครัวของเรา!<br /><br />หากคุณกำลังพิจารณามองหารถคันใหม่ เราอยากเชิญคุณมาพบกับข้อเสนอสุดพิเศษ เพียงลงทะเบียนทดลองขับที่โชว์รูมฟอร์ด<br /><br />ออกรถฟอร์ด เรนเจอร์ Wildtrak รุ่นที่มีระบบแผนที่นำทาง  ภายในวันที่ 30 มิถุนายน 2560 รับฟรีประกันภัยชั้นหนึ่ง พร้อมสิทธิ์ผ่อนขั้นต่ำเพียงเดือนละ 8,999 บาท และฟอร์ดยังมีข้อเสนอสุดพิเศษ สำหรับรถฟอร์ด เอเวอร์เรส และ ฟอร์ด เอคโคสปอร์ต<br /><br />หากคุณสนใจสามารถติดตามข้อเสนอราคาพิเศ</span>'''
+  cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ข้อเสนอพิเศษ</span>'''
   cta1_url = '''https://www.ford.co.th/buying/latest-offers/'''
   cta1_link_name = '''latest_offers'''
   cta1_icon = '''more'''
@@ -45,7 +42,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
   <span style="white-space:nowrap;">(ยกเว้นฟอร์ด โฟกัส)</span> 
   <span style="white-space:nowrap;">รับส่วนลดเพิ่ม 10,000 บาททันที</span> 
   <span style="white-space:nowrap;">ข้อเสนอสุดพิเศษนี้</span> 
-  <span style="white-space:nowrap;">สำหรับวันที่ 1 – 30 เมษายน พ.ศ. 2560</span> 
+  <span style="white-space:nowrap;">สำหรับวันที่ 1-31 พฤษภาคม พ.ศ. 2560</span> 
   <span style="white-space:nowrap;">นี้เท่านั้น</span> 
 </span>'''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ดูเพิ่มเติม</span>'''
