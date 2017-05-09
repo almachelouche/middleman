@@ -73,7 +73,7 @@ path='email_modules/split/02'
 color='green'
 
   title = '''Worry-free servicing'''
-  copy = '''Keep your Ford running at its best, with our pre-paid Scheduled Service Plan.<ul style="margin: 20px; padding: 0;"><li>Protection against out-of-pocket expenses and price increases on parts and labor</li><li>Professional maintenance for up to five years</li><li>Service plans are fully transferrable</li></ul>'''
+  copy = '''Keep your Ford running at its best, with our pre-paid Scheduled Service Plan<sup>2</sup>.<ul style="margin: 20px; padding: 0;"><li>Protection against out-of-pocket expenses and price increases on parts and labor</li><li>Professional maintenance for up to five years</li><li>Service plans are fully transferrable</li></ul>'''
   cta1_text = '''LEARN MORE'''
   cta1_url = '''https://www.ford.com.ph/owner/service-schedule-plan/'''
   cta1_link_name = '''ssp'''
@@ -96,7 +96,7 @@ path='email_modules/cover/02'
 color='''slatescreen'''
 
   title = '''Premium Extended Warranty'''
-  copy = '''With quality service and genuine parts, a Premium Extended Warranty is the best choice for owners, like you, who want to go the distance with their vehicle.<br /><br />Warranties are available for up to 5 years, and save you money on servicing. They may also be fully transferrable to the next vehicle owner, helping improve re-sale value.'''
+  copy = '''With quality service and genuine parts, a Premium Extended Warranty<sup>3</sup> is the best choice for owners, like you, who want to go the distance with their vehicle.<br /><br />Warranties are available for up to 5 years, and save you money on servicing. They may also be fully transferrable to the next vehicle owner, helping improve re-sale value.'''
   cta1_text = '''GET COVERED'''
   cta1_url = '''https://www.ford.com.ph/owner/warranties/'''
   cta1_link_name = '''extended_warranty'''
@@ -121,7 +121,7 @@ color = 'white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-  text='''Disclaimer: <br /><br />[1] For Wildtrak only'''
+  text='''Disclaimer: <br /><br />[1] For Wildtrak only <br />[2] Scheduled Service Plan is available for vehicles within the first 6 months or up to 10,000 km, whichever comes first. <br />[3] Extended Warranty covers vehicles for the first 36 months or up to 100,000 km, whichever comes first.'''
 
 [[module]] #PH Online
 path = 'email_modules/footer/ph/online'
