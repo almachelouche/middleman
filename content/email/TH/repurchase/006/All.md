@@ -80,57 +80,6 @@ color='white'
   cta2_url = '''https://www.ford.co.th/#/overlay/content/ford/th/th_th/site-wide-content/overlays/form-overlay/login'''
   cta2_link_name = '''anything_changed'''
 
-[[module]] #Footer Disclaimer
-path='email_modules/footer/disclaimer'
-color='white'
-text='''<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style="font-weight:bold">หมายเหตุ</span><br /><br />
-1.
-<span style=" white-space:nowrap;">สำหรับฟอร์ด เรนเจอร์</span> 
-<span style=" white-space:nowrap;">รุ่น Wildtrak</span>  
-<span style=" white-space:nowrap;">(ยกเว้นฟอร์ด เรนเจอร์</span>  
-<span style=" white-space:nowrap;">รุ่นที่มีระบบแผนที่นำทาง)</span> 
-<span style=" white-space:nowrap;">อัตราดอกเบี้ย 0% (งวดที่ 1-24)</span><br /> 
-<span style=" white-space:nowrap;">โดยต้องเช่าซื้อรวม</span>  
-<span style=" white-space:nowrap;">60 เดือนเท่านั้น</span> 
-<span style=" white-space:nowrap;">และอัตราดอกเบี้ยงวดที่ 25-60</span> 
-<span style=" white-space:nowrap;">เป็นไปตามที่ธนาคารกำหนด</span> 
-<span style=" white-space:nowrap;">ทั้งนี้อัตราดอกเบี้ย</span><br />  
-<span style=" white-space:nowrap;">ที่ระบุในสัญญาเช่าซื้อ</span> 
-<span style=" white-space:nowrap;">ตลอด 5 ปี = 3.14% /</span> 
-<span style=" white-space:nowrap;">ฟรีประกันภัยชั้นหนึ่ง</span>  
-<span style=" white-space:nowrap;">มูลค่าประกันภัยต่ำสุด</span>
-<span style=" white-space:nowrap;">ที่ 22,261 บาท</span>  
-<span style=" white-space:nowrap;">จากประกันภัยคุ้มภัย /</span><br />  
-<span style=" white-space:nowrap;">เมื่อจัดไฟแนนซ์ผ่านฟอร์ด ลีสซิ่ง</span>  
-<span style=" white-space:nowrap;">เท่า1นั้น</span> 
-<br />
-<span style=" white-space:nowrap;">2.คำนวณจากฟอร์ด เอคโค่ สปอร์ต</span>  
-<span style=" white-space:nowrap;">รุ่น Trend</span>  
-<span style=" white-space:nowrap;">ผ่อนต่อเดือนเพียง 5,999 บาท</span>  
-<span style=" white-space:nowrap;">สำหรับค่างวดเดือนที่ 1-12</span>  
-<span style=" white-space:nowrap;">และ 9,027 บาท</span>  
-<span style=" white-space:nowrap;">สำหรับ ค่างวดเดือนที่ 13-72</span>   
-<span style=" white-space:nowrap;">ที่ราคาพิเศษ 699,000 บาท </span> 
-<br />
-<span style=" white-space:nowrap;">3.สำหรับฟอร์ด เอเวอเรสต์</span> 
-<span style=" white-space:nowrap;">ทุกรุ่น</span>  
-<span style=" white-space:nowrap;">ยกเว้นรุ่น 2.2 Titanium + (MY17  NAVI)</span>  
-<span style=" white-space:nowrap;">และ 3.2 Titanium + (MY17  NAVI)</span> <br /> 
-<span style=" white-space:nowrap;">อัตราดอกเบี้ย 0%</span>  
-<span style=" white-space:nowrap;">(งวดที่ 1-24)</span>  
-<span style=" white-space:nowrap;">โดยต้องเช่าซื้อรวม</span>  
-<span style=" white-space:nowrap;">60 เดือนเท่านั้น</span>  
-<span style=" white-space:nowrap;">และอัตราดอกเบี้ยงวดที่ 25-60</span>  
-<span style=" white-space:nowrap;">เป็นไปตามที่ธนาคารกำหนด</span><br />  
-<span style=" white-space:nowrap;">ทั้งนี้อัตราดอกเบี้ย</span> 
-<span style=" white-space:nowrap;">ที่ระบุในสัญญาเช่าซื้อ</span> 
-<span style=" white-space:nowrap;">ตลอด 5 ปี = 3.10% /</span>  
-<span style=" white-space:nowrap;">ฟรีประกันภัยชั้นหนึ่ง</span><br />  
-<span style=" white-space:nowrap;">เฉพาะบริษัทประกันภัย</span>ที่<span style=" white-space:nowrap;">เข้าร่วมรายการ</span> 
-<span style=" white-space:nowrap;">และเมื่อจัดไฟแนนซ์ผ่านฟอร์ด ลีสซิ่ง </span> 
-<span style=" white-space:nowrap;">เท่านั้น</span> 
-</span>'''
 
 [[module]] #TH Social
 path='email_modules/footer/th/social'
