@@ -14,7 +14,7 @@ path='email_modules/header/logo'
 color='white'
 
   image = '''lincoln_white'''
-  url_link = '''https://www.ford-korea.com'''
+  url_link = '''https://www.lincoln-korea.com/'''
 
 [[module]] #Cover 01
 path='email_modules/cover/02'
@@ -50,7 +50,7 @@ path='email_modules/singles/ctablock'
 color='''lincoln_black'''
 
 	cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;color:rgb(51,51,51);">더 알아보기</span>'''
-	cta1_url = '''http://www.lincoln-korea.com/parts-service/roadside-assistance'''
+	cta1_url = '''https://www.lincoln-korea.com/parts-service/roadside-assistance/'''
 	cta1_link_name = '''era'''
 
 [[module]] #Split 02
@@ -61,8 +61,8 @@ title = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;font
   copy = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">오직 특별한 분만을 위한<br />품격 있는 서비스를 제공합니다.<br /><br />
 아래의 링크를 클릭하시면<br />귀하에게 필요한 자세한 서비스 정보를<br />확인하실 수 있습니다.
 	<ul style="margin: 20px; padding: 0;text-decoration:underline; color:#b45f1a">
-		<li><a href="http://www.lincoln-korea.com/parts-service/pick-delivery" name="pick_delivery" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">픽업&딜리버리 서비스</a></li>
-		<li><a href="http://www.lincoln-korea.com/parts-service/" name="parts_service" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">부품 및 서비스</a></li>
+		<li><a href="https://www.lincoln-korea.com/parts-service/pick-delivery/" name="pick_delivery" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">픽업&딜리버리 서비스</a></li>
+		<li><a href="https://www.lincoln-korea.com/parts-service/" name="parts_service" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">부품 및 서비스</a></li>
 	</ul></span>'''
   image = '''sk_lincoln_edm1_effortlessownership_20170427'''
 
