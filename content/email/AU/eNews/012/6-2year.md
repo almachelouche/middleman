@@ -13,7 +13,7 @@ path='email_modules/header/enews'
 color='black'
 
   title = '''Insider'''
-  date = '''May 2017'''
+  date = '''June 2017'''
   copy = '''IN THIS ISSUE:<br />VIVID | Genuine Ford Accessories | VIDEO: Brake Tips | Watch Ranger vs Skydiver '''
 
 [[module]] #Header Logo
