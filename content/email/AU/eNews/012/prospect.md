@@ -56,16 +56,28 @@ Australia, we invite you to celebrate technology, design and innovation as we Go
   cta1_icon = '''more'''
   image = '''AU_edm6_awards2_20170301'''
   
+  [[module]] #Split 01
+path='email_modules/split/01'
+color='darkblue'
+
+ title = '''How the not so distant future could (really) look.'''
+  copy = '''Ford got some of the globe’s most influential and specialised innovation experts together to chat mobility – they broke down the reality of what the world is capable of when it comes to life-altering change using technology. From e-Scooters and autonomous cars, to parcel delivery by drones - the future looks bright! Read more or check out the full commentary and pics via #FutureWithFord.'''
+  cta1_text = '''READ MORE'''
+  cta1_url = '''https://www.ford.com.au/about-ford/newsroom/2017/thought-leaders-and-innovators-define-the-mobility-revolution--u/'''
+  cta1_link_name = '''innovation'''
+  cta1_icon = '''more'''
+  image = ''''''
+  
+  
   [[module]] #Split 02
 path='email_modules/split/02'
 color='lightblue'
 
-  title = '''Power. Without compromise. '''
-  copy = '''The award-winning EcoBoost is Ford’s most technologically advanced engine ever, delivering up to 20% better fuel efficiency&#185; without compromising performance. Curious to discover how it works?'''
-  cta1_text = '''WATCH NOW'''
-  cta1_url = '''https://www.facebook.com/FordAustralia/videos/10155522166488747/'''
-  cta1_link_name = '''ecosport'''
-  cta1_icon = '''play'''
+  title = ''' It pays to take a closer look'''
+  copy = '''End of financial year is a smart time to look for a new car… but look a little closer and you’ll also see Ford has an unbelievable deal on one of Australia’s best trucks. Spot this deal and others now, before they disappear!'''
+  cta1_text = '''READ MORE'''
+  cta1_url = '''http://www.ford.com.au/latest-offers/national/'''
+  cta1_icon = '''more'''
   image = '''AU_edm6_ecoboost_20170220'''
   
   

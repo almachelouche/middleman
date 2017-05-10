@@ -33,6 +33,19 @@ color='black'
   cta1_url = '''https://www.ford.com.au/about-ford/awards/'''
   cta1_link_name = ''''award1'''
   cta1_icon = '''more'''
+  
+ [[module]] # eNews Top Story
+path='email_modules/custom/enews_topstory'
+color='black'
+
+ title = '''How the not so distant future could (really) look.'''
+  copy = '''Ford got some of the globe’s most influential and specialised innovation experts together to chat mobility – they broke down the reality of what the world is capable of when it comes to life-altering change using technology. From e-Scooters and autonomous cars, to parcel delivery by drones - the future looks bright! Read more or check out the full commentary and pics via #FutureWithFord.'''
+  cta1_text = '''READ MORE'''
+  cta1_url = '''https://www.ford.com.au/about-ford/newsroom/2017/thought-leaders-and-innovators-define-the-mobility-revolution--u/'''
+  cta1_link_name = '''innovation'''
+  cta1_icon = '''more'''
+  image = ''''''
+  
 
   [[module]] #Banner Image
 path='email_modules/image/banner'
