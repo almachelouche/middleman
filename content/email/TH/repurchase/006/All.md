@@ -29,19 +29,20 @@ color='white'
   <span style="white-space:nowrap;">และได้เข้ามาร่วมเป็นส่วนหนึ่ง</span>
   <span style="white-space:nowrap;">ในครอบครัวของเรา!</span><br /><br />
 
-  <span style="white-space:nowrap;">หากคุณกำลังพิจารณามองหารถคันใหม่</span>
+  <span style="white-space:nowrap;">หากคุณกำลังพิจารณามองหารถคันใหม่</span><br />
   <span style="white-space:nowrap;">เราอยากเชิญคุณ</span>
-  <span style="white-space:nowrap;">มาพบกับข้อเสนอสุดพิเศษ</span> 
-  <span style="white-space:nowrap;">เพียงลงทะเบียนทดลองขับ</span> 
+  <span style="white-space:nowrap;">มาพบกับข้อเสนอสุดพิเศษ</span><br />
+  <span style="white-space:nowrap;">เพียงลงทะเบียนทดลองขับ</span><br />
   <span style="white-space:nowrap;">ที่โชว์รูมฟอร์ด</span><br /><br />
+
   <span style="white-space:nowrap;">ออกรถฟอร์ด เรนเจอร์ Wildtrak</span>
-  <span style="white-space:nowrap;">รุ่นที่มีระบบแผนที่นำทาง</span>  
+  <span style="white-space:nowrap;">รุ่นที่มีระบบแผนที่นำทาง</span><br /> 
   <span style="white-space:nowrap;">ภายในวันที่ 30 มิถุนายน 2560</span>
-  <span style="white-space:nowrap;">รับฟรีประกันภัยชั้นหนึ่ง</span>
+  <span style="white-space:nowrap;">รับฟรีประกันภัยชั้นหนึ่ง</span><br />
   <span style="white-space:nowrap;">พร้อมสิทธิ์ผ่อนขั้นต่ำ</span>
-  <span style="white-space:nowrap;">เพียงเดือนละ 8,999 บาท</span> 
+  <span style="white-space:nowrap;">เพียงเดือนละ 8,999 บาท</span><br />
   <span style="white-space:nowrap;">และฟอร์ดยังมีข้อเสนอสุดพิเศษ</span>
-  <span style="white-space:nowrap;">สำหรับรถฟอร์ด เอเวอร์เรส</span> 
+  <span style="white-space:nowrap;">สำหรับรถฟอร์ด เอเวอร์เรส</span><br /> 
   <span style="white-space:nowrap;">และ ฟอร์ด เอคโคสปอร์ต</span><br /><br />
 
   <span style="white-space:nowrap;">หากคุณสนใจ</span>
