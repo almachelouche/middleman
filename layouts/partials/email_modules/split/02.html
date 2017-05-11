@@ -4,7 +4,11 @@
 			<table dir="rtl" width="100%" border="0" cellspacing="0" cellpadding="0">
 				<tr>
 					<td width="50%" dir="ltr" class="full">
-						 {{ .moduleinfo.cta1_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.cta1_link_name }}" target="_blank" title="" style="text-decoration:none;"><img class="img_R" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/{{ .moduleinfo.image }}_tile.jpg" width="320" border="0" style="display:block;"/></a>
+					{{- if ((ne .moduleinfo.cta1_url nil) or (gt (len .moduleinfo.cta1_url) 0)) -}}
+					 {{ .moduleinfo.cta1_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.cta1_link_name }}" target="_blank" title="" style="text-decoration:none;"><img class="img_R" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/{{ .moduleinfo.image }}_tile.jpg" width="320" border="0" style="display:block;"/></a>
+					{{- else -}}
+						<img class="img_R" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/{{ .moduleinfo.image }}_tile.jpg" width="320" border="0" style="display:block;"/>
+					{{- end -}}
 					</td>
 					<td valign="top" width="50%" dir="ltr" class="full">
 						<table width="100%" border="0" cellspacing="0" cellpadding="0">
