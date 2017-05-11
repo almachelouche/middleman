@@ -13,7 +13,7 @@ path='email_modules/header/enews'
 color='black'
 
   title = '''Insider'''
-  date = '''May 2017'''
+  date = '''June 2017'''
   copy = '''IN THIS ISSUE:<br />Genuine Ford Accessories | VIVID | VIDEO: Brake Tips |Ford Owners App'''
 
 [[module]] #Header Logo

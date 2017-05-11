@@ -13,7 +13,7 @@ path='email_modules/header/enews'
 color='black'
 
   title = '''Insider'''
-  date = '''March 2017'''
+  date = '''June 2017'''
   copy = '''IN THIS ISSUE:<br />New Everest Ambiente | VIVID | WATCH: EcoBoost | Watch Ranger vs Skydiver'''
 
 [[module]] #Header Logo
@@ -31,7 +31,7 @@ color='black'
 	copy = ''' Join us in welcoming the new Ford Everest Ambiente RWD to our SUV range. This capable 5-seater boasts the same 3.2L Diesel engine and 3,000kg towing capacity as its AWD sibling. Plus SYNC®3 with 8” colour touchscreen and all-terrain tyres as standard, it’s amazing value with the lowest price tag we’ve ever seen on an Everest – from $48,990!'''
   cta1_text = '''FIND OUT MORE'''
   cta1_url = '''https://www.ford.com.au/commercial/ranger/special-editions/'''
-  cta1_link_name = '''ranger1'''
+  cta1_link_name = '''everest'''
   cta1_icon = '''more'''
 
   
@@ -39,7 +39,7 @@ color='black'
 path='email_modules/image/banner'
 color='white'
 
-  image = '''AU_edm6_ranger_20170220'''
+  image = '''AU_edm6_everest_20170510'''
   url_link = '''https://www.ford.com.au/commercial/ranger/special-editions/'''
   
 
@@ -52,7 +52,7 @@ color='darkblue'
 Australia, we invite you to celebrate technology, design and innovation as we Go Further in 2017.'''
   cta1_text = '''LEARN MORE'''
   cta1_url = '''https://www.ford.com.au/about-ford/awards/'''
-  cta1_link_name = '''awards'''
+  cta1_link_name = '''vivid'''
   cta1_icon = '''more'''
   image = '''AU_edm6_awards2_20170301'''
   
@@ -77,8 +77,9 @@ color='lightblue'
   copy = '''End of financial year is a smart time to look for a new car… but look a little closer and you’ll also see Ford has an unbelievable deal on one of Australia’s best trucks. Spot this deal and others now, before they disappear!'''
   cta1_text = '''READ MORE'''
   cta1_url = '''http://www.ford.com.au/latest-offers/national/'''
+  cta1_link_name = '''offer'''
   cta1_icon = '''more'''
-  image = '''AU_edm6_ecoboost_20170220'''
+  image = '''AU_edm6_offer_20170510'''
   
   
   [[module]] #Split 01
