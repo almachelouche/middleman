@@ -19,7 +19,10 @@ color='white'
 path='email_modules/cover/01'
 color='white'
 
-  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">ประหยัดสุดคุ้ม ในเดือนพฤษภาคม และ มิถุนายน</span>'''
+  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+  <span style="white-space:nowrap;">ประหยัดสุดคุ้ม</span> 
+  <span style="white-space:nowrap;">ในเดือนพฤษภาคม</span> 
+  <span style="white-space:nowrap;">และ มิถุนายน</span></span>'''
   copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
   สวัสดีคุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>
   <br />ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />
