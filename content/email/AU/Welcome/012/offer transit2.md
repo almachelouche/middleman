@@ -129,6 +129,13 @@ color='white'
 	cta3_url='''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en'''
 	cta1_icon='''more'''
 
+[[module]] #Cover 01 - transit sd
+path='email_modules/cover/01'
+color='white'
+
+  title='''$200 off your first service'''
+  copy='''As you may be aware, we are experiencing a delay with the arrival of the SD card for your Sat Nav system. These are due in Australia in June and you will be contacted when they arrive. We understand the inconvenience and would like to show our appreciation by providing you with a $200 discount on your first scheduled service. This voucher will be visible in our system at all Ford Dealerships nationally and will be automatically applied at the completion of your first scheduled service.'''
+
 [[module]] #Cover 01
 path='email_modules/cover/01'
 color='''fordblue'''
