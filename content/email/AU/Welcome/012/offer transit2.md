@@ -90,24 +90,36 @@ color = '''white'''
 	image3_url = '''https://www.ford.com.au/owners/service/'''
 	image3_link_name = '''icon3'''
     
-   [[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-segmentif = ["(user.CustomAttribute['Model'] == 'Ranger')"]
-
-  image = '''au_edm1_cover4_20161018'''
-  
-[[module]] #Cover 01 - Ranger
-path='email_modules/cover/01'
+[[module]]
+path='email_modules/spacer/default'
 color='white'
-segmentif = ["(user.CustomAttribute['Model'] == 'Ranger')"]
 
-  title='''Ranger Accessories '''
-  copy='''Now that you have your Ranger, we'd like to help you make the most out of your new truck. <br /><br /><a href="https://www.ford.com.au/commercial/ranger/smart-accessories/" name="accessory1" style="text-decoration:underline; color:#2D96CD"> Ford Genuine Accessories</a> are designed to fit perfectly and integrate seamlessly with Ranger's safety systems. So whether you need a soft tonneau cover to protect your cargo or a towpack for your weekend adventure, check out our range of extras that will help take your Ranger to the next level.'''
-  cta1_text='''Find Out More'''
-  cta1_url='''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
-  cta1_link_name = '''accessory2'''
-  cta1_icon='''more'''
+	height="30"
+
+[[module]]
+path='email_modules/singles/title'
+color='''white'''
+	
+	title = '''$200 off your first service'''
+    
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+	
+	copy = '''As you may be aware, we are experiencing a delay with the arrival of the SD card for your Sat Nav system. These are due in Australia in June and you will be contacted when they arrive. We understand the inconvenience and would like to show our appreciation by providing you with a $200 discount on your first scheduled service. This voucher will be visible in our system at all Ford Dealerships nationally and will be automatically applied at the completion of your first scheduled service.'''
+    
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"  
+    
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -138,7 +150,7 @@ color='''fordblue'''
   copy='''
 If you have any further questions, please don't hesitate to contact <br /><br /><span style="color:#FFFFFF"><%${user.CustomAttribute['Dealer_Name']}%> on <a href="tel:<%${user.CustomAttribute['Dealer_Phone']}%>" style="color:#FFFFFF; text-decoration:none"><%${user.CustomAttribute['Dealer_Phone']}%></a>   </span>or <a href="tel:133673" style="color:#FFFFFF; text-decoration:none"><span style="color:#FFFFFF">13 FORD (13 36 73)</span>'''
 
-        
+  
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
 color='white'

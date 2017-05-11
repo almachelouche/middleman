@@ -96,9 +96,9 @@ text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif; font-Size: 14px
 path='email_modules/split/07'
 color='white'
 
-title='''Get accessorized'''
-copy='''Take your EcoSport to the next level with our latest accessories, like a dash cam for just 3,690 THB. Record high-quality video of your journey, and save up to 10% on insurance premiums.'''
-cta1_text='''VIEW ACCESSORIES'''
+title='''อุปกรณ์ตกแต่งสำหรับคุณ'''
+copy='''ให้ฟอร์ด เอคโคสปอร์ต ของคุณล้ำหน้าไปอีกขั้น ด้วยอุปกรณ์ตกแต่งล่าสุด นั่นคือ กล้องบันทึกวีดีโอหน้ารถ มูลค่า 3,690. ที่จะบันทึกวิดีโอคุณภาพสูงระหว่างการขับขี่ ทั้งยังช่วยคุณประหยัดค่าเบี้ยประกันรถยนต์ได้สูงสุดถึง 5-10%'''
+cta1_text='''คลิกเพื่อชมอุปกรณ์เสริมทั้งหมด'''
 cta1_url='''https://www.ford.co.th/suvs/ecosport/accessories/'''
 cta1_link_name = '''acc_ecosport'''
 image='''TH_edm1a_ecosport_video_recoder_20170508'''

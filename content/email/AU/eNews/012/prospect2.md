@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU Enews 012 prospect'''
+title = '''AU Enews 012 prospect 2'''
 
 [[module]]
 path='email_modules/preheader'
@@ -16,14 +16,6 @@ color='black'
   date = '''June 2017'''
   copy = '''IN THIS ISSUE:<br />New Everest Ambiente | Vivid Sydney | WATCH: EcoBoost | Watch Ranger vs Skydiver'''
 
-[[module]] #Header eNews
-path='email_modules/header/enews'
-color='black'
-
-  title = '''Insider'''
-  date = '''June 2017'''
-  copy = '''IN THIS ISSUE:<br />New Everest Ambiente | Future with Ford | WATCH: EcoBoost | Watch Ranger vs Skydiver'''
-  
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
 color='black'
@@ -66,28 +58,28 @@ Australia, we invite you to celebrate technology, design and innovation as we Go
   
   [[module]] #Split 01
 path='email_modules/split/01'
-color='darkblue'
+color='green'
 
- title = '''How the not so distant future could (really) look.'''
-  copy = '''How would you like to have your mail delivered by drone? Or to be driven by an autonomous car? According to the innovators who attended the Future with Ford event, it’s only a matter of time before these life-changing technologies arrive. The future looks bright. Are you ready?'''
+ title = '''See into the future'''
+  copy = '''Do parcel-delivering drones and autonomous cars sound like science fiction? According to the innovators who attended the Future with Ford event, these life-changing technologies will arrive sooner than you may think. Are you ready?'''
   cta1_text = '''LEARN MORE'''
   cta1_url = '''https://www.ford.com.au/about-ford/newsroom/2017/thought-leaders-and-innovators-define-the-mobility-revolution--u/'''
   cta1_link_name = '''innovation'''
   cta1_icon = '''more'''
-  image = '''AU_edm6_ranger_20170427'''
+  image = '''AU_edm6_awards2_20170301'''
   
   
   [[module]] #Split 02
 path='email_modules/split/02'
 color='lightblue'
 
-  title = ''' It pays to take a closer look'''
-  copy = '''End of financial year is a smart time to look for a new car… but look a little closer and you’ll also see Ford has an unbelievable deal on one of Australia’s best trucks. Spot this deal and others now, before they disappear!'''
+  title = '''It pays to look closer'''
+  copy = '''The end of the financial year is a smart time to look for a new car… but look a little closer and you’ll also see Ford has an unbelievable deal on one of Australia’s best trucks. Spot this deal and others now, before they disappear!'''
   cta1_text = '''READ MORE'''
   cta1_url = '''http://www.ford.com.au/latest-offers/national/'''
   cta1_link_name = '''offer'''
   cta1_icon = '''more'''
-  image = '''AU_edm6_offer_20170510'''
+  image = '''AU_edm6_offer2_20170511'''
   
   
   [[module]] #Split 01

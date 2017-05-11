@@ -96,9 +96,18 @@ text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif; font-Size: 14px
 path='email_modules/split/07'
 color='white'
 
-title='''Get accessorized'''
-copy='''Take your Everest to the next level with our latest accessories, like fender flares for just 4,090 THB. Protect your Everest’s body from scratches and enhance its aggressive look.'''
-cta1_text='''VIEW ACCESSORIES'''
+title='''<span style="font-family:Tahoma, Verdana, Sans-serif">อุปกรณ์ตกแต่งสำหรับคุณ</span>'''
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
+<span style="white-space:nowrap;">ให้ฟอร์ด เอเวอเรสต์ของคุณ</span> <br />
+<span style="white-space:nowrap;">ล้ำหน้าไปอีกขั้น</span> 
+<span style="white-space:nowrap;">ด้วยอุปกรณ์ตกแต่งล่าสุด</span><br />
+<span style="white-space:nowrap;">ชุดคิ้วโป่งล้อ</span> 
+<span style="white-space:nowrap;">มูลค่า 4,090.</span> 
+<span style="white-space:nowrap;">ที่จะช่วยปกป้องตัวถังรถฟอร์ด</span><br />
+<span style="white-space:nowrap;">จากรอยขีดข่วน</span>
+<span style="white-space:nowrap;">ทั้งยังเสริมภาพลักษณ์อันแสนดุดัน</span>
+<span style="white-space:nowrap;">ให้รถคุณได้อีกด้วย</span></span>'''
+cta1_text='''คลิกเพื่อชมอุปกรณ์เสริมทั้งหมด'''
 cta1_url='''https://www.ford.co.th/suvs/everest/accessories/#'''
 cta1_link_name = '''acc_all_new_everest'''
 image='''TH_edm1a_everest_fender_flare_20170508'''
@@ -113,7 +122,8 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" whit
 <span style=" white-space:nowrap;">สำหรับรถใหม่</span><br /><br />
 <span style=" white-space:nowrap;">A: เพราะระบบช่วยเหลือฉุกเฉินของเรา</span>
 <span style=" white-space:nowrap;">ไม่เพียงครอบคลุมการคุ้มครองอะไหล่</span>
-<span style=" white-space:nowrap;">และเครื่องยนต์ตลอดอายุการใช้งานเท่านั้น</span>
+<span style=" white-space:nowrap;">และเครื่องยนต์</span>
+<span style="white-space:nowrap;">ตลอดอายุการใช้งานเท่านั้น</span>
 <span style=" white-space:nowrap;">แต่ยังรวมถึงการช่วยเหลือ</span>
 <span style=" white-space:nowrap;">ในกรณีเหตุฉุกเฉินอื่นๆ</span>
 <span style=" white-space:nowrap;">เช่น</span>
