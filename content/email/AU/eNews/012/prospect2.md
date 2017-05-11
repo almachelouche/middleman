@@ -58,7 +58,7 @@ Australia, we invite you to celebrate technology, design and innovation as we Go
   
   [[module]] #Split 01
 path='email_modules/split/01'
-color='darkblue'
+color='green'
 
  title = '''How the not so distant future could (really) look.'''
   copy = '''How would you like to have your mail delivered by drone? Or to be driven by an autonomous car? According to the innovators who attended the Future with Ford event, it’s only a matter of time before these life-changing technologies arrive. The future looks bright. Are you ready?'''
