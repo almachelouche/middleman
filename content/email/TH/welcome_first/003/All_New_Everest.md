@@ -96,8 +96,17 @@ text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif; font-Size: 14px
 path='email_modules/split/07'
 color='white'
 
-title='''อุปกรณ์ตกแต่งสำหรับคุณ'''
-copy='''ให้ฟอร์ด เอเวอเรสต์ของคุณ ล้ำหน้าไปอีกขั้น ด้วยอุปกรณ์ตกแต่งล่าสุด ชุดคิ้วโป่งล้อ มูลค่า 4,090. ที่จะช่วยปกป้องตัวถังรถฟอร์ดจากรอยขีดข่วน ทั้งยังเสริมภาพลักษณ์อันแสนดุดันให้รถคุณได้อีกด้วย'''
+title='''<span style="font-family:Tahoma, Verdana, Sans-serif">อุปกรณ์ตกแต่งสำหรับคุณ</span>'''
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
+<span style="white-space:nowrap;">ให้ฟอร์ด เอเวอเรสต์ของคุณ</span> <br />
+<span style="white-space:nowrap;">ล้ำหน้าไปอีกขั้น</span> 
+<span style="white-space:nowrap;">ด้วยอุปกรณ์ตกแต่งล่าสุด</span>
+<span style="white-space:nowrap;">ชุดคิ้วโป่งล้อ</span> 
+<span style="white-space:nowrap;">มูลค่า 4,090.</span> 
+<span style="white-space:nowrap;">ที่จะช่วยปกป้องตัวถังรถฟอร์ด</span><br />
+<span style="white-space:nowrap;">จากรอยขีดข่วน</span>
+<span style="white-space:nowrap;">ทั้งยังเสริมภาพลักษณ์อันแสนดุดัน</span>
+<span style="white-space:nowrap;">ให้รถคุณได้อีกด้วย</span></span>'''
 cta1_text='''คลิกเพื่อชมอุปกรณ์เสริมทั้งหมด'''
 cta1_url='''https://www.ford.co.th/suvs/everest/accessories/#'''
 cta1_link_name = '''acc_all_new_everest'''
