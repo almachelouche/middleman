@@ -1,6 +1,6 @@
 +++
 markets = ["ph"]
-title = '''PH 2.0 Decline SR 001'''
+title = '''PH 2.0 Decline SR 002'''
 
 
 [[module]]
@@ -70,6 +70,17 @@ toptitle='''Your <%${user.CustomAttribute['Model']}%>’s Health Status'''
     icon3red = '''in_edm2d_status_battery_white_20160801'''
     title3red = '''Batteries'''
     subtitle3red = '''Service immediately'''
+    
+[[module]] #Cover 05
+path='email_modules/cover/02'
+color='''white'''
+
+  title = '''Need any help?'''
+  copy = '''Call our Customer Assistance Centre with any questions at<br /><a style="color:#2D96CD" href="tel:(+632) 866 9408">(+632) 866 9408</a><br />or<br /> <a style="color:#2D96CD" href="tel:1-800-10-736-3673">toll-free 1-800-10-736-3673</a>'''
+  cta_text = '''+63-2-866-9408'''
+  cta_url = '''tel:6328669408'''
+  cta_link_name = '''any_questions_call'''
+  icon = '''ph_edm2_call_20160801'''
 
 [[module]] #PH Social
 path = 'email_modules/footer/ph/social'
