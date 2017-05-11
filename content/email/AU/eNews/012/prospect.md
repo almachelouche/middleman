@@ -14,8 +14,16 @@ color='black'
 
   title = '''Insider'''
   date = '''June 2017'''
-  copy = '''IN THIS ISSUE:<br />New Everest Ambiente | VIVID | WATCH: EcoBoost | Watch Ranger vs Skydiver'''
+  copy = '''IN THIS ISSUE:<br />New Everest Ambiente | Vivid Sydney | WATCH: EcoBoost | Watch Ranger vs Skydiver'''
 
+[[module]] #Header eNews
+path='email_modules/header/enews'
+color='black'
+
+  title = '''Insider'''
+  date = '''June 2017'''
+  copy = '''IN THIS ISSUE:<br />New Everest Ambiente | Future with Ford | WATCH: EcoBoost | Watch Ranger vs Skydiver'''
+  
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
 color='black'
@@ -61,8 +69,8 @@ path='email_modules/split/01'
 color='darkblue'
 
  title = '''How the not so distant future could (really) look.'''
-  copy = '''Ford got some of the globe’s most influential and specialised innovation experts together to chat mobility – they broke down the reality of what the world is capable of when it comes to life-altering change using technology. From e-Scooters and autonomous cars, to parcel delivery by drones - the future looks bright! Read more or check out the full commentary and pics via #FutureWithFord.'''
-  cta1_text = '''READ MORE'''
+  copy = '''How would you like to have your mail delivered by drone? Or to be driven by an autonomous car? According to the innovators who attended the Future with Ford event, it’s only a matter of time before these life-changing technologies arrive. The future looks bright. Are you ready?'''
+  cta1_text = '''LEARN MORE'''
   cta1_url = '''https://www.ford.com.au/about-ford/newsroom/2017/thought-leaders-and-innovators-define-the-mobility-revolution--u/'''
   cta1_link_name = '''innovation'''
   cta1_icon = '''more'''

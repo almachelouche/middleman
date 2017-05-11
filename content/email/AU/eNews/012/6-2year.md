@@ -14,7 +14,15 @@ color='black'
 
   title = '''Insider'''
   date = '''June 2017'''
-  copy = '''IN THIS ISSUE:<br />VIVID | Genuine Ford Accessories | VIDEO: Brake Tips | Watch Ranger vs Skydiver '''
+  copy = '''IN THIS ISSUE:<br />Vivid Sydney | Genuine Ford Accessories | VIDEO: Brake Tips | Watch Ranger vs Skydiver '''
+  
+  [[module]] #Header eNews
+path='email_modules/header/enews'
+color='black'
+
+  title = '''Insider'''
+  date = '''June 2017'''
+  copy = '''IN THIS ISSUE:<br />Future with Ford | Genuine Ford Accessories | VIDEO: Brake Tips | Watch Ranger vs Skydiver '''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -27,9 +35,9 @@ color='black'
 path='email_modules/custom/enews_topstory'
 color='black'
 
-  title = '''VIVID'''
-  copy = '''Thrilled to announce that we are an official Vivid Partner for Vivid Sydney. Australia, we invite you to celebrate technology, design and innovation as we Go Further in 2017.'''
-  cta1_text = '''FIND OUT MORE'''
+  title = '''Let’s Get Vivid'''
+  copy = '''Ford and Vivid Sydney have officially joined forces! We couldn’t be more thrilled to support this stunning festival of art, technology, light, and music. We hope to see you at Darling Harbour from May 26 – June 17. Join us as we Go Further in 2017.'''
+  cta1_text = '''LEARN MORE'''
   cta1_url = '''https://www.ford.com.au/about-ford/awards/'''
   cta1_link_name = ''''award1'''
   cta1_icon = '''more'''
@@ -39,8 +47,8 @@ path='email_modules/custom/enews_topstory'
 color='black'
 
  title = '''How the not so distant future could (really) look.'''
-  copy = '''Ford got some of the globe’s most influential and specialised innovation experts together to chat mobility – they broke down the reality of what the world is capable of when it comes to life-altering change using technology. From e-Scooters and autonomous cars, to parcel delivery by drones - the future looks bright! Read more or check out the full commentary and pics via #FutureWithFord.'''
-  cta1_text = '''READ MORE'''
+  copy = '''How would you like to have your mail delivered by drone? Or to be driven by an autonomous car? According to the innovators who attended the Future with Ford event, it’s only a matter of time before these life-changing technologies arrive. The future looks bright. Are you ready?'''
+  cta1_text = '''LEARN MORE'''
   cta1_url = '''https://www.ford.com.au/about-ford/newsroom/2017/thought-leaders-and-innovators-define-the-mobility-revolution--u/'''
   cta1_link_name = '''innovation'''
   cta1_icon = '''more'''
