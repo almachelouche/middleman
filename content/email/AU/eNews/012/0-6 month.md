@@ -46,7 +46,7 @@ color='black'
 path='email_modules/image/banner'
 color='white'
 
-  image = ''''''
+  image = '''AU_edm6_everest_20170510'''
   url_link = '''https://www.ford.com.au/forms/accessories/'''
   
   [[module]] #Header Logo
@@ -71,7 +71,7 @@ color='black'
 path='email_modules/image/banner'
 color='white'
 
-  image = ''''''
+  image = '''AU_edm6_everest_20170510'''
   url_link = '''https://www.ford.com.au/forms/accessories/'''
 
 [[module]] #Split 01
@@ -84,7 +84,7 @@ title = '''Let’s Get Vivid'''
   cta1_url = '''https://youtu.be/me8D8UhsT6s'''
   cta1_link_name = '''VIVID'''
   cta1_icon = '''play'''
-  image = ''''''
+  image = '''AU_edm6_ranger_20170427'''
   
   [[module]] #Split 01
 path='email_modules/split/01'
@@ -96,7 +96,7 @@ color='lightblue'
   cta1_url = '''https://www.ford.com.au/about-ford/newsroom/2017/thought-leaders-and-innovators-define-the-mobility-revolution--u/'''
   cta1_link_name = '''innovation'''
   cta1_icon = '''more'''
-  image = ''''''
+  image = '''AU_edm6_ranger_20170427'''
   
 
   [[module]] #Split 02

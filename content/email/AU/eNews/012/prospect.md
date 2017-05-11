@@ -74,7 +74,7 @@ color='darkblue'
   cta1_url = '''https://www.ford.com.au/about-ford/newsroom/2017/thought-leaders-and-innovators-define-the-mobility-revolution--u/'''
   cta1_link_name = '''innovation'''
   cta1_icon = '''more'''
-  image = ''''''
+  image = '''AU_edm6_ranger_20170427'''
   
   
   [[module]] #Split 02
