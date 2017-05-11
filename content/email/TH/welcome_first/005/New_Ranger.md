@@ -120,9 +120,9 @@ text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif; font-Size: 14px
 path='email_modules/split/07'
 color='white'
 
-title='''Get accessorized'''
-copy='''Take your Ranger to the next level with our latest accessories, like a roller shutter for just 60,893 THB. Protect your loads with this light-weight, high-quality aluminum cover.'''
-cta1_text='''VIEW ACCESSORIES'''
+title='''อุปกรณ์ตกแต่งสำหรับคุณ'''
+copy='''ให้ฟอร์ด เรนเจอร์ของคุณ ล้ำหน้าไปอีกขั้น ด้วยอุปกรณ์ตกแต่งล่าสุด ฝาปิดกระบะท้าย พร้อมชุดติดตั้งกุญแจล๊อคฝาปิดกระบะท้าย มูลค่า 60,893. ที่ทำจากอลูมิเนียมคุณภาพสูง น้ำหนักเบา ปกป้องสัมภาระของคุณได้อย่างปลอดภัย'''
+cta1_text='''คลิกเพื่อชมอุปกรณ์เสริมทั้งหมด'''
 cta1_url='''https://www.ford.co.th/trucks/ranger/accessories/#overlay/content/ford/th/th_th/ranger-content/image-overlays/accessories/nudge-bar.html'''
 cta1_link_name = '''acc_new_ranger'''
 image='''TH_edm1a_wildtrak_roller_shutter_20170508'''
