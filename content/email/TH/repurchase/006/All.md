@@ -20,9 +20,32 @@ path='email_modules/cover/01'
 color='white'
 
   title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">ประหยัดสุดคุ้ม ในเดือนพฤษภาคม และ มิถุนายน</span>'''
-  copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif;"><span style="font-family:Tahoma, Verdana, Sans-serif;">
+  copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
   สวัสดีคุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>
-  <br />ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />เราหวังว่าคุณจะได้รับความพึงพอใจจากการเป็นเจ้าของรถฟอร์ด <%${user.CustomAttribute['Model']}%> และได้เข้ามาร่วมเป็นส่วนหนึ่งในครอบครัวของเรา!<br /><br />หากคุณกำลังพิจารณามองหารถคันใหม่ เราอยากเชิญคุณมาพบกับข้อเสนอสุดพิเศษ เพียงลงทะเบียนทดลองขับที่โชว์รูมฟอร์ด<br /><br />ออกรถฟอร์ด เรนเจอร์ Wildtrak รุ่นที่มีระบบแผนที่นำทาง  ภายในวันที่ 30 มิถุนายน 2560 รับฟรีประกันภัยชั้นหนึ่ง พร้อมสิทธิ์ผ่อนขั้นต่ำเพียงเดือนละ 8,999 บาท และฟอร์ดยังมีข้อเสนอสุดพิเศษ สำหรับรถฟอร์ด เอเวอร์เรส และ ฟอร์ด เอคโคสปอร์ต<br /><br />หากคุณสนใจสามารถติดตามข้อเสนอราคาพิเศ</span>'''
+  <br />ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />
+
+  <span style="white-space:nowrap;">เราหวังว่าคุณจะได้รับความพึงพอใจ</span>
+  <span style="white-space:nowrap;">จากการเป็นเจ้าของรถฟอร์ด <%${user.CustomAttribute['Model']}%> </span><br />
+  <span style="white-space:nowrap;">และได้เข้ามาร่วมเป็นส่วนหนึ่ง</span>
+  <span style="white-space:nowrap;">ในครอบครัวของเรา!</span><br /><br />
+
+  <span style="white-space:nowrap;">หากคุณกำลังพิจารณามองหารถคันใหม่</span>
+  <span style="white-space:nowrap;">เราอยากเชิญคุณ</span>
+  <span style="white-space:nowrap;">มาพบกับข้อเสนอสุดพิเศษ</span> 
+  <span style="white-space:nowrap;">เพียงลงทะเบียนทดลองขับ</span> 
+  <span style="white-space:nowrap;">ที่โชว์รูมฟอร์ด</span><br /><br />
+  <span style="white-space:nowrap;">ออกรถฟอร์ด เรนเจอร์ Wildtrak</span>
+  <span style="white-space:nowrap;">รุ่นที่มีระบบแผนที่นำทาง</span>  
+  <span style="white-space:nowrap;">ภายในวันที่ 30 มิถุนายน 2560</span>
+  <span style="white-space:nowrap;">รับฟรีประกันภัยชั้นหนึ่ง</span>
+  <span style="white-space:nowrap;">พร้อมสิทธิ์ผ่อนขั้นต่ำ</span>
+  <span style="white-space:nowrap;">เพียงเดือนละ 8,999 บาท</span> 
+  <span style="white-space:nowrap;">และฟอร์ดยังมีข้อเสนอสุดพิเศษ</span>
+  <span style="white-space:nowrap;">สำหรับรถฟอร์ด เอเวอร์เรส</span> 
+  <span style="white-space:nowrap;">และ ฟอร์ด เอคโคสปอร์ต</span><br /><br />
+
+  <span style="white-space:nowrap;">หากคุณสนใจ</span>
+  <span style="white-space:nowrap;">สามารถติดตามข้อเสนอราคาพิเศษ</span></span>'''
   cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ข้อเสนอพิเศษ</span>'''
   cta1_url = '''https://www.ford.co.th/buying/latest-offers/'''
   cta1_link_name = '''latest_offers'''
