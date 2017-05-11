@@ -138,12 +138,35 @@ color='''fordblue'''
   copy='''
 If you have any further questions, please don't hesitate to contact <br /><br /><span style="color:#FFFFFF"><%${user.CustomAttribute['Dealer_Name']}%> on <a href="tel:<%${user.CustomAttribute['Dealer_Phone']}%>" style="color:#FFFFFF; text-decoration:none"><%${user.CustomAttribute['Dealer_Phone']}%></a>   </span>or <a href="tel:133673" style="color:#FFFFFF; text-decoration:none"><span style="color:#FFFFFF">13 FORD (13 36 73)</span>'''
 
-[[module]] #Cover 01 - transit sd
-path='email_modules/cover/01'
+[[module]]
+path='email_modules/spacer/default'
 color='white'
 
-  title='''$200 off your first service'''
-  copy='''As you may be aware, we are experiencing a delay with the arrival of the SD card for your Sat Nav system. These are due in Australia in June and you will be contacted when they arrive. We understand the inconvenience and would like to show our appreciation by providing you with a $200 discount on your first scheduled service. This voucher will be visible in our system at all Ford Dealerships nationally and will be automatically applied at the completion of your first scheduled service.'''
+	height="30"
+
+[[module]]
+path='email_modules/singles/title'
+color='''white'''
+	
+	title = '''$200 off your first service'''
+    
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+	
+	copy = '''As you may be aware, we are experiencing a delay with the arrival of the SD card for your Sat Nav system. These are due in Australia in June and you will be contacted when they arrive. We understand the inconvenience and would like to show our appreciation by providing you with a $200 discount on your first scheduled service. This voucher will be visible in our system at all Ford Dealerships nationally and will be automatically applied at the completion of your first scheduled service.'''
+    
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"  
   
   
 [[module]] #Footer AU Social
