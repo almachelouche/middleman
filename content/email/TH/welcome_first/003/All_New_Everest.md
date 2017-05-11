@@ -96,9 +96,9 @@ text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif; font-Size: 14px
 path='email_modules/split/07'
 color='white'
 
-title='''Get accessorized'''
-copy='''Take your Everest to the next level with our latest accessories, like fender flares for just 4,090 THB. Protect your Everest’s body from scratches and enhance its aggressive look.'''
-cta1_text='''VIEW ACCESSORIES'''
+title='''อุปกรณ์ตกแต่งสำหรับคุณ'''
+copy='''ให้ฟอร์ด เอเวอเรสต์ของคุณ ล้ำหน้าไปอีกขั้น ด้วยอุปกรณ์ตกแต่งล่าสุด ชุดคิ้วโป่งล้อ มูลค่า 4,090. ที่จะช่วยปกป้องตัวถังรถฟอร์ดจากรอยขีดข่วน ทั้งยังเสริมภาพลักษณ์อันแสนดุดันให้รถคุณได้อีกด้วย'''
+cta1_text='''คลิกเพื่อชมอุปกรณ์เสริมทั้งหมด'''
 cta1_url='''https://www.ford.co.th/suvs/everest/accessories/#'''
 cta1_link_name = '''acc_all_new_everest'''
 image='''TH_edm1a_everest_fender_flare_20170508'''

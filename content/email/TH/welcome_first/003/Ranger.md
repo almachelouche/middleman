@@ -96,9 +96,9 @@ text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif; font-Size: 14px
 path='email_modules/split/07'
 color='white'
 
-title='''Get accessorized'''
-copy='''Take your Ranger to the next level with our latest accessories, like fender flares for just 4,140 THB. Protect your Ranger’s body from scratches and enhance its aggressive look.'''
-cta1_text='''VIEW ACCESSORIES'''
+title='''อุปกรณ์ตกแต่งสำหรับคุณ'''
+copy='''ให้ฟอร์ด เรนเจอร์ของคุณ ล้ำหน้าไปอีกขั้น ด้วยอุปกรณ์ตกแต่งล่าสุด ชุดคิ้วโป่งล้อสีดำ มูลค่า 4,140. ที่จะช่วยปกป้องตัวถังรถฟอร์ดจากรอยขีดข่วน ทั้งยังเสริมภาพลักษณ์อันแสนดุดันให้รถคุณได้อีกด้วย'''
+cta1_text='''คลิกเพื่อชมอุปกรณ์เสริมทั้งหมด'''
 cta1_url='''https://www.ford.co.th/trucks/ranger/accessories/#overlay/content/ford/th/th_th/ranger-content/image-overlays/accessories/wheelbarrow-with-sensor.html'''
 cta1_link_name = '''acc_ranger'''
 image='''TH_edm1a_ranger_fender_flare_20170508'''
