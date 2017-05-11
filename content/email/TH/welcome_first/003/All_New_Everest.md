@@ -100,7 +100,7 @@ title='''<span style="font-family:Tahoma, Verdana, Sans-serif">อุปกร�
 copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style="white-space:nowrap;">ให้ฟอร์ด เอเวอเรสต์ของคุณ</span> <br />
 <span style="white-space:nowrap;">ล้ำหน้าไปอีกขั้น</span> 
-<span style="white-space:nowrap;">ด้วยอุปกรณ์ตกแต่งล่าสุด</span>
+<span style="white-space:nowrap;">ด้วยอุปกรณ์ตกแต่งล่าสุด</span><br />
 <span style="white-space:nowrap;">ชุดคิ้วโป่งล้อ</span> 
 <span style="white-space:nowrap;">มูลค่า 4,090.</span> 
 <span style="white-space:nowrap;">ที่จะช่วยปกป้องตัวถังรถฟอร์ด</span><br />
@@ -122,7 +122,8 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" whit
 <span style=" white-space:nowrap;">สำหรับรถใหม่</span><br /><br />
 <span style=" white-space:nowrap;">A: เพราะระบบช่วยเหลือฉุกเฉินของเรา</span>
 <span style=" white-space:nowrap;">ไม่เพียงครอบคลุมการคุ้มครองอะไหล่</span>
-<span style=" white-space:nowrap;">และเครื่องยนต์ตลอดอายุการใช้งานเท่านั้น</span>
+<span style=" white-space:nowrap;">และเครื่องยนต์</span>
+<span style="white-space:nowrap;">ตลอดอายุการใช้งานเท่านั้น</span>
 <span style=" white-space:nowrap;">แต่ยังรวมถึงการช่วยเหลือ</span>
 <span style=" white-space:nowrap;">ในกรณีเหตุฉุกเฉินอื่นๆ</span>
 <span style=" white-space:nowrap;">เช่น</span>
