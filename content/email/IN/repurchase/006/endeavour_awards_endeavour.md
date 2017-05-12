@@ -47,11 +47,17 @@ color='''white'''
 	
 	copy = '''We wanted to say 'thank you!' for being an Endeavour owner. We hope you continue to love your SUV as much as we enjoy having you as part of our Ford family. <br /><br />But if you're already thinking about an upgrade, we invite you to experience the All-New Endeavour. <br /><br />Not only is Endeavour smarter and more capable than ever, it also conquered the podiums this year, winning India's most prestigious vehicle awards.<br /><br />Check out the All-New Endeavour today, because we want you to drive a winner. '''
     
-[[module]]
-path='email_modules/spacer/default'
+[[module]] #Custom 3 Icon Text
+path='email_modules/custom/3icon_text'
 color='white'
 
-	height="30"    
+  title = ''''''
+  icon1 = '''au_edm5_sync2_20161107'''
+  text1 = '''<span style="font-weight:bold">SYNC&#174;3</span>'''
+  icon2 = '''au_edm5_tms_20161013'''
+  text2 = '''<span style="font-weight:bold">Terrain Management System</span>'''
+  icon3 = '''in_edm5_airbags_20161122'''
+  text3 = '''<span style="font-weight:bold">7 Airbags</span>'''
     
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'

@@ -47,11 +47,17 @@ color='''white'''
 	
 	copy = '''We noticed you’ve been driving your Ford <%${user.CustomAttribute['Model']}%> for a while now and might be thinking about purchasing a new Ford. <br /><br />We believe in engineering vehicles that can conquer any terrain – like the All-New Endeavour. This year, Endeavour conquered the podiums too, winning India’s most prestigious vehicle awards. <br /><br />Check out Endeavour today, because we want you to drive a winner. '''
     
-[[module]]
-path='email_modules/spacer/default'
+[[module]] #Custom 3 Icon Text
+path='email_modules/custom/3icon_text'
 color='white'
 
-	height="30"    
+  title = ''''''
+  icon1 = '''au_edm5_sync2_20161107'''
+  text1 = '''<span style="font-weight:bold">SYNC&#174;3</span>'''
+  icon2 = '''au_edm5_tms_20161013'''
+  text2 = '''<span style="font-weight:bold">Terrain Management System</span>'''
+  icon3 = '''in_edm5_airbags_20161122'''
+  text3 = '''<span style="font-weight:bold">7 Airbags</span>'''
     
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
