@@ -97,22 +97,10 @@ color='white'
 	height="30"
 
 [[module]]
-path='email_modules/singles/title'
-color='''white'''
-	
-	title = '''<span style="font-weight: bold;">Sat Nav SD Card</span>'''
-    
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
-
-[[module]]
 path='email_modules/singles/copy'
 color='''white'''
 	
-	copy = '''As you may be aware, we are experiencing a delay with the arrival of the SD card for your Sat Nav system. These are due in Australia in June and you will be contacted when they arrive. We understand the inconvenience and would like to show our appreciation by providing you with a $200 discount on your first scheduled service. This voucher will be visible in our system at all Ford Dealerships nationally and will be automatically applied at the completion of your first scheduled service.'''
+	copy = '''<span style="font-weight: bold;">Sat Nav SD Card</span><br /><br />As you may be aware, we are experiencing a delay with the arrival of the SD card for your Sat Nav system. These are due in Australia in June and you will be contacted when they arrive. We understand the inconvenience and would like to show our appreciation by providing you with a $200 discount on your first scheduled service. This voucher will be visible in our system at all Ford Dealerships nationally and will be automatically applied at the completion of your first scheduled service.'''
     
 [[module]]
 path='email_modules/spacer/default'
