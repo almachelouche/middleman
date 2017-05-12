@@ -53,7 +53,7 @@ color='white'
 
   title = ''''''
   icon1 = '''au_edm5_sync2_20161107'''
-  text1 = '''SYNC&#174;3'''
+  text1 = '''SYNC<sup>&#174;</sup>3'''
   icon2 = '''au_edm5_tms_20161013'''
   text2 = '''Terrain Management System'''
   icon3 = '''in_edm5_airbags_20161122'''
@@ -79,7 +79,7 @@ color='white'
 path='email_modules/singles/icon'
 color='''white'''
 	
-	icon = '''in_edm5_livechat_blue_20161018'''
+	icon = '''in_edm5_livechat_darkblue_20170411'''
 
 [[module]] #Cover 07
 path='email_modules/cover/02'

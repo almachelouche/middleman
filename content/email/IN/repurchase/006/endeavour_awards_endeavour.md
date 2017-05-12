@@ -80,7 +80,7 @@ color='white'
 path='email_modules/singles/icon'
 color='''white'''
 	
-	icon = '''in_edm5_livechat_blue_20161018'''
+	icon = '''in_edm5_livechat_darkblue_20170411'''
 
 [[module]] #Cover 07
 path='email_modules/cover/02'
