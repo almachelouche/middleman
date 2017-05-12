@@ -53,11 +53,11 @@ color='white'
 
   title = ''''''
   icon1 = '''au_edm5_sync2_20161107'''
-  text1 = '''<span style="font-weight:bold">SYNC&#174;3</span>'''
+  text1 = '''SYNC&#174;3'''
   icon2 = '''au_edm5_tms_20161013'''
-  text2 = '''<span style="font-weight:bold">Terrain Management System</span>'''
+  text2 = '''Terrain Management System'''
   icon3 = '''in_edm5_airbags_20161122'''
-  text3 = '''<span style="font-weight:bold">7 Airbags</span>'''
+  text3 = '''7 Airbags'''
     
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
