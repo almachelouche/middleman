@@ -108,7 +108,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style="white-space:nowrap;">ระหว่างการขับขี่ ทั้งยังช่วยคุณ</span><br /> 
 <span style="white-space:nowrap;">ประหยัดค่าเบี้ยประกันรถยนต์</span>
 <span style="white-space:nowrap;">ได้สูงสุดถึง 5-10%</span></span>'''
-cta1_text='''คลิกเพื่อชมอุปกรณ์เสริมทั้งหมด'''
+cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อชมอุปกรณ์เสริมทั้งหมด</span>'''
 cta1_url='''https://www.ford.co.th/suvs/ecosport/accessories/'''
 cta1_link_name = '''acc_ecosport'''
 image='''TH_edm1a_ecosport_video_recoder_20170508'''

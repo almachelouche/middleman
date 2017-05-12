@@ -128,7 +128,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style="white-space:nowrap;">ฝาปิดกระบะท้าย</span> <br />
 <span style="white-space:nowrap;">พร้อมชุดติดตั้งกุญแจล๊อค</span><br />
 <span style="white-space:nowrap;">ฝาปิดกระบะท้าย</span>
-<span style="white-space:nowrap;">มูลค่า 60,893</span> <br />
+<span style="white-space:nowrap;">มูลค่า 60,893.-</span> <br />
 <span style="white-space:nowrap;">ที่ทำ</span>จาก<span style="white-space:nowrap;">อลูมิเนียมคุณภาพสูง</span> <br />
 <span style="white-space:nowrap;">น้ำหนักเบา</span>
 <span style="white-space:nowrap;">ปกป้องสัมภาระของคุณ</span><br />
