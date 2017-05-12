@@ -77,10 +77,10 @@ color='lincoln_white'
   title2 = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>가까운 전시장 및<br />서비스센터 찾기</b></span>'''
   copy2 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">가장 가까운 전시장 및<br />서비스 센터를 찾아보십시오.</span>'''
   cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">자세히 보기</span>'''
-  cta1_url = '''https://www.ford-korea.com/contact-us/'''
+  cta1_url = '''https://www.lincoln-korea.com/contact-us/'''
   cta1_link_name = '''contact_us'''
   cta2_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">전시장 및 서비스센터 찾기</span>'''
-  cta2_url = '''https://www.ford-korea.com/locate-a-dealer/'''
+  cta2_url = '''https://www.lincoln-korea.com/dealer-locate/'''
   cta2_link_name = '''find_dealer'''
 
 [[module]] #Footer SK Lincoln Social
