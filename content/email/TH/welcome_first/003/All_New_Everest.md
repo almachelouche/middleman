@@ -102,7 +102,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style="white-space:nowrap;">ล้ำหน้าไปอีกขั้น</span> 
 <span style="white-space:nowrap;">ด้วยอุปกรณ์ตกแต่งล่าสุด</span><br />
 <span style="white-space:nowrap;">ชุดคิ้วโป่งล้อ</span> 
-<span style="white-space:nowrap;">มูลค่า 4,090.</span> 
+<span style="white-space:nowrap;">มูลค่า 4,090</span> 
 <span style="white-space:nowrap;">ที่จะช่วยปกป้องตัวถังรถฟอร์ด</span><br />
 <span style="white-space:nowrap;">จากรอยขีดข่วน</span>
 <span style="white-space:nowrap;">ทั้งยังเสริมภาพลักษณ์อันแสนดุดัน</span>
