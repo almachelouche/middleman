@@ -107,7 +107,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style="white-space:nowrap;">จากรอยขีดข่วน</span>
 <span style="white-space:nowrap;">ทั้งยังเสริมภาพลักษณ์อันแสนดุดัน</span>
 <span style="white-space:nowrap;">ให้รถคุณได้อีกด้วย</span></span>'''
-cta1_text='''คลิกเพื่อชมอุปกรณ์เสริมทั้งหมด'''
+cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อชมอุปกรณ์เสริมทั้งหมด</span>'''
 cta1_url='''https://www.ford.co.th/suvs/everest/accessories/#'''
 cta1_link_name = '''acc_all_new_everest'''
 image='''TH_edm1a_everest_fender_flare_20170508'''

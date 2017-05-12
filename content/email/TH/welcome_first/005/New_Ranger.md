@@ -134,7 +134,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style="white-space:nowrap;">น้ำหนักเบา</span>
 <span style="white-space:nowrap;">ปกป้องสัมภาระของคุณ</span><br />
 <span style="white-space:nowrap;">ได้อย่างปลอดภัย</span></span>'''
-cta1_text='''คลิกเพื่อชมอุปกรณ์เสริมทั้งหมด'''
+cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อชมอุปกรณ์เสริมทั้งหมด</span>'''
 cta1_url='''https://www.ford.co.th/trucks/ranger/accessories/#overlay/content/ford/th/th_th/ranger-content/image-overlays/accessories/nudge-bar.html'''
 cta1_link_name = '''acc_new_ranger'''
 image='''TH_edm1a_wildtrak_roller_shutter_20170508'''
