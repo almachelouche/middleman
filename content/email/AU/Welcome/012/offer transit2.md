@@ -90,11 +90,35 @@ color = '''white'''
 	image3_url = '''https://www.ford.com.au/owners/service/'''
 	image3_link_name = '''icon3'''
     
-[[module]] #Cover 11
-path='email_modules/cover/03'
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
+path='email_modules/singles/title'
 color='''white'''
-  
-  copy='''<br /><br /><span style="font-weight: bold;">Sat Nav SD cARD</span><br /><br />As you may be aware, we are experiencing a delay with the arrival of the SD card for your Sat Nav system. These are due in Australia in June and you will be contacted when they arrive. We understand the inconvenience and would like to show our appreciation by providing you with a $200 discount on your first scheduled service. This voucher will be visible in our system at all Ford Dealerships nationally and will be automatically applied at the completion of your first scheduled service.''' 
+	
+	title = '''$200 off your first service'''
+    
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+	
+	copy = '''As you may be aware, we are experiencing a delay with the arrival of the SD card for your Sat Nav system. These are due in Australia in June and you will be contacted when they arrive. We understand the inconvenience and would like to show our appreciation by providing you with a $200 discount on your first scheduled service. This voucher will be visible in our system at all Ford Dealerships nationally and will be automatically applied at the completion of your first scheduled service.'''
+    
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"  
     
 
 [[module]] #Banner Image No Link
