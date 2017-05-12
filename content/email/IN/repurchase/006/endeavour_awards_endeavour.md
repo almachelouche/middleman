@@ -45,7 +45,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 	
-	copy = '''We noticed you’ve been driving your Ford Endeavour for a while now and might be thinking about an upgrade to the latest model. <br /><br />We believe in engineering vehicles that can conquer any terrain, and the All-New Endeavour does that better than ever before. This year, Endeavour conquered the podiums too, winning India's most prestigious vehicle awards. <br /><br />Check out the All-New Endeavour today, because we want you to drive a winner. '''
+	copy = '''We wanted to say 'thank you!' for being an Endeavour owner. We hope you continue to love your SUV as much as we enjoy having you as part of our Ford family. <br /><br />But if you're already thinking about an upgrade, we invite you to experience the All-New Endeavour. <br /><br />Not only is Endeavour smarter and more capable than ever, it also conquered the podiums this year, winning India's most prestigious vehicle awards.<br /><br />Check out the All-New Endeavour today, because we want you to drive a winner. '''
     
 [[module]]
 path='email_modules/spacer/default'

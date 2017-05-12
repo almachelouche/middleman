@@ -1,13 +1,13 @@
 +++
 markets = ["th"]
-title = '''TH Welcome First 003 All New Everest'''
+title = '''TH Welcome Repeat 003 Ranger'''
 
 [[module]]
 path='email_modules/preheader'
 color='''nothing'''
 
-preheader = '''ฟอร์ดขอขอบคุณที่คุณเลือกเรา ให้เป็นเพื่อนร่วมทางของคุณ เราจะส่งข่าวสาร และข้อมูลกิจกรรมที่เป็นประโยชน์ ให้แก่คุณอย่างต่อเนื่อง เพราะคุณเป็นส่วนหนึ่ง ของครอบครัวฟอร์ด ขอให้คุณมีความสุขกับการขับขี่ Everest ค่ะ '''
-
+    preheader = '''ไม่ว่าคุณจะเป็นลูกค้าเก่าหรือลูกค้าใหม่ ฟอร์ดขอขอบคุณที่คุณเลือกเราให้เป็นเพื่อนร่วมทางไปกับคุณ ด้วยการเป็นส่วนหนึ่งของครอบครัวฟอร์ด เราจะส่งข่าวสารและข้อมูลกิจกรรมที่เป็นประโยชน์ให้แก่คุณอย่างต่อเนื่อง ขอให้คุณมีความสุขกับการขับขี่ Ranger ะ'''
+    
 [[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'
@@ -19,24 +19,23 @@ color='white'
 path='email_modules/cover/01'
 color='''white'''
  
-  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><strong>สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></strong><br />ยินดีต้อนรับสู่ครอบครัวฟอร์ด</span>'''
-  copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">ฟอร์ดขอขอบคุณที่คุณเลือกเรา</span>
-<span style=" white-space:nowrap;">ให้เป็นเพื่อนร่วมทางของคุณ</span>
+  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><strong>สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></strong><br />การเดินทางยังคงดำเนินต่อไป</span>'''
+  copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
+<span style=" white-space:nowrap;">ไม่ว่าคุณจะเป็นลูกค้าเก่าหรือลูกค้าใหม่</span> <br />
+            <span style=" white-space:nowrap;">ฟอร์ดขอขอบคุณที่คุณเลือกเรา</span> <br />
+            <span style=" white-space:nowrap;">ให้เป็นเพื่อนร่วมทางไปกับคุณ </span>
 <br /><br />
-<span style=" white-space:nowrap;">เราจะส่งข่าวสาร</span>
-<span style=" white-space:nowrap;">และข้อมูลกิจกรรมที่เป็นประโยชน์</span>
-<span style=" white-space:nowrap;">ให้แก่คุณอย่างต่อเนื่อง</span> 
-<span style=" white-space:nowrap;">เพราะคุณเป็นส่วนหนึ่ง</span>
-<span style=" white-space:nowrap;">ของครอบครัวฟอร์ด</span>
+<span style=" white-space:nowrap;">ด้วยการเป็นส่วนหนึ่งของครอบครัวฟอร์ด</span> <br />
+<span style=" white-space:nowrap;">เราจะส่งข่าวสารและข้อมูลกิจกรรม</span> <br />
+<span style=" white-space:nowrap;">ที่เป็นประโยชน์ให้แก่คุณอย่างต่อเนื่อง</span> 
 <br /><br />
-<span style=" white-space:nowrap;">ขอให้คุณมีความสุขกับการขับขี่</span> 
-<span style=" white-space:nowrap;">Everest ค่ะ </span></span>'''
+<span style=" white-space:nowrap;">ขอให้คุณมีความสุข</span>กับการ<span style=" white-space:nowrap;">ขับขี่ Ranger ค่ะ</span></span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''th_edm1&4_np_allneweverest_20160801'''
+  image = '''th_edm1&4_np_ranger_20160801'''
 
 [[module]] #Dual 04
 path='email_modules/dual/04'
@@ -67,7 +66,7 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">ศูนย�
   cta2c_url = ''''''
   cta2c_link_name = ''''''
   icon2 = '''th_edm1_sync_20160801'''
-
+ 
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
 color='black'
@@ -91,49 +90,26 @@ text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif; font-Size: 14px
   cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=th'''
   cta2_link_name = '''oa_andriod'''
   image = '''th_edm6_ownerapp_20160921'''
-
+  
   [[module]]
 path='email_modules/split/07'
 color='white'
 
 title='''<span style="font-family:Tahoma, Verdana, Sans-serif">อุปกรณ์ตกแต่งสำหรับคุณ</span>'''
 copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style="white-space:nowrap;">ให้ฟอร์ด เอเวอเรสต์ของคุณ</span> <br />
+<span style="white-space:nowrap;">ให้ฟอร์ด เรนเจอร์ของคุณ</span><br /> 
 <span style="white-space:nowrap;">ล้ำหน้าไปอีกขั้น</span> 
-<span style="white-space:nowrap;">ด้วยอุปกรณ์ตกแต่งล่าสุด</span><br />
-<span style="white-space:nowrap;">ชุดคิ้วโป่งล้อ</span> 
-<span style="white-space:nowrap;">มูลค่า 4,090</span> 
-<span style="white-space:nowrap;">ที่จะช่วยปกป้องตัวถังรถฟอร์ด</span><br />
-<span style="white-space:nowrap;">จากรอยขีดข่วน</span>
+<span style="white-space:nowrap;">ด้วยอุปกรณ์ตกแต่งล่าสุด</span> <br /> 
+<span style="white-space:nowrap;">ชุดคิ้วโป่งล้อสีดำ</span> 
+<span style="white-space:nowrap;">มูลค่า 4,140</span><br />  
+<span style="white-space:nowrap;">ที่จะช่วยปกป้องตัวถังรถฟอร์ด</span>
+<span style="white-space:nowrap;">จากรอยขีดข่วน</span> 
 <span style="white-space:nowrap;">ทั้งยังเสริมภาพลักษณ์อันแสนดุดัน</span>
 <span style="white-space:nowrap;">ให้รถคุณได้อีกด้วย</span></span>'''
 cta1_text='''คลิกเพื่อชมอุปกรณ์เสริมทั้งหมด'''
-cta1_url='''https://www.ford.co.th/suvs/everest/accessories/#'''
-cta1_link_name = '''acc_all_new_everest'''
-image='''TH_edm1a_everest_fender_flare_20170508'''
-
-[[module]]
-path='email_modules/cover/01'
-
-color='slatescreen'
-title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ถาม ตอบ</span>'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">Q: ทำไมจึงต้องมี</span>
-<span style=" white-space:nowrap;">Ford Roadside Assistance</span>
-<span style=" white-space:nowrap;">สำหรับรถใหม่</span><br /><br />
-<span style=" white-space:nowrap;">A: เพราะระบบช่วยเหลือฉุกเฉินของเรา</span>
-<span style=" white-space:nowrap;">ไม่เพียงครอบคลุมการคุ้มครองอะไหล่</span>
-<span style=" white-space:nowrap;">และเครื่องยนต์</span>
-<span style="white-space:nowrap;">ตลอดอายุการใช้งานเท่านั้น</span>
-<span style=" white-space:nowrap;">แต่ยังรวมถึงการช่วยเหลือ</span>
-<span style=" white-space:nowrap;">ในกรณีเหตุฉุกเฉินอื่นๆ</span>
-<span style=" white-space:nowrap;">เช่น</span>
-<span style=" white-space:nowrap;">การลืมกุญแจไว้ในรถ</span><br />
-<span style=" white-space:nowrap;">หรือเมื่อน้ำมันหมดกลางทาง เป็นต้น</span></span>'''
-cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">อ่านต่อ</span></span>'''
-cta1_url='''http://on.fb.me/1utXwYz'''
-cta1_link_name = '''QA'''
-cta1_icon='''more'''
-
+cta1_url='''https://www.ford.co.th/trucks/ranger/accessories/#overlay/content/ford/th/th_th/ranger-content/image-overlays/accessories/wheelbarrow-with-sensor.html'''
+cta1_link_name = '''acc_ranger'''
+image='''TH_edm1a_ranger_fender_flare_20170508'''
 
 [[module]] #TH Social
 path='email_modules/footer/th/social'
