@@ -100,7 +100,7 @@ color='white'
 path='email_modules/singles/title'
 color='''white'''
 	
-	title = '''$200 off your first service'''
+	title = '''<span style="font-weight: bold;">Sat Nav SD Card</span>'''
     
 [[module]]
 path='email_modules/spacer/default'
