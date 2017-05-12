@@ -99,14 +99,14 @@ color='white'
 title='''<span style="font-family:Tahoma, Verdana, Sans-serif">อุปกรณ์ตกแต่งสำหรับคุณ</span>'''
 copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style="white-space:nowrap;">ให้ฟอร์ด เอคโคสปอร์ต</span> 
-<span style="white-space:nowrap;">ของคุณล้ำหน้าไปอีกขั้น</span> 
-<span style="white-space:nowrap;">ด้วยอุปกรณ์ตกแต่งล่าสุด</span> 
+<span style="white-space:nowrap;">ของคุณล้ำหน้าไปอีกขั้น</span> <br />
+<span style="white-space:nowrap;">ด้วยอุปกรณ์ตกแต่งล่าสุด</span><br />
 <span style="white-space:nowrap;">นั่นคือ</span> 
-<span style="white-space:nowrap;">กล้องบันทึกวีดีโอหน้ารถ</span> 
+<span style="white-space:nowrap;">กล้องบันทึกวีดีโอหน้ารถ</span><br />
 <span style="white-space:nowrap;">มูลค่า 3,690.-</span> 
-<span style="white-space:nowrap;">ที่จะบันทึกวิดีโอคุณภาพสูง</span><br />
-<span style="white-space:nowrap;">ระหว่างการขับขี่ ทั้งยังช่วยคุณ</span> 
-<span style="white-space:nowrap;">ประหยัดค่าเบี้ยประกันรถยนต์</span><br />
+<span style="white-space:nowrap;">ที่จะบันทึกวิดีโอคุณภาพสูง</span>
+<span style="white-space:nowrap;">ระหว่างการขับขี่ ทั้งยังช่วยคุณ</span><br /> 
+<span style="white-space:nowrap;">ประหยัดค่าเบี้ยประกันรถยนต์</span>
 <span style="white-space:nowrap;">ได้สูงสุดถึง 5-10%</span></span>'''
 cta1_text='''คลิกเพื่อชมอุปกรณ์เสริมทั้งหมด'''
 cta1_url='''https://www.ford.co.th/suvs/ecosport/accessories/'''
