@@ -45,7 +45,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 	
-	copy = '''We wanted to say 'thank you!' for being an Endeavour owner. We hope you continue to love your SUV as much as we enjoy having you as part of our Ford family. <br /><br />But if you're already thinking about an upgrade, we invite you to experience the All-New Endeavour. <br /><br />Not only is Endeavour smarter and more capable than ever, it also conquered the podiums this year, winning India's most prestigious vehicle awards.<br /><br />Check out the All-New Endeavour today, because we want you to drive a winner. '''
+	copy = '''We wanted to say 'thank you!' for being an Endeavour owner. We hope you continue to love your SUV as much as we enjoy having you as part of our Ford family. <br /><br />But if you're already thinking about an upgrade, we invite you to experience the All-New Endeavour. '''
     
 
 [[module]] #Custom 3 Icon Text
@@ -54,11 +54,11 @@ color='white'
 
   title = ''''''
   icon1 = '''au_edm5_sync2_20161107'''
-  text1 = '''SYNC<sup>&#174;</sup>3'''
+  text1 = '''SYNC<sup>&#174;</sup>3<br />New and improved voice-activated technology.'''
   icon2 = '''au_edm5_tms_20161013'''
-  text2 = '''Terrain Management System'''
+  text2 = '''Terrain Management System<br />Tackle any terrain with the turn of a dial.'''
   icon3 = '''in_edm5_airbags_20161122'''
-  text3 = '''7 Airbags'''
+  text3 = '''7 Airbags<br />360 degrees of protection for the whole family.'''
     
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
