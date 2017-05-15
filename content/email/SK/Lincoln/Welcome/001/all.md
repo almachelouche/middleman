@@ -62,7 +62,7 @@ title = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;font
 아래의 링크를 클릭하시면<br />귀하에게 필요한 자세한 서비스 정보를<br />확인하실 수 있습니다.
 	<ul style="margin: 20px; padding: 0;text-decoration:underline; color:#b45f1a">
 		<li><a href="https://www.lincoln-korea.com/parts-service/pick-delivery/" name="pick_delivery" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">픽업&딜리버리 서비스</a></li>
-		<li><a href="https://www.lincoln-korea.com/parts-service/" name="parts_service" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">부품 및 서비스</a></li>
+		<li><a href="https://www.lincoln-korea.com/genuine-parts/" name="parts_service" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">부품 및 서비스</a></li>
 	</ul></span>'''
   image = '''sk_lincoln_edm1_effortlessownership_20170427'''
 
