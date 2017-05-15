@@ -481,7 +481,7 @@ path='email_modules/image/banner'
 color='white'
 segmentelse = ["yes"]
 
-  image = '''au_edm2_RSvc_Due_xtime_logo_20161014'''
+  image = '''au_edm2_svc_20170515'''
   url_link = '''https://www.ford.com.au/owners/service/'''
 
   
@@ -506,7 +506,7 @@ path = '''email_modules/image/4images'''
 color = '''white'''
 segmentif = ["(user.CustomAttribute['SYNC_Available'] == 'YES')"]
 
-  image1 = '''au_svc_icon1'''
+  image1 = '''au_svc_icon1A'''
 	image1_url = '''https://www.ford.com.au/owners/service/'''
 	image1_link_name = '''icon4'''
   image2 = '''au_svc_icon2'''
@@ -515,7 +515,7 @@ segmentif = ["(user.CustomAttribute['SYNC_Available'] == 'YES')"]
   image3 = '''au_svc_icon_20170327'''
 	image3_url = '''https://www.ford.com.au/owners/service/roadside-assistance/'''
 	image3_link_name = '''icon6'''
-  image4 = '''au_svc_icon4'''
+  image4 = '''au_svc_icon4A'''
 	image4_url = '''https://www.ford.com.au/owners/vehicle-support/sat-nav-map/'''
 	image4_link_name = '''icon7'''
 
@@ -524,7 +524,7 @@ path = '''email_modules/image/3images'''
 color = '''white'''
 segmentelse = ["(user.CustomAttribute['SYNC_Available'] == 'NO') && (user.CustomAttribute['Model'] != 'Mustang')"]
 
-  image1 = '''au_svc_icon1'''
+  image1 = '''au_svc_icon1A'''
 	image1_url = '''https://www.ford.com.au/owners/service/'''
 	image1_link_name = '''icon1'''
   image2 = '''au_svc_icon2'''
