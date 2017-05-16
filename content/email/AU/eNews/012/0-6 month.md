@@ -6,7 +6,7 @@ title = '''AU Enews 012 0-6 month'''
 path='email_modules/preheader'
 color='''white'''
 
-   preheader='''Do you drive one of these four award-winning Ford vehicles?'''
+   preheader='''Have you seen the latest and greatest Genuine Ford accessories? '''
 
 [[module]] #Header eNews
 path='email_modules/header/enews'
@@ -36,7 +36,7 @@ path='email_modules/custom/enews_topstory'
 color='black'
 
   title = '''Time to get personal'''
-  copy = '''When it comes to personalising your Ford, you can’t get better accessories than Ford Genuine Accessories. All genuine accessories undergo years of rigorous safety and durability testing, meaning they integrate perfectly with the design and safety features on your Ford.'''
+  copy = '''When it comes to personalising your Ford, you can’t get better accessories than Ford Genuine Accessories. All genuine accessories undergo years of rigorous safety and durability testing, ensuring they integrate perfectly with the design and safety features of your Ford.'''
   cta1_text = '''GET ACCESSORISED'''
   cta1_url = '''https://www.ford.com.au/forms/accessories/'''
   cta1_link_name = '''accessories1'''
@@ -90,8 +90,8 @@ title = '''Let’s Get Vivid'''
 path='email_modules/split/01'
 color='lightblue'
 
- title = '''How the not so distant future could (really) look.'''
-  copy = '''How would you like to have your mail delivered by drone? Or to be driven by an autonomous car? According to the innovators who attended the Future with Ford event, it’s only a matter of time before these life-changing technologies arrive. The future looks bright. Are you ready?'''
+ title = '''See into the future'''
+  copy = '''Do parcel-delivering drones and autonomous cars sound like science fiction? According to the innovators who attended the Future with Ford event, these life-changing technologies will arrive sooner than you may think. Are you ready?'''
   cta1_text = '''LEARN MORE'''
   cta1_url = '''https://www.ford.com.au/about-ford/newsroom/2017/thought-leaders-and-innovators-define-the-mobility-revolution--u/'''
   cta1_link_name = '''innovation'''

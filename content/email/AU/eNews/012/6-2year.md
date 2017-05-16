@@ -2,11 +2,18 @@
 markets = ["au"]
 title = '''AU Enews 012 6-2year'''
 
-[[module]]
+[[module]]non-nsw
 path='email_modules/preheader'
 color='''white'''
 
-   preheader='''Do you drive one of these four award-winning Ford vehicles?'''
+   preheader='''Which arrives first: Autonomous cars or delivery drones?'''
+   
+   [[module]]nsw
+path='email_modules/preheader'
+color='''white'''
+
+   preheader='''Are you ready to join the most breathtaking Vivid event ever?'''
+
 
 [[module]] #Header eNews
 path='email_modules/header/enews'
@@ -42,12 +49,19 @@ color='black'
   cta1_link_name = ''''award1'''
   cta1_icon = '''more'''
   
+  [[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+
+  image = '''AU_edm6_everest_20170510'''
+  url_link = '''https://www.ford.com.au/about-ford/awards/'''
+  
  [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
 color='black'
 
- title = '''How the not so distant future could (really) look.'''
-  copy = '''How would you like to have your mail delivered by drone? Or to be driven by an autonomous car? According to the innovators who attended the Future with Ford event, it’s only a matter of time before these life-changing technologies arrive. The future looks bright. Are you ready?'''
+ title = '''See into the future'''
+  copy = '''Do parcel-delivering drones and autonomous cars sound like science fiction? According to the innovators who attended the Future with Ford event, these life-changing technologies will arrive sooner than you may think. Are you ready?'''
   cta1_text = '''LEARN MORE'''
   cta1_url = '''https://www.ford.com.au/about-ford/newsroom/2017/thought-leaders-and-innovators-define-the-mobility-revolution--u/'''
   cta1_link_name = '''innovation'''
@@ -66,7 +80,7 @@ path='email_modules/split/01'
 color='lightblue'
 
 title = '''Time to get personal'''
-  copy = '''Are you ready to take your Ford vehicle to the next level? Our wide range of Genuine Ford accessories are designed to exacting standards, and allow you to customise your Ford to your personal tastes and needs.'''
+  copy = '''When it comes to personalising your Ford, you can’t get better accessories than Ford Genuine Accessories. All genuine accessories undergo years of rigorous safety and durability testing, ensuring they integrate perfectly with the design and safety features of your Ford.'''
   cta1_text = '''GET ACCESSORISED'''
   cta1_url = '''https://www.ford.com.au/forms/accessories/'''
   cta1_link_name = '''accessories1'''
@@ -78,7 +92,7 @@ path='email_modules/split/01'
 color='lightblue'
 
 title = '''Time to get personal'''
-  copy = '''Are you ready to take your Ranger or Everest to the next level? Get weekend ready with Ford genuine accessories, they’re waiting to help you take your vehicle to the limit. Learn why quality matters when it comes to accessories.'''
+  copy = '''Are you ready to take your Ford to the next level? Get weekend-ready with Ford genuine accessories, designed to deliver the durability and safety you need. Learn why quality matters when it comes to accessories.'''
   cta1_text = '''WATCH NOW'''
   cta1_url = '''https://www.ford.com.au/forms/accessories/'''
   cta1_link_name = '''accessories1'''

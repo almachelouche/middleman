@@ -6,7 +6,7 @@ title = '''AU Enews 012 prospect'''
 path='email_modules/preheader'
 color='''white'''
 
-   preheader='''Check out the limited edition Ranger FX4, our most stunning truck yet.'''
+   preheader='''The super-capable New Everest Ambiente RWD2x4 has arrived. Want to take a ride?'''
 
 [[module]] #Header eNews
 path='email_modules/header/enews'
@@ -36,7 +36,7 @@ path='email_modules/custom/enews_topstory'
 color='black'
 
   title = '''The most affordable Everest ever'''
-	copy = ''' Join us in welcoming the new Ford Everest Ambiente RWD to our SUV range. This capable 5-seater boasts the same 3.2L Diesel engine and 3,000kg towing capacity as its AWD sibling. Plus SYNC®3 with 8” colour touchscreen and all-terrain tyres as standard, it’s amazing value with the lowest price tag we’ve ever seen on an Everest – from $48,990!'''
+	copy = ''' Join us in welcoming the new Ford Everest Ambiente RWD to our SUV range. This capable 5-seater boasts the same 3.2L Diesel engine and 3,000&#185;kg towing capacity as its AWD sibling. Plus SYNC®3 with 8” colour touchscreen and all-terrain tyres as standard, it’s amazing value with the lowest price tag we’ve ever seen on an Everest – from $48,990!'''
   cta1_text = '''FIND OUT MORE'''
   cta1_url = '''https://www.ford.com.au/commercial/ranger/special-editions/'''
   cta1_link_name = '''everest'''
@@ -68,21 +68,21 @@ Australia, we invite you to celebrate technology, design and innovation as we Go
 path='email_modules/split/01'
 color='darkblue'
 
- title = '''How the not so distant future could (really) look.'''
-  copy = '''How would you like to have your mail delivered by drone? Or to be driven by an autonomous car? According to the innovators who attended the Future with Ford event, it’s only a matter of time before these life-changing technologies arrive. The future looks bright. Are you ready?'''
-  cta1_text = '''LEARN MORE'''
-  cta1_url = '''https://www.ford.com.au/about-ford/newsroom/2017/thought-leaders-and-innovators-define-the-mobility-revolution--u/'''
-  cta1_link_name = '''innovation'''
+ title = '''It pays to look closer'''
+  copy = '''The end of the financial year is a smart time to look for a new car… but look a little closer and you’ll also see Ford has an unbelievable deal on one of Australia’s best trucks. Spot this deal and others now, before they disappear!'''
+  cta1_text = '''READ MORE'''
+  cta1_url = '''http://www.ford.com.au/latest-offers/national/'''
+  cta1_link_name = '''offer'''
   cta1_icon = '''more'''
-  image = '''AU_edm6_ranger_20170427'''
+  image = '''AU_edm6_offer2_20170511'''
   
   
   [[module]] #Split 02
 path='email_modules/split/02'
 color='lightblue'
 
-  title = ''' It pays to take a closer look'''
-  copy = '''End of financial year is a smart time to look for a new car… but look a little closer and you’ll also see Ford has an unbelievable deal on one of Australia’s best trucks. Spot this deal and others now, before they disappear!'''
+  title = '''It pays to look closer'''
+  copy = '''The end of the financial year is a smart time to look for a new car… but look a little closer and you’ll also see Ford has an unbelievable deal on one of Australia’s best trucks. Spot this deal and others now, before they disappear!'''
   cta1_text = '''READ MORE'''
   cta1_url = '''http://www.ford.com.au/latest-offers/national/'''
   cta1_link_name = '''offer'''
@@ -107,6 +107,8 @@ color='green'
 path='email_modules/footer/au/social'
 color='white'
 
+text='''Disclaimers:<br /><br />
+  1. Maximum towing capacity when using a Genuine Ford tow pack. Subject to State and Territory regulations.<br /><br />'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'

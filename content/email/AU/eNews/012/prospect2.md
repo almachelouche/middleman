@@ -6,7 +6,7 @@ title = '''AU Enews 012 prospect 2'''
 path='email_modules/preheader'
 color='''white'''
 
-   preheader='''Check out the limited edition Ranger FX4, our most stunning truck yet.'''
+   preheader='''The super-capable New Everest Ambiente RWD2x4 has arrived. Want to take a ride?'''
 
 [[module]] #Header eNews
 path='email_modules/header/enews'
@@ -28,7 +28,7 @@ path='email_modules/custom/enews_topstory'
 color='black'
 
   title = '''The most affordable Everest ever'''
-	copy = ''' Join us in welcoming the new Ford Everest Ambiente RWD to our SUV range. This capable 5-seater boasts the same 3.2L Diesel engine and 3,000kg towing capacity as its AWD sibling. Plus SYNC®3 with 8” colour touchscreen and all-terrain tyres as standard, it’s amazing value with the lowest price tag we’ve ever seen on an Everest – from $48,990!'''
+	copy = ''' Join us in welcoming the new Ford Everest Ambiente RWD to our SUV range. This capable 5-seater boasts the same 3.2L Diesel engine and 3,000&#185;kg towing capacity as its AWD sibling. Plus SYNC®3 with 8” colour touchscreen and all-terrain tyres as standard, it’s amazing value with the lowest price tag we’ve ever seen on an Everest – from $48,990!'''
   cta1_text = '''FIND OUT MORE'''
   cta1_url = '''https://www.ford.com.au/commercial/ranger/special-editions/'''
   cta1_link_name = '''everest'''
@@ -47,9 +47,8 @@ color='white'
 path='email_modules/split/01'
 color='darkblue'
 
-  title = '''VIVID'''
-  copy = '''Thrilled to announce that we are an official Vivid Partner for Vivid Sydney.
-Australia, we invite you to celebrate technology, design and innovation as we Go Further in 2017.'''
+  title = '''Let’s Get Vivid'''
+  copy = '''Ford and Vivid Sydney have officially joined forces! We couldn’t be more thrilled to support this stunning festival of art, technology, light, and music. We hope to see you at Darling Harbour from May 26 – June 17. Join us as we Go Further in 2017.'''
   cta1_text = '''LEARN MORE'''
   cta1_url = '''https://www.ford.com.au/about-ford/awards/'''
   cta1_link_name = '''vivid'''
@@ -99,6 +98,12 @@ color='green'
 path='email_modules/footer/au/social'
 color='white'
 
+[[module]] #Footer AU Social
+path='email_modules/footer/au/social'
+color='white'
+
+text='''Disclaimers:<br /><br />
+  1. Maximum towing capacity when using a Genuine Ford tow pack. Subject to State and Territory regulations.<br /><br />'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
