@@ -71,7 +71,8 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
   <span style="white-space:nowrap;">(ยกเว้นฟอร์ด โฟกัส)</span> 
   <span style="white-space:nowrap;">รับส่วนลดเพิ่ม 10,000 บาททันที</span> 
   <span style="white-space:nowrap;">ข้อเสนอสุดพิเศษนี้</span> 
-  <span style="white-space:nowrap;">สำหรับวันที่ 1-31 พฤษภาคม พ.ศ. 2560</span> 
+  <span style="white-space:nowrap;">สำหรับ</span>  
+  <span style="white-space:nowrap;">วันที่ 1-31 พฤษภาคม พ.ศ. 2560</span> 
   <span style="white-space:nowrap;">นี้เท่านั้น</span> 
 </span>'''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ดูเพิ่มเติม</span>'''

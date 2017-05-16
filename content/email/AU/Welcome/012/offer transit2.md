@@ -86,7 +86,7 @@ color = '''white'''
   image2 = '''au_svc_icon2'''
 	image2_url = '''https://www.ford.com.au/owners/service/calculator?edm'''
 	image2_link_name = '''icon2'''
-  image3 = '''au_svc_icon1'''
+  image3 = '''au_svc_icon1A'''
 	image3_url = '''https://www.ford.com.au/owners/service/'''
 	image3_link_name = '''icon3'''
     
