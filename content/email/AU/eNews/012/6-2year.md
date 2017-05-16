@@ -2,13 +2,13 @@
 markets = ["au"]
 title = '''AU Enews 012 6-2year'''
 
-[[module]]non-nsw
+[[module]]
 path='email_modules/preheader'
 color='''white'''
 
    preheader='''Which arrives first: Autonomous cars or delivery drones?'''
    
-   [[module]]nsw
+   [[module]]
 path='email_modules/preheader'
 color='''white'''
 
