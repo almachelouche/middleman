@@ -19,7 +19,7 @@ path='email_modules/split/01'
 color='white'
 
   title='''Get accessorised'''
-  copy='''Take your Ford vehicle to the next level with our 100% genuine Ford accessories. Only Ford accessories are Ford-certified, quality-assured and designed specifically for your vehicle. <br /><br />#Copy for mentioning the offer.'''
+  copy='''Take your Ford vehicle to the next level with our 100% genuine Ford accessories. Only Ford accessories are Ford-certified, quality-assured and designed specifically for your vehicle. <br /><br />#Copy for mentioning the offer.#'''
   cta1_text='''VIEW ACCESSORIES'''
   cta1_url='''https://www.ford.com.vn/trucks/ranger/accessories/'''
 	cta1_link_name = '''acc_ranger'''
