@@ -103,8 +103,8 @@ color='green'
   image = '''AU_edm6_ranger_20170427'''
   
 
-[[module]] #Footer AU Social
-path='email_modules/footer/au/social'
+ [[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
 color='white'
 
 text='''Disclaimers:<br /><br />

@@ -98,8 +98,8 @@ color='green'
 path='email_modules/footer/au/social'
 color='white'
 
-[[module]] #Footer AU Social
-path='email_modules/footer/au/social'
+ [[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
 color='white'
 
 text='''Disclaimers:<br /><br />
