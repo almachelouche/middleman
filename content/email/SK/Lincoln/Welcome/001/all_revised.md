@@ -24,7 +24,7 @@ title = '''<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,
 <span style="white-space:nowrap;">링컨과 함께하는</span>
 <span style="white-space:nowrap;"> 새로운 여정의 시작</span>
 </span>'''
-  copy = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;"><br /><br />
+  copy = '''<span style="font-size:15px;line-height: 14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;"><br /><br />
   <span style="white-space:nowrap;">링컨과의 새로운 여정을 시작한 귀하에게</span>
   <span style="white-space:nowrap;"> 다시 한 번 깊은 감사를 드립니다.</span><br /><br />
   <span style="white-space:nowrap;">링컨만의 감성을 완벽하게 누릴 수 있도록</span><br /><br />
