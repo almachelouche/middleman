@@ -81,7 +81,7 @@ color='''white'''
 path = '''email_modules/image/3images'''
 color = '''white'''
 
-  image1 = '''au_svc_icon3'''
+  image1 = '''au_svc_icon_20170517'''
 	image1_url = '''https://www.ford.com.au/owners/service/roadside-assistance/'''
 	image1_link_name = '''icon1'''
   image2 = '''au_svc_icon2'''
