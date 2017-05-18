@@ -8,7 +8,7 @@ color='''white'''
 
    preheader='''Have you seen the latest and greatest Genuine Ford accessories? '''
 
-[[module]] #Header eNews
+[[module]] #Header eNews #NSW 
 path='email_modules/header/enews'
 color='black'
 
@@ -16,7 +16,7 @@ color='black'
   date = '''June 2017'''
   copy = '''IN THIS ISSUE:<br />Genuine Ford Accessories | Vivid Sydney | VIDEO: Brake Tips |Ford Owners App'''
   
-  [[module]] #Header eNews
+  [[module]] #Header eNews #non NSW 
 path='email_modules/header/enews'
 color='black'
 
@@ -24,14 +24,14 @@ color='black'
   date = '''June 2017'''
   copy = '''IN THIS ISSUE:<br />Genuine Ford Accessories | Future with Ford | VIDEO: Brake Tips |Ford Owners App'''
 
-[[module]] #Header Logo
+[[module]] #Header Logo #Non Ranger &Everest version
 path='email_modules/header/logodesktop'
 color='black'
 
   image = '''black'''
   url_link = '''https://www.ford.com.au/'''
 
-[[module]] # eNews Top Story
+[[module]] # eNews Top Story #Non Ranger &Everest version
 path='email_modules/custom/enews_topstory'
 color='black'
 
@@ -42,21 +42,21 @@ color='black'
   cta1_link_name = '''accessories1'''
   cta1_icon = '''more'''
 
-  [[module]] #Banner Image
+  [[module]] #Banner Image #Non Ranger &Everest version
 path='email_modules/image/banner'
 color='white'
 
   image = '''AU_edm6_everest_20170510'''
   url_link = '''https://www.ford.com.au/forms/accessories/'''
   
-  [[module]] #Header Logo
+  [[module]] #Header Logo #Ranger &Everest version
 path='email_modules/header/logodesktop'
 color='black'
 
   image = '''black'''
   url_link = '''https://www.ford.com.au/'''
   
-  [[module]] # eNews Top Story
+  [[module]] # eNews Top Story  #Ranger &Everest version
 path='email_modules/custom/enews_topstory'
 color='black'
 
@@ -67,14 +67,14 @@ color='black'
   cta1_link_name = '''accessories2'''
   cta1_icon = '''more'''
 
-  [[module]] #Banner Image
+  [[module]] #Banner Image  #Ranger &Everest version
 path='email_modules/image/banner'
 color='white'
 
   image = '''AU_edm6_everest_20170510'''
   url_link = '''https://www.ford.com.au/forms/accessories/'''
 
-[[module]] #Split 01
+[[module]] #Split 01 #NSW
 path='email_modules/split/01'
 color='lightblue'
 
@@ -86,7 +86,7 @@ title = '''Let’s Get Vivid'''
   cta1_icon = '''play'''
   image = '''AU_edm6_ranger_20170427'''
   
-  [[module]] #Split 01
+  [[module]] #Split 01 #non NSW
 path='email_modules/split/01'
 color='lightblue'
 
