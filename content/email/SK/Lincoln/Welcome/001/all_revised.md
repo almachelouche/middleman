@@ -65,9 +65,7 @@ title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,
 path='email_modules/singles/ctablock'
 color='''lincoln_black'''
 
-	cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;color:#515151;">
-    <span style="white-space:nowrap;">더 알아보기</span>
-    </span>'''
+	cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;color:#515151;"><span style="white-space:nowrap;">더 알아보기</span></span>'''
 	cta1_url = '''https://www.lincoln-korea.com/parts-service/roadside-assistance/'''
 	cta1_link_name = '''era'''
 
@@ -109,14 +107,10 @@ color='lincoln_white'
   copy2 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">
   <span style="white-space:nowrap;">가장 가까운 전시장 및</span><br />
   <span style="white-space:nowrap;">서비스센터를 찾아보십시오.</span></span>'''
-  cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
-  <span style="white-space:nowrap;">자세히 보기</span>
-  </span>'''
+  cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="white-space:nowrap;">자세히 보기</span></span>'''
   cta1_url = '''https://www.lincoln-korea.com/contact-us/'''
   cta1_link_name = '''contact_us'''
-  cta2_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
-  <span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span>
-  </span>'''
+  cta2_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span></span>'''
   cta2_url = '''https://www.lincoln-korea.com/dealer-locate/'''
   cta2_link_name = '''find_dealer'''
 
