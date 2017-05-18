@@ -40,6 +40,12 @@ path='email_modules/singles/title'
 color='''white'''
 	
 	title = '''Meet the new, award-winning Endeavour'''
+    
+[[module]]
+path='email_modules/singles/title'
+color='''white'''
+	
+	title = '''Meet the award-winning Endeavour'''
 
 [[module]]
 path='email_modules/spacer/default'
