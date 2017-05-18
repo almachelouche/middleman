@@ -8,7 +8,15 @@ color='''white'''
 
    preheader='''The super-capable New Everest Ambiente RWD2x4 has arrived. Want to take a ride?'''
 
-[[module]] #Header eNews
+[[module]] #Header eNews #NSW
+path='email_modules/header/enews'
+color='black'
+
+  title = '''Insider'''
+  date = '''June 2017'''
+  copy = '''IN THIS ISSUE:<br />New Everest Ambiente | Vivid Sydney | WATCH: EcoBoost | Watch Ranger vs Skydiver'''
+  
+  [[module]] #Header eNews #NON NSW
 path='email_modules/header/enews'
 color='black'
 
@@ -43,7 +51,7 @@ color='white'
   url_link = '''https://www.ford.com.au/commercial/ranger/special-editions/'''
   
 
-[[module]] #Split 01
+[[module]] #Split 01 #NSW
 path='email_modules/split/01'
 color='darkblue'
 
@@ -55,7 +63,7 @@ color='darkblue'
   cta1_icon = '''more'''
   image = '''AU_edm6_awards2_20170301'''
   
-  [[module]] #Split 01
+  [[module]] #Split 01 #NON NSW
 path='email_modules/split/01'
 color='green'
 

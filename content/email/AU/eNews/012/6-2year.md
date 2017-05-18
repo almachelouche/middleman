@@ -2,20 +2,20 @@
 markets = ["au"]
 title = '''AU Enews 012 6-2year'''
 
-[[module]]
+[[module]] #NON NSW
 path='email_modules/preheader'
 color='''white'''
 
    preheader='''Which arrives first: Autonomous cars or delivery drones?'''
    
-   [[module]]
+   [[module]] #NSW
 path='email_modules/preheader'
 color='''white'''
 
    preheader='''Are you ready to join the most breathtaking Vivid event ever?'''
 
 
-[[module]] #Header eNews
+[[module]] #Header eNews #NSW
 path='email_modules/header/enews'
 color='black'
 
@@ -23,7 +23,7 @@ color='black'
   date = '''June 2017'''
   copy = '''IN THIS ISSUE:<br />Vivid Sydney | Genuine Ford Accessories | VIDEO: Brake Tips | Watch Ranger vs Skydiver '''
   
-  [[module]] #Header eNews
+  [[module]] #Header eNews #NON NSW
 path='email_modules/header/enews'
 color='black'
 
@@ -31,14 +31,14 @@ color='black'
   date = '''June 2017'''
   copy = '''IN THIS ISSUE:<br />Future with Ford | Genuine Ford Accessories | VIDEO: Brake Tips | Watch Ranger vs Skydiver '''
 
-[[module]] #Header Logo
+[[module]] #Header Logo  #NSW
 path='email_modules/header/logodesktop'
 color='black'
 
   image = '''black'''
   url_link = '''https://www.ford.com.au/'''
 
-[[module]] # eNews Top Story
+[[module]] # eNews Top Story #NSW
 path='email_modules/custom/enews_topstory'
 color='black'
 
@@ -49,14 +49,14 @@ color='black'
   cta1_link_name = ''''award1'''
   cta1_icon = '''more'''
   
-  [[module]] #Banner Image
+  [[module]] #Banner Image #NON NSW
 path='email_modules/image/banner'
 color='white'
 
   image = '''AU_edm6_everest_20170510'''
   url_link = '''https://www.ford.com.au/about-ford/awards/'''
   
- [[module]] # eNews Top Story
+ [[module]] #eNews Top Story #NON NSW
 path='email_modules/custom/enews_topstory'
 color='black'
 
@@ -75,7 +75,7 @@ color='white'
   image = '''AU_edm6_everest_20170510'''
   url_link = '''https://www.ford.com.au/about-ford/awards/'''
 
-[[module]] #Split 01
+[[module]] #Split 01 #NON RANGER AND EVEREST
 path='email_modules/split/01'
 color='lightblue'
 
@@ -87,7 +87,7 @@ title = '''Time to get personal'''
   cta1_icon = '''more'''
   image = '''AU_edm6_ranger_20170427'''
 
-[[module]] #Split 01
+[[module]] #Split 01 #RANGER AND EVEREST
 path='email_modules/split/01'
 color='lightblue'
 
@@ -97,7 +97,7 @@ title = '''Time to get personal'''
   cta1_url = '''https://www.ford.com.au/forms/accessories/'''
   cta1_link_name = '''accessories1'''
   cta1_icon = '''more'''
-  image = '''AU_edm6_ranger_20170427'''
+  image = '''AU_edm6_awards2_20170301'''
 
   [[module]] #Split 02
 path='email_modules/split/02'
