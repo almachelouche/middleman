@@ -85,11 +85,8 @@ copy = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;lette
 <span style="white-space:nowrap;">귀하에게 필요한 자세한 서비스 정보를</span><br />
 <span style="white-space:nowrap;">확인하실 수 있습니다.</span>
 <ul style="margin: 20px; padding: 0;text-decoration:underline; color:#b45f1a">
-<li><a href="https://www.lincoln-korea.com/parts-service/pick-delivery/" name="pick_delivery" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
-<span style="white-space:nowrap;">픽업&딜리버리 서비스</span></a></li>
-<li><a href="https://www.lincoln-korea.com/genuine-parts/" name="parts_service" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
-<span style="white-space:nowrap;">부품 및 서비스</span>
-</a></li></ul></span>'''
+<li><a href="https://www.lincoln-korea.com/parts-service/pick-delivery/" name="pick_delivery" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">픽업&딜리버리 서비스</span></a></li>
+<li><a href="https://www.lincoln-korea.com/genuine-parts/" name="parts_service" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">부품 및 서비스</span></a></li></ul></span>'''
   image = '''sk_lincoln_edm1_effortlessownership_20170427'''
 
 [[module]] #Dual 01
