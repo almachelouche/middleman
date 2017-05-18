@@ -22,7 +22,7 @@ color='black'
 
   title = '''Insider'''
   date = '''June 2017'''
-  copy = '''IN THIS ISSUE:<br />New Everest Ambiente | Vivid Sydney | EOFY Deals | Watch Ranger vs Skydiver'''
+  copy = '''IN THIS ISSUE:<br />New Everest Ambiente | Future with Ford | EOFY Deals | Watch Ranger vs Skydiver'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
