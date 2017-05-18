@@ -36,7 +36,7 @@ path='email_modules/custom/enews_topstory'
 color='black'
 
   title = '''Time to get personal'''
-  copy = '''When it comes to personalising your Ford, you can’t get better accessories than Ford Genuine Accessories. All genuine accessories undergo years of rigorous safety and durability testing, ensuring they integrate perfectly with the design and safety features of your Ford.'''
+  copy = '''When it comes to personalising your Ford, nothing beats Ford Genuine Accessories. All our accessories undergo years of safety and durability testing, ensuring they integrate perfectly with your Ford.'''
   cta1_text = '''GET ACCESSORISED'''
   cta1_url = '''https://www.ford.com.au/forms/accessories/'''
   cta1_link_name = '''accessories1'''
