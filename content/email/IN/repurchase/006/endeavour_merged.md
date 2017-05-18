@@ -1,6 +1,12 @@
 +++
 markets = ["in"]
-title = '''IN Repurchase 006 rest'''
+title = '''IN Repurchase 006 Endeavour merged'''
+
+[[module]]
+path='email_modules/preheader'
+color='''white'''
+
+	preheader = '''We wanted to say 'thank you!' for being an Endeavour owner. We hope you continue to love your SUV as much as we enjoy having you as part of our Ford family. But if you're already thinking about an upgrade, we invite you to experience the All-New Endeavour.'''
     
 [[module]]
 path='email_modules/preheader'
@@ -33,7 +39,7 @@ color='white'
 path='email_modules/singles/title'
 color='''white'''
 	
-	title = '''Meet the award-winning Endeavour'''
+	title = '''Meet the new, award-winning Endeavour'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -45,8 +51,28 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 	
+	copy = '''We wanted to say 'thank you!' for being an Endeavour owner. We hope you continue to love your SUV as much as we enjoy having you as part of our Ford family. <br /><br />But if you're already thinking about an upgrade, we invite you to experience the All-New Endeavour. '''
+    
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+	
 	copy = '''We noticed you've been driving your Ford <%${user.CustomAttribute['Model']}%> for a while now and might be thinking about purchasing a new Ford. <br /><br />We believe in engineering vehicles that can conquer any terrain – like the All-New Endeavour. This year, Endeavour conquered the podiums too, winning India’s most prestigious vehicle awards. <br /><br />Check out Endeavour today, because we want you to drive a winner. '''
     
+    
+
+[[module]] #Custom 3 Icon Text
+path='email_modules/custom/3icon_text'
+color='white'
+
+  title = ''''''
+  icon1 = '''au_edm5_sync2_20161107'''
+  text1 = '''<span style="font-weight:bold">SYNC<sup>&#174;</sup>3</span><br />New and improved voice-activated technology.'''
+  icon2 = '''au_edm5_tms_20161013'''
+  text2 = '''<span style="font-weight:bold">TMS</span><br />Tackle any terrain with the Terrain Management System. '''
+  icon3 = '''in_edm5_airbags_20161122'''
+  text3 = '''<span style="font-weight:bold">7 Airbags</span><br />360 degrees of protection for the whole family.'''
+
 [[module]] #Custom 3 Icon Text
 path='email_modules/custom/3icon_text'
 color='white'
@@ -58,7 +84,7 @@ color='white'
   text2 = '''Terrain Management System'''
   icon3 = '''in_edm5_airbags_20161122'''
   text3 = '''7 Airbags'''
-    
+
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
 color='''white'''    
