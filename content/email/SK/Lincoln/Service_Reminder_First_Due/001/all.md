@@ -7,7 +7,7 @@ title = '''SK Lincoln Service Reminder First 001'''
 path='email_modules/preheader'
 color='''nothing'''
 
-   preheader='''링컨과 함께하는 시작이 더욱 아름답고 편안하기를 바랍니다.'''
+   preheader='''링컨과 함께하는 여정에 처음의 감동이 늘 함께하도록, 귀하의 링컨을 위한 '첫 번째 차량 점검'을 권장해드립니다.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -21,36 +21,27 @@ path='email_modules/cover/02'
 
 color='''white'''
 icon=''''''
-title='''Time files when you're having fun'''
-copy='''Hello <%${user['FirstName']}%><br /><br />Here’s a quick reminder that your new <%${user.CustomAttribute['Model']}%> is due for its first service. Our expert engineers will ensure it is running at its absolute best.<br /><br />When you book your first service appointment, you’ll receive a free 30-point inspection and a Vehicle Report Card that helps you track your Ford’s health status. 
-<br /><br />It's important to book your service today. Just click below to contact <%${user.CustomAttribute['Dealer_Name']}%> (during business hours) or to find your nearest dealer.'''
-cta1_text='''CALL <%${user.CustomAttribute['Work_Phone']}%>'''
-cta1_url='''tel:<%${user.CustomAttribute['Home_Phone']}%>'''
-cta2_text='''FIND A DEALER'''
-cta2_url='''https://www.ford.com.ph/locate-a-dealer/'''
-cta2_link_name='''find_dealer'''
+title='''오직 귀하만을 위한 차량 점검 서비스를 만나보십시오'''
+copy='''즐겁고 안전한 운전을 위한 '첫 번째 차량 점검'을 권장합니다. 처음과 같은 안전성과 주행성능을 유지하기 위해
+전문 테크니션이 맞춤 서비스를 선사합니다. '첫 번째 차량 점검 서비스'를 신청하시면, 27가지 무상 점검은 물론 차량 상태를 한눈에 확인할 수 있는 차량 점검 진단표를 제공합니다. 링컨만의 프리미엄 점검 서비스를 지금 바로 만나보시기 바랍니다. 자세한 내용은 가까운 링컨 전시장이나 서비스센터에  문의하십시오.'''
+cta1_text='''전시장 및 서비스센터 찾기'''
+cta1_url='''https://www.lincoln-korea.com/dealer-locate'''
+cta1_link_name='''find_dealer'''
+cta2_text=''''''
+cta2_url=''''''
+cta2_link_name=''''''
 
 [[module]] #Custom 01
 path='email_modules/custom/3columntitle3icons'
 color='white'
 
-  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ทำไมต้องศูนย์บริการฟอร์ด?</span>'''
+  title = '''오직 링컨만을 위한 프리미엄 서비스'''
   icon1 = '''ico_2e_fordsvc_a'''
-  text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">มั่นใจอะไหล่แท้ฟอร์ด</span> 
-                    <span style="white-space:nowrap;">100%</span>  
-                    <span style="white-space:nowrap;">พร้อมการบำรุงรักษารถยนต์</span>
-                    <span style="white-space:nowrap;">อย่างมีประสิทธิภาพ</span>เพื่อ
-                    <span style="white-space:nowrap;">สมรรถนะสูงสุดของรถคุณ</span></span>'''
+  text1 = '''귀하의 차량이 늘 최상의 상태를 유지할 수 있도록 차별화된 서비스를 약속합니다.'''
   icon2 = '''ico_2e_fordsvc_b'''
-  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">ตรวจเช็คด้วยช่างเทคนิค</span> 
-                    <span style="white-space:nowrap;">ฟอร์ดที่ผ่านการอบรม</span> 
-                    <span style="white-space:nowrap;">รวมถึงเครื่องมือและอุปกรณ์</span> 
-                    <span style="white-space:nowrap;">ทันสมัยที่ออกแบบมาเพื่อ</span>
-                    <span style="white-space:nowrap;">รถฟอร์ดโดยเฉพาะ</span></span>'''
+  text2 = '''링컨은 차량 주행거리와 특성에 맞춘 체계적인 서비스를 선사합니다.'''
   icon3 = '''ico_2e_fordsvc_c_th'''
-  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">เก็บบันทึกสถิติรถฟอร์ด</span> 
-                    <span style="white-space:nowrap;">ของคุณอย่างเป็นระบบ</span> 
-                    <span style="white-space:nowrap;">เพื่อเพิ่มมูลค่าในการขายต่อ</span></span>'''
+  text3 = '''정기적인 점검 서비스를 통해 중고차 거래 시 잔존가치를 높일 수 있습니다.'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -62,21 +53,16 @@ color = '''white'''
 path='email_modules/cover/01'
 color='''lincoln_black'''
 
-title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;"><span style="white-space:nowrap;">24시간 긴급출동 서비스</span></span></span>'''
-  copy = '''<span style="font-family:'Nanum-Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">
-  <span style="white-space:nowrap;">링컨 긴급출동 서비스는</span>
-  <span style="white-space:nowrap;"> 365일 24시간 이용 가능합니다.</span><br />
-  <span style="white-space:nowrap;">운전 중 예상치 못한 긴급 상황이 발생하면,</span>
-  <span style="white-space:nowrap;"><a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주십시오.</span>
-  </span>'''
+title = ''''링컨만의 믿을 수 있는 안심서비스'''
+  copy = '''링컨의 소모성 부품 무상교환 서비스 ESP(Extended Service Plan)는 프리미엄 정비 서비스(Premium Maintenance Plan)로 3년/6만km(컨티넨탈은 5년/10만km)까지 일반 소모품을 무상으로 교체해드립니다.<br/><br/> &#8226; 일반 소모품 교환을 포함한 폭넓은 정비 서비스를 제공합니다.<br/> &#8226; 위 서비스는 중고차 판매시 해당 차량과 함께 양도가 가능합니다. <br/> &#8226; 3년 내에 서비스 기간 5년 연장 상품 구매가 가능합니다.'''
 
 [[module]]
 path='email_modules/singles/ctablock'
 color='''lincoln_black'''
 
 	cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;color:#515151;"><span style="white-space:nowrap;">더 알아보기</span></span>'''
-	cta1_url = '''https://www.lincoln-korea.com/parts-service/roadside-assistance/'''
-	cta1_link_name = '''era'''
+	cta1_url = '''https://www.lincoln-korea.com/parts-service/extended-service-plan/'''
+	cta1_link_name = '''esp'''
 
 [[module]] #Split 02
 path='email_modules/split/02'
@@ -92,8 +78,13 @@ copy = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;lette
 <span style="white-space:nowrap;">귀하에게 필요한 자세한 서비스 정보를</span><br />
 <span style="white-space:nowrap;">확인하실 수 있습니다.</span>
 <ul style="margin: 20px; padding: 0;text-decoration:underline; color:#b45f1a">
+<li><a href="https://www.lincoln-korea.com/parts-service/roadside-assistance/" name="era" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">24시간 긴급출동 서비스</span></a></li>
+<li><a href="https://www.lincoln-korea.com/parts-service/warranty/" name="warranty" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">보증 서비스</span></a></li>
 <li><a href="https://www.lincoln-korea.com/parts-service/pick-delivery/" name="pick_delivery" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">픽업&딜리버리 서비스</span></a></li>
-<li><a href="https://www.lincoln-korea.com/genuine-parts/" name="parts_service" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">부품 및 서비스</span></a></li></ul></span>'''
+<li><a href="https://www.lincoln-korea.com/vehicle-maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">차량 관리</span></a></li>
+<li><a href="https://www.lincoln-korea.com/genuine-parts/" name="parts_service" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">부품 및 서비스</span></a></li>
+<li><a href="https://www.lincoln-korea.com/parts-service/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">리콜 안내</span></a></li>
+</ul></span>'''
   image = '''sk_lincoln_edm1_effortlessownership_20170427'''
 
 [[module]] #Dual 01
