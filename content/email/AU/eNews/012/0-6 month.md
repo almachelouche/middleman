@@ -8,17 +8,19 @@ color='''white'''
 
    preheader='''Have you seen the latest and greatest Genuine Ford accessories? '''
 
-[[module]] #Header eNews #NSW 
+[[module]] #Header eNews #NSW
 path='email_modules/header/enews'
 color='black'
+segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
 
   title = '''Insider'''
   date = '''June 2017'''
   copy = '''IN THIS ISSUE:<br />Genuine Ford Accessories | Vivid Sydney | VIDEO: Brake Tips |Ford Owners App'''
-  
-  [[module]] #Header eNews #non NSW 
+
+  [[module]] #Header eNews #non NSW
 path='email_modules/header/enews'
 color='black'
+segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
 
   title = '''Insider'''
   date = '''June 2017'''
@@ -31,9 +33,22 @@ color='black'
   image = '''black'''
   url_link = '''https://www.ford.com.au/'''
 
+[[module]] # eNews Top Story  #Ranger &Everest version
+path='email_modules/custom/enews_topstory'
+color='black'
+segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribute['Model'] == 'Everest')"]
+
+  title = '''Time to get personal'''
+  copy = '''Are you ready to take your Ranger or Everest to the next level? Get weekend ready with Ford genuine accessories, they’re waiting to help you take your vehicle to the limit. Learn why quality matters when it comes to accessories.'''
+  cta1_text = '''WATCH NOW'''
+  cta1_url = '''https://www.ford.com.au/forms/accessories/'''
+  cta1_link_name = '''accessories2'''
+  cta1_icon = '''more'''
+
 [[module]] # eNews Top Story #Non Ranger &Everest version
 path='email_modules/custom/enews_topstory'
 color='black'
+segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
 
   title = '''Time to get personal'''
   copy = '''When it comes to personalising your Ford, nothing beats Ford Genuine Accessories. All our accessories undergo years of safety and durability testing, ensuring they integrate perfectly with your Ford.'''
@@ -42,30 +57,7 @@ color='black'
   cta1_link_name = '''accessories1'''
   cta1_icon = '''more'''
 
-  [[module]] #Banner Image #Non Ranger &Everest version
-path='email_modules/image/banner'
-color='white'
 
-  image = '''AU_edm6_everest_20170510'''
-  url_link = '''https://www.ford.com.au/forms/accessories/'''
-  
-  [[module]] #Header Logo #Ranger &Everest version
-path='email_modules/header/logodesktop'
-color='black'
-
-  image = '''black'''
-  url_link = '''https://www.ford.com.au/'''
-  
-  [[module]] # eNews Top Story  #Ranger &Everest version
-path='email_modules/custom/enews_topstory'
-color='black'
-
-  title = '''Time to get personal'''
-  copy = '''Are you ready to take your Ranger or Everest to the next level? Get weekend ready with Ford genuine accessories, they’re waiting to help you take your vehicle to the limit. Learn why quality matters when it comes to accessories.'''
-  cta1_text = '''WATCH NOW'''
-  cta1_url = '''https://www.ford.com.au/forms/accessories/'''
-  cta1_link_name = '''accessories2'''
-  cta1_icon = '''more'''
 
   [[module]] #Banner Image  #Ranger &Everest version
 path='email_modules/image/banner'
@@ -77,6 +69,7 @@ color='white'
 [[module]] #Split 01 #NSW
 path='email_modules/split/01'
 color='lightblue'
+segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
 
 title = '''Let’s Get Vivid'''
   copy = '''Ford and Vivid Sydney have officially joined forces! We couldn’t be more thrilled to support this stunning festival of art, technology, light, and music. We hope to see you at Darling Harbour from May 26 – June 17. Join us as we Go Further in 2017.'''
@@ -85,10 +78,11 @@ title = '''Let’s Get Vivid'''
   cta1_link_name = '''VIVID'''
   cta1_icon = '''play'''
   image = '''AU_edm6_ranger_20170427'''
-  
+
   [[module]] #Split 01 #non NSW
 path='email_modules/split/01'
 color='lightblue'
+segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
 
  title = '''See into the future'''
   copy = '''Do parcel-delivering drones and autonomous cars sound like science fiction? According to the innovators who attended the Future with Ford event, these life-changing technologies will arrive sooner than you may think. Are you ready?'''
@@ -97,7 +91,7 @@ color='lightblue'
   cta1_link_name = '''innovation'''
   cta1_icon = '''more'''
   image = '''AU_edm6_ranger_20170427'''
-  
+
 
   [[module]] #Split 02
 path='email_modules/split/02'

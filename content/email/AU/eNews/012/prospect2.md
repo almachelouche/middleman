@@ -11,14 +11,16 @@ color='''white'''
 [[module]] #Header eNews #NSW
 path='email_modules/header/enews'
 color='black'
+segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
 
   title = '''Insider'''
   date = '''June 2017'''
   copy = '''IN THIS ISSUE:<br />New Everest Ambiente | Vivid Sydney | EOFY Deals | Watch Ranger vs Skydiver'''
-  
+
   [[module]] #Header eNews #NON NSW
 path='email_modules/header/enews'
 color='black'
+segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
 
   title = '''Insider'''
   date = '''June 2017'''
@@ -42,18 +44,19 @@ color='black'
   cta1_link_name = '''everest'''
   cta1_icon = '''more'''
 
-  
+
   [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
   image = '''AU_edm6_everest_20170510'''
   url_link = '''https://www.ford.com.au/commercial/ranger/special-editions/'''
-  
+
 
 [[module]] #Split 01 #NSW
 path='email_modules/split/01'
 color='darkblue'
+segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
 
   title = '''Let’s Get Vivid'''
   copy = '''Ford and Vivid Sydney have officially joined forces! We couldn’t be more thrilled to support this stunning festival of art, technology, light, and music. We hope to see you at Darling Harbour from May 26 – June 17. Join us as we Go Further in 2017.'''
@@ -62,10 +65,11 @@ color='darkblue'
   cta1_link_name = '''vivid'''
   cta1_icon = '''more'''
   image = '''AU_edm6_awards2_20170301'''
-  
+
   [[module]] #Split 01 #NON NSW
 path='email_modules/split/01'
 color='green'
+segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
 
  title = '''See into the future'''
   copy = '''Do parcel-delivering drones and autonomous cars sound like science fiction? According to the innovators who attended the Future with Ford event, these life-changing technologies will arrive sooner than you may think. Are you ready?'''
@@ -74,8 +78,8 @@ color='green'
   cta1_link_name = '''innovation'''
   cta1_icon = '''more'''
   image = '''AU_edm6_awards2_20170301'''
-  
-  
+
+
   [[module]] #Split 02
 path='email_modules/split/02'
 color='lightblue'
@@ -87,8 +91,8 @@ color='lightblue'
   cta1_link_name = '''offer'''
   cta1_icon = '''more'''
   image = '''AU_edm6_offer2_20170511'''
-  
-  
+
+
   [[module]] #Split 01
 path='email_modules/split/01'
 color='green'
@@ -100,7 +104,7 @@ color='green'
   cta1_link_name = '''ranger1'''
   cta1_icon = '''play'''
   image = '''AU_edm6_ranger_20170427'''
-  
+
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'

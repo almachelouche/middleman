@@ -2,30 +2,51 @@
 markets = ["au"]
 title = '''AU Enews 012 6-2year'''
 
-[[module]] #NON NSW
+[[module]] #NSW
 path='email_modules/preheader'
 color='''white'''
-
-   preheader='''Which arrives first: Autonomous cars or delivery drones?'''
-   
-   [[module]] #NSW
-path='email_modules/preheader'
-color='''white'''
+segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
 
    preheader='''Are you ready to join the most breathtaking Vivid event ever?'''
 
+[[module]] #NON NSW
+path='email_modules/preheader'
+color='''white'''
+segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
+
+   preheader='''Which arrives first: Autonomous cars or delivery drones?'''
+
+[[module]]
+path='email_modules/body'
+color='''white'''
+
+[[module]] #NSW
+path='email_modules/preheader'
+color='''white'''
+segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
+
+   preheader='''Are you ready to join the most breathtaking Vivid event ever?'''
+
+[[module]] #NON NSW
+path='email_modules/preheader'
+color='''white'''
+segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
+
+   preheader='''Which arrives first: Autonomous cars or delivery drones?'''
 
 [[module]] #Header eNews #NSW
 path='email_modules/header/enews'
 color='black'
+segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
 
   title = '''Insider'''
   date = '''June 2017'''
   copy = '''IN THIS ISSUE:<br />Vivid Sydney | Genuine Ford Accessories | VIDEO: Brake Tips | Watch Ranger vs Skydiver '''
-  
+
   [[module]] #Header eNews #NON NSW
 path='email_modules/header/enews'
 color='black'
+segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
 
   title = '''Insider'''
   date = '''June 2017'''
@@ -41,6 +62,7 @@ color='black'
 [[module]] # eNews Top Story #NSW
 path='email_modules/custom/enews_topstory'
 color='black'
+segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
 
   title = '''Let’s Get Vivid'''
   copy = '''Ford and Vivid Sydney have officially joined forces! We couldn’t be more thrilled to support this stunning festival of art, technology, light, and music. We hope to see you at Darling Harbour from May 26 – June 17. Join us as we Go Further in 2017.'''
@@ -48,17 +70,11 @@ color='black'
   cta1_url = '''https://www.vividsydney.com'''
   cta1_link_name = ''''award1'''
   cta1_icon = '''more'''
-  
-  [[module]] #Banner Image #NON NSW
-path='email_modules/image/banner'
-color='white'
 
-  image = '''AU_edm6_everest_20170510'''
-  url_link = '''https://www.ford.com.au/about-ford/awards/'''
-  
- [[module]] #eNews Top Story #NON NSW
+[[module]] #eNews Top Story #NON NSW
 path='email_modules/custom/enews_topstory'
 color='black'
+segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
 
  title = '''See into the future'''
   copy = '''Do parcel-delivering drones and autonomous cars sound like science fiction? According to the innovators who attended the Future with Ford event, these life-changing technologies will arrive sooner than you may think. Are you ready?'''
@@ -66,7 +82,6 @@ color='black'
   cta1_url = '''https://www.ford.com.au/about-ford/newsroom/2017/thought-leaders-and-innovators-define-the-mobility-revolution--u/'''
   cta1_link_name = '''innovation'''
   cta1_icon = '''more'''
-  
 
   [[module]] #Banner Image
 path='email_modules/image/banner'
@@ -75,21 +90,10 @@ color='white'
   image = '''AU_edm6_everest_20170510'''
   url_link = '''https://www.ford.com.au/about-ford/awards/'''
 
-[[module]] #Split 01 #NON RANGER AND EVEREST
-path='email_modules/split/01'
-color='lightblue'
-
-title = '''Time to get personal'''
-  copy = '''When it comes to personalising your Ford, nothing beats Ford Genuine Accessories. All our accessories undergo years of safety and durability testing, ensuring they integrate perfectly with your Ford.'''
-  cta1_text = '''GET ACCESSORISED'''
-  cta1_url = '''https://www.ford.com.au/forms/accessories/'''
-  cta1_link_name = '''accessories1'''
-  cta1_icon = '''more'''
-  image = '''AU_edm6_ranger_20170427'''
-
 [[module]] #Split 01 #RANGER AND EVEREST
 path='email_modules/split/01'
 color='lightblue'
+segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribute['Model'] == 'Everest')"]
 
 title = '''Time to get personal'''
   copy = '''Are you ready to take your Ford to the next level? Get weekend-ready with Ford genuine accessories, designed to deliver the durability and safety you need. Learn why quality matters when it comes to accessories.'''
@@ -98,6 +102,19 @@ title = '''Time to get personal'''
   cta1_link_name = '''accessories1'''
   cta1_icon = '''more'''
   image = '''AU_edm6_awards2_20170301'''
+
+[[module]] #Split 01 #NON RANGER AND EVEREST
+path='email_modules/split/01'
+color='lightblue'
+segmentelse = ["(user.CustomAttribute['Area'] == 'non-Ranger or non-Everest')"]
+
+title = '''Time to get personal'''
+  copy = '''When it comes to personalising your Ford, nothing beats Ford Genuine Accessories. All our accessories undergo years of safety and durability testing, ensuring they integrate perfectly with your Ford.'''
+  cta1_text = '''GET ACCESSORISED'''
+  cta1_url = '''https://www.ford.com.au/forms/accessories/'''
+  cta1_link_name = '''accessories1'''
+  cta1_icon = '''more'''
+  image = '''AU_edm6_ranger_20170427'''
 
   [[module]] #Split 02
 path='email_modules/split/02'
@@ -110,7 +127,7 @@ color='green'
   cta1_link_name = '''brakes'''
   cta1_icon = '''play'''
   image = '''AU_edm6_brakes_20170427'''
-  
+
   [[module]] #Split 01
 path='email_modules/split/01'
 color='darkblue'
@@ -123,7 +140,7 @@ title = '''Ranger vs Skydiver'''
   cta1_icon = '''play'''
   image = '''AU_edm6_ranger_20170427'''
 
-  
+
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
 color='white'
