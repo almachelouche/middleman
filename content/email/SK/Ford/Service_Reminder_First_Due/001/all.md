@@ -58,22 +58,17 @@ color = '''white'''
 
   image = '''th_edm2_whyfordsvc_20161115'''
 
+[[module]] #Cover 05
+path='email_modules/cover/02'
+color='''fordblue'''
 
-[[module]] #Cover 01
-path='email_modules/cover/01'
-color='''fordblue'''
- 
-  title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>24시간 긴급출동 서비스</b></span>'''
-  copy = '''<span style="font-size:16px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">포드 긴급출동 서비스는 365일 24시간 이용 가능합니다.<br />운전 중 예상치 못한 긴급 상황이 발생하면, <a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주세요.</span>'''
-  
-[[module]]
-path='email_modules/singles/ctablock'
-color='''fordblue'''
-	
-	cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">더 알아보기</span>'''
-	cta1_url = '''https://www.ford-korea.com/owner/emergency/'''
-	cta1_link_name = '''era'''
-    
+	title = '''Scheduled Service Plan'''
+	copy = '''Our peace-of-mind service plans keep your Ford performing its best. Enjoy up to 5 years of capped pricing and save up to 10% on servicing. And coverage is 100% transferrable, increasing your Ford's resale value.'''
+	cta1_text = '''VIEW PLANS'''
+	cta1_url = '''https://www.india.ford.com/owner/scheduled-service-plan/'''
+	cta1_link_name = '''ssp'''
+	icon = '''in_edm1_extendedwarranty_20160801'''
+
 [[module]] #Split 02
 path='email_modules/split/02'
 color='green'
