@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU Welcome 012 Offer Transit2'''
+title = '''AU Welcome 012 Offer Transit sd'''
 
 [[module]]
 path='email_modules/preheaderbefore'
@@ -73,7 +73,8 @@ color = '''white'''
 path='email_modules/cover/03'
 color='''white'''
   
-  copy='''<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace of mind.<br /><br /><span style="font-weight: bold;">Roadside Assistance</span><br /><br />Get help when you need it most with State Auto Club membership for up to 7 years&#185;.<br /><br /><span style="font-weight: bold;">Service Price Promise</span><br /><br />Know what you’ll pay for standard service before you even come in.<br /><br /><span style="font-weight: bold;">Loan Car</span><br /><br />Don’t get stuck without wheels. Available when you book a service&#178;.<br /><br />
+  copy='''<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace of mind.<br /><br /><span style="font-weight: bold;">Roadside Assistance</span><br /><br />Get help when you need it most with State Auto Club membership for up to 7 years&#185;.<br /><br /><span style="font-weight: bold;">Service Price Promise</span><br /><br />Know what you’ll pay for standard service before you even come in.<br /><br /><span style="font-weight: bold;">
+  Loan Car</span><br /><br />Don’t get stuck without wheels. Available when you book a service&#178;.<br /><br />
   <span style="font-weight: bold;">Extended Warranty</span><br /><br />Your Transit includes a complimentary extended warranty that covers your vehicle for 3 years or 200,000km – whichever comes first&#179;. Simply follow your vehicle’s servicing requirements outlined in your owner’s literature to stay fully protected. For your convenience, this warranty information is recorded at all Ford Dealerships nationwide and you will also have received a letter confirming the extended warranty period from your Dealer.<br /><br />Call us anytime on: 1300 80 10 80''' 
   
  [[module]] #3 Images
@@ -89,24 +90,6 @@ color = '''white'''
   image3 = '''au_svc_icon1A'''
 	image3_url = '''https://www.ford.com.au/owners/service/'''
 	image3_link_name = '''icon3'''
-    
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
-
-[[module]]
-path='email_modules/singles/copy'
-color='''white'''
-	
-	copy = '''<span style="font-weight: bold;">Sat Nav SD Card</span><br /><br />As you may be aware, we are experiencing a delay with the arrival of the SD card for your Sat Nav system. These are due in Australia in June and you will be contacted when they arrive. We understand the inconvenience and would like to show our appreciation by providing you with a $200 discount on your first scheduled service. This voucher will be visible in our system at all Ford Dealerships nationally and will be automatically applied at the completion of your first scheduled service.'''
-    
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"  
     
 
 [[module]] #Banner Image No Link
