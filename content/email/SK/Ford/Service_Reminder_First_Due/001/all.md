@@ -16,18 +16,48 @@ color='white'
   image = '''white'''
   url_link = '''https://www.ford-korea.com'''
 
-[[module]] #Cover 01
-path='email_modules/cover/01'
+[[module]]
+path='email_modules/cover/02'
+
 color='''white'''
- 
- title = '''<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>포드의 가족이 되신 것을 진심으로 환영합니다.</b></span>'''
-  copy = '''<span style="font-size:15px;line-height: 14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;"><br /><br />저희 포드는 새로운 가족이 되신 고객님께 다시 한 번 깊은 감사의 마음을 전합니다.<br /><br />앞으로도 꾸준히 포드의 새로운 소식을 알려드리고자 합니다.<br /><br />고객님의 즐겁고 안전한 운전에 포드가 언제나 함께 하겠습니다.</span>'''
+icon='''ph_edm2_svc_wrench_20160801'''
+title='''Time files when you're having fun'''
+copy='''Hello <%${user['FirstName']}%><br /><br />Here’s a quick reminder that your new <%${user.CustomAttribute['Model']}%> is due for its first service. Our expert engineers will ensure it is running at its absolute best.<br /><br />When you book your first service appointment, you’ll receive a free 30-point inspection and a Vehicle Report Card that helps you track your Ford’s health status. 
+<br /><br />It's important to book your service today. Just click below to contact <%${user.CustomAttribute['Dealer_Name']}%> (during business hours) or to find your nearest dealer.'''
+cta1_text='''CALL <%${user.CustomAttribute['Work_Phone']}%>'''
+cta1_url='''tel:<%${user.CustomAttribute['Home_Phone']}%>'''
+cta2_text='''FIND A DEALER'''
+cta2_url='''https://www.ford.com.ph/locate-a-dealer/'''
+cta2_link_name='''find_dealer'''
+
+[[module]] #Custom 01
+path='email_modules/custom/3columntitle3icons'
+color='white'
+
+  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ทำไมต้องศูนย์บริการฟอร์ด?</span>'''
+  icon1 = '''ico_2e_fordsvc_a'''
+  text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">มั่นใจอะไหล่แท้ฟอร์ด</span> 
+                    <span style="white-space:nowrap;">100%</span>  
+                    <span style="white-space:nowrap;">พร้อมการบำรุงรักษารถยนต์</span>
+                    <span style="white-space:nowrap;">อย่างมีประสิทธิภาพ</span>เพื่อ
+                    <span style="white-space:nowrap;">สมรรถนะสูงสุดของรถคุณ</span></span>'''
+  icon2 = '''ico_2e_fordsvc_b'''
+  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">ตรวจเช็คด้วยช่างเทคนิค</span> 
+                    <span style="white-space:nowrap;">ฟอร์ดที่ผ่านการอบรม</span> 
+                    <span style="white-space:nowrap;">รวมถึงเครื่องมือและอุปกรณ์</span> 
+                    <span style="white-space:nowrap;">ทันสมัยที่ออกแบบมาเพื่อ</span>
+                    <span style="white-space:nowrap;">รถฟอร์ดโดยเฉพาะ</span></span>'''
+  icon3 = '''ico_2e_fordsvc_c_th'''
+  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">เก็บบันทึกสถิติรถฟอร์ด</span> 
+                    <span style="white-space:nowrap;">ของคุณอย่างเป็นระบบ</span> 
+                    <span style="white-space:nowrap;">เพื่อเพิ่มมูลค่าในการขายต่อ</span></span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''sk_ford_edm1_topmodule_20170419'''
+  image = '''th_edm2_whyfordsvc_20161115'''
+
 
 [[module]] #Cover 01
 path='email_modules/cover/01'
