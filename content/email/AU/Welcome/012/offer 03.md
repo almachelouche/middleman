@@ -73,7 +73,7 @@ color = '''white'''
 path='email_modules/cover/03'
 color='''white'''
   
-  copy='''<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace-of-mind.<br /><br />You get State Auto Club Roadside Assistance and Membership¹ for up to 7 years from Autoclub participating dealers. But the service doesn't stop there. Ford also has a Free Loan Car program², so we can keep you on the road whilst your car is being serviced.<br /><br />Best of all, you secured up to 5 years/100,000km warranty&#179;. Simply book an appointment with your local participating Ford Dealership by the date your Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> is due for a service, and the team will have the warranty noted in the system.'''  
+  copy='''<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace-of-mind.<br /><br />You get State Auto Club Roadside Assistance and Membership¹ for up to 7 years from Autoclub participating dealers. But the service doesn't stop there. Ford also has a Loan Car program², so we can keep you on the road whilst your car is being serviced.<br /><br />Best of all, you secured up to 5 years/100,000km warranty&#179;. Simply book an appointment with your local participating Ford Dealership by the date your Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> is due for a service, and the team will have the warranty noted in the system.'''  
   
   
 
