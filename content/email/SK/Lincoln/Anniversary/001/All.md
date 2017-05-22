@@ -7,7 +7,7 @@ title = '''SK Lincoln Anniversary 001'''
 path='email_modules/preheader'
 color='''nothing'''
 
-   preheader='''링컨과 함께하는 시작이 더욱 아름답고 편안하기를 바랍니다.'''
+   preheader='''링컨과 함께해 온 시간이 벌써 1년이 되었습니다.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -20,19 +20,8 @@ color='white'
 path='email_modules/cover/02'
 color='''white'''
 
-title = '''<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
-<span style="white-space:nowrap;">링컨과 함께하는</span>
-<span style="white-space:nowrap;"> 새로운 여정의 시작</span>
-</span>'''
-  copy = '''<span style="font-size:15px;line-height: 14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;"><br /><br />
-  <span style="white-space:nowrap;">링컨과의 새로운 여정을 시작한 귀하에게</span>
-  <span style="white-space:nowrap;"> 다시 한 번 깊은 감사를 드립니다.</span><br /><br />
-  <span style="white-space:nowrap;">링컨만의 감성을 완벽하게 누릴 수 있도록</span><br /><br />
-  <span style="white-space:nowrap;">앞으로도 꾸준히 링컨의 새로운 소식을</span>
-  <span style="white-space:nowrap;"> 알려드리고자 합니다.</span><br /><br />
-  <span style="white-space:nowrap;">귀하의 즐겁고 안전한 운전에</span>
-  <span style="white-space:nowrap;"> 링컨이 언제나 함께 하겠습니다.</span>
-  </span>'''
+title = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">귀하의 여정에 언제나 함께하도록</span>'''
+  copy = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">링컨과의 새로운 여정을 시작한 1년 전 그 순간을 기억하시나요? 지난 1년간 함께 해온 소중한 인연에 다시 한번 깊은 감사를 드립니다. 보내주신 사랑과 성원에 보답하고자 앞으로 함께 할 모든 여정에서도 차별화된 혜택, 믿음과 신뢰가 담긴 서비스를 제공하겠습니다. 귀하의 특별함에 가치를 더해줄 최고의 감동, 지금, 링컨과 함께 다시 누려보십시오.</span>'''
 
 	icon=''''''
   cta1_text=''''''
