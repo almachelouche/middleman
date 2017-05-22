@@ -45,7 +45,7 @@ color='black'
   title = '''Let’s Get Vivid'''
   copy = '''Ford and Vivid Sydney have officially joined forces! We couldn’t be more thrilled to support this stunning festival of art, technology, light, and music. We hope to see you at Darling Harbour from May 26 – June 17. Join us as we Go Further in 2017.'''
   cta1_text = '''LEARN MORE'''
-  cta1_url = '''https://www.ford.com.au/about-ford/awards/'''
+  cta1_url = '''https://www.vividsydney.com'''
   cta1_link_name = ''''award1'''
   cta1_icon = '''more'''
   
