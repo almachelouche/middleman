@@ -7,7 +7,7 @@ title = '''SK Ford Anniversary 001'''
 path='email_modules/preheader'
 color='''nothing'''
 
-   preheader='''저희 포드는 새로운 가족이 되신 고객님께 다시 한 번 깊은 감사의 마음을 전합니다'''
+   preheader='''지난 1년간 포드와 함께 해주셔서 진심으로 감사드립니다.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -20,8 +20,8 @@ color='white'
 path='email_modules/cover/01'
 color='''white'''
  
- title = '''<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>포드의 가족이 되신 것을 진심으로 환영합니다.</b></span>'''
-  copy = '''<span style="font-size:15px;line-height: 14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;"><br /><br />저희 포드는 새로운 가족이 되신 고객님께 다시 한 번 깊은 감사의 마음을 전합니다.<br /><br />앞으로도 꾸준히 포드의 새로운 소식을 알려드리고자 합니다.<br /><br />고객님의 즐겁고 안전한 운전에 포드가 언제나 함께 하겠습니다.</span>'''
+ title = '''<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>언제나 처음의 감동이 계속되도록</b></span>'''
+  copy = '''<span style="font-size:15px;line-height: 14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">포드와 함께한 1주년을 축하드립니다. 고객님의 훌륭한 선택에 다시 한번 감사드리며, 지난 1년 동안 더 없는 만족을 누리셨기를 바랍니다. 저희는 앞으로도 가장 가까운 곳에서 변함없이 고객님의 의견을 듣고 신속한 도움을 드릴 것을 약속합니다. 고객님의 모든 기대에 만족하는 포드가 되겠습니다</span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
