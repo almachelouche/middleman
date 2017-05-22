@@ -7,7 +7,7 @@ title = '''SK Ford Service Reminder First 001'''
 path='email_modules/preheader'
 color='''nothing'''
 
-   preheader='''저희 포드는 새로운 가족이 되신 고객님께 다시 한 번 깊은 감사의 마음을 전합니다'''
+   preheader='''고객님의 즐겁고 안전한 드라이빙을 위한 '첫 번째 차량 점검 서비스'을 안내해드립니다.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -21,64 +21,54 @@ path='email_modules/cover/02'
 
 color='''white'''
 icon=''''''
-title='''Time files when you're having fun'''
-copy='''Hello <%${user['FirstName']}%><br /><br />Here’s a quick reminder that your new <%${user.CustomAttribute['Model']}%> is due for its first service. Our expert engineers will ensure it is running at its absolute best.<br /><br />When you book your first service appointment, you’ll receive a free 30-point inspection and a Vehicle Report Card that helps you track your Ford’s health status. 
-<br /><br />It's important to book your service today. Just click below to contact <%${user.CustomAttribute['Dealer_Name']}%> (during business hours) or to find your nearest dealer.'''
-cta1_text='''CALL <%${user.CustomAttribute['Work_Phone']}%>'''
-cta1_url='''tel:<%${user.CustomAttribute['Home_Phone']}%>'''
-cta2_text='''FIND A DEALER'''
-cta2_url='''https://www.ford.com.ph/locate-a-dealer/'''
-cta2_link_name='''find_dealer'''
+title='''포드와 함께하는 드라이빙, 안전을 더할 때 보다 즐거워집니다.'''
+copy='''고객님의 즐겁고 안전한 드라이빙을 위하여, '첫 번째 차량 점검 서비스'에 대해 알려드립니다. 항상 처음과 같은 최상의 차량 품질 유지를 위해 포드 전문 테크니션이 업계 최고 수준의 서비스를 제공합니다. '첫 번째 차량 점검 서비스'를 신청하시면, 27가지 무상 점검은 물론 차량 상태를 한눈에 확인할 수 있는 차량 점검 진단표를 제공합니다. 포드만의 체계적인 서비스를 지금 예약 후 만나보세요. 자세한 내용은 가까운 포드 전시장에 문의하시거나 아래 버튼을 클릭하여 확인하시기 바랍니다.'''
+cta1_text='''전시장 및 서비스센터 찾기'''
+cta1_url='''https://www.ford-korea.com/locate-a-dealer/'''
+cta1_link_name='''find_dealer'''
+cta2_text=''''''
+cta2_url=''''''
+cta2_link_name=''''''
 
 [[module]] #Custom 01
 path='email_modules/custom/3columntitle3icons'
 color='white'
 
-  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ทำไมต้องศูนย์บริการฟอร์ด?</span>'''
+  title = '''포드만의 체계적인 서비스'''
   icon1 = '''ico_2e_fordsvc_a'''
-  text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">มั่นใจอะไหล่แท้ฟอร์ด</span> 
-                    <span style="white-space:nowrap;">100%</span>  
-                    <span style="white-space:nowrap;">พร้อมการบำรุงรักษารถยนต์</span>
-                    <span style="white-space:nowrap;">อย่างมีประสิทธิภาพ</span>เพื่อ
-                    <span style="white-space:nowrap;">สมรรถนะสูงสุดของรถคุณ</span></span>'''
+  text1 = '''차량 성능을 최상으로 유지할 수 있도록 한 분 한 분에게 필요한 최적화된 서비스를 제공합니다.'''
   icon2 = '''ico_2e_fordsvc_b'''
-  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">ตรวจเช็คด้วยช่างเทคนิค</span> 
-                    <span style="white-space:nowrap;">ฟอร์ดที่ผ่านการอบรม</span> 
-                    <span style="white-space:nowrap;">รวมถึงเครื่องมือและอุปกรณ์</span> 
-                    <span style="white-space:nowrap;">ทันสมัยที่ออกแบบมาเพื่อ</span>
-                    <span style="white-space:nowrap;">รถฟอร์ดโดยเฉพาะ</span></span>'''
+  text2 = '''고객님께서 보유하신 차량의 주행거리와 특성에 맞는 체계적인 서비스를 제공합니다.'''
   icon3 = '''ico_2e_fordsvc_c_th'''
-  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">เก็บบันทึกสถิติรถฟอร์ด</span> 
-                    <span style="white-space:nowrap;">ของคุณอย่างเป็นระบบ</span> 
-                    <span style="white-space:nowrap;">เพื่อเพิ่มมูลค่าในการขายต่อ</span></span>'''
+  text3 = '''차량 정기 점검 서비스를 통해 중고차 거래 시 잔존가치를 높일 수 있습니다'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''th_edm2_whyfordsvc_20161115'''
+  image = '''ph_edm2a_tirechange_20160801'''
 
 [[module]] #Cover 05
 path='email_modules/cover/02'
 color='''fordblue'''
-
-	title = '''Scheduled Service Plan'''
-	copy = '''Our peace-of-mind service plans keep your Ford performing its best. Enjoy up to 5 years of capped pricing and save up to 10% on servicing. And coverage is 100% transferrable, increasing your Ford's resale value.'''
-	cta1_text = '''VIEW PLANS'''
-	cta1_url = '''https://www.india.ford.com/owner/scheduled-service-plan/'''
-	cta1_link_name = '''ssp'''
-	icon = '''in_edm1_extendedwarranty_20160801'''
+title = ''''포드만의 안심서비스'''
+copy = '''포드의 소모성 부품 무상교환 서비스 ESP(Extended Service Plan)는 차량 구매 후 3년/6만km(선도래기준)까지 무상으로 제공됩니다.<li>차량 종합 검사, 타이어 위치 교환, 엔진 오일 및 필터 교환 서비스를 포함합니다.</li><br/><li>위 서비스는 중고차 판매시 해당 차량과 함께 양도가 가능합니다.</li><br/><li>3년 이내 소정의 추가 비용으로 서비스 해당 품목이 확대된 ESP 프리미엄 정비 서비스를 구매하실 수 있습니다.</li>'''
+cta1_text = '''더 알아보기'''
+cta1_url = '''https://www.ford-korea.com/owner/extended-service-plan/ '''
+cta1_link_name = '''esp'''
+icon = '''in_edm1_extendedwarranty_20160801'''
 
 [[module]] #Split 02
 path='email_modules/split/02'
 color='green'
 
   title = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;font-size:20px;"><b>포드 오너를 위한 필수 정보</b></span>'''
-  copy = '''<span style="color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">포드 웹사이트에는 더 쉽게<br/>차량을 관리할 수 있도록 돕는<br/>값진 정보가 가득합니다. <br/><br/>아래의 링크를 클릭하시면<br/>고객님께 꼭 필요한 서비스 정보를<br />확인하실 수 있습니다.
+  copy = '''<span style="color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">포드 웹사이트에는 더 쉽게 차량을 관리할 수 있도록 돕는 값진 정보가 가득합니다.<br/>아래의 링크를 클릭하시면 고객님께 꼭 필요한 서비스 정보를 확인하실 수 있습니다.<br/><br/>
 	<ul style="margin: 20px; padding: 0;text-decoration:underline; color:#FFFFFF">
-		<li><a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF;">보증 서비스</a></li>
+		<li><a href="https://www.ford-korea.com/owner/emergency/" name="era" style="text-decoration:underline; color:#FFFFFF;">24시간 긴급출동 서비스</a></li>
+        <li><a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF;">보증 서비스</a></li>
 		<li><a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">차량 관리</a></li>
-		<li><a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">전문가의 공인 서비스 </a></li>
+		<li><a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">전문가의 공인 서비스</a></li>
 		<li><a href="https://www.ford-korea.com/owner/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">리콜 안내</a></li>
 	</ul></span>'''
   image = '''sk_ford_edm1_greenmodule_20170419'''
@@ -108,6 +98,6 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><br/>앞으로 저희가 보내드리는 이메일 수신을 위해 귀하의 주소록이나 이메일 수신 허용 목록에 <br/><span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline; color:#ffffff;">fordnews@mail.edmasia.com</span>을 추가해주십시오.<br/><br/>본 이메일은 귀하의 요청에 따라 발송되었습니다. 이메일 수신을 원치 않으시면 <a href="<%unsubscribe_link_text%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. <br />본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다. <a href="https://www.ford-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#91a4b1;">개인정보처리방침</a> <br/><br/>Copyright © 2017 Ford Sales & Service Korea Inc.<br /><br />이메일이 제대로 보이지 않는 경우, <span class="mobile-display-block"></span><a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.<p> </p><p> </p><p> </p></span>'''
+text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><br/>앞으로 저희가 보내드리는 이메일 수신을 위해 귀하의 주소록이나 이메일 수신 허용 목록에 <br/><span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline;">fordnews@mail.edmasia.com</span>을 추가해주십시오.<br/><br/>본 이메일은 귀하의 요청에 따라 발송되었습니다. 이메일 수신을 원치 않으시면 <a href="<%unsubscribe_link_text%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. <br />본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다. <a href="https://www.ford-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#91a4b1;">개인정보처리방침</a> <br/><br/>Copyright © 2017 Ford Sales & Service Korea Inc.<br /><br />이메일이 제대로 보이지 않는 경우, <span class="mobile-display-block"></span><a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.<p> </p><p> </p><p> </p></span>'''
 
 +++
