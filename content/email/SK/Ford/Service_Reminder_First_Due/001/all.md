@@ -39,7 +39,7 @@ title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,
   icon2 = '''ico_2e_fordsvc_b'''
   text2 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif;letter-spacing: -2px;">고객님께서 보유하신 차량의<br />주행거리와 특성에 맞는<br />체계적인 서비스를<br />제공합니다.</span>'''
   icon3 = '''ico_2e_fordsvc_c_th'''
-  text3 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif;letter-spacing: -2px;">차량 정기 점검 서비스를<br />통해<br />중고차 거래 시<br />차량 잔존가치를<br />높일 수 있습니다.</span>'''
+  text3 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif;letter-spacing: -2px;">차량 정기 점검 서비스를<br />통해<br />중고차 거래 시<br />차량 잔존가치를<br />n높일 수 있습니다.</span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
