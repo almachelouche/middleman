@@ -35,7 +35,7 @@ color='white'
 
 title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>포드만의 체계적인 서비스</b></span>'''
   icon1 = '''ico_2e_fordsvc_a'''
-  text1 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif";letter-spacing: -2px;">차량 성능을 최상으로<br />유지할 수 있도록<br />한 분 한 분에게 필요한<br />최적화된 서비스를 제공합니다.</span>'''
+  text1 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif";letter-spacing: -1em;">차량 성능을 최상으로<br />유지할 수 있도록<br />한 분 한 분에게 필요한<br />최적화된 서비스를 제공합니다.</span>'''
   icon2 = '''ico_2e_fordsvc_b'''
   text2 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif";letter-spacing: -1px;">고객님께서 보유하신 차량의<br />주행거리와 특성에 맞는<br />체계적인 서비스를<br />제공합니다.</span>'''
   icon3 = '''ico_2e_fordsvc_c_th'''
