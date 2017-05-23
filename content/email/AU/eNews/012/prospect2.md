@@ -64,7 +64,7 @@ segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
   cta1_url = '''https://www.vividsydney.com'''
   cta1_link_name = '''vivid'''
   cta1_icon = '''more'''
-  image = '''AU_edm6_awards2_20170301'''
+  image = '''AU_edm6_vivid_20170523'''
 
   [[module]] #Split 01 #NON NSW
 path='email_modules/split/01'
@@ -77,7 +77,7 @@ segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
   cta1_url = '''https://www.ford.com.au/about-ford/newsroom/2017/thought-leaders-and-innovators-define-the-mobility-revolution--u/'''
   cta1_link_name = '''innovation'''
   cta1_icon = '''more'''
-  image = '''AU_edm6_awards2_20170301'''
+  image = '''AU_edm6_futurist_20170523'''
 
 
   [[module]] #Split 02

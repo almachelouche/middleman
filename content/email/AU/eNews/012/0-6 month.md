@@ -44,6 +44,13 @@ segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribu
   cta1_url = '''https://www.ford.com.au/forms/accessories/'''
   cta1_link_name = '''accessories2'''
   cta1_icon = '''more'''
+  
+  [[module]] #Banner Image  #Ranger &Everest version
+path='email_modules/image/banner'
+color='white'
+
+  image = '''AU_edm6_everest_20170510'''
+  url_link = '''https://www.ford.com.au/forms/accessories/'''
 
 [[module]] # eNews Top Story #Non Ranger &Everest version
 path='email_modules/custom/enews_topstory'
@@ -77,7 +84,7 @@ title = '''Let’s Get Vivid'''
   cta1_url = '''https://www.vividsydney.com'''
   cta1_link_name = '''VIVID'''
   cta1_icon = '''play'''
-  image = '''AU_edm6_ranger_20170427'''
+  image = '''AU_edm6_vivid_20170523'''
 
   [[module]] #Split 01 #non NSW
 path='email_modules/split/01'
@@ -90,7 +97,7 @@ segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
   cta1_url = '''https://www.ford.com.au/about-ford/newsroom/2017/thought-leaders-and-innovators-define-the-mobility-revolution--u/'''
   cta1_link_name = '''innovation'''
   cta1_icon = '''more'''
-  image = '''AU_edm6_ranger_20170427'''
+  image = '''AU_edm6_futurist_20170523'''
 
 
   [[module]] #Split 02
