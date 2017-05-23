@@ -7,14 +7,14 @@ path='email_modules/preheaderbefore'
 color='''nothing'''
 segmentif = ["(user.CustomAttribute['Model'] == 'Mustang')"]
 
-   preheader='''Book a scheduled service for your Mustang and you'll drive away in a loan car.'''
+   preheader='''Don't get stuck without wheels. Book a Service Loan Car with your Mustang’s scheduled service.'''
 
 [[module]]
 path='email_modules/preheaderbefore'
 color='''nothing'''
 segmentelse = ["yes"]
 
-   preheader='''Don't get stuck without wheels. Book a Loan Car with every scheduled service.'''
+   preheader='''Don't get stuck without wheels. Book a Service Loan Car with every scheduled service.'''
 
 [[module]]
 path='email_modules/body'
@@ -25,14 +25,14 @@ path='email_modules/preheaderafter'
 color='''nothing'''
 segmentif = ["(user.CustomAttribute['Model'] == 'Mustang')"]
 
-   preheader='''Book a scheduled service for your Mustang and you'll drive away in a loan car.'''
+   preheader='''Don't get stuck without wheels. Book a Service Loan Car with your Mustang’s scheduled service.'''
 
 [[module]]
 path='email_modules/preheaderafter'
 color='''nothing'''
 segmentelse = ["yes"]
 
-   preheader='''Don't get stuck without wheels. Book a Loan Car with every scheduled service.'''
+   preheader='''Don't get stuck without wheels. Book a Service Loan Car with every scheduled service.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
