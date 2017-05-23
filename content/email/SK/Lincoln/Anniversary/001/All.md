@@ -36,7 +36,7 @@ title = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">귀
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''sk_lincoln_edm1_topmodule_20170427'''
+  image = '''sk_lincoln_edm3_topmodule_20170523'''
 
 [[module]] #Cover 01
 path='email_modules/cover/01'

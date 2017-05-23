@@ -27,7 +27,7 @@ color='''white'''
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''sk_ford_edm1_topmodule_20170419'''
+  image = '''sk_ford_edm3_topmodule_20170523'''
 
 [[module]] #Cover 01
 path='email_modules/cover/01'
