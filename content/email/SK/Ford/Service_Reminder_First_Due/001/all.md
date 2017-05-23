@@ -21,7 +21,7 @@ path='email_modules/cover/02'
 
 color='''white'''
 icon=''''''
- title = '''<span style="font-Size:27px;line-height: 33px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>포드와 함께하는 드라이빙,<br />안전을 더할 때 보다 즐거워집니다.</b></span>'''
+ title = '''<span style="font-Size:27px;line-height: 36px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>포드와 함께하는 드라이빙,<br />안전을 더할 때 보다 즐거워집니다.</b></span>'''
   copy = '''<span style="font-size:15px;line-height: 14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;"><br /><br />고객님의 즐겁고 안전한 드라이빙을 위하여,<br /><br />'첫 번째 차량 점검 서비스'에 대해 알려드립니다.<br /><br /><br />항상 처음과 같은 최상의 차량 품질 유지를 위해<br /><br />포드 전문 테크니션이 업계 최고 수준의 서비스를 제공합니다.<br /><br /><br />'첫 번째 차량 점검 서비스'를 신청하시면, 27가지 무상 점검은 물론<br/><br />차량 상태를 한눈에 확인할 수 있는 차량 점검 진단표를 제공합니다.<br /><br /><br />포드만의 체계적인 서비스를 지금 예약 후 만나보세요.<br /><br /><br />자세한 내용은 가까운 포드 전시장에 문의하시거나<br /><br />아래 버튼을 클릭하여 확인하시기 바랍니다.</span>'''
 cta1_text='''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">전시장 및 서비스센터 찾기</span>'''
 cta1_url='''https://www.ford-korea.com/locate-a-dealer/'''cta1_link_name='''find_dealer'''
