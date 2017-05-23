@@ -36,11 +36,11 @@ color='white'
 
 title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>오직 링컨만을 위한 프리미엄 서비스</b></span>'''
   icon1 = '''ico_2e_fordsvc_a'''
-  text1 = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">귀하의 차량이 늘 최상의 상태를 유지할 수 있도록 차별화된 서비스를 약속합니다.</span>'''
+  copy1 = '''<span style="font-size:16px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">귀하의 차량이 늘 최상의 상태를 유지할 수 있도록 차별화된 서비스를 약속합니다.</span>'''
   icon2 = '''ico_2e_fordsvc_b'''
-  text2 = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">링컨은 차량 주행거리와 특성에 맞춘 체계적인 서비스를 선사합니다.</span>'''
+  copy1 = '''<span style="font-size:16px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">링컨은 차량 주행거리와 특성에 맞춘 체계적인 서비스를 선사합니다.</span>'''
   icon3 = '''ico_2e_fordsvc_c_th'''
-  text3 = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">정기적인 점검 서비스를 통해 중고차 거래 시 잔존가치를 높일 수 있습니다.</span>'''
+  copy1 = '''<span style="font-size:16px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">정기적인 점검 서비스를 통해 중고차 거래 시 잔존가치를 높일 수 있습니다.</span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -52,7 +52,7 @@ color = '''white'''
 path='email_modules/cover/01'
 color='''lincoln_black'''
 
-title = ''''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">링컨만의 믿을 수 있는 안심서비스</span>'''
+title = ''''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>링컨만의 믿을 수 있는 안심서비스</b></span>'''
 copy = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">링컨의 소모성 부품 무상교환 서비스 ESP(Extended Service Plan)는 프리미엄 정비 서비스(Premium Maintenance Plan)로 3년/6만km(컨티넨탈은 5년/10만km)까지 일반 소모품을 무상으로 교체해드립니다.<br/><br/> &#8226; 일반 소모품 교환을 포함한 폭넓은 정비 서비스를 제공합니다.<br/> &#8226; 위 서비스는 중고차 판매시 해당 차량과 함께 양도가 가능합니다. <br/> &#8226; 3년 내에 서비스 기간 5년 연장 상품 구매가 가능합니다.</span>'''
 
 [[module]]
