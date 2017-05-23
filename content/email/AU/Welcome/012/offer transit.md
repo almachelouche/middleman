@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU Welcome 012 Offer March'''
+title = '''AU Welcome 012 Offer Transit'''
 
 [[module]]
 path='email_modules/preheaderbefore'
@@ -73,10 +73,10 @@ color = '''white'''
 path='email_modules/cover/03'
 color='''white'''
   
-  copy='''<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace-of-mind.<br /><br />You get State Auto Club Roadside Assistance and Membership¹ for up to 7 years from Autoclub participating dealers. But the service doesn't stop there. Ford also has a Loan Car program², so we can keep you on the road whilst your car is being serviced.<br /><br />Best of all, you secured up to 5 years/100,000km warranty&#179;. Simply book an appointment with your local participating Ford Dealership by the date your Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> is due for a service, and the team will have the warranty noted in the system.'''  
+  copy='''<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace of mind.<br /><br /><span style="font-weight: bold;">Roadside Assistance</span><br /><br />Get help when you need it most with State Auto Club membership for up to 7 years&#185;.<br /><br /><span style="font-weight: bold;">Service Price Promise</span><br /><br />Know what you’ll pay for standard service before you even come in.<br /><br /><span style="font-weight: bold;">
+  Loan Car</span><br /><br />Don’t get stuck without wheels. Available when you book a service&#178;.<br /><br />
+  <span style="font-weight: bold;">Extended Warranty</span><br /><br />Your Transit includes a complimentary extended warranty that covers your vehicle for 3 years or 200,000km – whichever comes first&#179;. Simply follow your vehicle’s servicing requirements outlined in your owner’s literature to stay fully protected. For your convenience, this warranty information is recorded at all Ford Dealerships nationwide and you will also have received a letter confirming the extended warranty period from your Dealer.<br /><br />Call us anytime on: 1300 80 10 80''' 
   
-  
-
  [[module]] #3 Images
 path = '''email_modules/image/3images'''
 color = '''white'''
@@ -91,24 +91,6 @@ color = '''white'''
 	image3_url = '''https://www.ford.com.au/owners/service/'''
 	image3_link_name = '''icon3'''
     
-   [[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-segmentif = ["(user.CustomAttribute['Model'] == 'Ranger')"]
-
-  image = '''au_edm1_cover4_20161018'''
-  
-[[module]] #Cover 01 - Ranger
-path='email_modules/cover/01'
-color='white'
-segmentif = ["(user.CustomAttribute['Model'] == 'Ranger')"]
-
-  title='''Ranger Accessories '''
-  copy='''Now that you have your Ranger, we'd like to help you make the most out of your new truck. <br /><br /><a href="https://www.ford.com.au/commercial/ranger/smart-accessories/" name="accessory1" style="text-decoration:underline; color:#2D96CD"> Ford Genuine Accessories</a> are designed to fit perfectly and integrate seamlessly with Ranger's safety systems. So whether you need a soft tonneau cover to protect your cargo or a towpack for your weekend adventure, check out our range of extras that will help take your Ranger to the next level.'''
-  cta1_text='''Find Out More'''
-  cta1_url='''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
-  cta1_link_name = '''accessory2'''
-  cta1_icon='''more'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -139,7 +121,7 @@ color='''fordblue'''
   copy='''
 If you have any further questions, please don't hesitate to contact <br /><br /><span style="color:#FFFFFF"><%${user.CustomAttribute['Dealer_Name']}%> on <a href="tel:<%${user.CustomAttribute['Dealer_Phone']}%>" style="color:#FFFFFF; text-decoration:none"><%${user.CustomAttribute['Dealer_Phone']}%></a>   </span>or <a href="tel:133673" style="color:#FFFFFF; text-decoration:none"><span style="color:#FFFFFF">13 FORD (13 36 73)</span>'''
 
-        
+  
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
 color='white'
@@ -150,9 +132,9 @@ color='white'
 
   text = '''DISCLAIMERS:	
         <br /> <br />
-        1) Private and Blue Business Fleet customers only at participating Dealers who have not reached 7 years or 105,000 kms. State Auto Club Roadside Assistance & Membership is included with the first seven standard services for 12 months or until your next eligible standard service (whichever occurs first). Standard services include all A and B logbook services. Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
-        2) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/"  name="terms2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
-        3) At participating dealers for eligible new vehicles ordered and delivered by 30/06/2017. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. Extended warranty covers 5 years/100,000km from date of registration, whichever occurs first. Conditions apply. See <a href="https://www.ford.com.au/"  name="ford1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au</a>.'''
+        1) Private and Blue Business Fleet customers only at participating Dealers who have not reached 7 years or 105,000 kms. State Auto Club Roadside Assistance & Membership is included with the first seven standard services for 12 months or until your next eligible standard service (whichever occurs first). Standard services include all A and B logbook services. Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/"  name="terms2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
+        2) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/"  name="ford1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au</a>.<br /><br />
+        3) The Factory Warranty will operate under the terms and conditions of the Ford Express New Vehicle Warranty. Commences upon delivery to the customers or upon first registration of the vehicle for on-sold demonstrator vehicles and ends after 3 years or 200,000kms, whichever occurs first.<br /><br /> '''
        
 
 
