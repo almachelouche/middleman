@@ -35,11 +35,11 @@ color='white'
 
 title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>포드만의 체계적인 서비스</b></span>'''
   icon1 = '''ico_2e_fordsvc_a'''
-  text1 = '''<span style="font-size:15px;important;;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">차량 성능을 최상으로<br />유지할 수 있도록<br />한 분 한 분에게 필요한<br />최적화된 서비스를 제공합니다.</span>'''
+  text1 = '''<span style="font-size:14px;important;;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">차량 성능을 최상으로<br />유지할 수 있도록<br />한 분 한 분에게 필요한<br />최적화된 서비스를 제공합니다.</span>'''
   icon2 = '''ico_2e_fordsvc_b'''
-  text2 = '''<span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">고객님께서 보유하신 차량의<br />주행거리와 특성에 맞는<br />체계적인 서비스를<br />제공합니다.</span>'''
+  text2 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">고객님께서 보유하신 차량의<br />주행거리와 특성에 맞는<br />체계적인 서비스를<br />제공합니다.</span>'''
   icon3 = '''ico_2e_fordsvc_c_th'''
-  text3 = '''<span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">차량 정기 점검 서비스를 통해<br />중고차 거래 시<br />차량 잔존가치를 높일 수 있습니다.</span>'''
+  text3 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">차량 정기 점검 서비스를 통해<br />중고차 거래 시<br />차량 잔존가치를 높일 수 있습니다.</span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -50,7 +50,7 @@ color = '''white'''
 [[module]] #Cover 05
 path='email_modules/cover/02'
 color='''fordblue'''
-title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>포드만의 안심서비스</b></span>'''
+title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>포드만의 안심 서비스</b></span>'''
 copy = '''<span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">포드의 소모성 부품 무상교환 서비스 ESP(Extended Service Plan)는<br/>차량 구매 후 3년/6만km(선도래기준)까지 무상으로 제공됩니다.<br/><br/> &#8226; 차량 종합 검사, 타이어 위치 교환, 엔진 오일 및 필터 교환 서비스를 포함합니다.<br/> &#8226; 위 서비스는 중고차 판매시 해당 차량과 함께 양도가 가능합니다.<br/> &#8226; 3년 이내 소정의 추가 비용으로 서비스 해당 품목이 확대된<br />ESP 프리미엄 정비 서비스를 구매하실 수 있습니다.</span>'''
 cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">더 알아보기</span>'''
 cta1_url = '''https://www.ford-korea.com/owner/extended-service-plan/ '''
