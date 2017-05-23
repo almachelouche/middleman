@@ -38,9 +38,9 @@ title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,
   icon1 = '''ico_2e_fordsvc_a'''
   copy1 = '''<span style="font-size:16px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">귀하의 차량이 늘 최상의 상태를 유지할 수 있도록 차별화된 서비스를 약속합니다.</span>'''
   icon2 = '''ico_2e_fordsvc_b'''
-  copy1 = '''<span style="font-size:16px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">링컨은 차량 주행거리와 특성에 맞춘 체계적인 서비스를 선사합니다.</span>'''
+  copy2 = '''<span style="font-size:16px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">링컨은 차량 주행거리와 특성에 맞춘 체계적인 서비스를 선사합니다.</span>'''
   icon3 = '''ico_2e_fordsvc_c_th'''
-  copy1 = '''<span style="font-size:16px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">정기적인 점검 서비스를 통해 중고차 거래 시 잔존가치를 높일 수 있습니다.</span>'''
+  copy3 = '''<span style="font-size:16px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">정기적인 점검 서비스를 통해 중고차 거래 시 잔존가치를 높일 수 있습니다.</span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
