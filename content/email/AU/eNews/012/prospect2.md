@@ -68,7 +68,7 @@ segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
 
   [[module]] #Split 01 #NON NSW
 path='email_modules/split/01'
-color='green'
+color='darkblue'
 segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
 
  title = '''See into the future'''

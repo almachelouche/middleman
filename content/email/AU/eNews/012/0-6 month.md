@@ -75,7 +75,7 @@ color='white'
 
 [[module]] #Split 01 #NSW
 path='email_modules/split/01'
-color='lightblue'
+color='green'
 segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
 
 title = '''Let’s Get Vivid'''
@@ -88,7 +88,7 @@ title = '''Let’s Get Vivid'''
 
   [[module]] #Split 01 #non NSW
 path='email_modules/split/01'
-color='lightblue'
+color='green'
 segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
 
  title = '''See into the future'''
@@ -102,7 +102,7 @@ segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
 
   [[module]] #Split 02
 path='email_modules/split/02'
-color='darkblue'
+color='lightblue'
 
   title = '''Are your brakes safe?'''
   copy = '''Brakes don’t last forever. And when they wear out, it can spell danger for your daily commute. Discover how to keep your brakes in top shape for longer, and learn the warning signs of brakes needing attention.'''
