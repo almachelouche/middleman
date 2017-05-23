@@ -134,7 +134,7 @@ path='email_modules/footer/disclaimer'
 color='white'
 
   text = '''DISCLAIMERS:
-        <br /> <br />
+        <br /> <br />'''
 
 
 [[module]] #Footer AU Online
