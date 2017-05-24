@@ -51,7 +51,7 @@ color = '''white'''
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''sk_lincoln_edm3_ESP_20170524'''
+  image = '''sk_ford_edm3_ESP_20170524'''
 
 [[module]] #Cover 05
 path='email_modules/cover/02'
