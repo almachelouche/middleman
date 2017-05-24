@@ -71,3 +71,5 @@ color='white'
 
   text = '''DISCLAIMERS:	
         <br /> <br />'''
+        
++++
