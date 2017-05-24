@@ -19,7 +19,7 @@ color='white'
 [[module]]
 path='email_modules/cover/02'
 
-color='''white'''
+color='''lincoln_white'''
 icon=''''''
 title='''<span style="font-Size:26px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>오직 귀하만을 위한 차량 점검 서비스를 만나보세요.</b></span>'''
 copy='''<span style="font-size:15px;line-height:14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;"><br /><br />즐겁고 안전한 운전을 위한 '첫 번째 차량 점검'을 권장합니다.<br /><br /><br />처음과 같은 안전성과 주행성능을 유지하기 위해<br /><br />전문 테크니션이 맞춤 서비스를 선사합니다.<br /><br /><br />'첫 번째 차량 점검 서비스'를 신청하시면, 27가지 무상 점검은 물론<br /><br />차량 상태를 한눈에 확인할 수 있는 점검 진단표를 제공합니다.<br /><br /><br />링컨만의 프리미엄 점검 서비스를 지금 바로 만나보시기 바랍니다.<br /><br />자세한 내용은 가까운 링컨 전시장이나 서비스센터에 문의하십시오.</span>'''
@@ -35,18 +35,24 @@ path='email_modules/custom/3columntitle3icons'
 color='white'
 
 title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>오직 링컨만을 위한 프리미엄 서비스</b></span>'''
-  icon1 = '''ico_2e_fordsvc_a'''
+  icon1 = '''sk_edm3_lincoln_checklist_20170524'''
   text1 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">귀하의 차량이 늘 최상의<br />상태를 유지할 수 있도록<br />차별화된 서비스를<br />약속합니다.</span>'''
-  icon2 = '''ico_2e_fordsvc_b'''
+  icon2 = '''sk_edm3_lincoln_geneniue_part_20170524'''
   text2 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">링컨은 귀하의 차량<br />주행거리와 특성에 맞춘<br />체계적인 서비스를<br />선사합니다.</span>'''
-  icon3 = '''ico_2e_fordsvc_c_th'''
+  icon3 = '''sk_edm3_lincoln_koreanwon_20170524'''
   text3 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">정기적인 점검 서비스를<br />통해 중고차 거래 시<br />차량 잔존가치를<br />높일 수 있습니다.</span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''th_edm2_whyfordsvc_20161115'''
+  image = '''sk_lincoln_edm3_servicing_20170524'''
+
+[[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+
+  image = '''sk_lincoln_edm3_ESP_20170524'''
 
 [[module]] #Cover 01
 path='email_modules/cover/01'
