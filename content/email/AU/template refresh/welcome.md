@@ -40,17 +40,21 @@ color='white'
 	image2_url = '''https://www.ford.com.au/shopping/accessories/'''
 	image2_link_name = '''accessories'''
     
-     title3 = '''SYNC Support'''
-	copy3 = '''Be a Sync expert, get to you know your Sync system on our Sync support portal.  Find out how to use your Satellite Navigation System, set up your Emergency assistance or familiarise yourself with popular voice demands and more.'''
-	image3 = '''au_svc_icon1'''
-	image3_url = '''https://www.ford.com.au/owners/technology/sync-support/sync1/'''
-	image3_link_name = '''sync'''
+     [[module]] #Footer AU Online
+path='email_modules/image/double_column_images_text'
+color='white'
     
-     title4 = '''Service'''
-	copy4 = '''Convenience. Reliability. And no nasty surprises. They’re what service should be. And they’re exactly what Ford promises when you have your car serviced.  Find out what makes Ford Service the best.'''
-	image4 = '''au_svc_icon1'''
-	image4_url = '''https://www.ford.com.au/owners/service/'''
-	image4_link_name = '''service'''
+     title1 = '''SYNC Support'''
+	copy1 = '''Be a Sync expert, get to you know your Sync system on our Sync support portal.  Find out how to use your Satellite Navigation System, set up your Emergency assistance or familiarise yourself with popular voice demands and more.'''
+	image1 = '''au_svc_icon1'''
+	image1_url = '''https://www.ford.com.au/owners/technology/sync-support/sync1/'''
+	image1_link_name = '''sync'''
+    
+     title2 = '''Service'''
+	copy2 = '''Convenience. Reliability. And no nasty surprises. They’re what service should be. And they’re exactly what Ford promises when you have your car serviced.  Find out what makes Ford Service the best.'''
+	image2 = '''au_svc_icon1'''
+	image2_url = '''https://www.ford.com.au/owners/service/'''
+	image2_link_name = '''service'''
     
     [[module]] #Cover 01
 path='email_modules/cover/01'
