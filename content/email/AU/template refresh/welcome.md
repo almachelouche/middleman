@@ -39,7 +39,7 @@ color='white'
 	image2 = '''au_svc_icon1'''
 	image2_url = '''https://www.ford.com.au/shopping/accessories/'''
 	image2_link_name = '''accessories'''
-    
+
      title3 = '''SYNC Support'''
 	copy3 = '''Be a Sync expert, get to you know your Sync system on our Sync support portal.  Find out how to use your Satellite Navigation System, set up your Emergency assistance or familiarise yourself with popular voice demands and more.'''
 	image3 = '''au_svc_icon1'''
