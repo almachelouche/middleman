@@ -46,7 +46,13 @@ title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''th_edm2_whyfordsvc_20161115'''
+  image = '''sk_lincoln_edm3_servicing_20170524'''
+
+[[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+
+  image = '''sk_lincoln_edm3_ESP_20170524'''
 
 [[module]] #Cover 01
 path='email_modules/cover/01'
@@ -54,12 +60,6 @@ color='''lincoln_black'''
 
 title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>링컨만의 위한 안심 서비스</b></span>'''
 copy = '''<span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">링컨의 소모성 부품 무상교환 서비스 ESP(Extended Service Plan)는<br />프리미엄 정비 서비스(Premium Maintenance Plan)로<br />3년/6만km(컨티넨탈은 5년/10만km)까지<br />일반 소모품을 무상으로 교체해드립니다.<br/><br/> &#8226; 일반 소모품 교환을 포함한 폭넓은 정비 서비스를 제공합니다.<br/> &#8226; 위 서비스는 중고차 판매시 해당 차량과 함께 양도가 가능합니다.<br/> &#8226; 3년 내에 서비스 기간 5년 연장 상품 구매가 가능합니다.</span>'''
-
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
-  image = '''th_edm1_wildtrak_2017420'''
 
 [[module]]
 path='email_modules/singles/ctablock'
