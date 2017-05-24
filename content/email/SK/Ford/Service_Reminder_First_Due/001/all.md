@@ -61,7 +61,7 @@ copy = '''<span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,s
 cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">더 알아보기</span>'''
 cta1_url = '''https://www.ford-korea.com/owner/extended-service-plan/ '''
 cta1_link_name = '''esp'''
-icon = '''in_edm1_extendedwarranty_20160801'''
+icon = ''''''
 
 [[module]] #Split 02
 path='email_modules/split/02'
