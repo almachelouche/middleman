@@ -20,8 +20,16 @@ color='white'
 path='email_modules/cover/02'
 color='''white'''
 
- title = '''<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>귀하의 여정에 언제나 함께하도록</b></span>'''
-  copy = '''<span style="font-size:15px;line-height:14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;"><br /><br />링컨과의 새로운 여정을 시작한 1년 전 그 순간을 기억하시나요?<br /><br /><br />지난 1년간 함께 해온 소중한 인연에 다시 한번 깊은 감사를 드립니다.<br /><br /><br />보내주신 사랑과 성원에 보답하고자 앞으로 함께 할 모든 여정에서도<br /><br />차별화된 혜택, 믿음과 신뢰가 담긴 서비스를 제공하겠습니다.<br /><br /><br />귀하의 특별함에 가치를 더해줄 최고의 감동,<br /><br />지금, 링컨과 함께 다시 누려보십시오.</span>'''
+ title = '''<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
+ <span style="white-space:nowrap;">귀하의 여정에 언제나 함께하도록</span></span>'''
+  copy = '''<span style="font-size:15px;line-height:14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;"><br /><br />
+  <span style="white-space:nowrap;">링컨과의 새로운 여정을 시작한 1년 전 그 순간을 기억하시나요?</span><br /><br /><br />
+  <span style="white-space:nowrap;">지난 1년간 함께 해온 소중한 인연에 다시 한번 깊은 감사를 드립니다.</span><br /><br /><br />
+  <span style="white-space:nowrap;">보내주신 사랑과 성원에 보답하고자 앞으로 함께 할 모든 여정에서도</span><br /><br />
+  <span style="white-space:nowrap;">차별화된 혜택, 믿음과 신뢰가 담긴 서비스를 제공하겠습니다.</span><br /><br /><br />
+  <span style="white-space:nowrap;">귀하의 특별함에 가치를 더해줄 최고의 감동,</span><br /><br />
+  <span style="white-space:nowrap;">지금, 링컨과 함께 다시 누려보십시오.</span>
+  </span>'''
 
 	icon=''''''
   cta1_text=''''''
@@ -42,10 +50,11 @@ color = '''white'''
 path='email_modules/cover/01'
 color='''lincoln_black'''
 
-title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;"><span style="white-space:nowrap;">24시간 긴급출동 서비스</span></span></span>'''
+title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
+<span style="white-space:nowrap;">24시간 긴급출동 서비스</span></span></span>'''
   copy = '''<span style="font-family:'Nanum-Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">
   <span style="white-space:nowrap;">링컨 긴급출동 서비스는</span>
-  <span style="white-space:nowrap;"> 365일 24시간 이용 가능합니다.</span><br />
+  <span style="white-space:nowrap;">365일 24시간 이용 가능합니다.</span><br />
   <span style="white-space:nowrap;">운전 중 예상치 못한 긴급 상황이 발생하면,</span>
   <span style="white-space:nowrap;"><a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주십시오.</span>
   </span>'''
