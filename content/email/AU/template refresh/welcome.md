@@ -49,7 +49,6 @@ color='white'
 	image1 = '''au_svc_icon1'''
 	image1_url = '''https://www.ford.com.au/owners/technology/sync-support/sync1/'''
 	image1_link_name = '''sync'''
->>>>>>> 20b727151df1eb43e5d27a55ed16f05018d6db56
     
      title2 = '''Service'''
 	copy2 = '''Convenience. Reliability. And no nasty surprises. They’re what service should be. And they’re exactly what Ford promises when you have your car serviced.  Find out what makes Ford Service the best.'''
