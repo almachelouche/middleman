@@ -35,11 +35,11 @@ path='email_modules/custom/3columntitle3icons'
 color='white'
 
 title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>오직 링컨만을 위한 프리미엄 서비스</b></span>'''
-  icon1 = '''ico_2e_fordsvc_a'''
+  icon1 = '''sk_edm3_lincoln_checklist_20170524'''
   text1 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">귀하의 차량이 늘 최상의<br />상태를 유지할 수 있도록<br />차별화된 서비스를<br />약속합니다.</span>'''
-  icon2 = '''ico_2e_fordsvc_b'''
+  icon2 = '''sk_edm3_lincoln_geneniue_part_20170524'''
   text2 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">링컨은 귀하의 차량<br />주행거리와 특성에 맞춘<br />체계적인 서비스를<br />선사합니다.</span>'''
-  icon3 = '''ico_2e_fordsvc_c_th'''
+  icon3 = '''sk_edm3_lincoln_koreanwon_20170524'''
   text3 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">정기적인 점검 서비스를<br />통해 중고차 거래 시<br />차량 잔존가치를<br />높일 수 있습니다.</span>'''
 
 [[module]] #Banner Image No Link
