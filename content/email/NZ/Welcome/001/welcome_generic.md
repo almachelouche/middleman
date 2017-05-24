@@ -2,37 +2,6 @@
 markets = ["nz"]
 title = '''NZ Welcome 001 generic'''
 
-[[module]]
-path='email_modules/preheaderbefore'
-color='''nothing'''
-segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
-
-   preheader='''The journey continues! From all the team at Ford, we'd like to say a big THANK YOU for choosing another Ford.'''
-
-[[module]]
-path='email_modules/preheaderbefore'
-color='''nothing'''
-segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
-
-   preheader='''We hope you're enjoying the ride. From all the team at Ford, we'd like to say a big THANK YOU for choosing a Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.'''
-
-[[module]]
-path='email_modules/body'
-color='''nothing'''
-
-[[module]]
-path='email_modules/preheaderafter'
-color='''nothing'''
-segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
-
-   preheader='''The journey continues! From all the team at Ford, we'd like to say a big THANK YOU for choosing another Ford.'''
-
-[[module]]
-path='email_modules/preheaderafter'
-color='''nothing'''
-segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
-
-   preheader='''We hope you're enjoying the ride. From all the team at Ford, we'd like to say a big THANK YOU for choosing a Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -52,18 +21,9 @@ color = '''white'''
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''white'''
-segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
   copy='''Thank you for again choosing Ford. We hope you are enjoying the experience being part of the Ford family with your new <%${user.CustomAttribute['Model']}%>.<br /><br />Along with driver assistance technologies that enable a 5-Star safety rating, Ford brings the latest communications technology to New Zealand drivers. Not only is your vehicle safe, it’s also smart!'''
   
-  [[module]] #Cover 11
-path='email_modules/cover/03'
-color='''white'''
-segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
-
-  copy='''Welcome to the Ford family.  We would like to thank you for choosing Ford and hope that you are enjoying the experience.<br /><br />Along with driver assistance technologies that enable a 5-Star safety rating, Ford brings the latest communications technology to New Zealand drivers. Not only is your vehicle safe, it’s also smart!'''
-
-
 
  [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''

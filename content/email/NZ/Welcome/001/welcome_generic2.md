@@ -2,38 +2,6 @@
 markets = ["nz"]
 title = '''NZ Welcome 001 generic2'''
 
-[[module]]
-path='email_modules/preheaderbefore'
-color='''nothing'''
-segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
-
-   preheader='''The journey continues! From all the team at Ford, we'd like to say a big THANK YOU for choosing another Ford.'''
-
-[[module]]
-path='email_modules/preheaderbefore'
-color='''nothing'''
-segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
-
-   preheader='''We hope you're enjoying the ride. From all the team at Ford, we'd like to say a big THANK YOU for choosing a Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.'''
-
-[[module]]
-path='email_modules/body'
-color='''nothing'''
-
-[[module]]
-path='email_modules/preheaderafter'
-color='''nothing'''
-segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
-
-   preheader='''The journey continues! From all the team at Ford, we'd like to say a big THANK YOU for choosing another Ford.'''
-
-[[module]]
-path='email_modules/preheaderafter'
-color='''nothing'''
-segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
-
-   preheader='''We hope you're enjoying the ride. From all the team at Ford, we'd like to say a big THANK YOU for choosing a Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.'''
-
 [[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'
@@ -52,14 +20,12 @@ color = '''white'''
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''white'''
-segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
   copy='''Thank you for again choosing Ford. We hope you are enjoying the experience being part of the Ford family with your new <%${user.CustomAttribute['Model']}%>.<br /><br />Along with driver assistance technologies that enable a 5-Star safety rating, Ford brings the latest communications technology to New Zealand drivers. Not only is your vehicle safe, it’s also smart!'''
   
   [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''white'''
-segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 
   copy='''Welcome to the Ford family.  We would like to thank you for choosing Ford and hope that you are enjoying the experience.<br /><br />Along with driver assistance technologies that enable a 5-Star safety rating, Ford brings the latest communications technology to New Zealand drivers. Not only is your vehicle safe, it’s also smart!'''
 
@@ -77,7 +43,7 @@ path='email_modules/custom/au_fordowner_resources'
 color='white'
 
 	title = '''Ford Owner Resources'''
-	copy1 = '''Ford offers two ways to access helpful resources and information anywhere you go. <br /><br />You can visit the Ford Owners Website online at any time to view videos, check for vehicle updates, learn about the <a href="https://www.ford.co.nz/technology/sync/" name="sync" style="text-decoration:underline; color:#2D96CD">SYNC® infotainment system</a>, or find your closest service centre. Register quickly and easily: Assign a nickname to your Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> and enter your Vehicle Identification Number <%${user.CustomAttribute['VIN']}%>.'''
+	copy1 = '''Ford offers two ways to access helpful resources and information anywhere you go. <br /><br />You can visit the Ford Owners Website online at any time to view videos, check for vehicle updates, learn about the <a href="https://www.ford.co.nz/technology/sync/" name="sync" style="text-decoration:underline; color:#2D96CD">SYNC&#174; infotainment system</a>, or find your closest service centre. Register quickly and easily: Assign a nickname to your Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> and enter your Vehicle Identification Number <%${user.CustomAttribute['VIN']}%>.'''
     copy2 = '''You can also download the <span style="font-weight: bold;">Ford Owners App</span> to your mobile device for instant access on-the-go. <br /><br />'''
 	cta1_text='''Visit Ford Owners Website'''
 	cta1_url='''https://www.ford.co.nz/owners/'''
