@@ -22,7 +22,7 @@ color = '''white'''
 path='email_modules/cover/03'
 color='''white'''
 
-  copy='''Thank you for again choosing Ford. We hope you are enjoying the experience being part of the Ford family with your new <%${user.CustomAttribute['Model']}%>.<br /><br />Along with driver assistance technologies that enable a 5-Star safety rating, Ford brings the latest communications technology to New Zealand drivers. Not only is your vehicle safe, it’s also smart!'''
+  copy='''<br /><br />Thank you for again choosing Ford. We hope you are enjoying the experience being part of the Ford family with your new <%${user.CustomAttribute['Model']}%>.<br /><br />Along with driver assistance technologies that enable a 5-Star safety rating, Ford brings the latest communications technology to New Zealand drivers. Not only is your vehicle safe, it’s also smart!'''
   
 
  [[module]] #Banner Image No Link

@@ -15,19 +15,12 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
   image = '''au_edm1_cover_20161018'''
-
-
-[[module]] #Cover 11
-path='email_modules/cover/03'
-color='''white'''
-
-  copy='''Thank you for again choosing Ford. We hope you are enjoying the experience being part of the Ford family with your new <%${user.CustomAttribute['Model']}%>.<br /><br />Along with driver assistance technologies that enable a 5-Star safety rating, Ford brings the latest communications technology to New Zealand drivers. Not only is your vehicle safe, it’s also smart!'''
   
   [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''white'''
 
-  copy='''Welcome to the Ford family.  We would like to thank you for choosing Ford and hope that you are enjoying the experience.<br /><br />Along with driver assistance technologies that enable a 5-Star safety rating, Ford brings the latest communications technology to New Zealand drivers. Not only is your vehicle safe, it’s also smart!'''
+  copy='''<br /><br />Welcome to the Ford family. We would like to thank you for choosing Ford and hope that you are enjoying the experience.<br /><br />Along with driver assistance technologies that enable a 5-Star safety rating, Ford brings the latest communications technology to New Zealand drivers. Not only is your vehicle safe, it’s also smart!'''
 
 
 
