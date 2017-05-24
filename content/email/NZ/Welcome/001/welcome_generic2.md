@@ -1,6 +1,6 @@
 +++
 markets = ["nz"]
-title = '''NZ Welcome 001 generic'''
+title = '''NZ Welcome 001 generic2'''
 
 [[module]]
 path='email_modules/preheaderbefore'
@@ -72,15 +72,20 @@ color = '''white'''
   image = '''au_edm1_cover4_20161018'''
 
 
-[[module]] #Cover 01 
-path='email_modules/cover/01'
+[[module]] #AU FordOwner Resources
+path='email_modules/custom/au_fordowner_resources'
 color='white'
 
-  copy='''Your <%${user.CustomAttribute['Model']}%> is equipped with Ford’s SYNC® infotainment system. This allows you to have handsfree communication with your phone, music and Satellite navigation. Easy to operate with voice commands, your hands stay on the wheel making driving even more of a pleasure. If you need more information about how to operate this system, please feel free to view our online.'''
-  cta1_text='''Find Out More'''
-  cta1_url='''https://www.ford.co.nz/technology/sync/'''
-  cta1_link_name = '''accessory1'''
-  cta1_icon='''more'''
+	title = '''Ford Owner Resources'''
+	copy1 = '''Ford offers two ways to access helpful resources and information anywhere you go. <br /><br />You can visit the Ford Owners Website online at any time to view videos, check for vehicle updates, learn about the <a href="https://www.ford.co.nz/technology/sync/" name="sync" style="text-decoration:underline; color:#2D96CD">SYNC® infotainment system</a>, or find your closest service centre. Register quickly and easily: Assign a nickname to your Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> and enter your Vehicle Identification Number <%${user.CustomAttribute['VIN']}%>.'''
+    copy2 = '''You can also download the <span style="font-weight: bold;">Ford Owners App</span> to your mobile device for instant access on-the-go. <br /><br />'''
+	cta1_text='''Visit Ford Owners Website'''
+	cta1_url='''https://www.ford.co.nz/owners/'''
+	cta2_text='''iOS'''
+	cta2_url='''https://itunes.apple.com/in/app/ford-owners/id990342351?mt=8'''
+	cta3_text='''Android'''
+	cta3_url='''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en'''
+	cta1_icon='''more'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
