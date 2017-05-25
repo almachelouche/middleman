@@ -45,7 +45,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 	
-	copy = '''We noticed you've been driving your Ford <%${user.CustomAttribute['Model']}%> for a while now and might be thinking about purchasing a new Ford. <br /><br />We believe in engineering vehicles that can conquer any terrain – like the All-New Endeavour. This year, Endeavour conquered the podiums too, winning India’s most prestigious vehicle awards. <br /><br />Check out Endeavour today, because we want you to drive a winner. '''
+	copy = '''We noticed you've been driving your Ford <%${user.CustomAttribute['Model']}%> for a while now and might be thinking about purchasing a new Ford. <br /><br />We believe in engineering vehicles that can conquer any terrain – like the All-New Endeavour. This year, Endeavour conquered the podiums too, winning India’s most prestigious vehicle awards. <br /><br />Check out Endeavour today. '''
     
 [[module]] #Custom 3 Icon Text
 path='email_modules/custom/3icon_text'
@@ -155,9 +155,9 @@ color='white'
   icon4_url='''tel:18004252500'''
   icon4_image='''in_customer_care_number_20160401'''
   icon4_link_name = ''''''
-  icon5_url='''tel:18002097400'''
-  icon5_image='''in_rsa_no_20160615'''
-  icon5_link_name = ''''''
+  icon5_url='''tel:18004199000'''
+  icon5_image='''in_lmc_no_20161018'''
+  icon5_link_name = '''tel_toll_free'''
 
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
@@ -167,7 +167,7 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-  text = '''*As per awards given by leading Indian auto magazines and television networks in the year 2016-17. The model shown in the letter/mailer is the Titanium 3.2L Diesel variant. Colors are indicative only. Features and specifications may vary from model to model. Features mentioned and Accessories shown may not be part of standard fitment. Before placing, an order and booking the vehicle always consult a Ford authorized dealer for the latest information with respect to features, specifications, price, optional equipment and availability of the vehicle. Ford India Private Limited ("Ford") reserves the right, subject to all applicable laws, at any time, at its discretion, and without notice, to discontinue or change the features, designs, materials, colors and other specifications and the prices of its products. You can reach us on 1800-419-9000 for any product information or reach our Customer Care on 1800-425-2500. visit: <a href="https://www.india.ford.com/suvs/endeavour/" style="text-decoration:underline; color:#2D96CD;" >www.india.ford.com/suvs/endeavour</a> '''
+  text = '''*Terms and conditions apply.<br /><br />1. As per awards given by leading Indian auto magazines and television networks in the year 2016-17. The model shown in the letter/mailer is the Titanium 3.2L Diesel variant. Colors are indicative only. Features and specifications may vary from model to model. Features mentioned and Accessories shown may not be part of standard fitment. Before placing, an order and booking the vehicle always consult a Ford authorized dealer for the latest information with respect to features, specifications, price, optional equipment and availability of the vehicle. Ford India Private Limited ("Ford") reserves the right, subject to all applicable laws, at any time, at its discretion, and without notice, to discontinue or change the features, designs, materials, colors and other specifications and the prices of its products. <br /><br />2. Airbags does not guarantee safety. The airbag will deploy during significant lateral collisions. The airbag will not deploy in minor lateral and frontal collisions, rear collisions, or overturns. '''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
