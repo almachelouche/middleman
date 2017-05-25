@@ -104,7 +104,7 @@ color='white'
   icon1 = '''th_edm6_brake_20170113'''
   text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Brakes</span><br /><br />Purchase Motorcraft or Ford Genuine brake pads and receive a free bottle of fuel treatment.</span>'''
   icon2 = '''th_edm6_tyre_20170113'''
-  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Tyres</span><br /><br />Buy 3 tyres, get 1 free<sup>1</sup>. Plus, pay 0% interest for six months with a K Bank credit card<sup>2</sup>. </span>'''
+  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Tyres</span><br /><br />Buy 3 tyres, get 1 free<sup>1</sup>. Plus, pay 0% interest for six months with a K Bank credit card<sup>2</sup>.</span>'''
   icon3 = '''th_edm6_battery_20170113'''
   text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Batteries</span><br /><br />Receive a free bottle of fuel treatment when you purchase a Ford Genuine battery.</span>'''
 
