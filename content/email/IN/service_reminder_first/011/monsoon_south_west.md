@@ -160,6 +160,95 @@ color='''white'''
 	cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
 	cta1_link_name = '''book_service'''
 
+
+[[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+  
+  image = '''in_edm2_summer_camp_north_20170315'''
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="20"
+
+[[module]]
+path='email_modules/singles/title'
+color='''white'''
+	
+	title = '''The heat is on!'''
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+	
+	copy = '''Get your car geared up for the summer. Drive into any Ford Service Centre and enjoy hot offers including free 50+ point Car Check-up, Car Body Wash and discounts up to 50%*. And if your car is more than 5 years old, you will receive an extra 10%* off! <span style="font-weight:bold">Offers valid from 3rd to 9th of April.</span>'''
+
+[[module]] #Custom 4 Icons
+path='email_modules/custom/4icons'
+color='white'
+
+	title = ''''''
+  icon1_url='''http://www.india.ford.com/locate-dealer'''
+  icon1_link_name = '''locate_dealer'''
+  icon1_image='''in_edm2_summer_camp_ac_20170316'''
+  icon1_text = '''10%* off on<br />AC Gas & Filter'''
+  icon2_url='''tel:18004252500'''
+  icon2_link_name = '''locate_dealer2'''
+  icon2_image='''in_edm2_summer_camp_coolant2_20170316'''
+  icon2_text = '''10%* off<br />on Coolant'''
+  icon3_url='''tel:18002097400'''
+  icon3_link_name = '''locate_dealer3'''
+  icon3_image='''in_edm2_summer_camp_oil_filter_20170316'''
+  icon3_text = '''50%* off<br />on Oil Filter'''
+  icon4_url='''https://partscalculator.fordind.com:1443/Fill_Field'''
+  icon4_link_name = '''locate_dealer4'''
+  icon4_image='''in_edm2_summer_bodypaint_20170316'''
+  icon4_text = '''20%* off<br />on Full Body Paint<br />(Labour only)'''
+  
+  [[module]] #Custom 4 Icons
+path='email_modules/custom/4icons'
+color='white'
+
+	title = ''''''
+  icon1_url='''http://www.india.ford.com/locate-dealer'''
+  icon1_link_name = '''locate_dealer'''
+  icon1_image='''in_edm2_summer_camp_coolant_20170316'''
+  icon1_text = '''&#8377;1000* off<br />on Batteries'''
+  icon2_url='''tel:18004252500'''
+  icon2_link_name = '''locate_dealer2'''
+  icon2_image='''in_edm2_summer_camp_tyres_20170316'''
+  icon2_text = '''Attractive Gift*<br />on purchase of 4 tyres'''
+  icon3_url='''tel:18002097400'''
+  icon3_link_name = '''locate_dealer3'''
+  icon3_image='''in_edm2_summer_camp_brake_pads_20170316'''
+  icon3_text = '''10%* off<br />on Brake Pads'''
+  icon4_url='''https://partscalculator.fordind.com:1443/Fill_Field'''
+  icon4_link_name = '''locate_dealer4'''
+  icon4_image='''in_edm2_summer_camp_5yr_20170316'''
+  icon4_text = '''10%*off on all<br />Ford approved<br />Value Added Services'''
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
+path='email_modules/singles/ctablock'
+color='''white'''
+	
+	cta1_text = '''BOOK A SERVICE'''
+	cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
+	cta1_link_name = '''book_service'''
+
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
