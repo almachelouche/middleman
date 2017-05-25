@@ -115,7 +115,7 @@ color='''white'''
 	
     cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">SEE MORE OFFERS</span>'''
 	cta1_url = '''https://www.ford.co.th/'''
-	cta1_link_name = '''find_dealer'''
+	cta1_link_name = '''commodity_offer'''
 
 [[module]] #TH Social
 path='email_modules/footer/th/social'
