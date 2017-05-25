@@ -94,8 +94,7 @@ path='email_modules/singles/copy'
 color='''white'''
 	
     copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif">
-    <span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">Great deals on parts</span><br /><br />Keep your Ford vehicle in top condition with the latest offers on replacement parts and fluids. But get in quick, these offers end August 31, 2017.
-    </span>'''
+    <span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">Great deals on parts</span><br /><br />Keep your Ford vehicle in top condition with the latest offers on replacement parts. You’ll also automatically enter our lucky draw if you buy or are gifted a bottle of fuel treatment. Get in quick, these offers end August 31, 2017.</span>'''
 
 [[module]] #Custom 3 Icon Text
 path='email_modules/custom/3icon_text'
@@ -103,35 +102,29 @@ color='white'
 
   title = ''''''
   icon1 = '''th_edm6_brake_20170113'''
-  text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">
-  <span style="white-space:nowrap;">ผ้าเบรก</span> 
-  <span style="white-space:nowrap;">Ford-Motorcraft</span> 
-  <span style="white-space:nowrap;">สุดคุ้ม</span></span><br /><br />
-
-  <span style="white-space:nowrap;">ผ้าเบรก</span> 
-  <span style="white-space:nowrap;">Ford-Motorcraft</span> 
-  <span style="white-space:nowrap;">คุณภาพสูง</span> 
-  <span style="white-space:nowrap;">ในราคาที่คุ้มค่า</span></span>'''
+  text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Brakes</span><br /><br />Purchase Motorcraft or Ford Genuine brake pads and receive a free bottle of fuel treatment.</span>'''
   icon2 = '''th_edm6_tyre_20170113'''
   text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Tyres</span><br /><br />Buy 3 tyres, get 1 free<sup>1</sup>. Plus, pay 0% interest for six months with a K Bank credit card<sup>2</sup>. </span>'''
   icon3 = '''th_edm6_battery_20170113'''
-  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้สุดคุ้ม</span><br /><br />
-  <span style="white-space:nowrap;">คุ้มค่า คุ้มราคา</span>กับ
-  <span style="white-space:nowrap;">แบตเตอรี่ฟอร์ดแท้</span>
-  <span style="white-space:nowrap;">สำหรับรถฟอร์ดโดยเฉพาะ</span></span>'''
+  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Batteries</span><br /><br />Receive a free bottle of fuel treatment when you purchase a Ford Genuine battery.</span>'''
 
 
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
 	
-    cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาศูนย์บริการได้ที่นี่</span>'''
-	cta1_url = '''https://www.ford.co.th/locate-a-dealer/'''
+    cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">SEE MORE OFFERS</span>'''
+	cta1_url = '''https://www.ford.co.th/'''
 	cta1_link_name = '''find_dealer'''
 
 [[module]] #TH Social
 path='email_modules/footer/th/social'
 color='white'
+
+[[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
+color='white'
+text='''<span style="font-family:Tahoma, Verdana, Sans-serif">DISCLAIMERS:<br />[1] Offer valid for Goodyear, Michelin and BFGoodrich tyres only.<br />[2] Offer valid for Goodyear tyres only. </span>'''
 
 [[module]] #TH Online
 path='email_modules/footer/th/online'
