@@ -309,12 +309,6 @@ segmentelseif = ["((user.CustomAttribute['Model'] == 'Endeavour')) && (user.Cust
 	cta1_link_name = '''warranty_info'''
 	icon = '''in_edm1_extendedwarranty_20160801'''
 
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
-  image = '''in_edm2_greatsvc_20160801'''
-
 [[module]] #Footer 4 Icons
 path='email_modules/footer/4icons'
 color='white'
