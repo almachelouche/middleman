@@ -91,6 +91,18 @@ text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif; font-Size: 14px
   cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=th'''
   cta2_link_name = '''oa_andriod'''
   image = '''th_edm6_ownerapp_20160921'''
+  
+[[module]] #Split 04
+path='email_modules/split/04'
+color='green'
+
+  title='''<span style="font-family:Tahoma, Verdana, Sans-serif">Save on service</span>'''
+  copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">Save up to 10% or 3,700 THB on maintenance with Ford’s Scheduled Service Packs. Plus, you’ll enjoy a 0% interest rate for 10 months when you use a K Bank credit card. Offer ends August 31, 2017.</span>'''
+  cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">FIND OUT MORE ></span>'''
+cta1_url='''https://www.ford.co.th/owner/schedule-service/'''
+cta1_icon='''more'''
+cta1_link_name = '''SSP'''
+image = '''th_edm5a_specialoffer_20160801'''
 
 [[module]]
 path='email_modules/cover/01'
