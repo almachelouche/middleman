@@ -84,7 +84,7 @@ color='white'
 
   title = ''''''
   icon1 = '''th_edm6_tyre_20170113'''
-  text1 = '''<span style="font-weight:bold">Goodyear tyres</span><br /><br />Buy 3 tyres, get 1 free1. Plus, pay 0% interest for six months with a K Bank credit card2. '''
+  text1 = '''<sp an style="font-weight:bold">Goodyear tyres</span><br /><br />Buy 3 tyres, get 1 free1. Plus, pay 0% interest for six months with a K Bank credit card2. '''
   icon2 = '''th_edm6_battery_20170113'''
   text2 = '''<span style="font-weight:bold">Genuine Ford batteries</span><br /><br />Receive a free bottle of fuel treatment when you purchase a Ford Genuine battery. '''
   icon3 = '''th_edm6_brake_20170113'''
@@ -106,8 +106,7 @@ color='white'
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
-text='''<span style="font-family:Tahoma, Verdana, Sans-serif">[1] Offer valid for Goodyear, Michelin and BFGoodrich tyres only. </span>
-<span style="font-family:Tahoma, Verdana, Sans-serif">[2] Offer valid for Goodyear tyres only. </span>'''
+text='''<span style="font-family:Tahoma, Verdana, Sans-serif">[1] Offer valid for Goodyear, Michelin and BFGoodrich tyres only.<br/>[2] Offer valid for Goodyear tyres only.</span>'''
 
 [[module]] #TH Online
 path='email_modules/footer/th/online'
