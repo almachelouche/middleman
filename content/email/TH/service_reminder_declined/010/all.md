@@ -7,7 +7,7 @@ draft = true
 path='email_modules/preheader'
 color='''nothing'''
 
-	preheader = '''พบกับส่วนลดพิเศษมากมาย เพียงนัดหมายเช็คสภาพรถกับฟอร์ด'''
+	preheader = '''Check out the latest offers on tyres, brakes, batteries, and more.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -76,7 +76,7 @@ color='darkblue'
 path='email_modules/singles/copy'
 color='''white'''
 	
-    copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif"><span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">Great deals on parts</span><br /><br />Keep your Ford in top condition with the latest offers on tyres, batteries and brake pads. </span>'''
+    copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif"><span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">Great deals on parts</span><br /><br />Keep your Ford vehicle in top condition with the latest offers on replacement parts. You’ll also automatically enter our lucky draw if you buy or are gifted a bottle of fuel treatment. Get in quick, these offers end August 31, 2017.</span>'''
 
 [[module]] #Custom 3 Icon Text
 path='email_modules/custom/3icon_text'
@@ -84,11 +84,11 @@ color='white'
 
   title = ''''''
   icon1 = '''th_edm6_tyre_20170113'''
-  text1 = '''<span style="font-weight:bold">Goodyear tyres</span><br /><br />But 3 tyres, get 1 free. Plus, pay 0% interest for six months with a K Bank credit card.'''
+  text1 = '''<span style="font-weight:bold">Goodyear tyres</span><br /><br />Buy 3 tyres, get 1 free1. Plus, pay 0% interest for six months with a K Bank credit card2. '''
   icon2 = '''th_edm6_battery_20170113'''
-  text2 = '''<span style="font-weight:bold">Genuine Ford batteries</span><br /><br />Get a free pair of Motorcraft wiper blades with every Ford battery replacement.'''
+  text2 = '''<span style="font-weight:bold">Genuine Ford batteries</span><br /><br />Receive a free bottle of fuel treatment when you purchase a Ford Genuine battery. '''
   icon3 = '''th_edm6_brake_20170113'''
-  text3 = '''<span style="font-weight:bold">Motorcraft brake pads</span><br /><br />Get a free pair of Motorcraft wiper blades with every Motorcraft brake pad replacement.'''
+  text3 = '''<span style="font-weight:bold">Motorcraft brake pads</span><br /><br />Purchase Motorcraft or Ford Genuine brake pads and receive a free bottle of fuel treatment. '''
 
 [[module]]
 path='email_modules/singles/ctablock'
@@ -102,6 +102,12 @@ color='''white'''
 [[module]] #TH Social
 path='email_modules/footer/th/social'
 color='white'
+
+[[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
+color='white'
+text='''<span style="font-family:Tahoma, Verdana, Sans-serif">[1] Offer valid for Goodyear, Michelin and BFGoodrich tyres only. </span>
+<span style="font-family:Tahoma, Verdana, Sans-serif">[2] Offer valid for Goodyear tyres only. </span>'''
 
 [[module]] #TH Online
 path='email_modules/footer/th/online'
