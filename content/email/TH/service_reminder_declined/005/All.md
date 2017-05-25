@@ -7,7 +7,7 @@ title = '''TH Service Reminder Declined 005 All'''
 path='email_modules/preheader'
 color='''nothing'''
 
-    preheader = '''คุ้มสุดๆ! กับยางกู๊ดเยียร์ พร้อมข้อเสนอระบบเบรกและแบตเตอรี่ชั้นเยี่ยม'''
+    preheader = '''Check out the latest offers on tyres, brakes, batteries, and more.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -94,11 +94,7 @@ path='email_modules/singles/copy'
 color='''white'''
 	
     copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif">
-    <span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">
-    สุดคุ้มกับอะไหล่แท้จากฟอร์ด</span><br /><br />
-      <span style="white-space:nowrap;">เพื่อให้สมรรถนะรถฟอร์ดของคุณ </span>
-      <span style="white-space:nowrap;">ทำงานได้อย่างเต็มประสิทธิภาพ </span><br />
-      <span style="white-space:nowrap;">ฟอร์ดมีข้อเสนอสุดคุ้ม</span>กับ<span style="white-space:nowrap;">อะไหล่แท้จากฟอร์ด</span>
+    <span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">Great deals on parts</span><br /><br />Keep your Ford vehicle in top condition with the latest offers on replacement parts and fluids. But get in quick, these offers end August 31, 2017.
     </span>'''
 
 [[module]] #Custom 3 Icon Text
@@ -117,12 +113,7 @@ color='white'
   <span style="white-space:nowrap;">คุณภาพสูง</span> 
   <span style="white-space:nowrap;">ในราคาที่คุ้มค่า</span></span>'''
   icon2 = '''th_edm6_tyre_20170113'''
-  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">โปรยางสุดคุ้ม</span><br /><br />
-  <span style="white-space:nowrap;">ซื้อยางกู๊ดเยียร์ 3 เส้น</span> 
-  <span style="white-space:nowrap;">แถม 1 เส้นฟรี</span> 
-  <span style="white-space:nowrap;">รับสิทธิ์ผ่อน 0%</span> 
-  <span style="white-space:nowrap;">นาน 6 เดือน</span> 
-  <span style="white-space:nowrap;">ด้วยบัตรเครดิตกสิกรไทย</span></span>'''
+  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Tyres</span><br /><br />Buy 3 tyres, get 1 free<sup>1</sup>. Plus, pay 0% interest for six months with a K Bank credit card<sup>2</sup>. </span>'''
   icon3 = '''th_edm6_battery_20170113'''
   text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้สุดคุ้ม</span><br /><br />
   <span style="white-space:nowrap;">คุ้มค่า คุ้มราคา</span>กับ
