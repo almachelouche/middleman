@@ -1,6 +1,7 @@
 +++
 markets = ["th"]
 title = '''TH Welcome Repeat 003 New Ranger 1 Gif'''
+draft = true
 
 [[module]]
 path='email_modules/preheader'
