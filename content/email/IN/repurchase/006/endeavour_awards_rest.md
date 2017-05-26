@@ -50,15 +50,14 @@ color='''white'''
 [[module]] #Custom 3 Icon Text
 path='email_modules/custom/3icon_text'
 color='white'
-
   title = ''''''
   icon1 = '''au_edm5_sync2_20161107'''
-  text1 = '''SYNC<sup>&#174;</sup>3'''
+  text1 = '''<a href="https://www.india.ford.com/suvs/endeavour/features/smart/" name="sync">SYNC<sup>&#174;</sup>3</a>'''
   icon2 = '''au_edm5_tms_20161013'''
-  text2 = '''Terrain Management System'''
+  text2 = '''<a href="https://www.india.ford.com/suvs/endeavour/features/capability/" name="TMS">Terrain Management System.</a>'''
   icon3 = '''in_edm5_airbags_20161122'''
-  text3 = '''7 Airbags'''
-    
+  text3 = '''<a href="https://www.india.ford.com/suvs/endeavour/features/quality/" name="airbags">7 Airbags</a>'''
+  
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
 color='''white'''    
