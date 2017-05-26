@@ -66,7 +66,7 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
     cta1_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
   	cta1_link_name = '''test1'''
     cta2_text='''LATEST OFFER'''
-    cta2_url='''https://www.ford.com.au/latest-offers/national?offer=focus-trend-hatch'''
+    cta2_url='''https://www.ford.com.au/latest-offer/focus-trend-hatch/'''
 		cta2_link_name = '''latestoffer1'''
 
 [[module]]
@@ -77,7 +77,7 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
     title='''The Ford Focus Trend has been named the Drive small car of 2016!'''
     copy=''''''
     cta1_text='''LATEST OFFER'''
-    cta1_url='''https://www.ford.com.au/latest-offers/national?offer=focus-trend-hatch'''
+    cta1_url='''https://www.ford.com.au/latest-offer/focus-trend-hatch/'''
 		cta1_link_name = '''latestoffer1'''
     cta2_text='''BOOK A TEST DRIVE'''
     cta2_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
@@ -193,7 +193,7 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 	With <a href="https://www.ford.com.au/owners/service/calculator?edm" name="calculator" style="text-decoration:underline; color:#2d96cd">Ford's Service Price Promise</a>&#178;, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership&#179; for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program&#8308;, so we can keep you on the road whilst your car is being serviced. After all, that's what service should be.<br /><br />
 	So don't wait. Check out the latest offers on the Ford Focus Trend Hatch Manual today.'''
   cta1_text='''LATEST OFFER'''
-  cta1_url='''https://www.ford.com.au/latest-offers/national?offer=focus-trend-hatch'''
+  cta1_url='''https://www.ford.com.au/latest-offer/focus-trend-hatch/'''
   cta1_link_name = '''moreinfo2'''
 
 
