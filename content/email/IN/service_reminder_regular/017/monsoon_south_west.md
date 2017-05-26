@@ -170,7 +170,7 @@ color='''white'''
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
   
-  image = '''in_edm2_monsoon_5yr-_20170526'''
+  image = '''in_edm2_monsoon_5yr+_20170526'''
 
 [[module]]
 path='email_modules/spacer/default'
