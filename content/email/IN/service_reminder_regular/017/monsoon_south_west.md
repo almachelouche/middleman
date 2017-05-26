@@ -123,14 +123,12 @@ color='white'
   icon2_text = '''<span style="font-weight:bold">Tyres</span><br />Buy 4, receive a gift'''
   icon3_url='''tel:18002097400'''
   icon3_link_name = '''locate_dealer3'''
-  icon3_image=''''''
-  icon3_text = '''<span style="font-weight:bold">Value Added Services
-</span><br />10%* off'''
+  icon3_image='''in_edm2_monsoon_shoch_absorber_20170526'''
+  icon3_text = '''<span style="font-weight:bold">Shock Absorbers</span><br />10%* off'''
   icon4_url='''https://partscalculator.fordind.com:1443/Fill_Field'''
   icon4_link_name = '''locate_dealer4'''
   icon4_image='''in_edm2_monsoon_add_value_svc_20170526'''
-  icon4_text = '''<span style="font-weight:bold">Full Body Paint
-</span><br />20% off labour'''
+  icon4_text = '''<span style="font-weight:bold">Value Added Services</span><br />10%* off'''
   
   [[module]] #Custom 4 Icons
 path='email_modules/custom/4icons'
@@ -139,13 +137,12 @@ color='white'
 	title = ''''''
   icon1_url='''http://www.india.ford.com/locate-dealer'''
   icon1_link_name = '''locate_dealer'''
-  icon1_image='''<span style="font-weight:bold">Oil Filters</span><br />50% off'''
-  icon1_text = ''' off<br />on Batteries'''
+  icon1_image='''in_edm2_monsoon_oil_filter_20170526'''
+  icon1_text = '''<span style="font-weight:bold">Oil Filters</span><br />50% off'''
   icon2_url='''tel:18004252500'''
   icon2_link_name = '''locate_dealer2'''
   icon2_image='''in_edm2_monsoon_battery_20170526'''
-  icon2_text = '''<span style="font-weight:bold">Batteries
-</span><br />&#8377;1000* off'''
+  icon2_text = '''<span style="font-weight:bold">Batteries</span><br />&#8377;1000* off'''
   icon3_url='''tel:18002097400'''
   icon3_link_name = '''locate_dealer3'''
   icon3_image='''in_edm2_monsoon_wiper_blades_20170526'''
@@ -154,6 +151,20 @@ color='white'
   icon4_link_name = '''locate_dealer4'''
   icon4_image='''in_edm2_monsoon_body_paint_20170526'''
   icon4_text = '''<span style="font-weight:bold">Full Body Paint</span><br />20% off labour'''
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
+path='email_modules/singles/ctablock'
+color='''white'''
+	
+	cta1_text = '''BOOK A SERVICE'''
+	cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
+	cta1_link_name = '''book_service'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
