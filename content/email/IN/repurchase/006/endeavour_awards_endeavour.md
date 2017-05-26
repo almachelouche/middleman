@@ -55,11 +55,11 @@ color='white'
 
   title = ''''''
   icon1 = '''au_edm5_sync2_20161107'''
-  text1 = '''<a href="" name="Decoder_1"><span style="font-weight:bold">SYNC<sup>&#174;</sup>3</span><br />New and improved voice-activated technology.</a>'''
+  text1 = '''<a href="https://www.india.ford.com/suvs/endeavour/features/smart/" name="sync"><span style="font-weight:bold">SYNC<sup>&#174;</sup>3</span><br />New and improved voice-activated technology.</a>'''
   icon2 = '''au_edm5_tms_20161013'''
-  text2 = '''<a href="https://youtu.be/3r79gbfZdO8" name="Decoder_1"><span style="font-weight:bold">TMS</span><br />Tackle any terrain with the Terrain Management System.</a>'''
+  text2 = '''<a href="https://www.india.ford.com/suvs/endeavour/features/capability/" name="TMS"><span style="font-weight:bold">TMS</span><br />Tackle any terrain with the Terrain Management System.</a>'''
   icon3 = '''in_edm5_airbags_20161122'''
-  text3 = '''<a href="https://youtu.be/3r79gbfZdO8" name="Decoder_1"><span style="font-weight:bold">7 Airbags</span><br />360 degrees of protection for the whole family.</a>'''
+  text3 = '''<a href="https://www.india.ford.com/suvs/endeavour/features/quality/" name="airbags"><span style="font-weight:bold">7 Airbags</span><br />360 degrees of protection for the whole family.</a>'''
     
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
