@@ -70,17 +70,16 @@ color='white'
 	cta2_link_name = '''offer_page'''
   image='''vn_edm1a_Everest_20170324'''
 
-[[module]] #Split 03
-path='email_modules/split/03'
-color='green'
+[[module]] #Cover 05
+path='email_modules/cover/02'
+color='''white'''
 
-  title = '''Tiết kiệm hơn, tiện lợi hơn với sản phẩm "Bảo Dưỡng Định kì trọn gói – SSP"'''
-  copy = '''Gói "Bảo Dưỡng Định kỳ Trọn gói – SSP" giúp tiết kiệm chi phí lên tới 13% so với làm bảo dưỡng thông thường. Không những thế, trong suốt thời gian tối đa 2 năm khi sử dụng gói SSP, bạn không phải lo lắng tăng giá phụ tùng hay nhân công do lạm phát. Toàn bộ quy trình bảo dưỡng được thực hiện bởi đội ngũ Kỹ thuật viên chuyên nghiệp tại các Đại lý Ủy quyền của Ford Việt Nam.'''
+  title = '''Kỹ năng lái xe an toàn và tiết kiệm nhiên liệu'''
+  copy = '''Hãy xem và tải Cẩm nang "Kỹ năng lái xe an toàn và tiết kiệm nhiên liệu" của Ford: từ kỹ năng lái xe trong điều kiện thời tiết xấu đến cách sử dụng công nghệ tiên tiến trên xe.'''
   cta1_text = '''TÌM HIỂU THÊM'''
-  cta1_url = '''https://www.ford.com.vn/owner/service-and-maintenance/ssp/'''
-  cta1_link_name = '''ssp'''
-  cta1_icon = '''more'''
-  image = '''vn_edm1a_13off_20170324'''
+  cta1_url = '''https://www.ford.com.vn/content/dam/Ford/website-assets/ap/vn/home/VN-Driving-Tips-Booklet.pdf'''
+  cta1_link_name = '''driving_skills'''
+  icon = '''vn_edm1a_drivingskill_20160801'''
 
 [[module]] #Split 03
 path='email_modules/split/03'
