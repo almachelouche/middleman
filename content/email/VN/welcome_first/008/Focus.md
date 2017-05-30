@@ -55,16 +55,31 @@ color='slatescreen'
   cta1_link_name = '''qa'''
   cta1_icon = '''more'''
 
- [[module]]
-path='email_modules/split/07'
+[[module]] #Split 01
+path='email_modules/split/01'
 color='white'
 
-title='''Cho chiếc xe của bạn thêm nổi bật'''
-copy='''Hãy trang bị cho chiếc xe của bạn phụ kiện chính hãng từ Ford. Các phụ kiện của Ford được thiết kế theo tiêu chuẩn chất lượng cao và chuyên biệt, sẵn sàng nâng cấp chiếc xe của bạn lên tầm cao mới.'''
-cta1_text='''XEM CHI TIẾT PHỤ KIỆN'''
-cta1_url='''https://www.ford.com.vn/cars/focus/accessories/'''
-cta1_link_name = '''acc_focus'''
-image='''vn_edm1a_Focus_20170324'''
+  title='''Phụ kiện cho xe, Iphone cho xế'''
+  copy='''Hãy đưa chiếc xe Ford của bạn lên tầm cao mới với phụ kiện 100% chính hãng từ Ford. Đặc biệt, bạn sẽ có cơ hội trúng 1 trong 4 chiếc Iphone 7 với hóa đơn mua phụ kiện từ 5 triệu đồng trở lên.'''
+  cta1_text='''XEM CHI TIẾT PHỤ KIỆN'''
+  cta1_url='''https://www.ford.com.vn/cars/focus/accessories/'''
+	cta1_link_name = '''acc_focus'''
+     cta1_icon='''more'''
+  cta2_text='''XEM CHI TIẾT KHUYẾN MẠI'''
+  cta2_url='''https://www.ford.com.vn/promotion-corner/2017/Hot-Deal-2/'''
+	cta2_link_name = '''offer_page'''
+  image='''vn_edm1a_Focus_20170324'''
+
+[[module]] #Cover 05
+path='email_modules/cover/02'
+color='''white'''
+
+  title = '''Kỹ năng lái xe an toàn và tiết kiệm nhiên liệu'''
+  copy = '''Hãy xem và tải Cẩm nang "Kỹ năng lái xe an toàn và tiết kiệm nhiên liệu" của Ford: từ kỹ năng lái xe trong điều kiện thời tiết xấu đến cách sử dụng công nghệ tiên tiến trên xe.'''
+  cta1_text = '''TÌM HIỂU THÊM'''
+  cta1_url = '''https://www.ford.com.vn/content/dam/Ford/website-assets/ap/vn/home/VN-Driving-Tips-Booklet.pdf'''
+  cta1_link_name = '''driving_skills'''
+  icon = '''vn_edm1a_drivingskill_20160801'''
 
 [[module]] #Split 03
 path='email_modules/split/03'
@@ -77,18 +92,6 @@ color='green'
   cta1_link_name = '''ssp'''
   cta1_icon = '''more'''
   image = '''vn_edm1a_13off_20170324'''
-
-
-[[module]] #Cover 05
-path='email_modules/cover/02'
-color='''white'''
-
-  title = '''Kỹ năng lái xe an toàn và tiết kiệm nhiên liệu'''
-  copy = '''Hãy xem và tải Cẩm nang "Kỹ năng lái xe an toàn và tiết kiệm nhiên liệu" của Ford: từ kỹ năng lái xe trong điều kiện thời tiết xấu đến cách sử dụng công nghệ tiên tiến trên xe.'''
-  cta1_text = '''TÌM HIỂU THÊM'''
-  cta1_url = '''https://www.ford.com.vn/content/dam/Ford/website-assets/ap/vn/home/VN-Driving-Tips-Booklet.pdf'''
-  cta1_link_name = '''driving_skills'''
-  icon = '''vn_edm1a_drivingskill_20160801'''
 
 [[module]] #VN Social
 path='email_modules/footer/vn/social'
