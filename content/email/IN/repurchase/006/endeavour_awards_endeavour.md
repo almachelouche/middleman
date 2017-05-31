@@ -64,8 +64,8 @@ color='''white'''
 	cta2_url = '''https://www.india.ford.com/suvs/endeavour/?intcmp=in-hp-bb-xt-namplateexp-fordendeavour-en#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-endeavour.html?campaign=ENFWTDC&intModel=Endeavour&modelCode=EN/'''
 	cta2_link_name = '''test_drive'''
     
-[[module]] #Custom 3 Icon Text
-path='email_modules/custom/3icon_text'
+[[module]] #Custom 01
+path='email_modules/custom/3columntitle3icons'
 color='white'
 
   title = '''New Features'''
