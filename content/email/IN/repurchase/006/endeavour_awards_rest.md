@@ -47,17 +47,6 @@ color='''white'''
 	
 	copy = '''We noticed you've been driving your Ford <%${user.CustomAttribute['Model']}%> for a while now and might be thinking about purchasing a new Ford. <br /><br />We believe in engineering vehicles that can conquer any terrain – like the All-New Endeavour. This year, Endeavour conquered the podiums too, winning India’s most prestigious vehicle awards. <br /><br />Check out Endeavour today. '''
     
-[[module]] #Custom 3 Icon Text
-path='email_modules/custom/3icon_text'
-color='white'
-  title = ''''''
-  icon1 = '''au_edm5_sync2_20161107'''
-  text1 = '''<a href="https://www.india.ford.com/suvs/endeavour/features/smart/" name="sync">SYNC<sup>&#174;</sup>3</a>'''
-  icon2 = '''au_edm5_tms_20161013'''
-  text2 = '''<a href="https://www.india.ford.com/suvs/endeavour/features/capability/" name="TMS">Terrain Management System.</a>'''
-  icon3 = '''in_edm5_airbags_20161122'''
-  text3 = '''<a href="https://www.india.ford.com/suvs/endeavour/features/quality/" name="airbags">7 Airbags</a>'''
-  
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
 color='''white'''    
@@ -67,7 +56,27 @@ color='''white'''
 	cta2_text = '''BOOK A TEST DRIVE'''
 	cta2_url = '''https://www.india.ford.com/suvs/endeavour/?intcmp=in-hp-bb-xt-namplateexp-fordendeavour-en#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-endeavour.html?campaign=ENFWTDC&intModel=Endeavour&modelCode=EN/'''
 	cta2_link_name = '''test_drive'''
+
+[[module]] #Custom 01
+path='email_modules/custom/3columntitle3icons'
+color='white'
+
+  title = '''New Features'''
+  icon1 = '''au_edm5_sync2_20161107'''
+  text1 = '''<span style="font-weight:bold">SYNC<sup>&#174;</sup>3</span><br />New and improved voice-activated technology.'''
+  icon2 = '''au_edm5_tms_20161013'''
+  text2 = '''<span style="font-weight:bold">TMS</span><br />Tackle any terrain with the Terrain Management System.'''
+  icon3 = '''in_edm5_airbags_20161122'''
+  text3 = '''<span style="font-weight:bold">7 Airbags</span><br />360 degrees of protection for the whole family.'''
   
+[[module]]
+path='email_modules/singles/ctablock'
+color='''white'''
+	
+	cta1_text = '''EXPLORE FEATURES'''
+	cta1_url = '''https://www.india.ford.com/suvs/endeavour/'''
+	cta1_link_name = '''endeavour_features'''  
+
 [[module]]
 path='email_modules/spacer/default'
 color='white'
