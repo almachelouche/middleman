@@ -71,7 +71,7 @@ segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
   cta1_link_name = ''''award1'''
   cta1_icon = '''more'''
   
-  [[module]] #Banner Image
+  [[module]] #Banner Image #NSW
 path='email_modules/image/banner'
 color='white'
 
@@ -90,7 +90,7 @@ segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
   cta1_link_name = '''innovation'''
   cta1_icon = '''more'''
 
-  [[module]] #Banner Image
+  [[module]] #Banner Image #NON NSW
 path='email_modules/image/banner'
 color='white'
 

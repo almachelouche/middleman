@@ -26,7 +26,7 @@ segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
   date = '''June 2017'''
   copy = '''IN THIS ISSUE:<br />Genuine Ford Accessories | Future with Ford | VIDEO: Brake Tips |Ford Owners App'''
 
-[[module]] #Header Logo #Non Ranger &Everest version
+[[module]] #Header Logo 
 path='email_modules/header/logodesktop'
 color='black'
 
@@ -66,7 +66,7 @@ segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
 
 
 
-  [[module]] #Banner Image  #Ranger &Everest version
+  [[module]] #Banner Image  #Non Ranger &Everest version
 path='email_modules/image/banner'
 color='white'
 
