@@ -47,7 +47,13 @@ path='email_modules/singles/copy'
 color='''white'''
 	
 	copy = '''We wanted to say 'thank you!' for being an Endeavour owner. We hope you continue to love your SUV as much as we enjoy having you as part of our Ford family. <br /><br />But if you're already thinking about an upgrade, we invite you to experience the All-New Endeavour. '''    
-    
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"  
+
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
 color='''white'''    
@@ -57,12 +63,6 @@ color='''white'''
 	cta2_text = '''BOOK A TEST DRIVE'''
 	cta2_url = '''https://www.india.ford.com/suvs/endeavour/?intcmp=in-hp-bb-xt-namplateexp-fordendeavour-en#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-endeavour.html?campaign=ENFWTDC&intModel=Endeavour&modelCode=EN/'''
 	cta2_link_name = '''test_drive'''
-  
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"  
     
 [[module]] #Custom 3 Icon Text
 path='email_modules/custom/3icon_text'
@@ -78,7 +78,7 @@ color='white'
   
 [[module]]
 path='email_modules/singles/ctablock'
-color='''fordblue'''
+color='''white'''
 	
 	cta1_text = '''EXPLORE'''
 	cta1_url = '''https://www.india.ford.com/suvs/endeavour/'''
