@@ -46,20 +46,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 	
-	copy = '''We wanted to say 'thank you!' for being an Endeavour owner. We hope you continue to love your SUV as much as we enjoy having you as part of our Ford family. <br /><br />But if you're already thinking about an upgrade, we invite you to experience the All-New Endeavour. '''
-    
-
-[[module]] #Custom 3 Icon Text
-path='email_modules/custom/3icon_text'
-color='white'
-
-  title = ''''''
-  icon1 = '''au_edm5_sync2_20161107'''
-  text1 = '''<a href="https://www.india.ford.com/suvs/endeavour/features/smart/" name="sync"><span style="font-weight:bold">SYNC<sup>&#174;</sup>3</span><br />New and improved voice-activated technology.</a>'''
-  icon2 = '''au_edm5_tms_20161013'''
-  text2 = '''<a href="https://www.india.ford.com/suvs/endeavour/features/capability/" name="TMS"><span style="font-weight:bold">TMS</span><br />Tackle any terrain with the Terrain Management System.</a>'''
-  icon3 = '''in_edm5_airbags_20161122'''
-  text3 = '''<a href="https://www.india.ford.com/suvs/endeavour/features/quality/" name="airbags"><span style="font-weight:bold">7 Airbags</span><br />360 degrees of protection for the whole family.</a>'''
+	copy = '''We wanted to say 'thank you!' for being an Endeavour owner. We hope you continue to love your SUV as much as we enjoy having you as part of our Ford family. <br /><br />But if you're already thinking about an upgrade, we invite you to experience the All-New Endeavour. '''    
     
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
@@ -76,6 +63,26 @@ path='email_modules/spacer/default'
 color='white'
 
 	height="30"  
+    
+[[module]] #Custom 3 Icon Text
+path='email_modules/custom/3icon_text'
+color='white'
+
+  title = ''''''
+  icon1 = '''au_edm5_sync2_20161107'''
+  text1 = '''<span style="font-weight:bold">SYNC<sup>&#174;</sup>3</span><br />New and improved voice-activated technology.'''
+  icon2 = '''au_edm5_tms_20161013'''
+  text2 = '''<span style="font-weight:bold">TMS</span><br />Tackle any terrain with the Terrain Management System.'''
+  icon3 = '''in_edm5_airbags_20161122'''
+  text3 = '''<span style="font-weight:bold">7 Airbags</span><br />360 degrees of protection for the whole family.'''
+  
+[[module]]
+path='email_modules/singles/ctablock'
+color='''fordblue'''
+	
+	cta1_text = '''EXPLORE'''
+	cta1_url = '''https://www.india.ford.com/suvs/endeavour/'''
+	cta1_link_name = '''endeavour_learn_more'''  
   
 [[module]]
 path='email_modules/singles/icon'
@@ -169,7 +176,7 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-  text = '''*Terms and conditions apply.<br /><br />1. As per awards given by leading Indian auto magazines and television networks in the year 2016-17. The model shown in the letter/mailer is the Titanium 3.2L Diesel variant. Colors are indicative only. Features and specifications may vary from model to model. Features mentioned and Accessories shown may not be part of standard fitment. Before placing, an order and booking the vehicle always consult a Ford authorized dealer for the latest information with respect to features, specifications, price, optional equipment and availability of the vehicle. Ford India Private Limited ("Ford") reserves the right, subject to all applicable laws, at any time, at its discretion, and without notice, to discontinue or change the features, designs, materials, colors and other specifications and the prices of its products. <br /><br />2. Airbags does not guarantee safety. The airbag will deploy during significant lateral collisions. The airbag will not deploy in minor lateral and frontal collisions, rear collisions, or overturns.'''
+  text = '''*Terms and conditions apply.<br /><br />1. As per awards given by leading Indian auto magazines and television networks in the year 2016-17. The model shown in the letter/mailer is the Titanium 3.2L Diesel variant. Colors are indicative only. Features and specifications may vary from model to model. Features mentioned and Accessories shown may not be part of standard fitment. Before placing, an order and booking the vehicle always consult a Ford authorized dealer for the latest information with respect to features, specifications, price, optional equipment and availability of the vehicle. Ford India Private Limited ("Ford") reserves the right, subject to all applicable laws, at any time, at its discretion, and without notice, to discontinue or change the features, designs, materials, colors and other specifications and the prices of its products. <br /><br />2. 7 Airbags are available in Endeavour 3.2l Titanium AT variant. Dual airbags are standard on all Ford vehicles. Airbags does not guarantee safety. The airbag will deploy during significant lateral collisions. The airbag will not deploy in minor lateral and frontal collisions, rear collisions, or overturns.'''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
