@@ -84,21 +84,15 @@ color='''white'''
 	cta1_url = '''https://www.india.ford.com/suvs/endeavour/'''
 	cta1_link_name = '''endeavour_learn_more'''  
   
-[[module]]
-path='email_modules/singles/icon'
-color='''white'''
-	
-	icon = '''in_edm5_livechat_darkblue_20170411'''
-
-[[module]] #Cover 07
+[[module]] #Cover 05
 path='email_modules/cover/02'
-color='''white'''
+color='''lightblue'''
 
-  title = '''Ford Live Chat'''
-  copy = '''Have a question now? We've got a team of advisors from 9am to 8pm on Ford chat, for you.'''
-  cta1_text = '''CHAT NOW'''
-  cta1_url = '''https://ford-livechat.s3ae.com/in/chat.php?a=1e4b8&intgroup=c3VwcG9ydA__&hg=Pw__&hcgs=MQ__&htgs=MQ__'''
-  cta1_link_name = '''live_chat'''
+   title = '''Ford Live Chat'''
+   copy = '''Have a question now? We've got a team of advisors from 9am to 8pm on Ford chat, for you.'''
+   cta1_text = '''CHAT NOW'''
+   cta1_url = '''https://ford-livechat.s3ae.com/in/chat.php?a=1e4b8&intgroup=c3VwcG9ydA__&hg=Pw__&hcgs=MQ__&htgs=MQ__'''
+   icon = '''live_chat'''
 
 [[module]]
 path='email_modules/singles/icon'
