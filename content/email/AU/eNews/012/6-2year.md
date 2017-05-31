@@ -70,13 +70,6 @@ segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
   cta1_url = '''https://www.vividsydney.com'''
   cta1_link_name = ''''award1'''
   cta1_icon = '''more'''
-  
-  [[module]] #Banner Image #NSW
-path='email_modules/image/banner'
-color='white'
-
-  image = '''AU_edm6_vivid_20170523'''
-  url_link = '''https://www.vividsydney.com'''
 
 [[module]] #eNews Top Story #NON NSW
 path='email_modules/custom/enews_topstory'
@@ -90,9 +83,18 @@ segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
   cta1_link_name = '''innovation'''
   cta1_icon = '''more'''
 
+  [[module]] #Banner Image #NSW
+path='email_modules/image/banner'
+color='white'
+segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
+
+  image = '''AU_edm6_vivid_20170523'''
+  url_link = '''https://www.vividsydney.com'''
+
   [[module]] #Banner Image #NON NSW
 path='email_modules/image/banner'
 color='white'
+segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
 
   image = '''AU_edm6_futurist_20170523'''
   url_link = '''https://www.ford.com.au/about-ford/newsroom/2017/thought-leaders-and-innovators-define-the-mobility-revolution--u/'''
