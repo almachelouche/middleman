@@ -26,7 +26,7 @@ segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
   date = '''June 2017'''
   copy = '''IN THIS ISSUE:<br />Genuine Ford Accessories | Future with Ford | VIDEO: Brake Tips |Ford Owners App'''
 
-[[module]] #Header Logo 
+[[module]] #Header Logo
 path='email_modules/header/logodesktop'
 color='black'
 
@@ -44,18 +44,11 @@ segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribu
   cta1_url = '''https://www.ford.com.au/forms/accessories/'''
   cta1_link_name = '''accessories2'''
   cta1_icon = '''more'''
-  
-  [[module]] #Banner Image  #Ranger &Everest version
-path='email_modules/image/banner'
-color='white'
-
-  image = '''AU_edm6_everest_20170510'''
-  url_link = '''https://www.ford.com.au/forms/accessories/'''
 
 [[module]] # eNews Top Story #Non Ranger &Everest version
 path='email_modules/custom/enews_topstory'
 color='black'
-segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
+segmentelse = ["(user.CustomAttribute['Area'] == 'non-ranger/everest')"]
 
   title = '''Time to get personal'''
   copy = '''When it comes to personalising your Ford, nothing beats Ford Genuine Accessories. All our accessories undergo years of safety and durability testing, ensuring they integrate perfectly with your Ford.'''
@@ -64,11 +57,18 @@ segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
   cta1_link_name = '''accessories1'''
   cta1_icon = '''more'''
 
-
-
-  [[module]] #Banner Image  #Non Ranger &Everest version
+[[module]] #Banner Image  #Ranger &Everest version
 path='email_modules/image/banner'
 color='white'
+segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribute['Model'] == 'Everest')"]
+
+  image = '''AU_edm6_everest_20170510'''
+  url_link = '''https://www.ford.com.au/forms/accessories/'''
+
+[[module]] #Banner Image  #Non Ranger &Everest version
+path='email_modules/image/banner'
+color='white'
+segmentelse = ["(user.CustomAttribute['Area'] == 'non-ranger/everest')"]
 
   image = '''AU_edm6_everest_20170510'''
   url_link = '''https://www.ford.com.au/forms/accessories/'''
