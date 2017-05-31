@@ -95,6 +95,12 @@ color='''lightblue'''
    icon = '''live_chat'''
 
 [[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
 path='email_modules/singles/icon'
 color='''white'''
 	
