@@ -14,7 +14,7 @@ path='email_modules/preheaderbefore'
 color='''nothing'''
 segmentelseif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 
-	 preheader = '''It's time for your scheduled service appointment. See you soon! Hello <%${user.CustomAttribute['FullName']}%>, your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.'''
+	 preheader = '''Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon. Hello <%${user.CustomAttribute['FullName']}%>Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.'''
 
 [[module]]
 path='email_modules/body'
@@ -32,7 +32,7 @@ path='email_modules/preheaderafter'
 color='''nothing'''
 segmentelseif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 
-	 preheader = '''It's time for your scheduled service appointment. See you soon! Hello <%${user.CustomAttribute['FullName']}%>, your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.'''
+	 preheader = '''Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon. Hello <%${user.CustomAttribute['FullName']}%>Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.'''
  
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -76,7 +76,6 @@ path='email_modules/cover/03'
 color='white'
 
   copy = '''VIN No: <% ${user.CustomAttribute['VIN']}%><br />Last reported service date: <%${user.CustomAttribute['Last_Reported_Service_Date']}%><br />Last reported mileage (Kms): <% ${user.CustomAttribute['Mileage']}%>'''
-
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -169,94 +168,6 @@ color='''white'''
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-  
-  image = '''in_edm2_monsoon_5yrplus_20170526'''
-
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="20"
-
-[[module]]
-path='email_modules/singles/title'
-color='''white'''
-	
-	title = '''It's that time of the year!'''
-
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
-
-[[module]]
-path='email_modules/singles/copy'
-color='''white'''
-	
-	copy = '''Get your car geared up for Monsoon Season. Drive into any Ford Service Centre and enjoy great deals, including a free 50+ point check-up and discounts up to 50%. Offers valid from June 12th to June 18th.'''
-
-[[module]] #Custom 4 Icons
-path='email_modules/custom/4icons'
-color='white'
-
-	title = ''''''
-  icon1_url='''http://www.india.ford.com/locate-dealer'''
-  icon1_link_name = '''locate_dealer'''
-  icon1_image='''in_edm2_monsoon_brake_pads_20170526'''
-  icon1_text = '''<span style="font-weight:bold">Brake Pads</span><br />20%* off'''
-  icon2_url='''tel:18004252500'''
-  icon2_link_name = '''locate_dealer2'''
-  icon2_image='''in_edm2_monsoon_tyres_20170526'''
-  icon2_text = '''<span style="font-weight:bold">Tyres</span><br />Buy 4, receive a gift'''
-  icon3_url='''tel:18002097400'''
-  icon3_link_name = '''locate_dealer3'''
-  icon3_image='''in_edm2_monsoon_shoch_absorber_20170526'''
-  icon3_text = '''<span style="font-weight:bold">Shock Absorbers</span><br />20%* off'''
-  icon4_url='''https://partscalculator.fordind.com:1443/Fill_Field'''
-  icon4_link_name = '''locate_dealer4'''
-  icon4_image='''in_edm2_monsoon_add_value_svc_20170526'''
-  icon4_text = '''<span style="font-weight:bold">Value Added Services</span><br />20%* off'''
-  
-  [[module]] #Custom 4 Icons
-path='email_modules/custom/4icons'
-color='white'
-
-	title = ''''''
-  icon1_url='''http://www.india.ford.com/locate-dealer'''
-  icon1_link_name = '''locate_dealer'''
-  icon1_image='''in_edm2_monsoon_oil_filter_20170526'''
-  icon1_text = '''<span style="font-weight:bold">Oil Filters</span><br />60% off'''
-  icon2_url='''tel:18004252500'''
-  icon2_link_name = '''locate_dealer2'''
-  icon2_image='''in_edm2_monsoon_battery_20170526'''
-  icon2_text = '''<span style="font-weight:bold">Batteries</span><br />&#8377;1100* off'''
-  icon3_url='''tel:18002097400'''
-  icon3_link_name = '''locate_dealer3'''
-  icon3_image='''in_edm2_monsoon_wiper_blades_20170526'''
-  icon3_text = '''<span style="font-weight:bold">Wipers</span><br />60% off blades and inserts'''
-  icon4_url='''https://partscalculator.fordind.com:1443/Fill_Field'''
-  icon4_link_name = '''locate_dealer4'''
-  icon4_image='''in_edm2_monsoon_body_paint_20170526'''
-  icon4_text = '''<span style="font-weight:bold">Full Body Paint</span><br />30% off labour'''
-  
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
-
-[[module]]
-path='email_modules/singles/ctablock'
-color='''white'''
-	
-	cta1_text = '''BOOK A SERVICE'''
-	cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
-	cta1_link_name = '''book_service'''
-
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
 
   image = '''in_edm2_fordsvc_20170321'''
 
@@ -312,6 +223,12 @@ color='white'
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'
+
+[[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
+color='white'
+		
+  text='''Tearms and conditions apply.'''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
