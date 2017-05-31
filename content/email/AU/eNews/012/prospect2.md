@@ -38,7 +38,7 @@ path='email_modules/custom/enews_topstory'
 color='black'
 
   title = '''The most affordable Everest ever'''
-	copy = ''' Join us in welcoming the new Ford Everest Ambiente RWD to our SUV range. This capable 5-seater boasts the same 3.2L Diesel engine and 3,000&#185;kg towing capacity as its AWD sibling. Plus SYNC®3 with 8” colour touchscreen and all-terrain tyres as standard, it’s amazing value with the lowest price tag we’ve ever seen on an Everest – from $48,990!'''
+	copy = ''' Join us in welcoming the Ford Everest Ambiente 4WD to our SUV range. This capable 5-seater boasts the same 3.2L Diesel engine and 3,000&#185;kg towing capacity as its AWD sibling. Plus with SYNC®3 connectivity system with 8” colour touchscreen, it’s amazing value with the lowest price tag we’ve ever seen on an Everest – from $49,990!'''
   cta1_text = '''FIND OUT MORE'''
   cta1_url = '''https://www.ford.com.au/commercial/ranger/special-editions/'''
   cta1_link_name = '''everest'''
@@ -59,7 +59,7 @@ color='darkblue'
 segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
 
   title = '''Let’s Get Vivid'''
-  copy = '''Ford and Vivid Sydney have officially joined forces! We couldn’t be more thrilled to support this stunning festival of art, technology, light, and music. We hope to see you at Darling Harbour from May 26 – June 17. Join us as we Go Further in 2017.'''
+  copy = '''Ford have joined forces with Vivid Sydney to bring you a stunning festival of art, technology, light, music and ideas. Come and see Sydney at its brightest until June 17, and be sure to check out Ford’s #movefreely installation.'''
   cta1_text = '''LEARN MORE'''
   cta1_url = '''https://www.vividsydney.com'''
   cta1_link_name = '''vivid'''
@@ -85,7 +85,7 @@ path='email_modules/split/02'
 color='lightblue'
 
   title = '''It pays to look closer'''
-  copy = '''The end of the financial year is a smart time to look for a new car… but look a little closer and you’ll also see Ford has an unbelievable deal on one of Australia’s best trucks. Spot this deal and others now, before they disappear!'''
+  copy = '''From great savings on select SUVs to Free Auto on one of Australia’s best trucks, Ford has some unbelievable deals this End of Financial Year&#178;. Spot these deals and others now, before they disappear!'''
   cta1_text = '''READ MORE'''
   cta1_url = '''http://www.ford.com.au/latest-offers/national/'''
   cta1_link_name = '''offer'''
@@ -115,7 +115,8 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 text='''Disclaimers:<br /><br />
-  1. Maximum towing capacity when using a Genuine Ford tow pack. Subject to State and Territory regulations.<br /><br />'''
+  1. Maximum towing capacity when using a Genuine Ford tow pack. Subject to State and Territory regulations.<br /><br />
+  2. Vehicles must be purchased by 30/06/17 and delivered by 2/07/17. Participating Dealers only. Stock may vary between Dealers. Private and Blue, Silver and Gold Business Fleet customers only.<br /><br />'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'

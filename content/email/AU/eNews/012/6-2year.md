@@ -71,7 +71,7 @@ segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
   cta1_link_name = ''''award1'''
   cta1_icon = '''more'''
   
-  [[module]] #Banner Image
+  [[module]] #Banner Image #NSW
 path='email_modules/image/banner'
 color='white'
 
@@ -90,7 +90,7 @@ segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
   cta1_link_name = '''innovation'''
   cta1_icon = '''more'''
 
-  [[module]] #Banner Image
+  [[module]] #Banner Image #NON NSW
 path='email_modules/image/banner'
 color='white'
 
@@ -103,7 +103,7 @@ color='lightblue'
 segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribute['Model'] == 'Everest')"]
 
 title = '''Time to get personal'''
-  copy = '''Are you ready to take your Ford to the next level? Get weekend-ready with Ford genuine accessories, designed to deliver the durability and safety you need. Learn why quality matters when it comes to accessories.'''
+  copy = '''Are you ready to take your off roader to the next level? Get weekend-ready with Ford genuine accessories, designed to deliver the durability and safety you need. Learn why quality matters when it comes to accessories.'''
   cta1_text = '''WATCH NOW'''
   cta1_url = '''https://www.ford.com.au/forms/accessories/'''
   cta1_link_name = '''accessories1'''

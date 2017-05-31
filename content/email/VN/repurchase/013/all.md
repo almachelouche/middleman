@@ -6,7 +6,7 @@ title = '''VN Repurchase 013 All'''
 path='email_modules/preheader'
 color='''nothing'''
 
-preheader = '''Ưu đãi cho xe Ford không thể hấp dẫn hơn. Cơ hội lái về nhà một em Focus Mới 1.5L AT EcoBoost giá cực sốc chỉ 648 triệu đồng!'''
+preheader = '''Ưu đãi cho xe Ford không thể hấp dẫn hơn.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -19,34 +19,33 @@ color='white'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''VN_edm5_Ecosport_20170526''' 
-
-[[module]]
-path='email_modules/cover/02'
-
-color='''white'''
-title='''Ưu đãi lớn chỉ riêng trong tháng 5 ...'''
-copy='''Xin chào <%${user.CustomAttribute['Title']}%> <%${user['FirstName']}%><br /><br />Giá mới đặc biệt hấp dẫn 620 triệu đồng cho Focus Trend Mới 1.5L AT EcoBoost và 599 triệu đồng cho EcoSport  cá tính cũng là một lựa chọn tuyệt vời.<br /><br />Ưu đãi chỉ dành riêng cho tháng 5. Hãy liên hệ ngay với đại lý!'''
-cta1_text='''TÌM HIỂU THÊM'''
-cta1_url='''https://www.ford.com.vn/promotion-corner/2017/hot-deal-1/'''
-cta1_link_name = '''retail_campaign'''
-
-
- [[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
   image = '''VN_edm5_showroom_20170526'''
   
 [[module]]
 path='email_modules/cover/02'
 
 color='''white'''
-title='''Weekend Summer Sales'''
-copy='''Test drive a Ford Ranger, Everest, EcoSport, or Explorer at our Weekend Summer Sales event. Your name will automatically enter a lucky draw to win 1 of 29 iPhone 7 smartphones! Plus, if you sign a contract on the day, you’ll enjoy an exclusive, limited-time discount.<br /><br />Click below to discover when the Weekend Summer Sales event is coming to your city.'''
-cta1_text='''FIND OUT MORE'''
-cta1_url='''https://www.ford.com.vn/about/news-events/2017/article-3/'''
+title='''Weekend Summer Sales - Sự kiện Bán hàng Cuối tuần'''
+copy='''Xin chào <%${user.CustomAttribute['Title']}%> <%${user['FirstName']}%><br /><br />Cuối tuần bạn có kế hoạch gì chưa? Hãy đến và tham dự chuỗi sự kiện Weekend Summer Sales tại các đại lý Ford trên toàn quốc, đăng ký lái thử xe và hưởng ưu đãi đặc biệt dành riêng cho khách hàng ký hợp đồng tại sự kiện. Ngoài ra, bạn có thể trở thành chủ nhân của 1 trong 28 Iphone 7.<br /><br />Nhấp chuột tại đây để biết lịch và địa điểm tổ chức sự kiện.'''
+cta1_text='''TÌM HIỂU THÊM'''
+cta1_url='''https://www.ford.com.vn/about/news-events/2017/article-4/'''
 cta1_link_name = '''showroom'''
+
+ [[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+
+  image = '''VN_edm5_Ecosport_20170526''' 
+
+[[module]]
+path='email_modules/cover/02'
+
+color='''white'''
+title='''EcoSport Titanium 1.5 AT giá đặc biệt hấp dẫn chỉ 599 triệu đồng!'''
+copy='''Ưu đãi giá đặc biệt chỉ riêng trong tháng 6: 599 triệu đồng cho EcoSport Titanium 1.5 AT và  620 triệu đồng cho Focus Trend Mới 1.5L AT EcoBoost là những lựa chọn tuyệt vời cho bạn.<br /><br />Hãy liên hệ ngay với Đại lý Ford gần nhất!'''
+cta1_text='''TÌM HIỂU THÊM'''
+cta1_url='''https://www.ford.com.vn/promotion-corner/2017/hot-deal-1/'''
+cta1_link_name = '''retail_campaign'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -58,12 +57,12 @@ color = '''white'''
 path='email_modules/cover/02'
 color='''white'''
 
-  title='''Discover the Extraordinary'''
-  copy='''With Adaptive Cruise Control, voice-activated SYNCTM3, and the Terrain Management System for all-terrain driving – the All-New Everest is simply extraordinary.'''
-  cta1_text='''TAKE A TEST DRIVE'''
+  title='''Ford Everest - xe SUV nhập khẩu trực tiếp'''
+  copy='''Được trang bị những tính năng kiểm soát thông minh như: Điều khiển bằng giọng nói SYNC3, Hệ thống kiểm soát tốc độ …, Ford Everest xứng đáng là chiếc xe việt dã đỉnh cao cho sức mạnh vượt trội.'''
+  cta1_text='''ĐĂNG KÝ LÁI THỬ XE'''
   cta1_url='''https://www.ford.com.vn/suvs/everest/#overlay/content/ford/vn/vi_vn/site-wide-content/overlays/forms/test-drive.html?wcmmode=disabled&Model=New%20Everest&Series=Titanium+%203.2L%20AT%204x4'''
   cta1_link_name = '''test_drive'''
-  cta2_text='''LEARN MORE'''
+  cta2_text='''TÌM HIỂU THÊM'''
   cta2_url='''https://www.ford.com.vn/suvs/everest/'''
   cta2_link_name = '''everest'''
 
