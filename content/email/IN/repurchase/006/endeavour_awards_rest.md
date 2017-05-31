@@ -46,7 +46,13 @@ path='email_modules/singles/copy'
 color='''white'''
 	
 	copy = '''We noticed you've been driving your Ford <%${user.CustomAttribute['Model']}%> for a while now and might be thinking about purchasing a new Ford. <br /><br />We believe in engineering vehicles that can conquer any terrain – like the All-New Endeavour. This year, Endeavour conquered the podiums too, winning India’s most prestigious vehicle awards. <br /><br />Check out Endeavour today. '''
-    
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"      
+
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
 color='''white'''    

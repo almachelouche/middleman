@@ -71,19 +71,6 @@ segmentelseif = ["(user.CustomAttribute['ESplit'] == 'PastDue')"]
 	cta2_link_name = '''locate_dealer'''
 	icon = '''in_edm2_svc_wrench_urgent_20160801'''
 
-
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-  
-  image = '''in_edm2_monsoon_5yr-_20170526'''
-
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="20"
-
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
@@ -266,6 +253,12 @@ color='white'
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'
+
+[[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
+color='white'
+		
+  text='''Tearms and conditions apply.'''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
