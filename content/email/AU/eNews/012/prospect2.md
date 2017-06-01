@@ -40,7 +40,7 @@ color='black'
   title = '''The most affordable Everest ever'''
 	copy = ''' Join us in welcoming the Ford Everest Ambiente 4WD to our SUV range. This capable 5-seater boasts the same 3.2L Diesel engine and 3,000&#185;kg towing capacity as its AWD sibling. Plus with SYNC®3 connectivity system with 8” colour touchscreen, it’s amazing value with the lowest price tag we’ve ever seen on an Everest – from $49,990!'''
   cta1_text = '''FIND OUT MORE'''
-  cta1_url = '''https://www.ford.com.au/commercial/ranger/special-editions/'''
+  cta1_url = '''https://www.ford.com.au/suv/everest/models/ambiente-rwd/?intcmp=vhp-return-model'''
   cta1_link_name = '''everest'''
   cta1_icon = '''more'''
 
@@ -49,8 +49,8 @@ color='black'
 path='email_modules/image/banner'
 color='white'
 
-  image = '''AU_edm6_everest_20170510'''
-  url_link = '''https://www.ford.com.au/commercial/ranger/special-editions/'''
+  image = '''AU_edm6_everest_20170601'''
+  url_link = '''https://www.ford.com.au/suv/everest/models/ambiente-rwd/?intcmp=vhp-return-model'''
 
 
 [[module]] #Split 01 #NSW

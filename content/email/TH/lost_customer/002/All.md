@@ -6,7 +6,7 @@ title = '''TH Lost Customer & PMS Missed 002 All'''
 path='email_modules/preheader'
 color='''nothing'''
 
-	preheader = '''ดูแลเครื่องยนต์ของคุณด้วยโปรแกรมชุดน้ำมันเครื่องสุดคุ้ม Oil Save Packs'''
+	preheader = '''Long time no see! Check out our latest service deals and three great reasons to choose Ford servicing'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
