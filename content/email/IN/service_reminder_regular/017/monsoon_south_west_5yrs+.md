@@ -228,7 +228,7 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 		
-  text='''Tearms and conditions apply.'''
+  text='''Tearms and conditions apply. Offers only valid in Kerala, Andhra, Telengana, Karnataka, Nagerkoil, Maharashtra and Goa. '''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
