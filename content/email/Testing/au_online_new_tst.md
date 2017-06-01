@@ -17,5 +17,5 @@ color='white'
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online_new'
-color='black'
+color='white'
 +++
