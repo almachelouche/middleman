@@ -68,7 +68,7 @@ color='''white'''
 path='email_modules/custom/3columntitle3icons'
 color='white'
 
-  title = '''New Features'''
+  title = '''Smart. Safe. Totally Capable.'''
   icon1 = '''au_edm5_sync2_20161107'''
   text1 = '''<span style="font-weight:bold">SYNC<sup>&#174;</sup>3</span><br />New and improved voice-activated technology.'''
   icon2 = '''au_edm5_tms_20161013'''
