@@ -90,7 +90,7 @@ color='lightblue'
   cta1_url = '''http://www.ford.com.au/latest-offers/national/'''
   cta1_link_name = '''offer'''
   cta1_icon = '''more'''
-  image = '''AU_edm6_offer2_20170511'''
+  image = '''AU_edm6_offer2_20170601'''
 
 
   [[module]] #Split 01
