@@ -6,7 +6,7 @@ title = '''TH Sweet Spot 005 All'''
 path='email_modules/preheader'
 color='''nothing'''
 
-	preheader = '''พบกับข้อเสนอสุดพิเศษ เมื่อนัดหมายเข้ารับบริการกับฟอร์ด'''
+	preheader = '''เพลิดเพลินกับส่วนลดมากเมื่อหนังสือที่คุณบำรุงรักษากับฟอร์ด'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
