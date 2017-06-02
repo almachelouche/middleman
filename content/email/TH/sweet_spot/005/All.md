@@ -106,7 +106,7 @@ color='white'
 path='email_modules/singles/ctablock'
 color='''white'''
 	
-    cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">SEE MORE OFFERS</span>'''
+    cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ดูข้อเสนอเพิ่มเติม</span>'''
 	cta1_url = '''https://www.ford.co.th/'''
 	cta1_link_name = '''commodity_offer'''
 
