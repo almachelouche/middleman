@@ -99,7 +99,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 	
-	copy = '''Get your car geared up for Monsoon Season. Drive into any Ford Service Centre and enjoy great deals, including a free 50+ point check-up and discounts up to 50%. Offers valid from June 12th to June 18th.*'''
+	copy = '''Get your car geared up for Monsoon Season. Drive into any Ford Service Centre and enjoy great deals, including a free 50+ point check-up and discounts up to 60%. Offers valid from June 12th to June 18th.*'''
 
 [[module]] #Custom 4 Icons
 path='email_modules/custom/4icons'
