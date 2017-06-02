@@ -110,7 +110,7 @@ title = '''Time to get personal'''
   cta1_url = '''https://www.ford.com.au/forms/accessories/'''
   cta1_link_name = '''accessories1'''
   cta1_icon = '''more'''
-  image = '''AU_edm6_awards2_20170301'''
+  image = '''AU_edm6_accessories_20170602'''
 
 [[module]] #Split 01 #NON RANGER AND EVEREST
 path='email_modules/split/01'

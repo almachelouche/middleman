@@ -62,7 +62,7 @@ path='email_modules/image/banner'
 color='white'
 segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribute['Model'] == 'Everest')"]
 
-  image = '''AU_edm6_everest_20170510'''
+  image = '''AU_edm6_accessories_20170602'''
   url_link = '''https://www.ford.com.au/forms/accessories/'''
 
 [[module]] #Banner Image  #Non Ranger &Everest version
