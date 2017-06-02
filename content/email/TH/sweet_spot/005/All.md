@@ -119,7 +119,7 @@ color='white'
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
-text='''<span style="font-family:Tahoma, Verdana, Sans-serif">หมายเหตุ:<br />[1] สิทธิพิเศษสำหรับยางรถยนต์กู๊ดเยียร์, ยางรถยนต์มิชลิน และยางรถยนต์บีเอฟกู๊ดริช เท่านั้น<br />[2]สิทธิพิเศษสำหรับยางรถยนต์กู๊ดเยียร์เท่านั้น</span>''
+text='''<span style="font-family:Tahoma, Verdana, Sans-serif">หมายเหตุ:<br />[1] สิทธิพิเศษสำหรับยางรถยนต์กู๊ดเยียร์, ยางรถยนต์มิชลิน และยางรถยนต์บีเอฟกู๊ดริช เท่านั้น<br />[2]สิทธิพิเศษสำหรับยางรถยนต์กู๊ดเยียร์เท่านั้น</span>'''
 
 
 [[module]] #TH Online
