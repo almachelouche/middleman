@@ -92,8 +92,7 @@ copy = '''<span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,s
 <span style="white-space:nowrap;">&#8226; 위 서비스는 중고차 판매시 해당 차량과 함께 양도가 가능합니다.</span><br/> 
 <span style="white-space:nowrap;">&#8226; 3년 이내 소정의 추가 비용으로 서비스 해당 품목이 확대된</span><br />
 <span style="white-space:nowrap;">ESP 프리미엄 정비 서비스를 구매하실 수 있습니다.</span></span>'''
-cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
-<span style="white-space:nowrap;">더 알아보기</span></span>'''
+cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="white-space:nowrap;">더 알아보기</span></span>'''
 cta1_url = '''https://www.ford-korea.com/owner/extended-service-plan/ '''
 cta1_link_name = '''esp'''
 icon = ''''''
