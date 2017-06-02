@@ -6,7 +6,7 @@ title = '''TH Lost Customer & PMS Missed 002 All'''
 path='email_modules/preheader'
 color='''nothing'''
 
-	preheader = '''Long time no see! Check out our latest service deals and three great reasons to choose Ford servicing'''
+	preheader = '''โปรโมชั่นตรวจเช็คระยะสุดพิเศษ ที่มาพร้อมการบริการทันสมัยและมีประสิทธิภาพที่ศูนย์บริการมาตรฐานฟอร์ด'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
