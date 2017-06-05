@@ -6,7 +6,7 @@ title = '''TH Repurchase 007 All'''
 path='email_modules/preheader'
 color='''nothing'''
 
-preheader = '''พบสุดยอดข้อเสนอสุดพิเศษ สำหรับฟอร์ดคันใหม่ของคุณ'''
+preheader = '''พบข้อเสนอสุดพิเศษกับโปรแกรมบำรุงรักษารถยนต์ตามระยะ (SSP)'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -65,10 +65,10 @@ color = '''white'''
 path='email_modules/split/03'
 color='green'
 
-title='''<span style="font-family:Tahoma, Verdana, Sans-serif">สิทธิพิเศษสำหรับ<br />ลูกค้าฟอร์ด</span>'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">Enjoy 10,000 THB off all other Ford vehicles (except Focus). Get in quick! Offer available June 1-30, 2017</span> 
+title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า </span>'''
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">รับส่วนลดเพิ่มสูงสุด 10% หรือ 3,700 บาท กับโปรแกรมบำรุงรักษารถยนต์ ตามระยะ(SSP)พิเศษรับสิทธิ์ผ่อน 0% นาน 10 เดือน เมื่อชำระผ่านบัตรเครดิตกสิกรไทย ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span> 
 </span>'''
-cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ดูเพิ่มเติม</span>'''
+cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
 cta1_url='''https://www.ford.co.th/loyaltyprogram2017/'''
 cta1_icon='''more'''
 cta1_link_name = '''special_offer'''

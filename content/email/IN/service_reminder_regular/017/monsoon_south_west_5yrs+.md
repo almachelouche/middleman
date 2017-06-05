@@ -1,6 +1,6 @@
 +++
 markets = ["in"]
-title = '''IN Service Reminder Regular Due/Pdue 017 Monsoon SouthWest'''
+title = '''IN Service Reminder Regular Due/Pdue 017 Monsoon SouthWest 5yrs+'''
 
 [[module]]
 path='email_modules/preheaderbefore'
@@ -14,7 +14,7 @@ path='email_modules/preheaderbefore'
 color='''nothing'''
 segmentelseif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 
-	 preheader = '''It's time for your scheduled service appointment. See you soon! Hello <%${user.CustomAttribute['FullName']}%>, your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.'''
+	 preheader = '''Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon. Hello <%${user.CustomAttribute['FullName']}%>Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.'''
 
 [[module]]
 path='email_modules/body'
@@ -32,7 +32,7 @@ path='email_modules/preheaderafter'
 color='''nothing'''
 segmentelseif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 
-	 preheader = '''It's time for your scheduled service appointment. See you soon! Hello <%${user.CustomAttribute['FullName']}%>, your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.'''
+	 preheader = '''Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon. Hello <%${user.CustomAttribute['FullName']}%>Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.'''
  
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -77,12 +77,11 @@ color='white'
 
   copy = '''VIN No: <% ${user.CustomAttribute['VIN']}%><br />Last reported service date: <%${user.CustomAttribute['Last_Reported_Service_Date']}%><br />Last reported mileage (Kms): <% ${user.CustomAttribute['Mileage']}%>'''
 
-
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
   
-  image = '''in_edm2_summer_camp_north_20170315'''
+  image = '''in_edm2_monsoon_5yrplus_20170526'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -94,7 +93,7 @@ color='white'
 path='email_modules/singles/title'
 color='''white'''
 	
-	title = '''The heat is on!'''
+	title = '''It's that time of the year!'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -106,7 +105,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 	
-	copy = '''Get your car geared up for the summer. Drive into any Ford Service Centre and enjoy hot offers including free 50+ point Car Check-up, Car Body Wash and discounts up to 50%*. And if your car is more than 5 years old, you will receive an extra 10%* off! <span style="font-weight:bold">Offers valid from 3rd to 9th of April.</span>'''
+	copy = '''Get your car geared up for Monsoon Season. Drive into any Ford Service Centre and enjoy great deals, including a free 50+ point check-up and discounts up to 60%. Offers valid from June 12th to June 18th.*'''
 
 [[module]] #Custom 4 Icons
 path='email_modules/custom/4icons'
@@ -115,20 +114,20 @@ color='white'
 	title = ''''''
   icon1_url='''http://www.india.ford.com/locate-dealer'''
   icon1_link_name = '''locate_dealer'''
-  icon1_image='''in_edm2_summer_camp_ac_20170316'''
-  icon1_text = '''10%* off on<br />AC Gas & Filter'''
+  icon1_image='''in_edm2_monsoon_brake_pads_20170526'''
+  icon1_text = '''<span style="font-weight:bold">Brake Pads</span><br />20%* off'''
   icon2_url='''tel:18004252500'''
   icon2_link_name = '''locate_dealer2'''
-  icon2_image='''in_edm2_summer_camp_coolant2_20170316'''
-  icon2_text = '''10%* off<br />on Coolant'''
+  icon2_image='''in_edm2_monsoon_tyres_20170526'''
+  icon2_text = '''<span style="font-weight:bold">Tyres</span><br />Buy 4, receive a gift'''
   icon3_url='''tel:18002097400'''
   icon3_link_name = '''locate_dealer3'''
-  icon3_image='''in_edm2_summer_camp_oil_filter_20170316'''
-  icon3_text = '''50%* off<br />on Oil Filter'''
+  icon3_image='''in_edm2_monsoon_shoch_absorber_20170526'''
+  icon3_text = '''<span style="font-weight:bold">Shock Absorbers</span><br />20%* off'''
   icon4_url='''https://partscalculator.fordind.com:1443/Fill_Field'''
   icon4_link_name = '''locate_dealer4'''
-  icon4_image='''in_edm2_summer_bodypaint_20170316'''
-  icon4_text = '''20%* off<br />on Full Body Paint<br />(Labour only)'''
+  icon4_image='''in_edm2_monsoon_add_value_svc_20170526'''
+  icon4_text = '''<span style="font-weight:bold">Value Added Services</span><br />20%* off'''
   
   [[module]] #Custom 4 Icons
 path='email_modules/custom/4icons'
@@ -137,95 +136,21 @@ color='white'
 	title = ''''''
   icon1_url='''http://www.india.ford.com/locate-dealer'''
   icon1_link_name = '''locate_dealer'''
-  icon1_image='''in_edm2_summer_camp_coolant_20170316'''
-  icon1_text = '''&#8377;1000* off<br />on Batteries'''
+  icon1_image='''in_edm2_monsoon_oil_filter_20170526'''
+  icon1_text = '''<span style="font-weight:bold">Oil Filters</span><br />60% off'''
   icon2_url='''tel:18004252500'''
   icon2_link_name = '''locate_dealer2'''
-  icon2_image='''in_edm2_summer_camp_tyres_20170316'''
-  icon2_text = '''Attractive Gift*<br />on purchase of 4 tyres'''
+  icon2_image='''in_edm2_monsoon_battery_20170526'''
+  icon2_text = '''<span style="font-weight:bold">Batteries</span><br />&#8377;1100* off'''
   icon3_url='''tel:18002097400'''
   icon3_link_name = '''locate_dealer3'''
-  icon3_image='''in_edm2_summer_camp_brake_pads_20170316'''
-  icon3_text = '''10%* off<br />on Brake Pads'''
+  icon3_image='''in_edm2_monsoon_wiper_blades_20170526'''
+  icon3_text = '''<span style="font-weight:bold">Wipers</span><br />60% off blades and inserts'''
   icon4_url='''https://partscalculator.fordind.com:1443/Fill_Field'''
   icon4_link_name = '''locate_dealer4'''
-  icon4_image='''in_edm2_summer_camp_5yr_20170316'''
-  icon4_text = '''10%*off on all<br />Ford approved<br />Value Added Services'''
-
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
+  icon4_image='''in_edm2_monsoon_body_paint_20170526'''
+  icon4_text = '''<span style="font-weight:bold">Full Body Paint</span><br />30% off labour'''
   
-  image = '''in_edm2_summer_camp_north_20170315'''
-
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="20"
-
-[[module]]
-path='email_modules/singles/title'
-color='''white'''
-	
-	title = '''The heat is on!'''
-
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
-
-[[module]]
-path='email_modules/singles/copy'
-color='''white'''
-	
-	copy = '''Get your car geared up for the summer. Drive into any Ford Service Centre and enjoy hot offers including free 50+ point Car Check-up, Car Body Wash and discounts up to 50%*. And if your car is more than 5 years old, you will receive an extra 10%* off! <span style="font-weight:bold">Offers valid from 3rd to 9th of April.</span>'''
-
-[[module]] #Custom 4 Icons
-path='email_modules/custom/4icons'
-color='white'
-
-	title = ''''''
-  icon1_url='''http://www.india.ford.com/locate-dealer'''
-  icon1_link_name = '''locate_dealer'''
-  icon1_image='''in_edm2_summer_camp_ac_20170316'''
-  icon1_text = '''10%* off on<br />AC Gas & Filter'''
-  icon2_url='''tel:18004252500'''
-  icon2_link_name = '''locate_dealer2'''
-  icon2_image='''in_edm2_summer_camp_coolant2_20170316'''
-  icon2_text = '''10%* off<br />on Coolant'''
-  icon3_url='''tel:18002097400'''
-  icon3_link_name = '''locate_dealer3'''
-  icon3_image='''in_edm2_summer_camp_oil_filter_20170316'''
-  icon3_text = '''50%* off<br />on Oil Filter'''
-  icon4_url='''https://partscalculator.fordind.com:1443/Fill_Field'''
-  icon4_link_name = '''locate_dealer4'''
-  icon4_image='''in_edm2_summer_bodypaint_20170316'''
-  icon4_text = '''20%* off<br />on Full Body Paint<br />(Labour only)'''
-  
-  [[module]] #Custom 4 Icons
-path='email_modules/custom/4icons'
-color='white'
-
-	title = ''''''
-  icon1_url='''http://www.india.ford.com/locate-dealer'''
-  icon1_link_name = '''locate_dealer'''
-  icon1_image='''in_edm2_summer_camp_coolant_20170316'''
-  icon1_text = '''&#8377;1000* off<br />on Batteries'''
-  icon2_url='''tel:18004252500'''
-  icon2_link_name = '''locate_dealer2'''
-  icon2_image='''in_edm2_summer_camp_tyres_20170316'''
-  icon2_text = '''Attractive Gift*<br />on purchase of 4 tyres'''
-  icon3_url='''tel:18002097400'''
-  icon3_link_name = '''locate_dealer3'''
-  icon3_image='''in_edm2_summer_camp_brake_pads_20170316'''
-  icon3_text = '''10%* off<br />on Brake Pads'''
-  icon4_url='''https://partscalculator.fordind.com:1443/Fill_Field'''
-  icon4_link_name = '''locate_dealer4'''
-  icon4_image='''in_edm2_summer_camp_5yr_20170316'''
-  icon4_text = '''10%*off on all<br />Ford approved<br />Value Added Services'''
-
 [[module]]
 path='email_modules/spacer/default'
 color='white'
@@ -298,6 +223,12 @@ color='white'
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'
+
+[[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
+color='white'
+		
+  text='''Tearms and conditions apply. Offers only valid in Kerala, Andhra, Telengana, Karnataka, Nagerkoil, Maharashtra and Goa. '''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'

@@ -6,7 +6,7 @@ title = '''TH Lost Customer & PMS Missed 002 All'''
 path='email_modules/preheader'
 color='''nothing'''
 
-	preheader = '''ดูแลเครื่องยนต์ของคุณด้วยโปรแกรมชุดน้ำมันเครื่องสุดคุ้ม Oil Save Packs'''
+	preheader = '''โปรโมชั่นตรวจเช็คระยะสุดพิเศษ ที่มาพร้อมการบริการทันสมัยและมีประสิทธิภาพที่ศูนย์บริการมาตรฐานฟอร์ด'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

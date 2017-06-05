@@ -65,18 +65,11 @@ color='black'
 segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
 
   title = '''Let’s Get Vivid'''
-  copy = '''Ford and Vivid Sydney have officially joined forces! We couldn’t be more thrilled to support this stunning festival of art, technology, light, and music. We hope to see you at Darling Harbour from May 26 – June 17. Join us as we Go Further in 2017.'''
+  copy = '''Ford have joined forces with Vivid Sydney to bring you a stunning festival of art, technology, light, music and ideas. Come and see Sydney at its brightest until June 17, and be sure to check out Ford’s #movefreely installation.'''
   cta1_text = '''LEARN MORE'''
   cta1_url = '''https://www.vividsydney.com'''
   cta1_link_name = ''''award1'''
   cta1_icon = '''more'''
-  
-  [[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-
-  image = '''AU_edm6_vivid_20170523'''
-  url_link = '''https://www.vividsydney.com'''
 
 [[module]] #eNews Top Story #NON NSW
 path='email_modules/custom/enews_topstory'
@@ -90,9 +83,18 @@ segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
   cta1_link_name = '''innovation'''
   cta1_icon = '''more'''
 
-  [[module]] #Banner Image
+  [[module]] #Banner Image #NSW
 path='email_modules/image/banner'
 color='white'
+segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
+
+  image = '''AU_edm6_vivid_20170523'''
+  url_link = '''https://www.vividsydney.com'''
+
+  [[module]] #Banner Image #NON NSW
+path='email_modules/image/banner'
+color='white'
+segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
 
   image = '''AU_edm6_futurist_20170523'''
   url_link = '''https://www.ford.com.au/about-ford/newsroom/2017/thought-leaders-and-innovators-define-the-mobility-revolution--u/'''
@@ -103,12 +105,12 @@ color='lightblue'
 segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribute['Model'] == 'Everest')"]
 
 title = '''Time to get personal'''
-  copy = '''Are you ready to take your Ford to the next level? Get weekend-ready with Ford genuine accessories, designed to deliver the durability and safety you need. Learn why quality matters when it comes to accessories.'''
+  copy = '''Are you ready to take your off roader to the next level? Get weekend-ready with Ford genuine accessories, designed to deliver the durability and safety you need. Learn why quality matters when it comes to accessories.'''
   cta1_text = '''WATCH NOW'''
   cta1_url = '''https://www.ford.com.au/forms/accessories/'''
   cta1_link_name = '''accessories1'''
   cta1_icon = '''more'''
-  image = '''AU_edm6_awards2_20170301'''
+  image = '''AU_edm6_accessories_20170602'''
 
 [[module]] #Split 01 #NON RANGER AND EVEREST
 path='email_modules/split/01'

@@ -6,7 +6,7 @@ title = '''TH Extended Warranty 003 Urgent'''
 path='email_modules/preheader'
 color='''nothing'''
 
-	preheader = '''Save big when you extend your warranty before August 31.'''
+	preheader = '''คุ้มกว่า เมื่อขยายเวลารับประกันความคุ้มครองรถฟอร์ดของคุณภายในวันที่ 31 สิงหาคมนี้'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -72,9 +72,10 @@ color = '''white'''
 path='email_modules/split/04'
 color='green'
 
-  title='''<span style="font-family:Tahoma, Verdana, Sans-serif">Limited-time offer</span>'''
-  copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">Sign up for the Premium Protection Plus Program and save up to 30% or 7,800 THB. Plus, you’ll enjoy a 0% interest rate for 10 months when you use a K Bank credit card. Offer ends August 31, 2017. </span>'''
-  cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">FIND OUT MORE ></span>'''
+  title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ข้อเสนอสุดพิเศษ</span>'''
+  copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+สมัครโปรแกรมขับขี่อุ่นใจ (PPP) รับส่วนลดเพิ่มสูงสุด 30% หรือ 7,800 บาท พิเศษรับสิทธิ์ผ่อน 0%  นาน 10 เดือน เมื่อชำระผ่านบัตรเครดิตกสิกรไทย ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span>'''
+  cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียด></span>'''
 cta1_url='''https://www.ford.co.th/'''
 cta1_icon='''more'''
 cta1_link_name = '''PPP'''

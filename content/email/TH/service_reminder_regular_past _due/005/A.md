@@ -22,13 +22,14 @@ path='email_modules/cover/02'
 color='''white'''
 icon='''th_edm2_svc_wrench_urgent_20160801'''
 title='''<span style="color:#ff6600;font-family:Tahoma, Verdana, Sans-serif">
-            	<span style="white-space:nowrap;">อย่าพลาดการนำรถเข้าศูนย์บริการ</span><br />
+            	<span style="white-space:nowrap;">อย่าพลาดการนำ</span>รถ<span style="white-space:nowrap;">เข้าศูนย์บริการ</span><br />
                 <span style="white-space:nowrap;">เพื่อตรวจเช็คระยะ</span>
             </span>'''
 copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีคุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%>
 <br /><br />
-<span style="white-space:nowrap;">เพื่อรักษารถ <%${user.CustomAttribute['Model']}%>  ของคุณให้อยู่ในสภาพดี</span><br />
-    <span style="white-space:nowrap;">และวิ่งได้อย่างเต็มประสิทธิภาพสม่ำเสมอ</span><br />
+<span style="white-space:nowrap;">เพื่อรักษารถ <%${user.CustomAttribute['Model']}%> </span> 
+<span style="white-space:nowrap;">ของคุณให้อยู่ในสภาพดี</span><br />
+    <span style="white-space:nowrap;">และวิ่งได้อย่าง</span>เต็ม<span style="white-space:nowrap;">ประสิทธิภาพสม่ำเสมอ</span><br />
     <span style="white-space:nowrap;">อย่าลืมนำรถเข้าศูนย์บริการ</span><br />
     <span style="white-space:nowrap;">เพื่อตรวจเช็คระยะเมื่อครบกำหนด</span>
 <br /><br />
@@ -51,9 +52,13 @@ cta1_url='''https://onlinebooking.ford.co.th/'''
 path='email_modules/cover/03'
 
 color='''white'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;"><span style="color:#b3b3b3;">หมายเลข VIN : <% ${user.CustomAttribute['VIN']} %><br />
-        เข้ารับบริการครั้งล่าสุดวันที่ : <% ${user.CustomAttribute['Last_Reported_Service_Date']} %><br />
-        ระยะทางล่าสุด : <% ${user.CustomAttribute['Mileage']} %></span></span></span>'''
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;color:#b3b3b3;">
+<span style="white-space:nowrap;">หมายเลข VIN :</span> 
+<span style="white-space:nowrap;"><% ${user.CustomAttribute['VIN']} %></span><br />
+<span style="white-space:nowrap;">เข้ารับบริการครั้งล่าสุดวันที่ :</span> 
+<span style="white-space:nowrap;"><% ${user.CustomAttribute['Last_Reported_Service_Date']} %></span><br />
+<span style="white-space:nowrap;">ระยะทางล่าสุด :</span> 
+<span style="white-space:nowrap;"><% ${user.CustomAttribute['Mileage']} %></span></span>'''
 
 
 [[module]] #Split 04

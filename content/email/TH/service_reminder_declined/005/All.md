@@ -7,7 +7,7 @@ title = '''TH Service Reminder Declined 005 All'''
 path='email_modules/preheader'
 color='''nothing'''
 
-    preheader = '''Check out the latest offers on tyres, brakes, batteries, and more.'''
+    preheader = '''พบข้อเสนอสุดพิเศษสำหรับยางรถยนต์ เบรก แบตเตอรี่และอะไหล่ต่างๆ อีกมากมาย'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -94,7 +94,7 @@ path='email_modules/singles/copy'
 color='''white'''
 	
     copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif">
-    <span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">Great deals on parts</span><br /><br />Keep your Ford vehicle in top condition with the latest offers on replacement parts. You’ll also automatically enter our lucky draw if you buy or are gifted a bottle of fuel treatment. Get in quick, these offers end August 31, 2017.</span>'''
+    <span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">สุดคุ้มกับอะไหล่แท้จากฟอร์ด</span><br /><br />เพื่อให้สมรรถนะรถฟอร์ดของคุณ ทำงานได้อย่างเต็มประสิทธิภาพ ฟอร์ดมีข้อเสนอสุดคุ้มเมื่อคุณซื้ออะไหล่แท้จากฟอร์ด คุณจะได้มีสิทธิ์ร่วมลุ้นรับสิทธิพิเศษ หรือได้รับน้ำยาทำความสะอาดหัวฉีดฟรี ข้อเสนอนี้ถึงวันที่ 31 สิงหาคม 2560 เท่านั้น</span>'''
 
 [[module]] #Custom 3 Icon Text
 path='email_modules/custom/3icon_text'
@@ -102,18 +102,18 @@ color='white'
 
   title = ''''''
   icon1 = '''th_edm6_brake_20170113'''
-  text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Brakes</span><br /><br />Purchase Motorcraft or Ford Genuine brake pads and receive a free bottle of fuel treatment.</span>'''
+  text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">ผ้าเบรกสุดคุ้ม</span><br /><br />ซื้อผ้าเบรก Ford-Motorcraft รับฟรี น้ำยาทำความสะอาดหัวฉีด</span>'''
   icon2 = '''th_edm6_tyre_20170113'''
-  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Tyres</span><br /><br />Buy 3 tyres, get 1 free<sup>1</sup>. Plus, pay 0% interest for six months with a K Bank credit card<sup>2</sup>.</span>'''
+  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">โปรยางสุดคุ้ม</span><br /><br />ซื้อยางกู๊ดเยียร์ 3 เส้น แถม 1 เส้นฟรี<sup>1</sup>.  รับสิทธิ์ผ่อน 0% นาน 6 เดือน ด้วยบัตรเครดิตกสิกรไทย<sup>2</sup>.</span>'''
   icon3 = '''th_edm6_battery_20170113'''
-  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">Batteries</span><br /><br />Receive a free bottle of fuel treatment when you purchase a Ford Genuine battery.</span>'''
+  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้สุดคุ้ม</span><br /><br />รับฟรี น้ำยาทำความสะอาดหัวฉีดเมื่อซื้อแบตเตอรี่ฟอร์แท้ สำหรับรถฟอร์ดโดยเฉพาะ</span>'''
 
 
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
 	
-    cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">SEE MORE OFFERS</span>'''
+    cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ดูข้อเสนอเพิ่มเติม</span>'''
 	cta1_url = '''https://www.ford.co.th/'''
 	cta1_link_name = '''commodity_offer'''
 
@@ -124,7 +124,7 @@ color='white'
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
-text='''<span style="font-family:Tahoma, Verdana, Sans-serif">DISCLAIMERS:<br />[1] Offer valid for Goodyear, Michelin and BFGoodrich tyres only.<br />[2] Offer valid for Goodyear tyres only. </span>'''
+text='''<span style="font-family:Tahoma, Verdana, Sans-serif">หมายเหตุ:<br />[1] สิทธิพิเศษสำหรับยางรถยนต์กู๊ดเยียร์, ยางรถยนต์มิชลิน และยางรถยนต์บีเอฟกู๊ดริช เท่านั้น<br />[2]สิทธิพิเศษสำหรับยางรถยนต์กู๊ดเยียร์เท่านั้น</span>'''
 
 [[module]] #TH Online
 path='email_modules/footer/th/online'

@@ -92,8 +92,7 @@ copy = '''<span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,s
 <span style="white-space:nowrap;">&#8226; 위 서비스는 중고차 판매시 해당 차량과 함께 양도가 가능합니다.</span><br/> 
 <span style="white-space:nowrap;">&#8226; 3년 이내 소정의 추가 비용으로 서비스 해당 품목이 확대된</span><br />
 <span style="white-space:nowrap;">ESP 프리미엄 정비 서비스를 구매하실 수 있습니다.</span></span>'''
-cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
-<span style="white-space:nowrap;">더 알아보기</span></span>'''
+cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="white-space:nowrap;">더 알아보기</span></span>'''
 cta1_url = '''https://www.ford-korea.com/owner/extended-service-plan/ '''
 cta1_link_name = '''esp'''
 icon = ''''''
@@ -112,8 +111,8 @@ copy = '''<span style="color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sa
 <span style="white-space:nowrap;">고객님께 꼭 필요한 서비스 정보를</span><br />
 <span style="white-space:nowrap;">확인하실 수 있습니다.</span>
 <ul style="margin: 20px; padding: 0;text-decoration:underline; color:#FFFFFF">
-<li><a href="https://www.ford-korea.com/owner/emergency/" name="era" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">24시간 긴급출동 서비스</span>span></a></li>
-<li><a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">보증 서비스</a></li>
+<li><a href="https://www.ford-korea.com/owner/emergency/" name="era" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">24시간 긴급출동 서비스</span></a></li>
+<li><a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">보증 서비스</span></a></li>
 <li><a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">차량 관리</span></a></li>
 <li><a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">전문가의 공인 서비스</span></a></li>
 <li><a href="https://www.ford-korea.com/owner/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">리콜 안내</span></a></li></ul></span>'''
