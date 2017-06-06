@@ -84,7 +84,7 @@ title = '''Let’s Get Vivid'''
   cta1_url = '''https://www.vividsydney.com'''
   cta1_link_name = '''VIVID'''
   cta1_icon = '''play'''
-  image = '''AU_edm6_vivid_20170523'''
+  image = '''AU_edm6_vivid_20170606'''
 
   [[module]] #Split 01 #non NSW
 path='email_modules/split/01'

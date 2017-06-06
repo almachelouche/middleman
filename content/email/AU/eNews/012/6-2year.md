@@ -88,7 +88,7 @@ path='email_modules/image/banner'
 color='white'
 segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
 
-  image = '''AU_edm6_vivid_20170523'''
+  image = '''AU_edm6_vivid_20170606'''
   url_link = '''https://www.vividsydney.com'''
 
   [[module]] #Banner Image #NON NSW
