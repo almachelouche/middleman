@@ -35,9 +35,10 @@ title = '''<span style="color:#ff6600;font-family:Tahoma, Verdana, Sans-serif"><
 <span style=" white-space:nowrap;">พร้อมเครื่องมือตรวจสอบอันทันสมัย</span><br />
 <span style=" white-space:nowrap;">กับคุณภาพอะไหล่แท้ของฟอร์ด</span><br />
 <span style=" white-space:nowrap;"> ให้คุณขับขี่รถฟอร์ด</span>ได้<span style=" white-space:nowrap;">อย่างเต็มประสิทธิภาพ </span><br><br>
-<span style="white-space:nowrap;">นัดหมายล่วงหน้าเพื่อเข้ารับบริการได้ทันที</span> <br>
+<span style="white-space:nowrap;">นัดหมายล่วงหน้า</span>เพื่อ<span style="white-space:nowrap;">เข้ารับบริการได้ทันที</span> <br>
 <span style="white-space:nowrap;">ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%></span> <span style="white-space:nowrap;">(ระหว่างเวลาทำการ)</span><br>
-<span style="white-space:nowrap;">หรือค้นหาตัวแทนจำหน่ายใกล้บ้านคุณ</span></span>'''
+<span style="white-space:nowrap;">หรือค้นหาตัวแทนจำหน่าย</span>
+<span style="white-space:nowrap;">ใกล้บ้านคุณ</span></span>'''
 
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">โทร <%${user.CustomAttribute['Dealer_Phone']}%></span>'''
 cta1_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''
@@ -94,7 +95,15 @@ path='email_modules/singles/copy'
 color='''white'''
 	
     copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif">
-    <span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">สุดคุ้มกับอะไหล่แท้จากฟอร์ด</span><br /><br />เพื่อให้สมรรถนะรถฟอร์ดของคุณ ทำงานได้อย่างเต็มประสิทธิภาพ ฟอร์ดมีข้อเสนอสุดคุ้มเมื่อคุณซื้ออะไหล่แท้จากฟอร์ด คุณจะได้มีสิทธิ์ร่วมลุ้นรับสิทธิพิเศษ หรือได้รับน้ำยาทำความสะอาดหัวฉีดฟรี ข้อเสนอนี้ถึงวันที่ 31 สิงหาคม 2560 เท่านั้น</span>'''
+    <span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">สุดคุ้มกับอะไหล่แท้<br />จากฟอร์ด</span><br /><br />
+    <span style="white-space:nowrap;">เพื่อให้สมรรถนะรถฟอร์ดของคุณ</span> 
+    <span style="white-space:nowrap;">ทำงานได้อย่างเต็มประสิทธิภาพ</span><br /> 
+    <span style="white-space:nowrap;">ฟอร์ดมีข้อเสนอสุดคุ้ม</span> 
+    <span style="white-space:nowrap;">เมื่อคุณซื้ออะไหล่แท้จากฟอร์ด</span><br /> 
+    <span style="white-space:nowrap;">คุณจะได้มีสิทธิ์ร่วมลุ้นรับสิทธิพิเศษ</span>
+    <span style="white-space:nowrap;">หรือได้รับน้ำยาทำความสะอาดหัวฉีดฟรี</span>
+    <span style="white-space:nowrap;">ข้อเสนอนี้ถึงวันที่ 31 สิงหาคม 2560</span> 
+    <span style="white-space:nowrap;">เท่านั้น</span></span>'''
 
 [[module]] #Custom 3 Icon Text
 path='email_modules/custom/3icon_text'
@@ -102,18 +111,31 @@ color='white'
 
   title = ''''''
   icon1 = '''th_edm6_brake_20170113'''
-  text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">ผ้าเบรกสุดคุ้ม</span><br /><br />ซื้อผ้าเบรก Ford-Motorcraft รับฟรี น้ำยาทำความสะอาดหัวฉีด</span>'''
+  text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">ผ้าเบรกสุดคุ้ม</span><br /><br />
+  <span style="white-space:nowrap;">ซื้อผ้าเบรก</span> 
+  <span style="white-space:nowrap;">Ford-Motorcraft</span> 
+  <span style="white-space:nowrap;">รับฟรี</span> 
+  <span style="white-space:nowrap;">น้ำยาทำความสะอาดหัวฉีด</span></span>'''
   icon2 = '''th_edm6_tyre_20170113'''
-  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">โปรยางสุดคุ้ม</span><br /><br />ซื้อยางกู๊ดเยียร์ 3 เส้น แถม 1 เส้นฟรี<sup>1</sup>.  รับสิทธิ์ผ่อน 0% นาน 6 เดือน ด้วยบัตรเครดิตกสิกรไทย<sup>2</sup>.</span>'''
+  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">โปรยางสุดคุ้ม</span><br /><br />
+  <span style="white-space:nowrap;">ซื้อยางกู๊ดเยียร์ 3 เส้น</span> 
+  <span style="white-space:nowrap;">แถม 1 เส้นฟรี<sup>1</sup>.</span>  
+  <span style="white-space:nowrap;">รับสิทธิ์ผ่อน 0%</span>
+  <span style="white-space:nowrap;">นาน 6 เดือน</span> 
+  <span style="white-space:nowrap;">ด้วยบัตรเครดิตกสิกรไทย<sup>2</sup>.</span></span>'''
   icon3 = '''th_edm6_battery_20170113'''
-  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้สุดคุ้ม</span><br /><br />รับฟรี น้ำยาทำความสะอาดหัวฉีดเมื่อซื้อแบตเตอรี่ฟอร์แท้ สำหรับรถฟอร์ดโดยเฉพาะ</span>'''
+  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้สุดคุ้ม</span><br /><br />
+  <span style="white-space:nowrap;">รับฟรี</span> 
+  <span style="white-space:nowrap;">น้ำยาทำความสะอาดหัวฉีด</span>
+  <span style="white-space:nowrap;">เมื่อซื้อแบตเตอรี่ฟอร์แท้</span> 
+  <span style="white-space:nowrap;">สำหรับรถฟอร์ดโดยเฉพาะ</span></span>'''
 
 
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
 	
-    cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">SEE MORE OFFERS</span>'''
+    cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ดูข้อเสนอเพิ่มเติม</span>'''
 	cta1_url = '''https://www.ford.co.th/'''
 	cta1_link_name = '''commodity_offer'''
 
@@ -124,7 +146,13 @@ color='white'
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
-text='''<span style="font-family:Tahoma, Verdana, Sans-serif">หมายเหตุ:<br />[1] สิทธิพิเศษสำหรับยางรถยนต์กู๊ดเยียร์, ยางรถยนต์มิชลิน และยางรถยนต์บีเอฟกู๊ดริช เท่านั้น<br />[2]สิทธิพิเศษสำหรับยางรถยนต์กู๊ดเยียร์เท่านั้น</span>'''
+text='''<span style="font-family:Tahoma, Verdana, Sans-serif">หมายเหตุ:<br />
+<span style="white-space:nowrap;">[1] สิทธิพิเศษสำหรับยางรถยนต์กู๊ดเยียร์,</span> 
+<span style="white-space:nowrap;">ยางรถยนต์มิชลิน</span> 
+<span style="white-space:nowrap;">และยางรถยนต์บีเอฟกู๊ดริช</span> 
+<span style="white-space:nowrap;">เท่านั้น</span><br />
+
+<span style="white-space:nowrap;">[2]สิทธิพิเศษสำหรับยางรถยนต์กู๊ดเยียร์เท่านั้น</span></span>'''
 
 [[module]] #TH Online
 path='email_modules/footer/th/online'

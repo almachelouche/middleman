@@ -116,9 +116,18 @@ image='''TH_edm1a_everest_fender_flare_20170508'''
 path='email_modules/split/04'
 color='green'
 
-  title='''<span style="font-family:Tahoma, Verdana, Sans-serif">Save on service</span>'''
-  copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">Save up to 10% or 3,700 THB on maintenance with Ford’s Scheduled Service Packs. Plus, you’ll enjoy a 0% interest rate for 10 months when you use a K Bank credit card. Offer ends August 31, 2017.</span>'''
-  cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">FIND OUT MORE ></span>'''
+  title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า </span>'''
+  copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+<span style="white-space:nowrap;">รับส่วนลดเพิ่มสูงสุด 10%</span>
+<span style="white-space:nowrap;">หรือ 3,700 บาท</span> 
+<span style="white-space:nowrap;">กับโปรแกรมบำรุงรักษารถยนต์</span>
+<span style="white-space:nowrap;">ตามระยะ(SSP)</span>
+<span style="white-space:nowrap;">พิเศษรับสิทธิ์</span>
+<span style="white-space:nowrap;">ผ่อน 0% นาน 10 เดือน</span> 
+<span style="white-space:nowrap;">เมื่อชำระผ่าน</span>
+<span style="white-space:nowrap;">บัตรเครดิตกสิกรไทย</span> 
+<span style="white-space:nowrap;">ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span></span>'''
+  cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา ></span>'''
 cta1_url='''https://www.ford.co.th/owner/schedule-service/'''
 cta1_icon='''more'''
 cta1_link_name = '''SSP'''

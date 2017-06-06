@@ -6,7 +6,7 @@ title = '''AU Enews 012 prospect 2'''
 path='email_modules/preheader'
 color='''white'''
 
-   preheader='''The super-capable Everest Ambiente 4WD has arrived. Want to take a ride? '''
+   preheader='''The super-capable Everest Ambiente RWD has arrived. Want to take a ride? '''
 
 [[module]] #Header eNews #NSW
 path='email_modules/header/enews'
@@ -38,7 +38,7 @@ path='email_modules/custom/enews_topstory'
 color='black'
 
   title = '''The most affordable Everest ever'''
-	copy = ''' Join us in welcoming the Ford Everest Ambiente 4WD to our SUV range. This capable 5-seater boasts the same 3.2L Diesel engine and 3,000&#185;kg towing capacity as its AWD sibling. Plus with SYNC<sup>®</sup>3 connectivity system, with 8” colour touchscreen, it’s amazing value with the lowest price tag we’ve ever seen on an Everest – from $49,990!'''
+	copy = ''' Join us in welcoming the Ford Everest Ambiente RWD to our SUV range. This capable 7-seater boasts the same 3.2L Diesel engine and 3,000&#185;kg towing capacity as its 4WD sibling. Plus with SYNC<sup>®</sup>3 connectivity system, with 8” colour touchscreen, it’s amazing value with the lowest price tag we’ve ever seen on an Everest – from $49,990&#178;!'''
   cta1_text = '''FIND OUT MORE'''
   cta1_url = '''https://www.ford.com.au/suv/everest/models/ambiente-rwd/?intcmp=vhp-return-model'''
   cta1_link_name = '''everest'''
@@ -64,7 +64,7 @@ segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
   cta1_url = '''https://www.vividsydney.com'''
   cta1_link_name = '''vivid'''
   cta1_icon = '''more'''
-  image = '''AU_edm6_vivid_20170523'''
+  image = '''AU_edm6_vivid_20170606'''
 
   [[module]] #Split 01 #NON NSW
 path='email_modules/split/01'
@@ -85,8 +85,8 @@ path='email_modules/split/02'
 color='lightblue'
 
   title = '''It pays to look closer'''
-  copy = '''From great savings on select SUVs to Free Auto on one of Australia’s best trucks, Ford has some unbelievable deals this End of Financial Year&#178;. Spot these deals and others now, before they disappear!'''
-  cta1_text = '''READ MORE'''
+  copy = '''From great savings on select SUVs to Free Auto on one of Australia’s best trucks, Ford has some unbelievable deals this End of Financial Year&#179;. Spot these deals and others now, before they disappear!'''
+  cta1_text = '''EXPLORE OFFERS'''
   cta1_url = '''http://www.ford.com.au/latest-offers/national/'''
   cta1_link_name = '''offer'''
   cta1_icon = '''more'''
@@ -116,7 +116,8 @@ color='white'
 
 text='''Disclaimers:<br /><br />
   1. Maximum towing capacity when using a Genuine Ford tow pack. Subject to State and Territory regulations.<br /><br />
-  2. Vehicles must be purchased by 30/06/17 and delivered by 2/07/17. Participating Dealers only. Stock may vary between Dealers. Private and Blue, Silver and Gold Business Fleet customers only.<br /><br />'''
+  2. Price is recommended, stock may vary between Dealers.<br /><br />
+  3. Vehicles must be purchased by 30/06/17 and delivered by 2/07/17. Participating Dealers only. Stock may vary between Dealers. Private and Blue, Silver and Gold Business Fleet customers only.<br /><br />'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'

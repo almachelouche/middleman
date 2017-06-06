@@ -26,7 +26,7 @@ title='''<span style="font-family:Tahoma, Verdana, Sans-serif">
           </span>'''
 copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></span><br /><br />
  <span style="font-family:Tahoma, Verdana, Sans-serif">
-            <span style="white-space:nowrap;">ฟอร์ดขอแจ้งให้คุณทราบว่า</span><span style="white-space:nowrap;">รถคันใหม่ของคุณ</span> <br />
+            <span style="white-space:nowrap;">ฟอร์ดขอแจ้งให้คุณทราบ</span>ว่า<span style="white-space:nowrap;">รถคันใหม่ของคุณ</span> <br />
             <span style="white-space:nowrap;">ถึงกำหนดตรวจเช็คระยะครั้งแรกแล้ว</span> <br />
             <span style="white-space:nowrap;">เนื่องจากรถใหม่ทุกคัน</span>จะ<span style="white-space:nowrap;">มีระยะในการปรับสภาพ</span><br />
             <span style="white-space:nowrap;">การทำงานของรถ</span>
@@ -36,7 +36,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี
             <span style=" white-space:nowrap;">ทำงานอย่างเต็มสมรรถนะ</span>
           </span><br /><br />
 <span style="font-family:Tahoma, Verdana, Sans-serif"> 
-            <span style="white-space:nowrap;">นัดหมายล่วงหน้าเพื่อเข้ารับบริการได้ทันที</span> <br />
+            <span style="white-space:nowrap;">นัดหมายล่วงหน้า</span>เพื่อ<span style="white-space:nowrap;">เข้ารับบริการได้ทันที</span> <br />
             <span style="white-space:nowrap;">ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%></span> 
             <span style="white-space:nowrap;">(ระหว่างเวลาทำการ)</span><br />
             <span style="white-space:nowrap;">หรือค้นหาตัวแทนจำหน่ายใกล้บ้านคุณ</span>
@@ -83,8 +83,17 @@ path='email_modules/split/04'
 color='green'
 
   title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า </span>'''
-  copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">รับส่วนลดเพิ่มสูงสุด 10% หรือ 3,700 บาท กับโปรแกรมบำรุงรักษารถยนต์ ตามระยะ(SSP)พิเศษรับสิทธิ์ผ่อน 0% นาน 10 เดือน เมื่อชำระผ่านบัตรเครดิตกสิกรไทย ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span>'''
-  cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">FIND OUT MORE ></span>'''
+  copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+<span style="white-space:nowrap;">รับส่วนลดเพิ่มสูงสุด 10%</span>
+<span style="white-space:nowrap;">หรือ 3,700 บาท</span> 
+<span style="white-space:nowrap;">กับโปรแกรมบำรุงรักษารถยนต์</span>
+<span style="white-space:nowrap;">ตามระยะ(SSP)</span>
+<span style="white-space:nowrap;">พิเศษรับสิทธิ์</span>
+<span style="white-space:nowrap;">ผ่อน 0% นาน 10 เดือน</span> 
+<span style="white-space:nowrap;">เมื่อชำระผ่าน</span>
+<span style="white-space:nowrap;">บัตรเครดิตกสิกรไทย</span> 
+<span style="white-space:nowrap;">ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span></span>'''
+  cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา ></span>'''
 cta1_url='''https://www.ford.co.th/owner/schedule-service/'''
 cta1_icon='''more'''
 cta1_link_name = '''SSP'''

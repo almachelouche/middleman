@@ -6,7 +6,7 @@ title = '''AU Enews 012 0-6 month'''
 path='email_modules/preheader'
 color='''white'''
 
-   preheader='''Have you seen the latest and greatest Genuine Ford accessories? '''
+   preheader='''Check out the latest and greatest Ford accessories'''
 
 [[module]] #Header eNews #NSW
 path='email_modules/header/enews'
@@ -39,7 +39,7 @@ color='black'
 segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribute['Model'] == 'Everest')"]
 
   title = '''Time to get personal'''
-  copy = '''Are you ready to take your off roader to the next level? Get weekend ready with Ford genuine accessories, they’re waiting to help you take your vehicle to the limit. Learn why quality matters when it comes to accessories.'''
+  copy = '''Are you ready to take your off roader to the next level? Get weekend ready with Ford Genuine Accessories, they’re waiting to help you take your vehicle to the limit. Learn why quality matters when it comes to accessories.'''
   cta1_text = '''WATCH NOW'''
   cta1_url = '''https://www.ford.com.au/forms/accessories/'''
   cta1_link_name = '''accessories2'''
@@ -51,7 +51,7 @@ color='black'
 segmentelse = ["(user.CustomAttribute['Area'] == 'non-ranger/everest')"]
 
   title = '''Time to get personal'''
-  copy = '''When it comes to personalising your Ford, nothing beats Ford Genuine Accessories. All our accessories undergo years of safety and durability testing, ensuring they integrate perfectly with your Ford.'''
+  copy = '''When it comes to personalising your Ford, nothing beats Ford Genuine Accessories. Genuine accessories undergo years of safety and durability testing, ensuring they integrate perfectly with your Ford.'''
   cta1_text = '''GET ACCESSORISED'''
   cta1_url = '''https://www.ford.com.au/forms/accessories/'''
   cta1_link_name = '''accessories1'''
@@ -84,7 +84,7 @@ title = '''Let’s Get Vivid'''
   cta1_url = '''https://www.vividsydney.com'''
   cta1_link_name = '''VIVID'''
   cta1_icon = '''play'''
-  image = '''AU_edm6_vivid_20170523'''
+  image = '''AU_edm6_vivid_20170606'''
 
   [[module]] #Split 01 #non NSW
 path='email_modules/split/01'
@@ -131,6 +131,21 @@ color='black'
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
 color='white'
+
+[[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
+color='white'
+segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribute['Model'] == 'Everest')"]
+
+text='''Disclaimers:<br /><br />
+* Everest Titanium shown with optional Ford snorkel and bull bar accessories.<br/><br/>'''
+
+
+[[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
+color='white'
+segmentelse = ["(user.CustomAttribute['Area'] == 'non-ranger/everest')"]
+* Escape Titanium shown with optional Ford carry bars and ski/snowboard carrier accessories.<br/><br/>'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'

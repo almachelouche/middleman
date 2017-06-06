@@ -6,7 +6,7 @@ title = '''TH Repurchase 007 All'''
 path='email_modules/preheader'
 color='''nothing'''
 
-preheader = '''พบสุดยอดข้อเสนอสุดพิเศษ สำหรับฟอร์ดคันใหม่ของคุณ'''
+preheader = '''พบข้อเสนอสุดพิเศษกับโปรแกรมบำรุงรักษารถยนต์ตามระยะ (SSP)'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -65,10 +65,18 @@ color = '''white'''
 path='email_modules/split/03'
 color='green'
 
-title='''<span style="font-family:Tahoma, Verdana, Sans-serif">สิทธิพิเศษสำหรับ<br />ลูกค้าฟอร์ด</span>'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">Enjoy 10,000 THB off all other Ford vehicles (except Focus). Get in quick! Offer available June 1-30, 2017</span> 
-</span>'''
-cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ดูเพิ่มเติม</span>'''
+title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า </span>'''
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+<span style="white-space:nowrap;">รับส่วนลดเพิ่มสูงสุด 10%</span>
+<span style="white-space:nowrap;">หรือ 3,700 บาท</span> 
+<span style="white-space:nowrap;">กับโปรแกรมบำรุงรักษารถยนต์</span>
+<span style="white-space:nowrap;">ตามระยะ(SSP)</span>
+<span style="white-space:nowrap;">พิเศษรับสิทธิ์</span>
+<span style="white-space:nowrap;">ผ่อน 0% นาน 10 เดือน</span> 
+<span style="white-space:nowrap;">เมื่อชำระผ่าน</span>
+<span style="white-space:nowrap;">บัตรเครดิตกสิกรไทย</span> 
+<span style="white-space:nowrap;">ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span></span>'''
+cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
 cta1_url='''https://www.ford.co.th/loyaltyprogram2017/'''
 cta1_icon='''more'''
 cta1_link_name = '''special_offer'''
@@ -82,9 +90,10 @@ color='white'
   title1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ฟรีค่าแรงซ่อมบำรุง<br />5 ครั้ง</span>'''
   copy1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
   
-<span style=" white-space:nowrap;">เพียงคุณตัดสินใจเป็นเจ้าของฟอร์ดรุ่นใหม่</span> 
+<span style=" white-space:nowrap;">เพียงคุณตัดสินใจ</span>เป็น<span style=" white-space:nowrap;">เจ้าของฟอร์ดรุ่นใหม่</span> 
 <span style=" white-space:nowrap;">ฟรีค่าแรงเช็คระยะ 5 ครั้ง</span> 
-<span style=" white-space:nowrap;">คลิกเพื่อดูรายละเอียดเพิ่มเติมที่นี่</span>
+<span style=" white-space:nowrap;">คลิกเพื่อดูรายละเอียด</span><br />
+<span style=" white-space:nowrap;">เพิ่มเติมที่นี่</span>
 
 </span>'''
   icon2 = '''th_edm2_ownerprofile_20160801'''
@@ -92,7 +101,8 @@ color='white'
   copy2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
   
 กรุณาอัพเดทข้อมูลของคุณ <br />
-<span style=" white-space:nowrap;">เพื่อให้คุณ</span><span style=" white-space:nowrap;">ไม่พลาด</span><span style=" white-space:nowrap;">ข้อเสนอ</span><span style=" white-space:nowrap;">พิเศษ</span>ต่างๆ <br />
+<span style=" white-space:nowrap;">เพื่อให้คุณ</span><span style=" white-space:nowrap;">ไม่พลาด</span>
+<span style=" white-space:nowrap;">ข้อเสนอพิเศษต่างๆ</span><br />
 <span style=" white-space:nowrap;">จากฟอร์ด</span>
   
 </span>'''

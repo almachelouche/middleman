@@ -14,7 +14,7 @@ path='email_modules/preheader'
 color='''white'''
 segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
 
-   preheader='''Which arrives first: Autonomous cars or delivery drones?'''
+   preheader='''Which will arrive first: Autonomous cars or delivery drones?'''
 
 [[module]]
 path='email_modules/body'
@@ -65,7 +65,7 @@ color='black'
 segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
 
   title = '''Let’s Get Vivid'''
-  copy = '''Ford have joined forces with Vivid Sydney to bring you a stunning festival of art, technology, light, music and ideas. Come and see Sydney at its brightest until June 17, and be sure to check out Ford’s #movefreely installation.'''
+  copy = '''Ford have joined forces with Vivid Sydney to bring you a stunning festival of art, technology, light, music and ideas. Come and see Sydney at its brightest until June 17, and be sure to check out Ford’s Freedom of Movement installation. #MoveFreely.'''
   cta1_text = '''LEARN MORE'''
   cta1_url = '''https://www.vividsydney.com'''
   cta1_link_name = ''''award1'''
@@ -88,7 +88,7 @@ path='email_modules/image/banner'
 color='white'
 segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
 
-  image = '''AU_edm6_vivid_20170523'''
+  image = '''AU_edm6_vivid_20170606'''
   url_link = '''https://www.vividsydney.com'''
 
   [[module]] #Banner Image #NON NSW
@@ -105,7 +105,7 @@ color='lightblue'
 segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribute['Model'] == 'Everest')"]
 
 title = '''Time to get personal'''
-  copy = '''Are you ready to take your off roader to the next level? Get weekend-ready with Ford genuine accessories, designed to deliver the durability and safety you need. Learn why quality matters when it comes to accessories.'''
+  copy = '''Are you ready to take your off roader to the next level? Get weekend-ready with Ford Genuine Accessories, designed to deliver the durability and safety you need. Learn why quality matters when it comes to accessories.'''
   cta1_text = '''WATCH NOW'''
   cta1_url = '''https://www.ford.com.au/forms/accessories/'''
   cta1_link_name = '''accessories1'''
@@ -118,7 +118,7 @@ color='lightblue'
 segmentelse = ["(user.CustomAttribute['Area'] == 'non-Ranger or non-Everest')"]
 
 title = '''Time to get personal'''
-  copy = '''When it comes to personalising your Ford, nothing beats Ford Genuine Accessories. All our accessories undergo years of safety and durability testing, ensuring they integrate perfectly with your Ford.'''
+  copy = '''When it comes to personalising your Ford, nothing beats Ford Genuine Accessories. Genuine accessories undergo years of safety and durability testing, ensuring they integrate perfectly with your Ford.'''
   cta1_text = '''GET ACCESSORISED'''
   cta1_url = '''https://www.ford.com.au/forms/accessories/'''
   cta1_link_name = '''accessories1'''
@@ -153,6 +153,21 @@ title = '''Ranger vs Skydiver'''
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
 color='white'
+
+[[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
+color='white'
+segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribute['Model'] == 'Everest')"]
+
+text='''Disclaimers:<br /><br />
+* Everest Titanium shown with optional Ford snorkel and bull bar accessories.<br/><br/>'''
+
+
+[[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
+color='white'
+segmentelse = ["(user.CustomAttribute['Area'] == 'non-ranger/everest')"]
+* Escape Titanium shown with optional Ford carry bars and ski/snowboard carrier accessories.<br/><br/>'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
