@@ -29,7 +29,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี
            ของคุณให้อยู่ในสภาพดี
             และวิ่งได้อย่างเต็มประสิทธิภาพสม่ำเสมอ
             อย่าลืมนำรถเข้าศูนย์บริการ
-            พื่อตรวจเช็คระยะเมื่อครบกำหนด
+            เพื่อตรวจเช็คระยะเมื่อครบกำหนด
           </span>
 <br /><br />
 <span style="font-family:Tahoma, Verdana, Sans-serif">
