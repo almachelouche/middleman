@@ -167,6 +167,8 @@ text='''Disclaimers:<br /><br />
 path='email_modules/footer/disclaimer'
 color='white'
 segmentelse = ["(user.CustomAttribute['Area'] == 'non-ranger/everest')"]
+
+text='''Disclaimers:<br /><br />
 * Escape Titanium shown with optional Ford carry bars and ski/snowboard carrier accessories.<br/><br/>'''
 
 [[module]] #Footer AU Online
