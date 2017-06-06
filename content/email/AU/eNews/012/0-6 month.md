@@ -135,7 +135,6 @@ color='white'
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
-segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribute['Model'] == 'Everest')"]
 
 text='''Disclaimers:<br /><br />
 * Everest Titanium shown with optional Ford snorkel and bull bar accessories.<br/><br/>'''
@@ -144,7 +143,6 @@ text='''Disclaimers:<br /><br />
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
-segmentelse = ["(user.CustomAttribute['Area'] == 'non-ranger/everest')"]
 
 text='''Disclaimers:<br /><br />
 * Escape Titanium shown with optional Ford carry bars and ski/snowboard carrier accessories.<br/><br/>'''
