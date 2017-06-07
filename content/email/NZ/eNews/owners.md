@@ -54,7 +54,7 @@ title = '''A to B with SYNC®3'''
   cta1_url = '''https://www.youtube.com/watch?v=pA7ZC5Rk5i8&list=PLOM4j66_vQZcgAC02HCFlqHY7W_UfmXqm'''
   cta1_link_name = '''SYNC'''
   cta1_icon = '''play'''
-  image = '''NZ_edm6_sync_20170607'''
+  image = '''NZ_edm6_SYNC_20170607'''
 
 
   [[module]] #Split 02
@@ -68,6 +68,18 @@ color='lightblue'
   cta1_link_name = '''SERVICE'''
   cta1_icon = '''play'''
   image = '''NZ_edm6_svc_20170607'''
+  
+  [[module]] #Split 01 
+path='email_modules/split/01'
+color='darkblue'
+
+title = '''Fuel saving tips'''
+  copy = '''Saving on fuel isn’t always easy. That’s why we’ve combined our most useful fuel economy tips into one simple infographic. Check it out, and start saving today.'''
+  cta1_text = '''READ MORE'''
+  cta1_url = '''https://www.youtube.com/watch?v=2sEsTMzSRfM'''
+  cta1_link_name = '''tips'''
+  cta1_icon = '''play'''
+  image = '''NZ_edm6_tips_20170607'''
 
 
 [[module]] # Owner App Image Right
