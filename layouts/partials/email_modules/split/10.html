@@ -8,7 +8,7 @@
             <img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1"  border="0" style="display:block;"/>
           </td>
           <td rowspan="2" class="drop" align="left" valign="top">
-            <img class="img_R" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/{{ .moduleinfo.image }}_tile.jpg" width="320" border="0" style="display:block;"/>
+            <img class="img_R" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/{{- .moduleinfo.image -}}_tile.jpg" width="320" border="0" style="display:block;"/>
           </td>
         </tr>
         <tr>
@@ -16,20 +16,20 @@
             <table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td align="left" valign="top" style="color:{{.color.heading2}}; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular; padding-bottom:20px; padding-top:30px; padding-left:30px; padding-right:30px;">
-                  {{ .moduleinfo.title | safeHTML }}
+                  {{- .moduleinfo.title | safeHTML -}}
                 </td>
               </tr>
               <tr>
-                <td  align="left" valign="top" style="font-Size: 16px; color:{{ .color.txtbody}}; font-family: 'Arial','Helvetica','Sans-Serif'; padding-left:30px; padding-right:30px; padding-bottom:20px; line-height: 21px; mso-line-height-rule:exactly; font-weight: normal; font-style: regular;">
-                  {{ .moduleinfo.copy | safeHTML }}
+                <td  align="left" valign="top" style="font-Size: 16px; color:{{- .color.txtbody}}; font-family: 'Arial','Helvetica','Sans-Serif'; padding-left:30px; padding-right:30px; padding-bottom:20px; line-height: 21px; mso-line-height-rule:exactly; font-weight: normal; font-style: regular;">
+                  {{- .moduleinfo.copy | safeHTML -}}
                 </td>
               </tr>
               <tr>
                 <td align="left" valign="top" style="padding-left:30px; padding-right:30px; padding-bottom:30px;">
                   <table border="0" cellspacing="0" cellpadding="0">
                     <tr>
-                      <td bgcolor="{{ .color.ctablockbg }}" height="40" valign="middle" align="center" style="padding-left:20px; padding-right:20px; text-align:center; color:{{ .color.ctablocktext }}; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px;">
-                        {{ .moduleinfo.cta1_url | printf "<a href=%q" | safeHTML }}  name={{.moduleinfo.cta1_link_name}} style="text-decoration:none; color:{{ .color.ctablocktext }};">{{ .moduleinfo.cta1_text | safeHTML }}</a>
+                      <td bgcolor="{{- .color.ctablockbg -}}" height="40" valign="middle" align="center" style="padding-left:20px; padding-right:20px; text-align:center; color:{{- .color.ctablocktext -}}; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px;">
+                        {{- .moduleinfo.cta1_url | printf "<a href=%q" | safeHTML -}}  name={{.moduleinfo.cta1_link_name}} style="text-decoration:none; color:{{- .color.ctablocktext -}};">{{- .moduleinfo.cta1_text | safeHTML -}}</a>
                       </td>
                     </tr>
                   </table>

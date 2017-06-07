@@ -12,21 +12,21 @@
               </tr>
               <tr>
                 <td align="center" valign="top">
-                  <img width="60"  src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{ .moduleinfo.icon1 }}.png"  />
+                  <img width="60"  src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{- .moduleinfo.icon1 -}}.png"  />
                 </td>
               </tr>
               <tr>
                 <td><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
               </tr>
               <tr>
-                <td valign="top"  height="30" style="font-family: 'Arial','Helvetica','Sans-Serif';  font-size:24px ;line-height: 30px;font-weight: normal; font-style: regular;" align="center">{{ .moduleinfo.title1 | safeHTML }}</td>
+                <td valign="top"  height="30" style="font-family: 'Arial','Helvetica','Sans-Serif';  font-size:24px ;line-height: 30px;font-weight: normal; font-style: regular;" align="center">{{- .moduleinfo.title1 | safeHTML -}}</td>
               </tr>
               <tr>
                 <td height="20"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" border="0" style="display:block;" /></td>
               </tr>
               <tr>
                 <td valign="top"  style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px line; height:21px; font-weight: normal; font-style: regular; "  align="center">
-                  {{ .moduleinfo.cta1_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.cta1_link_name }}" style="text-decoration:underline; color:#2D96CD;">{{ .moduleinfo.cta1_text | safeHTML }} </a>
+                  {{- .moduleinfo.cta1_url | printf "<a href=%q" | safeHTML -}} name="{{- .moduleinfo.cta1_link_name -}}" style="text-decoration:underline; color:#2D96CD;">{{- .moduleinfo.cta1_text | safeHTML -}} </a>
                 </td>
               </tr>
               <tr>
@@ -35,7 +35,7 @@
               </tr>
               <tr>
                 <td valign="top"   style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px line; height:21px; font-weight: normal; font-style: regular; "  align="center">
-                  {{ .moduleinfo.cta2_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.cta2_link_name }}" style="text-decoration:underline; color:#2D96CD;" >{{ .moduleinfo.cta2_text | safeHTML }} </a>
+                  {{- .moduleinfo.cta2_url | printf "<a href=%q" | safeHTML -}} name="{{- .moduleinfo.cta2_link_name -}}" style="text-decoration:underline; color:#2D96CD;" >{{- .moduleinfo.cta2_text | safeHTML -}} </a>
                 </td>
               </tr>
               <tr>
@@ -58,20 +58,20 @@
               </tr>
               <tr>
                 <td align="center" valign="top">
-                  <img width="60"   src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{ .moduleinfo.icon2 }}.png" />
+                  <img width="60"   src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{- .moduleinfo.icon2 -}}.png" />
                 </td>
               </tr>
               <tr>
                 <td><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
               </tr>
               <tr>
-                <td valign="top" height="30" style="font-family: 'Arial','Helvetica','Sans-Serif';  font-size:24px ;line-height: 30px; font-weight: normal; font-style: regular;" align="center">{{ .moduleinfo.title2 | safeHTML }}</td>
+                <td valign="top" height="30" style="font-family: 'Arial','Helvetica','Sans-Serif';  font-size:24px ;line-height: 30px; font-weight: normal; font-style: regular;" align="center">{{- .moduleinfo.title2 | safeHTML -}}</td>
               </tr>
               <tr>
                 <td height="20"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" border="0" style="display:block;" /></td>
               </tr>
               <tr>
-              <td valign="top"  style="text-align:center; color:#616161; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px; line-height: 21px;font-weight: normal; font-style: regular; ">{{ .moduleinfo.copy | safeHTML }}</td>
+              <td valign="top"  style="text-align:center; color:#616161; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px; line-height: 21px;font-weight: normal; font-style: regular; ">{{- .moduleinfo.copy | safeHTML -}}</td>
               </tr>
               <tr>
                 <td align="center">
@@ -85,7 +85,7 @@
                   <table  border="0"  cellspacing="0" cellpadding="0" bgcolor="#2D96CD">
                     <tr>
                       <td height="40" valign="middle" align="center" bgcolor="{{.color.ctablockbg}}" style="padding-left:20px; padding-right:20px; text-align:center; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px;vertical-align: middle;">
-                        {{ .moduleinfo.cta3_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.cta3_link_name }}" target="_blank" title="" style="width:100%; display:block; color:{{.color.ctablocktext}}; text-decoration:none;">{{ .moduleinfo.cta3_text | safeHTML }}</a>
+                        {{- .moduleinfo.cta3_url | printf "<a href=%q" | safeHTML -}} name="{{- .moduleinfo.cta3_link_name -}}" target="_blank" title="" style="width:100%; display:block; color:{{.color.ctablocktext}}; text-decoration:none;">{{- .moduleinfo.cta3_text | safeHTML -}}</a>
                       </td>
                     </tr>
                   </table>
