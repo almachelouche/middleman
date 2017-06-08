@@ -64,7 +64,7 @@ segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
   cta1_url = '''https://www.vividsydney.com'''
   cta1_link_name = '''vivid'''
   cta1_icon = '''more'''
-  image = '''AU_edm6_vivid_20170606'''
+  image = '''AU_edm6_vivid_20170608'''
 
   [[module]] #Split 01 #NON NSW
 path='email_modules/split/01'
