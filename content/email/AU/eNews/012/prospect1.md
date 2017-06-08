@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU Enews 012 prospect 2'''
+title = '''AU Enews 012 prospect 1'''
 
 [[module]]
 path='email_modules/preheader'
@@ -59,7 +59,7 @@ color='darkblue'
 segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
 
   title = '''Let’s Get Vivid'''
-  copy = '''Ford have joined forces with Vivid Sydney to bring you a stunning festival of art, technology, light, music and ideas. Don’t miss the opportunity to see Sydney at its brightest – it’s lights out this Saturday, so hurry along, and be sure to check out Ford’s Freedom of Movement installation. #MoveFreely.'''
+  copy = '''Ford have joined forces with Vivid Sydney to bring you a stunning festival of art, technology, light, music and ideas. Don’t miss the opportunity to see Sydney at its brightest – it’s lights out tomorrow, so hurry along, and be sure to check out Ford’s Freedom of Movement installation. #MoveFreely.'''
   cta1_text = '''LEARN MORE'''
   cta1_url = '''https://www.vividsydney.com'''
   cta1_link_name = '''vivid'''
