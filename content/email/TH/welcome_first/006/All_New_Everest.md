@@ -22,16 +22,16 @@ color='''white'''
   title = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><strong>สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></strong><br />
   <span style=" white-space:nowrap;">ยินดีต้อนรับ</span>สู่<span style=" white-space:nowrap;">ครอบครัวฟอร์ด</span></span>'''
   copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">ฟอร์ดขอขอบคุณที่คุณเลือกเรา</span>
-<span style=" white-space:nowrap;">ให้เป็นเพื่อนร่วมทางของคุณ</span>
+<span style="white-space:nowrap;">ให้เป็นเพื่อนร่วมทางของคุณ</span>
 <br /><br />
-<span style=" white-space:nowrap;">เราจะส่งข่าวสาร</span>
-<span style=" white-space:nowrap;">และข้อมูลกิจกรรมที่เป็นประโยชน์</span>
-<span style=" white-space:nowrap;">ให้แก่คุณอย่างต่อเนื่อง</span> 
-<span style=" white-space:nowrap;">เพราะคุณเป็นส่วนหนึ่ง</span>
-<span style=" white-space:nowrap;">ของครอบครัวฟอร์ด</span>
+<span style="white-space:nowrap;">เราจะส่งข่าวสาร</span>
+<span style="white-space:nowrap;">และข้อมูลกิจกรรมที่เป็นประโยชน์</span><br />
+<span style="white-space:nowrap;">ให้แก่คุณอย่างต่อเนื่อง</span> 
+<span style="white-space:nowrap;">เพราะคุณเป็นส่วนหนึ่ง</span><br />
+<span style="white-space:nowrap;">ของครอบครัวฟอร์ด</span>
 <br /><br />
-<span style=" white-space:nowrap;">ขอให้คุณมีความสุขกับการขับขี่</span> 
-<span style=" white-space:nowrap;">Everest ค่ะ </span></span>'''
+<span style="white-space:nowrap;">ขอให้คุณมีความสุขกับการขับขี่</span> 
+<span style="white-space:nowrap;">Everest ค่ะ </span></span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
