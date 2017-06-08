@@ -52,7 +52,7 @@ color='''white'''
 
 [[module]] #Dual 04
 path='email_modules/dual/04'
-color='grey'
+color='platinum'
 
   title1 = '''Service Price Promise'''
   copy1 = '''We ensure that there are no surprises in your service cost. The price you see online is the price you pay.'''
