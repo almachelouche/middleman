@@ -66,7 +66,7 @@ color='''white'''
     
 [[module]] #Custom 01
 path='email_modules/custom/3columntitle3icons'
-color='white'
+color='grey'
 
   title = '''Smart. Safe. Totally Capable.'''
   icon1 = '''au_edm5_sync2_20161107'''
@@ -78,7 +78,7 @@ color='white'
   
 [[module]]
 path='email_modules/singles/ctablock'
-color='''white'''
+color='''grey'''
 	
 	cta1_text = '''EXPLORE FEATURES'''
 	cta1_url = '''https://www.india.ford.com/suvs/endeavour/'''
