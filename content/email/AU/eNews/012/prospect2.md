@@ -8,19 +8,9 @@ color='''white'''
 
    preheader='''The super-capable Everest Ambiente RWD has arrived. Want to take a ride? '''
 
-[[module]] #Header eNews #NSW
+  [[module]] #Header eNews 
 path='email_modules/header/enews'
 color='black'
-segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
-
-  title = '''Insider'''
-  date = '''June 2017'''
-  copy = '''IN THIS ISSUE:<br />New Everest Ambiente | Vivid Sydney | EOFY Deals | Watch Ranger vs Skydiver'''
-
-  [[module]] #Header eNews #NON NSW
-path='email_modules/header/enews'
-color='black'
-segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
 
   title = '''Insider'''
   date = '''June 2017'''
@@ -52,24 +42,9 @@ color='white'
   image = '''AU_edm6_everest_20170607'''
   url_link = '''https://www.ford.com.au/suv/everest/models/ambiente-rwd/?intcmp=vhp-return-model'''
 
-
-[[module]] #Split 01 #NSW
+  [[module]] #Split 01 
 path='email_modules/split/01'
 color='darkblue'
-segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
-
-  title = '''Let’s Get Vivid'''
-  copy = '''Ford have joined forces with Vivid Sydney to bring you a stunning festival of art, technology, light, music and ideas. Don’t miss the opportunity to see Sydney at its brightest – it’s lights out this Saturday, so hurry along, and be sure to check out Ford’s Freedom of Movement installation. #MoveFreely.'''
-  cta1_text = '''LEARN MORE'''
-  cta1_url = '''https://www.vividsydney.com'''
-  cta1_link_name = '''vivid'''
-  cta1_icon = '''more'''
-  image = '''AU_edm6_vivid_20170608'''
-
-  [[module]] #Split 01 #NON NSW
-path='email_modules/split/01'
-color='darkblue'
-segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
 
  title = '''See into the future'''
   copy = '''Do parcel-delivering drones and autonomous cars sound like science fiction? According to the innovators who attended the Future with Ford event, these life-changing technologies will arrive sooner than you may think. Are you ready?'''
