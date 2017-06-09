@@ -6,7 +6,7 @@ title = '''TH Welcome First 006 New Ranger'''
 path='email_modules/preheader'
 color='''nothing'''
 
-preheader = '''ฟอร์ดขอขอบคุณที่คุณเลือกเรา ให้เป็นเพื่อนร่วมทางของคุณ เราจะส่งข่าวสาร และข้อมูลกิจกรรมที่เป็นประโยชน์ ให้แก่คุณอย่างต่อเนื่อง เพราะคุณเป็นส่วนหนึ่ง ของครอบครัวฟอร์ด ขอให้คุณมีความสุขกับการขับขี่ Ranger ค่ะ '''
+    preheader = '''ฟอร์ดขอขอบคุณที่คุณเลือกเรา ให้เป็นเพื่อนร่วมทางของคุณ เราจะส่งข่าวสาร และข้อมูลกิจกรรมที่เป็นประโยชน์ ให้แก่คุณอย่างต่อเนื่อง เพราะคุณเป็นส่วนหนึ่ง ของครอบครัวฟอร์ด ขอให้คุณมีความสุขกับการขับขี่ Ranger ค่ะ '''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -170,7 +170,8 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" whit
 <span style=" white-space:nowrap;">สำหรับรถใหม่</span><br /><br />
 <span style=" white-space:nowrap;">A: เพราะระบบช่วยเหลือฉุกเฉินของเรา</span>
 <span style=" white-space:nowrap;">ไม่เพียงครอบคลุมการคุ้มครองอะไหล่</span>
-<span style=" white-space:nowrap;">และเครื่องยนต์ตลอดอายุการใช้งานเท่านั้น</span>
+<span style=" white-space:nowrap;">และเครื่องยนต์</span>
+<span style="white-space:nowrap;">ตลอดอายุการใช้งานเท่านั้น</span>
 <span style=" white-space:nowrap;">แต่ยังรวมถึงการช่วยเหลือ</span>
 <span style=" white-space:nowrap;">ในกรณีเหตุฉุกเฉินอื่นๆ</span>
 <span style=" white-space:nowrap;">เช่น</span>
