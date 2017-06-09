@@ -6,7 +6,7 @@ title = '''IN Prospect 014 EcoSport RestIndia'''
 path='email_modules/preheader'
 color='''nothing'''
 
-	preheader = '''Enjoy prices starting at just 7.18 lakh for Ford EcoSport, with an interest rate of 8.15%. So don't wait for the GST change. Make a move now!*'''
+	preheader = '''Enjoy prices starting at just &#8377;7.18 Lakh for Ford EcoSport, with an interest rate of 8.15%. So don't wait for the GST change. Make a move now!*'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -33,7 +33,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 	
-	copy = '''When you purchase a Ford, you don't just buy a great vehicle - you become part of our family. And family always gets the best deals.<br /><br />Like prices starting at just 7.18 lakh for Ford EcoSport, with an interest rate of 8.15%. So don't wait for the GST change. Make a move now!*'''
+	copy = '''When you purchase a Ford, you don't just buy a great vehicle - you become part of our family. And family always gets the best deals.<br /><br />Like prices starting at just &#8377;7.18 Lakh for Ford EcoSport, with an interest rate of 8.15%. So don't wait for the GST change. Make a move now!*'''
 
 [[module]]
 path='email_modules/spacer/default'

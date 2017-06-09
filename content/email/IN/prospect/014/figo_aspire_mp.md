@@ -6,7 +6,7 @@ title = '''IN Prospect 014 Aspire&Figo MP'''
 path='email_modules/preheader'
 color='''nothing'''
 
-	preheader = '''Enjoy prices starting at just 4.90 lakh for Ford Next-Gen Figo, and 5.62 lakh for Ford Aspire. Plus, you'll enjoy an interest rate of 8.15%. So don't wait for the GST change. Make a move now!*'''
+	preheader = '''Enjoy prices starting at just &#8377;4.90 Lakh for Ford Next-Gen Figo, and &#8377;5.62 Lakh for Ford Aspire. Plus, you'll enjoy an interest rate of 8.15%. So don't wait for the GST change. Make a move now!*'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -33,7 +33,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 	
-	copy = '''When you purchase a Ford, you don't just buy a great vehicle - you become part of our family. And family always gets the best deals.<br /><br /> Like prices starting at just 4.90 lakh for Ford Next-Gen Figo, and 5.62 lakh for Ford Aspire. Plus, you'll enjoy an interest rate of 8.15%. So don't wait for the GST change. Make a move now!*'''
+	copy = '''When you purchase a Ford, you don't just buy a great vehicle - you become part of our family. And family always gets the best deals.<br /><br /> Like prices starting at just &#8377;4.90 Lakh for Ford Next-Gen Figo, and &#8377;5.62 Lakh for Ford Aspire. Plus, you'll enjoy an interest rate of 8.15%. So don't wait for the GST change. Make a move now!*'''
 
 [[module]] #Custom 3 Icon Text
 path='email_modules/custom/3icon_text'
