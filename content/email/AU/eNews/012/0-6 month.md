@@ -8,19 +8,9 @@ color='''white'''
 
    preheader='''Check out the latest and greatest Ford accessories'''
 
-[[module]] #Header eNews #NSW
-path='email_modules/header/enews'
-color='black'
-segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
-
-  title = '''Insider'''
-  date = '''June 2017'''
-  copy = '''IN THIS ISSUE:<br />Genuine Ford Accessories | Vivid Sydney | VIDEO: Brake Tips |Ford Owners App'''
-
   [[module]] #Header eNews #non NSW
 path='email_modules/header/enews'
 color='black'
-segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
 
   title = '''Insider'''
   date = '''June 2017'''
@@ -48,7 +38,7 @@ segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribu
 [[module]] # eNews Top Story #Non Ranger &Everest version
 path='email_modules/custom/enews_topstory'
 color='black'
-segmentelse = ["(user.CustomAttribute['Area'] == 'non-ranger/everest')"]
+segmentelse = ["(user.CustomAttribute['Model'] == 'non-ranger/everest')"]
 
   title = '''Time to get personal'''
   copy = '''When it comes to personalising your Ford, nothing beats Ford Genuine Accessories. Genuine accessories undergo years of safety and durability testing, ensuring they integrate perfectly with your Ford.'''
@@ -68,31 +58,18 @@ segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribu
 [[module]] #Banner Image  #Non Ranger &Everest version
 path='email_modules/image/banner'
 color='white'
-segmentelse = ["(user.CustomAttribute['Area'] == 'non-ranger/everest')"]
+segmentelse = ["(user.CustomAttribute['Model'] == 'non-ranger/everest')"]
 
   image = '''AU_edm6_everest_20170510'''
   url_link = '''https://www.ford.com.au/forms/accessories/'''
 
-[[module]] #Split 01 #NSW
+
+  [[module]] #Split 01
 path='email_modules/split/01'
 color='green'
-segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
-
-title = '''Let’s Get Vivid'''
-  copy = '''Ford have joined forces with Vivid Sydney to bring you a stunning festival of art, technology, light, music and ideas. Come and see Sydney at its brightest until June 17, and be sure to check out Ford’s #movefreely installation.'''
-  cta1_text = '''LEARN MORE'''
-  cta1_url = '''https://www.vividsydney.com'''
-  cta1_link_name = '''VIVID'''
-  cta1_icon = '''play'''
-  image = '''AU_edm6_vivid_20170606'''
-
-  [[module]] #Split 01 #non NSW
-path='email_modules/split/01'
-color='green'
-segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
 
  title = '''See into the future'''
-  copy = '''Do parcel-delivering drones and autonomous cars sound like science fiction? According to the innovators who attended the Future with Ford event, these life-changing technologies will arrive sooner than you may think. Are you ready?'''
+  copy = '''Do parcel-delivering drones and autonomous cars sound like science fiction? According to the innovators who attended the Future with Ford event, these disruptive technologies are on their way and will change the way we move.'''
   cta1_text = '''LEARN MORE'''
   cta1_url = '''https://www.ford.com.au/about-ford/newsroom/2017/thought-leaders-and-innovators-define-the-mobility-revolution--u/'''
   cta1_link_name = '''innovation'''
@@ -135,6 +112,7 @@ color='white'
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
+segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribute['Model'] == 'Everest')"]
 
 text='''Disclaimers:<br /><br />
 * Everest Titanium shown with optional Ford snorkel and bull bar accessories.<br/><br/>'''
@@ -143,9 +121,10 @@ text='''Disclaimers:<br /><br />
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
+segmentelse = ["(user.CustomAttribute['Model'] == 'non-ranger/everest')"]
 
 text='''Disclaimers:<br /><br />
-* Escape Titanium shown with optional Ford carry bars and ski/snowboard carrier accessories.<br/><br/>'''
+* Escape Titanium shown with optional Genuine Ford Carry Bars, Slimline Weathershields, Front and Rear Mudspats, and Rhino-Rack locking ski and snowboard carrier (skis, snowboard and bindings not included).<br/><br/>'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
