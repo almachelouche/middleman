@@ -31,7 +31,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 	
-    copy = '''When you purchase a Ford, you don't just buy a great vehicle - you become part of our family. And family always gets the best deals.<br /><br />Like prices as low as 7.18 lakh with an interest rate of 8.15%. So don't wait for the GST change. Make a move now!*'''
+    copy = '''When you purchase a Ford, you don't just buy a great vehicle - you become part of our family. And family always gets the best deals.<br /><br />Like prices starting at just 7.41 lakh for Ford EcoSport, with an interest rate of 8.15%. So don't wait for the GST change. Make a move now!*'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -45,7 +45,7 @@ color='''white'''
 	cta1_text = '''BOOK A TEST DRIVE'''
 	cta1_url = '''https://www.india.ford.com/#/overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-generic.html/'''
 	cta1_link_name = '''test_drive'''
-    cta2_text = '''FIND A DEALER'''
+    cta2_text = '''&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Find A DEALER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'''
 	cta2_url = '''https://www.india.ford.com/locate-dealer/'''
 	cta2_link_name = '''locate_dealer'''
 
