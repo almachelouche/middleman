@@ -6,7 +6,7 @@ title = '''IN Prospect 014 EcoSport MP'''
 path='email_modules/preheader'
 color='''nothing'''
 
-	preheader = '''Prices as low as 7.18 lakh with an interest rate of 8.15%. '''
+	preheader = '''Enjoy prices starting at just 7.41 lakh for Ford EcoSport, with an interest rate of 8.15%. So don't wait for the GST change. Make a move now!*'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -15,11 +15,13 @@ color='white_pb'
   image = '''white_pb'''
   url_link = '''https://www.india.ford.com/'''
 
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
 
-  image='''in_edm5_gst_ecosport_20170606'''
+ image='''in_edm5_gst_ecosport_20170606'''
+  url_link='''https://www.india.ford.com/offers/'''
+	url_link_name='''offer_banner'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -43,7 +45,7 @@ color='white'
 path='email_modules/singles/2ctablocksideoutline'
 color='''white'''    
 	cta1_text = '''BOOK A TEST DRIVE'''
-	cta1_url = '''https://www.india.ford.com/#/overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-generic.html/'''
+	cta1_url = '''https://www.india.ford.com/suvs/ecosport/ecosport-brochure/?redtrgtexp=true#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-ecosport.html?campaign=ESFWTDC&intModel=EcoSport&modelCode=ES/'''
 	cta1_link_name = '''test_drive'''
     cta2_text = '''&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Find A DEALER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'''
 	cta2_url = '''https://www.india.ford.com/locate-dealer/'''

@@ -6,7 +6,7 @@ title = '''IN Prospect 014 Aspire&Figo MP'''
 path='email_modules/preheader'
 color='''nothing'''
 
-	preheader = '''Prices as low as 4.76 lakh with an interest rate of 8.15%.'''
+	preheader = '''Enjoy prices starting at just 4.90 lakh for Ford Next-Gen Figo, and 5.62 lakh for Ford Aspire. Plus, you'll enjoy an interest rate of 8.15%. So don't wait for the GST change. Make a move now!*'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -15,11 +15,13 @@ color='white_pb'
   image = '''white_pb'''
   url_link = '''https://www.india.ford.com/'''
 
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
 
-  image='''in_edm5_gst_figo_aspire_20170606'''
+image='''in_edm5_gst_figo_aspire_20170606'''
+  url_link='''https://www.india.ford.com/offers/'''
+	url_link_name='''offer_banner'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -41,7 +43,7 @@ color='white'
   icon1 = '''in_edm5_power_20161122'''
   text1 = '''<span style="font-weight:bold">Powerful</span><br />73.8kW (100 PS)'''
   icon2 = '''in_edm5_airbags_20161122'''
-  text2 = '''<span style="font-weight:bold">Safe</span><br />Standard Airbags'''
+  text2 = '''<span style="font-weight:bold">Safe</span><br />2 Standard Airbags'''
   icon3 = '''in_edm5_autolamp_20161122'''
   text3 = '''<span style="font-weight:bold">Stylish</span><br />Day Time Running Lamps'''
 
