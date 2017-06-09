@@ -46,9 +46,8 @@ color='white'
   text3 = '''<span style="font-weight:bold">Stylish</span><br />Day Time Running Lamps'''
 
 [[module]]
-path='email_modules/singles/2ctablock'
-color='''white'''
-	
+path='email_modules/singles/2ctablocksideoutline'
+color='''white'''    
 	cta1_text = '''BOOK A TEST DRIVE'''
 	cta1_url = '''https://www.india.ford.com/#/overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-generic.html/'''
 	cta1_link_name = '''test_drive'''

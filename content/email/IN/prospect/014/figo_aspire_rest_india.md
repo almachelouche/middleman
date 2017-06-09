@@ -47,16 +47,15 @@ color='white'
   text3 = '''<span style="font-weight:bold">Stylish</span><br />Day Time Running Lamps'''
 
 [[module]]
-path='email_modules/singles/2ctablock'
-color='''white'''
-	
+path='email_modules/singles/2ctablocksideoutline'
+color='''white'''    
 	cta1_text = '''BOOK A TEST DRIVE'''
 	cta1_url = '''https://www.india.ford.com/#/overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-generic.html/'''
 	cta1_link_name = '''test_drive'''
     cta2_text = '''FIND A DEALER'''
 	cta2_url = '''https://www.india.ford.com/locate-dealer/'''
 	cta2_link_name = '''locate_dealer'''
-
+    
 [[module]] #Dual 04
 path='email_modules/dual/04'
 color='white'
