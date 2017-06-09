@@ -31,7 +31,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 	
-	copy = '''When you purchase a Ford, you don't just buy a great vehicle – you become part of our family. And family always gets the best deals.<br /><br /> Like prices as low as 4.76 lakh with an interest rate of 8.15%. So don't wait for the GST change. Make a move now!*'''
+	copy = '''When you purchase a Ford, you don't just buy a great vehicle - you become part of our family. And family always gets the best deals.<br /><br /> Like prices starting at just 4.90 lakh for Ford Next-Gen Figo, and 5.62 lakh for Ford Aspire. Plus, you'll enjoy an interest rate of 8.15%. So don't wait for the GST change. Make a move now!*'''
 
 [[module]] #Custom 3 Icon Text
 path='email_modules/custom/3icon_text'
@@ -112,7 +112,7 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-  text = '''*Terms & conditions Apply. <br /><br />1. All Prices shown are ex-showroom Delhi for Next-Gen Figo Base Petrol and Ford Aspire Ambiente Petrol. <br /><br />2. Benefit is calculated on the basis of expected Goods and Services Tax ("GST") rate schedule for goods and GST compensation CESS rates ("GST Rates") approved by GST Council in their 14th GST meeting held on May 18, 2017. The benefit is the difference between current Ex-Showroom price and expected Ex-Showroom price based on GST Rates. The benefit is applicable for vehicles booking done between June 1, 2017 to June 30, 2017 with full payment on or before 30th June, 2017.<br /><br />3. Interest rate of 8.15% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.<br /><br />4. Offers only valid in Maharashtra, MP and West Bengal. '''
+  text = '''*Terms & conditions Apply. <br /><br />1. All Prices shown are ex-showroom Delhi for Next-Gen Figo Base Petrol and Ford Aspire Ambiente Petrol. <br /><br />2. Benefit is calculated on the basis of expected Goods and Services Tax ("GST") rate schedule for goods and GST compensation CESS rates ("GST Rates") approved by GST Council in their 14th GST meeting held on May 18, 2017. The benefit is the difference between current Ex-Showroom price and expected Ex-Showroom price based on GST Rates. The benefit is applicable for vehicles booking done between June 1, 2017 to June 30, 2017 with full payment on or before 30th June, 2017. The benefit on Ford Aspire is not applicable in Maharashtra, Madhya Pradesh and West Bengal<br /><br />3. Interest rate of 8.15% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit. <br /><br />4. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.'''
   
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
