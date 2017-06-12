@@ -71,10 +71,9 @@ color='green'
 
   title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ข้อเสนอสุดพิเศษ</span>'''
   copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
-<span style="white-space:nowrap;">รับส่วนลดเพิ่มสูงสุด 10%</span>
-<span style="white-space:nowrap;">หรือ 3,700 บาท</span> 
-<span style="white-space:nowrap;">กับโปรแกรมบำรุงรักษารถยนต์</span>
-<span style="white-space:nowrap;">ตามระยะ(SSP)</span>
+<span style="white-space:nowrap;">สมัครโปรแกรมขับขี่อุ่นใจ (PPP)</span>
+<span style="white-space:nowrap;">รับส่วนลดเพิ่มสูงสุด 30% </span> 
+<span style="white-space:nowrap;">หรือ 7,800 บาท </span>
 <span style="white-space:nowrap;">พิเศษรับสิทธิ์</span>
 <span style="white-space:nowrap;">ผ่อน 0% นาน 10 เดือน</span> 
 <span style="white-space:nowrap;">เมื่อชำระผ่าน</span>
