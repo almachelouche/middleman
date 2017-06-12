@@ -48,7 +48,7 @@ segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
 
   title = '''It's time for a visit'''
   copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Long time, no see! Your Ford <%${user.CustomAttribute['Model']}%> is due for service, and our experts can't wait to make sure it's running at its absolute best.<br /><br />Your next service is due on: <% ${user.CustomAttribute['NextServiceDate']} %> '''
-  cta1_text = '''GET A CALLBACK'''
+  cta1_text = '''BOOK A SERVICE'''
   cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
   cta1_link_name = '''callback'''
   cta2_text = '''FIND A DEALER'''
@@ -63,7 +63,7 @@ segmentif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 
   title = '''Your service is now past due'''
   copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.<br /><br />We've got your back. Contact us today and continue to enjoy carefree driving.'''
-  cta1_text = '''GET A CALLBACK'''
+  cta1_text = '''BOOK A SERVICE'''
   cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
   cta1_link_name = '''callback'''
   cta2_text = '''FIND A DEALER'''
