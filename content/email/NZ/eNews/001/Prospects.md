@@ -56,22 +56,10 @@ title = '''Escape deep dive'''
   cta1_icon = '''play'''
   image = '''NZ_edm6_review_20170607'''
 
-
-  [[module]] #Split 01
-path='email_modules/split/01'
-color='lightblue'
-
-  title = '''Loan car programme'''
-  copy = '''Life doesn’t stop when you service your Ford vehicle. That’s why every time you book a scheduled service, we’ll lend you a late-model Ford vehicle to keep you on the go.'''
-  cta1_text = '''LEARN MORE'''
-  cta1_url = '''https://www.youtube.com/watch?v=qwq7rUBlw2k'''
-  cta1_link_name = '''SERVICE'''
-  cta1_icon = '''play'''
-  image = '''NZ_edm6_svc_20170607'''
   
   [[module]] #Split 01 
 path='email_modules/split/01'
-color='darkblue'
+color='lightblue'
 
 title = '''Smartest cot ever?'''
   copy = '''Sometimes, a nighttime drive is the only way to get a newborn baby to sleep. Now there’s a more convenient way. Ford has created an innovative cot that simulates the motion, engine noises, and even street lighting of late-night driving.'''
@@ -82,8 +70,8 @@ title = '''Smartest cot ever?'''
   image = '''NZ_edm6_cot_20170607'''
 
 
-[[module]] #Split 01
-path='email_modules/split/01'
+[[module]] #Split 02
+path='email_modules/split/02'
 color='darkblue'
 
   title = '''Rethink service'''
