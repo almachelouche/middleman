@@ -1,6 +1,6 @@
 +++
 markets = ["in"]
-title = '''IN Service Reminder Regular Due/Pdue 017 Monsoon SouthWest 5yrs+'''
+title = '''IN Service Reminder Regular Due/Pdue 017 Monsoon East 5yrs+'''
 
 [[module]]
 path='email_modules/preheaderbefore'
@@ -71,8 +71,6 @@ segmentif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
   cta2_link_name = '''locate_dealer'''
   icon = '''in_edm2_svc_wrench_urgent_20160801'''
 
-
-
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='white'
@@ -107,7 +105,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 	
-	copy = '''Get your car geared up for Monsoon Season. Drive into any Ford Service Centre and enjoy great deals, including a free 50+ point check-up and discounts up to 60%. Offers valid from June 12th to June 18th.*'''
+	copy = '''Get your car geared up for Monsoon Season. Drive into any Ford Service Centre and enjoy great deals, including a free 50+ point check-up and discounts up to 60%. Offers valid from June 19th to June 25th.*'''
 
 [[module]] #Custom 4 Icons
 path='email_modules/custom/4icons'
@@ -230,7 +228,7 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 		
-  text='''Tearms and conditions apply. Offers only valid in Kerala, Andhra, Telengana, Karnataka, Nagerkoil, Maharashtra and Goa. '''
+  text='''*Tearms and conditions apply. Offers only valid in East Region. '''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'

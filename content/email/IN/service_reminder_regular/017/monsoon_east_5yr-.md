@@ -1,6 +1,6 @@
 +++
 markets = ["in"]
-title = '''IN Service Reminder Regular Due/Pdue 017 Monsoon SouthWest 5yrs-'''
+title = '''IN Service Reminder Regular Due/Pdue 017 Monsoon East 5yrs-'''
 
 [[module]]
 path='email_modules/preheaderbefore'
@@ -48,7 +48,7 @@ segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
 
   title = '''It's time for a visit'''
   copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Long time, no see! Your Ford <%${user.CustomAttribute['Model']}%> is due for service, and our experts can't wait to make sure it's running at its absolute best.<br /><br />Your next service is due on: <% ${user.CustomAttribute['NextServiceDate']} %> '''
-  cta1_text = '''GET A CALLBACK'''
+  cta1_text = '''BOOK A SERVICE'''
   cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
   cta1_link_name = '''callback'''
   cta2_text = '''FIND A DEALER'''
@@ -63,7 +63,7 @@ segmentif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 
   title = '''Your service is now past due'''
   copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.<br /><br />We've got your back. Contact us today and continue to enjoy carefree driving.'''
-  cta1_text = '''GET A CALLBACK'''
+  cta1_text = '''BOOK A SERVICE'''
   cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
   cta1_link_name = '''callback'''
   cta2_text = '''FIND A DEALER'''
@@ -105,7 +105,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 	
-	copy = '''Get your car geared up for Monsoon Season. Drive into any Ford Service Centre and enjoy great deals, including a free 50+ point check-up and discounts up to 50%. Offers valid from June 12th to June 18th.'''
+	copy = '''Get your car geared up for Monsoon Season. Drive into any Ford Service Centre and enjoy great deals, including a free 50+ point check-up and discounts up to 50%. Offers valid from June 19th to June 25th.*'''
 
 [[module]] #Custom 4 Icons
 path='email_modules/custom/4icons'
@@ -119,7 +119,7 @@ color='white'
   icon2_url='''tel:18004252500'''
   icon2_link_name = '''locate_dealer2'''
   icon2_image='''in_edm2_monsoon_tyres_20170526'''
-  icon2_text = '''<span style="font-weight:bold">Tyres</span><br />Buy 4, receive a gift'''
+  icon2_text = '''<span style="font-weight:bold">Tyres</span><br />Buy 4, receive a gift*'''
   icon3_url='''tel:18002097400'''
   icon3_link_name = '''locate_dealer3'''
   icon3_image='''in_edm2_monsoon_shoch_absorber_20170526'''
@@ -137,7 +137,7 @@ color='white'
   icon1_url='''http://www.india.ford.com/locate-dealer'''
   icon1_link_name = '''locate_dealer'''
   icon1_image='''in_edm2_monsoon_oil_filter_20170526'''
-  icon1_text = '''<span style="font-weight:bold">Oil Filters</span><br />50% off'''
+  icon1_text = '''<span style="font-weight:bold">Oil Filters</span><br />50%* off'''
   icon2_url='''tel:18004252500'''
   icon2_link_name = '''locate_dealer2'''
   icon2_image='''in_edm2_monsoon_battery_20170526'''
@@ -145,11 +145,11 @@ color='white'
   icon3_url='''tel:18002097400'''
   icon3_link_name = '''locate_dealer3'''
   icon3_image='''in_edm2_monsoon_wiper_blades_20170526'''
-  icon3_text = '''<span style="font-weight:bold">Wipers</span><br />50% off blades and inserts'''
+  icon3_text = '''<span style="font-weight:bold">Wipers</span><br />50%* off blades and inserts'''
   icon4_url='''https://partscalculator.fordind.com:1443/Fill_Field'''
   icon4_link_name = '''locate_dealer4'''
   icon4_image='''in_edm2_monsoon_body_paint_20170526'''
-  icon4_text = '''<span style="font-weight:bold">Full Body Paint</span><br />20% off labour'''
+  icon4_text = '''<span style="font-weight:bold">Full Body Paint</span><br />20%* off labour'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -228,7 +228,7 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 		
-  text='''Tearms and conditions apply. Offers only valid in Kerala, Andhra, Telengana, Karnataka, Nagerkoil, Maharashtra and Goa. '''
+  text='''*Tearms and conditions apply. Offers only valid in East region. '''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
