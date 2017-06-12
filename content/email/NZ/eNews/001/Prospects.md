@@ -44,21 +44,21 @@ color='white'
   url_link = '''https://www.ford.com.au/forms/accessories/'''
 
 
-[[module]] #Split 01 
-path='email_modules/split/01'
+[[module]] #Split 02 
+path='email_modules/split/02'
 color='green'
 
-title = '''A to B with SYNC®3'''
-  copy = '''Watch the All Blacks face their toughest challenge yet – finding a pet rabbit for a 5-year-old fan. Luckily for them, the SYNC®3 infotainment system is here to help.'''
+title = '''Escape deep dive'''
+  copy = '''Got 5 minutes? Learn everything there is to know about the New 2017 Ford Escape Titanium. Discover Escape’s sleek new design, innovative tech, premium comfort, and outstanding performance.'''
   cta1_text = '''WATCH NOW'''
   cta1_url = '''https://www.youtube.com/watch?v=pA7ZC5Rk5i8&list=PLOM4j66_vQZcgAC02HCFlqHY7W_UfmXqm'''
-  cta1_link_name = '''SYNC'''
+  cta1_link_name = '''review'''
   cta1_icon = '''play'''
-  image = '''NZ_edm6_SYNC_20170607'''
+  image = '''NZ_edm6_review_20170607'''
 
 
-  [[module]] #Split 02
-path='email_modules/split/02'
+  [[module]] #Split 01
+path='email_modules/split/01'
 color='lightblue'
 
   title = '''Loan car programme'''
@@ -73,29 +73,26 @@ color='lightblue'
 path='email_modules/split/01'
 color='darkblue'
 
-title = '''Fuel saving tips'''
-  copy = '''Saving on fuel isn’t always easy. That’s why we’ve combined our most useful fuel economy tips into one simple infographic. Check it out, and start saving today.'''
-  cta1_text = '''READ MORE'''
+title = '''Smartest cot ever?'''
+  copy = '''Sometimes, a nighttime drive is the only way to get a newborn baby to sleep. Now there’s a more convenient way. Ford has created an innovative cot that simulates the motion, engine noises, and even street lighting of late-night driving.'''
+  cta1_text = '''CHECK IT OUT'''
   cta1_url = '''https://www.youtube.com/watch?v=2sEsTMzSRfM'''
-  cta1_link_name = '''tips'''
+  cta1_link_name = '''cot'''
+  cta1_icon = '''more'''
+  image = '''NZ_edm6_cot_20170607'''
+
+
+[[module]] #Split 01
+path='email_modules/split/01'
+color='darkblue'
+
+  title = '''Rethink service'''
+  copy = '''At Ford, we know life doesn’t stop when you service a vehicle. That’s why we loan Ford owners late-model Ford vehicles at every scheduled service.'''
+  cta1_text = '''LEARN MORE'''
+  cta1_url = '''https://www.youtube.com/watch?v=qwq7rUBlw2k'''
+  cta1_link_name = '''SERVICE'''
   cta1_icon = '''play'''
-  image = '''NZ_edm6_tips_20170607'''
-
-
-[[module]] # Owner App Image Right
-path='email_modules/custom/ownerapp_imgr'
-color='black'
-
-  title = '''Ford Owners App'''
-  text1 = '''Want more information, tools, and tips right at your fingertips? Try the Ford Owners App.'''
-  text2 = '''<br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Streamline service reminders<br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Locate a dealer/service centre<br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;View "how-to" videos<br />'''
-  cta1_text = '''iOS'''
-  cta1_url = '''https://itunes.apple.com/au/app/ford-owners/id990342351?mt=8'''
-  cta1_link_name = '''ios1'''
-  cta2_text = '''ANDROID'''
-  cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en/'''
-  cta2_link_name = '''android1'''
-  image = '''owner_app_20160328'''
+  image = '''NZ_edm6_svc_20170607'''
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
