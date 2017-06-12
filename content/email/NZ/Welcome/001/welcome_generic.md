@@ -15,8 +15,41 @@ color='white'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''au_edm1_ecosport_20170612'''
+  image = '''nz_edm1_ecosport_20170612'''
+  
+[[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
 
+  image = '''nz_edm1_mondeo_20170612'''
+
+
+[[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+
+  image = '''nz_edm1_focus_20170612'''
+  
+  
+[[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+
+  image = '''nz_edm1_escape_20170612'''
+  
+  
+[[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+
+  image = '''nz_edm1_everest_20170612'''
+  
+  
+[[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+
+  image = '''nz_edm1_fiesta_20170612'''
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
@@ -29,7 +62,7 @@ color='''white'''
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''au_edm2_svc2_20170612'''
+  image = '''nz_edm2_svc2_20170612'''
 
 
 [[module]] #Cover 01 
@@ -43,7 +76,7 @@ color='white'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''au_edm2_svc1_20170612'''
+  image = '''nz_edm2_svc1_20170612'''
   
 [[module]] #Cover 01 
 path='email_modules/cover/01'
