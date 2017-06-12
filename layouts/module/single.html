@@ -1,30 +1,62 @@
+{{/* pulls the header email module */}}
 {{- partial "email_modules/header" . -}}
-{{- $black := .Site.Data.emails.black -}}
-{{- $fordblue := .Site.Data.emails.fordblue -}}
-{{- $darkblue := .Site.Data.emails.darkblue -}}
-{{- $lightblue := .Site.Data.emails.lightblue -}}
-{{- $green := .Site.Data.emails.green -}}
-{{- $slatescreen := .Site.Data.emails.slatescreen -}}
-{{- $white := .Site.Data.emails.white -}}
-{{- $white_ot := .Site.Data.emails.white_ot -}}
-{{- $darkblue_ot := .Site.Data.emails.darkblue_ot -}}
-{{- $green_pb := .Site.Data.emails.green_pb -}}
-{{- $darkblue_pb := .Site.Data.emails.darkblue_pb -}}
-{{- $white_pb := .Site.Data.emails.white_pb -}}
-{{- $white_gt := .Site.Data.emails.white_gt -}}
-{{- $thaikingblack := .Site.Data.emails.thaikingblack -}}
-{{- $thaikingwhite := .Site.Data.emails.thaikingwhite -}}
-{{- range .Params.module -}}
+
+{{/* defines variable for colors */}}
+{{/* Ford Default */}}
+{{- $black := .Site.Data.emails.ford.default.black -}}
+{{- $fordblue := .Site.Data.emails.ford.default.fordblue -}}
+{{- $darkblue := .Site.Data.emails.ford.default.darkblue -}}
+{{- $lightblue := .Site.Data.emails.ford.default.lightblue -}}
+{{- $green := .Site.Data.emails.ford.default.green -}}
+{{- $slatescreen := .Site.Data.emails.ford.default.slatescreen -}}
+{{- $white := .Site.Data.emails.ford.default.white -}}
+
+{{/* Ford Primary Brand */}}
+{{- $green_pb := .Site.Data.emails.ford.primary_brand.green -}}
+{{- $darkblue_pb := .Site.Data.emails.ford.primary_brand.darkblue -}}
+{{- $white_pb := .Site.Data.emails.ford.primary_brand.white -}}
+
+{{/* Ford Orange Title */}}
+{{- $white_ot := .Site.Data.emails.ford.orange_title.white -}}
+{{- $darkblue_ot := .Site.Data.emails.ford.orange_title.darkblue -}}
+
+{{/* Ford Green Title */}}
+{{- $white_gt := .Site.Data.emails.ford.green_title.white -}}
+
+{{/* Ford Thailand */}}
+{{- $black_th := .Site.Data.emails.ford.th.black_th -}}
+{{- $white_th := .Site.Data.emails.ford.th.white_th -}}
+{{- $grey_th := .Site.Data.emails.ford.th.grey_th -}}
+
+{{/* Ford India */}}
+{{- $white_in := .Site.Data.emails.ford.in.white -}}
+
+{{/* Ford India */}}
+{{- $darkblue_au := .Site.Data.emails.ford.au.darkblue -}}
+
+{{/* Lincoln */}}
+{{- $lincoln_white := .Site.Data.emails.lincoln.white -}}
+{{- $lincoln_black := .Site.Data.emails.lincoln.black -}}
+{{- $lincoln_grey := .Site.Data.emails.lincoln.grey -}}
+
+{{/* end defining of variables for colors, new colors require a new varible here as well as another if statement below */}}
+
+{{/* ranges through the [[modules]] in the template file */}}
+{{ range .Params.module }}
+
+{{/* places a comment into the html file to show when a module begins */}}
 {{"<!--" | safeHTML}}{{ .path }} {{"starts-->" | safeHTML}}
 <p align="center">{{ .path }} with color {{ .color }} </p>
   {{- if eq .color "black" -}}
     {{partial .path (dict "moduleinfo" . "color" $black)}}
-  {{- else if eq .color "thaikingblack" -}}
-    {{partial .path (dict "moduleinfo" . "color" $thaikingblack)}}
+  {{- else if eq .color "black_th" -}}
+    {{partial .path (dict "moduleinfo" . "color" $black_th)}}
   {{- else if eq .color "white" -}}
     {{partial .path (dict "moduleinfo" . "color" $white)}}
-  {{- else if eq .color "thaikingwhite" -}}
-    {{partial .path (dict "moduleinfo" . "color" $thaikingwhite)}}
+  {{- else if eq .color "white_th" -}}
+    {{partial .path (dict "moduleinfo" . "color" $white_th)}}
+  {{- else if eq .color "grey_th" -}}
+    {{partial .path (dict "moduleinfo" . "color" $grey_th)}}
   {{- else if eq .color "fordblue" -}}
     {{partial .path (dict "moduleinfo" . "color" $fordblue)}}
   {{- else if eq .color "darkblue" -}}
@@ -44,14 +76,25 @@
   {{- else if eq .color "green_pb" -}}
     {{partial .path (dict "moduleinfo" . "color" $green_pb)}}
   {{- else if eq .color "white_pb" -}}
-    {{partial .path (dict "moduleinfo" . "color" $white_pb)}} 
+    {{partial .path (dict "moduleinfo" . "color" $white_pb)}}
   {{- else if eq .color "white_gt" -}}
     {{partial .path (dict "moduleinfo" . "color" $white_gt)}}
   {{- else if eq .color "nothing" -}}
     {{partial .path (dict "moduleinfo" . "color" $black)}}
+  {{- else if eq .color "white_in" -}}
+    {{partial .path (dict "moduleinfo" . "color" $white_in)}}
+  {{- else if eq .color "darkblue_au" -}}
+    {{partial .path (dict "moduleinfo" . "color" $darkblue_au)}}
+  {{- else if eq .color "lincoln_white" -}}
+    {{partial .path (dict "moduleinfo" . "color" $lincoln_white)}}
+  {{- else if eq .color "lincoln_black" -}}
+    {{partial .path (dict "moduleinfo" . "color" $lincoln_black)}}
+  {{- else if eq .color "lincoln_grey" -}}
+    {{partial .path (dict "moduleinfo" . "color" $lincoln_grey)}}
   {{- else -}}
     <p style="text-align:center">{{.color}} is not a valid color for module with path: {{.path}}</p>
   {{- end -}}
 {{"<!--" | safeHTML}}{{ .path }} {{"ends-->" | safeHTML}}
 {{- end -}}
+
 {{ partial "email_modules/footer" . }}
