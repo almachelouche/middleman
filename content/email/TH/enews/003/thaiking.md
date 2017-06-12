@@ -67,7 +67,7 @@ color='white'
 
 [[module]] #Split 01
 path='email_modules/split/01'
-color='thaikingblack'
+color='black_th'
 
   title = '''<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">สร้างมาเพื่อเป็นหนึ่ง</span>'''
   copy = '''
@@ -82,7 +82,7 @@ color='thaikingblack'
 
 [[module]] #Split 02
 path='email_modules/split/02'
-color='thaikingwhite'
+color='white_th'
 
   title = '''Ford Smart Mobility'''
   copy = '''
@@ -101,7 +101,7 @@ color='thaikingwhite'
 
 [[module]] #Split 01
 path='email_modules/split/01'
-color='thaikingblack'
+color='black_th'
 
   title = '''<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">สร้างมาเพื่อเป็นหนึ่ง</span>'''
   copy = '''
@@ -116,7 +116,7 @@ color='thaikingblack'
 
 [[module]] #Split 02
 path='email_modules/split/02'
-color='thaikingwhite'
+color='white_th'
 
   title = '''Ford Smart Mobility'''
   copy = '''
@@ -139,7 +139,7 @@ color='white'
 
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
-color='thaikingblack'
+color='black_th'
 
   title = '''Ford Owners App'''
   text1 = '''Want more information, tools, and tips right at your fingertips? Try the Ford Owners App.'''
@@ -156,7 +156,7 @@ color='thaikingblack'
 [[module]]
 path='email_modules/cover/02'
 
-color='''thaikingwhite'''
+color='''white_th'''
 icon='''th_edm3_extendedwarranty_20160921'''
 title='''<span style="font-family:Tahoma, Verdana, Sans-serif">โปรแกรมขับขี่อุ่นใจ</span>'''
 copy='''<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">ขยายระยะเวลาการประกันสูงสุด 5 ปี</span> 
@@ -171,7 +171,7 @@ cta1_link_name = '''ppp'''
 [[module]]
 path='email_modules/cover/02'
 
-color='''thaikinggrey'''
+color='''grey_th'''
 icon='''th_edm1_sync_20160801'''
 title='''<span style="font-family:Tahoma, Verdana, Sans-serif">อัพเดทซอฟต์แวร์ SYNC&trade;</span>'''
 copy='''<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">ติดตั้ง SYNC&trade; เวอร์ชันล่าสุดได้ง่ายๆ</span>
