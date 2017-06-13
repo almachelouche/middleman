@@ -1,7 +1,7 @@
 
 +++
 markets = ["in"]
-title = '''IN Prospect 014 Aspire&Figo RestIndia'''
+title = '''IN Prospect 014 Aspire&Figo PanIndia'''
 
 [[module]]
 path='email_modules/preheader'
