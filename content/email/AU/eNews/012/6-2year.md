@@ -76,7 +76,7 @@ title = '''Time to get personal'''
   cta1_url = '''https://www.ford.com.au/forms/accessories/'''
   cta1_link_name = '''accessories1'''
   cta1_icon = '''more'''
-  image = '''AU_edm6_ranger_20170427'''
+  image = '''AU_edm6_accessories_20170612'''
 
   [[module]] #Split 02
 path='email_modules/split/02'
