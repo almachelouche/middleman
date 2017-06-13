@@ -27,8 +27,8 @@ color='black'
 path='email_modules/custom/enews_topstory'
 color='black'
 
-  title = '''The most affordable Everest ever'''
-	copy = ''' Join us in welcoming the Ford Everest Ambiente RWD to our SUV range. This capable 5-seater boasts the same 3.2L Diesel engine and 3,000&#185;kg towing capacity as its 4WD sibling. Plus with SYNC<sup>®</sup>3 connectivity system, and 8” colour touchscreen, it’s amazing value with the lowest price tag we’ve ever seen on an Everest – from $48,990&#178;!'''
+  title = '''The most affordable Everest ever&#178;'''
+	copy = ''' Join us in welcoming the Ford Everest Ambiente RWD to our SUV range. This capable 5-seater boasts the same 3.2L Diesel engine and 3,000&#185;kg towing capacity as its 4WD sibling. Plus with SYNC<sup>®</sup>3 connectivity system, and 8” colour touchscreen, it’s amazing value with the lowest price tag we’ve ever seen on an Everest – from $48,990 drive away!'''
   cta1_text = '''FIND OUT MORE'''
   cta1_url = '''https://www.ford.com.au/suv/everest/models/ambiente-rwd/?intcmp=vhp-return-model'''
   cta1_link_name = '''everest'''
@@ -91,7 +91,7 @@ color='white'
 
 text='''Disclaimers:<br /><br />
   1. Maximum towing capacity when using a Genuine Ford tow pack. Subject to State and Territory regulations.<br /><br />
-  2. Price is recommended, stock may vary between Dealers.<br /><br />
+  2. Recommended retail price only. Stock may vary between participating dealers.<br /><br />
   3. Vehicles must be purchased by 30/06/17 and delivered by 2/07/17. Participating Dealers only. Stock may vary between Dealers. Private and Blue, Silver and Gold Business Fleet customers only.<br /><br />'''
 
 [[module]] #Footer AU Online
