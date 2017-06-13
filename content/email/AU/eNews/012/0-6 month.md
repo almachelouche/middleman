@@ -31,7 +31,7 @@ segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribu
   title = '''Time to get personal'''
   copy = '''Are you ready to take your off roader to the next level? Get weekend ready with Ford Genuine Accessories, they’re waiting to help you take your vehicle to the limit. Learn why quality matters when it comes to accessories.'''
   cta1_text = '''WATCH NOW'''
-  cta1_url = '''https://www.ford.com.au/forms/accessories/'''
+  cta1_url = '''https://youtu.be/HBeICA1vMeI'''
   cta1_link_name = '''accessories2'''
   cta1_icon = '''more'''
 
@@ -53,7 +53,7 @@ color='white'
 segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribute['Model'] == 'Everest')"]
 
   image = '''AU_edm6_accessories_20170602'''
-  url_link = '''https://www.ford.com.au/forms/accessories/'''
+  url_link = '''https://youtu.be/HBeICA1vMeI'''
 
 [[module]] #Banner Image  #Non Ranger &Everest version
 path='email_modules/image/banner'
