@@ -52,7 +52,7 @@ path='email_modules/image/banner'
 color='white'
 segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribute['Model'] == 'Everest')"]
 
-  image = '''AU_edm6_accessories_20170602'''
+  image = '''AU_edm6_accessories_20170614'''
   url_link = '''https://youtu.be/HBeICA1vMeI'''
 
 [[module]] #Banner Image  #Non Ranger &Everest version
