@@ -33,7 +33,7 @@ segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribu
   cta1_text = '''WATCH NOW'''
   cta1_url = '''https://youtu.be/HBeICA1vMeI'''
   cta1_link_name = '''accessories2'''
-  cta1_icon = '''more'''
+  cta1_icon = '''play'''
 
 [[module]] # eNews Top Story #Non Ranger &Everest version
 path='email_modules/custom/enews_topstory'

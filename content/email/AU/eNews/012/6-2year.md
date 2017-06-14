@@ -62,7 +62,7 @@ title = '''Time to get personal'''
   cta1_text = '''WATCH NOW'''
   cta1_url = '''https://youtu.be/HBeICA1vMeI'''
   cta1_link_name = '''accessories1'''
-  cta1_icon = '''more'''
+  cta1_icon = '''play'''
   image = '''AU_edm6_accessories_20170614'''
 
 [[module]] #Split 01 #NON RANGER AND EVEREST
