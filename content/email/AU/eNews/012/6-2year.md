@@ -63,7 +63,7 @@ title = '''Time to get personal'''
   cta1_url = '''https://youtu.be/HBeICA1vMeI'''
   cta1_link_name = '''accessories1'''
   cta1_icon = '''more'''
-  image = '''AU_edm6_accessories_20170602'''
+  image = '''AU_edm6_accessories_20170614'''
 
 [[module]] #Split 01 #NON RANGER AND EVEREST
 path='email_modules/split/01'
@@ -76,7 +76,7 @@ title = '''Time to get personal'''
   cta1_url = '''https://www.ford.com.au/forms/accessories/'''
   cta1_link_name = '''accessories1'''
   cta1_icon = '''more'''
-  image = '''AU_edm6_accessories_20170612'''
+  image = '''AU_edm6_accessories2_20170614'''
 
   [[module]] #Split 02
 path='email_modules/split/02'
@@ -106,23 +106,6 @@ title = '''Ranger vs Skydiver'''
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
 color='white'
-
-[[module]] #Footer Disclaimer
-path='email_modules/footer/disclaimer'
-color='white'
-segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribute['Model'] == 'Everest')"]
-
-text='''Disclaimers:<br /><br />
-* Everest Titanium shown with optional Ford snorkel and bull bar accessories.<br/><br/>'''
-
-
-[[module]] #Footer Disclaimer
-path='email_modules/footer/disclaimer'
-color='white'
-segmentelse = ["(user.CustomAttribute['Model'] == 'non-Ranger or non-Everest')"]
-
-text='''Disclaimers:<br /><br />
-* Escape Titanium shown with optional Genuine Ford Carry Bars, Slimline Weathershields, Front and Rear Mudspats, and Rhino-Rack locking ski and snowboard carrier (skis, snowboard and bindings not included).<br/><br/>'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'

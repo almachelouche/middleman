@@ -60,7 +60,7 @@ path='email_modules/image/banner'
 color='white'
 segmentelse = ["(user.CustomAttribute['Model'] == 'non-ranger/everest')"]
 
-  image = '''AU_edm6_accessories_20170612'''
+  image = '''AU_edm6_accessories2_20170614'''
   url_link = '''https://www.ford.com.au/forms/accessories/'''
 
 
@@ -108,23 +108,6 @@ color='black'
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
 color='white'
-
-[[module]] #Footer Disclaimer
-path='email_modules/footer/disclaimer'
-color='white'
-segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribute['Model'] == 'Everest')"]
-
-text='''Disclaimers:<br /><br />
-* Everest Titanium shown with optional Ford snorkel and bull bar accessories.<br/><br/>'''
-
-
-[[module]] #Footer Disclaimer
-path='email_modules/footer/disclaimer'
-color='white'
-segmentelse = ["(user.CustomAttribute['Model'] == 'non-ranger/everest')"]
-
-text='''Disclaimers:<br /><br />
-* Escape Titanium shown with optional Genuine Ford Carry Bars, Slimline Weathershields, Front and Rear Mudspats, and Rhino-Rack locking ski and snowboard carrier (skis, snowboard and bindings not included).<br/><br/>'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
