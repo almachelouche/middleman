@@ -74,7 +74,8 @@ path='email_modules/singles/copy'
 color='''white'''
 	
     copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif">
-    <span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">สุดคุ้มกับอะไหล่แท้<br />จากฟอร์ด</span><br /><br />เ<<span style="white-space:nowrap;">เพื่อให้สมรรถนะรถฟอร์ดของคุณ</span> 
+    <span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">สุดคุ้มกับอะไหล่แท้<br />จากฟอร์ด</span><br /><br />
+    <span style="white-space:nowrap;">เพื่อให้สมรรถนะรถฟอร์ดของคุณ</span> 
     <span style="white-space:nowrap;">ทำงานได้อย่างเต็มประสิทธิภาพ</span><br /> 
     <span style="white-space:nowrap;">ฟอร์ดมีข้อเสนอสุดคุ้ม</span> 
     <span style="white-space:nowrap;">เมื่อคุณซื้ออะไหล่แท้จากฟอร์ด</span><br /> 
