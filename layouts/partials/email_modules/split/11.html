@@ -5,18 +5,18 @@
          <table width="100%" border="0" cellspacing="0" cellpadding="0">
             <tr>
                <td class="drop" align="left" valign="center">
-                  {{ .moduleinfo.image_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.image_link_name }}" title="" target="_blank" style="color:#FFFFFF; text-decoration:none;"><img class="img_R" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/{{ .moduleinfo.image }}_tile.jpg" width="320"  border="0" style="display:block;"/></a>
+                  {{- .moduleinfo.image_url | printf "<a href=%q" | safeHTML -}} name="{{- .moduleinfo.image_link_name -}}" title="" target="_blank" style="color:#FFFFFF; text-decoration:none;"><img class="img_R" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/{{- .moduleinfo.image -}}_tile.jpg" width="320"  border="0" style="display:block;"/></a>
                </td>
                <td class="drop" align="left" valign="middle">
                   <table width="100%" border="0" cellspacing="0" cellpadding="0">
                      <tr>
                         <td align="left" valign="top" style="color:{{.color.heading2}}; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular; padding-bottom:20px; padding-top:30px; padding-left:30px; padding-right:30px;" class="mobile_align_center">
-                           {{ .moduleinfo.title | safeHTML }}
+                           {{- .moduleinfo.title | safeHTML -}}
                         </td>
                      </tr>
                      <tr>
-                        <td  align="left" valign="top" style="font-Size: 16px; color:{{ .color.txtbody}}; font-family: 'Arial','Helvetica','Sans-Serif'; padding-left:30px; padding-right:30px; padding-bottom:20px; line-height: 21px; mso-line-height-rule:exactly; font-weight: normal; font-style: regular; " class="mobile_align_center">
-                           {{ .moduleinfo.copy | safeHTML }}
+                        <td  align="left" valign="top" style="font-Size: 16px; color:{{- .color.txtbody}}; font-family: 'Arial','Helvetica','Sans-Serif'; padding-left:30px; padding-right:30px; padding-bottom:20px; line-height: 21px; mso-line-height-rule:exactly; font-weight: normal; font-style: regular; " class="mobile_align_center">
+                           {{- .moduleinfo.copy | safeHTML -}}
                         </td>
                      </tr>
                   </table>

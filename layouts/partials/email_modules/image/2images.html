@@ -4,10 +4,10 @@
             <table width="100%" border="0" cellspacing="0" cellpadding="0">
                 <tr>
                     <td align="left" valign="top">
-                        {{ .moduleinfo.image1_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.image1_link_name }}" target="_blank" title=""><img class="img_R" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/block/{{ .moduleinfo.image1 }}.jpg"alt="Image Banner" title="Image Banner" border="0" style="display:block;" width="320" /></a>
+                        {{- .moduleinfo.image1_url | printf "<a href=%q" | safeHTML -}} name="{{- .moduleinfo.image1_link_name -}}" target="_blank" title=""><img class="img_R" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/block/{{- .moduleinfo.image1 -}}.jpg"alt="Image Banner" title="Image Banner" border="0" style="display:block;" width="320" /></a>
                     </td>
                     <td align="left" valign="top">
-                        {{ .moduleinfo.image2_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.image2_link_name }}" target="_blank" title=""><img class="img_R" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/block/{{ .moduleinfo.image2 }}.jpg"alt="Image Banner" title="Image Banner" border="0" style="display:block;" width="320" /></a>
+                        {{- .moduleinfo.image2_url | printf "<a href=%q" | safeHTML -}} name="{{- .moduleinfo.image2_link_name -}}" target="_blank" title=""><img class="img_R" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/block/{{- .moduleinfo.image2 -}}.jpg"alt="Image Banner" title="Image Banner" border="0" style="display:block;" width="320" /></a>
                     </td>
                 </tr>
             </table>

@@ -6,7 +6,7 @@ title = '''TH Welcome First 006 All New Everest'''
 path='email_modules/preheader'
 color='''nothing'''
 
-preheader = '''ฟอร์ดขอขอบคุณที่คุณเลือกเรา ให้เป็นเพื่อนร่วมทางของคุณ เราจะส่งข่าวสาร และข้อมูลกิจกรรมที่เป็นประโยชน์ ให้แก่คุณอย่างต่อเนื่อง เพราะคุณเป็นส่วนหนึ่ง ของครอบครัวฟอร์ด ขอให้คุณมีความสุขกับการขับขี่ Everest ค่ะ '''
+    preheader = '''ฟอร์ดขอขอบคุณที่คุณเลือกเรา ให้เป็นเพื่อนร่วมทางของคุณ เราจะส่งข่าวสาร และข้อมูลกิจกรรมที่เป็นประโยชน์ ให้แก่คุณอย่างต่อเนื่อง เพราะคุณเป็นส่วนหนึ่ง ของครอบครัวฟอร์ด ขอให้คุณมีความสุขกับการขับขี่ Everest ค่ะ '''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -19,18 +19,19 @@ color='white'
 path='email_modules/cover/01'
 color='''white'''
  
-  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><strong>สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></strong><br />ยินดีต้อนรับสู่ครอบครัวฟอร์ด</span>'''
+  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><strong>สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></strong><br />
+  <span style=" white-space:nowrap;">ยินดีต้อนรับ</span>สู่<span style=" white-space:nowrap;">ครอบครัวฟอร์ด</span></span>'''
   copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">ฟอร์ดขอขอบคุณที่คุณเลือกเรา</span>
-<span style=" white-space:nowrap;">ให้เป็นเพื่อนร่วมทางของคุณ</span>
+<span style="white-space:nowrap;">ให้เป็นเพื่อนร่วมทางของคุณ</span>
 <br /><br />
-<span style=" white-space:nowrap;">เราจะส่งข่าวสาร</span>
-<span style=" white-space:nowrap;">และข้อมูลกิจกรรมที่เป็นประโยชน์</span>
-<span style=" white-space:nowrap;">ให้แก่คุณอย่างต่อเนื่อง</span> 
-<span style=" white-space:nowrap;">เพราะคุณเป็นส่วนหนึ่ง</span>
-<span style=" white-space:nowrap;">ของครอบครัวฟอร์ด</span>
+<span style="white-space:nowrap;">เราจะส่งข่าวสาร</span>
+<span style="white-space:nowrap;">และข้อมูลกิจกรรมที่เป็นประโยชน์</span><br />
+<span style="white-space:nowrap;">ให้แก่คุณอย่างต่อเนื่อง</span> 
+<span style="white-space:nowrap;">เพราะคุณเป็นส่วนหนึ่ง</span><br />
+<span style="white-space:nowrap;">ของครอบครัวฟอร์ด</span>
 <br /><br />
-<span style=" white-space:nowrap;">ขอให้คุณมีความสุขกับการขับขี่</span> 
-<span style=" white-space:nowrap;">Everest ค่ะ </span></span>'''
+<span style="white-space:nowrap;">ขอให้คุณมีความสุขกับการขับขี่</span> 
+<span style="white-space:nowrap;">Everest ค่ะ </span></span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -116,8 +117,17 @@ image='''TH_edm1a_everest_fender_flare_20170508'''
 path='email_modules/split/04'
 color='green'
 
-  title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า ประหยัดและคุ้มค่ากว่า </span>'''
-  copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">รับส่วนลดเพิ่มสูงสุด 10% หรือ 3,700 บาท กับโปรแกรมบำรุงรักษารถยนต์ ตามระยะ(SSP)พิเศษรับสิทธิ์ผ่อน 0% นาน 10 เดือน เมื่อชำระผ่านบัตรเครดิตกสิกรไทย ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span>'''
+  title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า</span>'''
+  copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+<span style="white-space:nowrap;">รับส่วนลดเพิ่มสูงสุด 10%</span>
+<span style="white-space:nowrap;">หรือ 3,700 บาท</span> 
+<span style="white-space:nowrap;">กับโปรแกรมบำรุงรักษารถยนต์</span>
+<span style="white-space:nowrap;">ตามระยะ(SSP)</span>
+<span style="white-space:nowrap;">พิเศษรับสิทธิ์</span>
+<span style="white-space:nowrap;">ผ่อน 0% นาน 10 เดือน</span> 
+<span style="white-space:nowrap;">เมื่อชำระผ่าน</span>
+<span style="white-space:nowrap;">บัตรเครดิตกสิกรไทย</span> 
+<span style="white-space:nowrap;">ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span></span>'''
   cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา ></span>'''
 cta1_url='''https://www.ford.co.th/owner/schedule-service/'''
 cta1_icon='''more'''

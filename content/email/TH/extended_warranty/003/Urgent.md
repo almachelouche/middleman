@@ -74,8 +74,15 @@ color='green'
 
   title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ข้อเสนอสุดพิเศษ</span>'''
   copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
-สมัครโปรแกรมขับขี่อุ่นใจ (PPP) รับส่วนลดเพิ่มสูงสุด 30% หรือ 7,800 บาท พิเศษรับสิทธิ์ผ่อน 0%  นาน 10 เดือน เมื่อชำระผ่านบัตรเครดิตกสิกรไทย ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span>'''
-  cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียด></span>'''
+<span style="white-space:nowrap;">สมัครโปรแกรมขับขี่อุ่นใจ (PPP)</span>
+<span style="white-space:nowrap;">รับส่วนลดเพิ่มสูงสุด 30% </span> 
+<span style="white-space:nowrap;">หรือ 7,800 บาท </span>
+<span style="white-space:nowrap;">พิเศษรับสิทธิ์</span>
+<span style="white-space:nowrap;">ผ่อน 0% นาน 10 เดือน</span> 
+<span style="white-space:nowrap;">เมื่อชำระผ่าน</span>
+<span style="white-space:nowrap;">บัตรเครดิตกสิกรไทย</span> 
+<span style="white-space:nowrap;">ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span></span>'''
+  cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียด ></span>'''
 cta1_url='''https://www.ford.co.th/'''
 cta1_icon='''more'''
 cta1_link_name = '''PPP'''

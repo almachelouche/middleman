@@ -4,7 +4,7 @@
     <td align="left" valign="top" style="padding-left:20px; padding-right:20px; padding-top:20px;">
       <table align="left" border="0" cellspacing="0" cellpadding="0">
         <tr>
-          <td align="left" valign="middle" style="color:#91A4B1;font-family:Arial, Verdana, Sans-serif;font-size:12px;">{{ .moduleinfo.copy | safeHTML }}:</td>
+          <td align="left" valign="middle" style="color:#91A4B1;font-family:Arial, Verdana, Sans-serif;font-size:12px;">{{- .moduleinfo.copy | safeHTML -}}:</td>
           <td width="12" align="left" valign="middle" style="font-size:0%;">
             &nbsp;
           </td>
@@ -12,7 +12,7 @@
             <table border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td width="24" align="left" valign="middle" style="font-size:0%;">
-                  <a href="{{ .moduleinfo.twitter_url | safeURL }}" name="twitter_footer" title="Twitter" target="_blank" style="font-size:10px; color:#319AD6; text-decoration:none; text-align:center; font-weight:bold;"><img style="display:block;" border="0" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/twitter.gif" alt="T" width="30" height="30" /></a>
+                  <a href="{{- .moduleinfo.twitter_url | safeURL -}}" name="twitter_footer" title="Twitter" target="_blank" style="font-size:10px; color:#319AD6; text-decoration:none; text-align:center; font-weight:bold;"><img style="display:block;" border="0" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/twitter.gif" alt="T" width="30" height="30" /></a>
                 </td>
               </tr>
             </table></td>
@@ -23,7 +23,7 @@
             <table border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td width="24" align="left" valign="middle" style="font-size:0%;">
-                  <a href="{{ .moduleinfo.facebook_url | safeURL }}" name="facebook_footer" title="Facebook" target="_blank" style="font-size:10px; color:#319AD6; text-decoration:none; text-align:center; font-weight:bold;"><img style="display:block;" border="0" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/facebook.gif" alt="F" width="30" height="30" /></a>
+                  <a href="{{- .moduleinfo.facebook_url | safeURL -}}" name="facebook_footer" title="Facebook" target="_blank" style="font-size:10px; color:#319AD6; text-decoration:none; text-align:center; font-weight:bold;"><img style="display:block;" border="0" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/facebook.gif" alt="F" width="30" height="30" /></a>
                 </td>
               </tr>
             </table>

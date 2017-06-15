@@ -1,5 +1,5 @@
 <!-- Module49 Starts-->
-<table bgcolor="{{ .color.backgroundcolor }}" align="center" class="resize_table_to_320" width="640" border="0" cellspacing="0" cellpadding="0" style="max-width: 640px;">
+<table bgcolor="{{- .color.backgroundcolor -}}" align="center" class="resize_table_to_320" width="640" border="0" cellspacing="0" cellpadding="0" style="max-width: 640px;">
   <tr>
     <td class="drop">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
@@ -8,7 +8,7 @@
             <table align="center" width="100%" cellpadding="0" cellspacing="0" border="0">
               <tr>
                 <td align="middle" valign="top" style="color:{{.color.heading2}}; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;padding-top:30px; padding-left:30px; padding-right:30px;">
-                {{ .moduleinfo.toptitle | safeHTML }}
+                {{- .moduleinfo.toptitle | safeHTML -}}
                 </td>
               </tr>
             </table>
@@ -30,9 +30,9 @@
                         <table width="100%" cellpadding="0" cellspacing="0" border="0">
                           <tr>
 
-                            {{ "<%" | safeHTML }}InsertIf expression="${({{ .moduleinfo.segmentAyellow | safeHTML }})}"%>
+                            {{- "<%" | safeHTML -}}InsertIf expression="${({{- .moduleinfo.segmentAyellow | safeHTML -}})}"%>
 
-                            <td bgcolor="{{ .color.yellowsvcbg }}" width="190" class="drop" valign="top">
+                            <td bgcolor="{{- .color.yellowsvcbg -}}" width="190" class="drop" valign="top">
                               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                 <tr>
                                   <td height="10"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
@@ -43,7 +43,7 @@
                                       <tr>
                                         <td><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                         <td valign="top" align="center">
-                                          <img width="60" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{ .moduleinfo.icon1yellow }}.png" />
+                                          <img width="60" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{- .moduleinfo.icon1yellow -}}.png" />
                                         </td>
                                         <td><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                       </tr>
@@ -54,8 +54,8 @@
                                   <td height="10"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                 </tr>
                                 <tr>
-                                  <td valign="top" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:18px; line-height: 21px; font-weight: normal; font-style: regular; color:{{ .color.yellowtxtreport }};" align="center">
-                                    <strong>{{ .moduleinfo.title1yellow | safeHTML }}</strong><br /><span>{{ .moduleinfo.subtitle1yellow | safeHTML }}</span>
+                                  <td valign="top" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:18px; line-height: 21px; font-weight: normal; font-style: regular; color:{{- .color.yellowtxtreport -}};" align="center">
+                                    <strong>{{- .moduleinfo.title1yellow | safeHTML -}}</strong><br /><span>{{- .moduleinfo.subtitle1yellow | safeHTML -}}</span>
                                   </td>
                                 </tr>
                                 <tr>
@@ -64,10 +64,10 @@
                               </table>
                             </td>
 
-                            {{ "<%" | safeHTML }}/InsertIf%>
-                            {{ "<%" | safeHTML }}InsertElse expression="${({{ .moduleinfo.segmentAred | safeHTML }})}" %>
+                            {{- "<%" | safeHTML -}}/InsertIf%>
+                            {{- "<%" | safeHTML -}}InsertElse expression="${({{- .moduleinfo.segmentAred | safeHTML -}})}" %>
 
-                            <td bgcolor="{{ .color.redsvcbg }}" width="190" class="drop" valign="top">
+                            <td bgcolor="{{- .color.redsvcbg -}}" width="190" class="drop" valign="top">
                               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                 <tr>
                                   <td height="10"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
@@ -78,7 +78,7 @@
                                       <tr>
                                         <td><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                         <td valign="top" align="center">
-                                          <img width="60" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{ .moduleinfo.icon1red }}.png" />
+                                          <img width="60" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{- .moduleinfo.icon1red -}}.png" />
                                         </td>
                                         <td><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                       </tr>
@@ -89,8 +89,8 @@
                                   <td height="10"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                 </tr>
                                 <tr>
-                                  <td valign="top" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:18px; line-height: 21px; font-weight: normal; font-style: regular; color:{{ .color.redtxtreport }};" align="center">
-                                    <strong>{{ .moduleinfo.title1red | safeHTML }}</strong><br /><span>{{ .moduleinfo.subtitle1red | safeHTML }}</span>
+                                  <td valign="top" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:18px; line-height: 21px; font-weight: normal; font-style: regular; color:{{- .color.redtxtreport -}};" align="center">
+                                    <strong>{{- .moduleinfo.title1red | safeHTML -}}</strong><br /><span>{{- .moduleinfo.subtitle1red | safeHTML -}}</span>
                                   </td>
                                 </tr>
                                 <tr>
@@ -99,10 +99,10 @@
                               </table>
                             </td>
 
-                            {{ "<%" | safeHTML }}/InsertElse%>
-                            {{ "<%" | safeHTML }}InsertElse%>
+                            {{- "<%" | safeHTML -}}/InsertElse%>
+                            {{- "<%" | safeHTML -}}InsertElse%>
 
-                            <td bgcolor="{{ .color.greensvcbg }}" width="190" class="drop" valign="top">
+                            <td bgcolor="{{- .color.greensvcbg -}}" width="190" class="drop" valign="top">
                               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                 <tr>
                                   <td height="10"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
@@ -113,7 +113,7 @@
                                       <tr>
                                         <td><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                         <td valign="top" align="center">
-                                          <img width="60" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{ .moduleinfo.icon1green }}.png" />
+                                          <img width="60" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{- .moduleinfo.icon1green -}}.png" />
                                         </td>
                                         <td><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                       </tr>
@@ -124,8 +124,8 @@
                                   <td height="10"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                 </tr>
                                 <tr>
-                                  <td valign="top" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:18px; line-height: 21px; font-weight: normal; font-style: regular; color:{{ .color.greentxtreport }};" align="center">
-                                    <strong>{{ .moduleinfo.title1green | safeHTML }}</strong><br /><span>{{ .moduleinfo.subtitle1green | safeHTML }}</span>
+                                  <td valign="top" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:18px; line-height: 21px; font-weight: normal; font-style: regular; color:{{- .color.greentxtreport -}};" align="center">
+                                    <strong>{{- .moduleinfo.title1green | safeHTML -}}</strong><br /><span>{{- .moduleinfo.subtitle1green | safeHTML -}}</span>
                                   </td>
                                 </tr>
                                 <tr>
@@ -134,12 +134,12 @@
                               </table>
                             </td>
 
-                            {{ "<%" | safeHTML }}/InsertElse%>
+                            {{- "<%" | safeHTML -}}/InsertElse%>
                             <td class="droptest" width="2"></td>
 
-                            {{ "<%" | safeHTML }}InsertIf expression="${({{ .moduleinfo.segmentByellow | safeHTML }})}"%>
+                            {{- "<%" | safeHTML -}}InsertIf expression="${({{- .moduleinfo.segmentByellow | safeHTML -}})}"%>
 
-                            <td bgcolor="{{ .color.yellowsvcbg }}" width="190" class="drop" valign="top">
+                            <td bgcolor="{{- .color.yellowsvcbg -}}" width="190" class="drop" valign="top">
                               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                 <tr>
                                   <td height="10"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
@@ -150,7 +150,7 @@
                                       <tr>
                                         <td><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                         <td valign="top" align="center">
-                                          <img width="60" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{ .moduleinfo.icon2yellow }}.png" />
+                                          <img width="60" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{- .moduleinfo.icon2yellow -}}.png" />
                                         </td>
                                         <td><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                       </tr>
@@ -161,8 +161,8 @@
                                   <td height="10"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                 </tr>
                                 <tr>
-                                  <td valign="top" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:18px; line-height: 21px; font-weight: normal; font-style: regular; color:{{ .color.yellowtxtreport }};" align="center">
-                                    <strong>{{ .moduleinfo.title2yellow | safeHTML }}</strong><br /><span>{{ .moduleinfo.subtitle2yellow | safeHTML }}</span>
+                                  <td valign="top" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:18px; line-height: 21px; font-weight: normal; font-style: regular; color:{{- .color.yellowtxtreport -}};" align="center">
+                                    <strong>{{- .moduleinfo.title2yellow | safeHTML -}}</strong><br /><span>{{- .moduleinfo.subtitle2yellow | safeHTML -}}</span>
                                   </td>
                                 </tr>
                                 <tr>
@@ -171,10 +171,10 @@
                               </table>
                             </td>
 
-                            {{ "<%" | safeHTML }}/InsertIf%>
-                            {{ "<%" | safeHTML }}InsertElse expression="${({{ .moduleinfo.segmentBred | safeHTML }})}" %>
+                            {{- "<%" | safeHTML -}}/InsertIf%>
+                            {{- "<%" | safeHTML -}}InsertElse expression="${({{- .moduleinfo.segmentBred | safeHTML -}})}" %>
 
-                            <td bgcolor="{{ .color.redsvcbg }}" width="190" class="drop" valign="top">
+                            <td bgcolor="{{- .color.redsvcbg -}}" width="190" class="drop" valign="top">
                               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                 <tr>
                                   <td height="10"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
@@ -185,7 +185,7 @@
                                       <tr>
                                         <td><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                         <td valign="top" align="center">
-                                          <img width="60" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{ .moduleinfo.icon2red }}.png" />
+                                          <img width="60" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{- .moduleinfo.icon2red -}}.png" />
                                         </td>
                                         <td><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                       </tr>
@@ -196,8 +196,8 @@
                                   <td height="10"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                 </tr>
                                 <tr>
-                                  <td valign="top" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:18px; line-height: 21px; font-weight: normal; font-style: regular; color:{{ .color.redtxtreport }};" align="center">
-                                    <strong>{{ .moduleinfo.title2red | safeHTML }}</strong><br /><span>{{ .moduleinfo.subtitle2red | safeHTML }}</span>
+                                  <td valign="top" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:18px; line-height: 21px; font-weight: normal; font-style: regular; color:{{- .color.redtxtreport -}};" align="center">
+                                    <strong>{{- .moduleinfo.title2red | safeHTML -}}</strong><br /><span>{{- .moduleinfo.subtitle2red | safeHTML -}}</span>
                                   </td>
                                 </tr>
                                 <tr>
@@ -206,11 +206,11 @@
                               </table>
                             </td>
 
-                            {{ "<%" | safeHTML }}/InsertElse%>
+                            {{- "<%" | safeHTML -}}/InsertElse%>
 
-                            {{ "<%" | safeHTML }}InsertElse%>
+                            {{- "<%" | safeHTML -}}InsertElse%>
 
-                            <td bgcolor="{{ .color.greensvcbg }}" width="190" class="drop" valign="top">
+                            <td bgcolor="{{- .color.greensvcbg -}}" width="190" class="drop" valign="top">
                               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                 <tr>
                                   <td height="10"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
@@ -221,7 +221,7 @@
                                       <tr>
                                         <td><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                         <td valign="top" align="center">
-                                          <img width="60" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{ .moduleinfo.icon2green }}.png" />
+                                          <img width="60" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{- .moduleinfo.icon2green -}}.png" />
                                         </td>
                                         <td><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                       </tr>
@@ -232,8 +232,8 @@
                                   <td height="10"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                 </tr>
                                 <tr>
-                                  <td valign="top" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:18px; line-height: 21px; font-weight: normal; font-style: regular; color:{{ .color.greentxtreport }};" align="center">
-                                    <strong>{{ .moduleinfo.title2green | safeHTML }}</strong><br /><span>{{ .moduleinfo.subtitle2green | safeHTML }}</span>
+                                  <td valign="top" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:18px; line-height: 21px; font-weight: normal; font-style: regular; color:{{- .color.greentxtreport -}};" align="center">
+                                    <strong>{{- .moduleinfo.title2green | safeHTML -}}</strong><br /><span>{{- .moduleinfo.subtitle2green | safeHTML -}}</span>
                                   </td>
                                 </tr>
                                 <tr>
@@ -242,13 +242,13 @@
                               </table>
                             </td>
 
-                            {{ "<%" | safeHTML }}/InsertElse%>
+                            {{- "<%" | safeHTML -}}/InsertElse%>
                             <td class="droptest" width="2" ></td>
 
 
-                            {{ "<%" | safeHTML }}InsertIf expression="${({{ .moduleinfo.segmentCyellow | safeHTML }})}"%>
+                            {{- "<%" | safeHTML -}}InsertIf expression="${({{- .moduleinfo.segmentCyellow | safeHTML -}})}"%>
 
-                            <td bgcolor="{{ .color.yellowsvcbg }}" width="190" class="drop" valign="top">
+                            <td bgcolor="{{- .color.yellowsvcbg -}}" width="190" class="drop" valign="top">
                               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                 <tr>
                                   <td height="10"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
@@ -259,7 +259,7 @@
                                       <tr>
                                         <td><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                         <td valign="top" align="center">
-                                          <img width="60" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{ .moduleinfo.icon3yellow }}.png" />
+                                          <img width="60" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{- .moduleinfo.icon3yellow -}}.png" />
                                         </td>
                                         <td><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                       </tr>
@@ -270,8 +270,8 @@
                                   <td height="10"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                 </tr>
                                 <tr>
-                                  <td valign="top" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:18px; line-height: 21px; font-weight: normal; font-style: regular; color:{{ .color.yellowtxtreport }};" align="center">
-                                    <strong>{{ .moduleinfo.title3yellow | safeHTML }}</strong><br /><span>{{ .moduleinfo.subtitle3yellow | safeHTML }}</span>
+                                  <td valign="top" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:18px; line-height: 21px; font-weight: normal; font-style: regular; color:{{- .color.yellowtxtreport -}};" align="center">
+                                    <strong>{{- .moduleinfo.title3yellow | safeHTML -}}</strong><br /><span>{{- .moduleinfo.subtitle3yellow | safeHTML -}}</span>
                                   </td>
                                 </tr>
                                 <tr>
@@ -280,10 +280,10 @@
                               </table>
                             </td>
 
-                            {{ "<%" | safeHTML }}/InsertIf%>
-                            {{ "<%" | safeHTML }}InsertElse expression="${({{ .moduleinfo.segmentCred | safeHTML }})}" %>
+                            {{- "<%" | safeHTML -}}/InsertIf%>
+                            {{- "<%" | safeHTML -}}InsertElse expression="${({{- .moduleinfo.segmentCred | safeHTML -}})}" %>
 
-                            <td bgcolor="{{ .color.redsvcbg }}" width="190" class="drop" valign="top">
+                            <td bgcolor="{{- .color.redsvcbg -}}" width="190" class="drop" valign="top">
                               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                 <tr>
                                   <td height="10"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
@@ -294,7 +294,7 @@
                                       <tr>
                                         <td><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                         <td valign="top" align="center">
-                                          <img width="60" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{ .moduleinfo.icon3red }}.png" />
+                                          <img width="60" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{- .moduleinfo.icon3red -}}.png" />
                                         </td>
                                         <td><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                       </tr>
@@ -305,8 +305,8 @@
                                   <td height="10"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                 </tr>
                                 <tr>
-                                  <td valign="top" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:18px; line-height: 21px; font-weight: normal; font-style: regular; color:{{ .color.redtxtreport }};" align="center">
-                                    <strong>{{ .moduleinfo.title3red | safeHTML }}</strong><br /><span>{{ .moduleinfo.subtitle3red | safeHTML }}</span>
+                                  <td valign="top" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:18px; line-height: 21px; font-weight: normal; font-style: regular; color:{{- .color.redtxtreport -}};" align="center">
+                                    <strong>{{- .moduleinfo.title3red | safeHTML -}}</strong><br /><span>{{- .moduleinfo.subtitle3red | safeHTML -}}</span>
                                   </td>
                                 </tr>
                                 <tr>
@@ -315,10 +315,10 @@
                               </table>
                             </td>
 
-                            {{ "<%" | safeHTML }}/InsertElse%>
-                            {{ "<%" | safeHTML }}InsertElse%>
+                            {{- "<%" | safeHTML -}}/InsertElse%>
+                            {{- "<%" | safeHTML -}}InsertElse%>
 
-                            <td bgcolor="{{ .color.greensvcbg }}" width="190" class="drop" valign="top">
+                            <td bgcolor="{{- .color.greensvcbg -}}" width="190" class="drop" valign="top">
                               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                 <tr>
                                   <td height="10"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
@@ -329,7 +329,7 @@
                                       <tr>
                                         <td><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                         <td valign="top" align="center">
-                                          <img width="60" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{ .moduleinfo.icon3green }}.png" />
+                                          <img width="60" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/big/{{- .moduleinfo.icon3green -}}.png" />
                                         </td>
                                         <td><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                       </tr>
@@ -340,8 +340,8 @@
                                   <td height="10"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
                                 </tr>
                                 <tr>
-                                  <td valign="top" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:18px; line-height: 21px; font-weight: normal; font-style: regular; color:{{ .color.greentxtreport | safeHTML }};" align="center">
-                                    <strong>{{ .moduleinfo.title3green | safeHTML }}</strong><br /><span>{{ .moduleinfo.subtitle3green | safeHTML }}</span>
+                                  <td valign="top" style="font-family: 'Arial','Helvetica','Sans-Serif'; font-size:18px; line-height: 21px; font-weight: normal; font-style: regular; color:{{- .color.greentxtreport | safeHTML -}};" align="center">
+                                    <strong>{{- .moduleinfo.title3green | safeHTML -}}</strong><br /><span>{{- .moduleinfo.subtitle3green | safeHTML -}}</span>
                                   </td>
                                 </tr>
                                 <tr>
@@ -350,7 +350,7 @@
                               </table>
                             </td>
 
-                            {{ "<%" | safeHTML }}/InsertElse%>
+                            {{- "<%" | safeHTML -}}/InsertElse%>
                           </tr>
                         </table>
                       </td>

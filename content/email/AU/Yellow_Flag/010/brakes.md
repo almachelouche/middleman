@@ -33,8 +33,8 @@ color='''white'''
   cta1_link_name = '''link_name_here'''
 
 [[module]] #AU Service Status Copy
-path='email_modules/custom/au_svcstatus'
-color='darkblue'
+path='email_modules/custom/svcstatus'
+color='darkblue_au'
 
   toptitle='''Your current brakes status'''
   icon1='''au_edm2d_brake1_20170417'''

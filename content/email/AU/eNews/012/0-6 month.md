@@ -6,21 +6,11 @@ title = '''AU Enews 012 0-6 month'''
 path='email_modules/preheader'
 color='''white'''
 
-   preheader='''Have you seen the latest and greatest Genuine Ford accessories? '''
-
-[[module]] #Header eNews #NSW
-path='email_modules/header/enews'
-color='black'
-segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
-
-  title = '''Insider'''
-  date = '''June 2017'''
-  copy = '''IN THIS ISSUE:<br />Genuine Ford Accessories | Vivid Sydney | VIDEO: Brake Tips |Ford Owners App'''
+   preheader='''Check out the latest and greatest Ford accessories'''
 
   [[module]] #Header eNews #non NSW
 path='email_modules/header/enews'
 color='black'
-segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
 
   title = '''Insider'''
   date = '''June 2017'''
@@ -39,19 +29,19 @@ color='black'
 segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribute['Model'] == 'Everest')"]
 
   title = '''Time to get personal'''
-  copy = '''Are you ready to take your off roader to the next level? Get weekend ready with Ford genuine accessories, they’re waiting to help you take your vehicle to the limit. Learn why quality matters when it comes to accessories.'''
+  copy = '''Are you ready to take your off roader to the next level? Get weekend ready with Ford Genuine Accessories, they’re waiting to help you take your vehicle to the limit. Learn why quality matters when it comes to accessories.'''
   cta1_text = '''WATCH NOW'''
-  cta1_url = '''https://www.ford.com.au/forms/accessories/'''
+  cta1_url = '''https://youtu.be/HBeICA1vMeI'''
   cta1_link_name = '''accessories2'''
-  cta1_icon = '''more'''
+  cta1_icon = '''play'''
 
 [[module]] # eNews Top Story #Non Ranger &Everest version
 path='email_modules/custom/enews_topstory'
 color='black'
-segmentelse = ["(user.CustomAttribute['Area'] == 'non-ranger/everest')"]
+segmentelse = ["(user.CustomAttribute['Model'] == 'non-ranger/everest')"]
 
   title = '''Time to get personal'''
-  copy = '''When it comes to personalising your Ford, nothing beats Ford Genuine Accessories. All our accessories undergo years of safety and durability testing, ensuring they integrate perfectly with your Ford.'''
+  copy = '''When it comes to personalising your Ford, nothing beats Ford Genuine Accessories. Genuine accessories undergo years of safety and durability testing, ensuring they integrate perfectly with your Ford.'''
   cta1_text = '''GET ACCESSORISED'''
   cta1_url = '''https://www.ford.com.au/forms/accessories/'''
   cta1_link_name = '''accessories1'''
@@ -62,37 +52,24 @@ path='email_modules/image/banner'
 color='white'
 segmentif = ["(user.CustomAttribute['Model'] == 'Ranger') || (user.CustomAttribute['Model'] == 'Everest')"]
 
-  image = '''AU_edm6_accessories_20170602'''
-  url_link = '''https://www.ford.com.au/forms/accessories/'''
+  image = '''AU_edm6_accessories_20170614'''
+  url_link = '''https://youtu.be/HBeICA1vMeI'''
 
 [[module]] #Banner Image  #Non Ranger &Everest version
 path='email_modules/image/banner'
 color='white'
-segmentelse = ["(user.CustomAttribute['Area'] == 'non-ranger/everest')"]
+segmentelse = ["(user.CustomAttribute['Model'] == 'non-ranger/everest')"]
 
-  image = '''AU_edm6_everest_20170510'''
+  image = '''AU_edm6_accessories2_20170614'''
   url_link = '''https://www.ford.com.au/forms/accessories/'''
 
-[[module]] #Split 01 #NSW
+
+  [[module]] #Split 01
 path='email_modules/split/01'
 color='green'
-segmentif = ["(user.CustomAttribute['Area'] == 'NSW')"]
-
-title = '''Let’s Get Vivid'''
-  copy = '''Ford have joined forces with Vivid Sydney to bring you a stunning festival of art, technology, light, music and ideas. Come and see Sydney at its brightest until June 17, and be sure to check out Ford’s #movefreely installation.'''
-  cta1_text = '''LEARN MORE'''
-  cta1_url = '''https://www.vividsydney.com'''
-  cta1_link_name = '''VIVID'''
-  cta1_icon = '''play'''
-  image = '''AU_edm6_vivid_20170523'''
-
-  [[module]] #Split 01 #non NSW
-path='email_modules/split/01'
-color='green'
-segmentelse = ["(user.CustomAttribute['Area'] == 'non-NSW')"]
 
  title = '''See into the future'''
-  copy = '''Do parcel-delivering drones and autonomous cars sound like science fiction? According to the innovators who attended the Future with Ford event, these life-changing technologies will arrive sooner than you may think. Are you ready?'''
+  copy = '''Do parcel-delivering drones and autonomous cars sound like science fiction? According to the innovators who attended the Future with Ford event, these disruptive technologies are on their way and will change the way we move.'''
   cta1_text = '''LEARN MORE'''
   cta1_url = '''https://www.ford.com.au/about-ford/newsroom/2017/thought-leaders-and-innovators-define-the-mobility-revolution--u/'''
   cta1_link_name = '''innovation'''

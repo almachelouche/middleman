@@ -27,15 +27,16 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี
  <span style="font-family:Tahoma, Verdana, Sans-serif">
           	<span style="white-space:nowrap;">เพื่อรักษารถ &lt;%${user.CustomAttribute['Model']}%&gt;</span> 
             <span style="white-space:nowrap;">ของคุณให้อยู่ในสภาพดี</span>
-            <span style="white-space:nowrap;">และวิ่งได้อย่างเต็มประสิทธิภาพสม่ำเสมอ</span> 
+            <span style="white-space:nowrap;">และวิ่งได้อย่าง</span>เต็ม<span style="white-space:nowrap;">ประสิทธิภาพสม่ำเสมอ</span> 
             <span style="white-space:nowrap;">อย่าลืมนำรถเข้าศูนย์บริการ</span>
             <span style="white-space:nowrap;">เพื่อตรวจเช็คระยะเมื่อครบกำหนด</span>
           </span>
 <br /><br />
 <span style="font-family:Tahoma, Verdana, Sans-serif">
-    <span style="white-space:nowrap;">นัดหมายล่วงหน้าเพื่อเข้ารับบริการได้ทันที</span> <br />
+    <span style="white-space:nowrap;">นัดหมายล่วงหน้า</span>เพื่อ<span style="white-space:nowrap;">เข้ารับบริการได้ทันที</span> <br />
     <span style="white-space:nowrap;">ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%></span> <span style="white-space:nowrap;">(ระหว่างเวลาทำการ)</span><br />
-    <span style="white-space:nowrap;">หรือค้นหาตัวแทนจำหน่ายใกล้บ้านคุณ</span>
+    <span style="white-space:nowrap;">หรือค้นหาตัวแทนจำหน่าย</span><br />
+    <span style="white-space:nowrap;">ใกล้บ้านคุณ</span>
  </span>'''
 
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">โทร <%${user.CustomAttribute['Dealer_Phone']}%></span>'''
@@ -50,7 +51,17 @@ path='email_modules/split/04'
 color='green'
 
   title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า </span>'''
-  copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">รับส่วนลดเพิ่มสูงสุด 10% หรือ 3,700 บาท กับโปรแกรมบำรุงรักษารถยนต์ ตามระยะ(SSP)พิเศษรับสิทธิ์ผ่อน 0%  นาน 10 เดือน เมื่อชำระผ่านบัตรเครดิตกสิกรไทย ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span>'''
+  copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+<span style="white-space:nowrap;">รับส่วนลดเพิ่มสูงสุด 10%</span>
+<span style="white-space:nowrap;">หรือ 3,700 บาท</span> 
+<span style="white-space:nowrap;">กับโปรแกรมบำรุงรักษารถยนต์</span>
+<span style="white-space:nowrap;">ตามระยะ(SSP)</span>
+<span style="white-space:nowrap;">พิเศษรับสิทธิ์</span>
+<span style="white-space:nowrap;">ผ่อน 0% นาน 10 เดือน</span> 
+<span style="white-space:nowrap;">เมื่อชำระผ่าน</span>
+<span style="white-space:nowrap;">บัตรเครดิตกสิกรไทย</span> 
+<span style="white-space:nowrap;">ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span>
+</span>'''
   cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา ></span>'''
 cta1_url='''https://www.ford.co.th/owner/schedule-service/'''
 cta1_icon='''more'''

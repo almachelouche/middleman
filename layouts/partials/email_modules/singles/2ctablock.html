@@ -7,7 +7,7 @@
             <table  border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td height="40" valign="middle" align="center" bgcolor="{{.color.ctablockbg}}" style="padding-left:20px; padding-right:20px; text-align:center; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px;vertical-align: middle;">
-                  {{ .moduleinfo.cta1_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.cta1_link_name }}" target="_blank" title="" style="width:100%; display:block; color:{{.color.ctablocktext}}; text-decoration:none;">{{ .moduleinfo.cta1_text | safeHTML }}</a>
+                  {{- .moduleinfo.cta1_url | printf "<a href=%q" | safeHTML -}} name="{{- .moduleinfo.cta1_link_name -}}" target="_blank" title="" style="width:100%; display:block; color:{{.color.ctablocktext}}; text-decoration:none;">{{- .moduleinfo.cta1_text | safeHTML -}}</a>
                 </td>
               </tr>
               <tr>
@@ -15,7 +15,7 @@
               </tr>
               <tr style="border:1px solid {{.color.ctaoutline}};border-collapse: collapse;">
                 <td height="40" valign="middle" align="center" style="border:1px solid {{.color.ctaoutline}};padding-left:20px; padding-right:20px; text-align:center; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px;vertical-align: middle;">
-                  {{ .moduleinfo.cta2_url | printf "<a href=%q" | safeHTML }} name="{{ .moduleinfo.cta2_link_name }}" target="_blank" title="" style="width:100%; display:block; color:{{.color.ctaoutline}}; text-decoration:none;">{{ .moduleinfo.cta2_text | safeHTML }}</a>
+                  {{- .moduleinfo.cta2_url | printf "<a href=%q" | safeHTML -}} name="{{- .moduleinfo.cta2_link_name -}}" target="_blank" title="" style="width:100%; display:block; color:{{.color.ctaoutline}}; text-decoration:none;">{{- .moduleinfo.cta2_text | safeHTML -}}</a>
                 </td>
               </tr>
             </table>

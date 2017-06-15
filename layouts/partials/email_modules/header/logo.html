@@ -5,7 +5,7 @@
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
           <td align="left" valign="top">
-            {{ .moduleinfo.url_link | printf "<a href=%q" | safeHTML }} name="logo" target="_blank" title="Ford Logo"><img width="320" height="80" class="img_R" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/logos/{{ .moduleinfo.image }}_mobile.png" alt="Ford Logo" title="Ford Logo" border="0" style="display:block;" /></a>
+            {{- .moduleinfo.url_link | printf "<a href=%q" | safeHTML -}} name="logo" target="_blank" title="Ford Logo"><img width="320" height="80" class="img_R" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/logos/{{- .moduleinfo.image -}}_mobile.png" alt="Ford Logo" title="Ford Logo" border="0" style="display:block;" /></a>
           </td>
         </tr>
       </table>

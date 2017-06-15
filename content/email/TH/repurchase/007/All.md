@@ -6,7 +6,7 @@ title = '''TH Repurchase 007 All'''
 path='email_modules/preheader'
 color='''nothing'''
 
-preheader = '''พบข้อเสนอสุดพิเศษกับโปรแกรมบำรุงรักษารถยนต์ตามระยะ (SSP)'''
+preheader = '''พบสุดยอดข้อเสนอสุดพิเศษ สำหรับฟอร์ดคันใหม่ของคุณ'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -65,10 +65,17 @@ color = '''white'''
 path='email_modules/split/03'
 color='green'
 
-title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า </span>'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">รับส่วนลดเพิ่มสูงสุด 10% หรือ 3,700 บาท กับโปรแกรมบำรุงรักษารถยนต์ ตามระยะ(SSP)พิเศษรับสิทธิ์ผ่อน 0% นาน 10 เดือน เมื่อชำระผ่านบัตรเครดิตกสิกรไทย ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span> 
+title='''<span style="font-family:Tahoma, Verdana, Sans-serif">สิทธิพิเศษสำหรับ<br />ลูกค้าฟอร์ด</span>'''
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+  <span style="white-space:nowrap;">เมื่อซื้อรถยนต์ฟอร์ดคันต่อไปทุกรุ่น</span> 
+  <span style="white-space:nowrap;">(ยกเว้นฟอร์ด โฟกัส)</span> 
+  <span style="white-space:nowrap;">รับส่วนลดเพิ่ม 10,000 บาททันที</span> 
+  <span style="white-space:nowrap;">ข้อเสนอสุดพิเศษนี้</span> 
+  <span style="white-space:nowrap;">สำหรับ</span>  
+  <span style="white-space:nowrap;">ริการ 1-30 มิถุนายน พ.ศ. 2560</span> 
+  <span style="white-space:nowrap;">นี้เท่านั้น</span> 
 </span>'''
-cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
+cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ดูเพิ่มเติม</span>'''
 cta1_url='''https://www.ford.co.th/loyaltyprogram2017/'''
 cta1_icon='''more'''
 cta1_link_name = '''special_offer'''

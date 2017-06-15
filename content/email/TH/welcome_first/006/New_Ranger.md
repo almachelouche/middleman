@@ -6,7 +6,7 @@ title = '''TH Welcome First 006 New Ranger'''
 path='email_modules/preheader'
 color='''nothing'''
 
-preheader = '''ฟอร์ดขอขอบคุณที่คุณเลือกเรา ให้เป็นเพื่อนร่วมทางของคุณ เราจะส่งข่าวสาร และข้อมูลกิจกรรมที่เป็นประโยชน์ ให้แก่คุณอย่างต่อเนื่อง เพราะคุณเป็นส่วนหนึ่ง ของครอบครัวฟอร์ด ขอให้คุณมีความสุขกับการขับขี่ Ranger ค่ะ '''
+    preheader = '''ฟอร์ดขอขอบคุณที่คุณเลือกเรา ให้เป็นเพื่อนร่วมทางของคุณ เราจะส่งข่าวสาร และข้อมูลกิจกรรมที่เป็นประโยชน์ ให้แก่คุณอย่างต่อเนื่อง เพราะคุณเป็นส่วนหนึ่ง ของครอบครัวฟอร์ด ขอให้คุณมีความสุขกับการขับขี่ Ranger ค่ะ '''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -143,8 +143,17 @@ image='''TH_edm1a_wildtrak_roller_shutter_20170508'''
 path='email_modules/split/04'
 color='green'
 
-  title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า </span>'''
-  copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">รับส่วนลดเพิ่มสูงสุด 10% หรือ 3,700 บาท กับโปรแกรมบำรุงรักษารถยนต์ ตามระยะ(SSP)พิเศษรับสิทธิ์ผ่อน 0% นาน 10 เดือน เมื่อชำระผ่านบัตรเครดิตกสิกรไทย ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span>'''
+  title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า</span>'''
+  copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+<span style="white-space:nowrap;">รับส่วนลดเพิ่มสูงสุด 10%</span>
+<span style="white-space:nowrap;">หรือ 3,700 บาท</span> 
+<span style="white-space:nowrap;">กับโปรแกรมบำรุงรักษารถยนต์</span>
+<span style="white-space:nowrap;">ตามระยะ(SSP)</span>
+<span style="white-space:nowrap;">พิเศษรับสิทธิ์</span>
+<span style="white-space:nowrap;">ผ่อน 0% นาน 10 เดือน</span> 
+<span style="white-space:nowrap;">เมื่อชำระผ่าน</span>
+<span style="white-space:nowrap;">บัตรเครดิตกสิกรไทย</span> 
+<span style="white-space:nowrap;">ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span></span>'''
   cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา ></span>'''
 cta1_url='''https://www.ford.co.th/owner/schedule-service/'''
 cta1_icon='''more'''
@@ -161,7 +170,8 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" whit
 <span style=" white-space:nowrap;">สำหรับรถใหม่</span><br /><br />
 <span style=" white-space:nowrap;">A: เพราะระบบช่วยเหลือฉุกเฉินของเรา</span>
 <span style=" white-space:nowrap;">ไม่เพียงครอบคลุมการคุ้มครองอะไหล่</span>
-<span style=" white-space:nowrap;">และเครื่องยนต์ตลอดอายุการใช้งานเท่านั้น</span>
+<span style=" white-space:nowrap;">และเครื่องยนต์</span>
+<span style="white-space:nowrap;">ตลอดอายุการใช้งานเท่านั้น</span>
 <span style=" white-space:nowrap;">แต่ยังรวมถึงการช่วยเหลือ</span>
 <span style=" white-space:nowrap;">ในกรณีเหตุฉุกเฉินอื่นๆ</span>
 <span style=" white-space:nowrap;">เช่น</span>

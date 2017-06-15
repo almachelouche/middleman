@@ -69,25 +69,20 @@ color = '''white'''
   image = '''th_edm2_whyfordsvc_20161115'''
   
   
-
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
 	
     copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif">
-    <span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">
-    สุดคุ้มกับอะไหล่แท้จากฟอร์ด</span><br /><br />
-      <span style="white-space:nowrap;">เพื่อให้สมรรถนะรถฟอร์ดของคุณ </span>
-      <span style="white-space:nowrap;">ทำงานได้อย่างเต็มประสิทธิภาพ </span><br />
-      <span style="white-space:nowrap;">ฟอร์ดมีข้อเสนอสุดคุ้ม</span>กับ<span style="white-space:nowrap;">อะไหล่แท้จากฟอร์ด</span>
-    </span>'''
-
-[[module]]
-path='email_modules/singles/copy'
-color='''white'''
-	
-    copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif">
-    <span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">สุดคุ้มกับอะไหล่แท้จากฟอร์ด</span><br /><br />เพื่อให้สมรรถนะรถฟอร์ดของคุณ ทำงานได้อย่างเต็มประสิทธิภาพ ฟอร์ดมีข้อเสนอสุดคุ้มเมื่อคุณซื้ออะไหล่แท้จากฟอร์ด คุณจะได้มีสิทธิ์ร่วมลุ้นรับสิทธิพิเศษ หรือได้รับน้ำยาทำความสะอาดหัวฉีดฟรี ข้อเสนอนี้ถึงวันที่ 31 สิงหาคม 2560 เท่านั้น</span>'''
+    <span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">สุดคุ้มกับอะไหล่แท้<br />จากฟอร์ด</span><br /><br />
+    <span style="white-space:nowrap;">เพื่อให้สมรรถนะรถฟอร์ดของคุณ</span> 
+    <span style="white-space:nowrap;">ทำงานได้อย่างเต็มประสิทธิภาพ</span><br /> 
+    <span style="white-space:nowrap;">ฟอร์ดมีข้อเสนอสุดคุ้ม</span> 
+    <span style="white-space:nowrap;">เมื่อคุณซื้ออะไหล่แท้จากฟอร์ด</span><br /> 
+    <span style="white-space:nowrap;">คุณจะได้มีสิทธิ์ร่วมลุ้นรับสิทธิพิเศษ</span>
+    <span style="white-space:nowrap;">หรือได้รับน้ำยาทำความสะอาดหัวฉีดฟรี</span>
+    <span style="white-space:nowrap;">ข้อเสนอนี้ถึงวันที่ 31 สิงหาคม 2560</span> 
+    <span style="white-space:nowrap;">เท่านั้น</span></span>'''
 
 [[module]] #Custom 3 Icon Text
 path='email_modules/custom/3icon_text'
@@ -119,7 +114,13 @@ color='white'
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
-text='''<span style="font-family:Tahoma, Verdana, Sans-serif">หมายเหตุ:<br />[1] สิทธิพิเศษสำหรับยางรถยนต์กู๊ดเยียร์, ยางรถยนต์มิชลิน และยางรถยนต์บีเอฟกู๊ดริช เท่านั้น<br />[2]สิทธิพิเศษสำหรับยางรถยนต์กู๊ดเยียร์เท่านั้น</span>'''
+text='''<span style="font-family:Tahoma, Verdana, Sans-serif">หมายเหตุ:<br />
+<span style="white-space:nowrap;">[1] สิทธิพิเศษสำหรับยางรถยนต์กู๊ดเยียร์,</span> 
+<span style="white-space:nowrap;">ยางรถยนต์มิชลิน</span> 
+<span style="white-space:nowrap;">และยางรถยนต์บีเอฟกู๊ดริช</span> 
+<span style="white-space:nowrap;">เท่านั้น</span><br />
+
+<span style="white-space:nowrap;">[2]สิทธิพิเศษสำหรับยางรถยนต์กู๊ดเยียร์เท่านั้น</span></span>'''
 
 
 [[module]] #TH Online

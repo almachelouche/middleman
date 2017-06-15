@@ -41,7 +41,7 @@ color='black'
  
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
-color='thaikingblack'
+color='black_th'
 
   title = '''<span style="font-family:Tahoma, Verdana, Sans-serif; font-size: 22px;">
             <span style="white-space:nowrap;">คณะผู้บริหารของฟอร์ด</span>
@@ -92,7 +92,7 @@ color='white'
 
 [[module]] #Split 02
 path='email_modules/split/02'
-color='thaikingwhite'
+color='white_th'
 
 title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;"><span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">5 เทคนิค</span>
 <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">การประหยัดน้ำมัน</span></span>'''
@@ -110,7 +110,7 @@ title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;"><span style="f
 
 [[module]] #Split 01
 path='email_modules/split/01'
-color='thaikingblack'
+color='black_th'
 
   title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
                    <span style="white-space:nowrap;">5 แนวคิดหลักการสัญจร</span><br />
@@ -135,7 +135,7 @@ color='thaikingblack'
 
 [[module]] #Split 02
 path='email_modules/split/02'
-color='thaikingwhite'
+color='white_th'
 
 title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">ทำไมต้องสลับยางรถยนต์?</span>'''
   copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
@@ -159,7 +159,7 @@ color='white'
 [[module]]
 path='email_modules/cover/02'
 
-color='''thaikingwhite'''
+color='''white_th'''
 icon='''th_edm6_extendedwarranty_20161130'''
 title='''<span style="font-family:Tahoma, Verdana, Sans-serif">โปรแกรมขับขี่อุ่นใจ</span>'''
 copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
@@ -176,7 +176,7 @@ cta1_link_name = '''ppp'''
 [[module]]
 path='email_modules/cover/02'
 
-color='''thaikinggrey'''
+color='''grey_th'''
 icon='''th_edm6_sync_20161130'''
 title='''<span style="font-family:Tahoma, Verdana, Sans-serif">อัพเดท SYNC&trade; เวอร์ชันใหม่</span>'''
 copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">

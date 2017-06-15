@@ -124,7 +124,7 @@ color='white'
   icon4_text = '''7 Airbags'''
 
 [[module]] #AU FordOwner Resources
-path='email_modules/custom/au_fordowner_resources'
+path='email_modules/custom/fordowner_resources'
 color='white'
 
 	title = '''Ford Owner Resources'''
@@ -142,8 +142,8 @@ color='white'
 	cta1_icon='''more'''
 
 [[module]] #AU Service Status Copy
-path='email_modules/custom/au_svcstatus'
-color='darkblue'
+path='email_modules/custom/svcstatus'
+color='darkblue_au'
 
   toptitle='''Your current brakes status'''
   icon1='''au_edm2d_brake1_20161115'''
