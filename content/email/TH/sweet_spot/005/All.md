@@ -6,7 +6,7 @@ title = '''TH Sweet Spot 005 All'''
 path='email_modules/preheader'
 color='''nothing'''
 
-	preheader = '''เพลิดเพลินกับส่วนลดมากเมื่อหนังสือที่คุณบำรุงรักษากับฟอร์ด'''
+	preheader = '''พบกับข้อเสนอสุดพิเศษมากมาย ณ ศูนย์บริการฟอร์ด'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -94,7 +94,7 @@ color='white'
   icon2 = '''th_edm6_tyre_20170113'''
   text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">โปรยางสุดคุ้ม</span><br /><br />ซื้อยางกู๊ดเยียร์ 3 เส้น แถม 1 เส้นฟรี<sup>1</sup>.  รับสิทธิ์ผ่อน 0% นาน 6 เดือน ด้วยบัตรเครดิตกสิกรไทย<sup>2</sup>.</span>'''
   icon3 = '''th_edm6_battery_20170113'''
-  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้สุดคุ้ม</span><br /><br />รับฟรี น้ำยาทำความสะอาดหัวฉีดเมื่อซื้อแบตเตอรี่ฟอร์แท้ สำหรับรถฟอร์ดโดยเฉพาะ</span>'''
+  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้สุดคุ้ม</span><br /><br />รับฟรี น้ำยาทำความสะอาดหัวฉีดเมื่อซื้อแบตเตอรี่ฟอร์ดแท้ สำหรับรถฟอร์ดโดยเฉพาะ</span>'''
 
 
 [[module]]
