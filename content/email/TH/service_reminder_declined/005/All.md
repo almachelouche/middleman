@@ -127,7 +127,7 @@ color='white'
   text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้สุดคุ้ม</span><br /><br />
   <span style="white-space:nowrap;">รับฟรี</span> 
   <span style="white-space:nowrap;">น้ำยาทำความสะอาดหัวฉีด</span>
-  <span style="white-space:nowrap;">เมื่อซื้อแบตเตอรี่ฟอร์แท้</span> 
+  <span style="white-space:nowrap;">เมื่อซื้อแบตเตอรี่ฟอร์ดแท้</span> 
   <span style="white-space:nowrap;">สำหรับรถฟอร์ดโดยเฉพาะ</span></span>'''
 
 
