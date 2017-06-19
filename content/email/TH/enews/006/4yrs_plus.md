@@ -89,7 +89,9 @@ cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิ�
 path='email_modules/split/02'
 color='lightblue'
 
-title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">เบรกของคุณยังใช้งานได้ดีหรือไม่?</span>'''
+title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">เ
+<span style="white-space:nowrap;">เบรกของคุณ</span>
+<span style="white-space:nowrap;">ยังใช้งานได้ดีหรือไม่?</span></span>'''
 copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style="white-space:nowrap;">เพราะระบบเบรกนั้น</span> 
 <span style="white-space:nowrap;">ต่างก็มีเสื่อมสภาพไปตามกาลเวลา</span> 
