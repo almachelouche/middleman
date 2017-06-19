@@ -1,6 +1,7 @@
 +++
 markets = ["in"]
 title = '''IN Repurchase 006 Endeavour merged'''
+draft=true
 
 [[module]]
 path='email_modules/preheaderbefore'
