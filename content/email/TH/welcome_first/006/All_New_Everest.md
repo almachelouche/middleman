@@ -139,19 +139,20 @@ path='email_modules/cover/01'
 
 color='slatescreen'
 title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ถาม ตอบ</span>'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">Q: ทำไมจึงต้องมี</span>
-<span style=" white-space:nowrap;">Ford Roadside Assistance</span>
-<span style=" white-space:nowrap;">สำหรับรถใหม่</span><br /><br />
-<span style=" white-space:nowrap;">A: เพราะระบบช่วยเหลือฉุกเฉินของเรา</span>
-<span style=" white-space:nowrap;">ไม่เพียงครอบคลุมการคุ้มครองอะไหล่</span>
-<span style=" white-space:nowrap;">และเครื่องยนต์</span>
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
+<span style="white-space:nowrap;">Q: ทำไมจึงต้องมี</span>
+<span style="white-space:nowrap;">Ford Roadside Assistance</span>
+<span style="white-space:nowrap;">สำหรับรถใหม่</span><br /><br />
+<span style="white-space:nowrap;">A: เพราะระบบช่วยเหลือฉุกเฉินของเรา</span>
+<span style="white-space:nowrap;">ไม่เพียงครอบคลุมการคุ้มครองอะไหล่</span>
+<span style="white-space:nowrap;">และเครื่องยนต์</span>
 <span style="white-space:nowrap;">ตลอดอายุการใช้งานเท่านั้น</span>
-<span style=" white-space:nowrap;">แต่ยังรวมถึงการช่วยเหลือ</span>
-<span style=" white-space:nowrap;">ในกรณีเหตุฉุกเฉินอื่นๆ</span>
-<span style=" white-space:nowrap;">เช่น</span>
-<span style=" white-space:nowrap;">การลืมกุญแจไว้ในรถ</span><br />
-<span style=" white-space:nowrap;">หรือเมื่อน้ำมันหมดกลางทาง เป็นต้น</span></span>'''
-cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">อ่านต่อ</span></span>'''
+<span style="white-space:nowrap;">แต่ยังรวมถึงการช่วยเหลือ</span>
+<span style="white-space:nowrap;">ในกรณีเหตุฉุกเฉินอื่นๆ</span>
+<span style="white-space:nowrap;">เช่น</span>
+<span style="white-space:nowrap;">การลืมกุญแจไว้ในรถ</span><br />
+<span style="white-space:nowrap;">หรือเมื่อน้ำมันหมดกลางทาง เป็นต้น</span></span>'''
+cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">อ่านต่อ</span></span>'''
 cta1_url='''http://on.fb.me/1utXwYz'''
 cta1_link_name = '''QA'''
 cta1_icon='''more'''
