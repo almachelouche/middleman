@@ -6,7 +6,7 @@ pipelines:
     - step:
         script:
           - npm install
-          - wget https://github.com/spf13/hugo/releases/download/v0.20.3/hugo_v0.20.3_Linux-64bit.deb
+          - wget https://github.com/spf13/hugo/releases/download/v0.21/hugo_0.21_Linux-64bit.deb
           - dpkg -i hugo*.deb
           - hugo --baseURL https://hugogtb.herokuapp.com
           - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git master

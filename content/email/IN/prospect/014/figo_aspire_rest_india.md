@@ -1,13 +1,13 @@
 
 +++
 markets = ["in"]
-title = '''IN Prospect 014 Aspire&Figo RestIndia'''
+title = '''IN Prospect 014 Aspire&Figo PanIndia'''
 
 [[module]]
 path='email_modules/preheader'
 color='''nothing'''
 
-	preheader = '''Prices as low as 4.76 lakh with an interest rate of 8.15%.'''
+	preheader = '''Now Ford vehicles are available with early benefit, plus enjoy an interest rate of 8.15% p.a. So why wait? Make a move now!*'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -16,11 +16,13 @@ color='white_pb'
   image = '''white_pb'''
   url_link = '''https://www.india.ford.com/'''
 
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
 
-  image='''in_edm5_gst_figo_aspire_20170606'''
+image='''in_edm5_gst_figo_aspire_20170606'''
+  url_link='''https://www.india.ford.com/offers/'''
+	url_link_name='''offer_banner'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -32,7 +34,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 	
-	copy = '''When you purchase a Ford, you don't just buy a great vehicle – you become part of our family. And family always gets the best deals.<br /><br /> Like prices as low as 4.76 lakh with an interest rate of 8.15%. So don't wait for the GST change. Make a move now!*'''
+	copy = '''When you purchase a Ford, you don't just buy a great vehicle - you become part of our family. And family always gets the best deals.<br /><br />Why wait for GST to avail offer benefit. Now Ford vehicles are available with early benefit, plus enjoy an interest rate of 8.15% p.a. So why wait? Make a move now!*'''
 
 [[module]] #Custom 3 Icon Text
 path='email_modules/custom/3icon_text'
@@ -42,21 +44,20 @@ color='white'
   icon1 = '''in_edm5_power_20161122'''
   text1 = '''<span style="font-weight:bold">Powerful</span><br />73.8kW (100 PS)'''
   icon2 = '''in_edm5_airbags_20161122'''
-  text2 = '''<span style="font-weight:bold">Safe</span><br />Standard Airbags'''
+  text2 = '''<span style="font-weight:bold">Safe</span><br />2 Standard Airbags'''
   icon3 = '''in_edm5_autolamp_20161122'''
   text3 = '''<span style="font-weight:bold">Stylish</span><br />Day Time Running Lamps'''
 
 [[module]]
-path='email_modules/singles/2ctablock'
-color='''white'''
-	
+path='email_modules/singles/2ctablocksideoutline'
+color='''white'''    
 	cta1_text = '''BOOK A TEST DRIVE'''
 	cta1_url = '''https://www.india.ford.com/#/overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-generic.html/'''
 	cta1_link_name = '''test_drive'''
-    cta2_text = '''FIND A DEALER'''
+    cta2_text = '''&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Find A DEALER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'''
 	cta2_url = '''https://www.india.ford.com/locate-dealer/'''
 	cta2_link_name = '''locate_dealer'''
-
+    
 [[module]] #Dual 04
 path='email_modules/dual/04'
 color='white'
@@ -114,7 +115,7 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-  text = '''*Terms & conditions Apply. <br /><br />1. All Prices shown are ex-showroom Delhi for Next-Gen Figo Base Petrol and Ford Aspire Ambiente Petrol. <br /><br />2. Benefit is calculated on the basis of expected Goods and Services Tax ("GST") rate schedule for goods and GST compensation CESS rates ("GST Rates") approved by GST Council in their 14th GST meeting held on May 18, 2017. The benefit is the difference between current Ex-Showroom price and expected Ex-Showroom price based on GST Rates. The benefit is applicable for vehicles booking done between June 1, 2017 to June 30, 2017 with full payment on or before 30th June, 2017. The Benefit will not be applicable on Ford Aspire.<br /><br />3. Interest rate of 8.15% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.<br /><br />4. Offers only valid in Maharashtra, MP and West Bengal.'''
+  text = '''*Terms & conditions Apply. <br /><br />1. Benefit is calculated on the basis of expected Goods and Services Tax ("GST") rate schedule for goods and GST compensation CESS rates ("GST Rates") approved by GST Council in their 14th GST meeting held on May 18, 2017. The benefit is the difference between current Ex-Showroom price and expected Ex-Showroom price based on GST Rates. The benefit is applicable for vehicles booking done between June 1, 2017 to June 30, 2017 with full payment on or before 30th June, 2017. The benefit on Ford Aspire is not applicable in Maharashtra, Madhya Pradesh and West Bengal. <br /><br />2. Interest rate of 8.15% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.<br /><br />3. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.'''
   
   
   

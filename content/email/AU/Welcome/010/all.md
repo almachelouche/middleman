@@ -152,7 +152,7 @@ color='white'
   url_link='''http://google.com'''
 
 [[module]] #AU FordOwner Resources
-path='email_modules/custom/au_fordowner_resources'
+path='email_modules/custom/fordowner_resources'
 color='white'
 
 	title = '''Ford Owner Resources'''

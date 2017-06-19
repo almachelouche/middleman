@@ -119,15 +119,15 @@ color='white'
   icon2 = '''th_edm6_tyre_20170113'''
   text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">โปรยางสุดคุ้ม</span><br /><br />
   <span style="white-space:nowrap;">ซื้อยางกู๊ดเยียร์ 3 เส้น</span> 
-  <span style="white-space:nowrap;">แถม 1 เส้นฟรี<sup>1</sup>.</span>  
+  <span style="white-space:nowrap;">แถม 1 เส้นฟรี<sup>1</sup></span>  
   <span style="white-space:nowrap;">รับสิทธิ์ผ่อน 0%</span>
   <span style="white-space:nowrap;">นาน 6 เดือน</span> 
-  <span style="white-space:nowrap;">ด้วยบัตรเครดิตกสิกรไทย<sup>2</sup>.</span></span>'''
+  <span style="white-space:nowrap;">ด้วยบัตรเครดิตกสิกรไทย<sup>2</sup></span></span>'''
   icon3 = '''th_edm6_battery_20170113'''
   text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้สุดคุ้ม</span><br /><br />
   <span style="white-space:nowrap;">รับฟรี</span> 
   <span style="white-space:nowrap;">น้ำยาทำความสะอาดหัวฉีด</span>
-  <span style="white-space:nowrap;">เมื่อซื้อแบตเตอรี่ฟอร์แท้</span> 
+  <span style="white-space:nowrap;">เมื่อซื้อแบตเตอรี่ฟอร์ดแท้</span> 
   <span style="white-space:nowrap;">สำหรับรถฟอร์ดโดยเฉพาะ</span></span>'''
 
 

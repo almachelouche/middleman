@@ -6,7 +6,7 @@ title = '''TH Sweet Spot 005 All'''
 path='email_modules/preheader'
 color='''nothing'''
 
-	preheader = '''เพลิดเพลินกับส่วนลดมากเมื่อหนังสือที่คุณบำรุงรักษากับฟอร์ด'''
+	preheader = '''พบกับข้อเสนอสุดพิเศษมากมาย ณ ศูนย์บริการฟอร์ด'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -69,25 +69,13 @@ color = '''white'''
   image = '''th_edm2_whyfordsvc_20161115'''
   
   
-
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
 	
     copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif">
-    <span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">
-    สุดคุ้มกับอะไหล่แท้จากฟอร์ด</span><br /><br />
-      <span style="white-space:nowrap;">เพื่อให้สมรรถนะรถฟอร์ดของคุณ </span>
-      <span style="white-space:nowrap;">ทำงานได้อย่างเต็มประสิทธิภาพ </span><br />
-      <span style="white-space:nowrap;">ฟอร์ดมีข้อเสนอสุดคุ้ม</span>กับ<span style="white-space:nowrap;">อะไหล่แท้จากฟอร์ด</span>
-    </span>'''
-
-[[module]]
-path='email_modules/singles/copy'
-color='''white'''
-	
-    copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif">
-    <span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">สุดคุ้มกับอะไหล่แท้<br />จากฟอร์ด</span><br /><br />เ<<span style="white-space:nowrap;">เพื่อให้สมรรถนะรถฟอร์ดของคุณ</span> 
+    <span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">สุดคุ้มกับอะไหล่แท้<br />จากฟอร์ด</span><br /><br />
+    <span style="white-space:nowrap;">เพื่อให้สมรรถนะรถฟอร์ดของคุณ</span> 
     <span style="white-space:nowrap;">ทำงานได้อย่างเต็มประสิทธิภาพ</span><br /> 
     <span style="white-space:nowrap;">ฟอร์ดมีข้อเสนอสุดคุ้ม</span> 
     <span style="white-space:nowrap;">เมื่อคุณซื้ออะไหล่แท้จากฟอร์ด</span><br /> 
@@ -104,9 +92,9 @@ color='white'
   icon1 = '''th_edm6_brake_20170113'''
   text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">ผ้าเบรกสุดคุ้ม</span><br /><br />ซื้อผ้าเบรก Ford-Motorcraft รับฟรี น้ำยาทำความสะอาดหัวฉีด</span>'''
   icon2 = '''th_edm6_tyre_20170113'''
-  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">โปรยางสุดคุ้ม</span><br /><br />ซื้อยางกู๊ดเยียร์ 3 เส้น แถม 1 เส้นฟรี<sup>1</sup>.  รับสิทธิ์ผ่อน 0% นาน 6 เดือน ด้วยบัตรเครดิตกสิกรไทย<sup>2</sup>.</span>'''
+  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">โปรยางสุดคุ้ม</span><br /><br />ซื้อยางกู๊ดเยียร์ 3 เส้น แถม 1 เส้นฟรี<sup>1</sup>  รับสิทธิ์ผ่อน 0% นาน 6 เดือน ด้วยบัตรเครดิตกสิกรไทย<sup>2</sup></span>'''
   icon3 = '''th_edm6_battery_20170113'''
-  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้สุดคุ้ม</span><br /><br />รับฟรี น้ำยาทำความสะอาดหัวฉีดเมื่อซื้อแบตเตอรี่ฟอร์แท้ สำหรับรถฟอร์ดโดยเฉพาะ</span>'''
+  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้สุดคุ้ม</span><br /><br />รับฟรี น้ำยาทำความสะอาดหัวฉีดเมื่อซื้อแบตเตอรี่ฟอร์ดแท้ สำหรับรถฟอร์ดโดยเฉพาะ</span>'''
 
 
 [[module]]
