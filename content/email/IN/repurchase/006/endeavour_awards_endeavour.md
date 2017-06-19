@@ -6,7 +6,7 @@ title = '''IN Repurchase 006 Endeavour'''
 path='email_modules/preheader'
 color='''white'''
 
-	preheader = '''We love having you in the Ford family. And we hope you continue to love driving your Ford Endeavour for as long as possible.<br /><br />But if you're already thinking about an upgrade, we invite you to experience the All-New Endeavour.'''
+	preheader = '''We love having you in the Ford family. And we hope you continue to love driving your Ford Endeavour for as long as possible. But if you're already thinking about an upgrade, we invite you to experience the All-New Endeavour.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -84,22 +84,38 @@ color='''white'''
 	cta1_url = '''https://www.india.ford.com/suvs/endeavour/'''
 	cta1_link_name = '''endeavour_features'''  
   
+  
+[[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+  
+  image = '''in_edm5_edn_model_compare_20170619'''
+
 [[module]]
-path='email_modules/singles/icon'
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+  
+ [[module]]
+path='email_modules/singles/title'
 color='''white'''
 	
-	icon = '''in_edm5_livechat_darkblue_20170411'''
+	title = '''It's going to be a tough choice''' 
+    
+[[module]]
+path='email_modules/spacer/default'
+color='white'
 
-[[module]] #Cover 07
-path='email_modules/cover/02'
+	height="30"
+    
+[[module]]
+path='email_modules/singles/ctablock'
 color='''white'''
-
-  title = '''Ford Live Chat'''
-  copy = '''Have a question now? We've got a team of advisors from 9am to 8pm on Ford chat, for you.'''
-  cta1_text = '''CHAT NOW'''
-  cta1_url = '''https://ford-livechat.s3ae.com/in/chat.php?a=1e4b8&intgroup=c3VwcG9ydA__&hg=Pw__&hcgs=MQ__&htgs=MQ__'''
-  cta1_link_name = '''live_chat'''
-
+	
+	cta1_text = '''MODEL COMPARE'''
+	cta1_url = '''https://www.india.ford.com/suvs/endeavour/endeavour-modelcompare/'''
+	cta1_link_name = '''model_compare'''  
 
 [[module]]
 path='email_modules/spacer/default'
@@ -135,7 +151,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 	
-	copy = '''Name&#58; <%${user['FirstName']}%> <%${user['LastName']}%><br />Email&#58; <%${user.CustomAttribute['RealEmail']}%><br />Phone&#58; <%${user.CustomAttribute['Mobile_Phone']}%><br />Address&#58; <%${user.CustomAttribute['Address_1']}%> <%${user.CustomAttribute['Address_2']}%><br /><br />Anything changed?'''
+	copy = '''Anything changed?'''
     
 [[module]]
 path='email_modules/spacer/default'
