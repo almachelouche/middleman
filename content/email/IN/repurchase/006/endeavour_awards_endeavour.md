@@ -84,44 +84,11 @@ color='''white'''
 	cta1_url = '''https://www.india.ford.com/suvs/endeavour/'''
 	cta1_link_name = '''endeavour_features'''  
   
-  
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-  
-  image = '''in_edm5_edn_model_compare_20170619'''
-
 [[module]]
 path='email_modules/spacer/default'
 color='white'
 
-	height="30"
-  
- [[module]]
-path='email_modules/singles/title'
-color='''white'''
-	
-	title = '''It's going to be a tough choice''' 
-    
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
-    
-[[module]]
-path='email_modules/singles/ctablock'
-color='''white'''
-	
-	cta1_text = '''MODEL COMPARE'''
-	cta1_url = '''https://www.india.ford.com/suvs/endeavour/endeavour-modelcompare/'''
-	cta1_link_name = '''model_compare'''  
-
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
+	height="30"  
 
 [[module]]
 path='email_modules/singles/icon'
@@ -151,7 +118,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 	
-	copy = '''Anything changed?'''
+	copy = '''Name&#58; <%${user['FirstName']}%> <%${user['LastName']}%><br />Email&#58; <%${user.CustomAttribute['RealEmail']}%><br />Phone&#58; <%${user.CustomAttribute['Mobile_Phone']}%><br />Address&#58; <%${user.CustomAttribute['Address_1']}%> <%${user.CustomAttribute['Address_2']}%><br /><br />Anything changed?'''
     
 [[module]]
 path='email_modules/spacer/default'
@@ -169,8 +136,8 @@ color='''white'''
 	cta2_text = '''VISIT OWNER SITE'''
 	cta2_url = '''https://www.india.ford.com/owner/dashboard/#overlay/content/ford/in/en_in/site-wide-content/overlays/form-overlay/login.html/'''
 	cta2_link_name = '''owner_login'''
-    cta1_icon='''more'''
-
+    cta1_icon='''more''' 
+    
 [[module]]
 path='email_modules/footer/5icons'
 color='white'

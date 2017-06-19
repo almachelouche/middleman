@@ -45,7 +45,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 	
-	copy = '''We noticed you've been driving your Ford <%${user.CustomAttribute['Model']}%> for a while now and might be thinking about purchasing a new Ford. <br /><br />We believe in engineering vehicles that can conquer any terrain – like the All-New Endeavour. This year, Endeavour conquered the podiums too, winning India’s most prestigious vehicle awards. <br /><br />Check out Endeavour today. '''
+	copy = '''We noticed you've been driving your Ford <%${user.CustomAttribute['Model']}%> for a while now and might be thinking about purchasing a new Ford. <br /><br />We believe in engineering vehicles that can conquer any terrain - like the All-New Endeavour. This year, Endeavour conquered the podiums too, winning India's most prestigious vehicle awards. <br /><br />Check out Endeavour today. '''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -83,27 +83,43 @@ color='''white'''
 	cta1_url = '''https://www.india.ford.com/suvs/endeavour/'''
 	cta1_link_name = '''endeavour_features'''  
 
+[[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+  
+  image = '''in_edm5_edn_model_compare_20170619'''
+
 [[module]]
 path='email_modules/spacer/default'
 color='white'
 
-	height="30"  
+	height="30"
   
-[[module]]
-path='email_modules/singles/icon'
+ [[module]]
+path='email_modules/singles/title'
 color='''white'''
 	
-	icon = '''in_edm5_livechat_darkblue_20170411'''
+	title = '''It's going to be a tough choice''' 
+    
+[[module]]
+path='email_modules/spacer/default'
+color='white'
 
-[[module]] #Cover 07
-path='email_modules/cover/02'
+	height="30"
+    
+[[module]]
+path='email_modules/singles/ctablock'
 color='''white'''
+	
+	cta1_text = '''MODEL COMPARE'''
+	cta1_url = '''https://www.india.ford.com/suvs/endeavour/endeavour-modelcompare/'''
+	cta1_link_name = '''model_compare'''  
 
-  title = '''Ford Live Chat'''
-  copy = '''Have a question now? We've got a team of advisors from 9am to 8pm on Ford chat, for you.'''
-  cta1_text = '''CHAT NOW'''
-  cta1_url = '''https://ford-livechat.s3ae.com/in/chat.php?a=1e4b8&intgroup=c3VwcG9ydA__&hg=Pw__&hcgs=MQ__&htgs=MQ__'''
-  cta1_link_name = '''live_chat'''
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
 
 [[module]]
 path='email_modules/singles/icon'
@@ -122,18 +138,6 @@ path='email_modules/singles/title'
 color='''white'''
 	
 	title = '''My Ford Profile'''
-    
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
-
-[[module]]
-path='email_modules/singles/copy'
-color='''white'''
-	
-	copy = '''Name&#58; <%${user['FirstName']}%> <%${user['LastName']}%><br />Email&#58; <%${user.CustomAttribute['RealEmail']}%><br />Phone&#58; <%${user.CustomAttribute['Mobile_Phone']}%><br />Address&#58; <%${user.CustomAttribute['Address_1']}%> <%${user.CustomAttribute['Address_2']}%><br /><br />Anything changed?'''
     
 [[module]]
 path='email_modules/spacer/default'
