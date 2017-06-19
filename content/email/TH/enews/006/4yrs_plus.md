@@ -16,12 +16,13 @@ color='black'
   date = '''<span style="font-family:Tahoma, Verdana, Sans-serif">15 มิถุนายน 2560</span>'''
   copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
   พบกับ<br />
-  <span style=" white-space:nowrap;">ฟอร์ด เรนเจอร์สุดแกร่ง</span> | 
-  <span style=" white-space:nowrap;">ฟอร์ด เอเวอร์เรส ปลอดภัยระดับ 5 ดาว</span> | 
-  <span style=" white-space:nowrap;">เทคนิคขับขี่ยามฝนตก</span> | 
-  <span style=" white-space:nowrap;">พบกับ:</span> 
-  <span style=" white-space:nowrap;">ใส่ใจดูแลเบรกของคุณ</span> | 
-  <span style=" white-space:nowrap;">รู้จักกับแอป Ford Owner</span></span>'''
+  <span style="white-space:nowrap;">ฟอร์ด เรนเจอร์สุดแกร่ง</span> | 
+  <span style="white-space:nowrap;">ฟอร์ด เอเวอร์เรส</span> 
+  <span style="white-space:nowrap;">ปลอดภัยระดับ 5 ดาว</span>  | 
+  <span style="white-space:nowrap;">เทคนิคขับขี่ยามฝนตก</span> | 
+  <span style="white-space:nowrap;">พบกับ:</span> 
+  <span style="white-space:nowrap;">ใส่ใจดูแลเบรกของคุณ</span> | 
+  <span style="white-space:nowrap;">รู้จักกับแอป Ford Owner</span></span>'''
   
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -36,8 +37,14 @@ color='black'
 
 title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ฟอร์ด เรนเจอร์สุดแกร่ง</span>'''
 copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style=" white-space:nowrap;">การทดสอบความแข็งแกร่งของฟอร์ดเรนเจอร์ เป็นการทดสอบพิเศษที่ใช้แรงดึงมากถึง4.7G  ความแรงขนาดนี้สามารถทำให้รถฉีกขาดได้ แต่! รถฟอร์ด เรนเจอร์ของเราก็ยังคงไม่เป็นไร
-</span></span>'''
+<span style="white-space:nowrap;">การทดสอบความแข็งแกร่ง</span>
+<span style="white-space:nowrap;">ของฟอร์ดเรนเจอร์</span> 
+<span style="white-space:nowrap;">เป็นการทดสอบพิเศษ</span>
+<span style="white-space:nowrap;">ที่ใช้แรงดึงมากถึง4.7G </span> 
+<span style="white-space:nowrap;">ความแรงขนาดนี้</span>
+<span style="white-space:nowrap;">สามารถทำให้รถฉีกขาดได้</span> 
+<span style="white-space:nowrap;">แต่! รถฟอร์ด เรนเจอร์ของเรา</span> 
+<span style="white-space:nowrap;">ก็ยังคงไม่เป็นไร</span></span>'''
 cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกดูวิดีโอ</span>'''
   cta1_url = '''https://www.facebook.com/FordThailand/videos/1305732896147643/'''
   cta1_link_name = '''Ford_Ranger_Tough'''
@@ -59,9 +66,19 @@ color='white'
 path='email_modules/split/01'
 color='green'
 
-title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ฟอร์ด เอเวอร์เรส ปลอดภัยระดับ 5 ดาว</span>'''
+title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
+<span style="white-space:nowrap;">ฟอร์ด เอเวอร์เรส</span> 
+<span style="white-space:nowrap;">ปลอดภัยระดับ 5 ดาว</span></span>'''
 copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style=" white-space:nowrap;">มาพิสูจน์กัน ว่าฟอร์ด เอเวอร์เรส นั้นถูกสร้างขึ้นมา เพื่อความปลอดภัยสูงสุดตามมาตรฐาน ได้รับการจัดอันดับความปลอดภัยระดับ 5 ดาวจาก ASEAN NCAP เป็นคะแนนสูงสุด!</span></span>''' 
+<span style="white-space:nowrap;">มาพิสูจน์กัน</span> 
+<span style="white-space:nowrap;">ว่าฟอร์ด เอเวอร์เรส </span><br>
+<span style="white-space:nowrap;">นั้นถูกสร้างขึ้นมา</span> 
+<span style="white-space:nowrap;">เพื่อความปลอดภัย</span><br>
+<span style="white-space:nowrap;">สูงสุดตามมาตรฐาน</span> 
+<span style="white-space:nowrap;">ได้รับการจัดอันดับ</span>
+<span style="white-space:nowrap;">ความปลอดภัยระดับ 5 ดาว</span> 
+<span style="white-space:nowrap;">จาก ASEAN NCAP</span> 
+<span style="white-space:nowrap;">เป็นคะแนนสูงสุด!</span></span>''' 
 cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกดูวิดีโอ</span>'''
   cta1_url = '''https://www.youtube.com/watch?v=_udpP_PoEDw'''
   cta1_link_name = '''Asean_Ncap'''
@@ -74,7 +91,13 @@ color='lightblue'
 
 title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">เบรกของคุณยังใช้งานได้ดีหรือไม่?</span>'''
 copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style=" white-space:nowrap;">เพราะระบบเบรกนั้น ต่างก็มีเสื่อมสภาพไปตามกาลเวลา คุณจึงควรใส่ใจดูแลระบบเบรกของรถยนต์ เพื่อลดความเสี่ยงต่ออันตรายที่อาจเกิดขึ้นได้ ด้วยวิธีการดังนี้</span></span> '''
+<span style="white-space:nowrap;">เพราะระบบเบรกนั้น</span> 
+<span style="white-space:nowrap;">ต่างก็มีเสื่อมสภาพไปตามกาลเวลา</span> 
+<span style="white-space:nowrap;">คุณจึงควรใส่ใจดูแล</span>
+<span style="white-space:nowrap;">ระบบเบรกของรถยนต์</span><br />
+<span style="white-space:nowrap;">เพื่อลดความเสี่ยงต่อ</span><span style="white-space:nowrap;">อันตราย</span><br>
+<span style="white-space:nowrap;">ที่อาจเกิดขึ้นได้</span>
+<span style="white-space:nowrap;">ด้วยวิธีการดังนี้</span></span> '''
 cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกดูวิดีโอ</span>'''
   cta1_url = '''https://www.youtube.com/watch?v=jmtNV1-Mwo0&feature=youtu.be'''
   cta1_link_name = '''Care_brakes'''
@@ -87,7 +110,13 @@ color='darkblue'
 
 title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">ขับขี่ให้ปลอดภัยในหน้าฝน</span>'''
 copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style=" white-space:nowrap;">หน้าฝนแบบนี้ คือช่วงเวลาที่ดีที่สุดในการพัฒนาทักษะการขับขี่ของคุณ มาเรียนรู้เทคนิคดีๆ ในการใช้งานนวัตกรรมของฟอร์ดที่จะช่วยให้คุณควบคุมรถได้อย่างปลอดภัยกัน</span></span>'''
+<span style="white-space:nowrap;">หน้าฝนแบบนี้</span>
+<span style="white-space:nowrap;">คือช่วงเวลาที่ดีที่สุด</span></br />
+<span style="white-space:nowrap;">ในการพัฒนาทักษะ</span>การ<span style=" white-space:nowrap;">ขับขี่ของคุณ</span></br /> 
+<span style="white-space:nowrap;">มาเรียนรู้เทคนิคดีๆ</span>
+<span style="white-space:nowrap;">ในการใช้งานนวัตกรรมของฟอร์ด</span> 
+<span style="white-space:nowrap;">ที่จะช่วยให้คุณควบคุมรถ</span>
+<span style="white-space:nowrap;">ได้อย่างปลอดภัยกัน</span></span>'''
 cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">เรียนรู้เพิ่มเติม</span>'''
   cta1_url = '''http://digitalsnippets.ford.com/th/2017/01/safetyintherain/'''
   cta1_link_name = '''ac'''
