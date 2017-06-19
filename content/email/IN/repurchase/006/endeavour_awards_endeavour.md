@@ -33,7 +33,7 @@ color='white'
 path='email_modules/singles/title'
 color='''white'''
 	
-	title = '''Meet the new, award-winning Endeavour'''
+	title = '''Meet the All-New Ford Endeavour'''
 
 
 [[module]]
