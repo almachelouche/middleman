@@ -1,6 +1,6 @@
 +++
 moduletypes = [ "All" ]
-title = 'Headers'
+title = 'Headers Default'
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

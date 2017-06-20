@@ -1,6 +1,6 @@
 +++
 moduletypes = [ "All" ]
-title = 'Customs'
+title = 'Customs Default'
 
 [[module]]
 path='email_modules/preheader'

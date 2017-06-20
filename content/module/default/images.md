@@ -1,6 +1,6 @@
 +++
 moduletypes = [ "All" ]
-title = 'Images'
+title = 'Images Default'
 
 [[module]] #2 Images
 path = '''email_modules/image/2images'''

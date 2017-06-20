@@ -1,6 +1,6 @@
 +++
 moduletypes = [ "All" ]
-title = 'Covers'
+title = 'Covers Default'
 
 [[module]] #Cover 01
 path='email_modules/cover/01'

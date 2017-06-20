@@ -26,7 +26,7 @@
 				{{- if ne .moduleinfo.title1 nil -}}
 					{{- if (gt (len .moduleinfo.title1 ) 0) -}}
             <tr>
-              <td valign="top" style=" font-size:24px; line-height:30px; font-weight:normal; font-style:normal; font-family: 'Arial','Helvetica','Sans-Serif';" align="center" >{{- .moduleinfo.title1 | safeHTML -}}</td>
+              <td valign="top" style="{{ .font.heading2 | safeCSS }}" align="center" >{{- .moduleinfo.title1 | safeHTML -}}</td>
             </tr>
 					{{- end -}}
 				{{- end -}}
@@ -34,7 +34,7 @@
               <td height="20"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
             </tr>
             <tr>
-              <td valign="top" style=" font-size:16px; line-height:21px; font-weight:normal; font-style:normal; font-family: 'Arial','Helvetica','Sans-Serif'; color:#616161;" align="center" >{{- .moduleinfo.copy1 | safeHTML -}}</td>
+              <td valign="top" style=" {{ .font.txtbody | safeCSS }} color:#616161;" align="center" >{{- .moduleinfo.copy1 | safeHTML -}}</td>
             </tr>
 				{{- if ne .moduleinfo.cta1_url nil -}}
 					{{- if (gt (len .moduleinfo.cta1_url ) 0) -}}
@@ -47,7 +47,7 @@
               <td valign="top" align="center" height="40" >
                 <table  border="0" cellspacing="0" cellpadding="0">
                   <tr>
-                    <td height="40" valign="middle" align="center" bgcolor="{{.color.ctablockbg}}" style="padding-left:20px; padding-right:20px; text-align:center; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px;vertical-align: middle;">
+                    <td height="40" valign="middle" align="center" bgcolor="{{.color.ctablockbg}}" style="padding-left:20px; padding-right:20px; text-align:center; vertical-align: middle; {{ .font.ctablocktext | safeCSS }}">
                       {{- .moduleinfo.cta1_url | printf "<a href=%q" | safeHTML -}} name="{{- .moduleinfo.cta1_link_name -}}" target="_blank" title="" style="width:100%; display:block; color:{{.color.ctablocktext}}; text-decoration:none;">{{- .moduleinfo.cta1_text | safeHTML -}}</a>
                     </td>
                   </tr>
@@ -93,7 +93,7 @@
 				{{- if ne .moduleinfo.title2 nil -}}
 					{{- if (gt (len .moduleinfo.title2 ) 0) -}}
             <tr>
-              <td valign="top" style=" font-size:24px; line-height:30px; font-weight:normal; font-style:normal; font-family: 'Arial','Helvetica','Sans-Serif';" align="center"  >{{- .moduleinfo.title2 | safeHTML -}}
+              <td valign="top" style="{{ .font.heading2 | safeCSS }}" align="center"  >{{- .moduleinfo.title2 | safeHTML -}}
               </td>
             </tr>
 					{{- end -}}
@@ -102,7 +102,7 @@
               <td height="20"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
             </tr>
             <tr>
-              <td valign="top" style=" font-size:16px; line-height:21px; font-weight:normal; font-style:normal; font-family: 'Arial','Helvetica','Sans-Serif'; color:#616161;" align="center">{{- .moduleinfo.copy2 | safeHTML -}}</td>
+              <td valign="top" style="{{ .font.txtbody | safeCSS }} color:#616161;" align="center">{{- .moduleinfo.copy2 | safeHTML -}}</td>
             </tr>
 				{{- if ne .moduleinfo.cta2_url nil -}}
 					{{- if (gt (len .moduleinfo.cta2_url ) 0) -}}
@@ -115,7 +115,7 @@
               <td valign="top" align="center" height="40" id="ctablocklightblue">
                 <table  border="0" cellspacing="0" cellpadding="0">
                   <tr>
-                    <td height="40" valign="middle" align="center" bgcolor="{{.color.ctablockbg}}" style="padding-left:20px; padding-right:20px; text-align:center; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px;vertical-align: middle;">
+                    <td height="40" valign="middle" align="center" bgcolor="{{.color.ctablockbg}}" style="padding-left:20px; padding-right:20px; text-align:center;  {{ .font.ctablocktext | safeCSS }} vertical-align: middle;">
                       {{- .moduleinfo.cta2_url | printf "<a href=%q" | safeHTML -}} name="{{- .moduleinfo.cta2_link_name -}}" target="_blank" title="" style="width:100%; display:block; color:{{.color.ctablocktext}}; text-decoration:none;">{{- .moduleinfo.cta2_text | safeHTML -}}</a>
                     </td>
                   </tr>

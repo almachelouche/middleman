@@ -14,13 +14,12 @@
 				{{- if ne .moduleinfo.title nil -}}
 					{{- if (gt (len .moduleinfo.title ) 0) -}}
         <tr>
-          <td style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:{{.color.heading2}}; font-family: 'Arial','Helvetica','Sans-Serif'; padding-bottom:20px;">{{- .moduleinfo.title | safeHTML -}}</td>
+          <td style="padding-bottom:20px; text-align:center; color:{{.color.heading2}}; {{ .font.heading2 | safeCSS }}">{{- .moduleinfo.title | safeHTML -}}</td>
         </tr>
 					{{- end -}}
 				{{- end -}}
         <tr>
-          <td style="text-align:center; color:{{.color.txtbody}}; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px; line-height: 21px;
-          font-weight: normal; font-style: regular; padding-bottom:20px;">{{- .moduleinfo.copy | safeHTML -}}</td>
+          <td style="padding-bottom:20px; text-align:center; color:{{.color.txtbody}}; {{ .font.txtbody | safeCSS }}">{{- .moduleinfo.copy | safeHTML -}}</td>
         </tr>
 				{{- if ne .moduleinfo.cta1_url nil -}}
 					{{- if (gt (len .moduleinfo.cta1_url) 0) -}}
@@ -28,7 +27,7 @@
           <td valign="top" align="center">
             <table  border="0" cellspacing="0" cellpadding="0">
               <tr>
-                <td height="40" valign="middle" align="center" bgcolor="{{.color.ctablockbg}}" style="padding-left:20px; padding-right:20px; text-align:center; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px;vertical-align: middle;">
+                <td height="40" valign="middle" align="center" bgcolor="{{.color.ctablockbg}}" style="padding-left:20px; padding-right:20px; text-align:center; vertical-align: middle; {{ .font.ctablocktext | safeCSS }}">
                   {{- .moduleinfo.cta1_url | printf "<a href=%q" | safeHTML -}} name="{{- .moduleinfo.cta1_link_name -}}" target="_blank" title="" style="width:100%; display:block; color:{{.color.ctablocktext}}; text-decoration:none;">{{- .moduleinfo.cta1_text | safeHTML -}}</a>
                 </td>
               </tr>
@@ -38,7 +37,7 @@
                 <td height="20" style="mso-line-height-rule:exactly;line-height:10px;font-size:10px;"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
               </tr>
               <tr style="border:1px solid {{.color.ctaoutline}};border-collapse: collapse;">
-                <td height="40" valign="middle" align="center" style="border:1px solid {{.color.ctaoutline}};padding-left:20px; padding-right:20px; text-align:center; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px;vertical-align: middle;">
+                <td height="40" valign="middle" align="center" style="padding-left:20px; padding-right:20px; text-align:center; vertical-align: middle; border:1px solid {{.color.ctaoutline}}; {{ .font.ctaoutline | safeCSS }}">
                   {{- .moduleinfo.cta2_url | printf "<a href=%q" | safeHTML -}} name="{{- .moduleinfo.cta2_link_name -}}" target="_blank" title="" style="width:100%; display:block; color:{{.color.ctaoutline}}; text-decoration:none;">{{- .moduleinfo.cta2_text | safeHTML -}}</a>
                 </td>
               </tr>

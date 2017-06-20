@@ -1,6 +1,6 @@
 +++
 moduletypes=[ "all" ]
-title='Splits'
+title='Splits Default'
 
 [[module]] #Split 01
 path='email_modules/split/01'

@@ -1,6 +1,6 @@
 +++
 moduletypes = [ "All" ]
-title = 'Spacers'
+title = 'Spacers Default'
 
 [[module]]
 path='email_modules/spacer/platinum_20'

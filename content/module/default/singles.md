@@ -1,6 +1,6 @@
 +++
 moduletypes = [ "All" ]
-title = 'Singles'
+title = 'Singles Default'
 
 [[module]]
 path='email_modules/singles/ctablock'

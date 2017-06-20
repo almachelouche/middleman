@@ -3,43 +3,55 @@
 
 {{/* defines variable for colors */}}
 {{/* Ford Default */}}
-{{- $black := .Site.Data.emails.ford.default.black -}}
-{{- $fordblue := .Site.Data.emails.ford.default.fordblue -}}
-{{- $darkblue := .Site.Data.emails.ford.default.darkblue -}}
-{{- $lightblue := .Site.Data.emails.ford.default.lightblue -}}
-{{- $green := .Site.Data.emails.ford.default.green -}}
-{{- $slatescreen := .Site.Data.emails.ford.default.slatescreen -}}
-{{- $white := .Site.Data.emails.ford.default.white -}}
+{{- $black := .Site.Data.colors.ford.default.black -}}
+{{- $fordblue := .Site.Data.colors.ford.default.fordblue -}}
+{{- $darkblue := .Site.Data.colors.ford.default.darkblue -}}
+{{- $lightblue := .Site.Data.colors.ford.default.lightblue -}}
+{{- $green := .Site.Data.colors.ford.default.green -}}
+{{- $slatescreen := .Site.Data.colors.ford.default.slatescreen -}}
+{{- $white := .Site.Data.colors.ford.default.white -}}
 
 {{/* Ford Primary Brand */}}
-{{- $green_pb := .Site.Data.emails.ford.primary_brand.green -}}
-{{- $darkblue_pb := .Site.Data.emails.ford.primary_brand.darkblue -}}
-{{- $white_pb := .Site.Data.emails.ford.primary_brand.white -}}
+{{- $green_pb := .Site.Data.colors.ford.primary_brand.green -}}
+{{- $darkblue_pb := .Site.Data.colors.ford.primary_brand.darkblue -}}
+{{- $white_pb := .Site.Data.colors.ford.primary_brand.white -}}
 
 {{/* Ford Orange Title */}}
-{{- $white_ot := .Site.Data.emails.ford.orange_title.white -}}
-{{- $darkblue_ot := .Site.Data.emails.ford.orange_title.darkblue -}}
+{{- $white_ot := .Site.Data.colors.ford.orange_title.white -}}
+{{- $darkblue_ot := .Site.Data.colors.ford.orange_title.darkblue -}}
 
 {{/* Ford Green Title */}}
-{{- $white_gt := .Site.Data.emails.ford.green_title.white -}}
+{{- $white_gt := .Site.Data.colors.ford.green_title.white -}}
 
 {{/* Ford Thailand */}}
-{{- $black_th := .Site.Data.emails.ford.th.black_th -}}
-{{- $white_th := .Site.Data.emails.ford.th.white_th -}}
-{{- $grey_th := .Site.Data.emails.ford.th.grey_th -}}
+{{- $black_th := .Site.Data.colors.ford.th.black_th -}}
+{{- $white_th := .Site.Data.colors.ford.th.white_th -}}
+{{- $grey_th := .Site.Data.colors.ford.th.grey_th -}}
 
 {{/* Ford India */}}
-{{- $white_in := .Site.Data.emails.ford.in.white -}}
+{{- $white_in := .Site.Data.colors.ford.in.white -}}
 
-{{/* Ford India */}}
-{{- $darkblue_au := .Site.Data.emails.ford.au.darkblue -}}
+{{/* Ford Australia */}}
+{{- $darkblue_au := .Site.Data.colors.ford.au.darkblue -}}
 
 {{/* Lincoln */}}
-{{- $lincoln_white := .Site.Data.emails.lincoln.white -}}
-{{- $lincoln_black := .Site.Data.emails.lincoln.black -}}
-{{- $lincoln_grey := .Site.Data.emails.lincoln.grey -}}
+{{- $lincoln_white := .Site.Data.colors.lincoln.white -}}
+{{- $lincoln_black := .Site.Data.colors.lincoln.black -}}
+{{- $lincoln_grey := .Site.Data.colors.lincoln.grey -}}
 
 {{/* end defining of variables for colors, new colors require a new varible here as well as another if statement below */}}
+
+{{/* defines variable for fonts */}}
+{{/* Default */}}
+{{- $default := .Site.Data.fonts.default -}}
+
+{{/* Thailand */}}
+{{- $th := .Site.Data.fonts.th -}}
+
+{{/* South Korea */}}
+{{- $sk := .Site.Data.fonts.sk -}}
+
+{{/* end defining of variables for fonts, new fonts require a new varible here as well as another if statement below */}}
 
 {{/* ranges through the [[modules]] in the template file */}}
 {{ range .Params.module }}
@@ -73,49 +85,173 @@
 
 {{/* sends the color variables from data folder into the partial for use defined by color='COLOR_GOES_HERE' */}}
   {{- if eq .color "black" -}}
-    {{partial .path (dict "moduleinfo" . "color" $black)}}
+    {{- if eq .font "sk" -}}
+      {{partial .path (dict "moduleinfo" . "font" $sk "color" $black)}}
+    {{- else if eq .font "th" -}}
+      {{partial .path (dict "moduleinfo" . "font" $th "color" $black)}}
+    {{- else -}}
+      {{partial .path (dict "moduleinfo" . "font" $default "color" $black)}}
+    {{- end -}}
   {{- else if eq .color "black_th" -}}
-    {{partial .path (dict "moduleinfo" . "color" $black_th)}}
+    {{- if eq .font "sk" -}}
+      {{partial .path (dict "moduleinfo" . "font" $sk "color" $black_th)}}
+    {{- else if eq .font "th" -}}
+      {{partial .path (dict "moduleinfo" . "font" $th "color" $black_th)}}
+    {{- else -}}
+      {{partial .path (dict "moduleinfo" . "font" $default "color" $black_th)}}
+    {{- end -}}
   {{- else if eq .color "white" -}}
-    {{partial .path (dict "moduleinfo" . "color" $white)}}
+    {{- if eq .font "sk" -}}
+      {{partial .path (dict "moduleinfo" . "font" $sk "color" $white)}}
+    {{- else if eq .font "th" -}}
+      {{partial .path (dict "moduleinfo" . "font" $th "color" $white)}}
+    {{- else -}}
+      {{partial .path (dict "moduleinfo" . "font" $default "color" $white)}}
+    {{- end -}}
   {{- else if eq .color "white_th" -}}
-    {{partial .path (dict "moduleinfo" . "color" $white_th)}}
+    {{- if eq .font "sk" -}}
+      {{partial .path (dict "moduleinfo" . "font" $sk "color" $white_th)}}
+    {{- else if eq .font "th" -}}
+      {{partial .path (dict "moduleinfo" . "font" $th "color" $white_th)}}
+    {{- else -}}
+      {{partial .path (dict "moduleinfo" . "font" $default "color" $white_th)}}
+    {{- end -}}
   {{- else if eq .color "grey_th" -}}
-    {{partial .path (dict "moduleinfo" . "color" $grey_th)}}
+    {{- if eq .font "sk" -}}
+      {{partial .path (dict "moduleinfo" . "font" $sk "color" $grey_th)}}
+    {{- else if eq .font "th" -}}
+      {{partial .path (dict "moduleinfo" . "font" $th "color" $grey_th)}}
+    {{- else -}}
+      {{partial .path (dict "moduleinfo" . "font" $default "color" $grey_th)}}
+    {{- end -}}
   {{- else if eq .color "fordblue" -}}
-    {{partial .path (dict "moduleinfo" . "color" $fordblue)}}
+    {{- if eq .font "sk" -}}
+      {{partial .path (dict "moduleinfo" . "font" $sk "color" $fordblue)}}
+    {{- else if eq .font "th" -}}
+      {{partial .path (dict "moduleinfo" . "font" $th "color" $fordblue)}}
+    {{- else -}}
+      {{partial .path (dict "moduleinfo" . "font" $default "color" $fordblue)}}
+    {{- end -}}
   {{- else if eq .color "darkblue" -}}
-    {{partial .path (dict "moduleinfo" . "color" $darkblue)}}
+    {{- if eq .font "sk" -}}
+      {{partial .path (dict "moduleinfo" . "font" $sk "color" $darkblue)}}
+    {{- else if eq .font "th" -}}
+      {{partial .path (dict "moduleinfo" . "font" $th "color" $darkblue)}}
+    {{- else -}}
+      {{partial .path (dict "moduleinfo" . "font" $default "color" $darkblue)}}
+    {{- end -}}
   {{- else if eq .color "lightblue" -}}
-    {{partial .path (dict "moduleinfo" . "color" $lightblue)}}
+    {{- if eq .font "sk" -}}
+      {{partial .path (dict "moduleinfo" . "font" $sk "color" $lightblue)}}
+    {{- else if eq .font "th" -}}
+      {{partial .path (dict "moduleinfo" . "font" $th "color" $lightblue)}}
+    {{- else -}}
+      {{partial .path (dict "moduleinfo" . "font" $default "color" $lightblue)}}
+    {{- end -}}
   {{- else if eq .color "slatescreen" -}}
-    {{partial .path (dict "moduleinfo" . "color" $slatescreen)}}
+    {{- if eq .font "sk" -}}
+      {{partial .path (dict "moduleinfo" . "font" $sk "color" $slatescreen)}}
+    {{- else if eq .font "th" -}}
+      {{partial .path (dict "moduleinfo" . "font" $th "color" $slatescreen)}}
+    {{- else -}}
+      {{partial .path (dict "moduleinfo" . "font" $default "color" $slatescreen)}}
+    {{- end -}}
   {{- else if eq .color "green" -}}
-    {{partial .path (dict "moduleinfo" . "color" $green)}}
+    {{- if eq .font "sk" -}}
+      {{partial .path (dict "moduleinfo" . "font" $sk "color" $green)}}
+    {{- else if eq .font "th" -}}
+      {{partial .path (dict "moduleinfo" . "font" $th "color" $green)}}
+    {{- else -}}
+      {{partial .path (dict "moduleinfo" . "font" $default "color" $green)}}
+    {{- end -}}
   {{- else if eq .color "white_ot" -}}
-    {{partial .path (dict "moduleinfo" . "color" $white_ot)}}
+    {{- if eq .font "sk" -}}
+      {{partial .path (dict "moduleinfo" . "font" $sk "color" $white_ot)}}
+    {{- else if eq .font "th" -}}
+      {{partial .path (dict "moduleinfo" . "font" $th "color" $white_ot)}}
+    {{- else -}}
+      {{partial .path (dict "moduleinfo" . "font" $default "color" $white_ot)}}
+    {{- end -}}
   {{- else if eq .color "darkblue_ot" -}}
-    {{partial .path (dict "moduleinfo" . "color" $darkblue_ot)}}
+    {{- if eq .font "sk" -}}
+      {{partial .path (dict "moduleinfo" . "font" $sk "color" $darkblue_ot)}}
+    {{- else if eq .font "th" -}}
+      {{partial .path (dict "moduleinfo" . "font" $th "color" $darkblue_ot)}}
+    {{- else -}}
+      {{partial .path (dict "moduleinfo" . "font" $default "color" $darkblue_ot)}}
+    {{- end -}}
   {{- else if eq .color "darkblue_pb" -}}
-    {{partial .path (dict "moduleinfo" . "color" $darkblue_pb)}}
+    {{- if eq .font "sk" -}}
+      {{partial .path (dict "moduleinfo" . "font" $sk "color" $darkblue_pb)}}
+    {{- else if eq .font "th" -}}
+      {{partial .path (dict "moduleinfo" . "font" $th "color" $darkblue_pb)}}
+    {{- else -}}
+      {{partial .path (dict "moduleinfo" . "font" $default "color" $darkblue_pb)}}
+    {{- end -}}
   {{- else if eq .color "green_pb" -}}
-    {{partial .path (dict "moduleinfo" . "color" $green_pb)}}
+    {{- if eq .font "sk" -}}
+      {{partial .path (dict "moduleinfo" . "font" $sk "color" $green_pb)}}
+    {{- else if eq .font "th" -}}
+      {{partial .path (dict "moduleinfo" . "font" $th "color" $green_pb)}}
+    {{- else -}}
+      {{partial .path (dict "moduleinfo" . "font" $default "color" $green_pb)}}
+    {{- end -}}
   {{- else if eq .color "white_pb" -}}
-    {{partial .path (dict "moduleinfo" . "color" $white_pb)}}
+    {{- if eq .font "sk" -}}
+      {{partial .path (dict "moduleinfo" . "font" $sk "color" $white_pb)}}
+    {{- else if eq .font "th" -}}
+      {{partial .path (dict "moduleinfo" . "font" $th "color" $white_pb)}}
+    {{- else -}}
+      {{partial .path (dict "moduleinfo" . "font" $default "color" $white_pb)}}
+    {{- end -}}
   {{- else if eq .color "white_gt" -}}
-    {{partial .path (dict "moduleinfo" . "color" $white_gt)}}
-  {{- else if eq .color "nothing" -}}
-    {{partial .path (dict "moduleinfo" . "color" $black)}}
+    {{- if eq .font "sk" -}}
+      {{partial .path (dict "moduleinfo" . "font" $sk "color" $white_gt)}}
+    {{- else if eq .font "th" -}}
+      {{partial .path (dict "moduleinfo" . "font" $th "color" $white_gt)}}
+    {{- else -}}
+      {{partial .path (dict "moduleinfo" . "font" $default "color" $white_gt)}}
+    {{- end -}}
   {{- else if eq .color "white_in" -}}
-    {{partial .path (dict "moduleinfo" . "color" $white_in)}}
+    {{- if eq .font "sk" -}}
+      {{partial .path (dict "moduleinfo" . "font" $sk "color" $white_in)}}
+    {{- else if eq .font "th" -}}
+      {{partial .path (dict "moduleinfo" . "font" $th "color" $white_in)}}
+    {{- else -}}
+      {{partial .path (dict "moduleinfo" . "font" $default "color" $white_in)}}
+    {{- end -}}
   {{- else if eq .color "darkblue_au" -}}
-    {{partial .path (dict "moduleinfo" . "color" $darkblue_au)}}
+    {{- if eq .font "sk" -}}
+      {{partial .path (dict "moduleinfo" . "font" $sk "color" $darkblue_au)}}
+    {{- else if eq .font "th" -}}
+      {{partial .path (dict "moduleinfo" . "font" $th "color" $darkblue_au)}}
+    {{- else -}}
+      {{partial .path (dict "moduleinfo" . "font" $default "color" $darkblue_au)}}
+    {{- end -}}
   {{- else if eq .color "lincoln_white" -}}
-    {{partial .path (dict "moduleinfo" . "color" $lincoln_white)}}
+    {{- if eq .font "sk" -}}
+      {{partial .path (dict "moduleinfo" . "font" $sk "color" $lincoln_white)}}
+    {{- else if eq .font "th" -}}
+      {{partial .path (dict "moduleinfo" . "font" $th "color" $lincoln_white)}}
+    {{- else -}}
+      {{partial .path (dict "moduleinfo" . "font" $default "color" $lincoln_white)}}
+    {{- end -}}
   {{- else if eq .color "lincoln_black" -}}
-    {{partial .path (dict "moduleinfo" . "color" $lincoln_black)}}
+    {{- if eq .font "sk" -}}
+      {{partial .path (dict "moduleinfo" . "font" $sk "color" $lincoln_black)}}
+    {{- else if eq .font "th" -}}
+      {{partial .path (dict "moduleinfo" . "font" $th "color" $lincoln_black)}}
+    {{- else -}}
+      {{partial .path (dict "moduleinfo" . "font" $default "color" $lincoln_black)}}
+    {{- end -}}
   {{- else if eq .color "lincoln_grey" -}}
-    {{partial .path (dict "moduleinfo" . "color" $lincoln_grey)}}
+    {{- if eq .font "sk" -}}
+      {{partial .path (dict "moduleinfo" . "font" $sk "color" $lincoln_grey)}}
+    {{- else if eq .font "th" -}}
+      {{partial .path (dict "moduleinfo" . "font" $th "color" $lincoln_grey)}}
+    {{- else -}}
+      {{partial .path (dict "moduleinfo" . "font" $default "color" $lincoln_grey)}}
+    {{- end -}}
   {{- else -}}
     <p style="text-align:center">{{.color}} is not a valid color for module with path: {{.path}}</p>
   {{- end -}}

@@ -13,14 +13,14 @@
 					<td valign="top" width="50%" dir="ltr" class="full">
 						<table width="100%" border="0" cellspacing="0" cellpadding="0">
 							<tr>
-								<td align="left" valign="top" style="color:{{.color.heading2}}; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular; padding-bottom:20px; padding-top:30px; padding-left:30px; padding-right:30px;-webkit-text-size-adjust: 100%;">
+								<td align="left" valign="top" style="padding-bottom:20px; padding-top:30px; padding-left:30px; padding-right:30px;-webkit-text-size-adjust: 100%; color:{{.color.heading2}}; {{ .font.heading2 | safeCSS }}">
 								{{- .moduleinfo.title | safeHTML -}}
 								</td>
 							</tr>
 							{{- if ne .moduleinfo.copy nil -}}
 								{{- if (gt (len .moduleinfo.copy ) 0) -}}
 							<tr>
-								<td  align="left" valign="top" style="font-Size: 16px; color:{{- .color.txtbody}}; font-family: 'Arial','Helvetica','Sans-Serif'; padding-left:30px; padding-right:30px; padding-bottom:20px; line-height: 21px; mso-line-height-rule:exactly; font-weight: normal; font-style: regular;-webkit-text-size-adjust: 100%;">
+								<td  align="left" valign="top" style="padding-left:30px; padding-right:30px; padding-bottom:20px; line-height: 21px; mso-line-height-rule:exactly; -webkit-text-size-adjust: 100%; color:{{- .color.txtbody}}; {{ .font.txtbody | safeCSS }}">
 								{{- .moduleinfo.copy | safeHTML -}}
 								</td>
 							</tr>
@@ -32,7 +32,7 @@
 								<td align="left" valign="top" style="padding-left:30px; padding-right:30px; padding-bottom:30px;">
 									<table border="0" cellspacing="0" cellpadding="0">
 										<tr>
-											<td align="left" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';">
+											<td align="left" valign="top" style="{{ .font.ctaicontext | safeCSS }}">
 											{{- .moduleinfo.cta1_url | printf "<a href=%q" | safeHTML -}} name="{{- .moduleinfo.cta1_link_name -}}" target="_blank" title="" style="color:{{- .color.ctaicontext -}}; text-decoration:none;-webkit-text-size-adjust: 100%;">{{- .moduleinfo.cta1_text | safeHTML -}}</a>
 										</td>
 										<td align="left" valign="top" style="padding-left:10px;">
@@ -46,7 +46,7 @@
                       </td>
                     </tr>
 										<tr>
-											<td align="left" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';">
+											<td align="left" valign="top" style="{{ .font.ctaicontext | safeCSS }}">
 											{{- .moduleinfo.cta2_url | printf "<a href=%q" | safeHTML -}} name="{{- .moduleinfo.cta2_link_name -}}" target="_blank" title="" style="color:{{- .color.ctaicontext -}}; text-decoration:none;-webkit-text-size-adjust: 100%;">{{- .moduleinfo.cta2_text | safeHTML -}}</a>
 										</td>
 										<td align="left" valign="top" style="padding-left:10px;">

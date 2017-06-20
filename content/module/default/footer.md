@@ -1,6 +1,6 @@
 +++
 moduletypes = [ "All" ]
-title = 'Footers'
+title = 'Footers Default'
 
 [[module]] #Footer 4 Icons
 path='email_modules/footer/4icons'

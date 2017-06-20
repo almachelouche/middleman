@@ -1,6 +1,6 @@
 +++
 moduletypes=[ "all" ]
-title='Duals'
+title='Duals Default'
 
 [[module]] #Dual 01
 path='email_modules/dual/01'
