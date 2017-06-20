@@ -57,7 +57,7 @@
 {{ range .Params.module }}
 
 {{/* places a comment into the html file to show when a module begins */}}
-{{"<!--" | safeHTML}}{{ .path }}{{.color}} {{"starts-->" | safeHTML}}
+{{"<!--" | safeHTML}}{{ .path }} {{.color}} {{"starts-->" | safeHTML}}
 
 {{/* for if segment beginning */}}
 	{{- if ne .segmentif nil -}}
@@ -253,7 +253,13 @@
 			{{partial .path (dict "moduleinfo" . "font" $default "color" $lincoln_grey)}}
 		{{- end -}}
 	{{- else -}}
-		<p style="text-align:center">{{.color}} is not a valid color for module with path: {{.path}}</p>
+		{{- if eq .font "sk" -}}
+			{{partial .path (dict "moduleinfo" . "font" $sk "color" $white)}}
+		{{- else if eq .font "th" -}}
+			{{partial .path (dict "moduleinfo" . "font" $th "color" $white)}}
+		{{- else -}}
+			{{partial .path (dict "moduleinfo" . "font" $default "color" $white)}}
+		{{- end -}}
 	{{- end -}}
 
 	{{/* for if statement ending */}}

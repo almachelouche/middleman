@@ -31,7 +31,7 @@
 {{/* Ford India */}}
 {{- $white_in := .Site.Data.colors.ford.in.white -}}
 
-{{/* Ford India */}}
+{{/* Ford Australia */}}
 {{- $darkblue_au := .Site.Data.colors.ford.au.darkblue -}}
 
 {{/* Lincoln */}}
@@ -48,7 +48,7 @@
 {{/* Thailand */}}
 {{- $th := .Site.Data.fonts.th -}}
 
-{{/* Default */}}
+{{/* South Korea */}}
 {{- $sk := .Site.Data.fonts.sk -}}
 
 {{/* end defining of variables for fonts, new fonts require a new varible here as well as another if statement below */}}
@@ -57,7 +57,7 @@
 {{ range .Params.module }}
 
 {{/* places a comment into the html file to show when a module begins */}}
-{{"<!--" | safeHTML}}{{ .path }} {{"starts-->" | safeHTML}}
+{{"<!--" | safeHTML}}{{ .path }} {{.color}} {{"starts-->" | safeHTML}}
 <p align="center">{{ .path }} with color {{ .color }} </p>
 	{{- if eq .color "black" -}}
 		{{- if eq .font "sk" -}}
@@ -228,7 +228,13 @@
 			{{partial .path (dict "moduleinfo" . "font" $default "color" $lincoln_grey)}}
 		{{- end -}}
 	{{- else -}}
-		<p style="text-align:center">{{.color}} is not a valid color for module with path: {{.path}}</p>
+		{{- if eq .font "sk" -}}
+			{{partial .path (dict "moduleinfo" . "font" $sk "color" $white)}}
+		{{- else if eq .font "th" -}}
+			{{partial .path (dict "moduleinfo" . "font" $th "color" $white)}}
+		{{- else -}}
+			{{partial .path (dict "moduleinfo" . "font" $default "color" $white)}}
+		{{- end -}}
 	{{- end -}}
 
 {{"<!--" | safeHTML}}{{ .path }} {{"ends-->" | safeHTML}}
