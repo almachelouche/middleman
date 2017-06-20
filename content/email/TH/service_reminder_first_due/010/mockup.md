@@ -13,8 +13,8 @@ color='''nothing'''
 path='email_modules/header/logo'
 color='white'
 
-  image = '''white'''
-  url_link = '''https://www.ford.co.th/'''
+	image = '''white'''
+	url_link = '''https://www.ford.co.th/'''
 
 [[module]]
 path='email_modules/cover/02'
@@ -35,38 +35,38 @@ cta2_url_link_name='''find_dealer'''
 path='email_modules/custom/3columntitle3icons'
 color='white'
 
-  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ทำไมต้องศูนย์บริการฟอร์ด?</span>'''
-  icon1 = '''ico_2e_fordsvc_a'''
-  text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">มั่นใจอะไหล่แท้ฟอร์ด</span> 
-                    <span style="white-space:nowrap;">100%</span>  
-                    <span style="white-space:nowrap;">พร้อมการบำรุงรักษารถยนต์</span>
-                    <span style="white-space:nowrap;">อย่างมีประสิทธิภาพ</span>เพื่อ
-                    <span style="white-space:nowrap;">สมรรถนะสูงสุดของรถคุณ</span></span>'''
-  icon2 = '''ico_2e_fordsvc_b'''
-  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">ตรวจเช็คด้วยช่างเทคนิค</span> 
-                    <span style="white-space:nowrap;">ฟอร์ดที่ผ่านการอบรม</span> 
-                    <span style="white-space:nowrap;">รวมถึงเครื่องมือและอุปกรณ์</span> 
-                    <span style="white-space:nowrap;">ทันสมัยที่ออกแบบมาเพื่อ</span>
-                    <span style="white-space:nowrap;">รถฟอร์ดโดยเฉพาะ</span></span>'''
-  icon3 = '''ico_2e_fordsvc_c_th'''
-  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">เก็บบันทึกสถิติรถฟอร์ด</span> 
-                    <span style="white-space:nowrap;">ของคุณอย่างเป็นระบบ</span> 
-                    <span style="white-space:nowrap;">เพื่อเพิ่มมูลค่าในการขายต่อ</span></span>'''
+	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ทำไมต้องศูนย์บริการฟอร์ด?</span>'''
+	icon1 = '''ico_2e_fordsvc_a'''
+	text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">มั่นใจอะไหล่แท้ฟอร์ด</span> 
+										<span style="white-space:nowrap;">100%</span>	
+										<span style="white-space:nowrap;">พร้อมการบำรุงรักษารถยนต์</span>
+										<span style="white-space:nowrap;">อย่างมีประสิทธิภาพ</span>เพื่อ
+										<span style="white-space:nowrap;">สมรรถนะสูงสุดของรถคุณ</span></span>'''
+	icon2 = '''ico_2e_fordsvc_b'''
+	text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">ตรวจเช็คด้วยช่างเทคนิค</span> 
+										<span style="white-space:nowrap;">ฟอร์ดที่ผ่านการอบรม</span> 
+										<span style="white-space:nowrap;">รวมถึงเครื่องมือและอุปกรณ์</span> 
+										<span style="white-space:nowrap;">ทันสมัยที่ออกแบบมาเพื่อ</span>
+										<span style="white-space:nowrap;">รถฟอร์ดโดยเฉพาะ</span></span>'''
+	icon3 = '''ico_2e_fordsvc_c_th'''
+	text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">เก็บบันทึกสถิติรถฟอร์ด</span> 
+										<span style="white-space:nowrap;">ของคุณอย่างเป็นระบบ</span> 
+										<span style="white-space:nowrap;">เพื่อเพิ่มมูลค่าในการขายต่อ</span></span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''th_edm2_whyfordsvc_20161115'''
+	image = '''th_edm2_whyfordsvc_20161115'''
 
 
 [[module]] #Split 04
 path='email_modules/split/04'
 color='green'
 
-  title='''Save on service'''
-  copy='''Sign up for Ford’s Scheduled Service Packs and enjoy up to 2500 THB discount, or a 0% interest rate when you use a K Bank credit card.'''
-  cta1_text='''FIND OUT MORE'''
+	title='''Save on service'''
+	copy='''Sign up for Ford’s Scheduled Service Packs and enjoy up to 2500 THB discount, or a 0% interest rate when you use a K Bank credit card.'''
+	cta1_text='''FIND OUT MORE'''
 cta1_url='''https://www.ford.co.th/owner/schedule-service/'''
 cta1_icon='''more'''
 cta1_link_name = '''SSP'''
@@ -78,25 +78,25 @@ path='email_modules/dual/03'
 color='white'
 
 title1='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหมายเข้ารับบริการ</span>'''
-  cta1a_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%><br />ได้ที่ <% ${user.CustomAttribute['Dealer_Phone']} %></span>'''
-  cta1a_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''
-  cta1_link_name = ''''''
-  cta1b_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาตัวแทนจำหน่ายใกล้บ้าน<br />คุณ</span>'''
-  cta1b_url='''https://www.ford.co.th/locate-a-dealer/'''
-  cta1b_link_name = '''find_dealer'''
-  icon1='''th_edm2_call_20160801'''
-  
-  title2='''<span style="font-family:Tahoma, Verdana, Sans-serif">ศูนย์ข้อมูลเจ้าของรถ</span>'''
-  copy2='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="color:#616161; font-size:16px">ทุกความช่วยเหลือที่คุณต้องการง่ายๆ</span><br /> 
+	cta1a_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%><br />ได้ที่ <% ${user.CustomAttribute['Dealer_Phone']} %></span>'''
+	cta1a_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''
+	cta1_link_name = ''''''
+	cta1b_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาตัวแทนจำหน่ายใกล้บ้าน<br />คุณ</span>'''
+	cta1b_url='''https://www.ford.co.th/locate-a-dealer/'''
+	cta1b_link_name = '''find_dealer'''
+	icon1='''th_edm2_call_20160801'''
+	
+	title2='''<span style="font-family:Tahoma, Verdana, Sans-serif">ศูนย์ข้อมูลเจ้าของรถ</span>'''
+	copy2='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="color:#616161; font-size:16px">ทุกความช่วยเหลือที่คุณต้องการง่ายๆ</span><br /> 
 <span style="color:#616161; font-size:16px">ในที่เดียว</span> 
 <span style="white-space:nowrap; color:#616161; font-size:16px"> สำหรับเจ้าของรถฟอร์ดเท่านั้น</span></span>'''
 cta2a_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">วิดีโอสาธิตวิธีการใช้งาน<br />คุณสมบัติต่างๆ</span>'''
-  cta2a_url='''https://www.ford.co.th/owner/owner-unauthenticated/'''
-  cta2a_link_name = '''owner_center'''
-  cta2b_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ผลิตภัณฑ์และบริการของฟอร์ด</span>'''
-  cta2b_url='''https://www.ford.co.th/owner/owner-unauthenticated/'''
-  cta2b_link_name = '''owner_center'''
-  icon2='''th_edm2_ownerprofile_20160801'''
+	cta2a_url='''https://www.ford.co.th/owner/owner-unauthenticated/'''
+	cta2a_link_name = '''owner_center'''
+	cta2b_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ผลิตภัณฑ์และบริการของฟอร์ด</span>'''
+	cta2b_url='''https://www.ford.co.th/owner/owner-unauthenticated/'''
+	cta2b_link_name = '''owner_center'''
+	icon2='''th_edm2_ownerprofile_20160801'''
 
 [[module]] #TH Social
 path='email_modules/footer/th/social'

@@ -13,42 +13,42 @@ preheader = '''5 แนวคิดใหม่จากฟอร์ดที่
 path='email_modules/header/enews'
 color='black'
 
-  title = '''Insider'''
-  date = '''<span style="font-family:Tahoma, Verdana, Sans-serif">21 ตุลาคม 2016</span>'''
-  copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">เรื่องน่าสนใจวันนี้:</span><br />
-  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">โลกอนาคตอยู่ใกล้แค่เอื้อม |</span> 
-  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">5แนวคิดหลัก</span><span style="font-family:Tahoma, Verdana, Sans-serif;">ของ</span><span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">แผนการสัญจรอัจฉริยะจากฟอร์ด |</span>
-  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">อัพเดทใหม่จาก SYNC&trade;</span>'''
+	title = '''Insider'''
+	date = '''<span style="font-family:Tahoma, Verdana, Sans-serif">21 ตุลาคม 2016</span>'''
+	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">เรื่องน่าสนใจวันนี้:</span><br />
+	<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">โลกอนาคตอยู่ใกล้แค่เอื้อม |</span> 
+	<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">5แนวคิดหลัก</span><span style="font-family:Tahoma, Verdana, Sans-serif;">ของ</span><span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">แผนการสัญจรอัจฉริยะจากฟอร์ด |</span>
+	<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">อัพเดทใหม่จาก SYNC&trade;</span>'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
 color='black'
 
-  image = '''black'''
-  url_link = '''https://www.ford.co.th/'''
+	image = '''black'''
+	url_link = '''https://www.ford.co.th/'''
  
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
 color='black'
 
-  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">โลกอนาคตอยู่ใกล้แค่เอื้อม</span>'''
-  copy = ''' <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">อีกไม่นานพาหนะจากฟอร์ด</span>
-    <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">จะสามารถขับเคลื่อนได้ด้วยตัวเอง</span>
-    <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">สามารถจอด</span> 
-    <span style="font-family:Tahoma, Verdana, Sans-serif;">หรือ</span> 
-    <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">มุ่งหน้าสู่จุดหมายโดยไร้คนขับได้</span>
-    <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">ค้นพบเทคโนโลยีแห่งโลกอนาคต</span><span style="font-family:Tahoma, Verdana, Sans-serif;">ได้</span><span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">แล้ววันนี้</span>'''
-  cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกดูวิดีโอ</span>'''
-  cta1_url = '''https://www.facebook.com/FordThailand/videos/1041660529221549/'''
-  cta1_link_name = '''future_of_mobility'''
-  cta1_icon = '''play'''
+	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">โลกอนาคตอยู่ใกล้แค่เอื้อม</span>'''
+	copy = ''' <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">อีกไม่นานพาหนะจากฟอร์ด</span>
+		<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">จะสามารถขับเคลื่อนได้ด้วยตัวเอง</span>
+		<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">สามารถจอด</span> 
+		<span style="font-family:Tahoma, Verdana, Sans-serif;">หรือ</span> 
+		<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">มุ่งหน้าสู่จุดหมายโดยไร้คนขับได้</span>
+		<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">ค้นพบเทคโนโลยีแห่งโลกอนาคต</span><span style="font-family:Tahoma, Verdana, Sans-serif;">ได้</span><span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">แล้ววันนี้</span>'''
+	cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกดูวิดีโอ</span>'''
+	cta1_url = '''https://www.facebook.com/FordThailand/videos/1041660529221549/'''
+	cta1_link_name = '''future_of_mobility'''
+	cta1_icon = '''play'''
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
-  image = '''th_edm6_tomorrow_20160920'''
-  url_link = '''https://www.facebook.com/FordThailand/videos/1041660529221549/'''
+	image = '''th_edm6_tomorrow_20160920'''
+	url_link = '''https://www.facebook.com/FordThailand/videos/1041660529221549/'''
 
 [[module]]
 path='email_modules/spacer/platinum_20'
@@ -58,20 +58,20 @@ color='white'
 path='email_modules/split/02'
 color='lightblue'
 
-  title = '''Ford Smart Mobility'''
-  copy = '''
-  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">เทคโนโลยีทางด้านการขับ</span><span style="font-family:Tahoma, Verdana, Sans-serif;">เคลื่อน</span>
-  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;"> อัจฉริยะของฟอร์ด</span> 
-  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">ด้วยวิสัยทัศน์และ</span>  
-  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">5 แนวคิดหลัก</span><span style="font-family:Tahoma, Verdana, Sans-serif;">สู่</span><span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">โลกอนาคต</span> <span style="font-family:Tahoma, Verdana, Sans-serif;">จาก</span><span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">ฟอร์ด</span>
-  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">จะเปลี่ยนฟอร์ดไปสู่องค์กร</span><span style="font-family:Tahoma, Verdana, Sans-serif;">แห่ง</span><br />
-  <span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">เทคโนโลยีทางด้านพาหนะ</span> <span style="font-family:Tahoma, Verdana, Sans-serif;">และ</span><span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">ขับเคลื่อนอัจฉริยะ</span>
-  '''
-  cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">อ่านเพิ่มเติม</span>'''
-  cta1_url = '''http://digitalsnippets.ford.com/2016/06/the-five-pillars-of-ford-smart-mobility/'''
-  cta1_link_name = '''smart_mobility'''
-  cta1_icon = '''more'''
-  image = '''th_edm6_smartmobility_20160920'''
+	title = '''Ford Smart Mobility'''
+	copy = '''
+	<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">เทคโนโลยีทางด้านการขับ</span><span style="font-family:Tahoma, Verdana, Sans-serif;">เคลื่อน</span>
+	<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;"> อัจฉริยะของฟอร์ด</span> 
+	<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">ด้วยวิสัยทัศน์และ</span>	
+	<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">5 แนวคิดหลัก</span><span style="font-family:Tahoma, Verdana, Sans-serif;">สู่</span><span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">โลกอนาคต</span> <span style="font-family:Tahoma, Verdana, Sans-serif;">จาก</span><span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">ฟอร์ด</span>
+	<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">จะเปลี่ยนฟอร์ดไปสู่องค์กร</span><span style="font-family:Tahoma, Verdana, Sans-serif;">แห่ง</span><br />
+	<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">เทคโนโลยีทางด้านพาหนะ</span> <span style="font-family:Tahoma, Verdana, Sans-serif;">และ</span><span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">ขับเคลื่อนอัจฉริยะ</span>
+	'''
+	cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">อ่านเพิ่มเติม</span>'''
+	cta1_url = '''http://digitalsnippets.ford.com/2016/06/the-five-pillars-of-ford-smart-mobility/'''
+	cta1_link_name = '''smart_mobility'''
+	cta1_icon = '''more'''
+	image = '''th_edm6_smartmobility_20160920'''
 
 [[module]]
 path='email_modules/cover/02'

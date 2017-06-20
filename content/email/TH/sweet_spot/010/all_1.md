@@ -13,15 +13,15 @@ color='''nothing'''
 path='email_modules/header/logo'
 color='white'
 
-  image = '''white'''
-  url_link = '''https://www.ford.co.th/'''
+	image = '''white'''
+	url_link = '''https://www.ford.co.th/'''
 
 [[module]] #Cover 07
 path='email_modules/cover/02'
 color = '''white'''
 
-  title = '''Time for a change'''
-  copy = '''We noticed that you may be driving your Ranger with old, worn-out parts. That’s got us worried.<br /><br />
+	title = '''Time for a change'''
+	copy = '''We noticed that you may be driving your Ranger with old, worn-out parts. That’s got us worried.<br /><br />
 Book a service appointment today and our Ford experts will replace your old battery, tires, brakes, or wiper blades. Together, let’s keep your Ford running at its absolute best. <br /><br />Just call <%${user.CustomAttribute['Dealer_Name']}%> on<br /><br />XXXX XXXX<br /><br />(during business hours)
 '''
 
@@ -33,16 +33,16 @@ cta1_url_link_name='''find_dealer'''
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''th_edm2_whyfordsvc_20161115'''
-  
-  
-  [[module]] #Split 04
+	image = '''th_edm2_whyfordsvc_20161115'''
+	
+	
+	[[module]] #Split 04
 path='email_modules/split/04'
 color='green'
 
-  title='''Big discounts on Ford genuine parts'''
-  copy='''Enjoy big discounts on brakes, batteries and wiper blades. And when you buy three tyres, the fourth tyre will be free. Offer ends <span style="color:#FFF">December 31</span>.'''
-  cta1_text='''CLICK NOW'''
+	title='''Big discounts on Ford genuine parts'''
+	copy='''Enjoy big discounts on brakes, batteries and wiper blades. And when you buy three tyres, the fourth tyre will be free. Offer ends <span style="color:#FFF">December 31</span>.'''
+	cta1_text='''CLICK NOW'''
 cta1_url='''https://www.ford.co.th/serviceq-3-2016/'''
 cta1_icon='''more'''
 cta1_link_name = '''commodity_offer'''

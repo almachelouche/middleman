@@ -7,14 +7,14 @@ title = '''SK Ford Anniversary 001'''
 path='email_modules/preheader'
 color='''nothing'''
 
-   preheader='''지난 1년간 포드와 함께 해주셔서 진심으로 감사드립니다.'''
+	preheader='''지난 1년간 포드와 함께 해주셔서 진심으로 감사드립니다.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'
 
-  image = '''white'''
-  url_link = '''https://www.ford-korea.com'''
+	image = '''white'''
+	url_link = '''https://www.ford-korea.com'''
 
 [[module]] #Cover 01
 path='email_modules/cover/01'
@@ -23,33 +23,33 @@ color='''white'''
  title = '''<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
  <span style="white-space:nowrap;">언제나 처음의 감동이 계속되도록</span>
  </span>'''
-  copy = '''<span style="font-size:15px;line-height:14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;"><br /><br />
-  <span style="white-space:nowrap;">포드와 함께한 1주년을 축하드립니다.</span><br /><br /><br />
-  <span style="white-space:nowrap;">고객님의 훌륭한 선택에 다시 한번 감사드리며,</span><br /><br />
-  <span style="white-space:nowrap;">지난 1년 동안 더 없는 만족을 누리셨기를 바랍니다.</span><br /><br /><br />
-  <span style="white-space:nowrap;">저희는 앞으로도 가장 가까운 곳에서 변함없이</span><br /><br />
-  <span style="white-space:nowrap;">고객님의 의견을 듣고 신속한 도움을 드릴 것을 약속합니다.</span><br /><br /><br />
-  <span style="white-space:nowrap;">고객님의 모든 기대에 만족하는 포드가 되겠습니다.</span>
-  </span>'''
+	copy = '''<span style="font-size:15px;line-height:14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;"><br /><br />
+	<span style="white-space:nowrap;">포드와 함께한 1주년을 축하드립니다.</span><br /><br /><br />
+	<span style="white-space:nowrap;">고객님의 훌륭한 선택에 다시 한번 감사드리며,</span><br /><br />
+	<span style="white-space:nowrap;">지난 1년 동안 더 없는 만족을 누리셨기를 바랍니다.</span><br /><br /><br />
+	<span style="white-space:nowrap;">저희는 앞으로도 가장 가까운 곳에서 변함없이</span><br /><br />
+	<span style="white-space:nowrap;">고객님의 의견을 듣고 신속한 도움을 드릴 것을 약속합니다.</span><br /><br /><br />
+	<span style="white-space:nowrap;">고객님의 모든 기대에 만족하는 포드가 되겠습니다.</span>
+	</span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''sk_ford_edm3_topmodule_20170523'''
+	image = '''sk_ford_edm3_topmodule_20170523'''
 
 [[module]] #Cover 01
 path='email_modules/cover/01'
 color='''fordblue'''
  
-  title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;"><span style="white-space:nowrap;">24시간 긴급출동 서비스</span></span></span>'''
-  copy = '''<span style="font-size:16px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">
-  <span style="white-space:nowrap;">포드 긴급출동 서비스는</span> 
-  <span style="white-space:nowrap;">365일 24시간 이용 가능합니다.</span><br />
-  <span style="white-space:nowrap;">운전 중 예상치 못한 긴급 상황이 발생하면,</span>
-  <span style="white-space:nowrap;"><a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주세요.</span>
-  </span>'''
-  
+	title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;"><span style="white-space:nowrap;">24시간 긴급출동 서비스</span></span></span>'''
+	copy = '''<span style="font-size:16px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">
+	<span style="white-space:nowrap;">포드 긴급출동 서비스는</span> 
+	<span style="white-space:nowrap;">365일 24시간 이용 가능합니다.</span><br />
+	<span style="white-space:nowrap;">운전 중 예상치 못한 긴급 상황이 발생하면,</span>
+	<span style="white-space:nowrap;"><a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주세요.</span>
+	</span>'''
+	
 [[module]]
 path='email_modules/singles/ctablock'
 color='''fordblue'''
@@ -57,52 +57,52 @@ color='''fordblue'''
 	cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">더 알아보기</span>'''
 	cta1_url = '''https://www.ford-korea.com/owner/emergency/'''
 	cta1_link_name = '''era'''
-    
+		
 [[module]] #Split 02
 path='email_modules/split/02'
 color='green'
 
-  title = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;font-size:20px;"><span style="font-weight:bold;">
-  <span style="white-space:nowrap;">포드 오너를 위한 필수 정보</span></span>'''
-  copy = '''<span style="color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
-  <span style="white-space:nowrap;">포드 웹사이트에는 더 쉽게</span><br/>
-  <span style="white-space:nowrap;">차량을 관리할 수 있도록 돕는</span><br/>
-  <span style="white-space:nowrap;">값진 정보가 가득합니다.</span><br/><br/>
-  <span style="white-space:nowrap;">아래의 링크를 클릭하시면</span><br/>
-  <span style="white-space:nowrap;">고객님께 꼭 필요한 서비스 정보를</span><br />
-  <span style="white-space:nowrap;">확인하실 수 있습니다.</span>
-  <ul style="mar<gin: 20px; padding: 0;text-decoration:underline; color:#FFFFFF">
-  <li><a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">보증 서비스</span></a></li>
-  <li><a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">차량 관리</span></a></li>
-  <li><a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">전문가의 공인 서비스</span></a></li>
-  <li><a href="https://www.ford-korea.com/owner/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">리콜 안내</span></a></li></ul></span>'''
-  image = '''sk_ford_edm1_greenmodule_20170419'''
+	title = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;font-size:20px;"><span style="font-weight:bold;">
+	<span style="white-space:nowrap;">포드 오너를 위한 필수 정보</span></span>'''
+	copy = '''<span style="color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
+	<span style="white-space:nowrap;">포드 웹사이트에는 더 쉽게</span><br/>
+	<span style="white-space:nowrap;">차량을 관리할 수 있도록 돕는</span><br/>
+	<span style="white-space:nowrap;">값진 정보가 가득합니다.</span><br/><br/>
+	<span style="white-space:nowrap;">아래의 링크를 클릭하시면</span><br/>
+	<span style="white-space:nowrap;">고객님께 꼭 필요한 서비스 정보를</span><br />
+	<span style="white-space:nowrap;">확인하실 수 있습니다.</span>
+	<ul style="mar<gin: 20px; padding: 0;text-decoration:underline; color:#FFFFFF">
+	<li><a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">보증 서비스</span></a></li>
+	<li><a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">차량 관리</span></a></li>
+	<li><a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">전문가의 공인 서비스</span></a></li>
+	<li><a href="https://www.ford-korea.com/owner/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">리콜 안내</span></a></li></ul></span>'''
+	image = '''sk_ford_edm1_greenmodule_20170419'''
 
 [[module]] #Dual 01
 path='email_modules/dual/01'
 color='white'
 
-  icon1 = '''ph_edm2_call_20160801'''
-  title1 = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
-  <span style="white-space:nowrap;">고객센터 문의하기</span></span>'''
-  copy1 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
-  <span style="white-space:nowrap;">도움이나 의견이 필요하시다면</span><br/>
-  <span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">1600-6003</a>으로 언제든 문의주세요.</span>
-  </span>'''
-  icon2 = '''sk_ford_edm1_dealerlocator_20170419'''
-  title2 = '''<span style="font-size:20px; font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
-  <span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span>
-  </span>'''
-  copy2 = '''<span style="font-size:15px;font-family:Nanum Gothic,Malgun Gothic,sans-serif">
-  <span style="white-space:nowrap;">가장 가까운 전시장 및</span><br />
-  <span style="white-space:nowrap;">서비스센터를 찾아보세요.</span>
-  </span></span>'''
-  cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="white-space:nowrap;">자세히 보기</span></span>'''
-  cta1_url = '''https://www.ford-korea.com/contact-us/'''
-  cta1_link_name = '''contact_us'''
-  cta2_text = '''<span style="font-family:Malgun Gothic,sans-serif"><span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span></span>'''
-  cta2_url = '''https://www.ford-korea.com/locate-a-dealer/'''
-  cta2_link_name = '''find_dealer'''
+	icon1 = '''ph_edm2_call_20160801'''
+	title1 = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
+	<span style="white-space:nowrap;">고객센터 문의하기</span></span>'''
+	copy1 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
+	<span style="white-space:nowrap;">도움이나 의견이 필요하시다면</span><br/>
+	<span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">1600-6003</a>으로 언제든 문의주세요.</span>
+	</span>'''
+	icon2 = '''sk_ford_edm1_dealerlocator_20170419'''
+	title2 = '''<span style="font-size:20px; font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
+	<span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span>
+	</span>'''
+	copy2 = '''<span style="font-size:15px;font-family:Nanum Gothic,Malgun Gothic,sans-serif">
+	<span style="white-space:nowrap;">가장 가까운 전시장 및</span><br />
+	<span style="white-space:nowrap;">서비스센터를 찾아보세요.</span>
+	</span></span>'''
+	cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="white-space:nowrap;">자세히 보기</span></span>'''
+	cta1_url = '''https://www.ford-korea.com/contact-us/'''
+	cta1_link_name = '''contact_us'''
+	cta2_text = '''<span style="font-family:Malgun Gothic,sans-serif"><span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span></span>'''
+	cta2_url = '''https://www.ford-korea.com/locate-a-dealer/'''
+	cta2_link_name = '''find_dealer'''
 
 [[module]] #Footer SK Ford Social
 path='email_modules/footer/sk/ford/social'

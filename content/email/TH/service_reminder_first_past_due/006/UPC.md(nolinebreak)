@@ -13,8 +13,8 @@ color='''nothing'''
 path='email_modules/header/logo'
 color='white'
 
-  image = '''white'''
-  url_link = '''https://www.ford.co.th/'''
+	image = '''white'''
+	url_link = '''https://www.ford.co.th/'''
 
 [[module]]
 path='email_modules/cover/02'
@@ -25,17 +25,17 @@ title='''<span style="color:#ff6600;font-family:Tahoma, Verdana, Sans-serif">ร
 copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีคุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด <%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></span><br /><br />
 
  <span style="font-family:Tahoma, Verdana, Sans-serif">
-          	เพื่อรักษารถ &lt;%${user.CustomAttribute['Model']}%&gt; 
-           ของคุณให้อยู่ในสภาพดี
-            และวิ่งได้อย่างเต็มประสิทธิภาพสม่ำเสมอ
-            อย่าลืมนำรถเข้าศูนย์บริการ
-            พื่อตรวจเช็คระยะเมื่อครบกำหนด
-          </span>
+						เพื่อรักษารถ &lt;%${user.CustomAttribute['Model']}%&gt; 
+					ของคุณให้อยู่ในสภาพดี
+						และวิ่งได้อย่างเต็มประสิทธิภาพสม่ำเสมอ
+						อย่าลืมนำรถเข้าศูนย์บริการ
+						พื่อตรวจเช็คระยะเมื่อครบกำหนด
+					</span>
 <br /><br />
 <span style="font-family:Tahoma, Verdana, Sans-serif">
-    นัดหมายล่วงหน้าเพื่อเข้ารับบริการได้ทันที<br />
-    ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%>(ระหว่างเวลาทำการ)<br />
-    หรือค้นหาตัวแทนจำหน่ายใกล้บ้านคุณ
+		นัดหมายล่วงหน้าเพื่อเข้ารับบริการได้ทันที<br />
+		ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%>(ระหว่างเวลาทำการ)<br />
+		หรือค้นหาตัวแทนจำหน่ายใกล้บ้านคุณ
  </span>'''
 
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">โทร <%${user.CustomAttribute['Dealer_Phone']}%></span>'''
@@ -49,9 +49,9 @@ cta2_link_name='''find_dealer'''
 path='email_modules/split/04'
 color='green'
 
-  title='''<span style="font-family:Tahoma, Verdana, Sans-serif">Save on service</span>'''
-  copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">Save up to 10% or 3,700 THB on maintenance with Ford’s Scheduled Service Packs. Plus, you’ll enjoy a 0% interest rate for 10 months when you use a K Bank credit card. Offer ends August 31, 2017.</span>'''
-  cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">FIND OUT MORE ></span>'''
+	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">Save on service</span>'''
+	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">Save up to 10% or 3,700 THB on maintenance with Ford’s Scheduled Service Packs. Plus, you’ll enjoy a 0% interest rate for 10 months when you use a K Bank credit card. Offer ends August 31, 2017.</span>'''
+	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">FIND OUT MORE ></span>'''
 cta1_url='''https://www.ford.co.th/owner/schedule-service/'''
 cta1_icon='''more'''
 cta1_link_name = '''SSP'''

@@ -13,8 +13,8 @@ color='''nothing'''
 path='email_modules/header/logo'
 color='white'
 
-  image = '''white'''
-  url_link = '''https://www.ford.co.th/'''
+	image = '''white'''
+	url_link = '''https://www.ford.co.th/'''
 
 
 [[module]]
@@ -23,16 +23,16 @@ path='email_modules/cover/02'
 color='''white'''
 icon='''th_edm2_svc_wrench_urgent_20160801'''
 title='''<span style="color:#ff6600;font-family:Tahoma, Verdana, Sans-serif">
-          <span style="white-space:nowrap;">รถฟอร์ดของท่านถึงกำหนด</span><br />
-          <span style="white-space:nowrap;">เข้าศูนย์บริการ</span>
-          <span style="white-space:nowrap;">เพื่อตรวจเช็คระยะแล้ว</span>
-          </span>'''
+					<span style="white-space:nowrap;">รถฟอร์ดของท่านถึงกำหนด</span><br />
+					<span style="white-space:nowrap;">เข้าศูนย์บริการ</span>
+					<span style="white-space:nowrap;">เพื่อตรวจเช็คระยะแล้ว</span>
+					</span>'''
 copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีคุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%>
 <br /><br />
-    <span style="white-space:nowrap;">เพื่อรักษารถ <%${user.CustomAttribute['Model']}%>  ของคุณให้อยู่ในสภาพดี</span><br />
-    <span style="white-space:nowrap;">และวิ่งได้อย่างเต็มประสิทธิภาพสม่ำเสมอ</span><br />
-    <span style="white-space:nowrap;">อย่าลืมนำรถเข้าศูนย์บริการ</span><br />
-    <span style="white-space:nowrap;">เพื่อตรวจเช็คระยะเมื่อครบกำหนด</span>
+		<span style="white-space:nowrap;">เพื่อรักษารถ <%${user.CustomAttribute['Model']}%>	ของคุณให้อยู่ในสภาพดี</span><br />
+		<span style="white-space:nowrap;">และวิ่งได้อย่างเต็มประสิทธิภาพสม่ำเสมอ</span><br />
+		<span style="white-space:nowrap;">อย่าลืมนำรถเข้าศูนย์บริการ</span><br />
+		<span style="white-space:nowrap;">เพื่อตรวจเช็คระยะเมื่อครบกำหนด</span>
 <br /><br />
 <span style="white-space:nowrap;">นัดหมายเพื่อเข้ารับบริการได้ทันที</span> 
 <span style="white-space:nowrap;">เพื่อการขับขี่อย่างมั่นใจไปกับฟอร์ด</span> <br>
@@ -52,24 +52,24 @@ path='email_modules/cover/03'
 
 color='''white'''
 copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;"><span style="color:#b3b3b3;">หมายเลข VIN : <% ${user.CustomAttribute['VIN']} %><br />
-        เข้ารับบริการครั้งล่าสุดวันที่ : <% ${user.CustomAttribute['Last_Reported_Service_Date']} %><br />
-        ระยะทางล่าสุด : <% ${user.CustomAttribute['Mileage']} %></span></span></span>'''
-        
-        
+				เข้ารับบริการครั้งล่าสุดวันที่ : <% ${user.CustomAttribute['Last_Reported_Service_Date']} %><br />
+				ระยะทางล่าสุด : <% ${user.CustomAttribute['Mileage']} %></span></span></span>'''
+				
+				
 [[module]] #Split 04
 path='email_modules/split/04'
 color='green'
 
-  title='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">ประหยัดค่าน้ำมันเครื่อง</span><br /><span style="white-space:nowrap;">สูงสุด</span></span>'''
-  copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+	title='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">ประหยัดค่าน้ำมันเครื่อง</span><br /><span style="white-space:nowrap;">สูงสุด</span></span>'''
+	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 <span style="white-space:nowrap;">ด้วยโปรแกรมชุดน้ำมันเครื่องสุดคุ้ม</span> <br />
-<span style="white-space:nowrap;">(Oil Save Pack)</span>  <br />
+<span style="white-space:nowrap;">(Oil Save Pack)</span>	<br />
 <span style="white-space:nowrap;">ให้คุณประหยัดสูงสุดถึง 18%</span> <br />
 <span style="white-space:nowrap;">ในการเปลี่ยนน้ำมันเครื่อง </span><br /> 
 <span style="white-space:nowrap;">ไส้กรองน้ำมันเครื่อง </span> <br />
 <span style="white-space:nowrap;">และโอริงน๊อตอ่างน้ำมันเครื่อง</span> 
 </span>'''
-  cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
+	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
 cta1_url='''https://www.ford.co.th/owner/oil-save-pack/'''
 cta1_icon='''more'''
 cta1_link_name = '''OSP'''

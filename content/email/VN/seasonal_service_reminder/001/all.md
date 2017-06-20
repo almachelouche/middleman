@@ -12,14 +12,14 @@ preheader = '''Đặt lịch làm bảo dưỡng online để được hưởng 
 path='email_modules/header/logo'
 color='white'
 
-  image = '''white'''
-  url_link = '''http://www.ford.com.vn'''
+	image = '''white'''
+	url_link = '''http://www.ford.com.vn'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''vn_edm2b_expressservice_20161122'''
+	image = '''vn_edm2b_expressservice_20161122'''
 
 [[module]]
 path='email_modules/cover/02'
@@ -48,19 +48,19 @@ image='''vn_edm2b_commodity_20161129'''
 path='email_modules/custom/3columntitle3icons'
 color='white'
 
-  title = '''Tại sao nên chọn dịch vụ bảo dưỡng của Ford?'''
-  icon1 = '''vn_edm2_fordsvc_b_20160801'''
-  text1 = '''Trung tâm Dịch vụ bảo dưỡng Ford với những trang thiết bị được thiết kế cho đúng chiếc ô-tô của bạn.'''
-  icon2 = '''vn_edm2_fordsvc_a_20160801'''
-  text2 = '''Bảo dưỡng đúng kỳ hạn giúp chiếc xe của Quý vị luôn ở chế độ vận hành tốt nhất.'''
-  icon3 = '''vn_edm2_fordsvc_c_20160801'''
-  text3 = '''Hồ sơ bảo dưỡng định kỳ của xe sẽ giúp tăng thêm giá trị bán lại cho chính chiếc xe đó.'''
-  
+	title = '''Tại sao nên chọn dịch vụ bảo dưỡng của Ford?'''
+	icon1 = '''vn_edm2_fordsvc_b_20160801'''
+	text1 = '''Trung tâm Dịch vụ bảo dưỡng Ford với những trang thiết bị được thiết kế cho đúng chiếc ô-tô của bạn.'''
+	icon2 = '''vn_edm2_fordsvc_a_20160801'''
+	text2 = '''Bảo dưỡng đúng kỳ hạn giúp chiếc xe của Quý vị luôn ở chế độ vận hành tốt nhất.'''
+	icon3 = '''vn_edm2_fordsvc_c_20160801'''
+	text3 = '''Hồ sơ bảo dưỡng định kỳ của xe sẽ giúp tăng thêm giá trị bán lại cho chính chiếc xe đó.'''
+	
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''vn_edm2_svcreminder_20160801'''
+	image = '''vn_edm2_svcreminder_20160801'''
 
 [[module]] #VN Social
 path='email_modules/footer/vn/social'

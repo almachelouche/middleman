@@ -1,20 +1,20 @@
 {{ partial "head.html" }}
 
 <body bgcolor="#53575c">
-  <div class="page-wrap">
-    <div class="sidebar">
-      <ul>{{ range $key, $taxonomy := .Site.Taxonomies.markets }}
-        <li><a href="/#{{$key}}">{{ upper $key }}</a></li>{{ end }}
-        <li><a href="/#Modules">Modules</a></li>
-        <li><a href="{{ .Site.BaseURL }}ascii/ascii.html">ASCII Symbols</a></li>
-      </ul>
-    </div>
-      <table class="flat-table" border="1px">
-        <thead class="sticky">
-          <th><img src="{{ .Site.BaseURL }}img/gtb.png" width="75"></th>
+	<div class="page-wrap">
+		<div class="sidebar">
+			<ul>{{ range $key, $taxonomy := .Site.Taxonomies.markets }}
+				<li><a href="/#{{$key}}">{{ upper $key }}</a></li>{{ end }}
+				<li><a href="/#Modules">Modules</a></li>
+				<li><a href="{{ .Site.BaseURL }}ascii/ascii.html">ASCII Symbols</a></li>
+			</ul>
+		</div>
+			<table class="flat-table" border="1px">
+				<thead class="sticky">
+					<th><img src="{{ .Site.BaseURL }}img/gtb.png" width="75"></th>
 					<th align=left>GTB Middleman Template Site</th>
-        </thead>
-        <tbody>
+				</thead>
+				<tbody>
 					<tr style="background-color:#53575c;">
 						<td>
 							<p align=center>Market</p>
@@ -23,39 +23,39 @@
 							<p>HTML Files</p>
 						</td>
 					</tr>
-          {{ range $key, $taxonomy := .Site.Taxonomies.markets }}
-          <tr id="{{ $key }}">
-            <td> {{ upper $key }} </td>
-            <td>
-              <ul>
-                {{ range $taxonomy.Pages }}
-                <li>
-                  <a style="color:#53575c;" class="download" href="{{ .Permalink }}" download>&#11015;</a>
-                  <a href="{{ .Permalink }}">{{ .LinkTitle}} </a>
-                </li>
-                {{ end }}
-              </ul>
-            </td>
-          </tr>
-          {{ end }}
-          {{ range $key, $taxonomy := .Site.Taxonomies.moduletypes }}
-          <tr id="Modules">
-            <td> {{ humanize $key }} Modules </td>
-            <td>
-              <ul>
-                {{ range $taxonomy.Pages }}
-                <li>
-                  <a class="download" href="{{ .Permalink }}" download>&#11015;</a>
-                  <a href="{{ .Permalink }}">{{ .LinkTitle}} </a>
-                </li>
-                {{ end }}
-              </ul>
-            </td>
-          </tr>
-          {{ end }}
-        </tbody>
-      </table>
-  </div>
+					{{ range $key, $taxonomy := .Site.Taxonomies.markets }}
+					<tr id="{{ $key }}">
+						<td> {{ upper $key }} </td>
+						<td>
+							<ul>
+								{{ range $taxonomy.Pages }}
+								<li>
+									<a style="color:#53575c;" class="download" href="{{ .Permalink }}" download>&#11015;</a>
+									<a href="{{ .Permalink }}">{{ .LinkTitle}} </a>
+								</li>
+								{{ end }}
+							</ul>
+						</td>
+					</tr>
+					{{ end }}
+					{{ range $key, $taxonomy := .Site.Taxonomies.moduletypes }}
+					<tr id="Modules">
+						<td> {{ humanize $key }} Modules </td>
+						<td>
+							<ul>
+								{{ range $taxonomy.Pages }}
+								<li>
+									<a class="download" href="{{ .Permalink }}" download>&#11015;</a>
+									<a href="{{ .Permalink }}">{{ .LinkTitle}} </a>
+								</li>
+								{{ end }}
+							</ul>
+						</td>
+					</tr>
+					{{ end }}
+				</tbody>
+			</table>
+	</div>
 </body>
 
 </html>

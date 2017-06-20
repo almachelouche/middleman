@@ -12,15 +12,15 @@ color='''nothing'''
 path='email_modules/header/logo'
 color='white'
 
-  image = '''white'''
-  url_link = '''https://www.ford.co.th/'''
+	image = '''white'''
+	url_link = '''https://www.ford.co.th/'''
 
 [[module]]
 path='email_modules/cover/02'
 color = '''white'''
 
-  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ต้องเปลี่ยนเมื่อถึงเวลา</span>'''
-  copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />
+	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ต้องเปลี่ยนเมื่อถึงเวลา</span>'''
+	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />
 <span style=" white-space:nowrap;">รถ <%${user.CustomAttribute['Model']}%></span> <span style=" white-space:nowrap;">ของท่าน</span><br />
 <span style=" white-space:nowrap;">ที่ผ่านการใช้งานมาพอสมควร </span><br />
 <span style=" white-space:nowrap;">อาจถึงเวลา</span><span style=" white-space:nowrap;">ต้องเปลี่ยนชิ้นส่วน</span><br />
@@ -66,42 +66,42 @@ cta2_link_name='''find_dealer'''
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''th_edm2_whyfordsvc_20161115'''
-  
-  
+	image = '''th_edm2_whyfordsvc_20161115'''
+	
+	
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
 	
-    copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif">
-    <span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">สุดคุ้มกับอะไหล่แท้<br />จากฟอร์ด</span><br /><br />
-    <span style="white-space:nowrap;">เพื่อให้สมรรถนะรถฟอร์ดของคุณ</span> 
-    <span style="white-space:nowrap;">ทำงานได้อย่างเต็มประสิทธิภาพ</span><br /> 
-    <span style="white-space:nowrap;">ฟอร์ดมีข้อเสนอสุดคุ้ม</span> 
-    <span style="white-space:nowrap;">เมื่อคุณซื้ออะไหล่แท้จากฟอร์ด</span><br /> 
-    <span style="white-space:nowrap;">คุณจะได้มีสิทธิ์ร่วมลุ้นรับสิทธิพิเศษ</span>
-    <span style="white-space:nowrap;">หรือได้รับน้ำยาทำความสะอาดหัวฉีดฟรี</span>
-    <span style="white-space:nowrap;">ข้อเสนอนี้ถึงวันที่ 31 สิงหาคม 2560</span> 
-    <span style="white-space:nowrap;">เท่านั้น</span></span>'''
+		copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif">
+		<span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">สุดคุ้มกับอะไหล่แท้<br />จากฟอร์ด</span><br /><br />
+		<span style="white-space:nowrap;">เพื่อให้สมรรถนะรถฟอร์ดของคุณ</span> 
+		<span style="white-space:nowrap;">ทำงานได้อย่างเต็มประสิทธิภาพ</span><br /> 
+		<span style="white-space:nowrap;">ฟอร์ดมีข้อเสนอสุดคุ้ม</span> 
+		<span style="white-space:nowrap;">เมื่อคุณซื้ออะไหล่แท้จากฟอร์ด</span><br /> 
+		<span style="white-space:nowrap;">คุณจะได้มีสิทธิ์ร่วมลุ้นรับสิทธิพิเศษ</span>
+		<span style="white-space:nowrap;">หรือได้รับน้ำยาทำความสะอาดหัวฉีดฟรี</span>
+		<span style="white-space:nowrap;">ข้อเสนอนี้ถึงวันที่ 31 สิงหาคม 2560</span> 
+		<span style="white-space:nowrap;">เท่านั้น</span></span>'''
 
 [[module]] #Custom 3 Icon Text
 path='email_modules/custom/3icon_text'
 color='white'
 
-  title = ''''''
-  icon1 = '''th_edm6_brake_20170113'''
-  text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">ผ้าเบรกสุดคุ้ม</span><br /><br />ซื้อผ้าเบรก Ford-Motorcraft รับฟรี น้ำยาทำความสะอาดหัวฉีด</span>'''
-  icon2 = '''th_edm6_tyre_20170113'''
-  text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">โปรยางสุดคุ้ม</span><br /><br />ซื้อยางกู๊ดเยียร์ 3 เส้น แถม 1 เส้นฟรี<sup>1</sup>  รับสิทธิ์ผ่อน 0% นาน 6 เดือน ด้วยบัตรเครดิตกสิกรไทย<sup>2</sup></span>'''
-  icon3 = '''th_edm6_battery_20170113'''
-  text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้สุดคุ้ม</span><br /><br />รับฟรี น้ำยาทำความสะอาดหัวฉีดเมื่อซื้อแบตเตอรี่ฟอร์ดแท้ สำหรับรถฟอร์ดโดยเฉพาะ</span>'''
+	title = ''''''
+	icon1 = '''th_edm6_brake_20170113'''
+	text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">ผ้าเบรกสุดคุ้ม</span><br /><br />ซื้อผ้าเบรก Ford-Motorcraft รับฟรี น้ำยาทำความสะอาดหัวฉีด</span>'''
+	icon2 = '''th_edm6_tyre_20170113'''
+	text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">โปรยางสุดคุ้ม</span><br /><br />ซื้อยางกู๊ดเยียร์ 3 เส้น แถม 1 เส้นฟรี<sup>1</sup>	รับสิทธิ์ผ่อน 0% นาน 6 เดือน ด้วยบัตรเครดิตกสิกรไทย<sup>2</sup></span>'''
+	icon3 = '''th_edm6_battery_20170113'''
+	text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้สุดคุ้ม</span><br /><br />รับฟรี น้ำยาทำความสะอาดหัวฉีดเมื่อซื้อแบตเตอรี่ฟอร์ดแท้ สำหรับรถฟอร์ดโดยเฉพาะ</span>'''
 
 
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
 	
-    cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ดูข้อเสนอเพิ่มเติม</span>'''
+		cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ดูข้อเสนอเพิ่มเติม</span>'''
 	cta1_url = '''https://www.ford.co.th/'''
 	cta1_link_name = '''commodity_offer'''
 

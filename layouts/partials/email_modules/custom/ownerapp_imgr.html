@@ -1,60 +1,60 @@
 <!-- cover/owner_app_imgr Starts-->
 <table align="center" class="resize_table_to_320" width="640" border="0" cellspacing="0" cellpadding="0" style="max-width: 640px;">
-  <tr>
-    <td bgcolor="#000001" align="left" valign="top" style="font-size:0%;">
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr>
-          <td class="drop" align="left" valign="top">
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-              <tr>
-                <td class="alg_Cen" align="left" valign="top" style="color:#FFFFFF; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular; padding-bottom:20px; padding-top:30px; padding-left:30px; padding-right:30px;">
-                  {{- .moduleinfo.title | safeHTML -}}
-                </td>
-              </tr>
-              <tr>
-                <td class="alg_Cen" bgcolor="#000001" align="left" valign="top" style="font-Size: 16px; color:#B3B3B3; font-family: 'Arial','Helvetica','Sans-Serif'; padding-left:30px; padding-right:30px; line-height: 21px; mso-line-height-rule:exactly; font-weight: normal; font-style: regular;">
-                  {{- .moduleinfo.text1 | safeHTML -}}
-                </td>
-              </tr>
-              <tr>
-                <td bgcolor="#000001" align="left" valign="top" style="font-Size: 16px; color:#B3B3B3; font-family: 'Arial','Helvetica','Sans-Serif'; padding-left:30px; padding-right:30px; padding-bottom:30px; line-height: 21px; mso-line-height-rule:exactly; font-weight: normal; font-style: regular;">
-                  {{- .moduleinfo.text2 | safeHTML -}}
-                </td>
-              </tr>
-              <tr>
-                <td align="center" valign="top" style="padding-bottom:30px;">
-                  <table border="0" cellspacing="0" cellpadding="0">
-                    <tr>
-                      <td align="center" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';">
-                        <table width="120" border="0" cellspacing="0" cellpadding="0">
-                          <tr>
-                            <td bgcolor="{{.color.ctablockbg}}" width="120" height="40" align="center" valign="middle" style="Font-size : 16px; text-align: center; Padding left: 20px; Padding right: 20px; Button height: 40px; Button width: variable;font-family: 'Arial','Helvetica','Sans-Serif';vertical-align: middle;">
-                              {{- .moduleinfo.cta1_url | printf "<a href=%q" | safeHTML -}} name="{{- .moduleinfo.cta1_link_name -}}" target="_blank" title="" style="color:{{.color.ctablocktext}}; text-decoration:none;">{{- .moduleinfo.cta1_text | safeHTML -}}</a>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                      <td align="center" valign="top" style="font-Size: 16px; padding-left:10px; line-height: 21px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';">
-                        <table width="120" border="0" cellspacing="0" cellpadding="0">
-                          <tr>
-                            <td bgcolor="{{.color.ctablockbg}}" width="120" height="40" align="center" valign="middle" style="Font-size : 16px; text-align: center; Padding left: 20px; Padding right: 20px; Button height: 40px; Button width: variable;font-family: 'Arial','Helvetica','Sans-Serif';vertical-align: middle;">
-                              {{- .moduleinfo.cta2_url | printf "<a href=%q" | safeHTML -}} name="{{- .moduleinfo.cta2_link_name -}}" target="_blank" title="" style="color:{{.color.ctablocktext}}; text-decoration:none;">{{- .moduleinfo.cta2_text | safeHTML -}}</a>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-          </td>
-          <td class="drop" align="left" valign="bottom">
-            <img class="img_R" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/{{- .moduleinfo.image -}}_tile.jpg" width="320" border="0" style="display:block;" />
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
+	<tr>
+		<td bgcolor="#000001" align="left" valign="top" style="font-size:0%;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td class="drop" align="left" valign="top">
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td class="alg_Cen" align="left" valign="top" style="color:#FFFFFF; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular; padding-bottom:20px; padding-top:30px; padding-left:30px; padding-right:30px;">
+									{{- .moduleinfo.title | safeHTML -}}
+								</td>
+							</tr>
+							<tr>
+								<td class="alg_Cen" bgcolor="#000001" align="left" valign="top" style="font-Size: 16px; color:#B3B3B3; font-family: 'Arial','Helvetica','Sans-Serif'; padding-left:30px; padding-right:30px; line-height: 21px; mso-line-height-rule:exactly; font-weight: normal; font-style: regular;">
+									{{- .moduleinfo.text1 | safeHTML -}}
+								</td>
+							</tr>
+							<tr>
+								<td bgcolor="#000001" align="left" valign="top" style="font-Size: 16px; color:#B3B3B3; font-family: 'Arial','Helvetica','Sans-Serif'; padding-left:30px; padding-right:30px; padding-bottom:30px; line-height: 21px; mso-line-height-rule:exactly; font-weight: normal; font-style: regular;">
+									{{- .moduleinfo.text2 | safeHTML -}}
+								</td>
+							</tr>
+							<tr>
+								<td align="center" valign="top" style="padding-bottom:30px;">
+									<table border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td align="center" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';">
+												<table width="120" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td bgcolor="{{.color.ctablockbg}}" width="120" height="40" align="center" valign="middle" style="Font-size : 16px; text-align: center; Padding left: 20px; Padding right: 20px; Button height: 40px; Button width: variable;font-family: 'Arial','Helvetica','Sans-Serif';vertical-align: middle;">
+															<a href="{{ .moduleinfo.cta1_url | safeURL }}" name="{{- .moduleinfo.cta1_link_name -}}" target="_blank" title="" style="color:{{.color.ctablocktext}}; text-decoration:none;">{{- .moduleinfo.cta1_text | safeHTML -}}</a>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td align="center" valign="top" style="font-Size: 16px; padding-left:10px; line-height: 21px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';">
+												<table width="120" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td bgcolor="{{.color.ctablockbg}}" width="120" height="40" align="center" valign="middle" style="Font-size : 16px; text-align: center; Padding left: 20px; Padding right: 20px; Button height: 40px; Button width: variable;font-family: 'Arial','Helvetica','Sans-Serif';vertical-align: middle;">
+															<a href="{{ .moduleinfo.cta2_url | safeURL }}" name="{{- .moduleinfo.cta2_link_name -}}" target="_blank" title="" style="color:{{.color.ctablocktext}}; text-decoration:none;">{{- .moduleinfo.cta2_text | safeHTML -}}</a>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td class="drop" align="left" valign="bottom">
+						<img class="img_R" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/{{- .moduleinfo.image -}}_tile.jpg" width="320" border="0" style="display:block;" />
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
 </table>
 <!-- cover/owner_app_imgr Ends-->

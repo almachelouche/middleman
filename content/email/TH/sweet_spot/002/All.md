@@ -13,15 +13,15 @@ color='''nothing'''
 path='email_modules/header/logo'
 color='white'
 
-  image = '''white'''
-  url_link = '''https://www.ford.co.th/'''
+	image = '''white'''
+	url_link = '''https://www.ford.co.th/'''
 
 [[module]] #Cover 08
 path='email_modules/cover/02'
 color = '''white'''
 
-  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ต้องเปลี่ยนเมื่อถึงเวลา</span>'''
-  copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br /><span style=" white-space:nowrap;">รถ <%${user.CustomAttribute['Model']}%></span> <span style=" white-space:nowrap;">ของท่านที่ผ่านการใช้งานมาพอสมควร </span><br />
+	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ต้องเปลี่ยนเมื่อถึงเวลา</span>'''
+	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br /><span style=" white-space:nowrap;">รถ <%${user.CustomAttribute['Model']}%></span> <span style=" white-space:nowrap;">ของท่านที่ผ่านการใช้งานมาพอสมควร </span><br />
 <span style=" white-space:nowrap;">อาจถึงเวลาต้องเปลี่ยนชิ้นส่วนเมื่อถึงเวลา </span><br />
 <span style=" white-space:nowrap;">ท่านสามารถนัดหมายกับศูนย์บริการฟอร์ดเพื่อทำการเปลี่ยนชิ้นส่วน</span>
 <span style=" white-space:nowrap;">ด้วยอะไหล่แท้ของฟอร์ด เช่น แบตเตอรี่ ยาง เบรก หรือ ที่ปัดน้ำฝน</span> <br />
@@ -47,15 +47,15 @@ cta2_url_link_name='''find_dealer'''
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''th_edm2_whyfordsvc_20161115'''
-  
-  
-  [[module]] #Split 04
+	image = '''th_edm2_whyfordsvc_20161115'''
+	
+	
+	[[module]] #Split 04
 path='email_modules/split/04'
 color='green'
 
-  title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ลดสุดคุ้ม กับอะไหล่แท้ราคาพิเศษ</span></span>'''
-  copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ลดสุดคุ้ม กับอะไหล่แท้ราคาพิเศษ</span></span>'''
+	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 <span style="white-space:nowrap;">คุ้มเกินคาด</span>
 <span style="white-space:nowrap;">กับชิ้นส่วนอะไหล่แท้จากฟอร์ด</span>
 <span style="white-space:nowrap;">ทั้ง ผ้าเบรก แบตเตอรี่</span>
@@ -65,7 +65,7 @@ color='green'
 <span style="white-space:nowrap;"> ตั้งแต่วันนี้</span>
 <span style="white-space:nowrap;"> ถึง <span style="color:#FFF">31 ธันวาคม</span> นี้เท่านั้น</span>
 </span>'''
-  cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเลย</span>'''
+	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเลย</span>'''
 cta1_url='''https://www.ford.co.th/serviceq-3-2016/'''
 cta1_icon='''more'''
 cta1_link_name = '''commodity_offer'''

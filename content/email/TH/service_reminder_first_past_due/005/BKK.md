@@ -12,8 +12,8 @@ color='''nothing'''
 path='email_modules/header/logo'
 color='white'
 
-  image = '''white'''
-  url_link = '''https://www.ford.co.th/'''
+	image = '''white'''
+	url_link = '''https://www.ford.co.th/'''
 
 
 [[module]]
@@ -24,12 +24,12 @@ icon='''th_edm2_svc_wrench_urgent_20160801'''
 title='''<span style="color:#ff6600;font-family:Tahoma, Verdana, Sans-serif">รถ <%${user.CustomAttribute['Model']}%> ของคุณ เลยเวลาเช็คระยะแล้ว</span>'''
 copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีคุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></span><br /><br />
 <span style="font-family:Tahoma, Verdana, Sans-serif">
-          	<span style="white-space:nowrap;">เพื่อรักษารถ <%${user.CustomAttribute['Model']}%></span> 
-            <span style="white-space:nowrap;">ของคุณให้อยู่ในสภาพดี</span>
-            <span style="white-space:nowrap;">และวิ่งได้อย่าง</span>เต็ม<span style="white-space:nowrap;">ประสิทธิภาพสม่ำเสมอ</span> 
-            <span style="white-space:nowrap;">อย่าลืมนำรถเข้าศูนย์บริการ</span>
-            <span style="white-space:nowrap;">เพื่อตรวจเช็คระยะเมื่อครบกำหนด</span>
-          </span>
+						<span style="white-space:nowrap;">เพื่อรักษารถ <%${user.CustomAttribute['Model']}%></span> 
+						<span style="white-space:nowrap;">ของคุณให้อยู่ในสภาพดี</span>
+						<span style="white-space:nowrap;">และวิ่งได้อย่าง</span>เต็ม<span style="white-space:nowrap;">ประสิทธิภาพสม่ำเสมอ</span> 
+						<span style="white-space:nowrap;">อย่าลืมนำรถเข้าศูนย์บริการ</span>
+						<span style="white-space:nowrap;">เพื่อตรวจเช็คระยะเมื่อครบกำหนด</span>
+					</span>
 <br /><br />
  <span style="white-space:nowrap;font-family:Tahoma, Verdana, Sans-serif">อย่าลืม! จองคิวเช็คระยะเลยวันนี้</span> 
 <br /><br />
@@ -41,7 +41,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี
 <span style="white-space:nowrap;">Online Booking</span> 
 <span style="white-space:nowrap;">ตลอด 7 วัน</span><br />
 <span style="white-space:nowrap;">พร้อมการรับประกันเช็ค</span>
-</span>ระยะภายใน 60  นาที</span>
+</span>ระยะภายใน 60	นาที</span>
 <span style="white-space:nowrap;">หากไม่ทัน</span><br />
 <span style="white-space:nowrap;">คุณจะได้รับบริการเช็คระยะครั้งนั้น</span> 
 <span style="white-space:nowrap;">"ฟรีทันที"</span>
@@ -55,8 +55,8 @@ cta1_link_name = '''book_now'''
 path='email_modules/split/04'
 color='green'
 
-  title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า </span>'''
-  copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า </span>'''
+	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 <span style="white-space:nowrap;">รับส่วนลดเพิ่มสูงสุด 10%</span>
 <span style="white-space:nowrap;">หรือ 3,700 บาท</span> 
 <span style="white-space:nowrap;">กับโปรแกรมบำรุงรักษารถยนต์</span>
@@ -66,7 +66,7 @@ color='green'
 <span style="white-space:nowrap;">เมื่อชำระผ่าน</span>
 <span style="white-space:nowrap;">บัตรเครดิตกสิกรไทย</span> 
 <span style="white-space:nowrap;">ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span></span>'''
-  cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา ></span>'''
+	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา ></span>'''
 cta1_url='''https://www.ford.co.th/owner/schedule-service/'''
 cta1_icon='''more'''
 cta1_link_name = '''SSP'''

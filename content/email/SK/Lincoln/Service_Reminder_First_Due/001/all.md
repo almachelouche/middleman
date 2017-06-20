@@ -7,14 +7,14 @@ title = '''SK Lincoln Service Reminder First 001'''
 path='email_modules/preheader'
 color='''nothing'''
 
-   preheader='''링컨과 함께하는 여정에 처음의 감동이 늘 함께하도록, 귀하의 링컨을 위한 '첫 번째 차량 점검'을 권장해드립니다.'''
+	preheader='''링컨과 함께하는 여정에 처음의 감동이 늘 함께하도록, 귀하의 링컨을 위한 '첫 번째 차량 점검'을 권장해드립니다.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'
 
-  image = '''lincoln_white'''
-  url_link = '''https://www.lincoln-korea.com/'''
+	image = '''lincoln_white'''
+	url_link = '''https://www.lincoln-korea.com/'''
 
 [[module]]
 path='email_modules/cover/02'
@@ -35,24 +35,24 @@ path='email_modules/custom/3columntitle3icons'
 color='white'
 
 title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>오직 링컨만을 위한 프리미엄 서비스</b></span>'''
-  icon1 = '''sk_edm3_lincoln_checklist_20170524'''
-  text1 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">귀하의 차량이 늘 최상의<br />상태를 유지할 수 있도록<br />차별화된 서비스를<br />약속합니다.</span>'''
-  icon2 = '''sk_edm3_lincoln_geneniue_part_20170524'''
-  text2 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">링컨은 귀하의 차량<br />주행거리와 특성에 맞춘<br />체계적인 서비스를<br />선사합니다.</span>'''
-  icon3 = '''sk_edm3_lincoln_koreanwon_20170524'''
-  text3 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">정기적인 점검 서비스를<br />통해 중고차 거래 시<br />차량 잔존가치를<br />높일 수 있습니다.</span>'''
+	icon1 = '''sk_edm3_lincoln_checklist_20170524'''
+	text1 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">귀하의 차량이 늘 최상의<br />상태를 유지할 수 있도록<br />차별화된 서비스를<br />약속합니다.</span>'''
+	icon2 = '''sk_edm3_lincoln_geneniue_part_20170524'''
+	text2 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">링컨은 귀하의 차량<br />주행거리와 특성에 맞춘<br />체계적인 서비스를<br />선사합니다.</span>'''
+	icon3 = '''sk_edm3_lincoln_koreanwon_20170524'''
+	text3 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">정기적인 점검 서비스를<br />통해 중고차 거래 시<br />차량 잔존가치를<br />높일 수 있습니다.</span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''sk_lincoln_edm3_servicing_20170524'''
+	image = '''sk_lincoln_edm3_servicing_20170524'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''sk_lincoln_edm3_ESP_20170524'''
+	image = '''sk_lincoln_edm3_ESP_20170524'''
 
 [[module]] #Cover 01
 path='email_modules/cover/01'
@@ -90,34 +90,34 @@ copy = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;lette
 <li><a href="https://www.lincoln-korea.com/genuine-parts/" name="parts_service" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">부품 및 서비스</span></a></li>
 <li><a href="https://www.lincoln-korea.com/parts-service/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">리콜 안내</span></a></li>
 </ul></span>'''
-  image = '''sk_lincoln_edm1_effortlessownership_20170427'''
+	image = '''sk_lincoln_edm1_effortlessownership_20170427'''
 
 [[module]] #Dual 01
 path='email_modules/dual/01'
 color='lincoln_white'
 
-  icon1 = '''sk_lincoln_edm1_contact_20170510'''
-  title1 = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
-  <span style="white-space:nowrap;">기대 그 이상의 경험,</span><br />
-  <span style="white-space:nowrap;">링컨 고객센터</span></span></span>'''
-  copy1 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">
-  <span style="white-space:nowrap;">도움이나 의견이 필요하시면</span><br />
-  <span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#b45f1a;">1600-6003</a>으로 언제든 연락 주십시오.</span>
-  </span>'''
-  icon2 = '''sk_lincoln_edm1_dealerlocator_20170510'''
-  title2 = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
-  <span style="white-space:nowrap;">가까운 전시장 및</span><br />
-  <span style="white-space:nowrap;">서비스센터 찾기</span>
-  </span></span>'''
-  copy2 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">
-  <span style="white-space:nowrap;">가장 가까운 전시장 및</span><br />
-  <span style="white-space:nowrap;">서비스센터를 찾아보십시오.</span></span>'''
-  cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="white-space:nowrap;">자세히 보기</span></span>'''
-  cta1_url = '''https://www.lincoln-korea.com/contact-us/'''
-  cta1_link_name = '''contact_us'''
-  cta2_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span></span>'''
-  cta2_url = '''https://www.lincoln-korea.com/dealer-locate/'''
-  cta2_link_name = '''find_dealer'''
+	icon1 = '''sk_lincoln_edm1_contact_20170510'''
+	title1 = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
+	<span style="white-space:nowrap;">기대 그 이상의 경험,</span><br />
+	<span style="white-space:nowrap;">링컨 고객센터</span></span></span>'''
+	copy1 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">
+	<span style="white-space:nowrap;">도움이나 의견이 필요하시면</span><br />
+	<span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#b45f1a;">1600-6003</a>으로 언제든 연락 주십시오.</span>
+	</span>'''
+	icon2 = '''sk_lincoln_edm1_dealerlocator_20170510'''
+	title2 = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
+	<span style="white-space:nowrap;">가까운 전시장 및</span><br />
+	<span style="white-space:nowrap;">서비스센터 찾기</span>
+	</span></span>'''
+	copy2 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">
+	<span style="white-space:nowrap;">가장 가까운 전시장 및</span><br />
+	<span style="white-space:nowrap;">서비스센터를 찾아보십시오.</span></span>'''
+	cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="white-space:nowrap;">자세히 보기</span></span>'''
+	cta1_url = '''https://www.lincoln-korea.com/contact-us/'''
+	cta1_link_name = '''contact_us'''
+	cta2_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span></span>'''
+	cta2_url = '''https://www.lincoln-korea.com/dealer-locate/'''
+	cta2_link_name = '''find_dealer'''
 
 [[module]] #Footer SK Lincoln Social
 path='email_modules/footer/sk/lincoln/social'

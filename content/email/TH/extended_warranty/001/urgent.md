@@ -14,19 +14,19 @@ color='''nothing'''
 path='email_modules/header/logo'
 color='white'
 
-  image = '''white'''
-  url_link = '''https://www.ford.co.th/'''
+	image = '''white'''
+	url_link = '''https://www.ford.co.th/'''
 
 [[module]] #Cover 06
 path='email_modules/cover/02'
 color='''white_ot'''
 
-  icon='''th_edm3_extendedwarranty_20160801'''
-  title='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">โอกาสสุดท้าย</span><span style=" white-space:nowrap;">ที่</span><span style=" white-space:nowrap;">จะขยายระยะเวลา</span><br /><span style=" white-space:nowrap;">รับประกันรถของคุณ</span></span>'''
-  copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">รถ <%${user.CustomAttribute['Model']}%> ของคุณ</span><br />
+	icon='''th_edm3_extendedwarranty_20160801'''
+	title='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">โอกาสสุดท้าย</span><span style=" white-space:nowrap;">ที่</span><span style=" white-space:nowrap;">จะขยายระยะเวลา</span><br /><span style=" white-space:nowrap;">รับประกันรถของคุณ</span></span>'''
+	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">รถ <%${user.CustomAttribute['Model']}%> ของคุณ</span><br />
 <span style=" white-space:nowrap;">ใกล้จะสิ้นสุดระยะเวลาการรับประกันแล้ว<sup>1</sup></span><br />
 <span style=" white-space:nowrap;">เลือกซื้อ</span> 
-<span style=" white-space:nowrap;"><strong>โปรแกรมขับขี่อุ่นใจ (PPP)</strong></span>  
+<span style=" white-space:nowrap;"><strong>โปรแกรมขับขี่อุ่นใจ (PPP)</strong></span>	
 <span style=" white-space:nowrap;"> เพื่อคุ้มครองความเสียหาย</span><br />
 <span style=" white-space:nowrap;">อันเกิดจากข้อบกพร่องทางกลไก</span> <span style=" white-space:nowrap;"> และไฟฟ้าของรถยนต์</span> <br />
 <span style=" white-space:nowrap;">ภายใต้เครือข่ายศูนย์บริการมาตรฐานฟอร์ดทั่วประเทศ</span><br />
@@ -38,18 +38,18 @@ color='''white_ot'''
 <span style=" white-space:nowrap;">ในการขับขี่บนทุกเส้นทาง</span> 
 <span style=" white-space:nowrap;">ได้แล้ววันนี้</span></span>'''
 
-  cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ดูข้อเสนอล่าสุดได้ที่นี่</span>'''
-  cta1_url = '''https://www.ford.co.th/owner/premium-protection-plus/'''
-  cta1_link_name = '''ppp'''
-  cta2_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาตัวแทนจำหน่าย</span>'''
-  cta2_url = '''https://www.ford.co.th/locate-a-dealer/'''
-  cta2_link_name = '''find_dealer'''
+	cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ดูข้อเสนอล่าสุดได้ที่นี่</span>'''
+	cta1_url = '''https://www.ford.co.th/owner/premium-protection-plus/'''
+	cta1_link_name = '''ppp'''
+	cta2_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาตัวแทนจำหน่าย</span>'''
+	cta2_url = '''https://www.ford.co.th/locate-a-dealer/'''
+	cta2_link_name = '''find_dealer'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''th_edm2_whyfordsvc_20161115'''
+	image = '''th_edm2_whyfordsvc_20161115'''
 
 [[module]] #TH Social
 path='email_modules/footer/th/social'

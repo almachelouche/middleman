@@ -7,14 +7,14 @@ path='email_modules/preheaderbefore'
 color='''nothing'''
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
-   preheader='''The journey continues! From all the team at Ford, we'd like to say a big THANK YOU for choosing another Ford.'''
+	preheader='''The journey continues! From all the team at Ford, we'd like to say a big THANK YOU for choosing another Ford.'''
 
 [[module]]
 path='email_modules/preheaderbefore'
 color='''nothing'''
 segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 
-   preheader='''We hope you're enjoying the ride. From all the team at Ford, we'd like to say a big THANK YOU for choosing a Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.'''
+	preheader='''We hope you're enjoying the ride. From all the team at Ford, we'd like to say a big THANK YOU for choosing a Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.'''
 
 [[module]]
 path='email_modules/body'
@@ -25,21 +25,21 @@ path='email_modules/preheaderafter'
 color='''nothing'''
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
-   preheader='''The journey continues! From all the team at Ford, we'd like to say a big THANK YOU for choosing another Ford.'''
+	preheader='''The journey continues! From all the team at Ford, we'd like to say a big THANK YOU for choosing another Ford.'''
 
 [[module]]
 path='email_modules/preheaderafter'
 color='''nothing'''
 segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 
-   preheader='''We hope you're enjoying the ride. From all the team at Ford, we'd like to say a big THANK YOU for choosing a Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.'''
+	preheader='''We hope you're enjoying the ride. From all the team at Ford, we'd like to say a big THANK YOU for choosing a Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'
 
-  image = '''white'''
-  url_link = '''https://www.ford.com.au/'''
+	image = '''white'''
+	url_link = '''https://www.ford.com.au/'''
 
 
 [[module]] #Cover 01 - Repeat Buyer
@@ -47,22 +47,22 @@ path='email_modules/cover/01'
 color='''slatescreen'''
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
-  title='''Hi <%${user.CustomAttribute['FullName']}%><br />The journey continues'''
-  copy='''From all the team at Ford, we'd like to say a big THANK YOU for choosing another Ford.'''
+	title='''Hi <%${user.CustomAttribute['FullName']}%><br />The journey continues'''
+	copy='''From all the team at Ford, we'd like to say a big THANK YOU for choosing another Ford.'''
 
 [[module]] #Cover 01 - New Buyer
 path='email_modules/cover/01'
 color='''slatescreen'''
 segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 
-  title='''Hi <%${user.CustomAttribute['FullName']}%><br />We hope you're enjoying the ride.'''
-  copy='''From all the team at Ford, we'd like to say a big THANK YOU for choosing a Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.'''
+	title='''Hi <%${user.CustomAttribute['FullName']}%><br />We hope you're enjoying the ride.'''
+	copy='''From all the team at Ford, we'd like to say a big THANK YOU for choosing a Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''au_edm1_cover_20161018'''
+	image = '''au_edm1_cover_20161018'''
 
 
 [[module]] #Banner Image No Link
@@ -70,28 +70,28 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentif = ["(user.CustomAttribute['Model'] == 'Everest') && (user.CustomAttribute['Series'] == 'Trend')"]
 
-  image = '''au_edm5_everest_award_20161215'''
+	image = '''au_edm5_everest_award_20161215'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentelseif = ["(user.CustomAttribute['Model'] == 'Focus') && (user.CustomAttribute['Series'] == 'RS')"]
 
-  image = '''au_edm5_focus_rs_award_20161215'''
+	image = '''au_edm5_focus_rs_award_20161215'''
 
-   [[module]] #Banner Image No Link
+	[[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentelseif = ["(user.CustomAttribute['Model'] == 'Focus') && (user.CustomAttribute['Series'] == 'Trend')"]
 
-  image = '''au_edm5_focus_trend_award_20161215'''
+	image = '''au_edm5_focus_trend_award_20161215'''
 
-   [[module]] #Banner Image No Link
+	[[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentelseif = ["(user.CustomAttribute['Model'] == 'Ranger') && (user.CustomAttribute['Series'] == 'XLT')"]
 
-  image = '''au_edm5_ranger_award_20161215'''
+	image = '''au_edm5_ranger_award_20161215'''
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
@@ -105,7 +105,7 @@ path='email_modules/cover/03'
 color='''white'''
 segmentelse = ["else"]
 
-  copy='''<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace-of-mind.<br /><br />With Ford's Service Price Promise¹, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership² for up to 7 years from Autoclub participating dealers. Ford also has a Loan Car program³, so we can keep you on the road whilst your car is being serviced.<br /><br />'''
+	copy='''<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace-of-mind.<br /><br />With Ford's Service Price Promise¹, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership² for up to 7 years from Autoclub participating dealers. Ford also has a Loan Car program³, so we can keep you on the road whilst your car is being serviced.<br /><br />'''
 
 
 
@@ -113,13 +113,13 @@ segmentelse = ["else"]
 path = '''email_modules/image/3images'''
 color = '''white'''
 
-  image1 = '''au_svc_icon_20170517'''
+	image1 = '''au_svc_icon_20170517'''
 	image1_url = '''https://www.ford.com.au/owners/service/roadside-assistance/'''
 	image1_link_name = '''icon1'''
-  image2 = '''au_svc_icon2'''
+	image2 = '''au_svc_icon2'''
 	image2_url = '''https://www.ford.com.au/owners/service/calculator?edm'''
 	image2_link_name = '''icon2'''
-  image3 = '''au_svc_icon1A'''
+	image3 = '''au_svc_icon1A'''
 	image3_url = '''https://www.ford.com.au/owners/service/'''
 	image3_link_name = '''icon3'''
 
@@ -128,7 +128,7 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentif = ["(user.CustomAttribute['Model'] == 'Ranger')"]
 
-  image = '''au_edm1_cover4_20161018'''
+	image = '''au_edm1_cover4_20161018'''
 
 
 [[module]] #Cover 01 - Ranger
@@ -136,17 +136,17 @@ path='email_modules/cover/01'
 color='white'
 segmentif = ["(user.CustomAttribute['Model'] == 'Ranger')"]
 
-  title='''Ranger Accessories '''
-  copy='''Now that you have your Ranger, we'd like to help you make the most out of your new truck. <br /><br /><a href="https://www.ford.com.au/commercial/ranger/smart-accessories/" name="accessory" style="text-decoration:underline; color:#2D96CD"> Ford Genuine Accessories </a>are designed to fit perfectly and integrate seamlessly with Ranger's safety systems. So whether you need a soft tonneau cover to protect your cargo or a towpack for your weekend adventure, check out our range of extras that will help take your Ranger to the next level.'''
-  cta1_text='''Find Out More'''
-  cta1_url='''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
-  cta1_link_name = '''accessory1'''
-  cta1_icon='''more'''
+	title='''Ranger Accessories '''
+	copy='''Now that you have your Ranger, we'd like to help you make the most out of your new truck. <br /><br /><a href="https://www.ford.com.au/commercial/ranger/smart-accessories/" name="accessory" style="text-decoration:underline; color:#2D96CD"> Ford Genuine Accessories </a>are designed to fit perfectly and integrate seamlessly with Ranger's safety systems. So whether you need a soft tonneau cover to protect your cargo or a towpack for your weekend adventure, check out our range of extras that will help take your Ranger to the next level.'''
+	cta1_text='''Find Out More'''
+	cta1_url='''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
+	cta1_link_name = '''accessory1'''
+	cta1_icon='''more'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-  image='''au_edm1_cover2_20161018'''
+	image='''au_edm1_cover2_20161018'''
 
 
 [[module]] #AU FordOwner Resources
@@ -155,7 +155,7 @@ color='white'
 
 	title = '''Ford Owner Resources'''
 	copy1 = '''Ford offers two ways to access helpful resources and information anywhere you go. <br /><br />You can visit the <span style="font-weight: bold;">Ford Owners Website</span> online at any time to view videos, check for vehicle updates, or find your closest service centre. Register quickly and easily: Assign a nickname to your Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> and enter your Vehicle Identification Number <%${user.CustomAttribute['VIN']}%>'''
-    copy2 = '''You can also download the <span style="font-weight: bold;">Ford Owners App</span> to your mobile device for instant access on-the-go. <br /><br />'''
+		copy2 = '''You can also download the <span style="font-weight: bold;">Ford Owners App</span> to your mobile device for instant access on-the-go. <br /><br />'''
 	cta1_text='''Visit Ford Owners Website'''
 	cta1_url='''https://www.ford.com.au/owners/'''
 	cta2_text='''iOS'''
@@ -168,9 +168,9 @@ color='white'
 path='email_modules/cover/01'
 color='''fordblue'''
 
-  icon='''au_edm1_welcome_icon_20161019'''
-  title='''Can we help?'''
-  copy='''If you have any further questions, please don't hesitate to contact <br /><br /><span style="color:#FFFFFF"><%${user.CustomAttribute['Dealer_Name']}%> on <a href="tel:<%${user.CustomAttribute['Dealer_Phone']}%>" style="color:#FFFFFF; text-decoration:none"><%${user.CustomAttribute['Dealer_Phone']}%></a>   </span>or <a href="tel:133673" style="color:#FFFFFF; text-decoration:none"><span style="color:#FFFFFF">13 FORD (13 36 73)</span>'''
+	icon='''au_edm1_welcome_icon_20161019'''
+	title='''Can we help?'''
+	copy='''If you have any further questions, please don't hesitate to contact <br /><br /><span style="color:#FFFFFF"><%${user.CustomAttribute['Dealer_Name']}%> on <a href="tel:<%${user.CustomAttribute['Dealer_Phone']}%>" style="color:#FFFFFF; text-decoration:none"><%${user.CustomAttribute['Dealer_Phone']}%></a>	</span>or <a href="tel:133673" style="color:#FFFFFF; text-decoration:none"><span style="color:#FFFFFF">13 FORD (13 36 73)</span>'''
 
 
 [[module]] #Footer AU Social
@@ -181,11 +181,11 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-  text = '''DISCLAIMERS:
-        <br /> <br />
-        1) Available at participating Ford Dealers on vehicles built from 2007. Customers will pay equal to or less than the maximum price as published by Ford for the period of the web quote for standard items in the A and B logbook services. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
-        2) Private and Blue Business Fleet customers only at participating Dealers who have not reached 7 years or 105,000 kms. State Auto Club Roadside Assistance & Membership is included with the first seven standard services for 12 months or until your next eligible standard service (whichever occurs first). Standard services include all A and B logbook services. Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
-        3) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br /> '''
+	text = '''DISCLAIMERS:
+				<br /> <br />
+				1) Available at participating Ford Dealers on vehicles built from 2007. Customers will pay equal to or less than the maximum price as published by Ford for the period of the web quote for standard items in the A and B logbook services. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
+				2) Private and Blue Business Fleet customers only at participating Dealers who have not reached 7 years or 105,000 kms. State Auto Club Roadside Assistance & Membership is included with the first seven standard services for 12 months or until your next eligible standard service (whichever occurs first). Standard services include all A and B logbook services. Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
+				3) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br /> '''
 
 
 

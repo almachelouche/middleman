@@ -13,33 +13,33 @@ preheader = '''Chiếc xe Ford Explorer nhập khẩu từ Mỹ đã có mặt �
 path='email_modules/header/enews'
 color='black'
 
-  title = '''Insider'''
-  date = '''22 tháng 12 năm 2016'''
-  copy = '''Trong số này:<br />Explorer đã có mặt  | Khuyến mại cuối năm | Xem: video Ranger  | Tại sao phải đảo lốp? | Khai trương Trung tâm Dịch vụ Ford mới'''
+	title = '''Insider'''
+	date = '''22 tháng 12 năm 2016'''
+	copy = '''Trong số này:<br />Explorer đã có mặt	| Khuyến mại cuối năm | Xem: video Ranger	| Tại sao phải đảo lốp? | Khai trương Trung tâm Dịch vụ Ford mới'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
 color='black'
 
-  image = '''black'''
-  url_link = '''https://www.ford.com.vn'''
+	image = '''black'''
+	url_link = '''https://www.ford.com.vn'''
  
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
 color='black'
 
-  title = '''Ai sẽ là người đầu tiên sở hữu Explorer tại Việt Nam?'''
-  copy = '''Ford Explorer đã có mặt tại Việt Nam. Hãy nhanh chóng đặt hàng để là người đầu tiên sở hữu chiếc SUV cao cấp nhập khẩu từ Mỹ của Ford.<br /><br />Được trang bị động cơ EcoBoost 2.3L mạnh mẽ, SYNC3 cùng khả năng off-road siêu hạng - Explorer xứng tầm một chiếc SUV nhập khẩu hạng sang.<br /><br />Hãy luôn là người tiên phong trong mọi hành trình cùng Explorer.'''
-  cta1_text = '''TÌM HIỂU THÊM'''
-  cta1_url = '''https://www.ford.com.vn/suvs/explorer/'''
-  cta1_link_name = '''new_explorer'''
-  cta1_icon = '''more'''
+	title = '''Ai sẽ là người đầu tiên sở hữu Explorer tại Việt Nam?'''
+	copy = '''Ford Explorer đã có mặt tại Việt Nam. Hãy nhanh chóng đặt hàng để là người đầu tiên sở hữu chiếc SUV cao cấp nhập khẩu từ Mỹ của Ford.<br /><br />Được trang bị động cơ EcoBoost 2.3L mạnh mẽ, SYNC3 cùng khả năng off-road siêu hạng - Explorer xứng tầm một chiếc SUV nhập khẩu hạng sang.<br /><br />Hãy luôn là người tiên phong trong mọi hành trình cùng Explorer.'''
+	cta1_text = '''TÌM HIỂU THÊM'''
+	cta1_url = '''https://www.ford.com.vn/suvs/explorer/'''
+	cta1_link_name = '''new_explorer'''
+	cta1_icon = '''more'''
 
 [[module]] #Banner Image No Link
 path='email_modules/image/banner_nolink'
 color='white'
 
-  image = '''vn_edm5_newexplorer_20160928'''
+	image = '''vn_edm5_newexplorer_20160928'''
 
 [[module]]
 path='email_modules/cover/02'
@@ -55,43 +55,43 @@ cta1_link_name = '''yes'''
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''vn_edm5_yescampaignfocus_20161122''' 
+	image = '''vn_edm5_yescampaignfocus_20161122''' 
 
 [[module]] #Split 01
 path='email_modules/split/01'
 color='slatescreen'
 
-  title = '''Khám phá Ranger XLT'''
-  copy = '''Ford Ranger XLT được thiết kế để giúp bạn chinh phục những thử thách dù là khó khăn nhất. Địa hình trắc trở, leo dốc hay vượt ghềnh - không gì có thể cản bước chiến binh Ranger.'''
-  cta1_text = '''XEM NGAY'''
-  cta1_url = '''https://www.youtube.com/watch?v=OZmcxPXCPLw&index=13&list=PLGcjh4GFNuqnfFJe5ET8DjVittE1B9A_-'''
-  cta1_link_name = '''ranger_xlt'''
-  cta1_icon = '''play'''
-  image = '''vn_edm6_rangerxlt_20161207'''
+	title = '''Khám phá Ranger XLT'''
+	copy = '''Ford Ranger XLT được thiết kế để giúp bạn chinh phục những thử thách dù là khó khăn nhất. Địa hình trắc trở, leo dốc hay vượt ghềnh - không gì có thể cản bước chiến binh Ranger.'''
+	cta1_text = '''XEM NGAY'''
+	cta1_url = '''https://www.youtube.com/watch?v=OZmcxPXCPLw&index=13&list=PLGcjh4GFNuqnfFJe5ET8DjVittE1B9A_-'''
+	cta1_link_name = '''ranger_xlt'''
+	cta1_icon = '''play'''
+	image = '''vn_edm6_rangerxlt_20161207'''
 
 [[module]] #Split 02
 path='email_modules/split/02'
 color='lightblue'
 
-  title = '''Tại sao phải đảo lốp?'''
-  copy = '''Thực ra việc đảo lốp đơn giản hơn bạn nghĩ. Hãy cùng tìm hiểu đảo lốp là gì, tại sao phải đảo lốp và cách tiết kiệm chi phí sở hữu xe.'''
-  cta1_text = '''XEM NGAY'''
-  cta1_url = '''https://www.youtube.com/watch?v=eWi35IUmSsI&t=9s'''
-  cta1_link_name = '''tyre_rotation'''
-  cta1_icon = '''play'''
-  image = '''vn_edm6_tyrerotation_20161207'''
+	title = '''Tại sao phải đảo lốp?'''
+	copy = '''Thực ra việc đảo lốp đơn giản hơn bạn nghĩ. Hãy cùng tìm hiểu đảo lốp là gì, tại sao phải đảo lốp và cách tiết kiệm chi phí sở hữu xe.'''
+	cta1_text = '''XEM NGAY'''
+	cta1_url = '''https://www.youtube.com/watch?v=eWi35IUmSsI&t=9s'''
+	cta1_link_name = '''tyre_rotation'''
+	cta1_icon = '''play'''
+	image = '''vn_edm6_tyrerotation_20161207'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
 color='green'
 
-  title = '''Ford mở rộng Mạng lưới Dịch vụ'''
-  copy = '''Mới đây, Ford Việt Nam cùng Sài Gòn Ford khai trương Trung tâm Dịch vụ 2S tại Quận 1, TP. Hồ Chí Minh cung cấp dịch vụ bảo dưỡng, phụ tùng chính hãng, bảo hành mở rộng. Hãy đến để được nhận những tư vấn sử dụng xe đáng tin cậy nhất.'''
-  cta1_text = '''TÌM HIỂU THÊM'''
-  cta1_url = '''https://www.facebook.com/FordVietnam/photos/a.254116427946786.68856.222579061100523/1407358555955895/?type=3&theater'''
-  cta1_link_name = '''service_center'''
-  cta1_icon = '''more'''
-  image = '''vn_edm6_servicecenter_20161213'''
+	title = '''Ford mở rộng Mạng lưới Dịch vụ'''
+	copy = '''Mới đây, Ford Việt Nam cùng Sài Gòn Ford khai trương Trung tâm Dịch vụ 2S tại Quận 1, TP. Hồ Chí Minh cung cấp dịch vụ bảo dưỡng, phụ tùng chính hãng, bảo hành mở rộng. Hãy đến để được nhận những tư vấn sử dụng xe đáng tin cậy nhất.'''
+	cta1_text = '''TÌM HIỂU THÊM'''
+	cta1_url = '''https://www.facebook.com/FordVietnam/photos/a.254116427946786.68856.222579061100523/1407358555955895/?type=3&theater'''
+	cta1_link_name = '''service_center'''
+	cta1_icon = '''more'''
+	image = '''vn_edm6_servicecenter_20161213'''
 
 
 [[module]] #VN Social

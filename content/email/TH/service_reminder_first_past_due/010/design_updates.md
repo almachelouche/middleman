@@ -13,8 +13,8 @@ color='''nothing'''
 path='email_modules/header/logo'
 color='white'
 
-  image = '''white'''
-  url_link = '''https://www.ford.co.th/'''
+	image = '''white'''
+	url_link = '''https://www.ford.co.th/'''
 
 [[module]]
 path='email_modules/cover/02'
@@ -36,9 +36,9 @@ cta2_url_link_name='''find_dealer'''
 path='email_modules/split/04'
 color='green'
 
-  title='''Save big on oil'''
-  copy='''Keep your engine running smoothly. Enjoy a 300 THB discount when you buy any of our Oil Save Packs! '''
-  cta1_text='''FIND OUT MORE'''
+	title='''Save big on oil'''
+	copy='''Keep your engine running smoothly. Enjoy a 300 THB discount when you buy any of our Oil Save Packs! '''
+	cta1_text='''FIND OUT MORE'''
 cta1_url='''https://www.ford.co.th/owner/oil-save-pack/'''
 cta1_icon='''more'''
 cta1_link_name = '''OSP'''

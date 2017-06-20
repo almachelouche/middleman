@@ -12,22 +12,22 @@ preheader = '''<span style="font-family:Tahoma, Verdana, Sans-serif">มาพ�
 path='email_modules/header/enews'
 color='black'
 
-  title = '''Insider'''
-  date = '''<span style="font-family:Tahoma, Verdana, Sans-serif">23 มีนาคม 2560</span>'''
-  copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-  เรื่องน่าสนใจวันนี้<br />
-  <span style=" white-space:nowrap;">ก้าวไปข้างหน้ากับฟอร์ด</span> | 
-  <span style=" white-space:nowrap;">Bangkok Motor Show 2017</span> |
-  <span style=" white-space:nowrap;">เมื่อปีกต้องมาปะทะกับล้อ</span> | 
-    <span style=" white-space:nowrap;">วีดีโอ: เคล็ดลับมั่นใจ</span> 
-  <span style=" white-space:nowrap;">ใช้เครื่องปรับอากาศรถยนต์</span></span>'''
-  
+	title = '''Insider'''
+	date = '''<span style="font-family:Tahoma, Verdana, Sans-serif">23 มีนาคม 2560</span>'''
+	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
+	เรื่องน่าสนใจวันนี้<br />
+	<span style=" white-space:nowrap;">ก้าวไปข้างหน้ากับฟอร์ด</span> | 
+	<span style=" white-space:nowrap;">Bangkok Motor Show 2017</span> |
+	<span style=" white-space:nowrap;">เมื่อปีกต้องมาปะทะกับล้อ</span> | 
+		<span style=" white-space:nowrap;">วีดีโอ: เคล็ดลับมั่นใจ</span> 
+	<span style=" white-space:nowrap;">ใช้เครื่องปรับอากาศรถยนต์</span></span>'''
+	
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
 color='black'
 
-  image = '''black'''
-  url_link = '''https://www.ford.co.th/'''
+	image = '''black'''
+	url_link = '''https://www.ford.co.th/'''
  
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
@@ -47,23 +47,23 @@ copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style=" white-space:nowrap;">และ “คุณ” </span>
 <span style=" white-space:nowrap;">จะได้ก้าวไปด้วยกันกับเรา</span></span'''
 cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกดูวิดีโอ</span>'''
-  cta1_url = '''https://www.youtube.com/watch?v=HhtHflDrnAU'''
-  cta1_link_name = '''go_further'''
-  cta1_icon = '''play'''
+	cta1_url = '''https://www.youtube.com/watch?v=HhtHflDrnAU'''
+	cta1_link_name = '''go_further'''
+	cta1_icon = '''play'''
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
-  image = '''th_edm6_gofurther_20170306'''
-  url_link = '''https://www.youtube.com/watch?v=HhtHflDrnAU'''
-  cta_link_name = '''go_further'''
+	image = '''th_edm6_gofurther_20170306'''
+	url_link = '''https://www.youtube.com/watch?v=HhtHflDrnAU'''
+	cta_link_name = '''go_further'''
 
 [[module]]
 path='email_modules/spacer/platinum_20'
 color='white'
 
-  [[module]] #Split 02
+	[[module]] #Split 02
 path='email_modules/split/02'
 color='slatescreen'
 
@@ -81,10 +81,10 @@ copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif;font-size: 15px;"
 <span style=" white-space:nowrap;">ที่ชาเลนเจอร์ ฮอลล์ 1-3</span>
 <span style=" white-space:nowrap;">อิมแพ็ค เมืองทองธานี</span></span>'''
 cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">อ่านเพิ่มเติม</span>'''
-  cta1_url = '''https://www.ford.co.th/buying/latest-offers/'''
-  cta1_link_name = '''bkk_motor_show'''
-  cta1_icon = '''more'''
-  image = '''th_edm6_motorshow_20170309'''
+	cta1_url = '''https://www.ford.co.th/buying/latest-offers/'''
+	cta1_link_name = '''bkk_motor_show'''
+	cta1_icon = '''more'''
+	image = '''th_edm6_motorshow_20170309'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
@@ -99,12 +99,12 @@ copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style=" white-space:nowrap;">หยุดอ่าน</span>
 <span style=" white-space:nowrap;">แล้วไปดูกันว่า</span>จะ<span style=" white-space:nowrap;">เกิดอะไรขึ้น!</span></span> '''
 cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกดูวิดีโอ</span>'''
-  cta1_url = '''https://www.facebook.com/FordThailand/videos/10155671615357942/'''
-  cta1_link_name = '''wings_wheels'''
-  cta1_icon = '''play'''
-  image = '''th_edm6_wingsvswheels_20170306'''
-  
-  [[module]] #Split 02
+	cta1_url = '''https://www.facebook.com/FordThailand/videos/10155671615357942/'''
+	cta1_link_name = '''wings_wheels'''
+	cta1_icon = '''play'''
+	image = '''th_edm6_wingsvswheels_20170306'''
+	
+	[[module]] #Split 02
 path='email_modules/split/02'
 color='darkblue'
 
@@ -120,10 +120,10 @@ copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif; font-size: 15px;
 <span style=" white-space:nowrap;">ในแบบที่คุณ</span>
 <span style=" white-space:nowrap;">สามารถประหยัดน้ำมันได้ด้วย</span></span>'''
 cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกดูวิดีโอ</span>'''
-  cta1_url = '''https://www.youtube.com/watch?v=8f5PtziTBQc&feature=youtu.be'''
-  cta1_link_name = '''ac'''
-  cta1_icon = '''play'''
-  image = '''th_edm6_AC_20170306'''
+	cta1_url = '''https://www.youtube.com/watch?v=8f5PtziTBQc&feature=youtu.be'''
+	cta1_link_name = '''ac'''
+	cta1_icon = '''play'''
+	image = '''th_edm6_AC_20170306'''
  
 [[module]] #TH Social
 path='email_modules/footer/th/social'

@@ -7,85 +7,85 @@ draft = true
 path='email_modules/preheader'
 color='''nothing'''
 
-   preheader='''The Ford Ranger is waiting for you at a nearby dealership!'''
+	preheader='''The Ford Ranger is waiting for you at a nearby dealership!'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'
 
-  image = '''white'''
-  url_link = '''https://www.ford.com.au/'''
+	image = '''white'''
+	url_link = '''https://www.ford.com.au/'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''au_edm5_ranger2_20161013'''
+	image = '''au_edm5_ranger2_20161013'''
 
 [[module]]
 path='email_modules/cover/02'
 color='''white'''
 
-    title='''Stick with the winners.'''
-    copy=''''''
-    cta1_text='''BOOK A TEST DRIVE'''
-    cta1_url='''https://www.ford.com.au/test-drive/'''
+		title='''Stick with the winners.'''
+		copy=''''''
+		cta1_text='''BOOK A TEST DRIVE'''
+		cta1_url='''https://www.ford.com.au/test-drive/'''
 		cta1_link_name = '''test1'''
-    cta2_text='''LATEST OFFER'''
-    cta2_url='''https://www.ford.com.au/latest-offers/national?offer=ranger-4x4-xlt-double-pick-up-3-2-diesel'''
+		cta2_text='''LATEST OFFER'''
+		cta2_url='''https://www.ford.com.au/latest-offers/national?offer=ranger-4x4-xlt-double-pick-up-3-2-diesel'''
 		cta2_link_name = '''latestoffer1'''
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
-  
-  copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Plenty of trucks can boast brute strength. But it's the technology behind the muscle that makes the Ford Ranger a real hero. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Ranger 4x4 XLT Double Cab Pick Up 3.2L Diesel is available at $55,490* Driveaway.</span>'''
+	
+	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Plenty of trucks can boast brute strength. But it's the technology behind the muscle that makes the Ford Ranger a real hero. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Ranger 4x4 XLT Double Cab Pick Up 3.2L Diesel is available at $55,490* Driveaway.</span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-  image = '''au_edm5_ranger3_20161013'''
+	image = '''au_edm5_ranger3_20161013'''
 
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''au_edm5_ranger_award_20161215'''
-  
-   
+	image = '''au_edm5_ranger_award_20161215'''
+	
+	
 [[module]] #Custom 4 Icons
 path='email_modules/custom/4icons'
 color='white'
 
 	title = '''Featuring:'''
-  icon1_url='''http://www.india.ford.com/locate-dealer'''
-  icon1_link_name = '''locate_dealer'''
-  icon1_image='''au_edm5_engine_20161013'''
-  icon1_text = '''3.2 TDCi Diesel'''
-  icon2_url='''tel:18004252500'''
-  icon2_link_name = '''locate_dealer2'''
-  icon2_image='''au_edm5_towing_20161013'''
-  icon2_text = '''Towing Capacity of 3,500kg¹'''
-  icon3_url='''tel:18002097400'''
-  icon3_link_name = '''locate_dealer3'''
-  icon3_image='''au_edm5_voicecontrol_20161013'''
-  icon3_text = '''Bluetooth® with Voice Control³'''
-  icon4_url='''https://partscalculator.fordind.com:1443/Fill_Field'''
-  icon4_link_name = '''parts_calculator'''
-  icon4_image='''au_edm5_waterwanding_20161013'''
-  icon4_text = '''800mm Water Wading²'''
+	icon1_url='''http://www.india.ford.com/locate-dealer'''
+	icon1_link_name = '''locate_dealer'''
+	icon1_image='''au_edm5_engine_20161013'''
+	icon1_text = '''3.2 TDCi Diesel'''
+	icon2_url='''tel:18004252500'''
+	icon2_link_name = '''locate_dealer2'''
+	icon2_image='''au_edm5_towing_20161013'''
+	icon2_text = '''Towing Capacity of 3,500kg¹'''
+	icon3_url='''tel:18002097400'''
+	icon3_link_name = '''locate_dealer3'''
+	icon3_image='''au_edm5_voicecontrol_20161013'''
+	icon3_text = '''Bluetooth® with Voice Control³'''
+	icon4_url='''https://partscalculator.fordind.com:1443/Fill_Field'''
+	icon4_link_name = '''parts_calculator'''
+	icon4_image='''au_edm5_waterwanding_20161013'''
+	icon4_text = '''800mm Water Wading²'''
 	
 [[module]] #Cover 13
 path='email_modules/cover/04'
 color='white'
 
-  title = '''Cover 13'''
-  copy = ''''''
-  cta1_url = '''https://www.ford.com.au/commercial/ranger/'''
-  cta1_text = '''FIND OUT MORE'''
-  cta1_icon = '''more'''
-  cta1_link_name = '''more1'''
+	title = '''Cover 13'''
+	copy = ''''''
+	cta1_url = '''https://www.ford.com.au/commercial/ranger/'''
+	cta1_text = '''FIND OUT MORE'''
+	cta1_icon = '''more'''
+	cta1_link_name = '''more1'''
 
 [[module]]
 path='email_modules/cover/01'
@@ -98,10 +98,10 @@ copy='''<span style="color:#FFFFFF">See how we put the smart Ranger to the test 
 path = '''email_modules/image/2images'''
 color = '''white'''
 
-  image1 = '''au_edm5_ranger2_20161107'''
+	image1 = '''au_edm5_ranger2_20161107'''
 	image1_url = '''https://www.ford.com.au/commercial/ranger/science-of-truck/#overlay/content/ford/au/en_au/ranger-content/overlay-videos/the-science-truck-overlays/overlaY4.html'''
 	image1_link_name = '''ranger1'''
-  image2 = '''au_edm5_ranger_20161107'''
+	image2 = '''au_edm5_ranger_20161107'''
 	image2_url = '''https://www.ford.com.au/commercial/ranger/science-of-truck/?bannerid=SoTNovDec_39965218_Xaxis_InMarket_Optimisedline_FOA#overlay/content/ford/au/en_au/ranger-content/overlay-videos/the-science-truck-overlays/overlaY5.html'''
 	image2_link_name = '''ranger2'''
 		
@@ -109,29 +109,29 @@ color = '''white'''
 path='email_modules/cover/04'
 color='black'
 
-  title = '''Cover 13'''
-  copy = ''''''
-  cta1_url = '''https://www.ford.com.au/commercial/ranger/science-of-truck/'''
-  cta1_text = '''SEE ALL OF THE SCIENCE OF TRUCK'''
-  cta1_icon = '''more'''
-  cta1_link_name = '''scienceoftruck'''
+	title = '''Cover 13'''
+	copy = ''''''
+	cta1_url = '''https://www.ford.com.au/commercial/ranger/science-of-truck/'''
+	cta1_text = '''SEE ALL OF THE SCIENCE OF TRUCK'''
+	cta1_icon = '''more'''
+	cta1_link_name = '''scienceoftruck'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''au_edm1_cover4_20161018'''
+	image = '''au_edm1_cover4_20161018'''
 
 
 [[module]] #Cover 07
 path='email_modules/cover/02'
 color='''white'''
 
-  title='''Ranger Accessories'''
-  copy='''<a href="https://www.ford.com.au/commercial/ranger/smart-accessories/" name="accessories" style="text-decoration:underline; color:#2d96cd">Ford Genuine Accessories</a> are designed to fit perfectly and integrate seamlessly with Ranger's safety systems. So whether you need a soft tonneau cover to protect your cargo or a towpack for your weekend adventure, check out our range of extras that will help take your Ranger to the next level.<br /><br />So don't wait. Book a test drive to experience the Ford Ranger 4x4 XLT Double Cab Pick Up 3.2L Diesel today.'''
-  cta1_text='''BOOK A TEST DRIVE'''
-  cta1_url='''https://www.ford.com.au/test-drive/'''
-  cta1_link_name = '''test2'''
+	title='''Ranger Accessories'''
+	copy='''<a href="https://www.ford.com.au/commercial/ranger/smart-accessories/" name="accessories" style="text-decoration:underline; color:#2d96cd">Ford Genuine Accessories</a> are designed to fit perfectly and integrate seamlessly with Ranger's safety systems. So whether you need a soft tonneau cover to protect your cargo or a towpack for your weekend adventure, check out our range of extras that will help take your Ranger to the next level.<br /><br />So don't wait. Book a test drive to experience the Ford Ranger 4x4 XLT Double Cab Pick Up 3.2L Diesel today.'''
+	cta1_text='''BOOK A TEST DRIVE'''
+	cta1_url='''https://www.ford.com.au/test-drive/'''
+	cta1_link_name = '''test2'''
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
@@ -141,11 +141,11 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-  text = '''Terms & Conditions	
-        <br /> <br />*Limited offer available at participating Dealers while stocks last. Recommended Driveaway price relates to 2017 model year vehicles onwards. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. See <a href="https://www.ford.com.au/latest-offers/" name="latest_offer2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/latest-offers</a> for full details.<br /><br />
-        1. Braked towing capacity when fitted with a genuine Ford towpack and towball. Subject to State and Territory regulations.<br /><br />
-        2. Achieved when maintaining a steady speed of not more than 7km per hour.<br /><br />
-        3. Buetooth® is a registered trademark of Bluetooth SIG Inc., and is used under licence. Some phones not compatible.'''
+	text = '''Terms & Conditions	
+				<br /> <br />*Limited offer available at participating Dealers while stocks last. Recommended Driveaway price relates to 2017 model year vehicles onwards. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. See <a href="https://www.ford.com.au/latest-offers/" name="latest_offer2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/latest-offers</a> for full details.<br /><br />
+				1. Braked towing capacity when fitted with a genuine Ford towpack and towball. Subject to State and Territory regulations.<br /><br />
+				2. Achieved when maintaining a steady speed of not more than 7km per hour.<br /><br />
+				3. Buetooth® is a registered trademark of Bluetooth SIG Inc., and is used under licence. Some phones not compatible.'''
 
 
 [[module]] #Footer AU Online

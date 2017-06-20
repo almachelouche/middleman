@@ -15,8 +15,8 @@ color='''nothing'''
 path='email_modules/header/logo'
 color='white'
 
-  image = '''white'''
-  url_link = '''https://www.ford.co.th/'''
+	image = '''white'''
+	url_link = '''https://www.ford.co.th/'''
 
 [[module]]
 path='email_modules/cover/02'
@@ -27,17 +27,17 @@ title='''<span style="color:#ff6600;font-family:Tahoma, Verdana, Sans-serif">ร
 copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีคุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด <%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></span><br /><br />
 
  <span style="font-family:Tahoma, Verdana, Sans-serif">
-          	<span style="white-space:nowrap;">เพื่อรักษารถ &lt;%${user.CustomAttribute['Model']}%&gt;</span> 
-            <span style="white-space:nowrap;">ของคุณให้อยู่ในสภาพดี</span>
-            <span style="white-space:nowrap;">และวิ่งได้อย่างเต็มประสิทธิภาพสม่ำเสมอ</span> 
-            <span style="white-space:nowrap;">อย่าลืมนำรถเข้าศูนย์บริการ</span>
-            <span style="white-space:nowrap;">เพื่อตรวจเช็คระยะเมื่อครบกำหนด</span>
-          </span>
+						<span style="white-space:nowrap;">เพื่อรักษารถ &lt;%${user.CustomAttribute['Model']}%&gt;</span> 
+						<span style="white-space:nowrap;">ของคุณให้อยู่ในสภาพดี</span>
+						<span style="white-space:nowrap;">และวิ่งได้อย่างเต็มประสิทธิภาพสม่ำเสมอ</span> 
+						<span style="white-space:nowrap;">อย่าลืมนำรถเข้าศูนย์บริการ</span>
+						<span style="white-space:nowrap;">เพื่อตรวจเช็คระยะเมื่อครบกำหนด</span>
+					</span>
 <br /><br />
 <span style="font-family:Tahoma, Verdana, Sans-serif">
-    <span style="white-space:nowrap;">นัดหมายล่วงหน้าเพื่อเข้ารับบริการได้ทันที</span> <br />
-    <span style="white-space:nowrap;">ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%></span> <span style="white-space:nowrap;">(ระหว่างเวลาทำการ)</span><br />
-    <span style="white-space:nowrap;">หรือค้นหาตัวแทนจำหน่ายใกล้บ้านคุณ</span>
+		<span style="white-space:nowrap;">นัดหมายล่วงหน้าเพื่อเข้ารับบริการได้ทันที</span> <br />
+		<span style="white-space:nowrap;">ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%></span> <span style="white-space:nowrap;">(ระหว่างเวลาทำการ)</span><br />
+		<span style="white-space:nowrap;">หรือค้นหาตัวแทนจำหน่ายใกล้บ้านคุณ</span>
  </span>'''
 
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">โทร <%${user.CustomAttribute['Dealer_Phone']}%></span>'''
@@ -51,16 +51,16 @@ cta2_link_name='''find_dealer'''
 path='email_modules/split/04'
 color='green'
 
-  title='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">ประหยัดค่าน้ำมันเครื่อง</span><br /><span style="white-space:nowrap;">สูงสุด</span></span>'''
-  copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+	title='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">ประหยัดค่าน้ำมันเครื่อง</span><br /><span style="white-space:nowrap;">สูงสุด</span></span>'''
+	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 <span style="white-space:nowrap;">ด้วยโปรแกรมชุดน้ำมันเครื่องสุดคุ้ม</span> <br />
-<span style="white-space:nowrap;">(Oil Save Pack)</span>  <br />
+<span style="white-space:nowrap;">(Oil Save Pack)</span>	<br />
 <span style="white-space:nowrap;">ให้คุณประหยัดสูงสุดถึง 18%</span> <br />
 <span style="white-space:nowrap;">ในการเปลี่ยนน้ำมันเครื่อง </span><br /> 
 <span style="white-space:nowrap;">ไส้กรองน้ำมันเครื่อง </span> <br />
 <span style="white-space:nowrap;">และโอริงน๊อตอ่างน้ำมันเครื่อง</span> 
 </span>'''
-  cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
+	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
 cta1_url='''https://www.ford.co.th/owner/oil-save-pack/'''
 cta1_icon='''more'''
 cta1_link_name = '''OSP'''

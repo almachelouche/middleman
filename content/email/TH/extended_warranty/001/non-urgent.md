@@ -13,16 +13,16 @@ color='''nothing'''
 path='email_modules/header/logo'
 color='white'
 
-  image = '''white'''
-  url_link = '''https://www.ford.co.th/'''
+	image = '''white'''
+	url_link = '''https://www.ford.co.th/'''
 
 [[module]] #Cover 06
 path='email_modules/cover/02'
 color = '''white'''
 
-  icon = '''th_edm3_extendedwarranty_20160801'''
-  title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ยืดระยะเวลา ให้คุณอุ่นใจได้นานขึ้น</span>'''
-  copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">สวัสดี คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></span>
+	icon = '''th_edm3_extendedwarranty_20160801'''
+	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ยืดระยะเวลา ให้คุณอุ่นใจได้นานขึ้น</span>'''
+	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">สวัสดี คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></span>
 <table cellpadding="0" cellspacing="0" height="20" style="line-height:20px"><tr><td>&nbsp;</td></tr></table>
 <span style=" white-space:nowrap;">รถ <%${user.CustomAttribute['Model']}%> ของคุณ</span><br />
 <span style=" white-space:nowrap;">ใกล้จะสิ้นสุดระยะเวลาการรับประกันแล้ว<sup>1</sup></span><br />
@@ -43,18 +43,18 @@ color = '''white'''
 <table cellpadding="0" cellspacing="0" height="20" style="line-height:20px"><tr><td>&nbsp;</td></tr></table>
 <span style=" white-space:nowrap;">ยกระดับความอบอุ่นใจไปกับเรา</span> <span style=" white-space:nowrap;">ได้แล้ววันนี้</span></span>'''
 
-  cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ดูข้อเสนอล่าสุดได้ที่นี่</span>'''
-  cta1_url = '''https://www.ford.co.th/owner/premium-protection-plus/'''
-  cta1_link_name = '''ppp'''
-  cta2_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาตัวแทนจำหน่าย</span>'''
-  cta2_url = '''https://www.ford.co.th/locate-a-dealer/'''
-  cta2_link_name = '''find_dealer'''
+	cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ดูข้อเสนอล่าสุดได้ที่นี่</span>'''
+	cta1_url = '''https://www.ford.co.th/owner/premium-protection-plus/'''
+	cta1_link_name = '''ppp'''
+	cta2_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาตัวแทนจำหน่าย</span>'''
+	cta2_url = '''https://www.ford.co.th/locate-a-dealer/'''
+	cta2_link_name = '''find_dealer'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''th_edm2_whyfordsvc_20161115'''
+	image = '''th_edm2_whyfordsvc_20161115'''
 
 [[module]] #TH Social
 path='email_modules/footer/th/social'
