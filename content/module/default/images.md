@@ -1,5 +1,5 @@
 +++
-moduletypes = [ "All" ]
+moduletypes = [ "Default" ]
 title = 'Images Default'
 
 [[module]] #2 Images

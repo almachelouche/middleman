@@ -1,5 +1,5 @@
 +++
-moduletypes = [ "All" ]
+moduletypes = [ "Default" ]
 title = 'Covers Default'
 
 [[module]] #Cover 01

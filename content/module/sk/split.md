@@ -1,6 +1,6 @@
 +++
-moduletypes=[ "all" ]
-title='Splits SK'
+moduletypes = [ "SK" ]
+title = 'Splits SK'
 
 [[module]] #Split 02
 path='email_modules/split/02'

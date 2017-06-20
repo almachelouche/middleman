@@ -1,5 +1,5 @@
 +++
-moduletypes = [ "All" ]
+moduletypes = [ "Default" ]
 title = 'Customs Default'
 
 [[module]]

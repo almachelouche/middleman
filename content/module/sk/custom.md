@@ -1,5 +1,5 @@
 +++
-moduletypes = [ "All" ]
+moduletypes = [ "SK" ]
 title = 'Customs SK'
 
 [[module]] #Custom 3columntitle3icons

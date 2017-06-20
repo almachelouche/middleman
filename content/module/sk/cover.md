@@ -1,5 +1,5 @@
 +++
-moduletypes = [ "All" ]
+moduletypes = [ "SK" ]
 title = 'Covers SK'
 
 [[module]] #Cover 01

@@ -1,5 +1,5 @@
 +++
-moduletypes = [ "All" ]
+moduletypes = [ "Default" ]
 title = 'Headers Default'
 
 [[module]] #Header Logo

@@ -1,5 +1,5 @@
 +++
-moduletypes = [ "All" ]
+moduletypes = [ "SK" ]
 title = 'Singles SK'
 
 [[module]] #Singles ctablock

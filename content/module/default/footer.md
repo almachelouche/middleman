@@ -1,5 +1,5 @@
 +++
-moduletypes = [ "All" ]
+moduletypes = [ "Default" ]
 title = 'Footers Default'
 
 [[module]] #Footer 4 Icons

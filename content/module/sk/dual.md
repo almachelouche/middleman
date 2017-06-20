@@ -1,10 +1,11 @@
 +++
-moduletypes=[ "all" ]
-title='Duals SK'
+moduletypes = [ "SK" ]
+title = 'Duals SK'
 
 [[module]] #Dual 01
 path='email_modules/dual/01'
 color='white'
+font='sk'
 
   icon1 = '''in_edm2d_status_battery_black_20160801'''
   title1 = '''Dual 01 Title 1'''
