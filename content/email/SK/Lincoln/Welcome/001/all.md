@@ -5,7 +5,7 @@ title = '''SK Lincoln Welcome 001'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader='''링컨과 함께하는 시작이 더욱 아름답고 편안하기를 바랍니다.'''
 

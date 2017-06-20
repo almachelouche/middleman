@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''Long time, no see! We noticed that your Ford <%${user.CustomAttribute['Selected_Vehicle']}%> hasn't been fully serviced lately, and that's got us worried.'''
 

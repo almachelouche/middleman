@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader='''At just $32,490, you can drive away with the smart Ford Kuga'''
 

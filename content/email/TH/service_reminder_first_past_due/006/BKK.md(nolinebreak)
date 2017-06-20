@@ -4,7 +4,7 @@ title = '''TH Service Reminder First Past Due 006 BKK'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''Discover how much you can save with a Scheduled Service Pack.'''
 

@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''We noticed that your Ford hasn't been serviced lately. You're an important member of the Ford family, so that's got us worried. '''
 

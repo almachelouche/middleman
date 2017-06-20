@@ -4,9 +4,8 @@ title = '''TH Repurchase 004 All'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
 
-preheader = '''พบข้อเสนอสุดพิเศษได้ที่โชว์รูมฟอร์ดตลอดเดือนมีนาคมนี้'''
+	preheader = '''พบข้อเสนอสุดพิเศษได้ที่โชว์รูมฟอร์ดตลอดเดือนมีนาคมนี้'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

@@ -4,7 +4,7 @@ title = '''TH Service Reminder First Due 005 UPC'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''พบข้อเสนอสุดพิเศษกับโปรแกรมบำรุงรักษารถยนต์ตามระยะ (SSP)'''
 

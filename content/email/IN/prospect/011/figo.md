@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''Next-Gen Ford Figo is more powerful, efficient, spacious and easier to maintain than the Maruti Suzuki Swift ZDi. Yes, officially. That's not all! You'll get a cash discount of &#8377;5000, 8.4% interest rate, exchange bonus and a loyalty bonus in the form of Extended Warranty, if you make the purchase before 28th Feb.'''
 

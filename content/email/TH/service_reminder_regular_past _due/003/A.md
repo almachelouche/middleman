@@ -4,7 +4,7 @@ title = '''TH Service Reminder Regular Past Due 003 BKK'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''ดูแลเครื่องยนต์ของคุณด้วยโปรแกรมชุดน้ำมันเครื่องสุดคุ้ม Oil Save Packs'''
 

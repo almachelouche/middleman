@@ -5,14 +5,14 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 segmentif = ["(user.CustomAttribute['Segment'] == 'A') || (user.CustomAttribute['Segment'] == 'B')"]
 
 	preheader = '''Long time, no see! Your Ford <%${user.CustomAttribute['Model']}%> is due for service, and our experts can't wait to make sure it's running at its absolute best.'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'C') || (user.CustomAttribute['Segment'] == 'D')"]
 
 	preheader = '''For the wellbeing of you and your Ford, visit a Ford service centre soon.'''

@@ -4,32 +4,32 @@ title = '''AU Prospect 011 Focus_merged'''
 
 [[module]]
 path='email_modules/preheaderbefore'
-color='''nothing'''
+
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
 	preheader='''The Ford Focus is waiting for you at a nearby dealership!'''
 
 [[module]]
 path='email_modules/preheaderbefore'
-color='''nothing'''
+
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	preheader='''Click through to see the latest offers on the cutting edge Ford Focus'''
 
 [[module]]
 path='email_modules/body'
-color='''nothing'''
+
 
 [[module]]
 path='email_modules/preheaderbefore'
-color='''nothing'''
+
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
 	preheader='''The Ford Focus is waiting for you at a nearby dealership!'''
 
 [[module]]
 path='email_modules/preheaderbefore'
-color='''nothing'''
+
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	preheader='''Click through to see the latest offers on the cutting edge Ford Focus'''

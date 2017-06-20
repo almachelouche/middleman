@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''When you purchase a Ford, you aren't just buying a great vehicle – you're joining our Family. And that means we will never let you settle for less. '''
 

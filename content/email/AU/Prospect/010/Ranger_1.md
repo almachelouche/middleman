@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader='''Pay just $55,990 for the smart and tough Ford Ranger'''
 

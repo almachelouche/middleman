@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader='''Pay just $38,990 for the dynamic Ford Mondeo'''
 

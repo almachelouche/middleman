@@ -4,9 +4,8 @@ title = '''PH Service Reminder First 004 All'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
 
-preheader = '''Here’s a quick reminder that your new <%${user.CustomAttribute['Model']}%> is due for its first service.'''
+	preheader = '''Here’s a quick reminder that your new <%${user.CustomAttribute['Model']}%> is due for its first service.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

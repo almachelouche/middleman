@@ -4,7 +4,7 @@ title = '''TH Extended Warranty 003 Urgent'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''คุ้มกว่า เมื่อขยายเวลารับประกันความคุ้มครองรถฟอร์ดของคุณภายในวันที่ 31 สิงหาคมนี้'''
 

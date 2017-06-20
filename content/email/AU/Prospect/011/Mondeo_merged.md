@@ -4,32 +4,32 @@ title = '''AU Prospect 011 Mondeo-merged'''
 
 [[module]]
 path='email_modules/preheaderbefore'
-color='''nothing'''
+
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
 	preheader='''The Ford Mondeo is waiting for you at a nearby dealership!'''
 
 [[module]]
 path='email_modules/preheaderbefore'
-color='''nothing'''
+
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	preheader='''Click through to see the latest offers on the dynamic and effortless Ford Mondeo'''
 
 [[module]]
 path='email_modules/body'
-color='''nothing'''
+
 
 [[module]]
 path='email_modules/preheaderbefore'
-color='''nothing'''
+
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
 	preheader='''The Ford Mondeo is waiting for you at a nearby dealership!'''
 
 [[module]]
 path='email_modules/preheaderbefore'
-color='''nothing'''
+
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	preheader='''Click through to see the latest offers on the dynamic and effortless Ford Mondeo'''

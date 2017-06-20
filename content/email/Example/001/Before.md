@@ -3,8 +3,7 @@ markets = ["example"]
 draft = true
 title = '''Before'''
 
-
-preheader = ''''''
+	preheader = ''''''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

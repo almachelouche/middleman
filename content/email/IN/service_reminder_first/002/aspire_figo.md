@@ -4,13 +4,13 @@ title = '''IN Service Reminder First Due/PDue 002 Aspire Figo'''
 draft=true
 				[[module]]
 				path='email_modules/preheader'
-				color='''nothing'''
+				
 
 					preheader = '''Here's a quick reminder that your new Ford <%${user.CustomAttribute['Selected_Vehicle']}%> is due for its first service.'''
 
 				[[module]]
 				path='email_modules/preheader'
-				color='''nothing'''
+				
 
 					preheader = '''We noticed your Ford <%${user.CustomAttribute['Selected_Vehicle']}%> is overdue for its first service. This service is just a quick check to ensure your Ford is still running at its absolute best.'''
  

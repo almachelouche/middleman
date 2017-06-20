@@ -5,7 +5,7 @@ title = '''IN Prospect 007 all'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''Everyone loves a welcome gift. And when you join the Ford family now, we are happy to show our appreciation with just that. '''
 

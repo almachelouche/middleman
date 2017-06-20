@@ -4,9 +4,8 @@ title = '''PH Service Reminder First 003 All'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
 
-preheader = '''Your Ford Vehicle must be nearly ready for its 10,000km service.'''
+	preheader = '''Your Ford Vehicle must be nearly ready for its 10,000km service.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader='''At just $24,990, you can drive away with the cutting edge Ford Focus'''
 

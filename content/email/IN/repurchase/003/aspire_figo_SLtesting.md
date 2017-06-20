@@ -5,21 +5,21 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 
 	preheader = '''You've been driving your Ford <%${user.CustomAttribute['Selected_Vehicle']}%> for a while now. Consider purchasing a new Ford. At Ford, we look out for family. That's why we offer a range of fully loaded cars at all-new starting prices.'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
 
 	preheader = '''You've been driving your Ford <%${user.CustomAttribute['Selected_Vehicle']}%> for a while now and we think you might be looking about purchasing another. At Ford, we look out for family. That's why we offer a range of fully loaded cars at all-new starting prices.'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')"]
 
 	preheader = '''You've been driving your Ford <%${user.CustomAttribute['Selected_Vehicle']}%> for a while now and might be thinking about purchasing a new Ford. At Ford, we look out for family. That's why we offer a range of fully loaded cars at all-new starting prices.'''

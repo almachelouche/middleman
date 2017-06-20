@@ -4,9 +4,8 @@ title = '''VN Service Reminder First 005 All'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
 
-preheader = '''Đặt lịch thật dễ dàng. Quý vị hãy tìm hiểu và đặt lịch làm dịch vụ ngay hôm nay.'''
+	preheader = '''Đặt lịch thật dễ dàng. Quý vị hãy tìm hiểu và đặt lịch làm dịch vụ ngay hôm nay.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

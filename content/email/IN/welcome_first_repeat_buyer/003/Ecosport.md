@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 segmentif = ["(user.CustomAttribute['Segment'] == 'AC') || (user.CustomAttribute['Segment'] == 'AD') || (user.CustomAttribute['Segment'] == 'AG') || (user.CustomAttribute['Segment'] == 'AH')"]
 
 
@@ -13,7 +13,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'AC') || (user.CustomAttribute
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'AE') || (user.CustomAttribute['Segment'] == 'AF') || (user.CustomAttribute['Segment'] == 'AI') || (user.CustomAttribute['Segment'] == 'AJ')"]
 
 

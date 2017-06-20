@@ -4,9 +4,8 @@ title = '''PH Welcome Repeat 004 New Ranger'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
 
-preheader = '''There’s nothing quite like a new car, whether it’s your first or your tenth. So we want to say ‘thank you!’ for choosing to make yours a Ford, again.'''
+	preheader = '''There’s nothing quite like a new car, whether it’s your first or your tenth. So we want to say ‘thank you!’ for choosing to make yours a Ford, again.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

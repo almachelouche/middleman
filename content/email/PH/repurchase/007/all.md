@@ -4,9 +4,8 @@ title = '''PH Repurchase 007 All'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
 
-preheader = '''Hurry in before Dec 31. This deal can't last. Say YES to a new Ford. We just wanted to say 'thank you!' for being a Ford owner.'''
+	preheader = '''Hurry in before Dec 31. This deal can't last. Say YES to a new Ford. We just wanted to say 'thank you!' for being a Ford owner.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

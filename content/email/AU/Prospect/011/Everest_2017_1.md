@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader='''Click through to see the latest offers on our most capable SUV, the Ford Everest'''
 

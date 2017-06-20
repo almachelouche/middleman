@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader='''Pay just $19,990 for the city-sized SUV Ford EcoSport'''
 

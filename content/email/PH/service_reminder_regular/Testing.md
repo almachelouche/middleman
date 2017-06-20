@@ -4,7 +4,7 @@ title = '''PH Regular Service Reminder_Mail Merge'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''Learn about our Oil Save Packs that keep your engine running smoothly.'''
 

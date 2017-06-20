@@ -5,7 +5,7 @@ title = '''SK Ford Welcome 001'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 		preheader='''저희 포드는 새로운 가족이 되신 고객님께 다시 한 번 깊은 감사의 마음을 전합니다'''
 

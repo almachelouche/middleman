@@ -4,9 +4,8 @@ title = '''PH Repurchase 010 All'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
 
-preheader = '''Good deals don't last for long.'''
+	preheader = '''Good deals don't last for long.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

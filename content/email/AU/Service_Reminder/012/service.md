@@ -4,13 +4,13 @@ title = '''AU Service Reminder 011 All Blue back up'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader=''''''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader=''''''
 

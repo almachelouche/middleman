@@ -5,32 +5,32 @@ title = '''IN Welcome 006 Old Figo All'''
 
 [[module]]
 path='email_modules/preheaderbefore'
-color='''nothing'''
+
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
 	preheader='''There's nothing quite like a new car. So it really means a lot to us that you chose another Ford.'''
 
 [[module]]
 path='email_modules/preheaderbefore'
-color='''nothing'''
+
 segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 
 	preheader='''There's nothing quite like a new car. And we want to thank you for making yours a Ford.'''
 
 [[module]]
 path='email_modules/body'
-color='''nothing'''
+
 
 [[module]]
 path='email_modules/preheaderafter'
-color='''nothing'''
+
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
 	preheader='''There's nothing quite like a new car. So it really means a lot to us that you chose another Ford.'''
 
 [[module]]
 path='email_modules/preheaderafter'
-color='''nothing'''
+
 segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 
 	preheader='''There's nothing quite like a new car. And we want to thank you for making yours a Ford.'''

@@ -5,9 +5,8 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
 
-preheader = '''<span style="font-family:Tahoma, Verdana, Sans-serif">สัมผัสประสบการณ์เหนือระดับ กับ ฟอร์ดเรนเจอร์ ใหม่ และ ฟอร์ด เอเวอเรสต์ ใหม่</span>'''
+	preheader = '''<span style="font-family:Tahoma, Verdana, Sans-serif">สัมผัสประสบการณ์เหนือระดับ กับ ฟอร์ดเรนเจอร์ ใหม่ และ ฟอร์ด เอเวอเรสต์ ใหม่</span>'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

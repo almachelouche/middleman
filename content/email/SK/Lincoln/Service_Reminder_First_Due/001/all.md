@@ -5,7 +5,7 @@ title = '''SK Lincoln Service Reminder First 001'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader='''링컨과 함께하는 여정에 처음의 감동이 늘 함께하도록, 귀하의 링컨을 위한 '첫 번째 차량 점검'을 권장해드립니다.'''
 

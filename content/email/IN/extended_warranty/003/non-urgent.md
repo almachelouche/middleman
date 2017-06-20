@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''Your Ford <%${user.CustomAttribute['Selected_Vehicle']}%>'s warranty will expire on <%${user.CustomAttribute['EWDate']}%>. Knowing you and your Ford are protected means the world to us, so we'd like to offer you an opportunity to extend your vehicle's warranty.'''
 

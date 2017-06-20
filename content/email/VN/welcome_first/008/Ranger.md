@@ -4,9 +4,8 @@ title = '''VN Welcome First 008 Ranger'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
 
-preheader = '''Có lẽ không có gì thú vị hơn khi được ngồi lái một chiếc xe mới. Và chúng tôi muốn nói lời cảm ơn bạn đã lựa chọn Ford.'''
+	preheader = '''Có lẽ không có gì thú vị hơn khi được ngồi lái một chiếc xe mới. Và chúng tôi muốn nói lời cảm ơn bạn đã lựa chọn Ford.'''
 
 
 [[module]] #Header Logo

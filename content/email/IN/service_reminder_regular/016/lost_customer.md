@@ -4,7 +4,7 @@ title = '''IN Service Reminder Regular Lost Customer 016 all'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''We noticed that your Ford <%${user.CustomAttribute['Model']}%> hasn't been fully serviced lately, and that's got us worried. Hello <%${user.CustomAttribute['FullName']}%>, long time, no see! We noticed that your Ford <%${user.CustomAttribute['Model']}%> hasn't been fully serviced lately, and that's got us worried.'''
 

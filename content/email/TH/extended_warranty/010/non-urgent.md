@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''ขยายการรับประกันเพื่อยืดระยะเวลาการบำรุงรักษารถฟอร์ดของคุณให้นานขึ้น'''
 

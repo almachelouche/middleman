@@ -4,9 +4,8 @@ title = '''VN Welcome Repeat 006 EcoSport'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
 
-preheader = '''Chẳng có gì thú vị hơn được lái một chiếc xe mới, dù đó là chiếc xe đầu tiên hay thứ 10. Thế nên chúng tôi muốn nói "Cảm ơn Bạn" vì đã tiếp tục chọn Ford.'''
+	preheader = '''Chẳng có gì thú vị hơn được lái một chiếc xe mới, dù đó là chiếc xe đầu tiên hay thứ 10. Thế nên chúng tôi muốn nói "Cảm ơn Bạn" vì đã tiếp tục chọn Ford.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

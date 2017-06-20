@@ -5,9 +5,8 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
 
-preheader = '''Bạn có tin đã 12 tháng trôi qua kể từ ngày bạn lái chiếc EcoSport mới về nhà? Chúng tôi không thể để ngày đặc biệt này trôi qua mà không gửi lời cảm ơn tới bạn, một lần nữa, vì đã chọn Ford.'''
+	preheader = '''Bạn có tin đã 12 tháng trôi qua kể từ ngày bạn lái chiếc EcoSport mới về nhà? Chúng tôi không thể để ngày đặc biệt này trôi qua mà không gửi lời cảm ơn tới bạn, một lần nữa, vì đã chọn Ford.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

@@ -5,14 +5,14 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 segmentif = ["(user.CustomAttribute['Segment'] == 'A') || (user.CustomAttribute['Segment'] == 'B') || (user.CustomAttribute['Segment'] == 'E') || (user.CustomAttribute['Segment'] == 'F')"]
 
 	preheader='''There's nothing quite like a new car. And we want to thank you for making yours a Ford.'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'C') || (user.CustomAttribute['Segment'] == 'D') || (user.CustomAttribute['Segment'] == 'G') || (user.CustomAttribute['Segment'] == 'H')"]
 
 	preheader='''There's nothing quite like a new car. So it really means a lot to us that you chose another Ford.'''

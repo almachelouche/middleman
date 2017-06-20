@@ -4,7 +4,7 @@ title = '''TH Sweet Spot 005 All'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''พบกับข้อเสนอสุดพิเศษมากมาย ณ ศูนย์บริการฟอร์ด'''
 

@@ -19,7 +19,7 @@ segmentelse = ["(user.CustomAttribute['Model'] == 'All Others')"]
 
 [[module]]
 path='email_modules/body'
-color='''nothing'''
+
 
 [[module]]
 path='email_modules/preheaderafter'

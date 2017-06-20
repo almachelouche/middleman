@@ -5,7 +5,7 @@ title = '''SK Lincoln Anniversary 001'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 		preheader='''링컨과 함께해 온 시간이 벌써 1년이 되었습니다.'''
 

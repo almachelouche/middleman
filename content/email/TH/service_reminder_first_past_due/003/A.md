@@ -6,7 +6,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''ดูแลรถฟอร์ดของคุณให้วิ่งอย่างเต็มประสิทธิภาพด้วยโปรแกรมบำรุงรักษารถยนต์ตามระยะ รถ <%${user.CustomAttribute['Model']}%> ของคุณ เลยเวลาเช็คระยะแล้ว'''
 

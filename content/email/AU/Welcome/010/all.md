@@ -4,7 +4,7 @@ title = '''AU Welcome 010 All'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader=''''''
 

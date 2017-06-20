@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader='''There's nothing quite like a new car. And we want to thank you for making yours a Ford.'''
 

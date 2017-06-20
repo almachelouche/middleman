@@ -4,9 +4,8 @@ title = '''PH Repurchase 006 All'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
 
-preheader = '''Save big when you purchase a Ford Expedition before November 30, 2016.'''
+	preheader = '''Save big when you purchase a Ford Expedition before November 30, 2016.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

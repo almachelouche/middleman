@@ -6,9 +6,8 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
 
-preheader = '''สัมผัสประสบการณ์เหนือระดับ กับ ฟอร์ดเรนเจอร์ ใหม่ และ ฟอร์ด เอเวอเรสต์ ใหม่'''
+	preheader = '''สัมผัสประสบการณ์เหนือระดับ กับ ฟอร์ดเรนเจอร์ ใหม่ และ ฟอร์ด เอเวอเรสต์ ใหม่'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

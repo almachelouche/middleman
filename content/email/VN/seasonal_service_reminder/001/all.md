@@ -4,9 +4,8 @@ title = '''VN Service Reminder Seasonal 001 All'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
 
-preheader = '''Đặt lịch làm bảo dưỡng online để được hưởng Dịch vụ Bảo dưỡng nhanh trong 60 phút.'''
+	preheader = '''Đặt lịch làm bảo dưỡng online để được hưởng Dịch vụ Bảo dưỡng nhanh trong 60 phút.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

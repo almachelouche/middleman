@@ -5,9 +5,8 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
 
-preheader = '''Xem ngay giá xe Ford mới đặc biệt hấp dẫn. Ai sẽ là người đầu tiên sở hữu Explorer tại Việt Nam?'''
+	preheader = '''Xem ngay giá xe Ford mới đặc biệt hấp dẫn. Ai sẽ là người đầu tiên sở hữu Explorer tại Việt Nam?'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

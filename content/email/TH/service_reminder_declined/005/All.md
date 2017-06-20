@@ -5,7 +5,7 @@ title = '''TH Service Reminder Declined 005 All'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 		preheader = '''พบข้อเสนอสุดพิเศษสำหรับยางรถยนต์ เบรก แบตเตอรี่และอะไหล่ต่างๆ อีกมากมาย'''
 

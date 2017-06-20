@@ -6,7 +6,7 @@ title = '''TH Service Reminder Declined 002 All'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 		preheader = '''คุ้มสุดๆ! เปลี่ยนยางกู๊ดเยียร์ที่ศูนย์บริการฟอร์ดทั่วประเทศ'''
 

@@ -4,7 +4,7 @@ title = '''AU Enews 011 0-6 month'''
 
 [[module]]
 path='email_modules/preheader'
-color='''white'''
+
 
 	preheader='''Do you drive one of these four award-winning Ford vehicles?'''
 

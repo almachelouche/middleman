@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''Buy a Ford Aspire or Next-Gen Ford Figo at Zero Down Payment. There's more, get 100% funding for your vehicle at just 8.4% interest rate and assured gifts worth &#8377;10,000. '''
 

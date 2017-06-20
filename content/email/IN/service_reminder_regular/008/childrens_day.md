@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 segmentif = ["(user.CustomAttribute['Segment'] == 'A')","(user.CustomAttribute['Segment'] == 'B')"]
 segmentifdelimit = " || "
 
@@ -13,7 +13,7 @@ segmentifdelimit = " || "
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')","(user.CustomAttribute['Segment'] == 'D')"]
 segmentelseifdelimit = " || "
 

@@ -4,7 +4,7 @@ title = '''AU Yellow-Flag 010 Brakes'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader='''Get your brakes factory-fitted by a Ford technician.'''
 

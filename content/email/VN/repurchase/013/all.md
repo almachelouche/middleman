@@ -4,9 +4,8 @@ title = '''VN Repurchase 013 All'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
 
-preheader = '''Ưu đãi cho xe Ford không thể hấp dẫn hơn.'''
+	preheader = '''Ưu đãi cho xe Ford không thể hấp dẫn hơn.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

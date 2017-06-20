@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''พบกับข้อเสนอสุดพิเศษ เมื่อนัดหมายเข้ารับบริการกับฟอร์ด'''
 

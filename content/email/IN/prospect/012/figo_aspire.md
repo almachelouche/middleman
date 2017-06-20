@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''Get 7.99 percent interest rate, exchange bonus of 15,000 rupees and more on Ford cars. When you purchase a Ford, you aren't just buying a great vehicle – you become our Family. And family always gets the most irresistible and amazing deals.'''
 

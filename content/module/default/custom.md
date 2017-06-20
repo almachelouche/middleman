@@ -4,7 +4,7 @@ title = 'Customs Default'
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader=''''''
 

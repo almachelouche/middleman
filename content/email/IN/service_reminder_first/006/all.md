@@ -5,32 +5,32 @@ draft=true
 
 [[module]]
 path='email_modules/preheaderbefore'
-color='''nothing'''
+
 segmentif = ["(user.CustomAttribute['Segment'] == 'A') || (user.CustomAttribute['Segment'] == 'B') || (user.CustomAttribute['Segment'] == 'C') || (user.CustomAttribute['Segment'] == 'F') || (user.CustomAttribute['Segment'] == 'G')"]
 
 	preheader = '''Here's a quick reminder that your new Ford <%${user.CustomAttribute['Model']}%> is due for its first service.'''
 
 [[module]]
 path='email_modules/preheaderbefore'
-color='''nothing'''
+
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'D') || (user.CustomAttribute['Segment'] == 'E')"]
 
 	preheader = '''We noticed your Ford <%${user.CustomAttribute['Model']}%> is overdue for its first service. This service is just a quick check to ensure your Ford is still running at its absolute best.'''
 
 [[module]]
 path='email_modules/body'
-color='''nothing'''
+
 
 [[module]]
 path='email_modules/preheaderafter'
-color='''nothing'''
+
 segmentif = ["(user.CustomAttribute['Segment'] == 'A') || (user.CustomAttribute['Segment'] == 'B') || (user.CustomAttribute['Segment'] == 'C') || (user.CustomAttribute['Segment'] == 'F') || (user.CustomAttribute['Segment'] == 'G')"]
 
 	preheader = '''Here's a quick reminder that your new Ford <%${user.CustomAttribute['Model']}%> is due for its first service.'''
 
 [[module]]
 path='email_modules/preheaderafter'
-color='''nothing'''
+
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'D') || (user.CustomAttribute['Segment'] == 'E')"]
 
 	preheader = '''We noticed your Ford <%${user.CustomAttribute['Model']}%> is overdue for its first service. This service is just a quick check to ensure your Ford is still running at its absolute best.'''

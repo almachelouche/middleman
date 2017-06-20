@@ -5,9 +5,8 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
 
-preheader = '''Xem ngay giá xe Ford mới đặc biệt hấp dẫn. Thêm nhiều lựa chọn hơn cho bạn.'''
+	preheader = '''Xem ngay giá xe Ford mới đặc biệt hấp dẫn. Thêm nhiều lựa chọn hơn cho bạn.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

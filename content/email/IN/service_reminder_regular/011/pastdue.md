@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''We brought our subject lines back from vacation, only to remind you again about your service.'''
 

@@ -4,32 +4,32 @@ title = '''PH Regular Service Reminder_Mail Merge_V2'''
 
 [[module]]
 path='email_modules/preheaderbefore'
-color='''nothing'''
+
 segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
 
 	preheader = '''Keep your vehicle in top shape with us. Book your maintenance today.'''
 
 [[module]]
 path='email_modules/preheaderbefore'
-color='''nothing'''
+
 segmentelse = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 
 	preheader = '''Did you forget to visit for maintenance? Book an appointment now.	'''
 
 [[module]]
 path='email_modules/body'
-color='''nothing'''
+
 
 [[module]]
 path='email_modules/preheaderafter'
-color='''nothing'''
+
 segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
 
 	preheader = '''Keep your vehicle in top shape with us. Book your maintenance today.'''
 
 [[module]]
 path='email_modules/preheaderafter'
-color='''nothing'''
+
 segmentelse = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 
 	preheader = '''Did you forget to visit for maintenance? Book an appointment now.	'''

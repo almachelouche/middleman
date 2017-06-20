@@ -4,7 +4,7 @@ title = '''AU Yellow-Flag 010 Tyres'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader=''''''
 

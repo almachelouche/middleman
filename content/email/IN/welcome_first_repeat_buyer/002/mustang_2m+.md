@@ -5,7 +5,7 @@ title = '''IN Welcome 002 Mustang 2m+'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader='''Welcoming you to the Ford family is a privilege for us. There is a certain feeling you get when you start the engine and hear Ford Mustang's iconic growl. We hope your drive has been legendry.'''
 

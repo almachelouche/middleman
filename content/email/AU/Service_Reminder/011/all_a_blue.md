@@ -4,32 +4,32 @@ title = '''AU Service Reminder 011 All Blue back up'''
 
 [[module]]
 path='email_modules/preheaderbefore'
-color='''nothing'''
+
 segmentif = ["(user.CustomAttribute['Model'] == 'Mustang')"]
 
 	preheader='''Don't get stuck without wheels. Book a Service Loan Car with your Mustang’s scheduled service.'''
 
 [[module]]
 path='email_modules/preheaderbefore'
-color='''nothing'''
+
 segmentelse = ["yes"]
 
 	preheader='''Don't get stuck without wheels. Book a Service Loan Car with every scheduled service.'''
 
 [[module]]
 path='email_modules/body'
-color='''nothing'''
+
 
 [[module]]
 path='email_modules/preheaderafter'
-color='''nothing'''
+
 segmentif = ["(user.CustomAttribute['Model'] == 'Mustang')"]
 
 	preheader='''Don't get stuck without wheels. Book a Service Loan Car with your Mustang’s scheduled service.'''
 
 [[module]]
 path='email_modules/preheaderafter'
-color='''nothing'''
+
 segmentelse = ["yes"]
 
 	preheader='''Don't get stuck without wheels. Book a Service Loan Car with every scheduled service.'''

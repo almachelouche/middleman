@@ -5,7 +5,7 @@ title = '''IN Prospect 014 Aspire&Figo PanIndia'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''Now Ford vehicles are available with early benefit, plus enjoy an interest rate of 8.15% p.a. So why wait? Make a move now!*'''
 

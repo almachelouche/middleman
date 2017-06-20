@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''We noticed that you declined an important part of your servicing at your last appointment. That's got us worried.'''
 

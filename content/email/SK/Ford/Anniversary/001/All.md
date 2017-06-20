@@ -5,7 +5,7 @@ title = '''SK Ford Anniversary 001'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader='''지난 1년간 포드와 함께 해주셔서 진심으로 감사드립니다.'''
 

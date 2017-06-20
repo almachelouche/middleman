@@ -5,7 +5,7 @@ title = '''TH Service Reminder Declined 004 All'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 		preheader = '''คุ้มสุดๆ! กับยางกู๊ดเยียร์ พร้อมข้อเสนอระบบเบรกและแบตเตอรี่ชั้นเยี่ยม'''
 

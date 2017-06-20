@@ -4,32 +4,32 @@ title = '''AU Welcome 012 Offer Transit'''
 
 [[module]]
 path='email_modules/preheaderbefore'
-color='''nothing'''
+
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
 	preheader='''The journey continues! From all the team at Ford, we'd like to say a big THANK YOU for choosing another Ford.'''
 
 [[module]]
 path='email_modules/preheaderbefore'
-color='''nothing'''
+
 segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 
 	preheader='''We hope you're enjoying the ride. From all the team at Ford, we'd like to say a big THANK YOU for choosing a Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.'''
 
 [[module]]
 path='email_modules/body'
-color='''nothing'''
+
 
 [[module]]
 path='email_modules/preheaderafter'
-color='''nothing'''
+
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
 	preheader='''The journey continues! From all the team at Ford, we'd like to say a big THANK YOU for choosing another Ford.'''
 
 [[module]]
 path='email_modules/preheaderafter'
-color='''nothing'''
+
 segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 
 	preheader='''We hope you're enjoying the ride. From all the team at Ford, we'd like to say a big THANK YOU for choosing a Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.'''

@@ -4,9 +4,8 @@ title = '''VN Repurchase 011 All'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
 
-preheader = '''Ưu đãi cho xe Ford không thể hấp dẫn hơn. Cơ hội lái về nhà một em Focus Mới 1.5L AT EcoBoost giá cực sốc chỉ 648 triệu đồng!'''
+	preheader = '''Ưu đãi cho xe Ford không thể hấp dẫn hơn. Cơ hội lái về nhà một em Focus Mới 1.5L AT EcoBoost giá cực sốc chỉ 648 triệu đồng!'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

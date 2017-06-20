@@ -5,9 +5,8 @@ title = '''PH 2.0 Decline SR 002'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
 
-preheader = '''Did you decline important maintenance? Book an appointment now.'''
+	preheader = '''Did you decline important maintenance? Book an appointment now.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

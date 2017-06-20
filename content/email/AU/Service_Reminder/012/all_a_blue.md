@@ -4,7 +4,7 @@ title = '''AU Service Reminder 012 All Blue'''
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader=''''''
 

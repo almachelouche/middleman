@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader='''At just $15,990, you can drive away with the vivid and stylish Ford Fiesta'''
 

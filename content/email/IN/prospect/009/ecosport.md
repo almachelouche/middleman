@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader = '''You can now buy a Ford EcoSport at Zero Down Payment. And that's not all, get 100% funding for your vehicle at just 8.4% interest rate and assured gifts worth &#8377;10,000.'''
 

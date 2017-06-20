@@ -5,7 +5,7 @@ draft = true
 
 [[module]]
 path='email_modules/preheader'
-color='''nothing'''
+
 
 	preheader='''At just $59,990, you can drive away with our most capable SUV, the Ford Everest'''
 
