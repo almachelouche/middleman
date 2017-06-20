@@ -1,6 +1,6 @@
 +++
 markets = ["in"]
-title = '''IN Service Reminder Regular Due/Pdue 018 Monsoon East 5yrs+'''
+title = '''IN Service Reminder Regular Due/Pdue 017 Monsoon East 5yrs+'''
 
 [[module]]
 path='email_modules/preheaderbefore'
@@ -48,12 +48,12 @@ segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
 
   title = '''It's time for a visit'''
   copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Long time, no see! Your Ford <%${user.CustomAttribute['Model']}%> is due for service, and our experts can't wait to make sure it's running at its absolute best.<br /><br />Your next service is due on: <% ${user.CustomAttribute['NextServiceDate']} %> '''
-  cta1_text = ''''''
-  cta1_url = ''''''
-  cta1_link_name = ''''''
-  cta2_text = ''''''
-  cta2_url = ''''''
-  cta2_link_name = ''''''
+  cta1_text = '''BOOK A SERVICE'''
+  cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
+  cta1_link_name = '''callback'''
+  cta2_text = '''FIND A DEALER'''
+  cta2_url = '''https://www.india.ford.com/locate-dealer/'''
+  cta2_link_name = '''locate_dealer'''
   icon = '''in_edm2_svc_wrench_20160801'''
 
 [[module]] #Cover 06
