@@ -49,15 +49,15 @@ color='''fordblue'''
 	<span style="white-space:nowrap;">운전 중 예상치 못한 긴급 상황이 발생하면,</span>
 	<span style="white-space:nowrap;"><a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주세요.</span>
 	</span>'''
-	
+
 [[module]]
 path='email_modules/singles/ctablock'
 color='''fordblue'''
-	
+
 	cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">더 알아보기</span>'''
 	cta1_url = '''https://www.ford-korea.com/owner/emergency/'''
 	cta1_link_name = '''era'''
-		
+
 [[module]] #Split 02
 path='email_modules/split/02'
 color='green'

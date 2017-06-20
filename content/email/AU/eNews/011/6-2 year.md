@@ -72,7 +72,7 @@ color='white'
 
 	text='''Disclaimers:<br /><br />
 	1. In comparison to its larger conventional counterparts.<br /><br />'''
-	
+
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
 color='white'

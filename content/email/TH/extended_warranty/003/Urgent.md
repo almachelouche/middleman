@@ -33,19 +33,19 @@ color='''white_ot'''
  <span style=" white-space:nowrap;">และเมื่อประกันหมดลง</span>
  <span style=" white-space:nowrap;">คุณจะไม่สามารถขยายระยะเวลา</span><br>
  <span style=" white-space:nowrap;">การคุ้มครองได้อีก</span><br><br>
-						
+
 	<span style=" white-space:nowrap;">ด้วยโปรแกรมขับขี่อุ่นใจ (PPP)</span>
 	<span style=" white-space:nowrap;">จะช่วยเพิ่มความอบอุ่นใจ</span><br>
 	<span style=" white-space:nowrap;">ในการขับขี่รถยนต์</span>ให้<span style=" white-space:nowrap;">คุณทุกเส้นทาง</span><br> 
-						
+
 	<span style=" white-space:nowrap;">โดยไม่ต้องกังวัลกับค่าใช้จ่าย</span> 
 	<span style=" white-space:nowrap;">หรือการซ่อมแซมที่ไม่ได้คาดคิด</span><br> 
 	<span style=" white-space:nowrap;">ที่อาจเกิดขึ้นในอนาคต</span>
-						
+
 	<span style=" white-space:nowrap;">คุ้มครองความเสียหาย</span>
 	<span style=" white-space:nowrap;">อันเกิดจากข้อบกพร่อง</span><br>
 	<span style=" white-space:nowrap;">ทางกลไกและไฟฟ้าของรถยนต์</span> <br>
-						
+
 	<span style=" white-space:nowrap;">โดยช่างผู้ชำนาญ</span>
 	<span style=" white-space:nowrap;">ที่ได้รับการฝึกอบรมจากฟอร์ด</span><br>
 	<span style=" white-space:nowrap;">พร้อมมอบความคุ้มครองอะไหล่แท้จากฟอร์ด</span> <br>
@@ -66,8 +66,8 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''th_edm2_whyfordsvc_20161115'''
-	
-	
+
+
 	[[module]] #Split 04
 path='email_modules/split/04'
 color='green'

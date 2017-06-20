@@ -27,7 +27,7 @@ color = '''white'''
 [[module]] #Cover 08
 path='email_modules/cover/02'
 color='''white'''
-	
+
 	title = '''Meet the latest Ford vehicles'''
 	copy='''We noticed you've been driving your Ford <%${user.CustomAttribute['Model']}%> for a while now and might be thinking about purchasing a new Ford.<br /><br />We believe life shouldn't be limited to the weekends. That's why we bring you the Ford EcoSport Platinum with more style, richer features and bigger alloy wheels that make it the perfect companion for your quest to 'live it up!'*<br /><br />Check out the Platinum Edition today, because we want you to live more every day.'''
 	cta1_text = '''LOCATE A DEALER'''
@@ -40,7 +40,7 @@ color='''white'''
 [[module]]
 path='email_modules/singles/icon'
 color='''white'''
-	
+
 	icon = '''in_edm5_livechat_blue_20161018'''
 
 [[module]] #Cover 07
@@ -56,7 +56,7 @@ color='''white'''
 [[module]]
 path='email_modules/singles/icon'
 color='''white'''
-	
+
 	icon = '''th_edm2_ownerprofile_20160801'''
 
 [[module]]
@@ -68,7 +68,7 @@ color='white'
 [[module]]
 path='email_modules/singles/title'
 color='''white'''
-	
+
 	title = '''My Ford Profile'''
 
 [[module]]

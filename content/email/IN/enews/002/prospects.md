@@ -60,7 +60,7 @@ color='lightblue'
 	cta1_link_name = '''the_trip'''
 	cta1_icon = '''play'''
 	image = '''in_edm6_ecosport_trip_20161223'''
-	
+
 	[[module]] #Split 02
 path='email_modules/split/02'
 color='darkblue'
@@ -99,7 +99,7 @@ color='lightblue'
 	cta2_link_name = '''parts_calculator'''
 	cta1_icon = '''more'''
 	image = '''in_edm6_SvcScript_20170106'''
-		
+
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'

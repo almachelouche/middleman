@@ -34,14 +34,14 @@ color='black'
 	cta1_link_name = '''ranger1'''
 	cta1_icon = '''more'''
 
-	
+
 	[[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
 	image = '''AU_edm6_ranger_20170220'''
 	url_link = '''https://www.ford.com.au/commercial/ranger/special-editions/'''
-	
+
 
 [[module]] #Split 01
 path='email_modules/split/01'
@@ -54,7 +54,7 @@ color='darkblue'
 	cta1_link_name = '''awards'''
 	cta1_icon = '''more'''
 	image = '''AU_edm6_awards2_20170301'''
-	
+
 	[[module]] #Split 02
 path='email_modules/split/02'
 color='lightblue'
@@ -66,8 +66,8 @@ color='lightblue'
 	cta1_link_name = '''ecosport'''
 	cta1_icon = '''play'''
 	image = '''AU_edm6_ecoboost_20170220'''
-	
-	
+
+
 	[[module]] #Split 01
 path='email_modules/split/01'
 color='green'
@@ -79,7 +79,7 @@ color='green'
 	cta1_link_name = '''offer'''
 	cta1_icon = '''more'''
 	image = '''AU_edm6_offer1_20170303'''
-	
+
 	[[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'

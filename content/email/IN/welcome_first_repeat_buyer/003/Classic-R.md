@@ -27,7 +27,7 @@ color='''white'''
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-	
+
 	image = '''in_edm4_np_classic_20160801'''
 
 [[module]] #Cover 01
@@ -50,7 +50,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'V') || (user.CustomAttribute[
 	cta1_link_name = '''warranty_info'''
 	icon = '''in_edm1_extendedwarranty_20160801'''
 
-		
+
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
 color='black'
@@ -65,7 +65,7 @@ color='black'
 	cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en'''
 	cta2_link_name = '''oa_android'''
 	image = '''owner_app_20160328'''
-	
+
 	[[module]]
 path='email_modules/cover/01'
 
@@ -94,7 +94,7 @@ color='white'
 	icon4_url='''https://www.fordservicepricepromise.com/?extcmp=serca_101115_105328_fordind'''
 	icon4_link_name = '''price_calculator'''
 	icon4_image='''in_svc_price_20160801'''
-				
+
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'

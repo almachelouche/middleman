@@ -38,7 +38,7 @@ color='''white'''
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
-	
+
 	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />The moment you get behind the wheel of a Ford Kuga, you'll be amazed at its seamless combination of power and technology. </span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">Right now, the Ford Kuga MkII Ambiente FWD is available at $32,490* Driveaway.</span>'''
 
 	[[module]] #Banner Image
@@ -71,7 +71,7 @@ color='white'
 	icon4_link_name = '''locate_dealer4'''
 	icon4_image='''au_edm5_pushstart_20161013'''
 	icon4_text = '''Push button start/stop'''
-	
+
 [[module]] #Cover 13
 path='email_modules/cover/04'
 color='white'

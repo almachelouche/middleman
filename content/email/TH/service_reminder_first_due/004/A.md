@@ -59,7 +59,7 @@ color='white'
 	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ทำไมต้องศูนย์บริการฟอร์ด?</span>'''
 	icon1 = '''ico_2e_fordsvc_a'''
 	text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">มั่นใจอะไหล่แท้ฟอร์ด</span> 
-										<span style="white-space:nowrap;">100%</span>	
+										<span style="white-space:nowrap;">100%</span>
 										<span style="white-space:nowrap;">พร้อมการบำรุงรักษารถยนต์</span>
 										<span style="white-space:nowrap;">อย่างมีประสิทธิภาพ</span>เพื่อ
 										<span style="white-space:nowrap;">สมรรถนะสูงสุดของรถคุณ</span></span>'''
@@ -113,7 +113,7 @@ title1='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหม�
 	cta1b_url='''https://www.ford.co.th/locate-a-dealer/'''
 	cta1b_link_name = '''find_dealer'''
 	icon1='''th_edm2_call_20160801'''
-	
+
 	title2='''<span style="font-family:Tahoma, Verdana, Sans-serif">ศูนย์ข้อมูลเจ้าของรถ</span>'''
 	copy2='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="color:#616161; font-size:16px">ทุกความช่วยเหลือที่คุณต้องการง่ายๆ</span><br /> 
 <span style="color:#616161; font-size:16px">ในที่เดียว</span> 

@@ -74,7 +74,7 @@ segmentelseif = ["(user.CustomAttribute['ESplit'] == 'PastDue')"]
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-	
+
 	image = '''in_edm2_monsoon_5yrplus_20170526'''
 
 [[module]]
@@ -86,7 +86,7 @@ color='white'
 [[module]]
 path='email_modules/singles/title'
 color='''white'''
-	
+
 	title = '''It's that time of the year!'''
 
 [[module]]
@@ -98,7 +98,7 @@ color='white'
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
-	
+
 	copy = '''Get your car geared up for Monsoon Season. Drive into any Ford Service Centre and enjoy great deals, including a free 50+ point check-up and discounts up to 60%. Offers valid from June 12th to June 18th.*'''
 
 [[module]] #Custom 4 Icons
@@ -122,7 +122,7 @@ color='white'
 	icon4_link_name = '''locate_dealer4'''
 	icon4_image='''in_edm2_monsoon_add_value_svc_20170526'''
 	icon4_text = '''<span style="font-weight:bold">Value Added Services</span><br />20%* off'''
-	
+
 	[[module]] #Custom 4 Icons
 path='email_modules/custom/4icons'
 color='white'
@@ -144,7 +144,7 @@ color='white'
 	icon4_link_name = '''locate_dealer4'''
 	icon4_image='''in_edm2_monsoon_body_paint_20170526'''
 	icon4_text = '''<span style="font-weight:bold">Full Body Paint</span><br />30% off labour'''
-	
+
 [[module]]
 path='email_modules/spacer/default'
 color='white'
@@ -154,7 +154,7 @@ color='white'
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
-	
+
 	cta1_text = '''BOOK A SERVICE'''
 	cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
 	cta1_link_name = '''book_service'''
@@ -257,7 +257,7 @@ color='white'
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
-		
+
 	text='''Tearms and conditions apply. Offers only valid in Kerala, Andhra, Telengana, Karnataka, Nagerkoil, Maharashtra and Goa. '''
 
 [[module]] #Footer IN Online

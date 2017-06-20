@@ -15,21 +15,21 @@ color='white_pb'
 
 	image = '''white_pb'''
 	url_link = '''https://www.india.ford.com/'''
-	
+
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 
 	image = '''in_edm1&4_np_figo_20160801'''
-		
+
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
 
 	image = '''in_edm1&4_np_aspire_20160801'''
-	
+
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
@@ -64,14 +64,14 @@ color = '''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'G')"]
 
 	image = '''in_edm4_np_oldfigo_20160801'''
-	
+
 [[module]] #Cover 01
 path='email_modules/cover/01'
 color='''white'''
  
 	title = '''How are you celebrating?'''
 	copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />It has been nearly one year for you and your Ford <%${user.CustomAttribute['Model']}%>! We sincerely hope the drive has been smooth, rewarding, and - most of all - enjoyable.<br /><br />As part of the Ford family, we'll continue to look out for you this coming year. That's why we created the Ford Owners App - to make owning a Ford easier than ever.	'''
-	
+
 [[module]] #Custom 05
 path='email_modules/custom/4columnicon4titlescopy'
 color='white'
@@ -128,7 +128,7 @@ color='white'
 	icon4_url='''https://partscalculator.fordind.com:1443/Fill_Field?extcmp=hp_eb_nav/'''
 	icon4_link_name = '''parts_calculator'''
 	icon4_image='''in_svc_parts_20160801'''
-		
+
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'

@@ -52,7 +52,7 @@ color='white'
 	cta2c_url = ''''''
 	cta2c_link_name = ''''''
 	icon2 = '''ph_edm1_sync_20160801'''
-	
+
 	[[module]] #Split 03
 path='email_modules/split/03'
 color='white'

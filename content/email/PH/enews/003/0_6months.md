@@ -63,7 +63,7 @@ color='darkblue'
 	cta1_link_name = '''save_fuel'''
 	cta1_icon = '''play'''
 	image = '''ph_edm6_5waystosavefuel_20161207'''
-	
+
 [[module]] #PH Social
 path = 'email_modules/footer/ph/social'
 color = 'white'

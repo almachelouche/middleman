@@ -36,14 +36,14 @@ color='white'
 						color = '''nothing'''
 							segmentgroup='''group1'''
 							segment='''B'''
-	
+
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
 	image = '''cashback_20160328_cover'''
 	url_link = '''https://www.google.com'''
-	
+
 						[[module]] #************Segments Else Footer
 						path = '''email_modules/segments/footelse'''
 						color = '''nothing'''
@@ -54,33 +54,33 @@ color='white'
 						color = '''nothing'''
 							segmentgroup='''group3'''
 							segment='''C'''
-	
+
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
 	image = '''cashback_20160328_cover'''
 	url_link = '''https://www.google.com'''
-	
+
 						[[module]] #************Segments Else Footer
 						path = '''email_modules/segments/footelse'''
 						color = '''nothing'''
 							segmentgroup='''segment'''
 							segment='''Example3'''
-							
+
 [[module]] #Cover 01
 path='email_modules/cover/01'
 color='''white'''
  
 	title = '''How are you celebrating?'''
 	copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />It has been nearly one year for you and your Ford <%${user.CustomAttribute['Selected_Vehicle']}%>! We sincerely hope the drive has been smooth, rewarding, and - most of all - enjoyable.<br /><br />As part of the Ford family, we'll continue to look out for you this coming year. That's why we created the Ford Owners app - to make owning a Ford easier than ever.	'''
-	
+
 							[[module]] #************Segment If Header
 							path = '''email_modules/segments/headif'''
 							color = '''nothing'''
 									segmentgroup='''group2'''
 									segment='''A'''
-									
+
 [[module]] #Custom 05
 path='email_modules/custom/4columnicon4titlescopy'
 color='white'
@@ -97,7 +97,7 @@ color='white'
 	title4 = '''Dealer Locator'''
 	icon4 = '''ew'''
 	text4 = '''Because we're always here for you.'''
-							
+
 							[[module]] #************Segment If Footer
 							path = '''email_modules/segments/footif'''
 							color = '''nothing'''
@@ -108,7 +108,7 @@ color='white'
 							color = '''nothing'''
 									segmentgroup='''group2'''
 									segment='''B'''
-									
+
 [[module]] #Custom 05
 path='email_modules/custom/4columnicon4titlescopy'
 color='white'
@@ -125,7 +125,7 @@ color='white'
 	title4 = '''Dealer Locator'''
 	icon4 = '''ew'''
 	text4 = '''Because we're always here for you.'''
-							
+
 							[[module]] #************Segments Else Footer
 							path = '''email_modules/segments/footelse'''
 							color = '''nothing'''
@@ -173,7 +173,7 @@ color='white'
 	icon5_image='''in_rsa_no_20160615'''
 	alt5 = '''alt text'''
 
-		
+
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'

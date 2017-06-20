@@ -56,7 +56,7 @@ title = '''Escape deep dive'''
 	cta1_icon = '''play'''
 	image = '''NZ_edm6_review_20170607'''
 
-	
+
 	[[module]] #Split 01 
 path='email_modules/split/01'
 color='lightblue'

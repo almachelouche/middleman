@@ -20,7 +20,7 @@ color='white'
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
-	
+
 	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">สวัสดีคุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>
 	ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />
 	<span style="white-space:nowrap;">ขออภัยสำหรับการแจ้งข้อมูลผิดพลาด</span>
@@ -30,9 +30,9 @@ color='''white'''
 	<span style="white-space:nowrap;">ในอีเมลล์ฉบับนี้แทน</span> 
 	<span style="white-space:nowrap;">ตามรายละเอียดด้านล่างค่ะ</span>
 	<br /><br /></span>'''
-		
 
-		
+
+
 [[module]] #Cover 01
 path='email_modules/cover/01'
 color='black'
@@ -53,7 +53,7 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''th_edm5a_rangerfx4_20170113'''
-	
+
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'

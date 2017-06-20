@@ -7,7 +7,7 @@ path='email_modules/preheader'
 color='''nothing'''
 
 		preheader = '''ไม่ว่าคุณจะเป็นลูกค้าเก่าหรือลูกค้าใหม่ ฟอร์ดขอขอบคุณที่คุณเลือกเราให้เป็นเพื่อนร่วมทางไปกับคุณ ด้วยการเป็นส่วนหนึ่งของครอบครัวฟอร์ด เราจะส่งข่าวสารและข้อมูลกิจกรรมที่เป็นประโยชน์ให้แก่คุณอย่างต่อเนื่อง ขอให้คุณมีความสุขกับการขับขี่ Focus ะ'''
-		
+
 [[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'
@@ -90,7 +90,7 @@ text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif; font-Size: 14px
 	cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=th'''
 	cta2_link_name = '''oa_andriod'''
 	image = '''th_edm6_ownerapp_20160921'''
-	
+
  [[module]] #Split 04
 path='email_modules/split/04'
 color='green'

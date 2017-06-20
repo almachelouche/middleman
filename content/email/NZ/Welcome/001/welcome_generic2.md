@@ -15,7 +15,7 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''au_edm1_cover_20161018'''
-	
+
 	[[module]] #Cover 11
 path='email_modules/cover/03'
 color='''white'''
@@ -51,13 +51,13 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''au_edm1_cover4_20161018'''
-	
+
 [[module]] #Cover 01 
 path='email_modules/cover/01'
 color='white'
 	copy='''Included with your new <%${user.CustomAttribute['Model']}%> is a 3 year/100,000km Warranty, 3 Year Roadside Assistance along with a 20,000km/12 Month Service intervals (whichever occurs first).<br /><br /> Within the next two months you will also receive from us an email to remind you to book in a Peace of Mind checkup. This complimentary check will ensure that you are happy with how your vehicle is running. It also provides the opportunity discuss any questions or concerns you may have around your new <%${user.CustomAttribute['Model']}%>.'''
  
-	
+
 [[module]] #Cover 01
 path='email_modules/cover/01'
 color='''fordblue'''

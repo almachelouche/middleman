@@ -27,17 +27,17 @@ color='white'
 
 	image = '''au_edm2_1st_service_20170310'''
 	url_link = '''https://www.ford.com.au/owners/service/'''
-	
+
 	[[module]]
 path='email_modules/cover/03'
 color='''white'''
 
 	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%><br /><br />Here’s a quick reminder that your new <%${user.CustomAttribute['Model']}%> is due for its complimentary 2-month/3,000 km Peace Of Mind Service Inspection. <br /><br />Now that you’ve been on the road for a few months, our Ford-trained technicians will complete a quick inspection to ensure that your Ford <%${user.CustomAttribute['Model']}%> is running at its absolute best. <br /><br />Book with <%${user.CustomAttribute['Dealer_Name']}%> on <%${user.CustomAttribute['Dealer_Phone']}%> today.'''
-		
+
 		[[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
-	
+
 	cta1_text = '''BOOK A SERVICE'''
 	cta1_url = '''https://consumer.xtime.net.au/scheduling/?company=14745&store=<%${user.CustomAttribute['DealerCode']}%>&VIN=<%${user.CustomAttribute['VIN']}%>&provider=FORD_AU_THE_BLUE_HIVE&keyword=<%${user.CustomAttribute['CampaignID']}%>&dest=&extid=<%${user.CustomAttribute['CampaignID']}%>&extctxt=FORD_AU_THE_BLUE_HIVE&cfn=<%${user.CustomAttribute['FullName']}%>&cln=<%${user['LastName']}%>&cpn=<%${user.CustomAttribute['Mobile_Phone']}%>&cem=<%${user.CustomAttribute['RealEmail']}%>&button=blue'''
 	cta1_link_name = '''SERVICE'''

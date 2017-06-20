@@ -38,7 +38,7 @@ color='''white'''
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
-	
+
 	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />The rhythm of the metropolis pumps through every fibre of the Ford EcoSport. Combining sleek design with advanced technology, this SUV is the hottest ticket in town. <br /><br /><span style="color:#FFFFFF">Right now, the Ford EcoSport Ambiente is available at $19,490* Driveaway.</span>'''
 
 	[[module]] #Banner Image
@@ -68,7 +68,7 @@ color='white'
 	icon4_link_name = '''locate_dealer4'''
 	icon4_image='''au_edm5_airbags_20161013'''
 	icon4_text = '''7 Airbags'''
-	
+
 [[module]] #Cover 13
 path='email_modules/cover/04'
 color='white'
@@ -106,7 +106,7 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-	text = '''Terms & Conditions	
+	text = '''Terms & Conditions
 				<br /> <br />*Limited offer available at participating Dealers while stocks last. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. See <a href="https://www.ford.com.au/latest-offers/" name="latest_offer2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/latest-offers</a> for full details.<br /><br />
 				1. For SYNC® compatibility visit <a href="https://www.ford.com.au/technology/sync/" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/technology/sync</a>.<br /><br />
 				2. Bluetooth® is a registered trademark of Bluetooth SIG Inc., and is used under licence. Some phones not compatible.<br /><br />

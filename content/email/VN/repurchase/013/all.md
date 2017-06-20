@@ -20,7 +20,7 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''VN_edm5_showroom_20170526'''
-	
+
 [[module]]
 path='email_modules/cover/02'
 
@@ -52,7 +52,7 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''VN_edm5_Everest_20170526'''
-	
+
 [[module]] #Cover 02
 path='email_modules/cover/02'
 color='''white'''
@@ -89,8 +89,8 @@ color='fordblue'
 	cta1_link_name = '''loyalty_offer'''
 	cta1_icon = '''more'''
 	image = '''vn_edm5_3millionvnd_20160801'''
-	
-	
+
+
 [[module]] #Cover 05
 path='email_modules/cover/02'
 color='''white'''

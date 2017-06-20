@@ -41,7 +41,7 @@ color='white'
 	<span style="white-space:nowrap;">ถึง</span> 
 	<span style="white-space:nowrap;">วันที่ 30 เมษายน 2560</span> 
 	<span style="white-space:nowrap;">รับดอกเบี้ยพิเศษ 0%</span> 
-	<span style="white-space:nowrap;">พร้อมฟรี</span>	
+	<span style="white-space:nowrap;">พร้อมฟรี</span>
 	<span style="white-space:nowrap;">ประกันภัยชั้นหนึ่ง<sup>*</sup></span><br /><br />
 	<span style="white-space:nowrap;">และฟอร์ดยังมีข้อเสนอสุดพิเศษ</span>
 	<span style="white-space:nowrap;">สำหรับรถฟอร์ด เอคโคสปอร์ต</span>
@@ -86,7 +86,7 @@ color='white'
 	icon1 = '''th_edm2_svc_wrench_20160801'''
 	title1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ฟรีค่าแรงซ่อมบำรุง<br />5 ครั้ง</span>'''
 	copy1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-	
+
 <span style=" white-space:nowrap;">เพียงคุณตัดสินใจเป็นเจ้าของฟอร์ดรุ่นใหม่</span> 
 <span style=" white-space:nowrap;">ฟรีค่าแรงเช็คระยะ 5 ครั้ง</span> 
 <span style=" white-space:nowrap;">คลิกเพื่อดูรายละเอียดเพิ่มเติมที่นี่</span>
@@ -95,11 +95,11 @@ color='white'
 	icon2 = '''th_edm2_ownerprofile_20160801'''
 	title2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ข้อมูลของคุณมีการ<br />เปลี่ยนแปลงหรือไม่</span>'''
 	copy2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-	
+
 กรุณาอัพเดทข้อมูลของคุณ <br />
 <span style=" white-space:nowrap;">เพื่อให้คุณ</span><span style=" white-space:nowrap;">ไม่พลาด</span><span style=" white-space:nowrap;">ข้อเสนอ</span><span style=" white-space:nowrap;">พิเศษ</span>ต่างๆ <br />
 <span style=" white-space:nowrap;">จากฟอร์ด</span>
-	
+
 </span>'''
 	cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาตัวแทนจำหน่าย</span>'''
 	cta1_url = '''https://www.ford.co.th/locate-a-dealer/'''
@@ -115,46 +115,46 @@ text='''<span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style="font-weight:bold">หมายเหตุ</span><br /><br />
 1.
 <span style=" white-space:nowrap;">สำหรับฟอร์ด เรนเจอร์</span> 
-<span style=" white-space:nowrap;">รุ่น Wildtrak</span>	
-<span style=" white-space:nowrap;">(ยกเว้นฟอร์ด เรนเจอร์</span>	
+<span style=" white-space:nowrap;">รุ่น Wildtrak</span>
+<span style=" white-space:nowrap;">(ยกเว้นฟอร์ด เรนเจอร์</span>
 <span style=" white-space:nowrap;">รุ่นที่มีระบบแผนที่นำทาง)</span> 
 <span style=" white-space:nowrap;">อัตราดอกเบี้ย 0% (งวดที่ 1-24)</span><br /> 
-<span style=" white-space:nowrap;">โดยต้องเช่าซื้อรวม</span>	
+<span style=" white-space:nowrap;">โดยต้องเช่าซื้อรวม</span>
 <span style=" white-space:nowrap;">60 เดือนเท่านั้น</span> 
 <span style=" white-space:nowrap;">และอัตราดอกเบี้ยงวดที่ 25-60</span> 
 <span style=" white-space:nowrap;">เป็นไปตามที่ธนาคารกำหนด</span> 
-<span style=" white-space:nowrap;">ทั้งนี้อัตราดอกเบี้ย</span><br />	
+<span style=" white-space:nowrap;">ทั้งนี้อัตราดอกเบี้ย</span><br />
 <span style=" white-space:nowrap;">ที่ระบุในสัญญาเช่าซื้อ</span> 
 <span style=" white-space:nowrap;">ตลอด 5 ปี = 3.14% /</span> 
-<span style=" white-space:nowrap;">ฟรีประกันภัยชั้นหนึ่ง</span>	
+<span style=" white-space:nowrap;">ฟรีประกันภัยชั้นหนึ่ง</span>
 <span style=" white-space:nowrap;">มูลค่าประกันภัยต่ำสุด</span>
-<span style=" white-space:nowrap;">ที่ 22,261 บาท</span>	
-<span style=" white-space:nowrap;">จากประกันภัยคุ้มภัย /</span><br />	
-<span style=" white-space:nowrap;">เมื่อจัดไฟแนนซ์ผ่านฟอร์ด ลีสซิ่ง</span>	
+<span style=" white-space:nowrap;">ที่ 22,261 บาท</span>
+<span style=" white-space:nowrap;">จากประกันภัยคุ้มภัย /</span><br />
+<span style=" white-space:nowrap;">เมื่อจัดไฟแนนซ์ผ่านฟอร์ด ลีสซิ่ง</span>
 <span style=" white-space:nowrap;">เท่า1นั้น</span> 
 <br />
-<span style=" white-space:nowrap;">2.คำนวณจากฟอร์ด เอคโค่ สปอร์ต</span>	
-<span style=" white-space:nowrap;">รุ่น Trend</span>	
-<span style=" white-space:nowrap;">ผ่อนต่อเดือนเพียง 5,999 บาท</span>	
-<span style=" white-space:nowrap;">สำหรับค่างวดเดือนที่ 1-12</span>	
-<span style=" white-space:nowrap;">และ 9,027 บาท</span>	
-<span style=" white-space:nowrap;">สำหรับ ค่างวดเดือนที่ 13-72</span>	
+<span style=" white-space:nowrap;">2.คำนวณจากฟอร์ด เอคโค่ สปอร์ต</span>
+<span style=" white-space:nowrap;">รุ่น Trend</span>
+<span style=" white-space:nowrap;">ผ่อนต่อเดือนเพียง 5,999 บาท</span>
+<span style=" white-space:nowrap;">สำหรับค่างวดเดือนที่ 1-12</span>
+<span style=" white-space:nowrap;">และ 9,027 บาท</span>
+<span style=" white-space:nowrap;">สำหรับ ค่างวดเดือนที่ 13-72</span>
 <span style=" white-space:nowrap;">ที่ราคาพิเศษ 699,000 บาท </span> 
 <br />
 <span style=" white-space:nowrap;">3.สำหรับฟอร์ด เอเวอเรสต์</span> 
-<span style=" white-space:nowrap;">ทุกรุ่น</span>	
-<span style=" white-space:nowrap;">ยกเว้นรุ่น 2.2 Titanium + (MY17	NAVI)</span>	
+<span style=" white-space:nowrap;">ทุกรุ่น</span>
+<span style=" white-space:nowrap;">ยกเว้นรุ่น 2.2 Titanium + (MY17	NAVI)</span>
 <span style=" white-space:nowrap;">และ 3.2 Titanium + (MY17	NAVI)</span> <br /> 
-<span style=" white-space:nowrap;">อัตราดอกเบี้ย 0%</span>	
-<span style=" white-space:nowrap;">(งวดที่ 1-24)</span>	
-<span style=" white-space:nowrap;">โดยต้องเช่าซื้อรวม</span>	
-<span style=" white-space:nowrap;">60 เดือนเท่านั้น</span>	
-<span style=" white-space:nowrap;">และอัตราดอกเบี้ยงวดที่ 25-60</span>	
-<span style=" white-space:nowrap;">เป็นไปตามที่ธนาคารกำหนด</span><br />	
+<span style=" white-space:nowrap;">อัตราดอกเบี้ย 0%</span>
+<span style=" white-space:nowrap;">(งวดที่ 1-24)</span>
+<span style=" white-space:nowrap;">โดยต้องเช่าซื้อรวม</span>
+<span style=" white-space:nowrap;">60 เดือนเท่านั้น</span>
+<span style=" white-space:nowrap;">และอัตราดอกเบี้ยงวดที่ 25-60</span>
+<span style=" white-space:nowrap;">เป็นไปตามที่ธนาคารกำหนด</span><br />
 <span style=" white-space:nowrap;">ทั้งนี้อัตราดอกเบี้ย</span> 
 <span style=" white-space:nowrap;">ที่ระบุในสัญญาเช่าซื้อ</span> 
-<span style=" white-space:nowrap;">ตลอด 5 ปี = 3.10% /</span>	
-<span style=" white-space:nowrap;">ฟรีประกันภัยชั้นหนึ่ง</span><br />	
+<span style=" white-space:nowrap;">ตลอด 5 ปี = 3.10% /</span>
+<span style=" white-space:nowrap;">ฟรีประกันภัยชั้นหนึ่ง</span><br />
 <span style=" white-space:nowrap;">เฉพาะบริษัทประกันภัย</span>ที่<span style=" white-space:nowrap;">เข้าร่วมรายการ</span> 
 <span style=" white-space:nowrap;">และเมื่อจัดไฟแนนซ์ผ่านฟอร์ด ลีสซิ่ง </span> 
 <span style=" white-space:nowrap;">เท่านั้น</span> 

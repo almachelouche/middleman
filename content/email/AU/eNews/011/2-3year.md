@@ -52,7 +52,7 @@ color='green'
 	cta1_link_name = '''fuel1'''
 	cta1_icon = '''play'''
 	image = '''AU_edm6_ecoboost_20170220'''
-	
+
 
 [[module]] #Split 02
 path='email_modules/split/02'
@@ -65,7 +65,7 @@ title = '''How smart is that?'''
 	cta1_link_name = '''RADAR1'''
 	cta1_icon = '''more'''
 	image = '''AU_edm6_radar_20170110'''
-	
+
 	[[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'

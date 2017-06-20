@@ -22,7 +22,7 @@ color='''slatescreen'''
  
 	title='''Hi<br /><%${user.CustomAttribute['FullName']}%><br />We hope you're enjoying the ride.'''
 	copy='''From all the team at Ford, we'd like to say a big THANK YOU for choosing a Ford #VehicleMarketingName#.'''
-	
+
  
 	[[module]] #Cover 01
 path='email_modules/cover/01'
@@ -30,8 +30,8 @@ color='''slatescreen'''
  
 	title='''Hi<br /><%${user.CustomAttribute['FullName']}%><br />The journey continues'''
 	copy='''From all the team at Ford, we'd like to say a big THANK YOU for choosing another Ford.'''
-	
-	
+
+
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
@@ -49,7 +49,7 @@ color='white'
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''white'''
-	
+
 	copy='''We are proud to announce that the Ford <%${user.CustomAttribute['Model']}%> you are driving has won the 2015 Drive Car of The Year award for its category.<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace-of-mind.<br /><br />You get State Auto Club Roadside Assistance and Membership¹ for up to 7 years from Autoclub participating dealers. But the service doesn't stop there. Ford also has a Free Loan Car program², so we can keep you on the road whilst your car is being serviced.<br /><br />Best of all, you'll enjoy all of the above service guarantee benefits as you have selected 3 years of free servicing³ for your new Ford <%${user.CustomAttribute['Model']}%> with our recent Save Now/Save Later promotion. Simply book an appointment with your local Ford Dealership when your Ford <%${user.CustomAttribute['Model']}%> is due for service.<br /><br />'''
 
 [[module]] #Banner Image
@@ -62,77 +62,77 @@ color='white'
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''white'''
-	
+
 	copy='''We are proud to announce that the Ford <%${user.CustomAttribute['Model']}%> you are driving has won the 2015 Drive Car of The Year award for its category.<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace-of-mind.<br /><br />You get State Auto Club Roadside Assistance and Membership¹ for up to 7 years from Autoclub participating dealers. But the service doesn't stop there. Ford also has a Free Loan Car program², so we can keep you on the road whilst your car is being serviced.<br /><br />Best of all, you'll enjoy all of the above service guarantee benefits as you have selected 3 years of free servicing³ for your new Ford <%${user.CustomAttribute['Model']}%> with our recent Save Now/Save Later promotion. Simply book an appointment with your local Ford Dealership when your Ford <%${user.CustomAttribute['Model']}%> is due for service.<br /><br />'''
-	
+
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
 	image='''au_edm1_focusST_award_20161018'''
 	url_link='''http://google.com'''
-	
+
 	[[module]] #Cover 11
 	path='email_modules/cover/03'
 	color='''white'''
-	
+
 	copy='''We are proud to announce that the Ford <%${user.CustomAttribute['Model']}%> you are driving has won the 2015 Drive Car of The Year award for its category.<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace-of-mind.<br /><br />You get State Auto Club Roadside Assistance and Membership¹ for up to 7 years from Autoclub participating dealers. But the service doesn't stop there. Ford also has a Free Loan Car program², so we can keep you on the road whilst your car is being serviced.<br /><br />Best of all, you'll enjoy all of the above service guarantee benefits as you have selected 3 years of free servicing³ for your new Ford <%${user.CustomAttribute['Model']}%> with our recent Save Now/Save Later promotion. Simply book an appointment with your local Ford Dealership when your Ford <%${user.CustomAttribute['Model']}%> is due for service.<br /><br />'''
-	
+
 	[[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
 	image='''au_edm5_mondeo_award_20161013'''
 	url_link='''http://google.com'''
-	
+
 	[[module]] #Cover 11
 path='email_modules/cover/03'
 color='''white'''
-	
+
 	copy='''We are proud to announce that the Ford <%${user.CustomAttribute['Model']}%> you are driving has won the 2015 Drive Car of The Year award for its category.<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace-of-mind.<br /><br />You get State Auto Club Roadside Assistance and Membership¹ for up to 7 years from Autoclub participating dealers. But the service doesn't stop there. Ford also has a Free Loan Car program², so we can keep you on the road whilst your car is being serviced.<br /><br />Best of all, you'll enjoy all of the above service guarantee benefits as you have selected 3 years of free servicing³ for your new Ford <%${user.CustomAttribute['Model']}%> with our recent Save Now/Save Later promotion. Simply book an appointment with your local Ford Dealership when your Ford <%${user.CustomAttribute['Model']}%> is due for service.<br /><br />'''
-	
+
 	[[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
 	image='''au_edm5_ranger_award2_20161013'''
 	url_link='''http://google.com'''
-	
+
 	[[module]] #Cover 11
 path='email_modules/cover/03'
 color='''white'''
-	
+
 	copy='''We are proud to announce that the Ford <%${user.CustomAttribute['Model']}%> you are driving has won both the 2015 CarSales and 2015 Drive Car of The Year award for its category.<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace-of-mind.<br /><br />You get State Auto Club Roadside Assistance and Membership¹ for up to 7 years from Autoclub participating dealers. But the service doesn't stop there. Ford also has a Free Loan Car program², so we can keep you on the road whilst your car is being serviced.<br /><br />Best of all, you'll enjoy all of the above service guarantee benefits as you have selected 3 years of free servicing³ for your new Ford <%${user.CustomAttribute['Model']}%> with our recent Save Now/Save Later promotion. Simply book an appointment with your local Ford Dealership when your Ford <%${user.CustomAttribute['Model']}%> is due for service.<br /><br />'''
-	
+
 	[[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
 	image='''au_edm5_ranger_award_20161013'''
 	url_link='''http://google.com'''
-	
+
 	[[module]] #Cover 11
 path='email_modules/cover/03'
 color='''white'''
-	
+
 	copy='''We are proud to announce that the Ford <%${user.CustomAttribute['Model']}%> you are driving has won the 2015 CarSales Car of The Year award for its category.<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace-of-mind.<br /><br />You get State Auto Club Roadside Assistance and Membership¹ for up to 7 years from Autoclub participating dealers. But the service doesn't stop there. Ford also has a Free Loan Car program², so we can keep you on the road whilst your car is being serviced.<br /><br />Best of all, you'll enjoy all of the above service guarantee benefits as you have selected 3 years of free servicing³ for your new Ford <%${user.CustomAttribute['Model']}%> with our recent Save Now/Save Later promotion. Simply book an appointment with your local Ford Dealership when your Ford <%${user.CustomAttribute['Model']}%> is due for service.<br /><br /><br /><br />'''
-	
-	
-	
+
+
+
 	[[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
 	image='''au_edm1_cover3_20161018'''
 	url_link='''http://google.com'''
-	
+
 	[[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
 	image='''au_edm1_cover4_20161018'''
 	url_link='''http://google.com'''
-	
+
 [[module]] #Cover 01
 path='email_modules/cover/01'
 color='white'
@@ -183,12 +183,12 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-	text = '''DISCLAIMERS:	
+	text = '''DISCLAIMERS:
 				<br /> <br />
 				1) Private and Blue Business Fleet customers only at participating Dealers who have not reached 7 years or 105,000 kms. State Auto Club Roadside Assistance & Membership is provided at no cost with the first seven standard services for 12 months or until your next eligible standard service (whichever occurs first). Standard services include all A and B logbook services. Customers must comply with scheduled servicing intervals to maintain continuity of membership. See<a href="http://www.ford.com.au/service/t-and-c?emailid=20150918-0103_DisclaimerTC_WelcomeNewSep_Generic_0_FOA" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/service/t-and-c</a> for full terms.<br /><br />
 				2) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See<a href="http://www.ford.com.au/service/t-and-c?emailid=20150918-0103_DisclaimerTC_WelcomeNewSep_Generic_0_FOA" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/service/t-and-c</a> for full terms.<br /><br />
 				3) Service offer available for up to three standard scheduled services (15,000km/12 month, 30,000km/12 month and 45,000km/12 month from the Service Guide) to be provided free subject to complying with scheduled servicing intervals.'''
-			
+
 
 
 [[module]] #Footer AU Online

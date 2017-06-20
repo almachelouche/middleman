@@ -38,7 +38,7 @@ color='''white'''
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
-	
+
 	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />
 	The Ford Transit delivers efficiency without compromising its famously generous loadspace. <br />It's hardly surprising that it was awarded International Van of the Year when it was first introduced in 2013. </span><br /><br />
 	<span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">
@@ -74,7 +74,7 @@ color='white'
 	icon4_link_name = '''locate_dealer4'''
 	icon4_image='''au_edm5_airbags_20161013'''
 	icon4_text = '''Driver and front passenger airbags'''
-	
+
 [[module]] #Cover 13
 path='email_modules/cover/04'
 color='white'

@@ -56,7 +56,7 @@ color='lightblue'
 	cta1_link_name = '''worry_free_hill_starts'''
 	cta1_icon = '''play'''
 	image = '''ph_edm6_ecosporthla_20160801'''
-	
+
 [[module]] #Split 02
 path='email_modules/split/02'
 color='green'

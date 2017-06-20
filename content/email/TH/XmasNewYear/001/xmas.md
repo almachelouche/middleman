@@ -24,7 +24,7 @@ color = '''white'''
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''white'''
-	
+
 	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><br /><br />สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br /></span>
 <span style="font-family:Tahoma, Verdana, Sans-serif">
 	<span style="white-space:nowrap;">ในช่วงเวลาของความรื่นเริงแห่งปี</span>

@@ -48,7 +48,7 @@ color='''white'''
 	cta1_link_name = '''anything_changed'''
 	icon = '''th_edm2_ownerprofile_20160801'''
 
-	
+
 
 [[module]] #TH Social
 path='email_modules/footer/th/social'

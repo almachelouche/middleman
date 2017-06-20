@@ -8,7 +8,7 @@ path='email_modules/preheader'
 color='''nothing'''
 
 		preheader = '''ไม่ว่าคุณจะเป็นลูกค้าเก่าหรือลูกค้าใหม่ ฟอร์ดขอขอบคุณที่คุณเลือกเราให้เป็นเพื่อนร่วมทางไปกับคุณ ด้วยการเป็นส่วนหนึ่งของครอบครัวฟอร์ด เราจะส่งข่าวสารและข้อมูลกิจกรรมที่เป็นประโยชน์ให้แก่คุณอย่างต่อเนื่อง ขอให้คุณมีความสุขกับการขับขี่ Ranger ะ'''
-		
+
 [[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'
@@ -37,7 +37,7 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''th_edm1&4_np_newranger_20160801'''
-	
+
 [[module]] #Cover 01
 path='email_modules/cover/01'
 color='black'

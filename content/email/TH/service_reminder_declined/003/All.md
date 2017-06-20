@@ -47,7 +47,7 @@ cta2_url_link_name='''find_dealer'''
 [[module]] #Service Status No Copy
 path='email_modules/custom/svcstatus_nocopy'
 color='darkblue'
-			
+
 			toptitle='''<span style="font-family:Tahoma, Verdana, Sans-serif">ผลตรวจเช็ค <%${user.CustomAttribute['Model']}%> ของคุณ ครั้งหลังสุด</span>'''
 	segmentAgreen = '''(user.CustomAttribute['Brake'] == null)'''
 	segmentAyellow = '''(user.CustomAttribute['Brake'] == 'YBRAKE')'''
@@ -85,13 +85,13 @@ color='darkblue'
 		icon3red = '''in_edm2d_status_battery_white_20160801'''
 		title3red = '''<span style="font-family:Tahoma, Verdana, Sans-serif">แบตเตอรี่</span>'''
 		subtitle3red = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ควรเปลี่ยนทันที</span>'''
-		
-	
-	
+
+
+
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
-	
+
 		copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif"><span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">สุดคุ้มกับอะไหล่แท้<br />จากฟอร์ด</span><br /><br /><span style=" white-space:nowrap;">เพื่อให้สมรรถนะรถฟอร์ดของคุณ</span>
 							<span style=" white-space:nowrap;">ทำงานได้อย่างเต็มประสิทธิภาพ</span>
 							<span style=" white-space:nowrap;">ฟอร์ดมีข้อเสนอสุดคุ้มกับอะไหล่แท้จากฟอร์ด</span>
@@ -124,7 +124,7 @@ color='white'
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
-	
+
 		cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
 	cta1_url = '''https://www.ford.co.th/owner/service-1-2017'''
 	cta1_link_name = '''commodity_offers'''

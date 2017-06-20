@@ -38,7 +38,7 @@ color='''white_gt'''
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
-	
+
 	cta1_text = '''LOCATE A DEALER'''
 	cta1_url = '''https://www.india.ford.com/cars/mustang/locate-a-dealer/?intcmp=bb-fin-vhp-ford%20mustang-fin-lad-ford%20mustang-return/'''
 	cta1_link_name = '''locate_dealer_mustang'''
@@ -111,7 +111,7 @@ color='white'
 	icon4_url=''''''
 	icon4_link_name = ''''''
 	icon4_image=''''''
-	
+
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'

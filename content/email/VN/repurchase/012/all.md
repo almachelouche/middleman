@@ -37,7 +37,7 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''vn_edm5_roadshow_event_20170420'''
-	
+
 [[module]]
 path='email_modules/cover/02'
 
@@ -72,8 +72,8 @@ color='fordblue'
 	cta1_link_name = '''loyalty_offer'''
 	cta1_icon = '''more'''
 	image = '''vn_edm5_3millionvnd_20160801'''
-	
-	
+
+
 
 [[module]] #Cover 05
 path='email_modules/cover/02'

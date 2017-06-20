@@ -45,7 +45,7 @@ color='white'
 	image='''in_edm6_ecosport_trip_20161223'''
 	url_link='''http://bit.ly/2kartSg'''
 	url_link_name='''the_trip_image'''
-	
+
 [[module]] #Split 01
 path='email_modules/split/01'
 color='lightblue'

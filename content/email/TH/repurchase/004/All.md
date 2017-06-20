@@ -29,12 +29,12 @@ color='white'
  <span style="white-space:nowrap;">ฟอร์ดขอขอบคุณที่เป็นส่วนหนึ่ง</span><br>
  <span style="white-space:nowrap;">ของครอบครัวฟอร์ดมาโดยตลอด</span> <br>
 		<span style="white-space:nowrap;">หากคุณกำลังพิจารณามองหารถคันใหม่</span> <br>
-		<span style="white-space:nowrap;">เราอยากเชิญคุณมาพบกับข้อเสนอสุดพิเศษ</span><br>	
+		<span style="white-space:nowrap;">เราอยากเชิญคุณมาพบกับข้อเสนอสุดพิเศษ</span><br>
 		<span style="white-space:nowrap;">เพียงลงทะเบียนทดลองขับที่โชว์รูมฟอร์ด</span><br><br>
-		<span style="white-space:nowrap;">ออกรถฟอร์ด เรนเจอร์</span>	
+		<span style="white-space:nowrap;">ออกรถฟอร์ด เรนเจอร์</span>
 		<span style="white-space:nowrap;">ภายในวันที่ 1-31 มีนาคม 2560</span><br> 
-		<span style="white-space:nowrap;">รับดอกเบี้ยต่ำพิเศษเพียง 0.99%</span>	
-		<span style="white-space:nowrap;">พร้อมฟรีประกันภัยชั้นหนึ่ง</span><br>	
+		<span style="white-space:nowrap;">รับดอกเบี้ยต่ำพิเศษเพียง 0.99%</span>
+		<span style="white-space:nowrap;">พร้อมฟรีประกันภัยชั้นหนึ่ง</span><br>
 		<span style="white-space:nowrap;">ดาวน์ 25% ผ่อนนาน 48 เดือน<sup>1</sup></span> 
 </span>'''
 	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ข้อเสนอพิเศษ</span>'''
@@ -74,7 +74,7 @@ color='white'
 	icon1 = '''th_edm2_svc_wrench_20160801'''
 	title1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ฟรีค่าแรงซ่อมบำรุง<br />5 ครั้ง</span>'''
 	copy1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-	
+
 <span style=" white-space:nowrap;">เพียงคุณตัดสินใจเป็นเจ้าของฟอร์ดรุ่นใหม่</span> 
 <span style=" white-space:nowrap;">ฟรีค่าแรงเช็คระยะ 5 ครั้ง</span> 
 <span style=" white-space:nowrap;">คลิกเพื่อดูรายละเอียดเพิ่มเติมที่นี่</span>
@@ -83,11 +83,11 @@ color='white'
 	icon2 = '''th_edm2_ownerprofile_20160801'''
 	title2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ข้อมูลของคุณมีการ<br />เปลี่ยนแปลงหรือไม่</span>'''
 	copy2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-	
+
 กรุณาอัพเดทข้อมูลของคุณ <br />
 <span style=" white-space:nowrap;">เพื่อให้คุณ</span><span style=" white-space:nowrap;">ไม่พลาด</span><span style=" white-space:nowrap;">ข้อเสนอ</span><span style=" white-space:nowrap;">พิเศษ</span>ต่างๆ <br />
 <span style=" white-space:nowrap;">จากฟอร์ด</span>
-	
+
 </span>'''
 	cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาตัวแทนจำหน่าย</span>'''
 	cta1_url = '''https://www.ford.co.th/locate-a-dealer/'''

@@ -37,7 +37,7 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''th_edm1&4_np_newranger_20160801'''
-	
+
 [[module]] #Cover 01
 path='email_modules/cover/01'
 color='black'
@@ -46,9 +46,9 @@ color='black'
 										<span style="white-space:nowrap;"> ฟอร์ด เรนเจอร์ ก็ยิ่งฉลาด </span>
 										<span style="white-space:nowrap;"> และกล้าแกร่ง </span></span>'''
 	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">เพื่อสาธิตความสามารถอันยอดเยี่ยมเหนือใคร</span>
-<span style="white-space:nowrap;"> ในการลุยน้ำได้ลึกถึง 800 มิลลิเมตร</span><br />	
+<span style="white-space:nowrap;"> ในการลุยน้ำได้ลึกถึง 800 มิลลิเมตร</span><br />
 <span style="white-space:nowrap;">และดีไซน์แบบแอโรไดนามิกของ</span>
-<span style="white-space:nowrap;"> ฟอร์ด เรนเจอร์	</span>	
+<span style="white-space:nowrap;"> ฟอร์ด เรนเจอร์	</span>
 <span style="white-space:nowrap;"> เราขอจัดเต็ม!</span></span>'''
 	cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ชมวิดีโอที่นี่</span>'''
 	cta1_url = '''http://www.ford.co.th/trucks/ranger/sot2/'''

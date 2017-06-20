@@ -69,7 +69,7 @@ color='darkblue'
 	cta1_link_name = '''focus_test_drive'''
 	cta1_icon = '''play'''
 	image = '''ph_edm6_focusvideo_20160930'''
-	
+
 [[module]] #PH Social
 path = 'email_modules/footer/ph/social'
 color = 'white'

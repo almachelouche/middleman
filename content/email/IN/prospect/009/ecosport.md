@@ -34,7 +34,7 @@ copy='''Yes, this is actually happening! You can now buy a Ford EcoSport at Zero
 [[module]]
 path='email_modules/singles/2ctablock'
 color='''white'''
-	
+
 	cta1_text = '''BOOK A TEST DRIVE'''
 	cta1_url = '''https://www.india.ford.com/#/overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-generic.html/'''
 	cta1_link_name = '''test_drive'''
@@ -45,9 +45,9 @@ color='''white'''
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-	
+
 	image = '''in_edm6_EcoSport_Signature_20161031'''
-	
+
 	[[module]]
 path='email_modules/cover/02'
 
@@ -98,7 +98,7 @@ color='white'
 	icon5_url='''tel:18004199000'''
 	icon5_image='''in_lmc_no_20161018'''
 	icon5_link_name = '''tel_toll_free'''
-		
+
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'

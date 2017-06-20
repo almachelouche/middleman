@@ -48,8 +48,8 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''th_edm2_whyfordsvc_20161115'''
-	
-	
+
+
 	[[module]] #Split 04
 path='email_modules/split/04'
 color='green'

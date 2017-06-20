@@ -14,26 +14,26 @@ color='white_pb'
 
 	image = '''white_pb'''
 	url_link = '''https://www.india.ford.com/'''
-	
+
 [[module]]
 path='email_modules/singles/icon'
 color='''white'''
-	
+
 	icon = '''in_edm2_svc_wrench_urgent_20160801'''
-		
+
 [[module]]
 path='email_modules/spacer/default'
 color='white'
 
 	height="30" 
-		
+
 
 [[module]]
 path='email_modules/singles/title'
 color='''white_ot'''
-	
+
 	title = '''Your Ford <%${user.CustomAttribute['Model']}%>'s <%${user.CustomAttribute['BTBPriority']}%> needs attention'''
-		
+
 [[module]]
 path='email_modules/spacer/default'
 color='white'
@@ -55,7 +55,7 @@ color='white'
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
-	
+
 	copy = '''We noticed that you declined an important part of your servicing at your last appointment. That's got us worried.<br /><br />When you come into a Ford service centre, you're putting your vehicle into the best hands possible. Our trained technicians know the specifics of your Ford vehicle and only use genuine Ford parts.<br /><br />As part of the Ford family, we've got your back. Visit us at a Ford dealer soon. '''
 
 [[module]]
@@ -78,7 +78,7 @@ color='''white'''
 [[module]] #Service Status No Copy
 path='email_modules/custom/svcstatus_nocopy'
 color='white_in'
-			
+
 			toptitle='''Your Ford <%${user.CustomAttribute['Model']}%>'s Health Status'''
 	segmentAgreen = '''(user.CustomAttribute['Brake'] == 'G')'''
 	segmentAyellow = '''(user.CustomAttribute['Brake'] == 'Y')'''
@@ -116,11 +116,11 @@ color='white_in'
 		icon3red = '''in_edm2d_status_battery_white_20160801'''
 		title3red = '''Batteries'''
 		subtitle3red = '''Service immediately'''
-	
+
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-	
+
 	image = '''in_edm2_fordsvc_20160801'''
 
 [[module]] #Custom 02

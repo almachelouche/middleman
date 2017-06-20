@@ -59,8 +59,8 @@ color='fordblue'
 	cta1_link_name = '''loyalty_offer'''
 	cta1_icon = '''more'''
 	image = '''vn_edm5_3millionvnd_20160801'''
-	
-	
+
+
 
 [[module]] #Cover 05
 path='email_modules/cover/02'

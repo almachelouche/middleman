@@ -43,7 +43,7 @@ cta2_link_name = '''find_dealer'''
 [[module]] #Service Status No Copy
 path='email_modules/custom/svcstatus_nocopy'
 color='darkblue'
-			
+
 			toptitle='''<span style="font-family:Tahoma, Verdana, Sans-serif">ผลตรวจเช็ค <%${user.CustomAttribute['Model']}%> ของคุณ ครั้งหลังสุด</span>'''
 	segmentAgreen = '''(user.CustomAttribute['Brake'] == null)'''
 	segmentAyellow = '''(user.CustomAttribute['Brake'] == 'YBRAKE')'''
@@ -81,14 +81,14 @@ color='darkblue'
 		icon3red = '''in_edm2d_status_battery_white_20160801'''
 		title3red = '''<span style="font-family:Tahoma, Verdana, Sans-serif">แบตเตอรี่</span>'''
 		subtitle3red = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ควรเปลี่ยนทันที</span>'''
-		
+
 	[[module]] #Split 04
 path='email_modules/split/04'
 color='green'
 
 	title='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">โปรยางสุดคุ้ม!</span> 
 									<span style=" white-space:nowrap;">พร้อมรับสิทธิ์ </span> 
-									<span style=" white-space:nowrap;">Worry Free</span>	
+									<span style=" white-space:nowrap;">Worry Free</span>
 									<span style=" white-space:nowrap;">อุ่นใจ 3 ต่อ</span> </span>'''
 	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;"><span style=" white-space:nowrap;">ซื้อยางกู๊ดเยียร์ 3 เส้น</span> 
 									<span style=" white-space:nowrap;">แถม 1 เส้น</span>

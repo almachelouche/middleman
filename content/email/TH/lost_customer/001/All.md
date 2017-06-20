@@ -68,7 +68,7 @@ color='white'
 	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ทำไมต้องศูนย์บริการฟอร์ด?</span>'''
 	icon1 = '''ico_2e_fordsvc_a'''
 	text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">มั่นใจอะไหล่แท้ฟอร์ด</span> 
-										<span style="white-space:nowrap;">100%</span>	
+										<span style="white-space:nowrap;">100%</span>
 										<span style="white-space:nowrap;">พร้อมการบำรุงรักษารถยนต์</span>
 										<span style="white-space:nowrap;">อย่างมีประสิทธิภาพ</span>เพื่อ
 										<span style="white-space:nowrap;">สมรรถนะสูงสุดของรถคุณ</span></span>'''
@@ -88,8 +88,8 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''th_edm2_whyfordsvc_20161115'''
-	
-	
+
+
 [[module]] #TH Social
 path='email_modules/footer/th/social'
 color='white'

@@ -55,7 +55,7 @@ color='white'
 	icon5_url='''https://partscalculator.fordind.com:1443/Fill_Field?extcmp=hp_eb_nav'''
 	icon5_image='''in_svc_parts_20160801'''
 	icon5_link_name = '''parts_calculator'''
-		
+
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'

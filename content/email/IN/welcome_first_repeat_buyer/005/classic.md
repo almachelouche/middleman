@@ -98,7 +98,7 @@ color='black'
 	cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en'''
 	cta2_link_name = '''oa_android'''
 	image = '''owner_app_20160328'''
-	
+
 	[[module]]
 path='email_modules/cover/01'
 

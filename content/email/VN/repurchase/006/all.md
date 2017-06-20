@@ -31,7 +31,7 @@ color='''white'''
 	cta1_text = '''TÌM HIỂU THÊM'''
 	cta1_url = '''http://www.ford.com.vn/suvs/explorer/'''
 	cta1_link_name = '''new_explorer'''
-	
+
 [[module]] #Cover 07
 path='email_modules/cover/02'
 color='''black'''

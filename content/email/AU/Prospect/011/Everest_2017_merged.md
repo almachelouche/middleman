@@ -33,7 +33,7 @@ color='''nothing'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	preheader='''Click through to see the latest offers on our most capable SUV, the Ford Everest'''
-	
+
 [[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'
@@ -47,7 +47,7 @@ color = '''white'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
 	image = '''au_edm5_everest1_20161013'''
-	
+
 [[module]] #Banner Image
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''

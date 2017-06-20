@@ -24,7 +24,7 @@ color = '''white'''
 [[module]] #Cover 08
 path='email_modules/cover/02'
 color='''white'''
-	
+
 	title = '''Meet the latest Ford vehicles'''
 	copy = '''We noticed you've been driving your Ford <%${user.CustomAttribute['Model']}%> for a while now and might be thinking about purchasing a new Ford.<br /><br />At Ford, we design vehicles around you. That's why many new Ford vehicles - like EcoSport, Next-Gen Figo and Aspire - come with the SYNC<sup>®</sup> voice-activation system.<br /><br />Just pair your smartphone and use simple voice commands to make calls, listen to text messages, and play your favourite music.<br /><br />How smart is that? Come take a test drive and find out for yourself.'''
 	cta1_text = '''FIND A DEALER'''
@@ -90,7 +90,7 @@ color='white'
 	icon5_url='''tel:18002097400'''
 	icon5_image='''in_rsa_no_20160615'''
 	icon5_link_name = ''''''
-		
+
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'

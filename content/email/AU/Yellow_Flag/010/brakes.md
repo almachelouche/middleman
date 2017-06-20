@@ -14,7 +14,7 @@ color='white'
 
 	image = '''white'''
 	url_link = '''http://www.ford.com.au'''
-	
+
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
@@ -46,7 +46,7 @@ color='darkblue_au'
 	icon3='''au_edm2d_brake2_20170417'''
 	title3='''Replace <br />immediately <br /> '''
 	copy3='''<br /><br />Brake Lining:<br /> Less than 3mm (Disc) <br />or less than 1mm (Drum)'''
-	
+
 [[module]] #Cover 01
 path='email_modules/cover/01'
 color='white'
@@ -58,13 +58,13 @@ color='white'
 	cta1_text = '''FIND OUT MORE'''
 	cta1_icon = '''more'''
 	cta1_link_name = '''more1'''
-	
+
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image='''au_edm2d_brake2_20161114'''
-	
+
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
 color='white'
@@ -73,7 +73,7 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-	text = '''DISCLAIMERS 	
+	text = '''DISCLAIMERS 
 				<br /> <br />
 				1. Conditions and exclusions apply. For more information, see <a href="http://www.ford.com.au/ownership/genuine-parts" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/ownership/genuine-parts</a><br /><br />
 				2. Available at participating Ford Dealers. Excludes Everest, Mustang, Focus RS, F-Series, FPV, ST, XR5 and Transit models. Customers will pay equal to or less than the current maximum price as published by Ford at <a href="http://www.ford.com.au/owners/service/brakes" style="text-decoration:underline; color:#91a4b1">ford.com.au/service/t-and-c</a>. Maximum prices are subject to change. See<a href="http://www.ford.com.au/service/brakes" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/service/t-and-c</a> for full terms.<br /><br />'''

@@ -67,12 +67,12 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''th_edm2_whyfordsvc_20161115'''
-	
-	
+
+
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
-	
+
 		copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif">
 		<span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">สุดคุ้มกับอะไหล่แท้<br />จากฟอร์ด</span><br /><br />
 		<span style="white-space:nowrap;">เพื่อให้สมรรถนะรถฟอร์ดของคุณ</span> 
@@ -100,7 +100,7 @@ color='white'
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
-	
+
 		cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ดูข้อเสนอเพิ่มเติม</span>'''
 	cta1_url = '''https://www.ford.co.th/'''
 	cta1_link_name = '''commodity_offer'''

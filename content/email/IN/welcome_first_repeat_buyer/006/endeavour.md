@@ -79,7 +79,7 @@ color='white'
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
-	
+
 	copy = '''The All-New Endeavour has conquered deserts, mountains and now the podiums. You’re driving an SUV that has a list of extraordinary achievements and it never stops growing.'''
 
 [[module]] #Cover 01

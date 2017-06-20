@@ -33,7 +33,7 @@ color='''white'''
 	<span style=" white-space:nowrap;">เราขอแนะนำแอปพลิเคชัน Ford Owners</span><br />
 	<span style=" white-space:nowrap;">ที่จะช่วยเชื่อมโยงคุณ</span>กับ<span style=" white-space:nowrap;">รถฟอร์ดของคุณได้ทุกที่ทุกเวลา</span>
 	<span style=" white-space:nowrap;">ทดลองใช้งานได้แล้ววันนี้</span></span>'''
-	
+
 [[module]] #Custom 05
 path='email_modules/custom/4columnicon4titlescopy'
 color='white'
@@ -89,7 +89,7 @@ copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-	
+
 	image = '''in_edm1c_ownerapp_20160801'''
 
 [[module]] #TH Social

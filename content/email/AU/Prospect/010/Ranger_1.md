@@ -38,7 +38,7 @@ color='''white'''
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
-	
+
 	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />The Ford Ranger has been tested to the limits to give you a truck that's in its element wherever you are. So when the going gets tough, the tough can get going.<br /><br /><span style="color:#FFFFFF">Right now, the Ford Ranger 4x4 XLT Double Cab Pick Up 3.2L Diesel is available at $55,990* Driveaway.</span>'''
 
 [[module]] #Banner Image No Link
@@ -52,7 +52,7 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''au_edm5_ranger_award2_20161013'''
-	
+
 
 [[module]] #Custom 4 Icons
 path='email_modules/custom/4icons'
@@ -75,7 +75,7 @@ color='white'
 	icon4_link_name = '''parts_calculator'''
 	icon4_image='''au_edm5_waterwanding_20161013'''
 	icon4_text = '''800mm Water Wading²'''
-	
+
 [[module]] #Cover 13
 path='email_modules/cover/04'
 color='white'
@@ -102,7 +102,7 @@ copy='''<a href="https://www.ford.com.au/commercial/ranger/smart-accessories" na
 cta1_text='''FIND OUT MORE'''
 cta1_url='''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
  cta1_icon='''more'''
-	
+
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
@@ -111,7 +111,7 @@ color='white'
 	url_link='''https://www.ford.com.au/owners/service/'''
 	url_link_name="servicebanner"
 
-	
+
 [[module]] #Cover 07
 path='email_modules/cover/02'
 color='''white'''
@@ -121,7 +121,7 @@ color='''white'''
 	cta1_text='''LATEST OFFER'''
 	cta1_url='''https://www.ford.com.au/shopping/latest-offers/national?offer=ranger-4x4-xlt-double-pick-up-3-2-diesel'''
 	cta1_link_name = '''moreinfo2'''
-	
+
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
 color='white'
@@ -130,7 +130,7 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-	text = '''Terms & Conditions	
+	text = '''Terms & Conditions
 				<br /> <br />*Limited offer available at participating Dealers while stocks last. Recommended Driveaway price relates to 2017 model year vehicles onwards. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. See <a href="https://www.ford.com.au/shopping/latest-offers/" name="latest_offer2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/shopping/latest-offers</a> for full details.<br /><br />
 				1. Braked towing capacity when fitted with a genuine Ford towpack and towball. Subject to State and Territory regulations.<br /><br />
 				2. Achieved when maintaining a steady speed of not more than 7km per hour.<br /><br />

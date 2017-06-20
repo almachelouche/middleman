@@ -16,7 +16,7 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''nz_edm1_ecosport_20170612'''
-	
+
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
@@ -29,22 +29,22 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''nz_edm1_focus_20170612'''
-	
-	
+
+
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''nz_edm1_escape_20170612'''
-	
-	
+
+
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''nz_edm1_everest_20170612'''
-	
-	
+
+
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
@@ -56,7 +56,7 @@ path='email_modules/cover/03'
 color='''white'''
 
 	copy='''<br /><br />Dear<br /><br />Welcome to the Ford family. You are now driving NZ’s #1 new vehicle. We would like to thank you for choosing Ford and hope that you are enjoying the experience.<br /><br />Did you know your new <%${user.CustomAttribute['Model']}%> is as safe as it is smart? Not only does it deliver innovative driver assistance technologies and a full 5-star ANCAP safety rating, it also brings the latest in-car communication technologies to New Zealand drivers.'''
-	
+
 
  [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -77,7 +77,7 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''nz_edm2_svc1_20170612'''
-	
+
 [[module]] #Cover 01 
 path='email_modules/cover/01'
 color='white'
@@ -85,7 +85,7 @@ color='white'
  title='''Peace of mind comes standard'''
 	copy='''Your new <%${user.CustomAttribute['Model']}%> includes a complimentary 3-year/100,000km warranty, 3-year roadside assistance, and 12-month/15,000km service intervals (whichever occurs first). <br /><br />You will also receive an email from us within the next two months reminding you to book your Peace of Mind checkup. This is a quick, complimentary inspection to ensure that you are happy with how your vehicle is running. It also provides an opportunity to discuss any questions or concerns you may have about your new <%${user.CustomAttribute['Model']}%><br /><br />.'''
 
-	
+
 [[module]] #Cover 01
 path='email_modules/cover/01'
 color='''fordblue'''

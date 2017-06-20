@@ -38,12 +38,12 @@ color='''white'''
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
-	
+
 	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,	<br /><br />
 	It's hard to know what to love most about the Ford Fiesta: the beauty behind its technology or the technology behind its beauty. Either way, it'll give you the ride of your life.</span><br /><br />
 	<span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">
 	Right now, the Ford Fiesta Ambiente is available at $15,490* Driveaway.</span>'''
-		
+
 	[[module]] #Banner Image
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
@@ -74,7 +74,7 @@ color='white'
 	icon4_link_name = '''locate_dealer4'''
 	icon4_image='''au_edm5_ipodusb_20161013'''
 	icon4_text = '''iPod and USB integration&#179;'''
-	
+
 [[module]] #Cover 13
 path='email_modules/cover/04'
 color='white'
@@ -108,7 +108,7 @@ color='''white'''
 	cta1_text='''BOOK A TEST DRIVE'''
 	cta1_url='''https://www.ford.com.au/test-drive/'''
 	cta1_link_name = '''moreinfo3'''
-	
+
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'

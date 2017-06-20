@@ -32,7 +32,7 @@ color='white'
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
-	
+
 		copy = '''When you purchase a Ford, you don't just buy a great vehicle - you become part of our family. And family always gets the best deals.<br /><br />Why wait for GST to avail offer benefit. Now Ford vehicles are available with early benefit, plus enjoy an interest rate of 8.15% p.a. So why wait? Make a move now!*'''
 
 [[module]]
@@ -43,7 +43,7 @@ color='white'
 
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
-color='''white'''		
+color='''white'''
 	cta1_text = '''BOOK A TEST DRIVE'''
 	cta1_url = '''https://www.india.ford.com/suvs/ecosport/ecosport-brochure/?redtrgtexp=true#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-ecosport.html?campaign=ESFWTDC&intModel=EcoSport&modelCode=ES/'''
 	cta1_link_name = '''test_drive'''
@@ -100,7 +100,7 @@ color='white'
 	icon5_url='''tel:18004199000'''
 	icon5_image='''in_lmc_no_20161018'''
 	icon5_link_name = '''tel_toll_free'''
-		
+
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'
@@ -110,7 +110,7 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 	text = '''Terms & conditions Apply. <br /><br />1. Benefit is calculated on the basis of expected Goods and Services Tax ("GST") rate schedule for goods and GST compensation CESS rates ("GST Rates") approved by GST Council in their 14th GST meeting held on May 18, 2017. The benefit is the difference between current Ex-Showroom price and expected Ex-Showroom price based on GST Rates. The benefit is applicable for vehicles booking done between June 1, 2017 to June 30, 2017 with full payment on or before 30th June, 2017. <br /><br />2. Interest rate of 8.15% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit. <br /><br />3. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.'''
-	
+
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
 color='white'

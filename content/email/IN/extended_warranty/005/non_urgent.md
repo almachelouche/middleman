@@ -7,7 +7,7 @@ path='email_modules/preheader'
 color='''white'''
 
 	preheader = '''Your Ford <%${user.CustomAttribute['Model']}%>'s warranty will expire on <%${user.CustomAttribute['EWDate']}%>. Knowing you and your Ford are protected means the world to us, so we'd like to offer you an opportunity to extend your vehicle's warranty.'''
-		
+
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
 color='white_pb'
@@ -54,7 +54,7 @@ color='white'
 	icon5_url='''https://www.fordservicepricepromise.com/'''
 	icon5_image='''in_svc_price_20160801'''
 	icon5_link_name = '''price_calculator'''
-		
+
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'

@@ -19,7 +19,7 @@ color='white_pb'
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-	
+
 	image = '''in_edm5_novoffer_20161122'''
 
 [[module]]
@@ -44,7 +44,7 @@ color='white'
 [[module]]
 path='email_modules/singles/2ctablock'
 color='''white'''
-	
+
 	cta1_text = '''BOOK A TEST DRIVE'''
 	cta1_url = '''https://india.ford.com/test-drive'''
 	cta1_link_name = '''test_drive'''
@@ -91,7 +91,7 @@ color='white'
 	icon5_url='''tel:18002097400'''
 	icon5_image='''in_rsa_no_20160615'''
 	icon5_link_name = '''tel_rsa'''
-		
+
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'

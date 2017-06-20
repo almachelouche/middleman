@@ -22,7 +22,7 @@ color='black'
 	<span style=" white-space:nowrap;">พบกับ:</span> 
 	<span style=" white-space:nowrap;">ใส่ใจดูแลเบรกของคุณ</span> | 
 	<span style=" white-space:nowrap;">รู้จักกับแอป Ford Owner</span></span>'''
-	
+
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
 color='black'
@@ -80,7 +80,7 @@ cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิ�
 	cta1_link_name = '''Care_brakes'''
 	cta1_icon = '''play'''
 	image = '''th_edm6_Carebrakes_20170613'''
-	
+
 	[[module]] #Split 01
 path='email_modules/split/01'
 color='darkblue'
@@ -93,7 +93,7 @@ cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">เรี�
 	cta1_link_name = '''ac'''
 	cta1_icon = '''more'''
 	image = '''th_edm6_AC_20170613'''
-	
+
 [[module]]
 path='email_modules/spacer/platinum_20'
 color='white'

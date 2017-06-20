@@ -38,7 +38,7 @@ color='''white'''
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
-	
+
 	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,	<br /><br />
 	Combining innovative technology, with a sleek and sporty design, the Ford Focus is the car built for pleasure seekers.</span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">
 	Right now, the Ford Focus Trend Hatch is available at $23,990* Driveaway</span>'''
@@ -49,13 +49,13 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''au_edm5_focus2_20161013'''
-	
+
 	[[module]] #Banner Image
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''au_edm5_focus_trend_award_20161215'''
-	
+
 
 [[module]] #Custom 4 Icons
 path='email_modules/custom/4icons'
@@ -81,7 +81,7 @@ color='white'
 	icon4_link_name = '''locate_dealer4'''
 	icon4_image='''au_edm5_park_20161013'''
 	icon4_text = '''Rear Parking Sensors'''
-	
+
 [[module]] #Cover 13
 path='email_modules/cover/04'
 color='white'
@@ -93,7 +93,7 @@ color='white'
 	cta1_icon = '''more'''
 	cta1_link_name = '''moreinfo'''
 
-	
+
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
@@ -113,7 +113,7 @@ color='''white'''
 	cta1_text='''LATEST OFFER'''
 	cta1_url='''https://www.ford.com.au/latest-offers/national?offer=focus-trend-hatch'''
 	cta1_link_name = '''moreinfo2'''
-	
+
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'

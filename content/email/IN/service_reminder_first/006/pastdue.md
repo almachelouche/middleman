@@ -19,7 +19,7 @@ color='white_pb'
 [[module]] #Cover 06
 path='email_modules/cover/02'
 color='''white_ot'''
-	
+
 	title = '''Your Ford <%${user.CustomAttribute['Model']}%> missed important service'''
 	copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />We noticed your Ford <%${user.CustomAttribute['Model']}%> is overdue for its first service. This service is just a quick check to ensure your Ford is still running at its absolute best.<br /><br />We've got your back. Book your service today.'''
 	cta1_text = '''GET A CALLBACK'''
@@ -55,7 +55,7 @@ color='white'
 	cta1_text = '''FIND A DEALER'''
 	cta1_url = '''https://www.india.ford.com/locate-dealer/'''
 	cta1_link_name = '''locate_dealer_2'''
-				
+
 [[module]] #Cover 05
 path='email_modules/cover/02'
 color='''green_pb'''

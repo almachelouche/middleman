@@ -65,7 +65,7 @@ color='''white'''
 [[module]]
 path='email_modules/singles/3textcta'
 color='''white'''
-	
+
 	cta1_text = '''Explore EcoSport'''
 	cta1_url = '''http://www.india.ford.com/suvs/ecosport/accessories/exterior#overlay=1249252412933?emailid=EDM_<%${user.CustomAttribute['DMCDATE']}%>_APMKTC4L_<%${user.CustomAttribute['DMCCAMPAIGN']}%>_explore-ecosport'''
 	cta1_link_name = ''''''
@@ -76,7 +76,7 @@ color='''white'''
 	cta3_url = '''http://www.india.ford.com/cars/figoaspire/accessories/exterior#overlay=1249252412372?emailid=EDM_<%${user.CustomAttribute['DMCDATE']}%>_APMKTC4L_<%${user.CustomAttribute['DMCCAMPAIGN']}%>_explore-aspire'''
 	cta3_link_name = ''''''
 	cta1_icon='''play'''
-						
+
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''

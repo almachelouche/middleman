@@ -75,13 +75,13 @@ path='email_modules/cover/01'
 color='black'
 
 	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-	
+
 	<span style="white-space:nowrap;">พลาดไม่ได้ กับแคมเปญ</span>
 	<span style="white-space:nowrap;">เรนเจอร์ เดย์ เริ่ม 1 สิงหาคมนี้</span>
-	
+
 </span>'''
 	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-	
+
 <span style="white-space:nowrap;">เพียงท่านจองรถฟอร์ดเรนเจอร์</span> 
 <span style="white-space:nowrap;">หรือฟอร์ดรุ่นใดก็ได้</span> <br />
 <span style="white-space:nowrap;">ระหว่าง 1 สิงหาคม-30 กันยายน</span> 
@@ -115,14 +115,14 @@ title='''<span style="font-family:Tahoma, Verdana, Sans-serif">
 
 </span>'''
 copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
-	
+
 ลูกค้าฟอร์ด รับทันที ส่วนลด 
 <span style="color:#FFFFFF;">10,000 บาท</span><br /> 
 <span style="white-space:nowrap;">เมื่อซื้อรถฟอร์ดคันต่อไปรุ่นใดก็ได้</span> <br />
 <span style="white-space:nowrap;">พิเศษ รับส่วนลดเพิ่มเป็น <span style="color:#FFFFFF;">20,000 บาท</span></span> 
 <span style="white-space:nowrap;">เมื่อซื้อรถฟอร์ด โฟกัส ใหม่</span> 
 <span style="white-space:nowrap;">ข้อเสนอนี้มีถึงวันที่ 31 ธันวาคม 2559</span>
-	
+
 </span>'''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ดูเพิ่มเติม</span></span>'''
 cta1_url='''http://www.ford.co.th/loyaltyprogram2016'''
@@ -137,23 +137,23 @@ color='white'
 	icon1 = '''th_edm2_svc_wrench_20160801'''
 	title1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ฟรีค่าแรงซ่อมบำรุง<br />5 ครั้ง</span>'''
 	copy1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-	
+
 	<span style=" white-space:nowrap;">เพียงคุณตัดสินใจเป็นเจ้าของฟอร์ดรุ่นใหม่</span> 
 	<span style=" white-space:nowrap;">ฟรีค่าแรงเช็คระยะ 5 ครั้ง</span> 
 	<span style=" white-space:nowrap;">คลิกเพื่อดูรายละเอียดเพิ่มเติมที่นี่</span>
-	
+
 </span>'''
 	icon2 = '''th_edm2_ownerprofile_20160801'''
 	title2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ข้อมูลของคุณมีการ<br />เปลี่ยนแปลงหรือไม่</span>'''
 	copy2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-	
+
 	กรุณาอัพเดทข้อมูลของคุณ <br />
 <span style=" white-space:nowrap;">เพื่อให้คุณ</span>
 <span style=" white-space:nowrap;">ไม่พลาด</span>
 <span style=" white-space:nowrap;">ข้อเสนอ</span>
 <span style=" white-space:nowrap;">พิเศษ</span>ต่างๆ <br />
 <span style=" white-space:nowrap;">จากฟอร์ด
-	
+
 </span>'''
 	cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาตัวแทนจำหน่าย</span>'''
 	cta1_url = '''http://www.ford.co.th/locate-a-dealer/'''

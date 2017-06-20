@@ -71,7 +71,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 	<span style="white-space:nowrap;">(ยกเว้นฟอร์ด โฟกัส)</span> 
 	<span style="white-space:nowrap;">รับส่วนลดเพิ่ม 10,000 บาททันที</span> 
 	<span style="white-space:nowrap;">ข้อเสนอสุดพิเศษนี้</span> 
-	<span style="white-space:nowrap;">สำหรับ</span>	
+	<span style="white-space:nowrap;">สำหรับ</span>
 	<span style="white-space:nowrap;">ริการ 1-30 มิถุนายน พ.ศ. 2560</span> 
 	<span style="white-space:nowrap;">นี้เท่านั้น</span> 
 </span>'''
@@ -88,7 +88,7 @@ color='white'
 	icon1 = '''th_edm2_svc_wrench_20160801'''
 	title1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ฟรีค่าแรงซ่อมบำรุง<br />5 ครั้ง</span>'''
 	copy1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-	
+
 <span style=" white-space:nowrap;">เพียงคุณตัดสินใจเป็นเจ้าของฟอร์ดรุ่นใหม่</span> 
 <span style=" white-space:nowrap;">ฟรีค่าแรงเช็คระยะ 5 ครั้ง</span> 
 <span style=" white-space:nowrap;">คลิกเพื่อดูรายละเอียดเพิ่มเติมที่นี่</span>
@@ -97,11 +97,11 @@ color='white'
 	icon2 = '''th_edm2_ownerprofile_20160801'''
 	title2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ข้อมูลของคุณมีการ<br />เปลี่ยนแปลงหรือไม่</span>'''
 	copy2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-	
+
 กรุณาอัพเดทข้อมูลของคุณ <br />
 <span style=" white-space:nowrap;">เพื่อให้คุณ</span><span style=" white-space:nowrap;">ไม่พลาด</span><span style=" white-space:nowrap;">ข้อเสนอ</span><span style=" white-space:nowrap;">พิเศษ</span>ต่างๆ <br />
 <span style=" white-space:nowrap;">จากฟอร์ด</span>
-	
+
 </span>'''
 	cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาตัวแทนจำหน่าย</span>'''
 	cta1_url = '''https://www.ford.co.th/locate-a-dealer/'''

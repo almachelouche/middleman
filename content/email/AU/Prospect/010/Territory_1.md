@@ -38,7 +38,7 @@ color='''white'''
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
-	
+
 	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,	<br /><br />
 Built into every Ford Territory is technology so smart, it'll adapt to wherever you want to go. From the open road to the urban jungle, this SUV has been designed to excel.</span><br /><br />
 <span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">
@@ -74,7 +74,7 @@ color='white'
 	icon4_link_name = '''locate_dealer4'''
 	icon4_image='''au_edm5_nav_20161013'''
 	icon4_text = '''Satellite Navigation System with Traffic Message Channel (TMC)&#178;'''
-	
+
 [[module]] #Cover 13
 path='email_modules/cover/04'
 color='white'

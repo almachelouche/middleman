@@ -33,7 +33,7 @@ color='white'
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
-	
+
 	copy = '''When you purchase a Ford, you aren't just buying a great vehicle – you become our Family. And family always gets the most irresistible and amazing deals.<br /><br />Get <span style="font-weight:bold">7.99% interest rate</span>, a <span style="font-weight:bold">cash discount</span> of &#8377;10,000, and an <span style="font-weight:bold">exchange bonus</span> of &#8377;15,000 on all our award-winning cars. But do it quick. Offer ends March 31st.*'''
 
 [[module]] #Custom 3 Icon Text
@@ -51,7 +51,7 @@ color='white'
 [[module]]
 path='email_modules/singles/2ctablock'
 color='''white'''
-	
+
 	cta1_text = '''BOOK A TEST DRIVE'''
 	cta1_url = '''https://www.india.ford.com/#/overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-generic.html/'''
 	cta1_link_name = '''test_drive'''
@@ -107,7 +107,7 @@ color='white'
 	icon5_url='''tel:18004199000'''
 	icon5_image='''in_lmc_no_20161018'''
 	icon5_link_name = '''tel_toll_free'''
-		
+
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'
@@ -117,7 +117,7 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 	text = '''*Terms & conditions Apply. <br /><br />1. All Prices shown are ex-showroom Delhi for Next-Gen Figo Base Petrol and Ford Aspire Ambiente Petrol. <br /><br />2. Interest rate of 7.99% is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.<br /><br />3. Next-Gen Figo - &#8377;10,000 cash + Exchange Bonus is valid only on select variants. &#8377;10,000 cash + Exchange Bonus is valid only on select variants of Ford Aspire. Exchange bonus will be &#8377;20,000/- on exchange of Ford Car and &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.<br /><br />4. Accessories shown may not be part of standard fitment. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. <br /><br />5. This offer is applicable for booking done between 1st March 2017 to 31st March 2017 with full payment on or before March 31, 2017. For more information, please contact a Ford dealer. '''
-	
+
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
 color='white'

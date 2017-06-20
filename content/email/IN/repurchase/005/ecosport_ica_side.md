@@ -31,7 +31,7 @@ color='white'
 [[module]]
 path='email_modules/singles/title'
 color='''white'''
-	
+
 	title = '''Meet the EcoSport Platinum'''
 
 [[module]]
@@ -43,35 +43,35 @@ color='white'
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
-	
+
 	copy = '''We noticed you've been driving your Ford <%${user.CustomAttribute['Model']}%> for a while now and might be thinking about purchasing a new Ford.<br /><br />We believe life shouldn't be limited to the weekends. That's why we bring you the Ford EcoSport Platinum with more style, richer features and bigger alloy wheels that make it the perfect companion for your quest to 'live it up!'*<br /><br />Check out the Platinum Edition today, because we want you to live more every day.'''
-		
+
 [[module]]
 path='email_modules/spacer/default'
 color='white'
 
-	height="30"		
-		
+	height="30"
+
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
-color='''white'''		
+color='''white'''
 	cta1_text = '''&nbsp;&nbsp;LOCATE A DEALER&nbsp;&nbsp;'''
 	cta1_url = '''https://www.india.ford.com/locate-dealer/'''
 	cta1_link_name = '''locate_dealer'''
 	cta2_text = '''BOOK A TEST DRIVE'''
 	cta2_url = '''https://www.india.ford.com/suvs/ecosport/features/platinum-edition/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-ecosport.html'''
 	cta2_link_name = '''test_drive'''
-	
+
 [[module]]
 path='email_modules/spacer/default'
 color='white'
 
-	height="30"	
-	
+	height="30"
+
 [[module]]
 path='email_modules/singles/icon'
 color='''white'''
-	
+
 	icon = '''in_edm5_livechat_blue_20161018'''
 
 [[module]] #Cover 07
@@ -87,9 +87,9 @@ color='''white'''
 [[module]]
 path='email_modules/singles/icon'
 color='''white'''
-	
+
 	icon = '''th_edm2_ownerprofile_20160801'''
-		
+
 [[module]]
 path='email_modules/spacer/default'
 color='white'
@@ -99,9 +99,9 @@ color='white'
 [[module]]
 path='email_modules/singles/title'
 color='''white'''
-	
+
 	title = '''My Ford Profile'''
-		
+
 [[module]]
 path='email_modules/spacer/default'
 color='white'
@@ -111,19 +111,19 @@ color='white'
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
-	
+
 	copy = '''Name&#58; <%${user['FirstName']}%> <%${user['LastName']}%><br />Email&#58; <%${user.CustomAttribute['RealEmail']}%><br />Phone&#58; <%${user.CustomAttribute['Mobile_Phone']}%><br />Address&#58; <%${user.CustomAttribute['Address_1']}%> <%${user.CustomAttribute['Address_2']}%><br /><br />Anything changed?'''
-		
+
 [[module]]
 path='email_modules/spacer/default'
 color='white'
 
-	height="30"				
-	
+	height="30"
+
 [[module]]
 path='email_modules/singles/2textcta'
 color='''white'''
-	
+
 	cta1_text = '''UPDATE DETAILS'''
 	cta1_url = '''https://www.india.ford.com/#/overlay/content/ford/in/en_in/site-wide-content/overlays/forms/profile-update-form.html?req_firstName=<%${user['FirstName']}%>&req_lastName=<%${user['LastName']}%>&req_mobileNumber=<%${user.CustomAttribute['Mobile_Phone']}%>&req_EmailID=<%${user.CustomAttribute['RealEmail']}%>&req_BuildingNo=<%${user.CustomAttribute['Address_1']}%>&req_StreetRoad=<%${user.CustomAttribute['Address_2']}%>&req_Area=<%${user.CustomAttribute['Area']}%>&req_Landmark=<%${user.CustomAttribute['Landmark']}%>&req_city=<%${user.CustomAttribute['City']}%>&req_State=<%${user.CustomAttribute['State']}%>&req_postCode=<%${user.CustomAttribute['Post_Code']}%>/'''
 	cta1_link_name = '''profile_update'''

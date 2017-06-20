@@ -15,11 +15,11 @@ color='white_pb'
 
 	image = '''white_pb'''
 	url_link = '''https://www.india.ford.com/'''
-				
+
 [[module]] #Cover 06
 path='email_modules/cover/02'
 color='''white'''
-	
+
 	title = '''It's time for your first visit'''
 	copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Here's a quick reminder that your new Ford <%${user.CustomAttribute['Model']}%> is due for its first service.<br /><br />All new cars undergo a "settling in" period after they leave the showroom and hit the road. Your first service is just a quick check to ensure that your Ford <%${user.CustomAttribute['Model']}%> is running at its absolute best.'''
 	cta1_text = '''GET A CALLBACK'''
@@ -55,7 +55,7 @@ color='white'
 	cta1_text = '''FIND A DEALER'''
 	cta1_url = '''https://www.india.ford.com/locate-dealer/'''
 	cta1_link_name = '''locate_dealer_2'''
-				
+
 [[module]] #Cover 05
 path='email_modules/cover/02'
 color='''green_pb'''
@@ -67,7 +67,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'B')"]
 	cta1_url = '''https://www.india.ford.com/owner/scheduled-service-plan/'''
 	cta1_link_name = '''ssp'''
 	icon = '''in_edm1_extendedwarranty_20160801'''
-	
+
 [[module]] #Cover 05
 path='email_modules/cover/02'
 color='''green_pb'''
@@ -79,7 +79,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'G')"]
 	cta1_url = '''https://www.india.ford.com/owner/extended-warranty/'''
 	cta1_link_name = '''warranty_info'''
 	icon = '''in_edm1_extendedwarranty_20160801'''
-	
+
 [[module]] #Cover 05
 path='email_modules/cover/02'
 color='''green_pb'''
@@ -91,7 +91,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')"]
 	cta1_url = '''https://www.india.ford.com/owner/extended-warranty/'''
 	cta1_link_name = '''warranty_info'''
 	icon = '''in_edm1_extendedwarranty_20160801'''
-	
+
 [[module]] #Cover 05
 path='email_modules/cover/02'
 color='''green_pb'''
@@ -103,7 +103,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'F')"]
 	cta1_url = '''https://www.india.ford.com/owner/extended-warranty/'''
 	cta1_link_name = '''warranty_info'''
 	icon = '''in_edm1_extendedwarranty_20160801'''
-	
+
 [[module]] #Custom 01
 path='email_modules/custom/3columntitle3icons'
 color='white_ot'

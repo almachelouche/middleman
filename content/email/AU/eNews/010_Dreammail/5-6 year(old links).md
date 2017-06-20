@@ -35,14 +35,14 @@ color='black'
 	cta1_link_name = '''escape1'''
 	cta1_icon = '''play'''
 
-	
+
 	[[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
 	image = '''AU_edm6_escape_20161107'''
 	url_link = '''http://www.ford.com.au/suv/escape?emailid=20161206-0105_CampaignCode_Generic_0_FOA_escape'''
-	
+
 
 [[module]] #Split 02
 path='email_modules/split/02'
@@ -55,7 +55,7 @@ color='lightblue'
 	cta1_link_name = '''offer1'''
 	cta1_icon = '''play'''
 	image = '''AU_edm6_offer_20161116'''
-	
+
 	[[module]] #Split 01
 path='email_modules/split/01'
 color='green'
@@ -79,7 +79,7 @@ color='darkblue'
 	cta1_link_name = '''cafe1'''
 	cta1_icon = '''play'''
 	image = '''AU_edm6_billshock_20161107'''
-	
+
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'

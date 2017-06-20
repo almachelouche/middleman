@@ -26,7 +26,7 @@ color='''white'''
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''vn_edm1&4_np_escape_20161213'''		
+	image = '''vn_edm1&4_np_escape_20161213'''
 
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'

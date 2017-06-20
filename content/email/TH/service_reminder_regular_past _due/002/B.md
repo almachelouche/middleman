@@ -47,8 +47,8 @@ color='''white'''
 copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;"><span style="color:#b3b3b3;">หมายเลข VIN : <% ${user.CustomAttribute['VIN']} %><br />
 				เข้ารับบริการครั้งล่าสุดวันที่ : <% ${user.CustomAttribute['Last_Reported_Service_Date']} %><br />
 				ระยะทางล่าสุด : <% ${user.CustomAttribute['Mileage']} %></span></span></span>'''
-				
-				
+
+
 [[module]] #Split 04
 path='email_modules/split/04'
 color='green'
@@ -76,7 +76,7 @@ color='white'
 	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ทำไมต้องศูนย์บริการฟอร์ด?</span>'''
 	icon1 = '''ico_2e_fordsvc_a'''
 	text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">มั่นใจอะไหล่แท้ฟอร์ด</span> 
-										<span style="white-space:nowrap;">100%</span>	
+										<span style="white-space:nowrap;">100%</span>
 										<span style="white-space:nowrap;">พร้อมการบำรุงรักษารถยนต์</span>
 										<span style="white-space:nowrap;">อย่างมีประสิทธิภาพ</span>เพื่อ
 										<span style="white-space:nowrap;">สมรรถนะสูงสุดของรถคุณ</span></span>'''

@@ -27,7 +27,7 @@ color='black'
 	date = '''June 2017'''
 	copy = '''IN THIS ISSUE:<br />Future with Ford | Genuine Ford Accessories | VIDEO: Brake Tips | Watch Ranger vs Skydiver '''
 
-[[module]] #Header Logo	
+[[module]] #Header Logo
 path='email_modules/header/logodesktop'
 color='black'
 

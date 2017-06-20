@@ -32,7 +32,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี
 		<span style="white-space:nowrap;">อย่าลืมนำรถเข้าศูนย์บริการ</span><br />
 		<span style="white-space:nowrap;">เพื่อตรวจเช็คระยะเมื่อครบกำหนด</span>
 <br /><br />
-อย่าลืม! นัดหมายศูนย์บริการวันนี้	
+อย่าลืม! นัดหมายศูนย์บริการวันนี้
 <br /><br />
 <span style="white-space:nowrap;">บริการใหม่!!</span>
 <span style="white-space:nowrap;">ฟอร์ดเพิ่มความสะดวกสบาย</span><br />

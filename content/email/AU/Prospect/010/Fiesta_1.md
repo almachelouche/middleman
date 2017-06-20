@@ -38,7 +38,7 @@ color='''white'''
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
-	
+
 	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,	<br /><br />
 	The first thing you'll notice about the Ford Fiesta is how good it looks. But as the smarts within shine through, you'll see there's a lot more to this car than meets the eye.</span><br /><br />
 	<span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">
@@ -74,7 +74,7 @@ color='white'
 	icon4_link_name = '''locate_dealer4'''
 	icon4_image='''au_edm5_ipodusb_20161013'''
 	icon4_text = '''iPod and USB integration³'''
-	
+
 [[module]] #Cover 13
 path='email_modules/cover/04'
 color='white'
@@ -108,7 +108,7 @@ color='''white'''
 	cta1_text='''LATEST OFFER'''
 	cta1_url='''https://www.ford.com.au/latest-offers/national?offer=fiesta-ambiente'''
 	cta1_link_name = '''moreinfo2'''
-	
+
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'

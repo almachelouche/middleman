@@ -32,7 +32,7 @@ cta2_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''
 [[module]] #Service Status No Copy
 path='email_modules/custom/svcstatus_nocopy'
 color='darkblue'
-			
+
 toptitle='''Your <%${user.CustomAttribute['Model']}%>’s Health Status'''
 	segmentAgreen = '''(user.CustomAttribute['Brake'] == null)'''
 	segmentAyellow = '''(user.CustomAttribute['Brake'] == 'YBRAKE')'''
@@ -70,7 +70,7 @@ toptitle='''Your <%${user.CustomAttribute['Model']}%>’s Health Status'''
 		icon3red = '''in_edm2d_status_battery_white_20160801'''
 		title3red = '''Batteries'''
 		subtitle3red = '''Service immediately'''
-		
+
 [[module]] #Cover 05
 path='email_modules/cover/02'
 color='''white'''

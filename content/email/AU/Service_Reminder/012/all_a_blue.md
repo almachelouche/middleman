@@ -98,7 +98,7 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-	text = '''Terms & Conditions	
+	text = '''Terms & Conditions
 				<br /> <br />*Limited offers available at participating Dealers while stocks last. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. See <a href="http://www.ford.com.au" style="text-decoration:underline; color:#91a4b1">ford.com.au</a> for full details.<br /><br />
 				1. For SYNC&trade; compatibility visit <a href="http://www.fordsync.com" style="text-decoration:underline; color:#91a4b1">www.fordsync.com</a><br /><br />
 				2. Bluetooth® is a registered trademark of Bluetooth SIG Inc., and is used under licence. Some phones not compatible.<br /><br />

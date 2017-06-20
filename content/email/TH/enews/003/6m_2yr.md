@@ -14,7 +14,7 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''th_edm6_condolence_20161130'''
-	
+
 
 [[module]] #Header eNews
 path='email_modules/header/enewstk'
@@ -73,7 +73,7 @@ color='black_th'
 										<span style="white-space:nowrap;"> คณะผู้บริหาร</span>
 										<span style="white-space:nowrap;">และพนักงานฟอร์ด</span>
 										<span style="white-space:nowrap;"> ประเทศไทย </span>
-						
+
 						</span>'''
 	cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ชมภาพที่นี่</span>'''
 	cta1_url = '''https://www.facebook.com/FordThailand/photos/a.174916835895927.53173.165517106835900/1129373997116868/?type=3&theater'''
@@ -115,7 +115,7 @@ color='black_th'
 	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 									<span style="white-space:nowrap;">5 แนวคิดหลักการสัญจร</span><br />
 										<span style="white-space:nowrap;">อัจฉริยะจากฟอร์ด</span>
-									
+
 									</span>'''
 	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 											<span style="white-space:nowrap;">เทคโนโลยีทางด้านการขับเคลื่อน</span> <br />
@@ -181,13 +181,13 @@ icon='''th_edm6_sync_20161130'''
 title='''<span style="font-family:Tahoma, Verdana, Sans-serif">อัพเดท SYNC&trade; เวอร์ชันใหม่</span>'''
 copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 						<span style="white-space:nowrap;">ติดตั้ง SYNC&trade;</span> 
-						<span style="white-space:nowrap;">เวอร์ชันล่าสุดได้ง่ายๆ</span><br />	
-						<span style="white-space:nowrap;">เพียงคลิกปุ่มด้านล่างเพื่อทำการดาวน์โหลด</span><br />	
-						<span style="white-space:nowrap;">โปรแกรมอัพเดท SYNC&trade; ผ่านทางเว็บ Owner Portal</span> <br />	
+						<span style="white-space:nowrap;">เวอร์ชันล่าสุดได้ง่ายๆ</span><br />
+						<span style="white-space:nowrap;">เพียงคลิกปุ่มด้านล่างเพื่อทำการดาวน์โหลด</span><br />
+						<span style="white-space:nowrap;">โปรแกรมอัพเดท SYNC&trade; ผ่านทางเว็บ Owner Portal</span> <br />
 						<span style="white-space:nowrap;">หรือคุณสามารถนำรถฟอร์ดของคุณ</span><br /> 
 						<span style="white-space:nowrap;">ไปให้ตัวแทนจำหน่ายฟอร์ดอัพเดท</span>	<br /> 
-						<span style="white-space:nowrap;">SYNC&trade; เวอร์ชันใหม่<sup>1</sup></span>	
-						<span style="white-space:nowrap;">รายละเอียดเพิ่มเติมกรุณา</span> <br />	
+						<span style="white-space:nowrap;">SYNC&trade; เวอร์ชันใหม่<sup>1</sup></span>
+						<span style="white-space:nowrap;">รายละเอียดเพิ่มเติมกรุณา</span> <br />
 						<span style="white-space:nowrap;">ติดต่อศูนย์ลูกค้าสัมพันธ์ 02-686-5899</span> 
 					</span>'''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิก ดาวน์โหลดโปรแกรมอัพเดท SYNC&trade;</span>'''

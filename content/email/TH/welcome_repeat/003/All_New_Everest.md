@@ -91,8 +91,8 @@ text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif; font-Size: 14px
 	cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=th'''
 	cta2_link_name = '''oa_andriod'''
 	image = '''th_edm6_ownerapp_20160921'''
-	
-	
+
+
 	[[module]]
 path='email_modules/split/07'
 color='white'

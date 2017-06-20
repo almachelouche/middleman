@@ -38,7 +38,7 @@ color='''white'''
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
-	
+
 	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Plenty of trucks can boast brute strength. But it's the technology behind the muscle that makes the Ford Ranger a real hero. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Ranger 4x4 XLT Double Cab Pick Up 3.2L Diesel is available at $55,990* Driveaway.</span>'''
 
 [[module]] #Banner Image No Link
@@ -52,7 +52,7 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''au_edm5_ranger_award2_20161013'''
-	
+
 
 [[module]] #Custom 4 Icons
 path='email_modules/custom/4icons'
@@ -75,7 +75,7 @@ color='white'
 	icon4_link_name = '''parts_calculator'''
 	icon4_image='''au_edm5_waterwanding_20161013'''
 	icon4_text = '''800mm Water Wading²'''
-	
+
 [[module]] #Cover 13
 path='email_modules/cover/04'
 color='white'
@@ -104,7 +104,7 @@ color = '''white'''
 	image2 = '''au_edm5_ranger_20161107'''
 	image2_url = '''https://www.ford.com.au/commercial/ranger/science-of-truck#overlay=1249193409676/'''
 	image2_link_name = '''ranger2'''
-		
+
 [[module]] #Cover 13
 path='email_modules/cover/04'
 color='black'
@@ -141,7 +141,7 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-	text = '''Terms & Conditions	
+	text = '''Terms & Conditions
 				<br /> <br />*Limited offer available at participating Dealers while stocks last. Recommended Driveaway price relates to 2017 model year vehicles onwards. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. See <a href="https://www.ford.com.au/shopping/latest-offers/" name="latest_offer2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/shopping/latest-offers</a> for full details.<br /><br />
 				1. Braked towing capacity when fitted with a genuine Ford towpack and towball. Subject to State and Territory regulations.<br /><br />
 				2. Achieved when maintaining a steady speed of not more than 7km per hour.<br /><br />

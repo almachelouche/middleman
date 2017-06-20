@@ -38,9 +38,9 @@ color='''white'''
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
-	
+
 	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />The moment you get behind the wheel of a New Ford Escape, you'll be amazed at its seamless combination of power and technology.</span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">Right now, the New Ford Escape Ambiente Petrol FWD Manual is available at $30,490* Driveaway.</span>'''
-	
+
 
 	[[module]] #Banner Image
 path = '''email_modules/image/banner_nolink'''
@@ -72,7 +72,7 @@ color='white'
 	icon4_link_name = '''locate_dealer'''
 	icon4_image='''au_edm5_reversecamera_20161013'''
 	icon4_text = '''Reverse camera'''
-	
+
 [[module]] #Cover 13
 path='email_modules/cover/04'
 color='white'

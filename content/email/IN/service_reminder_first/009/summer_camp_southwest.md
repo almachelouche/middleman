@@ -74,7 +74,7 @@ segmentelseif = ["(user.CustomAttribute['ESplit'] == 'PastDue')"]
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-	
+
 	image = '''in_edm2_summer_camp_north_20170315'''
 
 [[module]]
@@ -86,7 +86,7 @@ color='white'
 [[module]]
 path='email_modules/singles/title'
 color='''white'''
-	
+
 	title = '''The heat is on!'''
 
 [[module]]
@@ -98,7 +98,7 @@ color='white'
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
-	
+
 	copy = '''Get your car geared up for the summer. Drive into any Ford Service Centre and enjoy hot offers including free 50+ point Car Check-up, Car Body Wash and discounts up to 50%*. And if your car is more than 5 years old, you will receive an extra 10%* off! <span style="font-weight:bold">Offers valid from 3rd to 9th of April.</span>'''
 
 [[module]] #Custom 4 Icons
@@ -122,7 +122,7 @@ color='white'
 	icon4_link_name = '''locate_dealer4'''
 	icon4_image='''in_edm2_summer_bodypaint_20170316'''
 	icon4_text = '''20%* off<br />on Full Body Paint<br />(Labour only)'''
-	
+
 	[[module]] #Custom 4 Icons
 path='email_modules/custom/4icons'
 color='white'
@@ -154,7 +154,7 @@ color='white'
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
-	
+
 	cta1_text = '''BOOK A SERVICE'''
 	cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
 	cta1_link_name = '''book_service'''

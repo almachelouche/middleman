@@ -30,18 +30,18 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''ph_edm5_yes_20161024'''
-	
+
 [[module]]
 path='email_modules/cover/01'
 color='''green'''
-	
+
 title='''Stay covered like never before'''
 copy='''Ford's Extended Warranty and exclusive Scheduled Service Plan are back! Enjoy greater coverage and better value than ever before when you buy a new Ford vehicle. Click below to see how our plans make owning a Ford even easier.'''
 
 [[module]]
 path='email_modules/singles/2textcta'
 color='''green'''
-	
+
 cta1_text = '''SCHEDULE SERVICE PLAN'''
 cta1_url = '''https://www.ford.com.ph/owner/service-schedule-plan/'''
 cta1_link_name = '''ssp'''

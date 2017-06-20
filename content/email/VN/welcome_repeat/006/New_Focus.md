@@ -21,13 +21,13 @@ color='''white'''
  
 	title = '''Xin chào <%${user['LastName']}%>,<br /><br />Hành trình vẫn tiếp diễn'''
 	copy = '''Chẳng có gì thú vị hơn được lái một chiếc xe mới, dù đó là chiếc xe đầu tiên hay thứ 10. Thế nên chúng tôi muốn nói "Cảm ơn Bạn" vì đã tiếp tục chọn Ford.<br /><br />Là thành viên gia đình Ford, chúng tôi tiếp tục gửi tới bạn không chỉ những tin tức mới nhất từ Ford, mà cả những ưu đãi dành cho Khách hàng trung thành với thương hiệu Ford.<br /><br />Và đừng quên tận hưởng bên chiếc Focus của bạn!'''
-	
+
 	[[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''vn_edm1&4_np_newfocus_20160801'''
-		
+
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
 color='black'

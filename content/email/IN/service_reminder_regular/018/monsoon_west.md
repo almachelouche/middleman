@@ -92,7 +92,7 @@ color='white'
 [[module]]
 path='email_modules/singles/title'
 color='''white'''
-	
+
 	title = '''It's that time of the year!'''
 
 [[module]]
@@ -104,7 +104,7 @@ color='white'
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
-	
+
 	copy = '''Get your car geared up for Monsoon Season. Drive into any Ford Service Centre and enjoy great deals, including a free 50+ point check-up and discounts up to 60%. Offers valid from June 19th to June 25th.*'''
 
 [[module]] #Custom 4 Icons
@@ -160,7 +160,7 @@ color='white'
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
-	
+
 	cta1_text = '''BOOK A SERVICE'''
 	cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
 	cta1_link_name = '''book_service'''
@@ -227,7 +227,7 @@ color='white'
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
-		
+
   text='''*Tearms and conditions apply. Offers only valid in East Region. '''
 
 [[module]] #Footer IN Online

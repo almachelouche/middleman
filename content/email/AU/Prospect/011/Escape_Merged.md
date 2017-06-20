@@ -8,7 +8,7 @@ color='''nothing'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
 	preheader='''The Ford Escape is waiting for you at a nearby dealership!'''
-	
+
 [[module]]
 path='email_modules/preheaderbefore'
 color='''nothing'''
@@ -26,14 +26,14 @@ color='''nothing'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
 	preheader='''The Ford Escape is waiting for you at a nearby dealership!'''
-	
+
 [[module]]
 path='email_modules/preheaderbefore'
 color='''nothing'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	preheader='''Click through to see the latest offers on the smart Ford Escape'''
-	
+
 [[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'

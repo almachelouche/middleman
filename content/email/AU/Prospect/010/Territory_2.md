@@ -38,7 +38,7 @@ color='''white'''
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
-	
+
 	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,	<br /><br />
 When you take the keys to your new Ford Territory, you'll be doing more than just buying a new car: you'll be making a commitment to adventure.</span><br /><br />
 <span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">
@@ -74,7 +74,7 @@ color='white'
 	icon4_link_name = '''locate_dealer4'''
 	icon4_image='''au_edm5_nav_20161013'''
 	icon4_text = '''Satellite Navigation System with Traffic Message Channel (TMC)&#178;'''
-	
+
 [[module]] #Cover 13
 path='email_modules/cover/04'
 color='white'

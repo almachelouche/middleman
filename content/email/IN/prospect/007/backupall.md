@@ -70,7 +70,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'E')"]
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''white'''
-	
+
 	copy='''The Next-Gen Ford Figo Titanium and Ford Aspire Titanium both deliver superior peace of mind with best-in-class 6 airbags, and first-in-class Ford MyKey<sup>&reg;</sup>.'''
 
 [[module]]
@@ -144,7 +144,7 @@ color='white'
 	icon5_url='''tel:18004199000'''
 	icon5_image='''in_lmc_no_20161018'''
 	icon5_link_name = ''''''
-		
+
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'

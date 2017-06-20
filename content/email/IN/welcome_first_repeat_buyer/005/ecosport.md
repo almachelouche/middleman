@@ -95,7 +95,7 @@ color='white'
 	cta1_link_name = '''ecosport_exterior'''
 	cta1_icon = '''more'''
 	image = '''in_edm1_acc_ecosport_20160801'''
-	
+
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
 color='black'

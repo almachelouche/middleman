@@ -23,7 +23,7 @@ color='''white'''
  
 	title = '''Have you tried the Ford Owners App?'''
 	copy = '''Owning a Ford has never been easier, thanks to the new Owners App by Ford. It's simple, convenient and keeps you connected with Ford, anywhere and anytime.'''
-	
+
 [[module]] #Custom 05
 path='email_modules/custom/4columnicon4titlescopy'
 color='white'
@@ -56,7 +56,7 @@ color='''white'''
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-	
+
 	image = '''in_edm1c_ownerapp_20160801'''
 
 [[module]] #Footer 4 Icons
@@ -75,7 +75,7 @@ color='white'
 	icon4_url='''https://www.fordservicepricepromise.com/?extcmp=serca_101115_105328_fordind'''
 	icon4_link_name = '''price_calculator'''
 	icon4_image='''in_svc_price_20160801'''
-		
+
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'

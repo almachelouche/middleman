@@ -66,7 +66,7 @@ color='white'
 	icon1 = '''ico_2e_fordsvc_a'''
 	text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
 										<span style="white-space:nowrap;">มั่นใจอะไหล่แท้</span> 
-										<span style="white-space:nowrap;">ฟอร์ด 100%</span>	
+										<span style="white-space:nowrap;">ฟอร์ด 100%</span>
 										<span style="white-space:nowrap;">พร้อมการบำรุงรักษารถยนต์</span>
 										<span style="white-space:nowrap;">อย่างมีประสิทธิภาพ</span>เพื่อ
 										<span style="white-space:nowrap;">สมรรถนะสูงสุดของรถคุณ</span></span>'''

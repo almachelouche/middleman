@@ -52,7 +52,7 @@ title = '''Make your tyres last'''
 	cta1_link_name = '''tyre1'''
 	cta1_icon = '''play'''
 	image = '''AU_edm6_tyre_20170220'''
-	
+
 
 	[[module]] #Split 02
 path='email_modules/split/02'

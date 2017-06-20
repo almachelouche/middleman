@@ -34,14 +34,14 @@ color='black'
 	cta1_url = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10155463691983747/?type=2&theater/'''
 	cta1_link_name = '''fuel1'''
 	cta1_icon = '''play'''
-	
+
 	[[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
 	image = '''AU_edm6_fuelsaving_20161107'''
 	url_link = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10155463691983747/?type=2&theater/'''
-	
+
 	[[module]] #Split 01
 path='email_modules/split/01'
 color='lightblue'
@@ -53,7 +53,7 @@ color='lightblue'
 	cta1_link_name = '''exterme_weather1'''
 	cta1_icon = '''play'''
 	image = '''AU_edm6_extremeweather_20161107'''
-	
+
 
 [[module]] #Split 02
 path='email_modules/split/02'

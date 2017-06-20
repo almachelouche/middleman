@@ -26,7 +26,7 @@ color='''white_ot'''
 	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">รถ <%${user.CustomAttribute['Model']}%> ของคุณ</span><br />
 <span style=" white-space:nowrap;">ใกล้จะสิ้นสุดระยะเวลาการรับประกันแล้ว<sup>1</sup></span><br />
 <span style=" white-space:nowrap;">เลือกซื้อ</span> 
-<span style=" white-space:nowrap;"><strong>โปรแกรมขับขี่อุ่นใจ (PPP)</strong></span>	
+<span style=" white-space:nowrap;"><strong>โปรแกรมขับขี่อุ่นใจ (PPP)</strong></span>
 <span style=" white-space:nowrap;"> เพื่อคุ้มครองความเสียหาย</span><br />
 <span style=" white-space:nowrap;">อันเกิดจากข้อบกพร่องทางกลไก</span> <span style=" white-space:nowrap;"> และไฟฟ้าของรถยนต์</span> <br />
 <span style=" white-space:nowrap;">ภายใต้เครือข่ายศูนย์บริการมาตรฐานฟอร์ดทั่วประเทศ</span><br />

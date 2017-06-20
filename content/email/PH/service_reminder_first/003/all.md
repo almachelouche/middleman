@@ -44,7 +44,7 @@ color='''slatescreen'''
 	cta1_url = '''https://www.ford.com.ph/owner/warranties/'''
 	cta1_link_name = '''extended_warranty'''
 	icon = '''ph_edm_extendedwarranty_20160801'''
-	
+
 [[module]] #Split 02
 path='email_modules/split/02'
 color='green'

@@ -223,7 +223,7 @@ color='black'
 	cta2_url = '''http://bing.com'''
 	cta2_link_name = '''link_name_here'''
 	cta2_icon = '''play'''
-		
+
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
 color='black'
@@ -238,7 +238,7 @@ color='black'
 	cta2_url = '''http://google.com'''
 	cta2_link_name = '''link_name_here'''
 	image = '''owner_app_20160328'''
-	
+
 [[module]] # Owner App Image Left
 path='email_modules/custom/ownerapp_imgl'
 color='black'
@@ -253,11 +253,11 @@ color='black'
 	cta2_url = '''http://google.com'''
 	cta2_link_name = '''link_name_here'''
 	image = '''owner_app_20160328'''
-	
+
 [[module]] #Service Status No Copy
 path='email_modules/custom/svcstatus_nocopy'
 color='white'
-			
+
 			toptitle='''Your Ford <%${user.CustomAttribute['Selected_Vehicle']}%>'s Health Status'''
 	segmentAgreen = '''(user.CustomAttribute['Brake'] == 'G')'''
 	segmentAyellow = '''(user.CustomAttribute['Brake'] == 'Y')'''
@@ -295,5 +295,5 @@ color='white'
 		icon3red = '''in_edm2d_status_battery_white_20160801'''
 		title3red = '''Batteries'''
 		subtitle3red = '''Service immediately'''
-		
+
 +++

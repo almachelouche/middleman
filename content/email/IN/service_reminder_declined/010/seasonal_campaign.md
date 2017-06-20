@@ -33,7 +33,7 @@ color='''white_ot'''
 [[module]] #Service Status No Copy
 path='email_modules/custom/svcstatus_nocopy'
 color='white'
-			
+
 			toptitle='''Your Ford <%${user.CustomAttribute['Model']}%>'s Health Status'''
 	segmentAgreen = '''(user.CustomAttribute['Brake'] == 'G')'''
 	segmentAyellow = '''(user.CustomAttribute['Brake'] == 'Y')'''
@@ -71,11 +71,11 @@ color='white'
 		icon3red = '''in_edm2d_status_battery_white_20160801'''
 		title3red = '''Batteries'''
 		subtitle3red = '''Service immediately'''
-	
+
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-	
+
 	image = '''in_edm5_megaexchange_20160801'''
 
 [[module]] #Cover 07
@@ -91,7 +91,7 @@ color='''white'''
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-	
+
 	image = '''in_edm2_fordsvc_20160801'''
 
 [[module]] #Custom 02

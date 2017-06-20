@@ -38,7 +38,7 @@ color='''white'''
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
-	
+
 	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />
 	Hidden beneath the Mondeo's sleek and sophisticated design is technology so advanced, you'll need to experience it to believe it.</span><br /><br />
 	<span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">
@@ -74,7 +74,7 @@ color='white'
 	icon4_link_name = '''locate_dealer4'''
 	icon4_image='''au_edm5_heatedseats_20161013'''
 	icon4_text = '''Heated front seats'''
-	
+
 [[module]] #Cover 13
 path='email_modules/cover/04'
 color='white'
@@ -105,7 +105,7 @@ color='''white'''
 	cta1_text='''BOOK A TEST DRIVE'''
 	cta1_url='''https://www.ford.com.au/test-drive/'''
 	cta1_link_name = '''test2'''
-	
+
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'

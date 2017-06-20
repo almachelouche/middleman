@@ -47,7 +47,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'K') || (user.CustomAttrib
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-	
+
 	image = '''in_edm1&4_np_figo_20160801'''
 
 [[module]] #Cover 01
@@ -81,7 +81,7 @@ color='white'
 	cta1_link_name = '''figo_exterior'''
 	cta1_icon = '''more'''
 	image = '''in_edm1_acc_figo_20160801'''
-		
+
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
 color='black'
@@ -126,7 +126,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'I') || (user.CustomAttribute[
 	cta2c_url = ''''''
 	cta2c_link_name = ''''''
 	icon2 = '''in_edm1_sync_20160801'''
-	
+
 	[[module]]
 path='email_modules/cover/01'
 color='white'
@@ -157,7 +157,7 @@ color='white'
 	icon4_url='''https://www.fordservicepricepromise.com/?extcmp=serca_101115_105328_fordind'''
 	icon4_link_name = '''price_calculator'''
 	icon4_image='''in_svc_price_20160801'''
-				
+
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'

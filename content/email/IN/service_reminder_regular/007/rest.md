@@ -10,13 +10,13 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')","(user.CustomAttribute['
 segmentifdelimit = " || "
 
 	preheader = '''Long time, no see! Your Ford <%${user.CustomAttribute['Selected_Vehicle']}%> is due for service, and our experts can't wait to make sure it's running at its absolute best.'''
-	
+
 [[module]]
 path='email_modules/preheader'
 color='''nothing'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')","(user.CustomAttribute['Segment'] == 'D')"]
 segmentelseifdelimit = " || "
-	
+
 	preheader = '''Your Ford <%${user.CustomAttribute['Selected_Vehicle']}%> was due for service on <% ${user.CustomAttribute['NextServiceDate']} %>. It's important to service regularly.'''
 
 [[module]] #Header Logo
@@ -67,7 +67,7 @@ color='white'
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-	
+
 	image = '''in_edm2_fordsvc_20160801'''
 
 [[module]] #Custom 02
@@ -118,7 +118,7 @@ color='white'
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-	
+
 	image = '''in_edm2_greatsvc_20160801'''
 
 [[module]] #Footer 4 Icons
@@ -137,7 +137,7 @@ color='white'
 	icon4_url='''tel:18002097400'''
 	icon4_link_name = ''''''
 	icon4_image='''in_rsa_no_20160615'''
-		
+
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'

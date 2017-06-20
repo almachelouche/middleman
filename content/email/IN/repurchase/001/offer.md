@@ -114,7 +114,7 @@ color='white'
 	icon5_url='''tel:1800-209-7400'''
 	icon5_image='''in_rsa_no_20160615'''
 	icon5_link_name = ''''''
-		
+
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'

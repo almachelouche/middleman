@@ -29,7 +29,7 @@ color='white'
 [[module]]
 path='email_modules/singles/title'
 color='''white'''
-	
+
 	title = '''Welcome onboard,<br /><%${user.CustomAttribute['FullName']}%>'''
 
 [[module]]
@@ -41,9 +41,9 @@ color='white'
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
-	
+
 	copy = '''Welcoming you to the Ford family is a privilege for us. There is a certain feeling you get when you start the engine and hear Ford Mustang's iconic growl. We hope your drive has been legendry.'''
-		
+
 [[module]] #Cover 01
 path='email_modules/cover/01'
 color='''white_gt'''
@@ -54,7 +54,7 @@ color='''white_gt'''
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
-	
+
 	cta1_text = '''LOCATE A DEALER'''
 	cta1_url = '''https://www.india.ford.com/cars/mustang/locate-a-dealer/?intcmp=bb-fin-vhp-ford%20mustang-fin-lad-ford%20mustang-return/'''
 	cta1_link_name = '''locate_dealer_mustang'''
@@ -127,7 +127,7 @@ color='white'
 	icon4_url=''''''
 	icon4_link_name = ''''''
 	icon4_image=''''''
-	
+
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'

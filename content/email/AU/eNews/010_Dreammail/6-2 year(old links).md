@@ -34,14 +34,14 @@ color='black'
 	cta_url = '''https://www.carhood.com.au/'''
 	cta_link_name = '''carhood1'''
 	cta_icon = '''play'''
-	
+
 	[[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
  image = '''AU_edm6_carhood2_20161122'''
 	url_link = '''https://www.carhood.com.au/'''
-	
+
 
 [[module]] #Split 02
 path='email_modules/split/02'
@@ -54,7 +54,7 @@ color='lightblue'
 	cta1_link_name = '''fuel1'''
 	cta1_icon = '''play'''
 	image = '''AU_edm6_fuelsaving2_20161107'''
-	
+
 
 [[module]] #Split 02
 path='email_modules/split/02'
@@ -67,7 +67,7 @@ color='darkblue'
 	cta1_link_name = '''cafe1'''
 	cta1_icon = '''play'''
 	image = '''AU_edm6_billshock_20161107'''
-	
+
 	[[module]] #Split 01
 path='email_modules/split/01'
 color='lightblue'
@@ -79,7 +79,7 @@ color='lightblue'
 	cta1_link_name = '''extreme_weather1'''
 	cta1_icon = '''play'''
 	image = '''AU_edm6_extremeweather_20161107'''
-	
+
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'

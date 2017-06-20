@@ -10,13 +10,13 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')","(user.CustomAttribute['
 segmentifdelimit = " || "
 
 	preheader = '''Long time, no see! Your Ford <%${user.CustomAttribute['Selected_Vehicle']}%> is due for service, and our experts can't wait to make sure it's running at its absolute best.'''
-	
+
 [[module]]
 path='email_modules/preheader'
 color='''nothing'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')","(user.CustomAttribute['Segment'] == 'D')"]
 segmentelseifdelimit = " || "
-	
+
 	preheader = '''Your Ford <%${user.CustomAttribute['Selected_Vehicle']}%> was due for service on <% ${user.CustomAttribute['NextServiceDate']} %>. It's important to service regularly.'''
 
 [[module]] #Header Logo
@@ -80,11 +80,11 @@ segmentif = ["(user.CustomAttribute['CityOffer'] == 'Offer')"]
 	copy='''We've got games... We've got fun... We've got your little one's covered.<br /><br />The quality of experiences and opportunities has a profound impact on a child's life and so we'd like to take your kids around our workshop floor, show them how your car's serviced, show them techniques and of course play a few games.<br /><br />Come for a service from <span style="font-weight:bold">Nov 12-14</span> and <span style="font-weight:bold">celebrate Children's Day with Ford</span>. '''
 	cta1_text='''FIND A DEALER'''
 	cta1_url='''http://www.india.ford.com/locate-dealer?emailid=EDM_<%${user.CustomAttribute['DMCDATE']}%>_APMKTC4L_<%${user.CustomAttribute['DMCCAMPAIGN']}%>_locate-dealer'''
-		
+
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-	
+
 	image = '''in_edm2_fordsvc_20160801'''
 
 [[module]] #Custom 02
@@ -135,7 +135,7 @@ color='white'
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-	
+
 	image = '''in_edm2_greatsvc_20160801'''
 
 [[module]] #Footer 4 Icons
@@ -154,7 +154,7 @@ color='white'
 	icon4_url='''tel:18002097400'''
 	icon4_link_name = ''''''
 	icon4_image='''in_rsa_no_20160615'''
-		
+
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'

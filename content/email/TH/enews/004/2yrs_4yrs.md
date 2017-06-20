@@ -21,7 +21,7 @@ color='black'
 	<span style=" white-space:nowrap;">เมื่อปีกต้องมาปะทะกับล้อ</span> | 
 		<span style=" white-space:nowrap;">วีดีโอ: เคล็ดลับมั่นใจ</span> 
 	<span style=" white-space:nowrap;">ใช้เครื่องปรับอากาศรถยนต์</span></span>'''
-	
+
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
 color='black'
@@ -103,7 +103,7 @@ cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิ�
 	cta1_link_name = '''wings_wheels'''
 	cta1_icon = '''play'''
 	image = '''th_edm6_wingsvswheels_20170306'''
-	
+
 	[[module]] #Split 02
 path='email_modules/split/02'
 color='darkblue'

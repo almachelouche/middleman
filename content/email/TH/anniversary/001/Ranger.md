@@ -40,7 +40,7 @@ color='''white'''
 	cta1_url = '''https://www.ford.co.th/#/overlay/content/ford/th/th_th/site-wide-content/overlays/form-overlay/login/'''
 	cta1_link_name = '''anything_changed'''
 	icon = '''th_edm2_ownerprofile_20160801'''
-	
+
 
 [[module]] #TH Social
 path='email_modules/footer/th/social'

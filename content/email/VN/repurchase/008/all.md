@@ -25,7 +25,7 @@ color='''white'''
 	cta1_text = '''TÌM HIỂU THÊM'''
 	cta1_url = '''https://www.ford.com.vn/cars/focus/compare-models/'''
 	cta1_link_name = '''focus_trend'''
-	
+
 	[[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''

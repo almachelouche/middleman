@@ -68,7 +68,7 @@ color='lightblue'
 	cta1_link_name = '''SERVICE'''
 	cta1_icon = '''play'''
 	image = '''NZ_edm6_svc_20170607'''
-	
+
 	[[module]] #Split 01 
 path='email_modules/split/01'
 color='darkblue'

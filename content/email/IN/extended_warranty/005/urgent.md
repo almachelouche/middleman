@@ -54,7 +54,7 @@ color='white'
 	icon5_url='''https://www.fordservicepricepromise.com/'''
 	icon5_image='''in_svc_price_20160801'''
 	icon5_link_name = '''price_calculator'''
-		
+
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'

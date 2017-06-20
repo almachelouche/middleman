@@ -82,7 +82,7 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 		cta2_text='''BOOK A TEST DRIVE'''
 		cta2_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
 		cta2_link_name = '''test1'''
-		
+
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''

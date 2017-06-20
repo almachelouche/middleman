@@ -28,7 +28,7 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''th_edm1&4_np_newranger_20160801'''
-	
+
 [[module]] #Cover 01
 path='email_modules/cover/01'
 color='black'
@@ -53,7 +53,7 @@ color='white'
 	url_link = '''https://www.ford.co.th/trucks/ranger/sot2/'''
 	url_link_name = '''ranger_sot'''
 
-	
+
 	[[module]] #Cover 05
 path='email_modules/cover/02'
 color='''white'''

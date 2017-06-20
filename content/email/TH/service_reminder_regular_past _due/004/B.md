@@ -54,8 +54,8 @@ color='''white'''
 copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;"><span style="color:#b3b3b3;">หมายเลข VIN : <% ${user.CustomAttribute['VIN']} %><br />
 				เข้ารับบริการครั้งล่าสุดวันที่ : <% ${user.CustomAttribute['Last_Reported_Service_Date']} %><br />
 				ระยะทางล่าสุด : <% ${user.CustomAttribute['Mileage']} %></span></span></span>'''
-				
-				
+
+
 [[module]] #Split 04
 path='email_modules/split/04'
 color='green'

@@ -39,7 +39,7 @@ color='white'
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-	
+
 	image = '''in_edm2_fordsvc_20160801'''
 
 [[module]] #Custom 02
@@ -78,7 +78,7 @@ color='white'
 	icon4_url='''tel:18002097400'''
 	icon4_link_name = '''tel_RSA'''
 	icon4_image='''in_rsa_no_20160615'''
-		
+
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'
@@ -86,7 +86,7 @@ color='white'
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
-		
+
 	text='''1. Excludes accessories, tyres, body shop jobs covered by insurance, and VAS (accessory, exterior & interior cleaning).'''
 
 [[module]] #Footer IN Online

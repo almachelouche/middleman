@@ -33,7 +33,7 @@ color = '''white'''
  <span style=" white-space:nowrap;">เราขอเสนอการดูแลแบบครบวงจร</span><br>
  <span style=" white-space:nowrap;">ที่พร้อมจะขยายเวลา</span>
  <span style=" white-space:nowrap;">รับประกันให้นานขึ้น</span><br><br>
-								
+
  <span style=" white-space:nowrap;">ด้วยโปรแกรมขับขี่อุ่นใจ (PPP)</span>
  <span style=" white-space:nowrap;">จะช่วยเพิ่มความอบอุ่นใจ</span><br>
  <span style=" white-space:nowrap;">ในการขับขี่รถยนต์ให้คุณทุกเส้นทาง</span><br>
@@ -42,7 +42,7 @@ color = '''white'''
  <span style=" white-space:nowrap;">ทางกลไกและไฟฟ้าของรถยนต์</span> <br>
  <span style=" white-space:nowrap;">รับประกันรวมระยะเวลาสูงสุดถึง 5 ปี</span><br>
  <span style=" white-space:nowrap;">หรือรวมระยะทางสูงสุด 150,000 กิโลเมตร</span> <br>
- <span style=" white-space:nowrap;">ให้คุณมั่นใจได้เลย</span>ว่า<span style=" white-space:nowrap;">คุณจะได้รับอะไหล่แท้</span><br>	
+ <span style=" white-space:nowrap;">ให้คุณมั่นใจได้เลย</span>ว่า<span style=" white-space:nowrap;">คุณจะได้รับอะไหล่แท้</span><br>
  <span style=" white-space:nowrap;">ที่มีคุณภาพจากฟอร์ด</span><br>
  <span style=" white-space:nowrap;">ด้วยบริการจากช่างผู้ชำนาญ</span>
  <span style=" white-space:nowrap;">ที่ได้รับการฝึกอบรมจากฟอร์ด</span><br> 
@@ -64,7 +64,7 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''th_edm2_whyfordsvc_20161115'''
-	
+
 	[[module]] #Split 04
 path='email_modules/split/04'
 color='green'

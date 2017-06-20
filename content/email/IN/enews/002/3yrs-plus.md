@@ -72,7 +72,7 @@ color='lightblue'
 	cta1_link_name = '''pocket_mustang'''
 	cta1_icon = '''more'''
 	image = '''in_edm6_pocket_mustang_20170106'''
-	
+
 [[module]] #Split 02
 path='email_modules/split/02'
 color='green'

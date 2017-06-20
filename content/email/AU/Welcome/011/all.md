@@ -22,7 +22,7 @@ color='''slatescreen'''
  
 	title='''Hi<br /><%${user.CustomAttribute['FullName']}%><br />We hope you're enjoying the ride.'''
 	copy='''From all the team at Ford, we'd like to say a big THANK YOU for choosing a Ford #VehicleMarketingName#.'''
-	
+
  
 	[[module]] #Cover 01
 path='email_modules/cover/01'
@@ -30,8 +30,8 @@ color='''slatescreen'''
  
 	title='''Hi<br /><%${user.CustomAttribute['FullName']}%><br />The journey continues'''
 	copy='''From all the team at Ford, we'd like to say a big THANK YOU for choosing another Ford.'''
-	
-	
+
+
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
@@ -43,33 +43,33 @@ color='white'
 	[[module]] #Cover 11
 	path='email_modules/cover/03'
 	color='''white'''
-	
+
 	copy='''<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace-of-mind.<br /><br />With Ford's Service Price Promise¹, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership² for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program³, so we can keep you on the road whilst your car is being serviced.<br /><br />'''
-	
-	
-	
+
+
+
 	[[module]] #Cover 11
 path='email_modules/cover/03'
 color='''white'''
-	
+
 	copy='''But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace-of-mind.<br /><br />You get State Auto Club Roadside Assistance and Membership¹ for up to 7 years from Autoclub participating dealers. But the service doesn't stop there. Ford also has a Free Loan Car program², so we can keep you on the road whilst your car is being serviced.<br /><br />Best of all, you secured up to 5 years/100,00km warranty, plus five $100 scheduled service discounts³. Simply book an appointment with your preferred Ford Dealership by the date your Ford <Nameplate> is due for a service, and the team will have the discount noted in the system. Just a reminder, each discount is valid only within its respective designated service interval, so to ensure your discount doesn't expire please keep on top of your service due dates/km.<br /><br /><br /><br />'''
-	
-	
-	
+
+
+
 	[[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
 	image='''au_edm1_cover3_20161018'''
 	url_link='''http://google.com'''
-	
+
 	[[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
 	image='''au_edm1_cover4_20161018'''
 	url_link='''http://google.com'''
-	
+
 [[module]] #Cover 01
 path='email_modules/cover/01'
 color='white'
@@ -121,13 +121,13 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-	text = '''DISCLAIMERS:	
+	text = '''DISCLAIMERS:
 				<br /> <br />
 				1) Available at participating Ford Dealers on vehicles built from 2007. Customers will pay equal to or less than the maximum price as published by Ford for the period of the web quote for standard items in the A and B logbook services. See<a href="http://www.ford.com.au/service/t-and-c?emailid=20150918-0103_DisclaimerTC_WelcomeNewSep_Generic_0_FOA" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/service/t-and-c</a> for full terms.<br /><br />
 				2) Private and Blue Business Fleet customers only at participating Dealers who have not reached 7 years or 105,000 kms. State Auto Club Roadside Assistance & Membership is provided at no cost with the first seven standard services for 12 months or until your next eligible standard service (whichever occurs first). Standard services include all A and B logbook services. Customers must comply with scheduled servicing intervals to maintain continuity of membership. See<a href="http://www.ford.com.au/service/t-and-c?emailid=20150918-0103_DisclaimerTC_WelcomeNewSep_Generic_0_FOA" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/service/t-and-c</a> for full terms.<br /><br />
 				3) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See<a href="http://www.ford.com.au/service/t-and-c?emailid=20150918-0103_DisclaimerTC_WelcomeNewSep_Generic_0_FOA" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/service/t-and-c</a> for full terms.<br /><br /> '''
-				
-				
+
+
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
 color='white'
@@ -136,12 +136,12 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-	text = '''DISCLAIMERS:	
+	text = '''DISCLAIMERS:
 				<br /> <br />
 				1) Private and Blue Business Fleet customers only at participating Dealers who have not reached 7 years or 105,000 kms. State Auto Club Roadside Assistance & Membership is provided at no cost with the first seven standard services for 12 months or until your next eligible standard service (whichever occurs first). Standard services include all A and B logbook services. Customers must comply with scheduled servicing intervals to maintain continuity of membership. See<a href="http://www.ford.com.au/service/t-and-c?emailid=20150918-0103_DisclaimerTC_WelcomeNewSep_Generic_0_FOA" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/service/t-and-c</a> for full terms.<br /><br />
 				2) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See<a href="http://www.ford.com.au/service/t-and-c?emailid=20150918-0103_DisclaimerTC_WelcomeNewSep_Generic_0_FOA" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/service/t-and-c</a> for full terms.<br /><br />
 				3) Extended warranty covers 5yrs/100,000km from date of registration, whichever occurs first.	Service discount vouchers must be used across the first five scheduled services.	Customers must comply with recommended servicing intervals or discount vouchers will expire. Voucher entitlements are transferable with the nominated vehicle. Conditions apply. See <a href="http://ford.com.au" style="text-decoration:underline; color:#91a4b1">www.ford.com.au</a>.'''
-			
+
 
 
 [[module]] #Footer AU Online
