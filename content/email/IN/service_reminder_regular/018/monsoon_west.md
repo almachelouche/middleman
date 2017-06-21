@@ -1,6 +1,6 @@
 +++
 markets = ["in"]
-title = '''IN Service Reminder Regular Due/Pdue 017 Monsoon East 5yrs+'''
+title = '''IN Service Reminder Regular Due/Pdue 018 Monsoon West 5yrs+'''
 
 [[module]]
 path='email_modules/preheaderbefore'
@@ -40,36 +40,82 @@ color='white_pb'
 
   image = '''white_pb'''
   url_link = '''https://www.india.ford.com/'''
+  
+[[module]]
+path='email_modules/spacer/default'
+color='white'
 
-[[module]] #Cover 06
-path='email_modules/cover/02'
+	height="30"
+
+[[module]]
+path='email_modules/singles/icon'
 color='''white'''
 segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
 
-  title = '''It's time for a visit'''
-  copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Long time, no see! Your Ford <%${user.CustomAttribute['Model']}%> is due for service, and our experts can't wait to make sure it's running at its absolute best.<br /><br />Your next service is due on: <% ${user.CustomAttribute['NextServiceDate']} %> '''
-  cta1_text = '''BOOK A SERVICE'''
-  cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
-  cta1_link_name = '''callback'''
-  cta2_text = '''FIND A DEALER'''
-  cta2_url = '''https://www.india.ford.com/locate-dealer/'''
-  cta2_link_name = '''locate_dealer'''
-  icon = '''in_edm2_svc_wrench_20160801'''
+	icon = '''in_edm2_svc_wrench_20160801'''
 
-[[module]] #Cover 06
-path='email_modules/cover/02'
-color='''white_ot'''
+[[module]]
+path='email_modules/singles/icon'
+color='''white'''
 segmentif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 
-  title = '''Your service is now past due'''
-  copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.<br /><br />We've got your back. Contact us today and continue to enjoy carefree driving.'''
-  cta1_text = '''BOOK A SERVICE'''
-  cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
-  cta1_link_name = '''callback'''
-  cta2_text = '''FIND A DEALER'''
-  cta2_url = '''https://www.india.ford.com/locate-dealer/'''
-  cta2_link_name = '''locate_dealer'''
-  icon = '''in_edm2_svc_wrench_urgent_20160801'''
+	icon = '''in_edm2_svc_wrench_urgent_20160801'''
+    
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
+path='email_modules/singles/title'
+color='''white'''
+segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
+
+	title = '''It's time for a visit'''
+    
+[[module]]
+path='email_modules/singles/title'
+color='''white'''
+segmentif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
+
+	title = '''Your service is now past due'''    
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
+
+	copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Long time, no see! Your Ford <%${user.CustomAttribute['Model']}%> is due for service, and our experts can't wait to make sure it's running at its absolute best.<br /><br />Your next service is due on: <% ${user.CustomAttribute['NextServiceDate']} %> '''
+    
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+segmentif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
+
+	copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Long time, no see! Your Ford <%${user.CustomAttribute['Model']}%> is due for service, and our experts can't wait to make sure it's running at its absolute best.<br /><br />Your next service is due on: <% ${user.CustomAttribute['NextServiceDate']} %> '''    
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+    
+[[module]]
+path='email_modules/singles/2ctablocksideoutline'
+color='''white'''
+	cta1_text = '''&nbsp;BOOK A SERVICE&nbsp;'''
+	cta1_url = '''https://www.india.ford.com/locate-dealer/'''
+	cta1_link_name = '''locate_dealer'''
+	cta2_text = '''FIND A DEALER'''
+	cta2_url = '''https://www.india.ford.com/suvs/endeavour/?intcmp=in-hp-bb-xt-namplateexp-fordendeavour-en#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-endeavour.html?campaign=ENFWTDC&intModel=Endeavour&modelCode=EN/'''
+	cta2_link_name = '''test_drive'''    
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
