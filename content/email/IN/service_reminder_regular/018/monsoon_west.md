@@ -129,12 +129,14 @@ color='white'
 
   copy = '''VIN No: <% ${user.CustomAttribute['VIN']}%><br />Last reported service date: <%${user.CustomAttribute['Last_Reported_Service_Date']}%><br />Last reported mileage (Kms): <% ${user.CustomAttribute['Mileage']}%>'''
 
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
   
   image = '''in_edm2_monsoon_5yrplus_20170526'''
-
+  url_link='''https://www.india.ford.com/owner/monsoon-service-camp/'''
+  url_link_name='''monsoon'''
+    
 [[module]]
 path='email_modules/spacer/default'
 color='white'
@@ -157,7 +159,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''Get your car geared up for Monsoon Season. Drive into any Ford Service Centre and enjoy great deals, including a free 50+ point check-up and discounts up to 60%. Offers valid from June 19th to June 25th.*'''
+	copy = '''Get your car geared up for Monsoon Season. Drive into any Ford Service Centre and enjoy great deals, including a free 50+ point check-up and discounts up to 60%. Offers valid from 3rd to 9th July.*'''
 
 [[module]] #Custom 4 Icons
 path='email_modules/custom/4icons'
@@ -280,7 +282,7 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-  text='''*Tearms and conditions apply. Offers only valid in. '''
+  text='''*Tearms and conditions apply. Offers only valid in Gujarat, Madhya Pradesh, Chhattisgarh. '''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
