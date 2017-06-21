@@ -32,14 +32,14 @@ path='email_modules/preheaderafter'
 
 segmentelseif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 
-	 preheader = '''Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon. Hello <%${user.CustomAttribute['FullName']}%>Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.'''
+    preheader = '''Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon. Hello <%${user.CustomAttribute['FullName']}%>Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.'''
  
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
 color='white_pb'
 
-  image = '''white_pb'''
-  url_link = '''https://www.india.ford.com/'''
+    image = '''white_pb'''
+    url_link = '''https://www.india.ford.com/'''
   
 [[module]]
 path='email_modules/spacer/default'
@@ -111,11 +111,11 @@ color='white'
 path='email_modules/singles/2ctablocksideoutline'
 color='''white'''
 	cta1_text = '''BOOK A SERVICE'''
-	cta1_url = '''https://www.india.ford.com/locate-dealer/'''
-	cta1_link_name = '''locate_dealer'''
-	cta2_text = '''&nbsp;&nbsp;&nbsp;FIND A DEALER&nbsp;&nbsp;&nbsp;'''
-	cta2_url = '''https://www.india.ford.com/suvs/endeavour/?intcmp=in-hp-bb-xt-namplateexp-fordendeavour-en#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-endeavour.html?campaign=ENFWTDC&intModel=Endeavour&modelCode=EN/'''
-	cta2_link_name = '''test_drive'''    
+	cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
+	cta1_link_name = '''callback'''
+	cta2_text = '''&nbsp;&nbsp;FIND A DEALER&nbsp;&nbsp;'''
+	cta2_url = '''https://www.india.ford.com/locate-dealer/'''
+	cta2_link_name = '''locate_dealer'''    
 
 [[module]]
 path='email_modules/spacer/default'
@@ -165,7 +165,7 @@ color='white'
 
 	title = ''''''
   icon1_url='''http://www.india.ford.com/locate-dealer'''
-  icon1_link_name = '''locate_dealer'''
+  icon1_link_name = '''locate_dealer1'''
   icon1_image='''in_edm2_monsoon_brake_pads_20170526'''
   icon1_text = '''<span style="font-weight:bold">Brake Pads</span><br />20%* off'''
   icon2_url='''tel:18004252500'''
@@ -280,7 +280,7 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-  text='''*Tearms and conditions apply. Offers only valid in East Region. '''
+  text='''*Tearms and conditions apply. Offers only valid in. '''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
