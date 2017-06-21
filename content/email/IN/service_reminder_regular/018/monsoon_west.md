@@ -79,7 +79,7 @@ path='email_modules/singles/title'
 color='''white'''
 segmentif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 
-	title = '''Your service is now past due'''    
+	title = '''<span style="color:#FF6600;">Your service is now past due</span>'''    
 
 [[module]]
 path='email_modules/spacer/default'
