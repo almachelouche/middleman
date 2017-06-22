@@ -65,14 +65,7 @@ path='email_modules/split/03'
 color='green'
 
 title='''<span style="font-family:Tahoma, Verdana, Sans-serif">สิทธิพิเศษสำหรับ<br />ลูกค้าฟอร์ด</span>'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
-	<span style="white-space:nowrap;">เมื่อซื้อรถยนต์ฟอร์ดคันต่อไปทุกรุ่น</span> 
-	<span style="white-space:nowrap;">(ยกเว้นฟอร์ด โฟกัส)</span> 
-	<span style="white-space:nowrap;">รับส่วนลดเพิ่ม 10,000 บาททันที</span> 
-	<span style="white-space:nowrap;">ข้อเสนอสุดพิเศษนี้</span> 
-	<span style="white-space:nowrap;">สำหรับ</span>
-	<span style="white-space:nowrap;">ริการ 1-30 มิถุนายน พ.ศ. 2560</span> 
-	<span style="white-space:nowrap;">นี้เท่านั้น</span> 
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">รับส่วนลดเพิ่มทันที 10,000 บาท เมื่อซื้อรถยนต์ฟอร์ดคันต่อไปทุกรุ่น (ยกเว้นฟอร์ด โฟกัส) ตั้งแต่วันที่ 1 มิถุนายน ถึง 31 กรกฎาคม 2560 นี้เท่านั้น</span> 
 </span>'''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ดูเพิ่มเติม</span>'''
 cta1_url='''https://www.ford.co.th/loyaltyprogram2017/'''
