@@ -65,8 +65,15 @@ path='email_modules/split/03'
 color='green'
 
 title='''<span style="font-family:Tahoma, Verdana, Sans-serif">สิทธิพิเศษสำหรับ<br />ลูกค้าฟอร์ด</span>'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">รับส่วนลดเพิ่มทันที 10,000 บาท เมื่อซื้อรถยนต์ฟอร์ดคันต่อไปทุกรุ่น (ยกเว้นฟอร์ด โฟกัส) ตั้งแต่วันที่ 1 มิถุนายน ถึง 31 กรกฎาคม 2560 นี้เท่านั้น</span> 
-</span>'''
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+<span style="white-space:nowrap;">รับส่วนลดเพิ่มทันที</span> 
+<span style="white-space:nowrap;">10,000 บาท</span> 
+<span style="white-space:nowrap;">เมื่อซื้อรถยนต์ฟอร์ดคันต่อไปทุกรุ่น</span> 
+<span style="white-space:nowrap;">(ยกเว้นฟอร์ด โฟกัส)</span> 
+<span style="white-space:nowrap;">ตั้งแต่</span> 
+<span style="white-space:nowrap;">วันที่ 1 มิถุนายน</span> 
+<span style="white-space:nowrap;">ถึง 31 กรกฎาคม 2560 </span>
+<span style="white-space:nowrap;">นี้เท่านั้น</span></span>'''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ดูเพิ่มเติม</span>'''
 cta1_url='''https://www.ford.co.th/loyaltyprogram2017/'''
 cta1_icon='''more'''
@@ -81,9 +88,9 @@ color='white'
 	title1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ฟรีค่าแรงซ่อมบำรุง<br />5 ครั้ง</span>'''
 	copy1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
 
-<span style=" white-space:nowrap;">เพียงคุณตัดสินใจเป็นเจ้าของฟอร์ดรุ่นใหม่</span> 
-<span style=" white-space:nowrap;">ฟรีค่าแรงเช็คระยะ 5 ครั้ง</span> 
-<span style=" white-space:nowrap;">คลิกเพื่อดูรายละเอียดเพิ่มเติมที่นี่</span>
+<span style="white-space:nowrap;">เพียงคุณตัดสินใจเป็นเจ้าของฟอร์ดรุ่นใหม่</span> 
+<span style="white-space:nowrap;">ฟรีค่าแรงเช็คระยะ 5 ครั้ง</span> 
+<span style="white-space:nowrap;">คลิกเพื่อดูรายละเอียดเพิ่มเติมที่นี่</span>
 
 </span>'''
 	icon2 = '''th_edm2_ownerprofile_20160801'''
