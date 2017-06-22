@@ -13,7 +13,7 @@ path='email_modules/header/enews'
 color='black'
 
 	title = '''Insider'''
-	date = '''<span style="font-family:Tahoma, Verdana, Sans-serif">15 มิถุนายน 2560</span>'''
+	date = '''<span style="font-family:Tahoma, Verdana, Sans-serif">26 มิถุนายน 2560</span>'''
 	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
 	พบกับ<br />
 	<span style="white-space:nowrap;">ฟอร์ด เรนเจอร์สุดแกร่ง</span> |<br /> 
