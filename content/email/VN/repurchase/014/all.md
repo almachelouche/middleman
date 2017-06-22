@@ -41,7 +41,7 @@ path='email_modules/cover/02'
 color='''white'''
 
 	title='''Discover the Extraordinary'''
-	copy='''With Adaptive Cruise Control, voice-activated SYNCTM3, and the Terrain Management System for all-terrain driving – the All-New Everest is simply extraordinary at just VND 1,147,000,000.'''
+	copy='''With Adaptive Cruise Control, voice-activated SYNCTM3, and the Terrain Management System for all-terrain driving – the All-New Everest is simply extraordinary at just 1,147,000,000 VND.'''
 	cta1_text='''TAKE A TEST DRIVE'''
 	cta1_url='''https://www.ford.com.vn/suvs/everest/#overlay/content/ford/vn/vi_vn/site-wide-content/overlays/forms/test-drive.html?wcmmode=disabled&Model=New%20Everest&Series=Titanium+%203.2L%20AT%204x4'''
 	cta1_link_name = '''test_drive'''
