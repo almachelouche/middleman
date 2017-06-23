@@ -20,18 +20,18 @@ color='white'
 
 	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 	<span style="white-space:nowrap;">ประหยัดสุดคุ้ม</span> 
-	<span style="white-space:nowrap;">ในเดือนพฤษภาคม</span> 
-	<span style="white-space:nowrap;">และ มิถุนายน</span></span>'''
+	<span style="white-space:nowrap;">ในเดือนมิถุนายน</span></span>'''
 	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 	สวัสดีคุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>
 	<br />ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />
 
 	<span style="white-space:nowrap;">เราหวังว่าคุณจะได้รับความพึงพอใจ</span>
-	<span style="white-space:nowrap;">จากการเป็นเจ้าของรถฟอร์ด <%${user.CustomAttribute['Model']}%> </span><br />
+	<span style="white-space:nowrap;">จากการเป็นเจ้าของรถฟอร์ด</span> 
+	<span style="white-space:nowrap;"><%${user.CustomAttribute['Model']}%> </span><br />
 	<span style="white-space:nowrap;">และได้เข้ามาร่วมเป็นส่วนหนึ่ง</span>
 	<span style="white-space:nowrap;">ในครอบครัวของเรา!</span><br /><br />
 
-	<span style="white-space:nowrap;">หากคุณกำลังพิจารณามองหารถคันใหม่</span><br />
+	<span style="white-space:nowrap;">หากคุณกำลังพิจาร</spam>ณา<span style="white-space:nowrap;">มองหารถคันใหม่</span><br />
 	<span style="white-space:nowrap;">เราอยากเชิญคุณ</span>
 	<span style="white-space:nowrap;">มาพบกับข้อเสนอสุดพิเศษ</span><br />
 	<span style="white-space:nowrap;">เพียงลงทะเบียนทดลองขับ</span><br />
@@ -69,7 +69,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 <span style="white-space:nowrap;">รับส่วนลดเพิ่มทันที</span> 
 <span style="white-space:nowrap;">10,000 บาท</span> 
 <span style="white-space:nowrap;">เมื่อซื้อรถยนต์ฟอร์ดคันต่อไปทุกรุ่น</span> 
-<span style="white-space:nowrap;">(ยกเว้นฟอร์ด โฟกัส)</span> 
+<span style="white-space:nowrap;">(ยกเว้นฟอร์ด โฟกัส)</span><br /> 
 <span style="white-space:nowrap;">ตั้งแต่</span> 
 <span style="white-space:nowrap;">วันที่ 1 มิถุนายน</span> 
 <span style="white-space:nowrap;">ถึง 31 กรกฎาคม 2560 </span>
