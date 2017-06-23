@@ -117,6 +117,11 @@ color='''white'''
 	cta2_url = '''https://www.india.ford.com/locate-dealer/'''
 	cta2_link_name = '''locate_dealer'''    
 
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
