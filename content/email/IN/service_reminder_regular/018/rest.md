@@ -167,6 +167,24 @@ segmentif = ["(user.CustomAttribute['SSPStatus'] == 'NO')"]
   cta1_link_name = '''SSP'''
   icon = '''in_edm1_extendedwarranty_20160801'''
 
+[[module]] #Custom 01
+path='email_modules/custom/3columntitle3icons'
+color='white'
+
+	title = '''Great service is everything'''
+	icon1 = '''in_edm2_fordsvc_a_20160801'''
+	text1 = '''Your custom designed service plan keeps your vehicle performing at its best.'''
+	icon2 = '''in_edm2_fordsvc_b_20160801'''
+	text2 = '''Ford service centre equipment is built and calibrated specifically for your vehicle.'''
+	icon3 = '''in_edm2_fordsvc_c_20160801'''
+	text3 = '''A record of regular servicing improves your vehicle's re-sale value.'''
+
+[[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+
+	image = '''in_edm2_greatsvc_20160801'''
+
 [[module]] #Footer 4 Icons
 path='email_modules/footer/4icons'
 color='white'
@@ -187,12 +205,6 @@ color='white'
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'
-
-[[module]] #Footer Disclaimer
-path='email_modules/footer/disclaimer'
-color='white'
-
-  text='''*Tearms and conditions apply. Offers only valid in Gujarat, Madhya Pradesh, Chhattisgarh. '''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
