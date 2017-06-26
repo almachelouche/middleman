@@ -8,6 +8,13 @@ path='email_modules/preheader'
 
 	preheader='''Get your brakes factory-fitted by a Ford technician.'''
 
+[[module]] #Header Logo
+path='email_modules/header/logodesktop'
+color='black'
+
+	image = '''black'''
+	url_link = '''https://www.ford.com.au/'''
+    
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -20,7 +27,7 @@ color = '''white'''
 path='email_modules/cover/02'
 color='''white'''
 
-copy='''Hi <%${user.CustomAttribute['FullName']}%><br /><br />At Ford we offer tyres at competitive prices.  We are excited to announce that we are launching a Low Price Tyre Guarantee; we’ll match competitors price on selected tyres we stock&#185;. <br /><br />For the launch your <%${user.CustomAttribute['Dealer_Name']}%> is offering $50 off your next tyre purchase&#178;. To take up this offer, just bring this email along to your tyre service appointment before 31st August 2017.<br /><br />Our Ford technicians offer professional advice on an extensive range of tyres to suit your budget and needs, and with our Low Price Tyre Guarantee if you find a lower price on selected tyre we stock from another competitor we’ll match it within 30 days of purchase&#185;. <br /><br />No one knows your Ford like we do.  So put your Ford <%${user.CustomAttribute['Model']}%> in the hands of our trained technicians at <%${user.CustomAttribute['Dealer_Name']}%.'''
+copy='''Hi <%${user.CustomAttribute['FullName']}%><br /><br />At Ford we offer tyres at competitive prices. We are excited to announce that we are launching a Low Price Tyre Guarantee; we’ll match competitors price on selected tyres we stock&#185;. <br /><br />For the launch <span style="text-decoration:underline;font-weight:bold">your <%${user.CustomAttribute['Dealer_Name']}%> is offering $50 off your next tyre purchase&#178;</span>. To take up this offer, just bring this email along to your tyre service appointment before 31st August 2017.<br /><br />Our Ford technicians offer professional advice on an extensive range of tyres to suit your budget and needs, and with our Low Price Tyre Guarantee if you find a lower price on selected tyre we stock from another competitor we’ll match it within 30 days of purchase&#185;. <br /><br />No one knows your Ford like we do.  So put your Ford <%${user.CustomAttribute['Model']}%> in the hands of our trained technicians at <%${user.CustomAttribute['Dealer_Name']}%.'''
 	cta1_text='''FIND OUT MORE'''
 	cta1_url='''https://consumer.xtime.net.au/scheduling/?company=14745&store=#DealerCode#&VIN=#VIN#&provider=FORD_AU_THE_BLUE_HIVE&keyword=#Campaign_ID#&dest=&extid=#Campaign_ID#&extctxt=FORD_AU_THE_BLUE_HIVE&cfn=#FirstName#&cln=#LastName#&cpn=#CustomerPhoneT#&cem=#EmailAddr#'''
 	cta1_link_name = '''TYRES'''
