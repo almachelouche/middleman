@@ -206,12 +206,6 @@ color='white'
 path='email_modules/footer/in/social'
 color='white'
 
-[[module]] #Footer Disclaimer
-path='email_modules/footer/disclaimer'
-color='white'
-
-  text='''*Tearms and conditions apply. Offers only valid in Gujarat, Madhya Pradesh, Chhattisgarh. '''
-
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
 color='white'
