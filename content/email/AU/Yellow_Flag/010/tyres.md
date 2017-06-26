@@ -15,12 +15,12 @@ color='white'
 	image = '''white'''
 	url_link = '''http://www.ford.com.au'''
     
-
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
+[[module]] #Banner Image 
+path='email_modules/image/banner'
+color='white'
 
 	image='''au_edm2d_lptg_20170626'''
+	url_link = '''https://www.ford.com.au/owners/service/low-price-tyre-guarantee'''
 
 
 [[module]] #Cover 07
