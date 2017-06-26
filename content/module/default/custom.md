@@ -241,7 +241,7 @@ color='black'
 
 [[module]] # Owner App Image Left
 path='email_modules/custom/ownerapp_imgl'
-color='black'
+color='white'
 
 	title = '''Ford Owner App Image Left'''
 	text1 = '''Owning a Ford has never been easier, thanks to the Ford Owners app:'''
