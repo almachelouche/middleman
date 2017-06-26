@@ -25,7 +25,7 @@ path='email_modules/cover/02'
 
 color='''white'''
 title='''Offers You Can’t Refuse'''
-copy='''Xin chào <%${user.CustomAttribute['Title']}%> <%${user['FirstName']}%><br /><br />And if you’re in the market for a new Ford and a great deal, you’re in luck! You can drive away in an exciting Focus AT 1.5L EcoBoost or a sporty Fiesta at just a fraction of the cost. Prefer an SUV instead? The capable EcoSport is available for just 599 million VND.<br /><br />Click below to get the details on these sweet deals!<br /><br />But hurry, the offer ends July 31, 2017.'''
+copy='''Hello #Name#<br /><br />And if you’re in the market for a new Ford and a great deal, you’re in luck! You can drive away in an exciting Focus AT 1.5L EcoBoost or a sporty Fiesta at just a fraction of the cost. Prefer an SUV instead? The capable EcoSport is available for just 599 million VND.<br /><br />Click below to get the details on these sweet deals!<br /><br />But hurry, the offer ends July 31, 2017.'''
 cta1_text='''FIND OUT MORE'''
 cta1_url='''https://www.ford.com.vn/promotion-corner/2017/hot-deal-1/'''
 cta1_link_name = '''retail_campaign'''
