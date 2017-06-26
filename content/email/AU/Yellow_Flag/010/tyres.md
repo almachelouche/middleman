@@ -9,11 +9,11 @@ path='email_modules/preheader'
 	preheader='''Get your brakes factory-fitted by a Ford technician.'''
 
 [[module]] #Header Logo
-path='email_modules/header/logodesktop'
-color='black'
+path='email_modules/header/logo'
+color='white'
 
-	image = '''black'''
-	url_link = '''https://www.ford.com.au/'''
+	image = '''white'''
+	url_link = '''http://www.ford.com.au'''
     
 
 [[module]] #Banner Image No Link
@@ -46,9 +46,9 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-	text = '''DISCLAIMERS 
+	text = '''DISCLAIMERS: 
 				<br /> <br />
-				1. The Low Price Tyre Guarantee offer is available on selected tyres of listed brands that are stocked by participating Ford dealers.  Competitor tyres must be new, identical and available from an Australian tyre retailer.  Offer includes “4 for 3” or similar competitor offers, but excludes competitor cashback offers, gift cards,  “wheel and tyre” bundles, tyres purchased under an instalment payment plan, clearance and liquidation stock and any competitor quotes that cannot be verified.  Offer is available until 31st August 2017 at participating Ford dealers to private retail and Blue Business Fleet customers.  Includes valid competitor’s quote within 30 days after purchase.  Various adjustments, including fitment and freight, apply to ensure a like-for-like price comparison.  See your participating Ford dealer for full terms and conditions.<br /><br />
+				1. The Low Price Tyre Guarantee offer is available on selected tyres of listed brands that are stocked by participating Ford dealers.  Competitor tyres must be new, identical and available from an Australian tyre retailer.  Offer includes “4 for 3” or similar competitor offers, but excludes competitor cashback offers, gift cards,  “wheel and tyre” bundles, tyres purchased under an instalment payment plan, clearance and liquidation stock and any competitor quotes that cannot be verified.  Offer is available until 31st August 2017 at participating Ford dealers to private retail and Blue Business Fleet customers.  Includes valid competitor’s quote within 30 days after purchase.  Various adjustments, including fitment and freight, apply to ensure a like-for-like price comparison.  See your participating Ford dealer for full terms and conditions.<br />
 				2. $50 voucher is redeemable on tyres only at [Dealer Name] until 31st August 2017.<br /><br />'''
 
 
