@@ -18,7 +18,7 @@ color='white'
 
 [[module]] #Cover 01
 path='email_modules/cover/01'
-color='''fordblue'''
+color='''write'''
 
 	title='''<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
  <span style="white-space:nowrap;">언제나 처음의 감동이 계속되도록</span>
