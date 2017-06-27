@@ -129,6 +129,12 @@ color='white'
 
   copy = '''VIN No: <% ${user.CustomAttribute['VIN']}%><br />Last reported service date: <%${user.CustomAttribute['Last_Reported_Service_Date']}%><br />Last reported mileage (Kms): <% ${user.CustomAttribute['Mileage']}%>'''
 
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
@@ -157,15 +163,15 @@ color='white'
 
 [[module]] #Cover 05
 path='email_modules/cover/02'
-color='''white'''
+color='''green_pb'''
 segmentif = ["(user.CustomAttribute['SSPStatus'] == 'NO')"]
 
-  title = '''Scheduled Service Plan'''
-  copy = '''Our peace-of-mind service plans keep your Ford performing its best. Enjoy up to 5 years of capped pricing and save up to 10% on servicing. And coverage is 100% transferrable, increasing your Ford's resale value.'''
-  cta1_text = '''FIND OUT MORE'''
-  cta1_url = '''https://www.india.ford.com/owner/scheduled-service-plan/'''
-  cta1_link_name = '''SSP'''
-  icon = '''in_edm1_extendedwarranty_20160801'''
+	title = '''Scheduled Service Plan'''
+	copy = '''Our peace-of-mind service plans keep your Ford performing its best. Enjoy up to 5 years of capped pricing and save up to 10% on servicing. And coverage is 100% transferrable, increasing your Ford's resale value.'''
+	cta1_text = '''VIEW PLANS'''
+	cta1_url = '''https://www.india.ford.com/owner/scheduled-service-plan/'''
+	cta1_link_name = '''ssp'''
+	icon = '''in_edm1_extendedwarranty_20160801'''
 
 [[module]] #Custom 01
 path='email_modules/custom/3columntitle3icons'
