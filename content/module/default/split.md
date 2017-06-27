@@ -149,5 +149,22 @@ color='black'
 	cta1_link_name = ''''''
 	image='''tms_20160328'''
 
+[[module]] #Split 13
+path='email_modules/split/13'
+color='white'
+
+	title1='''Mobile Text Centers'''
+	title2='''Mobile Text Centers'''
+	copy1='''Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida metus a magna venenatis, vitae luctus mauris sollicitudin. Duis tristique.'''
+	copy2='''Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida metus a magna venenatis, vitae luctus mauris sollicitudin. Duis tristique.'''
+	image1='''tms_20160328'''
+    image1_url='''http://google.com'''
+    image1_name='''Some'''
+    image2='''tms_20160328'''
+    image2_url='''http://google.com'''
+    image2_name='''Some'''
+
+    
+
 
 +++
