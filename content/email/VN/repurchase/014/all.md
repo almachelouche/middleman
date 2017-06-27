@@ -24,11 +24,24 @@ color = '''white'''
 path='email_modules/cover/02'
 
 color='''white'''
-title='''Say ‘yes’ to a great deal'''
-copy='''Drive away with an exciting new Focus AT 1.5L EcoBoost for a low 620 million VND!<br /><br />Want a capable city SUV instead? EcoSport is also available for 599 million VND. Plus, the sporty Fiesta is only 536 million VND.<br /><br />But hurry, these offers ends on July 31, 2017.'''
+title='''Offers You Can’t Refuse'''
+copy='''Hello #Name#<br /><br />And if you’re in the market for a new Ford and a great deal, you’re in luck! You can drive away in an exciting Focus AT 1.5L EcoBoost or a sporty Fiesta at just a fraction of the cost. Prefer an SUV instead? The capable EcoSport is available for just 599 million VND.<br /><br />Click below to get the details on these sweet deals!<br /><br />But hurry, the offer ends July 31, 2017.'''
 cta1_text='''FIND OUT MORE'''
 cta1_url='''https://www.ford.com.vn/promotion-corner/2017/hot-deal-1/'''
 cta1_link_name = '''retail_campaign'''
+
+
+[[module]] #Split 03
+path='email_modules/split/03'
+color='fordblue'
+
+	title = '''Tặng Voucher 3.000.000 VNĐ thay lời cảm ơn'''
+	copy = '''Sự tin tưởng và yêu mến thương hiệu Ford của Quý khách hàng là món quà vô giá đối với chúng tôi. Thế nên chúng tôi xin gửi tặng voucher 3.000.000 đồng cho mỗi xe Quý vị mua thêm thay cho lời cảm ơn chân thành từ Ford Việt Nam khi Quý vị tiếp tục đồng hành cùng chúng tôi.'''
+	cta1_text = '''TÌM HIỂU THÊM'''
+	cta1_url = '''https://www.ford.com.vn/owner/vehicle-support/incentives/'''
+	cta1_link_name = '''loyalty_offer'''
+	cta1_icon = '''more'''
+	image = '''vn_edm5_3millionvnd_20160801'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -41,7 +54,7 @@ path='email_modules/cover/02'
 color='''white'''
 
 	title='''Discover the Extraordinary'''
-	copy='''With Adaptive Cruise Control, voice-activated SYNCTM3, and the Terrain Management System for all-terrain driving – the All-New Everest is simply extraordinary at just 1,147,000,000 VND.'''
+	copy='''With Adaptive Cruise Control, voice-activated SYNCTM3, and the Terrain Management System for all-terrain driving – the All-New Everest is simply extraordinary.'''
 	cta1_text='''TAKE A TEST DRIVE'''
 	cta1_url='''https://www.ford.com.vn/suvs/everest/#overlay/content/ford/vn/vi_vn/site-wide-content/overlays/forms/test-drive.html?wcmmode=disabled&Model=New%20Everest&Series=Titanium+%203.2L%20AT%204x4'''
 	cta1_link_name = '''test_drive'''
@@ -60,19 +73,6 @@ color='black'
 	cta1_link_name = '''motorcraft'''
 	cta1_icon = '''more'''
 	image = '''VN_edm5_motorcraft_20170526'''
-
-[[module]] #Split 03
-path='email_modules/split/03'
-color='fordblue'
-
-	title = '''Tặng Voucher 3.000.000 VNĐ thay lời cảm ơn'''
-	copy = '''Sự tin tưởng và yêu mến thương hiệu Ford của Quý khách hàng là món quà vô giá đối với chúng tôi. Thế nên chúng tôi xin gửi tặng voucher 3.000.000 đồng cho mỗi xe Quý vị mua thêm thay cho lời cảm ơn chân thành từ Ford Việt Nam khi Quý vị tiếp tục đồng hành cùng chúng tôi.'''
-	cta1_text = '''TÌM HIỂU THÊM'''
-	cta1_url = '''https://www.ford.com.vn/owner/vehicle-support/incentives/'''
-	cta1_link_name = '''loyalty_offer'''
-	cta1_icon = '''more'''
-	image = '''vn_edm5_3millionvnd_20160801'''
-
 
 [[module]] #Cover 05
 path='email_modules/cover/02'
