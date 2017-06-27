@@ -1,6 +1,9 @@
 {{/* pulls the header email module */}}
 {{- partial "email_modules/header" . -}}
 
+{{/* pulls the body email module */}}
+{{- partial "email_modules/body" . -}}
+
 {{/* defines variable for colors */}}
 {{/* Ford Default */}}
 {{- $black := .Site.Data.colors.ford.default.black -}}
