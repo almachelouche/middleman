@@ -1,12 +1,12 @@
 +++
 markets = ["th"]
-title = '''TH Welcome First 007 New Ranger'''
+title = '''TH Welcome Repeat 007 New Ranger'''
 
 [[module]]
 path='email_modules/preheader'
 
 
-		preheader = '''ฟอร์ดขอขอบคุณที่คุณเลือกเรา ให้เป็นเพื่อนร่วมทางของคุณ เราจะส่งข่าวสาร และข้อมูลกิจกรรมที่เป็นประโยชน์ ให้แก่คุณอย่างต่อเนื่อง เพราะคุณเป็นส่วนหนึ่ง ของครอบครัวฟอร์ด ขอให้คุณมีความสุขกับการขับขี่ Ranger ค่ะ '''
+		preheader = '''ไม่ว่าคุณจะเป็นลูกค้าเก่าหรือลูกค้าใหม่ ฟอร์ดขอขอบคุณที่คุณเลือกเราให้เป็นเพื่อนร่วมทางไปกับคุณ ด้วยการเป็นส่วนหนึ่งของครอบครัวฟอร์ด เราจะส่งข่าวสารและข้อมูลกิจกรรมที่เป็นประโยชน์ให้แก่คุณอย่างต่อเนื่อง ขอให้คุณมีความสุขกับการขับขี่ Ranger ะ'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -19,24 +19,23 @@ color='white'
 path='email_modules/cover/01'
 color='''white'''
  
-	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><strong>สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></strong><br />ยินดีต้อนรับสู่ครอบครัวฟอร์ด</span>'''
-	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">ฟอร์ดขอขอบคุณที่คุณเลือกเรา</span>
-<span style=" white-space:nowrap;">ให้เป็นเพื่อนร่วมทางของคุณ</span>
+	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><strong>สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></strong><br />การเดินทางยังคงดำเนินต่อไป</span>'''
+	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
+<span style=" white-space:nowrap;">ไม่ว่าคุณจะเป็นลูกค้าเก่าหรือลูกค้าใหม่</span> <br />
+						<span style=" white-space:nowrap;">ฟอร์ดขอขอบคุณที่คุณเลือกเรา</span> <br />
+						<span style=" white-space:nowrap;">ให้เป็นเพื่อนร่วมทางไปกับคุณ </span>
 <br /><br />
-<span style=" white-space:nowrap;">เราจะส่งข่าวสาร</span>
-<span style=" white-space:nowrap;">และข้อมูลกิจกรรมที่เป็นประโยชน์</span>
-<span style=" white-space:nowrap;">ให้แก่คุณอย่างต่อเนื่อง</span> 
-<span style=" white-space:nowrap;">เพราะคุณเป็นส่วนหนึ่ง</span>
-<span style=" white-space:nowrap;">ของครอบครัวฟอร์ด</span>
+<span style=" white-space:nowrap;">ด้วยการเป็นส่วนหนึ่งของครอบครัวฟอร์ด</span> <br />
+<span style=" white-space:nowrap;">เราจะส่งข่าวสารและข้อมูลกิจกรรม</span> <br />
+<span style=" white-space:nowrap;">ที่เป็นประโยชน์ให้แก่คุณอย่างต่อเนื่อง</span> 
 <br /><br />
-<span style=" white-space:nowrap;">ขอให้คุณมีความสุขกับการขับขี่</span> 
-<span style=" white-space:nowrap;">Ranger ค่ะ </span></span>'''
+<span style=" white-space:nowrap;">ขอให้คุณมีความสุข</span>กับการ<span style=" white-space:nowrap;">ขับขี่ Ranger ค่ะ</span></span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''th_edm1_wildtrak_2017420'''
+	image = '''th_edm1_wildtrak_20170309'''
 
 [[module]] #Cover 01
 path='email_modules/cover/01'
@@ -91,7 +90,7 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">ศูนย�
 	cta2c_url = ''''''
 	cta2c_link_name = ''''''
 	icon2 = '''th_edm1_sync_20160801'''
-
+ 
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
 color='black'
@@ -116,7 +115,7 @@ text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif; font-Size: 14px
 	cta2_link_name = '''oa_andriod'''
 	image = '''th_edm6_ownerapp_20160921'''
 
-	[[module]]
+[[module]]
 path='email_modules/split/07'
 color='white'
 
@@ -139,11 +138,11 @@ cta1_url='''https://www.ford.co.th/trucks/ranger/accessories/#overlay/content/fo
 cta1_link_name = '''acc_new_ranger'''
 image='''TH_edm1a_wildtrak_roller_shutter_20170508'''
 
-[[module]] #Split 04
+	[[module]] #Split 04
 path='email_modules/split/04'
 color='green'
 
-	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า</span>'''
+	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า </span>'''
 	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 <span style="white-space:nowrap;">รับส่วนลดเพิ่มสูงสุด 10%</span>
 <span style="white-space:nowrap;">หรือ 3,700 บาท</span> 
@@ -159,29 +158,6 @@ cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
 cta1_icon='''more'''
 cta1_link_name = '''SSP'''
 image = '''th_edm5a_specialoffer_20160801'''
-
-[[module]]
-path='email_modules/cover/01'
-
-color='slatescreen'
-title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ถาม ตอบ</span>'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">Q: ทำไมจึงต้องมี</span>
-<span style=" white-space:nowrap;">Ford Roadside Assistance</span>
-<span style=" white-space:nowrap;">สำหรับรถใหม่</span><br /><br />
-<span style=" white-space:nowrap;">A: เพราะระบบช่วยเหลือฉุกเฉินของเรา</span>
-<span style=" white-space:nowrap;">ไม่เพียงครอบคลุมการคุ้มครองอะไหล่</span>
-<span style=" white-space:nowrap;">และเครื่องยนต์</span>
-<span style="white-space:nowrap;">ตลอดอายุการใช้งานเท่านั้น</span>
-<span style=" white-space:nowrap;">แต่ยังรวมถึงการช่วยเหลือ</span>
-<span style=" white-space:nowrap;">ในกรณีเหตุฉุกเฉินอื่นๆ</span>
-<span style=" white-space:nowrap;">เช่น</span>
-<span style=" white-space:nowrap;">การลืมกุญแจไว้ในรถ</span><br />
-<span style=" white-space:nowrap;">หรือเมื่อน้ำมันหมดกลางทาง เป็นต้น</span></span>'''
-cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">อ่านต่อ</span></span>'''
-cta1_url='''http://on.fb.me/1utXwYz'''
-cta1_link_name = '''QA'''
-cta1_icon='''more'''
-
 
 [[module]] #TH Social
 path='email_modules/footer/th/social'
