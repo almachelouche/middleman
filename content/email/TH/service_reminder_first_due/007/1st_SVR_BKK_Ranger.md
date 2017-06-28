@@ -1,6 +1,6 @@
 +++
 markets = ["th"]
-title = '''TH Service Reminder First Due 007 BKK'''
+title = '''TH Service Reminder First Due 007 Ranger BKK'''
 
 [[module]]
 path='email_modules/preheader'
