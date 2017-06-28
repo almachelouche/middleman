@@ -89,6 +89,12 @@ color='white'
 	image_link_name = '''locate_dealer_image'''
 	image = '''in_edm2_save20_20170105'''
 
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
