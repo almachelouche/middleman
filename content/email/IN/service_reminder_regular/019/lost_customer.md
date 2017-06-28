@@ -79,12 +79,6 @@ color='white'
 
 	copy = '''VIN No: <% ${user.CustomAttribute['VIN']} %><br />Last reported service date: <% ${user.CustomAttribute['Last_Reported_Service_Date']} %><br />Last reported mileage (Kms): <% ${user.CustomAttribute['Mileage']} %>'''
 
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
-
 [[module]] #Split 15
 path='email_modules/split/11'
 color='white'
@@ -94,6 +88,12 @@ color='white'
 	image_url = '''https://www.india.ford.com/locate-dealer/'''
 	image_link_name = '''locate_dealer_image'''
 	image = '''in_edm2_save20_20170105'''
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
