@@ -51,6 +51,35 @@ color='''white'''
 
 	copy='''<br />When looking to personalise your Ford <nameplate> there are no better accessories than Ford Genuine Accessories. Click here to see the full range.'''
 
+ [[module]] #Split 13
+path='email_modules/split/13'
+color='white'
+
+	title1='''Track Handling Pack'''
+	title2='''Mobile Text Centers'''
+	copy1='''Assembled with Ford Performance Parts, the high-performance Track Handling Pack is the perfect suspension system for the driver who demands the most from their Mustang.'''
+	copy2='''Designed to work with production struts, shocks and sway bars, the Mustang Lowering Kit lowers your Mustang by 2.5cm for a more aggressive stance.'''
+	image1='''tms_20160328'''
+    image1_url='''http://google.com'''
+    image1_name='''Some'''
+    image2='''tms_20160328'''
+    image2_url='''http://google.com'''
+    image2_name='''Some'''
+    
+    [[module]] #Split 13
+path='email_modules/split/13'
+color='white'
+
+	title1='''Fastback High Rise Spoiler'''
+	title2='''Body Styling Kit'''
+	copy1='''Painted in Absolute Black this high rise rear spoiler will give your Mustang real presence.'''
+	copy2='''Add a stylish and dynamic look to your Mustang. This styling kit includes a front spoiler, side rockers, strip kit, and much more.'''
+	image1='''tms_20160328'''
+    image1_url='''http://google.com'''
+    image1_name='''Some'''
+    image2='''tms_20160328'''
+    image2_url='''http://google.com'''
+    image2_name='''Some'''
  
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
