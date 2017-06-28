@@ -91,7 +91,7 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,	<br /><br />
 	It's hard to know what to love most about the Ford Fiesta: the beauty behind its technology or the technology behind its beauty. Either way, it'll give you the ride of your life.</span><br /><br />
 	<span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">
-	Right now, the Ford Fiesta Ambiente Manual is available at $15,990* Driveaway.</span>'''
+	Right now, the Ford Fiesta Ambiente Manual is available at $15,490* Driveaway.</span>'''
 
 
 [[module]] #Cover 11
@@ -102,7 +102,7 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,	<br /><br />
 	The first thing you'll notice about the Ford Fiesta is how good it looks. But as the smarts within shine through, you'll see there's a lot more to this car than meets the eye.</span><br /><br />
 	<span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">
-	Right now, the Ford Fiesta Ambiente Manual is available at $15,990* Driveaway.</span>'''
+	Right now, the Ford Fiesta Ambiente Manual is available at $15,490* Driveaway.</span>'''
 
 	[[module]] #Banner Image
 path = '''email_modules/image/banner_nolink'''
