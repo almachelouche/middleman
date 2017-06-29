@@ -68,7 +68,7 @@ segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 path='email_modules/cover/03'
 color='''white'''
 
-	copy='''<br /><br /><span style="font-weight: bold;">‘Peace of Mind’ Service Inspection</span><br /><br />To ensure your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> is running at its absolute best, you are entitled to a  complimentary 2-month/3,000km <span style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</span>&#185;. You’ll receive a reminder from us again when you get closer to your 2 month anniversary.<br /><br />If there is anything we can help you with in the meantime please don’t hesitate to contact your Dealer <%${user.CustomAttribute['Dealer_Name']}%> on <%${user.CustomAttribute['Dealer_Phone']}%> today. You can also speak to our consultants at our Customer Relationship Centre on <span style="text-decoration:underline; color:#2D96CD">13 FORD</span> (13 36 73) or via email <span style="text-decoration:underline; color:#2D96CD">foacust1@ford.com</span>.<br /><br />''' 
+	copy='''<br /><br /><span style="font-weight: bold;">‘Peace of Mind’ Service Inspection</span><br /><br />To ensure your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> is running at its absolute best, you are entitled to a  complimentary 2-month/3,000km <span style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</span>&#185;. You’ll receive a reminder from us again when you get closer to your 2 month anniversary.<br /><br />If there is anything we can help you with in the meantime please don’t hesitate to contact your Dealer <%${user.CustomAttribute['Dealer_Name']}%> on <%${user.CustomAttribute['Dealer_Phone']}%> today. You can also speak to our consultants at our Customer Relationship Centre on <a href="tel:133673" style="text-decoration:underline; color:#2D96CD">13 FORD</span> (13 36 73) or via email <a href="email:foacust1@ford.com" style="text-decoration:underline; color:#2D96CD">foacust1@ford.com</span>.<br /><br />''' 
 
     
         [[module]] #Split 13
@@ -77,8 +77,8 @@ color='white'
 
 	title1='''Ford Owners App'''
 	title2='''Get Accessorised'''
-	copy1='''Download the <a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Owners App</span> for instant access to “how-to” videos, roadside assistance information, service reminders, vehicle owner manuals, and more.<br /><br /><br /><br /><a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="oa" style="text-decoration:underline; color:#2D96CD">Download App Now</span><br /><br /><br />'''
-	copy2='''Take your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> to the next level with Ford Genuine Accessories, designed to seamlessly integrate with your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.<br /><br /><a href="https://www.ford.com.au/suv/ecosport/accessories/ecosport-ambiente/" name="accessory" style="text-decoration:underline; color:#2D96CD">Discover Accessories</span>'''
+	copy1='''Download the <a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Owners App</span> for instant access to “how-to” videos, roadside assistance information, service reminders, vehicle owner manuals, and more.<br /><br /><a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="oa" style="text-decoration:underline; color:#2D96CD">Download App Now</span><br /><br />'''
+	copy2='''Take your EcoSport to the next level with Ford Genuine Accessories, designed to seamlessly integrate with your EcoSport.<br /><br /><a href="https://www.ford.com.au/suv/ecosport/accessories/ecosport-ambiente/" name="accessory" style="text-decoration:underline; color:#2D96CD">Discover Accessories</span>'''
 	image1='''tms_20160328'''
     image1_url='''https://www.ford.com.au/owners/vehicle-support/app-download/'''
     image1_name='''Some'''
@@ -114,5 +114,8 @@ color='white'
 				<br /> <br />
                 1. ‘Peace of Mind’ Service Inspection expires after 5,000km’s or 4 months after delivery of your new Ford (whichever is first). <br /><br />
                 2. Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
-
+                
+[[module]] #Footer AU Online
+path='email_modules/footer/au/online'
+color='white'
 +++
