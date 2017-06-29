@@ -1,6 +1,39 @@
 +++
 markets = ["au"]
-title = '''AU Welcome 020 generic'''
+title = '''AU Welcome 020 EcoSport'''
+
+
+[[module]]
+path='email_modules/preheaderbefore'
+
+segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
+
+	preheader='''The adventure goes on! From all of us at Ford, we’d like to say a big thank you for choosing another Ford – we are so excited to continue to be a part of your journey!'''
+
+[[module]]
+path='email_modules/preheaderbefore'
+
+segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
+
+	preheader='''We hope your new Ford is everything you wanted it to be! From all of us at Ford, we’d like to say a big thank you for choosing a Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>, and welcome you to the family.'''
+
+[[module]]
+path='email_modules/body'
+
+
+[[module]]
+path='email_modules/preheaderafter'
+
+segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
+
+	preheader='''The adventure goes on! From all of us at Ford, we’d like to say a big thank you for choosing another Ford – we are so excited to continue to be a part of your journey!'''
+
+[[module]]
+path='email_modules/preheaderafter'
+
+segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
+
+	preheader='''We hope your new Ford is everything you wanted it to be! From all of us at Ford, we’d like to say a big thank you for choosing a Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>, and welcome you to the family.'''
 
 
 [[module]] #Header Logo
@@ -20,24 +53,41 @@ color = '''white'''
 	[[module]] #Cover 11
 path='email_modules/cover/03'
 color='''white'''
+segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
-	copy='''<br /><br />Celebrate new purchase and their new journey with Ford. Acknowledge new owners and repeat owners.<br /><br />Now that you’re on the road, we'd like to help you make the most out of your new <nameplate>'''
+	copy='''<br /><%${user.CustomAttribute['FullName']}%><br />.<br />There’s nothing quite like a new car. Thank you for choosing another Ford and hope you’ve enjoyed the ride so far.'''
+    
+    [[module]] #Cover 11
+path='email_modules/cover/03'
+color='''white'''
+segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
+
+	copy='''<br /><%${user.CustomAttribute['FullName']}%><br />.<br />There’s nothing quite like a new car. We are excited to have you as part of the Ford family and hope you’ve enjoyed the ride so far.'''
+    
+    [[module]] #Cover 11
+path='email_modules/cover/03'
+color='''white'''
+
+	copy='''<br /><br /><span style="font-weight: bold;">‘Peace of Mind’ Service Inspection</span><br /><br />To ensure your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> is running at its absolute best, you are entitled to a  complimentary 2-month/3,000km <span style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</span>&#185;. You’ll receive a reminder from us again when you get closer to your 2 month anniversary.<br /><br />If there is anything we can help you with in the meantime please don’t hesitate to contact your Dealer <%${user.CustomAttribute['Dealer_Name']}%> on <%${user.CustomAttribute['Dealer_Phone']}%> today. You can also speak to our consultants at our Customer Relationship Centre on <span style="text-decoration:underline; color:#2D96CD">13 FORD</span> (13 36 73) or via email <span style="text-decoration:underline; color:#2D96CD">foacust1@ford.com</span>.<br /><br />''' 
+
+    
+        
 
 	[[module]] #Footer AU Online
 path='email_modules/image/double_column_images_text'
 color='white'
 
-		title1 = '''Owners App'''
-	copy1 = '''You can visit the Ford Owners Website online at any time or download the ford owner’s app to your mobile device for instant access on-the-go. Streamline your life with service reminders, instant access to Roadside Assistance, “how-to videos”, access your vehicle manuals and more.'''
+		title1 = '''Ford Owners App'''
+	copy1 = '''Download the <a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Owners App</span> for instant access to “how-to” videos, roadside assistance information, service reminders, vehicle owner manuals, and more.<br /><br /><a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="oa" style="text-decoration:underline; color:#2D96CD">Download App Now</span> '''
 	image1 = '''au_svc_icon1'''
 	image1_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
 	image1_link_name = '''owners'''
 
 
-		title2 = '''Accessories'''
-	copy2 = '''-	Ford Genuine Accessories are designed to fit perfectly and integrate seamlessly with <nameplate> safety systems. Get the most out of your new <nameplate> with our selection of accessories that will take your work or play to the next level.'''
+		title2 = '''Get Accessorised'''
+	copy2 = '''Take your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> to the next level with Ford Genuine Accessories, designed to seamlessly integrate with your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.<br /><br /><a href="https://www.ford.com.au/suv/ecosport/accessories/ecosport-ambiente/" name="accessory" style="text-decoration:underline; color:#2D96CD">Discover Accessories</span> '''
 	image2 = '''au_svc_icon1'''
-	image2_url = '''https://www.ford.com.au/shopping/accessories/'''
+	image2_url = '''https://www.ford.com.au/suv/ecosport/accessories/ecosport-ambiente/'''
 	image2_link_name = '''accessories'''
 
 		[[module]] #Footer AU Online
@@ -45,24 +95,16 @@ path='email_modules/image/double_column_images_text'
 color='white'
 
 		title1 = '''SYNC Support'''
-	copy1 = '''Be a Sync expert, get to you know your Sync system on our Sync support portal.	Find out how to use your Satellite Navigation System, set up your Emergency assistance or familiarise yourself with popular voice demands and more.'''
+	copy1 = '''Become a Sync expert.  Learn how to use SAT NAV, set up Emergency assistance and familiarise yourself with common voice commands and more on the <a href="https://www.ford.com.au/owners/technology/sync-support/sync1/" name="sync" style="text-decoration:underline; color:#2D96CD">Sync Support Portal</span>.'''
 	image1 = '''au_svc_icon1'''
 	image1_url = '''https://www.ford.com.au/owners/technology/sync-support/sync1/'''
 	image1_link_name = '''sync'''
 
-		title2 = '''Service'''
-	copy2 = '''Convenience. Reliability. And no nasty surprises. They’re what service should be. And they’re exactly what Ford promises when you have your car serviced.	Find out what makes Ford Service the best.'''
+		title2 = '''Ford Service'''
+	copy2 = '''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That’s what service should be.<br /><br /><a href="https://www.ford.com.au/owners/service/" name="service" style="text-decoration:underline; color:#2D96CD">Find Out More</span>'''
 	image2 = '''au_svc_icon1'''
 	image2_url = '''https://www.ford.com.au/owners/service/'''
 	image2_link_name = '''service'''
-
-		[[module]] #Cover 01
-path='email_modules/cover/01'
-color='''fordblue'''
-
-	icon='''au_edm1_welcome_icon_20161019'''
-	title='''Can we help?'''
-	copy='''If you have any further questions, please don't hesitate to contact <br /><br /><span style="color:#FFFFFF"><%${user.CustomAttribute['Dealer_Name']}%> on <a href="tel:<%${user.CustomAttribute['Dealer_Phone']}%>" style="color:#FFFFFF; text-decoration:none"><%${user.CustomAttribute['Dealer_Phone']}%></a>	</span>or <a href="tel:133673" style="color:#FFFFFF; text-decoration:none"><span style="color:#FFFFFF">13 FORD (13 36 73)</span>'''
 
 
 [[module]] #Footer AU Social
@@ -74,6 +116,8 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 	text = '''DISCLAIMERS:
-				<br /> <br />'''
+				<br /> <br />
+                1. ‘Peace of Mind’ Service Inspection expires after 5,000km’s or 4 months after delivery of your new Ford (whichever is first). <br /><br />
+                2. Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
 
 +++
