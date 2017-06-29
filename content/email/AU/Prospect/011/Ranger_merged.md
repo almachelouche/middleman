@@ -235,7 +235,7 @@ color='white'
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
 	text = '''Terms & Conditions
-				<br /> <br />* Recommended driveaway price for 2017 plate models at participating Dealers. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. Vehicle must be purchased by 30/06/17 and delivered by 2/07/17. Eligible customers receive roadside assistance for 12 months or until an eligible A or B logbook service, whichever occurs first. Saving amount calculated by reference to prior recommended prices. Ford reserves the right to further reduce recommended price, or otherwise change or extend offer.<br /><br />
+				<br /> <br />*Limited driveaway offer for 2017 plate models Pre April Production at participating Dealers. While stocks last. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. Eligible customers receive roadside assistance for 12 months or until an eligible A or B logbook service, whichever occurs first. Ford reserves the right to further reduce recommended price, or otherwise change or extend offer.<br /><br />
 				1. Braked towing capacity when fitted with a genuine Ford towpack and towball. Subject to State and Territory regulations.<br /><br />
 				2. Achieved when maintaining a steady speed of not more than 7km per hour.<br /><br />
 				3. Bluetooth® is a registered trademark of Bluetooth SIG Inc., and is used under licence. Some phones not compatible.'''
@@ -246,7 +246,7 @@ color='white'
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	text = '''Terms & Conditions
-				<br /> <br />* Recommended driveaway price for 2017 plate models at participating Dealers. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. Vehicle must be purchased by 30/06/17 and delivered by 2/07/17. Eligible customers receive roadside assistance for 12 months or until an eligible A or B logbook service, whichever occurs first. Saving amount calculated by reference to prior recommended prices. Ford reserves the right to further reduce recommended price, or otherwise change or extend offer.<br /><br />
+				<br /> <br />*Limited driveaway offer for 2017 plate models Pre April Production at participating Dealers. While stocks last. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. Eligible customers receive roadside assistance for 12 months or until an eligible A or B logbook service, whichever occurs first. Ford reserves the right to further reduce recommended price, or otherwise change or extend offer.<br /><br />
 				2. Achieved when maintaining a steady speed of not more than 7km per hour.<br /><br />
 				3. Bluetooth® is a registered trademark of Bluetooth SIG Inc., and is used under licence. Some phones not compatible.<br /><br />
 				4. Available at participating Ford Dealers on vehicles built from 2007. Customers will pay equal to or less than the maximum price as published by Ford for the period of the web quote for standard items in the A and B logbook services. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms1"	style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
