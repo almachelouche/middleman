@@ -68,7 +68,7 @@ segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 path='email_modules/cover/03'
 color='''white'''
 
-	copy='''<br /><br /><span style="font-weight: bold;">‘Peace of Mind’ Service Inspection</span><br /><br />To ensure your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> is running at its absolute best, you are entitled to a  complimentary 2-month/3,000km <span style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</span>&#185;. You’ll receive a reminder from us again when you get closer to your 2 month anniversary.<br /><br />If there is anything we can help you with in the meantime please don’t hesitate to contact your Dealer <%${user.CustomAttribute['Dealer_Name']}%> on <%${user.CustomAttribute['Dealer_Phone']}%> today. You can also speak to our consultants at our Customer Relationship Centre on <a href="tel:133673" style="text-decoration:underline; color:#2D96CD">13 FORD</a> (13 36 73) or via email <a href="email:foacust1@ford.com" style="text-decoration:underline; color:#2D96CD">foacust1@ford.com</a>.<br /><br />''' 
+	copy='''<br /><br /><span style="font-weight: bold;">‘Peace of Mind’ Service Inspection</span><br /><br />To ensure your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> is running at its absolute best, you are entitled to a  complimentary 2-month/3,000km <span style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</span>&#185;. You’ll receive a reminder from us again when you get closer to your 2 month anniversary.<br /><br />If there is anything we can help you with in the meantime please don’t hesitate to contact your Dealer <%${user.CustomAttribute['Dealer_Name']}%> on <%${user.CustomAttribute['Dealer_Phone']}%> today. You can also speak to our consultants at our Customer Relationship Centre on <a href="tel:133673" style="text-decoration:underline; color:#2D96CD">13 FORD</a> (13 36 73) or via email <a href="mail to:foacust1@ford.com" style="text-decoration:underline; color:#2D96CD">foacust1@ford.com</a>.<br /><br />''' 
 
     
         [[module]] #Split 13
@@ -78,7 +78,7 @@ color='white'
 	title1='''Ford Owners App'''
 	title2='''Get Accessorised'''
 	copy1='''Download the <a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Owners App</a> for instant access to “how-to” videos, roadside assistance information, service reminders, vehicle owner manuals, and more.<br /><br /><a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="oa" style="text-decoration:underline; color:#2D96CD">Download App Now</a><br /><br />'''
-	copy2='''Take your EcoSport to the next level with Ford Genuine Accessories, designed to seamlessly integrate with your EcoSport.<br /><br /><br /><br /><a href="https://www.ford.com.au/suv/ecosport/accessories/ecosport-ambiente/" name="accessory" style="text-decoration:underline; color:#2D96CD">Discover Accessories</span>'''
+	copy2='''Take your EcoSport to the next level with Ford Genuine Accessories, designed to seamlessly integrate with your EcoSport.<br /><br /><a href="https://www.ford.com.au/suv/ecosport/accessories/ecosport-ambiente/" name="accessory" style="text-decoration:underline; color:#2D96CD">Discover Accessories</span><br /><br />'''
 	image1='''tms_20160328'''
     image1_url='''https://www.ford.com.au/owners/vehicle-support/app-download/'''
     image1_name='''Some'''
