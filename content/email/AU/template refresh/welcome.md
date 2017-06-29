@@ -77,7 +77,7 @@ color='white'
 
 	title1='''Ford Owners App'''
 	title2='''Get Accessorised'''
-	copy1='''Download the <a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Owners App</span> for instant access to “how-to” videos, roadside assistance information, service reminders, vehicle owner manuals, and more.<br /><br /><a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="oa" style="text-decoration:underline; color:#2D96CD">Download App Now</span>'''
+	copy1='''Download the <a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Owners App</span> for instant access to “how-to” videos, roadside assistance information, service reminders, vehicle owner manuals, and more.<br /><br /><br /><br /><a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="oa" style="text-decoration:underline; color:#2D96CD">Download App Now</span><br /><br /><br />'''
 	copy2='''Take your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> to the next level with Ford Genuine Accessories, designed to seamlessly integrate with your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.<br /><br /><a href="https://www.ford.com.au/suv/ecosport/accessories/ecosport-ambiente/" name="accessory" style="text-decoration:underline; color:#2D96CD">Discover Accessories</span>'''
 	image1='''tms_20160328'''
     image1_url='''https://www.ford.com.au/owners/vehicle-support/app-download/'''
