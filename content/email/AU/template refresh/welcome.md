@@ -71,40 +71,35 @@ color='''white'''
 	copy='''<br /><br /><span style="font-weight: bold;">‘Peace of Mind’ Service Inspection</span><br /><br />To ensure your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> is running at its absolute best, you are entitled to a  complimentary 2-month/3,000km <span style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</span>&#185;. You’ll receive a reminder from us again when you get closer to your 2 month anniversary.<br /><br />If there is anything we can help you with in the meantime please don’t hesitate to contact your Dealer <%${user.CustomAttribute['Dealer_Name']}%> on <%${user.CustomAttribute['Dealer_Phone']}%> today. You can also speak to our consultants at our Customer Relationship Centre on <span style="text-decoration:underline; color:#2D96CD">13 FORD</span> (13 36 73) or via email <span style="text-decoration:underline; color:#2D96CD">foacust1@ford.com</span>.<br /><br />''' 
 
     
-        
-
-	[[module]] #Footer AU Online
-path='email_modules/image/double_column_images_text'
+        [module]] #Split 13
+path='email_modules/split/13'
 color='white'
 
-		title1 = '''Ford Owners App'''
-	copy1 = '''Download the <a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Owners App</span> for instant access to “how-to” videos, roadside assistance information, service reminders, vehicle owner manuals, and more.<br /><br /><a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="oa" style="text-decoration:underline; color:#2D96CD">Download App Now</span> '''
-	image1 = '''au_svc_icon1'''
-	image1_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
-	image1_link_name = '''owners'''
+	title1='''Ford Owners App'''
+	title2='''Get Accessorised'''
+	copy1='''Download the <a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Owners App</span> for instant access to “how-to” videos, roadside assistance information, service reminders, vehicle owner manuals, and more.<br /><br /><a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="oa" style="text-decoration:underline; color:#2D96CD">Download App Now</span>'''
+	copy2='''Take your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> to the next level with Ford Genuine Accessories, designed to seamlessly integrate with your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.<br /><br /><a href="https://www.ford.com.au/suv/ecosport/accessories/ecosport-ambiente/" name="accessory" style="text-decoration:underline; color:#2D96CD">Discover Accessories</span>'''
+	image1='''tms_20160328'''
+    image1_url='''https://www.ford.com.au/owners/vehicle-support/app-download/'''
+    image1_name='''Some'''
+    image2='''tms_20160328'''
+    image2_url='''https://www.ford.com.au/suv/ecosport/accessories/ecosport-ambiente/'''
+    image2_name='''Some'''
 
-
-		title2 = '''Get Accessorised'''
-	copy2 = '''Take your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> to the next level with Ford Genuine Accessories, designed to seamlessly integrate with your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.<br /><br /><a href="https://www.ford.com.au/suv/ecosport/accessories/ecosport-ambiente/" name="accessory" style="text-decoration:underline; color:#2D96CD">Discover Accessories</span> '''
-	image2 = '''au_svc_icon1'''
-	image2_url = '''https://www.ford.com.au/suv/ecosport/accessories/ecosport-ambiente/'''
-	image2_link_name = '''accessories'''
-
-		[[module]] #Footer AU Online
-path='email_modules/image/double_column_images_text'
+ [module]] #Split 13
+path='email_modules/split/13'
 color='white'
 
-		title1 = '''SYNC Support'''
-	copy1 = '''Become a Sync expert.  Learn how to use SAT NAV, set up Emergency assistance and familiarise yourself with common voice commands and more on the <a href="https://www.ford.com.au/owners/technology/sync-support/sync1/" name="sync" style="text-decoration:underline; color:#2D96CD">Sync Support Portal</span>.'''
-	image1 = '''au_svc_icon1'''
-	image1_url = '''https://www.ford.com.au/owners/technology/sync-support/sync1/'''
-	image1_link_name = '''sync'''
-
-		title2 = '''Ford Service'''
-	copy2 = '''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That’s what service should be.<br /><br /><a href="https://www.ford.com.au/owners/service/" name="service" style="text-decoration:underline; color:#2D96CD">Find Out More</span>'''
-	image2 = '''au_svc_icon1'''
-	image2_url = '''https://www.ford.com.au/owners/service/'''
-	image2_link_name = '''service'''
+	title1='''SYNC Support'''
+	title2='''Ford Service'''
+	copy1='''Become a Sync expert.  Learn how to use SAT NAV, set up Emergency assistance and familiarise yourself with common voice commands and more on the <a href="https://www.ford.com.au/owners/technology/sync-support/sync1/" name="sync" style="text-decoration:underline; color:#2D96CD">Sync Support Portal</span>.'''
+	copy2='''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That’s what service should be.<br /><br /><a href="https://www.ford.com.au/owners/service/" name="service" style="text-decoration:underline; color:#2D96CD">Find Out More</span>'''
+	image1='''tms_20160328'''
+    image1_url='''https://www.ford.com.au/owners/technology/sync-support/sync1/'''
+    image1_name='''Some'''
+    image2='''tms_20160328'''
+    image2_url='''https://www.ford.com.au/owners/service/'''
+    image2_name='''Some'''
 
 
 [[module]] #Footer AU Social
