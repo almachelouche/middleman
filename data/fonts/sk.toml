@@ -1,6 +1,6 @@
 heading1=""
-heading2="font-family: Nanum Gothic,Malgun Gothic,sans-serif;font-Size:27px; line-height: 36px; font-weight: bold; font-style: regular;"
-txtbody="font-family: Nanum Gothic,Malgun Gothic,sans-serif; font-size:15px; line-height: 14px; letter-spacing: -1px; font-weight: normal; font-style: regular;"
+heading2="font-family: Nanum Gothic,Malgun Gothic,sans-serif; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular;"
+txtbody="font-family: Nanum Gothic,Malgun Gothic,sans-serif; font-size:16px; line-height: 21px; font-weight: normal; font-style: regular;"
 txtlink=""
 ctablocktext="font-family: Nanum Gothic,Malgun Gothic,sans-serif; font-size:16px;"
 ctaicontext="font-family: Nanum Gothic,Malgun Gothic,sans-serif; font-size:16px; line-height: 21px; font-weight: normal; font-style: regular;"
