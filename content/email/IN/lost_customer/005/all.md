@@ -21,7 +21,7 @@ path='email_modules/cover/02'
 color='''white'''
 
 	title='''<%${user.CustomAttribute['FullName']}%>, your Ford may need attention'''
-	copy='''We noticed that your Ford hasn't been serviced lately. You're an important member of the Ford family, so that's got us worried.<br /><br />To stay safe on the road, it's important that you follow your <a href="https://www.india.ford.com/owner/scheduled-service-plan/" name="service_plan" style="text-decoration:underline; color:#2D96CD;" >service plan</a> and replace worn-out parts as soon as possible.<br /><br />We've got your back. Visit us at a Ford dealer soon. '''
+	copy='''We noticed that your Ford hasn't been serviced lately. You're an important member of the Ford family, so that's got us worried.<br /><br />To stay safe on the road, it's important that you replace worn-out parts as soon as possible.<br /><br />We've got your back. Visit us at a Ford dealer soon. '''
 	cta1_text='''BOOK A SERVICE'''
 	cta1_url='''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
 	cta1_link_name = '''service_booking'''
