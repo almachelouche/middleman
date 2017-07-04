@@ -66,7 +66,7 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 		cta1_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
 		cta1_link_name = '''latestoffer1'''
 		cta2_text='''LATEST OFFER'''
-		cta2_url='''  https://www.ford.com.au/latest-offers/melbourne?offer=escape-ambiente-petrol-fwd-auto'''
+		cta2_url='''https://www.ford.com.au/latest-offers/melbourne?offer=escape-ambiente-petrol-fwd-auto/'''
 		cta2_link_name = '''test1'''
 
 [[module]]
@@ -77,7 +77,7 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 		title='''Ready for Play.'''
 		copy=''''''
 		cta1_text='''LATEST OFFER'''
-		cta1_url='''  https://www.ford.com.au/latest-offers/melbourne?offer=escape-ambiente-petrol-fwd-auto'''
+		cta1_url='''https://www.ford.com.au/latest-offers/melbourne?offer=escape-ambiente-petrol-fwd-auto/'''
 		cta1_link_name = '''latestoffer1'''
 		cta2_text='''BOOK A TEST DRIVE'''
 		cta2_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
@@ -176,7 +176,7 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 	After all, that's what service should be.<br /><br />
 	So don't wait. Check out the latest offers on the New Ford Escape Ambiente Petrol FWD Automatic today.'''
 	cta1_text='''LATEST OFFER'''
-	cta1_url=''' https://www.ford.com.au/latest-offers/melbourne?offer=escape-ambiente-petrol-fwd-auto'''
+	cta1_url='''https://www.ford.com.au/latest-offers/melbourne?offer=escape-ambiente-petrol-fwd-auto/'''
 	cta1_link_name = '''moreinfo2'''
 
 [[module]] #Footer AU Social
