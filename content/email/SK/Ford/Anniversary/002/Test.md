@@ -22,7 +22,7 @@ color='white'
 font='sk'
 
 	title='''언제나 처음의 감동이 계속되도록'''
-	copy='''<span style="white-space:nowrap;">포드와 함께한 1주년을 축하드립니다.</span><br/><br/>
+	copy='''<span style="white-space:nowrap;">포드와 함께한 1주년을 축하드립니다.</span>
 	<span style="white-space:nowrap;">고객님의 훌륭한 선택에 다시 한번 감사드리며,</span>
 	<span style="white-space:nowrap;">지난 1년 동안 더 없는 만족을 누리셨기를 바랍니다.</span>
 	<span style="white-space:nowrap;">저희는 앞으로도 가장 가까운 곳에서 변함없이</span>
@@ -82,7 +82,7 @@ font='sk'
 	icon1 = '''ph_edm2_call_20160801'''
 	title1 = '''고객센터 문의하기'''
 	copy1 = '''<span style="white-space:nowrap;">도움이나 의견이 필요하시다면</span>
-	<span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">1600-6003</a>으로 언제든 문의주세요.</span><br/><br/>'''
+	<span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">1600-6003</a>으로 언제든 문의주세요.</span>'''
 	icon2 = '''sk_ford_edm1_dealerlocator_20170419'''
 	title2 = '''span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span>'''
 	copy2 = '''<span style="white-space:nowrap;">가장 가까운 전시장 및</span>
