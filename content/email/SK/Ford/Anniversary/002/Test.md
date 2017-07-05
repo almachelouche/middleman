@@ -22,7 +22,12 @@ color='white'
 font='sk'
 
 	title='''언제나 처음의 감동이 계속되도록'''
-	copy='''포드와 함께한 1주년을 축하드립니다. 고객님의 훌륭한 선택에 다시 한번 감사드리며, 지난 1년 동안 더 없는 만족을 누리셨기를 바랍니다. 저희는 앞으로도 가장 가까운 곳에서 변함없이 고객님의 의견을 듣고 신속한 도움을 드릴 것을 약속합니다. 고객님의 모든 기대에 만족하는 포드가 되겠습니다.'''
+	copy='''<span style="white-space:nowrap;">포드와 함께한 1주년을 축하드립니다.</span>
+	<span style="white-space:nowrap;">고객님의 훌륭한 선택에 다시 한번 감사드리며,</span>
+	<span style="white-space:nowrap;">지난 1년 동안 더 없는 만족을 누리셨기를 바랍니다.</span>
+	<span style="white-space:nowrap;">저희는 앞으로도 가장 가까운 곳에서 변함없이</span>
+	<span style="white-space:nowrap;">고객님의 의견을 듣고 신속한 도움을 드릴 것을 약속합니다.</span>
+	<span style="white-space:nowrap;">고객님의 모든 기대에 만족하는 포드가 되겠습니다.</span>'''
 	
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -36,7 +41,10 @@ color='fordblue'
 font='sk'
 
 	title='''24시간 긴급출동 서비스'''
-	copy='''포드 긴급출동 서비스는 365일 24시간 이용 가능합니다. 운전 중 예상치 못한 긴급 상황이 발생하면, 으로 연락주세요.'''
+	copy='''<span style="white-space:nowrap;">포드 긴급출동 서비스는</span> 
+	<span style="white-space:nowrap;">365일 24시간 이용 가능합니다.</span>
+	<span style="white-space:nowrap;">운전 중 예상치 못한 긴급 상황이 발생하면,</span>
+	<span style="white-space:nowrap;"><a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주세요.</span>'''
 	
 [[module]]
 path='email_modules/singles/ctablock'
@@ -53,13 +61,18 @@ color='green'
 font='sk'
 
 	title='''포드 오너를 위한 필수 정보'''
-	copy='''포드 웹사이트에는 더 쉽게 차량을 관리할 수 있도록 돕는 값진 정보가 가득합니다. 아래의 링크를 클릭하시면 고객님께 꼭 필요한 서비스 정보를 확인하실 수 있습니다.
+	copy='''<span style="white-space:nowrap;">포드 웹사이트에는 더 쉽게</span>
+	<span style="white-space:nowrap;">차량을 관리할 수 있도록 돕는</span>
+	<span style="white-space:nowrap;">값진 정보가 가득합니다.</span>
+	<span style="white-space:nowrap;">아래의 링크를 클릭하시면</span>
+	<span style="white-space:nowrap;">고객님께 꼭 필요한 서비스 정보를</span>
+	<span style="white-space:nowrap;">확인하실 수 있습니다.</span>
 	<ul style="margin: 20px; padding: 0; text-decoration:underline; color:#FFFFFF">
 	<li><a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF"><span style="white-space:nowrap;">보증 서비스</span></a></li>
 	<li><a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#FFFFFF"><span style="white-space:nowrap;">차량 관리</span></a></li>
 	<li><a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:underline; color:#FFFFFF"><span style="white-space:nowrap;">전문가의 공인 서비스</span></a></li>
 	<li><a href="https://www.ford-korea.com/owner/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#FFFFFF"><span style="white-space:nowrap;">리콜 안내</span></a></li></ul>'''
-	image='''sk_ford_edm1_greenmodule_20170419'''
+	image = '''sk_ford_edm1_greenmodule_20170419'''
 
 [[module]] #Dual 01
 path='email_modules/dual/01'
@@ -68,10 +81,12 @@ font='sk'
 
 	icon1 = '''ph_edm2_call_20160801'''
 	title1 = '''고객센터 문의하기'''
-	copy1 = '''도움이나 의견이 필요하시다면 으로 언제든 문의주세요.'''
+	copy1 = '''<span style="white-space:nowrap;">도움이나 의견이 필요하시다면</span>
+	<span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">1600-6003</a>으로 언제든 문의주세요.</span>'''
 	icon2 = '''sk_ford_edm1_dealerlocator_20170419'''
 	title2 = '''전시장 및 서비스센터 찾기'''
-	copy2 = '''가장 가까운 전시장 및 서비스센터를 찾아보세요.'''
+	copy2 = '''<span style="white-space:nowrap;">가장 가까운 전시장 및</span>
+	<span style="white-space:nowrap;">서비스센터를 찾아보세요.</span>'''
 	cta1_text = '''자세히 보기'''
 	cta1_url = '''https://www.ford-korea.com/contact-us/'''
 	cta1_link_name = '''contact_us'''
