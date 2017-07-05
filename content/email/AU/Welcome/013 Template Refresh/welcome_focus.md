@@ -49,7 +49,7 @@ color='white'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''au_edm1_ecosport_20170629'''
+	image = '''au_edm1_focus_20170629'''
 
 	[[module]] #Cover 11
 path='email_modules/cover/03'
@@ -79,12 +79,12 @@ color='white'
 	title1='''Ford Owners App'''
 	title2='''Get Accessorised'''
 	copy1='''Download the <a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Owners App</a> for instant access to “how-to” videos, roadside assistance information, service reminders, vehicle owner manuals, and more.<br /><br /><a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="oa" style="text-decoration:underline; color:#2D96CD">Download App Now</a><br /><br />'''
-	copy2='''Take your EcoSport to the next level with Ford Genuine Accessories, designed to seamlessly integrate with your EcoSport.<br /><br /><br /><a href="https://www.ford.com.au/suv/ecosport/accessories/ecosport-ambiente/" name="accessory" style="text-decoration:underline; color:#2D96CD">Discover Accessories</span><br /><br />'''
+	copy2='''Take your Focus to the next level with Ford Genuine Accessories, designed to seamlessly integrate with your Focus.<br /><br /><br /><a href="https://www.ford.com.au/cars/focus/accessories/focus-trend-hatch/" name="accessory" style="text-decoration:underline; color:#2D96CD">Discover Accessories</span><br /><br />'''
 	image1='''au_edm1_owner-app2_20170629'''
     image1_url='''https://www.ford.com.au/owners/vehicle-support/app-download/'''
     image1_name='''Some'''
     image2='''au_edm1_focus02_20170629'''
-    image2_url='''https://www.ford.com.au/suv/ecosport/accessories/ecosport-ambiente/'''
+    image2_url='''https://www.ford.com.au/cars/focus/accessories/focus-trend-hatch/'''
     image2_name='''Some'''
 
  [[module]] #Split 13
@@ -93,7 +93,7 @@ color='white'
 
 	title1='''SYNC<sup>®</sup> Support'''
 	title2='''Ford Service'''
-	copy1='''Become a SYNC<sup>®</sup> expert. Learn how to use SAT NAV, set up Emergency Assistance and familiarise yourself with common voice commands and more on the SYNC<sup>®</sup> Support Portal. <a href="https://www.ford.com.au/owners/technology/sync-support/sync1/" name="sync" style="text-decoration:underline; color:#2D96CD">SYNC<sup>®</sup> Support Portal</span>.'''
+	copy1='''Become a SYNC<sup>®</sup> expert. Learn how to use SAT NAV, set up Emergency Assistance and familiarise yourself with common voice commands and more on the <a href="https://www.ford.com.au/owners/technology/sync-support/sync1/" name="sync" style="text-decoration:underline; color:#2D96CD">SYNC<sup>®</sup> Support Portal</span>.'''
 	copy2='''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That’s what service should be.<br /><br /><br /><a href="https://www.ford.com.au/owners/service/" name="service" style="text-decoration:underline; color:#2D96CD">Find Out More</span>'''
 	image1='''au_edm1_support_20170629'''
     image1_url='''https://www.ford.com.au/owners/technology/sync-support/sync1/'''
