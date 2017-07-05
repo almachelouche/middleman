@@ -53,7 +53,7 @@ color='green'
 font='sk'
 
 	title='''포드 오너를 위한 필수 정보'''
-	copy='''포드 웹사이트에는 더 쉽게 차량을 관리할 수 있도록 돕는 값진 정보가 가득합니다. 아래의 링크를 클릭하시면 고객님께 꼭 필요한 서비스 정보를 확인하실 수 있습니다.'''
+	copy='''포드 웹사이트에는 더 쉽게 차량을 관리할 수 있도록 돕는 값진 정보가 가득합니다. 아래의 링크를 클릭하시면 고객님께 꼭 필요한 서비스 정보를 확인하실 수 있습니다.
 	<ul style="margin: 20px; padding: 0; text-decoration:underline; color:#FFFFFF">
 	<li><a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF"><span style="white-space:nowrap;">보증 서비스</span></a></li>
 	<li><a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#FFFFFF"><span style="white-space:nowrap;">차량 관리</span></a></li>
