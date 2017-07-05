@@ -49,7 +49,7 @@ color='white'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''au_edm1_ecosport_20170629'''
+	image = '''au_edm1_focus_20170629'''
 
 	[[module]] #Cover 11
 path='email_modules/cover/03'
