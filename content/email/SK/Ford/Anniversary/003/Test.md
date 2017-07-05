@@ -14,7 +14,7 @@ color='white'
 
 	image = '''white'''
 	url_link = '''https://www.ford-korea.com'''
-
+ 
 
 [[module]] #Cover 02         
 path='email_modules/cover/02'
