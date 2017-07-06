@@ -1,15 +1,13 @@
 +++
-
 markets = ["au"]
-title = '''AU Service Reminder 012 All Blue'''
+title = '''AU POM 001 Generic '''
 
 [[module]]
 path='email_modules/preheader'
 
-
 	preheader=''''''
     
-    [[module]] #Header Logo
+[[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'
 
@@ -24,13 +22,13 @@ color='white'
 	image = '''AU_edm2_svc_banner_20160615'''
 	url_link = '''https://www.ford.com.au/owners/service/'''
     
-    [[module]]
+[[module]]
 path='email_modules/spacer/default'
 color='white'
 
 	height="30"
     
-  [[module]]
+[[module]]
 path='email_modules/singles/copy'
 color='''white'''
 
