@@ -15,55 +15,35 @@ title = '''TH Service Reminder Regular Due 007 BKK'''
 	url_link='''https://www.ford.co.th/'''
 
 [[module]]
+path='email_modules/cover/02'
 
-	path='email_modules/cover/02'
-	color='''white'''
-	icon='''th_edm2_svc_wrench_20160801'''
-	title='''
-		<span style="font-family:Tahoma, Verdana, Sans-serif">
-			<span style="white-space:nowrap;">ได้เวลาเช็คสภาพ</span>
-			รถ
-			<span style="white-space:nowrap;">ของคุณแล้ว</span>
-		</span>
-	'''
-	copy='''
-		<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%>
-			<br />
-			<br />
-			<span style="white-space:nowrap;">รถ <%${user.CustomAttribute['Model']}%> ของคุณได้เวลาตรวจเช็คระยะแล้ว</span>
-			<span style="white-space:nowrap;"> ที่ศูนย์บริการฟอร์ด</span>
-			<span style="white-space:nowrap;">เรามีช่างผู้ชำนาญงานของฟอร์ด</span>
-			<br />
-			<span style="white-space:nowrap;">ที่พร้อมดูแลรถยนต์ของคุณ</span>
-			<span style="white-space:nowrap;">ให้อยู่ในสภาพสมบูรณ์ทุกเมื่อ</span>
-			<br />
-			<br />
-			<span style="white-space:nowrap;">เช็คระยะครั้งถัดไปวันที่ : </span> 
-			<span style="white-space:nowrap;">
-				<strong><% ${user.CustomAttribute['NextServiceDate']} %></strong>
-			</span> 
-			<br />
-			<br />
-			<span style="white-space:nowrap;">บริการใหม่!!</span>
-			<span style="white-space:nowrap;">ฟอร์ดเพิ่มความสะดวกสบาย</span>
-			<br />
-			<span style="white-space:nowrap;">ให้คุณสามารถนัดหมายเช็คระยะ</span>
-			ที
-			่<span style="white-space:nowrap;">ศูนย์บริการฟอร์ดง่ายๆ</span>
-			<br />
-			<span style="white-space:nowrap;">ผ่านระบบ Online Booking</span> 
-			<span style="white-space:nowrap;">ตลอด 7 วัน</span>
-			<br />
-			<span style="white-space:nowrap;">พร้อมการรับประกันเช็คระยะ</span>
-			<span style="white-space:nowrap;">ภายใน 60	นาที</span>
-			<br />
-			<span style="white-space:nowrap;">หากไม่ทัน</span>
-			<span style="white-space:nowrap;">คุณจะได้รับบริการเช็คระยะครั้งนั้น</span> 
-			<span style="white-space:nowrap;">"ฟรีทันที"</span>
-		</span>
-	'''
-	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหมายตอนนี้</span>'''
-	cta1_url='''https://onlinebooking.ford.co.th/'''
+color='''white'''
+icon='''th_edm2_svc_wrench_20160801'''
+title='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">ได้เวลาเช็คสภาพ</span>รถ<span style="white-space:nowrap;">ของคุณแล้ว</span></span>'''
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%>
+<br /><br />
+	<span style="white-space:nowrap;">รถ <%${user.CustomAttribute['Model']}%> ของคุณได้เวลาตรวจเช็คระยะแล้ว</span>
+	<span style="white-space:nowrap;"> ที่ศูนย์บริการฟอร์ด</span>
+	<span style="white-space:nowrap;">เรามีช่างผู้ชำนาญงานของฟอร์ด</span><br />
+	<span style="white-space:nowrap;">ที่พร้อมดูแลรถยนต์ของคุณ</span>
+	<span style="white-space:nowrap;">ให้อยู่ในสภาพสมบูรณ์ทุกเมื่อ</span>
+<br /><br />
+ <span style="white-space:nowrap;">เช็คระยะครั้งถัดไปวันที่ : </span> 
+ <span style="white-space:nowrap;"><strong><% ${user.CustomAttribute['NextServiceDate']} %></strong></span> 
+<br /><br />
+<span style="white-space:nowrap;">บริการใหม่!!</span>
+<span style="white-space:nowrap;">ฟอร์ดเพิ่มความสะดวกสบาย</span><br />
+<span style="white-space:nowrap;">ให้คุณสามารถนัดหมายเช็คระยะ</span>ที่<span style="white-space:nowrap;">ศูนย์บริการฟอร์ดง่ายๆ</span><br />
+<span style="white-space:nowrap;">ผ่านระบบ Online Booking</span> 
+<span style="white-space:nowrap;">ตลอด 7 วัน</span><br>
+<span style="white-space:nowrap;">พร้อมการรับประกันเช็คระยะ</span>
+<span style="white-space:nowrap;">ภายใน 60	นาที</span><br />
+<span style="white-space:nowrap;">หากไม่ทัน</span>
+<span style="white-space:nowrap;">คุณจะได้รับบริการเช็คระยะครั้งนั้น</span> 
+<span style="white-space:nowrap;">"ฟรีทันที"</span></span>'''
+cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหมายตอนนี้</span>'''
+cta1_url='''https://onlinebooking.ford.co.th/'''
+
 
 [[module]]
 
