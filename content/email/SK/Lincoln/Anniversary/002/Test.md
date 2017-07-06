@@ -21,12 +21,14 @@ path='email_modules/cover/02'
 color='''white'''
 font='sk'
 
-	title='''귀하의 여정에 언제나 함께하도록'''
-	copy='''<span style="white-space:nowrap;">링컨과의 새로운 여정을 시작한 1년 전 그 순간을 기억하시나요?</span>
+	title='''<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
+    <span style="white-space:nowrap;">귀하의 여정에 언제나 함께하도록</span></span>'''
+	copy='''<span style="font-size:15px;line-height:14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">
+	<span style="white-space:nowrap;">링컨과의 새로운 여정을 시작한 1년 전 그 순간을 기억하시나요?</span>
 	<span style="white-space:nowrap;">지난 1년간 함께 해온 소중한 인연에 다시 한번 깊은 감사를 드립니다.</span>
 	<span style="white-space:nowrap;">보내주신 사랑과 성원에 보답하고자 앞으로 함께 할 모든 여정에서도</span>
 	<span style="white-space:nowrap;">차별화된 혜택, 믿음과 신뢰가 담긴 서비스를 제공하겠습니다.</span>
-	<span style="white-space:nowrap;">귀하의 특별함에 가치를 더해줄 최고의 감동,</span><br />
+	<span style="white-space:nowrap;">귀하의 특별함에 가치를 더해줄 최고의 감동,</span>
 	<span style="white-space:nowrap;">지금, 링컨과 함께 다시 누려보십시오.</span>
 	</span>'''
 	
@@ -82,7 +84,7 @@ font='sk'
     <li><a href="https://www.lincoln-korea.com/genuine-parts/" name="parts_service" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">부품 및 서비스</span></a></li></ul></span>'''
 	image='''sk_lincoln_edm1_effortlessownership_20170427'''
 
-[[module]] #Dual 01  
+[[module]] #Dual 01 
 path='email_modules/dual/01'
 color='lincoln_white'
 font='sk'
@@ -109,7 +111,7 @@ font='sk'
 	cta2_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span></span>'''
 	cta2_url = '''https://www.lincoln-korea.com/dealer-locate/'''
 	cta2_link_name = '''find_dealer'''
-    
+
 [[module]] #Footer SK Lincoln Social
 path='email_modules/footer/sk/lincoln/social'
 color='white'
@@ -129,4 +131,3 @@ color='white'
  '''
 
 +++
-
