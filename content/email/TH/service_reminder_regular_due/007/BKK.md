@@ -15,6 +15,7 @@ title = '''TH Service Reminder Regular Due 007 BKK'''
 	url_link='''https://www.ford.co.th/'''
 
 [[module]]
+
 	path='email_modules/cover/02'
 	color='''white'''
 	icon='''th_edm2_svc_wrench_20160801'''
@@ -44,6 +45,7 @@ title = '''TH Service Reminder Regular Due 007 BKK'''
 	cta1_url='''https://onlinebooking.ford.co.th/'''
 
 [[module]]
+
 	path='email_modules/cover/03'
 	color='''white'''
 	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;color:#b3b3b3;">
@@ -55,6 +57,7 @@ title = '''TH Service Reminder Regular Due 007 BKK'''
 	<span style="white-space:nowrap;"><% ${user.CustomAttribute['Mileage']} %></span></span>'''
 
 [[module]]
+
 	path='email_modules/custom/3columntitle3icons'
 	color='white'
 	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ทำไมต้องศูนย์บริการฟอร์ด?</span>'''
@@ -79,11 +82,13 @@ title = '''TH Service Reminder Regular Due 007 BKK'''
 										<span style="white-space:nowrap;">เพื่อเพิ่มมูลค่าในการขายต่อ</span></span>'''
 
 [[module]]
+
 	path = '''email_modules/image/banner_nolink'''
 	color = '''white'''
 	image = '''th_edm2_whyfordsvc_20161115'''
 
 [[module]]
+
 	path='email_modules/split/04'
 	color='green'
 	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดค่าน้ำมันเครื่อง<br />สูงสุด</span>'''
@@ -101,10 +106,12 @@ title = '''TH Service Reminder Regular Due 007 BKK'''
 	image = '''th_edm2_savebigonoil_20170122'''
 
 [[module]]
+
 	path='email_modules/footer/th/social'
 	color='white'
 
 [[module]]
+
 	path='email_modules/footer/th/online'
 	color='white'
 +++
