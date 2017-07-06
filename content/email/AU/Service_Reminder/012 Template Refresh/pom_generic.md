@@ -64,7 +64,7 @@ color = '''white'''
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''When looking to personalise your Ford <span style="color:#2D96CD"><%${user.CustomAttribute['Model']}%></span> there are no better accessories than Ford Genuine Accessories. <a href="https://www.ford.com.au/shopping/accessories/" style="text-decoration:underline; color:#2D96CD;" >Click here</a>to see the full range.'''    
+	copy = '''When looking to personalise your Ford <span style="color:#2D96CD"><%${user.CustomAttribute['Model']}%></span> there are no better accessories than Ford Genuine Accessories. <a href="https://www.ford.com.au/shopping/accessories/" style="text-decoration:underline; color:#2D96CD;" >Click here</a> to see the full range.'''    
     
 [[module]]
 path='email_modules/spacer/default'
@@ -85,7 +85,7 @@ color='white'
 	cta2_text = '''ANDROID'''
 	cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en/'''
 	cta2_link_name = '''android1'''
-	image = '''AU_edm2_owner_app2_20160615'''
+	image = '''au_edm1_owner-app_20170629'''
     
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
