@@ -43,8 +43,8 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''sk_lincoln_edm3_topmodule_20170523'''
-
-[[module]] #Cover 01    
+    
+[[module]] #Cover 01   
 path='email_modules/cover/01'
 color='''lincoln_black'''
 font='sk'
@@ -53,7 +53,8 @@ font='sk'
 	copy='''<span style="white-space:nowrap;">링컨 긴급출동 서비스는</span>
 	<span style="white-space:nowrap;">365일 24시간 이용 가능합니다.</span>
 	<span style="white-space:nowrap;">운전 중 예상치 못한 긴급 상황이 발생하면,</span>
-    <span style="white-space:nowrap;"><a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주십시오.</span>''' 
+    <span style="white-space:nowrap;"><a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주십시오.</span>
+	</span>''' 
 	
 [[module]]
 path='email_modules/singles/ctablock'
@@ -62,19 +63,19 @@ color='''lincoln_black'''
 	cta1_url = '''https://www.lincoln-korea.com/parts-service/roadside-assistance/'''
 	cta1_link_name = '''era'''
 
-[[module]] #Split 02  
+[[module]] #Split 02     
 path='email_modules/split/02'
 color='lincoln_grey'
 font='sk'
 
-	title='''보다 편리하게 누리는, 프리미엄 서비스 '''
+	title='''보다 편리하게 누리는, 프리미엄 서비스'''
 	copy='''<span style="white-space:nowrap;">오직 특별한 분만을 위한</span>
     <span style="white-space:nowrap;">품격 있는 서비스를 제공합니다.</span>
     <span style="white-space:nowrap;">아래의 링크를 클릭하시면</span>
     <span style="white-space:nowrap;">귀하에게 필요한 자세한 서비스 정보를</span>
     <span style="white-space:nowrap;">확인하실 수 있습니다.</span>
-    <span style="white-space:nowrap;">픽업&딜리버리 서비스</span>
-    <span style="white-space:nowrap;">부품 및 서비스</span>'''
+    <li><a href="https://www.lincoln-korea.com/parts-service/pick-delivery/" name="pick_delivery" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">픽업&딜리버리 서비스</span>
+    <li><a href="https://www.lincoln-korea.com/genuine-parts/" name="parts_service" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">부품 및 서비스</span>'''
 	image='''sk_lincoln_edm1_effortlessownership_20170427'''
 
 [[module]] #Dual 01      
@@ -85,7 +86,7 @@ font='sk'
 	icon1 = '''sk_lincoln_edm1_contact_20170510'''
 	title1 = '''기대 그 이상의 경험, 링컨 고객센터'''
 	copy1 = '''<span style="white-space:nowrap;">도움이나 의견이 필요하시면</span>
-	<span style="white-space:nowrap;">으로 언제든 연락 주십시오.</span>'''
+	<span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#b45f1a;">1600-6003</a>으로 언제든 연락 주십시오.</span>'''
 	icon2 = '''sk_lincoln_edm1_dealerlocator_20170510'''
 	title2 = '''<span style="white-space:nowrap;">가까운 전시장 및</span>
 	<span style="white-space:nowrap;">서비스센터 찾기</span>'''
