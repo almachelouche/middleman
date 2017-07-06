@@ -92,8 +92,7 @@ title = '''TH Service Reminder Regular Due 007 BKK'''
 			<span style="white-space:nowrap;">มั่นใจอะไหล่แท้</span> 
 			<span style="white-space:nowrap;">ฟอร์ด 100%</span>
 			<span style="white-space:nowrap;">พร้อมการบำรุงรักษารถยนต์</span>
-			<span style="white-space:nowrap;">อย่างมีประสิทธิภาพ</span>
-			เพื่อ
+			<span style="white-space:nowrap;">อย่างมีประสิทธิภาพเพื่อ</span>
 			<span style="white-space:nowrap;">สมรรถนะสูงสุดของรถคุณ</span>
 		</span>
 	'''
@@ -129,7 +128,7 @@ title = '''TH Service Reminder Regular Due 007 BKK'''
 	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดค่าน้ำมันเครื่อง<br />สูงสุด</span>'''
 	copy='''
 		<span style="font-family:Tahoma, Verdana, Sans-serif;">
-			<span style="white-space:nowrap;">เพิ่มความอุ่นใจในการขับขี่พิเศษ!</span> 
+			<span style="white-space:nowrap;">เพิ่มความอุ่นใจในการขับขี่ พิเศษ!</span> 
 			<span style="white-space:nowrap;">รับส่วนลดเพิ่ม 500 บาท</span> 
 			<span style="white-space:nowrap;">เมื่อซื้อโปรแกรมชุดน้ำมันเครื่อง</span>
 			<span style="white-space:nowrap;">สุดคุ้ม (OSP)</span> 
