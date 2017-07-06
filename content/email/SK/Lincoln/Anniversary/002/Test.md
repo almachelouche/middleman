@@ -31,7 +31,7 @@ font='sk'
 	<span style="white-space:nowrap;">귀하의 특별함에 가치를 더해줄 최고의 감동,</span>
 	<span style="white-space:nowrap;">지금, 링컨과 함께 다시 누려보십시오.</span>
 	</span>'''
-	
+
     icon=''''''
 	cta1_text=''''''
 	cta1_url=''''''
