@@ -137,7 +137,7 @@ title = '''TH Service Reminder Regular Due 007 BKK'''
 		</span>
 	'''
 	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
-	cta1_url=''''''
+	cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
 	cta1_icon='''more'''
 	cta1_link_name = '''OSP'''
 	image = '''th_edm2_savebigonoil_20170122'''
