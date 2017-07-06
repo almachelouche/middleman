@@ -19,7 +19,7 @@ path='email_modules/cover/02'
 
 color='''white'''
 icon='''th_edm2_svc_wrench_20160801'''
-title='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">ได้เวลาเช็คสภาพ</span>รถ<span style="white-space:nowrap;">ของคุณแล้ว</span></span>'''
+title='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">ได้เวลาเช็คสภาพรถ<span style="white-space:nowrap;">ของคุณแล้ว</span>'''
 copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%>
 <br /><br />
 	<span style="white-space:nowrap;">รถ <%${user.CustomAttribute['Model']}%> ของคุณได้เวลาตรวจเช็คระยะแล้ว</span>
