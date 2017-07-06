@@ -29,7 +29,7 @@ font='sk'
 	<span style="white-space:nowrap;">보내주신 사랑과 성원에 보답하고자 앞으로 함께 할 모든 여정에서도</span>
 	<span style="white-space:nowrap;">차별화된 혜택, 믿음과 신뢰가 담긴 서비스를 제공하겠습니다.</span>
 	<span style="white-space:nowrap;">귀하의 특별함에 가치를 더해줄 최고의 감동,</span>
-	지금, 링컨과 함께 다시 누려보십시오.</span>
+	<span style="white-space:nowrap;">지금, 링컨과 함께 다시 누려보십시오.</span>
 	</span>'''
 
     icon=''''''
