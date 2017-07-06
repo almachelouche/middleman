@@ -53,7 +53,7 @@ font='sk'
 	copy='''<span style="white-space:nowrap;">링컨 긴급출동 서비스는</span>
 	<span style="white-space:nowrap;">365일 24시간 이용 가능합니다.</span>
 	<span style="white-space:nowrap;">운전 중 예상치 못한 긴급 상황이 발생하면,</span>
-	<span style="white-space:nowrap;">으로 연락주십시오.</span>'''
+    <span style="white-space:nowrap;"><a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주십시오.</span>'''
 	
 [[module]]
 path='email_modules/singles/ctablock'
