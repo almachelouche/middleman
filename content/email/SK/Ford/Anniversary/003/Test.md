@@ -62,16 +62,13 @@ font='sk'
 	<span style="white-space:nowrap;">값진 정보가 가득합니다.</span>
 	<span style="white-space:nowrap;">아래의 링크를 클릭하시면</span>
 	<span style="white-space:nowrap;">고객님께 꼭 필요한 서비스 정보를</span>
-	<span style="white-space:nowrap;">확인하실 수 있습니다.</span>'''
+	<span style="white-space:nowrap;">확인하실 수 있습니다.</span>
     <ul style="margin: 20px; padding: 0; text-decoration:underline; color:#FFFFFF">
 	<li><a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF"><span style="white-space:nowrap;">보증 서비스</span></a></li>
 	<li><a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#FFFFFF"><span style="white-space:nowrap;">차량 관리</span></a></li>
 	<li><a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:underline; color:#FFFFFF"><span style="white-space:nowrap;">전문가의 공인 서비스</span></a></li>
 	<li><a href="https://www.ford-korea.com/owner/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#FFFFFF"><span style="white-space:nowrap;">리콜 안내</span></a></li></ul>'''
 	image='''sk_ford_edm1_greenmodule_20170419'''
-
-moduletypes = [ "SK" ]
-title = 'Duals SK'
 
 [[module]] #Dual 01        
 path='email_modules/dual/01'
@@ -107,4 +104,4 @@ text = '''<span style="white-space:nowrap;">앞으로 저희가 보내드리는 
  <span style="white-space:nowrap;">Copyright © 2017 Ford Sales & Service Korea Inc. 이메일이 제대로 보이지 않는 경우, <a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.</span>
  '''
  
- +++
++++
