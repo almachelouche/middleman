@@ -7,7 +7,7 @@ path='email_modules/preheader'
 
 
 	preheader='''지난 1년간 포드와 함께 해주셔서 진심으로 감사드립니다.'''
-
+ 
 [[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'
@@ -16,8 +16,8 @@ color='white'
 	url_link = '''https://www.ford-korea.com'''
  
 
-[[module]] #Cover 02         
-path='email_modules/cover/02'
+[[module]] #Cover 01         
+path='email_modules/cover/01'
 color='white'
 font='sk'
 
