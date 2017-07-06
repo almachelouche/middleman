@@ -39,13 +39,17 @@ title = '''TH Service Reminder Regular Due 007 BKK'''
 			<br />
 			<br />
 			<span style="white-space:nowrap;">เช็คระยะครั้งถัดไปวันที่ : </span> 
-			<span style="white-space:nowrap;"><strong><% ${user.CustomAttribute['NextServiceDate']} %></strong></span> 
+			<span style="white-space:nowrap;">
+				<strong><% ${user.CustomAttribute['NextServiceDate']} %></strong>
+			</span> 
 			<br />
 			<br />
 			<span style="white-space:nowrap;">บริการใหม่!!</span>
 			<span style="white-space:nowrap;">ฟอร์ดเพิ่มความสะดวกสบาย</span>
 			<br />
-			<span style="white-space:nowrap;">ให้คุณสามารถนัดหมายเช็คระยะ</span>ที่<span style="white-space:nowrap;">ศูนย์บริการฟอร์ดง่ายๆ</span>
+			<span style="white-space:nowrap;">ให้คุณสามารถนัดหมายเช็คระยะ</span>
+			ที
+			่<span style="white-space:nowrap;">ศูนย์บริการฟอร์ดง่ายๆ</span>
 			<br />
 			<span style="white-space:nowrap;">ผ่านระบบ Online Booking</span> 
 			<span style="white-space:nowrap;">ตลอด 7 วัน</span>
