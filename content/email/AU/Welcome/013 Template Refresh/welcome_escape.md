@@ -55,14 +55,14 @@ path='email_modules/cover/03'
 color='''white'''
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
-	copy='''<br /><%${user.CustomAttribute['FullName']}%><br />.<br />There’s nothing quite like a new car. Thank you for choosing another Ford and hope you’ve enjoyed the ride so far.'''
+	copy='''<br /><%${user.CustomAttribute['FullName']}%><br />.<br />There’s nothing quite like a new car. Thank you for choosing another Ford and hope you’ve enjoyed the ride so far.<br /><br />Throughout your ownership experience with Ford you will hear from us occasionally with useful tips, service reminders and information to help you make the most of your new <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.'''
     
     [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''white'''
 segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 
-	copy='''<br /><%${user.CustomAttribute['FullName']}%><br />.<br />There’s nothing quite like a new car. We are excited to have you as part of the Ford family and hope you’ve enjoyed the ride so far.'''
+	copy='''<br /><%${user.CustomAttribute['FullName']}%><br />.<br />There’s nothing quite like a new car. We are excited to have you as part of the Ford family and hope you’ve enjoyed the ride so far.<br /><br />Throughout your ownership experience with Ford you will hear from us occasionally with useful tips, service reminders and information to help you make the most of your new <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.'''
     
     [[module]] #Cover 11
 path='email_modules/cover/03'
@@ -90,10 +90,10 @@ color='white'
 path='email_modules/split/13'
 color='white'
 
-	title1='''SYNC<sup>®</sup> Support'''
+	title1='''SYNC® Support'''
 	title2='''Ford Service'''
-	copy1='''Become a Sync® expert. Learn how to use SAT NAV, set up Emergency assistance and familiarise yourself with common voice commands and more on the <a href="https://www.ford.com.au/owners/technology/sync-support/sync1/" name="sync" style="text-decoration:underline; color:#2D96CD">SYNC<sup>®</sup> Support Portal</span>.'''
-	copy2='''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That’s what service should be.<br /><br /><br /><a href="https://www.ford.com.au/owners/service/" name="service" style="text-decoration:underline; color:#2D96CD">Find Out More</span>'''
+	copy1='''Become a Sync® expert. Learn how to use SAT NAV, set up Emergency assistance and familiarise yourself with common voice commands and more on the <a href="https://www.ford.com.au/owners/technology/sync-support/sync1/" name="sync" style="text-decoration:underline; color:#2D96CD">SYNC® Support Portal</span>.<br /><br />'''
+	copy2='''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That’s what service should be.<br /><br /><a href="https://www.ford.com.au/owners/service/" name="service" style="text-decoration:underline; color:#2D96CD">Find Out More</span><br /><br />'''
 	image1='''au_edm1_support_20170629'''
     image1_url='''https://www.ford.com.au/owners/technology/sync-support/sync1/'''
     image1_name='''Some'''
