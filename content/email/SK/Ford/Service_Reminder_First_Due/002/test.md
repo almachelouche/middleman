@@ -22,7 +22,7 @@ path='email_modules/cover/02'
 color='white'
 font='sk'
 
-	icon=''''''
+	icon='''''' 
 	title='''<span style="white-space:nowrap;">포드와 함께하는 드라이빙,</span>
     <span style="white-space:nowrap;">안전을 더할 때 보다 즐거워집니다.</span></span>'''
 	copy='''<span style="white-space:nowrap;">고객님의 즐겁고 안전한 드라이빙을 위하여,</span>
