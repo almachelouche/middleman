@@ -120,21 +120,17 @@ color='white'
 font='sk'
 
 	icon1 = '''ph_edm2_call_20160801'''
-	title1 = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
-	<span style="white-space:nowrap;">고객센터 문의하기</span></span>'''
-	copy1 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
-	<span style="white-space:nowrap;">도움이나 의견이 필요하시다면</span><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">1600-6003</a>으로 언제든 문의주세요.</span></span>'''
+	title1 = '''<span style="white-space:nowrap;">고객센터 문의하기</span></span>'''
+	copy1 = '''<span style="white-space:nowrap;">도움이나 의견이 필요하시다면</span>
+    <span style="white-space:nowrap;">으로 언제든 문의주세요.</span></span>'''
 	icon2 = '''sk_ford_edm1_dealerlocator_20170419'''
-	title2 = '''<span style="font-size:20px; font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
-	<span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span></span>'''
-	copy2 = '''<span style="font-size:15px;font-family:Nanum Gothic,Malgun Gothic,sans-serif">
-	<span style="white-space:nowrap;">가장 가까운 전시장 및</span>
+	title2 = '''<span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span></span>'''
+	copy2 = '''<span style="white-space:nowrap;">가장 가까운 전시장 및</span>
 	<span style="white-space:nowrap;">서비스센터를 찾아보세요.</span></span>'''
-	cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="white-space:nowrap;">자세히 보기</span></span>'''
+	cta1_text = '''<span style="white-space:nowrap;">자세히 보기</span></span>'''
 	cta1_url = '''https://www.ford-korea.com/contact-us/'''
 	cta1_link_name = '''contact_us'''
-	cta2_text = '''<span style="font-family:Malgun Gothic,sans-serif">
-	<span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span></span>'''
+	cta2_text = '''<span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span></span>'''
 	cta2_url = '''https://www.ford-korea.com/locate-a-dealer/'''
 	cta2_link_name = '''find_dealer'''
 
