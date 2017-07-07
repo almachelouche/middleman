@@ -60,7 +60,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''Did you know your Everest uses something called Diesel Exhaust Fluid? Also known as AdBlue®, this fluid helps reduce vehicle emissions.<br/><br/>It’s important that you maintain AdBlue® fluid levels. So, when your Everest begins to run low, you can purchase a new bottle from your local Ford dealer, selected petrol stations, and automotive retailers.<br/><br/>For more information, and guidance on how to refill your AdBlue® levels, watch the video above or visit the <a href="https://www.youtube.com/watch?v=oYpHsbyN3h4&feature=youtu.be" style="text-decoration:underline; color:#2D96CD;" >Ford AdBlue®</a> website.<br/><br/> '''  
+	copy = '''<br/><br/>Did you know your Everest uses something called Diesel Exhaust Fluid? Also known as AdBlue®, this fluid helps reduce vehicle emissions.<br/><br/>It’s important that you maintain AdBlue® fluid levels. So, when your Everest begins to run low, you can purchase a new bottle from your local Ford dealer, selected petrol stations, and automotive retailers.<br/><br/>For more information, and guidance on how to refill your AdBlue® levels, watch the video above or visit the <a href="https://www.youtube.com/watch?v=oYpHsbyN3h4&feature=youtu.be" style="text-decoration:underline; color:#2D96CD;" >Ford AdBlue®</a> website.<br/><br/>'''  
     
 [[module]]
 path='email_modules/singles/title'
