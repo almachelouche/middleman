@@ -133,7 +133,7 @@ color='white'
 [[module]] #Footer Disclaimer
 path='email_modules/footer/lincoln_disclaimer'
 color='white'
-  
+
  text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><br/>
  <span style="white-space:nowrap;">앞으로 저희가 보내드리는 이메일 수신을 위해 귀하의 주소록이나 이메일</span>
  <span style="white-space:nowrap;">수신 허용 목록에 <span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline;">fordnews@mail.edmasia.com</span>을 추가해주십시오.</span><br/><br/>
