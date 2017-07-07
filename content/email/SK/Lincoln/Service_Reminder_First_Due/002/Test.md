@@ -84,7 +84,7 @@ font='sk'
 	copy='''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">
     <span style="white-space:nowrap;">오직 특별한 분만을 위한</span>
     <span style="white-space:nowrap;">품격 있는 서비스를 제공합니다.</span>
-    <span style="white-space:nowrap;">아래의 링크를 클릭하시면</span><br />
+    <span style="white-space:nowrap;">아래의 링크를 클릭하시면</span>
     <span style="white-space:nowrap;">귀하에게 필요한 자세한 서비스 정보를</span>
     <span style="white-space:nowrap;">확인하실 수 있습니다.</span>
     <ul style="margin: 20px; padding: 0;text-decoration:underline; color:#b45f1a">
@@ -94,7 +94,7 @@ font='sk'
     <li><a href="https://www.lincoln-korea.com/vehicle-maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">차량 관리</span></a></li>
     <li><a href="https://www.lincoln-korea.com/genuine-parts/" name="parts_service" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">부품 및 서비스</span></a></li>
     <li><a href="https://www.lincoln-korea.com/parts-service/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">리콜 안내</span></a></li>
-    </ul></span>''
+    </ul></span>'''
 	image='''sk_lincoln_edm1_effortlessownership_20170427'''
 
 [[module]] #Dual 01  
