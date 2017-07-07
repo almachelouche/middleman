@@ -48,20 +48,17 @@ font='sk'
 	title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
     <span style="white-space:nowrap;">포드만의 체계적인 서비스</span></span>'''
 	icon1 = '''ico_2e_fordsvc_a'''
-	text1 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif;letter-spacing: -2px">
-    <span style="white-space:nowrap;">차량 성능을 최상으로</span>
+	text1 = '''<span style="white-space:nowrap;">차량 성능을 최상으로</span>
     <span style="white-space:nowrap;">유지할 수 있도록</span>
     <span style="white-space:nowrap;">한 분 한 분에게 필요한</span>
     <span style="white-space:nowrap;">최적화된 서비스를 제공합니다.</span></span>'''
 	icon2 = '''ico_2e_fordsvc_b'''
-	text2 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif;letter-spacing: -2px;">
-	<span style="white-space:nowrap;">고객님께서 보유하신 차량의</span>
+	text2 = '''<span style="white-space:nowrap;">고객님께서 보유하신 차량의</span>
 	<span style="white-space:nowrap;">주행거리와 특성에 맞는</span>
 	<span style="white-space:nowrap;">체계적인 서비스를</span>
 	<span style="white-space:nowrap;">제공합니다.</span></span>'''
 	icon3 = '''sk_edm3_koreanwon_20170524'''
-	text3 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif;letter-spacing: -2px;">
-	<span style="white-space:nowrap;">차량 정기 점검 서비스를</span>
+	text3 = '''<span style="white-space:nowrap;">차량 정기 점검 서비스를</span>
 	<span style="white-space:nowrap;">통해 중고차 거래 시</span>
 	<span style="white-space:nowrap;">차량 잔존가치를</span>
 	<span style="white-space:nowrap;">높일 수 있습니다.</span></span>'''
