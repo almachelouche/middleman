@@ -83,7 +83,7 @@ color='green'
 <span style="white-space:nowrap;">บัตรเครดิตกสิกรไทย</span> 
 <span style="white-space:nowrap;">ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span></span>'''
 	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียด ></span>'''
-cta1_url='''https://www.ford.co.th/owner/premium-protection-plus/'''
+cta1_url='''https://www.ford.co.th/owner/oil-save-pack/'''
 cta1_icon='''more'''
 cta1_link_name = '''PPP'''
 image = '''th_edm5a_specialoffer_20160801'''
