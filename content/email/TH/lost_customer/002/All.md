@@ -59,7 +59,7 @@ color='green'
 																		<span style="white-space:nowrap;">แบบแพคเกจ 3 ครั้ง</span>
 																</span>'''
 	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
-cta1_url='''https://www.ford.co.th/owner/premium-protection-plus/'''
+cta1_url='''ttps://www.ford.co.th/owner/oil-save-pack/'''
 cta1_icon='''more'''
 cta1_link_name = '''OSP'''
 image = '''th_edm2_savebigonoil_20170122'''
