@@ -98,7 +98,7 @@ font='sk'
 	cta1_url='''https://www.ford-korea.com/owner/extended-service-plan/ '''
 	cta1_link_name = '''esp'''
 	icon=''''''
-
+ 
 [[module]] #Split 02
 path='email_modules/split/02'
 color='green'
