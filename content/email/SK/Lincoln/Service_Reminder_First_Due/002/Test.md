@@ -45,21 +45,21 @@ font='sk'
 	title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">오직 링컨만을 위한 프리미엄 서비스</span>'''
 	icon1 = '''sk_edm3_lincoln_checklist_20170524'''
 	text1 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">귀하의 차량이 늘 최상의</span> 
-    <span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">상태를 유지할 수 있도록</span> 
-    <span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">차별화된 서비스를</span> 
-    <span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">약속합니다.</span>'''
+    <span style="white-space:nowrap;">상태를 유지할 수 있도록</span> 
+    <span style="white-space:nowrap;">차별화된 서비스를</span> 
+    <span style="white-space:nowrap;">약속합니다.</span>'''
 	icon2 = '''sk_edm3_lincoln_geneniue_part_20170524'''
 	text2 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">링컨은 귀하의 차량</span> 
-    <span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">주행거리와 특성에 맞춘</span> 
-    <span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">체계적인 서비스를</span> 
-    <span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">선사합니다.</span>'''
+    <span style="white-space:nowrap;">주행거리와 특성에 맞춘</span> 
+    <span style="white-space:nowrap;">체계적인 서비스를</span> 
+    <span style="white-space:nowrap;">선사합니다.</span>'''
 	icon3 = '''sk_edm3_lincoln_koreanwon_20170524'''
 	text3 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">정기적인 점검 서비스를</span> 
-    <span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">통해 중고차 거래 시</span> 
-    <span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">차량 잔존가치를</span> 
-    <span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">높일 수 있습니다.</span>'''
+    <span style="white-space:nowrap;">통해 중고차 거래 시</span> 
+    <span style="white-space:nowrap;">차량 잔존가치를</span> 
+    <span style="white-space:nowrap;">높일 수 있습니다.</span>'''
     
-    [[module]] #Banner Image No Link
+[[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
@@ -78,12 +78,12 @@ font='sk'
 
 	title='''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">링컨만의 위한 안심 서비스</span>'''
 	copy='''<span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">링컨의 소모성 부품 무상교환 서비스 ESP(Extended Service Plan)는</span> 
-    <<span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">프리미엄 정비 서비스(Premium Maintenance Plan)로</span> 
-    <span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">3년/6만km(컨티넨탈은 5년/10만km)까지</span> 
-    <span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">일반 소모품을 무상으로 교체해드립니다.</span> 
-    <span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">&#8226; 일반 소모품 교환을 포함한 폭넓은 정비 서비스를 제공합니다.</span> 
-    <span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">&#8226; 위 서비스는 중고차 판매시 해당 차량과 함께 양도가 가능합니다.</span> 
-    <span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">&#8226; 3년 내에 서비스 기간 5년 연장 상품 구매가 가능합니다.</span>'''
+    <span style="white-space:nowrap;">프리미엄 정비 서비스(Premium Maintenance Plan)로</span> 
+    <span style="white-space:nowrap;">3년/6만km(컨티넨탈은 5년/10만km)까지</span> 
+    <span style="white-space:nowrap;">일반 소모품을 무상으로 교체해드립니다.</span> 
+    <span style="white-space:nowrap;">&#8226; 일반 소모품 교환을 포함한 폭넓은 정비 서비스를 제공합니다.</span> 
+    <span style="white-space:nowrap;">&#8226; 위 서비스는 중고차 판매시 해당 차량과 함께 양도가 가능합니다.</span> 
+    <span style="white-space:nowrap;">&#8226; 3년 내에 서비스 기간 5년 연장 상품 구매가 가능합니다.</span>'''
 	
 [[module]]
 path='email_modules/singles/ctablock'
