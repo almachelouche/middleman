@@ -23,10 +23,8 @@ color='white'
 font='sk'
 
 	icon=''''''
-	title='''<span style="font-Size:27px;line-height:36px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
- <span style="white-space:nowrap;">포드와 함께하는 드라이빙,</span>
- <span style="white-space:nowrap;">안전을 더할 때 보다 즐거워집니다.</span>
- </span>'''
+	title='''<span style="font-Size:27px;line-height:36px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;"><span style="white-space:nowrap;">포드와 함께하는 드라이빙,</span>
+    <span style="white-space:nowrap;">안전을 더할 때 보다 즐거워집니다.</span></span>'''
 	copy='''<span style="font-size:15px;line-height:14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">
 	<span style="white-space:nowrap;">고객님의 즐겁고 안전한 드라이빙을 위하여,</span>
 	<span style="white-space:nowrap;">'첫 번째 차량 점검 서비스'에 대해 알려드립니다.</span>
@@ -37,8 +35,8 @@ font='sk'
 	<span style="white-space:nowrap;">포드만의 체계적인 서비스를 지금 예약 후 만나보세요.</span>
 	<span style="white-space:nowrap;">자세한 내용은 가까운 포드 전시장에 문의하시거나</span>
 	<span style="white-space:nowrap;">아래 버튼을 클릭하여 확인하시기 바랍니다.</span></span>'''
-cta1_text='''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
-<span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span></span>'''
+    cta1_text='''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
+    <span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span></span>'''
 	cta1_url='''https://www.ford-korea.com/locate-a-dealer/'''cta1_link_name='''find_dealer'''
 	cta2_text=''''''
 	cta2_url=''''''
@@ -50,13 +48,13 @@ color='white'
 font='sk'
 
 	title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
-<span style="white-space:nowrap;">포드만의 체계적인 서비스</span></span>'''
+    <span style="white-space:nowrap;">포드만의 체계적인 서비스</span></span>'''
 	icon1 = '''ico_2e_fordsvc_a'''
 	text1 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif;letter-spacing: -2px">
-<span style="white-space:nowrap;">차량 성능을 최상으로</span>
-<span style="white-space:nowrap;">유지할 수 있도록</span>
-<span style="white-space:nowrap;">한 분 한 분에게 필요한</span>
-<span style="white-space:nowrap;">최적화된 서비스를 제공합니다.</span></span>'''
+    <span style="white-space:nowrap;">차량 성능을 최상으로</span>
+    <span style="white-space:nowrap;">유지할 수 있도록</span>
+    <span style="white-space:nowrap;">한 분 한 분에게 필요한</span>
+    <span style="white-space:nowrap;">최적화된 서비스를 제공합니다.</span></span>'''
 	icon2 = '''ico_2e_fordsvc_b'''
 	text2 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif;letter-spacing: -2px;">
 	<span style="white-space:nowrap;">고객님께서 보유하신 차량의</span>
@@ -88,14 +86,14 @@ color='fordblue'
 font='sk'
 
 	title='''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
-<span style="white-space:nowrap;">포드만의 안심 서비스</span></span>'''
+    <span style="white-space:nowrap;">포드만의 안심 서비스</span></span>'''
 	copy='''<span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">
-<span style="white-space:nowrap;">포드의 소모성 부품 무상교환 서비스 ESP(Extended Service Plan)는</span>
-<span style="white-space:nowrap;">차량 구매 후 3년/6만km(선도래기준)까지 무상으로 제공됩니다.</span> 
-<span style="white-space:nowrap;">&#8226; 차량 종합 검사, 타이어 위치 교환, 엔진 오일 및 필터 교환 서비스를 포함합니다.</span> 
-<span style="white-space:nowrap;">&#8226; 위 서비스는 중고차 판매시 해당 차량과 함께 양도가 가능합니다.</span> 
-<span style="white-space:nowrap;">&#8226; 3년 이내 소정의 추가 비용으로 서비스 해당 품목이 확대된</span>
-<span style="white-space:nowrap;">ESP 프리미엄 정비 서비스를 구매하실 수 있습니다.</span></span>'''
+    <span style="white-space:nowrap;">포드의 소모성 부품 무상교환 서비스 ESP(Extended Service Plan)는</span>
+    <span style="white-space:nowrap;">차량 구매 후 3년/6만km(선도래기준)까지 무상으로 제공됩니다.</span> 
+    <span style="white-space:nowrap;">&#8226; 차량 종합 검사, 타이어 위치 교환, 엔진 오일 및 필터 교환 서비스를 포함합니다.</span> 
+    <span style="white-space:nowrap;">&#8226; 위 서비스는 중고차 판매시 해당 차량과 함께 양도가 가능합니다.</span> 
+    <span style="white-space:nowrap;">&#8226; 3년 이내 소정의 추가 비용으로 서비스 해당 품목이 확대된</span>
+    <span style="white-space:nowrap;">ESP 프리미엄 정비 서비스를 구매하실 수 있습니다.</span></span>'''
 	cta1_text='''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="white-space:nowrap;">더 알아보기</span></span>'''
 	cta1_url='''https://www.ford-korea.com/owner/extended-service-plan/ '''
 	cta1_link_name = '''esp'''
