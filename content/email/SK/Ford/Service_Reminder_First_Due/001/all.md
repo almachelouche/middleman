@@ -158,3 +158,5 @@ text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><br/
 이메일이 제대로 보이지 않는 경우, <a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.<p> </p><p> </p><p> </p></span>'''
 
 +++
+
+
