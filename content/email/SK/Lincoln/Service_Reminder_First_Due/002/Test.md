@@ -6,8 +6,7 @@ title = '''SK Lincoln Service Reminder First 001 test'''
 [[module]]
 path='email_modules/preheader'
 
-
-	preheader='''링컨과 함께하는 여정에 처음의 감동이 늘 함께하도록, 귀하의 링컨을 위한 '첫 번째 차량 점검'을 권장해드립니다.'''
+    preheader='''링컨과 함께하는 여정에 처음의 감동이 늘 함께하도록, 귀하의 링컨을 위한 '첫 번째 차량 점검'을 권장해드립니다.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -22,21 +21,21 @@ path='email_modules/cover/02'
 color='''lincoln_white'''
 font='sk'
 
-icon=''''''
-title='''<span style="font-Size:26px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">오직 귀하만을 위한 차량 점검 서비스를 만나십시오.</span>'''
-copy='''<span style="font-size:15px;line-height:14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">즐겁고 안전한 운전을 위한 '첫 번째 차량 점검'을 권장합니다. 
-    <span style="white-space:nowrap;">처음과 같은 안전성과 주행성능을 유지하기 위해</span>
-    <span style="white-space:nowrap;">전문 테크니션이 맞춤 서비스를 선사합니다.</span>
-    <span style="white-space:nowrap;">'첫 번째 차량 점검 서비스'를 신청하시면, 27가지 무상 점검은 물론 
-    <span style="white-space:nowrap;">차량 상태를 한눈에 확인할 수 있는 점검 진단표를 제공합니다.</span> 
-    <span style="white-space:nowrap;">링컨만의 프리미엄 점검 서비스를 지금 바로 만나보시기 바랍니다.</span> 
-    <span style="white-space:nowrap;">자세한 내용은 가까운 링컨 전시장이나 서비스센터에 문의하십시오.</span>'''
-cta1_text='''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">전시장 및 서비스센터 찾기</span>'''
-cta1_url='''https://www.lincoln-korea.com/dealer-locate'''
-cta1_link_name = '''find_dealer'''
-cta2_text=''''''
-cta2_url=''''''
-cta2_link_name = ''''''
+    icon=''''''
+    title='''<span style="font-Size:26px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">오직 귀하만을 위한 차량 점검 서비스를 만나십시오.</span>'''
+    copy='''<span style="font-size:15px;line-height:14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">즐겁고 안전한 운전을 위한 '첫 번째 차량 점검'을 권장합니다.</span> 
+    <span style="font-size:15px;line-height:14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">처음과 같은 안전성과 주행성능을 유지하기 위해</span>
+    <span style="font-size:15px;line-height:14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">전문 테크니션이 맞춤 서비스를 선사합니다.</span>
+    <span style="font-size:15px;line-height:14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">'첫 번째 차량 점검 서비스'를 신청하시면, 27가지 무상 점검은 물론</span> 
+    <span style="font-size:15px;line-height:14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">차량 상태를 한눈에 확인할 수 있는 점검 진단표를 제공합니다.</span> 
+    <span style="font-size:15px;line-height:14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">링컨만의 프리미엄 점검 서비스를 지금 바로 만나보시기 바랍니다.</span> 
+    <span style="font-size:15px;line-height:14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">자세한 내용은 가까운 링컨 전시장이나 서비스센터에 문의하십시오.</span>'''
+    cta1_text='''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">전시장 및 서비스센터 찾기</span>'''
+    cta1_url='''https://www.lincoln-korea.com/dealer-locate'''
+    cta1_link_name = '''find_dealer'''
+    cta2_text=''''''
+    cta2_url=''''''
+    cta2_link_name = ''''''
 
 [[module]] #Custom 01  
 path='email_modules/custom/3columntitle3icons'
@@ -46,19 +45,19 @@ font='sk'
 	title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">오직 링컨만을 위한 프리미엄 서비스</span>'''
 	icon1 = '''sk_edm3_lincoln_checklist_20170524'''
 	text1 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">귀하의 차량이 늘 최상의</span> 
-    <span style="white-space:nowrap;">상태를 유지할 수 있도록</span> 
-    <span style="white-space:nowrap;">차별화된 서비스를</span> 
-    <span style="white-space:nowrap;">약속합니다.</span>'''
+    <span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">상태를 유지할 수 있도록</span> 
+    <span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">차별화된 서비스를</span> 
+    <span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">약속합니다.</span>'''
 	icon2 = '''sk_edm3_lincoln_geneniue_part_20170524'''
 	text2 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">링컨은 귀하의 차량</span> 
-    <span style="white-space:nowrap;">주행거리와 특성에 맞춘</span> 
-    <span style="white-space:nowrap;">체계적인 서비스를</span> 
-    <span style="white-space:nowrap;">선사합니다.</span>'''
+    <span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">주행거리와 특성에 맞춘</span> 
+    <span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">체계적인 서비스를</span> 
+    <span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">선사합니다.</span>'''
 	icon3 = '''sk_edm3_lincoln_koreanwon_20170524'''
 	text3 = '''<span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">정기적인 점검 서비스를</span> 
-    <span style="white-space:nowrap;">통해 중고차 거래 시</span> 
-    <span style="white-space:nowrap;">차량 잔존가치를</span> 
-    <span style="white-space:nowrap;">높일 수 있습니다.</span>'''
+    <span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">통해 중고차 거래 시</span> 
+    <span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">차량 잔존가치를</span> 
+    <span style="font-size:14px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">높일 수 있습니다.</span>'''
     
     [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -79,12 +78,12 @@ font='sk'
 
 	title='''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif">링컨만의 위한 안심 서비스</span>'''
 	copy='''<span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">링컨의 소모성 부품 무상교환 서비스 ESP(Extended Service Plan)는</span> 
-    <span style="white-space:nowrap;">프리미엄 정비 서비스(Premium Maintenance Plan)로</span> 
-    <span style="white-space:nowrap;">3년/6만km(컨티넨탈은 5년/10만km)까지</span> 
-    <span style="white-space:nowrap;">일반 소모품을 무상으로 교체해드립니다.</span> 
-    <span style="white-space:nowrap;">&#8226; 일반 소모품 교환을 포함한 폭넓은 정비 서비스를 제공합니다.</span> 
-    <span style="white-space:nowrap;">&#8226; 위 서비스는 중고차 판매시 해당 차량과 함께 양도가 가능합니다.</span> 
-    <span style="white-space:nowrap;">&#8226; 3년 내에 서비스 기간 5년 연장 상품 구매가 가능합니다.</span>'''
+    <<span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">프리미엄 정비 서비스(Premium Maintenance Plan)로</span> 
+    <span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">3년/6만km(컨티넨탈은 5년/10만km)까지</span> 
+    <span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">일반 소모품을 무상으로 교체해드립니다.</span> 
+    <span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">&#8226; 일반 소모품 교환을 포함한 폭넓은 정비 서비스를 제공합니다.</span> 
+    <span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">&#8226; 위 서비스는 중고차 판매시 해당 차량과 함께 양도가 가능합니다.</span> 
+    <span style="font-size:15px;font-family:'Nanum-Gothic',Malgun Gothic,sans-serif">&#8226; 3년 내에 서비스 기간 5년 연장 상품 구매가 가능합니다.</span>'''
 	
 [[module]]
 path='email_modules/singles/ctablock'
