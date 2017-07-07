@@ -184,9 +184,6 @@ text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><br/
 
 
 
-
-
-
     
     
     
