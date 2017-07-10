@@ -89,8 +89,10 @@ color='white'
 	copy1='''With up to 3,000kg towing capacity, take on the most epic journeys with the Genuine Ford towpack. The tow pack pairs perfectly with the Everest’s Dynamic Stability Control, automatically adapting to changing loads for greater control.'''
 	copy2='''Like our range of bull bars, the genuine Ford nudge bar provides added protection to the front of your Everest and has met Ford’s stringent engineering and safety standards.<br/><br/>'''
 	image1='''au_edm2_everest_accessories2_20170629'''
+    image1_url='''http://google.com'''
     image1_name='''Some'''
     image2='''au_edm2_everest_accessories3_20170629'''
+    image2_url='''http://google.com'''
     image2_name='''Some'''
 
 [[module]] # Owner App Image Right
