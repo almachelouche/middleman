@@ -109,7 +109,14 @@ color='white'
 	cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en/'''
 	cta2_link_name = '''android1'''
 	image = '''au_edm2_ownerapp_20170707'''
-    
+
+[[module]] #Footer Disclaimer 
+path='email_modules/footer/disclaimer'
+color='white'
+
+	text = '''DISCLAIMERS:<br /><br />
+				1) ‘Peace of Mind’ Service Inspection expires after 5,000km’s or 4 months after delivery of your new Ford (whichever is first).<br /><br /> '''
+
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
 color='white'    

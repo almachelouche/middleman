@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU POM Mustang'''
+title = '''AU pom 001 Mustang'''
 
 [[module]]
 path='email_modules/preheader'
@@ -28,42 +28,42 @@ color='white'
 path='email_modules/cover/03'
 color='''white'''
 
-	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%><br /><br />We hope you’re enjoying your new Ford <nameplate>.<br />Now that you’ve been on the road for a few months your <nameplate> is due for its complimentary 2-month/3,000&#185;km  ‘Peace of Mind’ Service Inspection. Our Ford trained technicians will inspect your vehicle and ensure it’s running it’s absolute best.<br /><br />Service Inspection. <br /><br />Book your ‘Peace of Mind Service Inspection' with <Dealer Name> on <Dealer Phone> today, or find your nearest dealer here. '''
+	copy='''Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />We hope you're enjoying your new Ford <span style="color:#2D96CD"><%${user.CustomAttribute['Model']}%></span>. Now that you've been on the road for a few months your <%${user.CustomAttribute['Model']}%> is due for its complimentary 2-month/3,000km <span style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</span>&#185;. Our Ford trained technicians will inspect your vehicle and ensure it’s running at its absolute best. Book your 'Peace of Mind' Service Inspection with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or locate your nearest dealer.'''
 
 		[[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
 
-	cta1_text = '''BOOK YOUR INSPECTION'''
+	cta1_text = '''BOOK YOUR SERVICE'''
 	cta1_url = '''https://www.ford.com.au/owners/service/book-service/'''
-	cta1_link_name = '''BOOK YOUR INSPECTION'''
+	cta1_link_name = '''BOOK YOUR SERVICE'''
     
     [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
-	image = '''AU_edm2_svc_banner_20160615'''
+	image = '''au_edm2_mustang_accessories1_20170629'''
 	url_link = '''https://www.ford.com.au/owners/service/'''
 
 [[module]]
 path='email_modules/cover/03'
 color='''white'''
 
-	copy='''<br />When looking to personalise your Ford <nameplate> there are no better accessories than Ford Genuine Accessories. Click here to see the full range.'''
+	copy='''<br />When looking to personalise your Ford Mustang there are no better accessories than Ford Genuine Accessories & Ford licenced Accessories (FLA). See a selection below or <a href="https://www.ford.com.au/shopping/accessories/" style="text-decoration:underline; color:#2D96CD;" >Click here</a> to see the full range.'''
 
  [[module]] #Split 13
 path='email_modules/split/13'
 color='white'
 
-	title1='''Track Handling Pack'''
-	title2='''Mobile Text Centers'''
+	title1='''Track Handling Pack&#178;'''
+	title2='''Mobile Text Centers&#178;'''
 	copy1='''Assembled with Ford Performance Parts, the high-performance Track Handling Pack is the perfect suspension system for the driver who demands the most from their Mustang.'''
 	copy2='''Designed to work with production struts, shocks and sway bars, the Mustang Lowering Kit lowers your Mustang by 2.5cm for a more aggressive stance.<br/><br/>'''
-	image1='''tms_20160328'''
-    image1_url='''http://google.com'''
+	image1='''au_edm2_mustang_accessories2_20170629'''
+    image1_url='''https://www.ford.co.nz/cars/mustang/accessories/'''
     image1_name='''Some'''
-    image2='''tms_20160328'''
-    image2_url='''http://google.com'''
+    image2='''au_edm2_mustang_accessories3_20170629'''
+    image2_url='''https://www.ford.co.nz/cars/mustang/accessories/'''
     image2_name='''Some'''
     
     [[module]] #Split 13
@@ -74,11 +74,10 @@ color='white'
 	title2='''Body Styling Kit'''
 	copy1='''Painted in Absolute Black this high rise rear spoiler will give your Mustang real presence.<br/><br/>'''
 	copy2='''Add a stylish and dynamic look to your Mustang. This styling kit includes a front spoiler, side rockers, strip kit, and much more.'''
-	image1='''tms_20160328'''
-    image1_url='''http://google.com'''
+	image1='''au_edm2_mustang_accessories4_20170629''' image1_url='''https://www.ford.co.nz/cars/mustang/accessories/#overlay/content/ford/nz/en_nz/mustang-content/image-overlays/accessories-exterior/overlay-6.html'''
     image1_name='''Some'''
-    image2='''tms_20160328'''
-    image2_url='''http://google.com'''
+    image2='''au_edm2_mustang_accessories5_20170629'''
+    image2_url='''https://www.ford.co.nz/cars/mustang/accessories/#'''
     image2_name='''Some'''
  
 [[module]] # Owner App Image Right
