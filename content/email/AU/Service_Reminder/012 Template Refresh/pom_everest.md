@@ -32,7 +32,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''Hi Name, <br /><br />We hope you're enjoying your new Ford <span style="color:#2D96CD"><%${user.CustomAttribute['Model']}%></span>. Now that you've been on the road for a few months your <%${user.CustomAttribute['Model']}%> is due for its complimentary 2-month/3,000km <span style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</span>&#185;. Our Ford trained technicians will inspect your vehicle and ensure it’s running at its absolute best. Book your 'Peace of Mind' Service Inspection with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or locate your nearest dealer.'''
+	copy = '''Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />We hope you're enjoying your new Ford <span style="color:#2D96CD"><%${user.CustomAttribute['Model']}%></span>. Now that you've been on the road for a few months your <%${user.CustomAttribute['Model']}%> is due for its complimentary 2-month/3,000km <span style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</span>&#185;. Our Ford trained technicians will inspect your vehicle and ensure it’s running at its absolute best. Book your 'Peace of Mind' Service Inspection with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or locate your nearest dealer.'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -79,6 +79,20 @@ path='email_modules/spacer/default'
 color='white'
 
 	height="30"
+    
+ [[module]] #Split 13
+path='email_modules/split/13'
+color='white'
+
+	title1='''Fully Loaded Tow Pack'''
+	title2='''No Nonsense Nudge Bar'''
+	copy1='''With up to 3,000kg towing capacity, take on the most epic journeys with the Genuine Ford towpack. The tow pack pairs perfectly with the Everest’s Dynamic Stability Control, automatically adapting to changing loads for greater control.'''
+	copy2='''No Nonsense Nudge Bar
+Like our range of bull bars, the genuine Ford nudge bar provides added protection to the front of your Everest and has met Ford’s stringent engineering and safety standards.<br/><br/>'''
+	image1='''au_edm2_everest_accessories2_20170629'''
+    image1_name='''Some'''
+    image2='''au_edm2_everest_accessories3_20170629'''
+    image2_name='''Some'''
 
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
