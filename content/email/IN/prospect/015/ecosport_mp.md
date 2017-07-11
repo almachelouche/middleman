@@ -33,7 +33,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-		copy = '''Looking for a great deal in addition to GST? You're in luck! At Ford, vehicles are available with benefits for great savings, plus you can enjoy an interest rate of 8.15%. What are you waiting for? Visit your nearest Ford dealership now!*'''
+		copy = '''Looking for a great deal in addition to GST? You're in luck! At Ford, vehicles are available with benefits for great savings, plus you can enjoy an interest rate of 8.15%. <br /><br />What are you waiting for? Visit your nearest Ford dealership now!*'''
 
 [[module]]
 path='email_modules/spacer/default'
