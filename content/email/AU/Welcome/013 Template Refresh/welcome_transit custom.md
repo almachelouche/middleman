@@ -68,7 +68,6 @@ segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
      [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''white'''
-segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 
 	copy='''<br /><br /><span style="font-weight: bold;">Extended Warranty</span><br /><br />Your Transit includes a complimentary extended warranty that covers your vehicle for 3 years or 200,000km – whichever comes first&#179;. Simply follow your vehicle’s servicing requirements outlined in your owner’s literature to stay fully protected. For your convenience, this warranty information is recorded at all Ford Dealerships nationwide and you will also have received a letter confirming the extended warranty period from your Dealer.<br /><br />Call us anytime on: 1300 80 10 80'''
     
