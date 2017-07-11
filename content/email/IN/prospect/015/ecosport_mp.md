@@ -1,12 +1,12 @@
 +++
 markets = ["in"]
-title = '''IN Prospect 014 EcoSport MP'''
+title = '''IN Prospect 015 EcoSport'''
 
 [[module]]
 path='email_modules/preheader'
 
 
-	preheader = '''Now Ford vehicles are available with early benefit, plus enjoy an interest rate of 8.15% p.a. So why wait? Make a move now!*'''
+	preheader = '''At Ford, vehicles are available with benefits for great savings, plus you can enjoy an interest rate of 8.15%. What are you waiting for? Visit your nearest Ford dealership now!*'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -19,7 +19,7 @@ color='white_pb'
 path='email_modules/image/banner'
 color='white'
 
- image='''in_edm5_gst_ecosport_20170606'''
+ image='''in_edm5_gst_ecosport_20170711'''
 	url_link='''https://www.india.ford.com/offers/'''
 	url_link_name='''offer_banner'''
 
@@ -33,7 +33,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-		copy = '''When you purchase a Ford, you don't just buy a great vehicle - you become part of our family. And family always gets the best deals.<br /><br />Why wait for GST to avail offer benefit. Now Ford vehicles are available with early benefit, plus enjoy an interest rate of 8.15% p.a. So why wait? Make a move now!*'''
+		copy = '''Looking for a great deal in addition to GST? You're in luck! At Ford, vehicles are available with benefits for great savings, plus you can enjoy an interest rate of 8.15%. What are you waiting for? Visit your nearest Ford dealership now!*'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -109,7 +109,7 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-	text = '''Terms & conditions Apply. <br /><br />1. Benefit is calculated on the basis of expected Goods and Services Tax ("GST") rate schedule for goods and GST compensation CESS rates ("GST Rates") approved by GST Council in their 14th GST meeting held on May 18, 2017. The benefit is the difference between current Ex-Showroom price and expected Ex-Showroom price based on GST Rates. The benefit is applicable for vehicles booking done between June 1, 2017 to June 30, 2017 with full payment on or before 30th June, 2017. <br /><br />2. Interest rate of 8.15% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit. <br /><br />3. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.'''
+	text = '''*Terms & conditions Apply. <br /><br />1. All Prices shown are ex-showroom Delhi for Ford EcoSport Ambiente Petrol. The ex-showroom price are based on the GST (Goods and services tax) rates. The benefit is applicable for vehicles booking done between July 1, 2017 to July 31, 2017 with full payment on or before 31st July, 2017.<br /><br />2. Interest rate of 8.15% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.<br /><br />3. Exchange Bonus is valid only on select variants. For more information, please contact a Ford dealer.'''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
