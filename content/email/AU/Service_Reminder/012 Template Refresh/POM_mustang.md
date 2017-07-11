@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU pom 001 Mustang'''
+title = '''AU POM 001 Mustang'''
 
 [[module]]
 path='email_modules/preheader'
@@ -23,6 +23,12 @@ color='white'
 
 	image = '''AU_edm2_svc_banner_20160615'''
 	url_link = '''https://www.ford.com.au/owners/service/'''
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
 
 	[[module]]
 path='email_modules/cover/03'
@@ -49,7 +55,7 @@ color='white'
 path='email_modules/cover/03'
 color='''white'''
 
-	copy='''<br />When looking to personalise your Ford Mustang there are no better accessories than Ford Genuine Accessories & Ford licenced Accessories (FLA). See a selection below or <a href="https://www.ford.com.au/shopping/accessories/" style="text-decoration:underline; color:#2D96CD;" >Click here</a> to see the full range.'''
+	copy='''<br />When looking to personalise your Ford Mustang there are no better accessories than Ford Genuine Accessories & Ford licenced Accessories (FLA). See a selection below or <a href="https://www.ford.co.nz/cars/mustang/accessories/#" style="text-decoration:underline; color:#2D96CD;" >Click here</a> to see the full range.'''
 
  [[module]] #Split 13
 path='email_modules/split/13'
