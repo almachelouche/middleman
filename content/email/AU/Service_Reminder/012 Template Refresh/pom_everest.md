@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU POM 001 Generic '''
+title = '''AU POM 001 Everest '''
 
 [[module]]
 path='email_modules/preheader'
@@ -48,29 +48,52 @@ color='''white'''
 	cta1_url = '''https://www.ford.com.au/owners/service/book-service/'''
 	cta1_link_name = '''service_booking'''
 
-[[module]]
-path='email_modules/singles/title'
-color='''white'''
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
 
-	title = '''Ger Personal'''   
-
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
-	image = '''au_edm2_generic_accessories_20170629'''
+	image='''au_edm2_everest_accessories1_20170629'''
+	url_link='''https://www.youtube.com/watch?v=oYpHsbyN3h4&feature=youtu.be'''
+	url_link_name='''everestvideo'''
     
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''When looking to personalise your Ford <span style="color:#2D96CD"><%${user.CustomAttribute['Model']}%></span> there are no better accessories than Ford Genuine Accessories. <a href="https://www.ford.com.au/shopping/accessories/" style="text-decoration:underline; color:#2D96CD;" >Click here</a> to see the full range.'''    
+	copy = '''<br/><br/>Did you know your Everest uses something called Diesel Exhaust Fluid? Also known as AdBlue®, this fluid helps reduce vehicle emissions.<br/><br/>It’s important that you maintain AdBlue® fluid levels. So, when your Everest begins to run low, you can purchase a new bottle from your local Ford dealer, selected petrol stations, and automotive retailers.<br/><br/>For more information, and guidance on how to refill your AdBlue® levels, watch the video above or visit the <a href="https://www.youtube.com/watch?v=oYpHsbyN3h4&feature=youtu.be" style="text-decoration:underline; color:#2D96CD;" >Ford AdBlue®</a> website.<br/><br/>'''  
+    
+[[module]]
+path='email_modules/singles/title'
+color='''white'''
+
+	title = '''Ger Personal'''   
+    
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+
+	copy = '''When looking to personalise your Ford Everest there are no better accessories than Ford Genuine Accessories. <a href="https://www.ford.co.nz/suv/everest/accessories/" style="text-decoration:underline; color:#2D96CD;" >Click here</a> to see the full range.'''    
     
 [[module]]
 path='email_modules/spacer/default'
 color='white'
 
 	height="30"
+    
+ [[module]] #Split 13
+path='email_modules/split/13'
+color='white'
+
+	title1='''Fully Loaded Tow Pack'''
+	title2='''No Nonsense Nudge Bar'''
+	copy1='''With up to 3,000kg towing capacity, take on the most epic journeys with the Genuine Ford towpack. The tow pack pairs perfectly with the Everest’s Dynamic Stability Control, automatically adapting to changing loads for greater control.'''
+	copy2='''Like our range of bull bars, the genuine Ford nudge bar provides added protection to the front of your Everest and has met Ford’s stringent engineering and safety standards.<br/><br/>'''
+	image1='''au_edm2_everest_accessories2_20170629'''
+    image1_url='''https://www.ford.com.au/suv/everest/accessories/ambiente-diesel/#overlay/content/ford/au/en_au/everest-content/image-overlays/ambiente-4wd-3-2L-diesel-ext/overlay-32.html'''
+    image1_name='''Some'''
+    image2='''au_edm2_everest_accessories3_20170629'''
+    image2_url='''https://www.ford.com.au/suv/everest/accessories/ambiente-diesel/#overlay/content/ford/au/en_au/everest-content/image-overlays/ambiente-4wd-3-2L-diesel-ext/overlay-9.html'''
+    image2_name='''Some'''
 
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
@@ -85,15 +108,15 @@ color='white'
 	cta2_text = '''ANDROID'''
 	cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en/'''
 	cta2_link_name = '''android1'''
-	image = '''au_edm1_owner-app_20170629'''
-    
+	image = '''au_edm2_ownerapp_20170707'''
+
 [[module]] #Footer Disclaimer 
 path='email_modules/footer/disclaimer'
 color='white'
 
 	text = '''DISCLAIMERS:<br /><br />
 				1) ‘Peace of Mind’ Service Inspection expires after 5,000km’s or 4 months after delivery of your new Ford (whichever is first).<br /><br /> '''
-    
+
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
 color='white'    
