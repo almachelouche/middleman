@@ -21,18 +21,18 @@ path='email_modules/cover/02'
 
 color='''white'''
 icon='''th_edm2_svc_wrench_urgent_20160801'''
-title='''รถ //ของคุณ เลยเวลาเช็คระยะแล้ว'''
-copy='''สวัสดีคุณ //ท่านลูกค้าฟอร์ด 
-//เพื่อรักษารถ //
-					ของคุณให้อยู่ในสภาพดี//
-						และวิ่งได้อย่างเต็มประสิทธิภาพสม่ำเสมอ//
-						อย่าลืมนำรถเข้าศูนย์บริการ//
-						เพื่อตรวจเช็คระยะเมื่อครบกำหนด//
-					นัดหมายล่วงหน้าเพื่อเข้ารับบริการได้ทันที//
-		ติดต่อ //(ระหว่างเวลาทำการ)//
+title='''รถ <%${user.CustomAttribute['Model']}%> ของคุณ เลยเวลาเช็คระยะแล้ว'''
+copy='''สวัสดีคุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด 
+<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%>เพื่อรักษารถ &lt;%${user.CustomAttribute['Model']}%&gt; 
+					ของคุณให้อยู่ในสภาพดี
+						และวิ่งได้อย่างเต็มประสิทธิภาพสม่ำเสมอ
+						อย่าลืมนำรถเข้าศูนย์บริการ
+						เพื่อตรวจเช็คระยะเมื่อครบกำหนด
+					นัดหมายล่วงหน้าเพื่อเข้ารับบริการได้ทันที
+		ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%>(ระหว่างเวลาทำการ)
 		หรือค้นหาตัวแทนจำหน่ายใกล้บ้านคุณ'''
 
-cta1_text='''โทร '''
+cta1_text='''โทร <%${user.CustomAttribute['Dealer_Phone']}%>'''
 cta1_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''
 cta2_text='''ค้นหาตัวแทนจำหน่าย'''
 cta2_url='''https://www.ford.co.th/locate-a-dealer/'''

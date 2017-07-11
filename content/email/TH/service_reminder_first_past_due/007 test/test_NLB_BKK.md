@@ -21,9 +21,9 @@ path='email_modules/cover/02'
 
 color='''white'''
 icon='''th_edm2_svc_wrench_urgent_20160801'''
-title='''ของคุณ เลยเวลาเช็คระยะแล้ว'''
-copy='''สวัสดีคุณ //ท่านลูกค้าฟอร์ด//
-						เพื่อรักษารถ //
+title='''รถ <%${user.CustomAttribute['Model']}%> ของคุณ เลยเวลาเช็คระยะแล้ว'''
+copy='''สวัสดีคุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%>
+						เพื่อรักษารถ <%${user.CustomAttribute['Model']}%>
 						ของคุณให้อยู่ในสภาพดี//
 						และวิ่งได้อย่างเต็มประสิทธิภาพสม่ำเสมอ//
 					อย่าลืมนำรถเข้าศูนย์บริการ//
