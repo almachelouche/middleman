@@ -105,7 +105,11 @@ color='white'
 	cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en/'''
 	cta2_link_name = '''android1'''
 	image = '''au_edm1_owner-app_20170629'''
-    
+
+[[module]] #Footer AU Social
+path='email_modules/footer/au/social'
+color='white'
+
 [[module]] #Footer Disclaimer 
 path='email_modules/footer/disclaimer'
 color='white'

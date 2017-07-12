@@ -107,6 +107,10 @@ color='white'
 	cta2_link_name = '''android1'''
 	image = '''au_edm2_ownerapp_20170707'''
 
+[[module]] #Footer AU Social
+path='email_modules/footer/au/social'
+color='white'
+
 [[module]] #Footer Disclaimer 
 path='email_modules/footer/disclaimer'
 color='white'
