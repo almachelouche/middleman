@@ -20,7 +20,7 @@ color='white'
 
 	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 	<span style="white-space:nowrap;">ประหยัดสุดคุ้ม</span> 
-	<span style="white-space:nowrap;">ในเดือนมิถุนายน</span></span>'''
+	<span style="white-space:nowrap;">ในเดือนกรกฎาคม</span></span>'''
 	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 	สวัสดีคุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>
 	<br />ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />
@@ -39,7 +39,7 @@ color='white'
 
 	<span style="white-space:nowrap;">ออกรถฟอร์ด เรนเจอร์ Wildtrak</span>
 	<span style="white-space:nowrap;">รุ่นที่มีระบบแผนที่นำทาง</span><br /> 
-	<span style="white-space:nowrap;">ภายในวันที่ 30 มิถุนายน 2560</span>
+	<span style="white-space:nowrap;">ภายในวันที่ 31 กรกฎาคม 2560</span>
 	<span style="white-space:nowrap;">รับฟรีประกันภัยชั้นหนึ่ง</span><br />
 	<span style="white-space:nowrap;">พร้อมสิทธิ์ผ่อนขั้นต่ำ</span>
 	<span style="white-space:nowrap;">เพียงเดือนละ 8,999 บาท</span><br />
