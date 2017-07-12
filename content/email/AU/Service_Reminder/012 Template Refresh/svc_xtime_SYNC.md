@@ -79,13 +79,6 @@ color='white'
     image2_url='''https://www.ford.com.au/owners/service/free-sat-nav-updates/'''
     image2_name='''Some'''
 
-[[module]] #General Social
-path='email_modules/footer/social'
-color='white'
-
-	copy='''Follow us on'''
-	twitter_url='''https://twitter.com'''
-	facebook_url='''https://www.facebook.com'''
 
 [[module]] #Footer Disclaimer 
 path='email_modules/footer/disclaimer'
