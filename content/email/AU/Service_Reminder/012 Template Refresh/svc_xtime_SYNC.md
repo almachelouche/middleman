@@ -39,7 +39,7 @@ color='white'
 path='email_modules/singles/ctablock'
 color='''white'''
 
-	cta1_text = '''BOOK YOUR Service'''
+	cta1_text = '''BOOK YOUR SERVICE'''
 	cta1_url = '''https://www.ford.com.au/owners/service/book-service/'''
 	cta1_link_name = '''service_booking'''
     
