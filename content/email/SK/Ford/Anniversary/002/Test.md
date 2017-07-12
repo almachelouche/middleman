@@ -21,7 +21,7 @@ path='email_modules/cover/01'
 color='white'
 font='sk'
 
-	title='''언제나 처음의 감동이 계속되도록'''
+	title='''<span style="white-space:nowrap;">언제나 처음의 감동이 계속되도록</span>'''
 	copy='''<span style="white-space:nowrap;">포드와 함께한 1주년을 축하드립니다.</span>
 	<span style="white-space:nowrap;">고객님의 훌륭한 선택에 다시 한번 감사드리며,</span>
 	<span style="white-space:nowrap;">지난 1년 동안 더 없는 만족을 누리셨기를 바랍니다.</span>
@@ -40,7 +40,7 @@ path='email_modules/cover/01'
 color='fordblue'
 font='sk'
 
-	title='''24시간 긴급출동 서비스'''
+	title='''<span style="white-space:nowrap;">24시간 긴급출동 서비스</span>'''
 	copy='''<span style="white-space:nowrap;">포드 긴급출동 서비스는</span> 
 	<span style="white-space:nowrap;">365일 24시간 이용 가능합니다.</span>
 	<span style="white-space:nowrap;">운전 중 예상치 못한 긴급 상황이 발생하면,</span>
@@ -60,8 +60,9 @@ path='email_modules/split/02'
 color='green'
 font='sk'
 
-	title='''포드 오너를 위한 필수 정보'''
-	copy='''<span style="white-space:nowrap;">포드 웹사이트에는 더 쉽게</span>
+	title='''<span style="white-space:nowrap;">포드 오너를 위한 필수 정보</span>'''
+	copy='''
+    <span style="white-space:nowrap;">포드 웹사이트에는 더 쉽게</span>
 	<span style="white-space:nowrap;">차량을 관리할 수 있도록 돕는</span>
 	<span style="white-space:nowrap;">값진 정보가 가득합니다.</span>
 	<span style="white-space:nowrap;">아래의 링크를 클릭하시면</span>
@@ -80,17 +81,17 @@ color='white'
 font='sk'
 
 	icon1 = '''ph_edm2_call_20160801'''
-	title1 = '''고객센터 문의하기'''
+	title1 = '''<span style="white-space:nowrap;">고객센터 문의하기</span>'''
 	copy1 = '''<span style="white-space:nowrap;">도움이나 의견이 필요하시다면</span>
 	<span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">1600-6003</a>으로 언제든 문의주세요.</span>'''
 	icon2 = '''sk_ford_edm1_dealerlocator_20170419'''
     title2 = '''<span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span>'''
 	copy2 = '''<span style="white-space:nowrap;">가장 가까운 전시장 및</span>
 	<span style="white-space:nowrap;">서비스센터를 찾아보세요.</span>'''
-	cta1_text = '''자세히 보기'''
+	cta1_text = '''<span style="white-space:nowrap;">자세히 보기</span>'''
 	cta1_url = '''https://www.ford-korea.com/contact-us/'''
 	cta1_link_name = '''contact_us'''
-	cta2_text = '''전시장 및 서비스센터 찾기'''
+	cta2_text = '''<span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span>'''
 	cta2_url = '''https://www.ford-korea.com/locate-a-dealer/'''
 	cta2_link_name = '''find_dealer'''
     
