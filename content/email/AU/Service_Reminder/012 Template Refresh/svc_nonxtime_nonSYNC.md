@@ -72,6 +72,10 @@ color='white'
     image2_url='''http://genuineisbest.com.au/'''
     image2_name='''Some'''
 
+[[module]] #Footer AU Social
+path='email_modules/footer/au/social'
+color='white'
+
 [[module]] #Footer Disclaimer 
 path='email_modules/footer/disclaimer'
 color='white'
