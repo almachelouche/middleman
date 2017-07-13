@@ -88,7 +88,7 @@ font='sk'
     <span style="white-space:nowrap;">3년 이내 소정의 추가 비용으로 서비스 해당 품목이 확대된</span>
     <span style="white-space:nowrap;">ESP 프리미엄 정비 서비스를 구매하실 수 있습니다.</span></span>'''
 	cta1_text='''<span style="white-space:nowrap;">더 알아보기</span></span>'''
-	cta1_url='''https://www.ford-korea.com/owner/extended-service-plan/ '''
+	cta1_url='''https://www.ford-korea.com/owner/extended-service-plan/'''
 	cta1_link_name = '''esp'''
 	cta1_icon='''play'''
     icon = ''''''
