@@ -83,9 +83,9 @@ font='sk'
 	title='''<span style="white-space:nowrap;">포드만의 안심 서비스</span></span>'''
 	copy='''<span style="white-space:nowrap;">포드의 소모성 부품 무상교환 서비스 ESP(Extended Service Plan)는</span>
     <span style="white-space:nowrap;">차량 구매 후 3년/6만km(선도래기준)까지 무상으로 제공됩니다.</span>
-    <span style="white-space:nowrap;">차량 종합 검사, 타이어 위치 교환, 엔진 오일 및 필터 교환 서비스를 포함합니다.</span>
-    <span style="white-space:nowrap;">위 서비스는 중고차 판매시 해당 차량과 함께 양도가 가능합니다.</span>
-    <span style="white-space:nowrap;">3년 이내 소정의 추가 비용으로 서비스 해당 품목이 확대된</span>
+    <span style="white-space:nowrap;">&#8226; 차량 종합 검사, 타이어 위치 교환, 엔진 오일 및 필터 교환 서비스를 포함합니다.</span>
+    <span style="white-space:nowrap;">&#8226; 위 서비스는 중고차 판매시 해당 차량과 함께 양도가 가능합니다.</span>
+    <span style="white-space:nowrap;">&#8226; 3년 이내 소정의 추가 비용으로 서비스 해당 품목이 확대된</span>
     <span style="white-space:nowrap;">ESP 프리미엄 정비 서비스를 구매하실 수 있습니다.</span></span>'''
 	cta1_text='''<span style="white-space:nowrap;">더 알아보기</span></span>'''
 	cta1_url='''https://www.ford-korea.com/owner/extended-service-plan/'''
@@ -122,7 +122,7 @@ font='sk'
 	icon1 = '''ph_edm2_call_20160801'''
 	title1 = '''<span style="white-space:nowrap;">고객센터 문의하기</span></span>'''
 	copy1 = '''<span style="white-space:nowrap;">도움이나 의견이 필요하시다면</span>
-    <span style="white-space:nowrap;">으로 언제든 문의주세요.</span></span>'''
+    <span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">1600-6003</a>으로 언제든 문의주세요.</span>'''
 	icon2 = '''sk_ford_edm1_dealerlocator_20170419'''
 	title2 = '''<span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span></span>'''
 	copy2 = '''<span style="white-space:nowrap;">가장 가까운 전시장 및</span>
