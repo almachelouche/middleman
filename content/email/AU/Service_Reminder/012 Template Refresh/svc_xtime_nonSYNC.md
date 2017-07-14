@@ -5,7 +5,7 @@ title = '''AU Service Reminder 003 xtime_nonSYNC '''
 [[module]]
 path='email_modules/preheader'
 
-	preheader=''''''
+	preheader='''Don't get stuck without wheels. Book a Free Loan Car with your <%${user.CustomAttribute['Model']}%>’s scheduled service.'''
 
 
 [[module]] #Banner Image

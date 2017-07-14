@@ -1,11 +1,11 @@
 +++
 markets = ["au"]
-title = '''AU Service Reminder 003 nonxtime_SYNC '''
+title = '''AU Service Reminder 003 nonxtime_nonSYNC '''
 
 [[module]]
 path='email_modules/preheader'
 
-	preheader=''''''
+	preheader='''Don't get stuck without wheels. Book a Free Loan Car with your <%${user.CustomAttribute['Model']}%>’s scheduled service.'''
 
 
 [[module]] #Banner Image
@@ -63,7 +63,7 @@ color='white'
 
 	title1='''Auto Club Membership&#179;'''
 	title2='''Genuine Service'''
-	copy1='''Each time you complete your standard service at a participating Ford dealer you’ll receive State <a href="https://www.ford.com.au/owners/service/roadside-assistance/" style="text-decoration:underline; color:#2D96CD">Auto Club Roadside Assistance</a> and membership for up to 12 months.<br/><br/><br/><br/>'''
+	copy1='''Each time you complete your standard service at a participating Ford dealer you’ll receive State <a href="https://www.ford.com.au/owners/service/roadside-assistance/" style="text-decoration:underline; color:#2D96CD">Auto Club Roadside Assistance</a> and membership for up to 12 months.<br/>'''
 	copy2='''We know how important your <Nameplate> is to you, so we’re sure you’ll appreciate that our factory-trained technicians only use Genuine Ford parts and equipment.<br/><br/><a href="http://genuineisbest.com.au/" style="text-decoration:underline; color:#2D96CD">Learn More</a>'''
 	image1='''au_edm2_auto_club_membership_20170629'''
     image1_url='''https://www.ford.com.au/owners/service/roadside-assistance/'''

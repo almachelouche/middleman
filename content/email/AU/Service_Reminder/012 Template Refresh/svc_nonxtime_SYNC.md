@@ -5,7 +5,7 @@ title = '''AU Service Reminder 003 nonxtime_SYNC '''
 [[module]]
 path='email_modules/preheader'
 
-	preheader=''''''
+	preheader='''Don't get stuck without wheels. Book a Free Loan Car with your <%${user.CustomAttribute['Model']}%>’s scheduled service.'''
 
 
 [[module]] #Banner Image
@@ -63,7 +63,7 @@ color='white'
 
 	title1='''Auto Club Membership&#179;'''
 	title2='''SAT NAV Updates&#8308;'''
-	copy1='''Each time you complete your standard service at a participating Ford dealer you’ll receive State <a href="https://www.ford.com.au/owners/service/roadside-assistance/" style="text-decoration:underline; color:#2D96CD">Auto Club Roadside Assistance</a> and membership for up to 12 months.<br/><br/><br/><br/>'''
+	copy1='''Each time you complete your standard service at a participating Ford dealer you’ll receive State <a href="https://www.ford.com.au/owners/service/roadside-assistance/" style="text-decoration:underline; color:#2D96CD">Auto Club Roadside Assistance</a> and membership for up to 12 months.<br/><br/>'''
 	copy2='''If you have SYNC®2 with SAT NAV, we’ll help you stay on track with yearly map updates for up to 7 years when you complete your service with a participating dealer.<br/><br/><a href="https://www.ford.com.au/owners/service/free-sat-nav-updates/" style="text-decoration:underline; color:#2D96CD">Learn More</a>'''
 	image1='''au_edm2_auto_club_membership_20170629'''
     image1_url='''https://www.ford.com.au/owners/service/roadside-assistance/'''
