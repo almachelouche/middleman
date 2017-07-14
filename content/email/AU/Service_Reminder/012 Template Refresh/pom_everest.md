@@ -5,7 +5,8 @@ title = '''AU POM 001 Everest '''
 [[module]]
 path='email_modules/preheader'
 
-	preheader=''''''
+	preheader='''Our Ford-trained technicians are ready to ensure your Ford is in top shape
+'''
     
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -43,6 +44,7 @@ color='white'
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
+segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
 
 	cta1_text = '''BOOK YOUR INSPECTION'''
 	cta1_url = '''https://www.ford.com.au/owners/service/book-service/'''
@@ -60,7 +62,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''<br/><br/>Did you know your Everest uses something called Diesel Exhaust Fluid? Also known as AdBlue®, this fluid helps reduce vehicle emissions.<br/><br/>It’s important that you maintain AdBlue® fluid levels. So, when your Everest begins to run low, you can purchase a new bottle from your local Ford dealer, selected petrol stations, and automotive retailers.<br/><br/>For more information, and guidance on how to refill your AdBlue® levels, watch the video above or visit the <a href="https://www.youtube.com/watch?v=oYpHsbyN3h4&feature=youtu.be" style="text-decoration:underline; color:#2D96CD;" >Ford AdBlue®</a> website.<br/><br/>'''  
+	copy = '''<br/><br/>Did you know your Everest uses something called Diesel Exhaust Fluid? Also known as AdBlue®, this fluid helps reduce vehicle emissions.<br/><br/>It’s important that you maintain AdBlue® fluid. So, when your Everest begins to run low, you can purchase a new bottle from your local Ford dealer, selected petrol stations, and automotive retailers.<br/><br/>For more information, and guidance on how to refill your AdBlue® levels, watch the video above or visit the <a href="https://www.youtube.com/watch?v=oYpHsbyN3h4&feature=youtu.be" style="text-decoration:underline; color:#2D96CD;" >Ford AdBlue®</a> website.<br/><br/>'''  
     
 [[module]]
 path='email_modules/singles/title'
@@ -86,7 +88,7 @@ color='white'
 
 	title1='''Fully Loaded Tow Pack'''
 	title2='''No Nonsense Nudge Bar'''
-	copy1='''With up to 3,000kg towing capacity, take on the most epic journeys with the Genuine Ford towpack. The tow pack pairs perfectly with the Everest’s Dynamic Stability Control, automatically adapting to changing loads for greater control.'''
+	copy1='''With up to 3,000kg&#178; towing capacity, take on the most epic journeys with the Genuine Ford towpack. The tow pack pairs perfectly with the Everest’s Dynamic Stability Control, automatically adapting to changing loads for greater control.'''
 	copy2='''Like our range of bull bars, the genuine Ford nudge bar provides added protection to the front of your Everest and has met Ford’s stringent engineering and safety standards.<br/><br/>'''
 	image1='''au_edm2_everest_accessories2_20170629'''
     image1_url='''https://www.ford.com.au/suv/everest/accessories/ambiente-diesel/#overlay/content/ford/au/en_au/everest-content/image-overlays/ambiente-4wd-3-2L-diesel-ext/overlay-32.html'''
@@ -119,7 +121,8 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 	text = '''DISCLAIMERS:<br /><br />
-				1) ‘Peace of Mind’ Service Inspection expires after 5,000km’s or 4 months after delivery of your new Ford (whichever is first).<br /><br /> '''
+				1) ‘Peace of Mind’ Service Inspection expires after 5,000km’s or 4 months after delivery of your new Ford (whichever is first).<br /><br />
+                2) Braked towing capacity available when fitted with a Genuine Ford Tow pack.Subject to State and Territory towing regulations'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'

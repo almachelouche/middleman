@@ -5,7 +5,8 @@ title = '''AU POM 001 Generic '''
 [[module]]
 path='email_modules/preheader'
 
-	preheader=''''''
+	preheader='''Our Ford-trained technicians are ready to ensure your Ford is in top shape
+'''
     
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -43,6 +44,7 @@ color='white'
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
+segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
 
 	cta1_text = '''BOOK YOUR INSPECTION'''
 	cta1_url = '''https://www.ford.com.au/owners/service/book-service/'''

@@ -39,6 +39,7 @@ color='''white'''
 		[[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
+segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
 
 	cta1_text = '''BOOK YOUR SERVICE'''
 	cta1_url = '''https://www.ford.com.au/owners/service/book-service/'''
@@ -79,7 +80,7 @@ color='white'
 	title1='''Fastback High Rise Spoiler'''
 	title2='''Body Styling Kit'''
 	copy1='''Painted in Absolute Black this high rise rear spoiler will give your Mustang real presence.<br/><br/>'''
-	copy2='''Add a stylish and dynamic look to your Mustang. This styling kit includes a front spoiler, side rockers, strip kit, and much more.'''
+	copy2='''Add a stylish and dynamic look to your Mustang. This styling kit includes a front spoiler, side rockers, stripe kit, and much more.'''
 	image1='''au_edm2_mustang_accessories4_20170629''' image1_url='''https://www.ford.co.nz/cars/mustang/accessories/#overlay/content/ford/nz/en_nz/mustang-content/image-overlays/accessories-exterior/overlay-6.html'''
     image1_name='''Some'''
     image2='''au_edm2_mustang_accessories5_20170629'''
