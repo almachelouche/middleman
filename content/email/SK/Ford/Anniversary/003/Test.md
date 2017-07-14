@@ -22,7 +22,7 @@ color='white'
 font='sk'
 
 	title='''<span style="white-space:nowrap;">언제나 처음의 감동이 계속되도록</span>'''
-	copy='''<span style="white-space:nowrap;">포드와 함께한 1주년을 축하드립니다.</span> <span style="white-space:nowrap;">고객님의 훌륭한 선택에 다시 한번 감사드리며,</span> <span style="white-space:nowrap;">지난 1년 동안 더 없는 만족을 누리셨기를 바랍니다.</span> <span style="white-space:nowrap;">저희는 앞으로도 가장 가까운 곳에서 변함없이</span> <span style="white-space:nowrap;">고객님의 의견을 듣고 신속한 도움을 드릴 것을 약속합니다.</span> <span style="white-space:nowrap;">고객님의 모든 기대에 만족하는 포드가 되겠습니다.</span>'''
+	copy='''<span style="white-space:nowrap;">포드와 함께한 1주년을 축하드립니다.</span><br/> <span style="white-space:nowrap;">고객님의 훌륭한 선택에 다시 한번 감사드리며,</span> <span style="white-space:nowrap;">지난 1년 동안 더 없는 만족을 누리셨기를 바랍니다.</span> <span style="white-space:nowrap;">저희는 앞으로도 가장 가까운 곳에서 변함없이</span> <span style="white-space:nowrap;">고객님의 의견을 듣고 신속한 도움을 드릴 것을 약속합니다.</span> <span style="white-space:nowrap;">고객님의 모든 기대에 만족하는 포드가 되겠습니다.</span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
