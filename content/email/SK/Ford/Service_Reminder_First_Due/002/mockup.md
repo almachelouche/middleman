@@ -33,7 +33,7 @@ font='sk'
 	<span style="white-space:nowrap;">차량 상태를 한눈에 확인할 수 있는 차량 점검 진단표를 제공합니다.</span><br/><br/>
 	<span style="white-space:nowrap;">포드만의 체계적인 서비스를 지금 예약 후 만나보세요.</span><br/><br/>
 	<span style="white-space:nowrap;">자세한 내용은 가까운 포드 전시장에 문의하시거나</span>
-	<span style="white-space:nowrap;">아래 버튼을 클릭하여 확인하시기 바랍니다.</span></span><br/><br/>'''
+	<span style="white-space:nowrap;">아래 버튼을 클릭하여 확인하시기 바랍니다.</span></span>'''
     cta1_text='''<span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span></span>'''
 	cta1_url='''https://www.ford-korea.com/locate-a-dealer/'''cta1_link_name='''find_dealer'''
 	cta2_text=''''''
