@@ -25,9 +25,9 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />This is just a friendly reminder that your Ford<span style="color:#2D96CD"><%${user.CustomAttribute['Model']}%></span> is nearly due for its <service interval> service.<br /><br />. 
+	copy = '''Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />This is just a friendly reminder that your Ford<span style="color:#2D96CD"><%${user.CustomAttribute['Model']}%></span> is nearly due for its <%${user.CustomAttribute['Service_Interval']}%> service.<br /><br />
     We know how important your <%${user.CustomAttribute['Model']}%></span> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%></span> in the trusted hands of Ford trained technicians. You can even book a Free Loan Car&#185; for the day when you book your scheduled service.<br /><br />
-    Book your service and Free Loan Car&#185; with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or find your nearest dealer. You can even book online below.'''
+    Book your service and Free Loan Car&#185; with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or find your nearest dealer.'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -63,7 +63,7 @@ color='white'
 
 	title1='''Auto Club Membership&#179;'''
 	title2='''Genuine Service'''
-	copy1='''Each time you complete your standard service at a participating Ford dealer you’ll receive State <a href="https://www.ford.com.au/owners/service/roadside-assistance/" style="text-decoration:underline; color:#2D96CD">Auto Club Roadside Assistance</a> and membership for up to 12 months.<br/>'''
+	copy1='''Each time you complete your standard service at a participating Ford dealer you’ll receive State <a href="https://www.ford.com.au/owners/service/roadside-assistance/" style="text-decoration:underline; color:#2D96CD">Auto Club Roadside Assistance</a> and membership for up to 12 months.<br/><br/>'''
 	copy2='''We know how important your <Nameplate> is to you, so we’re sure you’ll appreciate that our factory-trained technicians only use Genuine Ford parts and equipment.<br/><br/><a href="http://genuineisbest.com.au/" style="text-decoration:underline; color:#2D96CD">Learn More</a>'''
 	image1='''au_edm2_auto_club_membership_20170629'''
     image1_url='''https://www.ford.com.au/owners/service/roadside-assistance/'''
