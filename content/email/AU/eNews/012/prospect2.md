@@ -14,7 +14,7 @@ color='black'
 
 	title = '''Insider'''
 	date = '''June 2017'''
-	copy = '''IN THIS ISSUE:<br />New Everest Ambiente | Future with Ford | EOFY Deals | Watch Ranger vs Skydiver'''
+	copy = '''IN THIS ISSUE:<br />New Everest Ambiente | Genuine Ford Accessories | Spot the Dot | Watch Ranger vs Skydiver'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -46,21 +46,21 @@ color='white'
 path='email_modules/split/01'
 color='darkblue'
 
- title = '''See into the future'''
-	copy = '''Do parcel-delivering drones and autonomous cars sound like science fiction? According to the innovators who attended the Future with Ford event, these disruptive technologies are on their way and will change the way we move.'''
-	cta1_text = '''LEARN MORE'''
-	cta1_url = '''https://www.ford.com.au/about-ford/newsroom/2017/thought-leaders-and-innovators-define-the-mobility-revolution--u/'''
-	cta1_link_name = '''innovation'''
+ title = '''Time to get personal'''
+	copy = '''When it comes to personalising your Ford, nothing beats Ford Genuine Accessories. Genuine accessories undergo years of safety and durability testing, ensuring they integrate perfectly with your Ford.'''
+	cta1_text = '''GET ACCESSORISED'''
+	cta1_url = '''https://www.ford.com.au/forms/accessories/'''
+	cta1_link_name = '''accessories1'''
 	cta1_icon = '''more'''
-	image = '''AU_edm6_futurist_20170523'''
+	image = '''AU_edm6_accessories2_20170614'''
 
 
 	[[module]] #Split 02
 path='email_modules/split/02'
 color='lightblue'
 
-	title = '''It pays to look closer'''
-	copy = '''From great savings on select SUVs to Free Auto on one of Australia’s best trucks, Ford has some unbelievable deals this End of Financial Year&#179;. Spot these deals and others now, before they disappear!'''
+	title = '''Spot the dot'''
+	copy = '''Who doesn’t like a good deal? Throughout July, Ford is offering some pretty spectacular showroom deals if you find the Blue Dot. You can drive away in a Ranger XLS 4x4 for less than 45 grand³! Find the dots before they all disappear.'''
 	cta1_text = '''EXPLORE OFFERS'''
 	cta1_url = '''http://www.ford.com.au/latest-offers/national/'''
 	cta1_link_name = '''offer'''
@@ -92,7 +92,7 @@ color='white'
 text='''Disclaimers:<br /><br />
 	1. Maximum towing capacity when using a Genuine Ford tow pack. Subject to State and Territory regulations.<br /><br />
 	2. Recommended retail price only. Stock may vary between participating dealers.<br /><br />
-	3. Vehicles must be purchased by 30/06/17 and delivered by 2/07/17. Participating Dealers only. Stock may vary between Dealers. Private and Blue, Silver and Gold Business Fleet customers only.<br /><br />'''
+	3. Built pre-April 2017. Blue Dots at participating dealers in July. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. Prices are recommended . Ford Australia and Ford Dealers can further reduce recommended prices, or otherwise change or extend these offers.<br /><br />'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
