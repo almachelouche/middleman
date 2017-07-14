@@ -1,11 +1,12 @@
 +++
 markets = ["au"]
-title = '''AU POM 001 Ranger '''
+title = '''AU POM 001 Ranger_nonxtime'''
 
 [[module]]
 path='email_modules/preheader'
 
-	preheader=''''''
+	preheader='''Our Ford-trained technicians are ready to ensure your Ford is in top shape
+'''
     
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -34,6 +35,15 @@ color='''white'''
 
 	copy = '''Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />We hope you're enjoying your new Ford <span style="color:#2D96CD"><%${user.CustomAttribute['Model']}%></span>. Now that you've been on the road for a few months your <%${user.CustomAttribute['Model']}%> is due for its complimentary 2-month/3,000km <span style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</span>&#185;. Our Ford trained technicians will inspect your vehicle and ensure it’s running at its absolute best. Book your 'Peace of Mind' Service Inspection with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or locate your nearest dealer.'''
 
+[[module]]
+path='email_modules/singles/ctablock'
+color='''white'''
+segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
+
+	cta1_text = '''BOOK YOUR INSPECTION'''
+	cta1_url = '''https://www.ford.com.au/owners/service/book-service/'''
+	cta1_link_name = '''service_booking'''
+    
 [[module]]
 path='email_modules/spacer/default'
 color='white'
@@ -115,7 +125,7 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 	text = '''DISCLAIMERS:<br /><br />
-				1) Peace of Mind’ Service Inspection expires after 5,000km’s or 4 months after delivery of your new Ford (whichever is first).<br /><br /> 
+				1) Peace of Mind' Service Inspection expires after 5,000km's or 4 months after delivery of your new Ford (whichever is first).<br /><br /> 
 				2) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See www.ford.com.au/owners/service/t-and-c for full terms.<br /><br />
                 3) Available at participating Ford dealers on vehicles built from 2007. Customers will pay equal to or less than the maximum price as published by Ford for the period of the web quote for standard items in the A and B logbook services. See www.ford.com.au/owners/service/t-and-c for full terms.<br /><br />
                 4) Available to Private and Blue Business Fleet customers who have not reached 105,000km/7 years only at participating dealers. State Auto Club Roadside Assistance & Membership is provided at no cost for 12 months or until your next eligible standard service (whichever occurs first). Customers must comply with scheduled servicing intervals to maintain continuity of membership. See www.ford.com.au/owners/service/t-and-c for full terms.<br /><br />'''
