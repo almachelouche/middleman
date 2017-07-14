@@ -30,7 +30,7 @@ font='sk'
 	<span style="white-space:nowrap;">차별화된 혜택, 믿음과 신뢰가 담긴 서비스를 제공하겠습니다.</span><br /><br />
 	<span style="white-space:nowrap;">귀하의 특별함에 가치를 더해줄 최고의 감동,</span>
 	<span style="white-space:nowrap;">지금, 링컨과 함께 다시 누려보십시오.</span>
-    </span>'''
+    </span><br /><br />'''
 
     icon=''''''
 	cta1_text=''''''
