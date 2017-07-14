@@ -41,8 +41,6 @@ color='white'
 	<span style="white-space:nowrap;">รุ่นที่มีระบบแผนที่นำทาง</span><br /> 
 	<span style="white-space:nowrap;">ภายในวันที่ 31 กรกฎาคม 2560</span>
 	<span style="white-space:nowrap;">รับฟรีประกันภัยชั้นหนึ่ง</span><br />
-	<span style="white-space:nowrap;">พร้อมสิทธิ์ผ่อนขั้นต่ำ</span>
-	<span style="white-space:nowrap;">เพียงเดือนละ 8,999 บาท</span><br />
 	<span style="white-space:nowrap;">และฟอร์ดยังมีข้อเสนอสุดพิเศษ</span>
 	<span style="white-space:nowrap;">สำหรับรถฟอร์ด เอเวอร์เรส</span><br /> 
 	<span style="white-space:nowrap;">และ ฟอร์ด เอคโคสปอร์ต</span><br /><br />
@@ -102,8 +100,8 @@ color='white'
 <span style=" white-space:nowrap;">จากฟอร์ด</span>
 
 </span>'''
-	cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาตัวแทนจำหน่าย</span>'''
-	cta1_url = '''https://www.ford.co.th/locate-a-dealer/'''
+	cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">การบริการหลังการขาย</span>'''
+	cta1_url = '''https://www.ford.co.th/owner/maintenance/'''
 	cta1_link_name = '''find_dealer'''
 	cta2_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">อัพเดทข้อมูล</span>'''
 	cta2_url = '''https://www.ford.co.th/#/overlay/content/ford/th/th_th/site-wide-content/overlays/form-overlay/login'''

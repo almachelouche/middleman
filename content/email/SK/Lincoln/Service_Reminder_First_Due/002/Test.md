@@ -31,7 +31,7 @@ font='sk'
     <span style="white-space:nowrap;">링컨만의 프리미엄 점검 서비스를 지금 바로 만나보시기 바랍니다.</span> 
     <span style="white-space:nowrap;">자세한 내용은 가까운 링컨 전시장이나 서비스센터에 문의하십시오.</span>'''
     cta1_text='''<span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span>'''
-    cta1_url='''https://www.lincoln-korea.com/dealer-locate'''
+    cta1_url='''https://www.lincoln-korea.com/dealer-locate/'''
     cta1_link_name = '''find_dealer'''
     cta2_text=''''''
     cta2_url=''''''
