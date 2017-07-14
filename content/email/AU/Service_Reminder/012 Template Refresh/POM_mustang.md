@@ -34,7 +34,7 @@ color='white'
 path='email_modules/cover/03'
 color='''white'''
 
-	copy='''Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />We hope you're enjoying your new Ford <span style="color:#2D96CD"><%${user.CustomAttribute['Model']}%></span>. Now that you've been on the road for a few months your <%${user.CustomAttribute['Model']}%> is due for its complimentary 2-month/3,000km <span style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</span>&#185;. Our Ford trained technicians will inspect your vehicle and ensure it’s running at its absolute best. Book your 'Peace of Mind' Service Inspection with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or locate your nearest dealer.'''
+	copy='''Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />We hope you're enjoying your new Ford <span style="color:#2D96CD"><%${user.CustomAttribute['Model']}%></span>. Now that you've been on the road for a few months your <%${user.CustomAttribute['Model']}%> is due for its complimentary 2-month/3,000km <span style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</span>&#185;. Our Ford trained technicians will inspect your vehicle and ensure it’s running at its absolute best. Book your 'Peace of Mind' Service Inspection with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or <a href="https://www.ford.com.au/dealership/" style="text-decoration:underline; color:#2D96CD">locate your nearest dealer</a>.'''
 
 		[[module]]
 path='email_modules/singles/ctablock'
@@ -81,7 +81,7 @@ color='white'
 	title2='''Body Styling Kit'''
 	copy1='''Painted in Absolute Black this high rise rear spoiler will give your Mustang real presence.<br/><br/>'''
 	copy2='''Add a stylish and dynamic look to your Mustang. This styling kit includes a front spoiler, side rockers, stripe kit, and much more.'''
-	image1='''au_edm2_mustang_accessories4_20170629''' image1_url='''https://www.ford.co.nz/cars/mustang/accessories/#overlay/content/ford/nz/en_nz/mustang-content/image-overlays/accessories-exterior/overlay-6.html'''
+	image1='''au_edm2_mustang_accessories5_20170714''' image1_url='''https://www.ford.co.nz/cars/mustang/accessories/#overlay/content/ford/nz/en_nz/mustang-content/image-overlays/accessories-exterior/overlay-6.html'''
     image1_name='''Some'''
     image2='''au_edm2_mustang_accessories5_20170629'''
     image2_url='''https://www.ford.co.nz/cars/mustang/accessories/#'''
@@ -100,7 +100,7 @@ color='white'
 	cta2_text = '''ANDROID'''
 	cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en/'''
 	cta2_link_name = '''android1'''
-	image = '''AU_edm2_owner_app2_20160615'''
+	image = '''au_edm2_ownersappfinal_20170714'''
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
