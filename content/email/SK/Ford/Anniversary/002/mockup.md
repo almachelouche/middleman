@@ -13,7 +13,7 @@ path='email_modules/header/logo'
 color='white'
 
 	image = '''white'''
-	url_link = '''https://www.ford-korea.com'''
+	url_link = '''https://www.ford-korea.com/'''
 
 
 [[module]] #Cover 01
