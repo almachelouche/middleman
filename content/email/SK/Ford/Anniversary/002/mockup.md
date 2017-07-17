@@ -21,7 +21,7 @@ path='email_modules/cover/01'
 color='white'
 font='sk'
 
-	title='''<span style="white-space:nowrap;">언제나 처음의 감동이 계속되도록</span>'''
+	title='''<span style="white-space:nowrap;">언제나 처음의 감동이 계속되도록</span><br/><br/>'''
 	copy='''<span style="white-space:nowrap;">포드와 함께한 1주년을 축하드립니다.</span><br/><br/>
 	<span style="white-space:nowrap;">고객님의 훌륭한 선택에 다시 한번 감사드리며,</span><br/>
 	<span style="white-space:nowrap;">지난 1년 동안 더 없는 만족을 누리셨기를 바랍니다.</span><br/><br/>
