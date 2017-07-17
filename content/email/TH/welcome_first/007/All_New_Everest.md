@@ -45,7 +45,8 @@ color='white'
 
 title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">ศูนย์ข้อมูลเพื่อเจ้าของ</span><br />
 							<span style="font-family:Tahoma, Verdana, Sans-serif">รถฟอร์ด</span>'''
-	copy1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">รวมทุกเรื่องที่คุณต้องการในหนึ่งเดียว</span></span>'''
+	copy1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
+    <span style=" white-space:nowrap;">รวมทุกเรื่องที่คุณต้องการในหนึ่งเดียว</span></span>'''
 	cta1a_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><br /><br />ดูศูนย์ข้อมูลเจ้าของรถฟอร์ด</span>'''
 	cta1a_url = '''https://www.ford.co.th/owner/owner-unauthenticated/'''
 	cta1a_link_name = '''owner_center'''
@@ -56,9 +57,9 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">ศูนย�
 	cta1c_url = ''''''
 	cta1c_link_name = ''''''
 	icon1 = '''th_edm1_ownersite_20160801'''
-	title2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">เรียนรู้การใช้งาน SYNC&trade;</span>'''
-	copy2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="color:#616161; font-size:16px">รถยนต์ฟอร์ดของคุณมาพร้อมกับ<br />ระบบสั่งงานด้วยเสียง SYNC&trade;<br />เพื่อการสั่งงาน<br />โดยไม่ต้องปล่อยมือจากพวงมาลัย</span></span>'''
-	cta2a_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><br /><br />เรียนรู้เพิ่มเติมเกี่ยวกับ SYNC&trade;</span>'''
+	title2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">เรียนรู้การใช้งาน SYNC&trade 3;</span>'''
+	copy2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="color:#616161; font-size:16px">รถยนต์ฟอร์ดของคุณมาพร้อมกับ<br />ระบบสั่งงานด้วยเสียง SYNC&trade 3;<br />เพื่อการสั่งงาน<br />โดยไม่ต้องปล่อยมือจากพวงมาลัย</span></span>'''
+	cta2a_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><br /><br />เรียนรู้เพิ่มเติมเกี่ยวกับ SYNC&trade 3;</span>'''
 	cta2a_url = '''https://www.ford.co.th/engineering/sync/'''
 	cta2a_link_name = '''sync'''
 	cta2b_text = ''''''
