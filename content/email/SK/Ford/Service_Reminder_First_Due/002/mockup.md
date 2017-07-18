@@ -24,7 +24,7 @@ font='sk'
 
 	icon='''''' 
 	title='''<span style="white-space:nowrap;">포드와 함께하는 드라이빙,</span>
-    <span style="white-space:nowrap;">안전을 더할 때 보다 즐거워집니다.</span></span>'''
+    <span style="white-space:nowrap;">안전을 더할 때 보다 즐거워집니다.</span></span><br/><br/>'''
 	copy='''<span style="white-space:nowrap;">고객님의 즐겁고 안전한 드라이빙을 위하여,</span>
 	<span style="white-space:nowrap;">'첫 번째 차량 점검 서비스'에 대해 알려드립니다.</span><br/><br/>
 	<span style="white-space:nowrap;">항상 처음과 같은 최상의 차량 품질 유지를 위해</span>
@@ -45,7 +45,7 @@ path='email_modules/custom/3columntitle3icons'
 color='white'
 font='sk'
 
-	title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
+	title = '''
     <span style="white-space:nowrap;">포드만의 체계적인 서비스</span></span>'''
 	icon1 = '''ico_2e_fordsvc_a'''
 	text1 = '''<span style="white-space:nowrap;">차량 성능을 최상으로</span>
