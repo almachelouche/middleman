@@ -33,7 +33,7 @@ font='sk'
 	<span style="white-space:nowrap;">차량 상태를 한눈에 확인할 수 있는 차량 점검 진단표를 제공합니다.</span><br/><br/>
 	<span style="white-space:nowrap;">포드만의 체계적인 서비스를 지금 예약 후 만나보세요.</span><br/><br/>
 	<span style="white-space:nowrap;">자세한 내용은 가까운 포드 전시장에 문의하시거나</span>
-	<span style="white-space:nowrap;">아래 버튼을 클릭하여 확인하시기 바랍니다.</span></span>'''
+	<span style="white-space:nowrap;">아래 버튼을 클릭하여 확인하시기 바랍니다.</span></span><br/><br/>'''
     cta1_text='''<span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span></span>'''
 	cta1_url='''https://www.ford-korea.com/locate-a-dealer/'''cta1_link_name='''find_dealer'''
 	cta2_text=''''''
@@ -82,7 +82,7 @@ font='sk'
 
 	title='''<span style="white-space:nowrap;">포드만의 안심 서비스</span></span>'''
 	copy='''<span style="white-space:nowrap;">포드의 소모성 부품 무상교환 서비스 ESP(Extended Service Plan)는</span>
-    <span style="white-space:nowrap;">차량 구매 후 3년/6만km(선도래기준)까지 무상으로 제공됩니다.</span>
+    <span style="white-space:nowrap;">차량 구매 후 3년/6만km(선도래기준)까지 무상으로 제공됩니다.</span><br/><br/>
     <span style="white-space:nowrap;">&#8226; 차량 종합 검사, 타이어 위치 교환, 엔진 오일 및 필터 교환 서비스를 포함합니다.</span>
     <span style="white-space:nowrap;">&#8226; 위 서비스는 중고차 판매시 해당 차량과 함께 양도가 가능합니다.</span>
     <span style="white-space:nowrap;">&#8226; 3년 이내 소정의 추가 비용으로 서비스 해당 품목이 확대된</span>
