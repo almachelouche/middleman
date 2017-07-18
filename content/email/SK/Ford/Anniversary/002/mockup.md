@@ -13,7 +13,7 @@ path='email_modules/header/logo'
 color='white'
 
 	image = '''white'''
-	url_link = '''https://www.ford-korea.com'''
+	url_link = '''https://www.ford-korea.com/'''
 
 
 [[module]] #Cover 01
@@ -21,13 +21,13 @@ path='email_modules/cover/01'
 color='white'
 font='sk'
 
-	title='''<span style="white-space:nowrap;">언제나 처음의 감동이 계속되도록</span>'''
-	copy='''<span style="white-space:nowrap;">포드와 함께한 1주년을 축하드립니다.</span><br/>
+	title='''<span style="white-space:nowrap;">언제나 처음의 감동이 계속되도록</span><br/><br/>'''
+	copy='''<span style="white-space:nowrap;">포드와 함께한 1주년을 축하드립니다.</span><br/><br/>
 	<span style="white-space:nowrap;">고객님의 훌륭한 선택에 다시 한번 감사드리며,</span>
-	<span style="white-space:nowrap;">지난 1년 동안 더 없는 만족을 누리셨기를 바랍니다.</span><br/>
+	<span style="white-space:nowrap;">지난 1년 동안 더 없는 만족을 누리셨기를 바랍니다.</span><br/><br/>
 	<span style="white-space:nowrap;">저희는 앞으로도 가장 가까운 곳에서 변함없이</span>
-	<span style="white-space:nowrap;">고객님의 의견을 듣고 신속한 도움을 드릴 것을 약속합니다.</span><br/>
-	<span style="white-space:nowrap;">고객님의 모든 기대에 만족하는 포드가 되겠습니다.</span><br/>'''
+	<span style="white-space:nowrap;">고객님의 의견을 듣고 신속한 도움을 드릴 것을 약속합니다.</span><br/><br/>
+	<span style="white-space:nowrap;">고객님의 모든 기대에 만족하는 포드가 되겠습니다.</span>'''
 	
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -58,21 +58,19 @@ color='''fordblue'''
 [[module]] #Split 02
 path='email_modules/split/02'
 color='green'
-font='sk'
 
-	title='''<span style="white-space:nowrap;">포드 오너를 위한 필수 정보</span>'''
-	copy='''
-    <span style="white-space:nowrap;">포드 웹사이트에는 더 쉽게</span>
-	<span style="white-space:nowrap;">차량을 관리할 수 있도록 돕는</span>
-	<span style="white-space:nowrap;">값진 정보가 가득합니다.</span>
-	<span style="white-space:nowrap;">아래의 링크를 클릭하시면</span>
-	<span style="white-space:nowrap;">고객님께 꼭 필요한 서비스 정보를</span>
-	<span style="white-space:nowrap;">확인하실 수 있습니다.</span>
-	<ul style="margin: 20px; padding: 0; text-decoration:underline; color:#FFFFFF">
-	<li><a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF"><span style="white-space:nowrap;">보증 서비스</span></a></li>
-	<li><a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#FFFFFF"><span style="white-space:nowrap;">차량 관리</span></a></li>
-	<li><a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:underline; color:#FFFFFF"><span style="white-space:nowrap;">전문가의 공인 서비스</span></a></li>
-	<li><a href="https://www.ford-korea.com/owner/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#FFFFFF"><span style="white-space:nowrap;">리콜 안내</span></a></li></ul>'''
+title = '''<span style="white-space:nowrap;">포드 오너를 위한 필수 정보</span></span>'''
+copy = '''<span style="white-space:nowrap;">포드 웹사이트에는 더 쉽게</span>
+<span style="white-space:nowrap;">차량을 관리할 수 있도록 돕는</span>
+<span style="white-space:nowrap;">값진 정보가 가득합니다.</span>
+<span style="white-space:nowrap;">아래의 링크를 클릭하시면</span>
+<span style="white-space:nowrap;">고객님께 꼭 필요한 서비스 정보를</span>
+<span style="white-space:nowrap;">확인하실 수 있습니다.</span>
+<ul style="margin: 20px; padding: 0;text-decoration:underline; color:#FFFFFF">
+<li><a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">보증 서비스</span></a></li>
+<li><a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">차량 관리</span></a></li>
+<li><a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">전문가의 공인 서비스</span></a></li>
+<li><a href="https://www.ford-korea.com/owner/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">리콜 안내</span></a></li></ul></span>'''
 	image = '''sk_ford_edm1_greenmodule_20170419'''
 
 [[module]] #Dual 01
@@ -104,12 +102,12 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-
-text = '''<span style="white-space:nowrap;">앞으로 저희가 보내드리는 이메일 수신을 위해 귀하의 주소록이나 이메일</span>
-<span style="white-space:nowrap;">수신 허용 목록에 <span style="text-decoration:underline;">fordnews@mail.edmasia.com</span>을 추가해주십시오.</span><br/><br/>
-본 이메일은 귀하의 요청에 따라 발송되었습니다. 이메일 수신을 원치 않으시면 <a href="<%unsubscribe_link_text%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오.<br />
- 본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다. <a href="https://www.ford-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#91a4b1;">개인정보처리방침</a><br/><br/>
- <span style="white-space:nowrap;">Copyright © 2017 Ford Sales & Service Korea Inc. 이메일이 제대로 보이지 않는 경우, <a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.</span>
- '''
+text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><br/>
+<span style="white-space:nowrap;">앞으로 저희가 보내드리는 이메일 수신을 위해 귀하의 주소록이나 이메일</span>
+<span style="white-space:nowrap;">수신 허용 목록에 <span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline;">fordnews@mail.edmasia.com</span>을 추가해주십시오.</span><br/><br/>
+본 이메일은 귀하의 요청에 따라 발송되었습니다. 이메일 수신을 원치 않으시면 <a href="<%unsubscribe_link_text%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. <br />
+본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다. <a href="https://www.ford-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#91a4b1;">개인정보처리방침</a> <br/><br/>
+<span style="white-space:nowrap;">Copyright © 2017 Ford Sales & Service Korea Inc.</span><br /><br />
+이메일이 제대로 보이지 않는 경우, <a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.<p> </p><p> </p><p> </p></span>'''
 
 +++

@@ -90,11 +90,22 @@ color='white'
 
 	title = ''''''
 	icon1 = '''th_edm6_brake_20170113'''
-	text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">ผ้าเบรกสุดคุ้ม</span><br /><br />ซื้อผ้าเบรก Ford-Motorcraft รับฟรี น้ำยาทำความสะอาดหัวฉีด</span>'''
+	text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">ผ้าเบรกสุดคุ้ม</span><br /><br />
+    <span style="white-space:nowrap;">ซื้อผ้าเบรก</span>
+    <span style="white-space:nowrap;">Ford-Motorcraft รับฟรี </span>
+    <span style="white-space:nowrap;">น้ำยาทำความสะอาดหัวฉีด</span></span>'''
 	icon2 = '''th_edm6_tyre_20170113'''
-	text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">โปรยางสุดคุ้ม</span><br /><br />ซื้อยางกู๊ดเยียร์ 3 เส้น แถม 1 เส้นฟรี<sup>1</sup>	รับสิทธิ์ผ่อน 0% นาน 6 เดือน ด้วยบัตรเครดิตกสิกรไทย<sup>2</sup></span>'''
+	text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">โปรยางสุดคุ้ม</span><br /><br />
+    <span style="white-space:nowrap;">ซื้อยางกู๊ดเยียร์ 3 เส้น แถม</span> 
+    <span style="white-space:nowrap;">1 เส้นฟรี<sup>1</sup>	รับสิทธิ์ผ่อน 0% </span>
+    <span style="white-space:nowrap;">นาน 6 เดือน ด้วยบัตร</span>
+    <span style="white-space:nowrap;">เครดิตกสิกรไทย<sup>2</sup></span></span>'''
 	icon3 = '''th_edm6_battery_20170113'''
-	text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้สุดคุ้ม</span><br /><br />รับฟรี น้ำยาทำความสะอาดหัวฉีดเมื่อซื้อแบตเตอรี่ฟอร์ดแท้ สำหรับรถฟอร์ดโดยเฉพาะ</span>'''
+	text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้สุดคุ้ม</span><br /><br />
+    <span style="white-space:nowrap;">รับฟรี น้ำยาทำความสะอาด</span> 
+    <span style="white-space:nowrap;">หัวฉีดเมื่อซื้อแบตเตอรี่</span>
+    <span style="white-space:nowrap;">ฟอร์ดแท้ สำหรับรถฟอร์ด</span>
+    <span style="white-space:nowrap;">โดยเฉพาะ</span></span>'''
 
 
 [[module]]

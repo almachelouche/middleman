@@ -45,7 +45,8 @@ color='white'
 
 title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">ศูนย์ข้อมูลเพื่อเจ้าของ</span><br />
 							<span style="font-family:Tahoma, Verdana, Sans-serif">รถฟอร์ด</span>'''
-	copy1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">รวมทุกเรื่องที่คุณต้องการในหนึ่งเดียว</span></span>'''
+	copy1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
+    <span style=" white-space:nowrap;">รวมทุกเรื่องที่คุณต้องการในหนึ่งเดียว</span></span>'''
 	cta1a_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><br /><br />ดูศูนย์ข้อมูลเจ้าของรถฟอร์ด</span>'''
 	cta1a_url = '''https://www.ford.co.th/owner/owner-unauthenticated/'''
 	cta1a_link_name = '''owner_center'''
