@@ -1,7 +1,6 @@
 +++
 markets = ["th"]
 title = '''TH Sweet Spot 004 All'''
-draft = true
 
 [[module]]
 path='email_modules/preheader'
@@ -93,7 +92,6 @@ color='white'
 	<span style="white-space:nowrap;">ผ้าเบรก</span> 
 	<span style="white-space:nowrap;">Ford-Motorcraft</span> 
 	<span style="white-space:nowrap;">สุดคุ้ม</span></span><br /><br />
-
 	<span style="white-space:nowrap;">ผ้าเบรก</span> 
 	<span style="white-space:nowrap;">Ford-Motorcraft</span> 
 	<span style="white-space:nowrap;">คุณภาพสูง</span> 
