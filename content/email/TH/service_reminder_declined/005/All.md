@@ -1,7 +1,7 @@
 +++
 markets = ["th"]
 title = '''TH Service Reminder Declined 005 All'''
-
+draft = true
 
 [[module]]
 path='email_modules/preheader'
