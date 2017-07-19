@@ -151,7 +151,7 @@ color='white'
 			<br />
 			<br />
 		    <span style="white-space:nowrap;">ซื้อผ้าเบรก</span>
-		    <span style="white-space:nowrap;">Ford-Motorcraft รับฟรี </span>
+		    <span style="white-space:nowrap;">Ford-Motorcraft รับฟรี</span>
 		    <span style="white-space:nowrap;">น้ำยาทำความสะอาดหัวฉีด</span>
 		</span>
 	'''
