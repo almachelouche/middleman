@@ -52,19 +52,16 @@ color='white'
 	image2 = '''au_edm1_escape02_20170629'''
 
 [[module]]
-path='email_modules/split/13'
+path='email_modules/dual/05'
 color='white'
 
-	title1='''SYNC® Support'''
-	title2='''Ford Service'''
-	copy1='''Become a SYNC® expert. Learn how to use SAT NAV, set up Emergency Assistance and familiarise yourself with common voice commands and more on the <a href="https://www.ford.com.au/owners/technology/sync-support/sync1/" name="sync" style="text-decoration:underline; color:#2D96CD">SYNC® Support Portal</span>.<br /><br />'''
-	copy2='''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That’s what service should be.<br /><br /><a href="https://www.ford.com.au/owners/service/" name="service" style="text-decoration:underline; color:#2D96CD">Find Out More</span><br /><br />'''
-	image1='''au_edm1_support_20170629'''
-    image1_url='''https://www.ford.com.au/owners/technology/sync-support/sync1/'''
-    image1_name='''Some'''
-    image2='''au_edm1_service_20170629'''
-    image2_url='''https://www.ford.com.au/owners/service/'''
-    image2_name='''Some'''
+	title1 = '''SYNC® Support'''
+	copy1 = '''Become a SYNC® expert. Learn how to use SAT NAV, set up Emergency Assistance and familiarise yourself with common voice commands and more on the <a href="https://www.ford.com.au/owners/technology/sync-support/sync1/" name="sync" style="text-decoration:underline; color:#2D96CD">SYNC® Support Portal</a>'''
+	image1 = '''au_edm1_support_20170629'''
+
+	title2 = '''Ford Service'''
+	copy2 = '''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That’s what service should be.<br/><br/><a href="https://www.ford.com.au/owners/service/" name="service" style="text-decoration:underline; color:#2D96CD">Find Out More</span><br />'''
+	image2 = '''au_edm1_service_20170629'''
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
