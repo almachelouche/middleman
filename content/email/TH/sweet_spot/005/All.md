@@ -151,7 +151,7 @@ color='white'
 			<br />
 			<br />
 		    <span style="white-space:nowrap;">ซื้อผ้าเบรก</span>
-		    <span style="white-space:nowrap;">Ford-Motorcraft รับฟรี</span>
+		    <span style="white-space:nowrap;">Ford-Motorcraft รับฟรี</span><br />
 		    <span style="white-space:nowrap;">น้ำยาทำความสะอาดหัวฉีด</span>
 		</span>
 	'''
@@ -162,7 +162,7 @@ color='white'
 			<br />
 			<br />
     		<span style="white-space:nowrap;">ซื้อยางกู๊ดเยียร์ 3 เส้น แถม</span> 
-    		<span style="white-space:nowrap;">1 เส้นฟรี<sup>1</sup>	รับสิทธิ์ผ่อน 0% </span><br/>
+    		<span style="white-space:nowrap;">1 เส้นฟรี<sup>1</sup>	รับสิทธิ์ผ่อน 0% </span><br />
     		<span style="white-space:nowrap;">นาน 6 เดือน ด้วยบัตร</span>
     		<span style="white-space:nowrap;">เครดิตกสิกรไทย<sup>2</sup></span>
     	</span>
