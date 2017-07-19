@@ -51,6 +51,12 @@ color='white'
 	height="30"
     
 [[module]]
+path='email_modules/spacer/default'
+color='grey'
+
+	height="20"
+
+[[module]]
 path='email_modules/dual/05'
 color='white'
 
@@ -67,6 +73,12 @@ color='white'
 	cta2a_url = '''https://www.ford.com.au/suv/escape/accessories/ambiente-ecoboost-petrol-awd/'''
 	cta2a_link_name = '''accessory'''
 	image2 = '''au_edm1_escape02_20170629'''
+
+[[module]]
+path='email_modules/spacer/default'
+color='grey'
+
+	height="20"
 
 [[module]]
 path='email_modules/dual/05'
