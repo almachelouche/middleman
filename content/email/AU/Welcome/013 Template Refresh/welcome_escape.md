@@ -124,10 +124,10 @@ color='white'
 	image1 = '''au_edm1_support_20170629'''
 
 	title2 = '''Ford Service'''
-	copy2 = '''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That’s what service should be.'''
-	cta2a_text = '''Find Out More'''
-	cta2a_url = '''https://www.ford.com.au/owners/service/'''
-	cta2a_link_name = '''service'''
+	copy2 = '''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That’s what service should be.<br/><br/><a href="https://www.ford.com.au/owners/service/" name="service" style="text-decoration:underline; color:#2D96CD">Find Out More</span><br /><br />'''
+	cta2a_text = ''''''
+	cta2a_url = ''''''
+	cta2a_link_name = ''''''
 	image2 = '''au_edm1_service_20170629'''
 
 [[module]]
