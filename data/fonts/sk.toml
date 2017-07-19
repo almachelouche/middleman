@@ -1,9 +1,9 @@
 heading1=""
-heading2="font-family: Nanum Gothic,Malgun Gothic,sans-serif; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular;"
-txtbody="font-family: Nanum Gothic,Malgun Gothic,sans-serif; font-size:16px; line-height: 21px; font-weight: normal; font-style: regular;"
+heading2="font-family: Nanum Gothic,Malgun Gothic,sans-serif; font-Size:24px; line-height: 30px; font-weight: normal; font-style: normal;"
+txtbody="font-family: Nanum Gothic,Malgun Gothic,sans-serif; font-size:16px; line-height: 21px; font-weight: normal; font-style: normal;"
 txtlink=""
 ctablocktext="font-family: Nanum Gothic,Malgun Gothic,sans-serif; font-size:16px;"
-ctaicontext="font-family: Nanum Gothic,Malgun Gothic,sans-serif; font-size:16px; line-height: 21px; font-weight: normal; font-style: regular;"
+ctaicontext="font-family: Nanum Gothic,Malgun Gothic,sans-serif; font-size:16px; line-height: 21px; font-weight: normal; font-style: normal;"
 ctaoutline="font-family: Nanum Gothic,Malgun Gothic,sans-serif; font-size:16px;"
 #For service module
 greentxtreport=""
