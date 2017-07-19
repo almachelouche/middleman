@@ -20,19 +20,36 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''au_edm1_focus_20170629'''
+[[module]]
+path='email_modules/spacer/default'
+color='white'
 
-[[module]] #Cover 11
-path='email_modules/cover/03'
-color='''white'''
-
-	copy='''<br /><%${user.CustomAttribute['FullName']}%><br />.<br />There’s nothing quite like a new car. Thank you for choosing another Ford and hope you’ve enjoyed the ride so far.<br /><br />Throughout your ownership experience with Ford you will hear from us occasionally with useful tips, service reminders and information to help you make the most of your new <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.'''
+	height="30"
     
-[[module]] #Cover 11
-path='email_modules/cover/03'
+[[module]]
+path='email_modules/singles/copy'
 color='''white'''
 
-	copy='''<span style="font-weight: bold;">‘Peace of Mind’ Service Inspection</span><br /><br />To ensure your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> is running at its absolute best, you are entitled to a  complimentary 2-month/3,000km <span style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</span>&#185;. You’ll receive a reminder from us again when you get closer to your 2 month anniversary.<br /><br />If there is anything we can help you with in the meantime please don’t hesitate to contact your Dealer <%${user.CustomAttribute['Dealer_Name']}%> on <%${user.CustomAttribute['Dealer_Phone']}%> today. You can also speak to our consultants at our Customer Relationship Centre on <a href="tel:133673" style="text-decoration:underline; color:#2D96CD">13 FORD</a> (13 36 73) or via email <a href="mailto:foacust1@ford.com" style="text-decoration:underline; color:#2D96CD">foacust1@ford.com</a>.''' 
+	copy='''Hi <%${user.CustomAttribute['FullName']}%><br /><br />There's nothing quite like a new car. Thank you for choosing another Ford and hope you’ve enjoyed the ride so far.<br /><br />Throughout your ownership experience with Ford you will hear from us occasionally with useful tips, service reminders and information to help you make the most of your new <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.'''
 
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+    
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+
+	copy='''<span style="font-weight: bold;">'Peace of Mind' Service Inspection</span><br /><br />To ensure your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> is running at its absolute best, you are entitled to a  complimentary 2-month/3,000km <span style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</span>&#185;. You’ll receive a reminder from us again when you get closer to your 2 month anniversary.<br /><br />If there is anything we can help you with in the meantime please don’t hesitate to contact your Dealer <%${user.CustomAttribute['Dealer_Name']}%> on <%${user.CustomAttribute['Dealer_Phone']}%> today. You can also speak to our consultants at our Customer Relationship Centre on <a href="tel:133673" style="text-decoration:underline; color:#2D96CD">13 FORD</a> (13 36 73) or via email <a href="mailto:foacust1@ford.com" style="text-decoration:underline; color:#2D96CD">foacust1@ford.com</a>.''' 
+    
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+    
 [[module]]
 path='email_modules/dual/05'
 color='white'
