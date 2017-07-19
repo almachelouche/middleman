@@ -52,7 +52,7 @@ color='white'
     
 [[module]]
 path='email_modules/spacer/default'
-color='grey'
+color='platinum_20'
 
 	height="20"
 
@@ -76,7 +76,7 @@ color='white'
 
 [[module]]
 path='email_modules/spacer/default'
-color='grey'
+color='platinum_20'
 
 	height="20"
 
