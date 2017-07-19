@@ -93,7 +93,7 @@ color='white'
 	text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">
     <span style="white-space:nowrap;">ผ้าเบรกสุดคุ้ม</span><br /><br />
     <span style="white-space:nowrap;">ซื้อผ้าเบรก</span>
-    <span style="white-space:nowrap;">Ford-Motorcraft รับฟรี </span>
+    <span style="white-space:nowrap;">Ford-Motorcraft รับฟรี </span><br />
     <span style="white-space:nowrap;">น้ำยาทำความสะอาดหัวฉีด</span></span>'''
 	icon2 = '''th_edm6_tyre_20170113'''
 	text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">โปรยางสุดคุ้ม</span><br /><br />
