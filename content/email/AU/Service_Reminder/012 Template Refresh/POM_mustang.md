@@ -56,7 +56,7 @@ color='white'
 path='email_modules/cover/03'
 color='''white'''
 
-	copy='''<br />When looking to personalise your Ford Mustang there are no better accessories than Ford Genuine Accessories & Ford licenced Accessories (FLA). See a selection below or <a href="https://www.ford.co.nz/cars/mustang/accessories/#" style="text-decoration:underline; color:#2D96CD;" >Click here</a> to see the full range.'''
+	copy='''<br />When looking to personalise your Ford Mustang there are no better accessories than Ford Genuine Accessories & Ford licenced Accessories (FLA). See a selection below or <a href="https://www.ford.com.au/cars/mustang/smart-accessories/" style="text-decoration:underline; color:#2D96CD;" >Click here</a> to see the full range.'''
 
  [[module]] #Split 13
 path='email_modules/split/13'
@@ -67,10 +67,10 @@ color='white'
 	copy1='''Assembled with Ford Performance Parts, the high-performance Track Handling Pack is the perfect suspension system for the driver who demands the most from their Mustang.'''
 	copy2='''Designed to work with production struts, shocks and sway bars, the Mustang Lowering Kit lowers your Mustang by 2.5cm for a more aggressive stance.<br/><br/>'''
 	image1='''au_edm2_mustang_accessories2_20170629'''
-    image1_url='''https://www.ford.co.nz/cars/mustang/accessories/'''
+    image1_url='''https://www.ford.com.au/cars/mustang/smart-accessories/'''
     image1_name='''Some'''
     image2='''au_edm2_mustang_accessories3_20170629'''
-    image2_url='''https://www.ford.co.nz/cars/mustang/accessories/'''
+    image2_url='''https://www.ford.com.au/cars/mustang/smart-accessories/'''
     image2_name='''Some'''
     
     [[module]] #Split 13
@@ -81,10 +81,10 @@ color='white'
 	title2='''Body Styling Kit'''
 	copy1='''Painted in Absolute Black this high rise rear spoiler will give your Mustang real presence.<br/><br/>'''
 	copy2='''Add a stylish and dynamic look to your Mustang. This styling kit includes a front spoiler, side rockers, stripe kit, and much more.'''
-	image1='''au_edm2_mustang_accessories5_20170714''' image1_url='''https://www.ford.co.nz/cars/mustang/accessories/#overlay/content/ford/nz/en_nz/mustang-content/image-overlays/accessories-exterior/overlay-6.html'''
+	image1='''au_edm2_mustang_accessories5_20170714''' image1_url='''https://www.ford.com.au/cars/mustang/smart-accessories/'''
     image1_name='''Some'''
     image2='''au_edm2_mustang_accessories5_20170629'''
-    image2_url='''https://www.ford.co.nz/cars/mustang/accessories/#'''
+    image2_url='''https://www.ford.com.au/cars/mustang/smart-accessories/'''
     image2_name='''Some'''
  
 [[module]] # Owner App Image Right

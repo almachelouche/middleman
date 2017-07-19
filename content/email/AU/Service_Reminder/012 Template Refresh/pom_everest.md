@@ -74,7 +74,7 @@ color='''white'''
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''When looking to personalise your Ford Everest there are no better accessories than Ford Genuine Accessories. <a href="https://www.ford.co.nz/suv/everest/accessories/" style="text-decoration:underline; color:#2D96CD;" >Click here</a> to see the full range.'''    
+	copy = '''When looking to personalise your Ford Everest there are no better accessories than Ford Genuine Accessories. <a href="https://www.ford.com.au/suv/everest/smart-accessories/" style="text-decoration:underline; color:#2D96CD;" >Click here</a> to see the full range.'''    
     
 [[module]]
 path='email_modules/spacer/default'
@@ -91,10 +91,10 @@ color='white'
 	copy1='''With up to 3,000kg&#178; towing capacity, take on the most epic journeys with the Genuine Ford towpack. The tow pack pairs perfectly with the Everest’s Dynamic Stability Control, automatically adapting to changing loads for greater control.'''
 	copy2='''Like our range of bull bars, the genuine Ford nudge bar provides added protection to the front of your Everest and has met Ford’s stringent engineering and safety standards.<br/><br/>'''
 	image1='''au_edm2_everest_accessories2_20170629'''
-    image1_url='''https://www.ford.com.au/suv/everest/accessories/ambiente-diesel/#overlay/content/ford/au/en_au/everest-content/image-overlays/ambiente-4wd-3-2L-diesel-ext/overlay-32.html'''
+    image1_url='''https://www.ford.com.au/suv/everest/smart-accessories/'''
     image1_name='''Some'''
     image2='''au_edm2_everest_accessories3_20170629'''
-    image2_url='''https://www.ford.com.au/suv/everest/accessories/ambiente-diesel/#overlay/content/ford/au/en_au/everest-content/image-overlays/ambiente-4wd-3-2L-diesel-ext/overlay-9.html'''
+    image2_url='''https://www.ford.com.au/suv/everest/smart-accessories/'''
     image2_name='''Some'''
 
 [[module]] # Owner App Image Right

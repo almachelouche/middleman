@@ -67,7 +67,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''When looking to personalise your Ford <span style="color:#2D96CD"><%${user.CustomAttribute['Model']}%></span> there are no better accessories than Ford Genuine Accessories. <a href="https://www.ford.co.nz/commercial/ranger/accessories/" style="text-decoration:underline; color:#2D96CD;" >Click here</a> to see the full range.'''    
+	copy = '''When looking to personalise your Ford <span style="color:#2D96CD"><%${user.CustomAttribute['Model']}%></span> there are no better accessories than Ford Genuine Accessories. <a href="https://www.ford.com.au/commercial/ranger/smart-accessories/" style="text-decoration:underline; color:#2D96CD;" >Click here</a> to see the full range.'''    
     
 [[module]]
 path='email_modules/spacer/default'
@@ -83,9 +83,9 @@ color='white'
 	title2='''Smart Tonneau Cover&#179;'''
 	copy1='''Tackle deep-water crossings and dusty roads with Ranger’s high-strength, durable, UV-resistant polyethylene snorkel.<br/><br/>'''
 	copy2='''This UV-resistant soft tonneau cover helps protect your equipment from rain and dust, without drilling fitments, exposed straps or cotton reels.'''
-	image1='''au_edm2_ranger_accessories1_20170629''' image1_url='''https://www.ford.co.nz/commercial/ranger/accessories/#overlay/content/ford/nz/en_nz/ranger-content/image-overlays/accessories-exterior/overlay-9.html'''
+	image1='''au_edm2_ranger_accessories1_20170629''' image1_url='''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
     image1_name='''Some'''
-    image2='''au_edm2_ranger_accessories2_20170629'''  image2_url='''https://www.ford.co.nz/commercial/ranger/accessories/#overlay/content/ford/nz/en_nz/ranger-content/image-overlays/accessories-exterior/overlay-20.html'''
+    image2='''au_edm2_ranger_accessories2_20170629'''  image2_url='''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
     image2_name='''Some'''
     
 [[module]] #Split 13
@@ -96,9 +96,9 @@ color='white'
 	title2='''Fully-loaded Tow Pack&#8308;'''
 	copy1='''Protect the front of your bonnet from stones, bugs and other small objects with our tough, durable, UV-resistant bonnet protector.<br/><br/>'''
 	copy2='''The comprehensive Ford Tow Pack perfectly pairs with Ranger’s Dynamic Stability Control technology for next-level towing.<br/><br/>'''
-	image1='''au_edm2_ranger_accessories3_20170629''' image1_url='''https://www.ford.co.nz/commercial/ranger/accessories/#overlay/content/ford/nz/en_nz/ranger-content/image-overlays/accessories-exterior/overlay-3.html'''
+	image1='''au_edm2_ranger_accessories3_20170629''' image1_url='''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
     image1_name='''Some'''
-    image2='''au_edm2_ranger_accessories4_20170629'''  image2_url='''https://www.ford.co.nz/commercial/ranger/accessories/#overlay/content/ford/nz/en_nz/ranger-content/image-overlays/accessories-exterior/overlay-11.html'''
+    image2='''au_edm2_ranger_accessories4_20170629'''  image2_url='''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
     image2_name='''Some'''
 
 [[module]] # Owner App Image Right
