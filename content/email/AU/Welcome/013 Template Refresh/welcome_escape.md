@@ -94,7 +94,7 @@ color='white'
 	image1 = '''au_edm1_owner-app2_20170629'''
 
 	title2 = '''Get Accessorised'''
-	copy2 = '''Take your Escape to the next level with Ford Genuine Accessories, designed to seamlessly integrate with your Escape.'''
+	copy2 = '''Take your Escape to the next level with Ford Genuine Accessories, designed to seamlessly integrate with your Escape.<br />&nbsp;'''
 	cta2a_text = '''Discover Accessories'''
 	cta2a_url = '''https://www.ford.com.au/suv/escape/accessories/ambiente-ecoboost-petrol-awd/'''
 	cta2a_link_name = '''accessory'''
