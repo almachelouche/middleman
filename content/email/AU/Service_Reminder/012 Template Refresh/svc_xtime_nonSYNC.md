@@ -77,7 +77,7 @@ color='white'
     image1_url='''https://www.ford.com.au/owners/service/roadside-assistance/'''
     image1_name='''Some'''
     image2='''au_edm2_vehicle_health_report_20170629'''
-    image2_url='''https://www.ford.com.au/owners/service/'''
+    image2_url='''https://www.ford.com.au/owners/service/vehicle-report-card/'''
     image2_name='''Some'''
 
 [[module]] #Footer AU Social
