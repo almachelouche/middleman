@@ -51,8 +51,8 @@ color='white'
 	height="30"
     
 [[module]]
-path='email_modules/spacer/default'
-color='platinum_20'
+path='email_modules/spacer/platinum_20'
+color='white'
 
 	height="20"
 
@@ -75,8 +75,8 @@ color='white'
 	image2 = '''au_edm1_escape02_20170629'''
 
 [[module]]
-path='email_modules/spacer/default'
-color='platinum_20'
+path='email_modules/spacer/platinum_20'
+color='white'
 
 	height="20"
 
