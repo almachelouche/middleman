@@ -59,7 +59,7 @@ color='darkblue'
 path='email_modules/split/02'
 color='lightblue'
 
-	title = '''Spot the dot'''
+	title = '''Spot the Dot'''
 	copy = '''Who doesn’t like a good deal? Throughout July, Ford is offering some pretty spectacular showroom deals if you find the Blue Dot. You can drive away in a Ranger XLS 4x4 for less than 45 grand³! Find the dots before they all disappear.'''
 	cta1_text = '''EXPLORE OFFERS'''
 	cta1_url = '''https://www.ford.com.au/latest-offer/4x4-xls-double-cab-pick-up-3-2-diesel/'''
