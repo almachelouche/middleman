@@ -8,14 +8,14 @@ path='email_modules/preheaderbefore'
 
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
-	preheader='''The adventure goes on! From all of us at Ford, we’d like to say a big thank you for choosing another Ford – we are so excited to continue to be a part of your journey!'''
+	preheader='''The adventure goes on! From all of us at Ford, we'd like to say a big thank you for choosing another Ford – we are so excited to continue to be a part of your journey!'''
 
 [[module]]
 path='email_modules/preheaderbefore'
 
 segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 
-	preheader='''We hope your new Ford is everything you wanted it to be! From all of us at Ford, we’d like to say a big thank you for choosing a Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>, and welcome you to the family.'''
+	preheader='''We hope your new Ford is everything you wanted it to be! From all of us at Ford, we'd like to say a big thank you for choosing a Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>, and welcome you to the family.'''
 
 [[module]]
 path='email_modules/body'
@@ -26,14 +26,14 @@ path='email_modules/preheaderafter'
 
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
-	preheader='''The adventure goes on! From all of us at Ford, we’d like to say a big thank you for choosing another Ford – we are so excited to continue to be a part of your journey!'''
+	preheader='''The adventure goes on! From all of us at Ford, we'd like to say a big thank you for choosing another Ford – we are so excited to continue to be a part of your journey!'''
 
 [[module]]
 path='email_modules/preheaderafter'
 
 segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 
-	preheader='''We hope your new Ford is everything you wanted it to be! From all of us at Ford, we’d like to say a big thank you for choosing a Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>, and welcome you to the family.'''
+	preheader='''We hope your new Ford is everything you wanted it to be! From all of us at Ford, we'd like to say a big thank you for choosing a Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>, and welcome you to the family.'''
 
 
 [[module]] #Header Logo
@@ -49,35 +49,64 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''au_edm1_transit_20170629'''
+    
+[[module]]
+path='email_modules/spacer/default'
+color='white'
 
-	[[module]] #Cover 11
-path='email_modules/cover/03'
+	height="30"
+
+[[module]]
+path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
-	copy='''<br /><%${user.CustomAttribute['FullName']}%><br />.<br />There’s nothing quite like a new car. Thank you for choosing another Ford and hope you’ve enjoyed the ride so far.<br /><br />Throughout your ownership experience with Ford you will hear from us occasionally with useful tips, service reminders and information to help you make the most of your new <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.'''
+	copy='''Hi <%${user.CustomAttribute['FullName']}%><br /><br />There's nothing quite like a new car. Thank you for choosing another Ford and hope you've enjoyed the ride so far.<br /><br />Throughout your ownership experience with Ford you will hear from us occasionally with useful tips, service reminders and information to help you make the most of your new <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.'''
     
     
-     [[module]] #Cover 11
-path='email_modules/cover/03'
+[[module]]
+path='email_modules/singles/copy'
 color='''white'''
 segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 
-	copy='''Hi<br /><%${user.CustomAttribute['FullName']}%><br />.<br />There’s nothing quite like a new car. We are excited to have you as part of the Ford family and hope you’ve enjoyed the ride so far.<br /><br />Throughout your ownership experience with Ford you will hear from us occasionally with useful tips, service reminders and information to help you make the most of your new <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.<br /><br />'''
+	copy='''Hi <%${user.CustomAttribute['FullName']}%><br /><br />There's nothing quite like a new car. We are excited to have you as part of the Ford family and hope you've enjoyed the ride so far.<br /><br />Throughout your ownership experience with Ford you will hear from us occasionally with useful tips, service reminders and information to help you make the most of your new <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%>.'''
     
-     [[module]] #Cover 11
-path='email_modules/cover/03'
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
+path='email_modules/singles/copy'
 color='''white'''
 
-	copy='''<br /><br /><span style="font-weight: bold;">Extended Warranty</span><br /><br />Your Transit includes a complimentary extended warranty that covers your vehicle for 3 years or 200,000km – whichever comes first&#179;. Simply follow your vehicle’s servicing requirements outlined in your owner’s literature to stay fully protected. For your convenience, this warranty information is recorded at all Ford Dealerships nationwide and you will also have received a letter confirming the extended warranty period from your Dealer.<br /><br />Call us anytime on: 1300 80 10 80'''
+	copy='''<span style="font-weight: bold;">Extended Warranty</span><br /><br />Your Transit includes a complimentary extended warranty that covers your vehicle for 3 years or 200,000km – whichever comes first&#179;. Simply follow your vehicle's servicing requirements outlined in your owner's literature to stay fully protected. For your convenience, this warranty information is recorded at all Ford Dealerships nationwide and you will also have received a letter confirming the extended warranty period from your Dealer.<br /><br />Call us anytime on: 1300 80 10 80'''
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
     
-    [[module]] #Cover 11
-path='email_modules/cover/03'
+[[module]]
+path='email_modules/singles/copy'
 color='''white'''
 
-	copy='''<span style="font-weight: bold;">‘Peace of Mind’ Service Inspection</span><br /><br />To ensure your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> is running at its absolute best, you are entitled to a  complimentary 2-month/3,000km <span style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</span>&#185;. You’ll receive a reminder from us again when you get closer to your 2 month anniversary.<br /><br />If there is anything we can help you with in the meantime please don’t hesitate to contact your Dealer <%${user.CustomAttribute['Dealer_Name']}%> on <%${user.CustomAttribute['Dealer_Phone']}%> today. You can also speak to our consultants at our Customer Relationship Centre on <a href="tel:133673" style="text-decoration:underline; color:#2D96CD">13 FORD</a> (13 36 73) or via email <a href="mailto:foacust1@ford.com" style="text-decoration:underline; color:#2D96CD">foacust1@ford.com</a>.<br />''' 
+	copy='''<span style="font-weight: bold;">'Peace of Mind' Service Inspection</span><br /><br />To ensure your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> is running at its absolute best, you are entitled to a  complimentary 2-month/3,000km <span style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</span>&#185;. You'll receive a reminder from us again when you get closer to your 2 month anniversary.<br /><br />If there is anything we can help you with in the meantime please don't hesitate to contact your Dealer <%${user.CustomAttribute['Dealer_Name']}%> on <%${user.CustomAttribute['Dealer_Phone']}%> today. You can also speak to our consultants at our Customer Relationship Centre on <a href="tel:133673" style="text-decoration:underline; color:#2D96CD">13 FORD</a> (13 36 73) or via email <a href="mailto:foacust1@ford.com" style="text-decoration:underline; color:#2D96CD">foacust1@ford.com</a>.''' 
 
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
     
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
+	height="20"
+
         [[module]] #Split 13
 path='email_modules/split/13'
 color='white'
@@ -100,7 +129,7 @@ color='white'
 	title1='''SYNC® Support'''
 	title2='''Ford Service'''
 	copy1='''Become a SYNC® expert. Familiarise yourself with common voice commands and more on the <a href="https://www.ford.com.au/owners/technology/sync-support/sync1/" name="sync" style="text-decoration:underline; color:#2D96CD">SYNC® Support Portal</span>.<br /><br /><br /><br />'''
-	copy2='''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That’s what service should be.<br /><br /><a href="https://www.ford.com.au/owners/service/" name="service" style="text-decoration:underline; color:#2D96CD">Find Out More</span><br /><br />'''
+	copy2='''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That's what service should be.<br /><br /><a href="https://www.ford.com.au/owners/service/" name="service" style="text-decoration:underline; color:#2D96CD">Find Out More</span><br /><br />'''
 	image1='''au_edm1_support_20170629'''
     image1_url='''https://www.ford.com.au/owners/technology/sync-support/sync1/'''
     image1_name='''Some'''
@@ -119,7 +148,7 @@ color='white'
 
 	text = '''DISCLAIMERS:
 				<br /> <br />
-                1. ‘Peace of Mind’ Service Inspection expires after 5,000km’s or 4 months after delivery of your new Ford (whichever is first). <br /><br />
+                1. 'Peace of Mind' Service Inspection expires after 5,000km's or 4 months after delivery of your new Ford (whichever is first). <br /><br />
                 2. Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
                 3. The Factory Warranty will operate under the terms and conditions of the Ford Express New Vehicle Warranty. Commences upon delivery to the customers or upon first registration of the vehicle for on-sold demonstrator vehicles and ends after 3 years or 200,000kms, whichever occurs first.'''
                 

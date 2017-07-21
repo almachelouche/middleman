@@ -5,7 +5,7 @@ title = '''AU Service Reminder 003 nonxtime_nonSYNC '''
 [[module]]
 path='email_modules/preheader'
 
-	preheader='''Don't get stuck without wheels. Book a Free Loan Car with your <%${user.CustomAttribute['Model']}%>’s scheduled service.'''
+	preheader='''Don't get stuck without wheels. Book a Free Loan Car with your <%${user.CustomAttribute['Model']}%>'s scheduled service.'''
 
 
 [[module]] #Banner Image
@@ -49,7 +49,7 @@ color='white'
 	title1='''Service Price Promise&#178;'''
 	title2='''Free Loan Car&#185;'''
 	copy1='''Know how much your standard service will cost before you even come in, with the <ahref="https://www.ford.com.au/owners/service/calculator/" name="calculator" style="text-decoration:underline; color:#2D96CD"> Service Price Promise Calculator</span>.<br/><br/>'''
-	copy2='''Life shouldn’t stop when you service your vehicle. That’s why we offer a <a href="https://www.ford.com.au/owners/service/" name="freeloan" style="text-decoration:underline; color:#2D96CD">Free Loan Car&#185</a>  when you book a scheduled service.<br/><br/>'''
+	copy2='''Life shouldn't stop when you service your vehicle. That's why we offer a <a href="https://www.ford.com.au/owners/service/" name="freeloan" style="text-decoration:underline; color:#2D96CD">Free Loan Car&#185</a>  when you book a scheduled service.<br/><br/>'''
 	image1='''au_edm2_service_price_promise_20170629'''
     image1_url='''https://www.ford.com.au/owners/service/calculator/'''
     image1_name='''Some'''
@@ -63,8 +63,8 @@ color='white'
 
 	title1='''Auto Club Membership&#179;'''
 	title2='''Genuine Service'''
-	copy1='''Each time you complete your standard service at a participating Ford dealer you’ll receive State <a href="https://www.ford.com.au/owners/service/roadside-assistance/" style="text-decoration:underline; color:#2D96CD">Auto Club Roadside Assistance</a> and membership for up to 12 months.<br/><br/>'''
-	copy2='''We know how important your <Nameplate> is to you, so we’re sure you’ll appreciate that our factory-trained technicians only use Genuine Ford parts and equipment.<br/><br/><a href="http://genuineisbest.com.au/" style="text-decoration:underline; color:#2D96CD">Learn More</a>'''
+	copy1='''Each time you complete your standard service at a participating Ford dealer you'll receive State <a href="https://www.ford.com.au/owners/service/roadside-assistance/" style="text-decoration:underline; color:#2D96CD">Auto Club Roadside Assistance</a> and membership for up to 12 months.<br/><br/>'''
+	copy2='''We know how important your <Nameplate> is to you, so we're sure you'll appreciate that our factory-trained technicians only use Genuine Ford parts and equipment.<br/><br/><a href="http://genuineisbest.com.au/" style="text-decoration:underline; color:#2D96CD">Learn More</a>'''
 	image1='''au_edm2_auto_club_membership_20170629'''
     image1_url='''https://www.ford.com.au/owners/service/roadside-assistance/'''
     image1_name='''Some'''
