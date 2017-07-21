@@ -90,6 +90,8 @@ color='white'
 
 	title2 = '''Ford Service'''
 	copy2 = '''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That’s what service should be.<br/><br/><a href="https://www.ford.com.au/owners/service/" name="service" style="text-decoration:underline; color:#2D96CD">Find Out More</span><br />'''
+    image1_url = ''''''
+	image1_link_name = ''''''
 	image2 = '''au_edm1_service_20170629'''
     image2_url = '''https://www.ford.com.au/owners/service/'''
 	image2_link_name = '''some'''
