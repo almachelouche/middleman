@@ -134,11 +134,11 @@ color='white'
 	image1 = '''au_edm1_owner-app2_20170629'''
 
 	title2 = '''Get Accessorised'''
-	copy2 = '''Take your Transit to the next level with Ford Genuine Accessories, designed to seamlessly integrate with your Transit.<br /><br />'''
+	copy2 = '''Take your Transit to the next level with Ford Genuine Accessories, designed to seamlessly integrate with your Transit.<br />'''
 	cta2a_text = '''Discover Accessories'''
 	cta2a_url = '''https://www.ford.com.au/commercial/transit-custom/accessories/290s-swb-van/'''
 	cta2a_link_name = '''accessory'''
-	image2 = '''au_edm1_escape02_20170629'''
+	image2 = '''au_edm1_transit02_20170629'''
 
 [[module]]
 path='email_modules/dual/05'
