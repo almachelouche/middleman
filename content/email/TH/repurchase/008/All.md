@@ -37,11 +37,11 @@ color='white'
 	<span style="white-space:nowrap;">เพียงลงทะเบียนทดลองขับ</span><br />
 	<span style="white-space:nowrap;">ที่โชว์รูมฟอร์ด</span><br /><br />
 
-	<span style="white-space:nowrap;">ออกรถฟอร์ด เรนเจอร์Wildtrak รุ่นที่มีระบบแผนที่นำทาง</span>
+	<span style="white-space:nowrap;">ออกรถฟอร์ด เรนเจอร์Wildtrak รุ่นที่มีระบบแผนที่นำทาง</span><br />
 	<span style="white-space:nowrap;">ภายในวันที่ 31 ส.ค. 60 ดาวน์พียง 89,999 บาท</span><br /> 
-	<span style="white-space:nowrap;">หรือผ่อนเพียง 8,999 บาท พร้อมรับฟรีประกันภัยชั้นหนึ่ง</span>
+	<span style="white-space:nowrap;">หรือผ่อนเพียง 8,999 บาท พร้อมรับฟรีประกันภัยชั้นหนึ่ง</span><br />
 	<span style="white-space:nowrap;">และฟอร์ดยังมีข้อเสนอสุดพิเศษ สำหรับรถฟอร์ดเอเวอเรสต์</span><br />
-	<span style="white-space:nowrap;">ฟอร์ดเอคโค่สปอร์ต และฟอร์ดเฟียสต้า</span>
+	<span style="white-space:nowrap;">ฟอร์ดเอคโค่สปอร์ต และฟอร์ดเฟียสต้า</span><br />
 	<span style="white-space:nowrap;">พร้อมลุ้นรับส่วนลด 500,000 บาท (15 รางวัล)</span><br /> 
 	<span style="white-space:nowrap;">เมื่อจองรถฟอร์ดทุกรุ่น ภายในวันที่ 1 ส.ค. – 17 ก.ย. 60</span><br /><br />
 
