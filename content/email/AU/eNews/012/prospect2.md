@@ -14,7 +14,7 @@ color='black'
 
 	title = '''Insider'''
 	date = '''June 2017'''
-	copy = '''IN THIS ISSUE:<br />New Everest Ambiente | Genuine Ford Accessories | Spot the Dot | Watch Ranger vs Skydiver'''
+	copy = '''IN THIS ISSUE:<br />New Everest Ambiente | Genuine Ford Accessories | Watch Ranger vs Skydiver'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -79,7 +79,7 @@ color='white'
 text='''Disclaimers:<br /><br />
 	1. Maximum towing capacity when using a Genuine Ford tow pack. Subject to State and Territory regulations.<br /><br />
 	2. Recommended retail price only. Stock may vary between participating dealers.<br /><br />
-	3. Built pre-April 2017. Blue Dots at participating dealers in July. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. Prices are recommended . Ford Australia and Ford Dealers can further reduce recommended prices, or otherwise change or extend these offers.<br /><br />'''
+	'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
