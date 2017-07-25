@@ -83,7 +83,7 @@ color='lightblue'
 
 [[module]] #Split 01
 path='email_modules/split/01'
-color='lightblue'
+color='darkblue'
 
 	title = '''Road Trip Tunes'''
 	copy = '''Ford collaborated with Hungama music app to create two playlists perfect for your next road trip that both Ford and non-Ford drivers can enjoy. Check out the playlists below.'''
