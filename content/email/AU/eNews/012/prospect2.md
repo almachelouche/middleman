@@ -14,7 +14,7 @@ color='black'
 
 	title = '''Insider'''
 	date = '''June 2017'''
-	copy = '''IN THIS ISSUE:<br />New Everest Ambiente | Genuine Ford Accessories | Spot the Dot | Watch Ranger vs Skydiver'''
+	copy = '''IN THIS ISSUE:<br />New Everest Ambiente | Genuine Ford Accessories | Watch Ranger vs Skydiver'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -57,19 +57,6 @@ color='darkblue'
 
 	[[module]] #Split 02
 path='email_modules/split/02'
-color='lightblue'
-
-	title = '''Spot the Dot'''
-	copy = '''Who doesn’t like a good deal? Throughout July, Ford is offering some pretty spectacular showroom deals if you find the Blue Dot. You can drive away in a Ranger XLS 4x4 for less than 45 grand³! Find the dots before they all disappear.'''
-	cta1_text = '''EXPLORE OFFERS'''
-	cta1_url = '''https://www.ford.com.au/latest-offer/4x4-xls-double-cab-pick-up-3-2-diesel/'''
-	cta1_link_name = '''offer'''
-	cta1_icon = '''more'''
-	image = '''au_enews_bluedot_20170707'''
-
-
-	[[module]] #Split 01
-path='email_modules/split/01'
 color='green'
 
 	title = '''Ranger vs Skydiver'''
@@ -92,7 +79,7 @@ color='white'
 text='''Disclaimers:<br /><br />
 	1. Maximum towing capacity when using a Genuine Ford tow pack. Subject to State and Territory regulations.<br /><br />
 	2. Recommended retail price only. Stock may vary between participating dealers.<br /><br />
-	3. Built pre-April 2017. Blue Dots at participating dealers in July. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. Prices are recommended . Ford Australia and Ford Dealers can further reduce recommended prices, or otherwise change or extend these offers.<br /><br />'''
+	'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
