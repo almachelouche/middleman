@@ -96,6 +96,7 @@ color='lightblue'
 	cta2_link_name = '''drive_times_playlist'''
 	image = '''in_edm6_sujal_20170330'''
 
+[[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'
 
