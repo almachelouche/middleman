@@ -46,7 +46,7 @@ color='white'
 	url_link_name='''ford_safety_image'''
 
 [[module]] #Split 02
-path='email_modules/split/01'
+path='email_modules/split/02'
 color='lightblue'
 
 	title = '''Clever Cot'''
@@ -58,7 +58,7 @@ color='lightblue'
 	image = '''in_edm6_ode_video_20170420'''
 
 [[module]] #Split 01
-path='email_modules/split/02'
+path='email_modules/split/01'
 color='green'
 
 	title = '''You can't skip safety'''
