@@ -55,8 +55,8 @@ color='darkblue'
 	image = '''AU_edm6_accessories2_20170614'''
 
 
-	[[module]] #Split 01
-path='email_modules/split/01'
+	[[module]] #Split 02
+path='email_modules/split/02'
 color='green'
 
 	title = '''Ranger vs Skydiver'''
