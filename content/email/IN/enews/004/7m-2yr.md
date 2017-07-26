@@ -43,7 +43,7 @@ image2_link_name = '''video_dust_storm'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
-color='darkblue'
+color='lightblue'
 
 	title = '''Story 1'''
 	copy = '''To Be Updated'''
