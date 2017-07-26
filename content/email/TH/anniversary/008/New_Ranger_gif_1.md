@@ -1,6 +1,6 @@
 +++
 markets = ["th"]
-title = '''TH Anniversary 002 New Ranger'''
+title = '''TH Anniversary 008 New Ranger'''
 draft = true
 
 [[module]]
