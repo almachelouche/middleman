@@ -1,7 +1,7 @@
 <!-- dual/05/white Starts-->
 <table bgcolor="{{ .color.backgroundcolor }}" align="center" class="resize_table_to_320" width="640" border="0" cellspacing="0" cellpadding="0" style="max-width: 640px;">
 	<tr>
-		<td width="310" class="drop" valign="top" align="center">
+		<td class="drop" valign="top" align="center">
 			<table width="310" cellpadding="0" cellspacing="0" border="0">
 				<td style="padding:30px;">
 					<table width="100%" cellpadding="0" cellspacing="0" border="0">
@@ -11,7 +11,9 @@
 									<td valign="top" height="30" style="{{ .font.heading2 | safeCSS }}" align="center" >{{- .moduleinfo.title1 | safeHTML -}}</td>
 								</tr>
 								<tr>
-									<td height="20">&nbsp;</td>
+									<td height="20">
+										<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
+									</td>
 								</tr>
 							{{- end -}}
 						{{- end -}}
@@ -23,7 +25,9 @@
 						{{- if ne .moduleinfo.cta1a_text nil -}}
 							{{- if (gt (len .moduleinfo.cta1a_text) 0) -}}
 								<tr>
-									<td height="20">&nbsp;</td>
+									<td height="20">
+										<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
+									</td>
 								</tr>
 								<tr>
 									<td valign="top" style="text-align:center; color:{{ .color.txtbody }}; {{ .font.txtbody | safeCSS }}">
@@ -58,15 +62,25 @@
 			<table width="310" cellpadding="0" cellspacing="0" border="0" class="wrapper">
 				<tr>
 					<td	align="center"	valign="top">
-						<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/{{- .moduleinfo.image1 -}}_tile.jpg" width="310"	border="0"	class="img_Rez" />
+						{{- if ne .moduleinfo.image_link1_url nil -}}
+							{{- if (gt (len .moduleinfo.image1_link_url) 0) -}}
+								<a href="{{ .moduleinfo.image1_link_url | safeURL }}" name="{{- .moduleinfo.image1_link_name -}}" target="_blank">
+							{{- end -}}
+						{{- end -}}
+							<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/{{- .moduleinfo.image1 -}}_tile.jpg" width="310"	border="0"	class="img_Rez" />
+						{{- if ne .moduleinfo.image1_link_url nil -}}
+							{{- if (gt (len .moduleinfo.image1_link_url) 0) -}}
+								</a>
+							{{- end -}}
+						{{- end -}}
 					</td>
 				</tr>
 			</table>
 		</td>
 		<td width="20" class="spacer" valign="top" align="center" bgcolor="#F2F2F2">
-			&nbsp;
+			<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
 		</td>
-		<td valign="top" width="310" class="drop" valign="top" align="center">
+		<td class="drop" valign="top" align="center">
 			<table width="310" cellpadding="0" cellspacing="0" border="0">
 				<td style="padding:30px;">
 					<table width="100%" cellpadding="0" cellspacing="0" border="0">
@@ -76,7 +90,9 @@
 									<td valign="top" height="30" style="{{ .font.heading2 | safeCSS }}" align="center" >{{- .moduleinfo.title2 | safeHTML -}}</td>
 								</tr>
 								<tr>
-									<td height="20">&nbsp;</td>
+									<td height="20">
+										<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
+									</td>
 								</tr>
 							{{- end -}}
 						{{- end -}}
@@ -88,7 +104,9 @@
 						{{- if ne .moduleinfo.cta2a_text nil -}}
 							{{- if (gt (len .moduleinfo.cta2a_text) 0) -}}
 								<tr>
-									<td height="20">&nbsp;</td>
+									<td height="20">
+										<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
+									</td>
 								</tr>
 								<tr>
 									<td valign="top" style="text-align:center; color:{{ .color.txtbody }}; {{ .font.txtbody | safeCSS }}">
@@ -123,7 +141,17 @@
 			<table width="310" cellpadding="0" cellspacing="0" border="0" class="wrapper">
 				<tr>
 					<td	align="center"	valign="top">
-						<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/{{- .moduleinfo.image2 -}}_tile.jpg" width="310"	border="0"	class="img_Rez" />
+						{{- if ne .moduleinfo.image_link2_url nil -}}
+							{{- if (gt (len .moduleinfo.image2_link_url) 0) -}}
+								<a href="{{ .moduleinfo.image2_link_url | safeURL }}" name="{{- .moduleinfo.image2_link_name -}}" target="_blank">
+							{{- end -}}
+						{{- end -}}
+							<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/{{- .moduleinfo.image2 -}}_tile.jpg" width="310"	border="0"	class="img_Rez" />
+						{{- if ne .moduleinfo.image2_link_url nil -}}
+							{{- if (gt (len .moduleinfo.image2_link_url) 0) -}}
+								</a>
+							{{- end -}}
+						{{- end -}}
 					</td>
 				</tr>
 			</table>
