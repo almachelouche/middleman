@@ -154,7 +154,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style="white-space:nowrap;">การลืมกุญแจไว้ในรถ</span><br />
 <span style="white-space:nowrap;">หรือเมื่อน้ำมันหมดกลางทาง เป็นต้น</span></span>'''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">อ่านต่อ</span></span>'''
-cta1_url='''http://on.fb.me/1utXwYz'''
+cta1_url='''http://www.ford.co.th/owner/road-assistance/'''
 cta1_link_name = '''QA'''
 cta1_icon='''more'''
 
