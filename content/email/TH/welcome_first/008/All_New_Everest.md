@@ -1,12 +1,12 @@
 +++
 markets = ["th"]
-title = '''TH Welcome First 007 Focus'''
+title = '''TH Welcome First 008 All New Everest'''
 
 [[module]]
 path='email_modules/preheader'
 
 
-		preheader = '''ฟอร์ดขอขอบคุณที่คุณเลือกเรา ให้เป็นเพื่อนร่วมทางของคุณ เราจะส่งข่าวสาร และข้อมูลกิจกรรมที่เป็นประโยชน์ ให้แก่คุณอย่างต่อเนื่อง เพราะคุณเป็นส่วนหนึ่ง ของครอบครัวฟอร์ด ขอให้คุณมีความสุขกับการขับขี่ Focus ค่ะ '''
+		preheader = '''ฟอร์ดขอขอบคุณที่คุณเลือกเรา ให้เป็นเพื่อนร่วมทางของคุณ เราจะส่งข่าวสาร และข้อมูลกิจกรรมที่เป็นประโยชน์ ให้แก่คุณอย่างต่อเนื่อง เพราะคุณเป็นส่วนหนึ่ง ของครอบครัวฟอร์ด ขอให้คุณมีความสุขกับการขับขี่ Everest ค่ะ '''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -19,24 +19,25 @@ color='white'
 path='email_modules/cover/01'
 color='''white'''
  
-	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><strong>สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></strong><br />ยินดีต้อนรับสู่ครอบครัวฟอร์ด</span>'''
+	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><strong>สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></strong><br />
+	<span style=" white-space:nowrap;">ยินดีต้อนรับ</span>สู่<span style=" white-space:nowrap;">ครอบครัวฟอร์ด</span></span>'''
 	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">ฟอร์ดขอขอบคุณที่คุณเลือกเรา</span>
-<span style=" white-space:nowrap;">ให้เป็นเพื่อนร่วมทางของคุณ</span>
+<span style="white-space:nowrap;">ให้เป็นเพื่อนร่วมทางของคุณ</span>
 <br /><br />
-<span style=" white-space:nowrap;">เราจะส่งข่าวสาร</span>
-<span style=" white-space:nowrap;">และข้อมูลกิจกรรมที่เป็นประโยชน์</span>
-<span style=" white-space:nowrap;">ให้แก่คุณอย่างต่อเนื่อง</span> 
-<span style=" white-space:nowrap;">เพราะคุณเป็นส่วนหนึ่ง</span>
-<span style=" white-space:nowrap;">ของครอบครัวฟอร์ด</span>
+<span style="white-space:nowrap;">เราจะส่งข่าวสาร</span>
+<span style="white-space:nowrap;">และข้อมูลกิจกรรมที่เป็นประโยชน์</span><br />
+<span style="white-space:nowrap;">ให้แก่คุณอย่างต่อเนื่อง</span> 
+<span style="white-space:nowrap;">เพราะคุณเป็นส่วนหนึ่ง</span><br />
+<span style="white-space:nowrap;">ของครอบครัวฟอร์ด</span>
 <br /><br />
-<span style=" white-space:nowrap;">ขอให้คุณมีความสุขกับการขับขี่</span> 
-<span style=" white-space:nowrap;">Focus ค่ะ </span></span>'''
+<span style="white-space:nowrap;">ขอให้คุณมีความสุขกับการขับขี่</span> 
+<span style="white-space:nowrap;">Everest ค่ะ </span></span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''th_edm1&4_np_focus_20160801'''
+	image = '''th_edm1&4_np_allneweverest_20160801'''
 
 [[module]] #Dual 04
 path='email_modules/dual/04'
@@ -44,7 +45,8 @@ color='white'
 
 title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">ศูนย์ข้อมูลเพื่อเจ้าของ</span><br />
 							<span style="font-family:Tahoma, Verdana, Sans-serif">รถฟอร์ด</span>'''
-	copy1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">รวมทุกเรื่องที่คุณต้องการในหนึ่งเดียว</span></span>'''
+	copy1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
+    <span style=" white-space:nowrap;">รวมทุกเรื่องที่คุณต้องการในหนึ่งเดียว</span></span>'''
 	cta1a_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><br /><br />ดูศูนย์ข้อมูลเจ้าของรถฟอร์ด</span>'''
 	cta1a_url = '''https://www.ford.co.th/owner/owner-unauthenticated/'''
 	cta1a_link_name = '''owner_center'''
@@ -92,7 +94,27 @@ text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif; font-Size: 14px
 	cta2_link_name = '''oa_andriod'''
 	image = '''th_edm6_ownerapp_20160921'''
 
-	[[module]] #Split 04
+	[[module]]
+path='email_modules/split/07'
+color='white'
+
+title='''<span style="font-family:Tahoma, Verdana, Sans-serif">อุปกรณ์ตกแต่งสำหรับคุณ</span>'''
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
+<span style="white-space:nowrap;">ให้ฟอร์ด เอเวอเรสต์ของคุณ</span> <br />
+<span style="white-space:nowrap;">ล้ำหน้าไปอีกขั้น</span> 
+<span style="white-space:nowrap;">ด้วยอุปกรณ์ตกแต่งล่าสุด</span><br />
+<span style="white-space:nowrap;">ชุดคิ้วโป่งล้อ</span> 
+<span style="white-space:nowrap;">มูลค่า 4,090.-</span> 
+<span style="white-space:nowrap;">ที่จะช่วยปกป้องตัวถังรถฟอร์ด</span><br />
+<span style="white-space:nowrap;">จากรอยขีดข่วน</span>
+<span style="white-space:nowrap;">ทั้งยังเสริมภาพลักษณ์อันแสนดุดัน</span>
+<span style="white-space:nowrap;">ให้รถคุณได้อีกด้วย</span></span>'''
+cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อชมอุปกรณ์เสริมทั้งหมด</span>'''
+cta1_url='''https://www.ford.co.th/suvs/everest/accessories/#'''
+cta1_link_name = '''acc_all_new_everest'''
+image='''TH_edm1a_everest_fender_flare_20170508'''
+
+[[module]] #Split 04
 path='email_modules/split/04'
 color='green'
 
@@ -118,19 +140,20 @@ path='email_modules/cover/01'
 
 color='slatescreen'
 title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ถาม ตอบ</span>'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">Q: ทำไมจึงต้องมี</span>
-<span style=" white-space:nowrap;">Ford Roadside Assistance</span>
-<span style=" white-space:nowrap;">สำหรับรถใหม่</span><br /><br />
-<span style=" white-space:nowrap;">A: เพราะระบบช่วยเหลือฉุกเฉินของเรา</span>
-<span style=" white-space:nowrap;">ไม่เพียงครอบคลุมการคุ้มครองอะไหล่</span>
-<span style=" white-space:nowrap;">และเครื่องยนต์</span>
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
+<span style="white-space:nowrap;">Q: ทำไมจึงต้องมี</span>
+<span style="white-space:nowrap;">Ford Roadside Assistance</span>
+<span style="white-space:nowrap;">สำหรับรถใหม่</span><br /><br />
+<span style="white-space:nowrap;">A: เพราะระบบช่วยเหลือฉุกเฉินของเรา</span>
+<span style="white-space:nowrap;">ไม่เพียงครอบคลุมการคุ้มครองอะไหล่</span>
+<span style="white-space:nowrap;">และเครื่องยนต์</span>
 <span style="white-space:nowrap;">ตลอดอายุการใช้งานเท่านั้น</span>
-<span style=" white-space:nowrap;">แต่ยังรวมถึงการช่วยเหลือ</span>
-<span style=" white-space:nowrap;">ในกรณีเหตุฉุกเฉินอื่นๆ</span>
-<span style=" white-space:nowrap;">เช่น</span>
-<span style=" white-space:nowrap;">การลืมกุญแจไว้ในรถ</span><br />
-<span style=" white-space:nowrap;">หรือเมื่อน้ำมันหมดกลางทาง เป็นต้น</span></span>'''
-cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">อ่านต่อ</span></span>'''
+<span style="white-space:nowrap;">แต่ยังรวมถึงการช่วยเหลือ</span>
+<span style="white-space:nowrap;">ในกรณีเหตุฉุกเฉินอื่นๆ</span>
+<span style="white-space:nowrap;">เช่น</span>
+<span style="white-space:nowrap;">การลืมกุญแจไว้ในรถ</span><br />
+<span style="white-space:nowrap;">หรือเมื่อน้ำมันหมดกลางทาง เป็นต้น</span></span>'''
+cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">อ่านต่อ</span></span>'''
 cta1_url='''http://on.fb.me/1utXwYz'''
 cta1_link_name = '''QA'''
 cta1_icon='''more'''
