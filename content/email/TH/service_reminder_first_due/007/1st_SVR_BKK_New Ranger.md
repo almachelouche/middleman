@@ -1,6 +1,6 @@
 +++
 markets = ["th"]
-title = '''TH Service Reminder First Due 007 New Ranger BKK'''
+title = '''TH Service Reminder First Due 008 New Ranger BKK'''
 
 [[module]]
 path='email_modules/preheader'
@@ -52,6 +52,14 @@ cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดห�
 cta1_url='''https://onlinebooking.ford.co.th/'''
 cta1_link_name = '''book_now'''
 
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+
+ image='''TH_edm2_ServiceCampaign_20170726'''
+	url_link='''https://www.ford.co.th/owner/servicecampaign/'''
+	url_link_name='''servicecampaign'''
+    
 
 [[module]] #Custom 01
 path='email_modules/custom/3columntitle3icons'
