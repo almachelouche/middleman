@@ -57,7 +57,7 @@ cta1_link_name = '''book_now'''
 path='email_modules/image/banner'
 color='white'
 
- image='''TH_edm2_ServiceCampaign_20170726'''
+    image='''TH_edm2_ServiceCampaign_20170726'''
 	url_link='''https://www.ford.co.th/owner/servicecampaign/'''
 	url_link_name='''servicecampaign'''
     
