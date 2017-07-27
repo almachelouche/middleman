@@ -1,7 +1,6 @@
 +++
 markets = ["th"]
-title = '''TH Service Reminder First Past Due 007 UPC'''
-
+title = '''TH Service Reminder First Past Due 008 BKK'''
 
 [[module]]
 path='email_modules/preheader'
@@ -16,33 +15,36 @@ color='white'
 	image = '''white'''
 	url_link = '''https://www.ford.co.th/'''
 
+
 [[module]]
 path='email_modules/cover/02'
 
 color='''white'''
 icon='''th_edm2_svc_wrench_urgent_20160801'''
 title='''<span style="color:#ff6600;font-family:Tahoma, Verdana, Sans-serif">รถ <%${user.CustomAttribute['Model']}%> ของคุณ เลยเวลาเช็คระยะแล้ว</span>'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีคุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด <%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></span><br /><br />
-
- <span style="font-family:Tahoma, Verdana, Sans-serif">
-						เพื่อรักษารถ &lt;%${user.CustomAttribute['Model']}%&gt; 
-					ของคุณให้อยู่ในสภาพดี
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีคุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></span><br /><br />
+<span style="font-family:Tahoma, Verdana, Sans-serif">
+						เพื่อรักษารถ <%${user.CustomAttribute['Model']}%>
+						ของคุณให้อยู่ในสภาพดี
 						และวิ่งได้อย่างเต็มประสิทธิภาพสม่ำเสมอ
-						อย่าลืมนำรถเข้าศูนย์บริการ
+					อย่าลืมนำรถเข้าศูนย์บริการ
 						เพื่อตรวจเช็คระยะเมื่อครบกำหนด
-					</span>
+                    </span>
+<br /><br />
+ <span style="font-family:Tahoma, Verdana, Sans-serif">อย่าลืม! จองคิวเช็คระยะเลยวันนี้</span> 
 <br /><br />
 <span style="font-family:Tahoma, Verdana, Sans-serif">
-		นัดหมายล่วงหน้าเพื่อเข้ารับบริการได้ทันที<br />
-		ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%>(ระหว่างเวลาทำการ)<br />
-		หรือค้นหาตัวแทนจำหน่ายใกล้บ้านคุณ
- </span>'''
-
-cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">โทร <%${user.CustomAttribute['Dealer_Phone']}%></span>'''
-cta1_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''
-cta2_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาตัวแทนจำหน่าย</span>'''
-cta2_url='''https://www.ford.co.th/locate-a-dealer/'''
-cta2_link_name='''find_dealer'''
+บริการใหม่!! ฟอร์ดเพิ่มความสะดวกสบาย
+ให้คุณสามารถนัดหมายเช็คระยะที่ศูนย์บริการ<br />
+ฟอร์ดง่ายๆ ผ่านระบบ Online Booking ตลอด 7 วัน<br />
+พร้อมการรับประกันเช็คระยะภายใน 60	นาที
+หากไม่ทัน<br />
+คุณจะได้รับบริการเช็คระยะครั้งนั้น 
+"ฟรีทันที"
+</span>'''
+cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหมายตอนนี้</span>'''
+cta1_url='''https://onlinebooking.ford.co.th/'''
+cta1_link_name = '''book_now'''
 
 
 [[module]] #Split 04
@@ -65,4 +67,5 @@ color='white'
 [[module]] #TH Online
 path='email_modules/footer/th/online'
 color='white'
+
 +++
