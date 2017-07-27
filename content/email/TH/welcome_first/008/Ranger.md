@@ -1,6 +1,6 @@
 +++
 markets = ["th"]
-title = '''TH Welcome First 007 Ranger'''
+title = '''TH Welcome First 008 Ranger'''
 
 [[module]]
 path='email_modules/preheader'
