@@ -2,68 +2,72 @@
 markets = ["nz"]
 title = '''NZ Welcome 001 generic'''
 
-
-[[module]] #Header Logo
-path='email_modules/header/logo'
+[[module]] #Banner Image
+path='email_modules/image/banner'
 color='white'
+segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 
-	image = '''white'''
-	url_link = '''http://www.ford.co.nz/'''
+	image='''nz_edm1_ecosport_20170612'''
+	url_link='''https://www.ford.co.nz/'''
+	url_link_name='''ecosport'''
 
-
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
-	image = '''nz_edm1_ecosport_20170612'''
-
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+segmentif = ["(user.CustomAttribute['Segment'] == 'B')"]
 
 	image = '''nz_edm1_mondeo_20170612'''
+    url_link='''https://www.ford.co.nz/'''
+	url_link_name='''mondeo'''
 
-
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+segmentif = ["(user.CustomAttribute['Segment'] == 'C')"]
 
 	image = '''nz_edm1_focus_20170612'''
+    url_link='''https://www.ford.co.nz/'''
+	url_link_name='''focus'''
 
 
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+segmentif = ["(user.CustomAttribute['Segment'] == 'D')"]
 
 	image = '''nz_edm1_escape_20170612'''
+    url_link='''https://www.ford.co.nz/'''
+	url_link_name='''new escape'''
 
-
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+segmentif = ["(user.CustomAttribute['Segment'] == 'E')"]
 
 	image = '''nz_edm1_everest_20170612'''
+    url_link='''https://www.ford.co.nz/'''
+	url_link_name='''everest'''
 
-
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+segmentif = ["(user.CustomAttribute['Segment'] == 'F')"]
 
 	image = '''nz_edm1_fiesta_20170612'''
+    url_link='''https://www.ford.co.nz/'''
+	url_link_name='''fiesta'''
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''white'''
 
-	copy='''<br /><br />Dear<br /><br />Welcome to the Ford family. You are now driving NZ’s #1 new vehicle. We would like to thank you for choosing Ford and hope that you are enjoying the experience.<br /><br />Did you know your new <%${user.CustomAttribute['Model']}%> is as safe as it is smart? Not only does it deliver innovative driver assistance technologies and a full 5-star ANCAP safety rating, it also brings the latest in-car communication technologies to New Zealand drivers.'''
-
+	copy='''<br /><br />Dear <%${user.CustomAttribute['FullName']}%><br /><br />Welcome to the Ford family. We would like to thank you for choosing Ford and hope that you are enjoying the experience.<br /><br />Did you know your new <%${user.CustomAttribute['Model']}%> is as safe as it is smart? Not only does it deliver innovative driver assistance technologies and a full 5-star ANCAP safety rating, it also brings the latest in-car communication technologies to New Zealand drivers.'''
 
  [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''nz_edm2_svc2_20170612'''
-
 
 [[module]] #Cover 01 
 path='email_modules/cover/01'
@@ -72,11 +76,14 @@ color='white'
 	title='''Stay connected. Everywhere.'''
 	copy='''Your <%${user.CustomAttribute['Model']}%> is equipped with Ford’s <a href="https://www.ford.co.nz/technology/sync/" name="sync" style="text-decoration:underline; color:#2D96CD">SYNC® infotainment system</a>. Use simple voice commands for hands-free control of your phone, your music, and satellite navigation. Best of all, your hands stay safely on the wheel and your eyes stay on the road ahead.<br /><br />'''
 
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
 
 	image = '''nz_edm2_svc1_20170612'''
+    url_link='''https://www.ford.co.nz/owners/service/?intcmp=bb-fnz-hp-fnz--return/'''
+	url_link_name='''service'''
+
 
 [[module]] #Cover 01 
 path='email_modules/cover/01'
