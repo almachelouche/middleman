@@ -1,6 +1,6 @@
 +++
 markets = ["th"]
-title = '''TH Welcome First 008 Focus'''
+title = '''TH Welcome First 007 New Focus'''
 
 [[module]]
 path='email_modules/preheader'
@@ -36,7 +36,7 @@ color='''white'''
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''th_edm1&4_np_focus_20160801'''
+	image = '''th_edm1&4_np_newfocus_20160801'''
 
 [[module]] #Dual 04
 path='email_modules/dual/04'
@@ -55,9 +55,9 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">ศูนย�
 	cta1c_url = ''''''
 	cta1c_link_name = ''''''
 	icon1 = '''th_edm1_ownersite_20160801'''
-	title2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">เรียนรู้การใช้งาน SYNC&trade;</span>3</span>'''
-	copy2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="color:#616161; font-size:16px">รถยนต์ฟอร์ดของคุณมาพร้อมกับ<br />ระบบสั่งงานด้วยเสียง SYNC&trade;</span>3</span><br />เพื่อการสั่งงาน<br />โดยไม่ต้องปล่อยมือจากพวงมาลัย</span></span>'''
-	cta2a_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><br /><br />เรียนรู้เพิ่มเติมเกี่ยวกับ SYNC&trade;</span>3</span>'''
+	title2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">เรียนรู้การใช้งาน SYNC&trade;</span>'''
+	copy2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="color:#616161; font-size:16px">รถยนต์ฟอร์ดของคุณมาพร้อมกับ<br />ระบบสั่งงานด้วยเสียง SYNC&trade;<br />เพื่อการสั่งงาน<br />โดยไม่ต้องปล่อยมือจากพวงมาลัย</span></span>'''
+	cta2a_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><br /><br />เรียนรู้เพิ่มเติมเกี่ยวกับ SYNC&trade;</span>'''
 	cta2a_url = '''https://www.ford.co.th/engineering/sync/'''
 	cta2a_link_name = '''sync'''
 	cta2b_text = ''''''

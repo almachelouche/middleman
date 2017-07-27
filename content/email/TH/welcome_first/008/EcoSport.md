@@ -1,12 +1,12 @@
 +++
 markets = ["th"]
-title = '''TH Welcome First 008 Focus'''
+title = '''TH Welcome First 007 EcoSport'''
 
 [[module]]
 path='email_modules/preheader'
 
 
-		preheader = '''ฟอร์ดขอขอบคุณที่คุณเลือกเรา ให้เป็นเพื่อนร่วมทางของคุณ เราจะส่งข่าวสาร และข้อมูลกิจกรรมที่เป็นประโยชน์ ให้แก่คุณอย่างต่อเนื่อง เพราะคุณเป็นส่วนหนึ่ง ของครอบครัวฟอร์ด ขอให้คุณมีความสุขกับการขับขี่ Focus ค่ะ '''
+		preheader = '''ฟอร์ดขอขอบคุณที่คุณเลือกเรา ให้เป็นเพื่อนร่วมทางของคุณ เราจะส่งข่าวสาร และข้อมูลกิจกรรมที่เป็นประโยชน์ ให้แก่คุณอย่างต่อเนื่อง เพราะคุณเป็นส่วนหนึ่ง ของครอบครัวฟอร์ด ขอให้คุณมีความสุขกับการขับขี่ EcoSport ค่ะ '''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -30,13 +30,13 @@ color='''white'''
 <span style=" white-space:nowrap;">ของครอบครัวฟอร์ด</span>
 <br /><br />
 <span style=" white-space:nowrap;">ขอให้คุณมีความสุขกับการขับขี่</span> 
-<span style=" white-space:nowrap;">Focus ค่ะ </span></span>'''
+<span style=" white-space:nowrap;">EcoSport ค่ะ </span></span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''th_edm1&4_np_focus_20160801'''
+	image = '''th_edm1&4_np_ecosport_20160801'''
 
 [[module]] #Dual 04
 path='email_modules/dual/04'
@@ -55,9 +55,9 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">ศูนย�
 	cta1c_url = ''''''
 	cta1c_link_name = ''''''
 	icon1 = '''th_edm1_ownersite_20160801'''
-	title2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">เรียนรู้การใช้งาน SYNC&trade;</span>3</span>'''
-	copy2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="color:#616161; font-size:16px">รถยนต์ฟอร์ดของคุณมาพร้อมกับ<br />ระบบสั่งงานด้วยเสียง SYNC&trade;</span>3</span><br />เพื่อการสั่งงาน<br />โดยไม่ต้องปล่อยมือจากพวงมาลัย</span></span>'''
-	cta2a_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><br /><br />เรียนรู้เพิ่มเติมเกี่ยวกับ SYNC&trade;</span>3</span>'''
+	title2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">เรียนรู้การใช้งาน SYNC&trade;</span>'''
+	copy2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="color:#616161; font-size:16px">รถยนต์ฟอร์ดของคุณมาพร้อมกับ<br />ระบบสั่งงานด้วยเสียง SYNC&trade;<br />เพื่อการสั่งงาน<br />โดยไม่ต้องปล่อยมือจากพวงมาลัย</span></span>'''
+	cta2a_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><br /><br />เรียนรู้เพิ่มเติมเกี่ยวกับ SYNC&trade;</span>'''
 	cta2a_url = '''https://www.ford.co.th/engineering/sync/'''
 	cta2a_link_name = '''sync'''
 	cta2b_text = ''''''
@@ -92,7 +92,28 @@ text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif; font-Size: 14px
 	cta2_link_name = '''oa_andriod'''
 	image = '''th_edm6_ownerapp_20160921'''
 
-	[[module]] #Split 04
+	[[module]]
+path='email_modules/split/07'
+color='white'
+
+title='''<span style="font-family:Tahoma, Verdana, Sans-serif">อุปกรณ์ตกแต่งสำหรับคุณ</span>'''
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
+<span style="white-space:nowrap;">ให้ฟอร์ด เอคโคสปอร์ต</span> 
+<span style="white-space:nowrap;">ของคุณล้ำหน้าไปอีกขั้น</span> <br />
+<span style="white-space:nowrap;">ด้วยอุปกรณ์ตกแต่งล่าสุด</span><br />
+<span style="white-space:nowrap;">นั่นคือ</span> 
+<span style="white-space:nowrap;">กล้องบันทึกวีดีโอหน้ารถ</span><br />
+<span style="white-space:nowrap;">มูลค่า 3,690.-</span> 
+<span style="white-space:nowrap;">ที่จะบันทึกวิดีโอคุณภาพสูง</span>
+<span style="white-space:nowrap;">ระหว่างการขับขี่ ทั้งยังช่วยคุณ</span><br /> 
+<span style="white-space:nowrap;">ประหยัดค่าเบี้ยประกันรถยนต์</span>
+<span style="white-space:nowrap;">ได้สูงสุดถึง 5-10%</span></span>'''
+cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อชมอุปกรณ์เสริมทั้งหมด</span>'''
+cta1_url='''https://www.ford.co.th/suvs/ecosport/accessories/'''
+cta1_link_name = '''acc_ecosport'''
+image='''TH_edm1a_ecosport_video_recoder_20170508'''
+
+[[module]] #Split 04
 path='email_modules/split/04'
 color='green'
 
