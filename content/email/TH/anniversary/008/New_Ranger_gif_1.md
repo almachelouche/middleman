@@ -1,7 +1,7 @@
 +++
 markets = ["th"]
 title = '''TH Anniversary 008 New Ranger'''
-
+draft=true
 
 [[module]]
 path='email_modules/preheader'
