@@ -1,7 +1,6 @@
 +++
 markets = ["th"]
 title = '''TH Anniversary 008 New Ranger'''
-draft=true
 
 [[module]]
 path='email_modules/preheader'
@@ -26,7 +25,7 @@ color='''white'''
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''th_edm1_wildtrak_20170309'''
+	image = '''th_edm1_wildtrak_2017420'''
 
 [[module]] #Cover 01
 path='email_modules/cover/01'
@@ -71,7 +70,6 @@ color='''white'''
 	cta1_url = '''https://www.ford.co.th/#/overlay/content/ford/th/th_th/site-wide-content/overlays/form-overlay/login/'''
 	cta1_link_name = '''anything_changed'''
 	icon = '''th_edm2_ownerprofile_20160801'''
-
 
 [[module]] #TH Social
 path='email_modules/footer/th/social'
