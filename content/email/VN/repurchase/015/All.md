@@ -44,14 +44,21 @@ color='fordblue'
 	cta1_url = '''https://www.ford.com.vn/owner/vehicle-support/incentives/'''
 	cta1_link_name = '''loyalty_offer'''
 	cta1_icon = '''more'''
-	image = '''vn_edm5_3millionvnd_20160801'''
+	image = '''vn_edm5_loyaltyoffer_20170728'''
 
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
 
-	image = '''VN_edm5_Everest_20170526'''
+[[module]] #Split 04
+path='email_modules/split/04'
+color='green'
 
+	title = '''Brake Pad & Battery Check Up Promotion'''
+	copy = '''You might not be able to see them, but your car’s battery and brake pads need care and attention every once in a while to keep you and your vehicle in good health. As a Ford customer, you can enjoy free battery and brake pad inspections. And if you have to replace a brake pad or battery, you will be given a 50% off coupon for a Motorcraft wiper blade replacement. This offer is only valid from August 1 to September 15, 2017.'''
+	cta1_text = '''LEARN MORE'''
+	cta1_url = '''https://www.ford.com.vn/'''
+	cta1_link_name = '''brake_battery_promotion'''
+	cta1_icon = '''more'''
+	image = '''vn_edm5_50_20170728'''
+    
 [[module]] #Split 02
 path='email_modules/split/02'
 color='black'
