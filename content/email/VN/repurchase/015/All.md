@@ -28,7 +28,7 @@ color='''white'''
 	title='''50% Refund for Ranger Days'''
 	copy='''Hello #Name#<br /><br />If there were a perfect reason why you should buy a new Ranger this August, it would be Ford Ranger Days. For the entire month of August, you can save yourself 50% of the vehicle price if you buy a Ranger!<br /><br />With its rugged capability, innovative technology and impressive towing capacity, the Ranger is the truck that can get the job done. And, it can get the job done for you at half the price!<br /><br />But if trucks aren’t your thing, the Ford Everest, EcoSport, Focus and Fiesta are all also available with a 50% refund.'''
 	cta1_text='''BOOK A TEST DRIVE'''
-	cta1_url='''https://www.ford.com.vn/trucks/ranger/#overlay/content/ford/vn/vi_vn/site-wide-content/overlays/forms/test-drive.html?Model=New%20Ranger&Series=RANGER%20WILDTRAK%203.2L%20AT%204X4%20%28Kh%C3%B4ng%20c%C3%B3%20n%E1%BA%AFp%20th%C3%B9ng%20cu%E1%BB%99n%29'''
+	cta1_url='''https://www.ford.com.vn/trucks/ranger/ranger-homepage/?redtrgtexp=true#overlay/content/ford/vn/vi_vn/site-wide-content/overlays/forms/test-drive.html?gmbxtid=ford_ranger-first-kba-001-book_a_test_drive_1'''
 	cta1_link_name = '''ranger_test_drive'''
 	cta2_text='''FIND OUT MORE'''
 	cta2_url='''https://www.ford.com.vn/promotion-corner/2017/hot-deal-1/'''
@@ -59,8 +59,8 @@ color='green'
 	cta1_icon = '''more'''
 	image = '''vn_edm5_50_20170728'''
     
-[[module]] #Split 02
-path='email_modules/split/02'
+[[module]] #Split 03
+path='email_modules/split/03'
 color='black'
 
 	title = '''Tự tin hơn với má phanh chính hãng Ford Motorcraft'''
