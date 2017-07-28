@@ -47,8 +47,8 @@ color='fordblue'
 	image = '''vn_edm5_loyaltyoffer_20170728'''
 
 
-[[module]] #Split 01
-path='email_modules/split/01'
+[[module]] #Split 04
+path='email_modules/split/04'
 color='green'
 
 	title = '''Brake Pad & Battery Check Up Promotion'''
