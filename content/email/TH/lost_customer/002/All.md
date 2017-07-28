@@ -53,7 +53,6 @@ color='white'
 	url_link='''https://www.ford.co.th/owner/servicecampaign/'''
 	url_link_name='''servicecampaign'''
     
-
 [[module]] #Split 04
 path='email_modules/split/04'
 color='green'
