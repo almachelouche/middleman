@@ -73,7 +73,7 @@ color='''fordblue'''
 	
 	cta2_text = '''Find out more!'''
 	cta2_url = '''http://google.com'''
-	cta2_link_name = '''more'''
+	cta2_link_name = '''find'''
 	cta1_icon='''more'''
 
 [[module]] #Footer AU Social
