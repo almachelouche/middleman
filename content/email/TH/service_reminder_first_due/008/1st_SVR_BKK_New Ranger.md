@@ -134,7 +134,6 @@ cta1_url='''https://www.ford.co.th/trucks/ranger/accessories/#overlay/content/fo
 cta1_link_name = '''acc_new_ranger'''
 image='''TH_edm1a_wildtrak_roller_shutter_20170508'''
 
-
 [[module]]
 path='email_modules/dual/03'
 color='white'

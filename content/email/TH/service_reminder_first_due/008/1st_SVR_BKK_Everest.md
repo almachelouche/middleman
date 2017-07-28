@@ -126,7 +126,7 @@ cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">เรีย�
 cta1_url='''http://www.ford.co.th/buying/solutions/premium-protection-plus'''
 cta1_link_name = '''ppp'''
 
-	[[module]]
+[[module]]
 path='email_modules/split/07'
 color='white'
 
