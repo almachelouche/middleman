@@ -107,6 +107,22 @@ cta1_icon='''more'''
 cta1_link_name = '''SSP'''
 image = '''th_edm5a_specialoffer_20160801'''
 
+[[module]]
+path='email_modules/cover/02'
+
+color='''white'''
+icon='''th_edm3_extendedwarranty_20160921'''
+title='''<span style="font-family:Tahoma, Verdana, Sans-serif">โปรแกรมขับขี่อุ่นใจ</span>'''
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">ขยายระยะเวลาการประกันสูงสุด 5 ปี</span> 
+<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">หรือ 150,000 กิโลเมตร</span>
+<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">ด้วยโปรแกรมขับขี่อุ่นใจ</span><br />
+<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">คุ้มครองเครื่องยนต์</span> 
+<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">และระบบไฟฟ้าขัดข้อง</span>
+<span style="font-family:Tahoma, Verdana, Sans-serif; white-space:nowrap;">การันตีด้วยช่างผู้เชี่ยวชาญจากฟอร์ด</span>'''
+cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">เรียนรู้เพิ่มเติม</span>'''
+cta1_url='''http://www.ford.co.th/buying/solutions/premium-protection-plus'''
+cta1_link_name = '''ppp'''
+
 	[[module]]
 path='email_modules/split/07'
 color='white'
