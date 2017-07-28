@@ -59,8 +59,8 @@ color='green'
 	cta1_icon = '''more'''
 	image = '''vn_edm5_50_20170728'''
     
-[[module]] #Split 02
-path='email_modules/split/02'
+[[module]] #Split 03
+path='email_modules/split/03'
 color='black'
 
 	title = '''Tự tin hơn với má phanh chính hãng Ford Motorcraft'''
