@@ -57,12 +57,33 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'F')"]
     url_link='''https://www.ford.co.nz/'''
 	url_link_name='''fiesta'''
 
-[[module]] #Cover 11
-path='email_modules/cover/03'
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+    
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
+
+	copy='''Dear <%${user.CustomAttribute['FullName']}%><br /><br />Thank you for again choosing Ford. We hope you are enjoying the experience being part of the Ford family with your new <%${user.CustomAttribute['Model']}%>.<br /><br />'''
+
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+segmentif = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
+
+    copy='''Dear <%${user.CustomAttribute['FullName']}%><br /><br />Welcome to the Ford Family. We would like to thank you for choosing Ford and hope that you are enjoying the experience.<br /><br />'''
+
+[[module]]
+path='email_modules/singles/copy'
 color='''white'''
 
-	copy='''<br /><br />Dear <%${user.CustomAttribute['FullName']}%><br /><br />Welcome to the Ford family. We would like to thank you for choosing Ford and hope that you are enjoying the experience.<br /><br />Did you know your new <%${user.CustomAttribute['Model']}%> is as safe as it is smart? Not only does it deliver innovative driver assistance technologies and a full 5-star ANCAP safety rating, it also brings the latest in-car communication technologies to New Zealand drivers.'''
 
+    copy='''Along with driver assistance technologies that enable a 5-Star safety rating, Ford brings the latest communications technology to New Zealand drivers.<br/> Not only is your vehicle safe, it’s also smart!'''
+    
  [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
@@ -90,7 +111,7 @@ path='email_modules/cover/01'
 color='white'
 
  title='''Peace of mind comes standard'''
-	copy='''Your new <%${user.CustomAttribute['Model']}%> includes a complimentary 3-year/100,000km warranty, 3-year roadside assistance, and 12-month/15,000km service intervals (whichever occurs first). <br /><br />You will also receive an email from us within the next two months reminding you to book your Peace of Mind checkup. This is a quick, complimentary inspection to ensure that you are happy with how your vehicle is running. It also provides an opportunity to discuss any questions or concerns you may have about your new <%${user.CustomAttribute['Model']}%>.'''
+	copy='''Included with your new <%${user.CustomAttribute['Model']}%> is a 3year/100,000km Warranty, 3 Year Roadside Assistance along with a 20,000km/12 Month Service (whichever occurs first). <br /><br />You will also receive an email from us within the next two months reminding you to book your Peace of Mind checkup. This is a quick, complimentary inspection to ensure that you are happy with how your vehicle is running. It also provides an opportunity to discuss any questions or concerns you may have about your new <%${user.CustomAttribute['Model']}%>.'''
 
 
 [[module]] #Cover 01
