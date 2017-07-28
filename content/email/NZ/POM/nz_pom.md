@@ -2,6 +2,13 @@
 markets = ["nz"]
 title = '''NZ POM 001'''
 
+[[module]] #Header Logo
+path='email_modules/header/logo'
+color='white'
+
+	image = '''white'''
+	url_link = '''https://www.ford.co.nz/'''
+
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
@@ -25,7 +32,6 @@ color='''white'''
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
-segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
 
 	cta1_text = '''BOOK A SERVICE'''
 	cta1_url = '''https://www.ford.com.au/owners/service/book-service/'''
