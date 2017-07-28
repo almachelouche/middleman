@@ -117,7 +117,7 @@ path='email_modules/cover/01'
 color='white'
 
  title='''Peace of mind comes standard'''
-	copy='''Included with your new <%${user.CustomAttribute['Model']}%> is a 3year/100,000km Warranty, 3 Year Roadside Assistance along with a 20,000km/12 Month Service (whichever occurs first). <br /><br />You will also receive an email from us within the next two months reminding you to book your Peace of Mind checkup. This is a quick, complimentary inspection to ensure that you are happy with how your vehicle is running. It also provides an opportunity to discuss any questions or concerns you may have about your new <%${user.CustomAttribute['Model']}%>.'''
+	copy='''Included with your new <%${user.CustomAttribute['Model']}%> is a 3year/100,000km Warranty, 3 Year Roadside Assistance along with a 20,000km/12 Month Service intervals (whichever occurs first). <br /><br />You will also receive an email from us within the next two months reminding you to book your Peace of Mind checkup. This is a quick, complimentary inspection to ensure that you are happy with how your vehicle is running. It also provides an opportunity to discuss any questions or concerns you may have about your new <%${user.CustomAttribute['Model']}%>.'''
 
 
 [[module]] #Cover 01
