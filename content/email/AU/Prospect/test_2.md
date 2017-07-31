@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU Test only copy'''
+title = '''AU Test copy and CTA'''
 
 [[module]]
 path='email_modules/preheader'
@@ -62,58 +62,21 @@ color='white'
 
 	title1='''Ford Owners App'''
 	title2='''Get Accessorised'''
-	copy1='''Download the <a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Owners App</a> for instant access to “how-to” videos, roadside assistance information, service reminders, vehicle owner manuals, and more.<br /><br /><a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="oa" style="text-decoration:underline; color:#2D96CD">Download App Now</a><br /><br />'''
-	copy2='''Take your Focus to the next level with Ford Genuine Accessories, designed to seamlessly integrate with your Focus.<br /><br /><br /><a href="https://www.ford.com.au/cars/focus/accessories/focus-trend-hatch/" name="accessory" style="text-decoration:underline; color:#2D96CD">Discover Accessories</span><br /><br />'''
-	image1='''au_edm1_owner-app2_20170629'''
+	copy1='''Download the <a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Owners App</a> for instant access to “how-to” videos, roadside assistance information, service reminders, vehicle owner manuals, and more.'''
+	copy2='''Take your Focus to the next level with Ford Genuine Accessories, designed to seamlessly integrate with your Focus.<br /><br />'''
+	cta1a_text = '''Download App Now'''
+	cta1a_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
+	cta1a_link_name = '''oa'''
+    image1='''au_edm1_owner-app2_20170629'''
     image1_url='''https://www.ford.com.au/owners/vehicle-support/app-download/'''
     image1_name='''Some'''
+    cta2a_text = '''Discover Accessories'''
+	cta2a_url = '''https://www.ford.com.au/cars/focus/accessories/focus-trend-hatch/'''
+	cta2a_link_name = '''accessory'''
     image2='''au_edm1_focus02_20170629'''
     image2_url='''https://www.ford.com.au/cars/focus/accessories/focus-trend-hatch/'''
     image2_name='''Some'''
 
-[[module]]
-path='email_modules/spacer/platinum_20'
-color='white'
-
-	height="20"
-
-[[module]]
-path='email_modules/dual/05'
-color='white'
-
-	title1 = '''SYNC® Support'''
-	copy1 = '''Become a SYNC® expert. Learn how to use SAT NAV, set up Emergency Assistance and familiarise yourself with common voice commands and more on the <a href="https://www.ford.com.au/owners/technology/sync-support/sync1/" name="sync" style="text-decoration:underline; color:#2D96CD">SYNC® Support Portal</a>'''
-	image1 = '''au_edm1_support_20170629'''
-	image1_url = '''https://www.ford.com.au/owners/technology/sync-support/sync1/'''
-	image1_link_name = '''sync'''
-	title2 = '''Ford Service'''
-	copy2 = '''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That's what service should be.<br/><br/><a href="https://www.ford.com.au/owners/service/" name="service" style="text-decoration:underline; color:#2D96CD">Find Out More</span><br />'''
-	image2 = '''au_edm1_service_20170629'''
-    image2_url = '''https://www.ford.com.au/owners/service/'''
-	image2_link_name = '''service'''
-
-
-[[module]]
-path='email_modules/spacer/platinum_20'
-color='white'
-
-	height="20"
-
-[[module]]
-path='email_modules/dual/05'
-color='white'
-
-	title1 = '''Auto Club Membership&#179;'''
-	copy1 = '''Each time you complete your standard service at a participating Ford dealer you'll receive State <a href="https://www.ford.com.au/owners/service/roadside-assistance/" style="text-decoration:underline; color:#2D96CD">Auto Club Roadside Assistance</a> and membership for up to 12 months.'''
-	image1 = '''au_edm2_auto_club_membership_20170629'''
-
-	title2 = '''SAT NAV <br/>Updates&#8308;'''
-	copy2 = '''If you have SYNC®2 with SAT NAV, we'll help you stay on track with yearly map updates for up to 7 years when you complete your service with a participating dealer.<br/><a href="https://www.ford.com.au/owners/service/free-sat-nav-updates/" style="text-decoration:underline; color:#2D96CD">Learn More</a>'''
-	cta2a_text = '''Learn More'''
-	cta2a_url = '''https://www.ford.com.au/owners/service/free-sat-nav-updates/'''
-	cta2a_link_name = '''accessory'''
-	image2 = '''au_edm2_free_sat_nav_updates_20170629'''
-    
 [[module]]
 path='email_modules/footer/au/social'
 color='white'
