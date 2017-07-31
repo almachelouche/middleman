@@ -71,7 +71,7 @@ color='''white'''
 path='email_modules/custom/fordowner_resources'
 color='white'
 
-	cta1_text=''FIND OUT MORE''
+	cta1_text='''FIND OUT MORE'''
 	cta1_url='''https://www.ford.com.au/owner?emailid=20150918-0102_CTAVisitFordOwners_WelcomeNewSep_Generic_0_FOA'''
 	cta1_link_name = '''link_name_here'''
 	cta1_icon='''more'''
