@@ -1,7 +1,7 @@
 
 +++
 markets = ["sk-lincoln"]
-title = '''SK Lincoln Service Reminder First 002 mockup'''
+title = '''SK Lincoln Service Reminder First 002 copyupdate'''
 
 [[module]]
 path='email_modules/preheader'
