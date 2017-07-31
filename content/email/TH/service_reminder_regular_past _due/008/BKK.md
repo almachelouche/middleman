@@ -1,6 +1,6 @@
 +++
 markets = ["th"]
-title = '''TH Service Reminder Regular Past Due 007 BKK'''
+title = '''TH Service Reminder Regular Past Due 008 BKK'''
 
 [[module]]
 path='email_modules/preheader'
@@ -48,6 +48,14 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหมายตอนนี้</span>'''
 cta1_url='''https://onlinebooking.ford.co.th/'''
 
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+
+ image='''TH_edm2_ServiceCampaign_20170726'''
+	url_link='''https://www.ford.co.th/owner/servicecampaign/'''
+	url_link_name='''servicecampaign'''
+    
 [[module]]
 path='email_modules/cover/03'
 
@@ -59,7 +67,6 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;color:#b3b3b3;">
 <span style="white-space:nowrap;"><% ${user.CustomAttribute['Last_Reported_Service_Date']} %></span><br />
 <span style="white-space:nowrap;">ระยะทางล่าสุด :</span> 
 <span style="white-space:nowrap;"><% ${user.CustomAttribute['Mileage']} %></span></span>'''
-
 
 [[module]] #Split 04
 path='email_modules/split/04'
