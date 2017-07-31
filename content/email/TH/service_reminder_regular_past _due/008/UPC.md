@@ -15,7 +15,6 @@ color='white'
 	image = '''white'''
 	url_link = '''https://www.ford.co.th/'''
 
-
 [[module]]
 path='email_modules/cover/02'
 
