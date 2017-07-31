@@ -44,14 +44,6 @@ cta2_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นห�
 cta2_url='''https://www.ford.co.th/locate-a-dealer/'''
 cta2_url_link_name='''find_dealer'''
 
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-
- image='''TH_edm2_ServiceCampaign_20170726'''
-	url_link='''https://www.ford.co.th/owner/servicecampaign/'''
-	url_link_name='''servicecampaign'''
-
 [[module]]
 path='email_modules/cover/03'
 
@@ -60,6 +52,13 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white
 				เข้ารับบริการครั้งล่าสุดวันที่ : <% ${user.CustomAttribute['Last_Reported_Service_Date']} %><br />
 				ระยะทางล่าสุด : <% ${user.CustomAttribute['Mileage']} %></span></span></span>'''
 
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+
+ image='''TH_edm2_ServiceCampaign_20170726'''
+	url_link='''https://www.ford.co.th/owner/servicecampaign/'''
+	url_link_name='''servicecampaign'''
 
 [[module]] #Split 04
 path='email_modules/split/04'
