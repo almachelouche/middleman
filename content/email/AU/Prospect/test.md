@@ -108,10 +108,7 @@ color='white'
 	image1 = '''au_edm2_auto_club_membership_20170629'''
 
 	title2 = '''SAT NAV <br/>Updates&#8308;'''
-	copy2 = '''If you have SYNC®2 with SAT NAV, we'll help you stay on track with yearly map updates for up to 7 years when you complete your service with a participating dealer.<br/><a href="https://www.ford.com.au/owners/service/free-sat-nav-updates/" style="text-decoration:underline; color:#2D96CD">Learn More</a>'''
-	cta2a_text = '''Learn More'''
-	cta2a_url = '''https://www.ford.com.au/owners/service/free-sat-nav-updates/'''
-	cta2a_link_name = '''accessory'''
+	copy2 = '''If you have SYNC®2 with SAT NAV, we'll help you stay on track with yearly map updates for up to 7 years when you complete your service with a participating dealer.<br/><br/><a href="https://www.ford.com.au/owners/service/free-sat-nav-updates/" style="text-decoration:underline; color:#2D96CD">Learn More</a>'''
 	image2 = '''au_edm2_free_sat_nav_updates_20170629'''
     
 [[module]]
