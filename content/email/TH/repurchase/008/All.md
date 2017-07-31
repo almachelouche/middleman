@@ -69,8 +69,8 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 <span style="white-space:nowrap;">เมื่อซื้อรถยนต์ฟอร์ดคันต่อไปทุกรุ่น</span> 
 <span style="white-space:nowrap;">(ยกเว้นฟอร์ด โฟกัส)</span><br /> 
 <span style="white-space:nowrap;">ตั้งแต่</span> 
-<span style="white-space:nowrap;">วันที่ 1 มิถุนายน</span> 
-<span style="white-space:nowrap;">ถึง 31 กรกฎาคม 2560 </span>
+<span style="white-space:nowrap;">วันที่ 1 กรกฏาคม</span> 
+<span style="white-space:nowrap;">ถึง 31 สิงหาคม 2560</span>
 <span style="white-space:nowrap;">นี้เท่านั้น</span></span>'''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ดูเพิ่มเติม</span>'''
 cta1_url='''https://www.ford.co.th/loyaltyprogram2017/'''
