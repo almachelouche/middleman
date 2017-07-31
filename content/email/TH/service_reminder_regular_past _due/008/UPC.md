@@ -52,7 +52,7 @@ color='white'
  image='''TH_edm2_ServiceCampaign_20170726'''
 	url_link='''https://www.ford.co.th/owner/servicecampaign/'''
 	url_link_name='''servicecampaign'''
-    
+
 [[module]]
 path='email_modules/cover/03'
 
