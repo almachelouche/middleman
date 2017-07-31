@@ -23,9 +23,9 @@ font='sk'
 
     icon=''''''
     title='''<span style="white-space:nowrap;">고객님을 위해 제공하는 특별한 차량 점검 서비스를 만나보십시오</span><br /><br />'''
-    copy='''<span style="white-space:nowrap;">즐겁고 안전한 운전을 위한</span> 
+    copy='''<span style="white-space:nowrap;">즐겁고 안전한 운전을 위한</span><br /> 
     <span style="white-space:nowrap;">'첫 번째 차량 점검 서비스'를 받아보십시오.</span><br /><br />
-    <span style="white-space:nowrap;">처음과 같은 안전성과 주행성능을 유지할 수 있도록</span>
+    <span style="white-space:nowrap;">처음과 같은 안전성과 주행성능을 유지할 수 있도록</span><br />
     <span style="white-space:nowrap;">전문 테크니션이 맞춤 서비스를 선사합니다.</span><br /><br /> 
     <span style="white-space:nowrap;">'첫 번째 차량 점검 서비스'를 신청하면, 27가지 무상 점검은 물론</span> 
     <span style="white-space:nowrap;">차량 상태를 한눈에 확인할 수 있는 점검 진단표를 제공합니다.</span><br /><br />
