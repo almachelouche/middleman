@@ -72,7 +72,7 @@ path='email_modules/custom/fordowner_resources'
 color='white'
 
 	title = ''''''
-	copy1 = ''''''
+	copy1 = '''We know how important your <Nameplate> is to you, so we're sure you'll appreciate the many benefits of putting your <Nameplate> in the trusted hands of Ford trained technicians who use diagnostic equipment specifically designed for Fords.<br/>When you book or bring your vehicle in for a scheduled service you will be provided with an estimate1 of the cost. We will perform a vehicle report card - a comprehensive health check of your vehicle. You can even book a free loan car² so we can keep you on the road.'''
 	copy2 = ''''''
 	cta1_text=''FIND OUT MORE''
 	cta1_url='''https://www.ford.com.au/owner?emailid=20150918-0102_CTAVisitFordOwners_WelcomeNewSep_Generic_0_FOA'''
