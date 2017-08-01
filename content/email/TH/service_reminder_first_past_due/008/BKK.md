@@ -46,6 +46,13 @@ cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดห�
 cta1_url='''https://onlinebooking.ford.co.th/'''
 cta1_link_name = '''book_now'''
 
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+
+ image='''TH_edm2_ServiceCampaign_20170726'''
+	url_link='''https://www.ford.co.th/owner/servicecampaign/'''
+	url_link_name='''servicecampaign'''
 
 [[module]] #Split 04
 path='email_modules/split/04'
@@ -58,8 +65,7 @@ cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
 cta1_icon='''more'''
 cta1_link_name = '''SSP'''
 image = '''th_edm5a_specialoffer_20160801'''
-
-
+ 
 [[module]] #TH Social
 path='email_modules/footer/th/social'
 color='white'
