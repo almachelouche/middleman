@@ -113,7 +113,18 @@ color='white'
 	cta2a_url = '''https://www.ford.com.au/owners/service/free-sat-nav-updates/'''
 	cta2a_link_name = '''accessory'''
 	image2 = '''au_edm2_free_sat_nav_updates_20170629'''
-    
+
+[[module]]
+path='email_modules/dual/05'
+color='white'
+
+	title1='''Service Price Promise&#178;'''
+	title2='''Free Loan Car&#185;'''
+	copy1='''Know how much your standard service will cost before you even come in, with the <ahref="https://www.ford.com.au/owners/service/calculator/" name="calculator" style="text-decoration:underline; color:#2D96CD"> Service Price Promise Calculator</span>.<br/><br/>'''
+	copy2='''Life shouldn't stop when you service your vehicle. That's why we offer a <a href="https://www.ford.com.au/owners/service/" name="freeloan" style="text-decoration:underline; color:#2D96CD">Free Loan Car&#185</a>  when you book a scheduled service.<br/><br/>'''
+    image1='''au_edm2_service_price_promise_20170629'''
+    image2='''au_edm2_free_loan_car_20170629'''
+
 [[module]]
 path='email_modules/footer/au/social'
 color='white'
