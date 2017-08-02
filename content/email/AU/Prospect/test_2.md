@@ -78,14 +78,20 @@ color='white'
     image2_name='''Some'''
 
 [[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
+	height="20"
+
+[[module]]
 path='email_modules/dual/05'
 color='white'
 
 	title1='''SYNC® Support'''
 	title2='''Ford Service'''
 	copy1='''Learn how to use SAT NAV, set up Emergency Assistance, familiarise yourself with common voice commands and more on the <a href="https://www.ford.com.au/owners/technology/sync-support/sync1/" name="sync" style="text-decoration:underline; color:#2D96CD">SYNC® Support Portal</span>.'''
-	copy2='''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That's what service should be.'''
-	cta1a_text = '''BECOME A SYNC® EXPERT'''
+	copy2='''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That's what service should be.<br/>'''
+	cta1a_text = '''Become a SYNC® Expert'''
 	cta1a_url = '''https://www.ford.com.au/owners/technology/sync-support/sync1/'''
 	cta1a_link_name = '''oa'''
     image1='''au_edm1_support_20170629'''
