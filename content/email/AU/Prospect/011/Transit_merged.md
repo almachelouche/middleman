@@ -102,7 +102,7 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />
 	The Ford Transit delivers efficiency without compromising its famously generous loadspace. <br />It's hardly surprising that it was awarded International Van of the Year when it was first introduced in 2013. </span><br /><br />
 	<span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">
-	Right now, the Transit Custom 290S SWB Van auto is available at $45,540.*</span>'''
+	Right now, the Transit Custom 290S SWB Van Auto is available at $45,540.*</span>'''
 
 [[module]] #Banner Image
 path = '''email_modules/image/banner_nolink'''
