@@ -103,7 +103,13 @@ color='white'
     image2='''au_edm1_service_20170629'''
     image2_url='''https://www.ford.com.au/owners/service/'''
     image2_name='''Some'''
-    
+
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
+	height="20"
+
 [[module]]
 path='email_modules/dual/05'
 color='white'
@@ -124,6 +130,12 @@ color='white'
     image2='''au_edm1_service_20170629'''
     image2_url='''https://www.ford.com.au/owners/service/'''
     image2_name='''Some'''
+
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
+	height="20"
 
 [[module]]
 path='email_modules/dual/05'
