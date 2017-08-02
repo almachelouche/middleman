@@ -106,7 +106,7 @@ color='white'
 
 	path = '''email_modules/image/banner_nolink'''
 	color = '''white'''
-	image = '''th_edm2_whyfordsvc_20161115'''
+	image = '''th_edm2_whyfordsvc_2016111.5'''
 
 [[module]]
 
