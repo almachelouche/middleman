@@ -19,7 +19,7 @@ path='email_modules/cover/02'
 color='''white''' 
 
 	title = '''Looking to Upgrade Your Ford?'''
-	copy = '''Hello <%${user['FirstName']}%><br /><br />We hope that you’re still loving your <%${user.CustomAttribute['Model']}%> as much as we love having you be a part of our Ford family!<br /><br />But if you’ve been thinking about upgrading – perhaps to a Ranger – you’re in luck! It’s Truck Month at Ford. For the entire month of August, you can enjoy all-in low down payment deal for a Ranger FX4 for as low as ₱68,000 or ₱12,599 monthly.<br /><br />This deal ends on August 31, 2017, so hurry to your nearest Ford dealer today.'''
+	copy = '''Hello <%${user['FirstName']}%><br /><br />We hope that you’re still loving your <%${user.CustomAttribute['Model']}%> as much as we love having you be a part of our Ford family!<br /><br />But if you’ve been thinking about upgrading – perhaps to a Ranger – you’re in luck! We’ve extended Truck Month at Ford until the end of August. So that means, you still have the entire month of August to can enjoy all-in low down payment deal for a Ranger FX4 for as low as ₱68,000 or ₱12,599 monthly. This deal ends on August 31, 2017, so hurry to your nearest Ford dealer today.'''
 	cta1_text = '''FIND OUT MORE'''
 	cta1_url = '''https://www.ford.com.ph/ford-truck-month-2017/'''
 	cta1_link_name = '''deal_search'''
