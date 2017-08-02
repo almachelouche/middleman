@@ -44,7 +44,6 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหมายตอนนี้</span>'''
 cta1_url='''https://onlinebooking.ford.co.th/'''
 
-
 [[module]]
 
 	path='email_modules/cover/03'
@@ -61,6 +60,14 @@ cta1_url='''https://onlinebooking.ford.co.th/'''
 		<span style="white-space:nowrap;"><% ${user.CustomAttribute['Mileage']} %></span>
 	</span>'''
 
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+
+ image='''TH_edm2_ServiceCampaign_20170726'''
+	url_link='''https://www.ford.co.th/owner/servicecampaign/'''
+	url_link_name='''servicecampaign'''
+    
 [[module]]
 
 	path='email_modules/custom/3columntitle3icons'
