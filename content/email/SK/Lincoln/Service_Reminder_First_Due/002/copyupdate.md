@@ -22,7 +22,8 @@ color='''lincoln_white'''
 font='sk'
 
     icon=''''''
-    title='''<span style="white-space:nowrap;">고객님을 위해 제공하는 특별한 차량 점검 서비스를 만나보십시오</span><br /><br />'''
+    title='''<span style="white-space:nowrap;">고객님을 위해 제공하는</span><br /> 
+    <span style="white-space:nowrap;">특별한 차량 점검 서비스를 만나보십시오</span><br /><br />'''
     copy='''<span style="white-space:nowrap;">즐겁고 안전한 운전을 위한</span><br /> 
     <span style="white-space:nowrap;">'첫 번째 차량 점검 서비스'를 받아보십시오.</span><br /><br />
     <span style="white-space:nowrap;">처음과 같은 안전성과 주행성능을 유지할 수 있도록</span><br />
