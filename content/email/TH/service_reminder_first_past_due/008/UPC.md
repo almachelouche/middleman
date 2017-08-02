@@ -44,6 +44,13 @@ cta2_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นห�
 cta2_url='''https://www.ford.co.th/locate-a-dealer/'''
 cta2_link_name='''find_dealer'''
 
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+
+ image='''TH_edm2_ServiceCampaign_20170726'''
+	url_link='''https://www.ford.co.th/owner/servicecampaign/'''
+	url_link_name='''servicecampaign'''
 
 [[module]] #Split 04
 path='email_modules/split/04'
@@ -52,11 +59,10 @@ color='green'
 	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า </span>'''
 	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">รับส่วนลดเพิ่มสูงสุด 10% หรือ 3,700 บาท กับโปรแกรมบำรุงรักษารถยนต์ ตามระยะ(SSP)พิเศษรับสิทธิ์ผ่อน 0%	นาน 10 เดือน เมื่อชำระผ่านบัตรเครดิตกสิกรไทย ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span>'''
 	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา ></span>'''
-cta1_url='''https://www.ford.co.th/owner/schedule-service/'''
+cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
 cta1_icon='''more'''
 cta1_link_name = '''SSP'''
 image = '''th_edm5a_specialoffer_20160801'''
-
 
 [[module]] #TH Social
 path='email_modules/footer/th/social'

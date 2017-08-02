@@ -56,6 +56,17 @@ color='white'
 	cta2c_link_name = ''''''
 	icon2 = '''ph_edm1_sync_20160801'''
 
+[[module]]
+path='email_modules/split/07'
+color='white'
+
+title='''Get accessorized'''
+copy='''Beat the rainy season. Accessorize your Expedition with Side window deflectors and enjoy fresh air anytime - even in a downpour.'''
+cta1_text='''VIEW ACCESSORIES'''
+cta1_url='''https://www.ford.com.ph/suvs/expedition/accessories/'''
+cta1_link_name = '''acc_expedition'''
+image='''ph_edm1_acc_expedition_20160801'''
+
 [[module]] #Split 02
 path='email_modules/split/02'
 color='green'
