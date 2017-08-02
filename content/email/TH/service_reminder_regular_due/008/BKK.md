@@ -114,13 +114,7 @@ color='white'
 	color='green'
 	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดค่าน้ำมันเครื่อง<br />สูงสุด</span>'''
 	copy='''
-		<span style="font-family:Tahoma, Verdana, Sans-serif;">
-			<span style="white-space:nowrap;">เพิ่มความอุ่นใจในการขับขี่ พิเศษ!</span> 
-			<span style="white-space:nowrap;">รับส่วนลดเพิ่ม 500 บาท</span> 
-			<span style="white-space:nowrap;">เมื่อซื้อโปรแกรมชุดน้ำมันเครื่อง</span>
-			<span style="white-space:nowrap;">สุดคุ้ม (OSP)</span> 
-			<span style="white-space:nowrap;">แบบแพคเกจ 3 ครั้ง</span>
-		</span>
+		เพิ่มความอุ่นใจในการขับขี่ พิเศษ!เมื่อซื้อโปรแกรมชุดน้ำมันเครื่องสุดคุ้ม (OSP) รับส่วนลดเพิ่ม 300 บาท สำหรับแพ็กเกจ 2 ครั้ง และ รับส่วนลดเพิ่ม 500 บาท สำหรับแพ็กเกจ 3 ครั้ง
 	'''
 	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
 	cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
