@@ -104,52 +104,7 @@ color='white'
     image2_url='''https://www.ford.com.au/owners/service/'''
     image2_name='''Some'''
 
-[[module]]
-path='email_modules/dual/05'
-color='white'
 
-	title1='''SYNC® Support'''
-	title2='''Ford Service'''
-	copy1='''Familiarise yourself with common voice commands and more on the SYNC® Support Portal. <br/><br/>'''
-	cta1a_text = '''Become a SYNC® Expert'''
-	cta1a_url = '''https://www.ford.com.au/owners/technology/sync-support/sync1/'''
-	cta1a_link_name = '''oa2'''
-    image1='''au_edm1_support_20170629'''
-    image1_url='''https://www.ford.com.au/owners/vehicle-support/app-download/'''
-    image1_name='''Some'''
-    cta2a_text = '''Find Out More'''
-	cta2a_url = '''https://www.ford.com.au/cars/focus/accessories/focus-trend-hatch/'''
-	cta2a_link_name = '''accessory2'''
-    image2='''au_edm1_service_20170629'''
-    image2_url='''https://www.ford.com.au/owners/service/'''
-    image2_name='''Some'''
-
-[[module]]
-path='email_modules/spacer/platinum_20'
-color='white'
-
-	height="20"
-
-[[module]]
-path='email_modules/dual/05'
-color='white'
-
-	title1='''SYNC® Support'''
-	title2='''Ford Service'''
-	copy1='''Learn how to set up Emergency Assistance, familiarise yourself with common voice commands and more on the SYNC® Support Portal.'''
-	copy2='''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That's what service should be.<br/>'''
-	cta1a_text = '''Become a SYNC® Expert'''
-	cta1a_url = '''https://www.ford.com.au/owners/technology/sync-support/sync1/'''
-	cta1a_link_name = '''oa3'''
-    image1='''au_edm1_support_20170629'''
-    image1_url='''https://www.ford.com.au/owners/vehicle-support/app-download/'''
-    image1_name='''Some'''
-    cta2a_text = '''Find Out More'''
-	cta2a_url = '''https://www.ford.com.au/cars/focus/accessories/focus-trend-hatch/'''
-	cta2a_link_name = '''accessory3'''
-    image2='''au_edm1_service_20170629'''
-    image2_url='''https://www.ford.com.au/owners/service/'''
-    image2_name='''Some'''
 
 [[module]]
 path='email_modules/footer/au/social'
