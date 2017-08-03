@@ -106,7 +106,7 @@ color='white'
 
 	path = '''email_modules/image/banner_nolink'''
 	color = '''white'''
-	image = '''th_edm2_whyfordsvc_2016111.5'''
+	image = '''th_edm2_whyfordsvc_20161115'''
 
 [[module]]
 
@@ -126,7 +126,11 @@ path='email_modules/cover/02'
 color='''white'''
 icon='''th_edm3_extendedwarranty_20160921'''
 title='''<span style="font-family:Tahoma, Verdana, Sans-serif">โปรแกรมขับขี่อุ่นใจ</span>'''
-copy='''สบายใจ งบไม่บานปลาย เมื่อซื้อโปรแกรมขับขี่อุ่นใจก่อนรถฟอร์ดของคุณครบ 35 เดือนหรือ 100,000 กิโลเมตร  (แล้วแต่อย่างหนึ่งอย่างใดถึงก่อน) โปรแกรมนี้ช่วยเพิ่มความอบอุ่นใจในการขับขี่รถยนต์ให้คุณทุกเส้นทาง โดยไม่ต้องกังวลกับค่าใช้จ่าย หรือการซ่อมแซมที่ไม่ได้คาดคิดที่อาจเกิดขึ้นในอนาคต และยังช่วยเพิ่มมูลค่าในการขายรถต่อในอนาคตอีกด้วย  '''
+copy='''
+<span style="white-space:nowrap;">สบายใจ งบไม่บานปลาย เมื่อซื้อโปรแกรมขับขี่อุ่นใจก่อนรถฟอร์ดของคุณครบ 35 เดือนหรือ 100,000 กิโลเมตร  (แล้วแต่อย่างหนึ่งอย่างใดถึงก่อน) โปรแกรมนี้ช่วยเพิ่ม</span> 
+<span style="white-space:nowrap;">ความอบอุ่นใจในการขับขี่รถยนต์ให้คุณทุกเส้นทาง โดยไม่ต้องกังวลกับค่าใช้จ่าย หรือ</span> 
+<span style="white-space:nowrap;">การซ่อมแซมที่ไม่ได้คาดคิดที่อาจเกิดขึ้นในอนาคต และยังช่วยเพิ่มมูลค่าในการขายรถต่อ</span> 
+<span style="white-space:nowrap;">ในอนาคตอีกด้วย</span> </span>'''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ศึกษารายละเอียดดเพิ่มเติม</span>'''
 cta1_url='''http://www.ford.co.th/buying/solutions/premium-protection-plus'''
 cta1_link_name = '''ppp'''
