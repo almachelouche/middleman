@@ -116,7 +116,8 @@ color='white'
 	copy='''
 	<span style="font-family:Tahoma, Verdana, Sans-serif">
 	<span style="white-space:nowrap;">เพิ่มความอุ่นใจในการขับขี่</span><br />
-	<span style="white-space:nowrap;">พิเศษ!เมื่อซื้อโปรแกรม</span>ชุ<span style="white-space:nowrap;">ดน้ำมันเครื่องสุดคุ้ม (OSP)</span>
+	<span style="white-space:nowrap;">พิเศษ!เมื่อซื้อโปรแกรมชุด</span>
+	<span style="white-space:nowrap;">น้ำมันเครื่องสุดคุ้ม (OSP)</span>
 	<span style="white-space:nowrap;">รับส่วนลดเพิ่ม 300 บาท</span> 
 	<span style="white-space:nowrap;">สำหรับแพ็กเกจ 2 ครั้ง</span> 
 	<span style="white-space:nowrap;">และรับส่วนลดเพิ่ม</span>
