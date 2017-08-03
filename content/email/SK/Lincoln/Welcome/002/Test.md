@@ -25,7 +25,7 @@ font='sk'
     title='''<span style="white-space:nowrap;">링컨과 함께하는 새로운 여정의 시작</span><br />'''
     copy='''<span style="white-space:nowrap;">링컨과의 새로운 여정을 시작한 고객님께 다시 한 번 깊은 감사를 드립니다.</span><br /><br />
     <span style="white-space:nowrap;">링컨만의 감성을 완벽하게 누릴 수 있도록</span><br />
-    <span style="white-space:nowrap;">앞으로도 꾸준히 링컨의 새로운 소식을 알려드리도록 하겠습니다.</span><br />
+    <span style="white-space:nowrap;">앞으로도 꾸준히 링컨의 새로운 소식을 알려드리도록 하겠습니다.</span><br /><br />
     <span style="white-space:nowrap;">고객님의 즐겁고 안전한 운전에 링컨이 언제나 함께하겠습니다.</span><br /><br />'''
 
 [[module]] #Banner Image No Link
