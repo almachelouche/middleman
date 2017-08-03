@@ -1,11 +1,11 @@
 +++
 markets = ["ph"]
-title = '''PH Welcome First 005 E150'''
+title = '''PH Welcome Repeat 006 Fiesta'''
 
 [[module]]
 path='email_modules/preheader'
 
-	preheader = '''There’s nothing quite like a new car. So we want to say ‘thank you!’ for choosing a Ford.'''
+	preheader = '''There’s nothing quite like a new car, whether it’s your first or your tenth. So we want to say ‘thank you!’ for choosing to make yours a Ford, again.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -16,16 +16,16 @@ color='white'
 
 [[module]] #Cover 01
 path='email_modules/cover/01'
-color='''white'''
+color='white'
  
-	title = '''Hello <%${user['FirstName']}%><br /><br />Hope you’re enjoying the ride'''
-	copy = '''There’s nothing quite like a new car. So we want to say ‘thank you!’ for choosing a Ford.<br /><br />As part of the Ford family, you’ll be hearing from us from time to time, but only with news and offers we think you’ll appreciate.<br /><br />Until then, enjoy your Ford E150!'''
+	title = '''Hello <%${user['FirstName']}%><br /><br />The journey continues'''
+	copy = '''There’s nothing quite like a new car, whether it’s your first or your tenth. So we want to say ‘thank you!’ for choosing to make yours a Ford, again.<br /><br />As part of the Ford family, we’ll continue to stay in touch. But only with exciting news and the latest offers we reserve for loyal Ford owners. <br /><br />Until then, enjoy your Ford Fiesta!'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''ph_edm1&4_np_e150_20160801'''
+	image = '''ph_edm1&4_np_fiesta_20160801'''
 
 [[module]] #Dual 04
 path='email_modules/dual/04'
@@ -70,7 +70,7 @@ color='green'
 
 [[module]] #Cover 05
 path='email_modules/cover/02'
-color='''fordblue'''
+color='fordblue'
 
 	title = '''We are there for you, anytime'''
 	copy = '''Ford Emergency Roadside Assistance is on-call 24/7, and free of charge in your first year of ownership. So whenever you need a hand,<br />just give us a call at (02) 459-4723'''
@@ -84,7 +84,7 @@ path='email_modules/cover/02'
 color='''slatescreen'''
 
 	title = '''Premium Extended Warranty'''
-	copy = '''With quality service and genuine parts, a Premium Extended Warranty<sup>2</sup> is the best choice for owners, like you, who want to go the distance with their vehicle.<br /><br />Warranties are available for up to 5 years, and save you money on servicing. They may also be fully transferrable to the next vehicle owner, helping improve re-sale value.'''
+	copy = '''As a member of the Ford family, you deserve the best quality service and parts whenever you need it. If you purchase a Premium Extended Warranty<sup>2</sup> before you reach 2 months or 4,000 km – whichever comes first – you can get it at a better price!<br /><br />This warranty covers major mechanical and electrical failures, guarantees expert service from Ford mechanics and may even be fully transferrable to the next vehicle owner, helping improve resale value.'''
 	cta1_text = '''GET COVERED'''
 	cta1_url = '''https://www.ford.com.ph/owner/warranties/'''
 	cta1_link_name = '''extended_warranty'''
@@ -92,10 +92,10 @@ color='''slatescreen'''
 
 [[module]] #Cover 05
 path='email_modules/cover/02'
-color='''white'''
+color='white'
 
 	title = '''Any questions?'''
-	copy = '''Give us a call with any queries you may have about your new E150.<br />We'll be happy to help.'''
+	copy = '''Give us a call with any queries you may have about your new Fiesta.<br />We'll be happy to help.'''
 	cta1_text = '''1800-10-736-3673'''
 	cta1_url = '''tel:1800107363673'''
 	cta1_link_name = '''any_questions_call'''

@@ -106,7 +106,7 @@ color='white'
 
 	path = '''email_modules/image/banner_nolink'''
 	color = '''white'''
-	image = '''th_edm2_whyfordsvc_20161115'''
+	image = '''th_edm2_whyfordsvc_2016111.5'''
 
 [[module]]
 
@@ -114,8 +114,15 @@ color='white'
 	color='green'
 	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดค่าน้ำมันเครื่อง<br />สูงสุด</span>'''
 	copy='''
-		เพิ่มความอุ่นใจในการขับขี่ พิเศษ!เมื่อซื้อโปรแกรมชุดน้ำมันเครื่องสุดคุ้ม (OSP) รับส่วนลดเพิ่ม 300 บาท สำหรับแพ็กเกจ 2 ครั้ง และรับส่วนลดเพิ่ม 500 บาท สำหรับแพ็กเกจ 3 ครั้ง
-	'''
+	<span style="font-family:Tahoma, Verdana, Sans-serif">
+	<span style="white-space:nowrap;">เพิ่มความอุ่นใจในการขับขี่</span><br />
+	<span style="white-space:nowrap;">พิเศษ!เมื่อซื้อโปรแกรมชุด</span>
+	<span style="white-space:nowrap;">น้ำมันเครื่องสุดคุ้ม (OSP)</span>
+	<span style="white-space:nowrap;">รับส่วนลดเพิ่ม 300 บาท</span> 
+	<span style="white-space:nowrap;">สำหรับแพ็กเกจ 2 ครั้ง</span> 
+	<span style="white-space:nowrap;">และรับส่วนลดเพิ่ม</span>
+	<span style="white-space:nowrap;">500 บาท</span> 
+	<span style="white-space:nowrap;">สำหรับแพ็กเกจ 3 ครั้ง</span></span>'''
 	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
 	cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
 	cta1_icon='''more'''
@@ -128,10 +135,23 @@ path='email_modules/cover/02'
 color='''white'''
 icon='''th_edm3_extendedwarranty_20160921'''
 title='''<span style="font-family:Tahoma, Verdana, Sans-serif">โปรแกรมขับขี่อุ่นใจ</span>'''
-copy='''สบายใจ งบไม่บานปลาย เมื่อซื้อโปรแกรมขับขี่อุ่นใจก่อนรถฟอร์ดของคุณครบ 35 เดือนหรือ 100,000 กิโลเมตร  (แล้วแต่อย่างหนึ่งอย่างใดถึงก่อน) โปรแกรมนี้ช่วยเพิ่มความอบอุ่นใจในการขับขี่รถยนต์ให้คุณทุกเส้นทาง โดยไม่ต้องกังวลกับค่าใช้จ่าย หรือการซ่อมแซมที่ไม่ได้คาดคิดที่อาจเกิดขึ้นในอนาคต และยังช่วยเพิ่มมูลค่าในการขายรถต่อในอนาคตอีกด้วย  '''
-cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">เรียนรู้เพิ่มเติม</span>'''
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
+<span style="white-space:nowrap;">สบายใจ งบไม่บานปลาย</span>  
+<span style="white-space:nowrap;">เมื่อซื้อโปรแกรมขับขี่อุ่นใจ</span> 
+<span style="white-space:nowrap;">ก่อนรถฟอร์ดของคุณครบ 35 เดือน</span><br /> 
+<span style="white-space:nowrap;">หรือ 100,000 กิโลเมตร</span>   
+<span style="white-space:nowrap;">(แล้วแต่อย่างหนึ่งอย่างใดถึงก่อน)</span>  
+<span style="white-space:nowrap;">โปรแกรมนี้ช่วยเพิ่มความอบอุ่นใจ</span>
+<span style="white-space:nowrap;">ในการขับขี่รถยนต์ให้คุณทุกเส้นทาง</span> 
+<span style="white-space:nowrap;">โดยไม่ต้องกังวลกับค่าใช้จ่าย</span>  
+<span style="white-space:nowrap;">หรือ</span> 
+<span style="white-space:nowrap;">การซ่อมแซมที่ไม่ได้คาดคิด</span>ที่<span style="white-space:nowrap;">อาจเกิดขึ้นในอนาคต</span>  
+<span style="white-space:nowrap;">และยังช่วยเพิ่มมูลค่า</span>
+<span style="white-space:nowrap;">ในการขายรถต่อในอนาคตอีกด้วย</span></span>'''
+cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ศึกษารายละเอียดเพิ่มเติม</span>'''
 cta1_url='''http://www.ford.co.th/buying/solutions/premium-protection-plus'''
 cta1_link_name = '''ppp'''
+
 
 [[module]]
 
