@@ -1,6 +1,6 @@
 +++
 markets = ["th"]
-title = '''TH Repurchase 008 All'''
+title = '''TH Repurchase 008 Ranger'''
 
 [[module]]
 path='email_modules/preheader'
@@ -52,11 +52,7 @@ color='white'
 	cta1_link_name = '''latest_offers'''
 	cta1_icon = '''more'''
 
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
 
-	image = '''th_edm1_wildtrak_2017420'''
 
 [[module]]
 path='email_modules/split/03'
