@@ -42,10 +42,10 @@ segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
 path = '''email_modules/image/4images'''
 color = '''white'''
 
-	image1 = '''nz_edm2_loancar_20170728'''
+	image1 = '''nz_edm2_loancar_20170803'''
 	image1_url = '''https://www.ford.co.nz/owners/service/?intcmp=bb-fnz-hp-fnz--return/'''
 	image1_link_name = '''icon4'''
-	image2 = '''nz_edm2_costestimates_20170728'''
+	image2 = '''nz_edm2_costestimates_20170803'''
 	image2_url = '''https://www.ford.co.nz/owners/service/service-estimate/'''
 	image2_link_name = '''icon5'''
 	image3 = '''nz_edm2_vehiclereport_20170728'''
