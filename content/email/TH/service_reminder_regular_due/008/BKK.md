@@ -131,6 +131,7 @@ cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ศึกษ�
 cta1_url='''http://www.ford.co.th/buying/solutions/premium-protection-plus'''
 cta1_link_name = '''ppp'''
 
+
 [[module]]
 
 	path='email_modules/footer/th/social'
