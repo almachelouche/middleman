@@ -84,7 +84,27 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''th_edm2_whyfordsvc_20161115'''
+    
+[[module]]
+path='email_modules/split/07'
+color='white'
 
+title='''<span style="font-family:Tahoma, Verdana, Sans-serif">อุปกรณ์ตกแต่งสำหรับคุณ</span>'''
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
+<span style="white-space:nowrap;">ให้ฟอร์ด เอคโคสปอร์ต</span> 
+<span style="white-space:nowrap;">ของคุณล้ำหน้าไปอีกขั้น</span> <br />
+<span style="white-space:nowrap;">ด้วยอุปกรณ์ตกแต่งล่าสุด</span><br />
+<span style="white-space:nowrap;">นั่นคือ</span> 
+<span style="white-space:nowrap;">กล้องบันทึกวีดีโอหน้ารถ</span><br />
+<span style="white-space:nowrap;">มูลค่า 3,690.-</span> 
+<span style="white-space:nowrap;">ที่จะบันทึกวิดีโอคุณภาพสูง</span>
+<span style="white-space:nowrap;">ระหว่างการขับขี่ ทั้งยังช่วยคุณ</span><br /> 
+<span style="white-space:nowrap;">ประหยัดค่าเบี้ยประกันรถยนต์</span>
+<span style="white-space:nowrap;">ได้สูงสุดถึง 5-10%</span></span>'''
+cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อชมอุปกรณ์เสริมทั้งหมด</span>'''
+cta1_url='''https://www.ford.co.th/suvs/ecosport/accessories/'''
+cta1_link_name = '''acc_ecosport'''
+image='''TH_edm1a_ecosport_video_recoder_20170508'''
 
 [[module]] #Split 04
 path='email_modules/split/04'
@@ -131,26 +151,7 @@ cta1_url='''http://www.ford.co.th/buying/solutions/premium-protection-plus'''
 cta1_link_name = '''ppp'''
 
 
-	[[module]]
-path='email_modules/split/07'
-color='white'
-
-title='''<span style="font-family:Tahoma, Verdana, Sans-serif">อุปกรณ์ตกแต่งสำหรับคุณ</span>'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style="white-space:nowrap;">ให้ฟอร์ด เอคโคสปอร์ต</span> 
-<span style="white-space:nowrap;">ของคุณล้ำหน้าไปอีกขั้น</span> <br />
-<span style="white-space:nowrap;">ด้วยอุปกรณ์ตกแต่งล่าสุด</span><br />
-<span style="white-space:nowrap;">นั่นคือ</span> 
-<span style="white-space:nowrap;">กล้องบันทึกวีดีโอหน้ารถ</span><br />
-<span style="white-space:nowrap;">มูลค่า 3,690.-</span> 
-<span style="white-space:nowrap;">ที่จะบันทึกวิดีโอคุณภาพสูง</span>
-<span style="white-space:nowrap;">ระหว่างการขับขี่ ทั้งยังช่วยคุณ</span><br /> 
-<span style="white-space:nowrap;">ประหยัดค่าเบี้ยประกันรถยนต์</span>
-<span style="white-space:nowrap;">ได้สูงสุดถึง 5-10%</span></span>'''
-cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อชมอุปกรณ์เสริมทั้งหมด</span>'''
-cta1_url='''https://www.ford.co.th/suvs/ecosport/accessories/'''
-cta1_link_name = '''acc_ecosport'''
-image='''TH_edm1a_ecosport_video_recoder_20170508'''
+	
 
 [[module]]
 path='email_modules/dual/03'

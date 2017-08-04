@@ -84,6 +84,25 @@ color = '''white'''
 
 	image = '''th_edm2_whyfordsvc_20161115'''
 
+[[module]]
+path='email_modules/split/07'
+color='white'
+
+title='''<span style="font-family:Tahoma, Verdana, Sans-serif">อุปกรณ์ตกแต่งสำหรับคุณ</span>'''
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
+<span style="white-space:nowrap;">ให้ฟอร์ด เรนเจอร์ของคุณ</span><br /> 
+<span style="white-space:nowrap;">ล้ำหน้าไปอีกขั้น</span> 
+<span style="white-space:nowrap;">ด้วยอุปกรณ์ตกแต่งล่าสุด</span> <br /> 
+<span style="white-space:nowrap;">ชุดคิ้วโป่งล้อ</span> 
+<span style="white-space:nowrap;">มูลค่า 4,140.-</span><br />
+<span style="white-space:nowrap;">ที่จะช่วยปกป้องตัวถังรถฟอร์ด</span>
+<span style="white-space:nowrap;">จากรอยขีดข่วน</span> 
+<span style="white-space:nowrap;">ทั้งยังเสริมภาพลักษณ์อันแสนดุดัน</span>
+<span style="white-space:nowrap;">ให้รถคุณได้อีกด้วย</span></span>'''
+cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อชมอุปกรณ์เสริมทั้งหมด</span>'''
+cta1_url='''https://www.ford.co.th/trucks/ranger/accessories/#overlay/content/ford/th/th_th/ranger-content/image-overlays/accessories/wheelbarrow-with-sensor.html'''
+cta1_link_name = '''acc_ranger'''
+image='''TH_edm1a_ranger_fender_flare_20170508'''
 
 [[module]] #Split 04
 path='email_modules/split/04'
@@ -129,27 +148,6 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ศึกษารายละเอียดเพิ่มเติม</span>'''
 cta1_url='''http://www.ford.co.th/buying/solutions/premium-protection-plus'''
 cta1_link_name = '''ppp'''
-
-
-	[[module]]
-path='email_modules/split/07'
-color='white'
-
-title='''<span style="font-family:Tahoma, Verdana, Sans-serif">อุปกรณ์ตกแต่งสำหรับคุณ</span>'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style="white-space:nowrap;">ให้ฟอร์ด เรนเจอร์ของคุณ</span><br /> 
-<span style="white-space:nowrap;">ล้ำหน้าไปอีกขั้น</span> 
-<span style="white-space:nowrap;">ด้วยอุปกรณ์ตกแต่งล่าสุด</span> <br /> 
-<span style="white-space:nowrap;">ชุดคิ้วโป่งล้อ</span> 
-<span style="white-space:nowrap;">มูลค่า 4,140.-</span><br />
-<span style="white-space:nowrap;">ที่จะช่วยปกป้องตัวถังรถฟอร์ด</span>
-<span style="white-space:nowrap;">จากรอยขีดข่วน</span> 
-<span style="white-space:nowrap;">ทั้งยังเสริมภาพลักษณ์อันแสนดุดัน</span>
-<span style="white-space:nowrap;">ให้รถคุณได้อีกด้วย</span></span>'''
-cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อชมอุปกรณ์เสริมทั้งหมด</span>'''
-cta1_url='''https://www.ford.co.th/trucks/ranger/accessories/#overlay/content/ford/th/th_th/ranger-content/image-overlays/accessories/wheelbarrow-with-sensor.html'''
-cta1_link_name = '''acc_ranger'''
-image='''TH_edm1a_ranger_fender_flare_20170508'''
 
 
 [[module]]
