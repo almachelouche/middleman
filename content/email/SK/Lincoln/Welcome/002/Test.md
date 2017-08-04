@@ -122,7 +122,7 @@ color='white'
  
  text = '''
 <span style="white-space:nowrap;">이메일 수신을 원치 않으면</span>
-<span class="mobile-display-block"></span><a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#FFFFFF; text-decoration:underline">여기</a>를 클릭하십시오.</span>
+<span class="mobile-display-block"></span><a href="<%unsubscribe_link_text%>" style="color:#FFFFFF; text-decoration:underline">여기</a>를 클릭하십시오.</span>
 <br/>
 <span style="white-space:nowrap;">앞으로 저희가 보내드리는 이메일 수신을 위해 고객님의 주소록이나 이메일</span>
 <br/>
