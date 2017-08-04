@@ -89,7 +89,7 @@ color='white'
 
 	title1='''SYNC® Support'''
 	title2='''Ford Service'''
-	copy1='''Learn how to use SAT NAV, set up Emergency Assistance, familiarise yourself with common voice commands and more on the <a href="https://www.ford.com.au/owners/technology/sync-support/sync1/" name="sync" style="text-decoration:underline; color:#2D96CD">SYNC® Support Portal</span>.'''
+	copy1='''Learn how to use SAT NAV, set up Emergency Assistance, familiarise yourself with common voice commands and more on the SYNC® Support Portal.'''
 	copy2='''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That's what service should be.<br/><br/>'''
 	cta1a_text = '''Become a SYNC® Expert'''
 	cta1a_url = '''https://www.ford.com.au/owners/technology/sync-support/sync1/'''
