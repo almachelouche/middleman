@@ -68,6 +68,7 @@ color='white'
 	url_link='''https://www.ford.co.th/owner/servicecampaign/'''
 	url_link_name='''servicecampaign'''
     
+    
 [[module]]
 
 	path='email_modules/custom/3columntitle3icons'
