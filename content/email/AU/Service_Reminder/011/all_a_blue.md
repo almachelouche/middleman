@@ -540,7 +540,7 @@ color='white'
 segmentif = ["(user.CustomAttribute['Model'] == 'Mustang')"]
 
 	title = '''Cover 13'''
-	copy = ''' As someone with a genuine passion for performance, we're sure you'll appreciate the many benefits of putting your pony in the trusted hands of Ford factory trained technicians who use diagnostic equipment specifically designed for Fords.<br /><br />You'll also receive <%${user.CustomAttribute['StateAutoClub']}%> Roadside Assistance and Membership¹ for up to 12 months, map updates for your SYNC® 2 Satellite Navigation System² when required, and you can even book a loan car³ so we can keep you on the road.<br /><br /> '''
+	copy = ''' As someone with a genuine passion for performance, we're sure you'll appreciate the many benefits of putting your pony in the trusted hands of Ford factory trained technicians who use diagnostic equipment specifically designed for Fords.<br /><br />You'll also receive <%${user.CustomAttribute['StateAutoClub']}%> Roadside Assistance and Membership¹ for up to 12 months, free map updates for your SYNC® 2 Satellite Navigation System² when required, and you can even book a free loan car³ so we can keep you on the road.<br /><br /> '''
 	cta1_url = '''https://www.ford.com.au/owners/service/'''
 	cta1_text = '''FIND OUT MORE'''
 	cta1_icon = '''more'''
@@ -553,7 +553,7 @@ color='white'
 segmentelseif = ["(user.CustomAttribute['SYNC_Available'] == 'YES')"]
 
 	title = '''Cover 13'''
-	copy = '''We know how important your <%${user.CustomAttribute['Model']}%> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%> in the trusted hands of Ford trained technicians who use diagnostic equipment specifically designed for Fords.<br /><br />You'll also receive <%${user.CustomAttribute['StateAutoClub']}%> Roadside Assistance and Membership¹ for up to 12 months, map updates for your SYNC® 2 Satellite Navigation System² when required, and you can even book a loan car³ so we can keep you on the road.<br /><br /> '''
+	copy = '''We know how important your <%${user.CustomAttribute['Model']}%> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%> in the trusted hands of Ford trained technicians who use diagnostic equipment specifically designed for Fords.<br /><br />You'll also receive <%${user.CustomAttribute['StateAutoClub']}%> Roadside Assistance and Membership¹ for up to 12 months, free map updates for your SYNC® 2 Satellite Navigation System² when required, and you can even book a free loan car³ so we can keep you on the road.<br /><br /> '''
 	cta1_url = '''https://www.ford.com.au/owners/service/'''
 	cta1_text = '''FIND OUT MORE'''
 	cta1_icon = '''more'''
@@ -564,7 +564,7 @@ color='white'
 segmentelse = ["(user.CustomAttribute['SYNC_Available'] == 'NO') && (user.CustomAttribute['Model'] != 'Mustang')"]
 
 	title = '''Cover 13'''
-	copy = '''We know how important your <%${user.CustomAttribute['Model']}%> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%> in the trusted hands of Ford trained technicians who use diagnostic equipment specifically designed for Fords.<br /><br />You'll also receive <%${user.CustomAttribute['StateAutoClub']}%> Roadside Assistance and Membership¹ for up to 12 months and you can even book a loan car² so we can keep you on the road.'''
+	copy = '''We know how important your <%${user.CustomAttribute['Model']}%> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%> in the trusted hands of Ford trained technicians who use diagnostic equipment specifically designed for Fords.<br /><br />You'll also receive <%${user.CustomAttribute['StateAutoClub']}%> Roadside Assistance and Membership¹ for up to 12 months and you can even book a free loan car² so we can keep you on the road.'''
 	cta1_url = '''https://www.ford.com.au/owners/service/'''
 	cta1_text = '''FIND OUT MORE'''
 	cta1_icon = '''more'''
@@ -598,7 +598,7 @@ segmentif = ["(user.CustomAttribute['Model'] == 'Mustang')"]
 
 	text = '''DISCLAIMERS:<br /><br />
 				1) Available to Private and Blue Business Fleet customers who have not reached earlier of 105,000km or 7 years, only at participating Dealers. State Auto Club Roadside Assistance & Membership is included for 12 months or until your next eligible standard service (whichever occurs first). Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br /> 
-				2) SYNC Gen2 (SYNC® 2) customers who complete their scheduled servicing with participating Ford Dealers will receive yearly map updates for up to 7 years (but no later than 30 September 2024). Customers must comply with scheduled servicing intervals. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
+				2) SYNC Gen2 (SYNC® 2) customers who complete their scheduled servicing with participating Ford Dealers will receive free yearly map updates for up to 7 years (but no later than 30 September 2024). Customers must comply with scheduled servicing intervals. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
 				3) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br /> 
 				4) Available at participating Ford Dealers on vehicles built from 2007. Customers will pay equal to or less than the maximum price as published by Ford for the period of the web quote for standard items in the A and B logbook services. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms4" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
 
