@@ -80,7 +80,12 @@ color = '''white'''
 
 	image='''th_edm6_Rangerday_20170803'''
 	
+[[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
 
+	image='''th_edm6_Rangerday_20170804'''
+    
 [[module]] #Dual 01
 path='email_modules/dual/01'
 color='white'
