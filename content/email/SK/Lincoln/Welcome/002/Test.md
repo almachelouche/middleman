@@ -130,10 +130,10 @@ color='white'
 <span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline;">fordnews@mail.edmasia.com</span>을 추가해주십시오.</span>
 <br/>
 <br/>
-<span style="white-space:nowrap;">본 이메일은 고객님의 요청에 따라 발송되었습니다.</span> 
+<span style="white-space:nowrap;">본 이메일은 고객님의 요청에 따라 발송되었습니다.</span>
+<a href="https://www.lincoln-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#FFFFFF;">개인정보처리방침</a>
 <br />
  <span style="white-space:nowrap;">본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다.</span>
- <a href="https://www.lincoln-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#FFFFFF;">개인정보처리방침</a>
 <br/>
 <br/>
 <span style="white-space:nowrap;">Copyright © 2017 Ford Sales & Service Korea Inc.</span>
