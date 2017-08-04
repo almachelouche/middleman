@@ -164,7 +164,7 @@ color='white'
 
     title1='''Auto Club Membership&#179;'''
 	title2='''SAT NAV <br/>Updates&#8308;'''
-	copy1='''Each time you complete your standard service at a participating Ford dealer you'll receive State Auto Club Roadside Assistance and membership for up to 12 months.<br/><br/>'''
+	copy1='''Each time you complete your standard service at a participating Ford dealer you'll receive State Auto Club Roadside Assistance and membership for up to 12 months.<br/>'''
 	copy2='''If you have SYNC®2 with SAT NAV, we'll help you stay on track with yearly map updates for up to 7 years when you complete your service with a participating dealer.<br/><br/>'''
 	cta1a_text = '''LEARN MORE'''
 	cta1a_url = '''https://www.ford.com.au/owners/technology/sync-support/sync1/'''
