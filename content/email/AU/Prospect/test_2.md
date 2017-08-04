@@ -155,6 +155,10 @@ color='white'
     image2_name='''Some'''
 
 [[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
+[[module]]
 path='email_modules/dual/05'
 color='white'
 

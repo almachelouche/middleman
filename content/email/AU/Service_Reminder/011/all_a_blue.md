@@ -506,7 +506,7 @@ path = '''email_modules/image/4images'''
 color = '''white'''
 segmentif = ["(user.CustomAttribute['SYNC_Available'] == 'YES')"]
 
-	image1 = '''au_svc_icon1A'''
+	image1 = '''au_svc_icon1'''
 	image1_url = '''https://www.ford.com.au/owners/service/'''
 	image1_link_name = '''icon4'''
 	image2 = '''au_svc_icon2'''
@@ -524,7 +524,7 @@ path = '''email_modules/image/3images'''
 color = '''white'''
 segmentelse = ["(user.CustomAttribute['SYNC_Available'] == 'NO') && (user.CustomAttribute['Model'] != 'Mustang')"]
 
-	image1 = '''au_svc_icon1A'''
+	image1 = '''au_svc_icon1'''
 	image1_url = '''https://www.ford.com.au/owners/service/'''
 	image1_link_name = '''icon1'''
 	image2 = '''au_svc_icon2'''
