@@ -1,11 +1,11 @@
 +++
 markets = ["ph"]
-title = '''PH Welcome First 005 Fiesta'''
+title = '''PH Welcome Repeat 006 Ranger'''
 
 [[module]]
 path='email_modules/preheader'
 
-	preheader = '''There’s nothing quite like a new car. So we want to say ‘thank you!’ for choosing a Ford.'''
+	preheader = '''There’s nothing quite like a new car, whether it’s your first or your tenth. So we want to say ‘thank you!’ for choosing to make yours a Ford, again.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -16,16 +16,16 @@ color='white'
 
 [[module]] #Cover 01
 path='email_modules/cover/01'
-color='''white'''
+color='white'
  
-	title = '''Hello <%${user['FirstName']}%><br /><br />Hope you’re enjoying the ride'''
-	copy = '''There’s nothing quite like a new car. So we want to say ‘thank you!’ for choosing a Ford.<br /><br />As part of the Ford family, you’ll be hearing from us from time to time, but only with news and offers we think you’ll appreciate.<br /><br />Until then, enjoy your Ford Fiesta!'''
+	title = '''Hello <%${user['FirstName']}%><br /><br />The journey continues'''
+	copy = '''There’s nothing quite like a new car, whether it’s your first or your tenth. So we want to say ‘thank you!’ for choosing to make yours a Ford, again.<br /><br />As part of the Ford family, we’ll continue to stay in touch. But only with exciting news and the latest offers we reserve for loyal Ford owners. <br /><br />Until then, enjoy your Ford Ranger!'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''ph_edm1&4_np_fiesta_20160801'''
+	image = '''ph_edm1&4_np_newranger_20160801'''
 
 [[module]] #Dual 04
 path='email_modules/dual/04'
@@ -34,7 +34,7 @@ color='white'
 	title1 = '''Owner Center'''
 	copy1 = '''All the help you need in one easy location.'''
 	cta1a_text = '''<br /><br /><br />VIEW OWNER WEBSITE'''
-	cta1a_url = '''https://www.ford.com.ph/#/overlay/content/ford/ph/en_ph/site-wide-content/overlays/form-overlay/login'''
+	cta1a_url = '''https://www.ford.com.ph/owner/owner-unauthenticated/#overlay/content/ford/ph/en_ph/site-wide-content/overlays/form-overlay/login'''
 	cta1a_link_name = '''anything_changed'''
 	cta1b_text = ''''''
 	cta1b_url = ''''''
@@ -70,7 +70,7 @@ color='green'
 
 [[module]] #Cover 05
 path='email_modules/cover/02'
-color='''fordblue'''
+color='fordblue'
 
 	title = '''We are there for you, anytime'''
 	copy = '''Ford Emergency Roadside Assistance is on-call 24/7, and free of charge in your first year of ownership. So whenever you need a hand,<br />just give us a call at (02) 459-4723'''
@@ -92,10 +92,10 @@ color='''slatescreen'''
 
 [[module]] #Cover 05
 path='email_modules/cover/02'
-color='''white'''
+color='white'
 
 	title = '''Any questions?'''
-	copy = '''Give us a call with any queries you may have about your new Fiesta.<br />We'll be happy to help.'''
+	copy = '''Give us a call with any queries you may have about your new Ranger.<br />We'll be happy to help.'''
 	cta1_text = '''1800-10-736-3673'''
 	cta1_url = '''tel:1800107363673'''
 	cta1_link_name = '''any_questions_call'''
