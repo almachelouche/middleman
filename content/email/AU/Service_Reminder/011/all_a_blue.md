@@ -540,7 +540,7 @@ color='white'
 segmentif = ["(user.CustomAttribute['Model'] == 'Mustang')"]
 
 	title = '''Cover 13'''
-	copy = ''' As someone with a genuine passion for performance, we're sure you'll appreciate the many benefits of putting your pony in the trusted hands of Ford factory trained technicians who use diagnostic equipment specifically designed for Fords.<br /><br />You'll also receive <%${user.CustomAttribute['StateAutoClub']}%> Roadside Assistance and Membership¹ for up to 12 months, map updates for your SYNC® 2 Satellite Navigation System² when required, and you can even book a loan car³ so we can keep you on the road.<br /><br /> '''
+	copy = ''' As someone with a genuine passion for performance, we're sure you'll appreciate the many benefits of putting your pony in the trusted hands of Ford factory trained technicians who use diagnostic equipment specifically designed for Fords.<br /><br />You'll also receive <%${user.CustomAttribute['StateAutoClub']}%> Roadside Assistance and Membership¹ for up to 12 months, free map updates for your SYNC® 2 Satellite Navigation System² when required, and you can even book a loan car³ so we can keep you on the road.<br /><br /> '''
 	cta1_url = '''https://www.ford.com.au/owners/service/'''
 	cta1_text = '''FIND OUT MORE'''
 	cta1_icon = '''more'''
@@ -553,7 +553,7 @@ color='white'
 segmentelseif = ["(user.CustomAttribute['SYNC_Available'] == 'YES')"]
 
 	title = '''Cover 13'''
-	copy = '''We know how important your <%${user.CustomAttribute['Model']}%> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%> in the trusted hands of Ford trained technicians who use diagnostic equipment specifically designed for Fords.<br /><br />You'll also receive <%${user.CustomAttribute['StateAutoClub']}%> Roadside Assistance and Membership¹ for up to 12 months, map updates for your SYNC® 2 Satellite Navigation System² when required, and you can even book a loan car³ so we can keep you on the road.<br /><br /> '''
+	copy = '''We know how important your <%${user.CustomAttribute['Model']}%> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%> in the trusted hands of Ford trained technicians who use diagnostic equipment specifically designed for Fords.<br /><br />You'll also receive <%${user.CustomAttribute['StateAutoClub']}%> Roadside Assistance and Membership¹ for up to 12 months, free map updates for your SYNC® 2 Satellite Navigation System² when required, and you can even book a free loan car³ so we can keep you on the road.<br /><br /> '''
 	cta1_url = '''https://www.ford.com.au/owners/service/'''
 	cta1_text = '''FIND OUT MORE'''
 	cta1_icon = '''more'''
@@ -564,7 +564,7 @@ color='white'
 segmentelse = ["(user.CustomAttribute['SYNC_Available'] == 'NO') && (user.CustomAttribute['Model'] != 'Mustang')"]
 
 	title = '''Cover 13'''
-	copy = '''We know how important your <%${user.CustomAttribute['Model']}%> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%> in the trusted hands of Ford trained technicians who use diagnostic equipment specifically designed for Fords.<br /><br />You'll also receive <%${user.CustomAttribute['StateAutoClub']}%> Roadside Assistance and Membership¹ for up to 12 months and you can even book a loan car² so we can keep you on the road.'''
+	copy = '''We know how important your <%${user.CustomAttribute['Model']}%> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%> in the trusted hands of Ford trained technicians who use diagnostic equipment specifically designed for Fords.<br /><br />You'll also receive <%${user.CustomAttribute['StateAutoClub']}%> Roadside Assistance and Membership¹ for up to 12 months and you can even book a free loan car² so we can keep you on the road.'''
 	cta1_url = '''https://www.ford.com.au/owners/service/'''
 	cta1_text = '''FIND OUT MORE'''
 	cta1_icon = '''more'''
