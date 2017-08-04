@@ -38,8 +38,9 @@ color = '''white'''
 path='email_modules/cover/01'
 color='''lincoln_black'''
 
-title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>24시간 긴급출동 서비스</b></span>'''
-	copy = '''<span style="font-family:'Nanum-Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">링컨 긴급출동 서비스는 365일 24시간 이용 가능합니다.<br />운전 중 예상치 못한 긴급 상황이 발생하면, <a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주십시오.</span>'''
+title = '''<span style="white-space:nowrap;">24시간 긴급출동 서비스</span><br />'''
+	copy = '''<span style="white-space:nowrap;">링컨 긴급출동 서비스는 365일 24시간 이용 가능합니다.<br />
+    <span style="white-space:nowrap;">운전 중 예상치 못한 긴급 상황이 발생하면, <a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주십시오.</span>'''
 
 [[module]]
 path='email_modules/singles/ctablock'
