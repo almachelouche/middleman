@@ -155,6 +155,27 @@ color='white'
     image2_name='''Some'''
 
 [[module]]
+path='email_modules/dual/05'
+color='white'
+
+    title1='''Auto Club Membership&#179;'''
+	title2='''SAT NAV <br/>Updates&#8308;'''
+	copy1='''Each time you complete your standard service at a participating Ford dealer you'll receive State Auto Club Roadside Assistance and membership for up to 12 months.<br/><br/>'''
+	copy2='''If you have SYNC®2 with SAT NAV, we'll help you stay on track with yearly map updates for up to 7 years when you complete your service with a participating dealer.<br/><br/>'''
+	cta1a_text = '''LEARN MORE'''
+	cta1a_url = '''https://www.ford.com.au/owners/technology/sync-support/sync1/'''
+	cta1a_link_name = '''oa'''
+    image1='''au_edm2_auto_club_membership_20170629'''
+    image1_url='''https://www.ford.com.au/owners/vehicle-support/app-download/'''
+    image1_name='''Some'''
+    cta2a_text = '''LEARN MORE'''
+	cta2a_url = '''https://www.ford.com.au/cars/focus/accessories/focus-trend-hatch/'''
+	cta2a_link_name = '''accessory'''
+    image2='''au_edm2_auto_club_membership_20170629'''
+    image2_url='''https://www.ford.com.au/owners/service/'''
+    image2_name='''Some'''
+
+[[module]]
 path='email_modules/footer/au/social'
 color='white'
 
