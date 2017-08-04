@@ -123,12 +123,14 @@ color='white'
  text = '''
  <span style="white-space:nowrap;">이메일 수신을 원치 않으면</span>
  <span class="mobile-display-block"></span><a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#FFFFFF; text-decoration:underline">여기</a>를 클릭하십시오. 
- <span style="white-space:nowrap;">앞으로 저희가 보내드리는 이메일 수신을 위해 고객님의 주소록이나 이메일 수신 허용 목록에</span>
- <br/>
+ <span style="white-space:nowrap;">앞으로 저희가 보내드리는 이메일 수신을 위해 고객님의 주소록이나 이메일</span> 
+ <span style="white-space:nowrap;">수신 허용 목록에</span>
  <span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline;">fordnews@mail.edmasia.com</span>을 추가해주십시오.</span>
  <br/>
  <br/>
- 본 이메일은 고객님의 요청에 따라 발송되었습니다. 이메일 수신을 원치 않으시면 <a href="<%unsubscribe_link_text%>" style="color:#FFFFFF; text-decoration:underline">여기</a>를 클릭하십시오.<br />본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다.
+ 본 이메일은 고객님의 요청에 따라 발송되었습니다. 이메일 수신을 원치 않으시면 <a href="<%unsubscribe_link_text%>" style="color:#FFFFFF; text-decoration:underline">여기</a>를 클릭하십시오.
+ <br />
+ 본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다.
  <a href="https://www.lincoln-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#FFFFFF;">개인정보처리방침</a> 
  <br/>
  <br/>
