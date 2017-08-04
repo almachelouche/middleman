@@ -540,7 +540,7 @@ color='white'
 segmentif = ["(user.CustomAttribute['Model'] == 'Mustang')"]
 
 	title = '''Cover 13'''
-	copy = ''' As someone with a genuine passion for performance, we're sure you'll appreciate the many benefits of putting your pony in the trusted hands of Ford factory trained technicians who use diagnostic equipment specifically designed for Fords.<br /><br />You'll also receive <%${user.CustomAttribute['StateAutoClub']}%> Roadside Assistance and Membership¹ for up to 12 months, free map updates for your SYNC® 2 Satellite Navigation System² when required, and you can even book a loan car³ so we can keep you on the road.<br /><br /> '''
+	copy = ''' As someone with a genuine passion for performance, we're sure you'll appreciate the many benefits of putting your pony in the trusted hands of Ford factory trained technicians who use diagnostic equipment specifically designed for Fords.<br /><br />You'll also receive <%${user.CustomAttribute['StateAutoClub']}%> Roadside Assistance and Membership¹ for up to 12 months, free map updates for your SYNC® 2 Satellite Navigation System² when required, and you can even book a free loan car³ so we can keep you on the road.<br /><br /> '''
 	cta1_url = '''https://www.ford.com.au/owners/service/'''
 	cta1_text = '''FIND OUT MORE'''
 	cta1_icon = '''more'''
