@@ -69,14 +69,19 @@ path='email_modules/split/02'
 color='lincoln_grey'
 
     title = '''
-    <span style="white-space:nowrap;">보다 편리하게 누리는,</span><br />
-    <span style="white-space:nowrap;">프리미엄 서비스</span></span>'''
+    <span style="white-space:nowrap;">보다 편리하게 누리는,</span>
+    <br />
+    <span style="white-space:nowrap;">프리미엄 서비스</span>'''
 	copy = '''
     <span style="white-space:nowrap;">오직 특별한 분만을 위한</span><br />
-    <span style="white-space:nowrap;">품격 있는 서비스를 제공합니다.</span><br /><br />
-    <span style="white-space:nowrap;">아래의 링크를 클릭하면</span><br />
-    <span style="white-space:nowrap;">자세한 서비스 정보를</span><br />
-    <span style="white-space:nowrap;">확인할 수 있습니다.</span><br /><br />
+    <span style="white-space:nowrap;">품격 있는 서비스를 제공합니다.</span>
+    <br />
+    <br />
+    <span style="white-space:nowrap;">아래의 링크를 클릭하면</span>
+    <br />
+    <span style="white-space:nowrap;">자세한 서비스 정보를</span>
+    <br />
+    <span style="white-space:nowrap;">확인할 수 있습니다.</span>
 	<ul style="margin: 20px; padding: 0;text-decoration:underline; color:#b45f1a">
 		<li><a href="https://www.lincoln-korea.com/parts-service/pick-delivery/" name="pick_delivery" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">픽업&딜리버리 서비스</a></li>
 		<li><a href="https://www.lincoln-korea.com/genuine-parts/" name="parts_service" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">부품 및 서비스</a></li>
@@ -117,7 +122,6 @@ color='white'
  
  text = '''
  <span style="white-space:nowrap;">이메일 수신을 원치 않으면</span>
- <br />
  <span class="mobile-display-block"></span><a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#FFFFFF; text-decoration:underline">여기</a>를 클릭하십시오. 
  <span style="white-space:nowrap;">앞으로 저희가 보내드리는 이메일 수신을 위해 고객님의 주소록이나 이메일 수신 허용 목록에</span>
  <br/>
