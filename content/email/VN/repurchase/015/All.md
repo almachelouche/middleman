@@ -59,9 +59,9 @@ color='''white'''
 	
 	title='''Brake Pad & Battery Check Up Promotion'''
 	copy='''You might not see them, but your car’s battery and brake pads need care and attention every once in a while. As a Ford customer, you can enjoy the following promotions:<ul style="margin: 20px; padding: 0;"><li>Free battery and brake pad inspections</li><li>50% off coupon for a pair of Motocraft wiper blade if you have to replace a brake pad or battery</li></ul>This offer is only valid from August 1 to September 15, 2017.'''
-	cta_text='''LEARN MORE'''
-	cta_url='''https://www.ford.com.vn/'''
-	cta_link_name = '''brake_battery'''
+	cta1_text='''LEARN MORE'''
+	cta1_url='''https://www.ford.com.vn/'''
+	cta1_link_name = '''brake_battery'''
     
 [[module]] #Split 03
 path='email_modules/split/03'
