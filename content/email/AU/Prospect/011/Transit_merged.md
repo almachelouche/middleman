@@ -66,7 +66,7 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 		cta1_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
 		cta1_link_name = '''test1'''
 		cta2_text='''LATEST OFFER'''
-		cta2_url='''https://www.ford.com.au/latest-offer/transit-custom-290s-swb-van-auto/'''
+		cta2_url=''''''
 		cta2_link_name = '''latestoffer1'''
 
 [[module]]
