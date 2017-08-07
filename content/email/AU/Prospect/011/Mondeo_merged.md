@@ -160,8 +160,7 @@ color='''white'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
 	title='''The service you'll love, guaranteed'''
-	copy='''The service you'll love, guaranteed</span><br /><br />
-	We know that a new car is a big decision <%${user.CustomAttribute['FullName']}%>, so our job isn't done once you pick up your car.<br /><br />
+	copy='''We know that a new car is a big decision <%${user.CustomAttribute['FullName']}%>, so our job isn't done once you pick up your car.<br /><br />
 	With <a href="https://www.ford.com.au/owners/service/calculator?edm" name="calculator2" style="text-decoration:underline; color:#2d96cd">Ford's Service Price Promise</a>&#185;, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership&#178; for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program&#179;, so we can keep you on the road whilst your car is being serviced. After all, that's what service should be.</span><br /><br /> So don't wait. Book a test drive to experience the Ford Mondeo Trend Hatch Petrol Auto today.'''
 	cta1_text='''BOOK A TEST DRIVE'''
 	cta1_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
@@ -173,8 +172,7 @@ color='''white'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	title='''The service you'll love, guaranteed'''
-	copy='''The service you'll love, guaranteed</span><br /><br />
-	We know that a new car is a big decision <%${user.CustomAttribute['FullName']}%>, so our job isn't done once you pick up your car.<br /><br />
+	copy='''We know that a new car is a big decision <%${user.CustomAttribute['FullName']}%>, so our job isn't done once you pick up your car.<br /><br />
 	With <a href="https://www.ford.com.au/owners/service/calculator?edm" name="calculator1" style="text-decoration:underline; color:#2d96cd">Ford's Service Price Promise</a>&#185;, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership&#178; for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program&#179;, so we can keep you on the road whilst your car is being serviced. After all, that's what service should be.</span><br /><br /> So don't wait. Check out the latest offers on the Ford Mondeo Trend Hatch Petrol Auto today.'''
 	cta1_text='''LATEST OFFER'''
 	cta1_url='''https://www.ford.com.au/latest-offer/mondeo-trend-hatch-petrol/'''
