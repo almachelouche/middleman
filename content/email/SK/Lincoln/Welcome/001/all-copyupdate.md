@@ -20,8 +20,21 @@ color='white'
 path='email_modules/cover/02'
 color='''white'''
 
-title = '''<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>링컨과 함께하는 새로운 여정의 시작</b></span>'''
-	copy = '''<span style="font-size:15px;line-height: 14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;"><br /><br />링컨과의 새로운 여정을 시작한 고객님께 다시 한 번 깊은 감사를 드립니다.<br /><br />링컨만의 감성을 완벽하게 누릴 수 있도록<br />앞으로도 꾸준히 링컨의 새로운 소식을 알려드리도록 하겠습니다.<br /><br />고객님의 즐겁고 안전한 운전에 링컨이 언제나 함께하겠습니다.</span>'''
+title = '''
+<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>링컨과 함께하는 새로운 여정의 시작</b></span>
+'''
+	copy = '''<span style="white-space:nowrap;"><span style="font-size:15px;line-height: 14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">링컨과의 새로운 여정을 시작한 고객님께 다시 한 번 깊은 감사를 드립니다.</span>
+    <br/>
+    <br/>
+    <span style="white-space:nowrap;">링컨만의 감성을 완벽하게 누릴 수 있도록</span>
+    <br/>
+    <span style="white-space:nowrap;">앞으로도 꾸준히 링컨의 새로운 소식을 알려드리도록 하겠습니다.</span>
+    <br/>
+    <br/>
+    <span style="white-space:nowrap;">고객님의 즐겁고 안전한 운전에 링컨이 언제나 함께하겠습니다.</span>
+    <br/>
+    <br/>
+    '''
 
 	icon=''''''
 	cta1_text=''''''
@@ -31,6 +44,8 @@ title = '''<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,
 	cta2_url=''''''
 	cta2_link_name = ''''''
 	cta1_icon=''''''
+
+
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -91,6 +106,29 @@ color='white'
 path='email_modules/footer/lincoln_disclaimer'
 color='white'
 
- text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><br/>이메일 수신을 원치 않으면 여기를 클릭하십시오.<br/>앞으로 저희가 보내드리는 이메일 수신을 위해 고객님의 주소록이나 이메일 수신 허용 목록에 <br/><span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline;">fordnews@mail.edmasia.com</span>을 추가해주십시오.<br/><br/>본 이메일은 고객님의 요청에 따라 발송되었습니다. 이메일 수신을 원치 않으시면 <a href="<%unsubscribe_link_text%>" style="color:#FFFFFF; text-decoration:underline">여기</a>를 클릭하십시오. <br />본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다. <a href="https://www.lincoln-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#FFFFFF;">개인정보처리방침</a> <br/><br/>Copyright © 2017 Ford Sales & Service Korea Inc.<br /><br />이메일이 제대로 보이지 않는 경우, <span class="mobile-display-block"></span><a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#FFFFFF; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 확인할 수 있습니다.<br /><br /></span>'''
+ text = '''
+ <span style="white-space:nowrap;">이메일 수신을 원치 않으시면</span>
+<span class="mobile-display-block"></span><a href="<%unsubscribe_link_text%>" style="color:#FFFFFF; text-decoration:underline">여기</a>를 클릭하십시오.</span>
+<br/>
+<span style="white-space:nowrap;">앞으로 저희가 보내드리는 이메일 수신을 위해 고객님의 주소록이나 이메일</span>
+<br/>
+<span style="white-space:nowrap;">수신 허용 목록에</span>
+<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline;">fordnews@mail.edmasia.com</span>을 추가해주십시오.</span>
+<br/>
+<br/>
+<span style="white-space:nowrap;">본 이메일은 고객님의 요청에 따라 발송되었습니다.</span>
+<a href="https://www.lincoln-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#FFFFFF;">개인정보처리방침</a>
+<br/>
+<span style="white-space:nowrap;">본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다.</span>
+<br/>
+<br/>
+<span style="white-space:nowrap;">Copyright © 2017 Ford Sales & Service Korea Inc.</span>
+<br/>
+<br/>
+<span style="white-space:nowrap;">이메일이 제대로 보이지 않는 경우,<span class="mobile-display-block"></span>
+<a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#FFFFFF; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 확인할 수 있습니다.</span>
+<br/>
+<br/>
+ '''
 
 +++
