@@ -84,18 +84,21 @@ color='green'
     <span style="white-space:nowrap;">확인하실 수 있습니다.</span>
 	<ul style="margin: 20px; padding: 0;text-decoration:underline; color:#FFFFFF">
 		<li>
-        <a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF;">보증 서비스</a>
+        <a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF;">
+        <span style="white-space:nowrap;">보증 서비스</span>
         </li>
 		<li>
-        <a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">차량 관리</a>
+        <a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
+        <span style="white-space:nowrap;">차량 관리</span>
         </li>
 		<li>
-        <a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">전문가의 공인 서비스
+        <a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
+        <span style="white-space:nowrap;">전문가의 공인 서비스</span>
         </a>
         </li>
 		<li>
         <a href="https://www.ford-korea.com/owner/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
-        리콜 안내
+        <span style="white-space:nowrap;">리콜 안내</span>
         </a>
         </li>
 	</ul>
@@ -109,7 +112,7 @@ color='white'
 
 	icon1 = '''ph_edm2_call_20160801'''
 	title1 = '''
-    <span style="white-space:nowrap;">고객센터 문의하기</span>
+    <span style="white-space:nowrap; font-size: 22px;">고객센터 문의하기</span>
     '''
 	copy1 = '''
     <span style="white-space:nowrap;">도움이나 의견이 필요하시다면</span>
@@ -118,7 +121,7 @@ color='white'
     '''
 	icon2 = '''sk_ford_edm1_dealerlocator_20170419'''
 	title2 = '''
-    <span style="white-space:nowrap;">전시장 및 서비스 센터 찾기</span>
+    <span style="white-space:nowrap; font-size: 22px;">전시장 및 서비스 센터 찾기</span>
     '''
 	copy2 = '''
     <span style="white-space:nowrap;">가장 가까운 전시장 및</span>
