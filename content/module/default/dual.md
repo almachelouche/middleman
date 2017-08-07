@@ -117,10 +117,10 @@ color='white'
 	cta2b_url = '''http://google.com'''
 	cta2b_link_name = '''link_name_here'''
 	cta2c_text = '''<br /><br />Click me!'''
-	cta2c_link_url = '''http://google.com'''
+	cta2c_url = '''http://google.com'''
 	cta2c_link_name = '''link_name_here'''
 	image2 = '''th_edm6_newfocus_20160801'''
-	image2_url = '''http://google.com'''
+	image2_link_url = '''http://google.com'''
 	image2_link_name = '''link_name_here'''
 
 +++
