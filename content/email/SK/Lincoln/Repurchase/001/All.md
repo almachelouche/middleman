@@ -22,7 +22,6 @@ color = '''white'''
 
 	image = ''''''
 
-
 [[module]] #Cover 01 
 path='email_modules/cover/02'
 color='''white'''
@@ -48,13 +47,18 @@ font='sk'
 	cta2_link_name = ''''''
 	cta1_icon=''''''
 
-
+    cta1_text = '''FIND OUT MORE'''
+	cta1_url = '''https://www.lincoln-korea.com/vehicles/menu/?intcmp=hp-return-brand-gallery'''
+	cta1_link_name = '''deal_search'''
+    cta1_text = '''REQUEST FOR TEST DRIVE'''
+	cta1_url = '''https://www.lincoln-korea.com/overlay/test-drive/'''
+	cta1_link_name = '''era'''
+    
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = ''''''
-
 
 [[module]]
 path='email_modules/cover/01'
@@ -74,8 +78,7 @@ cta2_text = '''EXTENDED WARRANTY'''
 cta2_url = '''https://www.lincoln-korea.com/parts-service/extended-service-plan/'''
 cta2_link_name = '''extended_warranty'''
 cta1_icon='''more'''
-
-    
+   
 [[module]] #Cover 01   
 path='email_modules/cover/01'
 color='''lincoln_black'''
