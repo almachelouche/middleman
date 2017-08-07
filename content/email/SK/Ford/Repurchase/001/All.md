@@ -38,11 +38,8 @@ font='sk'
     </span><br /><br />'''
 
     icon=''''''
-	cta1_icon='''''' ？
+	cta1_icon=''''''
     
-    cta1_text = '''LEARN MORE'''
-	cta1_url = '''https://www.ford-korea.com/vehicles/?intcmp=hp-return-show'''
-	cta1_link_name = '''deal_search'''
     cta1_text = '''REQUEST FOR TEST DRIVE'''
 	cta1_url = '''https://www.ford-korea.com/owner/warranty/#overlay/content/ford/kr/ko_kr/site-wide-content/overlays/forms/test-drive.html'''
 	cta1_link_name = '''era'''
