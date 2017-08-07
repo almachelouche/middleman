@@ -56,11 +56,11 @@ color='''fordblue'''
 path='email_modules/singles/ctablock'
 color='''fordblue'''
 
-	cta1_text1 = '''
+	cta1_text = '''
     <span style="white-space:nowrap;">더 알아보기</span>
     '''
-	cta1_url1 = '''https://www.ford-korea.com/owner/emergency/'''
-	cta1_link_name1 = '''era'''
+	cta1_url = '''https://www.ford-korea.com/owner/emergency/'''
+	cta1_link_name = '''era'''
 
 [[module]] #Split 02
 path='email_modules/split/02'
@@ -128,16 +128,16 @@ color='white'
     <br />
     <span style="white-space:nowrap;">서비스 센터를 찾아보세요.</span>
     '''
-	cta1_text = '''
+	cta2_text = '''
     <span style="white-space:nowrap;">문의하기</span>
     '''
-	cta1_url = '''https://www.ford-korea.com/contact-us/'''
-	cta1_link_name = '''contact_us'''
+	cta2_url = '''https://www.ford-korea.com/contact-us/'''
+	cta2_link_name = '''contact_us'''
 	cta2_text = '''
     <span style="white-space:nowrap;">전시장 및 서비스 센터 찾기</span>
     '''
-	cta2_url = '''https://www.ford-korea.com/locate-a-dealer/'''
-	cta2_link_name = '''find_dealer'''
+	cta3_url = '''https://www.ford-korea.com/locate-a-dealer/'''
+	cta3_link_name = '''find_dealer'''
 
 [[module]] #Footer SK Ford Social
 path='email_modules/footer/sk/ford/social'
