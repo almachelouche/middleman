@@ -56,11 +56,11 @@ color='''fordblue'''
 path='email_modules/singles/ctablock'
 color='''fordblue'''
 
-	cta1_text1 = '''
+	cta1_text = '''
     <span style="white-space:nowrap;">더 알아보기</span>
     '''
-	cta1_url1 = '''https://www.ford-korea.com/owner/emergency/'''
-	cta1_link_name1 = '''era'''
+	cta1_url = '''https://www.ford-korea.com/owner/emergency/'''
+	cta1_link_name = '''era'''
 
 [[module]] #Split 02
 path='email_modules/split/02'
