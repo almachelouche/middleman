@@ -82,7 +82,7 @@ color='green'
         <span style="white-space:nowrap;">고객님께 꼭 필요한 서비스 정보를</span>
         <br />
         <span style="white-space:nowrap;">확인하실 수 있습니다.</span>
-    	<ul style="margin: 20px; padding: 0;">
+    	<ul style="margin: 20px; padding: 0px; color:#FFFFFF;">
     		<li>
                 <a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF;">
                     보증 서비스
