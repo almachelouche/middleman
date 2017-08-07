@@ -77,7 +77,7 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 		title='''The pleasure of getting the job done. '''
 		copy=''''''
 		cta1_text='''LATEST OFFER'''
-		cta1_url='''https://www.ford.com.au/latest-offer/transit-custom-290s-swb-van-auto/'''
+		cta1_url=''''''
 		cta1_link_name = '''latestoffer1'''
 		cta2_text='''BOOK A TEST DRIVE'''
 		cta2_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
@@ -178,7 +178,7 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 	for a standard service before you go in. But the service doesn't stop there.
 	You can get State Auto Club Roadside Assistance and Membership&#179; for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program&#8308;, so we can keep you on the road whilst your car is being serviced. After all, that's what service should be. <br /><br />So don't wait. Check out the latest offers on the Ford Transit today.'''
 	cta1_text='''LATEST OFFER'''
-	cta1_url='''https://www.ford.com.au/latest-offer/transit-custom-290s-swb-van-auto/'''
+	cta1_url=''''''
 	cta1_link_name = '''latestoffer2'''
 
 [[module]] #Footer AU Social
