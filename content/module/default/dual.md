@@ -94,6 +94,7 @@ path='email_modules/dual/05'
 color='white'
 
 	title1 = '''Dual 05 Title 1'''
+	text_box_height = '''500'''
 	copy1 = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'''
 	cta1a_text = '''<br /><br />Click me!'''
 	cta1a_url = '''http://google.com'''
