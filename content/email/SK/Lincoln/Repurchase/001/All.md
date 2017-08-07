@@ -45,14 +45,13 @@ font='sk'
 	cta2_text=''''''
 	cta2_url=''''''
 	cta2_link_name = ''''''
-	cta1_icon=''''''
-
+	
     cta1_text = '''FIND OUT MORE'''
 	cta1_url = '''https://www.lincoln-korea.com/vehicles/menu/?intcmp=hp-return-brand-gallery'''
 	cta1_link_name = '''deal_search'''
-    cta1_text = '''REQUEST FOR TEST DRIVE'''
-	cta1_url = '''https://www.lincoln-korea.com/overlay/test-drive/'''
-	cta1_link_name = '''era'''
+    cta2_text = '''REQUEST FOR TEST DRIVE'''
+	cta2_url = '''https://www.lincoln-korea.com/overlay/test-drive/'''
+	cta2_link_name = '''era'''
     
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
