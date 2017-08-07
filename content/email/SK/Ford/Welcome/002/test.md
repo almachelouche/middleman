@@ -21,14 +21,16 @@ path='email_modules/cover/01'
 color='''white'''
  
  title = '''
- <span style="white-space:nowrap;">포드의 가족이 되신 것을 진심으로 환영합니다.</span>
+     <span style="white-space:nowrap;">포드의 가족이 되신 것을 진심으로 환영합니다.</span>
  '''
 	copy = '''
-    <span style="white-space:nowrap;">저희 포드는 새로운 가족이 되신 고객님께 다시 한 번 깊은 감사의 마음을 전합니다.</span>
+        <span style="white-space:nowrap;">저희 포드는 새로운 가족이 되신 고객님께 다시 한 번 깊은 감사의 마음을 전합니다.</span>
     <br />
-    <span style="white-space:nowrap;">앞으로도 꾸준히 포드의 새로운 소식을 알려드리고자 합니다.</span>
     <br />
-    <span style="white-space:nowrap;">고객님의 즐겁고 안전한 운전에 포드가 언제나 함께 하겠습니다.</span>
+        <span style="white-space:nowrap;">앞으로도 꾸준히 포드의 새로운 소식을 알려드리고자 합니다.</span>
+    <br />
+    <br />
+        <span style="white-space:nowrap;">고객님의 즐겁고 안전한 운전에 포드가 언제나 함께 하겠습니다.</span>
     '''
 
 [[module]] #Banner Image No Link
@@ -157,6 +159,8 @@ text = '''
 <br />
 <br />
 <span style="white-space:nowrap;">이메일이 제대로 보이지 않는 경우,<span class="mobile-display-block"></span><a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.</span>
+<br />
+<br />
 '''
 
 +++
