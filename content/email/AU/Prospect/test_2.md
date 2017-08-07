@@ -116,7 +116,7 @@ color='white'
 
 	title1='''SYNC® Support'''
 	title2='''Ford Service'''
-    text_box_height = '''220'''
+    text_box_height = '''240'''
 	copy1='''Learn how to set up Emergency Assistance, familiarise yourself with common voice commands and more on the SYNC® Support Portal.'''
 	copy2='''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That's what service should be.<br/><br/>'''
 	cta1a_text = '''Become a SYNC® Expert'''
