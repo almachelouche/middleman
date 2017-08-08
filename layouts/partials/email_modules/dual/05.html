@@ -61,10 +61,10 @@
 					</td>
 				</tr>
 			</table>
-			<table width="310" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+			<table width="310" cellpadding="0" cellspacing="0" border="0" class="img-max" bgcolor="F2F2F2">
 				<tr>
 					<td	align="center"	valign="top">
-						{{- if ne .moduleinfo.image_link1_url nil -}}
+						{{- if ne .moduleinfo.image1_link_url nil -}}
 							{{- if (gt (len .moduleinfo.image1_link_url) 0) -}}
 								<a href="{{ .moduleinfo.image1_link_url | safeURL }}" name="{{- .moduleinfo.image1_link_name -}}" target="_blank">
 							{{- end -}}
@@ -142,10 +142,10 @@
 					</td>
 				</tr>
 			</table>
-			<table width="310" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+			<table width="310" cellpadding="0" cellspacing="0" border="0" class="img-max" bgcolor="F2F2F2">
 				<tr>
 					<td	align="center"	valign="top">
-						{{- if ne .moduleinfo.image_link2_url nil -}}
+						{{- if ne .moduleinfo.image2_link_url nil -}}
 							{{- if (gt (len .moduleinfo.image2_link_url) 0) -}}
 								<a href="{{ .moduleinfo.image2_link_url | safeURL }}" name="{{- .moduleinfo.image2_link_name -}}" target="_blank">
 							{{- end -}}
