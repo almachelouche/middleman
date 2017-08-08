@@ -3,51 +3,63 @@ markets = ["th"]
 title = '''TH Service Reminder Regular Due 008 BKK'''
 
 [[module]]
+path='email_modules/preheader'
 
-	path='email_modules/preheader'
 	preheader = '''ดูแลเครื่องยนต์ของคุณด้วยโปรแกรมชุดน้ำมันเครื่องสุดคุ้ม Oil Save Packs'''
 
 [[module]]
+path='email_modules/header/logo'
+color='white'
 
-	path='email_modules/header/logo'
-	color='white'
 	image='''white'''
 	url_link='''https://www.ford.co.th/'''
 
 [[module]]
 path='email_modules/cover/02'
-
 color='''white'''
-icon='''th_edm2_svc_wrench_20160801'''
-title='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">ได้เวลาเช็คสภาพรถ<span style="white-space:nowrap;">ของคุณแล้ว</span>'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%>
-<br /><br />
-	<span style="white-space:nowrap;">รถ <%${user.CustomAttribute['Model']}%> ของคุณได้เวลาตรวจเช็คระยะแล้ว</span>
-	<span style="white-space:nowrap;"> ที่ศูนย์บริการฟอร์ด</span>
-	<span style="white-space:nowrap;">เรามีช่างผู้ชำนาญงานของฟอร์ด</span><br />
-	<span style="white-space:nowrap;">ที่พร้อมดูแลรถยนต์ของคุณ</span>
-	<span style="white-space:nowrap;">ให้อยู่ในสภาพสมบูรณ์ทุกเมื่อ</span>
-<br /><br />
- <span style="white-space:nowrap;">เช็คระยะครั้งถัดไปวันที่ : </span> 
- <span style="white-space:nowrap;"><strong><% ${user.CustomAttribute['NextServiceDate']} %></strong></span> 
-<br /><br />
-<span style="white-space:nowrap;">บริการใหม่!!</span>
-<span style="white-space:nowrap;">ฟอร์ดเพิ่มความสะดวกสบาย</span><br />
-<span style="white-space:nowrap;">ให้คุณสามารถนัดหมายเช็คระยะ</span>ที่<span style="white-space:nowrap;">ศูนย์บริการฟอร์ดง่ายๆ</span><br />
-<span style="white-space:nowrap;">ผ่านระบบ Online Booking</span> 
-<span style="white-space:nowrap;">ตลอด 7 วัน</span><br>
-<span style="white-space:nowrap;">พร้อมการรับประกันเช็คระยะ</span>
-<span style="white-space:nowrap;">ภายใน 60	นาที</span><br />
-<span style="white-space:nowrap;">หากไม่ทัน</span>
-<span style="white-space:nowrap;">คุณจะได้รับบริการเช็คระยะครั้งนั้น</span> 
-<span style="white-space:nowrap;">"ฟรีทันที"</span></span>'''
-cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหมายตอนนี้</span>'''
-cta1_url='''https://onlinebooking.ford.co.th/'''
+
+	icon='''th_edm2_svc_wrench_20160801'''
+	title='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">ได้เวลาเช็คสภาพรถ<span style="white-space:nowrap;">ของคุณแล้ว</span>'''
+	copy='''
+		<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%>
+			<br />
+			<br />
+			<span style="white-space:nowrap;">รถ <%${user.CustomAttribute['Model']}%> ของคุณได้เวลาตรวจเช็คระยะแล้ว</span>
+			<br />
+			<span style="white-space:nowrap;"> ที่ศูนย์บริการฟอร์ด</span>
+			<span style="white-space:nowrap;">เรามีช่างผู้ชำนาญงานของฟอร์ด</span>
+			<br />
+			<span style="white-space:nowrap;">ที่พร้อมดูแลรถยนต์ของคุณ</span>
+			<span style="white-space:nowrap;">ให้อยู่ในสภาพสมบูรณ์ทุกเมื่อ</span>
+			<br />
+			<br />
+			<span style="white-space:nowrap;">เช็คระยะครั้งถัดไปวันที่ : </span> 
+			<span style="white-space:nowrap;"><strong><% ${user.CustomAttribute['NextServiceDate']} %></strong></span> 
+			<br /
+			><br />
+			<span style="white-space:nowrap;">บริการใหม่!!</span>
+			<span style="white-space:nowrap;">ฟอร์ดเพิ่มความสะดวกสบาย</span>
+			<br />
+			<span style="white-space:nowrap;">ให้คุณสามารถนัดหมายเช็คระยะ</span>ที่<span style="white-space:nowrap;">ศูนย์บริการฟอร์ดง่ายๆ</span>
+			<br />
+			<span style="white-space:nowrap;">ผ่านระบบ Online Booking</span> 
+			<span style="white-space:nowrap;">ตลอด 7 วัน</span>
+			<br>
+			<span style="white-space:nowrap;">พร้อมการรับประกันเช็คระยะ</span>
+			<span style="white-space:nowrap;">ภายใน 60	นาที</span>
+			<br />
+			<span style="white-space:nowrap;">หากไม่ทัน</span>
+			<span style="white-space:nowrap;">คุณจะได้รับบริการเช็คระยะครั้งนั้น</span> 
+			<span style="white-space:nowrap;">"ฟรีทันที"</span>
+		</span>
+	'''
+	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหมายตอนนี้</span>'''
+	cta1_url='''https://onlinebooking.ford.co.th/'''
 
 [[module]]
+path='email_modules/cover/03'
+color='''white'''
 
-	path='email_modules/cover/03'
-	color='''white'''
 	copy='''
 	<span style="font-family:Tahoma, Verdana, Sans-serif;color:#b3b3b3;">
 		<span style="white-space:nowrap;">หมายเลข VIN :</span> 
@@ -60,15 +72,15 @@ cta1_url='''https://onlinebooking.ford.co.th/'''
 		<span style="white-space:nowrap;"><% ${user.CustomAttribute['Mileage']} %></span>
 	</span>'''
 
-[[module]] #Banner Image
+[[module]]
 path='email_modules/image/banner'
 color='white'
 
- image='''TH_edm2_ServiceCampaign_20170726'''
+	image='''TH_edm2_ServiceCampaign_20170726'''
 	url_link='''https://www.ford.co.th/owner/servicecampaign/'''
 	url_link_name='''servicecampaign'''
-    
-    
+
+
 [[module]]
 
 	path='email_modules/custom/3columntitle3icons'
@@ -104,9 +116,9 @@ color='white'
 	'''
 
 [[module]]
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
 
-	path = '''email_modules/image/banner_nolink'''
-	color = '''white'''
 	image = '''th_edm2_whyfordsvc_20161115'''
 
 [[module]]
@@ -115,15 +127,18 @@ color='white'
 	color='green'
 	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดค่าน้ำมันเครื่อง<br />สูงสุด</span>'''
 	copy='''
-	<span style="font-family:Tahoma, Verdana, Sans-serif">
-	<span style="white-space:nowrap;">เพิ่มความอุ่นใจในการขับขี่</span><br />
-	<span style="white-space:nowrap;">พิเศษ!เมื่อซื้อโปรแกรมชุด</span>
-	<span style="white-space:nowrap;">น้ำมันเครื่องสุดคุ้ม (OSP)</span>
-	<span style="white-space:nowrap;">รับส่วนลดเพิ่ม 300 บาท</span> 
-	<span style="white-space:nowrap;">สำหรับแพ็กเกจ 2 ครั้ง</span> 
-	<span style="white-space:nowrap;">และรับส่วนลดเพิ่ม</span>
-	<span style="white-space:nowrap;">500 บาท</span> 
-	<span style="white-space:nowrap;">สำหรับแพ็กเกจ 3 ครั้ง</span></span>'''
+		<span style="font-family:Tahoma, Verdana, Sans-serif">
+			<span style="white-space:nowrap;">เพิ่มความอุ่นใจในการขับขี่</span>
+			<br />
+			<span style="white-space:nowrap;">พิเศษ!เมื่อซื้อโปรแกรมชุด</span>
+			<span style="white-space:nowrap;">น้ำมันเครื่องสุดคุ้ม (OSP)</span>
+			<span style="white-space:nowrap;">รับส่วนลดเพิ่ม 300 บาท</span> 
+			<span style="white-space:nowrap;">สำหรับแพ็กเกจ 2 ครั้ง</span> 
+			<span style="white-space:nowrap;">และรับส่วนลดเพิ่ม</span>
+			<span style="white-space:nowrap;">500 บาท</span> 
+			<span style="white-space:nowrap;">สำหรับแพ็กเกจ 3 ครั้ง</span>
+		</span>
+	'''
 	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
 	cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
 	cta1_icon='''more'''
@@ -132,27 +147,32 @@ color='white'
 
 [[module]]
 path='email_modules/cover/02'
-
 color='''white'''
-icon='''th_edm3_extendedwarranty_20160921'''
-title='''<span style="font-family:Tahoma, Verdana, Sans-serif">โปรแกรมขับขี่อุ่นใจ</span>'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style="white-space:nowrap;">สบายใจ งบไม่บานปลาย</span>  
-<span style="white-space:nowrap;">เมื่อซื้อโปรแกรมขับขี่อุ่นใจ</span> 
-<span style="white-space:nowrap;">ก่อนรถฟอร์ดของคุณครบ 35 เดือน</span><br /> 
-<span style="white-space:nowrap;">หรือ 100,000 กิโลเมตร</span>   
-<span style="white-space:nowrap;">(แล้วแต่อย่างหนึ่งอย่างใดถึงก่อน)</span>  
-<span style="white-space:nowrap;">โปรแกรมนี้ช่วยเพิ่มความอบอุ่นใจ</span>
-<span style="white-space:nowrap;">ในการขับขี่รถยนต์ให้คุณทุกเส้นทาง</span> 
-<span style="white-space:nowrap;">โดยไม่ต้องกังวลกับค่าใช้จ่าย</span>  
-<span style="white-space:nowrap;">หรือ</span> 
-<span style="white-space:nowrap;">การซ่อมแซมที่ไม่ได้คาดคิด</span>ที่<span style="white-space:nowrap;">อาจเกิดขึ้นในอนาคต</span>  
-<span style="white-space:nowrap;">และยังช่วยเพิ่มมูลค่า</span>
-<span style="white-space:nowrap;">ในการขายรถต่อในอนาคตอีกด้วย</span></span>'''
-cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ศึกษารายละเอียดเพิ่มเติม</span>'''
-cta1_url='''http://www.ford.co.th/buying/solutions/premium-protection-plus'''
-cta1_link_name = '''ppp'''
 
+	icon='''th_edm3_extendedwarranty_20160921'''
+	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">โปรแกรมขับขี่อุ่นใจ</span>'''
+	copy='''
+		<span style="font-family:Tahoma, Verdana, Sans-serif">
+			<span style="white-space:nowrap;">สบายใจ งบไม่บานปลาย</span>  
+			<span style="white-space:nowrap;">เมื่อซื้อโปรแกรมขับขี่อุ่นใจ</span> 
+			<span style="white-space:nowrap;">ก่อนรถฟอร์ดของคุณครบ 35 เดือน</span>
+			<br /> 
+			<span style="white-space:nowrap;">หรือ 100,000 กิโลเมตร</span>   
+			<span style="white-space:nowrap;">(แล้วแต่อย่างหนึ่งอย่างใดถึงก่อน)</span>  
+			<span style="white-space:nowrap;">โปรแกรมนี้ช่วยเพิ่มความอบอุ่นใจ</span>
+			<span style="white-space:nowrap;">ในการขับขี่รถยนต์ให้คุณทุกเส้นทาง</span> 
+			<span style="white-space:nowrap;">โดยไม่ต้องกังวลกับค่าใช้จ่าย</span>  
+			<span style="white-space:nowrap;">หรือ</span> 
+			<span style="white-space:nowrap;">การซ่อมแซมที่ไม่ได้คาดคิด</span>
+			ที่
+			<span style="white-space:nowrap;">อาจเกิดขึ้นในอนาคต</span>  
+			<span style="white-space:nowrap;">และยังช่วยเพิ่มมูลค่า</span>
+			<span style="white-space:nowrap;">ในการขายรถต่อในอนาคตอีกด้วย</span>
+		</span>
+	'''
+	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ศึกษารายละเอียดเพิ่มเติม</span>'''
+	cta1_url='''http://www.ford.co.th/buying/solutions/premium-protection-plus'''
+	cta1_link_name = '''ppp'''
 
 [[module]]
 
