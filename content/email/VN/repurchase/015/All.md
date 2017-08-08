@@ -25,12 +25,12 @@ path='email_modules/cover/02'
 color='''white'''
 
 	
-	title='''50% Refund for Ranger Days'''
-	copy='''Hello #Name#<br /><br />If there were a perfect reason why you should buy a new Ranger this August, it would be Ford Ranger Days. For the entire month of August, you can save yourself 50% of the vehicle price if you buy a Ranger!<br /><br />With its rugged capability, innovative technology and impressive towing capacity, the Ranger is the truck that can get the job done. And, it can get the job done for you at half the price!<br /><br />But if trucks aren’t your thing, the Ford Everest, EcoSport, Focus and Fiesta are all also available with a 50% refund.'''
-	cta1_text='''BOOK A TEST DRIVE'''
+	title='''Cơ hội nhận lại 50% giá trị xe trong tháng 8'''
+	copy='''Xin chào <%${user.CustomAttribute['Title']}%> <%${user['FirstName']}%><br /><br />Nếu bạn đang cân nhắc kế hoạch mua xe thì tháng 8 đúng là thời điểm lý tưởng để bạn rinh một chiếc Ford Ranger mới với cơ hội được hoàn lại 50% giá trị chiếc xe.<br /><br />Với phong cách thiết kế mạnh mẽ, tính năng tiên tiến và khả năng vận hành vượt trội, Ranger là chiếc xe giúp bạn chinh phục mọi thử thách. Còn chờ đợi gì nữa, hãy sở hữu ngay chiếc xe bán tải này với giá chỉ bằng 1 nửa!<br /><br />Ngoài ra, ưu đãi 50% cũng áp dụng khi khách hàng mua xe và ký hợp đồng trong tháng 8 cho các loại xe khác như Ford Everest, EcoSport, Focus và Fiesta.'''
+	cta1_text='''ĐĂNG KÝ LÁI THỬ XE'''
 	cta1_url='''https://www.ford.com.vn/trucks/ranger/ranger-homepage/?redtrgtexp=true#overlay/content/ford/vn/vi_vn/site-wide-content/overlays/forms/test-drive.html?gmbxtid=ford_ranger-first-kba-001-book_a_test_drive_1'''
 	cta1_link_name = '''ranger_test_drive'''
-	cta2_text='''FIND OUT MORE'''
+	cta2_text='''TÌM HIỂU THÊM '''
 	cta2_url='''https://www.ford.com.vn/promotion-corner/2017/hot-deal-1/'''
 	cta2_link_name = '''retail_offer'''
 
@@ -57,8 +57,8 @@ path='email_modules/cover/02'
 color='''white'''
 
 	
-	title='''Brake Pad & Battery Check Up Promotion'''
-	copy='''You might not see them, but your car’s battery and brake pads need care and attention every once in a while. As a Ford customer, you can enjoy the following promotions:<ul style="margin: 20px; padding: 0;"><li>Free battery and brake pad inspections</li><li>50% off coupon for a pair of Motocraft wiper blade if you have to replace a brake pad or battery</li></ul>This offer is only valid from August 1 to September 15, 2017.'''
+	title='''Chương trình khuyến mại cho khách hàng thay má phanh/ắc quy'''
+	copy='''Má phanh và ắc quy là những bộ phận quan trọng trên xe nên cần được kiểm tra thường xuyên để đảm bảo chiếc xe của bạn luôn vận hành trong điều kiện tốt nhất. Là khách hàng của Ford, bạn sẽ nhận được những ưu đãi sau:<ul style="margin: 20px; padding: 0;"><li>Miễn phí kiểm tra má phanh/ắc quy</li><li>Tặng phiếu mua hàng giảm giá 50% bộ gạt mưa Ford Motorcraft áp dụng cho khách hàng thay má phanh hoặc ắc quy</li></ul>Chương trình có hiệu lực đến hết ngày 15/9/2017.'''
 	cta1_text='''LEARN MORE'''
 	cta1_url='''https://www.ford.com.vn/'''
 	cta1_link_name = '''brake_battery'''
