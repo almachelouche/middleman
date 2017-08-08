@@ -46,7 +46,6 @@ color='''fordblue'''
         <span style="white-space:nowrap;">포드 긴급출동 서비스는 365일 24시간 이용 가능합니다.</span>
         <br/>
         <span style="white-space:nowrap;">운전 중 예상치 못한 긴급 상황이 발생하면,</span>
-        <br/>
         <span style="white-space:nowrap;"><a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>
         <span style="white-space:nowrap;">으로 연락주세요.</span>
         </span>
