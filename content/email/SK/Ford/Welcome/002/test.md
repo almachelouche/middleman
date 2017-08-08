@@ -20,7 +20,9 @@ color='''white'''
 
     title = ''' <span style="white-space:nowrap;">포드의 가족이 되신 것을 진심으로 환영합니다.</span>'''
 	copy = '''
-        <span style="white-space:nowrap;">저희 포드는 새로운 가족이 되신 고객님께 다시 한 번 깊은 감사의 마음을 전합니다.</span>
+        <span style="white-space:nowrap;">저희 포드는 새로운 가족이</span>
+        <br />
+        <span style="white-space:nowrap;">되신 고객님께 다시 한 번 깊은 감사의 마음을 전합니다.</span>
         <br />
         <br />
         <span style="white-space:nowrap;">앞으로도 꾸준히 포드의 새로운 소식을 알려드리고자 합니다.</span>
@@ -43,10 +45,10 @@ color='''fordblue'''
 	copy = '''
         <span style="white-space:nowrap;">포드 긴급출동 서비스는 365일 24시간 이용 가능합니다.</span>
         <br />
-        <span style="white-space:nowrap;">
-            운전 중 예상치 못한 긴급 상황이 발생하면,
-            <a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>
-            으로 연락주세요.
+        <span style="white-space:nowrap;">운전 중 예상치 못한 긴급 상황이 발생하면,</span>
+        <br />
+        <span style="white-space:nowrap;"><a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>
+        <span style="white-space:nowrap;">으로 연락주세요.</span>
         </span>
     '''
 
@@ -64,7 +66,11 @@ color='''fordblue'''
 path='email_modules/split/02'
 color='green'
 
-	title = '''<span style="white-space:nowrap;">포드 오너를 위한 필수 정보</span>'''
+	title = '''
+    <span style="white-space:nowrap;">포드 오너를 위한</span>
+    <br/>
+    <span style="white-space:nowrap;">필수 정보</span>
+    '''
 	copy = '''
         <span style="white-space:nowrap;">포드 웹사이트에는 더 쉽게</span>
         <br/>
@@ -75,8 +81,10 @@ color='green'
         <br/>
         <span style="white-space:nowrap;">아래의 링크를 클릭하시면</span>
         <br/>
-        <span style="white-space:nowrap;">고객님께 꼭 필요한 서비스 정보를</span>
-        <br />
+        <span style="white-space:nowrap;">고객님께 꼭 필요한 서비스</span>
+        <br/>
+        <span style="white-space:nowrap;">정보를</span>
+        <br/>
         <span style="white-space:nowrap;">확인하실 수 있습니다.</span>
     	<ul style="margin: 20px; padding: 0; color:#FFFFFF">
     		<li>
@@ -109,17 +117,23 @@ path='email_modules/dual/01'
 color='white'
 
 	icon1 = '''ph_edm2_call_20160801'''
-	title1 = '''<span style="white-space:nowrap; font-size: 22px;">고객센터 문의하기</span>'''
+	title1 = '''
+    <span style="white-space:nowrap; font-size: 22px;">고객센터 문의하기</span>
+    '''
 	copy1 = '''
         <span style="white-space:nowrap;">도움이나 의견이 필요하시다면</span>
         <br/>
-        <a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">1600-6003</a>으로 언제든 문의주세요.
+        <span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">1600-6003</a>으로 언제든 문의주세요.</span>
     '''
 	icon2 = '''sk_ford_edm1_dealerlocator_20170419'''
-	title2 = '''<span style="white-space:nowrap; font-size: 22px;">전시장 및 서비스 센터 찾기</span>'''
+	title2 = '''
+    <span style="white-space:nowrap; font-size: 22px;">전시장 및 서비스</span>
+    <br/>
+    <span style="white-space:nowrap; font-size: 22px;">센터 찾기</span>
+    '''
 	copy2 = '''
         <span style="white-space:nowrap;">가장 가까운 전시장 및</span>
-        <br />
+        <br/>
         <span style="white-space:nowrap;">서비스 센터를 찾아보세요.</span>
     '''
 	cta1_text = '''<span style="white-space:nowrap;">문의하기</span>'''
