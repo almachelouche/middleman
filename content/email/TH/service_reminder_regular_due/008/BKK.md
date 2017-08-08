@@ -25,6 +25,7 @@ color='''white'''
 			<br />
 			<br />
 			<span style="white-space:nowrap;">รถ <%${user.CustomAttribute['Model']}%> ของคุณได้เวลาตรวจเช็คระยะแล้ว</span>
+			<br />
 			<span style="white-space:nowrap;"> ที่ศูนย์บริการฟอร์ด</span>
 			<span style="white-space:nowrap;">เรามีช่างผู้ชำนาญงานของฟอร์ด</span>
 			<br />
