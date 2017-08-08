@@ -118,7 +118,7 @@ color='white'
 
 	icon1 = '''ph_edm2_call_20160801'''
 	title1 = '''
-    <span style="white-space:nowrap; font-size: 22px;">고객센터 문의하기</span>
+    <span style="white-space:nowrap; font-size: 20px;">고객센터 문의하기</span>
     '''
 	copy1 = '''
         <span style="white-space:nowrap;">도움이나 의견이 필요하시다면</span>
@@ -127,9 +127,7 @@ color='white'
     '''
 	icon2 = '''sk_ford_edm1_dealerlocator_20170419'''
 	title2 = '''
-    <span style="white-space:nowrap; font-size: 22px;">전시장 및 서비스</span>
-    <br/>
-    <span style="white-space:nowrap; font-size: 22px;">센터 찾기</span>
+    <span style="white-space:nowrap; font-size: 20px;">전시장 및 서비스 센터 찾기</span>
     '''
 	copy2 = '''
         <span style="white-space:nowrap;">가장 가까운 전시장 및</span>
