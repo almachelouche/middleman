@@ -153,21 +153,7 @@ color='''white'''
 	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">โปรแกรมขับขี่อุ่นใจ</span>'''
 	copy='''
 		<span style="font-family:Tahoma, Verdana, Sans-serif">
-			<span style="white-space:nowrap;">สบายใจ งบไม่บานปลาย</span>
-			<span style="white-space:nowrap;">เมื่อซื้อโปรแกรมขับขี่อุ่นใจ</span>
-			<span style="white-space:nowrap;">ก่อนรถฟอร์ดของคุณครบ 35 เดือน</span>
-			<br /> 
-			<span style="white-space:nowrap;">หรือ 100,000 กิโลเมตร</span>
-			<span style="white-space:nowrap;">(แล้วแต่อย่างหนึ่งอย่างใดถึงก่อน)</span>
-			<span style="white-space:nowrap;">โปรแกรมนี้ช่วยเพิ่มความเพิ่มความอุ่นใจอุ่นใจ</span>
-			<span style="white-space:nowrap;">ในการขับขี่รถยนต์ให้คุณทุกเส้นทาง</span>
-			<span style="white-space:nowrap;">โดยไม่ต้องกังวลกับค่าใช้จ่าย</span>
-			<span style="white-space:nowrap;">หรือ</span>
-			<span style="white-space:nowrap;">การซ่อมแซมที่ไม่ได้คาดคิด</span>
-			ที่
-			<span style="white-space:nowrap;">อาจเกิดขึ้นในอนาคต</span>
-			<span style="white-space:nowrap;">และยังช่วยเพิ่มมูลค่า</span>
-			<span style="white-space:nowrap;">ในการขายรถต่อในอนาคตอีกด้วย</span>
+			<span style="white-space:nowrap;">สบายใจ งบไม่บานปลาย</span><span style="white-space:nowrap;">เมื่อซื้อโปรแกรมขับขี่อุ่นใจ</span><span style="white-space:nowrap;">ก่อนรถฟอร์ดของคุณครบ 35 เดือน</span><br /><span style="white-space:nowrap;">หรือ 100,000 กิโลเมตร</span><span style="white-space:nowrap;">(แล้วแต่อย่างหนึ่งอย่างใดถึงก่อน)</span><span style="white-space:nowrap;">โปรแกรมนี้ช่วยเพิ่มความเพิ่มความอุ่นใจอุ่นใจ</span><span style="white-space:nowrap;">ในการขับขี่รถยนต์ให้คุณทุกเส้นทาง</span><span style="white-space:nowrap;">โดยไม่ต้องกังวลกับค่าใช้จ่าย</span><span style="white-space:nowrap;">หรือ</span><span style="white-space:nowrap;">การซ่อมแซมที่ไม่ได้คาดคิด</span>ที่<span style="white-space:nowrap;">อาจเกิดขึ้นในอนาคต</span><span style="white-space:nowrap;">และยังช่วยเพิ่มมูลค่า</span><span style="white-space:nowrap;">ในการขายรถต่อในอนาคตอีกด้วย</span>
 		</span>
 	'''
 	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ศึกษารายละเอียดเพิ่มเติม</span>'''
