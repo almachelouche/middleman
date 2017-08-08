@@ -88,14 +88,14 @@ path='email_modules/cover/03'
 color='''slatescreen'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
-	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Plenty of trucks can boast brute strength. But it's the technology behind the muscle that makes the Ford Ranger a real hero. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Ranger 4x4 XLT Double Cab Pick-Up 3.2L Diesel is available at $56,490* Driveaway.</span>'''
+	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Plenty of trucks can boast brute strength. But it's the technology behind the muscle that makes the Ford Ranger a real hero. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Ranger 4x4 XLT Double Cab Pick-Up 3.2L Diesel Manual is available at $55,490* Driveaway.</span>'''
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />The Ford Ranger has been tested to the limits to give you a truck that's in its element wherever you are. So when the going gets tough, the tough can get going.<br /><br /><span style="color:#FFFFFF">Right now, the Ford Ranger 4x4 XLT Double Cab Pick-Up 3.2L Diesel is available at $56,490* Driveaway.</span>'''
+	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />The Ford Ranger has been tested to the limits to give you a truck that's in its element wherever you are. So when the going gets tough, the tough can get going.<br /><br /><span style="color:#FFFFFF">Right now, the Ford Ranger 4x4 XLT Double Cab Pick-Up 3.2L Diesel Manual is available at $55,490* Driveaway.</span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -188,7 +188,7 @@ color='''white'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
 	title='''Ranger Accessories'''
-	copy='''<a href="https://www.ford.com.au/commercial/ranger/smart-accessories/" name="accessories" style="text-decoration:underline; color:#2d96cd">Ford Genuine Accessories</a> are designed to fit perfectly and integrate seamlessly with Ranger's safety systems. So whether you need a soft tonneau cover to protect your cargo or a towpack for your weekend adventure, check out our range of extras that will help take your Ranger to the next level.<br /><br />So don't wait. Book a test drive to experience the Ford Ranger 4x4 XLT Double Cab Pick-Up 3.2L Diesel today.'''
+	copy='''<a href="https://www.ford.com.au/commercial/ranger/smart-accessories/" name="accessories" style="text-decoration:underline; color:#2d96cd">Ford Genuine Accessories</a> are designed to fit perfectly and integrate seamlessly with Ranger's safety systems. So whether you need a soft tonneau cover to protect your cargo or a towpack for your weekend adventure, check out our range of extras that will help take your Ranger to the next level.<br /><br />So don't wait. Book a test drive to experience the Ford Ranger 4x4 XLT Double Cab Pick-Up 3.2L Diesel Manual today.'''
 	cta1_text='''BOOK A TEST DRIVE'''
 	cta1_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
 	cta1_link_name = '''test2'''
@@ -220,7 +220,7 @@ color='''white'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	title='''The service you'll love, guaranteed'''
-	copy='''We know that a new car is a big decision <%${user.CustomAttribute['FullName']}%>, so our job isn't done once you pick up your car.<br /><br />With <a href="https://www.ford.com.au/owners/service/calculator?edm" name="calculator1"	style="text-decoration:underline; color:#2d96cd">Ford's Service Price Promise</a>&#8308;, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership&#8309; for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program&#8310;, so we can keep you on the road whilst your car is being serviced. After all, that's what service should be.<br /><br />So don't wait. Check out the latest offers on the Ford Ranger 4x4 XLT Double Cab Pick-Up 3.2L Diesel today.'''
+	copy='''We know that a new car is a big decision <%${user.CustomAttribute['FullName']}%>, so our job isn't done once you pick up your car.<br /><br />With <a href="https://www.ford.com.au/owners/service/calculator?edm" name="calculator1"	style="text-decoration:underline; color:#2d96cd">Ford's Service Price Promise</a>&#8308;, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership&#8309; for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program&#8310;, so we can keep you on the road whilst your car is being serviced. After all, that's what service should be.<br /><br />So don't wait. Check out the latest offers on the Ford Ranger 4x4 XLT Double Cab Pick-Up 3.2L Diesel Manual today.'''
 	cta1_text='''LATEST OFFER'''
 	cta1_url='''https://www.ford.com.au/latest-offer/4x4-xlt-double-cab-pick-up-3-2l-diesel/'''
 	cta1_link_name = '''moreinfo2'''
@@ -236,7 +236,6 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
 	text = '''Terms & Conditions
 				<br /> <br />*Recommended Price for private and small business buyers only at participating dealers. Ford Australia reserves the right to change or extend offers.<br /><br />
-                1. Braked towing capacity when fitted with a genuine Ford towpack and towball. Subject to State and Territory regulations.<br /><br />
 				1. Braked towing capacity when fitted with a genuine Ford towpack and towball. Subject to State and Territory regulations.<br /><br />
 				2. Achieved when maintaining a steady speed of not more than 7km per hour.<br /><br />
 				3. Bluetooth® is a registered trademark of Bluetooth SIG Inc., and is used under licence. Some phones not compatible.'''
