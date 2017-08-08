@@ -1,4 +1,3 @@
-
 +++
 markets = ["sk-ford"]
 title = '''SK Ford Welcome 002 Test'''
@@ -6,50 +5,49 @@ title = '''SK Ford Welcome 002 Test'''
 [[module]]
 path='email_modules/preheader'
 
-
 		preheader='''저희 포드는 새로운 가족이 되신 고객님께 다시 한 번 깊은 감사의 마음을 전합니다'''
 
-[[module]] #Header Logo
+[[module]]
 path='email_modules/header/logo'
 color='white'
 
 	image = '''white'''
 	url_link = '''https://www.ford-korea.com'''
 
-[[module]] #Cover 01
+[[module]]
 path='email_modules/cover/01'
 color='''white'''
- 
- title = '''
-     <span style="white-space:nowrap;">포드의 가족이 되신 것을 진심으로 환영합니다.</span>
- '''
+
+    title = ''' <span style="white-space:nowrap;">포드의 가족이 되신 것을 진심으로 환영합니다.</span>'''
 	copy = '''
         <span style="white-space:nowrap;">저희 포드는 새로운 가족이 되신 고객님께 다시 한 번 깊은 감사의 마음을 전합니다.</span>
-    <br />
-    <br />
+        <br />
+        <br />
         <span style="white-space:nowrap;">앞으로도 꾸준히 포드의 새로운 소식을 알려드리고자 합니다.</span>
-    <br />
-    <br />
+        <br />
+        <br />
         <span style="white-space:nowrap;">고객님의 즐겁고 안전한 운전에 포드가 언제나 함께 하겠습니다.</span>
     '''
 
-[[module]] #Banner Image No Link
+[[module]]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''sk_ford_edm1_topmodule_20170419'''
 
-[[module]] #Cover 01
+[[module]]
 path='email_modules/cover/01'
 color='''fordblue'''
- 
-	title = '''
-    <span style="white-space:nowrap;">24시간 긴급출동 서비스</span>
-    '''
+
+	title = ''' <span style="white-space:nowrap;">24시간 긴급출동 서비스</span>'''
 	copy = '''
-    <span style="white-space:nowrap;">포드 긴급출동 서비스는 365일 24시간 이용 가능합니다.</span>
-    <br />
-    <span style="white-space:nowrap;">운전 중 예상치 못한 긴급 상황이 발생하면,<a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주세요.</span>
+        <span style="white-space:nowrap;">포드 긴급출동 서비스는 365일 24시간 이용 가능합니다.</span>
+        <br />
+        <span style="white-space:nowrap;">
+            운전 중 예상치 못한 긴급 상황이 발생하면,
+            <a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>
+            으로 연락주세요.
+        </span>
     '''
 
 [[module]]
@@ -57,18 +55,16 @@ path='email_modules/singles/ctablock'
 color='''fordblue'''
 
 	cta1_text = '''
-    <span style="white-space:nowrap;">더 알아보기</span>
+        <span style="white-space:nowrap;">더 알아보기</span>
     '''
 	cta1_url = '''https://www.ford-korea.com/owner/emergency/'''
 	cta1_link_name = '''era'''
 
-[[module]] #Split 02
+[[module]]
 path='email_modules/split/02'
 color='green'
 
-	title = '''
-    <span style="white-space:nowrap;">포드 오너를 위한 필수 정보</span>
-    '''
+	title = '''<span style="white-space:nowrap;">포드 오너를 위한 필수 정보</span>'''
 	copy = '''
         <span style="white-space:nowrap;">포드 웹사이트에는 더 쉽게</span>
         <br/>
@@ -82,69 +78,62 @@ color='green'
         <span style="white-space:nowrap;">고객님께 꼭 필요한 서비스 정보를</span>
         <br />
         <span style="white-space:nowrap;">확인하실 수 있습니다.</span>
-    	<ul style="margin: 20px; padding: 0px; color:#FFFFFF;">
+    	<ul style="margin: 20px; padding: 0; color:#FFFFFF">
     		<li>
                 <a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF;">
-                    보증 서비스
+                    <span style="white-space:nowrap;">보증 서비스</span>
                 </a>
             </li>
     		<li>
                 <a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#FFFFFF;">
-                    차량 관리
+                    <span style="white-space:nowrap;">차량 관리</span>
                 </a>
             </li>
     		<li>
                 <a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:underline; color:#FFFFFF;">
-                    전문가의 공인 서비스
+                    <span style="white-space:nowrap;">전문가의 공인 서비스</span>
                 </a>
             </li>
     		<li>
                 <a href="https://www.ford-korea.com/owner/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#FFFFFF;">
-                    리콜 안내
+                    <span style="white-space:nowrap;">리콜 안내</span>
                 </a>
             </li>
     	</ul>
+    </span>
     '''
 	image = '''sk_ford_edm1_greenmodule_20170419'''
 
-[[module]] #Dual 01
+[[module]]
 path='email_modules/dual/01'
 color='white'
 
 	icon1 = '''ph_edm2_call_20160801'''
-	title1 = '''
-    <span style="white-space:nowrap;">고객센터 문의하기</span>
-    '''
+	title1 = '''<span style="white-space:nowrap; font-size: 22px;">고객센터 문의하기</span>'''
 	copy1 = '''
-    <span style="white-space:nowrap;">도움이나 의견이 필요하시다면</span>
-    <br/>
-    <a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">1600-6003</a>으로 언제든 문의주세요.</span>
+        <span style="white-space:nowrap;">도움이나 의견이 필요하시다면</span>
+        <br/>
+        <a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">1600-6003</a>으로 언제든 문의주세요.
     '''
 	icon2 = '''sk_ford_edm1_dealerlocator_20170419'''
-	title2 = '''
-    <span style="white-space:nowrap;">전시장 및 서비스 센터 찾기</span>
-    '''
+	title2 = '''<span style="white-space:nowrap; font-size: 22px;">전시장 및 서비스 센터 찾기</span>'''
 	copy2 = '''
-    <span style="white-space:nowrap;">가장 가까운 전시장 및</span>
-    <br />
-    <span style="white-space:nowrap;">서비스 센터를 찾아보세요.</span>
+        <span style="white-space:nowrap;">가장 가까운 전시장 및</span>
+        <br />
+        <span style="white-space:nowrap;">서비스 센터를 찾아보세요.</span>
     '''
-	cta1_text = '''
-    <span style="white-space:nowrap;">문의하기</span>
-    '''
+	cta1_text = '''<span style="white-space:nowrap;">문의하기</span>'''
 	cta1_url = '''https://www.ford-korea.com/contact-us/'''
 	cta1_link_name = '''contact_us'''
-	cta2_text = '''
-    <span style="white-space:nowrap;">전시장 및 서비스 센터 찾기</span>
-    '''
-	cta2_url = '''https://www.ford-korea.com/locate-a-dealer/'''
-	cta2_link_name = '''find_dealer'''
+	cta2_text = '''<span style="white-space:nowrap;">전시장 및 서비스 센터 찾기</span>'''
+	cta3_url = '''https://www.ford-korea.com/locate-a-dealer/'''
+	cta3_link_name = '''find_dealer'''
 
-[[module]] #Footer SK Ford Social
+[[module]]
 path='email_modules/footer/sk/ford/social'
 color='white'
 
-[[module]] #Footer Disclaimer
+[[module]]
 path='email_modules/footer/disclaimer'
 color='white'
 

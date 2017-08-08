@@ -41,29 +41,17 @@ image2 = '''in_edm6_DustStorm_20161101'''
 image2_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/video-overlays/overview-videos/video-9.html/'''
 image2_link_name = '''video_dust_storm'''
 
-[[module]] #Split 01
-path='email_modules/split/01'
+[[module]] #Split 02
+path='email_modules/split/02'
 color='darkblue'
 
-	title = '''Story 1'''
-	copy = '''To Be Updated'''
-	cta1_text = '''WATCH NOW'''
+	title = '''Road Safety Report Cards'''
+	copy = '''We are always thinking about how to keep you and your family safe on the road. That's why we partnered with 550 schools across India to hand out Safety Report Cards to students, where they can learn about road safety and rate their parents' driving. Students can then drop the filled out cards into boxes at their school to enter in to a lucky draw where 10 lucky winners can land themselves a cool Mustang toy car. Lucky draw winners will be notified by October 30, 2017. '''
+	cta1_text = '''LEARN MORE'''
 	cta1_url = '''https://www.youtube.com/watch?time_continue=7&v=PgWbOLKw8IY'''
 	cta1_link_name = '''unskippable_video'''
 	cta1_icon = '''play'''
 	image = '''in_edm6_spp_20170330'''
-    
-[[module]] #Split 02
-path='email_modules/split/02'
-color='green'
-
-	title = '''Story 2'''
-	copy = '''To be Updated'''
-	cta1_text = '''WATCH NOW'''
-	cta1_url = '''https://www.youtube.com/watch?v=CGmNMMUfIZw&feature=youtu.be'''
-	cta1_link_name = '''clever_cot'''
-	cta1_icon = '''more'''
-	image = '''in_edm6_ode_video_20170420'''
     
 [[module]] #Split 01
 path='email_modules/split/01'
