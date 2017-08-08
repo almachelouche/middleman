@@ -159,7 +159,7 @@ color='''white'''
 			<br /> 
 			<span style="white-space:nowrap;">หรือ 100,000 กิโลเมตร</span>
 			<span style="white-space:nowrap;">(แล้วแต่อย่างหนึ่งอย่างใดถึงก่อน)</span>
-			<span style="white-space:nowrap;">โปรแกรมนี้ช่วยเพิ่มความอบอุ่นใจ</span>
+			<span style="white-space:nowrap;">โปรแกรมนี้ช่วยเพิ่มความเพิ่มความอุ่นใจอุ่นใจ</span>
 			<span style="white-space:nowrap;">ในการขับขี่รถยนต์ให้คุณทุกเส้นทาง</span>
 			<span style="white-space:nowrap;">โดยไม่ต้องกังวลกับค่าใช้จ่าย</span>
 			<span style="white-space:nowrap;">หรือ</span>
