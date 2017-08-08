@@ -38,7 +38,7 @@ segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
 	cta1_url = '''https://www.ford.com.au/owners/service/book-service/'''
 	cta1_link_name = '''booking'''
     cta2_text2 = '''aaa'''
-	cta2_url1 = ''''''
+	cta2_url1 = '''https://www.ford.com.au/owners/service/book-service'''
 	cta2_link_name = ''''''
 
 [[module]] #4 Images
