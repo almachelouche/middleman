@@ -117,7 +117,7 @@ font='sk'
     '''
 	icon2 = '''sk_lincoln_edm1_dealerlocator_20170510'''
 	title2 = '''
-	<span style="white-space:nowrap;">가까운 전시장 및</span>
+	<span style="white-space:nowrap;">가까운 전시장 및 </span>
 	<span style="white-space:nowrap;">서비스센터 찾기</span>
 	'''
 	copy2 = '''

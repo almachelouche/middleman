@@ -202,7 +202,7 @@ title2 = '''<span style="white-space:nowrap; font-size: 20px;">전시장 및 서
 copy2 = '''
     <span style="white-space:nowrap;">가장 가까운 전시장 및</span>
     <br/>
-    <span style="white-space:nowrap;">서비스센터를 찾아보세요.</span>
+	<span style="white-space:nowrap;">서비스센터를 찾아보세요.</span> 
 '''
 cta1_text = '''<span style="white-space:nowrap;">자세히 보기</span>'''
 cta1_url = '''https://www.ford-korea.com/contact-us/'''

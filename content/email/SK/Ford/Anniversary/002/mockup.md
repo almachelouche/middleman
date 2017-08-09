@@ -120,7 +120,9 @@ font='sk'
 	<span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">1600-6003</a>으로 언제든 문의주세요.</span>'''
 	icon2 = '''sk_ford_edm1_dealerlocator_20170419'''
     title2 = '''<span style="white-space:nowrap; font-size: 20px;">전시장 및 서비스센터 찾기</span>'''
-	copy2 = '''<span style="white-space:nowrap;">가장 가까운 전시장 및</span>
+	copy2 = '''
+    <span style="white-space:nowrap;">가장 가까운 전시장 및</span>
+    <br/>
 	<span style="white-space:nowrap;">서비스센터를 찾아보세요.</span>'''
 	cta1_text = '''<span style="white-space:nowrap;">자세히 보기</span>'''
 	cta1_url = '''https://www.ford-korea.com/contact-us/'''
