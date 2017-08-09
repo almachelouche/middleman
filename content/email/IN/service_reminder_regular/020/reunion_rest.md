@@ -178,7 +178,7 @@ color='''white'''
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''in_edm2_reunion_offer_20170809_desktop'''   
+  image = '''in_edm2_reunion_offer_20170809'''   
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
