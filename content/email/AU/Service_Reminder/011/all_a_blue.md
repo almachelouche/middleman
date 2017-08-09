@@ -481,7 +481,7 @@ path='email_modules/image/banner'
 color='white'
 segmentelse = ["yes"]
 
-	image = '''au_edm2_RSvc_Due_xtime_logo_20161014_desktop'''
+	image = '''au_edm2_RSvc_Due_xtime_logo_20161014'''
 	url_link = '''https://www.ford.com.au/owners/service/'''
 
 
