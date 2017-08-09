@@ -141,19 +141,27 @@ color='white'
 text = '''
 <span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
 <br/>
-<span style="white-space:nowrap;">앞으로 저희가 보내드리는 이메일 수신을 위해 귀하의 주소록이나 이메일</span>
-<span style="white-space:nowrap;">수신 허용 목록에 <span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline;">fordnews@mail.edmasia.com</span>을 추가해주십시오.</span>
+<span style="white-space:nowrap;">이메일 수신을 원치 않으면</span>
+<a href="<%unsubscribe_link_text%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오.</span>
+<br/>
+<span style="white-space:nowrap;">앞으로 저희가 보내드리는 이메일 수신을 위해 고객님의 주소록이나 이메일 수신 허용 목록에</span> 
+<span style="white-space:nowrap;">수신 허용 목록에 <span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline;">fordnews@mail.edmasia.com</span>
+<span style="white-space:nowrap;">을 추가해주십시오.</span>
 <br/>
 <br/>
-본 이메일은 귀하의 요청에 따라 발송되었습니다. 이메일 수신을 원치 않으시면 <a href="<%unsubscribe_link_text%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오.
+<span style="white-space:nowrap;">본 이메일은 고객님의 요청에 따라 발송되었습니다.</span>
+<a href="https://www.ford-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#91a4b1;">개인정보처리방침</a>
 <br/>
-본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다. <a href="https://www.ford-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#91a4b1;">개인정보처리방침</a> 
+<span style="white-space:nowrap;">본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다. 
 <br/>
 <br/>
 <span style="white-space:nowrap;">Copyright © 2017 Ford Sales & Service Korea Inc.</span>
 <br/>
 <br/>
-이메일이 제대로 보이지 않는 경우, <a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.</span>
+<span style="white-space:nowrap;">이메일이 제대로 보이지 않는 경우,</span> 
+<a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.</span>
+<br/>
+<br/>
 '''
 
 +++
