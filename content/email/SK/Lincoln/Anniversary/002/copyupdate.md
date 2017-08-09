@@ -89,6 +89,7 @@ font='sk'
     <span style="white-space:nowrap;">귀하에게 필요한 자세한 서비스 정보를</span>
     <br/>
     <span style="white-space:nowrap;">확인할 수 있습니다.</span>
+    <br/>
     <ul style="margin: 20px; padding: 0;text-decoration:underline; color:#b45f1a">
     <li>
     <a href="https://www.lincoln-korea.com/parts-service/pick-delivery/" name="pick_delivery" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
