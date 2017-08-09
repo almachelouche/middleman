@@ -79,11 +79,18 @@ title = '''
 '''
 copy = '''
 <span style="white-space:nowrap;">포드 웹사이트에는 더 쉽게</span>
+<br/>
 <span style="white-space:nowrap;">차량을 관리할 수 있도록 돕는</span>
+<br/>
 <span style="white-space:nowrap;">값진 정보가 가득합니다.</span>
+<br/>
+<br/>
 <span style="white-space:nowrap;">아래의 링크를 클릭하시면</span>
+<br/>
 <span style="white-space:nowrap;">고객님께 꼭 필요한 서비스 정보를</span>
+<br/>
 <span style="white-space:nowrap;">확인하실 수 있습니다.</span>
+<br/>
 <ul style="margin: 20px; padding: 0;text-decoration:underline; color:#FFFFFF">
 <li>
         <a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
