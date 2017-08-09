@@ -78,8 +78,11 @@ font='sk'
 
 	title='''
     <span style="white-space:nowrap;">보다 편리하게 누리는,</span>
-    <span style="white-space:nowrap;">프리미엄 서비스</span>'''
-	copy='''<span style="white-space:nowrap;">오직 특별한 분만을 위한</span>
+    <br/>
+    <span style="white-space:nowrap;">프리미엄 서비스</span>
+    '''
+	copy='''
+    <span style="white-space:nowrap;">오직 특별한 분만을 위한</span>
     <br/>
     <span style="white-space:nowrap;">품격 있는 서비스를 제공합니다.</span>
     <br/>
