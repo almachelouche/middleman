@@ -133,7 +133,7 @@ color='white'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''in_edm2_reunion_20170809'''
+  image = '''in_edm2_reunion_season2_20170809'''
     
 [[module]]
 path='email_modules/spacer/default'
@@ -172,13 +172,7 @@ color='''white'''
 
 	cta1_text = '''BOOK A SERVICE'''
 	cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
-	cta1_link_name = '''book_service'''
-    
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
-  image = '''in_edm2_reunion_offer_20170809'''   
+	cta1_link_name = '''book_service''' 
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -231,7 +225,7 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-  text='''*Tearms and conditions apply. Offers only valid in North region.'''
+  text='''*Terms & conditions apply. Offer applicable for Ford owners of 2007-2012 and servicing their cars  between 2nd September to 17th September 2017. Given offers are applicable only in Haryana, Chandigarh, Delhi NCR, Rajasthan, Jammu & Kashmir, Andhra Pradesh, Telangana, Gujarat, Goa, West Bengal & Assam and cannot be clubbed with other offers. Offer not applicable on accidental jobs and body repair.'''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
