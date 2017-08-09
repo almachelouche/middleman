@@ -82,6 +82,8 @@ font='sk'
 	copy='''<span style="white-space:nowrap;">오직 특별한 분만을 위한</span>
     <br/>
     <span style="white-space:nowrap;">품격 있는 서비스를 제공합니다.</span>
+    <br/>
+    <br/>
     <span style="white-space:nowrap;">아래의 링크를 클릭하면</span>
     <br/>
     <span style="white-space:nowrap;">귀하에게 필요한 자세한 서비스 정보를</span>
