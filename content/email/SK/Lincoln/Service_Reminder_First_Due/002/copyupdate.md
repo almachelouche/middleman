@@ -198,7 +198,9 @@ font='sk'
 	'''
 	copy2 = '''
 	<span style="white-space:nowrap;">가장 가까운 전시장 및</span>
-	<span style="white-space:nowrap;">서비스센터를 찾아보십시오.</span>'''
+    <br/>
+	<span style="white-space:nowrap;">서비스센터를 찾아보십시오.</span>
+    '''
 	cta1_text = '''<span style="white-space:nowrap;">자세히 보기</span>'''
 	cta1_url = '''https://www.lincoln-korea.com/contact-us/'''
 	cta1_link_name = '''contact_us'''
