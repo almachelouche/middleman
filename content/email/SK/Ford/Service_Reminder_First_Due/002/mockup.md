@@ -136,7 +136,11 @@ icon = ''''''
 path='email_modules/split/02'
 color='green'
 
-title = '''<span style="white-space:nowrap;">포드 오너를 위한 필수 정보</span>'''
+title = '''
+<span style="white-space:nowrap;">포드 오너를 위한</span>
+<br/>
+<span style="white-space:nowrap;">필수 정보</span>
+'''
 copy = '''
     <span style="white-space:nowrap;">포드 웹사이트에는 더 쉽게</span>
     <br/>

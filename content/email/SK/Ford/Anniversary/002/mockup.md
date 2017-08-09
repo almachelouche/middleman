@@ -32,7 +32,8 @@ font='sk'
     <br/>
 	<span style="white-space:nowrap;">고객님의 훌륭한 선택에 다시 한번 감사드리며,</span>
     <br/>
-	<span style="white-space:nowrap;">지난 1년 동안 더 없는 만족을 누리셨기를 바랍니다.</span><br/>
+	<span style="white-space:nowrap;">지난 1년 동안 더 없는 만족을 누리셨기를 바랍니다.</span>
+    <br/>
     <br/>
 	<span style="white-space:nowrap;">저희는 앞으로도 가장 가까운 곳에서 변함없이</span>
     <br/>
@@ -71,8 +72,13 @@ color='''fordblue'''
 path='email_modules/split/02'
 color='green'
 
-title = '''<span style="white-space:nowrap;">포드 오너를 위한 필수 정보</span>'''
-copy = '''<span style="white-space:nowrap;">포드 웹사이트에는 더 쉽게</span>
+title = '''
+<span style="white-space:nowrap;">포드 오너를 위한</span>
+<br/>
+<span style="white-space:nowrap;">필수 정보</span>
+'''
+copy = '''
+<span style="white-space:nowrap;">포드 웹사이트에는 더 쉽게</span>
 <span style="white-space:nowrap;">차량을 관리할 수 있도록 돕는</span>
 <span style="white-space:nowrap;">값진 정보가 가득합니다.</span>
 <span style="white-space:nowrap;">아래의 링크를 클릭하시면</span>
