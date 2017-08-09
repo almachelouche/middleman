@@ -182,14 +182,14 @@ font='sk'
 	title1 = '''
 	<span style="white-space:nowrap;">기대 그 이상의 경험,</span>
 	<span style="white-space:nowrap;">링컨 고객센터</span>'''
-    copy1 = '''
-    <span style="white-space:nowrap;">도움이나 의견이 필요하시면</span>
-    <br />
-    <span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#b45f1a;">1600-6003</a>으로 언제든 연락주십시오.</span>
+	copy1 = '''
+	<span style="white-space:nowrap;">도움이나 의견이 필요하시면</span>
+    <br/>
+	<span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#b45f1a;">1600-6003</a>으로 언제든 연락주십시오.</span>
     '''
 	icon2 = '''sk_lincoln_edm1_dealerlocator_20170510'''
 	title2 = '''
-	<span style="white-space:nowrap;">가까운 전시장 및</span>
+	<span style="white-space:nowrap;">가까운 전시장 및 </span>
 	<span style="white-space:nowrap;">서비스센터 찾기</span>
 	'''
 	copy2 = '''
@@ -198,7 +198,7 @@ font='sk'
 	cta1_text = '''<span style="white-space:nowrap;">자세히 보기</span>'''
 	cta1_url = '''https://www.lincoln-korea.com/contact-us/'''
 	cta1_link_name = '''contact_us'''
-	cta2_text = '''<span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span></span>'''
+	cta2_text = '''<span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span>'''
 	cta2_url = '''https://www.lincoln-korea.com/dealer-locate/'''
 	cta2_link_name = '''find_dealer'''
 
@@ -215,6 +215,7 @@ color='white'
 <span class="mobile-display-block"></span><a href="<%unsubscribe_link_text%>" style="color:#FFFFFF; text-decoration:underline">여기</a>를 클릭하십시오.</span>
 <br/>
 <span style="white-space:nowrap;">앞으로 저희가 보내드리는 이메일 수신을 위해 고객님의 주소록이나 이메일 수신 허용 목록에</span>
+<br/>
 <span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline;">fordnews@mail.edmasia.com</span>을 추가해주십시오.</span>
 <br/>
 <br/>
