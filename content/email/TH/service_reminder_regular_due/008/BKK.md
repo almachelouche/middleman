@@ -165,7 +165,7 @@ color='''white'''
 			<span style="white-space:nowrap;">หรือ</span> 
 			<span style="white-space:nowrap;">การซ่อมแซมที่ไม่คาดคิด</span>
 			<span style="white-space:nowrap;">ที่อาจเกิดขึ้นในอนาคต</span><br />   
-			<span style="white-space:nowrap;">และยังช่วยเพิ่มมูลค่า</span><br /> 
+			<span style="white-space:nowrap;">และยังช่วยเพิ่มมูลค่า</span> 
 			<span style="white-space:nowrap;">ในการขายรถต่อในอนาคตอีกด้วย</span>
 		</span>
 	'''
