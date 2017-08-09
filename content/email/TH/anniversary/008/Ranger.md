@@ -19,7 +19,12 @@ path='email_modules/cover/01'
 color='''white'''
  
 	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><strong>ครบรอบ 1 ปีกับรถฟอร์ดคู่ใจของคุณ<span style=" white-space:nowrap;"></span></strong></span>'''
-	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />คุณคงไม่อยากเชื่อใช่ไหมว่าคุณขับรถ<span style=" white-space:nowrap;">ฟอร์ด</span> Ranger <span style=" white-space:nowrap;">คันใหม่</span>ของคุณ<span style=" white-space:nowrap;">มาครบ</span> <span style=" white-space:nowrap;">1 ปีแล้ว</span> <span style=" white-space:nowrap;">ฟอร์ด</span><span style=" white-space:nowrap;">อยากใช้</span><span style=" white-space:nowrap;">โอกาสพิเศษนี้</span> <span style=" white-space:nowrap;">กล่าวคำขอบคุณ</span><span style=" white-space:nowrap;">อีกครั้ง</span> <span style=" white-space:nowrap;">ที่คุณ</span><span style=" white-space:nowrap;">ไว้วางใจ</span> <span style=" white-space:nowrap;">เลือกใช้</span>รถยนต์<span style=" white-space:nowrap;">ฟอร์ด</span> สำหรับลูกค้า<span style=" white-space:nowrap;">คนสำคัญ</span><span style=" white-space:nowrap;">เช่นคุณ</span> <span style=" white-space:nowrap;">ฟอร์ด</span>จะแจ้ง<span style=" white-space:nowrap;">ข่าวสาร</span> <span style=" white-space:nowrap;">ข้อเสนอพิเศษ</span> <span style=" white-space:nowrap;">และข้อมูลที่เป็นประโยชน์</span> <span style=" white-space:nowrap;">เพื่อให้คุณ</span>ได้<span style=" white-space:nowrap;">รับทราบ</span><span style=" white-space:nowrap;">อย่าง</span><span style=" white-space:nowrap;">ต่อเนื่อง</span><span style=" white-space:nowrap;">ก่อนใคร</span></span>'''
+	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />
+    
+    <span style=" white-space:nowrap;"> คุณคงไม่อยากเชื่อใช่ไหมว่าคุณขับรถฟอร์ด Ranger คันใหม่ของคุณมาครบ1 ปีแล้ว</span><br />
+    <span style=" white-space:nowrap;">ฟอร์ดอยากใช้อกาสพิเศษนี้กล่าวคำขอบคุณอีกครั้งที่คุณไว้วางใจเลือกใช้รถยนต์</span><br />
+    <span style=" white-space:nowrap;">ฟอร์ดสำหรับลูกค้าคนสำคัญเช่นคุณฟอร์ดจะแจ้งข่าวสารข้อเสนอพิเศษ</span><br />
+    <span style=" white-space:nowrap;">และข้อมูลที่เป็นประโยชน์เพื่อให้คุณได้รับทราบอย่างต่อเนื่องก่อนใคร</span></span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
