@@ -190,7 +190,7 @@ color='white'
 font='sk'
 
 icon1 = '''ph_edm2_call_20160801'''
-title1 = '''<span style="white-space:nowrap;">고객센터 문의하기</span>'''
+title1 = '''<span style="white-space:nowrap; font-size: 20px;">고객센터 문의하기</span>'''
 copy1 = '''
     <span style="white-space:nowrap;">도움이나 의견이 필요하시다면</span>
     <br/>
@@ -198,7 +198,7 @@ copy1 = '''
     으로 언제든 문의주세요.</span>
 '''
 icon2 = '''sk_ford_edm1_dealerlocator_20170419'''
-title2 = '''<span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span>'''
+title2 = '''<span style="white-space:nowrap; font-size: 20px;">전시장 및 서비스센터 찾기</span>'''
 copy2 = '''
     <span style="white-space:nowrap;">가장 가까운 전시장 및</span>
     <br/>
