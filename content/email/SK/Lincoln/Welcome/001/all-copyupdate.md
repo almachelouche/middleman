@@ -87,7 +87,7 @@ color='lincoln_white'
 
 	icon1 = '''sk_lincoln_edm1_contact_20170510'''
 	title1 = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>기대 그 이상의 경험,<br />링컨 고객센터</b></span>'''
-	copy1 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">도움이나 의견이 필요하시면<br /><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#b45f1a;">1600-6003</a>으로 언제든 연락주십시오.</span>'''
+	copy1 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">도움이나 의견이 필요하시면<br /><span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#b45f1a;">1600-6003</a>으로 언제든 연락 주십시오.</span>'''
 	icon2 = '''sk_lincoln_edm1_dealerlocator_20170510'''
 	title2 = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>가까운 전시장 및<br />서비스센터 찾기</b></span>'''
 	copy2 = '''<span style="font-size:15px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">가장 가까운 전시장 및<br />서비스센터를 찾아보십시오.</span>'''
@@ -110,9 +110,8 @@ color='white'
  <span style="white-space:nowrap;">이메일 수신을 원치 않으시면</span>
 <span class="mobile-display-block"></span><a href="<%unsubscribe_link_text%>" style="color:#FFFFFF; text-decoration:underline">여기</a>를 클릭하십시오.</span>
 <br/>
-<span style="white-space:nowrap;">앞으로 저희가 보내드리는 이메일 수신을 위해 고객님의 주소록이나 이메일</span>
+<span style="white-space:nowrap;">앞으로 저희가 보내드리는 이메일 수신을 위해 고객님의 주소록이나 이메일 수신 허용 목록에</span>
 <br/>
-<span style="white-space:nowrap;">수신 허용 목록에</span>
 <span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline;">fordnews@mail.edmasia.com</span>을 추가해주십시오.</span>
 <br/>
 <br/>

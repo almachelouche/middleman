@@ -136,7 +136,11 @@ icon = ''''''
 path='email_modules/split/02'
 color='green'
 
-title = '''<span style="white-space:nowrap;">포드 오너를 위한 필수 정보</span>'''
+title = '''
+<span style="white-space:nowrap;">포드 오너를 위한</span>
+<br/>
+<span style="white-space:nowrap;">필수 정보</span>
+'''
 copy = '''
     <span style="white-space:nowrap;">포드 웹사이트에는 더 쉽게</span>
     <br/>
@@ -186,19 +190,19 @@ color='white'
 font='sk'
 
 icon1 = '''ph_edm2_call_20160801'''
-title1 = '''<span style="white-space:nowrap;">고객센터 문의하기</span>'''
+title1 = '''<span style="white-space:nowrap; font-size: 20px;">고객센터 문의하기</span>'''
 copy1 = '''
     <span style="white-space:nowrap;">도움이나 의견이 필요하시다면</span>
     <br/>
-    <a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">1600-6003</a>
-    으로 언제든 문의주세요.
+    <span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">1600-6003</a>
+    으로 언제든 문의주세요.</span>
 '''
 icon2 = '''sk_ford_edm1_dealerlocator_20170419'''
-title2 = '''<span style="white-space:nowrap;">전시장 및 서비스센터 찾기</span>'''
+title2 = '''<span style="white-space:nowrap; font-size: 20px;">전시장 및 서비스센터 찾기</span>'''
 copy2 = '''
     <span style="white-space:nowrap;">가장 가까운 전시장 및</span>
     <br/>
-    <span style="white-space:nowrap;">서비스센터를 찾아보세요.</span>
+	<span style="white-space:nowrap;">서비스센터를 찾아보세요.</span> 
 '''
 cta1_text = '''<span style="white-space:nowrap;">자세히 보기</span>'''
 cta1_url = '''https://www.ford-korea.com/contact-us/'''
@@ -216,22 +220,30 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 text = '''
-    <span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
-    <br/>
-        <span style="white-space:nowrap;">앞으로 저희가 보내드리는 이메일 수신을 위해 귀하의 주소록이나 이메일</span>
-        <span style="white-space:nowrap;">수신 허용 목록에 <span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline;">fordnews@mail.edmasia.com</span>을 추가해주십시오.</span>
-        <br/>
-        <br/>
-        본 이메일은 귀하의 요청에 따라 발송되었습니다. 이메일 수신을 원치 않으시면 <a href="<%unsubscribe_link_text%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오.
-        <br/>
-        본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다. <a href="https://www.ford-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#91a4b1;">개인정보처리방침</a>
-        <br/>
-        <br/>
-        <span style="white-space:nowrap;">Copyright © 2017 Ford Sales & Service Korea Inc.</span>
-        <br/>
-        <br/>
-        이메일이 제대로 보이지 않는 경우, <a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.
-    </span>
+<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
+<br/>
+<span style="white-space:nowrap;">이메일 수신을 원치 않으면</span>
+<a href="<%unsubscribe_link_text%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오.</span>
+<br/>
+<span style="white-space:nowrap;">앞으로 저희가 보내드리는 이메일 수신을 위해 고객님의 주소록이나 이메일 수신 허용 목록에</span>
+<br/>
+<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline;">fordnews@mail.edmasia.com</span>
+<span style="white-space:nowrap;">을 추가해주십시오.</span>
+<br/>
+<br/>
+<span style="white-space:nowrap;">본 이메일은 고객님의 요청에 따라 발송되었습니다.</span>
+<a href="https://www.ford-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#91a4b1;">개인정보처리방침</a>
+<br/>
+<span style="white-space:nowrap;">본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다. 
+<br/>
+<br/>
+<span style="white-space:nowrap;">Copyright © 2017 Ford Sales & Service Korea Inc.</span>
+<br/>
+<br/>
+<span style="white-space:nowrap;">이메일이 제대로 보이지 않는 경우,</span> 
+<a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.</span>
+<br/>
+<br/>
 '''
 
 +++

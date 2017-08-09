@@ -84,12 +84,12 @@ path='email_modules/cover/02'
 color='''slatescreen'''
 
 	title = '''Premium Extended Warranty'''
-	copy = '''As a member of the Ford family, you deserve the best quality service and parts whenever you need it. If you purchase a Premium Extended Warranty<sup>2</sup> before you reach 2 months or 4,000 km – whichever comes first – you can get it at a better price!<br /><br />This warranty covers major mechanical and electrical failures, guarantees expert service from Ford mechanics and may even be fully transferrable to the next vehicle owner, helping improve resale value.'''
+	copy = '''You deserve the best quality service and parts whenever you need it. If you purchase a Premium Extended Warranty<sup>2</sup> before you reach 2 months or 4,000 km – whichever comes first – you can get it at a better price!<br /><br />This warranty covers major mechanical and electrical failures, guarantees expert service from Ford mechanics and may even be fully transferrable to the next vehicle owner, helping improve resale value.'''
 	cta1_text = '''GET COVERED'''
 	cta1_url = '''https://www.ford.com.ph/owner/warranties/'''
 	cta1_link_name = '''extended_warranty'''
 	icon = '''ph_edm_extendedwarranty_20160801'''
-
+    
 [[module]] #Cover 05
 path='email_modules/cover/02'
 color='''white'''
