@@ -53,10 +53,10 @@ font='sk'
     <span style="white-space:nowrap;">단, 상기 프로모션은 차종 및 전시장 상황에 따라 다를 수 있습니다</span>
     '''
     cta1_text='''<span style="white-space:nowrap;">더 알아보기</span>'''
-    cta1_url='''https://www.ford-korea.com/vehicles/?intcmp=hp-return-show'''
+    cta1_url='''https://www.lincoln-korea.com/vehicles/menu/?intcmp=hp-return-brand-gallery'''
     cta1_link_name='''era'''
     cta2_text='''<span style="white-space:nowrap;">시승 신청</span>'''
-    cta2_url='''https://www.ford-korea.com/owner/warranty/#overlay/content/ford/kr/ko_kr/site-wide-content/overlays/forms/test-drive.html'''
+    cta2_url='''https://www.lincoln-korea.com/overlay/test-drive/'''
     cta2_link_name='''test_drive'''
     
 
@@ -65,6 +65,29 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''sk_lincoln_edm3_topmodule_20170523'''
+
+[[module]] #Cover 02
+path='email_modules/cover/02'
+color='lincoln_white'
+font='sk'
+
+	title='''
+    <span style="white-space:nowrap;">오직 링컨만의 품격 있는 서비스를 누려보세요</span>
+    '''
+	copy='''
+    <span style="white-space:nowrap;">링컨과 함께하는 고객님의 여정에 처음의 감동이 늘 함께하도록,</span>
+    <br/>
+    <span style="white-space:nowrap;">더욱 폭넓어진 프리미엄 소모품 무상 교환 서비스와 보증 서비스를 선사합니다.</span>
+    <br/>
+    <br/>
+    <span style="white-space:nowrap;">아래의 링크를 클릭하면 자세한 정보를 확인할 수 있습니다.</span> 
+    '''
+	cta1_text='''<span style="white-space:nowrap;">차량 관리</span>'''
+	cta1_url='''https://www.lincoln-korea.com/vehicle-maintenance/ '''
+	cta1_link_name = '''vehicle_maintanance'''
+	cta2_text='''<span style="white-space:nowrap;">보증 서비스</span>'''
+	cta2_url='''https://www.lincoln-korea.com/parts-service/extended-service-plan/ '''
+	cta2_link_name = '''warranty'''
     
 [[module]] #Cover 01   
 path='email_modules/cover/01'
@@ -86,42 +109,6 @@ color='''lincoln_black'''
 	cta1_url = '''https://www.lincoln-korea.com/parts-service/roadside-assistance/'''
 	cta1_link_name = '''era'''
 
-[[module]] #Split 02   
-path='email_modules/split/02'
-color='lincoln_grey'
-font='sk'
-
-	title='''
-    <span style="white-space:nowrap;">보다 편리하게 누리는,</span>
-    <br/>
-    <span style="white-space:nowrap;">프리미엄 서비스</span>
-    '''
-	copy='''
-    <span style="white-space:nowrap;">오직 특별한 분만을 위한</span>
-    <br/>
-    <span style="white-space:nowrap;">품격 있는 서비스를 제공합니다.</span>
-    <br/>
-    <br/>
-    <span style="white-space:nowrap;">아래의 링크를 클릭하면</span>
-    <br/>
-    <span style="white-space:nowrap;">귀하에게 필요한 자세한 서비스 정보를</span>
-    <br/>
-    <span style="white-space:nowrap;">확인할 수 있습니다.</span>
-    <br/>
-    <ul style="margin: 20px; padding: 0;text-decoration:underline; color:#b45f1a">
-    <li>
-    <a href="https://www.lincoln-korea.com/parts-service/pick-delivery/" name="pick_delivery" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
-    <span style="white-space:nowrap;">픽업&딜리버리 서비스</span>
-    </a>
-    </li>
-    <li>
-    <a href="https://www.lincoln-korea.com/genuine-parts/" name="parts_service" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">부품 및 서비스</span>
-    </a>
-    </li>
-    </ul>
-    '''
-	image='''sk_lincoln_edm1_effortlessownership_20170427'''
-
 [[module]] #Dual 01    
 path='email_modules/dual/01'
 color='lincoln_white'
@@ -135,11 +122,11 @@ font='sk'
 	copy1 = '''
 	<span style="white-space:nowrap;">도움이나 의견이 필요하시면</span>
     <br/>
-	<span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#b45f1a;">1600-6003</a>으로 언제든 연락주십시오.</span>
+	<span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#b45f1a;">1600-6003</a>으로 문의주세요.</span>
     '''
 	icon2 = '''sk_lincoln_edm1_dealerlocator_20170510'''
 	title2 = '''
-	<span style="white-space:nowrap;">가까운 전시장 및 </span>
+	<span style="white-space:nowrap;">가까운 전시장 및</span>
     <br/>
 	<span style="white-space:nowrap;">서비스센터 찾기</span>
 	'''
