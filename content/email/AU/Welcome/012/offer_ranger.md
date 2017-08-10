@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU Welcome 012 No Offer Ranger'''
+title = '''AU Welcome 012 Offer Ranger'''
 
 [[module]]
 path='email_modules/preheaderbefore'
@@ -73,7 +73,7 @@ segmentelseif = ["(user.CustomAttribute['Model'] == 'Ranger') && (user.CustomAtt
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''white'''
-segmentif = ["(((user.CustomAttribute['Model'] == 'Everest') && (user.CustomAttribute['Series'] == 'Trend')) || ((user.CustomAttribute['Model'] == 'Focus') && (user.CustomAttribute['Series'] == 'RS')) || ((user.CustomAttribute['Model'] == 'Focus') && (user.CustomAttribute['Series'] == 'Trend')) || ((user.Custo mAttribute['Model'] == 'Ranger') && (user.CustomAttribute['Series'] == 'XLT')))"]
+segmentif = ["((user.Custo mAttribute['Model'] == 'Ranger') && (user.CustomAttribute['Series'] == 'XLT')))"]
 
 	copy='''We are proud to announce that the Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> you are driving has won the 2016 Drive Car of The Year award for its category. This is just one of the awards that has made Ford ''Drive’s Most Awarded Manufacturer of 2016''!<br /><br /> But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace-of-mind.<br /><br />With Ford's Service Price Promise¹, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership² for up to 7 years from Autoclub participating dealers. Ford also has a Loan Car program³, so we can keep you on the road whilst your car is being serviced.<br /><br />'''
 
@@ -83,8 +83,6 @@ color='''white'''
 segmentelse = ["else"]
 
 	copy='''<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace-of-mind.<br /><br />With Ford's Service Price Promise¹, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership² for up to 7 years from Autoclub participating dealers. Ford also has a Loan Car program³, so we can keep you on the road whilst your car is being serviced.<br /><br />'''
-
-
 
  [[module]] #3 Images
 path = '''email_modules/image/3images'''
