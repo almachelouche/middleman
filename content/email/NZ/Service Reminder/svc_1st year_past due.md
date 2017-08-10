@@ -74,6 +74,15 @@ color='''white'''
     copy='''We know how important your <%${user.CustomAttribute['Model']}%> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%> in the trusted hands of Ford trained technicians who use diagnostic equipment specifically designed for Fords.<br/><br/>When you book or bring your vehicle in for a scheduled service you will be provided with an estimate&#185; of the cost. We will perform a vehicle report card - a comprehensive health check of your vehicle. You can even book a free loan car² so we can keep you on the road.'''
 
 [[module]]
+path='email_modules/custom/01'
+color='white'
+
+	cta1_text='''FIND OUR MORE'''
+	cta1_link_url='''https://www.ford.co.nz/owners/service/'''
+	cta1_link_name = '''link_name_here'''
+	cta1_icon='''more'''
+
+[[module]]
 path='email_modules/spacer/default'
 color='white'
 
