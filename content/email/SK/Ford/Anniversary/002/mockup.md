@@ -114,7 +114,7 @@ copy = '''
 [[module]]
 path='email_modules/dual/01'
 color='white'
-font='sk'
+font='sk' 
 
 	icon1 = '''ph_edm2_call_20160801'''
 	title1 = '''<span style="white-space:nowrap; font-size: 20px;">고객센터 문의하기</span>'''
