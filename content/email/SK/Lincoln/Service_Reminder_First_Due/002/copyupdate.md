@@ -98,14 +98,15 @@ font='sk'
 
 	title='''<span style="white-space:nowrap;">링컨만의 위한 안심 서비스</span>'''
 	copy='''
-    <span style="white-space:nowrap;">링컨의 소모성 부품 무상교환 서비스 ESP(Extended Service Plan)는</span>
+    <span style="white-space:nowrap;">링컨의 소모성 부품 무상 교환 서비스 (Extended Service Plan)는</span>
     <br/>
-    <span style="white-space:nowrap;">프리미엄 정비 서비스(Premium Maintenance Plan)로</span>
+    <span style="white-space:nowrap;">프리미엄 정비 서비스로 (Premium Maintenance Plan) 로 3년 / 6만 Km</span>
+    <br/> 
+    <span style="white-space:nowrap;">까지 일반 소모품을 무상으로 교체해드립니다.</span>
     <br/>
-    <span style="white-space:nowrap;">3년/6만km(컨티넨탈은 5년/10만km)까지</span> 
-    <span style="white-space:nowrap;">일반 소모품을 무상으로 교체해드립니다.</span>
-    <br />
-    <br /> 
+    <span style="white-space:nowrap;">(컨티넨탈은 5년 /10만 Km)</span>
+    <br/>
+    <br/>
     <span style="white-space:nowrap;">&#8226; 일반 소모품 교환을 포함한 폭넓은 정비 서비스를 제공합니다.</span>
     <br/>
     <span style="white-space:nowrap;">&#8226; 위 서비스는 중고차 판매시 해당 차량과 함께 양도가 가능합니다.</span>
@@ -128,6 +129,7 @@ font='sk'
 
 	title='''
     <span style="white-space:nowrap;">보다 편리하게 누리는,</span>
+    <br/>
     <span style="white-space:nowrap;">프리미엄 서비스</span>'''
 	copy='''
     <span style="white-space:nowrap;">오직 특별한 분만을 위한</span>
@@ -135,11 +137,9 @@ font='sk'
     <span style="white-space:nowrap;">품격 있는 서비스를 제공합니다.</span>
     <br/>
     <br/>
-    <span style="white-space:nowrap;">아래의 링크를 클릭하면</span>
+    <span style="white-space:nowrap;">자세한 서비스 정보를 원하시면</span>
     <br/>
-    <span style="white-space:nowrap;">귀하에게 필요한 자세한 서비스 정보를</span>
-    <br/>
-    <span style="white-space:nowrap;">확인할 수 있습니다.</span>
+    <span style="white-space:nowrap;">아래 링크를 클릭 하시기 바랍니다.</span>
     <br/>
     <ul style="margin: 20px; padding: 0;text-decoration:underline; color:#b45f1a">
     <li><a href="https://www.lincoln-korea.com/parts-service/roadside-assistance/" name="era" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
@@ -188,7 +188,8 @@ font='sk'
 	copy1 = '''
 	<span style="white-space:nowrap;">도움이나 의견이 필요하시면</span>
     <br/>
-	<span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#b45f1a;">1600-6003</a>으로 언제든 연락주십시오.</span>
+	<span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#b45f1a;">1600-6003</a>
+    <span style="white-space:nowrap;">으로 문의주세요.</span>
     '''
 	icon2 = '''sk_lincoln_edm1_dealerlocator_20170510'''
 	title2 = '''

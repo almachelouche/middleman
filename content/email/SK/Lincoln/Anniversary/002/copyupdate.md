@@ -87,11 +87,9 @@ font='sk'
     <span style="white-space:nowrap;">품격 있는 서비스를 제공합니다.</span>
     <br/>
     <br/>
-    <span style="white-space:nowrap;">아래의 링크를 클릭하면</span>
+    <span style="white-space:nowrap;">자세한 서비스 정보를 원하시면</span>
     <br/>
-    <span style="white-space:nowrap;">귀하에게 필요한 자세한 서비스 정보를</span>
-    <br/>
-    <span style="white-space:nowrap;">확인할 수 있습니다.</span>
+    <span style="white-space:nowrap;">아래 링크를 클릭 하시기 바랍니다.</span>
     <br/>
     <ul style="margin: 20px; padding: 0;text-decoration:underline; color:#b45f1a">
     <li>
