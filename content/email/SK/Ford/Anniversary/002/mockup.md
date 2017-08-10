@@ -64,6 +64,7 @@ font='sk'
 [[module]]
 path='email_modules/singles/ctablock'
 color='''fordblue'''
+font='sk'
 
 	cta1_text = '''더 알아보기'''
 	cta1_url = '''https://www.ford-korea.com/owner/emergency/'''
@@ -72,6 +73,7 @@ color='''fordblue'''
 [[module]]
 path='email_modules/split/02'
 color='green'
+font='sk'
 
 title = '''
 	<span style="white-space:nowrap;">포드 오너를 위한</span>
@@ -91,21 +93,16 @@ copy = '''
 	<span style="white-space:nowrap;">확인하실 수 있습니다.</span><br/>
 	<ul style="margin: 20px; padding: 0;text-decoration:underline; color:#FFFFFF">
 		<li>
-			<a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
-				<span style="white-space:nowrap;">보증 서비스 1</span>
-			</a>
-		</li>
-        
-		<li>
-			<a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
-				차량 관리 2
-			</a>
+			<a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF;"><span style="white-space:nowrap;">보증 서비스</span></a>
 		</li>
 		<li>
-			<a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">전문가의 공인 서비스 3</a>
+        <a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#FFFFFF;"><span style="white-space:nowrap;">차량 관리</span></a>
 		</li>
 		<li>
-			<a href="https://www.ford-korea.com/owner/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">리콜 안내 4</span></a>
+        <a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:underline; color:#FFFFFF;"><span style="white-space:nowrap;">전문가의 공인 서비스</span></a>
+		</li>
+		<li>
+			<a href="https://www.ford-korea.com/owner/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#FFFFFF;"><span style="white-space:nowrap;">리콜 안내</span></a>
 		</li>
 	</ul>
 	'''
@@ -114,12 +111,13 @@ copy = '''
 [[module]]
 path='email_modules/dual/01'
 color='white'
-font='sk' 
+font='sk'
 
 	icon1 = '''ph_edm2_call_20160801'''
 	title1 = '''<span style="white-space:nowrap; font-size: 20px;">고객센터 문의하기</span>'''
 	copy1 = '''
 		<span style="white-space:nowrap;">도움이나 의견이 필요하시다면</span>
+        <br/>
 		<span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">1600-6003</a>으로 문의주세요.</span>
 	'''
 	icon2 = '''sk_ford_edm1_dealerlocator_20170419'''

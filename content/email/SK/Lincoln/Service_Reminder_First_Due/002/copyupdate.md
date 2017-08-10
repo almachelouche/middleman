@@ -142,34 +142,22 @@ font='sk'
     <span style="white-space:nowrap;">아래 링크를 클릭 하시기 바랍니다.</span>
     <br/>
     <ul style="margin: 20px; padding: 0;text-decoration:underline; color:#b45f1a">
-    <li><a href="https://www.lincoln-korea.com/parts-service/roadside-assistance/" name="era" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
-    <span style="white-space:nowrap;">24시간 긴급출동 서비스</span>
-    </a>
+    <li><a href="https://www.lincoln-korea.com/parts-service/roadside-assistance/" name="era" style="text-decoration:underline; color:#b45f1a;"><span style="white-space:nowrap;">24시간 긴급출동 서비스</span></a>
     </li>
     <li>
-    <a href="https://www.lincoln-korea.com/parts-service/warranty/" name="warranty" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
-    <span style="white-space:nowrap;">보증 서비스</span>
-    </a>
+    <a href="https://www.lincoln-korea.com/parts-service/warranty/" name="warranty" style="text-decoration:underline; color:#b45f1a;"><span style="white-space:nowrap;">보증 서비스</span></a>
     </li>
     <li>
-    <a href="https://www.lincoln-korea.com/parts-service/pick-delivery/" name="pick_delivery" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
-    <span style="white-space:nowrap;">픽업&딜리버리 서비스</span>
-    </a>
+    <a href="https://www.lincoln-korea.com/parts-service/pick-delivery/" name="pick_delivery" style="text-decoration:underline; color:#b45f1a;"><span style="white-space:nowrap;">픽업&딜리버리 서비스</span></a>
     </li>
     <li>
-    <a href="https://www.lincoln-korea.com/vehicle-maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
-    <span style="white-space:nowrap;">차량 관리</span>
-    </a>
+    <a href="https://www.lincoln-korea.com/vehicle-maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#b45f1a;"><span style="white-space:nowrap;">차량 관리</span></a>
     </li>
     <li>
-    <a href="https://www.lincoln-korea.com/genuine-parts/" name="parts_service" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
-    <span style="white-space:nowrap;">부품 및 서비스</span>
-    </a>
+    <a href="https://www.lincoln-korea.com/genuine-parts/" name="parts_service" style="text-decoration:underline; color:#b45f1a;"><span style="white-space:nowrap;">부품 및 서비스</span></a>
     </li>
     <li>
-    <a href="https://www.lincoln-korea.com/parts-service/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
-    <span style="white-space:nowrap;">리콜 안내</span>
-    </a>
+    <a href="https://www.lincoln-korea.com/parts-service/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#b45f1a;"><span style="white-space:nowrap;">리콜 안내</span></a>
     </li>
     </ul>
     '''
