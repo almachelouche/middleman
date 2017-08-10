@@ -82,12 +82,6 @@ color='white'
 	cta1_link_name = '''link_name_here'''
 	cta1_icon='''more'''
 
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
-
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
 color='white'
