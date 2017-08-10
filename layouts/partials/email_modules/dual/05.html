@@ -1,75 +1,101 @@
-<!-- dual/05/white Starts-->
 <table bgcolor="{{ .color.backgroundcolor }}" align="center" class="resize_table_to_320" width="640" border="0" cellspacing="0" cellpadding="0" style="max-width: 640px;">
 	<tr>
+		<!-- Left Column -->
 		<td class="drop" valign="top" align="center">
-			<table width="310" cellpadding="0" cellspacing="0" border="0" class="wrapper" {{- if ne .moduleinfo.text_box_height nil -}} {{- if (gt (len .moduleinfo.text_box_height) 0) -}} height="{{- .moduleinfo.text_box_height | safeHTML -}}px" style="height:{{- .moduleinfo.text_box_height | safeHTML -}}px;" {{ end }} {{else}} height="300px" style="height:300px;" {{ end }}>
+			<!-- Left Column Text Box -->
+			<table width="310" cellpadding="0" cellspacing="0" border="0" class="wrapper">
 				<tr>
-					<td style="padding:30px 30px 30px 30px;" valign="top">
+					<!-- Vertical Spacer column. Controls Text Box height -->
+					<!-- Controlling the Text Box Height is needed to have the images align at the bottom of each side of the split -->
+					<!-- Outlook ignores empty elements height, so prefered method is to include line-height and font-size to control height -->
+					<td class="auto_height" width="30" {{- if ne .moduleinfo.text_box_height nil -}} {{- if (gt (len .moduleinfo.text_box_height) 0) -}} height="{{- .moduleinfo.text_box_height | safeHTML -}}" style="height:{{- .moduleinfo.text_box_height | safeHTML -}}px; font-size:{{- .moduleinfo.text_box_height | safeHTML -}}px; line-height:{{- .moduleinfo.text_box_height | safeHTML -}}px;" {{ end }} {{else}} height="300" style="height:300px; font-size: 300px; line-height: 300px;" {{ end }}>
+						<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
+					</td>
+					<!-- Text Box Column. Including Height control -->
+					<td class="auto_height" {{- if ne .moduleinfo.text_box_height nil -}} {{- if (gt (len .moduleinfo.text_box_height) 0) -}} height="{{- .moduleinfo.text_box_height | safeHTML -}}" style="height:{{- .moduleinfo.text_box_height | safeHTML -}}px; font-size:{{- .moduleinfo.text_box_height | safeHTML -}}px; line-height:{{- .moduleinfo.text_box_height | safeHTML -}}px;" {{ end }} {{else}} height="300" style="height:300px; font-size: 300px; line-height: 300px;" {{ end }}>
 						<table width="100%" cellpadding="0" cellspacing="0" border="0">
-							{{- if ne .moduleinfo.title1 nil -}}
-								{{- if (gt (len .moduleinfo.title1) 0) -}}
-									<tr>
-										<td valign="top" height="30" style="{{ .font.heading2 | safeCSS }}" align="center" >{{- .moduleinfo.title1 | safeHTML -}}</td>
-									</tr>
-									<tr>
-										<td height="20">
-											<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
-										</td>
-									</tr>
-								{{- end -}}
-							{{- end -}}
 							<tr>
-								<td valign="top" style="text-align:center; color:{{ .color.txtbody }}; {{ .font.txtbody | safeCSS }}">
-									{{- .moduleinfo.copy1 | safeHTML -}}
+								<td style="padding:30px 0px 30px 0px;" valign="top">
+									<table width="100%" cellpadding="0" cellspacing="0" border="0">
+										<!-- Logic for Left Title -->
+										{{- if ne .moduleinfo.title1 nil -}}
+											{{- if (gt (len .moduleinfo.title1) 0) -}}
+												<tr>
+													<td valign="top" height="30" style="{{ .font.heading2 | safeCSS }}" align="center" >{{- .moduleinfo.title1 | safeHTML -}}</td>
+												</tr>
+												<tr>
+													<td height="20">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
+													</td>
+												</tr>
+											{{- end -}}
+										{{- end -}}
+										<tr>
+											<td valign="top" style="text-align:center; color:{{ .color.txtbody }}; {{ .font.txtbody | safeCSS }}">
+												{{- .moduleinfo.copy1 | safeHTML -}}
+											</td>
+										</tr>
+										<!-- Logic for Left CTA's -->
+										{{- if ne .moduleinfo.cta1a_text nil -}}
+											{{- if (gt (len .moduleinfo.cta1a_text) 0) -}}
+												<tr>
+													<td height="20">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
+													</td>
+												</tr>
+												<tr>
+													<td valign="top" style="text-align:center; color:{{ .color.txtbody }}; {{ .font.txtbody | safeCSS }}">
+														<!-- Logic for Left CTA 1 -->
+														{{- if ne .moduleinfo.cta1a_text nil -}}
+															{{- if (gt (len .moduleinfo.cta1a_text) 0) -}}
+																<a href="{{ .moduleinfo.cta1a_url | safeURL }}" name="{{- .moduleinfo.cta1a_link_name -}}" style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">
+																	<span style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">{{- .moduleinfo.cta1a_text | safeHTML -}}</span>
+																</a>
+															{{- end -}}
+														{{- end -}}
+														<!-- Logic for Left CTA 2 -->
+														{{- if ne .moduleinfo.cta1b_text nil -}}
+															{{- if (gt (len .moduleinfo.cta1b_text) 0) -}}
+																<a href="{{ .moduleinfo.cta1b_url | safeURL }}" name="{{- .moduleinfo.cta1b_link_name -}}" style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">
+																	<span style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">{{- .moduleinfo.cta1b_text | safeHTML -}}</span>
+																</a>
+															{{- end -}}
+														{{- end -}}
+														<!-- Logic for Left CTA 3 -->
+														{{- if ne .moduleinfo.cta1c_text nil -}}
+															{{- if (gt (len .moduleinfo.cta1c_text) 0) -}}
+																<a href="{{ .moduleinfo.cta1c_url | safeURL }}" name="{{- .moduleinfo.cta1c_link_name -}}" style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">
+																	<span style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">{{- .moduleinfo.cta1c_text | safeHTML -}}</span>
+																</a>
+															{{- end -}}
+														{{- end -}}
+													</td>
+												</tr>
+											{{- end -}}
+										{{- end -}}
+									</table>
 								</td>
 							</tr>
-							{{- if ne .moduleinfo.cta1a_text nil -}}
-								{{- if (gt (len .moduleinfo.cta1a_text) 0) -}}
-									<tr>
-										<td height="20">
-											<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
-										</td>
-									</tr>
-									<tr>
-										<td valign="top" style="text-align:center; color:{{ .color.txtbody }}; {{ .font.txtbody | safeCSS }}">
-											{{- if ne .moduleinfo.cta1a_text nil -}}
-												{{- if (gt (len .moduleinfo.cta1a_text) 0) -}}
-													<a href="{{ .moduleinfo.cta1a_url | safeURL }}" name="{{- .moduleinfo.cta1a_link_name -}}" style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">
-														<span style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">{{- .moduleinfo.cta1a_text | safeHTML -}}</span>
-													</a>
-												{{- end -}}
-											{{- end -}}
-											{{- if ne .moduleinfo.cta1b_text nil -}}
-												{{- if (gt (len .moduleinfo.cta1b_text) 0) -}}
-													<a href="{{ .moduleinfo.cta1b_url | safeURL }}" name="{{- .moduleinfo.cta1b_link_name -}}" style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">
-														<span style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">{{- .moduleinfo.cta1b_text | safeHTML -}}</span>
-													</a>
-												{{- end -}}
-											{{- end -}}
-											{{- if ne .moduleinfo.cta1c_text nil -}}
-												{{- if (gt (len .moduleinfo.cta1c_text) 0) -}}
-													<a href="{{ .moduleinfo.cta1c_url | safeURL }}" name="{{- .moduleinfo.cta1c_link_name -}}" style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">
-														<span style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">{{- .moduleinfo.cta1c_text | safeHTML -}}</span>
-													</a>
-												{{- end -}}
-											{{- end -}}
-										</td>
-									</tr>
-								{{- end -}}
-							{{- end -}}
 						</table>
+					</td>
+					<!-- Vertical Spacer column. Controls Text Box height -->
+					<td class="auto_height" width="30" {{- if ne .moduleinfo.text_box_height nil -}} {{- if (gt (len .moduleinfo.text_box_height) 0) -}} height="{{- .moduleinfo.text_box_height | safeHTML -}}" style="height:{{- .moduleinfo.text_box_height | safeHTML -}}px; font-size:{{- .moduleinfo.text_box_height | safeHTML -}}px; line-height:{{- .moduleinfo.text_box_height | safeHTML -}}px;" {{ end }} {{else}} height="300" style="height:300px; font-size: 300px; line-height: 300px;" {{ end }}>
+						<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
 					</td>
 				</tr>
 			</table>
+			<!-- Left Column Image -->
 			<table width="310" cellpadding="0" cellspacing="0" border="0" class="img-max" bgcolor="F2F2F2">
 				<tr>
 					<td	align="center"	valign="top">
+						<!-- Logic for Left Image URL Link opening tag -->
 						{{- if ne .moduleinfo.image1_link_url nil -}}
 							{{- if (gt (len .moduleinfo.image1_link_url) 0) -}}
 								<a href="{{ .moduleinfo.image1_link_url | safeURL }}" name="{{- .moduleinfo.image1_link_name -}}" target="_blank">
 							{{- end -}}
 						{{- end -}}
 							<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/{{- .moduleinfo.image1 -}}_tile.jpg" width="310"	border="0"	class="img_Rez" />
+						<!-- Logic for Right Image URL Link closing tag -->
 						{{- if ne .moduleinfo.image1_link_url nil -}}
 							{{- if (gt (len .moduleinfo.image1_link_url) 0) -}}
 								</a>
@@ -79,78 +105,104 @@
 				</tr>
 			</table>
 		</td>
+		<!-- Vertical Spacer Bar between columns -->
 		<td width="20" class="spacer" valign="top" align="center" bgcolor="#F2F2F2">
 			<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
 		</td>
+		<!-- Rigth Column -->
 		<td class="drop" valign="top" align="center">
-			<table width="310" cellpadding="0" cellspacing="0" border="0" class="wrapper" {{- if ne .moduleinfo.text_box_height nil -}} {{- if (gt (len .moduleinfo.text_box_height) 0) -}} height="{{- .moduleinfo.text_box_height | safeHTML -}}px" style="height:{{- .moduleinfo.text_box_height | safeHTML -}}px;" {{ end }} {{else}} height="300px" style="height:300px;" {{ end }}>
+			<!-- Rigth Column Text Box -->
+			<table width="310" cellpadding="0" cellspacing="0" border="0" class="wrapper">
 				<tr>
-					<td style="padding:30px 30px 30px 30px;" valign="top">
+					<!-- Vertical Spacer column. Controls Text Box height -->
+					<td class="auto_height" width="30" {{- if ne .moduleinfo.text_box_height nil -}} {{- if (gt (len .moduleinfo.text_box_height) 0) -}} height="{{- .moduleinfo.text_box_height | safeHTML -}}" style="height:{{- .moduleinfo.text_box_height | safeHTML -}}px; font-size:{{- .moduleinfo.text_box_height | safeHTML -}}px; line-height:{{- .moduleinfo.text_box_height | safeHTML -}}px;" {{ end }} {{else}} height="300" style="height:300px; font-size: 300px; line-height: 300px;" {{ end }}>
+						<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
+					</td>
+					<!-- Text Box Column. Including Height control -->
+					<td class="auto_height" {{- if ne .moduleinfo.text_box_height nil -}} {{- if (gt (len .moduleinfo.text_box_height) 0) -}} height="{{- .moduleinfo.text_box_height | safeHTML -}}" style="height:{{- .moduleinfo.text_box_height | safeHTML -}}px; font-size:{{- .moduleinfo.text_box_height | safeHTML -}}px; line-height:{{- .moduleinfo.text_box_height | safeHTML -}}px;" {{ end }} {{else}} height="300" style="height:300px; font-size: 300px; line-height: 300px;" {{ end }}>
 						<table width="100%" cellpadding="0" cellspacing="0" border="0">
-							{{- if ne .moduleinfo.title2 nil -}}
-								{{- if (gt (len .moduleinfo.title2) 0) -}}
-									<tr>
-										<td valign="top" height="30" style="{{ .font.heading2 | safeCSS }}" align="center" >{{- .moduleinfo.title2 | safeHTML -}}</td>
-									</tr>
-									<tr>
-										<td height="20">
-											<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
-										</td>
-									</tr>
-								{{- end -}}
-							{{- end -}}
 							<tr>
-								<td valign="top" style="text-align:center; color:{{ .color.txtbody }}; {{ .font.txtbody | safeCSS }}">
-									{{- .moduleinfo.copy2 | safeHTML -}}
+								<td style="padding:30px 0px 30px 0px;" valign="top">
+									<table width="100%" cellpadding="0" cellspacing="0" border="0">
+										<!-- Logic for Right Title -->
+										{{- if ne .moduleinfo.title2 nil -}}
+											{{- if (gt (len .moduleinfo.title2) 0) -}}
+												<tr>
+													<td valign="top" height="30" style="{{ .font.heading2 | safeCSS }}" align="center" >{{- .moduleinfo.title2 | safeHTML -}}</td>
+												</tr>
+												<tr>
+													<td height="20">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
+													</td>
+												</tr>
+											{{- end -}}
+										{{- end -}}
+										<tr>
+											<td valign="top" style="text-align:center; color:{{ .color.txtbody }}; {{ .font.txtbody | safeCSS }}">
+												{{- .moduleinfo.copy2 | safeHTML -}}
+											</td>
+										</tr>
+										<!-- Logic for Right CTA's -->
+										{{- if ne .moduleinfo.cta2a_text nil -}}
+											{{- if (gt (len .moduleinfo.cta2a_text) 0) -}}
+												<tr>
+													<td height="20">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
+													</td>
+												</tr>
+												<tr>
+													<td valign="top" style="text-align:center; color:{{ .color.txtbody }}; {{ .font.txtbody | safeCSS }}">
+														<!-- Logic for Right CTA 1 -->
+														{{- if ne .moduleinfo.cta2a_text nil -}}
+															{{- if (gt (len .moduleinfo.cta2a_text) 0) -}}
+																<a href="{{ .moduleinfo.cta2a_url | safeURL }}" name="{{- .moduleinfo.cta2a_link_name -}}" style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">
+																	<span style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">{{- .moduleinfo.cta2a_text | safeHTML -}}</span>
+																</a>
+															{{- end -}}
+														{{- end -}}
+														<!-- Logic for Right CTA 2 -->
+														{{- if ne .moduleinfo.cta2b_text nil -}}
+															{{- if (gt (len .moduleinfo.cta2b_text) 0) -}}
+																<a href="{{ .moduleinfo.cta2b_url | safeURL }}" name="{{- .moduleinfo.cta2b_link_name -}}" style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">
+																	<span style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">{{- .moduleinfo.cta2b_text | safeHTML -}}</span>
+																</a>
+															{{- end -}}
+														{{- end -}}
+														<!-- Logic for Right CTA 3 -->
+														{{- if ne .moduleinfo.cta2c_text nil -}}
+															{{- if (gt (len .moduleinfo.cta2c_text) 0) -}}
+																<a href="{{ .moduleinfo.cta2c_url | safeURL }}" name="{{- .moduleinfo.cta2c_link_name -}}" style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">
+																	<span style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">{{- .moduleinfo.cta2c_text | safeHTML -}}</span>
+																</a>
+															{{- end -}}
+														{{- end -}}
+													</td>
+												</tr>
+											{{- end -}}
+										{{- end -}}
+									</table>
 								</td>
 							</tr>
-							{{- if ne .moduleinfo.cta2a_text nil -}}
-								{{- if (gt (len .moduleinfo.cta2a_text) 0) -}}
-									<tr>
-										<td height="20">
-											<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
-										</td>
-									</tr>
-									<tr>
-										<td valign="top" style="text-align:center; color:{{ .color.txtbody }}; {{ .font.txtbody | safeCSS }}">
-											{{- if ne .moduleinfo.cta2a_text nil -}}
-												{{- if (gt (len .moduleinfo.cta2a_text) 0) -}}
-													<a href="{{ .moduleinfo.cta2a_url | safeURL }}" name="{{- .moduleinfo.cta2a_link_name -}}" style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">
-														<span style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">{{- .moduleinfo.cta2a_text | safeHTML -}}</span>
-													</a>
-												{{- end -}}
-											{{- end -}}
-											{{- if ne .moduleinfo.cta2b_text nil -}}
-												{{- if (gt (len .moduleinfo.cta2b_text) 0) -}}
-													<a href="{{ .moduleinfo.cta2b_url | safeURL }}" name="{{- .moduleinfo.cta2b_link_name -}}" style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">
-														<span style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">{{- .moduleinfo.cta2b_text | safeHTML -}}</span>
-													</a>
-												{{- end -}}
-											{{- end -}}
-											{{- if ne .moduleinfo.cta2c_text nil -}}
-												{{- if (gt (len .moduleinfo.cta2c_text) 0) -}}
-													<a href="{{ .moduleinfo.cta2c_url | safeURL }}" name="{{- .moduleinfo.cta2c_link_name -}}" style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">
-														<span style="color:{{ .color.txtlink }}; {{ .font.txtlink | safeCSS }}">{{- .moduleinfo.cta2c_text | safeHTML -}}</span>
-													</a>
-												{{- end -}}
-											{{- end -}}
-										</td>
-									</tr>
-								{{- end -}}
-							{{- end -}}
 						</table>
+					</td>
+					<!-- Vertical Spacer column. Controls Text Box height -->
+					<td class="auto_height" width="30" {{- if ne .moduleinfo.text_box_height nil -}} {{- if (gt (len .moduleinfo.text_box_height) 0) -}} height="{{- .moduleinfo.text_box_height | safeHTML -}}" style="height:{{- .moduleinfo.text_box_height | safeHTML -}}px; font-size:{{- .moduleinfo.text_box_height | safeHTML -}}px; line-height:{{- .moduleinfo.text_box_height | safeHTML -}}px;" {{ end }} {{else}} height="300" style="height:300px; font-size: 300px; line-height: 300px;" {{ end }}>
+						<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
 					</td>
 				</tr>
 			</table>
+			<!-- Rigth Column Image -->
 			<table width="310" cellpadding="0" cellspacing="0" border="0" class="img-max" bgcolor="F2F2F2">
 				<tr>
 					<td	align="center"	valign="top">
+						<!-- Logic for Right Image URL Link opening tag -->
 						{{- if ne .moduleinfo.image2_link_url nil -}}
 							{{- if (gt (len .moduleinfo.image2_link_url) 0) -}}
 								<a href="{{ .moduleinfo.image2_link_url | safeURL }}" name="{{- .moduleinfo.image2_link_name -}}" target="_blank">
 							{{- end -}}
 						{{- end -}}
 							<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/{{- .moduleinfo.image2 -}}_tile.jpg" width="310"	border="0"	class="img_Rez" />
+						<!-- Logic for Right Image URL Link closing tag -->
 						{{- if ne .moduleinfo.image2_link_url nil -}}
 							{{- if (gt (len .moduleinfo.image2_link_url) 0) -}}
 								</a>
@@ -162,4 +214,3 @@
 		</td>
 	</tr>
 </table>
-<!-- dual/05/white Ends-->
