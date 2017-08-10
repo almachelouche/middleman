@@ -3,10 +3,24 @@ moduletypes = [ "Default" ]
 title = 'Customs Default'
 
 [[module]]
-path='email_modules/preheader'
+path='email_modules/custom/01'
+color='white'
 
-
-	preheader=''''''
+	title = '''Custom 01'''
+	copy1 = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'''
+	cta1_text='''Lorem ipsum dolor'''
+	cta1_link_url='''https://www.ford.com'''
+	cta1_link_name = '''link_name_here'''
+	cta1_icon='''more'''
+	copy2 = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'''
+	cta2_text='''Lorem'''
+	cta2_link_url='''https://www.ford.com'''
+	cta2_link_name = '''link_name_here'''
+	cta2_icon='''play'''
+	cta3_text='''Ipsum'''
+	cta3_link_url='''https://www.ford.com'''
+	cta3_link_name = '''link_name_here'''
+	cta3_icon='''more'''
 
 [[module]] # Custom Car 2 Column
 path='email_modules/custom/2column_car'
@@ -128,8 +142,8 @@ path='email_modules/custom/fordowner_resources'
 color='white'
 
 	title = '''Ford Owner Resources'''
-	copy1 = '''Ford offers two ways to access helpful resources and information anywhere you go. <br /><br />You can visit the <span style="front-weight: bold;">Ford Owners Website</span> online at any time to view videos, check for vehicle updates, or find your closest service centre. Register quickly and easily: Assign a nickname to your Ford #VehicleMarketingName# and enter your Vehicle Identification Number #VIN#'''
-	copy2 = '''You can also download the <span style="front-weight: bold;">Ford Owners Website</span> to your mobile device for instant access on-the-go. <br /><br />'''
+	copy1 = '''Ford offers two ways to access helpful resources and information anywhere you go. <br /><br />You can visit the <span style="font-weight: bold;">Ford Owners Website</span> online at any time to view videos, check for vehicle updates, or find your closest service centre. Register quickly and easily: Assign a nickname to your Ford #VehicleMarketingName# and enter your Vehicle Identification Number #VIN#'''
+	copy2 = '''You can also download the <span style="font-weight: bold;">Ford Owners Website</span> to your mobile device for instant access on-the-go.'''
 	cta1_text='''Visit Ford Owners Website'''
 	cta1_url='''https://www.ford.com.au/owner?emailid=20150918-0102_CTAVisitFordOwners_WelcomeNewSep_Generic_0_FOA'''
 	cta1_link_name = '''link_name_here'''

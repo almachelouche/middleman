@@ -1,13 +1,13 @@
 
 +++
 markets = ["sk-lincoln"]
-title = '''SK Lincoln Anniversary 002 copyupdate'''
+title = '''SK Lincoln Repurchase 001 All'''
  
 [[module]]
 path='email_modules/preheader'
 
    
-		preheader='''링컨과 함께해 온 시간이 벌써 1년이 되었습니다.'''
+		preheader='''지금 고객님만을 위한 특별한 재구매 혜택이 기다리고 있습니다'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -22,28 +22,43 @@ color='''white'''
 font='sk'
 
 	title='''
-    <span style="white-space:nowrap;">고객님의 여정에 언제나 함께하도록</span></span>
+    <span style="white-space:nowrap;">가장 매력적인 조건으로 링컨을 다시 만나세요</span>
     <br/>
     <br/>'''
 	copy='''
-	<span style="white-space:nowrap;">링컨과의 새로운 여정을 시작한 1년 전 그 순간을 기억하시나요?</span>
+	<span style="white-space:nowrap;">함께 해온 소중한 인연에 다시 한번 깊은 감사를 드리며</span>
+    <br/>
+	<span style="white-space:nowrap;">링컨과의 여정에 변치 않는 감동이 오래도록 함께 하기를 바랍니다</span>
     <br/>
     <br/>
-	<span style="white-space:nowrap;">지난 1년간 함께 해온 소중한 인연에 다시 한번 깊은 감사를 드립니다.</span>
+	<span style="white-space:nowrap;">고객님께서 보다 풍성한 링컨의 가치를 경험할 수 있도록,</span>
+    <br/>
+	<span style="white-space:nowrap;">링컨 코리아에서는 2017년 9월 30일까지</span>
+    <br/>
+	<span style="white-space:nowrap;">각 모델에 맞춘 재구매 특별 금융 프로그램을 지원해드립니다.</span>
     <br/>
     <br/>
-	<span style="white-space:nowrap;">보내주신 사랑과 성원에 보답하는 마음으로 앞으로 함께 할 모든 여정에서도</span>
+	<span style="white-space:nowrap;">- 컨티넨탈: 1,500,000 원</span>
     <br/>
-	<span style="white-space:nowrap;">차별화된 혜택, 믿음과 신뢰가 담긴 서비스를 제공하겠습니다.</span>
+    <span style="white-space:nowrap;">- MKZ: 800,000 원</span>
     <br/>
+    <span style="white-space:nowrap;">- MKX: 800,000 원</span>
     <br/>
-	<span style="white-space:nowrap;">고객님의 특별함에 가치를 더해줄 최고의 감동,</span>
-    <br/>
-	<span style="white-space:nowrap;">지금, 링컨과 함께 다시 누려보십시오.</span>
-    </span>
+    <span style="white-space:nowrap;">- MKC: 800,000 원</span>
     <br/>
     <br/>
+    <span style="white-space:nowrap;">특별한 기회로 다시 한 번, 새로운 링컨의 감성을 더 가볍게 누려보세요.</span>
+    <br/>
+    <br/>
+    <span style="white-space:nowrap;">단, 상기 프로모션은 차종 및 전시장 상황에 따라 다를 수 있습니다</span>
     '''
+    cta1_text='''<span style="white-space:nowrap;">더 알아보기</span>'''
+    cta1_url='''https://www.ford-korea.com/vehicles/?intcmp=hp-return-show'''
+    cta1_link_name='''era'''
+    cta2_text='''<span style="white-space:nowrap;">시승 신청</span>'''
+    cta2_url='''https://www.ford-korea.com/owner/warranty/#overlay/content/ford/kr/ko_kr/site-wide-content/overlays/forms/test-drive.html'''
+    cta2_link_name='''test_drive'''
+    
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -87,16 +102,21 @@ font='sk'
     <span style="white-space:nowrap;">품격 있는 서비스를 제공합니다.</span>
     <br/>
     <br/>
-    <span style="white-space:nowrap;">자세한 서비스 정보를 원하시면</span>
+    <span style="white-space:nowrap;">아래의 링크를 클릭하면</span>
     <br/>
-    <span style="white-space:nowrap;">아래 링크를 클릭 하시기 바랍니다.</span>
+    <span style="white-space:nowrap;">귀하에게 필요한 자세한 서비스 정보를</span>
+    <br/>
+    <span style="white-space:nowrap;">확인할 수 있습니다.</span>
     <br/>
     <ul style="margin: 20px; padding: 0;text-decoration:underline; color:#b45f1a">
     <li>
-    <a href="https://www.lincoln-korea.com/parts-service/pick-delivery/" name="pick_delivery" style="text-decoration:underline; color:#b45f1a;"><span style="white-space:nowrap;">픽업&딜리버리 서비스</span></a>
+    <a href="https://www.lincoln-korea.com/parts-service/pick-delivery/" name="pick_delivery" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
+    <span style="white-space:nowrap;">픽업&딜리버리 서비스</span>
+    </a>
     </li>
     <li>
-    <a href="https://www.lincoln-korea.com/genuine-parts/" name="parts_service" style="text-decoration:underline; color:#b45f1a;">부품 및 서비스</span></a>
+    <a href="https://www.lincoln-korea.com/genuine-parts/" name="parts_service" style="text-decoration:underline; color:#b45f1a;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;"><span style="white-space:nowrap;">부품 및 서비스</span>
+    </a>
     </li>
     </ul>
     '''
@@ -111,12 +131,11 @@ font='sk'
 	title1 = '''
 	<span style="white-space:nowrap;">기대 그 이상의 경험,</span>
     <br/>
-	<span style="white-space:nowrap;">링컨 고객센터</span>
-    '''
+	<span style="white-space:nowrap;">링컨 고객센터</span>'''
 	copy1 = '''
 	<span style="white-space:nowrap;">도움이나 의견이 필요하시면</span>
     <br/>
-	<span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#b45f1a;">1600-6003</a>으로 문의주세요.</span>
+	<span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#b45f1a;">1600-6003</a>으로 언제든 연락주십시오.</span>
     '''
 	icon2 = '''sk_lincoln_edm1_dealerlocator_20170510'''
 	title2 = '''

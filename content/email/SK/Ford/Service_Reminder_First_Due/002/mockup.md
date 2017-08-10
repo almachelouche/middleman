@@ -119,7 +119,7 @@ copy='''
     <span style="white-space:nowrap;">차량 구매 후 3년/6만km(선도래기준)까지 무상으로 제공됩니다.</span>
     <br/>
     <br/>
-    <span style="white-space:nowrap;">&#8226; 차량 종합 검사, 타이어 위치 교환, 엔진 오일 및 필터 교환 서비스를 포함합니다.</span>
+    <span style="white-space:nowrap;">&#8226; 차량 종합 검사, 타이어 위치 교환, 엔진 오일 및 필터 교환을 포함합니다.</span>
     <br/>
     <span style="white-space:nowrap;">&#8226; 위 서비스는 중고차 판매시 해당 차량과 함께 양도가 가능합니다.</span>
     <br/>
@@ -135,6 +135,7 @@ icon = ''''''
 [[module]] #Split 02
 path='email_modules/split/02'
 color='green'
+font='sk'
 
 title = '''
 <span style="white-space:nowrap;">포드 오너를 위한</span>
@@ -148,6 +149,7 @@ copy = '''
     <br/>
     <span style="white-space:nowrap;">값진 정보가 가득합니다.</span>
     <br/>
+    <br/>
     <span style="white-space:nowrap;">아래의 링크를 클릭하시면</span>
     <br/>
     <span style="white-space:nowrap;">고객님께 꼭 필요한 서비스 정보를</span>
@@ -156,29 +158,19 @@ copy = '''
     <br/>
     <ul style="margin: 20px; padding: 0;text-decoration:underline; color:#FFFFFF">
         <li>
-            <a href="https://www.ford-korea.com/owner/emergency/" name="era" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
-                <span style="white-space:nowrap;">24시간 긴급출동 서비스</span>
-            </a>
+            <a href="https://www.ford-korea.com/owner/emergency/" name="era" style="text-decoration:underline; color:#FFFFFF;"><span style="white-space:nowrap;">24시간 긴급출동 서비스</span></a>
         </li>
         <li>
-            <a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
-                <span style="white-space:nowrap;">보증 서비스</span>
-            </a>
+            <a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF;"><span style="white-space:nowrap;">보증 서비스</span></a>
         </li>
         <li>
-            <a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
-                <span style="white-space:nowrap;">차량 관리</span>
-            </a>
+            <a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#FFFFFF;"><span style="white-space:nowrap;">차량 관리</span></a>
         </li>
         <li>
-            <a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
-                <span style="white-space:nowrap;">전문가의 공인 서비스</span>
-            </a>
+            <a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:underline; color:#FFFFFF;"><span style="white-space:nowrap;">전문가의 공인 서비스</span></a>
         </li>
         <li>
-            <a href="https://www.ford-korea.com/owner/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#FFFFFF;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;">
-                <span style="white-space:nowrap;">리콜 안내</span>
-            </a>
+            <a href="https://www.ford-korea.com/owner/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#FFFFFF;"><span style="white-space:nowrap;">리콜 안내</span></a>
         </li>
     </ul>
 '''
@@ -195,7 +187,7 @@ copy1 = '''
     <span style="white-space:nowrap;">도움이나 의견이 필요하시다면</span>
     <br/>
     <span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">1600-6003</a>
-    으로 언제든 문의주세요.</span>
+    <span style="white-space:nowrap;">으로 문의주세요.</span>
 '''
 icon2 = '''sk_ford_edm1_dealerlocator_20170419'''
 title2 = '''<span style="white-space:nowrap; font-size: 20px;">전시장 및 서비스센터 찾기</span>'''

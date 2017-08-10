@@ -122,7 +122,8 @@ color='white'
 	copy1 = '''
         <span style="white-space:nowrap;">도움이나 의견이 필요하시다면</span>
         <br/>
-        <span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">1600-6003</a>으로 언제든 문의주세요.</span>
+        <span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#2d96cd;">1600-6003</a>
+        <span style="white-space:nowrap;">으로 문의주세요.</span>
     '''
 	icon2 = '''sk_ford_edm1_dealerlocator_20170419'''
 	title2 = '''

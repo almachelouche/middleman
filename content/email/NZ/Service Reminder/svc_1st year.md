@@ -30,12 +30,18 @@ color='''white'''
 	copy='''Hi <%${user.CustomAttribute['FullName']}%>,<br/><br/>Your next service is due on <%${user.CustomAttribute['NextServiceDate']}%><br/><br/>Book with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> or email <span style="color:#2D96CD"><% ${user.CustomAttribute['Dealer_Email']} %></span> today.'''
     
 [[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
 segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
 
 	cta1_text = '''BOOK A SERVICE'''
-	cta1_url = '''https://www.ford.com.au/owners/service/book-service/'''
+	cta1_url = '''mailto:<% ${user.CustomAttribute['Dealer_Email']} %>'''
 	cta1_link_name = '''booking'''
 
 [[module]] #4 Images
@@ -65,18 +71,28 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-    copy='''We know how important your <%${user.CustomAttribute['Model']}%> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%> in the trusted hands of Ford trained technicians who use diagnostic equipment specifically designed for Fords. With Genuine Ford Parts you can be assured of the highest standards of quality, fit and finish.<br/><br/>When you book or bring your vehicle in for a scheduled service you will be provided with an estimate of the cost. We will perform a vehicle report card - a comprehensive health check of your vehicle. You can even book a free loan car² so we can keep you on the road.'''
+    copy='''We know how important your <%${user.CustomAttribute['Model']}%> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%> in the trusted hands of Ford trained technicians who use diagnostic equipment specifically designed for Fords.<br/><br/>When you book or bring your vehicle in for a scheduled service you will be provided with an estimate&#185; of the cost. We will perform a vehicle report card - a comprehensive health check of your vehicle. You can even book a free loan car² so we can keep you on the road.'''
 
 [[module]]
-path='email_modules/spacer/default'
+path='email_modules/custom/01'
 color='white'
 
-	height="30"
+	cta1_text='''FIND OUR MORE'''
+	cta1_link_url='''https://www.ford.co.nz/owners/service/'''
+	cta1_link_name = '''link_name_here'''
+	cta1_icon='''more'''
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
 color='white'
 
+[[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
+color='white'
+
+	text = '''DISCLAIMERS:<br /><br />
+				1. If additional requirements are discovered, your dealer will contact you before beginning work to explain what needs to be done and any additional charges.<br /><br /> 
+				2. Vehicle model availability may vary.  Available to eligible customers at participating dealers on scheduled logbook service or overnight warranty repairs.  Booking required. Participating Dealers may require customers to comply with general usage conditions.<br /><br />'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'

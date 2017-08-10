@@ -74,8 +74,8 @@ path='email_modules/cover/03'
 color='''white'''
 
 	copy='''<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace of mind.<br /><br /><span style="font-weight: bold;">Roadside Assistance</span><br /><br />Get help when you need it most with State Auto Club membership for up to 7 years&#185;.<br /><br /><span style="font-weight: bold;">Service Price Promise</span><br /><br />Know what you’ll pay for standard service before you even come in.<br /><br /><span style="font-weight: bold;">
-	Loan Car</span><br /><br />Don’t get stuck without wheels. Available when you book a service&#178;.<br /><br />
-	<span style="font-weight: bold;">Extended Warranty</span><br /><br />Your Transit includes a complimentary extended warranty that covers your vehicle for 3 years or 200,000km – whichever comes first&#179;. Simply follow your vehicle’s servicing requirements outlined in your owner’s literature to stay fully protected. For your convenience, this warranty information is recorded at all Ford Dealerships nationwide and you will also have received a letter confirming the extended warranty period from your Dealer.<br /><br />Call us anytime on: 1300 80 10 80''' 
+	Free Loan Car</span><br /><br />Don’t get stuck without wheels. Available when you book a service&#178;.<br /><br />
+	<span style="font-weight: bold;">Extended Warranty</span><br /><br />Your Transit includes a complimentary extended warranty which means your vehicle is covered for a total of up to 5 years or 200,000km – whichever comes first³. Simply follow your vehicle’s servicing requirements outlined in your owner’s literature to stay protected. For your convenience, this warranty information is recorded at all Ford Dealerships nationwide.<br /><br />Call us anytime on: 1300 80 10 80''' 
 
  [[module]] #3 Images
 path = '''email_modules/image/3images'''
@@ -87,7 +87,7 @@ color = '''white'''
 	image2 = '''au_svc_icon2'''
 	image2_url = '''https://www.ford.com.au/owners/service/calculator?edm'''
 	image2_link_name = '''icon2'''
-	image3 = '''au_svc_icon1A'''
+	image3 = '''au_svc_icon1'''
 	image3_url = '''https://www.ford.com.au/owners/service/'''
 	image3_link_name = '''icon3'''
 
@@ -132,9 +132,9 @@ color='white'
 
 	text = '''DISCLAIMERS:
 				<br /> <br />
-				1) Private and Blue Business Fleet customers only at participating Dealers who have not reached 7 years or 105,000 kms. State Auto Club Roadside Assistance & Membership is included with the first seven standard services for 12 months or until your next eligible standard service (whichever occurs first). Standard services include all A and B logbook services. Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/"	name="terms2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
-				2) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/"	name="ford1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au</a>.<br /><br />
-				3) The Factory Warranty will operate under the terms and conditions of the Ford Express New Vehicle Warranty. Commences upon delivery to the customers or upon first registration of the vehicle for on-sold demonstrator vehicles and ends after 3 years or 200,000kms, whichever occurs first.<br /><br /> '''
+				1) Private and Blue Business Fleet customers who have not reached earlier of 7 years or 105,000km, only at participating Dealers. State Auto Club Roadside Assistance & Membership is included for 12 months or until your next eligible standard service (whichever occurs first).  Standard services include all A and B logbook services. Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/"  name="terms2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
+                2) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/"  name="ford1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au</a>.<br /><br />
+				3) The Factory Warranty (first 3 years/100,00km, whichever is sooner) will operate under the terms and conditions of the Ford Express New Vehicle Warranty. Commences upon delivery to the customers or upon first registration of the vehicle for on-sold demonstrator vehicles and ends after 5 years or 200,000kms, whichever occurs first.<br /><br /> '''
 
 
 
