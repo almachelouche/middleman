@@ -114,7 +114,8 @@ font='sk'
 	title1 = '''
 	<span style="white-space:nowrap;">기대 그 이상의 경험,</span>
     <br/>
-	<span style="white-space:nowrap;">링컨 고객센터</span>'''
+	<span style="white-space:nowrap;">링컨 고객센터</span>
+    '''
 	copy1 = '''
 	<span style="white-space:nowrap;">도움이나 의견이 필요하시면</span>
     <br/>
