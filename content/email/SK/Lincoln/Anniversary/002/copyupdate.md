@@ -118,7 +118,7 @@ font='sk'
 	copy1 = '''
 	<span style="white-space:nowrap;">도움이나 의견이 필요하시면</span>
     <br/>
-	<span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#b45f1a;">1600-6003</a>으로 언제든 연락주십시오.</span>
+	<span style="white-space:nowrap;"><a href="tel:1600-6003" name="tel" style="text-decoration:none; color:#b45f1a;">1600-6003</a>으로 문의주세요.</span>
     '''
 	icon2 = '''sk_lincoln_edm1_dealerlocator_20170510'''
 	title2 = '''
