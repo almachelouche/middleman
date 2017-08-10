@@ -154,7 +154,9 @@ color='white'
 		<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
 			<br/>
 			<span style="white-space:nowrap;">이메일 수신을 원치 않으면</span>
-			<a href="<%unsubscribe_link_text%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오.</span>
+			<span style="white-space:nowrap;">
+				<a href="<%unsubscribe_link_text%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오.
+			</span>
 			<br/>
 			<span style="white-space:nowrap;">앞으로 저희가 보내드리는 이메일 수신을 위해 고객님의 주소록이나 이메일 수신 허용 목록에</span>
 			<br/>
@@ -172,7 +174,9 @@ color='white'
 			<br/>
 			<br/>
 			<span style="white-space:nowrap;">이메일이 제대로 보이지 않는 경우,</span> 
-			<a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.</span>
+			<span style="white-space:nowrap;">
+				<a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오. 웹페이지로 보실 수 있습니다.
+			</span>
 			<br/>
 			<br/>
 		</span>
