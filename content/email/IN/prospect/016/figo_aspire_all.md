@@ -8,18 +8,33 @@ path='email_modules/preheader'
 
 	preheader = '''When you purchase a Ford, you don't just buy a great vehicle - you become part of our family. And family deserves the best.'''
 
-[[module]] #Header Logo
+[[module]]
 path='email_modules/header/logodesktop'
 color='white_pb'
 
 	image = '''white_pb'''
 	url_link = '''https://www.india.ford.com/'''
 
-[[module]] #Banner Image
+[[module]]
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
+
+	image = '''in_edm5_onam_figo_aspire_20170811'''
+
+[[module]]
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')"]
+
+	image = '''in_edm5_ganesha_figo_aspire_20170811'''
+
+[[module]]
 path='email_modules/image/banner'
 color='white'
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'E')"]
 
-image='''in_edm5_gst_figo_aspire_20170711'''
+    image='''in_edm5_aug_generic_figo_aspire_20170811'''
 	url_link='''https://www.india.ford.com/offers/'''
 	url_link_name='''offer_banner'''
 
@@ -34,23 +49,42 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 
-	copy = '''Bring home a car with new beginnings this Onam. It's time to start afresh.<br /><br/ >Buy a <span style="font-weight:bold">Ford Figo</span>, get <span style="font-weight:bold">4g Gold Coin + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span><br />Or<br />Buy a <span style="font-weight:bold">Ford Aspire</span>, get <span style="font-weight:bold">4g Gold Coin + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span><br /><br />Put your thoughts about buying that new car into action Now. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
+	copy = '''Bring home a car with new beginnings this Onam. It's time to start afresh.
+    <br /><br/ >
+    Buy a <span style="font-weight:bold">Ford Figo</span>, get <span style="font-weight:bold">4g Gold Coin + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
+    <br />Or<br />
+    Buy a <span style="font-weight:bold">Ford Aspire</span>, get <span style="font-weight:bold">4g Gold Coin + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
+    <br /><br />
+    Put your thoughts about buying that new car into action Now. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
 
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')"]
 
-	copy = '''Keep the spirit of Ganesh Chaturthi high with Ford's Test Drive Challenge.<br /><br />Buy a <span style="font-weight:bold">Ford Figo</span>, get Cash benefit* up to <span style="font-weight:bold">&#8377;6,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span><br />Or<br />Buy a <span style="font-weight:bold">Ford Aspire</span>, get Cash benefit* up to <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span><br /><br />Put your thoughts about buying that new car into action Now. You also get an <span style="font-weight:bold">Assured Gift</span> on your car purchase. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
-    
+	copy = '''Keep the spirit of Ganesh Chaturthi high with Ford's Test Drive Challenge.
+    <br /><br />
+    Buy a <span style="font-weight:bold">Ford Figo</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;6,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
+    <br />Or<br />
+    Buy a <span style="font-weight:bold">Ford Aspire</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
+    <br /><br />
+    Put your thoughts about buying that new car into action Now. You also get an <span style="font-weight:bold">Assured Gift</span> on your car purchase. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
+
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'E')"]
 
-	copy = '''Have you taken a Test Drive of the Ford cars yet? Do it Now.<br/>Experience the essence of Freedom with Ford's Fabulous August Offer.Buy a <span style="font-weight:bold">Ford Figo</span>, get Cash benefit* up to <span style="font-weight:bold">&#8377;6,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span><br/>Or<br/>Buy a <span style="font-weight:bold">Ford Aspire</span>, get Cash benefit* up to <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span><br/><br/>Put your thoughts about buying that new car into action Now. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
-    
-[[module]] #Custom 3 Icon Text
+	copy = '''Have you taken a Test Drive of the Ford cars yet? Do it Now.
+    <br/>Experience the essence of Freedom with Ford's Fabulous August Offer.
+    <br /><br/ >
+    Buy a <span style="font-weight:bold">Ford Figo</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;6,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
+    <br/>Or<br/>
+    Buy a <span style="font-weight:bold">Ford Aspire</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
+    <br/><br/>
+    Put your thoughts about buying that new car into action Now. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
+
+[[module]]
 path='email_modules/custom/3icon_text'
 color='white'
 
@@ -72,7 +106,7 @@ color='''white'''
 	cta2_url = '''https://www.india.ford.com/locate-dealer/'''
 	cta2_link_name = '''locate_dealer'''
 
-[[module]] #Dual 04
+[[module]]
 path='email_modules/dual/04'
 color='white'
 
@@ -121,32 +155,111 @@ color='white'
 	icon5_image='''in_lmc_no_20161018'''
 	icon5_link_name = '''tel_toll_free'''
 
-[[module]] #Footer IN Social
+[[module]]
 path='email_modules/footer/in/social'
 color='white'
 
-[[module]] #Footer Disclaimer
+[[module]]
 path='email_modules/footer/disclaimer'
 color='white'
 segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 
-	text = '''*Terms & conditions Apply. <br /><br />1. All Prices shown are ex-showroom Cochin for Next-Gen Ford Figo Base Petrol and Ford Aspire Ambiente Petrol. The above shown vehicle models are Next-Gen Ford Figo 1.5D Sports Edition MT and Ford Aspire 1.5D Sports Edition MT. <br /><br />2. Exchange bonus will be &#8377;20,000/- on exchange of any Ford Car and &#8377;15,000/- on exchange of a non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.<br /><br />3. Interest rate of 8.15% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.<br /><br />4. The 4g Gold Coin (22 carat) worth &#8377;10,680/- , rate as on 3rd  August 2017 will be given on purchase select Models and/or variants and for booking done between 01-31 August, with full payment on or before 31 August, 2017.<br /><br />5.This offer is only available in Kerala and is applicable for booking done between 1st August 2017 to 31st August 2017 with full payment on or before 31st August, 2017.<br /><br />6. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment. <br /><br />7. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact an Ford authorized dealer. '''
+	text = '''
+		*Terms & conditions Apply. 
+	    <br />
+	    <br />
+	    1. All Prices shown are ex-showroom Cochin for Next-Gen Ford Figo Base Petrol and Ford Aspire Ambiente Petrol. The above shown vehicle models are Next-Gen Ford Figo 1.5D Sports Edition MT and Ford Aspire 1.5D Sports Edition MT. 
+	    <br />
+	    <br />
+	    2. Exchange bonus will be &#8377;20,000/- on exchange of any Ford Car and &#8377;15,000/- on exchange of a non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.
+	    <br />
+	    <br />
+	    3. Interest rate of 8.15% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.
+	    <br />
+	    <br />
+	    4. The 4g Gold Coin (22 carat) worth &#8377;10,680/- , rate as on 3rd August 2017 will be given on purchase select Models and/or variants and for booking done between 01-31 August, with full payment on or before 31 August, 2017.
+	    <br />
+	    <br />
+	    5. This offer is only available in Kerala and is applicable for booking done between 1st August 2017 to 31st August 2017 with full payment on or before 31st August, 2017.
+	    <br />
+	    <br />
+	    6. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment. 
+	    <br />
+	    <br />
+	    7. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact an Ford authorized dealer.
+    '''
 
-[[module]] #Footer Disclaimer
+[[module]]
 path='email_modules/footer/disclaimer'
 color='white'
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')"]
 
-	text = '''*Terms & conditions Apply. <br /><br />1. All Prices shown are ex-showroom Mumbai for Next-Gen Ford Figo Base Petrol and Ford Aspire Ambiente Petrol. The above shown vehicle models are Next-Gen Figo 1.5D Sports Edition MT and Ford Aspire 1.5D Sports Edition MT. <br /><br />2. The Gift voucher can be availed by customer only if he has taken a test drive of Ford Figo and/or Ford Aspire at any Ford authorized dealership, and bought any other competition brand vehicle after taking test drive of above mentioned Ford car/s.<br /><br />3. To avail gift, it is mandatory to have met the following conditions within 01-31 August, herein referred to as "campaign period"-<br />&nbsp;&nbsp;1. Test drive taken within campaign period | Other brand vehicle purchased between campaign period | proof of other vehicle purchase to be submitted between campaign period.<br /><br />4. The Cash benefit up to &#8377;6,000 on Ford Figo and up to &#8377; 10,000 on Ford Aspire, is valid only on select variants of the models on offer.<br /><br />5. Exchange bonus will be &#8377;20,000/- on exchange of any Ford Car and &#8377;15,000/- on exchange of a non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.<br /><br />6. Interest rate of 8.15% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit. <br /><br />7. The assured gift is worth &#8377;8,000/- and is applicable on purchase select Models and/or variants and for booking done between 01-31 August, with full payment on or before 31 August, 2017. <br /><br />8. This offer is only available in Maharashtra and Goa and is applicable for booking done between 1st August 2017 to 31st August 2017 with full payment on or before 31st August, 2017.<br /><br />9. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment. <br /><br />10. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact an Ford authorized dealer. '''
+	text = '''
+		*Terms & conditions Apply.
+        <br />
+        <br />
+        1. All Prices shown are ex-showroom Mumbai for Next-Gen Ford Figo Base Petrol and Ford Aspire Ambiente Petrol. The above shown vehicle models are Next-Gen Figo 1.5D Sports Edition MT and Ford Aspire 1.5D Sports Edition MT.
+        <br />
+        <br />
+        2. The Gift voucher can be availed by customer only if he has taken a test drive of Ford Figo and/or Ford Aspire at any Ford authorized dealership, and bought any other competition brand vehicle after taking test drive of above mentioned Ford car/s.
+        <br />
+        <br />
+        3. To avail gift, it is mandatory to have met the following conditions within 01-31 August, herein referred to as "campaign period"-
+        <br />
+        <span style="padding-left: 10px; display: block;">1. Test drive taken within campaign period / Other brand vehicle purchased between campaign period / proof of other vehicle purchase to be submitted between campaign period.</span>
+        <br />
+        <br />
+        4. The Cash benefit upto &#8377;6,000 on Ford Figo and upto &#8377; 10,000 on Ford Aspire, is valid only on select variants of the models on offer.
+        <br />
+        <br />
+        5. Exchange bonus will be &#8377;20,000/- on exchange of any Ford Car and &#8377;15,000/- on exchange of a non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.
+        <br />
+        <br />
+        6. Interest rate of 8.15% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.
+        <br />
+        <br />
+        7. The assured gift is worth &#8377;8,000/- and is applicable on purchase select Models and/or variants and for booking done between 01-31 August, with full payment on or before 31 August, 2017. 
+        <br />
+        <br />
+        8. This offer is only available in Maharashtra and Goa and is applicable for booking done between 1st August 2017 to 31st August 2017 with full payment on or before 31st August, 2017.
+        <br />
+        <br />
+        9. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment. 
+        <br />
+        <br />
+        10. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact an Ford authorized dealer.'''
 
-[[module]] #Footer Disclaimer
+[[module]]
 path='email_modules/footer/disclaimer'
 color='white'
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'E')"]
 
-	text = '''*Terms & conditions Apply. <br /><br />1. All Prices shown are ex-showroom Delhi for Next-Gen Ford Figo Base Petrol and Ford Aspire Ambiente Petrol. The above shown vehicle models are Next-Gen ford Figo 1.5D Sports Edition MT and Ford Aspire 1.5D Sports Edition MT. <br /><br />2. The Cash benefit up to &#8377;6,000 on Ford Figo and upto &#8377;10,000 on Ford Aspire, is valid only on select variants of the models on offer.<br /><br />3. Exchange bonus will be &#8377;20,000/- on exchange of any Ford Car and &#8377;15,000/- on exchange of a non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners. The finance is at the sole discretion of Ford Credit.<br /><br />4. Interest rate of 8.15% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit. <br /><br />5.This offer is applicable for booking done between 1st August 2017 to 31st August 2017 with full payment on or before 31st August, 2017.<br /><br />6. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment. <br /><br />7. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact an Ford authorized dealer. '''
+	text = '''
+		*Terms & conditions Apply. 
+	    <br />
+	    <br />
+	    1. All Prices shown are ex-showroom Delhi for Next-Gen Ford Figo Base Petrol and Ford Aspire Ambiente Petrol. The above shown vehicle models are Next-Gen ford Figo 1.5D Sports Edition MT and Ford Aspire 1.5D Sports Edition MT. 
+	    <br />
+	    <br />
+	    2. The Cash benefit upto &#8377;6,000 on Ford Figo and upto &#8377;10,000 on Ford Aspire, is valid only on select variants of the models on offer.
+	    <br />
+	    <br />
+	    3. Exchange bonus will be &#8377;20,000/- on exchange of any Ford Car and &#8377;15,000/- on exchange of a non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners. The finance is at the sole discretion of Ford Credit.
+	    <br />
+	    <br />
+	    4. Interest rate of 8.15% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit. 
+	    <br />
+	    <br />
+	    5. This offer is applicable for booking done between 1st August 2017 to 31st August 2017 with full payment on or before 31st August, 2017.
+	    <br />
+	    <br />
+	    6. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment. 
+	    <br />
+	    <br />
+	    7. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact an Ford authorized dealer.
+    '''
 
-[[module]] #Footer IN Online
+[[module]]
 path='email_modules/footer/in/online'
 color='white'
 +++
