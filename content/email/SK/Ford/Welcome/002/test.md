@@ -87,24 +87,16 @@ color='green'
         <span style="white-space:nowrap;">확인하실 수 있습니다.</span>
     	<ul style="margin: 20px; padding: 0; color:#FFFFFF">
     		<li>
-                <a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF;">
-                    <span style="white-space:nowrap;">보증 서비스</span>
-                </a>
+                <a href="https://www.ford-korea.com/owner/warranty/" name="warranty" style="text-decoration:underline; color:#FFFFFF;"><span style="white-space:nowrap;">보증 서비스</span></a>
             </li>
     		<li>
-                <a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#FFFFFF;">
-                    <span style="white-space:nowrap;">차량 관리</span>
-                </a>
+                <a href="https://www.ford-korea.com/owner/maintenance/" name="vehicle_maintenance" style="text-decoration:underline; color:#FFFFFF;"><span style="white-space:nowrap;">차량 관리</span></a>
             </li>
     		<li>
-                <a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:underline; color:#FFFFFF;">
-                    <span style="white-space:nowrap;">전문가의 공인 서비스</span>
-                </a>
+                <a href="https://www.ford-korea.com/owner/genuine-service/" name="genuine_service" style="text-decoration:underline; color:#FFFFFF;"><span style="white-space:nowrap;">전문가의 공인 서비스</span></a>
             </li>
     		<li>
-                <a href="https://www.ford-korea.com/owner/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#FFFFFF;">
-                    <span style="white-space:nowrap;">리콜 안내</span>
-                </a>
+                <a href="https://www.ford-korea.com/owner/recall-guidance/" name="recall_guidance" style="text-decoration:underline; color:#FFFFFF;"><span style="white-space:nowrap;">리콜 안내</span></a>
             </li>
     	</ul>
     </span>
@@ -150,14 +142,18 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 text = '''
+<span style="white-space:nowrap;">이메일 수신을 원치 않으면<a href="<%unsubscribe_link_text%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오.</span>
+<br/>
+<br/>
 <span style="white-space:nowrap;">앞으로 저희가 보내드리는 이메일 수신을 위해 귀하의 주소록이나 이메일 수신 허용 목록에</span>
 <br/>
 <span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline; color:#ffffff;">fordnews@mail.edmasia.com</span>을 추가해주십시오.</span>
 <br/>
 <br/>
-<span style="white-space:nowrap;">본 이메일은 귀하의 요청에 따라 발송되었습니다. 이메일 수신을 원치 않으시면<a href="<%unsubscribe_link_text%>" style="color:#91a4b1; text-decoration:underline">여기</a>를 클릭하십시오.</span> 
+<span style="white-space:nowrap;">본 이메일은 귀하의 요청에 따라 발송되었습니다. 이메일 수신을 원치 않으시면<a href="https://www.ford-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#91a4b1;">개인정보처리방침</a></span> 
 <br />
-<span style="white-space:nowrap;">본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다.<a href="https://www.ford-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#91a4b1;">개인정보처리방침</a></span> 
+<br/>
+<span style="white-space:nowrap;">본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다.</span> 
 <br/>
 <br/>
 <span style="white-space:nowrap;">Copyright © 2017 Ford Sales & Service Korea Inc.</span>
