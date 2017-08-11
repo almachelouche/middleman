@@ -56,10 +56,8 @@ color = '''white'''
 			<span style=" white-space:nowrap;">เพื่อนัดหมาย</span>
 			<span style=" white-space:nowrap;">วันและเวลา</span>
 			<br />
-			<span style=" white-space:nowrap;">ในการพาฟอร์ดมา</span>
-			พบ
-			<span style=" white-space:nowrap;">ผู้เชี่ยวชาญ</span>
-			<span style=" white-space:nowrap;">จากเรา</span>
+			<span style=" white-space:nowrap;">ในการพาฟอร์ดมาพบ
+			<span style=" white-space:nowrap;">ผู้เชี่ยวชาญจากเรา</span>
 			<br />
 			<span style=" white-space:nowrap;">จะเปลี่ยนแบตเตอรี่</span>
 			<span style=" white-space:nowrap;">ยางรถยนต์</span>
