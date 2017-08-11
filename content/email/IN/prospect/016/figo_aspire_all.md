@@ -51,9 +51,9 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 
 	copy = '''When you purchase a Ford, you don't just buy a great vehicle - you become part of our family. And family deserves the best.<br /><br/ >Bring home a car with new beginnings this Onam. It's time to start afresh.
     <br /><br/ >
-    Buy a <span style="font-weight:bold">Ford Figo</span>, get <span style="font-weight:bold">4g Gold Coin + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
+    Buy a <span style="font-weight:bold">Ford Figo</span>, get <span style="font-weight:bold">4g Gold Coin* + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
     <br />Or<br />
-    Buy a <span style="font-weight:bold">Ford Aspire</span>, get <span style="font-weight:bold">4g Gold Coin + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
+    Buy a <span style="font-weight:bold">Ford Aspire</span>, get <span style="font-weight:bold">4g Gold Coin* + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
     <br /><br />
     Put your thoughts about buying that new car into action Now. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
 
