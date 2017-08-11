@@ -27,7 +27,6 @@ path='email_modules/cover/02'
 color='''white''
 font='sk'
 
-icon='''''' 
 title='''
     <span style="white-space:nowrap;">더 가볍게, 더 특별하게 포드를 다시 만나는 순간</span>
     <br/>
@@ -69,12 +68,6 @@ cta2_text='''<span style="white-space:nowrap;">시승 신청</span>'''
 cta2_url='''https://www.ford-korea.com/owner/warranty/#overlay/content/ford/kr/ko_kr/site-wide-content/overlays/forms/test-drive.html'''
 cta2_link_name='''test_drive'''
     
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''green'''
-
-    image = ''''''
-
 [[module]]
 path='email_modules/cover/01'
 color='''green'''
