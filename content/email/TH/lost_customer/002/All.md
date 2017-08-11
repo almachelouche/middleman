@@ -84,8 +84,9 @@ color='white'
 	text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">มั่นใจอะไหล่แท้ฟอร์ด</span> 
 										<span style="white-space:nowrap;">100%</span>
 										<span style="white-space:nowrap;">พร้อมการบำรุง</span><span style="white-space:nowrap;">รักษารถยนต์</span>
-										<span style="white-space:nowrap;">อย่างมีประสิทธิภาพ</span>เพื่อ
-										<span style="white-space:nowrap;">สมรรถนะสูงสุด</span><span style="white-space:nowrap;">ของรถคุณ</span></span>'''
+										<span style="white-space:nowrap;">อย่างมีประสิทธิภาพ</span><br />
+										<span style="white-space:nowrap;">เพื่อสมรรถนะสูงสุด</span>
+                                        <span style="white-space:nowrap;">ของรถคุณ</span></span>'''
 	icon2 = '''ico_2e_fordsvc_b'''
 	text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">ตรวจเช็คด้วย</span><span style="white-space:nowrap;">ช่างเทคนิค</span> 
 										<span style="white-space:nowrap;">ฟอร์ด</span><span style="white-space:nowrap;">ที่ผ่านการอบรม</span> 
