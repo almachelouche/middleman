@@ -75,17 +75,16 @@ color = '''green'''
 
     image = ''''''
 
-[[module]] #Split 02
-path='email_modules/split/02'
-color='''green''
+[[module]]
+path='email_modules/cover/01'
+color='''green'''
 font='sk'
 
-title = '''
-<span style="white-space:nowrap;">포드만의 전문적인 서비스</span>
+title='''<span style="white-space:nowrap;">포드만의 전문적인 서비스</span>
 <br/>
 '''
-copy = '''
-    <span style="white-space:nowrap;">더욱 폭넓어진 소모성 부품 무상교환 서비스(ESP)와 보증 서비스로 </span>
+copy='''
+<span style="white-space:nowrap;">더욱 폭넓어진 소모성 부품 무상교환 서비스(ESP)와 보증 서비스로 </span>
     <br/>
     <span style="white-space:nowrap;">포드와 함께 즐겁고 안전한 드라이빙을 경험하세요.</span>
     <br/>
@@ -93,6 +92,19 @@ copy = '''
     <span style="white-space:nowrap;">아래의 링크를 클릭하면 자세한 정보를 확인할 수 있습니다.</span>
     <br/>
 '''
+
+[[module]]
+path='email_modules/singles/2textcta'
+color='''green'''
+
+cta1_text = '''차량 관리'''
+cta1_url = '''https://www.ford-korea.com/owner/maintenance/'''
+cta1_link_name = '''vehicle_maintanance'''
+cta2_text = '''보증 서비스'''
+cta2_url = '''https://www.ford-korea.com/owner/extended-service-plan/ '''
+cta2_link_name = '''warranty'''
+cta1_icon='''more'''
+
 
 [[module]] #Dual 01
 path='email_modules/dual/01'
