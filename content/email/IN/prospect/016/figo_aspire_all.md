@@ -177,7 +177,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 	    3. Interest rate of 8.15% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.
 	    <br />
 	    <br />
-	    4. The 4g Gold Coin (22 carat) worth &#8377;10,680/- , rate as on 3rd  August 2017 will be given on purchase select Models and/or variants and for booking done between 01-31 August, with full payment on or before 31 August, 2017.
+	    4. The 4g Gold Coin (22 carat) worth &#8377;10,680/- , rate as on 3rd August 2017 will be given on purchase select Models and/or variants and for booking done between 01-31 August, with full payment on or before 31 August, 2017.
 	    <br />
 	    <br />
 	    5. This offer is only available in Kerala and is applicable for booking done between 1st August 2017 to 31st August 2017 with full payment on or before 31st August, 2017.
@@ -224,8 +224,10 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')"]
         8. This offer is only available in Maharashtra and Goa and is applicable for booking done between 1st August 2017 to 31st August 2017 with full payment on or before 31st August, 2017.
         <br />
         <br />
-        9. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment. <br /><br />10. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact an Ford authorized dealer.
-    '''
+        9. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment. 
+        <br />
+        <br />
+        10. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact an Ford authorized dealer.'''
 
 [[module]]
 path='email_modules/footer/disclaimer'
