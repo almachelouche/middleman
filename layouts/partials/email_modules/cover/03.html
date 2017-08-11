@@ -8,32 +8,32 @@
 				</tr>
 				{{- if ne .moduleinfo.cta1_url nil -}}
 					{{- if (gt (len .moduleinfo.cta1_url) 0) -}}
-				<tr>
-					<td align="center" valign="top" >
-						<table border="0" cellspacing="0" cellpadding="0">
-							<tr>
-								<td align="center" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';">
-									<table width="120" border="0" cellspacing="0" cellpadding="0">
-										<tr>
-											<td height="40" valign="middle" align="center" bgcolor="{{.color.ctablockbg}}" style="padding-left:20px; padding-right:20px; text-align:center; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px;vertical-align: middle;">
-												<a href="{{ .moduleinfo.cta1_url | safeURL }}" name="{{- .moduleinfo.cta1_link_name -}}" target="_blank" title="" style="width:100%; display:block; color:{{.color.ctablocktext}}; text-decoration:none;">{{- .moduleinfo.cta1_text | safeHTML -}}</a>
-											</td>
-										</tr>
-									</table>
-								</td>
-								<td align="center" valign="top" style="padding-left:20px; font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';">
-									<table width="120" border="0" cellspacing="0" cellpadding="0">
-										<tr>
-											<td height="40" valign="middle" align="center" bgcolor="{{.color.ctablockbg}}" style="padding-left:20px; padding-right:20px; text-align:center; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px;vertical-align: middle;">
-												<a href="{{ .moduleinfo.cta2_url | safeURL }}" name="{{- .moduleinfo.cta2_link_name -}}" target="_blank" title="" style="width:100%; display:block; color:{{.color.ctablocktext}}; text-decoration:none;">{{- .moduleinfo.cta2_text | safeHTML -}}</a>
-											</td>
-										</tr>
-									</table>
-								</td>
-							</tr>
-						</table>
-					</td>
-				</tr>
+						<tr>
+							<td align="center" valign="top" >
+								<table border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td align="center" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';">
+											<table width="120" border="0" cellspacing="0" cellpadding="0">
+												<tr>
+													<td height="40" valign="middle" align="center" bgcolor="{{.color.ctablockbg}}" style="padding-left:20px; padding-right:20px; text-align:center; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px;vertical-align: middle;">
+														<a href="{{ .moduleinfo.cta1_url | safeURL }}" name="{{- .moduleinfo.cta1_link_name -}}" target="_blank" title="" style="width:100%; display:block; color:{{.color.ctablocktext}}; text-decoration:none;">{{- .moduleinfo.cta1_text | safeHTML -}}</a>
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td align="center" valign="top" style="padding-left:20px; font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';">
+											<table width="120" border="0" cellspacing="0" cellpadding="0">
+												<tr>
+													<td height="40" valign="middle" align="center" bgcolor="{{.color.ctablockbg}}" style="padding-left:20px; padding-right:20px; text-align:center; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px;vertical-align: middle;">
+														<a href="{{ .moduleinfo.cta2_url | safeURL }}" name="{{- .moduleinfo.cta2_link_name -}}" target="_blank" title="" style="width:100%; display:block; color:{{.color.ctablocktext}}; text-decoration:none;">{{- .moduleinfo.cta2_text | safeHTML -}}</a>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
 					{{- end -}}
 				{{- end -}}
 			</table>
