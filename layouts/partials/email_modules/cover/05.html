@@ -33,40 +33,40 @@
 					{{- end -}}
 				{{- end -}}
 				<!-- Logic for Icon Text CTA's -->
-				{{- if ne .moduleinfo.cta1_url nil -}}
-					{{- if (gt (len .moduleinfo.cta1_url) 0) -}}
+				{{- if ne .moduleinfo.cta_icontext_1_copy nil -}}
+					{{- if (gt (len .moduleinfo.cta_icontext_1_copy) 0) -}}
 						<tr>
 							<td valign="top" align="center" style="padding: 10px 0 10px 0;">
 								<table cellpadding="0" cellspacing="0" border="0">
 									<tr>
 										<td valign="top" align="center" style="color: {{ .color.ctaicontext }}; {{ .font.ctaicontext | safeCSS }}">
 											<!-- ++ Add logic for underline -->
-											<a href="{{ .moduleinfo.cta1_url | safeURL }}" name="{{- .moduleinfo.cta1_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">
-												{{- .moduleinfo.cta1_text | safeHTML -}}
+											<a href="{{ .moduleinfo.cta_icontext_1_link_url | safeURL }}" name="{{- .moduleinfo.cta_icontext_1_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">
+												{{- .moduleinfo.cta_icontext_1_copy | safeHTML -}}
 											</a>
 										</td>
 										<!-- ++ Add logic for ICON -->
 										<td valign="top" align="center" style="padding-left: 10px;">
-											<a href="{{ .moduleinfo.cta1_url | safeURL }}" name="{{- .moduleinfo.cta1_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">
-												<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{- .moduleinfo.cta1_icon}}_{{.color.ctaicon}}.gif" width="20" height="20"	border="0" style="display: block;"/>
+											<a href="{{ .moduleinfo.cta_icontext_1_link_url | safeURL }}" name="{{- .moduleinfo.cta_icontext_1_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">
+												<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{- .moduleinfo.cta_icontext_1_icon -}}_{{ .color.ctaicon }}.gif" width="20" height="20"	border="0" style="display: block;"/>
 											</a>
 										</td>
 										<!-- Logic for CTA 2 -->
-										{{- if ne .moduleinfo.cta2_url nil -}}
-											{{- if (gt (len .moduleinfo.cta2_url) 0) -}}
+										{{- if ne .moduleinfo.cta_icontext_2_copy nil -}}
+											{{- if (gt (len .moduleinfo.cta_icontext_2_copy) 0) -}}
 												<td width="30" style="mso-line-height-rule: exactly; line-height: 10px; font-size: 10px;">
 													<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display: block;" />
 												</td>
 												<td valign="top" align="center" style="color: {{ .color.ctaicontext }}; {{ .font.ctaicontext | safeCSS }}">
 													<!-- ++ Add logic for underline -->
-													<a href="{{ .moduleinfo.cta2_url | safeURL }}" name="{{- .moduleinfo.cta2_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">
-														{{- .moduleinfo.cta2_text | safeHTML -}}
+													<a href="{{ .moduleinfo.cta_icontext_2_link_url | safeURL }}" name="{{- .moduleinfo.cta_icontext_2_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">
+														{{- .moduleinfo.cta_icontext_2_copy | safeHTML -}}
 													</a>
 												</td>
 												<!-- ++ Add logic for ICON -->
 												<td valign="top" align="center" style="padding-left: 10px;">
-													<a href="{{ .moduleinfo.cta2_url | safeURL }}" name="{{- .moduleinfo.cta2_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">
-														<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{- .moduleinfo.cta1_icon}}_{{.color.ctaicon}}.gif" width="20" height="20" border="0" style="display: block;"/>
+													<a href="{{ .moduleinfo.cta_icontext_2_link_url | safeURL }}" name="{{- .moduleinfo.cta_icontext_2_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">
+														<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{- .moduleinfo.cta_icontext_2_icon -}}_{{ .color.ctaicon }}.gif" width="20" height="20" border="0" style="display: block;"/>
 													</a>
 												</td>
 											{{- end -}}
@@ -78,24 +78,34 @@
 					{{- end -}}
 				{{- end -}}
 				<!-- Logic for Vertical Block CTA's -->
-				{{- if ne .moduleinfo.cta1_url nil -}}
-					{{- if (gt (len .moduleinfo.cta1_url) 0) -}}
+				{{- if ne .moduleinfo.cta_block_vertical_1_copy nil -}}
+					{{- if (gt (len .moduleinfo.cta_block_vertical_1_copy) 0) -}}
 						<tr>
 							<td valign="top" align="center" style="padding: 10px 0 10px 0;">
 								<table	cellpadding="0" cellspacing="0" border="0">
 									<tr>
-										<td height="40" valign="middle" align="center" bgcolor="{{.color.ctablockbg}}" style="padding-left:20px; padding-right:20px; text-align:center; vertical-align: middle; {{ .font.ctablocktext | safeCSS }}">
-											<a href="{{ .moduleinfo.cta1_url | safeURL }}" name="{{- .moduleinfo.cta1_link_name -}}" target="_blank" title="" style="width:100%; display:block; color:{{.color.ctablocktext}}; text-decoration:none;">{{- .moduleinfo.cta1_text | safeHTML -}}</a>
+										<td height="40" valign="middle" align="center" bgcolor="{{ .color.ctablockbg }}" style="padding-left: 20px; padding-right: 20px; text-align: center; vertical-align: middle; {{ .font.ctablocktext | safeCSS }}">
+											<!-- ++ Add logic for underline -->
+											<a href="{{ .moduleinfo.cta_block_vertical_1_link_url | safeURL }}" name="{{- .moduleinfo.cta_block_vertical_1_link_name -}}" target="_blank" style="width: 100%; display:block; color:{{ .color.ctablocktext }}; text-decoration: none;">
+												{{- .moduleinfo.cta_block_vertical_1_copy | safeHTML -}}
+											</a>
 										</td>
 									</tr>
-									{{- if ne .moduleinfo.cta2_url nil -}}
-										{{- if (gt (len .moduleinfo.cta2_url ) 0) -}}
+									<!-- Logic for Vertical Block CTA 2 -->
+									{{- if ne .moduleinfo.cta_block_vertical_2_copy nil -}}
+										{{- if (gt (len .moduleinfo.cta_block_vertical_2_copy) 0) -}}
+											<!-- Horizontal Spacer -->
 											<tr>
-												<td height="20" style="mso-line-height-rule:exactly;line-height:10px;font-size:10px;"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
+												<td height="20" style="mso-line-height-rule: exactly; line-height:10px; font-size: 10px;">
+													<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display: block;" />
+												</td>
 											</tr>
-											<tr style="border:1px solid {{.color.ctaoutline}};border-collapse: collapse;">
-												<td height="40" valign="middle" align="center" style="padding-left:20px; padding-right:20px; text-align:center; vertical-align: middle; border:1px solid {{.color.ctaoutline}}; {{ .font.ctaoutline | safeCSS }}">
-													<a href="{{ .moduleinfo.cta2_url | safeURL }}" name="{{- .moduleinfo.cta2_link_name -}}" target="_blank" title="" style="width:100%; display:block; color:{{.color.ctaoutline}}; text-decoration:none;">{{- .moduleinfo.cta2_text | safeHTML -}}</a>
+											<tr style="border: 1px solid {{ .color.ctaoutline }}; border-collapse: collapse;">
+												<td height="40" valign="middle" align="center" style="padding-left: 20px; padding-right: 20px; text-align: center; vertical-align: middle; border: 1px solid {{ .color.ctaoutline }}; {{ .font.ctaoutline | safeCSS }}">
+													<!-- ++ Add logic for underline -->
+													<a href="{{ .moduleinfo.cta_block_vertical_2_link_url | safeURL }}" name="{{- .moduleinfo.cta_block_vertical_2_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{.color.ctaoutline}}; text-decoration: none;">
+														{{- .moduleinfo.cta_block_vertical_2_copy | safeHTML -}}
+													</a>
 												</td>
 											</tr>
 										{{- end -}}
@@ -106,26 +116,30 @@
 					{{- end -}}
 				{{- end -}}
 				<!-- Logic for Horizontal Block CTA's -->
-				{{- if ne .moduleinfo.cta1_url nil -}}
-					{{- if (gt (len .moduleinfo.cta1_url) 0) -}}
+				{{- if ne .moduleinfo.cta_block_horizontal_1_copy nil -}}
+					{{- if (gt (len .moduleinfo.cta_block_horizontal_1_copy) 0) -}}
 						<tr>
 							<td valign="top" align="center" style="padding: 10px 0 10px 0;">
 								<table cellpadding="0" cellspacing="0" border="0">
 									<tr>
-										<td align="center" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';">
+										<td align="center" valign="top" style="font-size: 16px; line-height: 21px; font-weight: normal; font-style: normal; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';">
 											<table width="120" cellpadding="0" cellspacing="0" border="0">
 												<tr>
-													<td height="40" valign="middle" align="center" bgcolor="{{.color.ctablockbg}}" style="padding-left:20px; padding-right:20px; text-align:center; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px;vertical-align: middle;">
-														<a href="{{ .moduleinfo.cta1_url | safeURL }}" name="{{- .moduleinfo.cta1_link_name -}}" target="_blank" title="" style="width:100%; display:block; color:{{.color.ctablocktext}}; text-decoration:none;">{{- .moduleinfo.cta1_text | safeHTML -}}</a>
+													<td height="40" valign="middle" align="center" bgcolor="{{ .color.ctablockbg }}" style="padding-left:20px; padding-right:20px; text-align:center; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px;vertical-align: middle;">
+														<a href="{{ .moduleinfo.cta_block_horizontal_1_link_url | safeURL }}" name="{{- .moduleinfo.cta_block_horizontal_1_link_name -}}" target="_blank" style="width: 100%; display: block; color:{{ .color.ctablocktext }}; text-decoration: none;">
+															{{- .moduleinfo.cta_block_horizontal_1_copy | safeHTML -}}
+														</a>
 													</td>
 												</tr>
 											</table>
 										</td>
-										<td align="center" valign="top" style="padding-left:20px; font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';">
+										<td align="center" valign="top" style="padding-left: 20px; font-size: 16px; line-height: 21px; font-weight: normal; font-style: normal; color: #FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';">
 											<table width="120" cellpadding="0" cellspacing="0" border="0">
 												<tr>
-													<td height="40" valign="middle" align="center" bgcolor="{{.color.ctablockbg}}" style="padding-left:20px; padding-right:20px; text-align:center; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px;vertical-align: middle;">
-														<a href="{{ .moduleinfo.cta2_url | safeURL }}" name="{{- .moduleinfo.cta2_link_name -}}" target="_blank" title="" style="width:100%; display:block; color:{{.color.ctablocktext}}; text-decoration:none;">{{- .moduleinfo.cta2_text | safeHTML -}}</a>
+													<td height="40" valign="middle" align="center" bgcolor="{{.color.ctablockbg}}" style="padding-left: 20px; padding-right: 20px; text-align: center; font-family: 'Arial','Helvetica','Sans-Serif'; font-size: 16px; vertical-align: middle;">
+														<a href="{{ .moduleinfo.cta_block_horizontal_2_link_url | safeURL }}" name="{{- .moduleinfo.cta_block_horizontal_2_link_name -}}" target="_blank" style="width: 100%; display:block; color:{{ .color.ctablocktext }}; text-decoration: none;">
+															{{- .moduleinfo.cta_block_horizontal_2_copy | safeHTML -}}
+														</a>
 													</td>
 												</tr>
 											</table>
