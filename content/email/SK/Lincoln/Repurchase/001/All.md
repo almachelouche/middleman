@@ -16,6 +16,12 @@ color='white'
 	image = '''lincoln_white'''
 	url_link = '''https://www.lincoln-korea.com/'''
 
+[[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+
+	image = '''sk_edm5_lincoln_loyalty_offer_20170811'''
+    
 [[module]] #Cover 01 
 path='email_modules/cover/02'
 color='''lincoln_white'''
@@ -65,7 +71,7 @@ font='sk'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''sk_lincoln_edm3_topmodule_20170523'''
+	image = ''''''
 
 [[module]] #Cover 02
 path='email_modules/cover/02'

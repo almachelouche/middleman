@@ -19,7 +19,7 @@ color='white'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-    image = '''ph_edm2a_tirechange_20160801'''
+    image = '''sk_edm5_ford_loyalty_offer_20170811'''
 
 [[module]] #Cover 02
 path='email_modules/cover/02'
@@ -71,9 +71,9 @@ cta2_link_name='''test_drive'''
     
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
-color = '''white'''
+color = '''green'''
 
-    image = '''ph_edm2a_tirechange_20160801'''
+    image = ''''''
 
 [[module]] #Split 02
 path='email_modules/split/02'
