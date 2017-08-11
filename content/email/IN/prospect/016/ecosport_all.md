@@ -48,7 +48,7 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['Segment'] == 'B')"]
 
-	copy = '''Bring home a car with new beginnings this Onam. It's time to start afresh.
+	copy = '''When you purchase a Ford, you don't just buy a great vehicle - you become part of our family. And family deserves the best.<br /><br/ >Bring home a car with new beginnings this Onam. It's time to start afresh.
     <br /><br/ >
     Buy a <span style="font-weight:bold">Ford EcoSport</span>, get <span style="font-weight:bold">4g Gold Coin + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
     <br /><br />
@@ -59,35 +59,23 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'D')"]
 
-	copy = '''Keep the spirit of Ganesh Chaturthi high with Ford's Test Drive Challenge.
+	copy = '''When you purchase a Ford, you don't just buy a great vehicle - you become part of our family. And family deserves the best.<br /><br/ >Keep the spirit of Ganesh Chaturthi high with Ford's Test Drive Challenge.
     <br /><br />
     Buy a <span style="font-weight:bold">Ford EcoSport</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
     <br /><br />
-    Put your thoughts about buying that new car into action Now. You also get an <span style="font-weight:bold">Assured Gift</span> on your car purchase. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
+    Put your thoughts about buying that new car into action Now. You also get an <span style="font-weight:bold">Assured Gift*</span> on your car purchase. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
     
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'F')"]
 
-	copy = '''Have you taken a Test Drive of the Ford cars yet? Do it Now.
+	copy = '''When you purchase a Ford, you don't just buy a great vehicle - you become part of our family. And family deserves the best.<br /><br/ >Have you taken a Test Drive of the Ford cars yet? Do it Now.
     <br/>Experience the essence of Freedom with Ford's Fabulous August Offer.
     <br /><br/ >
     Buy a <span style="font-weight:bold">Ford EcoSport</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
     <br/><br/>
     Put your thoughts about buying that new car into action Now. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
-    
-[[module]] #Custom 3 Icon Text
-path='email_modules/custom/3icon_text'
-color='white'
-
-	title = ''''''
-	icon1 = '''in_edm5_power_20161122'''
-	text1 = '''<span style="font-weight:bold">Powerful</span><br />73.8kW (100 PS)'''
-	icon2 = '''in_edm5_airbags_20161122'''
-	text2 = '''<span style="font-weight:bold">Safe</span><br />2 Standard Airbags'''
-	icon3 = '''in_edm5_autolamp_20161122'''
-	text3 = '''<span style="font-weight:bold">Stylish</span><br />Day Time Running Lamps'''
 
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
@@ -169,7 +157,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'B')"]
     3. Interest rate of 8.15% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.
     <br />
     <br />
-    4. The 4g Gold Coin (22 carat) worth &#8377;10,680/- , rate as on 3rd August 2017 will be given on purchase select Models and/or variants and for booking done between 01-31 August, with full payment on or before 31 August, 2017.
+    4. The 4g Gold Coin (22 carat) worth &#8377;10,680/-, rate as on 3rd August 2017 will be given on purchase select Models and/or variants and for booking done between 01-31 August, with full payment on or before 31 August, 2017.
     <br />
     <br />
     5. This offer is only available in Kerala and is applicable for booking done between 1st August 2017 to 31st August 2017 with full payment on or before 31st August, 2017.
@@ -199,7 +187,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'D')"]
         <span style="padding-left: 10px">1. Test drive taken within campaign period / Other brand vehicle purchased between campaign period / proof of other vehicle purchase to be submitted between campaign period.</span>
         <br />
         <br />
-        4. The Cash benefit upto 10,000 on Ford EcoSport, is valid only on select variants of the models on offer.</span>
+        4. The Cash benefit upto &#8377;10,000 on Ford EcoSport, is valid only on select variants of the models on offer.</span>
         <br />
         <br />
         5. Exchange bonus will be &#8377;20,000/- on exchange of any Ford Car and &#8377;15,000/- on exchange of a non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.
