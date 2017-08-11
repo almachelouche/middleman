@@ -24,7 +24,7 @@ color = '''white'''
 [[module]] #Cover 02
 path='email_modules/cover/02'
 
-color='''white''
+color='''white'''
 font='sk'
 
 title='''
