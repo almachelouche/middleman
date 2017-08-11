@@ -78,6 +78,12 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'F')"]
     Put your thoughts about buying that new car into action Now. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
 
 [[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
 path='email_modules/singles/2ctablocksideoutline'
 color='''white'''
 	cta1_text = '''BOOK A TEST DRIVE'''
