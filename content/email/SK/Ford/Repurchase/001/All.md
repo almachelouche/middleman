@@ -24,7 +24,7 @@ color = '''white'''
 [[module]] #Cover 02
 path='email_modules/cover/02'
 
-color='white'
+color='''white''
 font='sk'
 
 icon='''''' 
@@ -77,7 +77,8 @@ color = '''green'''
 
 [[module]] #Split 02
 path='email_modules/split/02'
-color='green'
+color='''green''
+font='sk'
 
 title = '''
 <span style="white-space:nowrap;">포드만의 전문적인 서비스</span>
