@@ -5,8 +5,7 @@ title = '''IN Prospect 016 EcoSport All'''
 [[module]]
 path='email_modules/preheader'
 
-
-	preheader = '''We have got you awesome deals with great savings in addition to the GST offer. You also get an additional benefit of 8.15% interest rate. Visit your nearest Ford dealership to avail benefits before July 31, 2017!*'''
+	preheader = '''When you purchase a Ford, you don't just buy a great vehicle - you become part of our family. And family deserves the best.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -15,11 +14,26 @@ color='white_pb'
 	image = '''white_pb'''
 	url_link = '''https://www.india.ford.com/'''
 
+[[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+segmentif = ["(user.CustomAttribute['Segment'] == 'B')"]
+
+	image = '''in_edm5_onam_ecosport_20170811'''
+
+[[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'D')"]
+
+	image = '''in_edm5_ganesha_ecosport_20170811'''
+
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'F')"]
 
- image='''in_edm5_gst_ecosport_20170711'''
+    image='''in_edm5_aug_generic_ecosport_20170811'''
 	url_link='''https://www.india.ford.com/offers/'''
 	url_link_name='''offer_banner'''
 
@@ -32,25 +46,58 @@ color='white'
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
+segmentif = ["(user.CustomAttribute['Segment'] == 'B')"]
 
-		copy = '''We have got you awesome deals with great savings in addition to the GST offer. You also get an additional benefit of 8.15% interest rate. <br /><br />Visit your nearest Ford dealership to avail benefits before July 31, 2017!*'''
+	copy = '''Bring home a car with new beginnings this Onam. It's time to start afresh.
+    <br /><br/ >
+    Buy a <span style="font-weight:bold">Ford EcoSport</span>, get <span style="font-weight:bold">4g Gold Coin + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
+    <br /><br />
+    Put your thoughts about buying that new car into action Now. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
 
 [[module]]
-path='email_modules/spacer/default'
+path='email_modules/singles/copy'
+color='''white'''
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')"]
+
+	copy = '''Keep the spirit of Ganesh Chaturthi high with Ford's Test Drive Challenge.
+    <br /><br />
+    Buy a <span style="font-weight:bold">Ford EcoSport</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
+    <br /><br />
+    Put your thoughts about buying that new car into action Now. You also get an <span style="font-weight:bold">Assured Gift</span> on your car purchase. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
+    
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'E')"]
+
+	copy = '''Have you taken a Test Drive of the Ford cars yet? Do it Now.
+    <br/>Experience the essence of Freedom with Ford's Fabulous August Offer.
+    <br /><br/ >
+    Buy a <span style="font-weight:bold">Ford EcoSport</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
+    <br/><br/>
+    Put your thoughts about buying that new car into action Now. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
+    
+[[module]] #Custom 3 Icon Text
+path='email_modules/custom/3icon_text'
 color='white'
 
-	height="30"
+	title = ''''''
+	icon1 = '''in_edm5_power_20161122'''
+	text1 = '''<span style="font-weight:bold">Powerful</span><br />73.8kW (100 PS)'''
+	icon2 = '''in_edm5_airbags_20161122'''
+	text2 = '''<span style="font-weight:bold">Safe</span><br />2 Standard Airbags'''
+	icon3 = '''in_edm5_autolamp_20161122'''
+	text3 = '''<span style="font-weight:bold">Stylish</span><br />Day Time Running Lamps'''
 
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
 color='''white'''
 	cta1_text = '''BOOK A TEST DRIVE'''
-	cta1_url = '''https://www.india.ford.com/suvs/ecosport/ecosport-brochure/?redtrgtexp=true#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-ecosport.html?campaign=ESFWTDC&intModel=EcoSport&modelCode=ES/'''
+	cta1_url = '''https://www.india.ford.com/#/overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-generic.html/'''
 	cta1_link_name = '''test_drive'''
 		cta2_text = '''&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Find A DEALER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'''
 	cta2_url = '''https://www.india.ford.com/locate-dealer/'''
 	cta2_link_name = '''locate_dealer'''
-
 
 [[module]] #Dual 04
 path='email_modules/dual/04'
@@ -108,8 +155,94 @@ color='white'
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
+segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 
-	text = '''*Terms & conditions Apply. <br /><br />1. All Prices shown are ex-showroom Delhi for Ford EcoSport Ambiente Petrol. The ex-showroom price are based on the GST (Goods and services tax) rates. The benefit is applicable for vehicles booking done between July 1, 2017 to July 31, 2017 with full payment on or before 31st July, 2017.<br /><br />2. Interest rate of 8.15% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.<br /><br />3. Exchange Bonus is valid only on select variants. For more information, please contact a Ford dealer.'''
+	text = '''*Terms & conditions Apply. 
+    <br />
+    <br />
+    1. All Prices shown are ex-showroom Cochin for Ford EcoSport Ambiente Petrol. The above shown vehicle model is Ford EcoSport Platinum Edition MT Diesel. 
+    <br />
+    <br />
+    2. Exchange bonus will be &#8377;20,000/- on exchange of any Ford Car and &#8377;15,000/- on exchange of a non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.
+    <br />
+    <br />
+    3. Interest rate of 8.15% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.
+    <br />
+    <br />
+    4. The 4g Gold Coin (22 carat) worth &#8377;10,680/- , rate as on 3rd  August 2017 will be given on purchase select Models and/or variants and for booking done between 01-31 August, with full payment on or before 31 August, 2017.
+    <br />
+    <br />
+    5. This offer is only available in Kerala and is applicable for booking done between 1st August 2017 to 31st August 2017 with full payment on or before 31st August, 2017.
+    <br />
+    <br />
+    6. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment. 
+    <br />
+    <br />
+    7. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact an Ford authorized dealer. '''
+
+[[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
+color='white'
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')"]
+
+	text = '''*Terms & conditions Apply.
+        <br />
+        <br />
+        1. All Prices shown are ex-showroom Mumbai for Ford EcoSport Ambiente Petrol. The above shown vehicle model is Ford EcoSport Platinum Edition MT Diesel.
+        <br />
+        <br />
+        2. The Gift voucher can be availed by customer only if he has taken a test drive of Ford EcoSport at any Ford authorized dealership, and bought any other competition brand vehicle after taking test drive of above mentioned Ford car/s.
+        <br />
+        <br />
+        3. To avail gift, it is mandatory to have met the following conditions within 01-31 August, herein referred to as "campaign period"-
+        <br />
+        <span style="padding-left: 10px">1. Test drive taken within campaign period / Other brand vehicle purchased between campaign period / proof of other vehicle purchase to be submitted between campaign period.</span>
+        <br />
+        <br />
+        4. The Cash benefit upto 10,000 on Ford EcoSport, is valid only on select variants of the models on offer.</span>
+        <br />
+        <br />
+        5. Exchange bonus will be &#8377;20,000/- on exchange of any Ford Car and &#8377;15,000/- on exchange of a non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.
+        <br />
+        <br />
+        6. Interest rate of 8.15% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.
+        <br />
+        <br />
+        7. The assured gift is worth &#8377;8,000/- and is applicable on purchase select Models and/or variants and for booking done between 01-31 August, with full payment on or before 31 August, 2017. 
+        <br />
+        <br />
+        8. This offer is only available in Maharashtra and Goa and is applicable for booking done between 1st August 2017 to 31st August 2017 with full payment on or before 31st August, 2017.
+        <br />
+        <br />
+        9. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment. <br /><br />10. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact an Ford authorized dealer.'''
+
+[[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
+color='white'
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'E')"]
+
+	text = '''*Terms & conditions Apply. 
+    <br />
+    <br />
+    1. All Prices shown are ex-showroom Delhi for Next-Gen Ford Figo Base Petrol and Ford Aspire Ambiente Petrol. The above shown vehicle models are Next-Gen ford Figo 1.5D Sports Edition MT and Ford Aspire 1.5D Sports Edition MT. 
+    <br />
+    <br />
+    2. The Cash benefit upto &#8377;6,000 on Ford Figo and upto &#8377;10,000 on Ford Aspire, is valid only on select variants of the models on offer.
+    <br />
+    <br />
+    3. Exchange bonus will be &#8377;20,000/- on exchange of any Ford Car and &#8377;15,000/- on exchange of a non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners. The finance is at the sole discretion of Ford Credit.
+    <br />
+    <br />
+    4. Interest rate of 8.15% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit. 
+    <br />
+    <br />
+    5. This offer is applicable for booking done between 1st August 2017 to 31st August 2017 with full payment on or before 31st August, 2017.
+    <br />
+    <br />
+    6. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment. 
+    <br />
+    <br />
+    7. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact an Ford authorized dealer. '''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
