@@ -80,9 +80,7 @@ color='green'
         <br/>
         <span style="white-space:nowrap;">아래의 링크를 클릭하시면</span>
         <br/>
-        <span style="white-space:nowrap;">고객님께 꼭 필요한 서비스</span>
-        <br/>
-        <span style="white-space:nowrap;">정보를</span>
+        <span style="white-space:nowrap;">고객님께 꼭 필요한 서비스 정보를</span>
         <br/>
         <span style="white-space:nowrap;">확인하실 수 있습니다.</span>
     	<ul style="margin: 20px; padding: 0; color:#FFFFFF">
