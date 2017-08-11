@@ -49,7 +49,7 @@ color = '''white'''
 	image = '''sk_ford_edm3_topmodule_20170523'''
 
 [[module]]
-path='email_modules/cover/01'
+path='email_modules/cover/05'
 color='fordblue'
 font='sk'
 
@@ -60,15 +60,9 @@ font='sk'
 		<span style="white-space:nowrap;">운전 중 예상치 못한 긴급 상황이 발생하면,</span>
 		<span style="white-space:nowrap;"><a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주세요.</span>
 	'''
-
-[[module]]
-path='email_modules/singles/ctablock'
-color='''fordblue'''
-font='sk'
-
-	cta1_text = '''더 알아보기'''
-	cta1_url = '''https://www.ford-korea.com/owner/emergency/'''
-	cta1_link_name = '''era'''
+	cta_block_vertical_1_copy='''더 알아보기'''
+	cta_block_vertical_1_link_url='''https://www.ford-korea.com/owner/emergency/'''
+	cta_block_vertical_1_link_name = '''era'''
 
 [[module]]
 path='email_modules/split/02'
