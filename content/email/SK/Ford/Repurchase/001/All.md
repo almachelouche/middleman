@@ -19,15 +19,14 @@ color='white'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-    image = '''ph_edm2a_tirechange_20160801'''
+    image = '''sk_edm5_ford_loyalty_offer_20170811'''
 
 [[module]] #Cover 02
 path='email_modules/cover/02'
 
-color='white'
+color='''white'''
 font='sk'
 
-icon='''''' 
 title='''
     <span style="white-space:nowrap;">더 가볍게, 더 특별하게 포드를 다시 만나는 순간</span>
     <br/>
@@ -69,22 +68,16 @@ cta2_text='''<span style="white-space:nowrap;">시승 신청</span>'''
 cta2_url='''https://www.ford-korea.com/owner/warranty/#overlay/content/ford/kr/ko_kr/site-wide-content/overlays/forms/test-drive.html'''
 cta2_link_name='''test_drive'''
     
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
+[[module]]
+path='email_modules/cover/01'
+color='''green'''
+font='sk'
 
-    image = '''ph_edm2a_tirechange_20160801'''
-
-[[module]] #Split 02
-path='email_modules/split/02'
-color='green'
-
-title = '''
-<span style="white-space:nowrap;">포드만의 전문적인 서비스</span>
+title='''<span style="white-space:nowrap;">포드만의 전문적인 서비스</span>
 <br/>
 '''
-copy = '''
-    <span style="white-space:nowrap;">더욱 폭넓어진 소모성 부품 무상교환 서비스(ESP)와 보증 서비스로 </span>
+copy='''
+<span style="white-space:nowrap;">더욱 폭넓어진 소모성 부품 무상교환 서비스(ESP)와 보증 서비스로 </span>
     <br/>
     <span style="white-space:nowrap;">포드와 함께 즐겁고 안전한 드라이빙을 경험하세요.</span>
     <br/>
@@ -92,6 +85,19 @@ copy = '''
     <span style="white-space:nowrap;">아래의 링크를 클릭하면 자세한 정보를 확인할 수 있습니다.</span>
     <br/>
 '''
+
+[[module]]
+path='email_modules/singles/2textcta'
+color='''green'''
+
+cta1_text = '''차량 관리'''
+cta1_url = '''https://www.ford-korea.com/owner/maintenance/'''
+cta1_link_name = '''vehicle_maintanance'''
+cta2_text = '''보증 서비스'''
+cta2_url = '''https://www.ford-korea.com/owner/extended-service-plan/ '''
+cta2_link_name = '''warranty'''
+cta1_icon='''more'''
+
 
 [[module]] #Dual 01
 path='email_modules/dual/01'
@@ -142,6 +148,7 @@ text = '''
 <br/>
 <span style="white-space:nowrap;">본 이메일은 고객님의 요청에 따라 발송되었습니다.</span>
 <a href="https://www.ford-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#91a4b1;">개인정보처리방침</a>
+<br/>
 <br/>
 <span style="white-space:nowrap;">본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다. 
 <br/>

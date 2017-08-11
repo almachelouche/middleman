@@ -2,7 +2,7 @@
 moduletypes = [ "Default" ]
 title = 'Duals Default'
 
-[[module]] #Dual 01
+[[module]]
 path='email_modules/dual/01'
 color='white'
 
@@ -19,7 +19,7 @@ color='white'
 	cta2_url = '''http://google.com'''
 	cta2_link_name = '''link_name_here'''
 
-[[module]] #Dual 02
+[[module]]
 path='email_modules/dual/02'
 color='white'
 
@@ -38,7 +38,7 @@ color='white'
 	cta3_url = '''http://google.com'''
 	cta3_link_name = '''link_name_here'''
 
-[[module]] #Dual 03
+[[module]]
 path='email_modules/dual/03'
 color='white'
 
@@ -60,7 +60,7 @@ color='white'
 	cta2b_link_name = '''link_name_here'''
 	icon2 = '''in_edm2d_status_battery_black_20160801'''
 
-[[module]] #Dual 04
+[[module]]
 path='email_modules/dual/04'
 color='white'
 
@@ -89,20 +89,20 @@ color='white'
 	cta2c_link_name = '''link_name_here'''
 	icon2 = '''in_edm2d_status_battery_black_20160801'''
 
-[[module]] #Dual 05
+[[module]]
 path='email_modules/dual/05'
 color='white'
 
 	title1 = '''Dual 05 Title 1'''
 	text_box_height = '''500'''
 	copy1 = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'''
-	cta1a_text = '''<br /><br />Click me!'''
+	cta1a_text = '''Click me!'''
 	cta1a_url = '''http://google.com'''
 	cta1a_link_name = '''link_name_here'''
-	cta1b_text = '''<br /><br />Click me!'''
+	cta1b_text = '''Click me!'''
 	cta1b_url = '''http://google.com'''
 	cta1b_link_name = '''link_name_here'''
-	cta1c_text = '''<br /><br />Click me!'''
+	cta1c_text = '''Click me!'''
 	cta1c_url = '''http://google.com'''
 	cta1c_link_name = '''link_name_here'''
 	image1 = '''th_edm6_newfocus_20160801'''
@@ -110,13 +110,13 @@ color='white'
 	image1_link_name = '''link_name_here'''
 	title2 = '''Dual 05 Title 2'''
 	copy2 = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'''
-	cta2a_text = '''<br /><br />Click me!'''
+	cta2a_text = '''Click me!'''
 	cta2a_url = '''http://google.com'''
 	cta2a_link_name = '''link_name_here'''
-	cta2b_text = '''<br /><br />Click me!'''
+	cta2b_text = '''Click me!'''
 	cta2b_url = '''http://google.com'''
 	cta2b_link_name = '''link_name_here'''
-	cta2c_text = '''<br /><br />Click me!'''
+	cta2c_text = '''Click me!'''
 	cta2c_url = '''http://google.com'''
 	cta2c_link_name = '''link_name_here'''
 	image2 = '''th_edm6_newfocus_20160801'''
