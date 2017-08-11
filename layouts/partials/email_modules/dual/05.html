@@ -8,11 +8,11 @@
 					<!-- Vertical Spacer column. Controls Text Box height -->
 					<!-- Controlling the Text Box Height is needed to have the images align at the bottom of each side of the split -->
 					<!-- Outlook ignores empty elements height, so prefered method is to include line-height and font-size to control height -->
-					<td class="auto_height" width="30" {{- if ne .moduleinfo.text_box_height nil -}} {{- if (gt (len .moduleinfo.text_box_height) 0) -}} height="{{- .moduleinfo.text_box_height | safeHTML -}}" style="height:{{- .moduleinfo.text_box_height | safeHTML -}}px; font-size:{{- .moduleinfo.text_box_height | safeHTML -}}px; line-height:{{- .moduleinfo.text_box_height | safeHTML -}}px;" {{ end }} {{else}} height="300" style="height:300px; font-size: 300px; line-height: 300px;" {{ end }}>
+					<td class="auto_height" width="30" {{- if ne .moduleinfo.text_box_height nil -}} {{- if (gt (len .moduleinfo.text_box_height) 0) -}} height="{{- .moduleinfo.text_box_height | safeHTML -}}" style="height:{{- .moduleinfo.text_box_height | safeHTML -}}px; font-size:{{- .moduleinfo.text_box_height | safeHTML -}}px; line-height:{{- .moduleinfo.text_box_height | safeHTML -}}px;" {{ end }} {{ end }}>
 						<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
 					</td>
 					<!-- Text Box Column. Including Height control -->
-					<td class="auto_height" {{- if ne .moduleinfo.text_box_height nil -}} {{- if (gt (len .moduleinfo.text_box_height) 0) -}} height="{{- .moduleinfo.text_box_height | safeHTML -}}" style="height:{{- .moduleinfo.text_box_height | safeHTML -}}px; font-size:{{- .moduleinfo.text_box_height | safeHTML -}}px; line-height:{{- .moduleinfo.text_box_height | safeHTML -}}px;" {{ end }} {{else}} height="300" style="height:300px; font-size: 300px; line-height: 300px;" {{ end }}>
+					<td class="auto_height" {{- if ne .moduleinfo.text_box_height nil -}} {{- if (gt (len .moduleinfo.text_box_height) 0) -}} height="{{- .moduleinfo.text_box_height | safeHTML -}}" style="height:{{- .moduleinfo.text_box_height | safeHTML -}}px; font-size:{{- .moduleinfo.text_box_height | safeHTML -}}px; line-height:{{- .moduleinfo.text_box_height | safeHTML -}}px;" {{ end }} {{ end }}>
 						<table width="100%" cellpadding="0" cellspacing="0" border="0">
 							<tr>
 								<td style="padding:30px 0px 30px 0px;" valign="top">
@@ -79,7 +79,7 @@
 						</table>
 					</td>
 					<!-- Vertical Spacer column. Controls Text Box height -->
-					<td class="auto_height" width="30" {{- if ne .moduleinfo.text_box_height nil -}} {{- if (gt (len .moduleinfo.text_box_height) 0) -}} height="{{- .moduleinfo.text_box_height | safeHTML -}}" style="height:{{- .moduleinfo.text_box_height | safeHTML -}}px; font-size:{{- .moduleinfo.text_box_height | safeHTML -}}px; line-height:{{- .moduleinfo.text_box_height | safeHTML -}}px;" {{ end }} {{else}} height="300" style="height:300px; font-size: 300px; line-height: 300px;" {{ end }}>
+					<td class="auto_height" width="30" {{- if ne .moduleinfo.text_box_height nil -}} {{- if (gt (len .moduleinfo.text_box_height) 0) -}} height="{{- .moduleinfo.text_box_height | safeHTML -}}" style="height:{{- .moduleinfo.text_box_height | safeHTML -}}px; font-size:{{- .moduleinfo.text_box_height | safeHTML -}}px; line-height:{{- .moduleinfo.text_box_height | safeHTML -}}px;" {{ end }} {{ end }}>
 						<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
 					</td>
 				</tr>
@@ -115,11 +115,11 @@
 			<table width="310" cellpadding="0" cellspacing="0" border="0" class="wrapper">
 				<tr>
 					<!-- Vertical Spacer column. Controls Text Box height -->
-					<td class="auto_height" width="30" {{- if ne .moduleinfo.text_box_height nil -}} {{- if (gt (len .moduleinfo.text_box_height) 0) -}} height="{{- .moduleinfo.text_box_height | safeHTML -}}" style="height:{{- .moduleinfo.text_box_height | safeHTML -}}px; font-size:{{- .moduleinfo.text_box_height | safeHTML -}}px; line-height:{{- .moduleinfo.text_box_height | safeHTML -}}px;" {{ end }} {{else}} height="300" style="height:300px; font-size: 300px; line-height: 300px;" {{ end }}>
+					<td class="auto_height" width="30" {{- if ne .moduleinfo.text_box_height nil -}} {{- if (gt (len .moduleinfo.text_box_height) 0) -}} height="{{- .moduleinfo.text_box_height | safeHTML -}}" style="height:{{- .moduleinfo.text_box_height | safeHTML -}}px; font-size:{{- .moduleinfo.text_box_height | safeHTML -}}px; line-height:{{- .moduleinfo.text_box_height | safeHTML -}}px;" {{ end }} {{ end }}>
 						<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
 					</td>
 					<!-- Text Box Column. Including Height control -->
-					<td class="auto_height" {{- if ne .moduleinfo.text_box_height nil -}} {{- if (gt (len .moduleinfo.text_box_height) 0) -}} height="{{- .moduleinfo.text_box_height | safeHTML -}}" style="height:{{- .moduleinfo.text_box_height | safeHTML -}}px; font-size:{{- .moduleinfo.text_box_height | safeHTML -}}px; line-height:{{- .moduleinfo.text_box_height | safeHTML -}}px;" {{ end }} {{else}} height="300" style="height:300px; font-size: 300px; line-height: 300px;" {{ end }}>
+					<td class="auto_height" {{- if ne .moduleinfo.text_box_height nil -}} {{- if (gt (len .moduleinfo.text_box_height) 0) -}} height="{{- .moduleinfo.text_box_height | safeHTML -}}" style="height:{{- .moduleinfo.text_box_height | safeHTML -}}px; font-size:{{- .moduleinfo.text_box_height | safeHTML -}}px; line-height:{{- .moduleinfo.text_box_height | safeHTML -}}px;" {{ end }} {{ end }}>
 						<table width="100%" cellpadding="0" cellspacing="0" border="0">
 							<tr>
 								<td style="padding:30px 0px 30px 0px;" valign="top">
@@ -186,7 +186,7 @@
 						</table>
 					</td>
 					<!-- Vertical Spacer column. Controls Text Box height -->
-					<td class="auto_height" width="30" {{- if ne .moduleinfo.text_box_height nil -}} {{- if (gt (len .moduleinfo.text_box_height) 0) -}} height="{{- .moduleinfo.text_box_height | safeHTML -}}" style="height:{{- .moduleinfo.text_box_height | safeHTML -}}px; font-size:{{- .moduleinfo.text_box_height | safeHTML -}}px; line-height:{{- .moduleinfo.text_box_height | safeHTML -}}px;" {{ end }} {{else}} height="300" style="height:300px; font-size: 300px; line-height: 300px;" {{ end }}>
+					<td class="auto_height" width="30" {{- if ne .moduleinfo.text_box_height nil -}} {{- if (gt (len .moduleinfo.text_box_height) 0) -}} height="{{- .moduleinfo.text_box_height | safeHTML -}}" style="height:{{- .moduleinfo.text_box_height | safeHTML -}}px; font-size:{{- .moduleinfo.text_box_height | safeHTML -}}px; line-height:{{- .moduleinfo.text_box_height | safeHTML -}}px;" {{ end }} {{ end }}>
 						<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;">
 					</td>
 				</tr>
