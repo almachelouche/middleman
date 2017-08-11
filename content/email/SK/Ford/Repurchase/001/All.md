@@ -143,6 +143,7 @@ text = '''
 <span style="white-space:nowrap;">본 이메일은 고객님의 요청에 따라 발송되었습니다.</span>
 <a href="https://www.ford-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#91a4b1;">개인정보처리방침</a>
 <br/>
+<br/>
 <span style="white-space:nowrap;">본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다. 
 <br/>
 <br/>

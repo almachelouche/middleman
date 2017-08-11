@@ -18,13 +18,14 @@ color='white'
 
 [[module]] #Cover 01 
 path='email_modules/cover/02'
-color='''white'''
+color='''lincoln_white'''
 font='sk'
 
 	title='''
     <span style="white-space:nowrap;">가장 매력적인 조건으로 링컨을 다시 만나세요</span>
     <br/>
-    <br/>'''
+    <br/>
+    '''
 	copy='''
 	<span style="white-space:nowrap;">함께 해온 소중한 인연에 다시 한번 깊은 감사를 드리며</span>
     <br/>
@@ -118,7 +119,8 @@ font='sk'
 	title1 = '''
 	<span style="white-space:nowrap;">기대 그 이상의 경험,</span>
     <br/>
-	<span style="white-space:nowrap;">링컨 고객센터</span>'''
+	<span style="white-space:nowrap;">링컨 고객센터</span>
+    '''
 	copy1 = '''
 	<span style="white-space:nowrap;">도움이나 의견이 필요하시면</span>
     <br/>
@@ -132,7 +134,9 @@ font='sk'
 	'''
 	copy2 = '''
 	<span style="white-space:nowrap;">가장 가까운 전시장 및</span>
-	<span style="white-space:nowrap;">서비스센터를 찾아보십시오.</span>'''
+    <br/>
+	<span style="white-space:nowrap;">서비스센터를 찾아보십시오.</span>
+    '''
 	cta1_text = '''<span style="white-space:nowrap;">자세히 보기</span>'''
 	cta1_url = '''https://www.lincoln-korea.com/contact-us/'''
 	cta1_link_name = '''contact_us'''
@@ -152,6 +156,7 @@ color='white'
 <span style="white-space:nowrap;">이메일 수신을 원치 않으시면</span>
 <span class="mobile-display-block"></span><a href="<%unsubscribe_link_text%>" style="color:#FFFFFF; text-decoration:underline">여기</a>를 클릭하십시오.</span>
 <br/>
+<br/>
 <span style="white-space:nowrap;">앞으로 저희가 보내드리는 이메일 수신을 위해 고객님의 주소록이나 이메일 수신 허용 목록에</span>
 <br/>
 <span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif; text-decoration:underline;">fordnews@mail.edmasia.com</span>을 추가해주십시오.</span>
@@ -159,6 +164,7 @@ color='white'
 <br/>
 <span style="white-space:nowrap;">본 이메일은 고객님의 요청에 따라 발송되었습니다.</span>
 <a href="https://www.lincoln-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#FFFFFF;">개인정보처리방침</a>
+<br/>
 <br/>
 <span style="white-space:nowrap;">본 이메일은 발신 전용 메일로, 회신은 처리되지 않습니다.</span>
 <br/>
