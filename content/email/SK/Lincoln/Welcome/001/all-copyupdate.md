@@ -52,21 +52,17 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''sk_lincoln_edm1_topmodule_20170427'''
-
-[[module]] #Cover 01
-path='email_modules/cover/01'
-color='''lincoln_black'''
-
-title = '''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>24시간 긴급출동 서비스</b></span>'''
-	copy = '''<span style="font-family:'Nanum-Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">링컨 긴급출동 서비스는 365일 24시간 이용 가능합니다.<br />운전 중 예상치 못한 긴급 상황이 발생하면, <a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주십시오.</span>'''
-
+    
 [[module]]
-path='email_modules/singles/ctablock'
+path='email_modules/cover/05'
 color='''lincoln_black'''
 
-	cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;color:rgb(51,51,51);">더 알아보기</span>'''
-	cta1_url = '''https://www.lincoln-korea.com/parts-service/roadside-assistance/'''
-	cta1_link_name = '''era'''
+	title='''<span style="font-size:20px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>24시간 긴급출동 서비스</b></span>'''
+	copy='''<span style="font-family:'Nanum-Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">링컨 긴급출동 서비스는 365일 24시간 이용 가능합니다.<br />운전 중 예상치 못한 긴급 상황이 발생하면, <a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주십시오.</span>'''
+
+	cta_block_vertical_1_copy='''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;color:rgb(51,51,51);">더 알아보기</span>'''
+	cta_block_vertical_1_link_url='''https://www.lincoln-korea.com/parts-service/roadside-assistance/'''
+	cta_block_vertical_1_link_name = '''era'''
 
 [[module]] #Split 02
 path='email_modules/split/02'

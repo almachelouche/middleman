@@ -90,11 +90,10 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''sk_lincoln_edm3_ESP_20170524'''
-
-[[module]] #Cover 01    
-path='email_modules/cover/01'
+    
+[[module]]
+path='email_modules/cover/05'
 color='''lincoln_black'''
-font='sk'
 
 	title='''<span style="white-space:nowrap;">링컨만의 위한 안심 서비스</span>'''
 	copy='''
@@ -113,14 +112,10 @@ font='sk'
     <br/>
     <span style="white-space:nowrap;">&#8226; 3년 내에 서비스 기간 5년 연장 상품 구매가 가능합니다.</span>
     '''
-	
-[[module]]
-path='email_modules/singles/ctablock'
-color='''lincoln_black'''
 
-	cta1_text = '''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;color:#515151;"><span style="white-space:nowrap;">더 알아보기</span></span>'''
-	cta1_url = '''https://www.lincoln-korea.com/parts-service/extended-service-plan/'''
-	cta1_link_name = '''esp'''
+	cta_block_vertical_1_copy='''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;color:#515151;"><span style="white-space:nowrap;">더 알아보기</span></span>'''
+	cta_block_vertical_1_link_url='''https://www.lincoln-korea.com/parts-service/extended-service-plan/'''
+	cta_block_vertical_1_link_name = '''esp'''
     
 [[module]] #Split 02
 path='email_modules/split/02'
