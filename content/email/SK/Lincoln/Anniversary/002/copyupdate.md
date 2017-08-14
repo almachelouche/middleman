@@ -50,6 +50,7 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''sk_lincoln_edm3_topmodule_20170523'''
+    
 [[module]]
 path='email_modules/cover/05'
 color='''lincoln_black'''
