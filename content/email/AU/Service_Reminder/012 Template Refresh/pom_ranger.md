@@ -75,31 +75,49 @@ color='white'
 
 	height="30"
 
-[[module]] #Split 13
-path='email_modules/split/13'
+[[module]]
+path='email_modules/spacer/platinum_20'
 color='white'
 
-	title1='''Air Intake Snorkel&#178;'''
-	title2='''Smart Tonneau Cover&#179;'''
-	copy1='''Tackle deep-water crossings and dusty roads with Ranger's high-strength, durable, UV-resistant polyethylene snorkel.<br/><br/>'''
-	copy2='''This UV-resistant soft tonneau cover helps protect your equipment from rain and dust, without drilling fitments, exposed straps or cotton reels.'''
-	image1='''au_edm2_ranger_accessories1_20170629''' image1_url='''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
-    image1_name='''Some'''
-    image2='''au_edm2_ranger_accessories2_20170629'''  image2_url='''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
-    image2_name='''Some'''
-    
-[[module]] #Split 13
-path='email_modules/split/13'
+[[module]]
+path='email_modules/dual/05'
 color='white'
 
-	title1='''Serious Bonnet Protection'''
-	title2='''Fully-loaded Tow Pack&#8308;'''
-	copy1='''Protect the front of your bonnet from stones, bugs and other small objects with our tough, durable, UV-resistant bonnet protector.<br/><br/>'''
-	copy2='''The comprehensive Ford Tow Pack perfectly pairs with Ranger's Dynamic Stability Control technology for next-level towing.<br/><br/>'''
-	image1='''au_edm2_ranger_accessories3_20170629''' image1_url='''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
-    image1_name='''Some'''
-    image2='''au_edm2_ranger_accessories4_20170629'''  image2_url='''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
-    image2_name='''Some'''
+	title1 = '''Air Intake Snorkel&#178;'''
+	text_box_height = '''260'''
+	copy1 = '''Tackle deep-water crossings and dusty roads with Ranger's high-strength, durable, UV-resistant polyethylene snorkel.'''
+	image1 = '''au_edm2_ranger_accessories1_20170629'''
+	image1_link_url = '''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
+	image1_link_name = '''link_name_here'''
+	title2 = '''Smart Tonneau Cover&#179;'''
+	copy2 = '''This UV-resistant soft tonneau cover helps protect your equipment from rain and dust, without drilling fitments, exposed straps or cotton reels.'''
+	image2 = '''au_edm2_ranger_accessories2_20170629'''
+	image2_link_url = '''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
+	image2_link_name = '''link_name_here'''
+
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
+[[module]]
+path='email_modules/dual/05'
+color='white'
+
+	title1 = '''Serious Bonnet Protection'''
+	text_box_height = '''260'''
+	copy1 = '''Protect the front of your bonnet from stones, bugs and other small objects with our tough, durable, UV-resistant bonnet protector.'''
+	image1 = '''au_edm2_ranger_accessories3_20170629'''
+	image1_link_url = '''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
+	image1_link_name = '''link_name_here'''
+	title2 = '''Fully-loaded Tow Pack&#8308;'''
+	copy2 = '''The comprehensive Ford Tow Pack perfectly pairs with Ranger's Dynamic Stability Control technology for next-level towing.'''
+	image2 = '''au_edm2_ranger_accessories4_20170629'''
+	image2_link_url = '''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
+	image2_link_name = '''link_name_here'''
+
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
 
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
