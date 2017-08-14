@@ -71,7 +71,7 @@ font='sk'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = ''''''
+	image = '''sk_edm5_lincoln_service_content_20170814'''
 
 [[module]] #Cover 02
 path='email_modules/cover/02'

@@ -86,6 +86,12 @@ copy='''
     <br/>
 '''
 
+[[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+
+    image = '''sk_edm5_ford_service_content_20170814'''
+
 [[module]]
 path='email_modules/singles/2textcta'
 color='''green'''
