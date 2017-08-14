@@ -83,6 +83,10 @@ color='white'
 	height="30"
 
 [[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
+[[module]]
 path='email_modules/dual/05'
 color='white'
 
@@ -98,6 +102,10 @@ color='white'
 	image2_link_url = '''https://www.ford.com.au/suv/everest/smart-accessories/'''
 	image2_link_name = '''link_name_here'''
     
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
 color='white'
