@@ -81,22 +81,23 @@ path='email_modules/spacer/default'
 color='white'
 
 	height="30"
-    
- [[module]] #Split 13
-path='email_modules/split/13'
+
+[[module]]
+path='email_modules/dual/05'
 color='white'
 
-	title1='''Fully Loaded Tow Pack'''
-	title2='''No Nonsense Nudge Bar'''
-	copy1='''With up to 3,000kg&#178; towing capacity, take on the most epic journeys with the Genuine Ford towpack. The tow pack pairs perfectly with the Everest's Dynamic Stability Control, automatically adapting to changing loads for greater control.'''
-	copy2='''Like our range of bull bars, the genuine Ford nudge bar provides added protection to the front of your Everest and has met Ford's stringent engineering and safety standards.<br/><br/>'''
-	image1='''au_edm2_everest_accessories2_20170629'''
-    image1_url='''https://www.ford.com.au/suv/everest/smart-accessories/'''
-    image1_name='''Some'''
-    image2='''au_edm2_everest_accessories3_20170629'''
-    image2_url='''https://www.ford.com.au/suv/everest/smart-accessories/'''
-    image2_name='''Some'''
-
+	title1 = '''Fully Loaded Tow Pack'''
+	text_box_height = '''270'''
+	copy1 = '''With up to 3,000kg&#178; towing capacity, take on the most epic journeys with the Genuine Ford towpack. The tow pack pairs perfectly with the Everest's Dynamic Stability Control, automatically adapting to changing loads for greater control.'''
+	image1 = '''au_edm2_everest_accessories2_20170629'''
+	image1_link_url = '''https://www.ford.com.au/suv/everest/smart-accessories/'''
+	image1_link_name = '''link_name_here'''
+	title2 = '''No Nonsense Nudge Bar'''
+	copy2 = '''Like our range of bull bars, the genuine Ford nudge bar provides added protection to the front of your Everest and has met Ford's stringent engineering and safety standards.'''
+	image2 = '''au_edm2_everest_accessories3_20170629'''
+	image2_link_url = '''https://www.ford.com.au/suv/everest/smart-accessories/'''
+	image2_link_name = '''link_name_here'''
+    
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
 color='white'
