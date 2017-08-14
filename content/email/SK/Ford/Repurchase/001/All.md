@@ -73,7 +73,6 @@ cta2_text='''<span style="white-space:nowrap;">시승 신청</span>'''
 cta2_url='''https://www.ford-korea.com/owner/warranty/#overlay/content/ford/kr/ko_kr/site-wide-content/overlays/forms/test-drive.html'''
 cta2_link_name='''test_drive''' 
 
-Ford Repurchase
 [[module]]
 path='email_modules/spacer/default'
 color='white'
