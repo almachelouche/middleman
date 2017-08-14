@@ -63,12 +63,6 @@ copy='''
 '''
 
 [[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
-
-[[module]]
 path='email_modules/singles/2ctablocksideoutline'
 color='''white'''
 
@@ -77,7 +71,13 @@ cta1_url='''https://www.ford-korea.com/vehicles/?intcmp=hp-return-show'''
 cta1_link_name='''era'''
 cta2_text='''<span style="white-space:nowrap;">시승 신청</span>'''
 cta2_url='''https://www.ford-korea.com/owner/warranty/#overlay/content/ford/kr/ko_kr/site-wide-content/overlays/forms/test-drive.html'''
-cta2_link_name='''test_drive'''    
+cta2_link_name='''test_drive''' 
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
 
 [[module]]
 path='email_modules/cover/01'
