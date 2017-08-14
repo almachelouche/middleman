@@ -38,28 +38,20 @@ color = '''white'''
 	image = '''sk_ford_edm1_topmodule_20170419'''
 
 [[module]]
-path='email_modules/cover/01'
-color='''fordblue'''
+path='email_modules/cover/05'
+color='fordblue'
+font='sk'
 
-	title = ''' <span style="white-space:nowrap;">24시간 긴급출동 서비스</span>'''
-	copy = '''
-        <span style="white-space:nowrap;">포드 긴급출동 서비스는 365일 24시간 이용 가능합니다.</span>
-        <br/>
-        <span style="white-space:nowrap;">운전 중 예상치 못한 긴급 상황이 발생하면,</span>
-        <span style="white-space:nowrap;"><a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>
-        <span style="white-space:nowrap;">으로 연락주세요.</span>
-        </span>
-    '''
-
-[[module]]
-path='email_modules/singles/ctablock'
-color='''fordblue'''
-
-	cta1_text = '''
-        <span style="white-space:nowrap;">더 알아보기</span>
-    '''
-	cta1_url = '''https://www.ford-korea.com/owner/emergency/'''
-	cta1_link_name = '''era'''
+	title='''<span style="white-space:nowrap;">24시간 긴급출동 서비스</span>'''
+	copy='''
+		<span style="white-space:nowrap;">포드 긴급출동 서비스는</span> 
+		<span style="white-space:nowrap;">365일 24시간 이용 가능합니다.</span>
+		<span style="white-space:nowrap;">운전 중 예상치 못한 긴급 상황이 발생하면,</span>
+		<span style="white-space:nowrap;"><a href="tel:080-300-3673" name="tel" style="text-decoration:none; color:#FFFFFF;">080-300-3673</a>으로 연락주세요.</span>
+	'''
+	cta_block_vertical_1_copy='''더 알아보기'''
+	cta_block_vertical_1_link_url='''https://www.ford-korea.com/owner/emergency/'''
+	cta_block_vertical_1_link_name = '''era'''
 
 [[module]]
 path='email_modules/split/02'
