@@ -65,18 +65,12 @@ path='email_modules/dual/01'
 color='lincoln_white'
 font='sk'
 
-	icon1 = ''''''
-	title1 = ''''''
-	copy1 = ''''''
-	icon2 = ''''''
-	title2 = ''''''
-	copy2 = ''''''
-    cta1_text = '''<span style="white-space:nowrap;">차량 관리</span>'''
-	cta1_url = '''https://www.lincoln-korea.com/vehicle-maintenance/'''
-	cta1_link_name = '''vehicle_maintanance'''
-	cta2_text = '''<span style="white-space:nowrap;">보증 서비스</span>'''
-	cta2_url = '''https://www.lincoln-korea.com/parts-service/extended-service-plan/'''
-	cta2_link_name = '''warranty'''
+    cta1_text = '''<span style="white-space:nowrap;">더 알아보기</span>'''
+	cta1_url = '''https://www.lincoln-korea.com/vehicles/menu/?intcmp=hp-return-brand-gallery  '''
+	cta1_link_name = '''era'''
+	cta2_text = '''<span style="white-space:nowrap;">시승 신청</span>'''
+	cta2_url = '''https://www.lincoln-korea.com/overlay/test-drive/'''
+	cta2_link_name = '''test_drive'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -105,6 +99,18 @@ font='sk'
 	cta1_link_name = '''vehicle_maintanance'''
 	cta2_text='''<span style="white-space:nowrap;">보증 서비스</span>'''
 	cta2_url='''https://www.lincoln-korea.com/parts-service/extended-service-plan/'''
+	cta2_link_name = '''warranty'''
+
+[[module]] #Dual 01    
+path='email_modules/dual/01'
+color='lincoln_white'
+font='sk'
+
+    cta1_text = '''<span style="white-space:nowrap;">차량 관리</span>'''
+	cta1_url = '''https://www.lincoln-korea.com/vehicle-maintenance/'''
+	cta1_link_name = '''vehicle_maintanance'''
+	cta2_text = '''<span style="white-space:nowrap;">보증 서비스</span>'''
+	cta2_url = '''https://www.lincoln-korea.com/parts-service/extended-service-plan/'''
 	cta2_link_name = '''warranty'''
 
 [[module]]
