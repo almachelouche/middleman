@@ -238,9 +238,9 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
-segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
+segmentif = ["(user.CustomAttribute['Segment'] == 'B')"]
 
-  text='''*Terms & conditions apply. Offer applicable for Ford owners of 2007-2012 and servicing their cars  between 2nd September to 17th September 2017. Given offers are applicable only in Haryana, Chandigarh, Delhi NCR, Rajasthan, Jammu & Kashmir, Andhra Pradesh, Telangana, Gujarat, Goa, West Bengal & Assam and cannot be clubbed with other offers. Offer not applicable on accidental jobs and body repair.'''
+  text='''*Terms & conditions apply. Offer applicable for Ford owners of 2007-2012 and servicing their cars  between 11th September to 25th September 2017. Given offers are applicable only in Kerala and cannot be clubbed with other offers. Offer not applicable on accidental jobs and body repair.'''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
