@@ -101,7 +101,7 @@ copy='''
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-    image = ''''''
+    image = '''sk_edm5_ford_service_content_20170814'''
 
 [[module]]
 path='email_modules/singles/2textcta'

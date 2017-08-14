@@ -60,6 +60,22 @@ font='sk'
     <span style="white-space:nowrap;">단, 상기 프로모션은 차종 및 전시장 상황에 따라 다를 수 있습니다</span>
     '''
 
+[[module]] #Dual 01    
+path='email_modules/dual/01'
+color='lincoln_white'
+font='sk'
+
+	icon1 = ''''''
+	title1 = ''''''
+	copy1 = ''''''
+	icon2 = ''''''
+	title2 = '''
+	'''
+	copy2 = '''
+	<span style="white-space:nowrap;">가장 가까운 전시장 및</span>
+    <br/>
+	<span style="white-space:nowrap;">서비스센터를 찾아보십시오.</span>
+    '''
     cta1_text = '''<span style="white-space:nowrap;">더 알아보기</span>'''
 	cta1_url = '''https://www.lincoln-korea.com/vehicles/menu/?intcmp=hp-return-brand-gallery'''
 	cta1_link_name = '''era'''
@@ -71,7 +87,7 @@ font='sk'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = ''''''
+	image = '''sk_edm5_lincoln_service_content_20170814'''
 
 [[module]] #Cover 02
 path='email_modules/cover/02'
