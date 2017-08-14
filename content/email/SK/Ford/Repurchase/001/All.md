@@ -61,13 +61,18 @@ copy='''
     <br/>
     <span style="white-space:nowrap;">단, 상기 프로모션은 차종 및 전시장 상황에 따라 다를 수 있습니다</span>
 '''
+
+[[module]]
+path='email_modules/singles/2ctablocksideoutline'
+color='''white'''
+
 cta1_text='''<span style="white-space:nowrap;">더 알아보기</span>'''
 cta1_url='''https://www.ford-korea.com/vehicles/?intcmp=hp-return-show'''
 cta1_link_name='''era'''
 cta2_text='''<span style="white-space:nowrap;">시승 신청</span>'''
 cta2_url='''https://www.ford-korea.com/owner/warranty/#overlay/content/ford/kr/ko_kr/site-wide-content/overlays/forms/test-drive.html'''
-cta2_link_name='''test_drive'''
-    
+cta2_link_name='''test_drive'''    
+
 [[module]]
 path='email_modules/cover/01'
 color='''green'''
