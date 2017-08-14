@@ -60,13 +60,6 @@ font='sk'
     <span style="white-space:nowrap;">단, 상기 프로모션은 차종 및 전시장 상황에 따라 다를 수 있습니다</span>
     '''
 
-	cta_block_vertical_1_copy='''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;color:#333333;"><span style="white-space:nowrap;">더 알아보기</span></span>'''
-	cta_block_vertical_1_link_url='''https://www.lincoln-korea.com/vehicles/menu/?intcmp=hp-return-brand-gallery'''
-	cta_block_vertical_1_link_name = '''era''' 
-   	cta_block_vertical_2_copy='''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif;color:#333333;"><span style="white-space:nowrap;"></span>시승 신청</span>'''
-	cta_block_vertical_2_link_url='''https://www.lincoln-korea.com/overlay/test-drive/'''
-	cta_block_vertical_2_link_name = '''test_drive''' 
-
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
