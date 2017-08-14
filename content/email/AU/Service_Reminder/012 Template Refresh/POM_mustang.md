@@ -58,34 +58,49 @@ color='''white'''
 
 	copy='''<br />When looking to personalise your Ford Mustang there are no better accessories than Ford Genuine Accessories & Ford licenced Accessories (FLA). See a selection below or <a href="https://www.ford.com.au/cars/mustang/smart-accessories/" style="text-decoration:underline; color:#2D96CD;" >Click here</a> to see the full range.'''
 
- [[module]] #Split 13
-path='email_modules/split/13'
+[[module]]
+path='email_modules/spacer/platinum_20'
 color='white'
 
-	title1='''Track Handling Pack&#178;'''
-	title2='''Mobile Text Centers&#178;'''
-	copy1='''Assembled with Ford Performance Parts, the high-performance Track Handling Pack is the perfect suspension system for the driver who demands the most from their Mustang.'''
-	copy2='''Designed to work with production struts, shocks and sway bars, the Mustang Lowering Kit lowers your Mustang by 2.5cm for a more aggressive stance.<br/><br/>'''
-	image1='''au_edm2_mustang_accessories2_20170629'''
-    image1_url='''https://www.ford.com.au/cars/mustang/smart-accessories/'''
-    image1_name='''Some'''
-    image2='''au_edm2_mustang_accessories3_20170629'''
-    image2_url='''https://www.ford.com.au/cars/mustang/smart-accessories/'''
-    image2_name='''Some'''
-    
-    [[module]] #Split 13
-path='email_modules/split/13'
+[[module]]
+path='email_modules/dual/05'
 color='white'
 
-	title1='''Fastback High Rise Spoiler'''
-	title2='''Body Styling Kit'''
-	copy1='''Painted in Absolute Black this high rise rear spoiler will give your Mustang real presence.<br/><br/>'''
-	copy2='''Add a stylish and dynamic look to your Mustang. This styling kit includes a front spoiler, side rockers, stripe kit, and much more.'''
-	image1='''au_edm2_mustang_accessories5_20170714''' image1_url='''https://www.ford.com.au/cars/mustang/smart-accessories/'''
-    image1_name='''Some'''
-    image2='''au_edm2_mustang_accessories5_20170629'''
-    image2_url='''https://www.ford.com.au/cars/mustang/smart-accessories/'''
-    image2_name='''Some'''
+	title1 = '''Track Handling Pack&#178;'''
+	text_box_height = '''280'''
+	copy1 = '''Assembled with Ford Performance Parts, the high-performance Track Handling Pack is the perfect suspension system for the driver who demands the most from their Mustang.'''
+	image1 = '''au_edm2_mustang_accessories2_20170629'''
+	image1_link_url = '''https://www.ford.com.au/cars/mustang/smart-accessories/'''
+	image1_link_name = '''link_name_here'''
+	title2 = '''Mobile Text Centers&#178;'''
+	copy2 = '''Designed to work with production struts, shocks and sway bars, the Mustang Lowering Kit lowers your Mustang by 2.5cm for a more aggressive stance.'''
+	image2 = '''au_edm2_mustang_accessories3_20170629'''
+	image2_link_url = '''https://www.ford.com.au/cars/mustang/smart-accessories/'''
+	image2_link_name = '''link_name_here'''
+
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white' 
+ 
+ [[module]]
+path='email_modules/dual/05'
+color='white'
+
+	title1 = '''Fastback High Rise Spoiler'''
+	text_box_height = '''280'''
+	copy1 = '''Painted in Absolute Black this high rise rear spoiler will give your Mustang real presence.'''
+	image1 = '''au_edm2_mustang_accessories5_20170714'''
+	image1_link_url = '''https://www.ford.com.au/cars/mustang/smart-accessories/'''
+	image1_link_name = '''link_name_here'''
+	title2 = '''Body Styling Kit'''
+	copy2 = '''Add a stylish and dynamic look to your Mustang. This styling kit includes a front spoiler, side rockers, stripe kit, and much more.'''
+	image2 = '''au_edm2_mustang_accessories5_20170629'''
+	image2_link_url = '''https://www.ford.com.au/cars/mustang/smart-accessories/'''
+	image2_link_name = '''link_name_here'''
+
+ [[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
  
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
