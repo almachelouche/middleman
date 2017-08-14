@@ -21,7 +21,7 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''sk_edm5_lincoln_loyalty_offer_20170811'''
-    
+
 [[module]] #Cover 01 
 path='email_modules/cover/02'
 color='''lincoln_white'''
@@ -59,13 +59,6 @@ font='sk'
     <br/>
     <span style="white-space:nowrap;">단, 상기 프로모션은 차종 및 전시장 상황에 따라 다를 수 있습니다</span>
     '''
-    cta1_text='''<span style="white-space:nowrap;">더 알아보기</span>'''
-    cta1_url='''https://www.lincoln-korea.com/vehicles/menu/?intcmp=hp-return-brand-gallery'''
-    cta1_link_name='''era'''
-    cta2_text='''<span style="white-space:nowrap;">시승 신청</span>'''
-    cta2_url='''https://www.lincoln-korea.com/overlay/test-drive/'''
-    cta2_link_name='''test_drive'''
-    
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -89,12 +82,6 @@ font='sk'
     <br/>
     <span style="white-space:nowrap;">아래의 링크를 클릭하면 자세한 정보를 확인할 수 있습니다.</span> 
     '''
-	cta1_text='''<span style="white-space:nowrap;">차량 관리</span>'''
-	cta1_url='''https://www.lincoln-korea.com/vehicle-maintenance/'''
-	cta1_link_name = '''vehicle_maintanance'''
-	cta2_text='''<span style="white-space:nowrap;">보증 서비스</span>'''
-	cta2_url='''https://www.lincoln-korea.com/parts-service/extended-service-plan/'''
-	cta2_link_name = '''warranty'''
 
 [[module]]
 path='email_modules/cover/05'
