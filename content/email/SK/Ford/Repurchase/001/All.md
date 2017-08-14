@@ -47,11 +47,11 @@ copy='''
     <span style="white-space:nowrap;">아래의 차종에 대한 재구매 금융 프로그램을 제공하고 있습니다.</span>
     <br/>
     <br/>
-    <span style="white-space:nowrap;">- Explorer: 800,000 원</span>
+    <span style="white-space:nowrap;"></span>- Explorer: 800,000 원</span>
     <br/>
     <span style="white-space:nowrap;">- Kuga: 500,000 원</span>
     <br/>
-    <span style="white-space:nowrap;">- Mustang: 800,000 원</span>
+    <span style="white-space:nowrap;"></span>- Mustang: 800,000 원</span>
     <br/>
     <br/>
     <span style="white-space:nowrap;">다양한 재구매 특별 혜택으로</span>
