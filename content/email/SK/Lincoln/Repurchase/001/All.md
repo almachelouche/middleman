@@ -82,12 +82,6 @@ font='sk'
     <br/>
     <span style="white-space:nowrap;">아래의 링크를 클릭하면 자세한 정보를 확인할 수 있습니다.</span> 
     '''
-	cta1_text='''<span style="white-space:nowrap;">차량 관리</span>'''
-	cta1_url='''https://www.lincoln-korea.com/vehicle-maintenance/'''
-	cta1_link_name = '''vehicle_maintanance'''
-	cta2_text='''<span style="white-space:nowrap;">보증 서비스</span>'''
-	cta2_url='''https://www.lincoln-korea.com/parts-service/extended-service-plan/'''
-	cta2_link_name = '''warranty'''
 
 [[module]]
 path='email_modules/cover/05'
