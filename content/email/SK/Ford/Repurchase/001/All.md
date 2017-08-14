@@ -79,6 +79,12 @@ color='white'
 
 	height="30"
 
+[[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+
+    image = '''sk_edm5_ford_service_content_20170814'''
+
 [[module]]
 path='email_modules/cover/01'
 color='''green'''
@@ -96,12 +102,6 @@ copy='''
     <span style="white-space:nowrap;">아래의 링크를 클릭하면 자세한 정보를 확인할 수 있습니다.</span>
     <br/>
 '''
-
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
-    image = '''sk_edm5_ford_service_content_20170814'''
 
 [[module]]
 path='email_modules/singles/2textcta'
