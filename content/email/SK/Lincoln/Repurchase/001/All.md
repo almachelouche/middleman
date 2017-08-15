@@ -21,17 +21,16 @@ color = 'white'
 	image = '''sk_edm5_lincoln_loyalty_offer_20170811'''
 
 [[module]]
-path='email_modules/cover/02'
-color='lincoln_white'
-font='sk'
+path='email_modules/cover/master'
+color='''white'''
 
 	title='''
-		<span style="white-space:nowrap;">가장 매력적인 조건으로 링컨을 다시 만나세요</span>
+        <span style="white-space:nowrap;">가장 매력적인 조건으로 링컨을 다시 만나세요</span>
 		<br/>
 		<br/>
-	'''
+    '''
 	copy='''
-		<span style="white-space:nowrap;">함께 해온 소중한 인연에 다시 한번 깊은 감사를 드리며</span>
+        <span style="white-space:nowrap;">함께 해온 소중한 인연에 다시 한번 깊은 감사를 드리며</span>
 		<br/>
 		<span style="white-space:nowrap;">링컨과의 여정에 변치 않는 감동이 오래도록 함께 하기를 바랍니다</span>
 		<br/>
@@ -56,7 +55,30 @@ font='sk'
 		<br/>
 		<br/>
 		<span style="white-space:nowrap;">단, 상기 프로모션은 차종 및 전시장 상황에 따라 다를 수 있습니다</span>
-	'''
+    '''
+
+	cta_direction = '''horizontal'''
+
+	cta_1_copy = '''더 알아보기'''
+	cta_1_link_url = '''https://www.lincoln-korea.com/vehicles/menu/?intcmp=hp-return-brand-gallery'''
+	cta_1_link_name = '''era'''
+	cta_1_icon = ''''''
+	cta_1_type = '''block'''
+	cta_1_width = ''''''
+
+	cta_2_copy = ''''''
+	cta_2_link_url = ''''''
+	cta_2_link_name = ''''''
+	cta_2_icon = ''''''
+	cta_2_type = '''outline'''
+	cta_2_width = '''240'''
+
+	cta_3_copy = '''시승 신청'''
+	cta_3_link_url = '''https://www.lincoln-korea.com/overlay/test-drive/'''
+	cta_3_link_name = '''test_drive'''
+	cta_3_icon = ''''''
+	cta_3_type = '''block'''
+	cta_3_width = ''''''
 
 [[module]]
 path = 'email_modules/image/banner_nolink'
