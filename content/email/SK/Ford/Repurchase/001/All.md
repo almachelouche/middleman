@@ -115,11 +115,11 @@ font='sk'
 	cta1_text='''차량 관리'''
 	cta1_url='''hhttps://www.ford-korea.com/owner/maintenance/'''
 	cta1_link_name = '''vehicle_maintanance'''
-	cta1_icon=''''''
+	cta1_icon='''play'''
 	cta2_text='''보증 서비스'''
 	cta2_url='''https://www.ford-korea.com/owner/extended-service-plan/'''
 	cta2_link_name = '''warranty'''
-	cta2_icon=''''''
+	cta2_icon='''play'''
 
 [[module]] #Dual 01
 path='email_modules/dual/01'
