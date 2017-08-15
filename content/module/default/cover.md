@@ -88,4 +88,26 @@ color='''fordblue'''
 	cta_block_horizontal_2_link_url='''https://www.ford.com'''
 	cta_block_horizontal_2_link_name = '''link_name_here'''
 
+	cta_1_copy = '''Hello 1'''
+	cta_1_link_url = '''https://www.ford.com/1'''
+	cta_1_link_name = '''link_1_name_here'''
+	cta_1_icon = '''more'''
+	cta_1_type = '''text'''
+	cta_1_width = '''240'''
+
+	cta_2_copy = '''Hello 2 Hello 2'''
+	cta_2_link_url = '''https://www.ford.com/2'''
+	cta_2_link_name = '''link_2_name_here'''
+	cta_2_icon = '''play'''
+	cta_2_type = '''text'''
+
+	cta_3_copy = '''Hello 3'''
+	cta_3_link_url = '''https://www.ford.com/3'''
+	cta_3_link_name = '''link_3_name_here'''
+	cta_3_icon = '''play'''
+	cta_3_type = '''text'''
+
+	cta_direction = '''vertical'''
+
+
 +++
