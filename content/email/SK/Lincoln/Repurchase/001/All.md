@@ -58,21 +58,6 @@ color='''white'''
     '''
 
 [[module]]
-path='email_modules/singles/2textcta'
-color='''white'''
-
-    cta_direction = '''horizontal'''
-
-	cta1_text = '''더 알아보기'''
-	cta1_url = '''https://www.lincoln-korea.com/vehicles/menu/?intcmp=hp-return-brand-gallery'''
-	cta1_link_name = '''era'''
-    cta_1_type = '''block'''
-	cta2_text = '''시승 신청'''
-	cta2_url = '''https://www.lincoln-korea.com/overlay/test-drive/'''
-	cta2_link_name = '''test_drive'''
-	cta_2_type = '''block'''
-
-[[module]]
 path = 'email_modules/image/banner_nolink'
 color = 'white'
 
