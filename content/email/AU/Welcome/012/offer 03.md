@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU Welcome 012 Offer March'''
+title = '''AU Welcome 012 Offer'''
 
 [[module]]
 path='email_modules/preheaderbefore'

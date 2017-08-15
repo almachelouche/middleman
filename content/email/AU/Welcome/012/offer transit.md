@@ -42,8 +42,6 @@ color='white'
 	image = '''white'''
 	url_link = '''https://www.ford.com.au/'''
 
-
-
  
 [[module]] #Cover 01 - Repeat Buyer
 path='email_modules/cover/01'
@@ -73,9 +71,9 @@ color = '''white'''
 path='email_modules/cover/03'
 color='''white'''
 
-	copy='''<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace of mind.<br /><br /><span style="font-weight: bold;">Roadside Assistance</span><br /><br />Get help when you need it most with State Auto Club membership for up to 7 years&#185;.<br /><br /><span style="font-weight: bold;">Service Price Promise</span><br /><br />Know what you’ll pay for standard service before you even come in.<br /><br /><span style="font-weight: bold;">
+	copy='''<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we include these service offerings for added peace of mind:<br /><br /><span style="font-weight: bold;">Roadside Assistance</span><br /><br />Get help when you need it most with State Auto Club membership for up to 7 years&#185;.<br /><br /><span style="font-weight: bold;">Service Price Promise</span><br /><br />Know what you’ll pay for standard service before you even come in.<br /><br /><span style="font-weight: bold;">
 	Free Loan Car</span><br /><br />Don’t get stuck without wheels. Available when you book a service&#178;.<br /><br />
-	<span style="font-weight: bold;">Extended Warranty</span><br /><br />Your Transit includes a complimentary extended warranty which means your vehicle is covered for a total of up to 5 years or 200,000km – whichever comes first³. Simply follow your vehicle’s servicing requirements outlined in your owner’s literature to stay protected. For your convenience, this warranty information is recorded at all Ford Dealerships nationwide.<br /><br />Call us anytime on: 1300 80 10 80''' 
+	<span style="font-weight: bold;">Extended Warranty</span><br /><br />Your Transit includes a complimentary extended warranty which means your vehicle is covered for a total of up to 5 years or 200,000km – whichever comes first³. Simply follow your vehicle’s servicing requirements outlined in your owner’s literature to stay protected. For your convenience, this warranty information is registered in the Ford Service system.<br /><br />Call us anytime on: 1300 80 10 80''' 
 
  [[module]] #3 Images
 path = '''email_modules/image/3images'''
