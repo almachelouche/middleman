@@ -57,28 +57,19 @@ color='''white'''
 		<span style="white-space:nowrap;">단, 상기 프로모션은 차종 및 전시장 상황에 따라 다를 수 있습니다</span>
     '''
 
-	cta_direction = '''horizontal'''
+[[module]]
+path='email_modules/singles/2textcta'
+color='''lincoln_black'''
 
-	cta_1_copy = '''더 알아보기'''
-	cta_1_link_url = '''https://www.lincoln-korea.com/vehicles/menu/?intcmp=hp-return-brand-gallery'''
-	cta_1_link_name = '''era'''
-	cta_1_icon = ''''''
+    cta_direction = '''horizontal'''
+
+	cta1_text = '''더 알아보기'''
+	cta1_url = '''https://www.lincoln-korea.com/vehicles/menu/?intcmp=hp-return-brand-gallery'''
+	cta1_link_name = '''era'''
+	cta2_text = '''시승 신청'''
+	cta2_url = '''https://www.lincoln-korea.com/overlay/test-drive/'''
+	cta2_link_name = '''test_drive'''
 	cta_1_type = '''block'''
-	cta_1_width = ''''''
-
-	cta_2_copy = ''''''
-	cta_2_link_url = ''''''
-	cta_2_link_name = ''''''
-	cta_2_icon = ''''''
-	cta_2_type = '''outline'''
-	cta_2_width = '''240'''
-
-	cta_3_copy = '''시승 신청'''
-	cta_3_link_url = '''https://www.lincoln-korea.com/overlay/test-drive/'''
-	cta_3_link_name = '''test_drive'''
-	cta_3_icon = ''''''
-	cta_3_type = '''block'''
-	cta_3_width = ''''''
 
 [[module]]
 path = 'email_modules/image/banner_nolink'
