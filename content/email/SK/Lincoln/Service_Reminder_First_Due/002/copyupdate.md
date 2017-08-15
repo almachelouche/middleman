@@ -71,12 +71,19 @@ font='sk'
         <span style="white-space:nowrap;">약속합니다.</span>
     '''
 	icon2 = '''sk_edm3_lincoln_geneniue_part_20170524'''
+<<<<<<< HEAD
+	text2 = '''<span style="white-space:nowrap;">링컨은 고객님의 차량</span> 
+    <span style="white-space:nowrap;">주행거리와 특성에 맞춘</span> 
+    <span style="white-space:nowrap;">체계적인 서비스를</span> 
+    <span style="white-space:nowrap;">선사합니다.</span>'''
+=======
 	text2 = '''
         <span style="white-space:nowrap;">링컨은 귀하의 차량</span> 
         <span style="white-space:nowrap;">주행거리와 특성에 맞춘</span> 
         <span style="white-space:nowrap;">체계적인 서비스를</span> 
         <span style="white-space:nowrap;">선사합니다.</span>
     '''
+>>>>>>> e1b4cd0bb78b12adce50de547b9305eab3c8feb2
 	icon3 = '''sk_edm3_lincoln_koreanwon_20170524'''
 	text3 = '''
         <span style="white-space:nowrap;">정기적인 점검 서비스를</span> 
