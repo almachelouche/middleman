@@ -7,7 +7,7 @@
 						<table	border="0" cellspacing="0" cellpadding="0">
 							<tr>
 								<td height="40" valign="middle" align="center" bgcolor="{{.color.ctablockbg}}" style="vertical-align: middle; padding-left:20px; padding-right:20px; text-align:center; {{ .font.ctablocktext | safeCSS }}">
-									<a href="{{ .moduleinfo.cta1_url | safeURL }}" name="{{- .moduleinfo.cta1_link_name -}}" target="_blank" title="" style="text-decoration:none; width:100%; display:block; color:{{.color.ctablocktext}};">{{- .moduleinfo.cta1_text | safeHTML -}}</a>
+									<a {{ printf "href=%q" .moduleinfo.cta1_url | safeHTMLAttr }} name="{{- .moduleinfo.cta1_link_name -}}" target="_blank" title="" style="text-decoration:none; width:100%; display:block; color:{{.color.ctablocktext}};">{{- .moduleinfo.cta1_text | safeHTML -}}</a>
 								</td>
 							</tr>
 						</table>
