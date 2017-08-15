@@ -3,89 +3,96 @@ moduletypes = [ "Default" ]
 title = 'Covers Default'
 
 [[module]]
-path='email_modules/cover/01'
+path='email_modules/cover/master'
 color='''fordblue'''
 
 	icon='''in_edm2d_status_battery_white_20160801'''
-	title='''Cover 01'''
+	title='''Cover Master'''
 	copy='''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br /><br /> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'''
-	cta1_text='''Click me!'''
-	cta1_url='''http://google.com'''
-	cta1_link_name = '''link_name_here'''
-	cta2_text='''Click me!'''
-	cta2_url='''http://google.com'''
-	cta2_link_name = '''link_name_here'''
-	cta1_icon='''play'''
+
+	cta_direction = '''vertical'''
+
+	cta_1_copy = '''Hello 1'''
+	cta_1_link_url = '''https://www.ford.com/1'''
+	cta_1_link_name = '''link_1_name_here'''
+	cta_1_icon = '''more'''
+	cta_1_type = '''text'''
+	cta_1_width = ''''''
+
+	cta_2_copy = '''Hello 2'''
+	cta_2_link_url = '''https://www.ford.com/2'''
+	cta_2_link_name = '''link_2_name_here'''
+	cta_2_icon = '''play'''
+	cta_2_type = '''text'''
+	cta_2_width = ''''''
+
+	cta_3_copy = '''Hello 3'''
+	cta_3_link_url = '''https://www.ford.com/3'''
+	cta_3_link_name = '''link_3_name_here'''
+	cta_3_icon = '''play'''
+	cta_3_type = '''text'''
+	cta_3_width = ''''''
 
 [[module]]
-path='email_modules/cover/02'
-color='''white'''
-
-	icon='''in_edm2d_status_battery_black_20160801'''
-	title='''Cover 02'''
-	copy='''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br /><br />Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'''
-	cta1_text='''Click Here!'''
-	cta1_url='''http://google.com'''
-	cta1_link_name = '''link_name_here'''
-	cta2_text='''Click me!'''
-	cta2_url='''http://google.com'''
-	cta2_link_name = '''link_name_here'''
-
-[[module]]
-path='email_modules/cover/03'
-color='''slatescreen'''
-
-	copy='''Cover 12 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br /><br />Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'''
-	cta1_text='''Click Here!'''
-	cta1_url='''http://google.com'''
-	cta1_link_name = '''link_name_here'''
-	cta2_text='''Click me!'''
-	cta2_url='''http://google.com'''
-	cta2_link_name = '''link_name_here'''
-
-[[module]]
-path='email_modules/cover/04'
+path='email_modules/cover/master'
 color='''green'''
 
-	title = '''Cover 13'''
-	copy = '''Your Ford <%${user.CustomAttribute['Selected_Vehicle']}%> needs attention'''
-	cta1_url = '''https://google.com'''
-	cta1_text = '''blah blah blah'''
-	cta1_icon = '''play'''
-	cta1_link_name = '''link_name_here'''
-	cta2_url = '''https://google.com'''
-	cta2_text = '''blah blah blah'''
-	cta2_link_name = '''link_name_here'''
-
-[[module]]
-path='email_modules/cover/05'
-color='''fordblue'''
-
 	icon='''in_edm2d_status_battery_white_20160801'''
-	title='''Cover 05'''
+	title='''Cover Master'''
 	copy='''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br /><br /> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'''
 
-	cta_icontext_1_copy='''Icon Text 1 Copy'''
-	cta_icontext_1_link_url='''https://www.ford.com'''
-	cta_icontext_1_link_name = '''link_name_here'''
-	cta_icontext_1_icon='''play'''
-	cta_icontext_2_copy='''Icon Text 2 Copy'''
-	cta_icontext_2_link_url='''https://www.ford.com'''
-	cta_icontext_2_link_name = '''link_name_here'''
-	cta_icontext_2_icon='''more'''
+	cta_direction = '''horizontal'''
 
-	cta_block_vertical_1_copy='''Block Vertical 1 Copy'''
-	cta_block_vertical_1_link_url='''https://www.ford.com'''
-	cta_block_vertical_1_link_name = '''link_name_here'''
-	cta_block_vertical_2_copy='''Block Vertical 2 Copy'''
-	cta_block_vertical_2_link_url='''https://www.ford.com'''
-	cta_block_vertical_2_link_name = '''link_name_here'''
+	cta_1_copy = '''Hello 1'''
+	cta_1_link_url = '''https://www.ford.com/1'''
+	cta_1_link_name = '''link_1_name_here'''
+	cta_1_icon = ''''''
+	cta_1_type = '''block'''
+	cta_1_width = ''''''
 
-	cta_block_horizontal_1_copy='''Block Horizontal 1 Copy'''
-	cta_block_horizontal_1_link_url='''https://www.ford.com'''
-	cta_block_horizontal_1_link_name = '''link_name_here'''
-	cta_block_horizontal_2_copy='''Block Horizontal 2 Copy!'''
-	cta_block_horizontal_2_link_url='''https://www.ford.com'''
-	cta_block_horizontal_2_link_name = '''link_name_here'''
+	cta_2_copy = '''Hello 2'''
+	cta_2_link_url = '''https://www.ford.com/2'''
+	cta_2_link_name = '''link_2_name_here'''
+	cta_2_icon = ''''''
+	cta_2_type = '''outline'''
+	cta_2_width = '''240'''
+
+	cta_3_copy = '''Hello 3'''
+	cta_3_link_url = '''https://www.ford.com/3'''
+	cta_3_link_name = '''link_3_name_here'''
+	cta_3_icon = ''''''
+	cta_3_type = '''block'''
+	cta_3_width = ''''''
+
+[[module]]
+path='email_modules/cover/master'
+color='''white'''
+
+	icon=''''''
+	title='''Cover Master'''
+	copy='''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br /><br /> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'''
+
+	cta_direction = '''vertical'''
+
+	cta_1_copy = '''Hello 1'''
+	cta_1_link_url = '''https://www.ford.com/1'''
+	cta_1_link_name = '''link_1_name_here'''
+	cta_1_icon = ''''''
+	cta_1_type = '''block'''
+	cta_1_width = '''240'''
+
+	cta_2_copy = '''Hello 2'''
+	cta_2_link_url = '''https://www.ford.com/2'''
+	cta_2_link_name = '''link_2_name_here'''
+	cta_2_icon = ''''''
+	cta_2_type = '''block'''
+	cta_2_width = ''''''
+
+	cta_3_copy = '''Hello 3'''
+	cta_3_link_url = '''https://www.ford.com/3'''
+	cta_3_link_name = '''link_3_name_here'''
+	cta_3_icon = ''''''
+	cta_3_type = '''outline'''
+	cta_3_width = ''''''
 
 +++

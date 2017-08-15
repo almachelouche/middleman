@@ -1,6 +1,6 @@
 +++
 markets = ["in"]
-title = '''IN Service Reminder Regular Due/Pdue 020 Reunion Rest'''
+title = '''IN Service Reminder Regular Due/Pdue 020 Reunion All'''
 
 [[module]]
 path='email_modules/preheaderbefore'
@@ -133,7 +133,7 @@ color='white'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''in_edm2_reunion_season2_20170809'''
+  image = '''in_edm2_reunion_season2_20170814'''
     
 [[module]]
 path='email_modules/spacer/default'
@@ -156,10 +156,17 @@ color='white'
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
+segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 
-	copy = '''Reunions are a great opportunity to reconnect with friends and family. This Reunion season, reunite with Ford and enjoy some great service offers, exclusively for you.<br/><br/>If you purchased a Ford between 2007 and 2012, go to your nearest Ford Service Centre and enjoy a 25% discount on brakes, suspension and clutch parts, labour and VAS, and get a free oil filter replacement, too! Hurry, you don't want to miss this opportunity.*'''
+	copy = '''Reunions are a great opportunity to reconnect with friends and family. This Reunion season, reunite with Ford and enjoy some great service offers, exclusively for you.<br /><br />If you purchased a Ford between 2007 and 2012, go to your nearest Ford Service Centre and enjoy a 25% discount on brakes, suspension and clutch parts, labour and VAS, and get a free oil filter replacement, too! Hurry, this offer is only available from September 2-17 and you don't want to miss it.*'''
 
-  
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
+
+	copy = '''Reunions are a great opportunity to reconnect with friends and family. This Reunion season, reunite with Ford and enjoy some great service offers, exclusively for you.<br /><br />If you purchased a Ford between 2007 and 2012, go to your nearest Ford Service Centre and enjoy a 25% discount on brakes, suspension and clutch parts, labour and VAS, and get a free oil filter replacement, too! Hurry, this offer is only available from September 11-25 and you don't want to miss it.*'''
+
 [[module]]
 path='email_modules/spacer/default'
 color='white'
@@ -224,8 +231,16 @@ color='white'
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
+segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 
   text='''*Terms & conditions apply. Offer applicable for Ford owners of 2007-2012 and servicing their cars  between 2nd September to 17th September 2017. Given offers are applicable only in Haryana, Chandigarh, Delhi NCR, Rajasthan, Jammu & Kashmir, Andhra Pradesh, Telangana, Gujarat, Goa, West Bengal & Assam and cannot be clubbed with other offers. Offer not applicable on accidental jobs and body repair.'''
+
+[[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
+color='white'
+segmentif = ["(user.CustomAttribute['Segment'] == 'B')"]
+
+  text='''*Terms & conditions apply. Offer applicable for Ford owners of 2007-2012 and servicing their cars  between 11th September to 25th September 2017. Given offers are applicable only in Kerala and cannot be clubbed with other offers. Offer not applicable on accidental jobs and body repair.'''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
