@@ -21,18 +21,16 @@ color = '''white'''
 
     image = '''sk_edm5_ford_loyalty_offer_20170811'''
 
-[[module]] #Cover 02
-path='email_modules/cover/02'
-
+[[module]]
+path='email_modules/cover/master'
 color='''white'''
-font='sk'
 
-title='''
+	title='''
     <span style="white-space:nowrap;">더 가볍게, 더 특별하게 포드를 다시 만나는 순간</span>
     <br/>
     <br/>
-'''
-copy='''
+    '''
+	copy='''
     <span style="white-space:nowrap;">포드의 오너가 되어주신 고객님께 다시 한 번 감사드리며,</span>
     <br/>
     <span style="white-space:nowrap;">언제나 모든 기대에 만족하는 브랜드로 오래도록 함께하겠습니다.</span>
@@ -60,18 +58,30 @@ copy='''
     <br/>
     <br/>
     <span style="white-space:nowrap;">단, 상기 프로모션은 차종 및 전시장 상황에 따라 다를 수 있습니다</span>
-'''
+    '''
 
-[[module]]
-path='email_modules/singles/2ctablocksideoutline'
-color='''white'''
+	cta_direction = '''horizontal'''
 
-cta1_text='''<span style="white-space:nowrap;">더 알아보기</span>'''
-cta1_url='''https://www.ford-korea.com/vehicles/?intcmp=hp-return-show'''
-cta1_link_name='''era'''
-cta2_text='''<span style="white-space:nowrap;">시승 신청</span>'''
-cta2_url='''https://www.ford-korea.com/owner/warranty/#overlay/content/ford/kr/ko_kr/site-wide-content/overlays/forms/test-drive.html'''
-cta2_link_name='''test_drive''' 
+	cta_1_copy = '''더 알아보기'''
+	cta_1_link_url = '''https://www.ford-korea.com/vehicles/?intcmp=hp-return-show'''
+	cta_1_link_name = '''era'''
+	cta_1_icon = ''''''
+	cta_1_type = '''block'''
+	cta_1_width = ''''''
+
+	cta_2_copy = ''''''
+	cta_2_link_url = ''''''
+	cta_2_link_name = ''''''
+	cta_2_icon = ''''''
+	cta_2_type = '''outline'''
+	cta_2_width = '''240'''
+
+	cta_3_copy = '''시승 신청'''
+	cta_3_link_url = '''https://www.ford-korea.com/owner/warranty/#overlay/content/ford/kr/ko_kr/site-wide-content/overlays/forms/test-drive.html'''
+	cta_3_link_name = '''test_drive'''
+	cta_3_icon = ''''''
+	cta_3_type = '''block'''
+	cta_3_width = ''''''
 
 [[module]]
 path='email_modules/spacer/default'
