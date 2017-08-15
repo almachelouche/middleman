@@ -83,12 +83,6 @@ color='''white'''
 	cta_3_type = '''block'''
 	cta_3_width = ''''''
 
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
-
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
