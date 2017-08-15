@@ -58,35 +58,14 @@ color='''green'''
 	cta2_link_name = '''link_name_here'''
 
 [[module]]
-path='email_modules/cover/05'
+path='email_modules/cover/master'
 color='''fordblue'''
 
 	icon='''in_edm2d_status_battery_white_20160801'''
 	title='''Cover 05'''
 	copy='''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br /><br /> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'''
 
-	cta_icontext_1_copy='''Icon Text 1 Copy'''
-	cta_icontext_1_link_url='''https://www.ford.com'''
-	cta_icontext_1_link_name = '''link_name_here'''
-	cta_icontext_1_icon='''play'''
-	cta_icontext_2_copy='''Icon Text 2 Copy'''
-	cta_icontext_2_link_url='''https://www.ford.com'''
-	cta_icontext_2_link_name = '''link_name_here'''
-	cta_icontext_2_icon='''more'''
-
-	cta_block_vertical_1_copy='''Block Vertical 1 Copy'''
-	cta_block_vertical_1_link_url='''https://www.ford.com'''
-	cta_block_vertical_1_link_name = '''link_name_here'''
-	cta_block_vertical_2_copy='''Block Vertical 2 Copy'''
-	cta_block_vertical_2_link_url='''https://www.ford.com'''
-	cta_block_vertical_2_link_name = '''link_name_here'''
-
-	cta_block_horizontal_1_copy='''Block Horizontal 1 Copy'''
-	cta_block_horizontal_1_link_url='''https://www.ford.com'''
-	cta_block_horizontal_1_link_name = '''link_name_here'''
-	cta_block_horizontal_2_copy='''Block Horizontal 2 Copy!'''
-	cta_block_horizontal_2_link_url='''https://www.ford.com'''
-	cta_block_horizontal_2_link_name = '''link_name_here'''
+	cta_direction = '''vertical'''
 
 	cta_1_copy = '''Hello 1'''
 	cta_1_link_url = '''https://www.ford.com/1'''
@@ -106,8 +85,5 @@ color='''fordblue'''
 	cta_3_link_name = '''link_3_name_here'''
 	cta_3_icon = '''play'''
 	cta_3_type = '''text'''
-
-	cta_direction = '''vertical'''
-
 
 +++
