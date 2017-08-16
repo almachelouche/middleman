@@ -65,34 +65,28 @@ color='''white'''
 	cta_1_link_name = '''era'''
 	cta_1_icon = ''''''
 	cta_1_type = '''block'''
-	cta_1_width = ''''''
+	cta_1_width = '''250'''
 
-	cta_2_copy = ''''''
-	cta_2_link_url = ''''''
-	cta_2_link_name = ''''''
+	cta_2_copy = '''시승 신청'''
+	cta_2_link_url = '''https://www.ford-korea.com/owner/warranty/#overlay/content/ford/kr/ko_kr/site-wide-content/overlays/forms/test-drive.html'''
+	cta_2_link_name = '''test_drive'''
 	cta_2_icon = ''''''
-	cta_2_type = '''outline'''
-	cta_2_width = '''240'''
-
-	cta_3_copy = '''시승 신청'''
-	cta_3_link_url = '''https://www.ford-korea.com/owner/warranty/#overlay/content/ford/kr/ko_kr/site-wide-content/overlays/forms/test-drive.html'''
-	cta_3_link_name = '''test_drive'''
-	cta_3_icon = ''''''
-	cta_3_type = '''block'''
-	cta_3_width = ''''''
+	cta_2_type = '''block'''
+	cta_2_width = '''250'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
     image = '''sk_edm5_ford_service_content_20170814'''
-    
-[[module]] #Cover 01
-path='email_modules/cover/01'
+
+[[module]]
+path='email_modules/cover/master'
 color='green'
 font='sk'
 
-	title='''<span style="white-space:nowrap;">포드만의 전문적인 서비스</span>
+	title='''
+    <span style="white-space:nowrap;">포드만의 전문적인 서비스</span>
     <br/>
     '''
 	copy='''
@@ -104,14 +98,23 @@ font='sk'
     <span style="white-space:nowrap;">아래의 링크를 클릭하면 자세한 정보를 확인할 수 있습니다.</span>
     <br/>
     '''
-	cta1_text='''차량 관리'''
-	cta1_url='''hhttps://www.ford-korea.com/owner/maintenance/'''
-	cta1_link_name = '''vehicle_maintanance'''
-	cta1_icon='''play'''
-	cta2_text='''보증 서비스'''
-	cta2_url='''https://www.ford-korea.com/owner/extended-service-plan/'''
-	cta2_link_name = '''warranty'''
-	cta2_icon='''play'''
+
+	cta_direction = '''horizontal'''
+
+	cta_1_copy = '''차량 관리'''
+	cta_1_link_url = '''https://www.ford-korea.com/owner/maintenance/'''
+	cta_1_link_name = '''vehicle_maintanance'''
+	cta_1_icon = '''play'''
+	cta_1_type = '''text'''
+	cta_1_width = ''''''
+
+	cta_2_copy = '''보증 서비스'''
+	cta_2_link_url = '''https://www.ford-korea.com/owner/extended-service-plan/'''
+	cta_2_link_name = '''warranty'''
+	cta_2_icon = '''play'''
+	cta_2_type = '''text'''
+	cta_2_width = ''''''
+
 
 [[module]] #Dual 01
 path='email_modules/dual/01'
