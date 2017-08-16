@@ -76,10 +76,10 @@ color='lightblue'
 	title = '''EcoSport, out & about'''
 	copy = '''Curious about the Ford EcoSport? Want to know what it's all about? Watch Ashish Masih of <span style="font-style: italic;">Autoportal</span> take the updated compact urban SUV out for a spin around town and talk about his experience behind the wheel. '''
 	cta1_text = '''WATCH NOW'''
-	cta1_url = '''https://www.youtube.com/watch?v=UIB_qMtTU54'''
+	cta1_url = '''https://www.facebook.com/FordIndia/posts/1480709115314366'''
 	cta1_link_name = '''ecosport_review'''
 	cta1_icon = '''play'''
-	image = '''in_edm6_ecosport_review_20170809'''
+	image = '''in_edm6_ecosport_review_20170816'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
