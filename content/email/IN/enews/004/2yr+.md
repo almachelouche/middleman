@@ -75,34 +75,34 @@ color='green'
 	title = '''Air Con Tips & Tricks'''
 	copy = '''Everyone loves air conditioners, everyone except your fuel gauge – the air conditioner just eats up so much fuel! But we came up with some super handy tricks and tips for staying cool this summer, while still saving on fuel.'''
 	cta1_text = '''WATCH NOW'''
-	cta1_url = '''https://www.youtube.com/watch?time_continue=7&v=PgWbOLKw8IY'''
-	cta1_link_name = '''unskippable_video'''
+	cta1_url = '''https://www.youtube.com/watch?v=CyOwzEM3iNw/'''
+	cta1_link_name = '''air_con_video'''
 	cta1_icon = '''play'''
-	image = '''in_edm6_spp_20170330'''
-
+	image = '''in_edm6_drive_ac_20170809'''
+    
 [[module]] #Split 01
 path='email_modules/split/01'
 color='darkblue'
 
 	title = '''Happy & healthy tyres'''
-	copy = '''Regularly rotating your tyres can help elongate their lifespan, and can save you money in the long run. Find out what’s involved in rotating your tyres, and why it’s important for overall tyre health and even your safety.'''
+	copy = '''Regularly rotating your tyres can help elongate their lifespan, and can save you money in the long run. Find out what's involved in rotating your tyres, and why it's important for overall tyre health and even your safety.'''
 	cta1_text = '''WATCH NOW'''
-	cta1_url = '''https://www.youtube.com/watch?v=CGmNMMUfIZw&feature=youtu.be'''
-	cta1_link_name = '''clever_cot'''
-	cta1_icon = '''more'''
-	image = '''in_edm6_ode_video_20170420'''
+	cta1_url = '''https://www.youtube.com/watch?v=CGmNMMUfIZw&feature=youtu.be/'''
+	cta1_link_name = '''tyre_rotation_video'''
+	cta1_icon = '''play'''
+	image = '''in_edm6_tyre_rotation_20170816'''
 
 [[module]] #Split 02
 path='email_modules/split/02'
 color='lightblue'
 
 	title = '''Keep your brakes safe'''
-	copy = '''Brakes don’t last forever. Over time, they wear down and can become a safety hazard for your daily commute. Learn how to keep your brakes in good health for a longer period of time, and how to identify warning signs when they might need some attention.'''
+	copy = '''Brakes don't last forever. Over time, they wear down and can become a safety hazard for your daily commute. Learn how to keep your brakes in good health for a longer period of time, and how to identify warning signs when they might need some attention.'''
 	cta1_text = '''WATCH NOW'''
-	cta1_url = '''https://www.youtube.com/watch?v=DsYDmFpf-_8&feature=youtu.be'''
-	cta1_link_name = '''unskippable_video'''
+	cta1_url = '''https://www.youtube.com/watch?v=DsYDmFpf-_8&feature=youtu.be/'''
+	cta1_link_name = '''brake_video'''
 	cta1_icon = '''play'''
-	image = '''in_edm6_spp_20170330'''
+	image = '''in_edm6_brake_20170809'''
     
 [[module]]
 path='email_modules/spacer/default'
