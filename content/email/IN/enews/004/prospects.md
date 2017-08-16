@@ -6,7 +6,7 @@ title = '''IN Enews 004 Prospects'''
 path='email_modules/preheader'
 color='''white'''
 
-	preheader = ''''''
+	preheader = '''In this 4th edition of the Insider, we'll take you through some of the latest happenings and service tricks from Ford.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -21,14 +21,14 @@ color='black'
 
 	title = '''Insider'''
 	date = '''August 2017'''
-	copy = '''IN THIS ISSUE:<br /> |  |  | And more'''
+	copy = '''IN THIS ISSUE:<br /> Surprisingly Affordable | Service Journey with Ford | You can't skip safety | And more'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
 color='white_pb'
 
 title = ''''''
-	copy = '''In this latest edition of the Insider, we'll take you through some of the latest happenings, events and promotions at Ford. <br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Surprisingly Affordable</span><br /><br />You might think the cost of owning a vehicle is pricey, but the cost of owning a Ford is not expensive at all! Still a little skeptical? Listen to Javied Khan, an EcoSport owner and auto blogger at <span style="font-style: italic;">Motorbeam</span>, explain how surprisingly affordable owning a Ford actually is. Click below to hear his thoughts on the cost of owning a Ford.'''
+	copy = '''In this 4th edition of the Insider, we'll take you through some of the latest happenings and service tricks from Ford. <br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Surprisingly Affordable</span><br /><br />You might think the cost of owning a vehicle is pricey, but the cost of owning a Ford is not expensive at all! Listen to Javied Khan, an EcoSport owner and auto blogger at <span style="font-style: italic;">Motorbeam</span>, talk about how surprisingly affordably owning Ford actually is as he explores the means and methods Ford keeps its parts so cost effective.'''
 	cta1_text = '''BE SURPRISED'''
 	cta1_url = '''https://www.facebook.com/FordIndia/videos/1453797871338824/'''
 	cta1_link_name = '''surprisingly_affordable_video'''
@@ -49,13 +49,13 @@ color='white'
 path='email_modules/split/02'
 color='lightblue'
 
-	title = '''Clever Cot'''
-	copy = '''Sometimes a nighttime drive is the only way to lull a newborn to sleep. But thanks to Ford's innovative cot that simulates a car journey, with the engine hum, rocking motion and warm lights, you can put a baby to sleep at home without having to hit the road.'''
+	title = '''Service Journey with Ford'''
+	copy = '''With Ford, you never have to stress about service. From your car's first service to scheduled maintenance, plus everything in between, Ford offers it all so you always have peace of mind. '''
 	cta1_text = '''CHECK IT OUT'''
-	cta1_url = '''https://www.youtube.com/watch?v=EpUVjpuhxEE'''
-	cta1_link_name = '''clever_cot'''
+	cta1_url = '''https://www.youtube.com/watch?v=EpUVjpuhxEE&t=133s/'''
+	cta1_link_name = '''service_journey_video'''
 	cta1_icon = '''more'''
-	image = '''in_edm6_ode_video_20170420'''
+	image = '''in_edm6_service_journey_20170420'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
@@ -86,7 +86,7 @@ path='email_modules/split/01'
 color='darkblue'
 
 	title = '''Road Trip Tunes'''
-	copy = '''Ford collaborated with Hungama music app to create two playlists perfect for your next road trip that both Ford and non-Ford drivers can enjoy. Check out the playlists below.'''
+	copy = '''Ford collaborated with Hungama music app to create two playlists perfect for your next road trip. Check out the playlists below.'''
 	cta1_text = '''FORD RETRO RIDES'''
 	cta1_url = '''https://www.youtube.com/watch?v=UIB_qMtTU54'''
 	cta1_link_name = '''retro_rides_playlist'''
