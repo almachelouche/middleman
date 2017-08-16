@@ -110,10 +110,10 @@ color='white'
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
 color='''white'''
-	cta1_text = '''BOOK A SERVICE'''
+	cta1_text = '''&nbsp;&nbsp;BOOK A SERVICE&nbsp;&nbsp;'''
 	cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
 	cta1_link_name = '''callback'''
-	cta2_text = '''&nbsp;&nbsp;FIND A DEALER&nbsp;&nbsp;'''
+	cta2_text = '''BOOK A PICK-UP'''
 	cta2_url = '''https://www.india.ford.com/locate-dealer/'''
 	cta2_link_name = '''locate_dealer'''    
 
