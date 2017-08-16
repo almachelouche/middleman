@@ -23,35 +23,46 @@ color='black'
 	date = '''August 2017'''
 	copy = '''IN THIS ISSUE:<br /> |  |  | And more'''
 
+[[module]] #Header eNews
+path='email_modules/header/enews'
+color='black'
+
+	title = '''Insider'''
+	date = '''August 2017'''
+	copy = '''IN THIS ISSUE:<br />Road Trip Tunes | Road Safety Report Cards | Air Con Tips & Tricks | And more'''
+
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
 color='white_pb'
 
-title = ''''''
-	copy = '''Welcome to the latest edition of the Insider will take you through some of the latest happenings, events and promotions at Ford. Also, check out some smart servicing tips below can help you save money and stay safe on the road.<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Road Trip Tunes</span><br /><br />We know there's nothing better than pairing a nice long drive with your favorite tunes blasting from the stereo. So, Ford collaborated with Hungama music app to put together a collection of playlists you can listen to on your next road trip. The best part: both Ford and non-Ford drivers can access these playlists.'''
+	copy = '''You're reading the 4th edition of the Insider where we share some of the latest happenings and events at Ford. Plus, you can check out some smart servicing tips that can help keep you safe on the road and keep your wallet happy.<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Road Trip Tunes</span><br /><br />We know there's nothing better than pairing a nice long drive with your favorite tunes blasting from the stereo. So, Ford collaborated with Hungama music app to put together a collection of playlists you can listen to on your next road trip. Check out the playlists below.'''
 
-[[module]] #2 Images
-path = '''email_modules/image/2images'''
-color = '''white'''
+[[module]] # Custom Car 2 Column
+path='email_modules/custom/2column_car'
+color='white'
 
-image1 = '''in_edm6_BarbedWire_20161101'''
-image1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/video-overlays/overview-videos/video-10.html/'''
-image1_link_name = '''video_barbed_wire'''
-image2 = '''in_edm6_DustStorm_20161101'''
-image2_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/video-overlays/overview-videos/video-9.html/'''
-image2_link_name = '''video_dust_storm'''
+	image1 = '''in_edm6_retro_rides_20170816'''
+	cta1_text = '''FORD RETRO RIDES'''
+	cta1_url = '''https://goo.gl/LjGCVT'''
+	cta1_link_name = '''Ford_retro_rides_tunes'''
+	cta1_icon = '''more'''
+	image2 = '''in_edm6_drive_tunes_20170809'''
+	cta2_text = '''FORD DRIVE TIMES'''
+	cta2_url = '''https://goo.gl/7NnZ1A'''
+	cta2_link_name = '''Ford_drive_tunes'''
+	cta2_icon = '''more'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
 color='lightblue'
 
-	title = '''Story 1'''
-	copy = '''To Be Updated'''
-	cta1_text = ''''''
-	cta1_url = '''https://www.youtube.com/watch?time_continue=7&v=PgWbOLKw8IY'''
-	cta1_link_name = '''unskippable_video'''
-	cta1_icon = '''play'''
-	image = '''in_edm6_spp_20170330'''
+	title = '''Road Safety Report Cards'''
+	copy = '''It's important that kids know how to be safe on the road. So, we partnered with 550 schools across India to teach kids about road safety, handing out Safety Report Cards to students to grade their parents' driving. To become model drivers, click below to learn what to do if you have car troubles on the road.'''
+	cta1_text = '''LEARN MORE'''
+	cta1_url = '''https://www.drivingskillsforlife.com/mediacenter1/latest-happenings/7-safety-tips-to-know-if-your-car-breaks-down/'''
+	cta1_link_name = '''7_safety_tips'''
+	cta1_icon = '''more'''
+	image = '''in_edm6_school_contact_20170809'''
     
 [[module]] #Split 02
 path='email_modules/split/02'
@@ -60,34 +71,34 @@ color='green'
 	title = '''Air Con Tips & Tricks'''
 	copy = '''Everyone loves air conditioners, everyone except your fuel gauge – the air conditioner just eats up so much fuel! But we came up with some super handy tricks and tips for staying cool this summer, while still saving on fuel.'''
 	cta1_text = '''WATCH NOW'''
-	cta1_url = '''https://www.youtube.com/watch?time_continue=7&v=PgWbOLKw8IY'''
-	cta1_link_name = '''unskippable_video'''
+	cta1_url = '''https://www.youtube.com/watch?v=CyOwzEM3iNw/'''
+	cta1_link_name = '''air_con_video'''
 	cta1_icon = '''play'''
-	image = '''in_edm6_spp_20170330'''
-
+	image = '''in_edm6_drive_ac_20170809'''
+    
 [[module]] #Split 01
 path='email_modules/split/01'
 color='darkblue'
 
 	title = '''Happy & healthy tyres'''
-	copy = '''Regularly rotating your tyres can help elongate their lifespan, and can save you money in the long run. Find out what’s involved in rotating your tyres, and why it’s important for overall tyre health and even your safety.'''
+	copy = '''Regularly rotating your tyres can help elongate their lifespan, and can save you money in the long run. Find out what's involved in rotating your tyres, and why it's important for overall tyre health and even your safety.'''
 	cta1_text = '''WATCH NOW'''
-	cta1_url = '''https://www.youtube.com/watch?v=CGmNMMUfIZw&feature=youtu.be'''
-	cta1_link_name = '''clever_cot'''
-	cta1_icon = '''more'''
-	image = '''in_edm6_ode_video_20170420'''
+	cta1_url = '''https://www.youtube.com/watch?v=CGmNMMUfIZw&feature=youtu.be/'''
+	cta1_link_name = '''tyre_rotation_video'''
+	cta1_icon = '''play'''
+	image = '''in_edm6_tyre_rotation_20170816'''
 
 [[module]] #Split 02
 path='email_modules/split/02'
 color='lightblue'
 
 	title = '''Keep your brakes safe'''
-	copy = '''Brakes don’t last forever. Over time, they wear down and can become a safety hazard for your daily commute. Learn how to keep your brakes in good health for a longer period of time, and how to identify warning signs when they might need some attention.'''
+	copy = '''Brakes don't last forever. Over time, they wear down and can become a safety hazard for your daily commute. Learn how to keep your brakes in good health for a longer period of time, and how to identify warning signs when they might need some attention.'''
 	cta1_text = '''WATCH NOW'''
-	cta1_url = '''https://www.youtube.com/watch?v=DsYDmFpf-_8&feature=youtu.be'''
-	cta1_link_name = '''unskippable_video'''
+	cta1_url = '''https://www.youtube.com/watch?v=DsYDmFpf-_8&feature=youtu.be/'''
+	cta1_link_name = '''brake_video'''
 	cta1_icon = '''play'''
-	image = '''in_edm6_spp_20170330'''
+	image = '''in_edm6_brake_20170809'''
     
 [[module]]
 path='email_modules/spacer/default'
