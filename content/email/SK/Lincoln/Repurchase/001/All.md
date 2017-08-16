@@ -22,13 +22,11 @@ color = 'white'
 
 [[module]]
 path='email_modules/cover/master'
-color='''white'''
+color='''lincoln_white'''
 font='sk'
 
 	title='''
         <span style="white-space:nowrap;">가장 매력적인 조건으로 링컨을 다시 만나세요</span>
-		<br/>
-		<br/>
     '''
 	copy='''
         <span style="white-space:nowrap;">함께 해온 소중한 인연에 다시 한번 깊은 감사를 드리며</span>
@@ -60,16 +58,16 @@ font='sk'
 
     cta_direction = '''horizontal'''
 
-	cta_1_copy = '''Hello 1'''
-	cta_1_link_url = '''https://www.ford.com/1'''
-	cta_1_link_name = '''link_1_name_here'''
+	cta_1_copy = '''더 알아보기'''
+	cta_1_link_url = '''https://www.lincoln-korea.com/vehicles/menu/?intcmp=hp-return-brand-gallery'''
+	cta_1_link_name = '''era'''
 	cta_1_icon = ''''''
 	cta_1_type = '''block'''
 	cta_1_width = ''''''
 
-	cta_2_copy = '''Hello 2'''
-	cta_2_link_url = '''https://www.ford.com/2'''
-	cta_2_link_name = '''link_2_name_here'''
+	cta_2_copy = '''시승 신청'''
+	cta_2_link_url = '''https://www.lincoln-korea.com/overlay/test-drive/'''
+	cta_2_link_name = '''test_drive'''
 	cta_2_icon = ''''''
 	cta_2_type = '''block'''
 	cta_2_width = ''''''
@@ -99,16 +97,16 @@ font='sk'
 
 	cta_direction = '''horizontal'''
 
-	cta_1_copy = '''Hello 1'''
-	cta_1_link_url = '''https://www.ford.com/1'''
-	cta_1_link_name = '''link_1_name_here'''
+	cta_1_copy = '''차량 관리'''
+	cta_1_link_url = '''https://www.lincoln-korea.com/vehicle-maintenance/'''
+	cta_1_link_name = '''vehicle_maintanance'''
 	cta_1_icon = ''''''
 	cta_1_type = '''block'''
 	cta_1_width = ''''''
 
-	cta_2_copy = '''Hello 2'''
-	cta_2_link_url = '''https://www.ford.com/2'''
-	cta_2_link_name = '''link_2_name_here'''
+	cta_2_copy = '''보증 서비스'''
+	cta_2_link_url = '''https://www.lincoln-korea.com/parts-service/extended-service-plan/'''
+	cta_2_link_name = '''warranty'''
 	cta_2_icon = ''''''
 	cta_2_type = '''block'''
 	cta_2_width = ''''''
