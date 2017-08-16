@@ -1,7 +1,6 @@
 +++
 markets = ["in"]
 title = '''IN Enews 002 Prospect'''
-draft = true
 
 [[module]]
 path='email_modules/preheader'
