@@ -113,7 +113,7 @@ color='''white'''
 	cta1_text = '''BOOK A SERVICE'''
 	cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
 	cta1_link_name = '''callback'''
-	cta2_text = '''BOOK A PICK-UP'''
+	cta2_text = '''&nbsp;BOOK A PICK-UP&nbsp;'''
 	cta2_url = '''https://www.india.ford.com/locate-dealer/'''
 	cta2_link_name = '''locate_dealer'''    
 
