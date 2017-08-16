@@ -21,14 +21,6 @@ color='black'
 
 	title = '''Insider'''
 	date = '''August 2017'''
-	copy = '''IN THIS ISSUE:<br /> |  |  | And more'''
-
-[[module]] #Header eNews
-path='email_modules/header/enews'
-color='black'
-
-	title = '''Insider'''
-	date = '''August 2017'''
 	copy = '''IN THIS ISSUE:<br />Road Trip Tunes | Road Safety Report Cards | Air Con Tips & Tricks | And more'''
 
 [[module]] # eNews Top Story

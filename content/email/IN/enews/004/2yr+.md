@@ -21,49 +21,52 @@ color='black'
 
 	title = '''Insider'''
 	date = '''August 2017'''
-	copy = '''IN THIS ISSUE:<br /> |  |  | And more'''
+	copy = '''IN THIS ISSUE:<br />Road Trip Tunes | Road Safety Report Cards | Air Con Tips & Tricks | And more'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
 color='white_pb'
 
-title = ''''''
-	copy = '''This is latest edition of the Insider from Ford, where you can check out some of the latest happenings at Ford and smart servicing tips tailored just for you. We hope this continues to inspire you to Go Further!<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Road Trip Tunes</span><br /><br />We know there's nothing better than pairing a nice long drive with your favorite tunes blasting from the stereo. So, Ford collaborated with Hungama music app to put together a collection of playlists you can listen to on your next road trip. The best part: both Ford and non-Ford drivers can access these playlists.'''
+	copy = '''You're reading the 4th edition of the Insider where we share some of the latest happenings and events at Ford. Plus, you can check out some smart servicing tips that can help keep you safe on the road and keep your wallet happy. We hope this continues to inspire you to Go Further!<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Road Trip Tunes</span><br /><br />We know there's nothing better than pairing a nice long drive with your favorite tunes blasting from the stereo. So, Ford collaborated with Hungama music app to put together a collection of playlists you can listen to on your next road trip. Check out the playlists below.'''
 
-[[module]] #2 Images
-path = '''email_modules/image/2images'''
-color = '''white'''
+[[module]] # Custom Car 2 Column
+path='email_modules/custom/2column_car'
+color='white'
 
-image1 = '''in_edm6_BarbedWire_20161101'''
-image1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/video-overlays/overview-videos/video-10.html/'''
-image1_link_name = '''video_barbed_wire'''
-image2 = '''in_edm6_DustStorm_20161101'''
-image2_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/video-overlays/overview-videos/video-9.html/'''
-image2_link_name = '''video_dust_storm'''
+	image1 = '''in_edm6_retro_rides_20170816'''
+	cta1_text = '''FORD RETRO RIDES'''
+	cta1_url = '''https://goo.gl/LjGCVT'''
+	cta1_link_name = '''Ford_retro_rides_tunes'''
+	cta1_icon = '''more'''
+	image2 = '''in_edm6_drive_tunes_20170809'''
+	cta2_text = '''FORD DRIVE TIMES'''
+	cta2_url = '''https://goo.gl/7NnZ1A'''
+	cta2_link_name = '''Ford_drive_tunes'''
+	cta2_icon = '''more'''
 
 [[module]] #Split 02
 path='email_modules/split/02'
 color='darkblue'
 
-	title = '''Road Safety Report Cards'''
-	copy = '''We are always thinking about how to keep you and your family safe on the road. That's why we partnered with 550 schools across India to hand out Safety Report Cards to students, where they can learn about road safety and rate their parents' driving. Students can then drop the filled out cards into boxes at their school to enter in to a lucky draw where 10 lucky winners can land themselves a cool Mustang toy car. Lucky draw winners will be notified by October 30, 2017. '''
+	title = '''Safety Report Cards'''
+	copy = '''We partnered with 550 schools across India to teach kids about road safety, handing out Safety Report Cards to students to grade their parents' driving. To become model drivers, click below to learn what to do if you have car troubles on the road.'''
 	cta1_text = '''LEARN MORE'''
-	cta1_url = '''https://www.youtube.com/watch?time_continue=7&v=PgWbOLKw8IY'''
-	cta1_link_name = '''unskippable_video'''
-	cta1_icon = '''play'''
-	image = '''in_edm6_spp_20170330'''
+	cta1_url = '''https://www.drivingskillsforlife.com/mediacenter1/latest-happenings/7-safety-tips-to-know-if-your-car-breaks-down/'''
+	cta1_link_name = '''7_safety_tips'''
+	cta1_icon = '''more'''
+	image = '''in_edm6_school_contact_20170809'''
     
 [[module]] #Split 01
 path='email_modules/split/01'
 color='lightblue'
 
-	title = '''Cardekho Safety Month'''
-	copy = '''India has the highest number of road deaths in the world, yet many don’t consider safety when buying a car. To combat this, Ford partnered with Cardekho to initiate a safety month, and created safety-related content to raise awareness of the importance of safety when driving.'''
+	title = '''CarDekho Safety Month'''
+	copy = '''India has the highest number of road deaths in the world, yet many don't consider safety when buying a car. To combat this, Ford partnered with CarDekho to initiate a safety month, and created safety-related content to raise awareness of the importance of safety when driving.'''
 	cta1_text = '''LEARN MORE'''
 	cta1_url = '''http://safetymonth.cardekho.com/'''
-	cta1_link_name = '''unskippable_video'''
-	cta1_icon = '''play'''
-	image = '''in_edm6_spp_20170330'''
+	cta1_link_name = '''cardekho_safety_month'''
+	cta1_icon = '''more'''
+	image = '''in_edm6_cardekho_20170809'''
 
 [[module]] #Split 02
 path='email_modules/split/02'
