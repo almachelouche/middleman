@@ -27,8 +27,6 @@ color='''white'''
 
 	title='''
     <span style="white-space:nowrap;">더 가볍게, 더 특별하게 포드를 다시 만나는 순간</span>
-    <br/>
-    <br/>
     '''
 	copy='''
     <span style="white-space:nowrap;">포드의 오너가 되어주신 고객님께 다시 한 번 감사드리며,</span>
