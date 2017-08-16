@@ -23,6 +23,7 @@ color = 'white'
 [[module]]
 path='email_modules/cover/master'
 color='''white'''
+font='sk'
 
 	title='''
         <span style="white-space:nowrap;">가장 매력적인 조건으로 링컨을 다시 만나세요</span>
@@ -57,6 +58,22 @@ color='''white'''
 		<span style="white-space:nowrap;">단, 상기 프로모션은 차종 및 전시장 상황에 따라 다를 수 있습니다</span>
     '''
 
+    cta_direction = '''horizontal'''
+
+	cta_1_copy = '''Hello 1'''
+	cta_1_link_url = '''https://www.ford.com/1'''
+	cta_1_link_name = '''link_1_name_here'''
+	cta_1_icon = ''''''
+	cta_1_type = '''block'''
+	cta_1_width = ''''''
+
+	cta_2_copy = '''Hello 2'''
+	cta_2_link_url = '''https://www.ford.com/2'''
+	cta_2_link_name = '''link_2_name_here'''
+	cta_2_icon = ''''''
+	cta_2_type = '''block'''
+	cta_2_width = ''''''
+
 [[module]]
 path = 'email_modules/image/banner_nolink'
 color = 'white'
@@ -64,7 +81,7 @@ color = 'white'
 	image = '''sk_edm5_lincoln_service_content_20170814'''
 
 [[module]]
-path='email_modules/cover/02'
+path='email_modules/cover/master'
 color='lincoln_white'
 font='sk'
 
@@ -79,6 +96,22 @@ font='sk'
 		<br/>
 		<span style="white-space:nowrap;">아래의 링크를 클릭하면 자세한 정보를 확인할 수 있습니다.</span> 
 	'''
+
+	cta_direction = '''horizontal'''
+
+	cta_1_copy = '''Hello 1'''
+	cta_1_link_url = '''https://www.ford.com/1'''
+	cta_1_link_name = '''link_1_name_here'''
+	cta_1_icon = ''''''
+	cta_1_type = '''block'''
+	cta_1_width = ''''''
+
+	cta_2_copy = '''Hello 2'''
+	cta_2_link_url = '''https://www.ford.com/2'''
+	cta_2_link_name = '''link_2_name_here'''
+	cta_2_icon = ''''''
+	cta_2_type = '''block'''
+	cta_2_width = ''''''
 
 [[module]]
 path='email_modules/cover/master'
