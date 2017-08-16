@@ -56,7 +56,7 @@ color='white'
 path='email_modules/split/01'
 color='lightblue'
 
-	title = '''Road Safety Report Cards'''
+	title = '''Safety Report Cards'''
 	copy = '''We partnered with 550 schools across India to teach kids about road safety, handing out Safety Report Cards to students to grade their parents' driving. To become model drivers, click below to learn what to do if you have car troubles on the road.'''
 	cta1_text = '''LEARN MORE'''
 	cta1_url = '''https://www.drivingskillsforlife.com/mediacenter1/latest-happenings/7-safety-tips-to-know-if-your-car-breaks-down/'''
