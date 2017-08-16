@@ -21,7 +21,7 @@ color='black'
 
 	title = '''Insider'''
 	date = '''August 2017'''
-	copy = '''IN THIS ISSUE:<br />Road Trip Tunes | Road Safety Report Cards | Air Con Tips & Tricks | And more'''
+	copy = '''IN THIS ISSUE:<br />Road Trip Tunes | Road Safety Report Cards | CarDekho Safety Month | And more'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
