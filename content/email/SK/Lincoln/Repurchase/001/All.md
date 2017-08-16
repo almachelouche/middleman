@@ -63,14 +63,14 @@ font='sk'
 	cta_1_link_name = '''era'''
 	cta_1_icon = ''''''
 	cta_1_type = '''block'''
-	cta_1_width = '''300'''
+	cta_1_width = '''260'''
 
 	cta_2_copy = '''시승 신청'''
 	cta_2_link_url = '''https://www.lincoln-korea.com/overlay/test-drive/'''
 	cta_2_link_name = '''test_drive'''
 	cta_2_icon = ''''''
 	cta_2_type = '''block'''
-	cta_2_width = '''300'''
+	cta_2_width = '''260'''
 
 [[module]]
 path = 'email_modules/image/banner_nolink'
