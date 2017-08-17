@@ -123,7 +123,7 @@ color='white'
 
 	text = '''DISCLAIMERS:<br /><br />
 1) 'Peace of Mind' Service Inspection expires after 5,000km's or 4 months after delivery of your new Ford (whichever is first).<br /><br />
-2） Braked towing capacity available when fitted with a Genuine Ford Tow pack. Subject to State and Territory towing regulations'''
+2）Braked towing capacity available when fitted with a Genuine Ford Tow pack. Subject to State and Territory towing regulations'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'

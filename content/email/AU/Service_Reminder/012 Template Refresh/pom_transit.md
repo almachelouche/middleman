@@ -59,7 +59,7 @@ color='''white'''
 path='email_modules/singles/title'
 color='''white'''
 
-	title = '''Ger Personal'''   
+	title = '''Get Personal'''   
 
 [[module]]
 path='email_modules/spacer/default'
