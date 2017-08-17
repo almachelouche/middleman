@@ -125,8 +125,8 @@ font='sk'
     cta1_url = '''https://www.ford-korea.com/contact-us/'''
     cta1_link_name = '''contact_us'''
     cta2_text = '''<span style="white-space:nowrap;">전시장 및 서비스 센터 찾기</span>'''
-    cta3_url = '''https://www.ford-korea.com/locate-a-dealer/'''
-    cta3_link_name = '''find_dealer'''
+    cta2_url = '''https://www.ford-korea.com/locate-a-dealer/'''
+    cta2_link_name = '''find_dealer'''
 
 [[module]]
 path='email_modules/footer/sk/ford/social'
