@@ -53,7 +53,7 @@ path='email_modules/dual/05'
 color='white'
 
 	title1 = '''Service Price Promise&#178;'''
-	text_box_height = '''500'''
+	text_box_height = '''320'''
 	copy1 = '''Know how much your standard service will cost before you even come in, with the <ahref="https://www.ford.com.au/owners/service/calculator/" name="calculator" style="text-decoration:underline; color:#2D96CD"> Service Price Promise Calculator</span>.<br/><br/>'''
 	image1 = '''au_edm2_service_price_promise_20170629'''
 	image1_link_url = '''https://www.ford.com.au/owners/service/calculator/'''
