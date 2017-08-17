@@ -5,8 +5,7 @@ title = '''AU POM 001 Everest '''
 [[module]]
 path='email_modules/preheader'
 
-	preheader='''Our Ford-trained technicians are ready to ensure your Ford is in top shape
-'''
+	preheader='''Our Ford-trained technicians are ready to ensure your Ford is in top shape'''
     
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -20,7 +19,7 @@ color='white'
 path='email_modules/image/banner'
 color='white'
 
-	image = '''AU_edm2_svc_banner_20160615'''
+	image = '''au_edm2_pom_new_banner_20170817'''
 	url_link = '''https://www.ford.com.au/owners/service/'''
     
 [[module]]
@@ -33,7 +32,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />We hope you're enjoying your new Ford <span style="color:#2D96CD"><%${user.CustomAttribute['Model']}%></span>. Now that you've been on the road for a few months your <%${user.CustomAttribute['Model']}%> is due for its complimentary 2-month/3,000km <a href="https://www.ford.com.au/owners/service/peace-of-mind-inspection/" style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</a>&#185;. Our Ford trained technicians will inspect your vehicle and ensure it's running at its absolute best. Book your 'Peace of Mind' Service Inspection with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or <a href="https://www.ford.com.au/dealership/" style="text-decoration:underline; color:#2D96CD">locate your nearest dealer</a>.'''
+	copy = '''Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />We hope you're enjoying your new Ford <span style="color:#2D96CD"><%${user.CustomAttribute['Model']}%></span>.<br /><br />Now that you've been on the road for a few months your <%${user.CustomAttribute['Model']}%> is due for its complimentary 2-month/3,000km <a href="https://www.ford.com.au/owners/service/peace-of-mind-inspection/" style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</a>&#185;. Our Ford trained technicians will inspect your vehicle and ensure it's running at its absolute best.<br /><br />Book your 'Peace of Mind' Service Inspection with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or <a href="https://www.ford.com.au/dealership/" style="text-decoration:underline; color:#2D96CD">locate your nearest dealer</a>.'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -130,8 +129,10 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 	text = '''DISCLAIMERS:<br /><br />
-				1) 'Peace of Mind' Service Inspection expires after 5,000km's or 4 months after delivery of your new Ford (whichever is first).<br /><br />
-                2) Braked towing capacity available when fitted with a Genuine Ford Tow pack.Subject to State and Territory towing regulations'''
+1) 'Peace of Mind' Service Inspection expires after 5,000km's or 4 months after delivery of your new Ford (whichever is first).<br /><br />
+2） 800mm water wading available on 4x2 Hi-Rider and 4x4 models only. Achieve when maintain a steady speed of 7kms/hr.<br /><br />
+3） This accessory is a Supplier Branded Accessory and is not manufactured or Warranted by Ford. The warranty is provided by the manufacturer. Contact your authorized Ford dealer for details of the accessory manufacturer’s warranty applicable to this accessory.<br /><br />
+4） Braked towing capacity when fitted with a Genuine Ford Tow pack and accessory Tow Ball, subject to State and Territory towing regulations.'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
