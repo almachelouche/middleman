@@ -42,13 +42,6 @@ segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
 	cta1_url = '''https://www.ford.com.au/owners/service/book-service/'''
 	cta1_link_name = '''service_booking'''
     
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
-
-
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
