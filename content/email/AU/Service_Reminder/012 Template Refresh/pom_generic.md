@@ -7,20 +7,13 @@ path='email_modules/preheader'
 
 	preheader='''Our Ford-trained technicians are ready to ensure your Ford is in top shape
 '''
-    
-[[module]] #Header Logo
-path='email_modules/header/logo'
-color='white'
-
-	image = '''white'''
-	url_link = '''https://www.ford.com.au/'''
 
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
-	image = '''AU_edm2_svc_banner_20160615'''
+	image = '''au_edm2_pom_new_banner_20170817'''
 	url_link = '''https://www.ford.com.au/owners/service/'''
     
 [[module]]

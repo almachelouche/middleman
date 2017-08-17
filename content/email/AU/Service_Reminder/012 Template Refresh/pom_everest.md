@@ -7,13 +7,6 @@ path='email_modules/preheader'
 
 	preheader='''Our Ford-trained technicians are ready to ensure your Ford is in top shape'''
     
-[[module]] #Header Logo
-path='email_modules/header/logo'
-color='white'
-
-	image = '''white'''
-	url_link = '''https://www.ford.com.au/'''
-
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
