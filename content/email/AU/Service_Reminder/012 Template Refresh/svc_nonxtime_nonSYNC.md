@@ -12,7 +12,7 @@ path='email_modules/preheader'
 path='email_modules/image/banner'
 color='white'
 
-	image = '''au_edm2_RSvc_Due_xtime_logo_20161014'''
+	image = '''au_edm2_svc_new_banner_20170817'''
 	url_link = '''https://www.ford.com.au/owners/service/'''
     
 [[module]]
@@ -42,36 +42,48 @@ color='white'
 
 	height="30"
     
- [[module]] #Split 13
-path='email_modules/split/13'
+
+[[module]]
+path='email_modules/dual/05'
 color='white'
 
-	title1='''Service Price Promise&#178;'''
-	title2='''Free Loan Car&#185;'''
-	copy1='''Know how much your standard service will cost before you even come in, with the <ahref="https://www.ford.com.au/owners/service/calculator/" name="calculator" style="text-decoration:underline; color:#2D96CD"> Service Price Promise Calculator</span>.<br/><br/>'''
-	copy2='''Life shouldn't stop when you service your vehicle. That's why we offer a <a href="https://www.ford.com.au/owners/service/" name="freeloan" style="text-decoration:underline; color:#2D96CD">Free Loan Car&#185</a>  when you book a scheduled service.<br/><br/>'''
-	image1='''au_edm2_service_price_promise_20170629'''
-    image1_url='''https://www.ford.com.au/owners/service/calculator/'''
-    image1_name='''Some'''
-    image2='''au_edm2_free_loan_car_20170629'''
-    image2_url='''https://www.ford.com.au/owners/service/'''
-    image2_name='''Some'''
+	title1 = '''Service Price Promise&#178;'''
+	copy1 = '''Know how much your standard service will cost before you even come in, with the <ahref="https://www.ford.com.au/owners/service/calculator/" name="calculator" style="text-decoration:underline; color:#2D96CD"> Service Price Promise Calculator</span>.<br/><br/>'''
+	image1 = '''au_edm2_service_price_promise_20170629'''
+	image1_link_url = '''https://www.ford.com.au/owners/service/calculator/'''
+	image1_link_name = '''Some'''
+	title2 = '''Free Loan Car&#185;'''
+	copy2 = '''Life shouldn't stop when you service your vehicle. That's why we offer a <a href="https://www.ford.com.au/owners/service/" name="freeloan" style="text-decoration:underline; color:#2D96CD">Free Loan Car&#185</a>  when you book a scheduled service.<br/><br/>'''
+	image2 = '''au_edm2_free_loan_car_20170629'''
+	image2_link_url = '''https://www.ford.com.au/owners/service/'''
+	image2_link_name = '''Some'''
+    
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
 
- [[module]] #Split 13
-path='email_modules/split/13'
+	height="20"
+
+[[module]]
+path='email_modules/dual/05'
 color='white'
 
 	title1='''Auto Club Membership&#179;'''
-	title2='''Genuine Service'''
-	copy1='''Each time you complete your standard service at a participating Ford dealer you'll receive State <a href="https://www.ford.com.au/owners/service/roadside-assistance/" style="text-decoration:underline; color:#2D96CD">Auto Club Roadside Assistance</a> and membership for up to 12 months.<br/><br/>'''
-	copy2='''We know how important your <Nameplate> is to you, so we're sure you'll appreciate that our factory-trained technicians only use Genuine Ford parts and equipment.<br/><br/><a href="http://genuineisbest.com.au/" style="text-decoration:underline; color:#2D96CD">Learn More</a>'''
-	image1='''au_edm2_auto_club_membership_20170629'''
-    image1_url='''https://www.ford.com.au/owners/service/roadside-assistance/'''
-    image1_name='''Some'''
-    image2='''au_edm2_genuine_service_20170629'''
-    image2_url='''http://genuineisbest.com.au/'''
-    image2_name='''Some'''
-
+	copy1 = '''Each time you complete your standard service at a  Ford dealer you'll receive State <a href="https://www.ford.com.au/owners/service/roadside-assistance/" style="text-decoration:underline; color:#2D96CD">Auto Club Roadside Assistance</a> and membership for up to 12 months.<br/><br/>'''
+	cta1a_text = '''Learn More'''
+	cta1a_url = ''''''
+	cta1a_link_name = '''autoClubMembership'''
+	image1 = '''au_edm2_auto_club_membership_20170629'''
+	image1_link_url = '''https://www.ford.com.au/owners/service/roadside-assistance/'''
+	image1_link_name = '''Some'''
+	title2 = '''Genuine Service'''
+	copy2 = '''We know how important your <Nameplate> is to you, so we're sure you'll appreciate that our factory-trained technicians only use Genuine Ford parts and equipment.<br/><br/><a href="http://genuineisbest.com.au/" style="text-decoration:underline; color:#2D96CD">Learn More</a>'''
+	cta2a_text = '''Learn More'''
+	cta2a_url = ''''''
+	cta2a_link_name = '''LearnMore'''
+	image2 = '''au_edm2_genuine_service_20170629'''
+	image2_link_url = '''http://genuineisbest.com.au/'''
+	image2_link_name = '''Some'''
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
 color='white'
