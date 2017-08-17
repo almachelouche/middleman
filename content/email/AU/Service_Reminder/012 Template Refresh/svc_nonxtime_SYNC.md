@@ -42,7 +42,7 @@ color='white'
 
 	height="30"
     
-    
+[[module]]    
 path='email_modules/dual/05'
 color='white'
 
