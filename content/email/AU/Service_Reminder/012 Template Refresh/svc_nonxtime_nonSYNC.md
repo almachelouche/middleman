@@ -75,8 +75,8 @@ color='white'
 path='email_modules/dual/05'
 color='white'
 
-	title1='''Auto Club Membership&#179;'''
-    text_box_height = '''315'''
+	title1 = '''Auto Club Membership&#179;'''
+	text_box_height = '''315'''
 	copy1 = '''Each time you complete your standard service at a  Ford dealer you'll receive State <a href="https://www.ford.com.au/owners/service/roadside-assistance/" style="text-decoration:underline; color:#2D96CD">Auto Club Roadside Assistance</a> and membership for up to 12 months.<br/><br/>'''
 	cta1a_text = '''Learn More'''
 	cta1a_url = ''''''
@@ -85,7 +85,6 @@ color='white'
 	image1_link_url = '''https://www.ford.com.au/owners/service/roadside-assistance/'''
 	image1_link_name = '''Some'''
 	title2 = '''Genuine Service'''
-    text_box_height = '''315'''
 	copy2 = '''We know how important your <Nameplate> is to you, so we're sure you'll appreciate that our factory-trained technicians only use Genuine Ford parts and equipment.<br/><br/>'''
 	cta2a_text = '''Learn More'''
 	cta2a_url = '''http://genuineisbest.com.au/'''
@@ -93,6 +92,10 @@ color='white'
 	image2 = '''au_edm2_genuine_service_20170629'''
 	image2_link_url = '''http://genuineisbest.com.au/'''
 	image2_link_name = '''Some'''
+    
+    
+    
+    
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
 color='white'
