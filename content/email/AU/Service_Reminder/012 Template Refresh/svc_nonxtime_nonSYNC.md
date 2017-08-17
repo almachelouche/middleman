@@ -42,6 +42,12 @@ color='white'
 
 	height="30"
     
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
+	height="20"  
+    
 
 [[module]]
 path='email_modules/dual/05'
@@ -63,6 +69,7 @@ path='email_modules/spacer/platinum_20'
 color='white'
 
 	height="20"
+    
 
 [[module]]
 path='email_modules/dual/05'
@@ -77,7 +84,7 @@ color='white'
 	image1_link_url = '''https://www.ford.com.au/owners/service/roadside-assistance/'''
 	image1_link_name = '''Some'''
 	title2 = '''Genuine Service'''
-	copy2 = '''We know how important your <Nameplate> is to you, so we're sure you'll appreciate that our factory-trained technicians only use Genuine Ford parts and equipment.<br/><br/><a href="http://genuineisbest.com.au/" style="text-decoration:underline; color:#2D96CD">Learn More</a>'''
+	copy2 = '''We know how important your <Nameplate> is to you, so we're sure you'll appreciate that our factory-trained technicians only use Genuine Ford parts and equipment.<br/><br/><a href="http://genuineisbest.com.au/"'''
 	cta2a_text = '''Learn More'''
 	cta2a_url = ''''''
 	cta2a_link_name = '''LearnMore'''
