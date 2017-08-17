@@ -5,8 +5,7 @@ title = '''AU POM 001 Ranger'''
 [[module]]
 path='email_modules/preheader'
 
-	preheader='''Our Ford-trained technicians are ready to ensure your Ford is in top shape
-'''
+	preheader='''Our Ford-trained technicians are ready to ensure your Ford is in top shape'''
     
 
 [[module]] #Banner Image
@@ -66,7 +65,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''When looking to personalise your Ford <span style="color:#2D96CD"><%${user.CustomAttribute['Model']}%></span> there are no better accessories than Ford Genuine Accessories. <a href="https://www.ford.com.au/commercial/ranger/smart-accessories/" style="text-decoration:underline; color:#2D96CD;" >Click here</a> to see the full range.'''    
+	copy = '''When looking to personalise your Ford <span style="color:#2D96CD"><%${user.CustomAttribute['Model']}%></span> there are no better accessories than Ford Genuine Accessories. See a selection below or <a href="https://www.ford.com.au/commercial/ranger/smart-accessories/" style="text-decoration:underline; color:#2D96CD;" >click here</a> to see the full range.'''    
     
 [[module]]
 path='email_modules/spacer/default'
@@ -108,7 +107,7 @@ color='white'
 	image1 = '''au_edm2_ranger_accessories3_20170629'''
 	image1_link_url = '''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
 	image1_link_name = '''link_name_here'''
-	title2 = '''Fully-loaded Tow Pack&#8308;'''
+	title2 = '''Fully Loaded Tow Pack&#8308;'''
 	copy2 = '''The comprehensive Ford Tow Pack perfectly pairs with Ranger's Dynamic Stability Control technology for next-level towing.'''
 	image2 = '''au_edm2_ranger_accessories4_20170629'''
 	image2_link_url = '''https://www.ford.com.au/commercial/ranger/smart-accessories/'''

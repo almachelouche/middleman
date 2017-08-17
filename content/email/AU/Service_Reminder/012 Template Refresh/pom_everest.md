@@ -66,7 +66,7 @@ color='''white'''
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''When looking to personalise your Ford Everest there are no better accessories than Ford Genuine Accessories. <a href="https://www.ford.com.au/suv/everest/smart-accessories/" style="text-decoration:underline; color:#2D96CD;" >Click here</a> to see the full range.'''    
+	copy = '''When looking to personalise your Ford Everest there are no better accessories than Ford Genuine Accessories. See a selection below or <a href="https://www.ford.com.au/suv/everest/smart-accessories/" style="text-decoration:underline; color:#2D96CD;" >click here</a> to see the full range.'''    
     
 [[module]]
 path='email_modules/spacer/default'
@@ -123,9 +123,7 @@ color='white'
 
 	text = '''DISCLAIMERS:<br /><br />
 1) 'Peace of Mind' Service Inspection expires after 5,000km's or 4 months after delivery of your new Ford (whichever is first).<br /><br />
-2） 800mm water wading available on 4x2 Hi-Rider and 4x4 models only. Achieve when maintain a steady speed of 7kms/hr.<br /><br />
-3） This accessory is a Supplier Branded Accessory and is not manufactured or Warranted by Ford. The warranty is provided by the manufacturer. Contact your authorized Ford dealer for details of the accessory manufacturer’s warranty applicable to this accessory.<br /><br />
-4） Braked towing capacity when fitted with a Genuine Ford Tow pack and accessory Tow Ball, subject to State and Territory towing regulations.'''
+2） Braked towing capacity available when fitted with a Genuine Ford Tow pack. Subject to State and Territory towing regulations'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'

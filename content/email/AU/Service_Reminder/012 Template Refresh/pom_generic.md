@@ -5,8 +5,7 @@ title = '''AU POM 001 Generic '''
 [[module]]
 path='email_modules/preheader'
 
-	preheader='''Our Ford-trained technicians are ready to ensure your Ford is in top shape
-'''
+	preheader='''Our Ford-trained technicians are ready to ensure your Ford is in top shape'''
 
 
 [[module]] #Banner Image

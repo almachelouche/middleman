@@ -6,7 +6,7 @@ title = '''AU POM 001 Mustang'''
 path='email_modules/preheader'
 color='''white'''
 
-	preheader='''Our Ford-trained technicians are ready to ensure your Ford is in top shape.'''
+	preheader='''Our Ford-trained technicians are ready to ensure your Ford is in top shape'''
 
 
 
@@ -55,7 +55,7 @@ color='white'
 path='email_modules/cover/03'
 color='''white'''
 
-	copy='''<br />When looking to personalise your Ford Mustang there are no better accessories than Ford Genuine Accessories & Ford licenced Accessories (FLA). See a selection below or <a href="https://www.ford.com.au/cars/mustang/smart-accessories/" style="text-decoration:underline; color:#2D96CD;" >Click here</a> to see the full range.'''
+	copy='''<br />When looking to personalise your Ford Mustang there are no better accessories than Ford Genuine Accessories & Ford licenced Accessories (FLA). See a selection below or <a href="https://www.ford.com.au/cars/mustang/smart-accessories/" style="text-decoration:underline; color:#2D96CD;" >click here</a> to see the full range.'''
 
 [[module]]
 path='email_modules/spacer/platinum_20'
@@ -71,7 +71,7 @@ color='white'
 	image1 = '''au_edm2_mustang_accessories2_20170629'''
 	image1_link_url = '''https://www.ford.com.au/cars/mustang/smart-accessories/'''
 	image1_link_name = '''link_name_here'''
-	title2 = '''Mobile Text Centers&#178;'''
+	title2 = '''Dynamic Lowering Kit&#178;'''
 	copy2 = '''Designed to work with production struts, shocks and sway bars, the Mustang Lowering Kit lowers your Mustang by 2.5cm for a more aggressive stance.'''
 	image2 = '''au_edm2_mustang_accessories3_20170629'''
 	image2_link_url = '''https://www.ford.com.au/cars/mustang/smart-accessories/'''
@@ -91,7 +91,7 @@ color='white'
 	image1 = '''au_edm2_mustang_accessories5_20170714'''
 	image1_link_url = '''https://www.ford.com.au/cars/mustang/smart-accessories/'''
 	image1_link_name = '''link_name_here'''
-	title2 = '''Body Styling Kit'''
+	title2 = '''Body Styling Kit#179'''
 	copy2 = '''Add a stylish and dynamic look to your Mustang. This styling kit includes a front spoiler, side rockers, stripe kit, and much more.'''
 	image2 = '''au_edm2_mustang_accessories5_20170629'''
 	image2_link_url = '''https://www.ford.com.au/cars/mustang/smart-accessories/'''
