@@ -107,24 +107,6 @@ color='white'
     image2_name='''Some'''
 
 [[module]]
-path='email_modules/dual/05'
-color='white'
-
-	title1 = '''Ford Owners App'''
-	copy1 = '''Download the <a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Owners App</a> for instant access to “how-to” videos, roadside assistance information, service reminders, vehicle owner manuals, and more.'''
-	cta1a_text = '''Download App Now'''
-	cta1a_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
-	cta1a_link_name = '''oa'''
-	image1 = '''au_edm1_owner-app2_20170629'''
-
-	title2 = '''Get Accessorised'''
-	copy2 = '''Take your Escape to the next level with Ford Genuine Accessories, designed to seamlessly integrate with your Escape.<br />&nbsp;'''
-	cta2a_text = '''Discover Accessories'''
-	cta2a_url = '''https://www.ford.com.au/suv/escape/accessories/ambiente-ecoboost-petrol-awd/'''
-	cta2a_link_name = '''accessory'''
-	image2 = '''au_edm1_escape02_20170629'''
-
-[[module]]
 path='email_modules/split/13'
 color='white'
 
