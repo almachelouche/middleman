@@ -112,10 +112,10 @@ color='white'
 	title2 = '''Get Accessorised'''
 	copy2 = '''Whether you need a tonneau cover to protect your cargo, or a tow pack for your weekend adventure, only Ford Genuine Accessories perfectly integrate with your Ranger.'''
 	cta2a_text = '''Discover Accessories'''
-	cta2a_url = '''https://www.ford.com.au/commercial/ranger/accessories/single-cab/4x2-xl-single-cab-chassis-2-2l/'''
+	cta2a_url = '''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
 	cta2a_link_name = '''link_name_here'''
 	image2 = '''au_edm1_ranger02_20170629'''
-	image2_link_url = '''https://www.ford.com.au/commercial/ranger/accessories/single-cab/4x2-xl-single-cab-chassis-2-2l/'''
+	image2_link_url = '''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
 	image2_link_name = '''link_name_here'''
 
 [[module]]
