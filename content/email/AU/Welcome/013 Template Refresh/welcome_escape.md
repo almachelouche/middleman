@@ -125,7 +125,7 @@ path='email_modules/dual/05'
 color='white'
 
 	title1 = '''SYNC® Support'''
-	text_box_height = '''290'''
+	text_box_height = '''280'''
 	copy1 = '''Learn how to use SAT NAV, set up Emergency Assistance, familiarise yourself with common voice commands and more on the SYNC® Support Portal. '''
 	cta1a_text = '''Become a SYNC® Expert'''
 	cta1a_url = '''https://www.ford.com.au/owners/technology/sync-support/sync1/'''
