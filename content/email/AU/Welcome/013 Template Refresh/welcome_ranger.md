@@ -101,7 +101,7 @@ path='email_modules/dual/05'
 color='white'
 
 	title1 = '''Ford Owners App'''
-	text_box_height = '''271'''
+	text_box_height = '''280'''
 	copy1 = '''Download the Ford Owners App for instant access to “how-to” videos, roadside assistance information, service reminders, vehicle owner manuals, and more.'''
 	cta1a_text = '''Download App Now'''
 	cta1a_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
@@ -118,11 +118,11 @@ color='white'
 	image2_link_url = '''https://www.ford.com.au/commercial/ranger/accessories/single-cab/4x2-xl-single-cab-chassis-2-2l/'''
 	image2_link_name = '''link_name_here'''
 
- [[module]]
-path='email_modules/spacer/default'
+[[module]]
+path='email_modules/spacer/platinum_20'
 color='white'
 
-	height="30"
+	height="20"
 
 [[module]]
 path='email_modules/dual/05'
