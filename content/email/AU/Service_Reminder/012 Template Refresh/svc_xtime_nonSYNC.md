@@ -97,9 +97,9 @@ color='white'
 	image2 = '''au_edm2_vehicle_health_report_20170818'''
 	image2_link_url = '''https://www.ford.com.au/owners/service/vehicle-report-card/'''
 	image2_link_name = '''Some'''
-    cta1a_text = '''Learn More'''
-	cta1a_url = '''https://www.ford.com.au/owners/service/'''
-	cta1a_link_name = '''healthreport'''
+    cta2a_text = '''Learn More'''
+	cta2a_url = '''https://www.ford.com.au/owners/service/'''
+	cta2a_link_name = '''healthreport'''
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
