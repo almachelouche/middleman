@@ -81,7 +81,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy='''<span style="font-weight: bold;">Extended Warranty</span><br /><br />Your Transit includes a complimentary extended warranty which means your vehicle is covered for a total of up to 5 years or 200,000km – whichever comes first³. Simply follow your vehicle’s servicing requirements outlined in your owner’s literature to stay protected. For your convenience, this warranty information is registered in the Ford Service system.<br /><br />Call us anytime on: 1300 80 10 80'''
+	copy='''<span style="font-weight: bold;">Extended Warranty</span><br /><br />Your Transit includes a complimentary extended warranty which means your vehicle is covered for a total of up to 5 years or 200,000km – whichever comes first&#185;. Simply follow your vehicle’s servicing requirements outlined in your owner’s literature to stay protected. For your convenience, this warranty information is registered in the Ford Service system.<br /><br />Call us anytime on: 1300 80 10 80'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -93,7 +93,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy='''<span style="font-weight: bold;">'Peace of Mind' Service Inspection</span><br /><br />To ensure your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> is running at its absolute best, you are entitled to a  complimentary 2-month/3,000km <span style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</span>&#185;. You'll receive a reminder from us again when you get closer to your 2 month anniversary.<br /><br />If there is anything we can help you with in the meantime please don't hesitate to contact your Dealer <%${user.CustomAttribute['Dealer_Name']}%> on <%${user.CustomAttribute['Dealer_Phone']}%> today. You can also speak to our consultants at our Customer Relationship Centre on <a href="tel:133673" style="text-decoration:underline; color:#2D96CD">13 FORD</a> (13 36 73) or via email <a href="mailto:foacust1@ford.com" style="text-decoration:underline; color:#2D96CD">foacust1@ford.com</a>.''' 
+	copy='''<span style="font-weight: bold;">'Peace of Mind' Service Inspection</span><br /><br />To ensure your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> is running at its absolute best, you are entitled to a  complimentary 2-month/3,000km <span style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</span>&#178;. You'll receive a reminder from us again when you get closer to your 2 month anniversary.<br /><br />If there is anything we can help you with in the meantime please don't hesitate to contact your Dealer <%${user.CustomAttribute['Dealer_Name']}%> on <%${user.CustomAttribute['Dealer_Phone']}%> today. You can also speak to our consultants at our Customer Relationship Centre on <a href="tel:133673" style="text-decoration:underline; color:#2D96CD">13 FORD</a> (13 36 73) or via email <a href="mailto:foacust1@ford.com" style="text-decoration:underline; color:#2D96CD">foacust1@ford.com</a>.''' 
 
 [[module]]
 path='email_modules/spacer/default'
@@ -146,7 +146,7 @@ color='white'
 	image1_link_url = '''https://www.ford.com.au/owners/technology/sync-support/sync1/'''
 	image1_link_name = '''link_name_here'''
 	title2 = '''Ford Service'''
-	copy2 = '''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That's what service should be.'''
+	copy2 = '''Enjoy the convenience of a Free Loan Car&#179; when you book your next scheduled service. That's what service should be.'''
 	cta2a_text = '''Find Out More'''
 	cta2a_url = '''https://www.ford.com.au/owners/service/'''
 	cta2a_link_name = '''link_name_here'''
@@ -164,9 +164,9 @@ color='white'
 
 	text = '''DISCLAIMERS:
 				<br /> <br />
-                1. 'Peace of Mind' Service Inspection expires after 5,000km's or 4 months after delivery of your new Ford (whichever is first). <br /><br />
-                2. Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
-                3. The Factory Warranty will operate under the terms and conditions of the Ford Express New Vehicle Warranty. Commences upon delivery to the customers or upon first registration of the vehicle for on-sold demonstrator vehicles and ends after 3 years or 200,000kms, whichever occurs first.'''
+                1. The Factory Warranty (first 3 years/100,00km, whichever is sooner) will operate under the terms and conditions of the Ford Express New Vehicle Warranty. Commences upon delivery to the customers or upon first registration of the vehicle for on-sold demonstrator vehicles and ends after 5 years or 200,000kms, whichever occurs first.<br /><br />
+                2. 'Peace of Mind' Service Inspection expires after 5,000km's or 4 months after delivery of your new Ford (whichever is first). <br /><br />
+                3. Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
                 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
