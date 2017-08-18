@@ -61,7 +61,7 @@ path='email_modules/dual/05'
 color='white'
 
 	title1 = '''Service Price Promise&#178;'''
-	text_box_height = '''240'''
+	text_box_height = '''200'''
 	copy1 = '''Know how much your standard service will cost before you even come in, with the <ahref="https://www.ford.com.au/owners/service/calculator/" name="calculator" style="text-decoration:underline; color:#2D96CD"> Service Price Promise Calculator</span>.<br/><br/>'''
 	image1 = '''au_edm2_service_price_promise_20170818'''
 	image1_link_url = '''https://www.ford.com.au/owners/service/calculator/'''
@@ -99,7 +99,6 @@ color='white'
 	image2 = '''au_edm2_free_sat_nav_updates_20170818'''
     image2_url='''https://www.ford.com.au/owners/service/free-sat-nav-updates/'''
     image2_name='''Some'''
-
 
 
 [[module]] #Footer Disclaimer 
