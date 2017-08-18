@@ -35,7 +35,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี
 <span style="font-family:Tahoma, Verdana, Sans-serif">
 		นัดหมายล่วงหน้าเพื่อเข้ารับบริการได้ทันที<br />
 		ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%>(ระหว่างเวลาทำการ)<br />
-		หรือค้นหาตัวแทนจำหน่ายใกล้บ้านคุณ
+		ขออภัยหากคุณได้เข้ารับบริการที่ศูนย์บริการแล้ว
  </span>'''
 
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">โทร <%${user.CustomAttribute['Dealer_Phone']}%></span>'''
