@@ -81,7 +81,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy='''<span style="font-weight: bold;">Extended Warranty</span><br /><br />Your Transit includes a complimentary extended warranty that covers your vehicle for 3 years or 200,000km – whichever comes first&#179;. Simply follow your vehicle's servicing requirements outlined in your owner's literature to stay fully protected. For your convenience, this warranty information is recorded at all Ford Dealerships nationwide and you will also have received a letter confirming the extended warranty period from your Dealer.<br /><br />Call us anytime on: 1300 80 10 80'''
+	copy='''<span style="font-weight: bold;">Extended Warranty</span><br /><br />Your Transit includes a complimentary extended warranty which means your vehicle is covered for a total of up to 5 years or 200,000km – whichever comes first³. Simply follow your vehicle’s servicing requirements outlined in your owner’s literature to stay protected. For your convenience, this warranty information is registered in the Ford Service system.<br /><br />Call us anytime on: 1300 80 10 80'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -107,52 +107,52 @@ color='white'
 
 	height="20"
 
-        [[module]] #Split 13
-path='email_modules/split/13'
-color='white'
-
-	title1='''Ford Owners App'''
-	title2='''Get Accessorised'''
-	copy1='''Download the <a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Owners App</a> for instant access to “how-to” videos, roadside assistance information, service reminders, vehicle owner manuals, and more.<br /><br /><a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="oa" style="text-decoration:underline; color:#2D96CD">Download App Now</a><br /><br />'''
-	copy2='''Take your Transit to the next level with Ford Genuine Accessories, designed to seamlessly integrate with your Transit.<br /><br /><a href="https://www.ford.com.au/commercial/transit-custom/accessories/290s-swb-van/" name="accessory" style="text-decoration:underline; color:#2D96CD">Discover Accessories</span><br /><br />'''
-	image1='''au_edm1_owner-app2_20170629'''
-    image1_url='''https://www.ford.com.au/owners/vehicle-support/app-download/'''
-    image1_name='''Some'''
-    image2='''au_edm1_transit02_20170629'''
-    image2_url='''https://www.ford.com.au/commercial/transit-custom/accessories/290s-swb-van/'''
-    image2_name='''Some'''
 
 [[module]]
 path='email_modules/dual/05'
 color='white'
 
+    text_box_height = '''271'''
 	title1 = '''Ford Owners App'''
-	copy1 = '''Download the <a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Owners App</a> for instant access to “how-to” videos, roadside assistance information, service reminders, vehicle owner manuals, and more.'''
+	copy1 = '''Download the Ford Owners App for instant access to “how-to” videos, roadside assistance information, service reminders, vehicle owner manuals, and more.'''
 	cta1a_text = '''Download App Now'''
 	cta1a_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
 	cta1a_link_name = '''oa'''
 	image1 = '''au_edm1_owner-app2_20170629'''
-
 	title2 = '''Get Accessorised'''
-	copy2 = '''Take your Transit to the next level with Ford Genuine Accessories, designed to seamlessly integrate with your Transit.<br />'''
+	copy2 = '''Take your Transit to the next level with Ford Genuine Accessories, designed to seamlessly integrate with your Transit.'''
 	cta2a_text = '''Discover Accessories'''
 	cta2a_url = '''https://www.ford.com.au/commercial/transit-custom/accessories/290s-swb-van/'''
 	cta2a_link_name = '''accessory'''
 	image2 = '''au_edm1_transit02_20170629'''
 
 [[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
+	height="20"
+
+[[module]]
 path='email_modules/dual/05'
 color='white'
 
 	title1 = '''SYNC® Support'''
-	copy1 = '''Become a SYNC® expert. Familiarise yourself with common voice commands and more on the <a href="https://www.ford.com.au/owners/technology/sync-support/sync1/" name="sync" style="text-decoration:underline; color:#2D96CD">SYNC® Support Portal</span>.<br /><br /><br />'''
+	text_box_height = '''260'''
+	copy1 = '''Familiarise yourself with common voice commands and more on the SYNC® Support Portal. '''
+	cta1a_text = '''Become a SYNC® Expert'''
+	cta1a_url = '''https://www.ford.com.au/owners/technology/sync-support/sync1/'''
+	cta1a_link_name = '''link_name_here'''
 	image1 = '''au_edm1_support_20170629'''
+	image1_link_url = '''https://www.ford.com.au/owners/technology/sync-support/sync1/'''
+	image1_link_name = '''link_name_here'''
 	title2 = '''Ford Service'''
-	copy2 = '''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That’s what service should be.<br/><br/><a href="https://www.ford.com.au/owners/service/" name="service" style="text-decoration:underline; color:#2D96CD">Find Out More</span><br />'''
+	copy2 = '''Enjoy the convenience of a Free Loan Car² when you book your next scheduled service. That's what service should be.'''
+	cta2a_text = '''Find Out More'''
+	cta2a_url = '''https://www.ford.com.au/owners/service/'''
+	cta2a_link_name = '''link_name_here'''
 	image2 = '''au_edm1_service_20170629'''
-    image2_url = '''https://www.ford.com.au/owners/service/'''
-	image2_link_name = '''some'''
-
+	image2_link_url = '''https://www.ford.com.au/owners/service/'''
+	image2_link_name = '''link_name_here'''
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
