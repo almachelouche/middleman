@@ -100,7 +100,7 @@ color='white'
 
 	title1 = '''Ford Owners App'''
 	text_box_height = '''271'''
-	copy1 = '''Download the Ford Owners App for instant access to “how-to” videos, roadside assistance information, service reminders, vehicle owner manuals, and more.'''
+	copy1 = '''Download the <a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Owners App</a> for instant access to “how-to” videos, roadside assistance information, service reminders, vehicle owner manuals, and more.'''
 	cta1a_text = '''Download App Now'''
 	cta1a_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
 	cta1a_link_name = '''link_name_here'''
@@ -108,7 +108,7 @@ color='white'
 	image1_link_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
 	image1_link_name = '''link_name_here'''
 	title2 = '''Get Accessorised'''
-	copy2 = '''Whether you need a nudge bar, or a tow pack for your weekend adventure, only Ford Genuine Accessories perfectly integrate with your Everest.'''
+	copy2 = '''Whether you need a nudge bar, or a tow pack for your weekend adventure, only <a href="https://www.ford.com.au/suv/everest/smart-accessories/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a> perfectly integrate with your Everest.'''
 	cta2a_text = '''Discover Accessories'''
 	cta2a_url = '''https://www.ford.com.au/suv/everest/smart-accessories/'''
 	cta2a_link_name = '''link_name_here'''
@@ -156,7 +156,7 @@ color='white'
 	text = '''DISCLAIMERS:
 				<br /> <br />
                 1. 'Peace of Mind' Service Inspection expires after 5,000km's or 4 months after delivery of your new Ford (whichever is first). <br /><br />
-                2. Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
+                2. Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
                 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'

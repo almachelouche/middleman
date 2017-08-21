@@ -114,13 +114,13 @@ color='white'
 
     text_box_height = '''271'''
 	title1 = '''Ford Owners App'''
-	copy1 = '''Download the Ford Owners App for instant access to “how-to” videos, roadside assistance information, service reminders, vehicle owner manuals, and more.'''
+	copy1 = '''Download the <a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Owners App</a> for instant access to “how-to” videos, roadside assistance information, service reminders, vehicle owner manuals, and more.'''
 	cta1a_text = '''Download App Now'''
 	cta1a_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
 	cta1a_link_name = '''oa'''
 	image1 = '''au_edm1_owner-app2_20170629'''
 	title2 = '''Get Accessorised'''
-	copy2 = '''Take your Transit to the next level with Ford Genuine Accessories, designed to seamlessly integrate with your Transit.'''
+	copy2 = '''Take your Transit to the next level with <a href="https://www.ford.com.au/commercial/transit-custom/accessories/290s-swb-van/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a>, designed to seamlessly integrate with your Transit.'''
 	cta2a_text = '''Discover Accessories'''
 	cta2a_url = '''https://www.ford.com.au/commercial/transit-custom/accessories/290s-swb-van/'''
 	cta2a_link_name = '''accessory'''
@@ -166,7 +166,7 @@ color='white'
 				<br /> <br />
                 1. The Factory Warranty (first 3 years/100,00km, whichever is sooner) will operate under the terms and conditions of the Ford Express New Vehicle Warranty. Commences upon delivery to the customers or upon first registration of the vehicle for on-sold demonstrator vehicles and ends after 5 years or 200,000kms, whichever occurs first.<br /><br />
                 2. 'Peace of Mind' Service Inspection expires after 5,000km's or 4 months after delivery of your new Ford (whichever is first). <br /><br />
-                3. Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
+                3. Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
                 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
