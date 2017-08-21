@@ -73,7 +73,7 @@ color = '''white'''
 path='email_modules/cover/03'
 color='''white'''
 
-	copy='''<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace-of-mind.<br /><br />You get State Auto Club Roadside Assistance and Membership¹ for up to 7 years from Autoclub participating dealers. But the service doesn't stop there. Ford also has a Loan Car program², so we can keep you on the road whilst your car is being serviced.<br /><br />Best of all, you secured up to 5 years/100,000km warranty&#179;. Simply book an appointment with your local participating Ford Dealership by the date your Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> is due for a service, and the team will have the warranty noted in the system.'''
+	copy='''<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we include these service offerings for added peace of mind.<br /><br />You get State Auto Club Roadside Assistance and Membership¹ for up to 7 years from Autoclub participating dealers. But the service doesn't stop there. Ford also has a Free Loan Car program², so we can keep you on the road whilst your car is being serviced.<br /><br />Your <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> includes a complimentary extended warranty that covers your vehicle for 5 years or 100,000km – whichever comes first³. Simply follow your vehicle’s servicing requirements outlined in your owner’s literature to stay fully protected. For your convenience, this warranty information is registered in the Ford Service system.<br/><br/>Call us anytime on: 1300 80 10 80'''
 
 
 
@@ -87,7 +87,7 @@ color = '''white'''
 	image2 = '''au_svc_icon2'''
 	image2_url = '''https://www.ford.com.au/owners/service/calculator?edm'''
 	image2_link_name = '''icon2'''
-	image3 = '''au_svc_icon1A'''
+	image3 = '''au_svc_icon1'''
 	image3_url = '''https://www.ford.com.au/owners/service/'''
 	image3_link_name = '''icon3'''
 
@@ -150,9 +150,9 @@ color='white'
 
 	text = '''DISCLAIMERS:
 				<br /> <br />
-				1) Private and Blue Business Fleet customers only at participating Dealers who have not reached 7 years or 105,000 kms. State Auto Club Roadside Assistance & Membership is included with the first seven standard services for 12 months or until your next eligible standard service (whichever occurs first). Standard services include all A and B logbook services. Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
+				1) Private and Blue Business Fleet customers who have not reached earlier of 7 years or 105,000km, only at participating Dealers. State Auto Club Roadside Assistance & Membership is included for 12 months or until your next eligible standard service (whichever occurs first). Standard services include all A and B logbook services. Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
 				2) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/"	name="terms2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
-				3) At participating dealers for eligible new vehicles ordered and delivered by 30/06/2017. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. All prices are recommended. Extended warranty covers 5 years/100,000km from date of registration, whichever occurs first. Conditions apply. See <a href="https://www.ford.com.au/"	name="ford1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au</a>.'''
+				3) The Factory Warranty will operate under the terms and conditions of the Ford Express New Vehicle Warranty. Commences upon delivery to the customers or upon first registration of the vehicle for on-sold demonstrator vehicles and ends after 5 years or 100,000kms, whichever occurs first.'''
 
 
 
