@@ -52,9 +52,9 @@ font='sk'
 
     cta_direction = '''vertical'''
 
-    cta__1_copy='''더 알아보기'''
-    cta__1_link_url='''https://www.ford-korea.com/owner/emergency/'''
-    cta__1_link_name = '''era'''
+    cta_1_copy='''더 알아보기'''
+    cta_1_link_url='''https://www.ford-korea.com/owner/emergency/'''
+    cta_1_link_name = '''era'''
     cta_1_type = '''block'''
 
 [[module]]
