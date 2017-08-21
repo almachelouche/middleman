@@ -112,7 +112,7 @@ color='white'
 	cta2a_text = '''Discover Accessories'''
 	cta2a_url = '''https://www.ford.com.au/cars/mustang/smart-accessories/'''
 	cta2a_link_name = '''link_name_here'''
-	image2 = '''au_edm1_mondeo02_20170629'''
+	image2 = '''au_edm1_mustang02_20170629'''
 	image2_link_url = '''https://www.ford.com.au/cars/mustang/smart-accessories/'''
 	image2_link_name = '''link_name_here'''
 
