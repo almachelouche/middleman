@@ -83,7 +83,7 @@ path='email_modules/dual/05'
 color='white'
 
 	title1 = '''Auto Club Membership&#179;'''
-	text_box_height = '''310'''
+	text_box_height = '''300'''
 	copy1 = '''Each time you complete your standard service at a participating Ford dealer you'll receive State Auto Club Roadside Assistance and membership for up to 12 months.'''
 	cta1a_text = '''Learn More'''
 	cta1a_url = '''https://www.ford.com.au/owners/service/roadside-assistance/'''
