@@ -39,7 +39,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี
 ฟอร์ดง่ายๆ ผ่านระบบ Online Booking ตลอด 7 วัน<br />
 พร้อมการรับประกันเช็คระยะภายใน 60	นาที
 หากไม่ทัน<br />
-ขออภัยหากคุณได้เข้ารับบริการที่ศูนย์บริการแล้ว
+คุณจะได้รับบริการเช็คระยะครั้งนั้น "ฟรีทันที"
 </span>'''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหมายตอนนี้</span>'''
 cta1_url='''https://onlinebooking.ford.co.th/'''
