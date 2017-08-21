@@ -82,7 +82,7 @@ path='email_modules/singles/copy'
 color='''white'''
 
 
-    copy='''Along with driver assistance technologies that enable a 5-Star safety rating, Ford brings the latest communications technology to New Zealand drivers.<br/> Not only is your vehicle safe, it’s also smart!'''
+    copy='''Did you know your new <%${user.CustomAttribute['Model']}%> is as safe as it is smart? Not only does it deliver innovative driver assistance technologies and a 5star ANCAP safety rating, it also brings the latest in-car communication technologies to New Zealand drivers.'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -117,7 +117,7 @@ path='email_modules/cover/01'
 color='white'
 
  title='''Peace of mind comes standard'''
-	copy='''Included with your new <%${user.CustomAttribute['Model']}%> is a 3 year/100,000km Warranty, 3 Year Roadside Assistance along with a 20,000km/12 Month Service intervals (whichever occurs first). <br /><br />You will also receive an email from us within the next two months reminding you to book your Peace of Mind checkup. This is a quick, complimentary inspection to ensure that you are happy with how your vehicle is running. It also provides an opportunity to discuss any questions or concerns you may have about your new <%${user.CustomAttribute['Model']}%>.'''
+	copy='''Your new <%${user.CustomAttribute['Model']}%> includes a 3 year/100,000km warranty, 3-Year roadside assistance, and 12-month/20,000km service intervals (whichever occurs first). <br /><br />You will also receive an email from us within the next two months reminding you to book your Peace of Mind checkup. This is a quick, complimentary inspection to ensure that you are happy with how your vehicle is running. It also provides an opportunity to discuss any questions or concerns you may have about your new <%${user.CustomAttribute['Model']}%>.'''
 
 
 [[module]] #Cover 01
@@ -126,7 +126,7 @@ color='''fordblue'''
 
 	icon='''au_edm1_welcome_icon_20161019'''
 	title='''Can we help?'''
-	copy='''Our Ford Customer Assistance Team is always available to assist with any questions you may have. They can be contacted on<br/><span style="color:#FFFFFF">0800 Ford NZ (0200 367 369)</span>.'''
+	copy='''Our Ford Customer Assistance Team is always available to assist with any questions you may have. Contact them on <br/><span style="color:#FFFFFF">0800 Ford NZ (0200 367 369)</span>.'''
 
 
 [[module]] #Footer AU Social
