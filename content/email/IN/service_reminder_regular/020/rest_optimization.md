@@ -151,7 +151,7 @@ color='white'
   textlink2_text = '''Check how affordable'''
   textlink2_url = '''https://www.india.ford.com/surprisingly-affordable/'''
   textlink2_link_name = '''surprisingly_affordable'''
-  cta1_text = '''FIND A DEALER'''
+  cta1_text = '''BOOK A PICK-UP'''
   cta1_url = '''https://www.india.ford.com/locate-dealer/'''
   cta1_link_name = '''locate_dealer_2'''
 
