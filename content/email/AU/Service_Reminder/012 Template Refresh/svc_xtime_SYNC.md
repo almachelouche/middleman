@@ -100,6 +100,10 @@ color='white'
     image2_url='''https://www.ford.com.au/owners/service/free-sat-nav-updates/'''
     image2_name='''Some'''
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> update
 
 [[module]] #Footer Disclaimer 
 path='email_modules/footer/disclaimer'
