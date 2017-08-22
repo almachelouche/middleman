@@ -1,6 +1,6 @@
 +++
 markets = ["in"]
-title = '''IN Service Reminder Regular Due/Pdue 020 Reunion All'''
+title = '''IN Service Reminder Regular Due/Pdue 020 Rest'''
 
 [[module]]
 path='email_modules/preheaderbefore'
@@ -133,58 +133,6 @@ color='white'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''in_edm2_reunion_season2_20170814'''
-    
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="20"
-
-[[module]]
-path='email_modules/singles/title'
-color='''white'''
-
-	title = '''Get ready for a reunion for Ford!'''
-
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
-
-[[module]]
-path='email_modules/singles/copy'
-color='''white'''
-segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
-
-	copy = '''Reunions are a great opportunity to reconnect with friends and family. This Reunion season, reunite with Ford and enjoy some great service offers, exclusively for you.<br /><br />If you purchased a Ford between 2007 and 2012, go to your nearest Ford Service Centre and enjoy a 25% discount on brakes, suspension and clutch parts, labour and VAS, and get a free oil filter replacement, too! Hurry, this offer is only available from September 2-17 and you don't want to miss it.*'''
-
-[[module]]
-path='email_modules/singles/copy'
-color='''white'''
-segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
-
-	copy = '''Reunions are a great opportunity to reconnect with friends and family. This Reunion season, reunite with Ford and enjoy some great service offers, exclusively for you.<br /><br />If you purchased a Ford between 2007 and 2012, go to your nearest Ford Service Centre and enjoy a 25% discount on brakes, suspension and clutch parts, labour and VAS, and get a free oil filter replacement, too! Hurry, this offer is only available from September 11-25 and you don't want to miss it.*'''
-
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
-
-[[module]]
-path='email_modules/singles/ctablock'
-color='''white'''
-
-	cta1_text = '''BOOK A SERVICE'''
-	cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
-	cta1_link_name = '''book_service''' 
-
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
   image = '''in_edm2_fordsvc_20170321'''
 
 [[module]] #Custom 02
@@ -207,6 +155,36 @@ color='white'
   cta1_url = '''https://www.india.ford.com/locate-dealer/'''
   cta1_link_name = '''locate_dealer_2'''
 
+[[module]] #Cover 05
+path='email_modules/cover/02'
+color='''green_pb'''
+segmentif = ["(user.CustomAttribute['SSPStatus'] == 'NO')"]
+
+	title = '''Scheduled Service Plan'''
+	copy = '''Our peace-of-mind service plans keep your Ford performing its best. Enjoy up to 5 years of capped pricing and save up to 10% on servicing. And coverage is 100% transferrable, increasing your Ford's resale value.'''
+	cta1_text = '''VIEW PLANS'''
+	cta1_url = '''https://www.india.ford.com/owner/scheduled-service-plan/'''
+	cta1_link_name = '''ssp'''
+	icon = '''in_edm1_extendedwarranty_20160801'''
+
+[[module]] #Custom 01
+path='email_modules/custom/3columntitle3icons'
+color='white'
+
+	title = '''Great service is everything'''
+	icon1 = '''in_edm2_fordsvc_a_20160801'''
+	text1 = '''Your custom designed service plan keeps your vehicle performing at its best.'''
+	icon2 = '''in_edm2_fordsvc_b_20160801'''
+	text2 = '''Ford service centre equipment is built and calibrated specifically for your vehicle.'''
+	icon3 = '''in_edm2_fordsvc_c_20160801'''
+	text3 = '''A record of regular servicing improves your vehicle's re-sale value.'''
+
+[[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+
+	image = '''in_edm2_greatsvc_20160801'''
+
 [[module]] #Footer 4 Icons
 path='email_modules/footer/4icons'
 color='white'
@@ -227,20 +205,6 @@ color='white'
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'
-
-[[module]] #Footer Disclaimer
-path='email_modules/footer/disclaimer'
-color='white'
-segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
-
-  text='''*Terms & conditions apply. Offer applicable for Ford owners of 2007-2012 and servicing their cars  between 2nd September to 17th September 2017. Given offers are applicable only in Haryana, Chandigarh, Delhi NCR, Rajasthan, Jammu & Kashmir, Andhra Pradesh, Telangana, Gujarat, Goa, West Bengal & Assam and cannot be clubbed with other offers. Offer not applicable on accidental jobs and body repair.'''
-
-[[module]] #Footer Disclaimer
-path='email_modules/footer/disclaimer'
-color='white'
-segmentif = ["(user.CustomAttribute['Segment'] == 'B')"]
-
-  text='''*Terms & conditions apply. Offer applicable for Ford owners of 2007-2012 and servicing their cars  between 11th September to 25th September 2017. Given offers are applicable only in Kerala and cannot be clubbed with other offers. Offer not applicable on accidental jobs and body repair.'''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
