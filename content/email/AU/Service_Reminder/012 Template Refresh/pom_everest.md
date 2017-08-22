@@ -83,7 +83,7 @@ path='email_modules/dual/05'
 color='white'
 
 	title1 = '''Fully Loaded<br/>Tow Pack'''
-	text_box_height = '''310'''
+	text_box_height = '''340'''
 	copy1 = '''With up to 3,000kg&#178; towing capacity, take on the most epic journeys with the Genuine Ford towpack. The tow pack pairs perfectly with the Everest's Dynamic Stability Control, automatically adapting to changing loads for greater control.'''
 	image1 = '''au_edm2_everest_accessories2_20170629'''
 	image1_link_url = '''https://www.ford.com.au/suv/everest/smart-accessories/'''
