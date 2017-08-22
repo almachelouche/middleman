@@ -96,7 +96,7 @@ path='email_modules/dual/05'
 color='white'
 
 	title1 = '''Ford Owners App'''
-	text_box_height = '''300'''
+	text_box_height = '''310'''
 	copy1 = '''Download the <a href="https://www.ford.com.au/owners/vehicle-support/app-download/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Owners App</a> for instant access to “how-to” videos, roadside assistance information, service reminders, vehicle owner manuals, and more.'''
 	cta1a_text = '''Download App Now'''
 	cta1a_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
