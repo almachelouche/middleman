@@ -2,6 +2,20 @@
 markets = ["nz"]
 title = '''NZ Welcome 001 transit'''
 
+[[module]]
+path='email_modules/preheaderbefore'
+
+segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
+
+	preheader='''Dear <%${user.CustomAttribute['FullName']}%>, thank you for again choosing Ford.'''
+
+[[module]]
+path='email_modules/preheaderbefore'
+
+segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
+
+	preheader='''Dear <%${user.CustomAttribute['FullName']}%>, welcome to the Ford Family.'''
+
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
@@ -21,7 +35,7 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
-	copy='''Dear <%${user.CustomAttribute['FullName']}%><br /><br />Thank you for again choosing Ford. We hope you are enjoying the experience being part of the Ford family with your new Transit.<br/><br />'''
+	copy='''Dear <%${user.CustomAttribute['FullName']}%><br /><br />Thank you for again choosing Ford. We hope you are enjoying the experience of being part of the Ford family with your new Transit.<br/><br />'''
 
 [[module]]
 path='email_modules/singles/copy'

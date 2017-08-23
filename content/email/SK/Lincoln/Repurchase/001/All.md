@@ -105,7 +105,7 @@ font='sk'
 	cta_1_width = '''250'''
 
 	cta_2_copy = '''보증 서비스'''
-	cta_2_link_url = '''https://www.lincoln-korea.com/parts-service/extended-service-plan/'''
+	cta_2_link_url = '''https://www.lincoln-korea.com/parts-service/warranty/'''
 	cta_2_link_name = '''warranty'''
 	cta_2_icon = ''''''
 	cta_2_type = '''block'''

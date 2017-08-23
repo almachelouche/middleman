@@ -40,7 +40,7 @@ path='email_modules/singles/ctablock'
 color='''white'''
 segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
 
-	cta1_text = '''BOOK YOUR SERVICE'''
+	cta1_text = '''BOOK YOUR INSPECTION'''
 	cta1_url = '''https://www.ford.com.au/owners/service/book-service/'''
 	cta1_link_name = '''BOOK YOUR SERVICE'''
     
@@ -49,7 +49,7 @@ path='email_modules/image/banner'
 color='white'
 
 	image = '''au_edm2_mustang_accessories1_20170629'''
-	url_link = '''https://www.ford.com.au/owners/service/'''
+	url_link = '''https://www.ford.com.au/cars/mustang/smart-accessories/'''
 
 [[module]]
 path='email_modules/cover/03'
@@ -66,7 +66,7 @@ path='email_modules/dual/05'
 color='white'
 
 	title1 = '''Track Handling Pack&#178;'''
-	text_box_height = '''260'''
+	text_box_height = '''300'''
 	copy1 = '''Assembled with Ford Performance Parts, the high-performance Track Handling Pack is the perfect suspension system for the driver who demands the most from their Mustang.'''
 	image1 = '''au_edm2_mustang_accessories2_20170629'''
 	image1_link_url = '''https://www.ford.com.au/cars/mustang/smart-accessories/'''
@@ -86,7 +86,7 @@ path='email_modules/dual/05'
 color='white'
 
 	title1 = '''Fastback High Rise Spoiler'''
-	text_box_height = '''260'''
+	text_box_height = '''270'''
 	copy1 = '''Painted in Absolute Black this high rise rear spoiler will give your Mustang real presence.'''
 	image1 = '''au_edm2_mustang_accessories5_20170714'''
 	image1_link_url = '''https://www.ford.com.au/cars/mustang/smart-accessories/'''

@@ -2,6 +2,11 @@
 markets = ["nz"]
 title = '''NZ Service Reminder 001 1st-year'''
 
+[[module]]
+path='email_modules/preheader'
+
+	preheader='''Hi <%${user.CustomAttribute['FullName']}%>,<br/><br/>This is a friendly reminder that your Ford <%${user.CustomAttribute['NextServiceDate']}%> is nearly due for a service.'''
+
 [[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'
@@ -27,7 +32,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy='''Hi <%${user.CustomAttribute['FullName']}%>,<br/><br/>Your next service is due on <%${user.CustomAttribute['NextServiceDate']}%><br/><br/>Book with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> or email <span style="color:#2D96CD"><% ${user.CustomAttribute['Dealer_Email']} %></span> today.'''
+	copy='''Hi <%${user.CustomAttribute['FullName']}%>,<br/><br/>This is a friendly reminder that your Ford <%${user.CustomAttribute['NextServiceDate']}%> is nearly due for a service. Our Ford Technicians can’t wait to make sure it’s running at its absolute best. Your next service is due on <%${user.CustomAttribute['NextServiceDate']}%>.<br/><br/>Book with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> or email <span style="color:#2D96CD"><% ${user.CustomAttribute['Dealer_Email']} %></span> today.'''
     
 [[module]]
 path='email_modules/spacer/default'
@@ -71,7 +76,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-    copy='''We know how important your <%${user.CustomAttribute['Model']}%> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%> in the trusted hands of Ford trained technicians who use diagnostic equipment specifically designed for Fords.<br/><br/>When you book or bring your vehicle in for a scheduled service you will be provided with an estimate&#185; of the cost. We will perform a vehicle report card - a comprehensive health check of your vehicle. You can even book a free loan car² so we can keep you on the road.'''
+    copy='''We know how important your <%${user.CustomAttribute['Model']}%> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%> in the trusted hands of Ford trained technicians who use diagnostic equipment specifically designed for Fords. With Genuine Ford Parts you can be assured of the highest standards of quality, fit and finish. <br/><br/>When you book or bring your vehicle in for a scheduled service you will be provided with an estimate&#185; of the cost. We will perform a vehicle report card - a comprehensive health check of your vehicle. You can even book a free loan car² so we can keep you on the road.'''
 
 [[module]]
 path='email_modules/custom/01'
