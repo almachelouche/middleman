@@ -19,7 +19,7 @@ segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Ecosport')"]
 
 	image='''nz_edm1_ecosport_20170612'''
 	url_link='''https://www.ford.co.nz/'''
@@ -28,7 +28,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['Segment'] == 'B')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Mondeo')"]
 
 	image = '''nz_edm1_mondeo_20170612'''
     url_link='''https://www.ford.co.nz/'''
@@ -37,7 +37,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'B')"]
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['Segment'] == 'C')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Focus')"]
 
 	image = '''nz_edm1_focus_20170612'''
     url_link='''https://www.ford.co.nz/'''
@@ -47,7 +47,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'C')"]
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['Segment'] == 'D')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Escape')"]
 
 	image = '''nz_edm1_escape_20170612'''
     url_link='''https://www.ford.co.nz/'''
@@ -56,7 +56,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'D')"]
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['Segment'] == 'E')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Everest')"]
 
 	image = '''nz_edm1_everest_20170612'''
     url_link='''https://www.ford.co.nz/'''
@@ -65,7 +65,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'E')"]
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['Segment'] == 'F')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Fiesta')"]
 
 	image = '''nz_edm1_fiesta_20170612'''
     url_link='''https://www.ford.co.nz/'''
