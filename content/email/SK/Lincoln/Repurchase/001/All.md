@@ -38,7 +38,7 @@ font='sk'
 		<br/>
 		<span style="white-space:nowrap;">링컨 코리아에서는 2017년 9월 30일까지</span>
 		<br/>
-		<span style="white-space:nowrap;">각 모델에 맞춘 재구매 특별 금융 프로그램을 지원해드립니다.</span>
+		<span style="white-space:nowrap;">각 모델에 맞춘 재구매 지원금 지원해드립니다.</span>
 		<br/>
 		<br/>
 		<span style="white-space:nowrap;"></span>- 컨티넨탈: 1,500,000 원</span>
