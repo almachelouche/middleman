@@ -40,7 +40,7 @@ path='email_modules/singles/ctablock'
 color='''white'''
 segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
 
-	cta1_text = '''BOOK YOUR SERVICE'''
+	cta1_text = '''BOOK YOUR INSPECTION'''
 	cta1_url = '''https://www.ford.com.au/owners/service/book-service/'''
 	cta1_link_name = '''BOOK YOUR SERVICE'''
     
