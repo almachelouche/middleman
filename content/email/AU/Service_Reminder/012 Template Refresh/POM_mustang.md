@@ -49,7 +49,7 @@ path='email_modules/image/banner'
 color='white'
 
 	image = '''au_edm2_mustang_accessories1_20170629'''
-	url_link = '''https://www.ford.com.au/owners/service/'''
+	url_link = '''https://www.ford.com.au/cars/mustang/smart-accessories/'''
 
 [[module]]
 path='email_modules/cover/03'

@@ -46,7 +46,7 @@ segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
 path='email_modules/singles/title'
 color='''white'''
 
-	title = '''Ger Personal'''   
+	title = '''Get Personal'''   
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''

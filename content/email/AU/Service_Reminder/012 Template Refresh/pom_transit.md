@@ -77,7 +77,7 @@ color = '''white'''
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''When looking to personalise your Ford Transit there are no better accessories than Ford Genuine Accessories. <a href="https://www.ford.com.au/shopping/accessories/" style="text-decoration:underline; color:#2D96CD;" >Click here</a> to see the full range.'''    
+	copy = '''When looking to personalise your Ford Transit there are no better accessories than Ford Genuine Accessories. <a href="https://www.ford.com.au/commercial/transit/accessories/350l-lwb-van/" style="text-decoration:underline; color:#2D96CD;" >Click here</a> to see the full range.'''    
     
 [[module]]
 path='email_modules/spacer/default'
