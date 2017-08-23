@@ -82,7 +82,7 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
-	copy='''Dear <%${user.CustomAttribute['FullName']}%><br /><br />Thank you for again choosing Ford. We hope you are enjoying the experience being part of the Ford family with your new <%${user.CustomAttribute['Model']}%>.<br /><br />'''
+	copy='''Dear <%${user.CustomAttribute['FullName']}%><br /><br />Thank you for again choosing Ford. We hope you are enjoying the experience of being part of the Ford family with your new <%${user.CustomAttribute['Model']}%>.<br /><br />'''
 
 [[module]]
 path='email_modules/singles/copy'
