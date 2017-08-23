@@ -5,7 +5,15 @@
 			<table class="drop" width="320" style="width:320px;" border="0" cellspacing="0" cellpadding="0">
 				<tr>
 					<td	align="center"	valign="top">
+						<!-- Logic for Image Link opening tag -->
+						{{ if .moduleinfo.image1_link_url }}
+							<a href="{{ .moduleinfo.image1_link_url | safeURL }}" name="{{- .moduleinfo.image1_link_name -}}" target="_blank">
+						{{ end }}
 						<img width="320"	src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/{{- .moduleinfo.image1 -}}_tile.jpg"	border="0"	class="img_Rez" />
+						<!-- Logic for Image Link closing tag -->
+						{{ if .moduleinfo.image1_link_url }}
+							</a>
+						{{ end }}
 					</td>
 				</tr>
 				<tr>
@@ -40,7 +48,15 @@
 			<table width="320" class="drop" border="0" cellspacing="0" cellpadding="0">
 				<tr>
 					<td align="center"	valign="top" style="vertical-align:top">
+						<!-- Logic for Image Link opening tag -->
+						{{ if .moduleinfo.image2_link_url }}
+							<a href="{{ .moduleinfo.image2_link_url | safeURL }}" name="{{- .moduleinfo.image2_link_name -}}" target="_blank">
+						{{ end }}
 						<img width="320"	src="https://s3-ap-southeast-1.amazonaws.com/edm-images/tiles/{{- .moduleinfo.image2 -}}_tile.jpg"	border="0"	class="img_Rez" />
+						<!-- Logic for Image Link closing tag -->
+						{{ if .moduleinfo.image2_link_url }}
+							</a>
+						{{ end }}
 					</td>
 				</tr>
 				<tr>
