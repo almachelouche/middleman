@@ -54,7 +54,7 @@ color='lightblue'
 	cta1_text = '''CHECK IT OUT'''
 	cta1_url = '''https://www.youtube.com/watch?v=EpUVjpuhxEE&t=133s/'''
 	cta1_link_name = '''service_journey_video'''
-	cta1_icon = '''more'''
+	cta1_icon = '''play'''
 	image = '''in_edm6_service_journey_20170420'''
 
 [[module]] #Split 01
@@ -86,7 +86,7 @@ path='email_modules/split/01'
 color='darkblue'
 
 	title = '''Road Trip Tunes'''
-	copy = '''We know there's nothing better than pairing a nice long drive with your favorite tunes blasting from the stereo. So, Ford collaborated with Hungama music app to put together a playlist you can listen to on your next road trip.'''
+	copy = '''There's nothing better than pairing a nice long drive with an awesome playlist. That's why Ford collaborated with Hungama music app to put together a playlist perfect for your next road trip. Regardless of what car you drive, you can access this playlist.'''
 	cta1_text = '''FORD RETRO RIDES'''
 	cta1_url = '''https://goo.gl/LjGCVT'''
 	cta1_link_name = '''retro_rides_playlist'''

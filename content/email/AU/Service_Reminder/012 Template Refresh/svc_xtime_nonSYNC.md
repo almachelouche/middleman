@@ -98,7 +98,7 @@ color='white'
 	image2_link_url = '''https://www.ford.com.au/owners/service/'''
 	image2_link_name = '''Some'''
     cta2a_text = '''Learn More'''
-	cta2a_url = '''https://www.ford.com.au/owners/service/'''
+	cta2a_url = '''https://www.ford.com.au/owners/service/vehicle-report-card'''
 	cta2a_link_name = '''healthreport'''
 
 [[module]] #Footer AU Social
