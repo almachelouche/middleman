@@ -98,14 +98,14 @@ path='email_modules/cover/03'
 color='''white'''
 segmentif = ["(((user.CustomAttribute['Model'] == 'Everest') && (user.CustomAttribute['Series'] == 'Trend')) || ((user.CustomAttribute['Model'] == 'Focus') && (user.CustomAttribute['Series'] == 'RS')) || ((user.CustomAttribute['Model'] == 'Focus') && (user.CustomAttribute['Series'] == 'Trend')) || ((user.CustomAttribute['Model'] == 'Ranger') && (user.CustomAttribute['Series'] == 'XLT')))"]
 
-	copy='''We are proud to announce that the Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> you are driving has won the 2016 Drive Car of The Year award for its category. This is just one of the awards that has made Ford ''Drive’s Most Awarded Manufacturer of 2016''!<br /><br /> But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace-of-mind.<br /><br />With Ford's Service Price Promise¹, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership² for up to 7 years from Autoclub participating dealers. Ford also has a Loan Car program³, so we can keep you on the road whilst your car is being serviced.<br /><br />'''
+	copy='''We are proud to announce that the Ford <%${user.CustomAttribute['Model']}%> <%${user.CustomAttribute['Series']}%> you are driving has won the 2016 Drive Car of The Year award for its category. This is just one of the awards that has made Ford ''Drive’s Most Awarded Manufacturer of 2016''!<br /><br /> But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we include these service offerings for added peace of mind.<br /><br />With Ford's Service Price Promise¹, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership² for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program³, so we can keep you on the road whilst your car is being serviced.<br /><br />'''
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''white'''
 segmentelse = ["else"]
 
-	copy='''<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we provide our Service Guarantee for added peace-of-mind.<br /><br />With Ford's Service Price Promise¹, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership² for up to 7 years from Autoclub participating dealers. Ford also has a Loan Car program³, so we can keep you on the road whilst your car is being serviced.<br /><br />'''
+	copy='''<br /><br />But our job isn't done now that you're on the road. At Ford we like to look after our owners, so we include these service offerings for added peace of mind.<br /><br />With Ford's Service Price Promise¹, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership² for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program³, so we can keep you on the road whilst your car is being serviced.<br /><br />'''
 
 
 
@@ -119,7 +119,7 @@ color = '''white'''
 	image2 = '''au_svc_icon2'''
 	image2_url = '''https://www.ford.com.au/owners/service/calculator?edm'''
 	image2_link_name = '''icon2'''
-	image3 = '''au_svc_icon1A'''
+	image3 = '''au_svc_icon1'''
 	image3_url = '''https://www.ford.com.au/owners/service/'''
 	image3_link_name = '''icon3'''
 
@@ -184,7 +184,7 @@ color='white'
 	text = '''DISCLAIMERS:
 				<br /> <br />
 				1) Available at participating Ford Dealers on vehicles built from 2007. Customers will pay equal to or less than the maximum price as published by Ford for the period of the web quote for standard items in the A and B logbook services. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
-				2) Private and Blue Business Fleet customers only at participating Dealers who have not reached 7 years or 105,000 kms. State Auto Club Roadside Assistance & Membership is included with the first seven standard services for 12 months or until your next eligible standard service (whichever occurs first). Standard services include all A and B logbook services. Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
+				2) Private and Blue Business Fleet customers who have not reached earlier of 7 years or 105,000km, only at participating Dealers. State Auto Club Roadside Assistance & Membership is included for 12 months or until your next eligible standard service (whichever occurs first). Standard services include all A and B logbook services. Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
 				3) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br /> '''
 
 
