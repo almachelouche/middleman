@@ -2,6 +2,20 @@
 markets = ["nz"]
 title = '''NZ Welcome 001 mustang'''
 
+[[module]]
+path='email_modules/preheaderbefore'
+
+segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
+
+	preheader='''Dear <%${user.CustomAttribute['FullName']}%>, thank you for again choosing Ford.'''
+
+[[module]]
+path='email_modules/preheaderbefore'
+
+segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
+
+	preheader='''Dear <%${user.CustomAttribute['FullName']}%>, welcome to the Ford Family.'''
+
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'

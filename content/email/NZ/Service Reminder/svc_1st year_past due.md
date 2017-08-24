@@ -2,6 +2,11 @@
 markets = ["nz"]
 title = '''NZ Service Reminder 001 1st-year past due'''
 
+[[module]]
+path='email_modules/preheader'
+
+	preheader='''Hi <%${user.CustomAttribute['FullName']}%>,<br/><br/>This is friendly reminder that you have missed your first annual service.'''
+
 [[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'
