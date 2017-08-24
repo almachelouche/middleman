@@ -20,7 +20,7 @@ path='email_modules/header/enews'
 color='black'
 
 	title = '''Insider'''
-	date = '''August 2017'''
+	date = '''September 2017'''
 	copy = '''IN THIS ISSUE:<br />Road Trip Tunes | Road Safety Report Cards | CarDekho Safety Month | And more'''
 
 [[module]] # eNews Top Story
@@ -77,7 +77,7 @@ path='email_modules/split/02'
 color='green'
 
 	title = '''Air Con Tips & Tricks'''
-	copy = '''Everyone loves air conditioners, everyone except your fuel gauge – the air conditioner just eats up so much fuel! But we came up with some super handy tricks and tips for staying cool this summer, while still saving on fuel.'''
+	copy = '''Everyone loves air conditioners, everyone except your fuel gauge – the air conditioner just eats up so much fuel! But we came up with some super handy tips and tricks for staying cool this summer, while still saving on fuel.'''
 	cta1_text = '''WATCH NOW'''
 	cta1_url = '''https://www.youtube.com/watch?v=CyOwzEM3iNw/'''
 	cta1_link_name = '''air_con_video'''
