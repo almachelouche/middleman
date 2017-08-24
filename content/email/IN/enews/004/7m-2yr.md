@@ -6,7 +6,7 @@ title = '''IN Enews 004 7m-2yr'''
 path='email_modules/preheader'
 color='''white'''
 
-	preheader = ''''''
+	preheader = '''You're reading the 4th edition of the Insider where we share some of the latest happenings and events at Ford. Plus, you can check out some smart servicing tips that can help keep you safe on the road and keep your wallet happy.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -38,11 +38,15 @@ color='white'
 	cta1_url = '''https://goo.gl/LjGCVT'''
 	cta1_link_name = '''Ford_retro_rides_tunes'''
 	cta1_icon = '''more'''
+    image1_link_url='''https://goo.gl/LjGCVT'''
+    image1_link_name='''retro_rides_tunes_image'''
 	image2 = '''in_edm6_drive_tunes_20170809'''
 	cta2_text = '''FORD DRIVE TIMES'''
 	cta2_url = '''https://goo.gl/7NnZ1A'''
-	cta2_link_name = '''Ford_drive_tunes'''
+	cta2_link_name = '''drive_tunes_image'''
 	cta2_icon = '''more'''
+    image2_link_url='''https://goo.gl/7NnZ1A'''
+    image2_link_name='''drive_tunes_image'''
 
 [[module]] #Split 01
 path='email_modules/split/01'

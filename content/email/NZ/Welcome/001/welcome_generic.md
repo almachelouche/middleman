@@ -19,7 +19,7 @@ segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Ecosport')"]
 
 	image='''nz_edm1_ecosport_20170612'''
 	url_link='''https://www.ford.co.nz/'''
@@ -28,7 +28,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['Segment'] == 'B')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Mondeo')"]
 
 	image = '''nz_edm1_mondeo_20170612'''
     url_link='''https://www.ford.co.nz/'''
@@ -37,7 +37,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'B')"]
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['Segment'] == 'C')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Focus')"]
 
 	image = '''nz_edm1_focus_20170612'''
     url_link='''https://www.ford.co.nz/'''
@@ -47,7 +47,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'C')"]
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['Segment'] == 'D')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'NewEscape')"]
 
 	image = '''nz_edm1_escape_20170612'''
     url_link='''https://www.ford.co.nz/'''
@@ -56,7 +56,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'D')"]
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['Segment'] == 'E')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Everest')"]
 
 	image = '''nz_edm1_everest_20170612'''
     url_link='''https://www.ford.co.nz/'''
@@ -65,7 +65,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'E')"]
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['Segment'] == 'F')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Fiesta')"]
 
 	image = '''nz_edm1_fiesta_20170612'''
     url_link='''https://www.ford.co.nz/'''
@@ -82,7 +82,7 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
-	copy='''Dear <%${user.CustomAttribute['FullName']}%><br /><br />Thank you for again choosing Ford. We hope you are enjoying the experience being part of the Ford family with your new <%${user.CustomAttribute['Model']}%>.<br /><br />'''
+	copy='''Dear <%${user.CustomAttribute['FullName']}%><br /><br />Thank you for again choosing Ford. We hope you are enjoying the experience of being part of the Ford family with your new <%${user.CustomAttribute['Model']}%>.<br /><br />'''
 
 [[module]]
 path='email_modules/singles/copy'
