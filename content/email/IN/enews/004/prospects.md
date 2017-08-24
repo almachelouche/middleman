@@ -86,7 +86,7 @@ path='email_modules/split/01'
 color='darkblue'
 
 	title = '''Road Trip Tunes'''
-	copy = '''We know there's nothing better than pairing a nice long drive with your favorite tunes blasting from the stereo. So, Ford collaborated with Hungama music app to put together a playlist you can listen to on your next road trip.'''
+	copy = '''There's nothing better than pairing a nice long drive with an awesome playlist. That's why Ford collaborated with Hungama music app to put together a playlist perfect for your next road trip. Regardless of what car you drive, you can access this playlist.'''
 	cta1_text = '''FORD RETRO RIDES'''
 	cta1_url = '''https://goo.gl/LjGCVT'''
 	cta1_link_name = '''retro_rides_playlist'''
