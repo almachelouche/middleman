@@ -93,14 +93,6 @@ cta1_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''
 cta2_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาตัวแทนจำหน่าย</span>'''
 cta2_url='''https://www.ford.co.th/locate-a-dealer/'''
 cta2_link_name='''find_dealer'''
-
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-
- image='''TH_edm2_ServiceCampaign_20170726'''
-	url_link='''https://www.ford.co.th/owner/servicecampaign/'''
-	url_link_name='''servicecampaign'''
     
 [[module]]
 path = '''email_modules/image/banner_nolink'''
