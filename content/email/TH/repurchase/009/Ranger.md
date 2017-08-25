@@ -75,7 +75,7 @@ image = '''th_edm5a_specialoffer_20160801'''
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image='''th_edm6_Rangerday_20170803'''
+	image='''th_edm6_rangerday_20170825'''
     
 [[module]] #Dual 01
 path='email_modules/dual/01'
