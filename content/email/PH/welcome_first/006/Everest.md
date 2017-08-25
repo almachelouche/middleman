@@ -56,12 +56,12 @@ color='white'
 	cta2c_link_name = ''''''
 	icon2 = '''ph_edm1_sync_20160801'''
     
-    [[module]]
+[[module]]
 path='email_modules/split/07'
 color='white'
 
-title='''Get accessorized'''
-copy='''Make the most of Everest’s unsurpassed towing capacity with a new tow hitch set. Our tow hitch sets are tested to meet stringent Ford engineering standards.'''
+title='''Customize Your Ford Everest Today'''
+copy='''Dress up your Everest to your liking with our 100% genuine Ford accessories – the right accessories for your vehicle. <br /><br />Visit <%${user.CustomAttribute['Dealer_Name']}%> at <a style="color:#2D96CD" href="tel: <%${user.CustomAttribute['Dealer_Phone']}%>"><%${user.CustomAttribute['Dealer_Phone']}%></a> today to learn more about the latest accessories.'''
 cta1_text='''VIEW ACCESSORIES'''
 cta1_url='''https://www.ford.com.ph/suvs/everest/accessories/'''
 cta1_link_name = '''acc_all_new_everestt'''
@@ -95,7 +95,7 @@ path='email_modules/cover/02'
 color='''slatescreen'''
 
 	title = '''Premium Extended Warranty'''
-	copy = '''With quality service and genuine parts, a Premium Extended Warranty<sup>2</sup> is the best choice for owners, like you, who want to go the distance with their vehicle.<br /><br />Warranties are available for up to 5 years, and save you money on servicing. They may also be fully transferrable to the next vehicle owner, helping improve re-sale value.'''
+	copy = '''You deserve the best quality service and parts whenever you need it. If you purchase a Premium Extended Warranty<sup>2</sup> before you reach 2 months or 4,000 km – whichever comes first – you can get it at a better price!<br /><br />This warranty covers major mechanical and electrical failures, guarantees expert service from Ford mechanics and may even be fully transferrable to the next vehicle owner, helping improve resale value.'''
 	cta1_text = '''GET COVERED'''
 	cta1_url = '''https://www.ford.com.ph/owner/warranties/'''
 	cta1_link_name = '''extended_warranty'''

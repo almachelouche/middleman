@@ -56,6 +56,17 @@ color='white'
 	cta2c_link_name = ''''''
 	icon2 = '''ph_edm1_sync_20160801'''
 
+[[module]]
+path='email_modules/split/07'
+color='white'
+
+title='''Customize Your Ford EcoSport Today'''
+copy='''Dress up your EcoSport to your liking with our 100% genuine Ford accessories – the right accessories for your vehicle. <br /><br />Visit <%${user.CustomAttribute['Dealer_Name']}%> at <a style="color:#2D96CD" href="tel: <%${user.CustomAttribute['Dealer_Phone']}%>"><%${user.CustomAttribute['Dealer_Phone']}%></a> today to learn more about the latest accessories.'''
+cta1_text='''VIEW ACCESSORIES'''
+cta1_url='''https://www.ford.com.ph/suvs/ecosport/accessories/'''
+cta1_link_name = '''acc_ecosport'''
+image='''ph_edm1_acc_ecosport_20160801'''
+
 [[module]] #Split 02
 path='email_modules/split/02'
 color='green'

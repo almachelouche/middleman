@@ -56,6 +56,17 @@ color='white'
 	cta2c_link_name = ''''''
 	icon2 = '''ph_edm1_sync_20160801'''
 
+[[module]]
+path='email_modules/split/07'
+color='white'
+
+title='''Customize Your Ford Ranger Today'''
+copy='''Dress up your Ranger to your liking with our 100% genuine Ford accessories – the right accessories for your vehicle. <br /><br />Visit <%${user.CustomAttribute['Dealer_Name']}%> at <a style="color:#2D96CD" href="tel: <%${user.CustomAttribute['Dealer_Phone']}%>"><%${user.CustomAttribute['Dealer_Phone']}%></a> today to learn more about the latest accessories.'''
+cta1_text='''VIEW ACCESSORIES'''
+cta1_url='''https://www.ford.com.ph/trucks/ranger/accessories/'''
+cta1_link_name = '''acc_ranger'''
+image='''ph_edm1_acc_ranger_20160914'''
+
 [[module]] #Split 02
 path='email_modules/split/02'
 color='green'
