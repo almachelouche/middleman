@@ -52,15 +52,6 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white
 				เข้ารับบริการครั้งล่าสุดวันที่ : <% ${user.CustomAttribute['Last_Reported_Service_Date']} %><br />
 				ระยะทางล่าสุด : <% ${user.CustomAttribute['Mileage']} %></span></span></span>'''
                 
-                
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-
- image='''TH_edm2_ServiceCampaign_20170726'''
-	url_link='''https://www.ford.co.th/owner/servicecampaign/'''
-	url_link_name='''servicecampaign'''
-
 [[module]] #Custom 01
 path='email_modules/custom/3columntitle3icons'
 color='white'
