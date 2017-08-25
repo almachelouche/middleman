@@ -25,7 +25,7 @@ color='white'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''ph_edm1&4_np_explorer_20160801'''
+	image = '''ph_edm1&4_np_expedition_20160801'''
 
 [[module]] #Dual 04
 path='email_modules/dual/04'
