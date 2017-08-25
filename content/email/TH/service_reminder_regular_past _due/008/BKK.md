@@ -59,14 +59,6 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;color:#b3b3b3;">
 <span style="white-space:nowrap;">ระยะทางล่าสุด :</span> 
 <span style="white-space:nowrap;"><% ${user.CustomAttribute['Mileage']} %></span></span>'''
 
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-
- image='''TH_edm2_ServiceCampaign_20170726'''
-	url_link='''https://www.ford.co.th/owner/servicecampaign/'''
-	url_link_name='''servicecampaign'''
-
 [[module]]
 
 	path='email_modules/split/04'
