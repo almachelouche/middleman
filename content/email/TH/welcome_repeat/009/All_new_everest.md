@@ -91,7 +91,7 @@ text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif; font-Size: 14px
 	image = '''th_edm6_ownerapp_20160921'''
 
 
-	[[module]]
+[[module]]
 path='email_modules/split/07'
 color='white'
 
