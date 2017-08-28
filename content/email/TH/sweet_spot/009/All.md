@@ -122,25 +122,6 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-		copy='''
-			<span style="font-family:Tahoma, Verdana, Sans-serif">
-				<span style="white-space:nowrap;">เพื่อให้สมรรถนะรถฟอร์ดของคุณ</span> 
-				<span style="white-space:nowrap;">ทำงานได้อย่างเต็มประสิทธิภาพ</span>
-				<br /> 
-				<span style="white-space:nowrap;">ฟอร์ดมีข้อเสนอสุดคุ้ม</span> 
-				<span style="white-space:nowrap;">เมื่อคุณซื้ออะไหล่แท้จากฟอร์ด</span>
-				<br /> 
-				<span style="white-space:nowrap;">คุณจะได้มีสิทธิ์ร่วมลุ้นรับสิทธิพิเศษ</span>
-				<span style="white-space:nowrap;">หรือได้รับน้ำยาทำความสะอาดหัวฉีดฟรี</span>
-				<span style="white-space:nowrap;">ข้อเสนอนี้ถึงวันที่ 31 สิงหาคม 2560</span> 
-				<span style="white-space:nowrap;">เท่านั้น</span>
-			</span>
-		'''
-
-[[module]]
-path='email_modules/singles/copy'
-color='''white'''
-
 		copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif"><span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">สุดคุ้มกับอะไหล่แท้<br />จากฟอร์ด</span><br /><br /><span style=" white-space:nowrap;">เพื่อให้สมรรถนะ</span><span style=" white-space:nowrap;">รถฟอร์ดของคุณ</span>
 							<span style=" white-space:nowrap;">ทำงานได้</span><span style=" white-space:nowrap;">อย่างเต็มประสิทธิภาพ</span>
 							<span style=" white-space:nowrap;">ฟอร์ดมีข้อเสนอ</span><span style=" white-space:nowrap;">สุดคุ้ม</span><span style=" white-space:nowrap;">กับอะไหล่แท้จากฟอร์ด</span>
