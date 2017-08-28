@@ -20,7 +20,7 @@ color='white'
 
 	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 	<span style="white-space:nowrap;">พิเศษสำหรับคุณ</span> 
-	<span style="white-space:nowrap;">ในเดือนสิงหาคม</span></span>'''
+	<span style="white-space:nowrap;">ในเดือนกันยายน</span></span>'''
 	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 	สวัสดีคุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>
 	<br />ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />
