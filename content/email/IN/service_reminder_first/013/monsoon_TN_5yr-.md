@@ -312,7 +312,7 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-	text='''*Tearms and conditions apply. Tyre offer is applicable only on select brand and size. Offers are only valid in Tamil Nadu & Pondicherry.'''
+	text='''*Tearms and conditions apply. Tyre offer is applicable only on select brand and size. Offers only valid in Tamil Nadu & Pondicherry.'''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
