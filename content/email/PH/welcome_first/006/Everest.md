@@ -64,7 +64,7 @@ title='''Customize Your Ford Everest Today'''
 copy='''Dress up your Everest to your liking with our 100% genuine Ford accessories – the right accessories for your vehicle. <br /><br />Visit <%${user.CustomAttribute['Dealer_Name']}%> at <a style="color:#2D96CD" href="tel: <%${user.CustomAttribute['Dealer_Phone']}%>"><%${user.CustomAttribute['Dealer_Phone']}%></a> today to learn more about the latest accessories.'''
 cta1_text='''VIEW ACCESSORIES'''
 cta1_url='''https://www.ford.com.ph/suvs/everest/accessories/'''
-cta1_link_name = '''acc_all_new_everestt'''
+cta1_link_name = '''acc_all_new_everest'''
 image='''ph_edm1_acc_allneweverest_20160914'''
 
 [[module]] #Split 02
