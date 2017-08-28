@@ -38,7 +38,7 @@ color='''white'''
     <br/>
     <span style="white-space:nowrap;">다시 만나고 싶은 고객님을 위해</span>
     <br/>
-    <span style="white-space:nowrap;">포드 코리아에서는 2017년 9월 30일까지</span>
+    <span style="white-space:nowrap;">포드 코리아에서는 2017년 12월 31일까지</span>
     <br/>
     <span style="white-space:nowrap;">아래의 차종에 대한 재구매 금융 프로그램을 제공하고 있습니다.</span>
     <br/>

@@ -36,7 +36,7 @@ font='sk'
 		<br/>
 		<span style="white-space:nowrap;">고객님께서 보다 풍성한 링컨의 가치를 경험할 수 있도록,</span>
 		<br/>
-		<span style="white-space:nowrap;">링컨 코리아에서는 2017년 9월 30일까지</span>
+		<span style="white-space:nowrap;">링컨 코리아에서는 2017년 12월 31일까지</span>
 		<br/>
 		<span style="white-space:nowrap;">각 모델에 맞춘 재구매 지원금을 지원해드립니다.</span>
 		<br/>
