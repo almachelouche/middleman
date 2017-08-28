@@ -173,7 +173,7 @@ color='white'
   icon2_url='''tel:18004252500'''
   icon2_link_name = '''locate_dealer2'''
   icon2_image='''in_edm2_monsoon_tyres_20170526'''
-  icon2_text = '''<span style="font-weight:bold">Tyres</span><br />Buy 4, receive a gift*'''
+  icon2_text = '''<span style="font-weight:bold">Tyres</span><br />Buy 3, 50% off on the 4th*'''
   icon3_url='''tel:18002097400'''
   icon3_link_name = '''locate_dealer3'''
   icon3_image='''in_edm2_monsoon_shoch_absorber_20170526'''
@@ -270,7 +270,7 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-  text='''*Tearms and conditions apply. Tyre offer is applicable only on select brand and size. Offers only valid in Tamil Nadu & Pondicherry.'''
+  text='''*Tearms and conditions apply. Tyre offer is applicable only on select brand and size. Offers are only valid in Tamil Nadu & Pondicherry.'''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
