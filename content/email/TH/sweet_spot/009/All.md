@@ -107,18 +107,6 @@ color='white'
 	height="30"
 
 [[module]]
-path='email_modules/singles/title'
-color='''white'''
-
-		title='''<span style="font-family:Tahoma, Verdana, Sans-serif">สุดคุ้มกับอะไหล่แท้<br />จากฟอร์ด</span>'''
-
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="20"
-
-[[module]]
 path='email_modules/singles/copy'
 color='''white'''
 
