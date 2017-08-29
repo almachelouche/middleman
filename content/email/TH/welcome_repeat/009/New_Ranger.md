@@ -121,11 +121,11 @@ color='white'
 title='''<span style="font-family:Tahoma, Verdana, Sans-serif">อุปกรณ์ตกแต่งสำหรับคุณ</span>'''
 copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style="white-space:nowrap;">ให้ฟอร์ด</span>
-<span style="white-space:nowrap;">เรนเจอร์ของคุณ</span> 
+<span style="white-space:nowrap;">เรนเจอร์ของคุณ</span><br /> 
 <span style="white-space:nowrap;">ล้ำหน้าไปอีกขั้น</span><br />
-<span style="white-space:nowrap;">ด้วยอุปกรณ์ตกแต่งล่าสุด ฝาปิดกระบะ</span>
-<span style="white-space:nowrap;">ท้าย พร้อมชุดติดตั้งกุญแจล๊อค</span>
-<br />
+<span style="white-space:nowrap;">ด้วยอุปกรณ์ตกแต่งล่าสุด</span><br />
+<span style="white-space:nowrap;">ฝาปิดกระบะท้าย</span><br />
+<span style="white-space:nowrap;">พร้อมชุดติดตั้งกุญแจล๊อค</span><br />
 <span style="white-space:nowrap;">ฝาปิดกระบะท้าย</span>
 <span style="white-space:nowrap;">มูลค่า 60,893.-</span><br />
 <span style="white-space:nowrap;">ที่ทำ</span>จาก<span style="white-space:nowrap;">อลูมิเนียมคุณภาพสูง</span><br />
