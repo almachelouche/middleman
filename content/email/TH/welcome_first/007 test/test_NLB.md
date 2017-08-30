@@ -1,6 +1,7 @@
 +++
 markets = ["th"]
 title = '''TH Welcome First 007 NLB New Ranger'''
+draft = true
 
 [[module]]
 path='email_modules/preheader'

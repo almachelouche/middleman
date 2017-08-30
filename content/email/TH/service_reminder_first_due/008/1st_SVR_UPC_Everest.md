@@ -40,7 +40,9 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี
 						<span style="white-space:nowrap;">ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%></span> 
 						<span style="white-space:nowrap;">(ระหว่างเวลาทำการ)</span><br />
 						<span style="white-space:nowrap;">หรือค้นหาตัวแทนจำหน่ายใกล้บ้านคุณ</span>
-					</span>'''
+                        <br />
+                        <span style="white-space:nowrap;">ขออภัยหากคุณได้เข้ารับบริการที่ศูนย์บริการแล้ว</span>
+					    </span>'''
 
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">โทร <%${user.CustomAttribute['Dealer_Phone']}%></span>'''
 cta1_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''
@@ -96,28 +98,6 @@ cta1_url='''https://www.ford.co.th/suvs/everest/accessories/#'''
 cta1_link_name = '''acc_all_new_everest'''
 image='''TH_edm1a_everest_fender_flare_20170508'''
 
-
-[[module]] #Split 04
-path='email_modules/split/04'
-color='green'
-
-	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า </span>'''
-	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
-<span style="white-space:nowrap;">รับส่วนลดเพิ่มสูงสุด 10%</span>
-<span style="white-space:nowrap;">หรือ 3,700 บาท</span> 
-<span style="white-space:nowrap;">กับโปรแกรมบำรุงรักษารถยนต์</span>
-<span style="white-space:nowrap;">ตามระยะ(SSP)</span>
-<span style="white-space:nowrap;">พิเศษรับสิทธิ์</span>
-<span style="white-space:nowrap;">ผ่อน 0% นาน 10 เดือน</span> 
-<span style="white-space:nowrap;">เมื่อชำระผ่าน</span>
-<span style="white-space:nowrap;">บัตรเครดิตกสิกรไทย</span> 
-<span style="white-space:nowrap;">ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span></span>'''
-	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา ></span>'''
-cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
-cta1_icon='''more'''
-cta1_link_name = '''SSP'''
-image = '''th_edm5a_specialoffer_20160801'''
-
 [[module]]
 path='email_modules/cover/02'
 color='''white'''
@@ -145,9 +125,6 @@ color='''white'''
 	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ศึกษารายละเอียดเพิ่มเติม</span>'''
 	cta1_url='''http://www.ford.co.th/buying/solutions/premium-protection-plus'''
 	cta1_link_name = '''ppp'''
-
-
-
 	
 [[module]]
 path='email_modules/dual/03'

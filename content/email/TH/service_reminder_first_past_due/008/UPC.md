@@ -35,7 +35,8 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี
 <span style="font-family:Tahoma, Verdana, Sans-serif">
 		นัดหมายล่วงหน้าเพื่อเข้ารับบริการได้ทันที<br />
 		ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%>(ระหว่างเวลาทำการ)<br />
-		หรือค้นหาตัวแทนจำหน่ายใกล้บ้านคุณ
+		หรือค้นหาตัวแทนจำหน่ายใกล้บ้านคุณ<br />
+        ขออภัยหากคุณได้เข้ารับบริการที่ศูนย์บริการแล้ว
  </span>'''
 
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">โทร <%${user.CustomAttribute['Dealer_Phone']}%></span>'''
@@ -43,18 +44,6 @@ cta1_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''
 cta2_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาตัวแทนจำหน่าย</span>'''
 cta2_url='''https://www.ford.co.th/locate-a-dealer/'''
 cta2_link_name='''find_dealer'''
-
-[[module]] #Split 04
-path='email_modules/split/04'
-color='green'
-
-	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า </span>'''
-	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">รับส่วนลดเพิ่มสูงสุด 10% หรือ 3,700 บาท กับโปรแกรมบำรุงรักษารถยนต์ ตามระยะ(SSP)พิเศษรับสิทธิ์ผ่อน 0%	นาน 10 เดือน เมื่อชำระผ่านบัตรเครดิตกสิกรไทย ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span>'''
-	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา ></span>'''
-cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
-cta1_icon='''more'''
-cta1_link_name = '''SSP'''
-image = '''th_edm5a_specialoffer_20160801'''
 
 [[module]] #TH Social
 path='email_modules/footer/th/social'

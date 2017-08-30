@@ -39,23 +39,20 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี
 ฟอร์ดง่ายๆ ผ่านระบบ Online Booking ตลอด 7 วัน<br />
 พร้อมการรับประกันเช็คระยะภายใน 60	นาที
 หากไม่ทัน<br />
-คุณจะได้รับบริการเช็คระยะครั้งนั้น "ฟรีทันที"
+คุณจะได้รับบริการเช็คระยะครั้งนั้น "ฟรีทันที"<br />
+ขออภัยหากคุณได้เข้ารับบริการที่ศูนย์บริการแล้ว
 </span>'''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหมายตอนนี้</span>'''
 cta1_url='''https://onlinebooking.ford.co.th/'''
 cta1_link_name = '''book_now'''
 
-[[module]] #Split 04
-path='email_modules/split/04'
-color='green'
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
 
-	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า </span>'''
-	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">รับส่วนลดเพิ่มสูงสุด 10% หรือ 3,700 บาท กับโปรแกรมบำรุงรักษารถยนต์ ตามระยะ(SSP)พิเศษรับสิทธิ์ผ่อน 0%	นาน 10 เดือน เมื่อชำระผ่านบัตรเครดิตกสิกรไทย ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span>'''
-	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา ></span>'''
-cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
-cta1_icon='''more'''
-cta1_link_name = '''SSP'''
-image = '''th_edm5a_specialoffer_20160801'''
+	image='''th_60min_express_service_20170829'''
+	url_link='''https://www.ford.co.th/ford-owner/60mins-express-service/'''
+	url_link_name='''60min_express_service'''
  
 [[module]] #TH Social
 path='email_modules/footer/th/social'

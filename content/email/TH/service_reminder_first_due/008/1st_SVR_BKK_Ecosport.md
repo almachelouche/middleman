@@ -45,12 +45,21 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี
 <span style="white-space:nowrap;">ตลอด 7 วัน</span><br />
 <span style="white-space:nowrap;">พร้อมการรับประกันเช็คระยะภายใน 60	นาที</span>
 <span style="white-space:nowrap;">หากไม่ทัน</span><br />
-<span style="white-space:nowrap;">คุณจะได้รับบริการเช็คระยะครั้งนั้น "ฟรีทันที"</span>
+<span style="white-space:nowrap;">คุณจะได้รับบริการเช็คระยะครั้งนั้น "ฟรีทันที"</span><br />
+<span style="white-space:nowrap;">ขออภัยหากคุณได้เข้ารับบริการที่ศูนย์บริการแล้ว</span>
 </span>'''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหมายตอนนี้</span>'''
 cta1_url='''https://onlinebooking.ford.co.th/'''
 cta1_link_name = '''book_now'''
-    
+
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+
+	image='''th_60min_express_service_20170829'''
+	url_link='''https://www.ford.co.th/ford-owner/60mins-express-service/'''
+	url_link_name='''60min_express_service'''
+
 [[module]] #Custom 01
 path='email_modules/custom/3columntitle3icons'
 color='white'
@@ -100,28 +109,6 @@ cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิก�
 cta1_url='''https://www.ford.co.th/suvs/ecosport/accessories/'''
 cta1_link_name = '''acc_ecosport'''
 image='''TH_edm1a_ecosport_video_recoder_20170508'''
-
-
-[[module]] #Split 04
-path='email_modules/split/04'
-color='green'
-
-	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า </span>'''
-	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
-<span style="white-space:nowrap;">รับส่วนลดเพิ่มสูงสุด 10%</span>
-<span style="white-space:nowrap;">หรือ 3,700 บาท</span> 
-<span style="white-space:nowrap;">กับโปรแกรมบำรุงรักษารถยนต์</span>
-<span style="white-space:nowrap;">ตามระยะ(SSP)</span>
-<span style="white-space:nowrap;">พิเศษรับสิทธิ์</span>
-<span style="white-space:nowrap;">ผ่อน 0% นาน 10 เดือน</span> 
-<span style="white-space:nowrap;">เมื่อชำระผ่าน</span>
-<span style="white-space:nowrap;">บัตรเครดิตกสิกรไทย</span> 
-<span style="white-space:nowrap;">ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span></span>'''
-	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา ></span>'''
-cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
-cta1_icon='''more'''
-cta1_link_name = '''SSP'''
-image = '''th_edm5a_specialoffer_20160801'''
 
 [[module]]
 path='email_modules/cover/02'

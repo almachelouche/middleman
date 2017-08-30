@@ -59,6 +59,14 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;color:#b3b3b3;">
 <span style="white-space:nowrap;">ระยะทางล่าสุด :</span> 
 <span style="white-space:nowrap;"><% ${user.CustomAttribute['Mileage']} %></span></span>'''
 
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+
+	image='''th_60min_express_service_20170829'''
+	url_link='''https://www.ford.co.th/ford-owner/60mins-express-service/'''
+	url_link_name='''60min_express_service'''
+
 [[module]]
 
 	path='email_modules/split/04'
