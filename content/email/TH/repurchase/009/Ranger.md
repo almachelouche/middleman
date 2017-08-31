@@ -35,7 +35,7 @@ color='white'
 	<span style="white-space:nowrap;">เราอยากเชิญคุณ</span>
 	<span style="white-space:nowrap;">มาพบกับข้อเสนอสุดพิเศษ</span><br />
 	<span style="white-space:nowrap;">เพียงลงทะเบียนทดลองขับ ที่โชว์รูมฟอร์ด</span><br />
-
+    <br />
 	<span style="white-space:nowrap;">ออกรถฟอร์ด เรนเจอร์ Wildtrak รุ่นที่มีระบบแผนที่นำทาง</span><br />
 	<span style="white-space:nowrap;">ภายในวันที่ 30 ก.ย. 60 ดาวน์เพียง 89,999 บาท</span><br /> 
 	<span style="white-space:nowrap;">หรือผ่อนเพียง 8,999 บาท พร้อมรับฟรีประกันภัยชั้นหนึ่ง</span><br />
