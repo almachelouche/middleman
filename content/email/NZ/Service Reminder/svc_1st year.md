@@ -32,7 +32,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy='''Hi <%${user.CustomAttribute['FullName']}%>,<br/><br/>This is a friendly reminder that your Ford <%${user.CustomAttribute['NextServiceDate']}%> is nearly due for a service. Our Ford Technicians can’t wait to make sure it’s running at its absolute best. Your next service is due on <%${user.CustomAttribute['NextServiceDate']}%>.<br/><br/>Book with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> or email <span style="color:#2D96CD"><% ${user.CustomAttribute['Dealer_Email']} %></span> today.'''
+	copy='''Hi <%${user.CustomAttribute['FullName']}%>,<br/><br/>This is a friendly reminder that your Ford <%${user.CustomAttribute['Model']}%> is nearly due for a service. Our Ford Technicians can’t wait to make sure it’s running at its absolute best. Your next service is due on <%${user.CustomAttribute['NextServiceDate']}%>.<br/><br/>Book with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> or email <span style="color:#2D96CD"><% ${user.CustomAttribute['Dealer_Email']} %></span> today.'''
     
 [[module]]
 path='email_modules/spacer/default'
