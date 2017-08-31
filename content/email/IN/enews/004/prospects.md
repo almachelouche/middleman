@@ -45,6 +45,10 @@ color='white'
 	url_link='''https://www.facebook.com/FordIndia/videos/1453797871338824/'''
 	url_link_name='''surprisingly_affordable_image'''
 
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
 [[module]] #Split 02
 path='email_modules/split/02'
 color='lightblue'
