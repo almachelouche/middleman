@@ -87,7 +87,8 @@ color='white'
 	copy1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
 
 <span style="white-space:nowrap;">เพียงคุณตัดสินใจเป็นเจ้าของฟอร์ดรุ่นใหม่</span> 
-<span style="white-space:nowrap;">ฟรีค่าแรงเช็คระยะ 5 ครั้ง</span>
+<span style="white-space:nowrap;">ฟรีค่าแรงเช็คระยะ 5 ครั้ง</span> 
+<span style="white-space:nowrap;">คลิกเพื่อดูรายละเอียดเพิ่มเติมที่นี่</span>
 
 </span>'''
 	icon2 = '''th_edm2_ownerprofile_20160801'''
