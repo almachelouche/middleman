@@ -1,7 +1,6 @@
 +++
 markets = ["th"]
 title = '''TH Sweet Spot 002 All'''
-draft = true
 
 [[module]]
 path='email_modules/preheader'
