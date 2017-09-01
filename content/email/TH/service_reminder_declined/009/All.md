@@ -111,15 +111,16 @@ color='white'
 														<span style=" white-space:nowrap;">นาน 6 เดือน</span>
 														<span style=" white-space:nowrap;">ด้วยบัตรเครดิต</span><span style=" white-space:nowrap;">กสิกรไทย</span></span>'''
 	icon2 = '''th_edm6_battery_20170113'''
-	text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้สุดคุ้ม</span><br /><br /><span style=" white-space:nowrap;">รับฟรี!</span><span style=" white-space:nowrap;">ก้านปัดน้ำฝน</span> 
-														<span style=" white-space:nowrap;">Ford-Motorcraft 1 คู่</span> 
-														<span style=" white-space:nowrap;">เมื่อเปลี่ยน</span><span style=" white-space:nowrap;">แบตเตอรี่แท้</span> 
-														<span style=" white-space:nowrap;">จากฟอร์ด</span></span>'''
+	text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้</span><br /><br /><span style=" white-space:nowrap;">ได้ถูกออกแบบเพื่อให้กำลังไฟที่เหมาะ</span><br /> 
+														<span style=" white-space:nowrap;">สำหรับรถฟอร์ด จึงมั่นใจได้ในคุณภาพ</span><br /> 
+														<span style=" white-space:nowrap;">และราคาที่คุ้มค่า</span> 
+														'''
 	icon3 = '''th_edm6_brake_20170113'''
-	text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">ผ้าเบรกสุดคุ้ม</span><br /><br />
-	<span style=" white-space:nowrap;">รับฟรี! ก้านปัดน้ำฝน</span>
-														<span style=" white-space:nowrap;">Ford-Motorcraft 1 คู่</span>
-														<span style=" white-space:nowrap;">เมื่อเปลี่ยน</span><span style=" white-space:nowrap;">ผ้าเบรก</span></span>'''
+	text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">ผ้าเบรค Ford-Motorcraft</span><br /><br />
+	<span style=" white-space:nowrap;">ถูกออกแบบให้มีความสมดุลทั้งความปลอดภัย</span><br />
+														<span style=" white-space:nowrap;">และอายุการใช้งาน พร้อมการรับประกัน</span><br />
+														<span style=" white-space:nowrap;">คุณภาพ เหมาะสำหรับรถฟอร์ดทุกรุ่น</span>
+                                                        '''
                                                         
 [[module]]
 path='email_modules/singles/ctablock'

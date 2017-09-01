@@ -99,7 +99,7 @@ color='white'
 <span style=" white-space:nowrap;">จากฟอร์ด</span>
 
 </span>'''
-	cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">การบริการหลังการขาย</span>'''
+	cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดเพิ่มเติม</span>'''
 	cta1_url = '''https://www.ford.co.th/owner/maintenance/'''
 	cta1_link_name = '''find_dealer'''
 	cta2_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">อัพเดทข้อมูล</span>'''
