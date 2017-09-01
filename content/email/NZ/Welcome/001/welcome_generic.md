@@ -19,7 +19,7 @@ segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'Ecosport')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'EcoSport')"]
 
 	image='''nz_edm1_ecosport_20170612'''
 	url_link='''https://www.ford.co.nz/'''
