@@ -92,12 +92,12 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-		copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif"><span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">สุดคุ้มกับอะไหล่แท้<br />จากฟอร์ด</span><br /><br /><span style=" white-space:nowrap;">เพื่อให้สมรรถนะ</span><span style=" white-space:nowrap;">รถฟอร์ดของคุณ</span>
-							<span style=" white-space:nowrap;">ทำงานได้</span><span style=" white-space:nowrap;">อย่างเต็มประสิทธิภาพ</span>
-							<span style=" white-space:nowrap;">ฟอร์ดมีข้อเสนอ</span><span style=" white-space:nowrap;">สุดคุ้ม</span><span style=" white-space:nowrap;">กับอะไหล่แท้จากฟอร์ด</span>
-							<span style=" white-space:nowrap;">ทั้งยางรถยนต์</span>
-							<span style=" white-space:nowrap;">แบตเตอรี่</span>
-							<span style=" white-space:nowrap;">และผ้าเบรก</span></span>'''
+		copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif"><span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">สุดคุ้มกับอะไหล่แท้จากฟอร์ด</span>
+        <br />
+        <br />
+        <span style=" white-space:nowrap;">เพื่อให้สมรรถนะรถฟอร์ดของคุณ ทำงานได้อย่างเต็มประสิทธิภาพ</span>
+        <br />
+        <span style=" white-space:nowrap;">ฟอร์ดมีข้อเสนอสุดคุ้มกับอะไหล่แท้จากฟอร์ด</span>'''
 
 [[module]] #Custom 3 Icon Text
 path='email_modules/custom/3icon_text'
@@ -105,28 +105,43 @@ color='white'
 
 	title = ''''''
 	icon1 = '''th_edm6_tyre_20170113'''
-	text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">โปรยางสุดคุ้ม !</span><br /><br /><span style=" white-space:nowrap;">ซื้อยางกู๊ดเยียร์ มิชลิน</span><br />
-														<span style=" white-space:nowrap;">บีเอฟกู๊ดริช 3 เส้นแถม 1 เส้น ยางกู๊ด</span><br />
-														<span style=" white-space:nowrap;">เยียร์ รับสิทธิ๋ผ่อน 0% นาน 6 เดือน</span><br /> 
-														<span style=" white-space:nowrap;">ด้วยบัตรกสิกรไทย</span>
-														'''
+	text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">โปรยางสุดคุ้ม</span>
+    <br />
+    <br />
+    <span style=" white-space:nowrap;">ซื้อยางกู๊ดเยียร์ มิชลิน</span><br />
+														<span style=" white-space:nowrap;">บีเอฟกู๊ดริช  3 เส้น </span>
+                                                        <br />
+														<span style=" white-space:nowrap;">แถม 1 เส้นฟรี รับสิทธิ์ผ่อน</span>
+                                                        <br /> 
+														<span style=" white-space:nowrap;">0% นาน 6 เดือน ด้วยบัตร</span>
+                                                        <br />
+														<span style=" white-space:nowrap;">เครดิตกสิกรไทย</span>
+                                                        <br />
+                                                        '''
 	icon2 = '''th_edm6_battery_20170113'''
-	text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้</span><br /><br /><span style=" white-space:nowrap;">ออกแบบกำลังไฟให้เหมาะ</span><br /> 
-														<span style=" white-space:nowrap;">กับรถฟอร์ด มั่นใจได้ในคุณภาพและ</span><br /> 
-														<span style=" white-space:nowrap;">ราคาที่คุ้มค่า</span> 
-														'''
+	text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">แบตเตอรี่ฟอร์ดแท้สุดคุ้ม</span>
+    <br />
+    <br />
+    <span style=" white-space:nowrap;">คุ้มค่า คุ้มราคากับ แบตเตอรี่</span>
+    <br />
+    <span style=" white-space:nowrap;">ฟอร์ดแท้ สำหรับรถฟอร์ด</span>
+    <br />
+														<span style=" white-space:nowrap;">โดยเฉพาะ</span>
+                                                        '''
 	icon3 = '''th_edm6_brake_20170113'''
-	text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">ผ้าเบรค Ford-Motorcraft</span><br /><br />
-	<span style=" white-space:nowrap;">มีความสมดุลทั้งความปลอดภัยและอายุการใช้</span><br />
-														<span style=" white-space:nowrap;">งาน รับประกันคุณภาพ เหมาะกับรถฟอร์ดทุก</span><br />
-														<span style=" white-space:nowrap;">รุ่น</span>
+	text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">ผ้าเบรก Ford-Motorcraft สุดคุ้ม</span>
+    <br />
+    <br />
+	<span style=" white-space:nowrap;">ผ้าเบรก Ford-Motorcraft</span>
+    <br />
+														<span style=" white-space:nowrap;">คุณภาพสูง ในราคาที่คุ้มค่า</span>
                                                         '''
                                                         
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
 
-		cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
+		cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาศูนย์บริการได้ที่นี่</span>'''
 	cta1_url = '''https://www.ford.co.th/owner/service-1-2017/'''
 	cta1_link_name = '''commodity_offers'''
 
