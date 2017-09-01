@@ -19,7 +19,7 @@ color='white_pb'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''in_edm5_ganesha_figo_aspire_20170811'''
+	image = '''in_edm2_reunion_season2_20170814'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -50,24 +50,6 @@ color='''white'''
 	copy = '''Keep the spirit of Ganesh Chaturthi high with Ford's Test Drive Challenge. Buy a <span style="font-weight:bold">Ford Aspire</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
     <br /><br />
     Put your thoughts about buying that new car into action Now. You also get an <span style="font-weight:bold">Assured Gift*</span> on your car purchase. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
-
-[[module]]
-path='email_modules/custom/3icon_text'
-color='white'
-
-	title = ''''''
-	icon1 = '''in_edm5_power_20161122'''
-	text1 = '''<span style="font-weight:bold">Powerful</span><br />73.8kW (100 PS)'''
-	icon2 = '''in_edm5_airbags_20161122'''
-	text2 = '''<span style="font-weight:bold">Safe</span><br />2 Standard Airbags'''
-	icon3 = '''in_edm5_autolamp_20161122'''
-	text3 = '''<span style="font-weight:bold">Stylish</span><br />Day Time Running Lamps'''
-
-[[module]]
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
-	image = '''in_edm5_ganesha_figo_aspire_20170811'''
 
 [[module]]
 path='email_modules/dual/04'
