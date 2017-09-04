@@ -181,7 +181,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'E')"]
         6.Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.        
         <br />
         <br />
-
+'''
 [[module]]
 path='email_modules/footer/disclaimer'
 color='white'
@@ -212,7 +212,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'F')"]
         7. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer. 
         <br />
         <br />
-        
+        '''
     [[module]]
 path='email_modules/footer/disclaimer'
 color='white'
@@ -241,7 +241,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'G')"]
         <br />
         <br />
         7. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.        
-        
+        '''
     
     [[module]]
 path='email_modules/footer/disclaimer'
@@ -271,7 +271,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'H')"]
         <br />
         <br />
         7. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.           
-        
+        '''
         
 [[module]]
 path='email_modules/footer/in/online'
