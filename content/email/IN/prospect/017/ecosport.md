@@ -1,6 +1,6 @@
 +++
 markets = ["in"]
-title = '''IN Prospect 017 EcoSport'''
+title = '''IN Prospect 017 EcoSport All'''
 
 [[module]]
 path='email_modules/preheader'
@@ -18,28 +18,28 @@ color='white_pb'
 [[module]]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
+segmentif = ["(user.CustomAttribute['Segment'] == 'E')"]
 
 	image = '''in_edm2_reunion_season2_20170814'''
     
 [[module]]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'F')"]
 
 	image = '''in_edm2_reunion_season2_20170814'''
     
 [[module]]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')"]
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'G')"]
 
 	image = '''in_edm2_reunion_season2_20170814'''
 
 [[module]]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-segmentelseif = ["(user.CustomAttribute['Segment'] == 'D')"]
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'H')"]
 
 	image = '''in_edm2_reunion_season2_20170814'''
 
@@ -68,7 +68,7 @@ color='white'
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
-segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
+segmentif = ["(user.CustomAttribute['Segment'] == 'E')"]
 
 	copy = '''Keep the spirit of Ganesh Chaturthi high with Ford's Test Drive Challenge. Buy a <span style="font-weight:bold">Ford Aspire</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
     <br /><br />
@@ -77,7 +77,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
-segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'F')"]
 
 	copy = '''Keep the spirit of Ganesh Chaturthi high with Ford's Test Drive Challenge. Buy a <span style="font-weight:bold">Ford Aspire</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
     <br /><br />
@@ -86,7 +86,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
-segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')"]
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'G')"]
 
 	copy = '''Keep the spirit of Ganesh Chaturthi high with Ford's Test Drive Challenge. Buy a <span style="font-weight:bold">Ford Aspire</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
     <br /><br />
@@ -95,7 +95,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')"]
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
-segmentelseif = ["(user.CustomAttribute['Segment'] == 'D')"]
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'H')"]
 
 	copy = '''Keep the spirit of Ganesh Chaturthi high with Ford's Test Drive Challenge. Buy a <span style="font-weight:bold">Ford Aspire</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
     <br /><br />
@@ -157,7 +157,7 @@ color='white'
 [[module]]
 path='email_modules/footer/disclaimer'
 color='white'
-segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
+segmentif = ["(user.CustomAttribute['Segment'] == 'E')"]
 
 	text = '''
 		*Terms & conditions Apply.
@@ -197,7 +197,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 [[module]]
 path='email_modules/footer/disclaimer'
 color='white'
-segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'F')"]
 
 	text = '''
 		*Terms & conditions Apply.
@@ -237,7 +237,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
     [[module]]
 path='email_modules/footer/disclaimer'
 color='white'
-segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')"]
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'G')"]
 
 	text = '''
 		*Terms & conditions Apply.
@@ -277,7 +277,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')"]
     [[module]]
 path='email_modules/footer/disclaimer'
 color='white'
-segmentelseif = ["(user.CustomAttribute['Segment'] == 'D')"]
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'H')"]
 
 	text = '''
 		*Terms & conditions Apply.
