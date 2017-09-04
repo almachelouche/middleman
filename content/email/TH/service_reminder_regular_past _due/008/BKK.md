@@ -46,6 +46,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี
 <span style="white-space:nowrap;">"ฟรีทันที"</span></span>'''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหมายตอนนี้</span>'''
 cta1_url='''https://onlinebooking.ford.co.th/'''
+cta1_link_name = '''book_now'''
 
 [[module]]
 path='email_modules/cover/03'
