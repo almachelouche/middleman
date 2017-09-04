@@ -37,7 +37,11 @@ path='email_modules/split/01'
 color='green'
 
 	title='''Split'''
-	copy='''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi'''
+	copy='''
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+		<br/>
+		<span style="color: #ffffff;"><a href="tel:024150222" style="color: #ffffff; text-decoration: underline;">02-415-0222</a>, <a href="tel:024150222" style="color: #ffffff; text-decoration: underline;">02-415-0222</a></span>
+	'''
 	cta1_text=''''''
 	cta1_url=''''''
 	cta1_link_name = ''''''
