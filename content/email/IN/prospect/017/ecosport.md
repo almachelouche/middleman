@@ -228,7 +228,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'G')"]
         2.The Cash benefit upto &#8377;10,000/- is valid only on select Models and variants . Exchange bonus will be &#8377;20,000/- on exchange of Ford Car and &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.
         <br />
         <br />
-        3. Interest rate of 7.99% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited (“Ford Credit”) and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.
+        3. Interest rate of 7.99% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.
         <br />
         <br />
         4. he 3g Gold Coin (22 carat) worth &#8377;8,688/- as on 1st September 2017 will be given on select Models and variants is applicable for booking done between 1st September 2017 to 20th September 2017 with full payment on or before September 30, 2017. 
@@ -258,7 +258,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'H')"]
         2. The Cash benefit upto &#8377;10,000/- is valid only on select Models and variants . Exchange bonus will be &#8377;20,000/- on exchange of Ford Car and &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.
         <br />
         <br />
-        3.Interest rate of 7.99% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited (“Ford Credit”) and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.
+        3.Interest rate of 7.99% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.
         <br />
         <br />
         4. The 4g Gold Coin (22 carat) worth &#8377;11,584/- as on 1st September 2017 will be given on select Models and variants is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017. 
