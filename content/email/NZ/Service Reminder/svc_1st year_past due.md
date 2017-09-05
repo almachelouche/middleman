@@ -87,8 +87,8 @@ color='white'
 	cta1_link_name = '''link_name_here'''
 	cta1_icon='''more'''
 
-[[module]] #Footer AU Social
-path='email_modules/footer/au/social'
+[[module]] #Footer NZ Social
+path='email_modules/footer/nz/social'
 color='white'
 
 [[module]] #Footer Disclaimer
@@ -99,7 +99,7 @@ color='white'
 				1. If additional requirements are discovered, your dealer will contact you before beginning work to explain what needs to be done and any additional charges.<br /><br /> 
 				2. Vehicle model availability may vary.  Available to eligible customers at participating dealers on scheduled logbook service or overnight warranty repairs.  Booking required. Participating Dealers may require customers to comply with general usage conditions.<br /><br />'''
 
-[[module]] #Footer AU Online
-path='email_modules/footer/au/online'
+[[module]] #Footer NZ Online
+path='email_modules/footer/nz/online'
 color='white'
 +++
