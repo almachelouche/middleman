@@ -20,21 +20,21 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentif = ["(user.CustomAttribute['Segment'] == 'E')"]
 
-	image = '''in_edm2_reunion_season2_20170814'''
+	image = '''in_edm6_east_ecosport_20170905'''
     
 [[module]]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'F')"]
 
-	image = '''in_edm2_reunion_season2_20170814'''
+	image = '''in_edm6_west_ecosport_20170905'''
     
 [[module]]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'G')"]
 
-	image = '''in_edm2_reunion_season2_20170814'''
+	image = '''in_edm6_north_ecosport_20170905'''
 
 [[module]]
 path = '''email_modules/image/banner_nolink'''
