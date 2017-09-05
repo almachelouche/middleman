@@ -209,7 +209,7 @@ path='email_modules/image/banner'
 color='white'
 segmentif = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-	image='''au_edm5_RSvc_Due_xtime_20161013'''
+	image='''au_edm5_prospect_new_banner_20170905'''
 	url_link='''https://www.ford.com.au/owners/service/'''
 	url_link_name="servicebanner"
 

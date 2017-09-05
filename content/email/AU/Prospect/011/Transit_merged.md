@@ -150,7 +150,7 @@ color='white'
 path = '''email_modules/image/banner'''
 color = '''white'''
 
-	image = '''au_edm5_RSvc_Due_xtime_20161013'''
+	image = '''au_edm5_prospect_new_banner_20170905'''
 	url_link = '''https://www.ford.com.au/owners/service/'''
 
 [[module]] #Cover 07
