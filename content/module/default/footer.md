@@ -2,7 +2,7 @@
 moduletypes = [ "Default" ]
 title = 'Footers Default'
 
-[[module]] #Footer 4 Icons
+[[module]]
 path='email_modules/footer/4icons'
 color='white'
 
@@ -19,7 +19,7 @@ color='white'
 	icon4_link_name = '''parts_calculator'''
 	icon4_image='''in_svc_parts_20160801'''
 
-[[module]] #Footer 5 Icons
+[[module]]
 path='email_modules/footer/5icons'
 color='white'
 
@@ -39,39 +39,43 @@ color='white'
 	icon5_image='''in_svc_parts_20160801'''
 	icon5_link_name = '''parts_calculator'''
 
-[[module]] #Footer Disclaimer
+[[module]]
 path='email_modules/footer/disclaimer'
 color='white'
 
 	text='''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br /><br />Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'''
 
-[[module]] #General Online
+[[module]]
 path='email_modules/footer/online'
 color='white'
 
 	copy='''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br /><br />Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'''
 
-[[module]] #AU Online
+[[module]]
 path='email_modules/footer/au/online'
 color='white'
 
-[[module]] #IN Online
+[[module]]
+path='email_modules/footer/nz/online'
+color='white'
+
+[[module]]
 path='email_modules/footer/in/online'
 color='white'
 
-[[module]] #PH Online
+[[module]]
 path='email_modules/footer/ph/online'
 color='white'
 
-[[module]] #TH Online
+[[module]]
 path='email_modules/footer/th/online'
 color='white'
 
-[[module]] #VN Online
+[[module]]
 path='email_modules/footer/vn/online'
 color='white'
 
-[[module]] #General Social
+[[module]]
 path='email_modules/footer/social'
 color='white'
 
@@ -79,19 +83,27 @@ color='white'
 	twitter_url='''https://twitter.com'''
 	facebook_url='''https://www.facebook.com'''
 
-[[module]] #IN Social
+[[module]]
+path='email_modules/footer/au/social'
+color='white'
+
+[[module]]
+path='email_modules/footer/nz/social'
+color='white'
+
+[[module]]
 path='email_modules/footer/in/social'
 color='white'
 
-[[module]] #PH Social
+[[module]]
 path='email_modules/footer/ph/social'
 color='white'
 
-[[module]] #TH Social
+[[module]]
 path='email_modules/footer/th/social'
 color='white'
 
-[[module]] #VN Social
+[[module]]
 path='email_modules/footer/vn/social'
 color='white'
 
