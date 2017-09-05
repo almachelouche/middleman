@@ -93,12 +93,12 @@ color='''fordblue'''
 	title='''Can we help?'''
 	copy='''Our Ford Customer Assistance Team is always available to assist with any questions you may have. Contact them on <br/><span style="color:#FFFFFF">0800 Ford NZ (0200 367 369)</span>.'''
 
-[[module]] #Footer AU Social
-path='email_modules/footer/au/social'
+[[module]] #Footer NZ Social
+path='email_modules/footer/nz/social'
 color='white'
 
 
-[[module]] #Footer AU Online
-path='email_modules/footer/au/online'
+[[module]] #Footer NZ Online
+path='email_modules/footer/nz/online'
 color='white'
 +++
