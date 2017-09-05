@@ -31,19 +31,53 @@ path='email_modules/cover/master'
 color='white'
 font='th'
 
-	copy='''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br /><br /> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'''
+	copy='''
+		รถพร้อม
+		<br/>
+		ให้คุณรับแล้ว
+		<br/>
+		<br/>
+		เรียน [Customer_NAME]
+		<br/>
+		<br/>
+		ในที่สุดวันนี้ก็มาถึง คุณสามารถมาที่ตัวแทนจำหน่ายเพื่อรับมอบรถยนต์ Ford [NAMEPLATE] คันใหม่ของคุณ
+		<br/>
+		เพียงแค่แวะมาแล้วขึ้นขับรถยนต์คันใหม่ของคุณ
+		<br/>
+		<br/>
+		หากคุณต้องการปรับแต่ง [NAMEPLATE] คันใหม่ของคุณให้เหมาะสมกับวิธีการทำงานและการใช้ชีวิตส่วนตัวของคุณ
+		<br/>
+		สิ่งที่คุณต้องทำ คือ ติดต่อตัวแทนจำหน่ายฟอร์ดของคุณที่ [DEALERSHIP_Name]
+		<br/>
+		เพื่อให้เจ้าหน้าที่สอนวิธีการกำหนดรูปแบบเฉพาะเพื่อให้รถคันใหม่เหมาะกับคุณ
+		<br/>
+		<br/>
+		กรุณาเข้าไปที่เว็บไซต์ก่อนการส่งมอบเพื่อเลือกเวลาที่คุณสะดวกรับมอบรถยนต์ [NAMEPLATE] ของคุณ
+		<br/>
+		และคุณยังสามารถกำหนดรูปแบบเฉพาะสำหรับรถยนต์ของคุณรวมถึงเรียนรู้เกี่ยวกับคุณสมบัติอันยอดเยี่ยมในรถยนต์ของคุณ
+		<br/>
+		กรุณาติดต่อพนักงานส่งมอบรถชื่อ [Delivery_Consultant_NAME] ที่หมายเลข [DC_NUMBER]
+		<br/>
+		เพื่อตกลงเวลาที่คุณสะดวกในการมารับมอบรถยนต์ [NAMEPLATE] ของคุณ
+		<br/>
+		<br/>
+		เราหวังว่าคุณจะสนุกกับการขับขี่
+		<br/>
+		ขอแสดงความนับถือ
+	'''
+	copy_align='left'
 
 [[module]]
 path='email_modules/split/master/right'
 color='green'
 font='th'
 
-	title='''Split Master Right'''
+	title='''[Sales_Manager_NAME]'''
 	title_align='left'
 	copy='''
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+		[Sales_Manager_NAME]
 		<br/>
-		<span style="color: #ffffff;"><a href="tel:024150222" style="color: #ffffff; text-decoration: underline;">02-415-0222</a>, <a href="tel:024150222" style="color: #ffffff; text-decoration: underline;">02-415-0222</a></span>
+		<a href="tel:[Sales_Manager_No.]" style="color: #ffffff; text-decoration: underline;">[Sales_Manager_No.]</a>
 	'''
 	copy_align='left'
 	vertical_align='middle'
