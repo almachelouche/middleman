@@ -10,10 +10,10 @@
 										<table border="0" cellspacing="0" cellpadding="0">
 											<tr>
 												<td align="center" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; font-family: 'Arial','Helvetica','Sans-Serif';">
-													<a href="{{ .moduleinfo.cta1_url | safeURL }}" name="{{- .moduleinfo.cta1_link_name -}}" target="_blank" title="" style="color:{{.color.ctaicontext}}; text-decoration:none;">{{- .moduleinfo.cta1_text | safeHTML -}}</a>
+													<a {{ printf "href=%q" .moduleinfo.cta1_url | safeHTMLAttr }} name="{{- .moduleinfo.cta1_link_name -}}" target="_blank" title="" style="color:{{.color.ctaicontext}}; text-decoration:none;">{{- .moduleinfo.cta1_text | safeHTML -}}</a>
 												</td>
 												<td align="center" valign="top" style="padding-left:10px;">
-													<a href="{{ .moduleinfo.cta1_url | safeURL }}" name="{{- .moduleinfo.cta1_link_name -}}" target="_blank" title="" style="color:#FFFFFF; text-decoration:none;"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{- .moduleinfo.cta1_icon -}}_{{.color.ctaicon}}.gif" width="20" height="20"	border="0" style="display:block;"/></a>
+													<a {{ printf "href=%q" .moduleinfo.cta1_url | safeHTMLAttr }} name="{{- .moduleinfo.cta1_link_name -}}" target="_blank" title="" style="color:#FFFFFF; text-decoration:none;"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{- .moduleinfo.cta1_icon -}}_{{.color.ctaicon}}.gif" width="20" height="20"	border="0" style="display:block;"/></a>
 												</td>
 											</tr>
 										</table>
@@ -23,10 +23,10 @@
 										<table border="0" cellspacing="0" cellpadding="0">
 											<tr>
 												<td align="center" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; font-family: 'Arial','Helvetica','Sans-Serif';">
-													<a href="{{ .moduleinfo.cta2_url | safeURL }}" name="{{- .moduleinfo.cta2_link_name -}}" target="_blank" title="" style="color:{{.color.ctaicontext}}; text-decoration:none;">{{- .moduleinfo.cta2_text | safeHTML -}}</a>
+													<a {{ printf "href=%q" .moduleinfo.cta2_url | safeHTMLAttr }} name="{{- .moduleinfo.cta2_link_name -}}" target="_blank" title="" style="color:{{.color.ctaicontext}}; text-decoration:none;">{{- .moduleinfo.cta2_text | safeHTML -}}</a>
 												</td>
 												<td align="center" valign="middle" style="padding-left:10px;">
-													<a href="{{ .moduleinfo.cta2_url | safeURL }}" name="{{- .moduleinfo.cta2_link_name -}}" target="_blank" title="" style="color:#FFFFFF; text-decoration:none;"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{- .moduleinfo.cta1_icon -}}_{{.color.ctaicon}}.gif" width="20" height="20"	border="0" style="display:block;"/></a>
+													<a {{ printf "href=%q" .moduleinfo.cta2_url | safeHTMLAttr }} name="{{- .moduleinfo.cta2_link_name -}}" target="_blank" title="" style="color:#FFFFFF; text-decoration:none;"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{- .moduleinfo.cta1_icon -}}_{{.color.ctaicon}}.gif" width="20" height="20"	border="0" style="display:block;"/></a>
 												</td>
 											</tr>
 										</table>
