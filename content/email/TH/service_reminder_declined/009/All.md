@@ -158,7 +158,7 @@ text='''<span style="font-family:Tahoma, Verdana, Sans-serif">หมายเห
 <span style="white-space:nowrap;">และยางรถยนต์บีเอฟกู๊ดริช</span> 
 <span style="white-space:nowrap;">เท่านั้น</span><br />
 
-<span style="white-space:nowrap;">[2]สิทธิพิเศษสำหรับยางรถยนต์กู๊ดเยียร์เท่านั้น</span></span>'''
+<span style="white-space:nowrap;">[2] สิทธิพิเศษสำหรับยางรถยนต์กู๊ดเยียร์เท่านั้น</span></span>'''
 
 [[module]] #TH Online
 path='email_modules/footer/th/online'
