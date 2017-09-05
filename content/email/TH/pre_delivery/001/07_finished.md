@@ -1,6 +1,6 @@
 +++
 markets = ["th"]
-title = '''TH Pre Delivery 001 Welcome'''
+title = '''TH Pre Delivery 001 Finished'''
 
 [[module]]
 path='email_modules/preheader'
@@ -21,17 +21,17 @@ color = 'white'
 	image = '''in_edm1&4_np_figo_20160801'''
 
 [[module]]
+path = 'email_modules/image/banner_nolink'
+color = 'white'
+
+	image = '''in_edm1&4_np_figo_20160801'''
+
+[[module]]
 path='email_modules/cover/master'
 color='white'
 font='th'
 
 	copy='''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br /><br /> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'''
-
-[[module]]
-path = 'email_modules/image/banner_nolink'
-color = 'white'
-
-	image = '''in_edm1&4_np_figo_20160801'''
 
 [[module]]
 path='email_modules/split/master/right'
