@@ -88,7 +88,7 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'G')"]
 
-	copy = ''This Navratri, embark on a new beginning with a new Ford EcoSport. In the spirit of the Navratri Festival celebrations, Ford is giving away cash benefits up to &#8377;10,000, a gold coin, plus so much more.
+	copy = '''This Navratri, embark on a new beginning with a new Ford EcoSport. In the spirit of the Navratri Festival celebrations, Ford is giving away cash benefits up to &#8377;10,000, a gold coin, plus so much more.
     <br /><br />
     Don't wait too long because the <span style="font-weight:bold">offer ends September 30, 2017*</span>.'''
 
