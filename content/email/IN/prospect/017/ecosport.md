@@ -70,27 +70,27 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['Segment'] == 'E')"]
 
-	copy = '''This Durga puja, embark on a new beginning with a new Ford EcoSport. In the spirit of the Navaratri Festival, Ford is giving away cash benefits up to Rs. 17,000, plus so much more.
+	copy = '''This Durga puja, embark on a new beginning with a new Ford EcoSport. In the spirit of the Navaratri Festival celebrations, Ford is giving away cash benefits up to &#8377;17,000, plus so much more.
     <br /><br />
-    Don't wait too long because the <span style="font-weight:bold">offer ends September 30, 2017 </span>.'''
+    Don't wait too long because the <span style="font-weight:bold"> offer ends September 30, 2017* </span>.'''
 
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'F')"]
 
-	copy = '''Keep the spirit of Ganesh Chaturthi high with Ford's Test Drive Challenge. Buy a <span style="font-weight:bold">Ford Aspire</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
+	copy = '''This Navratri, embark on a new beginning with a new Ford EcoSport. In the spirit of the Navaratri Festival celebrations, Ford is giving away cash benefits up to &#8377;10,000, a 3g gold coin, plus so much more.
     <br /><br />
-    Put your thoughts about buying that new car into action Now. You also get an <span style="font-weight:bold">Assured Gift*</span> on your car purchase. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
+    Don't wait too long because the  <span style="font-weight:bold">offer ends September 30, 2017*</span>.'''
 
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'G')"]
 
-	copy = '''Keep the spirit of Ganesh Chaturthi high with Ford's Test Drive Challenge. Buy a <span style="font-weight:bold">Ford Aspire</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
+	copy = ''This Navratri, embark on a new beginning with a new Ford EcoSport. In the spirit of the Navratri Festival celebrations, Ford is giving away cash benefits up to &#8377;10,000, a gold coin, plus so much more.
     <br /><br />
-    Put your thoughts about buying that new car into action Now. You also get an <span style="font-weight:bold">Assured Gift*</span> on your car purchase. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
+    Don't wait too long because the <span style="font-weight:bold">offer ends September 30, 2017*</span>.'''
 
 [[module]]
 path='email_modules/singles/copy'

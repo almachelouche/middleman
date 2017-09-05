@@ -6,7 +6,7 @@ title = '''IN Prospect 017 Figo&Aspire All'''
 path='email_modules/preheader'
 
 
-	preheader = ''''''
+	preheader = '''Enjoy a 7.99% interest rate, cash back among other benefits when you buy a new Ford this month. Offer ends Sept 30th.*'''
 
 [[module]]
 path='email_modules/header/logodesktop'
@@ -70,27 +70,29 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 
-	copy = '''Keep the spirit of Ganesh Chaturthi high with Ford's Test Drive Challenge. Buy a <span style="font-weight:bold">Ford Aspire</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
+	copy = '''This Durga puja, embark on a new beginning with a new Ford. In the spirit of the Navaratri Festival celebrations, Ford is giving away cash benefits up to &#8377;17,000, plus so much more.
     <br /><br />
-    Put your thoughts about buying that new car into action Now. You also get an <span style="font-weight:bold">Assured Gift*</span> on your car purchase. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
+    Don't wait too long because the  <span style="font-weight:bold">offer ends September 30, 2017.* 
+    </span>.'''
 
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
 
-	copy = '''Keep the spirit of Ganesh Chaturthi high with Ford's Test Drive Challenge. Buy a <span style="font-weight:bold">Ford Aspire</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
+	copy = '''This Navratri, embark on a new beginning with a new Ford. In the spirit of the Navaratri Festival celebrations, Ford is giving away cash benefits up to &#8377;10,000, a 3g gold coin, plus so much more.
     <br /><br />
-    Put your thoughts about buying that new car into action Now. You also get an <span style="font-weight:bold">Assured Gift*</span> on your car purchase. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
+    Don't wait too long because the <span style="font-weight:bold">offer ends September 30, 2017.*</span>.'''
 
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')"]
 
-	copy = '''Keep the spirit of Ganesh Chaturthi high with Ford's Test Drive Challenge. Buy a <span style="font-weight:bold">Ford Aspire</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
+	copy = '''This Navratri, embark on a new beginning with a new Ford. In the spirit of the Navaratri Festival celebrations, Ford is giving away cash benefits up to &#8377;10,000, a gold coin, plus so much more.
+
     <br /><br />
-    Put your thoughts about buying that new car into action Now. You also get an <span style="font-weight:bold">Assured Gift*</span> on your car purchase. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
+    Don't wait too long because the <span style="font-weight:bold">offer ends September 30, 2017*</span>.'''
 
 [[module]]
 path='email_modules/singles/copy'
