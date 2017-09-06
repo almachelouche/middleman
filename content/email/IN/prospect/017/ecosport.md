@@ -128,7 +128,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'P')"]
     copy = '''With Ford's Super September Offers, now is the perfect time to get yourself a new Ford!
     <br/> 
     <br/>
-    <span style="font-weight:bold">Buy a Ford EcoSport, and get a Gold Coin + Cash Discount + Exchange Bonus, and more.* </span>
+    <span style="font-weight:bold">Buy a Ford EcoSport, and get a Gold Coin + upto 10,000 Cash Discount + Exchange Bonus + 7.99% Interest rate, and more.* </span>
     <br/> 
     <br/>
     Don't wait too long because the offer ends September 30, 2017.*'''
