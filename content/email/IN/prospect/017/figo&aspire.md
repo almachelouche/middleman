@@ -132,7 +132,8 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'O')"]
     span style="font-weight:bold">Buy a Ford Aspire or Next-Gen Ford Figo, and get a Gold Coin + Cash Discount + Exchange Bonus, and more.* </span>
     <br/> 
     <br/>
-    Don't wait too long because the offer ends September 30, 2017.*'''
+    Don't wait too long because the offer ends September 30, 2017.*
+    '''
 
 [[module]]
 path='email_modules/dual/04'
@@ -199,19 +200,22 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
         1. All Prices shown are ex-showroom for Next-Gen Figo Base Petrol and Ford Aspire Ambiente Petrol. The above shown models are Next-Gen Figo Titanium+ MT and Ford Aspire Titanium+ MT. 
         <br />
         <br />
-        2. The Cash benefit upto &#8377;17,000/- is valid only on select Models and variants. Exchange bonus will be &#8377;20,000/- on exchange of Ford Car and &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.
+        2. The Cash benefit upto &#8377;17,000/- is valid only on select Models and variants. 
         <br />
         <br />
-        3. Interest rate of 7.99% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash.
+        3. Exchange bonus will be &#8377;20,000/- on exchange of Ford Car and &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.
         <br />
         <br />
-        4. he finance is at the sole discretion of Ford Credit. This offer is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017. 
+        4. Interest rate of 7.99% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash.
         <br />
         <br />
-        5. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment.
+        5. he finance is at the sole discretion of Ford Credit. This offer is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017. 
         <br />
         <br />
-        6. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.
+        6. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment.
+        <br />
+        <br />
+        7. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.
         '''
 
 [[module]]
@@ -226,22 +230,25 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
         1. All Prices shown are ex-showroom for Next-Gen Figo Base Petrol and Ford Aspire Ambiente Petrol. The above shown models are Next-Gen Figo Titanium+ MT and Ford Aspire Titanium+ MT.
         <br />
         <br />
-        2. The Cash benefit upto &#8377;10,000/- is valid only on select Models and variants . Exchange bonus will be &#8377;20,000/- on exchange of Ford Car and &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.
+        2. The Cash benefit upto &#8377;10,000/- is valid only on select Models and variants .
         <br />
         <br />
-        3. Interest rate of 7.99% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.
+        3.Exchange bonus will be &#8377;20,000/- on exchange of Ford Car and &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.
         <br />
         <br />
-        4. The 3g Gold Coin (22 carat) worth &#8377;8,688/- as on 1st September 2017 will be given on select Models and variants is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017.
+        4. Interest rate of 7.99% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.
         <br />
         <br />
-        5. This offer is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017.
+        5. The 3g Gold Coin (22 carat) worth &#8377;8,688/- as on 1st September 2017 will be given on select Models and variants is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017.
         <br />
         <br />
-        6. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment.
+        6. This offer is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017.
         <br />
         <br />
-        7. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.        
+        7. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment.
+        <br />
+        <br />
+        8. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.        
        '''
         
     [[module]]
@@ -256,22 +263,25 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')"]
         1. All Prices shown are ex-showroom for Next-Gen Figo Base Petrol and Ford Aspire Ambiente Petrol. The above shown models are Next-Gen Figo Titanium+ MT and Ford Aspire Titanium+ MT. 
         <br />
         <br />
-        2. The Cash benefit upto &#8377;10,000/- is valid only on select Models and variants. Exchange bonus will be &#8377;20,000/- on exchange of Ford Car and &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.
+        2. The Cash benefit upto &#8377;10,000/- is valid only on select Models and variants. 
         <br />
         <br />
-        3. Interest rate of 7.99% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.
+        3. Exchange bonus will be &#8377;20,000/- on exchange of Ford Car and &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.
         <br />
         <br />
-        4. The 3g Gold Coin (22 carat) worth &#8377;8,688/- as on 1st September 2017 will be given on select Models and variants is applicable for booking done between 1st September 2017 to 20th September 2017 with full payment on or before September 30, 2017. 
+        4. Interest rate of 7.99% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.
         <br />
         <br />
-        5. This offer is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017. 
+        5. The 3g Gold Coin (22 carat) worth &#8377;8,688/- as on 1st September 2017 will be given on select Models and variants is applicable for booking done between 1st September 2017 to 20th September 2017 with full payment on or before September 30, 2017. 
         <br />
         <br />
-        6. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment. 
+        6. This offer is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017. 
         <br />
         <br />
-        7.  Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.          
+        7. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment. 
+        <br />
+        <br />
+        8.  Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.          
       '''
     
     [[module]]
@@ -286,19 +296,23 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'D')"]
         1. All Prices shown are ex-showroom for Next-Gen Figo Base Petrol and Ford Aspire Ambiente Petrol. The above shown models are Next-Gen Figo Titanium+ MT and Ford Aspire Titanium+ MT. 
         <br />
         <br />
-        2.The Cash benefit upto  &#8377;10,000/- is valid only on select Models and variants. Exchange bonus will be  &#8377;20,000/- on exchange of Ford Car and  &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners. 
+        2.The Cash benefit upto  &#8377;10,000/- is valid only on select Models and variants. 
         <br />
         <br />
-        3. The 3g Gold Coin (22 carat) worth &#8377;8,688/- as on 1st September 2017 will be given on select Models and variants is applicable for booking done between 1st September 2017 to 20th September 2017 with full payment on or before September 30, 2017. 
+        
+        3. Exchange bonus will be  &#8377;20,000/- on exchange of Ford Car and  &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners. 
         <br />
         <br />
-        4. This offer is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017.
+        4. The 3g Gold Coin (22 carat) worth &#8377;8,688/- as on 1st September 2017 will be given on select Models and variants is applicable for booking done between 1st September 2017 to 20th September 2017 with full payment on or before September 30, 2017. 
         <br />
         <br />
-        5. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment.
+        5. This offer is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017.
         <br />
         <br />
-        6. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.       
+        6. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment.
+        <br />
+        <br />
+        7. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.       
        '''
        
         [[module]]
