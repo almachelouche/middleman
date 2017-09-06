@@ -109,7 +109,8 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'D')"]
 
-	copy = '''This Dussehra, make a new beginning with Ford. Drive home with the spirit of the festival season.
+	copy = '''This Dussehra, make a new beginning with Ford. Drive home with the spirit of the festival season. 
+    <br /><br />
     <span style="font-weight:bold">Buy a Ford Aspire, and get a Gold Coin + upto 10,000 Cash Discount + Exchange Bonus + 7.99% Interest rate, and more. *
     </span>
     <br /><br />
