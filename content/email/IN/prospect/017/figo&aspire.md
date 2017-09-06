@@ -6,7 +6,7 @@ title = '''IN Prospect 017 Figo&Aspire Rest'''
 path='email_modules/preheader'
 
 
-	preheader = '''Enjoy a 7.99% interest rate, cash back among other benefits when you buy a new Ford this month.*'''
+	preheader = '''Enjoy a cash back among other benefits when you buy a new Ford this month.*'''
 
 [[module]]
 path='email_modules/header/logodesktop'
@@ -79,7 +79,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 
 	copy = '''This Durga Puja, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
-    <span style="font-weight:bold">Buy a Ford EcoSport, and get Cash Discount + Exchange Bonus + 7.99% Interest rate, and more.*
+    <span style="font-weight:bold">Buy a Ford Aspire or Next-Gen Ford Figo, and get Cash Discount + Exchange Bonus + 7.99% Interest rate, and more.*
     </span>
     <br /> <br/>
     Don't wait too long because the offer ends September 30, 2017.*'''
@@ -91,7 +91,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
 
 	copy = '''This Durga Puja, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
-    <span style="font-weight:bold">Buy a Ford Aspire, and get Cash Discount + Exchange Bonus + 7.99% Interest rate, and more.*
+    <span style="font-weight:bold">Buy a Ford Aspire or Next-Gen Ford Figo, and get Cash Discount + Exchange Bonus + 7.99% Interest rate, and more.*
     </span>
     <br /> <br/>
     Don't wait too long because the offer ends September 30, 2017.*'''
@@ -103,7 +103,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')"]
 
 	copy = '''This Navratri, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
-    <span style="font-weight:bold">Buy a Ford Aspire, and get a Gold Coin + upto 10,000 Cash Discount + Exchange Bonus + 7.99% Interest rate, and more.*
+    <span style="font-weight:bold">Buy a Ford Aspire or Next-Gen Ford Figo, and get a Gold Coin + upto 10,000 Cash Discount + Exchange Bonus + 7.99% Interest rate, and more.*
     </span>
     <br /> <br/>
     Don't wait too long because the offer ends September 20, 2017.*
@@ -116,7 +116,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'D')"]
 
 	copy = '''This Navratri, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
-    <span style="font-weight:bold">Buy a Ford EcoSport, and get a Gold Coin + Cash Discount + Exchange Bonus, and more. * </span>
+    <span style="font-weight:bold">Buy a Ford Aspire or Next-Gen Ford Figo, and get a Gold Coin + Cash Discount + Exchange Bonus, and more. * </span>
     <br /> <br/>
     Don't wait too long because the offer ends September 20, 2017.*
     '''
@@ -126,15 +126,13 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'O')"]
 
-	copy = '''
-    With Ford’s Super September Offers, now is the perfect time to get yourself a new Ford!
+	copy = '''With Ford's Super September Offers, now is the perfect time to get yourself a new Ford!
     <br/> 
     <br/>
-    span style="font-weight:bold">Buy a Ford EcoSport, and get a Gold Coin + Cash Discount + Exchange Bonus, and more.* </span>
+    span style="font-weight:bold">Buy a Ford Aspire or Next-Gen Ford Figo, and get a Gold Coin + Cash Discount + Exchange Bonus, and more.* </span>
     <br/> 
     <br/>
-    Don't wait too long because the offer ends September 30, 2017.*
-    '''
+    Don't wait too long because the offer ends September 30, 2017.*'''
 
 [[module]]
 path='email_modules/dual/04'

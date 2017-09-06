@@ -6,7 +6,7 @@ title = '''IN Prospect 017 EcoSport Rest'''
 path='email_modules/preheader'
 
 
-	preheader = '''Enjoy a 7.99% interest rate, cash back among other benefits when you buy a new Ford this month.*'''
+	preheader = '''Enjoy a cash back among other benefits when you buy a new Ford this month.*'''
 
 [[module]]
 path='email_modules/header/logodesktop'
@@ -125,15 +125,13 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'P')"]
     
-    copy = '''
-    With Ford’s Super September Offers, now is the perfect time to get yourself a new Ford!
+    copy = '''With Ford's Super September Offers, now is the perfect time to get yourself a new Ford!
     <br/> 
     <br/>
     span style="font-weight:bold">Buy a Ford EcoSport, and get a Gold Coin + Cash Discount + Exchange Bonus, and more.* </span>
     <br/> 
     <br/>
-    Don't wait too long because the offer ends September 30, 2017.*
-    '''
+    Don't wait too long because the offer ends September 30, 2017.*'''
 
 [[module]]
 path='email_modules/dual/04'

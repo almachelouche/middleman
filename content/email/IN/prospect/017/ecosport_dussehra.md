@@ -19,14 +19,14 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentif = ["(user.CustomAttribute['Segment'] == 'M')"]
 
-	image = '''in_edm6_dussehraap_ecosport_20170907'''
+	image = '''in_edm5_dussehraap_ecosport_20170907'''
     
 [[module]]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'N')"]
 
-	image = '''in_edm6_dussehrakarnataka_ecosport_20170907'''
+	image = '''in_edm5_dussehrakarnataka_ecosport_20170907'''
     
 [[module]]
 path='email_modules/spacer/default'

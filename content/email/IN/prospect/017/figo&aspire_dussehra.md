@@ -20,14 +20,14 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentif = ["(user.CustomAttribute['Segment'] == 'K')"]
 
-	image = '''in_edm6_dussehraap_figo_aspire_20170907'''
+	image = '''in_edm5_dussehraap_figo_aspire_20170907'''
     
 [[module]]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'L')"]
 
-	image = '''in_edm6_dussehrakarnataka_figo_aspire_20170907'''
+	image = '''in_edm5_dussehrakarnataka_figo_aspire_20170907'''
     
 [[module]]
 path='email_modules/spacer/default'
@@ -58,7 +58,7 @@ color='''white'''
 
 	copy = '''This Dussehra, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
-    <span style="font-weight:bold">Buy a Ford Aspire, and get a Gold Coin + upto 10,000 Cash Discount + Exchange Bonus + 7.99% Interest rate, and more.*
+    <span style="font-weight:bold">Buy a Ford Aspire or Next-Gen Ford Figo, and get a Gold Coin + upto 10,000 Cash Discount + Exchange Bonus + 7.99% Interest rate, and more.*
     </span>
     <br /> <br/>
     Don't wait too long because the offer ends September 30, 2017.*
