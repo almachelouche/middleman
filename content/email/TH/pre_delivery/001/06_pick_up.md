@@ -32,11 +32,6 @@ color='white'
 font='th'
 
 	copy='''
-		รถพร้อม
-		<br/>
-		ให้คุณรับแล้ว
-		<br/>
-		<br/>
 		เรียน [Customer_NAME]
 		<br/>
 		<br/>
@@ -52,7 +47,7 @@ font='th'
 		เพื่อให้เจ้าหน้าที่สอนวิธีการกำหนดรูปแบบเฉพาะเพื่อให้รถคันใหม่เหมาะกับคุณ
 		<br/>
 		<br/>
-		กรุณาเข้าไปที่เว็บไซต์ก่อนการส่งมอบเพื่อเลือกเวลาที่คุณสะดวกรับมอบรถยนต์ [NAMEPLATE] ของคุณ
+		กรุณาเข้าไปที่<a href="" style="color: #006fff; text-decoration: underline;">เว็บไซต์ก่อนการส่งมอบ</a>เพื่อเลือกเวลาที่คุณสะดวกรับมอบรถยนต์ [NAMEPLATE] ของคุณ
 		<br/>
 		และคุณยังสามารถกำหนดรูปแบบเฉพาะสำหรับรถยนต์ของคุณรวมถึงเรียนรู้เกี่ยวกับคุณสมบัติอันยอดเยี่ยมในรถยนต์ของคุณ
 		<br/>
@@ -64,6 +59,11 @@ font='th'
 		เราหวังว่าคุณจะสนุกกับการขับขี่
 		<br/>
 		ขอแสดงความนับถือ
+		<br/>
+		<br/>
+		[GM_NAME]
+		<br/>
+		<a href="tel:[GM_Mobile_No.]" style="text-decoration: none;">[GM_Mobile_No.]</a>
 	'''
 	copy_align='left'
 
@@ -72,12 +72,12 @@ path='email_modules/split/master/right'
 color='green'
 font='th'
 
-	title='''[Sales_Manager_NAME]'''
+	title='''[Dealer_NAME]'''
 	title_align='left'
 	copy='''
-		[Sales_Manager_NAME]
+		[Outlet_Address]
 		<br/>
-		<a href="tel:[Sales_Manager_No.]" style="color: #ffffff; text-decoration: underline;">[Sales_Manager_No.]</a>
+		<a href="tel:[Dealer_Phone_No.]" style="color: #ffffff; text-decoration: underline;">[Dealer_Phone_No.]</a>
 	'''
 	copy_align='left'
 	vertical_align='middle'
