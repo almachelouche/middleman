@@ -89,12 +89,11 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
 
-	copy = '''This Durga Puja, make a new beginning with Ford. Drive home with the spirit of the festival season.
+	copy = '''This Navratri, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
-    <span style="font-weight:bold">Buy a Ford Aspire or Next-Gen Ford Figo, and get Cash Discount + Exchange Bonus + 7.99% Interest rate, and more.*
-    </span>
+    <span style="font-weight:bold">Buy a Ford Aspire or Next-Gen Ford Figo, and get 3g Gold Coin + Cash Discount + Exchange Bonus + 7.99% Interest rate, and more.* </span> 
     <br /> <br/>
-    Don't wait too long because the offer ends September 30, 2017.*'''
+    Don't wait too long because the offer ends September 30, 2017.'''
 
 [[module]]
 path='email_modules/singles/copy'
@@ -129,7 +128,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'O')"]
 	copy = '''With Ford's Super September Offers, now is the perfect time to get yourself a new Ford!
     <br/> 
     <br/>
-    <span style="font-weight:bold">Buy a Ford Aspire or Next-Gen Ford Figo, and get a Gold Coin + Cash Discount + Exchange Bonus, and more.* </span>
+    <span style="font-weight:bold">Buy a Ford Aspire or Next-Gen Ford Figo, and get a Gold Coin + upto 10,000 Cash Discount + Exchange Bonus + 7.99% Interest rate, and more.*</span>
     <br/> 
     <br/>
     Don't wait too long because the offer ends September 30, 2017.*
@@ -209,7 +208,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
         4. Interest rate of 7.99% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash.
         <br />
         <br />
-        5. he finance is at the sole discretion of Ford Credit. This offer is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017. 
+        5. The finance is at the sole discretion of Ford Credit. This offer is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017. 
         <br />
         <br />
         6. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment.
