@@ -128,7 +128,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'P')"]
     copy = '''With Ford's Super September Offers, now is the perfect time to get yourself a new Ford!
     <br/> 
     <br/>
-    <span style="font-weight:bold">Buy a Ford EcoSport, and get a Gold Coin + Cash Discount + Exchange Bonus, and more.* </span>
+    <span style="font-weight:bold">Buy a Ford EcoSport, and get a Gold Coin + upto 10,000 Cash Discount + Exchange Bonus + 7.99% Interest rate, and more.* </span>
     <br/> 
     <br/>
     Don't wait too long because the offer ends September 30, 2017.*'''
@@ -291,19 +291,22 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'H')"]
         1. All Prices shown are ex-showroom for Ford EcoSport Ambiente Petrol. The above shown models are Ecosport Platinum Edition MT.
         <br />
         <br />
-        2.The Cash benefit upto  &#8377;10,000/- is valid only on select Models and variants. Exchange bonus will be  &#8377;20,000/- on exchange of Ford Car and  &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners. 
+        2.The Cash benefit upto  &#8377;10,000/- is valid only on select Models and variants. 
         <br />
         <br />
-        3. The 3g Gold Coin (22 carat) worth &#8377;8,688/- as on 1st September 2017 will be given on select Models and variants is applicable for booking done between 1st September 2017 to 20th September 2017 with full payment on or before September 30, 2017. 
+        3. Exchange bonus will be  &#8377;20,000/- on exchange of Ford Car and  &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners. 
         <br />
         <br />
-        4. This offer is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017.
+        4. The 3g Gold Coin (22 carat) worth &#8377;8,688/- as on 1st September 2017 will be given on select Models and variants is applicable for booking done between 1st September 2017 to 20th September 2017 with full payment on or before September 30, 2017. 
         <br />
         <br />
-        5. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment.
+        5. This offer is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017.
         <br />
         <br />
-        6. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.'''
+        6. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment.
+        <br />
+        <br />
+        7. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.'''
     
         [[module]]
 path='email_modules/footer/disclaimer'
