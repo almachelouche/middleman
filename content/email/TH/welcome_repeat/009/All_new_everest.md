@@ -52,7 +52,7 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">ศูนย�
 	cta1c_text = ''''''
 	cta1c_url = ''''''
 	cta1c_link_name = ''''''
-	icon1 = '''th_edm1_ownersite_20160801'''
+	icon1 = '''th_edm1_ownersite_20160801'''    
     title2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">เรียนรู้การใช้งาน SYNC&trade;</span>3</span></span>'''
 	copy2 = '''
 		<span style="font-family:Tahoma, Verdana, Sans-serif">
@@ -80,7 +80,7 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">ศูนย�
 	cta2c_url = ''''''
 	cta2c_link_name = ''''''
 	icon2 = '''th_edm1_sync_20160801'''
- 
+
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
 color='black'
