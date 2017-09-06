@@ -1,6 +1,6 @@
 +++
 markets = ["in"]
-title = '''IN Prospect 017 Figo&Aspire All'''
+title = '''IN Prospect 017 Figo&Aspire Dussehra'''
 
 [[module]]
 path='email_modules/preheader'
@@ -27,7 +27,7 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'L')"]
 
-	image = '''in_edm6_dussehrakarnataka_figo_aspire_20170905'''
+	image = '''in_edm6_dussehrakarnataka_figo_aspire_20170907'''
     
 
 [[module]]
