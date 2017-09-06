@@ -70,7 +70,7 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['Segment'] == 'E')"]
 
-	copy = ''This Durga Puja, make a new beginning with Ford. Drive home with the spirit of the festival season.
+	copy = '''This Durga Puja, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
     <span style="font-weight:bold"> Buy a Ford EcoSport, and get Cash Discount + Exchange Bonus + 7.99% Interest rate, and more. * </span>
     <br /> <br/>
