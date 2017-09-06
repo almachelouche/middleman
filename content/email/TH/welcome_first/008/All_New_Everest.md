@@ -56,16 +56,25 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">ศูนย�
 	cta1a_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><br /><br />ดูศูนย์ข้อมูลเจ้าของรถฟอร์ด</span>'''
 	cta1a_url = '''https://www.ford.co.th/owner/owner-unauthenticated/'''
 	cta1a_link_name = '''owner_center'''
-	cta1b_text = ''''''
-	cta1b_url = ''''''
-	cta1b_link_name = ''''''
-	cta1c_text = ''''''
-	cta1c_url = ''''''
-	cta1c_link_name = ''''''
 	icon1 = '''th_edm1_ownersite_20160801'''
-	title2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">เรียนรู้การใช้งาน SYNC&trade;</span>3</span>'''
-	copy2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="color:#616161; font-size:16px">รถยนต์ฟอร์ดของคุณมาพร้อมกับ<br />ระบบสั่งงานด้วยเสียง SYNC&trade;</span>3</span><br />เพื่อการสั่งงาน<br />โดยไม่ต้องปล่อยมือจากพวงมาลัย</span></span>'''
-	cta2a_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><br /><br />เรียนรู้เพิ่มเติมเกี่ยวกับ SYNC&trade;</span>3</span>'''
+    title2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">เรียนรู้การใช้งาน SYNC&trade;</span>3</span></span>'''
+	copy2 = '''
+		<span style="font-family:Tahoma, Verdana, Sans-serif">
+			<span style="color:#616161; font-size:16px">
+				รถยนต์ฟอร์ดของคุณมาพร้อมกับ
+				<br />
+				ระบบสั่งงานด้วยเสียง SYNC&trade;
+			</span>
+		</span>
+		3
+		<br />
+		<span style="font-family:Tahoma, Verdana, Sans-serif">
+			<span style="color:#616161; font-size:16px">
+				เพื่อการสั่งงาน<br />โดยไม่ต้องปล่อยมือจากพวงมาลัย
+			</span>
+		</span>
+	'''
+	cta2a_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><br /><br />เรียนรู้เพิ่มเติมเกี่ยวกับ SYNC&trade;</span>3</span></span>'''
 	cta2a_url = '''https://www.ford.co.th/engineering/sync/'''
 	cta2a_link_name = '''sync'''
 	cta2b_text = ''''''
