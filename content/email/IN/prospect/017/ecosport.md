@@ -72,8 +72,9 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'E')"]
 
 	copy = ''This Durga Puja, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
-    <span style="font-weight:bold"> Buy a Ford EcoSport, and get Cash Discount + Exchange Bonus + 7.99% Interest rate, and more. *
-    </span>Don't wait too long because the offer ends September 30, 2017. *
+    <span style="font-weight:bold"> Buy a Ford EcoSport, and get Cash Discount + Exchange Bonus + 7.99% Interest rate, and more. * </span>
+    <br /> <br/>
+    Don't wait too long because the offer ends September 30, 2017. *
     '''
 
 [[module]]
@@ -83,8 +84,9 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'F')"]
 
 	copy = '''This Navratri, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
-    <span style="font-weight:bold">Buy a Ford EcoSport, and get 3g Gold Coin + Cash Discount + Exchange Bonus + 7.99% Interest rate, and more. *
-    </span> Don't wait too long because the offer ends September 30, 2017. *
+    <span style="font-weight:bold">Buy a Ford EcoSport, and get 3g Gold Coin + Cash Discount + Exchange Bonus + 7.99% Interest rate, and more. * </span> 
+    <br /> <br/>
+    Don't wait too long because the offer ends September 30, 2017. *
     '''
 
 [[module]]
@@ -94,8 +96,9 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'G')"]
 
 	copy = '''This Navratri, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
-    <span style="font-weight:bold">Buy a Ford EcoSport, and get a Gold Coin + Cash Discount + Exchange Bonus + 7.99% Interest rate, and more. *
-    </span>Don't wait too long because the offer ends September 20, 2017. *
+    <span style="font-weight:bold">Buy a Ford EcoSport, and get a Gold Coin + Cash Discount + Exchange Bonus + 7.99% Interest rate, and more. * </span>
+    <br /> <br/>
+    Don't wait too long because the offer ends September 20, 2017. *
     '''
 
 [[module]]
@@ -105,8 +108,8 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'H')"]
 
 	copy = '''This Dussehra, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
-    <span style="font-weight:bold">Buy a Ford EcoSport, and get a Gold Coin + Cash Discount + Exchange Bonus + 7.99% Interest rate, and more. *
-    </span> 
+    <span style="font-weight:bold">Buy a Ford EcoSport, and get a Gold Coin + Cash Discount + Exchange Bonus + 7.99% Interest rate, and more. *</span>
+    <br /> <br/>
     Don't wait too long because the offer ends September 30, 2017. *
     '''
 

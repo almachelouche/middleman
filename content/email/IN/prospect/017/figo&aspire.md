@@ -73,7 +73,8 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 	copy = '''This Durga Puja, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
     <span style="font-weight:bold">Buy a Ford EcoSport, and get Cash Discount + Exchange Bonus + 7.99% Interest rate, and more. *
-    </span>.* 
+    </span>
+    <br /> <br/>
     Don't wait too long because the offer ends September 30, 2017. *
     '''
 
@@ -85,7 +86,9 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
 	copy = '''This Durga Puja, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
     <span style="font-weight:bold">Buy a Ford Aspire, and get Cash Discount + Exchange Bonus + 7.99% Interest rate, and more. *
-    </span>. Don't wait too long because the offer ends September 30, 2017. *
+    </span>
+    <br /> <br/>
+    Don't wait too long because the offer ends September 30, 2017. *
     '''
 
 [[module]]
@@ -96,7 +99,8 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')"]
 	copy = '''This Navratri, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
     <span style="font-weight:bold">Buy a Ford Aspire, and get a Gold Coin + upto 10,000 Cash Discount + Exchange Bonus + 7.99% Interest rate, and more. *
-    </span>.*
+    </span>
+    <br /> <br/>
     Don't wait too long because the offer ends September 20, 2017. *
     '''
 
