@@ -6,7 +6,7 @@ title = '''IN Prospect 017 EcoSport All'''
 path='email_modules/preheader'
 
 
-	preheader = ''''''
+	preheader = '''Enjoy a 7.99% interest rate, cash back among other benefits when you buy a new Ford this month.*'''
 
 [[module]]
 path='email_modules/header/logodesktop'
@@ -20,28 +20,35 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentif = ["(user.CustomAttribute['Segment'] == 'E')"]
 
-	image = '''in_edm2_reunion_season2_20170814'''
+	image = '''in_edm6_east_ecosport_20170905'''
     
 [[module]]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'F')"]
 
-	image = '''in_edm2_reunion_season2_20170814'''
+	image = '''in_edm6_west_ecosport_20170905'''
     
 [[module]]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'G')"]
 
-	image = '''in_edm2_reunion_season2_20170814'''
+	image = '''in_edm6_north_ecosport_20170905'''
 
 [[module]]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'H')"]
 
-	image = '''in_edm2_reunion_season2_20170814'''
+	image = '''in_edm5_jandk_ecosport_20170906'''
+
+[[module]]
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''    
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'P')"]
+
+	image = '''in_edm5_tamilnadu_ecosport_20170906'''    
 
 [[module]]
 path='email_modules/spacer/default'
@@ -70,36 +77,57 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['Segment'] == 'E')"]
 
-	copy = '''Keep the spirit of Ganesh Chaturthi high with Ford's Test Drive Challenge. Buy a <span style="font-weight:bold">Ford Aspire</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
+	copy = '''This Durga Puja, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
-    Put your thoughts about buying that new car into action Now. You also get an <span style="font-weight:bold">Assured Gift*</span> on your car purchase. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
+    <span style="font-weight:bold"> Buy a Ford EcoSport, and get Cash Discount + Exchange Bonus + 7.99% Interest rate, and more. * </span>
+    <br /> <br/>
+    Don't wait too long because the offer ends September 30, 2017. *
+    '''
 
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'F')"]
 
-	copy = '''Keep the spirit of Ganesh Chaturthi high with Ford's Test Drive Challenge. Buy a <span style="font-weight:bold">Ford Aspire</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
+	copy = '''This Navratri, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
-    Put your thoughts about buying that new car into action Now. You also get an <span style="font-weight:bold">Assured Gift*</span> on your car purchase. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
+    <span style="font-weight:bold">Buy a Ford EcoSport, and get 3g Gold Coin + Cash Discount + Exchange Bonus + 7.99% Interest rate, and more. * </span> 
+    <br /> <br/>
+    Don't wait too long because the offer ends September 30, 2017. *
+    '''
 
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'G')"]
 
-	copy = '''Keep the spirit of Ganesh Chaturthi high with Ford's Test Drive Challenge. Buy a <span style="font-weight:bold">Ford Aspire</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
+	copy = '''This Navratri, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
-    Put your thoughts about buying that new car into action Now. You also get an <span style="font-weight:bold">Assured Gift*</span> on your car purchase. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
+    <span style="font-weight:bold">Buy a Ford EcoSport, and get a Gold Coin + Cash Discount + Exchange Bonus + 7.99% Interest rate, and more. * </span>
+    <br /> <br/>
+    Don't wait too long because the offer ends September 20, 2017. *
+    '''
 
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'H')"]
 
-	copy = '''Keep the spirit of Ganesh Chaturthi high with Ford's Test Drive Challenge. Buy a <span style="font-weight:bold">Ford Aspire</span>, get Cash benefit* upto <span style="font-weight:bold">&#8377;10,000 + Exchange Bonus of &#8377;15,000* + 8.15% Interest Rate*</span>
+	copy = ''' This Navratri, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
-    Put your thoughts about buying that new car into action Now. You also get an <span style="font-weight:bold">Assured Gift*</span> on your car purchase. Don't wait because the <span style="font-weight:bold">offer ends August 31, 2017</span>.'''
+    <span style="font-weight:bold">Buy a Ford EcoSport, and get a Gold Coin + Cash Discount + Exchange Bonus, and more. * </span>
+    <br /> <br/>
+    Don't wait too long because the offer ends September 20, 2017. *
+    '''
+    
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'P')"]
+    
+    copy = '''
+   
+    '''
 
 [[module]]
 path='email_modules/dual/04'
@@ -252,27 +280,32 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'H')"]
 		*Terms & conditions Apply.
         <br />
         <br />
-        1.All Prices shown are ex-showroom for Ford EcoSport Ambiente Petrol. The above shown models are Ford EcoSport Platinum Edition MT. 
+        1. All Prices shown are ex-showroom for Ford EcoSport Ambiente Petrol. The above shown models are Ford EcoSport Platinum Edition MT. 
         <br />
         <br />
-        2. The Cash benefit upto &#8377;10,000/- is valid only on select Models and variants . Exchange bonus will be &#8377;20,000/- on exchange of Ford Car and &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.
+        2.The Cash benefit upto &#8377;10,000/- is valid only on select Models and variants . Exchange bonus will be &#8377;20,000/- on exchange of Ford Car and &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.
         <br />
         <br />
-        3.Interest rate of 7.99% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.
+        3. he 3g Gold Coin (22 carat) worth &#8377;8,688/- as on 1st September 2017 will be given on select Models and variants is applicable for booking done between 1st September 2017 to 20th September 2017 with full payment on or before September 30, 2017. 
         <br />
         <br />
-        4. The 4g Gold Coin (22 carat) worth &#8377;11,584/- as on 1st September 2017 will be given on select Models and variants is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017. 
+        4. This offer is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017.
         <br />
         <br />
-        5. This offer is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017. 
+        5. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment.
         <br />
         <br />
-        6.  Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment.
-        <br />
-        <br />
-        7. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.           
+        6. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.    
         '''
-        
+    
+        [[module]]
+path='email_modules/footer/disclaimer'
+color='white'
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'P')"]
+
+	text = '''    
+    '''
+    
 [[module]]
 path='email_modules/footer/in/online'
 color='white'
