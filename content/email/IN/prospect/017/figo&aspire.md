@@ -1,6 +1,6 @@
 +++
 markets = ["in"]
-title = '''IN Prospect 017 Figo&Aspire All'''
+title = '''IN Prospect 017 Figo&Aspire Rest'''
 
 [[module]]
 path='email_modules/preheader'
@@ -54,7 +54,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'O')"]
 path='email_modules/spacer/default'
 color='white'
 
-	height="30"
+	height="20"
 
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
@@ -62,7 +62,7 @@ color='''white'''
 	cta1_text = '''BOOK A TEST DRIVE'''
 	cta1_url = '''https://www.india.ford.com/#/overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-generic.html/'''
 	cta1_link_name = '''test_drive'''
-		cta2_text = '''&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIND A DEALER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'''
+    cta2_text = '''&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIND A DEALER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'''
 	cta2_url = '''https://www.india.ford.com/locate-dealer/'''
 	cta2_link_name = '''locate_dealer'''
 
@@ -79,11 +79,10 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 
 	copy = '''This Durga Puja, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
-    <span style="font-weight:bold">Buy a Ford EcoSport, and get Cash Discount + Exchange Bonus + 7.99% Interest rate, and more. *
+    <span style="font-weight:bold">Buy a Ford EcoSport, and get Cash Discount + Exchange Bonus + 7.99% Interest rate, and more.*
     </span>
     <br /> <br/>
-    Don't wait too long because the offer ends September 30, 2017. *
-    '''
+    Don't wait too long because the offer ends September 30, 2017.*'''
 
 [[module]]
 path='email_modules/singles/copy'
@@ -92,11 +91,10 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
 
 	copy = '''This Durga Puja, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
-    <span style="font-weight:bold">Buy a Ford Aspire, and get Cash Discount + Exchange Bonus + 7.99% Interest rate, and more. *
+    <span style="font-weight:bold">Buy a Ford Aspire, and get Cash Discount + Exchange Bonus + 7.99% Interest rate, and more.*
     </span>
     <br /> <br/>
-    Don't wait too long because the offer ends September 30, 2017. *
-    '''
+    Don't wait too long because the offer ends September 30, 2017.*'''
 
 [[module]]
 path='email_modules/singles/copy'
@@ -105,10 +103,10 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')"]
 
 	copy = '''This Navratri, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
-    <span style="font-weight:bold">Buy a Ford Aspire, and get a Gold Coin + upto 10,000 Cash Discount + Exchange Bonus + 7.99% Interest rate, and more. *
+    <span style="font-weight:bold">Buy a Ford Aspire, and get a Gold Coin + upto 10,000 Cash Discount + Exchange Bonus + 7.99% Interest rate, and more.*
     </span>
     <br /> <br/>
-    Don't wait too long because the offer ends September 20, 2017. *
+    Don't wait too long because the offer ends September 20, 2017.*
     '''
 
 [[module]]
@@ -120,7 +118,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'D')"]
     <br /><br />
     <span style="font-weight:bold">Buy a Ford EcoSport, and get a Gold Coin + Cash Discount + Exchange Bonus, and more. * </span>
     <br /> <br/>
-    Don't wait too long because the offer ends September 20, 2017. *
+    Don't wait too long because the offer ends September 20, 2017.*
     '''
     
 [[module]]
@@ -132,10 +130,10 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'O')"]
     With Ford’s Super September Offers, now is the perfect time to get yourself a new Ford!
     <br/> 
     <br/>
-    span style="font-weight:bold">Buy a Ford EcoSport, and get a Gold Coin + Cash Discount + Exchange Bonus, and more. * </span>
+    span style="font-weight:bold">Buy a Ford EcoSport, and get a Gold Coin + Cash Discount + Exchange Bonus, and more.* </span>
     <br/> 
     <br/>
-    Don't wait too long because the offer ends September 30, 2017. *
+    Don't wait too long because the offer ends September 30, 2017.*
     '''
 
 [[module]]
