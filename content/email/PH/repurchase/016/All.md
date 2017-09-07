@@ -25,7 +25,7 @@ path='email_modules/cover/02'
 color='''white''' 
 
 	title = '''We want to celebrate with you!'''
-	copy = '''Hello <%${user['FirstName']}%><br /><br />We hope that you’re still loving your <%${user.CustomAttribute['Model']}%> as much as we love having you be a part of our Ford family!<br /><br />This month, we at Ford Philippines are celebrating our 20th year anniversary, and we couldn't think of any other way to celebrate than with you! For the entire month of September, you can drive away with an EcSport for an All-In Low Down Payment of ₱68,000 or just ₱7,698 monthly or a large cash discount of ₱35,000 <br /><br />This deal ends September 30, 2017, so hurry to your nearest Ford dealer today.'''
+	copy = '''Hello <%${user['FirstName']}%><br /><br />We hope that you’re still loving your <%${user.CustomAttribute['Model']}%> as much as we love having you be a part of our Ford family!<br /><br />This month, we at Ford Philippines are celebrating our 20th year anniversary, and we couldn't think of any other way to celebrate than with you! For the entire month of September, you can drive away with a brand-new EcoSport for an All-In Low Down Payment of ₱68,000 or just ₱7,698 monthly or a large cash discount of ₱35,000.<br /><br />This deal ends September 30, 2017, so hurry to your nearest Ford dealer today.'''
 	cta1_text = '''FIND OUT MORE'''
 	cta1_url = '''https://www.ford.com.ph/shopping/hot-deals/2016/hot-deal-2/'''
 	cta1_link_name = '''deal_search'''
