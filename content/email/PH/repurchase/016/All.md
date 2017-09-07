@@ -14,16 +14,6 @@ color='white'
 	image = '''white'''
 	url_link = '''https://www.ford.com.ph/'''
 
-[[module]] #Cover 07
-path='email_modules/cover/02'
-color='''white''' 
-
-	title = '''We want to celebrate with you!'''
-	copy = '''Hello <%${user['FirstName']}%><br /><br />We hope that you’re still loving your <%${user.CustomAttribute['Model']}%> as much as we love having you be a part of our Ford family!<br /><br />This month, we at Ford Philippines are celebrating our 20th year anniversary, and we couldn't think of any other way to celebrate than with you! For the entire month of September, you can drive away with an EcSport for an All-In Low Down Payment of ₱68,000 or just ₱7,698 monthly or a large cash discount of ₱35,000 <br /><br />This deal ends September 30, 2017, so hurry to your nearest Ford dealer today.'''
-	cta1_text = '''FIND OUT MORE'''
-	cta1_url = '''https://www.ford.com.ph/shopping/hot-deals/2016/hot-deal-2/'''
-	cta1_link_name = '''deal_search'''
-
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
@@ -34,12 +24,12 @@ color = '''white'''
 path='email_modules/cover/02'
 color='''white''' 
 
-	title = '''Ford tests drives coming to you'''
-	copy = '''Ford Island Conquest is not your ordinary test drive. Join us as Ford travels to your city this year with Ford Rangers, Everests and EcoSports geared and ready for you to hop in and take for a spin.<br /><br />You’ll also be able to enjoy giveaways and have a chance to win exclusive discounts – there’s as much as Php 100,000 cash discounts up for grabs!'''
-	cta1_text = '''DATES & LOCATIONS'''
-	cta1_url = '''https://www.ford.com.ph/ford-island-conquest/'''
-	cta1_link_name = '''fic'''
-    
+	title = '''We want to celebrate with you!'''
+	copy = '''Hello <%${user['FirstName']}%><br /><br />We hope that you’re still loving your <%${user.CustomAttribute['Model']}%> as much as we love having you be a part of our Ford family!<br /><br />This month, we at Ford Philippines are celebrating our 20th year anniversary, and we couldn't think of any other way to celebrate than with you! For the entire month of September, you can drive away with an EcSport for an All-In Low Down Payment of ₱68,000 or just ₱7,698 monthly or a large cash discount of ₱35,000 <br /><br />This deal ends September 30, 2017, so hurry to your nearest Ford dealer today.'''
+	cta1_text = '''FIND OUT MORE'''
+	cta1_url = '''https://www.ford.com.ph/shopping/hot-deals/2016/hot-deal-2/'''
+	cta1_link_name = '''deal_search'''
+
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
@@ -48,9 +38,19 @@ color='white'
 	url_link='''https://www.ford.com.ph/ford-island-conquest/'''
 	url_link_name='''fic'''
 
+[[module]] #Cover 07
+path='email_modules/cover/02'
+color='''white''' 
+
+	title = '''Ford tests drives coming to you'''
+	copy = '''Ford Island Conquest is not your ordinary test drive. Join us as Ford travels to your city this year with Ford Rangers, Everests and EcoSports geared and ready for you to hop in and take for a spin.<br /><br />You’ll also be able to enjoy giveaways and have a chance to win exclusive discounts – there’s as much as Php 100,000 cash discounts up for grabs!'''
+	cta1_text = '''DATES & LOCATIONS'''
+	cta1_url = '''https://www.ford.com.ph/ford-island-conquest/'''
+	cta1_link_name = '''fic'''
+
 [[module]] #Split 02
 path='email_modules/split/02'
-color='fordblue'
+color='darkblue'
 
 	title = '''Explore with confidence'''
 	copy = '''Big news. Ford Explorer now has <a href="https://www.ford.com.ph/engineering/sync/" name="sync3" style="text-decoration:underline; color:#2d96cd;">SYNC<sup>TM</sup> 3</a> with Navigation! Together with impressive engine options – Explorer offers 3.5L and 2.3L engines – it’s easier than ever to stay on track and on time.'''
