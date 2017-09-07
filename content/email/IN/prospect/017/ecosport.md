@@ -76,7 +76,7 @@ color='''white'''
 	cta1_text = '''BOOK A TEST DRIVE'''
 	cta1_url = '''https://www.india.ford.com/suvs/ecosport/ecosport-brochure/?redtrgtexp=true#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-ecosport.html?campaign=ESFWTDC&intModel=EcoSport&modelCode=ES/'''
 	cta1_link_name = '''test_drive'''
-    cta2_text = '''&nbsp;&nbsp;&nbsp;&nbsp;FIND A DEALER&nbsp;&nbsp;&nbsp;&nbsp;'''
+    cta2_text = '''&nbsp;&nbsp;&nbsp;&nbsp;FIND A DEALER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'''
 	cta2_url = '''https://www.india.ford.com/locate-dealer/'''
 	cta2_link_name = '''locate_dealer'''
 
