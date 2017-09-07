@@ -28,7 +28,7 @@ color='''white'''
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''ph_edm5_anniversary_20170907_desktop'''
+	image = '''ph_edm5_anniversary_20170907'''
 
 [[module]] #Cover 07
 path='email_modules/cover/02'
