@@ -13,12 +13,14 @@ color='white'
 
 	image = '''white'''
 	url_link = '''https://www.ford.com.ph/'''
+    
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
 
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
-	image = '''ph_edm5_anniversary_20170907'''
+	image='''ph_edm5_fic_20170327'''
+	url_link='''ph_edm5_anniversary_20170907'''
+	url_link_name='''anniversary'''
 
 [[module]] #Cover 07
 path='email_modules/cover/02'
@@ -42,7 +44,7 @@ color='white'
 path='email_modules/cover/02'
 color='''white''' 
 
-	title = '''Ford tests drives coming to you'''
+	title = '''Ford test drives coming to you'''
 	copy = '''Ford Island Conquest is not your ordinary test drive. Join us as Ford travels to your city this year with Ford Rangers, Everests and EcoSports geared and ready for you to hop in and take for a spin.<br /><br />You’ll also be able to enjoy giveaways and have a chance to win exclusive discounts – there’s as much as Php 100,000 cash discounts up for grabs!'''
 	cta1_text = '''DATES & LOCATIONS'''
 	cta1_url = '''https://www.ford.com.ph/ford-island-conquest/'''
