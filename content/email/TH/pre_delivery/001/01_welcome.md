@@ -32,7 +32,7 @@ font='th'
 path = 'email_modules/image/banner_nolink'
 color = 'white'
 
-	image = '''in_edm1&4_np_figo_20160801'''
+	image = '''FGE_KMI_EN_Pick_Up_20170905'''
 
 [[module]]
 path='email_modules/split/master/right'
