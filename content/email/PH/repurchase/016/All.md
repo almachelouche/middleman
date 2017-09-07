@@ -18,7 +18,7 @@ color='white'
 path='email_modules/image/banner'
 color='white'
 
-	image='''ph_edm5_fic_20170327'''
+	image='''ph_edm5_anniversary_20170907'''
 	url_link='''ph_edm5_anniversary_20170907'''
 	url_link_name='''anniversary'''
 
