@@ -19,7 +19,7 @@ path='email_modules/image/banner'
 color='white'
 
 	image='''ph_edm5_anniversary_20170907'''
-	url_link='''ph_edm5_anniversary_20170907'''
+	url_link='''https://www.ford.com.ph/shopping/hot-deals/2017/hot-deal-2/'''
 	url_link_name='''anniversary'''
 
 [[module]] #Cover 07
