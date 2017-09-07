@@ -18,7 +18,7 @@ color='white'
 path = 'email_modules/image/banner_nolink'
 color = 'white'
 
-	image = '''FGE_KMI_EN_Pick_Up_20170905'''
+	image = '''FGE_KMI_EN_Welcome_20170906'''
 
 [[module]]
 path='email_modules/cover/master'
@@ -32,7 +32,7 @@ font='th'
 path = 'email_modules/image/banner_nolink'
 color = 'white'
 
-	image = '''FGE_KMI_EN_Pick_Up_20170905'''
+	image = '''FGE_KMI_EN_Welcome_20170906'''
 
 [[module]]
 path='email_modules/split/master/right'

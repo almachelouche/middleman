@@ -15,6 +15,12 @@ color='white'
 	url_link = '''https://www.ford.co.th/'''
 
 [[module]]
+path = 'email_modules/image/banner_nolink'
+color = 'white'
+
+	image = '''FGE_KMI_EN_Delay_20170906'''
+
+[[module]]
 path='email_modules/cover/master'
 color='white'
 font='th'
