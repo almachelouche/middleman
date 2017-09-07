@@ -37,7 +37,7 @@ font='th'
 	copy_align='left'
 	vertical_align='middle'
 
-	image='''tms_20160328'''
+	image='''FGE_KMI_EN_Contact_20170905'''
 
 [[module]]
 path='email_modules/footer/th/social'
