@@ -48,7 +48,7 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'O')"]
 
-	image = '''in_edm5_tamilnadu_ecosport_20170906'''
+	image = '''in_edm5_tamilnadu_figo_aspire_20170906'''
 
 [[module]]
 path='email_modules/spacer/default'
