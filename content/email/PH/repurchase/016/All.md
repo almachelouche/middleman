@@ -21,14 +21,14 @@ color='''white'''
 	title = '''We want to celebrate with you!'''
 	copy = '''Hello <%${user['FirstName']}%><br /><br />We hope that you’re still loving your <%${user.CustomAttribute['Model']}%> as much as we love having you be a part of our Ford family!<br /><br />This month, we at Ford Philippines are celebrating our 20th year anniversary, and we couldn't think of any other way to celebrate than with you! For the entire month of September, you can drive away with an EcSport for an All-In Low Down Payment of ₱68,000 or just ₱7,698 monthly or a large cash discount of ₱35,000 <br /><br />This deal ends September 30, 2017, so hurry to your nearest Ford dealer today.'''
 	cta1_text = '''FIND OUT MORE'''
-	cta1_url = '''https://www.ford.com.ph/ford-truck-month-2017/'''
+	cta1_url = '''https://www.ford.com.ph/shopping/hot-deals/2016/hot-deal-2/'''
 	cta1_link_name = '''deal_search'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''ph_edm5_truckmonth_20170630'''
+	image = '''ph_edm5_anniversary_20170907_desktop'''
 
 [[module]] #Cover 07
 path='email_modules/cover/02'
@@ -50,7 +50,7 @@ color='white'
 
 [[module]] #Split 02
 path='email_modules/split/02'
-color='lightblue'
+color='fordblue'
 
 	title = '''Explore with confidence'''
 	copy = '''Big news. Ford Explorer now has <a href="https://www.ford.com.ph/engineering/sync/" name="sync3" style="text-decoration:underline; color:#2d96cd;">SYNC<sup>TM</sup> 3</a> with Navigation! Together with impressive engine options – Explorer offers 3.5L and 2.3L engines – it’s easier than ever to stay on track and on time.'''
