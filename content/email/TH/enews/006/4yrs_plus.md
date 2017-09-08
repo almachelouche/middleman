@@ -120,7 +120,7 @@ copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style="white-space:nowrap;">ที่จะช่วยให้คุณควบคุมรถ</span>
 <span style="white-space:nowrap;">ได้อย่างปลอดภัยกัน</span></span>'''
 cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">เรียนรู้เพิ่มเติม</span>'''
-	cta1_url = '''http://digitalsnippets.ford.com/th/2017/01/safetyintherain/'''
+	cta1_url = '''https://digitalsnippets.ford.com/th/2017/01/safetyintherain/'''
 	cta1_link_name = '''ac'''
 	cta1_icon = '''more'''
 	image = '''th_edm6_AC_20170613'''

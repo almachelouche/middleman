@@ -114,7 +114,7 @@ color='''white'''
 		</span>
 	'''
 	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ศึกษารายละเอียดเพิ่มเติม</span>'''
-	cta1_url='''http://www.ford.co.th/buying/solutions/premium-protection-plus'''
+	cta1_url='''https://www.ford.co.th/buying/solutions/premium-protection-plus'''
 	cta1_link_name = '''ppp'''
 
 
