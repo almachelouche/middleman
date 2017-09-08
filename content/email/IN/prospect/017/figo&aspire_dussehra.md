@@ -20,23 +20,28 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentif = ["(user.CustomAttribute['Segment'] == 'K')"]
 
-	image = '''in_edm6_dussehraap_figo_aspire_20170907'''
+	image = '''in_edm5_dussehraap_figo_aspire_20170907'''
     
 [[module]]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'L')"]
 
-	image = '''in_edm6_dussehrakarnataka_figo_aspire_20170907'''
+	image = '''in_edm5_dussehrakarnataka_figo_aspire_20170907'''
     
+[[module]]
+path='email_modules/spacer/default'
+color='white'
 
+	height="20"    
+    
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
 color='''white'''
 	cta1_text = '''BOOK A TEST DRIVE'''
 	cta1_url = '''https://www.india.ford.com/#/overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-generic.html/'''
 	cta1_link_name = '''test_drive'''
-		cta2_text = '''&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIND A DEALER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'''
+    cta2_text = '''&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIND A DEALER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'''
 	cta2_url = '''https://www.india.ford.com/locate-dealer/'''
 	cta2_link_name = '''locate_dealer'''
 
@@ -53,10 +58,10 @@ color='''white'''
 
 	copy = '''This Dussehra, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
-    <span style="font-weight:bold">Buy a Ford Aspire, and get a Gold Coin + upto 10,000 Cash Discount + Exchange Bonus + 7.99% Interest rate, and more. *
+    <span style="font-weight:bold">Buy a Ford Aspire or Next-Gen Ford Figo, and get a Gold Coin + upto 10,000 Cash Discount + Exchange Bonus + 7.99% Interest rate, and more.*
     </span>
     <br /> <br/>
-    Don't wait too long because the offer ends September 30, 2017. *
+    Don't wait too long because the offer ends September 30, 2017.*
     '''
 
 [[module]]
@@ -123,19 +128,22 @@ color='white'
         1. All Prices shown are ex-showroom for Next-Gen Figo Base Petrol, Ford Aspire Ambiente Petrol. The above shown models are Next-Gen Figo Titanium+ MT,  Ford Aspire Titanium+ MT.
         <br />
         <br />
-        2. The Cash benefit upto &#8377;10,000/- is valid only on select Models and variants. Exchange bonus will be &#8377;20,000/- on exchange of Ford Car and &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.
+        2. The Cash benefit upto &#8377;10,000/- is valid only on select Models and variants. 
         <br />
         <br />
-        3. Interest rate of 7.99% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.
+        3. Exchange bonus will be &#8377;20,000/- on exchange of Ford Car and &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.
         <br />
         <br />
-        4. The 4g Gold Coin (22 carat) worth &#8377;11,584/- as on 1st September 2017 will be given on select Models and variants is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017. 
+        4. Interest rate of 7.99% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.
         <br />
         <br />
-        5. This offer is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017.
+        5. The 4g Gold Coin (22 carat) worth &#8377;11,584/- as on 1st September 2017 will be given on select Models and variants is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017. 
         <br />
         <br />
-        6. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment.
+        6. This offer is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017.
+        <br />
+        <br />
+        7. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment.
         <br />
         <br />
         7.Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.           
