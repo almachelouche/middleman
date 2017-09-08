@@ -32,7 +32,7 @@ color='white'
 font='th'
 
 	copy='''
-		เรียน [Customer_NAME]
+		เรียน [Name]
 		<br/>
 		<br/>
 		ในที่สุดวันนี้ก็มาถึง คุณสามารถมาที่ตัวแทนจำหน่ายเพื่อรับมอบรถยนต์ Ford [NAMEPLATE] คันใหม่ของคุณ
@@ -42,18 +42,18 @@ font='th'
 		<br/>
 		หากคุณต้องการปรับแต่ง [NAMEPLATE] คันใหม่ของคุณให้เหมาะสมกับวิธีการทำงานและการใช้ชีวิตส่วนตัวของคุณ
 		<br/>
-		สิ่งที่คุณต้องทำ คือ ติดต่อตัวแทนจำหน่ายฟอร์ดของคุณที่ [DEALERSHIP_Name]
+		สิ่งที่คุณต้องทำ คือ ติดต่อตัวแทนจำหน่ายฟอร์ดของคุณที่ [Company_Name]
 		<br/>
 		เพื่อให้เจ้าหน้าที่สอนวิธีการกำหนดรูปแบบเฉพาะเพื่อให้รถคันใหม่เหมาะกับคุณ
 		<br/>
 		<br/>
-		กรุณาเข้าไปที่<a href="" style="color: #006fff; text-decoration: underline;">เว็บไซต์ก่อนการส่งมอบ</a>เพื่อเลือกเวลาที่คุณสะดวกรับมอบรถยนต์ [NAMEPLATE] ของคุณ
+		กรุณาเข้าไปที่<a href="[DFYURL]" style="color: #006fff; text-decoration: underline;">เว็บไซต์ก่อนการส่งมอบ</a>เพื่อเลือกเวลาที่คุณสะดวกรับมอบรถยนต์ [Model] ของคุณ
 		<br/>
 		และคุณยังสามารถกำหนดรูปแบบเฉพาะสำหรับรถยนต์ของคุณรวมถึงเรียนรู้เกี่ยวกับคุณสมบัติอันยอดเยี่ยมในรถยนต์ของคุณ
 		<br/>
-		กรุณาติดต่อพนักงานส่งมอบรถชื่อ [Delivery_Consultant_NAME] ที่หมายเลข [DC_NUMBER]
+		กรุณาติดต่อพนักงานส่งมอบรถชื่อ [Delivery_SalesPerson] ที่หมายเลข [Delivery_SalesPerson_Phone_No]
 		<br/>
-		เพื่อตกลงเวลาที่คุณสะดวกในการมารับมอบรถยนต์ [NAMEPLATE] ของคุณ
+		เพื่อตกลงเวลาที่คุณสะดวกในการมารับมอบรถยนต์ [Model] ของคุณ
 		<br/>
 		<br/>
 		เราหวังว่าคุณจะสนุกกับการขับขี่
@@ -61,9 +61,9 @@ font='th'
 		ขอแสดงความนับถือ
 		<br/>
 		<br/>
-		[GM_NAME]
+		[GMEmployeeName]
 		<br/>
-		<a href="tel:[GM_Mobile_No.]" style="text-decoration: none;">[GM_Mobile_No.]</a>
+		<a href="tel:[GMEmployeeMobile_Phone_No]" style="text-decoration: none;">[GMEmployeeMobile_Phone_No]</a>
 	'''
 	copy_align='left'
 
@@ -75,9 +75,9 @@ font='th'
 	title='''[Dealer_NAME]'''
 	title_align='left'
 	copy='''
-		[Outlet_Address]
+		[Location_Address]
 		<br/>
-		<a href="tel:[Dealer_Phone_No.]" style="color: #ffffff; text-decoration: underline;">[Dealer_Phone_No.]</a>
+		<a href="tel:[Location_Contact]" style="color: #ffffff; text-decoration: underline;">[Location_Contact]</a>
 	'''
 	copy_align='left'
 	vertical_align='middle'
