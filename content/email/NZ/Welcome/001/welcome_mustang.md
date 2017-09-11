@@ -49,7 +49,8 @@ path='email_modules/singles/copy'
 color='''white'''
 
 
-    copy='''Did you know your new Mustang is as safe as it is smart? Not only does it deliver innovative driver assistance technologies and a 5 star ANCAP safety rating, it also brings the latest in-car communication technologies to New Zealand drivers.'''
+    copy='''Along with driver assistance technologies, Ford also brings the latest communications technology to New Zealand drivers. Not only is your vehicle safe, it’s also smart!
+    '''
 
 [[module]]
 path='email_modules/spacer/default'
