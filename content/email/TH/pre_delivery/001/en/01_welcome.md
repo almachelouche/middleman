@@ -53,7 +53,7 @@ font='th'
 path = 'email_modules/image/banner_nolink'
 color = 'white'
 
-	image = '''FGE_KMI_EN_Welcome_20170906'''
+	image = '''FGE_KMI_EN_Welcome_Car_20170911'''
 
 [[module]]
 path='email_modules/split/master/right'
