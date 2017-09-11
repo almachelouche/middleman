@@ -1,6 +1,6 @@
 +++
 markets = ["nz"]
-title = '''NZ Welcome 001 generic'''
+title = '''NZ Welcome 001 Everest'''
 
 [[module]]
 path='email_modules/preheaderbefore'
@@ -15,52 +15,15 @@ path='email_modules/preheaderbefore'
 segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 
 	preheader='''Dear <%${user.CustomAttribute['FullName']}%>, welcome to the Ford Family.'''
-    
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'EcoSport')"]
-
-	image='''nz_edm1_ecosport_20170612'''
-	url_link='''https://www.ford.co.nz/'''
-	url_link_name='''ecosport'''
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'Mondeo')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Everest')"]
 
-	image = '''nz_edm1_mondeo_20170612'''
+	image = '''nz_edm1_everest_20170612'''
     url_link='''https://www.ford.co.nz/'''
-	url_link_name='''mondeo'''
-
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'Focus')"]
-
-	image = '''nz_edm1_focus_20170612'''
-    url_link='''https://www.ford.co.nz/'''
-	url_link_name='''focus'''
-
-
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'NewEscape')"]
-
-	image = '''nz_edm1_escape_20170612'''
-    url_link='''https://www.ford.co.nz/'''
-	url_link_name='''new escape'''
-
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'Fiesta')"]
-
-	image = '''nz_edm1_fiesta_20170612'''
-    url_link='''https://www.ford.co.nz/'''
-	url_link_name='''fiesta'''
+	url_link_name='''everest'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -122,7 +85,7 @@ path='email_modules/cover/01'
 color='white'
 
  title='''Peace of mind comes standard'''
-	copy='''Your new <%${user.CustomAttribute['Model']}%> includes a 3 year/100,000km warranty, 3-Year roadside assistance, and 12-month/20,000km service intervals (whichever occurs first). <br /><br />You will also receive an email from us within the next two months reminding you to book your Peace of Mind checkup. This is a quick, complimentary inspection to ensure that you are happy with how your vehicle is running. It also provides an opportunity to discuss any questions or concerns you may have about your new <%${user.CustomAttribute['Model']}%>.'''
+	copy='''Your new <%${user.CustomAttribute['Model']}%> includes a 3 year/100,000km warranty, 3-Year roadside assistance, and 12-month/15,000km service intervals (whichever occurs first). <br /><br />You will also receive an email from us within the next two months reminding you to book your Peace of Mind checkup. This is a quick, complimentary inspection to ensure that you are happy with how your vehicle is running. It also provides an opportunity to discuss any questions or concerns you may have about your new <%${user.CustomAttribute['Model']}%>.'''
 
 
 [[module]] #Cover 01
