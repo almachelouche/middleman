@@ -26,26 +26,26 @@ color='white'
 font='th'
 
 	copy='''
-	Dear [Name],
-	<br/>
-	<br/>
-	Greetings from [Company_Name]. Thanks for stopping by our showroom on [Opportunity_Creation_Date]. It was great meeting you, and we're so happy to hear that you're interested in the Ford [Model]. 
-	<br/>
-	<br/>
-	Your Sales Consultant for this exciting journey will be [SalesPerson_Code] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>.
-	<br/>
-	<br/>
-	Please feel free to contact us if you need any further information or help as you make this purchase decision. 
-	<br/>
-	<br/>
-	Hope to see you again soon!
-	<br/>
-	<br/>
-	Sincerely,
-	<br/>
-	[GMEmployeeName]
-	<br/>
-	<a href="tel:[GMEmployeeMobile_Phone_No]" style="text-decoration: none;">[GMEmployeeMobile_Phone_No]</a>
+		Dear [Name],
+		<br/>
+		<br/>
+		Greetings from [Company_Name]. Thanks for stopping by our showroom on [Opportunity_Creation_Date]. It was great meeting you, and we're so happy to hear that you're interested in the Ford [Model]. 
+		<br/>
+		<br/>
+		Your Sales Consultant for this exciting journey will be [SalesPerson_Code] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>.
+		<br/>
+		<br/>
+		Please feel free to contact us if you need any further information or help as you make this purchase decision. 
+		<br/>
+		<br/>
+		Hope to see you again soon!
+		<br/>
+		<br/>
+		Sincerely,
+		<br/>
+		[GMEmployeeName]
+		<br/>
+		<a href="tel:[GMEmployeeMobile_Phone_No]" style="text-decoration: none;">[GMEmployeeMobile_Phone_No]</a>
 	'''
 	copy_align='left'
 
