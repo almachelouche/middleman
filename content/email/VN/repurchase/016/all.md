@@ -55,8 +55,8 @@ color='''white'''
 	cta1_url='''https://www.ford.com.vn/'''
 	cta1_link_name = '''provincial_test_drive'''
 	
-[[module]] #Split 03
-path='email_modules/split/03'
+[[module]] #Split 04
+path='email_modules/split/04'
 color='fordblue'
 
 	title = '''Tặng Voucher 3.000.000 VNĐ thay lời cảm ơn'''
