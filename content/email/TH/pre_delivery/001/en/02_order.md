@@ -24,7 +24,7 @@ color = 'white'
 path = 'email_modules/image/banner_nolink'
 color = 'white'
 
-	image = '''FGE_KMI_EN_Journey_Order_20170905'''
+	image = '''FGE_KMI_EN_Journey_Order_20170908'''
 
 [[module]]
 path='email_modules/cover/master'
