@@ -76,7 +76,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'T')"]
 [[module]]
 path='email_modules/dual/04'
 color='white'
-segmentelseif = ["(user.CustomAttribute['Segment'] == 'T')"]
+
 	title1 = '''Service Price Promise'''
 	copy1 = '''We ensure that there are no surprises in your service cost. The price you see online is the price you pay.'''
 	cta1a_text = '''<br /><br />KNOW MORE'''
