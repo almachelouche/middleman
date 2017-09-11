@@ -1,6 +1,6 @@
 +++
 markets = ["in"]
-title = '''IN Prospect 017 EcoSport Dussehra'''
+title = '''IN Prospect 017 EcoSport Kerala&UP'''
 
 [[module]]
 path='email_modules/preheader'
@@ -17,16 +17,16 @@ color='white_pb'
 [[module]]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-segmentif = ["(user.CustomAttribute['Segment'] == 'M')"]
+segmentif = ["(user.CustomAttribute['Segment'] == 'S')"]
 
-	image = '''in_edm5_dussehraap_ecosport_20170907'''
+	image = '''in_edm5_up_ecosport_20170911'''
     
 [[module]]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-segmentelseif = ["(user.CustomAttribute['Segment'] == 'N')"]
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'T')"]
 
-	image = '''in_edm5_dussehrakarnataka_ecosport_20170907'''
+	image = '''in_edm5_kerala_ecosport_20170911'''
     
 [[module]]
 path='email_modules/spacer/default'
@@ -53,17 +53,30 @@ color='white'
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
+segmentif = ["(user.CustomAttribute['Segment'] == 'S')"]
 
-	copy = '''This Dussehra, make a new beginning with Ford. Drive home with the spirit of the festival season.
+	copy = '''This Navratri, make a new beginning with Ford. Drive home with the spirit of the festival season.
     <br /><br />
-    <span style="font-weight:bold"> Buy a Ford EcoSport, and get a Gold Coin + Cash Discount + Exchange Bonus + 7.99% Interest rate, and more.* </span>
+    <span style="font-weight:bold">Buy a Ford EcoSport, and get Cash Discount + Exchange Bonus + 7.99% Interest rate, and more.*</span> 
+    <br /> <br/>
+    Don't wait too long because the offer ends September 30, 2017.*'''
+
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'T')"]
+
+	copy = '''With Ford's festive offers, now is the perfect time to get yourself a new Ford and let the celebrations carry on!
+    <br /><br />
+    <span style="font-weight:bold">Buy a Ford EcoSport, and get a Gold Coin + upto &#8377;10,000 Cash Discount + Exchange Bonus + 7.99% Interest Rate, and more.*
+    </span>
     <br /> <br/>
     Don't wait too long because the offer ends September 30, 2017.*'''
 
 [[module]]
 path='email_modules/dual/04'
 color='white'
-
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'T')"]
 	title1 = '''Service Price Promise'''
 	copy1 = '''We ensure that there are no surprises in your service cost. The price you see online is the price you pay.'''
 	cta1a_text = '''<br /><br />KNOW MORE'''
@@ -116,34 +129,63 @@ color='white'
 [[module]]
 path='email_modules/footer/disclaimer'
 color='white'
+segmentif = ["(user.CustomAttribute['Segment'] == 'S')"]
 
 	text = '''
 		*Terms & conditions Apply.
         <br />
         <br />
-        1. All Prices shown are ex-showroom for Ford EcoSport Ambiente Petrol. The above shown models are Ford EcoSport Platinum Edition MT.
+        1. All Prices shown are ex-showroom for Ford EcoSport Ambiente Petrol. The above shown model is Ford Ecosport Platinum Edition MT.
         <br />
         <br />
-        2. The Cash benefit upto &#8377;10,000/- is valid only on select Models and variants . 
+        2. The Cash benefit upto &#8377;10,000/- is valid only on select Models and variants. 
         <br />
         <br />
         3. Exchange bonus will be &#8377;20,000/- on exchange of Ford Car and &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.
         <br />
         <br />
-        4. Interest rate of 7.99% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited (“Ford Credit”) and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.
+        4. Interest rate of 7.99% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.
         <br />
         <br />
-        5. The 4g Gold Coin (22 carat) worth &#8377;11,584/- as on 1st September 2017 will be given on select Models and variants is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017.
+        5. This offer is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017.
+        <br />
+        <br />
+        6. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment.
+        <br />
+        <br />
+        7. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.'''
+
+[[module]]
+path='email_modules/footer/disclaimer'
+color='white'
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'T')"]
+
+	text = '''
+		*Terms & conditions Apply.
+        <br />
+        <br />
+        1. All Prices shown are ex-showroom for Ford EcoSport Ambiente Petrol. The above shown model is Ford Ecosport Platinum Edition MT.
+        <br />
+        <br />
+        2. The Cash benefit upto &#8377;10,000/- is valid only on select Models and variants. 
+        <br />
+        <br />
+        3. Exchange bonus will be &#8377;20,000/- on exchange of Ford Car and &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.
+        <br />
+        <br />
+        4. Interest rate of 7.99% per annum is available at select dealership across India, if financed through Ford Credit India Private Limited ("Ford Credit") and cannot be exchanged for cash. The finance is at the sole discretion of Ford Credit.
+        <br />
+        <br />
+        5. The 4g Gold Coin (22 carat) worth &#8377;11,584/- as on 1st September 2017 will be given on select Models and variants is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017. 
         <br />
         <br />
         6. This offer is applicable for booking done between 1st September 2017 to 30th September 2017 with full payment on or before September 30, 2017.
         <br />
         <br />
-        7.Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment.    
+        7. Colors are indicative only and may vary due to printing constraints. Accessories shown may not be part of standard fitment.
         <br />
-        <br />         
-        8. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.           
-        '''
+        <br />
+        8. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.'''
         
 [[module]]
 path='email_modules/footer/in/online'
