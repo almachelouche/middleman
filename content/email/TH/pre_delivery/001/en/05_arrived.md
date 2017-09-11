@@ -32,25 +32,25 @@ color='white'
 font='th'
 
 	copy='''
-	Dear [NAME],
-	<br/>
-	<br/>
-	Your new Ford [Model] is here! It's waiting for you at the [Company_Name]. Can you smell the fresh coat of paint and new car scent already?
-	<br/>
-	<br/>
-	Get ready to welcome your new Ford [Model] to your life. But before that, we suggest getting acquainted with your car's cool features by visiting our product website.
-	<br/>
-	<a href="https://www.ford.co.th/en/vehicles/" style="color: #006fff; text-decoration: underline;">https://www.ford.co.th/en/vehicles/</a>
-	<br/>
-	<br/>
-	We hope you're excited to meet your new Ford [Model]!
-	<br/>
-	<br/>
-	Sincerely,
-	<br/>
-	[GMEmployeeName]
-	<br/>
-	<a href="tel:[GMEmployeeMobile_Phone_No]" style="text-decoration: none;">[GMEmployeeMobile_Phone_No]</a>
+		Dear [NAME],
+		<br/>
+		<br/>
+		Your new Ford [Model] is here! It's waiting for you at the [Company_Name]. Can you smell the fresh coat of paint and new car scent already?
+		<br/>
+		<br/>
+		Get ready to welcome your new Ford [Model] to your life. But before that, we suggest getting acquainted with your car's cool features by visiting our product website.
+		<br/>
+		<a href="https://www.ford.co.th/en/vehicles/" style="color: #006fff; text-decoration: underline;">https://www.ford.co.th/en/vehicles/</a>
+		<br/>
+		<br/>
+		We hope you're excited to meet your new Ford [Model]!
+		<br/>
+		<br/>
+		Sincerely,
+		<br/>
+		[GMEmployeeName]
+		<br/>
+		<a href="tel:[GMEmployeeMobile_Phone_No]" style="text-decoration: none;">[GMEmployeeMobile_Phone_No]</a>
 	'''
 	copy_align='left'
 

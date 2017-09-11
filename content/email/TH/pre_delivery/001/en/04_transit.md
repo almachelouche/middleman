@@ -32,28 +32,28 @@ color='white'
 font='th'
 
 	copy='''
-	Dear [Name],
-	<br/>
-	<br/>
-	Your new Ford [Model] is on its way to you as we speak! Yes. You're not dreaming. It's really happening! 
-	<br/>
-	<br/>
-	Remember, if you have any questions or concerns, don't hesitate to reach out. We are here to help you. Here are your contacts:
-	<br/>
-	<br/>
-	Sales Consultant: [SalesPerson_Code] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>
-	<br/>
-	Delivery Consultant: [Delivery_SalesPerson] <a href="tel:[Delivery_SalesPerson_Phone_No]" style="text-decoration: none;">[Delivery_SalesPerson_Phone_No]</a>
-	<br/>
-	<br/>
-	It's on its way and we can hardly contain our excitement!
-	<br/>
-	<br/>
-	Sincerely,
-	<br/>
-	[GMEmployeeName]
-	<br/>
-	<a href="tel:[GMEmployeeMobile_Phone_No]" style="text-decoration: none;">[GMEmployeeMobile_Phone_No]</a>
+		Dear [Name],
+		<br/>
+		<br/>
+		Your new Ford [Model] is on its way to you as we speak! Yes. You're not dreaming. It's really happening! 
+		<br/>
+		<br/>
+		Remember, if you have any questions or concerns, don't hesitate to reach out. We are here to help you. Here are your contacts:
+		<br/>
+		<br/>
+		Sales Consultant: [SalesPerson_Code] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>
+		<br/>
+		Delivery Consultant: [Delivery_SalesPerson] <a href="tel:[Delivery_SalesPerson_Phone_No]" style="text-decoration: none;">[Delivery_SalesPerson_Phone_No]</a>
+		<br/>
+		<br/>
+		It's on its way and we can hardly contain our excitement!
+		<br/>
+		<br/>
+		Sincerely,
+		<br/>
+		[GMEmployeeName]
+		<br/>
+		<a href="tel:[GMEmployeeMobile_Phone_No]" style="text-decoration: none;">[GMEmployeeMobile_Phone_No]</a>
 	'''
 	copy_align='left'
 

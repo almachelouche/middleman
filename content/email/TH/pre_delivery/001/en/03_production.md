@@ -32,24 +32,24 @@ color='white'
 font='th'
 
 	copy='''
-	Dear [NAME],
-	<br/>
-	<br/>
-	Your Ford [Model] is under production, which means you're a step closer to getting behind the wheel and hitting the open road. 
-	<br/>
-	<br/>
-	In the meantime, why not get acquainted with your new car's smart and cool features by visiting our product website.
-	<br/>
-	<a href="https://www.ford.co.th/en/vehicles/" style="color: #006fff; text-decoration: underline;">https://www.ford.co.th/en/vehicles/</a>
-	<br/>
-	<br/>
-	We hope you're getting excited, because we know we are!
-	<br/>
-	Sincerely,
-	<br/>
-	[GMEmployeeName]
-	<br/>
-	<a href="tel:[GMEmployeeMobile_Phone_No]" style="text-decoration: none;">[GMEmployeeMobile_Phone_No]</a>
+		Dear [NAME],
+		<br/>
+		<br/>
+		Your Ford [Model] is under production, which means you're a step closer to getting behind the wheel and hitting the open road. 
+		<br/>
+		<br/>
+		In the meantime, why not get acquainted with your new car's smart and cool features by visiting our product website.
+		<br/>
+		<a href="https://www.ford.co.th/en/vehicles/" style="color: #006fff; text-decoration: underline;">https://www.ford.co.th/en/vehicles/</a>
+		<br/>
+		<br/>
+		We hope you're getting excited, because we know we are!
+		<br/>
+		Sincerely,
+		<br/>
+		[GMEmployeeName]
+		<br/>
+		<a href="tel:[GMEmployeeMobile_Phone_No]" style="text-decoration: none;">[GMEmployeeMobile_Phone_No]</a>
 	'''
 	copy_align='left'
 
