@@ -27,7 +27,7 @@ path='email_modules/cover/02'
 color='''white'''
 
 	
-	title='''Khuyến mại đặc biệt trong tháng Ranger'''
+	title='''Khuyến mại đặc biệt trong tháng Ranger Days'''
 	copy='''Xin chào <%${user.CustomAttribute['Title']}%> <%${user['FirstName']}%><br /><br />Chúng tôi hy vọng rằng bạn yêu thích chiếc <%${user.CustomAttribute['Model']}%> của mình cũng nhiều như việc chúng tôi nóng lòng muốn thấy bạn trở thành một phần trong gia đình Ford chúng tôi!<br /><br />Nếu bạn đang cân nhắc rinh một em Ford Ranger, tháng 9 sẽ vẫn là cơ hội tốt cho bạn lựa chọn chiếc Ranger phiên bản XL với giá đặc biệt là 619 triệu đồng, tiết kiệm tới 15 triệu đồng!<br /><br />Xe bán tải chưa phải là lựa chọn của bạn? Không sao, bạn vẫn còn có nhiều ưu đãi hấp dẫn khác dành cho Everest, EcoSport, Focus và Fiesta trong tháng 9 này! Hãy nhấp vào dưới đây để tìm hiểu thêm chi tiết.'''
 	cta1_text='''TÌM HIỂU THÊM '''
 	cta1_url='''https://www.ford.com.vn/promotion-corner/2017/hot-deal-1/'''
