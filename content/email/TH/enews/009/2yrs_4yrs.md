@@ -65,45 +65,69 @@ color='white'
 path='email_modules/split/01'
 color='green'
 
-title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style="white-space:nowrap;">ฟอร์ด เอเวอร์เรส</span> 
-<span style="white-space:nowrap;">ปลอดภัยระดับ 5 ดาว</span></span>'''
-copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style="white-space:nowrap;">มาพิสูจน์กัน</span> 
-<span style="white-space:nowrap;">ว่าฟอร์ด เอเวอร์เรส </span><br>
-<span style="white-space:nowrap;">นั้นถูกสร้างขึ้นมา</span> 
-<span style="white-space:nowrap;">เพื่อความปลอดภัย</span><br>
-<span style="white-space:nowrap;">สูงสุดตามมาตรฐาน</span> 
-<span style="white-space:nowrap;">ได้รับการจัดอันดับ</span>
-<span style="white-space:nowrap;">ความปลอดภัยระดับ 5 ดาว</span> 
-<span style="white-space:nowrap;">จาก ASEAN NCAP</span> 
-<span style="white-space:nowrap;">เป็นคะแนนสูงสุด!</span></span>''' 
-cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกดูวิดีโอ</span>'''
+title = '''
+<span style="font-family:Tahoma, Verdana, Sans-serif">
+<span style="white-space:nowrap;">Celebrating</span>
+<br />
+<span style="white-space:nowrap;">100 Years</span>
+<br />
+<span style="white-space:nowrap;">of Trucks</span>
+'''
+copy = '''
+<span style="font-family:Tahoma, Verdana, Sans-serif">
+<span style="white-space:nowrap;">Exactly 100 years ago,</span>
+<br />
+<span style="white-space:nowrap;">Ford set off on a great adventure</span>
+<br />
+<span style="white-space:nowrap;">to build the perfect truck</span>
+<br />
+<span style="white-space:nowrap;">to give people a truck</span>
+<br />
+<span style="white-space:nowrap;">that would let them</span> 
+<br />
+<span style="white-space:nowrap;">achieve their dreams.</span> 
+<br />
+<span style="white-space:nowrap;">Watch the video below</span>
+<br />
+<span style="white-space:nowrap;">to see how Ford trucks</span> 
+<br />
+<span style="white-space:nowrap;">have evolved over the years</span>
+<br />
+<span style="white-space:nowrap;">to continue to</span> 
+<br />
+<span style="white-space:nowrap;">help people reach their goals.</span>
+''' 
+cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">WATCH NOW</span>'''
 	cta1_url = '''https://www.facebook.com/FordThailand/videos/1384510834936515/'''
 	cta1_link_name = '''Celebrate_100_Years'''
 	cta1_icon = '''play'''
-	image = '''th_edm6_celebrate100years_20170911'''
+	image = '''th_edm6_celebrate_100_years_20170911'''
 
-[[module]] #Split 02
-path='email_modules/split/02'
-color='lightblue'
+	[[module]] #Split 01
+path='email_modules/split/01'
+color='darkblue'
 
-title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style="white-space:nowrap;">เบรกของคุณ</span>
-<span style="white-space:nowrap;">ยังใช้งานได้ดีหรือไม่?</span></span>'''
-copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style="white-space:nowrap;">เพราะระบบเบรกนั้น</span> 
-<span style="white-space:nowrap;">ต่างก็มีเสื่อมสภาพไปตามกาลเวลา</span> 
-<span style="white-space:nowrap;">คุณจึงควรใส่ใจดูแล</span>
-<span style="white-space:nowrap;">ระบบเบรกของรถยนต์</span><br />
-<span style="white-space:nowrap;">เพื่อลดความเสี่ยงต่อ</span><span style="white-space:nowrap;">อันตราย</span><br>
-<span style="white-space:nowrap;">ที่อาจเกิดขึ้นได้</span>
-<span style="white-space:nowrap;">ด้วยวิธีการดังนี้</span></span> '''
-cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกดูวิดีโอ</span>'''
-	cta1_url = '''https://www.youtube.com/watch?v=ahI6tuHbLcY'''
+title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+<span style=" white-space:nowrap;">Vehicle Health 101</span>'''
+copy = '''
+<span style="font-family:Tahoma, Verdana, Sans-serif">
+<span style="white-space:nowrap;">Get expert tips on</span>
+<br />
+<span style="white-space:nowrap;">how to keep your car</span> 
+<br />
+<span style="white-space:nowrap;">in tip-top shape for longer</span> 
+<br />
+<span style="white-space:nowrap;">by watching these videos.</span>
+<br />
+<span style="white-space:nowrap;">It can help you save money</span> 
+<br />
+<span style="white-space:nowrap;">in the long run, too.</span>
+'''
+cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">WATCH NOW</span>'''
+    cta1_url = '''https://www.youtube.com/watch?v=ahI6tuHbLcY'''
 	cta1_link_name = '''Vehicle_Health_Tips'''
 	cta1_icon = '''play'''
-	image = '''th_edm6_vehiclehealthtips_20170911'''
+	image = '''th_edm6_vehicle_health_tips_20170911'''
 
 [[module]]
 path='email_modules/spacer/platinum_20'
