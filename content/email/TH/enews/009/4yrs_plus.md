@@ -101,10 +101,10 @@ copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style="white-space:nowrap;">ที่อาจเกิดขึ้นได้</span>
 <span style="white-space:nowrap;">ด้วยวิธีการดังนี้</span></span> '''
 cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกดูวิดีโอ</span>'''
-	cta1_url = '''https://www.youtube.com/watch?v=ahI6tuHbLcY'''
-	cta1_link_name = '''Vehicle_Health_Tips'''
-	cta1_icon = '''play'''
-	image = '''th_edm6_vehiclehealthtips_20170911'''
+	cta1_url = '''https://www.ford.co.th/buying/latest-offers'''
+	cta1_link_name = '''latest_offer'''
+	cta1_icon = '''more'''
+	image = ''''''
 
 	[[module]] #Split 01
 path='email_modules/split/01'
@@ -120,10 +120,10 @@ copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style="white-space:nowrap;">ที่จะช่วยให้คุณควบคุมรถ</span>
 <span style="white-space:nowrap;">ได้อย่างปลอดภัยกัน</span></span>'''
 cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">เรียนรู้เพิ่มเติม</span>'''
-	cta1_url = '''https://www.ford.co.th/buying/latest-offers'''
-	cta1_link_name = '''latest_offer'''
-	cta1_icon = '''more'''
-	image = ''''''
+    cta1_url = '''https://www.youtube.com/watch?v=ahI6tuHbLcY'''
+	cta1_link_name = '''Vehicle_Health_Tips'''
+	cta1_icon = '''play'''
+	image = '''th_edm6_vehiclehealthtips_20170911'''
 
 [[module]]
 path='email_modules/spacer/platinum_20'
