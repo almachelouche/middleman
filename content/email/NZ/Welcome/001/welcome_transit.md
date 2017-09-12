@@ -92,7 +92,7 @@ color='''fordblue'''
 
 	icon='''au_edm1_welcome_icon_20161019'''
 	title='''Can we help?'''
-	copy='''Our Ford Customer Assistance Team is always available to assist with any questions you may have. Contacted them on <br/><span style="color:#FFFFFF">0800 Ford NZ (0200 367 369)</span>.'''
+	copy='''Our Ford Customer Assistance Team is always available to assist with any questions you may have. Contacted them on <br/><span style="color:#FFFFFF">0800 Ford NZ (0800 367 369)</span>.'''
 
 [[module]] #Footer NZ Social
 path='email_modules/footer/nz/social'
