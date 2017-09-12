@@ -14,7 +14,7 @@ color='''white'''
 path='email_modules/image/banner'
 color='white'
 
-	image = '''au_edm2_pom_new_banner_20170908'''
+	image = '''au_edm2_pom_new_banner_20170912'''
 	url_link = '''https://www.ford.com.au/owners/service/'''
 
 [[module]]
