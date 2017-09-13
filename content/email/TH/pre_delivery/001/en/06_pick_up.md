@@ -3,11 +3,6 @@ markets = ["th"]
 title = '''EN Pre Delivery 001 Pick Up'''
 
 [[module]]
-path='email_modules/preheader'
-
-	preheader = '''โปรโมชั่นตรวจเช็คระยะสุดพิเศษ ที่มาพร้อมการบริการทันสมัยและมีประสิทธิภาพที่ศูนย์บริการมาตรฐานฟอร์ด'''
-
-[[module]]
 path='email_modules/header/logo'
 color='white'
 
@@ -73,10 +68,10 @@ font='th'
 	image='''FGE_KMI_TH_Contact_20170906'''
 
 [[module]]
-path='email_modules/footer/th/social'
+path='email_modules/footer/th/en_social'
 color='white'
 
 [[module]]
-path='email_modules/footer/th/online'
+path='email_modules/footer/th/en_online'
 color='white'
 +++

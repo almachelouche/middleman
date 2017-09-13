@@ -20,7 +20,7 @@ color='white'
 path='email_modules/cover/02'
 color='''white'''
 
- title = '''<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
+ title = '''<span style="font-size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
  <span style="white-space:nowrap;">귀하의 여정에 언제나 함께하도록</span></span>'''
 	copy = '''<span style="font-size:15px;line-height:14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;"><br /><br />
 	<span style="white-space:nowrap;">링컨과의 새로운 여정을 시작한 1년 전 그 순간을 기억하시나요?</span><br /><br />

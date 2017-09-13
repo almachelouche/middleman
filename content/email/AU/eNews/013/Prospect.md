@@ -13,8 +13,8 @@ path='email_modules/header/enews'
 color='black'
 
 	title = '''Insider'''
-    date = '''<date> '''
-	copy = '''IN THIS ISSUE:<br /> <module 1>| <module 2> | <module 3> |<module 4>'''
+    date = '''date '''
+	copy = '''IN THIS ISSUE:<br /> module 1| module 2 | module 3 |module 4'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -52,7 +52,7 @@ color='darkblue'
 	cta1_url = '''<link>'''
 	cta1_link_name = '''retail'''
 	cta1_icon = '''more'''
-	image = '''AU_edm6_awards2_20170301'''
+	image = '''AU_edm6_accessories2_20170614'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
@@ -64,12 +64,12 @@ color='green'
 	cta1_url = '''<link>'''
 	cta1_link_name = '''LPTG'''
 	cta1_icon = '''more'''
-	image = '''<image>'''
+	image = '''AU_edm6_accessories2_20170614'''
 
 
 	[[module]] #Split 02
 path='email_modules/split/02'
-color='blue'
+color='lightblue'
 
 	 title = '''Support Breast Cancer Research'''
 	copy = '''We partnered with the National Breast Cancer Foundation to support breast cancer research. We asked granddaughters to talk to their grandmothers about their experiences with breast cancer. Hear the inspiring words from these women.'''
@@ -77,7 +77,7 @@ color='blue'
 	cta1_url = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10156683020833747/?type=2&theater'''
 	cta1_link_name = '''SBCR'''
 	cta1_icon = '''more'''
-	image = '''<image>'''
+	image = '''AU_edm6_accessories2_20170614'''
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'

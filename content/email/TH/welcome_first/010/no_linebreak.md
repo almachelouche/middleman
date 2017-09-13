@@ -83,7 +83,7 @@ color='black'
 
 title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">Ford Owners App</span>'''
 text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">แอพพลิเคชั่นเพื่อเจ้าของรถฟอร์ด เพื่อการดูแลรถฟอร์ดที่ง่ายขึ้น</span>'''
-text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif; font-Size: 14px">
+text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif; font-size: 14px">
 <ul style="margin: 20px; padding: 0;">
 <li>ข้อมูลการบริการดูแล รักษารถยนต์ตามระยะ</li>
 <li>ค้นหาตัวแทนจำหน่ายใกล้เคียง</li>

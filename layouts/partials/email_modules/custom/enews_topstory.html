@@ -6,14 +6,14 @@
 				{{- if ne .moduleinfo.title nil -}}
 					{{- if (gt (len .moduleinfo.title) 0) -}}
 				<tr>
-					<td align="left" valign="top" style="color:{{.color.heading2}}; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular; padding-bottom:20px;">
+					<td align="left" valign="top" style="color:{{.color.heading2}}; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: normal; padding-bottom:20px;">
 						{{- .moduleinfo.title | safeHTML -}}
 					</td>
 				</tr>
 				<tr>
 					{{- end -}}
 				{{- end -}}
-					<td bgcolor="{{.color.backgroundcolor}}" align="left" valign="top" style="font-Size: 16px; color:{{.color.txtbody}}; font-family: 'Arial','Helvetica','Sans-Serif'; padding-bottom:20px; line-height: 21px; mso-line-height-rule:exactly; font-weight: normal; font-style: regular;">
+					<td bgcolor="{{.color.backgroundcolor}}" align="left" valign="top" style="font-size: 16px; color:{{.color.txtbody}}; font-family: 'Arial','Helvetica','Sans-Serif'; padding-bottom:20px; line-height: 21px; mso-line-height-rule:exactly; font-weight: normal; font-style: normal;">
 						{{- .moduleinfo.copy | safeHTML -}}
 					</td>
 				</tr>
@@ -23,7 +23,7 @@
 					<td align="left" valign="top">
 						<table border="0" cellspacing="0" cellpadding="0">
 							<tr>
-								<td align="center" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:{{.color.txtlink}}; font-family: 'Arial','Helvetica','Sans-Serif';">
+								<td align="center" valign="top" style="font-size: 16px; line-height: 21px; font-weight: normal; font-style: normal; color:{{.color.txtlink}}; font-family: 'Arial','Helvetica','Sans-Serif';">
 									<a href="{{ .moduleinfo.cta1_url | safeURL }}" name="{{- .moduleinfo.cta1_link_name -}}"	target="_blank" title="" style="color:{{.color.txtlink}}; text-decoration:none;">{{- .moduleinfo.cta1_text | safeHTML -}}</a>
 								</td>
 								<td align="center" valign="top" style="padding-left:10px;">
@@ -43,7 +43,7 @@
 					<td style="padding-top:20px;" align="left" valign="top">
 						<table border="0" cellspacing="0" cellpadding="0">
 							<tr>
-								<td align="center" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:{{.color.txtlink}}; font-family: 'Arial','Helvetica','Sans-Serif';">
+								<td align="center" valign="top" style="font-size: 16px; line-height: 21px; font-weight: normal; font-style: normal; color:{{.color.txtlink}}; font-family: 'Arial','Helvetica','Sans-Serif';">
 									<a href="{{ .moduleinfo.cta2_url | safeURL }}" name="{{- .moduleinfo.cta2_link_name -}}"	target="_blank" title="" style="color:{{.color.txtlink}}; text-decoration:none;">{{- .moduleinfo.cta2_text | safeHTML -}}</a>
 								</td>
 								<td align="center" valign="top" style="padding-left:10px;">

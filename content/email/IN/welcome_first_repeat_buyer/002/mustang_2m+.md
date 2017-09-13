@@ -98,7 +98,7 @@ color = '''white'''
 path='email_modules/singles/copy'
 color='''white'''
 
-copy='''<br /><br /><span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family: 'Arial','Helvetica','Sans-Serif'; padding-bottom:20px;">The Pocket Mustang Experience</span><br /><br />Turn your mobile phone into a scale-model of the Ford Mustang and maneuver it on any surface. Watch your pocket car skills get recreated with a real Ford Mustang on a real track. Share the video and challenge your friends. Get this digital experience at <a href="http://pocketmustang.india.ford.com/en/" name="pocket_mustang" style="text-decoration:underline; color:#2D96CD;" >http://pocketmustang.india.ford.com/en/</a> '''
+copy='''<br /><br /><span style="text-align:center; font-size:24px; line-height: 30px; font-weight: normal; font-style: normal; color:#1B394E; font-family: 'Arial','Helvetica','Sans-Serif'; padding-bottom:20px;">The Pocket Mustang Experience</span><br /><br />Turn your mobile phone into a scale-model of the Ford Mustang and maneuver it on any surface. Watch your pocket car skills get recreated with a real Ford Mustang on a real track. Share the video and challenge your friends. Get this digital experience at <a href="http://pocketmustang.india.ford.com/en/" name="pocket_mustang" style="text-decoration:underline; color:#2D96CD;" >http://pocketmustang.india.ford.com/en/</a> '''
 
 [[module]] #Cover 05
 path='email_modules/cover/02'

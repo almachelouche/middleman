@@ -28,7 +28,7 @@ path='email_modules/custom/enews_topstory'
 color='white_pb'
 
 	title = ''''''
-	copy = '''Welcome to the Insider from Ford. In this newsletter, see the latest promotions and tips tailored just for you. It will inspire you to Go Further.<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Here's how Ford tests its cars</span><br /><br />At Ford, we get preoccupied with even the smallest detail. We are willing to go through any test to give you the best. So if you haven't experienced Ford Quality testing before, you are in for an amazing ride. '''
+	copy = '''Welcome to the Insider from Ford. In this newsletter, see the latest promotions and tips tailored just for you. It will inspire you to Go Further.<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: normal;">Here's how Ford tests its cars</span><br /><br />At Ford, we get preoccupied with even the smallest detail. We are willing to go through any test to give you the best. So if you haven't experienced Ford Quality testing before, you are in for an amazing ride. '''
 	cta1_text = ''''''
 	cta1_url = ''''''
 	cta1_link_name = ''''''

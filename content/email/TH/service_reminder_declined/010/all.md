@@ -76,7 +76,7 @@ color='darkblue'
 path='email_modules/singles/copy'
 color='''white'''
 
-		copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif"><span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">Great deals on parts</span><br /><br />Keep your Ford vehicle in top condition with the latest offers on replacement parts. You’ll also automatically enter our lucky draw if you buy or are gifted a bottle of fuel treatment. Get in quick, these offers end August 31, 2017.</span>'''
+		copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif"><span style="text-align:center; font-size:24px; line-height: 30px; font-weight: normal; font-style: normal; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">Great deals on parts</span><br /><br />Keep your Ford vehicle in top condition with the latest offers on replacement parts. You’ll also automatically enter our lucky draw if you buy or are gifted a bottle of fuel treatment. Get in quick, these offers end August 31, 2017.</span>'''
 
 [[module]] #Custom 3 Icon Text
 path='email_modules/custom/3icon_text'

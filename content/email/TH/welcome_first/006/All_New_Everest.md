@@ -78,7 +78,7 @@ title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">Ford Owners App
 text1 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style=" white-space:nowrap;">แอพพลิเคชั่นเพื่อเจ้าของรถฟอร์ด</span><br> 
 <span style=" white-space:nowrap;">เพื่อการดูแลรถฟอร์ดที่ง่ายขึ้น</span></span>'''
-text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif; font-Size: 14px">
+text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif; font-size: 14px">
 <ul style="margin: 20px; padding: 0;">
 <li><span style=" white-space:nowrap;">ข้อมูลการบริการดูแล<br>รักษารถยนต์ตามระยะ</span></li>
 <li><span style=" white-space:nowrap;">ค้นหาตัวแทนจำหน่ายใกล้เคียง</span></li>

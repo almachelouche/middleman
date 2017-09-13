@@ -3,11 +3,6 @@ markets = ["th"]
 title = '''EN Pre Delivery 001 Production'''
 
 [[module]]
-path='email_modules/preheader'
-
-	preheader = '''โปรโมชั่นตรวจเช็คระยะสุดพิเศษ ที่มาพร้อมการบริการทันสมัยและมีประสิทธิภาพที่ศูนย์บริการมาตรฐานฟอร์ด'''
-
-[[module]]
 path='email_modules/header/logo'
 color='white'
 
@@ -32,7 +27,7 @@ color='white'
 font='th'
 
 	copy='''
-		Dear [NAME],
+		Dear [Name],
 		<br/>
 		<br/>
 		Your Ford [Model] is under production, which means you're a step closer to getting behind the wheel and hitting the open road. 
@@ -71,10 +66,10 @@ font='th'
 	image='''FGE_KMI_EN_Contact_20170905'''
 
 [[module]]
-path='email_modules/footer/th/social'
+path='email_modules/footer/th/en_social'
 color='white'
 
 [[module]]
-path='email_modules/footer/th/online'
+path='email_modules/footer/th/en_online'
 color='white'
 +++

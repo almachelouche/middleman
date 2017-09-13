@@ -3,7 +3,7 @@
 	{{- if ne .moduleinfo.title nil -}}
 		{{- if (gt (len .moduleinfo.title) 0) -}}
 		<tr>
-			<td align="center" vertical-align="top" style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:{{.color.heading2}}; font-family: 'Arial','Helvetica','Sans-Serif'; ">{{- .moduleinfo.title | safeHTML -}}</td>
+			<td align="center" vertical-align="top" style="text-align:center; font-size:24px; line-height: 30px; font-weight: normal; font-style: normal; color:{{.color.heading2}}; font-family: 'Arial','Helvetica','Sans-Serif'; ">{{- .moduleinfo.title | safeHTML -}}</td>
 		</tr>
 		{{- end -}}
 	{{- end -}}

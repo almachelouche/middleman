@@ -14,8 +14,8 @@ path='email_modules/header/enews'
 color='black'
 
 	title = '''Insider'''
-	date = '''<date> '''
-	copy = '''IN THIS ISSUE:<br /> <module 1>| <module 2> | <module 3> |<module 4>'''
+	date = '''date '''
+	copy = '''IN THIS ISSUE:<br /> module 1| module 2 | module 3 |module 4'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -27,7 +27,6 @@ color='black'
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
 color='black'
-segmentif = ["(user.CustomAttribute['Model'] == <models name> </models>"]
 
 	title = '''Ranger Raptor is Coming!'''
 	copy = '''In 2018, Raptor Ranger is coming to Australia, bringing along with it the newest way to be tough. This ultimate off-road performance truck is already causing quite the buzz. Click below to get exclusive updates on the launch of this ultimate off-road 4x4.
@@ -42,9 +41,8 @@ segmentif = ["(user.CustomAttribute['Model'] == <models name> </models>"]
 path='email_modules/image/banner'
 color='white'
 
-segmentif = ["(user.CustomAttribute['Model'] == "]
 
-	image = '''<image>'''
+	image = '''AU_edm6_accessories2_20170614'''
 	url_link = '''<link>'''
     
     [[module]] #Split 02
@@ -57,7 +55,7 @@ color='green'
 	cta1_url ='''<link>'''
 	cta1_link_name = '''LPTG''' 
 	cta1_icon = '''more'''
-	image = '''<image>'''
+	image = '''AU_edm6_accessories2_20170614'''
 
 
 	[[module]] #Split 01
@@ -70,7 +68,7 @@ color='darkblue'
 	cta1_url =  '''https://youtu.be/yM6vCGm-AAQ'''
 	cta1_link_name = '''Engine and oil'''
 	cta1_icon = '''play'''
-	image = '''<image>'''
+	image = '''AU_edm6_accessories2_20170614'''
 
 [[module]]
 path='email_modules/spacer/platinum_20'
