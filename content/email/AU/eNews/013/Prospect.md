@@ -52,7 +52,7 @@ color='darkblue'
 	cta1_url = '''<link>'''
 	cta1_link_name = '''retail'''
 	cta1_icon = '''more'''
-	image = '''AU_edm6_awards2_20170301'''
+	image = '''AU_edm6_accessories2_20170614'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
@@ -64,7 +64,7 @@ color='green'
 	cta1_url = '''<link>'''
 	cta1_link_name = '''LPTG'''
 	cta1_icon = '''more'''
-	image = '''AU_edm6_everest_20170607'''
+	image = '''AU_edm6_accessories2_20170614'''
 
 
 	[[module]] #Split 02
@@ -77,7 +77,7 @@ color='lightblue'
 	cta1_url = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10156683020833747/?type=2&theater'''
 	cta1_link_name = '''SBCR'''
 	cta1_icon = '''more'''
-	image = '''AU_edm6_everest_20170607'''
+	image = '''AU_edm6_accessories2_20170614'''
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'

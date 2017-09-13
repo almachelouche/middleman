@@ -42,7 +42,7 @@ path='email_modules/image/banner'
 color='white'
 
 
-	image = '''<image>'''
+	image = '''AU_edm6_accessories2_20170614'''
 	url_link = '''<link>'''
     
     [[module]] #Split 02
@@ -68,7 +68,7 @@ color='darkblue'
 	cta1_url =  '''https://youtu.be/yM6vCGm-AAQ'''
 	cta1_link_name = '''Engine and oil'''
 	cta1_icon = '''play'''
-	image = '''<image>'''
+	image = '''AU_edm6_accessories2_20170614'''
 
 [[module]]
 path='email_modules/spacer/platinum_20'

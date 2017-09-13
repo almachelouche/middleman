@@ -51,7 +51,7 @@ color='green'
 	cta1_url = '''<link>'''
 	cta1_link_name = '''LPTG'''
 	cta1_icon = '''more'''
-	image = '''<image>'''
+	image = '''AU_edm6_accessories2_20170614'''
 
 	[[module]] #Split 01
 path='email_modules/split/01'
@@ -63,7 +63,7 @@ color='darkblue'
 	cta1_url = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10156519835473747/?type=2&theater'''
 	cta1_link_name = '''RS'''
 	cta1_icon = '''play'''
-	image = '''<image>'''
+	image = '''AU_edm6_accessories2_20170614'''
 
 
 [[module]] #Split 02
@@ -76,7 +76,7 @@ color='lightblue'
 	cta1_url = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10156683020833747/?type=2&theater'''
 	cta1_link_name = '''SBCR'''
 	cta1_icon = '''more'''
-	image = '''<image>'''
+	image = '''AU_edm6_accessories2_20170614'''
 
 
 
