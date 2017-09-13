@@ -24,7 +24,7 @@ color = 'white'
 path = 'email_modules/image/banner_nolink'
 color = 'white'
 
-	image = '''FGE_KMI_EN_Journey_Pick_Up_20170905'''
+	image = '''FGE_KMI_TH_Journey_Pick_Up_20170908'''
 
 [[module]]
 path='email_modules/cover/master'
@@ -32,34 +32,22 @@ color='white'
 font='th'
 
 	copy='''
-		เรียน [Name]
+		Dear [Name],
 		<br/>
 		<br/>
-		ในที่สุดวันนี้ก็มาถึง คุณสามารถมาที่ตัวแทนจำหน่ายเพื่อรับมอบรถยนต์ Ford [Model] คันใหม่ของคุณ
-		<br/>
-		เพียงแค่แวะมาแล้วขึ้นขับรถยนต์คันใหม่ของคุณ
+		The day has finally come. You can come to the dealership to pick up your new Ford [Model]. Just swing by and hop into your new ride.
 		<br/>
 		<br/>
-		หากคุณต้องการปรับแต่ง [Model] คันใหม่ของคุณให้เหมาะสมกับวิธีการทำงานและการใช้ชีวิตส่วนตัวของคุณ
-		<br/>
-		สิ่งที่คุณต้องทำ คือ ติดต่อตัวแทนจำหน่ายฟอร์ดของคุณที่ [Company_Name]
-		<br/>
-		เพื่อให้เจ้าหน้าที่สอนวิธีการกำหนดรูปแบบเฉพาะเพื่อให้รถคันใหม่เหมาะกับคุณ
+		If you want to customize your new [Model] to fit the way you work and play, all you have to do is contact your Ford Dealer [Company_Name] and they can teach you how to personalize your new car. 
 		<br/>
 		<br/>
-		กรุณาเข้าไปที่<a href="[DFYURL]" style="color: #006fff; text-decoration: underline;">เว็บไซต์ก่อนการส่งมอบ</a>เพื่อเลือกเวลาที่คุณสะดวกรับมอบรถยนต์ [Model] ของคุณ
-		<br/>
-		และคุณยังสามารถกำหนดรูปแบบเฉพาะสำหรับรถยนต์ของคุณรวมถึงเรียนรู้เกี่ยวกับคุณสมบัติอันยอดเยี่ยมในรถยนต์ของคุณ
-		<br/>
-		กรุณาติดต่อพนักงานส่งมอบรถชื่อ [Delivery_SalesPerson] ที่หมายเลข [Delivery_SalesPerson_Phone_No]
-		<br/>
-		เพื่อตกลงเวลาที่คุณสะดวกในการมารับมอบรถยนต์ [Model] ของคุณ
+		Visit the <a href="[DFYURL]" style="color: #006fff; text-decoration: underline;">Pre-Delivery Website</a> to select a convenient time for you to come and collect your [Model], and you can also personalize your vehicle settings and learn about your car's cool features. Please contact your Delivery Consultant [Delivery_SalesPerson] at <a href="tel:[Delivery_SalesPerson_Phone_No]" style="text-decoration: none;">[Delivery_SalesPerson_Phone_No]</a> and arrange a convenient time for you to come and collect your [Model]. 
 		<br/>
 		<br/>
-		เราหวังว่าคุณจะสนุกกับการขับขี่
+		We hope you enjoy your drive!
 		<br/>
-		ขอแสดงความนับถือ
 		<br/>
+		Sincerely,
 		<br/>
 		[GMEmployeeName]
 		<br/>
