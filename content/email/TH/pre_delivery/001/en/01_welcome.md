@@ -14,7 +14,11 @@ path='email_modules/split/master/right'
 color='white'
 font='th'
 
-	copy='''Estimated Delivery Time<br/>[Tentative_Date]'''
+	copy='''
+		<span style="color: #425968; font-weight:800;">Estimated Delivery Time</span>
+		<br/>
+		<span style="color: #Ff6600; font-weight:800; font-size: 16px;">[Tentative_Date]</span>
+	'''
 	copy_align='right'
 	vertical_align='top'
 
