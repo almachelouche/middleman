@@ -27,7 +27,6 @@ color='black'
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
 color='black'
-segmentif = ["(user.CustomAttribute['Model'] == <models name> </models>"]
 
 	title = '''Ranger Raptor is Coming!'''
 	copy = '''In 2018, Raptor Ranger is coming to Australia, bringing along with it the newest way to be tough. This ultimate off-road performance truck is already causing quite the buzz. Click below to get exclusive updates on the launch of this ultimate off-road 4x4.
@@ -42,7 +41,6 @@ segmentif = ["(user.CustomAttribute['Model'] == <models name> </models>"]
 path='email_modules/image/banner'
 color='white'
 
-segmentif = ["(user.CustomAttribute['Model'] == "]
 
 	image = '''<image>'''
 	url_link = '''<link>'''

@@ -57,7 +57,6 @@ color='white'
 [[module]] #Split 02 
 path='email_modules/split/02'
 color='green'
-segmentelse = ["(user.CustomAttribute['Model'] =="]
 
     title = '''Did you know Ford sells tyres?'''
 	copy = '''At Ford, we're committed to offering you tyres at competitive prices. That's why we're very excited to announce our Low Price Tyre Guarantee. We'll match a competitor's price on selected tyres we stock.'''
