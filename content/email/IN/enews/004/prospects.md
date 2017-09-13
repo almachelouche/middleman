@@ -28,7 +28,7 @@ path='email_modules/custom/enews_topstory'
 color='white_pb'
 
 title = ''''''
-	copy = '''In this 4th edition of the Insider, we'll take you through some of the latest happenings and service tricks from Ford. <br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Surprisingly Affordable</span><br /><br />You might think the cost of owning a vehicle is pricey, but the cost of owning a Ford is not expensive at all! Listen to Javeid Khan, an EcoSport owner and auto blogger at <span style="font-style: italic;">Motorbeam</span>, talk about how surprisingly affordable owning Ford actually is as he explores the means and methods Ford keeps its parts so cost effective.'''
+	copy = '''In this 4th edition of the Insider, we'll take you through some of the latest happenings and service tricks from Ford. <br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: normal;">Surprisingly Affordable</span><br /><br />You might think the cost of owning a vehicle is pricey, but the cost of owning a Ford is not expensive at all! Listen to Javeid Khan, an EcoSport owner and auto blogger at <span style="font-style: italic;">Motorbeam</span>, talk about how surprisingly affordable owning Ford actually is as he explores the means and methods Ford keeps its parts so cost effective.'''
 	cta1_text = '''BE SURPRISED'''
 	cta1_url = '''https://www.facebook.com/FordIndia/videos/1453797871338824/'''
 	cta1_link_name = '''surprisingly_affordable_video'''

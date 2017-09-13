@@ -27,7 +27,7 @@ color='black'
 path='email_modules/custom/enews_topstory'
 color='white_pb'
 
-	copy = '''Welcome to the 4th edition of the Insider! Here, you can learn about the latest happenings and events at Ford. Plus, learn more about Motorcraft parts and how they are the best option when it comes to alternative parts for your Ford. <br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Motorcraft for You</span><br /><br />Keep your Ford EcoSport happy and healthy by choosing Motorcraft parts. Superior in quality and performance to other parts, and at a competitive price, Motorcraft is a highly reliable option for alternative parts for your Ford. Reach out to a Ford dealership to learn more about Motorcraft parts. '''
+	copy = '''Welcome to the 4th edition of the Insider! Here, you can learn about the latest happenings and events at Ford. Plus, learn more about Motorcraft parts and how they are the best option when it comes to alternative parts for your Ford. <br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: normal;">Motorcraft for You</span><br /><br />Keep your Ford EcoSport happy and healthy by choosing Motorcraft parts. Superior in quality and performance to other parts, and at a competitive price, Motorcraft is a highly reliable option for alternative parts for your Ford. Reach out to a Ford dealership to learn more about Motorcraft parts. '''
 	cta1_text = '''LEARN MORE'''
 	cta1_url = '''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
 	cta1_link_name = '''motorcraft'''

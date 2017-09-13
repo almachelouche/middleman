@@ -74,7 +74,7 @@ color = '''white'''
 path='email_modules/singles/copy'
 color='''white'''
 
-		copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif"><span style="text-align:center; font-Size:24px; line-height: 30px; font-weight: normal; font-style: regular; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">สุดคุ้มกับอะไหล่แท้<br />จากฟอร์ด</span><br /><br /><span style=" white-space:nowrap;">เพื่อให้สมรรถนะ</span><span style=" white-space:nowrap;">รถฟอร์ดของคุณ</span>
+		copy='''<br /><br /><span style="font-family:Tahoma, Verdana, Sans-serif"><span style="text-align:center; font-size:24px; line-height: 30px; font-weight: normal; font-style: normal; color:#1B394E; font-family:Tahoma, Verdana, Sans-serif; padding-bottom:20px;">สุดคุ้มกับอะไหล่แท้<br />จากฟอร์ด</span><br /><br /><span style=" white-space:nowrap;">เพื่อให้สมรรถนะ</span><span style=" white-space:nowrap;">รถฟอร์ดของคุณ</span>
 							<span style=" white-space:nowrap;">ทำงานได้</span><span style=" white-space:nowrap;">อย่างเต็มประสิทธิภาพ</span>
 							<span style=" white-space:nowrap;">ฟอร์ดมีข้อเสนอ</span><span style=" white-space:nowrap;">สุดคุ้ม</span><span style=" white-space:nowrap;">กับอะไหล่แท้จากฟอร์ด</span>
 							<span style=" white-space:nowrap;">ทั้งยางรถยนต์</span>

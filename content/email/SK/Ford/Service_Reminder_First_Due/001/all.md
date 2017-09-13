@@ -22,7 +22,7 @@ path='email_modules/cover/02'
 color='''white'''
 icon=''''''
  
- title = '''<span style="font-Size:27px;line-height:36px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
+ title = '''<span style="font-size:27px;line-height:36px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
  <span style="white-space:nowrap;">포드와 함께하는 드라이빙,</span><br />
  <span style="white-space:nowrap;">안전을 더할 때 보다 즐거워집니다.</span>
  </span>'''

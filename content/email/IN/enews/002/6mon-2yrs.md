@@ -28,7 +28,7 @@ path='email_modules/custom/enews_topstory'
 color='white_pb'
 
 title = ''''''
-	copy = '''Welcome to the Insider from Ford. In this newsletter, see the latest promotions and tips tailored just for you. It will inspire you to Go Further.<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">To Thailand in an EcoSport</span><br /><br />Ten episodes, four friends and one amazing EcoSport on a journey of a lifetime.	Gear up to witness Lisa Haydon and the girls take on an epic road trip from India to Thailand in <span style="font-weight:bold">The Trip</span>. Will they make it? Tune in and watch the drama unfold.'''
+	copy = '''Welcome to the Insider from Ford. In this newsletter, see the latest promotions and tips tailored just for you. It will inspire you to Go Further.<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: normal;">To Thailand in an EcoSport</span><br /><br />Ten episodes, four friends and one amazing EcoSport on a journey of a lifetime.	Gear up to witness Lisa Haydon and the girls take on an epic road trip from India to Thailand in <span style="font-weight:bold">The Trip</span>. Will they make it? Tune in and watch the drama unfold.'''
 	cta1_text = '''WATCH NOW'''
 	cta1_url = '''http://bit.ly/2kartSg'''
 	cta1_link_name = '''the_trip'''

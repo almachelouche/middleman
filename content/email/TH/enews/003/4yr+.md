@@ -142,7 +142,7 @@ color='black_th'
 
 title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;"><span style="font-family:Tahoma, Verdana, Sans-serif; font-size: 22px;">Adaptive Cruise Control</span><br />
 	<span style="font-family:Tahoma, Verdana, Sans-serif; font-size: 22px;">ช่วยคุณได้แค่ไหน?</span></span>'''
-	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif;font-Size: 15px">
+	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif;font-size: 15px">
 										<span style="white-space:nowrap;">ระบบ Adaptive Cruise Control</span>
 										<span style="white-space:nowrap;"> ของ ฟอร์ด เอเวอเรสต์</span>
 										<span style="white-space:nowrap;">และฟอร์ด เรนเจอร์</span> 

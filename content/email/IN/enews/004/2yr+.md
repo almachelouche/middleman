@@ -27,7 +27,7 @@ color='black'
 path='email_modules/custom/enews_topstory'
 color='white_pb'
 
-	copy = '''You're reading the 4th edition of the Insider where we share some of the latest happenings and events at Ford. Plus, you can check out some smart servicing tips that can help keep you safe on the road and keep your wallet happy. We hope this continues to inspire you to Go Further!<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Road Trip Tunes</span><br /><br />We know there's nothing better than pairing a nice long drive with your favorite tunes blasting from the stereo. So, Ford collaborated with Hungama music app to put together a collection of playlists you can listen to on your next road trip. Check out the playlists below.'''
+	copy = '''You're reading the 4th edition of the Insider where we share some of the latest happenings and events at Ford. Plus, you can check out some smart servicing tips that can help keep you safe on the road and keep your wallet happy. We hope this continues to inspire you to Go Further!<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: normal;">Road Trip Tunes</span><br /><br />We know there's nothing better than pairing a nice long drive with your favorite tunes blasting from the stereo. So, Ford collaborated with Hungama music app to put together a collection of playlists you can listen to on your next road trip. Check out the playlists below.'''
 
 [[module]] # Custom Car 2 Column
 path='email_modules/custom/2column_car'

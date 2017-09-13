@@ -27,7 +27,7 @@ color='black'
 path='email_modules/custom/enews_topstory'
 color='white_pb'
 
-	copy = '''Welcome to the 4th edition of the Insider! Here, you can learn about the latest happenings and events at Ford. Plus, learn how to get the most out of your EcoSport's infotainment system. <br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: regular;">Infotainment 101</span><br /><br />Become a pro at using your EcoSport's Infotainment system in no time! Click on the link below to watch short videos on how to get the most out of it. From setting up the sound to pairing your phone via Bluetooth to how to use Navigation – it's all there.'''
+	copy = '''Welcome to the 4th edition of the Insider! Here, you can learn about the latest happenings and events at Ford. Plus, learn how to get the most out of your EcoSport's infotainment system. <br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: normal;">Infotainment 101</span><br /><br />Become a pro at using your EcoSport's Infotainment system in no time! Click on the link below to watch short videos on how to get the most out of it. From setting up the sound to pairing your phone via Bluetooth to how to use Navigation – it's all there.'''
 	cta1_text = '''WATCH NOW'''
 	cta1_url = '''https://www.youtube.com/watch?v=rTMTBZ8W_4Y&index=1&list=PLyO4HcxK6VwoQpGqoLWYtg_bXbMo7LvnE'''
 	cta1_link_name = '''infotainment'''

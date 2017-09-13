@@ -20,7 +20,7 @@ color='white'
 path='email_modules/cover/01'
 color='''write'''
 
-	title='''<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
+	title='''<span style="font-size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
  <span style="white-space:nowrap;">언제나 처음의 감동이 계속되도록</span>
  </span>'''
 	copy='''<span style="font-size:15px;line-height:14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;"><br /><br />
