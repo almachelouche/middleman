@@ -8,6 +8,19 @@ color='''white'''
 
 		preheader = '''<span style="font-family:Tahoma, Verdana, Sans-serif">และมาค้นพบกันว่าทำไมฟอร์ด เอเวอร์เรส จึงได้รับรางวัลด้านความปลอดภัยระดับ 5 ดาว </span>'''
 
+[[module]] #Header eNews
+path='email_modules/header/enews'
+color='black'
+
+	title = '''Insider'''
+	date = '''<span style="font-family:Tahoma, Verdana, Sans-serif">26 กันยายน 2560</span>'''
+	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
+	IN THIS ISSUE<br />
+	<span style="white-space:nowrap;">Buying Latest Offer</span> |<br /> 
+	<span style="white-space:nowrap;">WATCH: 100 Years of Trucks</span> |<br /> 
+	<span style="white-space:nowrap;">Vehicle Health Video</span> |<br />
+    '''
+
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
 color='black'

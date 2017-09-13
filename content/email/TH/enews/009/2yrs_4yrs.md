@@ -13,15 +13,12 @@ path='email_modules/header/enews'
 color='black'
 
 	title = '''Insider'''
-	date = '''<span style="font-family:Tahoma, Verdana, Sans-serif">26 มิถุนายน 2560</span>'''
-	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-	พบกับ<br />
-	<span style="white-space:nowrap;">ฟอร์ด เรนเจอร์สุดแกร่ง</span> |<br />
-	<span style="white-space:nowrap;">ฟอร์ด เอเวอร์เรส</span> 
-	<span style="white-space:nowrap;">ปลอดภัยระดับ 5 ดาว</span>	| 
-	<span style="white-space:nowrap;">พบกับ:</span>  
-	<span style="white-space:nowrap;">ใส่ใจดูแลเบรกของคุณ</span> |
-    <span style="white-space:nowrap;">เทคนิคขับขี่ยามฝนตก</span></span>'''
+	date = '''<span style="font-family:Tahoma, Verdana, Sans-serif">26 กันยายน 2560</span>'''
+	copy = '''
+	<span style="font-family:Tahoma, Verdana, Sans-serif">IN THIS ISSUE<br />
+	<span style="white-space:nowrap;">100 Years of Trucks</span> |<br />    
+	<span style="white-space:nowrap;">Vehicle Health Video</span> |
+    '''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
