@@ -10,6 +10,19 @@ color='white'
 	url_link = '''https://www.ford.co.th/'''
 
 [[module]]
+path='email_modules/split/master/right'
+color='white'
+font='th'
+
+	copy='''Estimated Delivery Time<br/>[Tentative_Date]'''
+	copy_align='right'
+	vertical_align='top'
+
+	image='''tms_20160328'''
+	image_link_url='''https://www.ford.co.th/'''
+	image_link_name='''Ford Logo'''
+
+[[module]]
 path = 'email_modules/image/banner_nolink'
 color = 'white'
 
