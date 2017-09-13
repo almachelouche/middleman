@@ -71,10 +71,10 @@ font='th'
 	image='''FGE_KMI_EN_Contact_20170905'''
 
 [[module]]
-path='email_modules/footer/th/social'
+path='email_modules/footer/th/en_social'
 color='white'
 
 [[module]]
-path='email_modules/footer/th/online'
+path='email_modules/footer/th/en_online'
 color='white'
 +++

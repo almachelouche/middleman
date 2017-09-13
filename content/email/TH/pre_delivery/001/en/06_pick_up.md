@@ -73,10 +73,10 @@ font='th'
 	image='''FGE_KMI_TH_Contact_20170906'''
 
 [[module]]
-path='email_modules/footer/th/social'
+path='email_modules/footer/th/en_social'
 color='white'
 
 [[module]]
-path='email_modules/footer/th/online'
+path='email_modules/footer/th/en_online'
 color='white'
 +++
