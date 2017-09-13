@@ -18,7 +18,7 @@ font='th'
 	copy_align='right'
 	vertical_align='top'
 
-	image='''tms_20160328'''
+	image='''white_logo'''
 	image_link_url='''https://www.ford.co.th/'''
 	image_link_name='''Ford Logo'''
 
