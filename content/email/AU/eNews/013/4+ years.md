@@ -70,7 +70,7 @@ color='green'
 
 	[[module]] #Split 02
 path='email_modules/split/02'
-color='lightblue'
+color='blue'
 
 	 title = '''Support Breast Cancer Research'''
 	copy = '''We partnered with the National Breast Cancer Foundation to support breast cancer research. We asked granddaughters to talk to their grandmothers about their experiences with breast cancer. Hear the inspiring words from these women.'''
@@ -80,17 +80,18 @@ color='lightblue'
 	cta1_icon = '''more'''
 	image = '''<image>'''
     
-	[[module]] #Footer Disclaimer
-path='email_modules/footer/disclaimer'
-color='white'
-
-	text='''Disclaimers:<br /><br />
-	1. The Low Price Tyre Guarantee offer is available on selected tyres of listed brands that are stocked by participating Ford dealers. Competitor tyres must be new, identical and available from an Australian tyre retailer. Offer includes "4 for 3" or similar competitor offers, but excludes competitor cashback offers, gift cards, "wheel and tyre" bundles, tyres purchased under an instalment payment plan, clearance and liquidation stock and any competitor quotes that cannot be verified. Offer is available until 31st August 2017 at participating Ford dealers to private retail and Blue Business Fleet customers. Includes valid competitor’s quote within 30 days after purchase. Various adjustments, including fitment and freight, apply to ensure a like-for-like price comparison. See your participating Ford dealer for full terms and conditions.'''
     
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
 color='white'
+
+[[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
+color='white'
+
+	text='''Disclaimers:<br /><br />
+	1. The Low Price Tyre Guarantee offer is available on selected tyres of listed brands that are stocked by participating Ford dealers. Competitor tyres must be new, identical and available from an Australian tyre retailer. Offer includes "4 for 3" or similar competitor offers, but excludes competitor cashback offers, gift cards, "wheel and tyre" bundles, tyres purchased under an instalment payment plan, clearance and liquidation stock and any competitor quotes that cannot be verified. Offer is available until 31st August 2017 at participating Ford dealers to private retail and Blue Business Fleet customers. Includes valid competitor’s quote within 30 days after purchase. Various adjustments, including fitment and freight, apply to ensure a like-for-like price comparison. See your participating Ford dealer for full terms and conditions.'''
 
 
 [[module]] #Footer AU Online
