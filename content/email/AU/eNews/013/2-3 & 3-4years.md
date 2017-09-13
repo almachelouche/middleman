@@ -13,8 +13,8 @@ path='email_modules/header/enews'
 color='black'
 
 	title = '''Insider'''
-	date = '''<date>'''
-	copy = '''IN THIS ISSUE:<br /><module 1>| <module 2> | <module 3> | <module 4> '''
+	date = '''date'''
+	copy = '''IN THIS ISSUE:<br /> module 1| module 2 | module 3 |module 4 '''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'

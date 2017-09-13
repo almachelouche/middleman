@@ -14,8 +14,8 @@ path='email_modules/header/enews'
 color='black'
 
 	title = '''Insider'''
-	date = '''<date> '''
-	copy = '''IN THIS ISSUE:<br /> <module 1>| <module 2> | <module 3> |<module 4>'''
+	date = '''date '''
+	copy = '''IN THIS ISSUE:<br /> module 1| module 2 | module 3 |module 4'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -55,7 +55,7 @@ color='green'
 	cta1_url ='''<link>'''
 	cta1_link_name = '''LPTG''' 
 	cta1_icon = '''more'''
-	image = '''<image>'''
+	image = '''AU_edm6_accessories2_20170614'''
 
 
 	[[module]] #Split 01

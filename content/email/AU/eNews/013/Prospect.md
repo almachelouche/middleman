@@ -13,8 +13,8 @@ path='email_modules/header/enews'
 color='black'
 
 	title = '''Insider'''
-    date = '''<date> '''
-	copy = '''IN THIS ISSUE:<br /> <module 1>| <module 2> | <module 3> |<module 4>'''
+    date = '''date '''
+	copy = '''IN THIS ISSUE:<br /> module 1| module 2 | module 3 |module 4'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -64,7 +64,7 @@ color='green'
 	cta1_url = '''<link>'''
 	cta1_link_name = '''LPTG'''
 	cta1_icon = '''more'''
-	image = '''<image>'''
+	image = '''AU_edm6_everest_20170607'''
 
 
 	[[module]] #Split 02
@@ -77,7 +77,7 @@ color='lightblue'
 	cta1_url = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10156683020833747/?type=2&theater'''
 	cta1_link_name = '''SBCR'''
 	cta1_icon = '''more'''
-	image = '''<image>'''
+	image = '''AU_edm6_everest_20170607'''
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
