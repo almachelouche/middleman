@@ -14,7 +14,7 @@ color='white'
 
 
 	image = '''au_edm2_pom_new_banner_20170912'''
-	url_link = ''' https://www.ford.com.au/owners/service/peace-of-mind-inspection/'''
+	url_link = '''https://www.ford.com.au/owners/service/peace-of-mind-inspection/'''
 
 [[module]]
 path='email_modules/spacer/default'
