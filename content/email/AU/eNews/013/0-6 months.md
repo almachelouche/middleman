@@ -56,7 +56,7 @@ color='green'
 	cta1_text =  '''LEARN MORE'''
 	cta1_url ='''<link>'''
 	cta1_link_name = '''LPTG''' 
-	cta1_icon = '''play'''
+	cta1_icon = '''more'''
 	image = '''<image>'''
 
 

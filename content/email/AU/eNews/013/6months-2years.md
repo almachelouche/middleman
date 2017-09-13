@@ -64,7 +64,7 @@ segmentelse = ["(user.CustomAttribute['Model'] =="]
 	cta1_text = '''LEARN MORE'''
 	cta1_url = '''<link>'''
 	cta1_link_name = '''LPTG'''
-	cta1_icon = '''play'''
+	cta1_icon = '''more'''
 	image = '''<image>'''
 
 	[[module]] #Split 01
@@ -88,7 +88,7 @@ color='darkblue'
 	cta1_text = '''GET INSPIRED NOW'''
 	cta1_url = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10156683020833747/?type=2&theater'''
 	cta1_link_name = '''SBCR'''
-	cta1_icon = '''play'''
+	cta1_icon = '''more'''
 	image = '''<Image>'''
     
 [[module]] #Footer Disclaimer
