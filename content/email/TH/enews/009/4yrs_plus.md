@@ -8,56 +8,31 @@ color='''white'''
 
 		preheader = '''<span style="font-family:Tahoma, Verdana, Sans-serif">และมาค้นพบกันว่าทำไมฟอร์ด เอเวอร์เรส จึงได้รับรางวัลด้านความปลอดภัยระดับ 5 ดาว </span>'''
 
-[[module]] #Header eNews
-path='email_modules/header/enews'
-color='black'
-
-	title = '''Insider'''
-	date = '''<span style="font-family:Tahoma, Verdana, Sans-serif">26 มิถุนายน 2560</span>'''
-	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-	พบกับ<br />
-	<span style="white-space:nowrap;">ฟอร์ด เรนเจอร์สุดแกร่ง</span> |<br /> 
-	<span style="white-space:nowrap;">ฟอร์ด เอเวอร์เรส</span> 
-	<span style="white-space:nowrap;">ปลอดภัยระดับ 5 ดาว</span>	| 
-    <span style="white-space:nowrap;">พบกับ:</span> 
-	<span style="white-space:nowrap;">ใส่ใจดูแลเบรกของคุณ</span> | 
-    <span style="white-space:nowrap;">เทคนิคขับขี่ยามฝนตก</span> 
-	</span>'''
-
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
 color='black'
 
 	image = '''black'''
 	url_link = '''https://www.ford.co.th/'''
- 
+
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
 color='black'
 
-title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ฟอร์ด เรนเจอร์สุดแกร่ง</span>'''
-copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style="white-space:nowrap;">การทดสอบความแข็งแกร่ง</span>
-<span style="white-space:nowrap;">ของฟอร์ดเรนเจอร์</span> 
-<span style="white-space:nowrap;">เป็นการทดสอบพิเศษ</span>
-<span style="white-space:nowrap;">ที่ใช้แรงดึงมากถึง4.7G </span> 
-<span style="white-space:nowrap;">ความแรงขนาดนี้</span>
-<span style="white-space:nowrap;">สามารถทำให้รถฉีกขาดได้</span> 
-<span style="white-space:nowrap;">แต่! รถฟอร์ด เรนเจอร์ของเรา</span> 
-<span style="white-space:nowrap;">ก็ยังคงไม่เป็นไร</span></span>'''
-cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกดูวิดีโอ</span>'''
-	cta1_url = '''https://www.facebook.com/FordThailand/videos/1305732896147643/'''
-	cta1_link_name = '''Ford_Ranger_Tough'''
+title = '''<span style="font-family:Tahoma, Verdana, Sans-serif"></span>'''
+copy = '''
+<span style="font-family:Tahoma, Verdana, Sans-serif">
+<span style="white-space:nowrap;">สามารถติดตามข้อเสนอราคาพิเศษ</span>
+<br />
+<span style="white-space:nowrap;">สำหรับรถฟอร์ดเรนเจอร์ ฟอร์ดเอเวอเรสต์</span>
+<br />
+<span style="white-space:nowrap;">ฟอร์ดเอคโค่สปอร์ต ฟอร์ดโฟกัส และฟอร์ดเฟียสต้า</span>
+'''
+cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ข้อสนอพิเศษ</span>'''
+	cta1_url = '''https://www.ford.co.th/buying/latest-offers'''
+	cta1_link_name = '''buying_latest_offer'''
 	cta1_icon = '''play'''
-
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-
-	image = '''th_edm6_RangerTough_20170613'''
-	url_link = '''https://www.facebook.com/FordThailand/videos/1305732896147643/'''
-	cta_link_name = '''Ford Ranger Tough'''
-
+ 
 [[module]]
 path='email_modules/spacer/platinum_20'
 color='white'
@@ -129,24 +104,6 @@ cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">WATCH NOW</
 	cta1_link_name = '''Vehicle_Health_Tips'''
 	cta1_icon = '''play'''
 	image = '''th_edm6_vehicle_health_tips_20170911'''
-
-[[module]] # eNews Top Story
-path='email_modules/custom/enews_topstory'
-color='black'
-
-title = '''<span style="font-family:Tahoma, Verdana, Sans-serif"></span>'''
-copy = '''
-<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style="white-space:nowrap;">สามารถติดตามข้อเสนอราคาพิเศษ</span>
-<br />
-<span style="white-space:nowrap;">สำหรับรถฟอร์ดเรนเจอร์ ฟอร์ดเอเวอเรสต์</span>
-<br />
-<span style="white-space:nowrap;">ฟอร์ดเอคโค่สปอร์ต ฟอร์ดโฟกัส และฟอร์ดเฟียสต้า</span>
-'''
-cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ข้อสนอพิเศษ</span>'''
-	cta1_url = '''https://www.ford.co.th/buying/latest-offers'''
-	cta1_link_name = '''buying_latest_offer'''
-	cta1_icon = '''play'''
 
 [[module]]
 path='email_modules/spacer/platinum_20'
