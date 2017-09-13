@@ -1,4 +1,4 @@
-<table width="640" border="0" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="{{ .color.backgroundcolor }}" class="resize_table_to_320" style="max-width: 640px;">
+<table width="640" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="{{ .color.backgroundcolor }}" class="resize_table_to_320" style="max-width: 640px;">
 	<tr>
 		<td valign="top" align="center" style="padding:20px 30px 20px 30px;">
 			<table width="100%" cellpadding="0" cellspacing="0" border="0">
@@ -56,9 +56,7 @@
 													<tr>
 														<td valign="middle" align="center" style="text-align: center; vertical-align: middle; color: {{ .color.ctaicontext }}; {{ .font.ctaicontext | safeCSS }}">
 															<!-- ++ Add logic for underline -->
-															<a {{ printf "href=%q" .moduleinfo.cta_1_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_1_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">
-																{{- .moduleinfo.cta_1_copy | safeHTML -}}
-															</a>
+															<a {{ printf "href=%q" .moduleinfo.cta_1_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_1_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">{{- .moduleinfo.cta_1_copy | safeHTML -}}</a>
 														</td>
 														<!-- ++ Add logic for ICON -->
 															<!-- Horizontal Spacer -->
@@ -67,9 +65,7 @@
 															</td>
 															<!-- Icon CTA -->
 															<td valign="middle" align="center">
-																<a {{ printf "href=%q" .moduleinfo.cta_1_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_1_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">
-																	<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{- .moduleinfo.cta_1_icon -}}_{{ .color.ctaicon }}.gif" width="20" height="20"	border="0" style="display: block;"/>
-																</a>
+																<a {{ printf "href=%q" .moduleinfo.cta_1_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_1_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{- .moduleinfo.cta_1_icon -}}_{{ .color.ctaicon }}.gif" width="20" height="20"	border="0" style="display: block;"/></a>
 															</td>
 														<!-- // Add logic for ICON -->
 													</tr>
@@ -86,9 +82,7 @@
 													<tr>
 														<td height="40" valign="middle" align="center" bgcolor="{{ .color.ctablockbg }}" style="padding-left:20px; padding-right:20px; text-align: center; vertical-align: middle; {{ .font.ctablocktext | safeCSS }}">
 															<!-- ++ Add logic for underline -->
-															<a {{ printf "href=%q" .moduleinfo.cta_1_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_1_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{ .color.ctablocktext }}; text-decoration: none;">
-																{{- .moduleinfo.cta_1_copy | safeHTML -}}
-															</a>
+															<a {{ printf "href=%q" .moduleinfo.cta_1_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_1_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{ .color.ctablocktext }}; text-decoration: none;">{{- .moduleinfo.cta_1_copy | safeHTML -}}</a>
 														</td>
 													</tr>
 												</table>
@@ -104,9 +98,7 @@
 													<tr style="border: 1px solid {{ .color.ctaoutline }}; border-collapse: collapse;">
 														<td height="38" valign="middle" align="center" style="padding-left: 20px; padding-right: 20px; text-align: center; vertical-align: middle; border: 1px solid {{ .color.ctaoutline }}; {{ .font.ctaoutline | safeCSS }}">
 															<!-- ++ Add logic for underline -->
-															<a {{ printf "href=%q" .moduleinfo.cta_1_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_1_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{.color.ctaoutline}}; text-decoration: none;">
-																{{- .moduleinfo.cta_1_copy | safeHTML -}}
-															</a>
+															<a {{ printf "href=%q" .moduleinfo.cta_1_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_1_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{.color.ctaoutline}}; text-decoration: none;">{{- .moduleinfo.cta_1_copy | safeHTML -}}</a>
 														</td>
 													</tr>
 												</table>
@@ -132,9 +124,7 @@
 													<tr>
 														<td valign="middle" align="center" style="text-align: center; vertical-align: middle; color: {{ .color.ctaicontext }}; {{ .font.ctaicontext | safeCSS }}">
 															<!-- ++ Add logic for underline -->
-															<a {{ printf "href=%q" .moduleinfo.cta_2_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_2_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">
-																{{- .moduleinfo.cta_2_copy | safeHTML -}}
-															</a>
+															<a {{ printf "href=%q" .moduleinfo.cta_2_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_2_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">{{- .moduleinfo.cta_2_copy | safeHTML -}}</a>
 														</td>
 														<!-- ++ Add logic for ICON -->
 															<!-- Horizontal Spacer -->
@@ -143,9 +133,7 @@
 															</td>
 															<!-- Icon CTA -->
 															<td valign="middle" align="center">
-																<a {{ printf "href=%q" .moduleinfo.cta_2_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_2_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">
-																	<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{- .moduleinfo.cta_2_icon -}}_{{ .color.ctaicon }}.gif" width="20" height="20"	border="0" style="display: block;"/>
-																</a>
+																<a {{ printf "href=%q" .moduleinfo.cta_2_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_2_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{- .moduleinfo.cta_2_icon -}}_{{ .color.ctaicon }}.gif" width="20" height="20"	border="0" style="display: block;"/></a>
 															</td>
 														<!-- // Add logic for ICON -->
 													</tr>
@@ -162,9 +150,7 @@
 													<tr>
 														<td height="40" valign="middle" align="center" bgcolor="{{ .color.ctablockbg }}" style="padding-left:20px; padding-right:20px; text-align: center; vertical-align: middle; {{ .font.ctablocktext | safeCSS }}">
 															<!-- ++ Add logic for underline -->
-															<a {{ printf "href=%q" .moduleinfo.cta_2_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_2_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{ .color.ctablocktext }}; text-decoration: none;">
-																{{- .moduleinfo.cta_2_copy | safeHTML -}}
-															</a>
+															<a {{ printf "href=%q" .moduleinfo.cta_2_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_2_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{ .color.ctablocktext }}; text-decoration: none;">{{- .moduleinfo.cta_2_copy | safeHTML -}}</a>
 														</td>
 													</tr>
 												</table>
@@ -180,9 +166,7 @@
 													<tr style="border: 1px solid {{ .color.ctaoutline }}; border-collapse: collapse;">
 														<td height="38" valign="middle" align="center" style="padding-left: 20px; padding-right: 20px; text-align: center; vertical-align: middle; border: 1px solid {{ .color.ctaoutline }}; {{ .font.ctaoutline | safeCSS }}">
 															<!-- ++ Add logic for underline -->
-															<a {{ printf "href=%q" .moduleinfo.cta_2_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_2_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{.color.ctaoutline}}; text-decoration: none;">
-																{{- .moduleinfo.cta_2_copy | safeHTML -}}
-															</a>
+															<a {{ printf "href=%q" .moduleinfo.cta_2_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_2_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{.color.ctaoutline}}; text-decoration: none;">{{- .moduleinfo.cta_2_copy | safeHTML -}}</a>
 														</td>
 													</tr>
 												</table>
@@ -209,9 +193,7 @@
 													<tr>
 														<td valign="middle" align="center" style="text-align: center; vertical-align: middle; color: {{ .color.ctaicontext }}; {{ .font.ctaicontext | safeCSS }}">
 															<!-- ++ Add logic for underline -->
-															<a {{ printf "href=%q" .moduleinfo.cta_3_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_3_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">
-																{{- .moduleinfo.cta_3_copy | safeHTML -}}
-															</a>
+															<a {{ printf "href=%q" .moduleinfo.cta_3_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_3_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">{{- .moduleinfo.cta_3_copy | safeHTML -}}</a>
 														</td>
 														<!-- ++ Add logic for ICON -->
 															<!-- Horizontal Spacer -->
@@ -220,9 +202,7 @@
 															</td>
 															<!-- Icon CTA -->
 															<td valign="middle" align="center">
-																<a {{ printf "href=%q" .moduleinfo.cta_3_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_3_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">
-																	<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{- .moduleinfo.cta_3_icon -}}_{{ .color.ctaicon }}.gif" width="20" height="20"	border="0" style="display: block;"/>
-																</a>
+																<a {{ printf "href=%q" .moduleinfo.cta_3_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_3_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{- .moduleinfo.cta_3_icon -}}_{{ .color.ctaicon }}.gif" width="20" height="20"	border="0" style="display: block;"/></a>
 															</td>
 														<!-- // Add logic for ICON -->
 													</tr>
@@ -239,9 +219,7 @@
 													<tr>
 														<td height="40" valign="middle" align="center" bgcolor="{{ .color.ctablockbg }}" style="padding-left:20px; padding-right:20px; text-align: center; vertical-align: middle; {{ .font.ctablocktext | safeCSS }}">
 															<!-- ++ Add logic for underline -->
-															<a {{ printf "href=%q" .moduleinfo.cta_3_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_3_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{ .color.ctablocktext }}; text-decoration: none;">
-																{{- .moduleinfo.cta_3_copy | safeHTML -}}
-															</a>
+															<a {{ printf "href=%q" .moduleinfo.cta_3_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_3_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{ .color.ctablocktext }}; text-decoration: none;">{{- .moduleinfo.cta_3_copy | safeHTML -}}</a>
 														</td>
 													</tr>
 												</table>
@@ -257,9 +235,7 @@
 													<tr style="border: 1px solid {{ .color.ctaoutline }}; border-collapse: collapse;">
 														<td height="38" valign="middle" align="center" style="padding-left: 20px; padding-right: 20px; text-align: center; vertical-align: middle; border: 1px solid {{ .color.ctaoutline }}; {{ .font.ctaoutline | safeCSS }}">
 															<!-- ++ Add logic for underline -->
-															<a {{ printf "href=%q" .moduleinfo.cta_3_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_3_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{.color.ctaoutline}}; text-decoration: none;">
-																{{- .moduleinfo.cta_3_copy | safeHTML -}}
-															</a>
+															<a {{ printf "href=%q" .moduleinfo.cta_3_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_3_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{.color.ctaoutline}}; text-decoration: none;">{{- .moduleinfo.cta_3_copy | safeHTML -}}</a>
 														</td>
 													</tr>
 												</table>
@@ -292,9 +268,7 @@
 													<tr>
 														<td valign="top" align="center" style="color: {{ .color.ctaicontext }}; {{ .font.ctaicontext | safeCSS }}">
 															<!-- ++ Add logic for underline -->
-															<a {{ printf "href=%q" .moduleinfo.cta_1_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_1_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">
-																{{- .moduleinfo.cta_1_copy | safeHTML -}}
-															</a>
+															<a {{ printf "href=%q" .moduleinfo.cta_1_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_1_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">{{- .moduleinfo.cta_1_copy | safeHTML -}}</a>
 														</td>
 														<!-- ++ Add logic for ICON -->
 															<!-- Horizontal Spacer -->
@@ -303,9 +277,7 @@
 															</td>
 															<!-- Icon CTA 1 -->
 															<td valign="top" align="center">
-																<a {{ printf "href=%q" .moduleinfo.cta_1_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_1_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">
-																	<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{- .moduleinfo.cta_1_icon -}}_{{ .color.ctaicon }}.gif" width="20" height="20"	border="0" style="display: block;"/>
-																</a>
+																<a {{ printf "href=%q" .moduleinfo.cta_1_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_1_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{- .moduleinfo.cta_1_icon -}}_{{ .color.ctaicon }}.gif" width="20" height="20"	border="0" style="display: block;"/></a>
 															</td>
 														<!-- // Add logic for ICON -->
 													</tr>
@@ -319,9 +291,7 @@
 										<tr>
 											<td height="40" valign="middle" align="center" bgcolor="{{ .color.ctablockbg }}" style="padding-left: 20px; padding-right: 20px; text-align: center; vertical-align: middle; {{ .font.ctablocktext | safeCSS }}">
 												<!-- ++ Add logic for underline -->
-												<a {{ printf "href=%q" .moduleinfo.cta_1_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_1_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{ .color.ctablocktext }}; text-decoration: none;">
-													{{- .moduleinfo.cta_1_copy | safeHTML -}}
-												</a>
+												<a {{ printf "href=%q" .moduleinfo.cta_1_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_1_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{ .color.ctablocktext }}; text-decoration: none;">{{- .moduleinfo.cta_1_copy | safeHTML -}}</a>
 											</td>
 										</tr>
 
@@ -331,9 +301,7 @@
 										<tr style="border: 1px solid {{ .color.ctaoutline }}; border-collapse: collapse;">
 											<td height="40" valign="middle" align="center" style="padding-left: 20px; padding-right: 20px; text-align: center; vertical-align: middle; border: 1px solid {{ .color.ctaoutline }}; {{ .font.ctaoutline | safeCSS }}">
 												<!-- ++ Add logic for underline -->
-												<a {{ printf "href=%q" .moduleinfo.cta_1_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_1_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{.color.ctaoutline}}; text-decoration: none;">
-													{{- .moduleinfo.cta_1_copy | safeHTML -}}
-												</a>
+												<a {{ printf "href=%q" .moduleinfo.cta_1_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_1_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{.color.ctaoutline}}; text-decoration: none;">{{- .moduleinfo.cta_1_copy | safeHTML -}}</a>
 											</td>
 										</tr>
 
@@ -359,9 +327,7 @@
 													<tr>
 														<td valign="top" align="center" style="color: {{ .color.ctaicontext }}; {{ .font.ctaicontext | safeCSS }}">
 															<!-- ++ Add logic for underline -->
-															<a {{ printf "href=%q" .moduleinfo.cta_2_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_2_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">
-																{{- .moduleinfo.cta_2_copy | safeHTML -}}
-															</a>
+															<a {{ printf "href=%q" .moduleinfo.cta_2_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_2_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">{{- .moduleinfo.cta_2_copy | safeHTML -}}</a>
 														</td>
 														<!-- ++ Add logic for ICON -->
 															<!-- Horizontal Spacer -->
@@ -370,9 +336,7 @@
 															</td>
 															<!-- Icon CTA 1 -->
 															<td valign="top" align="center">
-																<a {{ printf "href=%q" .moduleinfo.cta_2_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_2_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">
-																	<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{- .moduleinfo.cta_2_icon -}}_{{ .color.ctaicon }}.gif" width="20" height="20"	border="0" style="display: block;"/>
-																</a>
+																<a {{ printf "href=%q" .moduleinfo.cta_2_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_2_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{- .moduleinfo.cta_2_icon -}}_{{ .color.ctaicon }}.gif" width="20" height="20"	border="0" style="display: block;"/></a>
 															</td>
 														<!-- // Add logic for ICON -->
 													</tr>
@@ -386,9 +350,7 @@
 										<tr>
 											<td height="40" valign="middle" align="center" bgcolor="{{ .color.ctablockbg }}" style="padding-left: 20px; padding-right: 20px; text-align: center; vertical-align: middle; {{ .font.ctablocktext | safeCSS }}">
 												<!-- ++ Add logic for underline -->
-												<a {{ printf "href=%q" .moduleinfo.cta_2_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_2_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{ .color.ctablocktext }}; text-decoration: none;">
-													{{- .moduleinfo.cta_2_copy | safeHTML -}}
-												</a>
+												<a {{ printf "href=%q" .moduleinfo.cta_2_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_2_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{ .color.ctablocktext }}; text-decoration: none;">{{- .moduleinfo.cta_2_copy | safeHTML -}}</a>
 											</td>
 										</tr>
 
@@ -398,9 +360,7 @@
 										<tr style="border: 1px solid {{ .color.ctaoutline }}; border-collapse: collapse;">
 											<td height="40" valign="middle" align="center" style="padding-left: 20px; padding-right: 20px; text-align: center; vertical-align: middle; border: 1px solid {{ .color.ctaoutline }}; {{ .font.ctaoutline | safeCSS }}">
 												<!-- ++ Add logic for underline -->
-												<a {{ printf "href=%q" .moduleinfo.cta_2_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_2_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{.color.ctaoutline}}; text-decoration: none;">
-													{{- .moduleinfo.cta_2_copy | safeHTML -}}
-												</a>
+												<a {{ printf "href=%q" .moduleinfo.cta_2_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_2_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{.color.ctaoutline}}; text-decoration: none;">{{- .moduleinfo.cta_2_copy | safeHTML -}}</a>
 											</td>
 										</tr>
 
@@ -426,9 +386,7 @@
 													<tr>
 														<td valign="top" align="center" style="color: {{ .color.ctaicontext }}; {{ .font.ctaicontext | safeCSS }}">
 															<!-- ++ Add logic for underline -->
-															<a {{ printf "href=%q" .moduleinfo.cta_3_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_3_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">
-																{{- .moduleinfo.cta_3_copy | safeHTML -}}
-															</a>
+															<a {{ printf "href=%q" .moduleinfo.cta_3_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_3_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">{{- .moduleinfo.cta_3_copy | safeHTML -}}</a>
 														</td>
 														<!-- ++ Add logic for ICON -->
 															<!-- Horizontal Spacer -->
@@ -437,9 +395,7 @@
 															</td>
 															<!-- Icon CTA 1 -->
 															<td valign="top" align="center">
-																<a {{ printf "href=%q" .moduleinfo.cta_3_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_3_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;">
-																	<img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{- .moduleinfo.cta_3_icon -}}_{{ .color.ctaicon }}.gif" width="20" height="20"	border="0" style="display: block;"/>
-																</a>
+																<a {{ printf "href=%q" .moduleinfo.cta_3_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_3_link_name -}}" target="_blank" style="color: {{ .color.ctaicontext }}; text-decoration: none;"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{- .moduleinfo.cta_3_icon -}}_{{ .color.ctaicon }}.gif" width="20" height="20"	border="0" style="display: block;"/></a>
 															</td>
 														<!-- // Add logic for ICON -->
 													</tr>
@@ -453,9 +409,7 @@
 										<tr>
 											<td height="40" valign="middle" align="center" bgcolor="{{ .color.ctablockbg }}" style="padding-left: 20px; padding-right: 20px; text-align: center; vertical-align: middle; {{ .font.ctablocktext | safeCSS }}">
 												<!-- ++ Add logic for underline -->
-												<a {{ printf "href=%q" .moduleinfo.cta_3_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_3_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{ .color.ctablocktext }}; text-decoration: none;">
-													{{- .moduleinfo.cta_3_copy | safeHTML -}}
-												</a>
+												<a {{ printf "href=%q" .moduleinfo.cta_3_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_3_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{ .color.ctablocktext }}; text-decoration: none;">{{- .moduleinfo.cta_3_copy | safeHTML -}}</a>
 											</td>
 										</tr>
 
@@ -465,9 +419,7 @@
 										<tr style="border: 1px solid {{ .color.ctaoutline }}; border-collapse: collapse;">
 											<td height="40" valign="middle" align="center" style="padding-left: 20px; padding-right: 20px; text-align: center; vertical-align: middle; border: 1px solid {{ .color.ctaoutline }}; {{ .font.ctaoutline | safeCSS }}">
 												<!-- ++ Add logic for underline -->
-												<a {{ printf "href=%q" .moduleinfo.cta_3_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_3_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{.color.ctaoutline}}; text-decoration: none;">
-													{{- .moduleinfo.cta_3_copy | safeHTML -}}
-												</a>
+												<a {{ printf "href=%q" .moduleinfo.cta_3_link_url | safeHTMLAttr }} name="{{- .moduleinfo.cta_3_link_name -}}" target="_blank" style="width: 100%; display: block; color: {{.color.ctaoutline}}; text-decoration: none;">{{- .moduleinfo.cta_3_copy | safeHTML -}}</a>
 											</td>
 										</tr>
 

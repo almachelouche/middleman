@@ -5,7 +5,7 @@ title = '''VN Repurchase 016 all'''
 [[module]]
 path='email_modules/preheader'
 
-	preheader = '''Chạy thử xe Ford, rinh iPhone 8'''
+	preheader = '''Tham gia lái thử xe Ford, đồng thời cơ hội trúng thưởng 28 Iphone 7'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -27,14 +27,11 @@ path='email_modules/cover/02'
 color='''white'''
 
 	
-	title='''Ngày hội Ranger'''
-	copy='''Xin chào <%${user.CustomAttribute['Title']}%> <%${user['FirstName']}%><br /><br />Chúng tôi hy vọng rằng bạn yêu thích chiếc <%${user.CustomAttribute['Model']}%> của mình cũng nhiều như việc chúng tôi nóng lòng muốn thấy bạn trở thành một phần trong gia đình Ford chúng tôi!<br /><br />Bạn vẫn đang cân nhắc về dòng xe Ranger? Với chương trình tháng 9 này, bạn có thể mua chiếc Ranger XL với giá đặc biệt là 619 triệu đồng, tiết kiệm 15 triệu đồng!<br /><br />Với phong cách thiết kế mạnh mẽ, tính năng tiên tiến và khả năng vận hành vượt trội, Ranger là chiếc xe giúp bạn chinh phục mọi thử thách. Còn chờ đợi gì nữa, hãy sở hữu ngay chiếc xe bán tải này với giá chỉ bằng 1 nửa!<br /><br />Bạn vẫn chưa tìm được loại xe mà mình mong muốn? Không sao. Còn có nhiều chương trình đặc biệt khác dành cho Everest, EcoSport, Focus và Fiesta đến cuối tháng 9! Hãy nhấp vào dưới đây để tìm hiểu thêm chi tiết.'''
-	cta1_text='''ĐĂNG KÝ LÁI THỬ XE'''
-	cta1_url='''https://www.ford.com.vn/trucks/ranger/ranger-homepage/?redtrgtexp=true#overlay/content/ford/vn/vi_vn/site-wide-content/overlays/forms/test-drive.html?gmbxtid=ford_ranger-first-kba-001-book_a_test_drive_1'''
-	cta1_link_name = '''ranger_test_drive'''
-	cta2_text='''TÌM HIỂU THÊM '''
-	cta2_url='''https://www.ford.com.vn/promotion-corner/2017/hot-deal-1/'''
-	cta2_link_name = '''retail_offer'''
+	title='''Khuyến mại đặc biệt trong tháng Ranger Days'''
+	copy='''Xin chào <%${user.CustomAttribute['Title']}%> <%${user['FirstName']}%><br /><br />Chúng tôi hy vọng rằng bạn yêu thích chiếc <%${user.CustomAttribute['Model']}%> của mình cũng nhiều như việc chúng tôi nóng lòng muốn thấy bạn trở thành một phần trong gia đình Ford chúng tôi!<br /><br />Nếu bạn đang cân nhắc rinh một em Ford Ranger, tháng 9 sẽ vẫn là cơ hội tốt cho bạn lựa chọn chiếc Ranger phiên bản XL với giá đặc biệt là 619 triệu đồng, tiết kiệm tới 15 triệu đồng!<br /><br />Xe bán tải chưa phải là lựa chọn của bạn? Không sao, bạn vẫn còn có nhiều ưu đãi hấp dẫn khác dành cho Everest, EcoSport, Focus và Fiesta trong tháng 9 này! Hãy nhấp vào dưới đây để tìm hiểu thêm chi tiết.'''
+	cta1_text='''TÌM HIỂU THÊM '''
+	cta1_url='''https://www.ford.com.vn/promotion-corner/2017/hot-deal-1/'''
+	cta1_link_name = '''retail_offer'''
   
 [[module]] #Banner Image
 path='email_modules/image/banner'
@@ -49,11 +46,14 @@ path='email_modules/cover/02'
 color='''white'''
 
 
-	title='''Chương trình chạy thử dành cho bạn'''
-	copy='''Ford mong muốn phục vụ bạn mọi lúc mọi nơi. Vì vậy, từ ngày 15 tháng 9 đến ngày 31 tháng 10, 28 đại lý ủy quyền Ford trên cả nước sẽ tổ chức 28 chương trình chạy thử ở các tỉnh thành không có đại lý Ford – đây là thời điểm hoàn hảo để bạn kiểm nghiệm chiếc EcoSport mơ ước. Những người tham gia  chương trình cũng có cơ hội nhận chiếc iPhone 8!'''
-	cta1_text='''ĐĂNG KÝ LÁI THỬ XE'''
+	title='''Ford Việt Nam tiếp tục mang xe Ford đến gần bạn hơn'''
+	copy='''Từ ngày 15 tháng 9 đến ngày 31 tháng 10, các đại lý ủy quyền Ford trên toàn quốc sẽ đồng loạt tổ chức lái thử xe tại 28 tỉnh thành với mục đích mang xe Ford tới gần hơn các khách hàng trung thành của mình, tạo cơ hội trải nghiệm trên nhiều dòng xe khác nhau. Ngoài ra, những người tham gia lái thử xe sẽ có cơ hội trúng thưởng một chiếc iPhone7!'''
+	cta1_text='''XEM LỊCH LÁI THỬ XE'''
 	cta1_url='''https://www.ford.com.vn/'''
 	cta1_link_name = '''provincial_test_drive'''
+    cta2_text='''ĐĂNG KÝ LÁI THỬ XE'''
+	cta2_url='''https://www.ford.com.vn/'''
+	cta2_link_name = '''vehicle_registration'''
 	
 [[module]] #Split 04
 path='email_modules/split/04'

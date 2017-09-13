@@ -54,7 +54,7 @@ color='white'
 
     text_box_height = '''240'''
 	title1 = '''Service Price Promise&#178;'''
-	copy1 = '''Know how much your standard service will cost before you even come in, with the <ahref="https://www.ford.com.au/owners/service/calculator/" name="calculator" style="text-decoration:underline; color:#2D96CD"> Service Price Promise Calculator</span>.'''
+	copy1 = '''Know how much your standard service will cost before you even come in, with the <a href="https://www.ford.com.au/owners/service/calculator/" name="calculator" style="text-decoration:underline; color:#2D96CD"> Service Price Promise Calculator</span>.'''
 	image1 = '''au_edm2_service_price_promise_20170818'''
 	image1_link_url = '''https://www.ford.com.au/owners/service/calculator/'''
 	image1_link_name = '''Some'''
