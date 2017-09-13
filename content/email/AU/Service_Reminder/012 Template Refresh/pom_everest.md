@@ -12,7 +12,7 @@ path='email_modules/preheader'
 path='email_modules/image/banner'
 color='white'
 
-<<<<<<< HEAD
+
 	image = '''au_edm2_pom_new_banner_20170912'''
 	url_link = '''https://www.ford.com.au/owners/service/peace-of-mind-inspection/
     '''
