@@ -3,11 +3,6 @@ markets = ["th"]
 title = '''EN Pre Delivery 001 Arrived'''
 
 [[module]]
-path='email_modules/preheader'
-
-	preheader = '''โปรโมชั่นตรวจเช็คระยะสุดพิเศษ ที่มาพร้อมการบริการทันสมัยและมีประสิทธิภาพที่ศูนย์บริการมาตรฐานฟอร์ด'''
-
-[[module]]
 path='email_modules/header/logo'
 color='white'
 
@@ -32,7 +27,7 @@ color='white'
 font='th'
 
 	copy='''
-		Dear [NAME],
+		Dear [Name],
 		<br/>
 		<br/>
 		Your new Ford [Model] is here! It's waiting for you at the [Company_Name]. Can you smell the fresh coat of paint and new car scent already?
