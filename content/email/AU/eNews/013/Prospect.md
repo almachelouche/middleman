@@ -69,7 +69,7 @@ color='green'
 
 	[[module]] #Split 02
 path='email_modules/split/02'
-color='blue'
+color='lightblue'
 
 	 title = '''Support Breast Cancer Research'''
 	copy = '''We partnered with the National Breast Cancer Foundation to support breast cancer research. We asked granddaughters to talk to their grandmothers about their experiences with breast cancer. Hear the inspiring words from these women.'''
