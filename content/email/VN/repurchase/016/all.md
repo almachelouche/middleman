@@ -5,7 +5,7 @@ title = '''VN Repurchase 016 all'''
 [[module]]
 path='email_modules/preheader'
 
-	preheader = '''Tham gia lái thử xe Ford, đồng thời cơ hội trúng thưởng 28 Iphone 7'''
+	preheader = '''Tham gia lái thử xe Ford, đồng thời cơ hội trúng thưởng 28 Iphone 7.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -38,7 +38,7 @@ path='email_modules/image/banner'
 color='white'
 
 	image='''vn_edm5_provincial_20170911'''
-	url_link='''https://www.ford.com.vn/'''
+	url_link='''https://www.ford.com.vn/about/news-events/2017/ngay-hoi-ecosport/'''
 	url_link_name='''provincial_test_drive'''
   
 [[module]] #Cover 02
@@ -49,10 +49,10 @@ color='''white'''
 	title='''Ford Việt Nam tiếp tục mang xe Ford đến gần bạn hơn'''
 	copy='''Từ ngày 15 tháng 9 đến ngày 31 tháng 10, các đại lý ủy quyền Ford trên toàn quốc sẽ đồng loạt tổ chức lái thử xe tại 28 tỉnh thành với mục đích mang xe Ford tới gần hơn các khách hàng trung thành của mình, tạo cơ hội trải nghiệm trên nhiều dòng xe khác nhau. Ngoài ra, những người tham gia lái thử xe sẽ có cơ hội trúng thưởng một chiếc iPhone7!'''
 	cta1_text='''XEM LỊCH LÁI THỬ XE'''
-	cta1_url='''https://www.ford.com.vn/'''
+	cta1_url='''https://www.ford.com.vn/about/news-events/2017/ngay-hoi-ecosport/'''
 	cta1_link_name = '''provincial_test_drive'''
     cta2_text='''ĐĂNG KÝ LÁI THỬ XE'''
-	cta2_url='''https://www.ford.com.vn/'''
+	cta2_url='''https://www.ford.com.vn/#overlay/content/ford/vn/vi_vn/site-wide-content/overlays/forms/test-drive.html'''
 	cta2_link_name = '''vehicle_registration'''
 	
 [[module]] #Split 04
