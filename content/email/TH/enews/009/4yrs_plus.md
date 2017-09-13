@@ -130,6 +130,24 @@ cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">WATCH NOW</
 	cta1_icon = '''play'''
 	image = '''th_edm6_vehicle_health_tips_20170911'''
 
+[[module]] # eNews Top Story
+path='email_modules/custom/enews_topstory'
+color='black'
+
+title = '''<span style="font-family:Tahoma, Verdana, Sans-serif"></span>'''
+copy = '''
+<span style="font-family:Tahoma, Verdana, Sans-serif">
+<span style="white-space:nowrap;">สามารถติดตามข้อเสนอราคาพิเศษ</span>
+<br />
+<span style="white-space:nowrap;">สำหรับรถฟอร์ดเรนเจอร์ ฟอร์ดเอเวอเรสต์</span>
+<br />
+<span style="white-space:nowrap;">ฟอร์ดเอคโค่สปอร์ต ฟอร์ดโฟกัส และฟอร์ดเฟียสต้า</span>
+'''
+cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ข้อสนอพิเศษ</span>'''
+	cta1_url = '''https://www.ford.co.th/buying/latest-offers'''
+	cta1_link_name = '''buying_latest_offer'''
+	cta1_icon = '''play'''
+
 [[module]]
 path='email_modules/spacer/platinum_20'
 color='white'
