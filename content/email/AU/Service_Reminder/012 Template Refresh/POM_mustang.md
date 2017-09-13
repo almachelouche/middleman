@@ -15,7 +15,8 @@ path='email_modules/image/banner'
 color='white'
 
 	image = '''au_edm2_pom_new_banner_20170908'''
-	url_link = '''https://www.ford.com.au/owners/service/'''
+	url_link = '''https://www.ford.com.au/owners/service/peace-of-mind-inspection/
+    '''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -27,7 +28,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />We hope you're enjoying your new Ford <span style="color:#2D96CD"><%${user.CustomAttribute['Model']}%></span>. <br /><br /> Now that you've been on the road for a few months your <%${user.CustomAttribute['Model']}%> is due for its complimentary 2-month/3,000km <a href="https://www.ford.com.au/owners/service/peace-of-mind-inspection/" style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</a>&#185;. Our Ford trained technicians will inspect your vehicle and ensure it's running at its absolute best. <br /><br /> Book your 'Peace of Mind' Service Inspection with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or <a href="https://www.ford.com.au/dealership/" style="text-decoration:underline; color:#2D96CD">locate your nearest dealer</a>.'''
+	copy = '''Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />We hope you're enjoying your new Ford <%${user.CustomAttribute['Model']}%>. <br /><br /> Now that you've been on the road for a few months your <%${user.CustomAttribute['Model']}%> is due for its complimentary 2-month/3,000km <a href="https://www.ford.com.au/owners/service/peace-of-mind-inspection/" style="text-decoration:underline; color:#2D96CD">Peace of Mind Service Inspection</a>&#185;. Our Ford trained technicians will inspect your vehicle and ensure it's running at its absolute best. <br /><br /> Book your 'Peace of Mind' Service Inspection with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or <a href="https://www.ford.com.au/dealership/" style="text-decoration:underline; color:#2D96CD">locate your nearest dealer</a>.'''
     
 [[module]]
 path='email_modules/spacer/default'
@@ -91,7 +92,7 @@ color='white'
 	image1 = '''au_edm2_mustang_accessories5_20170714'''
 	image1_link_url = '''https://www.ford.com.au/cars/mustang/smart-accessories/'''
 	image1_link_name = '''link_name_here'''
-	title2 = '''Body Styling Kit&#179;'''
+	title2 = '''Body Styling Kit&#178;'''
 	copy2 = '''Add a stylish and dynamic look to your Mustang. This styling kit includes a front spoiler, side rockers, stripe kit, and much more.'''
 	image2 = '''au_edm2_mustang_accessories5_20170629'''
 	image2_link_url = '''https://www.ford.com.au/cars/mustang/smart-accessories/'''
