@@ -8,9 +8,9 @@ color='white'
 font='th'
 
 	copy='''
-		<span style="color: #425968; font-weight:800;">ช่วงเวลาที่คาดว่าจะมีการส่งมอบ</span>
+		<span style="color: #425968; font-weight:800; font-size: 12px;">ช่วงเวลาที่คาดว่าจะมีการส่งมอบ</span>
 		<br/>
-		<span style="color: #Ff6600; font-weight:800; font-size: 16px;">[Tentative_Date]</span>
+		<span style="color: #ff6600; font-weight:800;">[Tentative_Date]</span>
 	'''
 	copy_align='right'
 	vertical_align='top'
