@@ -93,6 +93,6 @@ color='white'
 	[1] T&Cs apply. Available at participating Ford Dealers on vehicles built from 2007. Customers will pay equal to or less than the maximum price as published by Ford for the period of the web quote for standard items in the A and B logbook services together with selected routine maintenance items. See <a href="http://www.ford.com.au/service/t-and-c?emailid=20161206-0105_CampaignCode_Generic_0_FOA_terms" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/service/t-and-c</a> for full terms.'''
 
 [[module]] #Footer AU Online
-path='email_modules/footer/au/onlineold'
+path='email_modules/footer/au/online_dream_mail'
 color='white'
 +++

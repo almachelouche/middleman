@@ -94,6 +94,6 @@ color='white'
 	[2] At participating Dealers for eligible new vehicles ordered and delivered by 31/12/2016. Private and small business customers only. Extended warranty covers 5 years/100,000km from date of registration, whichever occurs first. $100 service discount must be used across the first five scheduled services. Customers must comply with recommended servicing intervals or discount will expire. Discount entitlements are transferable with the nominated vehicle. Conditions apply. Visit <a href="http://www.ford.com.au?emailid=20161206-0105_CampaignCode_Generic_0_FOA_ford1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au</a>.'''
 
 [[module]] #Footer AU Online
-path='email_modules/footer/au/onlineold'
+path='email_modules/footer/au/online_dream_mail'
 color='white'
 +++
