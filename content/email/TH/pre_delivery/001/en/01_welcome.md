@@ -7,24 +7,7 @@ path='email_modules/header/logo'
 color='white'
 
 	image = '''white'''
-	url_link = '''https://www.ford.co.th/'''
-
-[[module]]
-path='email_modules/split/master/right'
-color='white'
-font='th'
-
-	copy='''
-		<span style="color: #425968; font-weight:800;">Estimated Delivery Time</span>
-		<br/>
-		<span style="color: #Ff6600; font-weight:800; font-size: 16px;">[Tentative_Date]</span>
-	'''
-	copy_align='right'
-	vertical_align='top'
-
-	image='''white_logo'''
-	image_link_url='''https://www.ford.co.th/'''
-	image_link_name='''Ford Logo'''
+	url_link = '''https://www.ford.co.th/en/'''
 
 [[module]]
 path = 'email_modules/image/banner_nolink'

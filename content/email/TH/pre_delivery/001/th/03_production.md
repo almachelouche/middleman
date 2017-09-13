@@ -3,11 +3,21 @@ markets = ["th"]
 title = '''TH Pre Delivery 001 Production'''
 
 [[module]]
-path='email_modules/header/logo'
+path='email_modules/split/master/right'
 color='white'
+font='th'
 
-	image = '''white'''
-	url_link = '''https://www.ford.co.th/'''
+	copy='''
+		<span style="color: #425968; font-weight:800; font-size: 12px;">ช่วงเวลาที่คาดว่าจะมีการส่งมอบ</span>
+		<br/>
+		<span style="color: #ff6600; font-weight:800;">[Tentative_Date]</span>
+	'''
+	copy_align='right'
+	vertical_align='top'
+
+	image='''white_logo'''
+	image_link_url='''https://www.ford.co.th/'''
+	image_link_name='''Ford Logo'''
 
 [[module]]
 path = 'email_modules/image/banner_nolink'

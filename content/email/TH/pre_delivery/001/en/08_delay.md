@@ -7,7 +7,7 @@ path='email_modules/header/logo'
 color='white'
 
 	image = '''white'''
-	url_link = '''https://www.ford.co.th/'''
+	url_link = '''https://www.ford.co.th/en/'''
 
 [[module]]
 path = 'email_modules/image/banner_nolink'
