@@ -19,7 +19,7 @@ path='email_modules/cover/02'
 color='white'
 
 	title = '''
-		<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>링컨과 함께하는 새로운 여정의 시작</b></span>
+		<span style="font-size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>링컨과 함께하는 새로운 여정의 시작</b></span>
 	'''
 	copy = '''
 		<span style="white-space:nowrap;"><span style="font-size:15px;line-height: 14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;">링컨과의 새로운 여정을 시작한 고객님께 다시 한 번 깊은 감사를 드립니다.</span>

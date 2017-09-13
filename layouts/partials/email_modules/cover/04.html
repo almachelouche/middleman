@@ -3,7 +3,7 @@
 		<td align="center" valign="top" style="padding-left:30px; padding-right:30px; padding-bottom:30px;">
 			<table width="100%" border="0" cellspacing="0" cellpadding="0">
 				<tr>
-					<td align="center" valign="top" style="text-align:center; color:{{.color.txtbody}}; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px; line-height: 21px; font-weight: normal; font-style: regular; padding-bottom:20px;">
+					<td align="center" valign="top" style="text-align:center; color:{{.color.txtbody}}; font-family: 'Arial','Helvetica','Sans-Serif'; font-size:16px; line-height: 21px; font-weight: normal; font-style: normal; padding-bottom:20px;">
 						{{- .moduleinfo.copy | safeHTML -}}
 					</td>
 				</tr>
@@ -13,7 +13,7 @@
 					<td align="center" valign="top">
 						<table border="0" cellspacing="0" cellpadding="0">
 							<tr>
-								<td align="center" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';"><a href="{{ .moduleinfo.cta1_url | safeURL }}" name="{{- .moduleinfo.cta1_link_name -}}" target="_blank" title="" style="color:{{.color.ctaicontext}}; text-decoration:none;">{{- .moduleinfo.cta1_text | safeHTML -}}</a>
+								<td align="center" valign="top" style="font-size: 16px; line-height: 21px; font-weight: normal; font-style: normal; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';"><a href="{{ .moduleinfo.cta1_url | safeURL }}" name="{{- .moduleinfo.cta1_link_name -}}" target="_blank" title="" style="color:{{.color.ctaicontext}}; text-decoration:none;">{{- .moduleinfo.cta1_text | safeHTML -}}</a>
 								</td>
 								<td align="center" valign="top" style="padding-left:10px;">
 									<a href="{{ .moduleinfo.cta1_url | safeURL }}" name="{{- .moduleinfo.cta1_link_name -}}" target="_blank" title="" style="color:#FFFFFF; text-decoration:none;"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/icons/cta_{{- .moduleinfo.cta1_icon}}_{{.color.ctaicon}}.gif" width="20" height="20"	border="0" style="display:block;"/></a>
@@ -23,7 +23,7 @@
 								<td>
 									<td width="30" style="mso-line-height-rule:exactly;line-height:10px;font-size:10px;"><img src="https://s3-ap-southeast-1.amazonaws.com/edm-images/custom/spacer.gif" width="1" height="1" border="0" style="display:block;" /></td>
 								</td>
-								<td align="center" valign="top" style="font-Size: 16px; line-height: 21px; font-weight: normal; font-style: regular; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';">
+								<td align="center" valign="top" style="font-size: 16px; line-height: 21px; font-weight: normal; font-style: normal; color:#FFFFFF; font-family: 'Arial','Helvetica','Sans-Serif';">
 									<a href="{{ .moduleinfo.cta2_url | safeURL }}" name="{{- .moduleinfo.cta2_link_name -}}" target="_blank" title="" style="color:{{.color.ctaicontext}}; text-decoration:none;">{{- .moduleinfo.cta2_text | safeHTML -}}</a>
 								</td>
 								<td align="center" valign="top" style="padding-left:10px;">

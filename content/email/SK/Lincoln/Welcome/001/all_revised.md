@@ -20,7 +20,7 @@ color='white'
 path='email_modules/cover/02'
 color='''white'''
 
-title = '''<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
+title = '''<span style="font-size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><span style="font-weight:bold;">
 <span style="white-space:nowrap;">링컨과 함께하는</span>
 <span style="white-space:nowrap;">새로운 여정의 시작</span>
 </span>'''

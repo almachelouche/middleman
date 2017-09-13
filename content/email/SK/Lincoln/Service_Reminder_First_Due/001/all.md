@@ -21,7 +21,7 @@ path='email_modules/cover/02'
 
 color='''lincoln_white'''
 icon=''''''
-title='''<span style="font-Size:26px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>오직 귀하만을 위한 차량 점검 서비스를 만나십시오.</b></span>'''
+title='''<span style="font-size:26px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>오직 귀하만을 위한 차량 점검 서비스를 만나십시오.</b></span>'''
 copy='''<span style="font-size:15px;line-height:14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;"><br /><br />즐겁고 안전한 운전을 위한 '첫 번째 차량 점검'을 권장합니다.<br /><br /><br />처음과 같은 안전성과 주행성능을 유지하기 위해<br /><br />전문 테크니션이 맞춤 서비스를 선사합니다.<br /><br /><br />'첫 번째 차량 점검 서비스'를 신청하시면, 27가지 무상 점검은 물론<br /><br />차량 상태를 한눈에 확인할 수 있는 점검 진단표를 제공합니다.<br /><br /><br />링컨만의 프리미엄 점검 서비스를 지금 바로 만나보시기 바랍니다.<br /><br />자세한 내용은 가까운 링컨 전시장이나 서비스센터에 문의하십시오.</span>'''
 cta1_text='''<span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">전시장 및 서비스센터 찾기</span>'''
 cta1_url='''https://www.lincoln-korea.com/dealer-locate'''

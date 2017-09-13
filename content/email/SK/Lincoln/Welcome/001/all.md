@@ -20,7 +20,7 @@ color='white'
 path='email_modules/cover/02'
 color='''white'''
 
-title = '''<span style="font-Size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>링컨과 함께하는 새로운 여정의 시작</b></span>'''
+title = '''<span style="font-size:27px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif"><b>링컨과 함께하는 새로운 여정의 시작</b></span>'''
 	copy = '''<span style="font-size:15px;line-height: 14px;font-family:'Nanum Gothic',Malgun Gothic,sans-serif;letter-spacing: -1px;"><br /><br />링컨과의 새로운 여정을 시작한 귀하에게 다시 한 번 깊은 감사를 드립니다.<br /><br />링컨만의 감성을 완벽하게 누릴 수 있도록<br /><br />앞으로도 꾸준히 링컨의 새로운 소식을 알려드리고자 합니다.<br /><br />귀하의 즐겁고 안전한 운전에 링컨이 언제나 함께 하겠습니다.</span>'''
 
 	icon=''''''
