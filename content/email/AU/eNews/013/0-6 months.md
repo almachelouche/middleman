@@ -35,7 +35,7 @@ segmentif = ["(user.CustomAttribute['Model'] == <models name> </models>"]
 	cta1_text = '''WATCH THE VIDEO'''
 	cta1_url = '''https://www.ford.com.au/commercial/ranger/raptor/?intcmp=bb-fau-vhp-ford%20ranger-fau-vhp-ford%20ranger-return#overlay/content/ford/au/en_au/ranger-content/overlay-videos/raptor-videos/video1.html '''
 	cta1_link_name = '''RangerRaptor'''
-	cta1_icon = '''<picture>'''
+	cta1_icon = '''play'''
 
 
 [[module]] #Banner Image	#Ranger &Everest version
@@ -49,7 +49,7 @@ segmentif = ["(user.CustomAttribute['Model'] == "]
     
     [[module]] #Split 02
 path='email_modules/split/02'
-color='lightblue'
+color='lightgreen'
 
 	title = '''Did you know Ford sells tyres?'''
 	copy = '''At Ford, we're committed to offering you tyres at competitive prices. That's why we're very excited to announce our Low Price Tyre Guarantee. We'll match a competitor's price on selected tyres we stock.'''
@@ -62,7 +62,7 @@ color='lightblue'
 
 	[[module]] #Split 01
 path='email_modules/split/01'
-color='green'
+color='darkblue'
 
     title = '''Engine and Oil Health 101'''
 	copy = '''Your car's engine is the most important part of your car. It is the heart of your car, the component that help your car run smoothly. Click below to watch to learn how to keep your engine performing at its best and make sure your engine oil is okay.'''
