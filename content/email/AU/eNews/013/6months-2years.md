@@ -56,7 +56,7 @@ color='white'
 
 [[module]] #Split 02 
 path='email_modules/split/02'
-color='lightblue'
+color='green'
 segmentelse = ["(user.CustomAttribute['Model'] =="]
 
     title = '''Did you know Ford sells tyres?'''
@@ -69,7 +69,7 @@ segmentelse = ["(user.CustomAttribute['Model'] =="]
 
 	[[module]] #Split 01
 path='email_modules/split/01'
-color='green'
+color='darkblue'
 
 	title = '''Engine and Oil Health 101'''
 	copy = '''Your car's engine is the most important part of your car. It is the heart of your car, the component that help your car run smoothly. Click below to watch to learn how to keep your engine performing at its best and make sure your engine oil is okay.'''
@@ -81,7 +81,7 @@ color='green'
 
 	[[module]] #Split 02
 path='email_modules/split/02'
-color='darkblue'
+color='blue'
 
     title = '''Support Breast Cancer Research'''
 	copy = '''We partnered with the National Breast Cancer Foundation to support breast cancer research. We asked granddaughters to talk to their grandmothers about their experiences with breast cancer. Hear the inspiring words from these women.'''

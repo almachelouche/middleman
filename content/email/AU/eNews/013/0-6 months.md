@@ -38,7 +38,7 @@ segmentif = ["(user.CustomAttribute['Model'] == <models name> </models>"]
 	cta1_icon = '''play'''
 
 
-[[module]] #Banner Image	#Ranger &Everest version
+[[module]] #Banner Image	
 path='email_modules/image/banner'
 color='white'
 
@@ -72,7 +72,9 @@ color='darkblue'
 	cta1_icon = '''play'''
 	image = '''<image>'''
 
-
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
 
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
