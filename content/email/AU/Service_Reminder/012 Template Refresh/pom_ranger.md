@@ -12,14 +12,10 @@ path='email_modules/preheader'
 path='email_modules/image/banner'
 color='white'
 
-<<<<<<< HEAD
-	image = '''au_edm2_pom_new_banner_20170908'''
+	image = '''au_edm2_pom_new_banner_20170912'''
 	url_link = '''https://www.ford.com.au/owners/service/peace-of-mind-inspection/
     '''
-=======
-	image = '''au_edm2_pom_new_banner_20170912'''
-	url_link = '''https://www.ford.com.au/owners/service/'''
->>>>>>> 0dfe9f32e9814a9dd989de5e823d5e0c704c78bf
+
     
 [[module]]
 path='email_modules/spacer/default'
@@ -45,7 +41,7 @@ color='''white'''
 segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
 
 	cta1_text = '''BOOK YOUR INSPECTION'''
-	cta1_url = '''https://www.ford.com.au/owners/service/book-service/'''
+	cta1_url = '''https://consumer.xtime.net.au/scheduling/?company=14745&store=<%${user.CustomAttribute['DealerCode']}%>&VIN=<%${user.CustomAttribute['VIN']}%>&provider=FORD_AU_THE_BLUE_HIVE&keyword=<%${user.CustomAttribute['CampaignID']}%>&dest=&extid=<%${user.CustomAttribute['CampaignID']}%>&extctxt=FORD_AU_THE_BLUE_HIVE&cfn=<%${user.CustomAttribute['FullName']}%>&cln=<%${user['LastName']}%>&cpn=<%${user.CustomAttribute['Mobile_Phone']}%>&cem=<%${user.CustomAttribute['RealEmail']}%>&button=blue'''
 	cta1_link_name = '''service_booking'''
     
 [[module]] #Banner Image No Link
