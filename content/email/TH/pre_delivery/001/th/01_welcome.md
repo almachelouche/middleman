@@ -3,11 +3,6 @@ markets = ["th"]
 title = '''TH Pre Delivery 001 Welcome'''
 
 [[module]]
-path='email_modules/preheader'
-
-	preheader = '''โปรโมชั่นตรวจเช็คระยะสุดพิเศษ ที่มาพร้อมการบริการทันสมัยและมีประสิทธิภาพที่ศูนย์บริการมาตรฐานฟอร์ด'''
-
-[[module]]
 path='email_modules/header/logo'
 color='white'
 
@@ -26,22 +21,22 @@ color='white'
 font='th'
 
 	copy='''
-		Dear [Name],
+		เรียน [Name]
 		<br/>
 		<br/>
-		Greetings from [Company_Name]. Thanks for stopping by our showroom on [Opportunity_Creation_Date]. It was great meeting you, and we're so happy to hear that you're interested in the Ford [Model]. 
+		[Company_Name] ขอขอบพระคุณเป็นอย่างสูงที่ท่านแวะมาเยี่ยมชมโชว์รูมของเราในวันที่ [Opportunity_Creation_Date] นับเป็นเกียรติอย่างยิ่งที่มีโอกาสได้ต้อนรับและให้บริการและเรายินดีเป็นอย่างยิ่งที่ทราบว่าท่านมีความสนใจในรถยนต์ฟอร์ด [Model]
 		<br/>
 		<br/>
-		Your Sales Consultant for this exciting journey will be [SalesPerson_Code] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>.
+		พนักงานขายที่จะให้บริการท่านในการเดินทางอันน่าตื่นเต้นนี้คือ [SalesPerson_Code] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>.
 		<br/>
 		<br/>
-		Please feel free to contact us if you need any further information or help as you make this purchase decision. 
+		หากท่านต้องการข้อมูลหรือความช่วยเหลือเพิ่มเติมใดๆในขณะตัดสินใจซื้อรถยนต์คันนี้ท่านสามารถติดต่อเราได้ทุกเมื่อโดยไม่ต้องกังวล
 		<br/>
 		<br/>
-		Hope to see you again soon!
+		หวังเป็นอย่างยิ่งว่าจะได้พบท่านอีกครั้งในเร็วๆนี้
 		<br/>
 		<br/>
-		Sincerely,
+		ขอแสดงความนับถือ
 		<br/>
 		[GMEmployeeName]
 		<br/>

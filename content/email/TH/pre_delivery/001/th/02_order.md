@@ -3,11 +3,6 @@ markets = ["th"]
 title = '''TH Pre Delivery 001 Order'''
 
 [[module]]
-path='email_modules/preheader'
-
-	preheader = '''โปรโมชั่นตรวจเช็คระยะสุดพิเศษ ที่มาพร้อมการบริการทันสมัยและมีประสิทธิภาพที่ศูนย์บริการมาตรฐานฟอร์ด'''
-
-[[module]]
 path='email_modules/header/logo'
 color='white'
 
@@ -32,36 +27,36 @@ color='white'
 font='th'
 
 	copy='''
-		Dear [Name],
+		เรียน [Name]
 		<br/>
 		<br/>
-		Congratulations on booking your brand new Ford [Model]! We are so excited to welcome you to the Ford Family and have you as our valued customer.
+		ขอแสดงความยินดีกับการจองรถยนต์ฟอร์ด [Model] คันใหม่ของท่านเราตื่นเต้นมากที่จะได้ต้อนรับท่านเข้าสู่ครอบครัวฟอร์ดและเป็นลูกค้าคนสำคัญของเรา
 		<br/>
 		<br/>
-		Before it arrives at [Company_Name] for your collection, we will let you know where it is at every step of its journey to you. Below are the details of your booking and expected delivery time:
+		ก่อนที่รถยนต์จะมาถึง [Company_Name] เพื่อส่งมอบแก่ท่านเราจะแจ้งการจัดส่งของรถยนต์คันนี้ให้ท่านทราบในทุกขั้นตอนด้านล่างนี้เป็นข้อมูลการจองของท่านและช่วงเวลาที่คาดว่าจะมีการส่งมอบ:
 		<br/>
 		<br/>
-		Expected Delivery Time: [Tentative_Date]
+		ช่วงเวลาที่คาดว่าจะมีการส่งมอบ: [Tentative_Date]
 		<br/>
-		Model Booked: [Market_Segment_Details]
+		รุ่นที่จอง: [Market_Segment_Details]
 		<br/>
-		Purchased Price: [Total_Amount]
-		<br/>
-		<br/>
-		If you have any questions or concerns about this booking, please don't hesitate to reach out. Here are your contacts:
+		ราคาซื้อ: [Total_Amount]
 		<br/>
 		<br/>
-		Sales Consultant: [SalesPerson_Code] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>
-		<br/>
-		Delivery Consultant: [Delivery_SalesPerson] <a href="tel:[Delivery_SalesPerson_Phone_No]" style="text-decoration: none;">[Delivery_SalesPerson_Phone_No]</a>
-		<br/>
-		And as a Ford Owner, you can visit the <a href="https://www.ford.co.th/en/owner/owner-unauthenticated/" style="color: #006fff; text-decoration: underline;">Ford Owner's Site</a> anytime to check out our maintenance, warranty and insurance services.
+		หากท่านมีคำถามหรือข้อสงสัยใดๆเกี่ยวกับการจองนี้ท่านสามารถติดต่อเราได้ทันทีข้อมูลสำหรับการติดต่อ:
 		<br/>
 		<br/>
-		Looking forward to take you on this exciting journey!
+		พนักงานขาย: [SalesPerson_Code] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>
+		<br/>
+		พนักงานส่งมอบรถ: [Delivery_SalesPerson] <a href="tel:[Delivery_SalesPerson_Phone_No]" style="text-decoration: none;">[Delivery_SalesPerson_Phone_No]</a>
+		<br/>
+		และในฐานะเจ้าของรถยนต์ฟอร์ดท่านสามารถเข้าไปที่เว็บไซต์ <a href="https://www.ford.co.th/owner/owner-unauthenticated/" style="color: #006fff; text-decoration: underline;">Ford Owner's Site</a> ได้ทุกเมื่อเพื่อตรวจสอบบริการการซ่อมบำรุงการรับประกัน และการประกันภัยของเรา
 		<br/>
 		<br/>
-		Sincerely,
+		หวังเป็นอย่างยิ่งว่าจะได้นำท่านไปสู่การเดินทางอันน่าตื่นเต้นนี้
+		<br/>
+		<br/>
+		ขอแสดงความนับถือ
 		<br/>
 		[GMEmployeeName]
 		<br/>

@@ -3,11 +3,6 @@ markets = ["th"]
 title = '''TH Pre Delivery 001 Transit'''
 
 [[module]]
-path='email_modules/preheader'
-
-	preheader = '''โปรโมชั่นตรวจเช็คระยะสุดพิเศษ ที่มาพร้อมการบริการทันสมัยและมีประสิทธิภาพที่ศูนย์บริการมาตรฐานฟอร์ด'''
-
-[[module]]
 path='email_modules/header/logo'
 color='white'
 
@@ -32,24 +27,24 @@ color='white'
 font='th'
 
 	copy='''
-		Dear [Name],
+		เรียน [Name]
 		<br/>
 		<br/>
-		Your new Ford [Model] is on its way to you as we speak! Yes. You're not dreaming. It's really happening! 
+		รถยนต์ฟอร์ด [Model] คันใหม่ของท่านกำลังเดินทางมาถึงแล้วในขณะนี้คุณไม่ได้กำลังฝันไปแต่กำลังเกิดขึ้นจริง 
 		<br/>
 		<br/>
-		Remember, if you have any questions or concerns, don't hesitate to reach out. We are here to help you. Here are your contacts:
+		อย่าลืม หากท่านมีคำถามหรือข้อสงสัยใดๆคุณสามารถติดต่อเราได้ทันทีเราอยู่ที่นี่เพื่อคอยช่วยเหลือท่านข้อมูลสำหรับการติดต่อ:
 		<br/>
 		<br/>
-		Sales Consultant: [SalesPerson_Code] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>
+		พนักงานขาย: [SalesPerson_Code] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>
 		<br/>
-		Delivery Consultant: [Delivery_SalesPerson] <a href="tel:[Delivery_SalesPerson_Phone_No]" style="text-decoration: none;">[Delivery_SalesPerson_Phone_No]</a>
-		<br/>
-		<br/>
-		It's on its way and we can hardly contain our excitement!
+		พนักงานส่งมอบรถ: [Delivery_SalesPerson] <a href="tel:[Delivery_SalesPerson_Phone_No]" style="text-decoration: none;">[Delivery_SalesPerson_Phone_No]</a>
 		<br/>
 		<br/>
-		Sincerely,
+		รถของท่านกำลังจัดส่งมาและเราแทบจะเก็บความตื่นเต้นไว้ไม่ได้
+		<br/>
+		<br/>
+		ขอแสดงความนับถือ
 		<br/>
 		[GMEmployeeName]
 		<br/>

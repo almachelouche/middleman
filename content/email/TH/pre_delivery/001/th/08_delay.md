@@ -3,11 +3,6 @@ markets = ["th"]
 title = '''TH Pre Delivery 001 Delay'''
 
 [[module]]
-path='email_modules/preheader'
-
-	preheader = '''โปรโมชั่นตรวจเช็คระยะสุดพิเศษ ที่มาพร้อมการบริการทันสมัยและมีประสิทธิภาพที่ศูนย์บริการมาตรฐานฟอร์ด'''
-
-[[module]]
 path='email_modules/header/logo'
 color='white'
 
@@ -26,25 +21,25 @@ color='white'
 font='th'
 
 	copy='''
-		Dear [Name],
+		เรียน [Name]
 		<br/>
 		<br/>
-		We regret to inform you that the delivery of your new Ford [Model] has been a bit delayed due to an unexpected irregularity. We are doing our best to get your car to you at the earliest!
+		เราเสียใจเป็นอย่างยิ่งที่ต้องแจ้งให้ท่านทราบว่ารถยนต์ฟอร์ด [Model] คันใหม่ของท่านเกิดความล่าช้าเล็กน้อยอันเนื่องมาจากเหตุการณ์ที่ไม่คาดคิด เรากำลังพยายามอย่างสุดความสามารถที่จะส่งมอบรถยนต์ให้ท่านโดยเร็วที่สุด
 		<br/>
 		<br/>
-		Your Delivery Consultant will be in touch with you with regular updates.
+		พนักงานส่งมอบรถยนต์จะติดต่อท่านเพื่อแจ้งความคืบหน้าอย่างสม่ำเสมอ
 		<br/>
 		<br/>
-		As a valued Ford customer, your satisfaction is of paramount importance to us, and we truly regret any inconvenience this delay may cause you. 
+		ในฐานะลูกค้าผู้มีอุปการะคุณของฟอร์ด ความพึงพอใจของท่านมีความสำคัญอย่างสูงสุดต่อเรา และเราเสียใจอย่างสุดซึ้งหากความล่าช้านี้ก่อให้เกิดความยุ่งยากแก่ท่าน 
 		<br/>
 		<br/>
-		In case if any queries, feel free to contact your Delivery Consultant [Delivery_SalesPerson] <a href="tel:[Delivery_SalesPerson_Phone_No]" style="text-decoration: none;">[Delivery_SalesPerson_Phone_No]</a>.
+		หากมีคำถามหรือข้อสงสัยใด ๆ คุณสามารถติดต่อสอบถามพนักงานส่งมอบรถยนต์ของท่านได้ที่ [Delivery_SalesPerson] <a href="tel:[Delivery_SalesPerson_Phone_No]" style="text-decoration: none;">[Delivery_SalesPerson_Phone_No]</a>.
 		<br/>
 		<br/>
-		Thank you so much for your understanding and patience.
+		ขอขอบคุณเป็นอย่างสูงสำหรับความเข้าใจจากท่าน
 		<br/>
 		<br/>
-		Sincerely,
+		ขอแสดงความนับถือ
 		<br/>
 		[GMEmployeeName]
 		<br/>

@@ -3,11 +3,6 @@ markets = ["th"]
 title = '''TH Pre Delivery 001 Finished'''
 
 [[module]]
-path='email_modules/preheader'
-
-	preheader = '''โปรโมชั่นตรวจเช็คระยะสุดพิเศษ ที่มาพร้อมการบริการทันสมัยและมีประสิทธิภาพที่ศูนย์บริการมาตรฐานฟอร์ด'''
-
-[[module]]
 path='email_modules/header/logo'
 color='white'
 
@@ -32,19 +27,19 @@ color='white'
 font='th'
 
 	copy='''
-		Dear [Name],
+		เรียน [Name]
 		<br/>
 		<br/>
-		Firstly, big congratulations for the purchase of your new Ford [Model]. We trust that you, your family and friends will enjoy years of happy motoring and ownership as a valued member of the Ford family. 
+		ก่อนอื่น ขอแสดงความยินดีครั้งสำคัญสำหรับการซื้อรถยนต์ฟอร์ด [Model] คันใหม่ของท่าน เราเชื่อว่าท่าน ครอบครัว และเพื่อนของท่านจะสนุกกับปีแห่งการเดินทางและการได้เป็นเจ้าของรถยนต์ฟอร์ดอย่างมีความสุขในฐานะสมาชิกคนสำคัญของครอบครัวฟอร์ด 
 		<br/>
 		<br/>
-		All of us here at [Company_Name] are completely committed to providing you with the personalize relationship and experience that you want, expect and deserve from the Ford brand and our dealership service. 
+		ในโอกาสนี้พวกเราทุกคนที่ [Company_Name] ต่างมุ่งมั่นอย่างเต็มที่ที่จะให้บริการท่านอย่างใกล้ชิด และมอบประสบการณ์ในแบบที่ท่านต้องการ  และจะได้รับจากแบรนด์ฟอร์ดและจากบริการของโชว์รูมผู้จำหน่ายของเรา
 		<br/>
 		<br/>
-		We look forward to serve and continuously exceed your expectations.
+		เราหวังเป็นอย่างยิ่งว่าจะได้มอบบริการอันสุดพิเศษ แด่ลูกค้าคนสำคัญของเรา
 		<br/>
 		<br/>
-		Sincerely,
+		ขอแสดงความนับถือ
 		<br/>
 		[GMEmployeeName]
 		<br/>

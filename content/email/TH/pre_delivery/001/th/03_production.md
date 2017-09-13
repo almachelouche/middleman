@@ -3,11 +3,6 @@ markets = ["th"]
 title = '''TH Pre Delivery 001 Production'''
 
 [[module]]
-path='email_modules/preheader'
-
-	preheader = '''โปรโมชั่นตรวจเช็คระยะสุดพิเศษ ที่มาพร้อมการบริการทันสมัยและมีประสิทธิภาพที่ศูนย์บริการมาตรฐานฟอร์ด'''
-
-[[module]]
 path='email_modules/header/logo'
 color='white'
 
@@ -32,20 +27,20 @@ color='white'
 font='th'
 
 	copy='''
-		Dear [NAME],
+		เรียน [Name]
 		<br/>
 		<br/>
-		Your Ford [Model] is under production, which means you're a step closer to getting behind the wheel and hitting the open road. 
+		รถยนต์ฟอร์ด [Model] ของท่านกำลังอยู่ในขั้นตอนการผลิตนั่นหมายความว่าท่านใกล้จะได้ขับขี่และได้เริ่มออกเดินทางกับรถยนต์คันใหม่ของท่าน 
 		<br/>
 		<br/>
-		In the meantime, why not get acquainted with your new car's smart and cool features by visiting our product website.
+		ในระหว่างนี้ท่านควรทำความรู้จักกับคุณสมบัติอันชาญฉลาดและเป็นเลิศของรถยนต์คันใหม่ของท่านด้วยการเข้าไปที่เว็บไซต์ผลิตภัณฑ์ของเรา
 		<br/>
-		<a href="https://www.ford.co.th/en/vehicles/" style="color: #006fff; text-decoration: underline;">https://www.ford.co.th/en/vehicles/</a>
+		<a href="https://www.ford.co.th/vehicles/" style="color: #006fff; text-decoration: underline;">https://www.ford.co.th/vehicles/</a>
 		<br/>
 		<br/>
-		We hope you're getting excited, because we know we are!
+		ท่านกำลังเริ่มรู้สึกตื่นเต้นเพราะตอนนี้เราก็รู้สึกเช่นกัน
 		<br/>
-		Sincerely,
+		ขอแสดงความนับถือ
 		<br/>
 		[GMEmployeeName]
 		<br/>

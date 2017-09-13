@@ -3,11 +3,6 @@ markets = ["th"]
 title = '''TH Pre Delivery 001 Pick Up'''
 
 [[module]]
-path='email_modules/preheader'
-
-	preheader = '''โปรโมชั่นตรวจเช็คระยะสุดพิเศษ ที่มาพร้อมการบริการทันสมัยและมีประสิทธิภาพที่ศูนย์บริการมาตรฐานฟอร์ด'''
-
-[[module]]
 path='email_modules/header/logo'
 color='white'
 
@@ -32,22 +27,22 @@ color='white'
 font='th'
 
 	copy='''
-		Dear [Name],
+		เรียน [Name]
 		<br/>
 		<br/>
-		The day has finally come. You can come to the dealership to pick up your new Ford [Model]. Just swing by and hop into your new ride.
+		ท่านสามารถมาที่โชว์รูมจำหน่ายฟอร์ดเพื่อรับมอบรถยนต์ Ford [Model] คันใหม่   เพียงแค่แวะมาแล้วขับรถยนต์คันใหม่ของท่าน
 		<br/>
 		<br/>
-		If you want to customize your new [Model] to fit the way you work and play, all you have to do is contact your Ford Dealer [Company_Name] and they can teach you how to personalize your new car. 
+		หากท่านต้องการการจัดเตรียมรถยนต์ [Model] คันใหม่ของท่านให้เหมาะสมกับวิธีการใช้ชีวิตของท่าน สิ่งที่ท่านต้องทำ คือ ติดต่อโชว์รูมจำหน่ายฟอร์ดของท่านที่ [Company_Name] เพื่อให้เจ้าหน้าที่สอนวิธีการระบุความต้องการของท่านเพื่อเตรียมพร้อมของรถ ก่อนส่งมอบให้แด่ท่าน 
 		<br/>
 		<br/>
-		Visit the <a href="[DFYURL]" style="color: #006fff; text-decoration: underline;">Pre-Delivery Website</a> to select a convenient time for you to come and collect your [Model], and you can also personalize your vehicle settings and learn about your car's cool features. Please contact your Delivery Consultant [Delivery_SalesPerson] at <a href="tel:[Delivery_SalesPerson_Phone_No]" style="text-decoration: none;">[Delivery_SalesPerson_Phone_No]</a> and arrange a convenient time for you to come and collect your [Model]. 
+		กรุณาเข้าไปที่ <a href="[DFYURL]" style="color: #006fff; text-decoration: underline;">เว็บไซต์ก่อนการส่งมอบ</a> เพื่อเลือกเวลาที่ท่านสะดวกรับมอบรถยนต์ [Model] ของท่าน  และท่านยังสามารถกำหนดรูปแบบเฉพาะสำหรับรถยนต์ของท่านรวมถึงเรียนรู้เกี่ยวกับคุณสมบัติอันยอดเยี่ยมในรถยนต์ของท่าน กรุณาติดต่อพนักงานส่งมอบรถชื่อ [Delivery_SalesPerson] ที่หมายเลข <a href="tel:[Delivery_SalesPerson_Phone_No]" style="text-decoration: none;">[Delivery_SalesPerson_Phone_No]</a> เพื่อตกลงเวลาที่คุณสะดวกในการมารับมอบรถยนต์ [Model] ของท่าน 
 		<br/>
 		<br/>
-		We hope you enjoy your drive!
+		เราหวังว่าท่านจะสนุกกับการขับขี่
 		<br/>
 		<br/>
-		Sincerely,
+		ขอแสดงความนับถือ
 		<br/>
 		[GMEmployeeName]
 		<br/>

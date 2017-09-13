@@ -3,11 +3,6 @@ markets = ["th"]
 title = '''TH Pre Delivery 001 Arrived'''
 
 [[module]]
-path='email_modules/preheader'
-
-	preheader = '''โปรโมชั่นตรวจเช็คระยะสุดพิเศษ ที่มาพร้อมการบริการทันสมัยและมีประสิทธิภาพที่ศูนย์บริการมาตรฐานฟอร์ด'''
-
-[[module]]
 path='email_modules/header/logo'
 color='white'
 
@@ -32,21 +27,21 @@ color='white'
 font='th'
 
 	copy='''
-		Dear [NAME],
+		เรียน [Name]
 		<br/>
 		<br/>
-		Your new Ford [Model] is here! It's waiting for you at the [Company_Name]. Can you smell the fresh coat of paint and new car scent already?
+		รถยนต์ฟอร์ด [Model] คันใหม่ของท่านมาถึงแล้ว และกำลังรอท่านอยู่ที่ [Company_Name] คุณได้กลิ่นสีและกลิ่นรถใหม่แล้วท่านหรือยัง
 		<br/>
 		<br/>
-		Get ready to welcome your new Ford [Model] to your life. But before that, we suggest getting acquainted with your car's cool features by visiting our product website.
+		เตรียมตัวให้พร้อมเพื่อต้อนรับรถยนต์ฟอร์ด [Model] คันใหม่เข้าไปในชีวิตท่านแต่ก่อนอื่นเราขอแนะนำให้ท่านเริ่มทำความรู้จักกับคุณสมบัติอันยอดเยี่ยมในรถของท่านด้วยการเข้าไปที่เว็บไซต์ผลิตภัณฑ์ของเรา
 		<br/>
-		<a href="https://www.ford.co.th/en/vehicles/" style="color: #006fff; text-decoration: underline;">https://www.ford.co.th/en/vehicles/</a>
-		<br/>
-		<br/>
-		We hope you're excited to meet your new Ford [Model]!
+		<a href="https://www.ford.co.th/vehicles/" style="color: #006fff; text-decoration: underline;">https://www.ford.co.th/vehicles/</a>
 		<br/>
 		<br/>
-		Sincerely,
+		เราหวังว่าท่านจะรู้สึกตื่นเต้นกับการได้พบรถยนต์ฟอร์ด [Model] คันใหม่ของท่าน
+		<br/>
+		<br/>
+		ขอแสดงความนับถือ
 		<br/>
 		[GMEmployeeName]
 		<br/>
