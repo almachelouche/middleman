@@ -70,7 +70,7 @@ font='th'
 	copy_align='left'
 	vertical_align='middle'
 
-	image='''FGE_KMI_TH_Contact_20170905'''
+	image='''FGE_KMI_EN_Contact_20170905'''
 
 [[module]]
 path='email_modules/footer/th/social'
