@@ -29,7 +29,7 @@ color='''white'''
 		Hi <%${user.CustomAttribute['FullName']}%>,
 		<br />
 		<br />
-		This is just a friendly reminder that your Ford <span style="color:#2D96CD"><%${user.CustomAttribute['Model']}%></span> is nearly due for its <span style="color:#2D96CD"><%${user.CustomAttribute['Service_Interval']}%></span>km service.
+		This is just a friendly reminder that your Ford <%${user.CustomAttribute['Model']}%> is nearly due for its <span style="color:#2D96CD"><%${user.CustomAttribute['Service_Interval']}%></span>km service.
 		<br />
 		<br />
     	We know how important your <%${user.CustomAttribute['Model']}%></span> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%></span> in the trusted hands of Ford trained technicians. You can even book a Free Loan Car&#185; for the day when you book your scheduled service.
