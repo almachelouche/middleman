@@ -81,7 +81,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy='''<span style="font-weight: bold;">Extended Warranty</span><br /><br />Your Transit includes a complimentary extended warranty which means your vehicle is covered for a total of up to 5 years or 200,000km – whichever comes first&#185;. Simply follow your vehicle’s servicing requirements outlined in your owner’s literature to stay protected. For your convenience, this warranty information is registered in the Ford Service system.<br /><br />Call us anytime on: 1300 80 10 80'''
+	copy='''<span style="font-weight: bold;">Extended Warranty</span><br /><br />Your Transit includes a complimentary extended warranty which means your vehicle is covered for a total of up to 5 years or 200,000km&#185; – whichever comes first&#185;. Simply follow your vehicle’s servicing requirements outlined in your owner’s literature to stay protected. For your convenience, this warranty information is registered in the Ford Service system.<br /><br />Call us anytime on: 1300 80 10 80'''
 
 [[module]]
 path='email_modules/spacer/default'
