@@ -66,7 +66,7 @@ path='email_modules/dual/05'
 color='white'
 
 	title1 = '''Service Journey with Ford'''
-	text_box_height = '''310'''
+	text_box_height = '''330'''
 	copy1 = '''With Ford, you never have to stress about service. From your car's first service to scheduled maintenance, plus everything in between, Ford offers it all so you always have peace of mind.'''
 	cta1a_text = '''CHECK IT OUT'''
 	cta1a_url = '''https://www.youtube.com/watch?v=EpUVjpuhxEE&t=133s/'''
