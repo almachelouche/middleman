@@ -25,7 +25,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />This is just a friendly reminder that your Ford<span style="color:#2D96CD"><%${user.CustomAttribute['Model']}%></span> is nearly due for its <span style="color:#2D96CD"><%${user.CustomAttribute['Service_Interval']}%></span> service.<br /><br />
+	copy = '''Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />This is just a friendly reminder that your Ford<span style="color:#2D96CD"><%${user.CustomAttribute['Model']}%></span> is nearly due for its <span style="color:#2D96CD"><%${user.CustomAttribute['Service_Interval']}%></span>km service.<br /><br />
     We know how important your <%${user.CustomAttribute['Model']}%></span> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%></span> in the trusted hands of Ford trained technicians. You can even book a Free Loan Car&#185; for the day when you book your scheduled service.<br /><br />
     Book your service and Free Loan Car&#185; with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or find your <a href="https://www.ford.com.au/dealership/" style="text-decoration:underline; color:#2D96CD">nearest dealer</a>. You can even book online below.'''
 
@@ -40,7 +40,7 @@ path='email_modules/singles/ctablock'
 color='''white'''
 
 	cta1_text = '''BOOK YOUR SERVICE'''
-	cta1_url = '''https://www.ford.com.au/owners/service/book-service/'''
+	cta1_url = '''https://consumer.xtime.net.au/scheduling/?company=14745&store=<%${user.CustomAttribute['DealerCode']}%>&VIN=<%${user.CustomAttribute['VIN']}%>&provider=FORD_AU_THE_BLUE_HIVE&keyword=<%${user.CustomAttribute['CampaignID']}%>&dest=&extid=<%${user.CustomAttribute['CampaignID']}%>&extctxt=FORD_AU_THE_BLUE_HIVE&cfn=<%${user.CustomAttribute['FullName']}%>&cln=<%${user['LastName']}%>&cpn=<%${user.CustomAttribute['Mobile_Phone']}%>&cem=<%${user.CustomAttribute['RealEmail']}%>&button=blue'''
 	cta1_link_name = '''service_booking'''
     
 [[module]]
