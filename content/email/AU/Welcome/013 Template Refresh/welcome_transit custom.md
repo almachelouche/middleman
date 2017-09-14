@@ -44,7 +44,7 @@ color='white'
 	url_link = '''https://www.ford.com.au/'''
 
 
-[[module]] #Banner Image No Link
+[[module]]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
