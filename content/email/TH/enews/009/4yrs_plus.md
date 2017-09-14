@@ -32,65 +32,41 @@ color='black'
 path='email_modules/custom/enews_topstory'
 color='black'
 
-title = '''<span style="font-family:Tahoma, Verdana, Sans-serif"></span>'''
-copy = '''
-<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style="white-space:nowrap;">สามารถติดตามข้อเสนอราคาพิเศษ</span>
-<br />
-<span style="white-space:nowrap;">สำหรับรถฟอร์ดเรนเจอร์ ฟอร์ดเอเวอเรสต์</span>
-<br />
-<span style="white-space:nowrap;">ฟอร์ดเอคโค่สปอร์ต ฟอร์ดโฟกัส และฟอร์ดเฟียสต้า</span>
-'''
-cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ข้อสนอพิเศษ</span>'''
-	cta1_url = '''https://www.ford.co.th/buying/latest-offers'''
-	cta1_link_name = '''buying_latest_offer'''
-	cta1_icon = '''play'''
- 
-[[module]]
-path='email_modules/spacer/platinum_20'
-color='white'
-
-[[module]] #Split 01
-path='email_modules/split/01'
-color='green'
-
 title = '''
-<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style="white-space:nowrap;">Celebrating</span>
-<br />
-<span style="white-space:nowrap;">100 Years</span>
-<br />
-<span style="white-space:nowrap;">of Trucks</span>
+<span style="font-family:Tahoma, Verdana, Sans-serif"> Celebrating 100 Years of Trucks</span>
 '''
 copy = '''
 <span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style="white-space:nowrap;">Exactly 100 years ago,</span>
 <br />
-<span style="white-space:nowrap;">Ford set off on a great adventure</span>
+<span style="white-space:nowrap;">Ford set off on a great adventure</span> 
 <br />
-<span style="white-space:nowrap;">to build the perfect truck</span>
+<span style="white-space:nowrap;">to build the perfect truck to give people a truck</span> 
 <br />
-<span style="white-space:nowrap;">to give people a truck</span>
-<br />
-<span style="white-space:nowrap;">that would let them</span> 
-<br />
-<span style="white-space:nowrap;">achieve their dreams.</span> 
+<span style="white-space:nowrap;">that would let them achieve their dreams.</span>
 <br />
 <span style="white-space:nowrap;">Watch the video below</span>
 <br />
-<span style="white-space:nowrap;">to see how Ford trucks</span> 
+<span style="white-space:nowrap;">to see how Ford trucks have evolved over the years</span> 
 <br />
-<span style="white-space:nowrap;">have evolved over the years</span>
-<br />
-<span style="white-space:nowrap;">to continue to</span> 
-<br />
-<span style="white-space:nowrap;">help people reach their goals.</span>
-''' 
+<span style="white-space:nowrap;">to continue to help people reach their goals.</span>
+'''
 cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">WATCH NOW</span>'''
 	cta1_url = '''https://www.facebook.com/FordThailand/videos/1384510834936515/'''
 	cta1_link_name = '''Celebrate_100_Years'''
 	cta1_icon = '''play'''
-	image = '''th_edm6_celebrate_100_years_20170911'''
+
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+
+	image = ''''''
+	url_link = '''https://www.facebook.com/FordThailand/videos/1384510834936515/'''
+	cta_link_name = '''Celebrate_100_Years'''
+ 
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
 
 	[[module]] #Split 01
 path='email_modules/split/01'
@@ -117,6 +93,24 @@ cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">WATCH NOW</
 	cta1_link_name = '''Vehicle_Health_Tips'''
 	cta1_icon = '''play'''
 	image = '''th_edm6_vehicle_health_tips_20170911'''
+
+[[module]] # eNews Top Story
+path='email_modules/custom/enews_topstory'
+color='black'
+
+title = '''<span style="font-family:Tahoma, Verdana, Sans-serif"></span>'''
+copy = '''
+<span style="font-family:Tahoma, Verdana, Sans-serif">
+<span style="white-space:nowrap;">สามารถติดตามข้อเสนอราคาพิเศษ</span>
+<br />
+<span style="white-space:nowrap;">สำหรับรถฟอร์ดเรนเจอร์ ฟอร์ดเอเวอเรสต์</span>
+<br />
+<span style="white-space:nowrap;">ฟอร์ดเอคโค่สปอร์ต ฟอร์ดโฟกัส และฟอร์ดเฟียสต้า</span>
+'''
+cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ข้อสนอพิเศษ</span>'''
+	cta1_url = '''https://www.ford.co.th/buying/latest-offers'''
+	cta1_link_name = '''buying_latest_offer'''
+	cta1_icon = '''play'''
 
 [[module]]
 path='email_modules/spacer/platinum_20'
