@@ -56,6 +56,12 @@ color='''white'''
     Don't wait too long because the offer ends September 30, 2017.*'''
 
 [[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
 path='email_modules/spacer/platinum_20'
 color='white'
 
