@@ -48,7 +48,7 @@ color='white'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''au_edm1_transit_20170629'''
+	image = '''au_edm1_transit_20170914'''
     
 [[module]]
 path='email_modules/spacer/default'
