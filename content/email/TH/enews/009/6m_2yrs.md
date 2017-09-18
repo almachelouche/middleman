@@ -16,55 +16,11 @@ color='black'
 	date = '''<span style="font-family:Tahoma, Verdana, Sans-serif">26 กันยายน 2560</span>'''
 	copy = '''
     <span style="font-family:Tahoma, Verdana, Sans-serif">IN THIS ISSUE<br />
-    <span style="white-space:nowrap;">Raptor</span> |<br />
 	<span style="white-space:nowrap;">100 Years of Trucks</span> |<br />    
 	<span style="white-space:nowrap;">Vehicle Health Video</span> |<br />
     <span style="white-space:nowrap;">OSP</span> |<br />
     <span style="white-space:nowrap;">Ford Owners App</span> |
     '''
-
-[[module]] #Header Logo
-path='email_modules/header/logodesktop'
-color='black'
-
-	image = '''black'''
-	url_link = '''https://www.ford.co.th/'''
- 
-[[module]] # eNews Top Story
-path='email_modules/custom/enews_topstory'
-color='black'
-
-title = '''
-<span style="font-family:Tahoma, Verdana, Sans-serif">Raptor</span>
-'''
-copy = '''
-<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style="white-space:nowrap;">Exactly 100 years ago,</span>
-<br />
-<span style="white-space:nowrap;">Ford set off on a great adventure</span> 
-<br />
-<span style="white-space:nowrap;">to build the perfect truck to give people a truck</span> 
-<br />
-<span style="white-space:nowrap;">that would let them achieve their dreams.</span>
-<br />
-<span style="white-space:nowrap;">Watch the video below</span>
-<br />
-<span style="white-space:nowrap;">to see how Ford trucks have evolved over the years</span> 
-<br />
-<span style="white-space:nowrap;">to continue to help people reach their goals.</span>
-'''
-cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">WATCH NOW</span>'''
-	cta1_url = ''''''
-	cta1_link_name = ''''''
-	cta1_icon = '''play'''
-
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-
-	image = ''''''
-	url_link = ''''''
-	cta_link_name = ''''''
 
 [[module]]
 path='email_modules/spacer/platinum_20'
