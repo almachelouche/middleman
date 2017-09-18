@@ -97,8 +97,8 @@ color='white'
 	cta2a_url = '''https://www.ford.com.au/owners/service/free-sat-nav-updates/'''
 	cta2a_link_name = '''accessory'''
 	image2 = '''au_edm2_free_sat_nav_updates_20170818'''
-    image2_url='''https://www.ford.com.au/owners/service/free-sat-nav-updates/'''
-    image2_name='''Some'''
+	image2_link_url = '''https://www.ford.com.au/owners/service/free-sat-nav-updates/'''
+	image2_link_name = '''Some'''
 
 [[module]] #Footer Disclaimer 
 path='email_modules/footer/disclaimer'
