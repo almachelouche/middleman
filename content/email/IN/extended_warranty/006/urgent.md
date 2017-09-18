@@ -21,13 +21,23 @@ color='''white_ot'''
 
 	title = '''Last chance to extend your warranty'''
 	copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Your Ford <%${user.CustomAttribute['Model']}%>'s warranty will expire on <%${user.CustomAttribute['EWDate']}%>. Once it expires, it can't be extended.<br /><br />Our Extended Warranty Plans are designed specifically for your vehicle, and protect you from out-of-pocket bills. They cover major mechanical and electric failures, and are even transferrable - improving your vehicle's resale value.<br /><br />We've got your back. Get in touch today and stay protected.'''
-	cta1_text = '''STAY COVERED'''
+	icon = '''in_edm3_extendedwarranty_20160801'''
+
+[[module]]
+path='email_modules/singles/2ctablocksideoutline'
+color='''white'''
+	cta1_text = '''&nbsp;&nbsp;STAY COVERED&nbsp;&nbsp;'''
 	cta1_url = '''https://www.india.ford.com/content/ford/in/en_in/site-wide-content/overlays/forms/buyextendedwarranty/'''
 	cta1_link_name = '''buy_warranty'''
-	cta2_text = '''FIND OUT MORE'''
+    cta2_text = '''FIND OUT MORE'''
 	cta2_url = '''https://www.india.ford.com/owner/extended-warranty/'''
 	cta2_link_name = '''warranty_info'''
-	icon = '''in_edm3_extendedwarranty_20160801'''
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
