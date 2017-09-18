@@ -16,6 +16,7 @@ color='black'
 	date = '''<span style="font-family:Tahoma, Verdana, Sans-serif">26 กันยายน 2560</span>'''
 	copy = '''
 	<span style="font-family:Tahoma, Verdana, Sans-serif">IN THIS ISSUE<br />
+    <span style="white-space:nowrap;">Raptor</span> |<br />
 	<span style="white-space:nowrap;">100 Years of Trucks</span> |<br />    
 	<span style="white-space:nowrap;">Vehicle Health Video</span> |<br />
     <span style="white-space:nowrap;">Ford Owners App</span> |
@@ -80,11 +81,11 @@ color='green'
 	cta1_icon = '''play'''
 	image = '''th_edm6_celebrate100years_20170918'''
 
-	[[module]] #Split 01
-path='email_modules/split/01'
-color='darkblue'
-
-title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+[[module]] #Split 02
+path='email_modules/split/02'
+color='lightblue'
+    
+    title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 <span style=" white-space:nowrap;">Vehicle Health 101</span>'''
 copy = '''
 <span style="font-family:Tahoma, Verdana, Sans-serif">
