@@ -17,6 +17,15 @@ segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 	preheader='''Dear <%${user.CustomAttribute['FullName']}%>, welcome to the Ford Family.'''
 
 
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+segmentif = ["(user.CustomAttribute['MODEL'] == 'TransitCustom')"]
+    
+    image='''nz_edm1_transit_custom_20170612'''
+ 	url_link='''https://www.ford.co.nz/'''
+ 	url_link_name='''transit'''
+    
     
 [[module]] #Banner Image
 path='email_modules/image/banner'
