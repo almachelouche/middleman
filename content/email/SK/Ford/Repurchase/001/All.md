@@ -56,6 +56,9 @@ color='''white'''
     <br/>
     <br/>
     <span style="white-space:nowrap;">단, 상기 프로모션은 차종 및 전시장 상황에 따라 다를 수 있습니다</span>
+    <br/>
+    <br/>
+    <span style="white-space:nowrap;">Required to submit supporting document to prove that repurchaser is immediate family member of vehicle owner</span>
     '''
 
 	cta_direction = '''horizontal'''
