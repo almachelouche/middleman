@@ -36,17 +36,6 @@ color='white_pb'
 	cta2_link_name = ''''''
 	cta1_icon = '''play'''
 
-[[module]]
-path = '''email_modules/image/mobile_cover'''
-color = '''white'''
-
-	image = '''th_edm1&4_np_ranger_20161115'''
-
-[[module]]
-path = '''email_modules/image/mobile_cover2'''
-color = '''white'''
-
-	image = '''th_edm1&4_np_ranger_20161115'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
@@ -60,6 +49,12 @@ color='lightblue'
 	cta1_icon = '''play'''
 	image = '''in_edm6_service_journey_20170420'''
 
+[[module]]
+path = '''email_modules/image/mobile_cover'''
+color = '''white'''
+
+	image = '''th_edm1&4_np_ranger_20161115'''
+
 [[module]] #Split 02
 path='email_modules/split/02'
 color='green'
@@ -71,7 +66,13 @@ color='green'
 	cta1_link_name = '''air_con_video'''
 	cta1_icon = '''play'''
 	image = '''in_edm6_drive_ac_20170809'''
-    
+
+[[module]]
+path = '''email_modules/image/mobile_cover2'''
+color = '''white'''
+
+	image = '''th_edm1&4_np_ranger_20161115'''
+
 [[module]] #Split 01
 path='email_modules/split/01'
 color='darkblue'
