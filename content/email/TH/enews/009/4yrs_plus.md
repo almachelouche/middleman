@@ -15,10 +15,10 @@ color='black'
 	title = '''Insider'''
 	date = '''<span style="font-family:Tahoma, Verdana, Sans-serif">26 กันยายน 2560</span>'''
 	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-	IN THIS ISSUE<br />
-	<span style="white-space:nowrap;">Buying Latest Offer</span> |<br /> 
+	IN THIS ISSUE<br /> 
 	<span style="white-space:nowrap;">WATCH: 100 Years of Trucks</span> |<br /> 
 	<span style="white-space:nowrap;">Vehicle Health Video</span> |<br />
+    <span style="white-space:nowrap;">Buying Latest Offer</span> |
     '''
 
 [[module]] #Header Logo
