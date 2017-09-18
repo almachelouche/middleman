@@ -16,13 +16,35 @@ segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 
 	preheader='''Dear <%${user.CustomAttribute['FullName']}%>, welcome to the Ford Family.'''
 
+
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
+segmentif = ["(user.CustomAttribute['MODEL'] == 'TransitCustom')"]
+    
+    image='''nz_edm1_transit_custom_20170612'''
+ 	url_link='''https://www.ford.co.nz/'''
+ 	url_link_name='''transit'''
+    
+    
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+segmentif = ["(user.CustomAttribute['MODEL'] == 'TourneoCustom')"]
 
-	image='''nz_edm1_transit_custom_20170612'''
-	url_link='''https://www.ford.co.nz/'''
-	url_link_name='''transit'''
+	image = '''au_edm1_tourneo_custom_20170918'''
+    url_link='''https://www.ford.co.nz/'''
+	url_link_name='''tourneo custom'''
+
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+segmentif = ["(user.CustomAttribute['MODEL'] == 'TransitCargo')"]
+
+	image = '''nz_edm1_transit_cargo_20170918'''
+    url_link='''https://www.ford.co.nz/'''
+	url_link_name='''transit cargo'''
+    
 
 [[module]]
 path='email_modules/spacer/default'
