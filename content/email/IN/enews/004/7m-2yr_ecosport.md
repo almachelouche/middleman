@@ -1,12 +1,12 @@
 +++
 markets = ["in"]
-title = '''IN Enews 004 2yr+ EcoSport'''
+title = '''IN Enews 004 7m-2yr'''
 
 [[module]]
 path='email_modules/preheader'
 color='''white'''
 
-	preheader = '''You're reading the 4th edition of the Insider where we share some of the latest happenings and events at Ford. Plus, you can check out some smart servicing tips that can help keep you safe on the road and keep your wallet happy. We hope this continues to inspire you to Go Further!'''
+	preheader = '''You're reading the 4th edition of the Insider where we share some of the latest happenings and events at Ford. Plus, you can check out some smart servicing tips that can help keep you safe on the road and keep your wallet happy.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -21,32 +21,32 @@ color='black'
 
 	title = '''Insider'''
 	date = '''September 2017'''
-	copy = '''IN THIS ISSUE:<br />Road Trip Tunes | Safety Report Cards | CarDekho Safety Month | And more'''
+	copy = '''IN THIS ISSUE:<br />Road Trip Tunes | Safety Report Cards | Air Con Tips & Tricks | And more'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
 color='white_pb'
 
-	copy = '''Welcome to the 4th edition of the Insider! Here, you can learn about the latest happenings and events at Ford. Plus, learn more about Motorcraft parts and how they are the best option when it comes to alternative parts for your Ford. <br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: normal;">Motorcraft for You</span><br /><br />Keep your Ford EcoSport happy and healthy by choosing Motorcraft parts. Superior in quality and performance to other parts, and at a competitive price, Motorcraft is a highly reliable option for alternative parts for your Ford. Reach out to a Ford dealership to learn more about Motorcraft parts. '''
-	cta1_text = '''LEARN MORE'''
-	cta1_url = '''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
-	cta1_link_name = '''motorcraft'''
+	copy = '''Welcome to the 4th edition of the Insider! Here, you can learn about the latest happenings and events at Ford. Plus, learn how to get the most out of your EcoSport's infotainment system. <br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: normal;">Infotainment 101</span><br /><br />Become a pro at using your EcoSport's Infotainment system in no time! Click on the link below to watch short videos on how to get the most out of it. From setting up the sound to pairing your phone via Bluetooth to how to use Navigation – it's all there.'''
+	cta1_text = '''WATCH NOW'''
+	cta1_url = '''https://www.youtube.com/watch?v=rTMTBZ8W_4Y&index=1&list=PLyO4HcxK6VwoQpGqoLWYtg_bXbMo7LvnE'''
+	cta1_link_name = '''infotainment'''
 	cta2_text = ''''''
 	cta2_url = ''''''
 	cta2_link_name = ''''''
-	cta1_icon = '''more'''
+	cta1_icon = '''play'''
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
-	image='''in_edm6_motorcrafts_20170830'''
-	url_link='''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
-	url_link_name='''motorcraft_image'''
+	image='''in_edm6_infotaiment_20170830'''
+	url_link='''https://www.youtube.com/watch?v=rTMTBZ8W_4Y&index=1&list=PLyO4HcxK6VwoQpGqoLWYtg_bXbMo7LvnE'''
+	url_link_name='''infotainment_image'''
 
-[[module]] #Split 02
-path='email_modules/split/02'
-color='darkblue'
+[[module]] #Split 01
+path='email_modules/split/01'
+color='lightblue'
 
 	title = '''Safety Report Cards'''
 	copy = '''We partnered with 550 schools across India to teach kids about road safety, handing out Safety Report Cards to students to grade their parents' driving. To become model drivers, click below to learn what to do if you have car troubles on the road.'''
@@ -56,18 +56,6 @@ color='darkblue'
 	cta1_icon = '''more'''
 	image = '''in_edm6_school_contact_20170809'''
     
-[[module]] #Split 01
-path='email_modules/split/01'
-color='lightblue'
-
-	title = '''CarDekho Safety Month'''
-	copy = '''India has the highest number of road deaths in the world, yet many don't consider safety when buying a car. To combat this, Ford partnered with CarDekho to initiate a safety month, and created safety-related content to raise awareness of the importance of safety when driving.'''
-	cta1_text = '''LEARN MORE'''
-	cta1_url = '''http://safetymonth.cardekho.com/'''
-	cta1_link_name = '''cardekho_safety_month'''
-	cta1_icon = '''more'''
-	image = '''in_edm6_cardekho_20170809'''
-
 [[module]] #Split 02
 path='email_modules/split/02'
 color='green'
