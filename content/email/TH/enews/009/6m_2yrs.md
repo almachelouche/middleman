@@ -34,7 +34,7 @@ path='email_modules/custom/enews_topstory'
 color='black'
 
 title = '''
-<span style="font-family:Tahoma, Verdana, Sans-serif"> Celebrating 100 Years of Trucks</span>
+<span style="font-family:Tahoma, Verdana, Sans-serif">Raptor</span>
 '''
 copy = '''
 <span style="font-family:Tahoma, Verdana, Sans-serif">
@@ -53,8 +53,8 @@ copy = '''
 <span style="white-space:nowrap;">to continue to help people reach their goals.</span>
 '''
 cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">WATCH NOW</span>'''
-	cta1_url = '''https://www.facebook.com/FordThailand/videos/1384510834936515/'''
-	cta1_link_name = '''Celebrate_100_Years'''
+	cta1_url = ''''''
+	cta1_link_name = ''''''
 	cta1_icon = '''play'''
 
 [[module]] #Banner Image
@@ -62,12 +62,24 @@ path='email_modules/image/banner'
 color='white'
 
 	image = ''''''
-	url_link = '''https://www.facebook.com/FordThailand/videos/1384510834936515/'''
-	cta_link_name = '''Celebrate_100_Years'''
+	url_link = ''''''
+	cta_link_name = ''''''
 
 [[module]]
 path='email_modules/spacer/platinum_20'
 color='white'
+
+[[module]] #Split 01
+path='email_modules/split/01'
+color='green'
+
+	title = '''Celebrating 100 Years of Trucks'''
+	copy = '''Exactly 100 years ago, Ford set off on a great adventure to build the perfect truck to give people a truck that would let them achieve their dreams. Watch how Ford trucks evolved over the century.'''
+	cta1_text = '''WATCH NOW'''
+	cta1_url = '''https://www.facebook.com/FordThailand/videos/1384510834936515/'''
+	cta1_link_name = '''celebrate_100_years'''
+	cta1_icon = '''play'''
+	image = '''th_edm6_celebrate100years_20170918'''
 
 	[[module]] #Split 01
 path='email_modules/split/01'
