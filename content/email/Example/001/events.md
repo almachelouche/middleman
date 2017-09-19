@@ -26,7 +26,4 @@ color='fordblue'
 	cta_1_link_name = '''Google'''
 	cta_1_type = '''text'''
 
-
-https://s3-ap-southeast-1.amazonaws.com/edm-images/logos/white_pb_desktop.png
-
 +++
