@@ -21,7 +21,7 @@ color='black'
 
 	title = '''Insider'''
 	date = '''September 2017'''
-	copy = '''IN THIS ISSUE:<br />Road Trip Tunes | Service Journey with Ford | Air Con Tips & Tricks | And more'''
+	copy = '''IN THIS ISSUE:<br />Road Trip Tunes | Service Journey with Ford | And more'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
@@ -43,6 +43,18 @@ color='white'
 	image='''in_edm6_infotaiment_20170830'''
 	url_link='''https://www.youtube.com/watch?v=rTMTBZ8W_4Y&index=1&list=PLyO4HcxK6VwoQpGqoLWYtg_bXbMo7LvnE'''
 	url_link_name='''infotainment_image'''
+
+[[module]] #Split 02
+path='email_modules/split/02'
+color='darkblue'
+
+	title = '''Road Trip Tunes'''
+	copy = '''There's nothing better than pairing a nice long drive with an awesome playlist. That's why Ford collaborated with Hungama music app to put together a playlist perfect for your next road trip. Regardless of what car you drive, you can access this playlist.'''
+	cta1_text = '''FORD RETRO RIDES'''
+	cta1_url = '''https://goo.gl/LjGCVT'''
+	cta1_link_name = '''retro_rides_playlist'''
+	cta1_icon = '''more'''
+	image = '''in_edm6_retro_rides_20170809'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
