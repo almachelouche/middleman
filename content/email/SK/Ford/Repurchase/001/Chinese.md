@@ -1,7 +1,7 @@
 
 +++
 markets = ["sk-ford"]
-title = '''SK Ford Repurchase 001 All'''
+title = '''SK Ford Test 001 Chinese'''
 
 [[module]]
 path='email_modules/preheader'
@@ -29,16 +29,16 @@ color='''white'''
     <span style="white-space:nowrap;">더 가볍게, 더 특별하게 포드를 다시 만나는 순간</span>
     '''
 	copy='''
-    <span style="white-space:nowrap;">포드의 오너가 되어주신 고객님께 다시 한 번 감사드리며,</span>
+    <span style="white-space:nowrap;">你好,欢迎来到福特的大家庭</span>
     <br/>
-    <span style="white-space:nowrap;">언제나 모든 기대에 만족하는 브랜드로 오래도록 함께하겠습니다.</span>
+    <span style="white-space:nowrap;">在此，我们忠心感谢您对长安福特的支持和参与！</span>
     <br/>
     <br/>
-    <span style="white-space:nowrap;">새로운 포드를 부담 없는 가격으로</span>
+    <span style="white-space:nowrap;">作为福特家庭的一份子，</span>
     <br/>
-    <span style="white-space:nowrap;">다시 만나고 싶은 고객님을 위해</span>
+    <span style="white-space:nowrap;">你会接收到来自长安福特的特惠信息和新闻消息</span>
     <br/>
-    <span style="white-space:nowrap;">포드 코리아에서는 2017년 12월 31일까지</span>
+    <span style="white-space:nowrap;">希望能得到您的喜爱和支持！</span>
     <br/>
     <span style="white-space:nowrap;">아래의 차종에 대한 재구매 금융 프로그램을 제공하고 있습니다.</span>
     <br/>
@@ -56,9 +56,6 @@ color='''white'''
     <br/>
     <br/>
     <span style="white-space:nowrap;">단, 상기 프로모션은 차종 및 전시장 상황에 따라 다를 수 있습니다</span>
-    <br/>
-    <br/>
-    <span style="white-space:nowrap;">Required to submit supporting document to prove that repurchaser is immediate family member of vehicle owner</span>
     '''
 
 	cta_direction = '''horizontal'''
