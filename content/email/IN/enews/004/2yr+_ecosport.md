@@ -49,7 +49,7 @@ path='email_modules/spacer/platinum_20'
 color='white'
 
 [[module]] #Split 01
-path='email_modules/split/02'
+path='email_modules/split/01'
 color='green'
 
 	title = '''Road Trip Tunes'''
@@ -62,7 +62,7 @@ color='green'
 
 
 [[module]] #Split 02
-path='email_modules/split/01'
+path='email_modules/split/02'
 color='darkblue'
 
 	title = '''Safety Report Cards'''
