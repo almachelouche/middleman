@@ -38,7 +38,7 @@ color='black'
 path='email_modules/image/banner'
 color='white'
 
-	image = '''AU_edm6_awards_20170216'''
+	image = '''AU_edm6_raptor_20170920'''
 	url_link = '''https://www.ford.com.au/about-ford/awards/'''
 
 [[module]] #Split 02
@@ -63,7 +63,7 @@ color='darkblue'
 	cta1_url = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10156519835473747/?type=2&theater'''
 	cta1_link_name = '''RS'''
 	cta1_icon = '''play'''
-	image = '''AU_edm6_accessories2_20170614'''
+	image = '''AU_edm6_focus_20170920'''
 
 
 [[module]] #Split 02

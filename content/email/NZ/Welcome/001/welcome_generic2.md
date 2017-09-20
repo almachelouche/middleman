@@ -1,6 +1,6 @@
 +++
 markets = ["nz"]
-title = '''NZ Welcome 001 generic2'''
+title = '''NZ Welcome 000 generic'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

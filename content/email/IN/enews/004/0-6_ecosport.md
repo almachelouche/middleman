@@ -6,7 +6,7 @@ title = '''IN Enews 004 0-6m EcoSport'''
 path='email_modules/preheader'
 color='''white'''
 
-	preheader = '''You're reading the 4th edition of the Insider where we share some of the latest happenings at Ford. Plus, you can check out some smart servicing tips that can help keep you safe on the road and keep your wallet happy.'''
+	preheader = '''Welcome to the 4th edition of the Insider! Here, you can learn about the latest happenings and events at Ford. Plus, learn how to get the most out of your EcoSport's infotainment system.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -21,7 +21,7 @@ color='black'
 
 	title = '''Insider'''
 	date = '''September 2017'''
-	copy = '''IN THIS ISSUE:<br />Road Trip Tunes | Service Journey with Ford | And more'''
+	copy = '''IN THIS ISSUE:<br />Infotainment 101 | Road Trip Tunes | Service Journey with Ford | And more'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
@@ -44,12 +44,16 @@ color='white'
 	url_link='''https://www.youtube.com/watch?v=rTMTBZ8W_4Y&index=1&list=PLyO4HcxK6VwoQpGqoLWYtg_bXbMo7LvnE'''
 	url_link_name='''infotainment_image'''
 
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
 [[module]] #Split 02
 path='email_modules/split/02'
 color='darkblue'
 
 	title = '''Road Trip Tunes'''
-	copy = '''There's nothing better than pairing a nice long drive with an awesome playlist. That's why Ford collaborated with Hungama music app to put together a playlist perfect for your next road trip. Regardless of what car you drive, you can access this playlist.'''
+	copy = '''We know there's nothing better than pairing a nice long drive with your favorite tunes blasting from the stereo. So, Ford collaborated with Hungama music app to put together a playlist you can listen to on your next road trip.'''
 	cta1_text = '''FORD RETRO RIDES'''
 	cta1_url = '''https://goo.gl/LjGCVT'''
 	cta1_link_name = '''retro_rides_playlist'''

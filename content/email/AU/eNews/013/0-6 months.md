@@ -30,7 +30,7 @@ color='black'
 
 	title = '''FORD RANGER RAPTOR IS COMING!'''
 	copy = '''Joining the Ford line-up in 2018, the Ford Ranger Raptor is designed to conquer the toughest of all terrain and will be the ultimate performance off-road pick-up truck. Since reveal on September 7th, the Ranger Raptor has already created quite the buzz. Click below to watch the prototype in testing and to get exclusive updates. '''
-	cta1_text = '''WATCH PROTOTYPE TESTING '''
+	cta1_text = '''WATCH PROTOTYPE TESTING'''
 	cta1_url = '''https://www.ford.com.au/commercial/ranger/raptor/?intcmp=bb-fau-vhp-ford%20ranger-fau-vhp-ford%20ranger-return#overlay/content/ford/au/en_au/ranger-content/overlay-videos/raptor-videos/video1.html '''
 	cta1_link_name = '''RangerRaptor'''
 	cta1_icon = '''play'''
@@ -41,7 +41,7 @@ path='email_modules/image/banner'
 color='white'
 
 
-	image = '''AU_edm6_accessories2_20170614'''
+	image = '''AU_edm6_raptor_20170920'''
 	url_link = '''<link>'''
     
     [[module]] #Split 02
