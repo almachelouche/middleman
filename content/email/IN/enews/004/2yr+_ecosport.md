@@ -6,7 +6,7 @@ title = '''IN Enews 004 2yr+ EcoSport'''
 path='email_modules/preheader'
 color='''white'''
 
-	preheader = '''You're reading the 4th edition of the Insider where we share some of the latest happenings and events at Ford. Plus, you can check out some smart servicing tips that can help keep you safe on the road and keep your wallet happy. We hope this continues to inspire you to Go Further!'''
+	preheader = '''Welcome to the 4th edition of the Insider! Here, you can learn about the latest happenings and events at Ford. Plus, check out how Motorcraft&#174; parts can help keep your Ford in tip top shape for longer at competitive prices.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -21,13 +21,13 @@ color='black'
 
 	title = '''Insider'''
 	date = '''September 2017'''
-	copy = '''IN THIS ISSUE:<br />Road Trip Tunes | Safety Report Cards | CarDekho Safety Month | And more'''
+	copy = '''IN THIS ISSUE:<br />Motorcraft&#174; Parts | Road Trip Tunes | Safety Report Cards | And more'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
 color='white_pb'
 
-	copy = '''Welcome to the 4th edition of the Insider! Here, you can learn about the latest happenings and events at Ford. Plus, learn more about Motorcraft parts and how they are the best option when it comes to alternative parts for your Ford. <br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: normal;">Motorcraft for You</span><br /><br />Keep your Ford EcoSport happy and healthy by choosing Motorcraft parts. Superior in quality and performance to other parts, and at a competitive price, Motorcraft is a highly reliable option for alternative parts for your Ford. Reach out to a Ford dealership to learn more about Motorcraft parts. '''
+	copy = '''Welcome to the 4th edition of the Insider! Here, you can learn about the latest happenings and events at Ford. Plus, check out how Motorcraft&#174; parts can help keep your Ford in tip top shape for longer at competitive prices.<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: normal;">Motorcraft&#174; for You</span><br /><br />The world-renowned Motorcraft&#174; parts are now available at all Ford Showrooms. Coming highly recommended by Ford, offering exceptional value and uncompromising quality at competitive prices, Motorcraft is a reliable option for parts for your EcoSport. Reach out to a Ford dealership to learn more about Motorcraft&#174; parts.'''
 	cta1_text = '''LEARN MORE'''
 	cta1_url = '''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
 	cta1_link_name = '''motorcraft'''
@@ -44,15 +44,32 @@ color='white'
 	url_link='''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
 	url_link_name='''motorcraft_image'''
 
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
+[[module]] #Split 01
+path='email_modules/split/02'
+color='green'
+
+	title = '''Road Trip Tunes'''
+	copy = '''We know there's nothing better than pairing a nice long drive with your favorite tunes blasting from the stereo. So, Ford collaborated with Hungama music app to put together a playlist you can listen to on your next road trip.'''
+	cta1_text = '''FORD RETRO RIDES'''
+	cta1_url = '''https://goo.gl/LjGCVT'''
+	cta1_link_name = '''retro_rides_playlist'''
+	cta1_icon = '''more'''
+	image = '''in_edm6_retro_rides_20170809'''
+
+
 [[module]] #Split 02
 path='email_modules/split/02'
 color='darkblue'
 
 	title = '''Safety Report Cards'''
-	copy = '''We partnered with 550 schools across India to teach kids about road safety, handing out Safety Report Cards to students to grade their parents' driving. To become model drivers, click below to learn what to do if you have car troubles on the road.'''
+	copy = '''We are always thinking about how to keep you and your family safe on the road. That's why we partnered with 550 schools across India to hand out Safety Report Cards to students, where they can learn about road safety and rate their parents' driving.'''
 	cta1_text = '''LEARN MORE'''
-	cta1_url = '''https://www.drivingskillsforlife.com/mediacenter1/latest-happenings/7-safety-tips-to-know-if-your-car-breaks-down/'''
-	cta1_link_name = '''7_safety_tips'''
+	cta1_url = '''https://www.youtube.com/watch?v=uMSb9NWIZVY'''
+	cta1_link_name = '''school_contact_video'''
 	cta1_icon = '''more'''
 	image = '''in_edm6_school_contact_20170809'''
     
