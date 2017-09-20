@@ -16,7 +16,7 @@ color = 'white'
 	image = '''FGE_KMI_TH_Finished_20170906'''
 
 [[module]]
-path = 'email_modules/image/banner_nolink'
+path = 'email_modules/image/mobile_cover_nolink'
 color = 'white'
 
 	image = '''FGE_KMI_TH_Journey_Finished_20170908'''
