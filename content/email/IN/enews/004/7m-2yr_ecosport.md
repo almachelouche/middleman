@@ -1,6 +1,6 @@
 +++
 markets = ["in"]
-title = '''IN Enews 004 7m-2yr'''
+title = '''IN Enews 004 7m-2yr EcoSport'''
 
 [[module]]
 path='email_modules/preheader'
@@ -21,7 +21,7 @@ color='black'
 
 	title = '''Insider'''
 	date = '''September 2017'''
-	copy = '''IN THIS ISSUE:<br />Motorcraft&#174; Parts | Road Trip Tunes | Safety Report Cards | And more'''
+	copy = '''IN THIS ISSUE:<br />Infotainment 101 | Road Trip Tunes | Safety Report Cards | And more'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'

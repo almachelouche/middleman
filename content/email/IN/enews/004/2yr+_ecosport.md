@@ -62,7 +62,7 @@ color='green'
 
 
 [[module]] #Split 02
-path='email_modules/split/02'
+path='email_modules/split/01'
 color='darkblue'
 
 	title = '''Safety Report Cards'''
