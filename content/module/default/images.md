@@ -77,10 +77,12 @@ color = '''white'''
 path = '''email_modules/image/mobile_cover'''
 color = '''white'''
 
-	image = '''th_edm1&4_np_ranger_20161115'''
+	image = '''th_edm1&4_np_sot_airmail_20161115'''
+	url_link='''http://google.com'''
+	url_link_name='''LINKNAMEHERE'''
 
 [[module]]
-path = '''email_modules/image/mobile_cover2'''
+path = '''email_modules/image/mobile_cover_nolink'''
 color = '''white'''
 
 	image = '''th_edm1&4_np_ranger_20161115'''

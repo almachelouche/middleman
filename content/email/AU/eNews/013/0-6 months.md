@@ -28,10 +28,9 @@ color='black'
 path='email_modules/custom/enews_topstory'
 color='black'
 
-	title = '''Ranger Raptor is Coming!'''
-	copy = '''In 2018, Raptor Ranger is coming to Australia, bringing along with it the newest way to be tough. This ultimate off-road performance truck is already causing quite the buzz. Click below to get exclusive updates on the launch of this ultimate off-road 4x4.
-    '''
-	cta1_text = '''WATCH THE VIDEO'''
+	title = '''FORD RANGER RAPTOR IS COMING!'''
+	copy = '''Joining the Ford line-up in 2018, the Ford Ranger Raptor is designed to conquer the toughest of all terrain and will be the ultimate performance off-road pick-up truck. Since reveal on September 7th, the Ranger Raptor has already created quite the buzz. Click below to watch the prototype in testing and to get exclusive updates. '''
+	cta1_text = '''WATCH PROTOTYPE TESTING'''
 	cta1_url = '''https://www.ford.com.au/commercial/ranger/raptor/?intcmp=bb-fau-vhp-ford%20ranger-fau-vhp-ford%20ranger-return#overlay/content/ford/au/en_au/ranger-content/overlay-videos/raptor-videos/video1.html '''
 	cta1_link_name = '''RangerRaptor'''
 	cta1_icon = '''play'''
@@ -42,7 +41,7 @@ path='email_modules/image/banner'
 color='white'
 
 
-	image = '''AU_edm6_accessories2_20170614'''
+	image = '''AU_edm6_raptor_20170920'''
 	url_link = '''<link>'''
     
     [[module]] #Split 02
@@ -52,7 +51,7 @@ color='green'
 	title = '''Did you know Ford sells tyres?'''
 	copy = '''At Ford, we're committed to offering you tyres at competitive prices. That's why we're very excited to announce our Low Price Tyre Guarantee. We'll match a competitor's price on selected tyres we stock.'''
 	cta1_text =  '''LEARN MORE'''
-	cta1_url ='''<link>'''
+	cta1_url ='''https://www.ford.com.au/owners/service/low-price-tyre-guarantee/'''
 	cta1_link_name = '''LPTG''' 
 	cta1_icon = '''more'''
 	image = '''AU_edm6_accessories2_20170614'''

@@ -50,7 +50,7 @@ path='email_modules/singles/copy'
 color='''white'''
 
 
-    copy='''Did you know your new <%${user.CustomAttribute['Model']}%> is as safe as it is smart? Not only does it deliver innovative driver assistance technologies and a 5 star ANCAP safety rating, it also brings the latest in-car communication technologies to New Zealand drivers.'''
+    copy='''Did you know your new <%${user.CustomAttribute['Model']}%> is as safe as it is smart? Not only does it deliver innovative driver assistance technologies and a 5 star <span style="font-style: italic;">ANCAP</span> safety rating, it also brings the latest in-car communication technologies to New Zealand drivers.'''
 
 [[module]]
 path='email_modules/spacer/default'
