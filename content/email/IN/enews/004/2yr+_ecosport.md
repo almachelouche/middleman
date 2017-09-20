@@ -27,7 +27,7 @@ color='black'
 path='email_modules/custom/enews_topstory'
 color='white_pb'
 
-	copy = '''Welcome to the 4th edition of the Insider! Here, you can learn about the latest happenings and events at Ford. Plus, check out how Motorcraft&#174; parts can help keep your Ford in tip top shape for longer at competitive prices.<br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: normal;">Motorcraft&#174; for You</span><br /><br />The world-renowned Motorcraft&#174; parts are now available at all Ford Showrooms. Coming highly recommended by Ford, offering exceptional value and uncompromising quality at competitive prices, Motorcraft&#174; is a reliable option of parts for your EcoSport. Reach out to a Ford dealership to learn more about Motorcraft&#174; parts.'''
+	copy = '''Welcome to the 4th edition of the Insider! Here, you can learn about the latest happenings and events at Ford. Plus, check out the advantages of opting for Motorcraft&#174; parts. <br /><br /><span style="color:#000001; font-size: 24px; font-family: 'Arial','Helvetica','Sans-Serif'; line-height: 30px; font-weight: normal; font-style: normal;">Motorcraft&#174; for You</span><br /><br />The world-renowned Motorcraft&#174; parts are now available at all Ford Showrooms. Coming highly recommended by Ford, offering exceptional value and uncompromising quality at competitive prices, Motorcraft&#174; is a reliable option of parts for your EcoSport.'''
 	cta1_text = '''LEARN MORE'''
 	cta1_url = '''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
 	cta1_link_name = '''motorcraft'''
