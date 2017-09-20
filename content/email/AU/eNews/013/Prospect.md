@@ -39,7 +39,7 @@ color='black'
 path='email_modules/image/banner'
 color='white'
 
-	image = '''AU_edm6_everest_20170607'''
+	image = '''AU_edm6_raptor_20170920'''
 	url_link = '''https://www.ford.com.au/suv/everest/models/ambiente-rwd/?intcmp=vhp-return-model'''
 
     [[module]] #Split 02

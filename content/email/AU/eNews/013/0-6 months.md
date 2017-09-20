@@ -41,7 +41,7 @@ path='email_modules/image/banner'
 color='white'
 
 
-	image = '''AU_edm6_accessories2_20170614'''
+	image = '''AU_edm6_raptor_20170920'''
 	url_link = '''<link>'''
     
     [[module]] #Split 02
