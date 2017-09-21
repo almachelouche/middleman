@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU Declined Service Reminder 003 50 offer '''
+title = '''AU Declined Service Reminder 003 50 offer'''
 
 [[module]]
 path='email_modules/preheader'
