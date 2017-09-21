@@ -5,7 +5,7 @@ title = '''AU Declined Service Reminder 003 '''
 [[module]]
 path='email_modules/preheader'
 
-	preheader='''Don't get stuck without wheels. Book a Free Loan Car with your <%${user.CustomAttribute['Model']}%>'s scheduled service.'''
+	preheader='''A reminder that your Ford is overdue for it’s next scheduled service.'''
 
 
 [[module]] #Banner Image
