@@ -36,9 +36,9 @@ color='fordblue'
 	cta_direction = '''vertical'''
 
 	cta_1_copy='''Outlook'''
-	cta_1_link_url='''https://s3-ap-southeast-1.amazonaws.com/edm-images/events/test/C4L_Test_Event_Outlook.ics'''
+	cta_1_link_url='''https://s3-ap-southeast-1.amazonaws.com/edm-images/events/test/C4L Test Event Outlook 0921.ics'''
 	cta_1_link_name = '''Outlook'''
-	cta_1_type = '''block'''
+	cta_1_type = '''block''' 
 
 	cta_2_copy='''Apple'''
 	cta_2_link_url='''https://s3-ap-southeast-1.amazonaws.com/edm-images/events/test/C4L_Test_Event_Apple.ics'''
