@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU Service Reminder 003 xtime_nonSYNC 50 offer '''
+title = '''AU Service Reminder 003 xtime_Sync 50 offer '''
 
 [[module]]
 path='email_modules/preheader'
@@ -81,7 +81,6 @@ color='white'
 
 	height="20"
     
-
 [[module]]
 path='email_modules/dual/05'
 color='white'
@@ -95,18 +94,14 @@ color='white'
 	image1 = '''au_edm2_auto_club_membership_20170818'''
 	image1_link_url = '''https://www.ford.com.au/owners/service/roadside-assistance/'''
 	image1_link_name = '''Some'''
-	title2 = '''Vehicle Health Report'''
-	copy2 = '''To help you better understand your vehicle's condition, you'll receive a comprehensive vehicle health report every time you service.'''
-	image2 = '''au_edm2_vehicle_health_report_20170818'''
-	image2_link_url = '''https://www.ford.com.au/owners/service/vehicle-report-card'''
+    title2 = '''SAT NAV<br/>Updates&#8308;'''
+	copy2 = '''If you have SYNC®2 with SAT NAV, we'll help you stay on track with yearly map updates for up to 7 years when you complete your service with a participating dealer.'''
+	cta2a_text = '''Learn More'''
+	cta2a_url = '''https://www.ford.com.au/owners/service/free-sat-nav-updates/'''
+	cta2a_link_name = '''accessory'''
+	image2 = '''au_edm2_free_sat_nav_updates_20170818'''
+	image2_link_url = '''https://www.ford.com.au/owners/service/free-sat-nav-updates/'''
 	image2_link_name = '''Some'''
-    cta2a_text = '''Learn More'''
-	cta2a_url = '''https://www.ford.com.au/owners/service/vehicle-report-card'''
-	cta2a_link_name = '''healthreport'''
-
-[[module]] #Footer AU Social
-path='email_modules/footer/au/social'
-color='white'
 
 [[module]] #Footer Disclaimer 
 path='email_modules/footer/disclaimer'
@@ -115,8 +110,8 @@ color='white'
 	text = '''DISCLAIMERS:<br /><br />
 				1) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
                 2) Available at participating Ford dealers on vehicles built from 2007. Customers will pay equal to or less than the maximum price as published by Ford for the period of the web quote for standard items in the A and B logbook services. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
-                3) Private and Blue Business Fleet customers who have not reached earlier of 7 years or 105,000km, only at participating Dealers. State Auto Club Roadside Assistance & Membership is included for 12 months or until your next eligible standard service (whichever occurs first). Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
-                
+                3) Private and Blue Business Fleet customers who have not reached earlier of 7 years or 105,000km, only at participating Dealers. State Auto Club Roadside Assistance & Membership is included for 12 months or until your next eligible standard service (whichever occurs first). Customers must comply with scheduled servicing intervals to maintain continuity of membership. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
+                4) Customers must comply with scheduled servicing intervals. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
