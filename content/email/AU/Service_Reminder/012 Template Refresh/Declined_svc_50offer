@@ -1,12 +1,11 @@
 +++
 markets = ["au"]
-title = '''AU Declined Service Reminder 003 '''
+title = '''AU Declined Service Reminder 003 50 offer '''
 
 [[module]]
 path='email_modules/preheader'
 
-	preheader='''Don't get stuck without wheels. Book a Free Loan Car with your <%${user.CustomAttribute['Model']}%>'s scheduled service.'''
-
+    preheader='''Don't get stuck without wheels. Book a Free Loan Car with your <%${user.CustomAttribute['Model']}%>'s scheduled service.'''
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
@@ -31,7 +30,7 @@ color='''white'''
     <br /><br />
     Your can book your service online at the below link. Don’t forget to also book a free loan car&#178; so we can keep you on the road. 
     <br /><br />
-    Plus, thanks to Castrol Oils, for a limited time,  you can get $X off your next scheduled service by presenting this email to your Service Department. 
+    Plus, thanks to Castrol Oils, for a limited time,  you can get $50 off your next scheduled service by presenting this email to your Service Department. 
     '''
 
 [[module]]
