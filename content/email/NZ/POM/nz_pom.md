@@ -18,7 +18,7 @@ color='white'
 path='email_modules/image/banner'
 color='white'
 
-	image='''nz_edm2_pom_20170728'''
+	image='''nz_edm2_pom_new_banner_20170920'''
 	url_link='''https://www.ford.co.nz/owners/service/?intcmp=bb-fnz-hp-fnz--return/'''
 	url_link_name='''pom'''
 

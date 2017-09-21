@@ -1,6 +1,7 @@
 +++
 markets = ["th"]
 title = '''EN Pre Delivery 001 Pick Up'''
+draft = true
 
 [[module]]
 path='email_modules/split/master/right'
@@ -26,7 +27,7 @@ color = 'white'
 	image = '''FGE_KMI_EN_Pick_Up_20170905'''
 
 [[module]]
-path = 'email_modules/image/banner_nolink'
+path = 'email_modules/image/mobile_cover_nolink'
 color = 'white'
 
 	image = '''FGE_KMI_EN_Journey_Pick_Up_20170908'''

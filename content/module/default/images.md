@@ -77,7 +77,7 @@ color = '''white'''
 path = '''email_modules/image/mobile_cover'''
 color = '''white'''
 
-	image = '''th_edm1&4_np_sot_airmail_20161115'''
+	image = '''in_edm6_infotaiment_20170830'''
 	url_link='''http://google.com'''
 	url_link_name='''LINKNAMEHERE'''
 
@@ -85,6 +85,6 @@ color = '''white'''
 path = '''email_modules/image/mobile_cover_nolink'''
 color = '''white'''
 
-	image = '''th_edm1&4_np_ranger_20161115'''
+	image = '''in_edm6_infotaiment_20170830'''
 
 +++

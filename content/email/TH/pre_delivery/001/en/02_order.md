@@ -1,6 +1,7 @@
 +++
 markets = ["th"]
 title = '''EN Pre Delivery 001 Order'''
+draft = true
 
 [[module]]
 path='email_modules/split/master/right'
@@ -26,7 +27,7 @@ color = 'white'
 	image = '''FGE_KMI_EN_Ordered_20170906'''
 
 [[module]]
-path = 'email_modules/image/banner_nolink'
+path = 'email_modules/image/mobile_cover_nolink'
 color = 'white'
 
 	image = '''FGE_KMI_EN_Journey_Ordered_20170908'''

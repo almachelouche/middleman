@@ -1,12 +1,12 @@
 +++
 markets = ["in"]
-title = '''IN Enews 004 7m-2yr'''
+title = '''IN Enews 004 7m-2yr EcoSport'''
 
 [[module]]
 path='email_modules/preheader'
 color='''white'''
 
-	preheader = '''You're reading the 4th edition of the Insider where we share some of the latest happenings and events at Ford. Plus, you can check out some smart servicing tips that can help keep you safe on the road and keep your wallet happy.'''
+	preheader = '''Welcome to the 4th edition of the Insider! Here, you can learn about the latest happenings and events at Ford. Plus, learn how to get the most out of your EcoSport's infotainment system.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -21,7 +21,7 @@ color='black'
 
 	title = '''Insider'''
 	date = '''September 2017'''
-	copy = '''IN THIS ISSUE:<br />Road Trip Tunes | Safety Report Cards | Air Con Tips & Tricks | And more'''
+	copy = '''IN THIS ISSUE:<br />Infotainment 101 | Road Trip Tunes | Safety Report Cards | And more'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
@@ -44,15 +44,31 @@ color='white'
 	url_link='''https://www.youtube.com/watch?v=rTMTBZ8W_4Y&index=1&list=PLyO4HcxK6VwoQpGqoLWYtg_bXbMo7LvnE'''
 	url_link_name='''infotainment_image'''
 
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
+[[module]] #Split 02
+path='email_modules/split/02'
+color='darkblue'
+
+	title = '''Road Trip Tunes'''
+	copy = '''We know there's nothing better than pairing a nice long drive with your favorite tunes blasting from the stereo. So, Ford collaborated with Hungama music app to put together a playlist you can listen to on your next road trip.'''
+	cta1_text = '''FORD RETRO RIDES'''
+	cta1_url = '''https://goo.gl/LjGCVT'''
+	cta1_link_name = '''retro_rides_playlist'''
+	cta1_icon = '''more'''
+	image = '''in_edm6_retro_rides_20170809'''
+
 [[module]] #Split 01
 path='email_modules/split/01'
 color='lightblue'
 
 	title = '''Safety Report Cards'''
-	copy = '''We partnered with 550 schools across India to teach kids about road safety, handing out Safety Report Cards to students to grade their parents' driving. To become model drivers, click below to learn what to do if you have car troubles on the road.'''
+	copy = '''We are always thinking about how to keep you and your family safe on the road. That's why we partnered with 550 schools across India to hand out Safety Report Cards to students, where they can learn about road safety and rate their parents' driving.'''
 	cta1_text = '''LEARN MORE'''
-	cta1_url = '''https://www.drivingskillsforlife.com/mediacenter1/latest-happenings/7-safety-tips-to-know-if-your-car-breaks-down/'''
-	cta1_link_name = '''7_safety_tips'''
+	cta1_url = '''https://www.youtube.com/watch?v=uMSb9NWIZVY'''
+	cta1_link_name = '''school_contact_video'''
 	cta1_icon = '''more'''
 	image = '''in_edm6_school_contact_20170809'''
     
