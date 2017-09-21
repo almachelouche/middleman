@@ -1,6 +1,7 @@
 +++
 markets = ["th"]
 title = '''EN Pre Delivery 001 Delay'''
+draft = true
 
 [[module]]
 path='email_modules/header/logo'
