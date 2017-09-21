@@ -1,6 +1,7 @@
 +++
 markets = ["th"]
 title = '''EN Pre Delivery 001 Order'''
+draft = true
 
 [[module]]
 path='email_modules/split/master/right'
