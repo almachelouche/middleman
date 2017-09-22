@@ -1,38 +1,38 @@
 +++
 markets = ["au"]
-title = '''AU Declined Service Reminder 003 100 offer'''
+title = '''AU Service Reminder winback 003 50 offer'''
 
 [[module]]
 path='email_modules/preheader'
 
-	   preheader='''A reminder that your Ford is overdue for it’s next scheduled service.'''
+    preheader='''A reminder that your Ford is overdue for it’s next scheduled service.'''
 
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
-	   image = '''au_edm2_service_new_banner_20170921'''
-	   url_link = '''https://www.ford.com.au/owners/service/'''
+	image = '''au_edm2_service_new_banner_20170921'''
+	url_link = '''https://www.ford.com.au/owners/service/'''
     
 [[module]]
 path='email_modules/spacer/default'
 color='white'
 
-	   height="30"
+	height="30"
     
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
 
-	   copy = '''Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />Did you know your Ford <%${user.CustomAttribute['Model']}%> is over due for it’s <%${user.CustomAttribute['Service_Interval']}%>km service? <br /><br />
+	copy = '''Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />Did you know your Ford <%${user.CustomAttribute['Model']}%> is over due for it’s <%${user.CustomAttribute['Service_Interval']}%>km service? <br /><br />
    
-        It’s important that your <%${user.CustomAttribute['Model']}%> is serviced regularly by our Ford trained technicians to ensure you car is running at it’s absolute best and to ensure you honour the requirements of your warranty.
-        <br /><br />
-        Your can book your service online at the below link. Don’t forget to also book a free loan car&#178; so we can keep you on the road. 
-        <br /><br />
-        Plus, thanks to Castrol Oils, for a limited time,  you can get $100 off your next scheduled service by presenting this email to your Service Department. 
-        '''
+    It’s important that your <%${user.CustomAttribute['Model']}%> is serviced regularly by our Ford trained technicians to ensure you car is running at it’s absolute best and to ensure you honour the requirements of your warranty.
+    <br /><br />
+    Your can book your service online at the below link. Don’t forget to also book a free loan car&#178; so we can keep you on the road. 
+    <br /><br />
+    Plus, thanks to Castrol Oils, for a limited time,  you can get $50 off your next scheduled service by presenting this email to your Service Department. 
+    '''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -95,7 +95,7 @@ color='white'
 	text = '''DISCLAIMERS:<br /><br />
      VIN number: <% ${user.CustomAttribute['VIN']}%>
                 <br /> <br />
-                Scheduled Service: abcd
+                Scheduled Service: <%${user.CustomAttribute['Service_Interval']}%>km
                 <br /> <br />
                 * Redemption of the Ford Service Voucher is subject to certain Terms and Conditions as set out below; To take advantage of this voucher, simply print this email and take it to your local Ford Dealership when you take your Ford in for its next scheduled service. This offer is valid for a limited time only on your scheduled service above. The scheduled service must be completed by Nov 30, 2017. If you have any questions regarding this exclusive bonus, please contact your local Ford Dealership. This offer is for Private and registered Blue and Silver Fleet customers with an ABN only. The voucher provided is in the form of a discount applied to the final costs of your scheduled service as provided by the Dealer. This offer is only open to the VIN above for its next scheduled service as per details above also. One voucher per VIN.
                 <br /> <br /> 
