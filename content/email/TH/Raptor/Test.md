@@ -20,7 +20,7 @@ path='email_modules/image/banner'
 color='white'
 
 	image = '''AU_edm6_raptor_20170920'''
-		url_link='''https://www.ford.com.ph/trucks/ranger/raptor/?intcmp=hp-new-brand-gallery#overlay/content/ford/ph/en_ph/ranger-content/video-overlays/raptor-videos/video1.html'''
+		url_link='''https://www.ford.co.th/trucks/ranger/raptor/?intcmp=hp-none-brand-gallery#overlay/content/ford/th/th_th/ranger-content/video-overlays/raptor-videos/video1.html'''
 	url_link_name='''raptor'''
 
 [[module]]
@@ -84,11 +84,12 @@ color='''white'''
 	cta1_url = '''https://www.ford.co.th/trucks/ranger/raptor/?intcmp=hp-none-brand-gallery#overlay/content/ford/th/th_th/ranger-content/video-overlays/raptor-videos/video1.html'''
 	cta1_link_name = '''raptor'''
 
-[[module]] #PH Social
-path = 'email_modules/footer/ph/social'
-color = 'white'
+[[module]] #TH Social
+path='email_modules/footer/th/social'
+color='white'
 
-[[module]] #PH Online
-path = 'email_modules/footer/ph/online'
-color = 'white'
+[[module]] #TH Online
+path='email_modules/footer/th/online'
+color='white'
+
 +++
