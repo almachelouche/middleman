@@ -58,7 +58,7 @@ color='white'
 
 	image='''th_edm6_servicecampaign_20170925'''
 	url_link=''''''
-	url_link_name='''service_campagin'''
+	url_link_name='''service_campaign'''
 
 [[module]]
 path='email_modules/dual/03'
