@@ -59,7 +59,6 @@ color='white'
 [[module]]
 path='email_modules/dual/05'
 color='white'
-segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
 
 	title1 = '''Service Price Promise&#178;'''
 	text_box_height = '''240'''

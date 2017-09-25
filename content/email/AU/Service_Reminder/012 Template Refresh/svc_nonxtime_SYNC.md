@@ -1,7 +1,7 @@
 +++
 markets = ["au"]
 title = '''AU Service Reminder 003 nonxtime_SYNC '''
-draft = true
+
 
 [[module]]
 path='email_modules/preheader'
