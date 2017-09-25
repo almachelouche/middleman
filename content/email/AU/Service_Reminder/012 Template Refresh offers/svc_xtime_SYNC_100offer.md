@@ -21,9 +21,11 @@ color='white'
 
 	height="30"
     
+     
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
+segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
 
 	copy = '''Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />This is just a friendly reminder that your Ford <%${user.CustomAttribute['Model']}%> is nearly due for its <%${user.CustomAttribute['Service_Interval']}%>km service.<br /><br />
     We know how important your <%${user.CustomAttribute['Model']}%></span> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%></span> in the trusted hands of Ford trained technicians. You can even book a Free Loan Car&#185; for the day when you book your scheduled service.<br /><br />
@@ -38,9 +40,11 @@ color='white'
 
 	height="30"
 
+
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
+
 
 	cta1_text = '''BOOK YOUR SERVICE'''
 	cta1_url = '''https://consumer.xtime.net.au/scheduling/?company=14745&store=<%${user.CustomAttribute['DealerCode']}%>&VIN=<%${user.CustomAttribute['VIN']}%>&provider=FORD_AU_THE_BLUE_HIVE&keyword=<%${user.CustomAttribute['CampaignID']}%>&dest=&extid=<%${user.CustomAttribute['CampaignID']}%>&extctxt=FORD_AU_THE_BLUE_HIVE&cfn=<%${user.CustomAttribute['FullName']}%>&cln=<%${user['LastName']}%>&cpn=<%${user.CustomAttribute['Mobile_Phone']}%>&cem=<%${user.CustomAttribute['RealEmail']}%>&button=blue'''
@@ -110,7 +114,7 @@ color='white'
 	text = '''DISCLAIMERS:<br /><br />
      VIN number: <% ${user.CustomAttribute['VIN']}%>
                 <br /> <br />
-                Scheduled Service: abcd
+                Scheduled Service: <%${user.CustomAttribute['Service_Interval']}%>km
                 <br /> <br />
                 * Redemption of the Ford Service Voucher is subject to certain Terms and Conditions as set out below; To take advantage of this voucher, simply print this email and take it to your local Ford Dealership when you take your Ford in for its next scheduled service. This offer is valid for a limited time only on your scheduled service above. The scheduled service must be completed by Nov 30, 2017. If you have any questions regarding this exclusive bonus, please contact your local Ford Dealership. This offer is for Private and registered Blue and Silver Fleet customers with an ABN only. The voucher provided is in the form of a discount applied to the final costs of your scheduled service as provided by the Dealer. This offer is only open to the VIN above for its next scheduled service as per details above also. One voucher per VIN.
                 <br /> <br /> 

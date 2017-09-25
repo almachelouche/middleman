@@ -246,7 +246,7 @@ color='white'
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	text = '''Terms & Conditions
-				<br /> <br />*Recommended Price for private and small business buyers only at participating dealers. Ford Australia reserves the right to change or extend offers.<br /><br />
+				<br /> <br /> * Recommended Price for private and small business buyers only at participating dealers. Ford Australia reserves the right to change or extend offers.<br /><br />
                 1. Braked towing capacity when fitted with a genuine Ford towpack and towball. Subject to State and Territory regulations.<br /><br />
 				2. Achieved when maintaining a steady speed of not more than 7km per hour.<br /><br />
 				3. Bluetooth® is a registered trademark of Bluetooth SIG Inc., and is used under licence. Some phones not compatible.<br /><br />
