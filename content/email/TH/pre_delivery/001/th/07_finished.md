@@ -1,7 +1,6 @@
 +++
 markets = ["th"]
 title = '''TH Pre Delivery 001 Finished'''
-draft = true
 
 [[module]]
 path='email_modules/header/logo'
