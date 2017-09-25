@@ -62,7 +62,9 @@ color='''white'''
 
 	copy = '''
     <span style="font-family:Tahoma, Verdana, Sans-serif">
-	<span style=" white-space:nowrap;">โลกของการขับออฟโรดกำลังจะหฤโหดขึ้นอีกเล็กน้อย เรนเจอร์ แร็พเตอร์ กระบะออฟโรดประสิทธิภาพแกร่งใกล้จะพร้อมเปิดตัวแล้ว</span>
+	<span style=" white-space:nowrap;">โลกของการขับออฟโรดกำลังจะหฤโหดขึ้นอีกเล็กน้อย</span>
+    <br />
+    <span style=" white-space:nowrap;">เรนเจอร์ แร็พเตอร์ กระบะออฟโรดประสิทธิภาพแกร่งใกล้จะพร้อมเปิดตัวแล้ว</span>
     <br />
     <span style=" white-space:nowrap;">เรารู้ดีว่าคุณชื่นชอบใน (NAMEPLATE) ของคุณ แต่เราคิดว่าคุณน่าจะได้เห็นรถรุ่นนี้ก่อน</span>
     <br />
