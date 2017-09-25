@@ -33,7 +33,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><strong>สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%><%${user['FirstName']}%> <%/InsertElse%></strong><br /></span>'''
+	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">เรียน<%${user['FirstName']}%></span>'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -66,7 +66,7 @@ color='''white'''
     <br />
     <span style=" white-space:nowrap;">เรนเจอร์ แร็พเตอร์ กระบะออฟโรดประสิทธิภาพแกร่งใกล้จะพร้อมเปิดตัวแล้ว</span>
     <br />
-    <span style=" white-space:nowrap;">เรารู้ดีว่าคุณชื่นชอบใน (NAMEPLATE) ของคุณ แต่เราคิดว่าคุณน่าจะได้เห็นรถรุ่นนี้ก่อน</span>
+    <span style=" white-space:nowrap;">เรารู้ดีว่าคุณชื่นชอบใน <%${user.CustomAttribute['Model']}%> ของคุณ แต่เราคิดว่าคุณน่าจะได้เห็นรถรุ่นนี้ก่อน</span>
     <br />
     <br />
     <span style=" white-space:nowrap;">คลิกที่ลิงก์ด้านล่างเพื่อรับชมการทดสอบรถต้นแบบ</span>
