@@ -1,0 +1,94 @@
++++
+markets = ["ph"]
+title = '''TH Ford Ranger Raptor All'''
+
+[[module]]
+path='email_modules/preheader'
+color='''white'''
+
+preheader = '''Get ready for a wild ride.'''
+
+[[module]] #Header Logo
+path='email_modules/header/logo'
+color='white'
+
+	image = '''white'''
+	url_link = '''https://www.ford.co.th/'''
+
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+
+	image = '''AU_edm6_raptor_20170920'''
+		url_link='''https://www.ford.com.ph/trucks/ranger/raptor/?intcmp=hp-new-brand-gallery#overlay/content/ford/ph/en_ph/ranger-content/video-overlays/raptor-videos/video1.html'''
+	url_link_name='''raptor'''
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+    
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+
+	copy = '''เรียน [NAME]'''
+    
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+    
+[[module]]
+path='email_modules/singles/title'
+color='''white'''
+
+	title = '''
+    <span style="font-family:Tahoma, Verdana, Sans-serif">
+	<span style=" white-space:nowrap;">คุณพร้อมสำหรับออฟโรดพันธุ์แกร่งหรือยัง</span>
+    '''
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+
+	copy = '''
+    <span style="font-family:Tahoma, Verdana, Sans-serif">
+	<span style=" white-space:nowrap;">โลกของการขับออฟโรดกำลังจะหฤโหดขึ้นอีกเล็กน้อย เรนเจอร์ แร็พเตอร์ กระบะออฟโรดประสิทธิภาพแกร่งใกล้จะพร้อมเปิดตัวแล้ว</span>
+    <br />
+    <span style=" white-space:nowrap;">เรารู้ดีว่าคุณชื่นชอบใน (NAMEPLATE) ของคุณ แต่เราคิดว่าคุณน่าจะได้เห็นรถรุ่นนี้ก่อน</span>
+    <br />
+    <br />
+    <span style=" white-space:nowrap;">คลิกที่ลิงก์ด้านล่างเพื่อรับชมการทดสอบรถต้นแบบ</span>
+    '''
+    
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+    
+[[module]]
+path='email_modules/singles/ctablock'
+color='''white'''
+
+	cta1_text = '''ชมการทดสอบรถต้นแบบ'''
+	cta1_url = '''https://www.ford.co.th/trucks/ranger/raptor/?intcmp=hp-none-brand-gallery#overlay/content/ford/th/th_th/ranger-content/video-overlays/raptor-videos/video1.html'''
+	cta1_link_name = '''raptor'''
+
+[[module]] #PH Social
+path = 'email_modules/footer/ph/social'
+color = 'white'
+
+[[module]] #PH Online
+path = 'email_modules/footer/ph/online'
+color = 'white'
++++
