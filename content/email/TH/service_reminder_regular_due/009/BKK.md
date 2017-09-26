@@ -150,7 +150,7 @@ path='email_modules/cover/02'
 color='''white'''
 
 	icon='''th_edm3_extendedwarranty_20160921'''
-	title='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">ได้เวลาเช็คสภาพรถ<span style="white-space:nowrap;">ของคุณแล้ว</span>'''
+	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">โปรแกรมขับขี่อุ่นใจ</span>'''
 	copy='''
 		<span style="font-family:Tahoma, Verdana, Sans-serif">
 			<span style="white-space:nowrap;">พิเศษสำหรับลูกค้าที่มีรถฟอร์ดอายุระหว่าง 10-35 เดือน</span>
