@@ -32,7 +32,7 @@ copy='''
                         <br />
 						<span style="white-space:nowrap;">ตั้งแต่ 1 ตุลาคม – 31 ธันวาคม 2560 นี้เท่านั้น</span>
                         '''
-cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">LEARN MORE</span>'''
+cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">เรียนรู้เพิ่มเติม</span>'''
 cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
 cta1_link_name = '''learn_more'''
 
