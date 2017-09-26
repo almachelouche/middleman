@@ -6,7 +6,7 @@ title = '''TH Service Campaign test'''
 path='email_modules/preheader'
 
 
-	preheader = '''พบข้อเสนอสุดพิเศษกับโปรแกรมบำรุงรักษารถยนต์ตามระยะ (SSP)'''
+	preheader = '''พร้อมส่วนลดพิเศษอีกมากมาย ณ ศูนย์บริการฟอร์ด'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -33,7 +33,7 @@ copy='''
 						<span style="white-space:nowrap;">ตั้งแต่ 1 ตุลาคม – 31 ธันวาคม 2560 นี้เท่านั้น</span>
                         '''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">LEARN MORE</span>'''
-cta1_url=''''''
+cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
 cta1_link_name = '''learn_more'''
 
 [[module]] #Banner Image
@@ -41,7 +41,7 @@ path='email_modules/image/banner'
 color='white'
 
 	image='''th_edm6_servicecampaign_20170925'''
-	url_link=''''''
+	url_link='''https://www.ford.co.th/owner/servicecampaign/'''
 	url_link_name='''service_campaign'''
 
 [[module]]
