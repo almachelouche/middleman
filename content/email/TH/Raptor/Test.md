@@ -62,11 +62,13 @@ color='''white'''
 
 	copy = '''
     <span style="font-family:Tahoma, Verdana, Sans-serif">
-	<span style=" white-space:nowrap;">โลกของการขับออฟโรดกำลังจะหฤโหดขึ้นอีก “ฟอร์ด เรนเจอร์ แร็พเตอร์” กระบะออฟโรดสมรรถนะสูง</span>
+	<span style=" white-space:nowrap;">โลกของการขับออฟโรดกำลังจะหฤโหดขึ้นอีก</span>
     <br />
-    <span style=" white-space:nowrap;">จะเปิดตัวในภูมิภาคเอเชีย แปซิฟิกในปี 2561 นี้</span>
+    <span style=" white-space:nowrap;">“ฟอร์ด เรนเจอร์ แร็พเตอร์” กระบะออฟโรดสมรรถนะสูง จะเปิดตัวในภูมิภาคเอเชีย แปซิฟิกในปี 2561 นี้</span>
     <br />
-    <span style=" white-space:nowrap;">เพื่อขอบคุณที่ท่านร่วมเป็นส่วนหนึ่งของครอบครัว ฟอร์ด เสมอมา เราจึงส่งมอบข่าวสารอัพเดทแบบเอ็กซ์คลูซีฟเกี่ยวกับฟอร์ด</span>
+    <span style=" white-space:nowrap;">เพื่อขอบคุณที่ท่านร่วมเป็นส่วนหนึ่งของครอบครัว ฟอร์ด เสมอมา</span> 
+    <br />
+    <span style=" white-space:nowrap;">เราจึงส่งมอบข่าวสารอัพเดทแบบเอ็กซ์คลูซีฟเกี่ยวกับฟอร์ด</span>
     <br />
     <span style=" white-space:nowrap;">เรนเจอร์ แร็พเตอร์ ให้กับคุณก่อนใคร</span>
     <br />
