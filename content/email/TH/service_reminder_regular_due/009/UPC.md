@@ -108,7 +108,7 @@ path='email_modules/cover/02'
 color='''white'''
 
 	icon='''th_edm3_extendedwarranty_20160921'''
-	title=''''''
+	title='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">ได้เวลาเช็คสภาพรถ<span style="white-space:nowrap;">ของคุณแล้ว</span>'''
 	copy='''
 		<span style="font-family:Tahoma, Verdana, Sans-serif">
 			<span style="white-space:nowrap;">พิเศษสำหรับลูกค้าที่มีรถฟอร์ดอายุระหว่าง 10-35 เดือน</span>
@@ -116,9 +116,7 @@ color='''white'''
 			<span style="white-space:nowrap;">สามารถรับสิทธิ์ซื้อ PPP ได้ในราคาเดียวกับรถใหม่</span> 
             <br />
 			<span style="white-space:nowrap;">ลดสูงสุด 30%</span>
-			<br /> 
 			<span style="white-space:nowrap;">มูลค่ากว่า 7,800 บาท</span>  
-            <br />
 			<span style="white-space:nowrap;">พร้อมผ่อน 0% นาน 10 เดือน</span>
             <br />  
 			<span style="white-space:nowrap;">หมายเหตุ: ราคา PPP จะแตกต่างกันในรถแต่ละรุ่น</span>
