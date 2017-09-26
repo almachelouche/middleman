@@ -103,6 +103,11 @@ color='white'
 	image2_link_url = '''https://www.ford.com.au/owners/service/free-sat-nav-updates/'''
 	image2_link_name = '''Some'''
 
+[[module]] #Footer AU Social
+path='email_modules/footer/au/social'
+color='white'
+
+
 [[module]] #Footer Disclaimer 
 path='email_modules/footer/disclaimer'
 color='white'
