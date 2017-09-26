@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU Service Reminder 003 xtime_nonSYNC '''
+title = '''AU Service Reminder 003 1st Service xtime_nonSYNC '''
 
 [[module]]
 path='email_modules/preheader'
