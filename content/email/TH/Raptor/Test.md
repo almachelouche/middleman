@@ -64,16 +64,20 @@ color='''white'''
     <span style="font-family:Tahoma, Verdana, Sans-serif">
 	<span style=" white-space:nowrap;">โลกของการขับออฟโรดกำลังจะหฤโหดขึ้นอีก</span>
     <br />
-    <span style=" white-space:nowrap;">“ฟอร์ด เรนเจอร์ แร็พเตอร์” กระบะออฟโรดสมรรถนะสูง จะเปิดตัวในภูมิภาคเอเชีย แปซิฟิกในปี 2561 นี้</span>
+    <span style=" white-space:nowrap;">“ฟอร์ด เรนเจอร์ แร็พเตอร์” กระบะออฟโรดสมรรถนะสูง</span> 
+    <br />
+    <span style=" white-space:nowrap;">จะเปิดตัวในภูมิภาคเอเชีย แปซิฟิกในปี 2561 นี้</span>
     <br />
     <span style=" white-space:nowrap;">เพื่อขอบคุณที่ท่านร่วมเป็นส่วนหนึ่งของครอบครัว ฟอร์ด เสมอมา</span> 
     <br />
-    <span style=" white-space:nowrap;">เราจึงส่งมอบข่าวสารอัพเดทแบบเอ็กซ์คลูซีฟเกี่ยวกับฟอร์ด เรนเจอร์ แร็พเตอร์ ให้กับคุณก่อนใคร</span>
+    <span style=" white-space:nowrap;">เราจึงส่งมอบข่าวสารอัพเดทแบบเอ็กซ์คลูซีฟ</span>
+    <br />
+    <span style=" white-space:nowrap;">เกี่ยวกับฟอร์ด เรนเจอร์ แร็พเตอร์ ให้กับคุณก่อนใคร</span>
     <br />
     <br />
-    <span style=" white-space:nowrap;">คลิกที่ลิงก์ด้านล่างเพื่อชมวีดีโอการทดสอบความสามารถในการขับขี่แบบออฟโรดด้วยความเร็วสูง</span>
+    <span style=" white-space:nowrap;">คลิกที่ลิงก์ด้านล่างเพื่อชมวีดีโอการทดสอบความสามารถในการขับขี่</span>
     <br />
-    <span style=" white-space:nowrap;">ของรถต้นแบบ ฟอร์ด เรนเจอร์ แร็พเตอร์</span>
+    <span style=" white-space:nowrap;">แบบออฟโรดด้วยความเร็วสูงของรถต้นแบบ ฟอร์ด เรนเจอร์ แร็พเตอร์</span>
     '''
     
 [[module]]
