@@ -12,7 +12,7 @@ path='email_modules/preheader'
 path='email_modules/image/banner'
 color='white'
 
-	image = '''au_edm2_svc_new_banner_20170817'''
+	image = '''au_edm2_svc_new_banner_20170926'''
 	url_link = '''https://www.ford.com.au/owners/service/'''
     
 [[module]]
@@ -99,6 +99,10 @@ color='white'
 	image2 = '''au_edm2_free_sat_nav_updates_20170818'''
 	image2_link_url = '''https://www.ford.com.au/owners/service/free-sat-nav-updates/'''
 	image2_link_name = '''Some'''
+[[module]] #Footer AU Social
+path='email_modules/footer/au/social'
+color='white'
+
 
 [[module]] #Footer Disclaimer 
 path='email_modules/footer/disclaimer'

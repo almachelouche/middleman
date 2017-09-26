@@ -12,7 +12,7 @@ path='email_modules/preheader'
 path='email_modules/image/banner'
 color='white'
 
-	image = '''au_edm2_service_new_banner_20170921'''
+	image = '''au_edm2_pastdue_new_banner_20170926'''
 	url_link = '''https://www.ford.com.au/owners/service/'''
     
 [[module]]
@@ -31,7 +31,7 @@ color='''white'''
     <br /><br />
     Your can book your service online at the below link. Don’t forget to also book a free loan car&#178; so we can keep you on the road. 
     <br /><br />
-    Plus, thanks to Castrol Oils, for a limited time,  you can get $50 off your next scheduled service by presenting this email to your Service Department. 
+    Plus, thanks to Castrol Oils, for a limited time,  you can get $50* off your next scheduled service by presenting this email to your Service Department. 
     '''
 
 [[module]]
