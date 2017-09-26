@@ -108,9 +108,7 @@ path='email_modules/cover/02'
 color='''white'''
 
 	icon='''th_edm3_extendedwarranty_20160921'''
-	title='''
-    <span style="font-family:Tahoma, Verdana, Sans-serif">เรียน <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %> เรนเจอร์ แร็พเตอร์กำลังจะอุบัติขึ้นอย่างเป็นทางการแล้ว</span>
-    '''
+	title=''''''
 	copy='''
 		<span style="font-family:Tahoma, Verdana, Sans-serif">
 			<span style="white-space:nowrap;">พิเศษสำหรับลูกค้าที่มีรถฟอร์ดอายุระหว่าง 10-35 เดือน</span>
