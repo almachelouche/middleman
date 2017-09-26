@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU Service Reminder 003 1st Service xtime_Sync 50 offer '''
+title = '''AU Service Reminder 003 1st Service xtime_SYNC 100 offer'''
 
 [[module]]
 path='email_modules/preheader'
@@ -12,7 +12,7 @@ path='email_modules/preheader'
 path='email_modules/image/banner'
 color='white'
 
-	image = '''au_edm2_svc_new_banner_20170817'''
+	image = '''au_edm2_svc_new_banner_20170926'''
 	url_link = '''https://www.ford.com.au/owners/service/'''
     
 [[module]]
@@ -24,12 +24,26 @@ color='white'
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
+segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'NO')"]
 
 	copy = '''Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />This is just a friendly reminder that your Ford <%${user.CustomAttribute['Model']}%> is nearly due for its 15,000km service.<br /><br />
     We know how important your <%${user.CustomAttribute['Model']}%></span> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%></span> in the trusted hands of Ford trained technicians. You can even book a Free Loan Car&#185; for the day when you book your scheduled service.<br /><br />
-    Book your service and Free Loan Car&#185; with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or find your <a href="https://www.ford.com.au/dealership/" style="text-decoration:underline; color:#2D96CD">nearest dealer</a>. You can even book online below.
+    Book your service and Free Loan Car&#185; with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or find your <a href="https://www.ford.com.au/dealership/" style="text-decoration:underline; color:#2D96CD">nearest dealer</a>.
     <br /> <br /> 
-     Plus, thanks to Castrol Oils, for a limited time,  you can get $50* off your next scheduled service by presenting this email to your Service Department.
+     Plus, thanks to Castrol Oils, for a limited time,  you can get $100* off your next scheduled service by presenting this email to your Service Department.
+     '''
+    
+     
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
+
+	copy = '''Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />This is just a friendly reminder that your Ford <%${user.CustomAttribute['Model']}%> is nearly due for its <%${user.CustomAttribute['Service_Interval']}%>km service.<br /><br />
+    We know how important your <%${user.CustomAttribute['Model']}%></span> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%></span> in the trusted hands of Ford trained technicians. You can even book a Free Loan Car&#185; for the day when you book your scheduled service.<br /><br />
+    Book your service and Free Loan Car&#185; with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or find your <a href="https://www.ford.com.au/dealership/" style="text-decoration:underline; color:#2D96CD">nearest dealer</a>. You can even book online below.
+     <br /> <br /> 
+     Plus, thanks to Castrol Oils, for a limited time,  you can get $100* off your next scheduled service by presenting this email to your Service Department.
      '''
 
 [[module]]
@@ -38,9 +52,11 @@ color='white'
 
 	height="30"
 
+
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
+segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
 
 	cta1_text = '''BOOK YOUR SERVICE'''
 	cta1_url = '''https://consumer.xtime.net.au/scheduling/?company=14745&store=<%${user.CustomAttribute['DealerCode']}%>&VIN=<%${user.CustomAttribute['VIN']}%>&provider=FORD_AU_THE_BLUE_HIVE&keyword=<%${user.CustomAttribute['CampaignID']}%>&dest=&extid=<%${user.CustomAttribute['CampaignID']}%>&extctxt=FORD_AU_THE_BLUE_HIVE&cfn=<%${user.CustomAttribute['FullName']}%>&cln=<%${user['LastName']}%>&cpn=<%${user.CustomAttribute['Mobile_Phone']}%>&cem=<%${user.CustomAttribute['RealEmail']}%>&button=blue'''
