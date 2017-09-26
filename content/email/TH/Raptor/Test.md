@@ -30,23 +30,11 @@ color='white'
 	height="30"
     
 [[module]]
-path='email_modules/singles/copy'
-color='''white'''
-
-	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">เรียน<%${user['FirstName']}%></span>'''
-
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
-    
-[[module]]
 path='email_modules/singles/title'
 color='''white'''
 
 	title = '''
-    <span style="font-family:Tahoma, Verdana, Sans-serif">
+    <span style="font-family:Tahoma, Verdana, Sans-serif"><strong>สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>    
 	<span style=" white-space:nowrap;">คุณพร้อมสำหรับออฟโรดพันธุ์แกร่งหรือยัง</span>
     '''
 
