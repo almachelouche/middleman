@@ -15,7 +15,7 @@ color='black'
 
 	title = '''Insider'''
 	date = '''October 2017 '''
-	copy = '''IN THIS ISSUE:<br /> Ranger Raptor| Ford Tyres | Engine Health | Ford Owners App'''
+	copy = '''IN THIS ISSUE:<br /> Ranger Raptor | Ford Tyres | Engine Health | Ford Owners App'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
