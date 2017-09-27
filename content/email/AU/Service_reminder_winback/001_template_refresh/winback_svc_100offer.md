@@ -27,7 +27,7 @@ color='''white'''
 
 	   copy = '''Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />Did you know your Ford <%${user.CustomAttribute['Model']}%> is over due for it’s <%${user.CustomAttribute['Service_Interval']}%>km service? <br /><br />
    
-        It’s important that your <%${user.CustomAttribute['Model']}%> is serviced regularly by our Ford trained technicians to ensure you car is running at it’s absolute best and to ensure the requirements of your warranty are honored.
+        It’s important that your <%${user.CustomAttribute['Model']}%> is serviced regularly by our Ford trained technicians to ensure you car is running at it’s absolute best.
         <br /><br />
         Your can book your service online at the below link. Don’t forget to also book a free loan car&#178; so we can keep you on the road. 
         <br /><br />
