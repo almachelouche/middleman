@@ -29,7 +29,7 @@ color='''white'''
    
     It’s important that your <%${user.CustomAttribute['Model']}%> is serviced regularly by our Ford trained technicians to ensure you car is running at it’s absolute best.
     <br /><br />
-    Your can book your service online at the below link. Don’t forget to also book a free loan car&#178; so we can keep you on the road. 
+    You can book your service online at the below link. Don’t forget to also book a free loan car&#178; so we can keep you on the road. 
     <br /><br />
     Plus, thanks to Castrol Oils, for a limited time,  you can get $50* off your next scheduled service by presenting this email to your Service Department. 
     '''
