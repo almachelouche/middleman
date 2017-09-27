@@ -75,7 +75,7 @@ color='darkblue'
 	cta1_url = '''https://youtu.be/yM6vCGm-AAQ'''
 	cta1_link_name = '''engineandoil'''
 	cta1_icon = '''play'''
-	image = '''AU_edm6_ranger_20170220'''
+	image = '''AU_edm6_engine_20170927'''
 
 	[[module]] #Split 02
 path='email_modules/split/02'
@@ -87,7 +87,7 @@ color='lightblue'
 	cta1_url = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10156683020833747/?type=2&theater'''
 	cta1_link_name = '''SBCR'''
 	cta1_icon = '''play'''
-	image = '''AU_edm6_ranger_20170220'''
+	image = '''AU_edm6_nbcf_20170927'''
 
 
 [[module]] #Footer AU Social

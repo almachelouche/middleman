@@ -63,7 +63,7 @@ color='darkblue'
 	cta1_url = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10156519835473747/?type=2&theater'''
 	cta1_link_name = '''RS'''
 	cta1_icon = '''play'''
-	image = '''AU_edm6_focus_20170920'''
+	image = '''AU_edm6_focus_20170927'''
 
 
 [[module]] #Split 02
@@ -76,7 +76,7 @@ color='lightblue'
 	cta1_url = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10156683020833747/?type=2&theater'''
 	cta1_link_name = '''SBCR'''
 	cta1_icon = '''play'''
-	image = '''AU_edm6_accessories2_20170614'''
+	image = '''AU_edm6_nbcf_20170927'''
 
 
 

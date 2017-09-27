@@ -78,7 +78,7 @@ color='lightblue'
 	cta1_url = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10156683020833747/?type=2&theater'''
 	cta1_link_name = '''SBCR'''
 	cta1_icon = '''play'''
-	image = '''AU_edm6_ranger_20170220'''
+	image = '''AU_edm6_nbcf_20170927'''
     
     
 
