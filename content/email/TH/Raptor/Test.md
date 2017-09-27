@@ -6,7 +6,7 @@ title = '''TH Ford Ranger Raptor test'''
 path='email_modules/preheader'
 color='''white'''
 
-preheader = '''Get ready for a wild ride.'''
+preheader = '''คุณพร้อมสำหรับออฟโรดพันธุ์แกร่งหรือยัง'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
