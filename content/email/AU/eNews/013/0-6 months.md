@@ -43,7 +43,8 @@ color='white'
 
 	image = '''AU_edm6_raptor_20170920'''
 	url_link = '''<link>'''
-    
+   
+
     [[module]] #Split 02
 path='email_modules/split/02'
 color='green'
@@ -67,7 +68,7 @@ color='darkblue'
 	cta1_url =  '''https://youtu.be/yM6vCGm-AAQ'''
 	cta1_link_name = '''Engine and oil'''
 	cta1_icon = '''play'''
-	image = '''AU_edm6_accessories2_20170614'''
+	image = '''AU_edm6_engine_20170927'''
 
 [[module]]
 path='email_modules/spacer/platinum_20'

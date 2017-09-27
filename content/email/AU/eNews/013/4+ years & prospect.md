@@ -23,6 +23,7 @@ color='black'
 	image = '''black'''
 	url_link = '''https://www.ford.com.au/'''
 
+
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
 color='black'
@@ -78,7 +79,7 @@ color='lightblue'
 	cta1_url = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10156683020833747/?type=2&theater'''
 	cta1_link_name = '''SBCR'''
 	cta1_icon = '''play'''
-	image = '''AU_edm6_ranger_20170220'''
+	image = '''AU_edm6_nbcf_20170927'''
     
     
 
