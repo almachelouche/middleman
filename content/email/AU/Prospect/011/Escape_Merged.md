@@ -88,14 +88,14 @@ path='email_modules/cover/03'
 color='''slatescreen'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
-	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />The moment you get behind the wheel of a New Ford Escape, you'll be amazed at its seamless combination of power and technology.</span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">Right now, the New Ford Escape Ambiente Petrol FWD Manual is available at $30,990* Driveaway.</span>'''
+	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />The moment you get behind the wheel of a New Ford Escape, you'll be amazed at its seamless combination of power and technology.</span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">Right now, the New Ford Escape Ambiente Petrol FWD Manual is available at $29,990* Driveaway, WITH FREE UPGRADE TO AUTOMATIC TRANSMISSION!.</span>'''
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />The New Ford Escape isn't just technology for technology's sake. Every feature has been engineered with one solid purpose in mind: to make life easier for you. </span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">Right now, the New Ford Escape Ambiente Petrol FWD Manual is available at $30,990* Driveaway.</span>'''
+	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />The New Ford Escape isn't just technology for technology's sake. Every feature has been engineered with one solid purpose in mind: to make life easier for you. </span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">Right now, the New Ford Escape Ambiente Petrol FWD Manual is available at $29,990* Driveaway, WITH FREE UPGRADE TO AUTOMATIC TRANSMISSION!.</span>'''
 
 [[module]] #Banner Image
 path = '''email_modules/image/banner_nolink'''
