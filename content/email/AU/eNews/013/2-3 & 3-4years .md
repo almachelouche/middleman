@@ -41,6 +41,10 @@ color='white'
 	image = '''AU_edm6_raptor_20170920'''
 	url_link = '''https://www.ford.com.au/about-ford/awards/'''
 
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
 [[module]] #Split 02
 path='email_modules/split/02'
 color='green'
