@@ -72,7 +72,7 @@ path='email_modules/dual/05'
 color='white'
 
 	title1 = '''No-Stress Service'''
-	text_box_height = '''330'''
+	text_box_height = '''300'''
 	copy1 = '''Nothing beats a new Ford vehicle. But owning a car is a hassle, right? Not with Ford. From day one, we make service simple. Click below to find out how.'''
 	cta1a_text = '''CHECK IT OUT'''
 	cta1a_url = '''https://www.youtube.com/watch?v=EpUVjpuhxEE&t=133s/'''
