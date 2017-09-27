@@ -34,9 +34,6 @@ color='black'
 	image = '''black'''
 	url_link = '''https://www.ford.com.au/'''
 
-[[module]]
-path='email_modules/spacer/platinum_20'
-color='white'
 
 [[module]] #eNews Top Story 
 path='email_modules/custom/enews_topstory'

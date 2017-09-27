@@ -44,9 +44,6 @@ color='white'
 	image = '''AU_edm6_raptor_20170920'''
 	url_link = '''<link>'''
    
-[[module]]
-path='email_modules/spacer/platinum_20'
-color='white'
 
     [[module]] #Split 02
 path='email_modules/split/02'
