@@ -14,7 +14,7 @@ color='black'
 
 	title = '''Insider'''
     date = '''October 2017'''
-	copy = '''IN THIS ISSUE:<br />Ranger Raptor| module 2 | Ford Tyres | Breast Cancer Support '''
+	copy = '''IN THIS ISSUE:<br />Ranger Raptor| Escape screen time for play time | Ford Tyres | Breast Cancer Support '''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
