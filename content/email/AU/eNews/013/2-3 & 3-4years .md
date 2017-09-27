@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU Enews 013 4+ years'''
+title = '''AU Enews 013 2-3 & 3-4 years '''
 
 [[module]]
 path='email_modules/preheader'
@@ -13,8 +13,8 @@ path='email_modules/header/enews'
 color='black'
 
 	title = '''Insider'''
-    date = '''date'''
-	copy = '''IN THIS ISSUE:<br />module 1| module 2 | module 3 | module 4 '''
+	date = '''October 2017'''
+	copy = '''IN THIS ISSUE:<br /> Ranger Raptor | Ford Tyres | Limited Edition RS | Breast Cancer Support '''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -27,36 +27,22 @@ color='black'
 path='email_modules/custom/enews_topstory'
 color='black'
 
-	title = '''FORD RANGER RAPTOR IS COMING!'''
+    title = '''FORD RANGER RAPTOR IS COMING!'''
 	copy = '''Joining the Ford line-up in 2018, the Ford Ranger Raptor is designed to conquer the toughest of all terrain and will be the ultimate performance off-road pick-up truck. Since reveal on September 7th, the Ranger Raptor has already created quite the buzz. Click below to watch the prototype in testing and to get exclusive updates. '''
 	cta1_text = '''WATCH PROTOTYPE TESTING'''
 	cta1_url = '''https://www.ford.com.au/commercial/ranger/raptor/?intcmp=bb-fau-vhp-ford%20ranger-fau-vhp-ford%20ranger-return#overlay/content/ford/au/en_au/ranger-content/overlay-videos/raptor-videos/video1.html '''
 	cta1_link_name = ''''rangerRaptor'''
 	cta1_icon = '''play'''
 
-
 	[[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
 	image = '''AU_edm6_raptor_20170920'''
-	url_link = '''https://www.ford.com.au/commercial/ranger/special-editions/'''
-
+	url_link = '''https://www.ford.com.au/about-ford/awards/'''
 
 [[module]] #Split 02
 path='email_modules/split/02'
-color='darkblue'
-
-	title = '''Retail Offer'''
-	copy = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida metus a magna venenatis, vitae luctus mauris sollicitudin. Duis tristique.'''
-	cta1_text = '''LEARN MORE'''
-	cta1_url = '''https://www.ford.com.au/suv/escape/'''
-	cta1_link_name = '''retail'''
-	cta1_icon = '''more'''
-	image = '''AU_edm6_awards2_20170301'''
-
-	[[module]] #Split 01
-path='email_modules/split/01'
 color='green'
 
 	title = '''Did you know Ford sells tyres?'''
@@ -65,22 +51,34 @@ color='green'
 	cta1_url = '''https://www.ford.com.au/owners/service/low-price-tyre-guarantee/'''
 	cta1_link_name = '''LPTG'''
 	cta1_icon = '''more'''
-	image = '''AU_edm6_ranger_20170220'''
+	image = '''AU_edm6_accessories2_20170614'''
+
+	[[module]] #Split 01
+path='email_modules/split/01'
+color='darkblue'
+
+	title = '''Focus RS Tearing it Up'''
+	copy = '''This November, the Focus RS Limited Edition will be hitting the streets. To celebrate its arrival and to mark the one-year anniversary since we unleashed this beast in Australia, check out the current RS in action.'''
+	cta1_text = '''WATCH NOW'''
+	cta1_url = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10156519835473747/?type=2&theater'''
+	cta1_link_name = '''RS'''
+	cta1_icon = '''play'''
+	image = '''AU_edm6_focus_20170920'''
 
 
-	[[module]] #Split 02
+[[module]] #Split 02
 path='email_modules/split/02'
 color='lightblue'
 
-	 title = '''Support Breast Cancer Research'''
+    title = '''Support Breast Cancer Research'''
 	copy = '''We partner with the National Breast Cancer Foundation to support life changing breast cancer research in hope of creating a brighter future. We spoke with inspiring women about their breast cancer experience, hear the words that changed their lives.'''
 	cta1_text = '''Hear Their Experience'''
 	cta1_url = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10156683020833747/?type=2&theater'''
 	cta1_link_name = '''SBCR'''
-	cta1_icon = '''more'''
-	image = '''AU_edm6_ranger_20170220'''
-    
-    
+	cta1_icon = '''play'''
+	image = '''AU_edm6_accessories2_20170614'''
+
+
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
@@ -97,4 +95,4 @@ color='white'
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
 color='white'
-+++
++++ 

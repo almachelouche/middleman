@@ -6,7 +6,7 @@ title = '''PH Ford Ranger Raptor All'''
 path='email_modules/preheader'
 color='''white'''
 
-preheader = '''Get ready for a wild ride.'''
+preheader = '''Are you ready for the ultimate off-roader?'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'

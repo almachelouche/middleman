@@ -88,14 +88,14 @@ path='email_modules/cover/03'
 color='''slatescreen'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
-	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />The rhythm of the metropolis pumps through every fibre of the Ford EcoSport. Combining sleek design with advanced technology, this SUV is the hottest ticket in town. <br /><br /><span style="color:#FFFFFF">Right now, the Ford EcoSport Ambiente Manual is available at $19,990* Driveaway.</span>'''
+	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />The rhythm of the metropolis pumps through every fibre of the Ford EcoSport. Combining sleek design with advanced technology, this SUV is the hottest ticket in town. <br /><br /><span style="color:#FFFFFF">Right now, the Ford EcoSport Ambiente Manual is available at $18,990* Driveaway.</span>'''
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Built for urban discoveries, this smart SUV makes city driving a breeze. So if you live for hustle, bustle and bright lights, the Ford EcoSport is the perfect match for you. <br /><br /><span style="color:#FFFFFF">Right now, the Ford EcoSport Ambiente Manual is available at $19,990* Driveaway.</span>'''
+	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Built for urban discoveries, this smart SUV makes city driving a breeze. So if you live for hustle, bustle and bright lights, the Ford EcoSport is the perfect match for you. <br /><br /><span style="color:#FFFFFF">Right now, the Ford EcoSport Ambiente Manual is available at $18,990* Driveaway.</span>'''
 
 
 [[module]] #Banner Image
@@ -141,7 +141,7 @@ color='white'
 path='email_modules/image/banner'
 color='white'
 
-	image='''au_edm5_prospect_new_banner_20170905'''
+	image='''au_edm2_svc_new_banner_20170926'''
 	url_link='''https://www.ford.com.au/owners/service/'''
 	url_link_name="servicebanner"
 

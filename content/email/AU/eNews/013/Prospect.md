@@ -1,6 +1,7 @@
 +++
 markets = ["au"]
 title = '''AU Enews 013 prospect'''
+draft = true
 
 [[module]]
 path='email_modules/preheader'
@@ -76,7 +77,7 @@ color='lightblue'
 	cta1_text = '''Hear Their Experience'''
 	cta1_url = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10156683020833747/?type=2&theater'''
 	cta1_link_name = '''SBCR'''
-	cta1_icon = '''more'''
+	cta1_icon = '''play'''
 	image = '''AU_edm6_accessories2_20170614'''
 
 [[module]] #Footer AU Social

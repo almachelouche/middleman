@@ -6,7 +6,7 @@ title = '''TH Service Campaign test'''
 path='email_modules/preheader'
 
 
-	preheader = '''พบข้อเสนอสุดพิเศษกับโปรแกรมบำรุงรักษารถยนต์ตามระยะ (SSP)'''
+	preheader = '''พร้อมส่วนลดพิเศษอีกมากมาย ณ ศูนย์บริการฟอร์ด'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -15,49 +15,33 @@ color='white'
 	image = '''white'''
 	url_link = '''https://www.ford.co.th/'''
 
-
 [[module]]
 path='email_modules/cover/02'
 
 color='''white'''
 title='''<span style="font-family:Tahoma, Verdana, Sans-serif">
-						<span style="white-space:nowrap;">เวลาที่คุณเพลิดเพลิน</span>
-						<span style="white-space:nowrap;">ผ่านไปเร็วเสมอ</span>
-					</span>'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></span><br /><br />
-
+						<span style="white-space:nowrap;">ฟอร์ดยกทีม</span>
+						'''
+copy='''
 <span style="font-family:Tahoma, Verdana, Sans-serif">
-						<span style="white-space:nowrap;">ถึงเวลาพารถ <%${user.CustomAttribute['Model']}%></span> 
-						<span style="white-space:nowrap;">ของคุณไปตรวจเช็คระยะครั้งแรกแล้ว</span> 
-						<span style="white-space:nowrap;">รับรองว่ารวดเร็วและครบครัน</span> 
-						<span style="white-space:nowrap;">ให้คุณมั่นใจว่ารถ <%${user.CustomAttribute['Model']}%></span> 
-						<span style="white-space:nowrap;">ของคุณจะพร้อมสำหรับทุกการเดินทาง</span> 
-						<span style="white-space:nowrap;">ไปกับศูนย์บริการฟอร์ดทั่วประเทศ</span>
-</span>
-<br /><br />
-<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style="white-space:nowrap;">บริการใหม่!!</span> 
-<span style="white-space:nowrap;">ฟอร์ดเพิ่มความสะดวกสบาย</span>
-<span style="white-space:nowrap;">ให้คุณสามารถนัดหมายเช็คระยะ</span>ที่<span style="white-space:nowrap;">ศูนย์บริการฟอร์ดง่ายๆ</span>
-<span style="white-space:nowrap;">ผ่านระบบ</span> 
-<span style="white-space:nowrap;">Online Booking</span> 
-<span style="white-space:nowrap;">ตลอด 7 วัน</span><br />
-<span style="white-space:nowrap;">พร้อมการรับประกันเช็คระยะภายใน 60	นาที</span>
-<span style="white-space:nowrap;">หากไม่ทัน</span><br />
-<span style="white-space:nowrap;">คุณจะได้รับบริการเช็คระยะครั้งนั้น "ฟรีทันที"</span>
-<br />
-<span style="white-space:nowrap;">ขออภัยหากคุณได้เข้ารับบริการที่ศูนย์บริการแล้ว</span>
-</span>'''
-cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหมายตอนนี้</span>'''
-cta1_url='''https://onlinebooking.ford.co.th/'''
-cta1_link_name = '''book_now'''
+						<span style="white-space:nowrap;">นำทีมโดยทีมช่างคุณภาพของฟอร์ดที่ช่วยดูแลรถของคุณ</span>
+                        <br />
+						<span style="white-space:nowrap;">พร้อมทีมสนับสนุนที่มาพร้อมส่วนลดพิเศษอีกมากมาย</span> 
+                        <br />
+						<span style="white-space:nowrap;">พบกับทีมฟอร์ดได้ที่ศูนย์บริการฟอร์ดทั่วประเทศ</span> 
+                        <br />
+						<span style="white-space:nowrap;">ตั้งแต่ 1 ตุลาคม – 31 ธันวาคม 2560 นี้เท่านั้น</span>
+                        '''
+cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">เรียนรู้เพิ่มเติม</span>'''
+cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
+cta1_link_name = '''learn_more'''
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
 	image='''th_edm6_servicecampaign_20170925'''
-	url_link=''''''
+	url_link='''https://www.ford.co.th/owner/servicecampaign/'''
 	url_link_name='''service_campaign'''
 
 [[module]]

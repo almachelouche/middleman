@@ -13,7 +13,7 @@ path='email_modules/preheader'
 path='email_modules/image/banner'
 color='white'
 
-	image = '''au_edm2_svc_new_banner_20170817'''
+	image = '''au_edm2_svc_new_banner_20170926'''
 	url_link = '''https://www.ford.com.au/owners/service/'''
 
 [[module]]
@@ -38,7 +38,7 @@ color='''white'''
     	<br />
     	Book your service and Free Loan Car&#185; with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or find your <a href="https://www.ford.com.au/dealership/" style="text-decoration:underline; color:#2D96CD">nearest dealer</a>.
         <br /> <br /> 
-        Plus, thanks to Castrol Oils, for a limited time,  you can get $50 off your next scheduled service by presenting this email to your Service Department. 
+        Plus, thanks to Castrol Oils, for a limited time,  you can get $50* off your next scheduled service by presenting this email to your Service Department. 
 
     '''
 
