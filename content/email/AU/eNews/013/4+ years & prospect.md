@@ -48,7 +48,7 @@ color='white'
 path='email_modules/split/02'
 color='darkblue'
 
-	title = '''Swap Screen Time for Play Time with the Escape'''
+	title = '''Screen Time vs Play Time'''
 	copy = '''Our research shows that getting away from our smartphone and tablet screens is good for the whole family. What better way to get away than in the Ford Escape Trend AWD Auto, from only $34,990*?'''
 	cta1_text = '''LEARN MORE'''
 	cta1_url = '''https://www.ford.com.au/suv/escape/?intcmp=bb-fau-hp-fau-vhp-ford%20escape-return'''
