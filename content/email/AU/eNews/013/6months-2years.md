@@ -19,7 +19,7 @@ color='''white'''
 
 	preheader='''Joining the Ford lineup in 2018, Ranger Raptor will be the ultimate performance off-road truck designed to conquer the toughest of all terrains.'''
 
-	[[module]] #Header eNews 
+[[module]] #Header eNews 
 path='email_modules/header/enews'
 color='black'
 
@@ -46,7 +46,7 @@ color='black'
 	cta1_link_name = '''RangerRaptor'''
 	cta1_icon = '''play'''
 
-	[[module]] #Banner Image #NON NSW
+[[module]] #Banner Image #NON NSW
 path='email_modules/image/banner'
 color='white'
 
@@ -66,7 +66,7 @@ color='green'
 	cta1_icon = '''more'''
 	image = '''AU_edm6_ranger_20170220'''
 
-	[[module]] #Split 01
+[[module]] #Split 01
 path='email_modules/split/01'
 color='darkblue'
 
@@ -78,7 +78,7 @@ color='darkblue'
 	cta1_icon = '''play'''
 	image = '''AU_edm6_engine_20170927'''
 
-	[[module]] #Split 02
+[[module]] #Split 02
 path='email_modules/split/02'
 color='lightblue'
 

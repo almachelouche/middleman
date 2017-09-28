@@ -45,7 +45,7 @@ color='white'
 	url_link = '''<link>'''
    
 
-    [[module]] #Split 02
+[[module]] #Split 02
 path='email_modules/split/02'
 color='green'
 
@@ -58,7 +58,7 @@ color='green'
 	image = '''AU_edm6_accessories2_20170614'''
 
 
-	[[module]] #Split 01
+[[module]] #Split 01
 path='email_modules/split/01'
 color='darkblue'
 

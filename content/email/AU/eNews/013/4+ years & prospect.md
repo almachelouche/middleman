@@ -36,7 +36,7 @@ color='black'
 	cta1_icon = '''play'''
 
 
-	[[module]] #Banner Image
+[[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
@@ -56,7 +56,7 @@ color='darkblue'
 	cta1_icon = '''more'''
 	image = '''AU_edm6_awards2_20170301'''
 
-	[[module]] #Split 01
+[[module]] #Split 01
 path='email_modules/split/01'
 color='green'
 
@@ -69,7 +69,7 @@ color='green'
 	image = '''AU_edm6_ranger_20170220'''
 
 
-	[[module]] #Split 02
+[[module]] #Split 02
 path='email_modules/split/02'
 color='lightblue'
 
