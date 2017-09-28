@@ -88,7 +88,7 @@ color='white'
 
 	text = '''DISCLAIMERS:
                 <br /> <br /> 
-				
+				'''
 
 [[module]]
 path='email_modules/footer/au/online'
