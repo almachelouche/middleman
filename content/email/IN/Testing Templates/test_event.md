@@ -42,7 +42,11 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''Reunions are a great opportunity to reconnect with friends and family. This Reunion season, reunite with Ford and enjoy some great service offers, exclusively for you.<br /><br />If you purchased a Ford between 2007 and 2012, go to your nearest Ford Service Centre and enjoy a 25% discount on brakes, suspension and clutch parts, labour and VAS, and get a free oil filter replacement, too! Hurry, this offer is only available from September 2-17 and you don't want to miss it.*'''
+	copy = '''Reunions are a great opportunity to reconnect with friends and family. This Reunion season, reunite with Ford and enjoy some great service offers, exclusively for you.<br /><br />If you purchased a Ford between 2007 and 2012, go to your nearest Ford Service Centre and enjoy a 25% discount on brakes, suspension and clutch parts, labour and VAS, and get a free oil filter replacement, too! Hurry, this offer is only available from September 2-17 and you don't want to miss it.*
+    <br /><br />
+    <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MzBodjZucWhnMWR1Z2FrZzJpanUybWdyZXUgYmguc2guZWRtLnVhdEBt&tmsrc=bh.sh.edm.uat%40gmail.com" style="text-decoration:underline; color:#2D96CD;" >Add to Calendar (Gmail)</a>
+    <br />
+    <a href="https://s3-ap-southeast-1.amazonaws.com/edm-images/events/test/Event_Save_Test.ics" style="text-decoration:underline; color:#2D96CD;" >Add to Calendar (iCal/Outlook)</a>'''
 
 [[module]]
 path='email_modules/spacer/default'
