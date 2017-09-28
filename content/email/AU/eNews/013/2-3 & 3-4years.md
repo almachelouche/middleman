@@ -67,7 +67,17 @@ color='darkblue'
 	image = '''AU_edm6_focus_20170927'''
 
 
+[[module]] #Split 02
+path='email_modules/split/02'
+color='lightblue'
 
+    title = '''Stories of Survival'''
+	copy = '''We're proud to announce that we have partnered up with the National Breast Cancer Foundation to support their life-changing research. We also spoke with inspiring women about their breast cancer experiences.'''
+    cta1_text = '''Hear Their Experience'''
+    cta1_url = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10156683020833747/?type=2&theater/'''
+	cta1_link_name = '''SBCR'''
+	cta1_icon = '''play'''
+	image = '''AU_edm6_nbcf_20170927'''
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
