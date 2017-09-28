@@ -70,7 +70,7 @@ color='green'
 path='email_modules/split/01'
 color='darkblue'
 
-	title = '''Engine and Oil Health 101'''
+	title = '''Engine and Oil Health'''
 	copy = '''What’s the most important part of your Ford vehicle? The engine. When it’s not in top health, it can affect your whole vehicle. So we created a quick video to help you keep your car’s engine running at its best.'''
 	cta1_text = '''WATCH NOW'''
 	cta1_url = '''https://youtu.be/yM6vCGm-AAQ'''
