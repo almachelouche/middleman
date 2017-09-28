@@ -67,7 +67,7 @@ color='darkblue'
 	image = '''AU_edm6_focus_20170927'''
 
 
-[[module]] #Split 02
+    [[module]] #Split 02
 path='email_modules/split/02'
 color='lightblue'
 
