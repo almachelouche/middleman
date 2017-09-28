@@ -72,7 +72,7 @@ path='email_modules/split/02'
 color='lightblue'
 
     title = '''Support Breast Cancer Research'''
-	copy = '''We partner with the National Breast Cancer Foundation to support life changing breast cancer research in hope of creating a brighter future. We spoke with inspiring women about their breast cancer experience, hear the words that changed their lives.'''
+	copy = ''We’re proud to announce that we have partnered up with the National Breast Cancer Foundation to support their life-changing research. We also spoke with inspiring women about their breast cancer experiences. Their words will move you.'''
 	cta1_text = '''Hear Their Experience'''
 	cta1_url = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10156683020833747/?type=2&theater'''
 	cta1_link_name = '''SBCR'''

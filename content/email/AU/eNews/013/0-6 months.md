@@ -63,7 +63,7 @@ path='email_modules/split/01'
 color='darkblue'
 
     title = '''Engine and Oil Health 101'''
-	copy = '''Your car's engine is the most important part of your car. It is the heart of your car, the component that help your car run smoothly. Click below to watch to learn how to keep your engine performing at its best and make sure your engine oil is okay.'''
+	copy = '''What’s the most important part of your Ford vehicle? The engine. When it’s not in top health, it can affect your whole vehicle. So we created a quick video to help you keep your car’s engine running at its best.'''
 	cta1_text = '''WATCH NOW'''
 	cta1_url =  '''https://youtu.be/yM6vCGm-AAQ'''
 	cta1_link_name = '''Engine and oil'''
