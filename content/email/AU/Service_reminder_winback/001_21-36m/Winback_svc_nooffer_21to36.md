@@ -26,12 +26,12 @@ path='email_modules/singles/copy'
 color='''white'''
 
 	copy = '''Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />
-    Our records show that it’s been a while since we’ve seen your Ford <nampelate> at one of our Service Departments.
+    Have you been seeing some one else? Our records show that it’s been a while since we’ve seen your Ford <nampelate> at one of our Service Departments.
     <br /> <br />
 
     It’s important that your <%${user.CustomAttribute['Model']}%> is serviced regularly by our Ford trained technicians to ensure you car is running at it’s absolute best.
     <br /> <br />
-    To book a service you can find your local Ford Dealer here. Don’t forget to also book a free loan car&#185;  so we can keep you on the road during your service.
+    To book a service you can find your local Ford Dealer  <a href="https://www.ford.com.au/dealership/" name="here" style="text-decoration:underline; color:#2D96CD">here</a>. Don’t forget to also book a free loan car&#185;  so we can keep you on the road during your service.
     '''
 
 [[module]]
