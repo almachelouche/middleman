@@ -66,6 +66,12 @@ color='''white'''
     <br />
     <a href="https://s3-ap-southeast-1.amazonaws.com/edm-images/events/test/Event_Save_Test.ics" style="text-decoration:underline; color:#2D96CD;" >Add to Calendar (iCal/Outlook)</a>'''
 
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+    
 [[module]] #Footer 4 Icons
 path='email_modules/footer/4icons'
 color='white'
