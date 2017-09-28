@@ -42,11 +42,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''Reunions are a great opportunity to reconnect with friends and family. This Reunion season, reunite with Ford and enjoy some great service offers, exclusively for you.<br /><br />If you purchased a Ford between 2007 and 2012, go to your nearest Ford Service Centre and enjoy a 25% discount on brakes, suspension and clutch parts, labour and VAS, and get a free oil filter replacement, too! Hurry, this offer is only available from September 2-17 and you don't want to miss it.*
-    <br /><br />
-    <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MzBodjZucWhnMWR1Z2FrZzJpanUybWdyZXUgYmguc2guZWRtLnVhdEBt&tmsrc=bh.sh.edm.uat%40gmail.com" style="text-decoration:underline; color:#2D96CD;" >Add to Calendar (Gmail)</a>
-    <br />
-    <a href="https://s3-ap-southeast-1.amazonaws.com/edm-images/events/test/Event_Save_Test.ics" style="text-decoration:underline; color:#2D96CD;" >Add to Calendar (iCal/Outlook)</a>'''
+	copy = '''Reunions are a great opportunity to reconnect with friends and family. This Reunion season, reunite with Ford and enjoy some great service offers, exclusively for you.<br /><br />If you purchased a Ford between 2007 and 2012, go to your nearest Ford Service Centre and enjoy a 25% discount on brakes, suspension and clutch parts, labour and VAS, and get a free oil filter replacement, too! Hurry, this offer is only available from September 2-17 and you don't want to miss it.*'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -61,6 +57,14 @@ color='''white'''
 	cta1_text = '''BOOK A SERVICE'''
 	cta1_url = '''https://www.india.ford.com/#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/service-booking.html/'''
 	cta1_link_name = '''book_service''' 
+    
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+
+	copy = '''<a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MzBodjZucWhnMWR1Z2FrZzJpanUybWdyZXUgYmguc2guZWRtLnVhdEBt&tmsrc=bh.sh.edm.uat%40gmail.com" style="text-decoration:underline; color:#2D96CD;" >Add to Calendar (Gmail)</a>
+    <br />
+    <a href="https://s3-ap-southeast-1.amazonaws.com/edm-images/events/test/Event_Save_Test.ics" style="text-decoration:underline; color:#2D96CD;" >Add to Calendar (iCal/Outlook)</a>'''
 
 [[module]] #Footer 4 Icons
 path='email_modules/footer/4icons'
