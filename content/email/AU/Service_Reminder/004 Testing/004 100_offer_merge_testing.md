@@ -2,10 +2,11 @@
 markets = ["au"]
 title = '''AU Service Reminder 004 8-10years 100 offer merge '''
 
-<%InsertIf expression="${((user.CustomAttribute['Esplit'] == '8TO10_OFFER_100') && (user.CustomAttribute['SERVAPPT'] == 'YES') && (user.CustomAttribute['SYNC_Available'] == 'NO'))}" %>
+
 
 [[module]]
 path='email_modules/preheader'
+segmentif = ["user.CustomAttribute['Esplit'] == '8TO10_OFFER_100') && (user.CustomAttribute['SERVAPPT'] == 'NO') && (user.CustomAttribute['SYNC_Available'] == 'YES') "] 
 
 	preheader='''Don't get stuck without wheels. Book a Free Loan Car with your <%${user.CustomAttribute['Model']}%>'s scheduled service.'''
 
@@ -100,10 +101,9 @@ path='email_modules/footer/au/online'
 color='white'    
 
 
-<%InsertElse expression="${((user.CustomAttribute['Esplit'] == '8TO10_OFFER_100') && (user.CustomAttribute['SERVAPPT'] == 'NO') && (user.CustomAttribute['SYNC_Available'] == 'NO'))}" %>
-
 [[module]]
 path='email_modules/preheader'
+segmentif = ["user.CustomAttribute['Esplit'] == '8TO10_OFFER_100') && (user.CustomAttribute['SERVAPPT'] == 'NO') && (user.CustomAttribute['SYNC_Available'] == 'NO') "] 
 
 	preheader='''Don't get stuck without wheels. Book a Free Loan Car with your <%${user.CustomAttribute['Model']}%>'s scheduled service.'''
 
