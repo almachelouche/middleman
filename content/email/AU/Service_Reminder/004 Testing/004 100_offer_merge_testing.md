@@ -6,7 +6,7 @@ title = '''AU Service Reminder 004 8-10years 100 offer merge '''
 
 [[module]]
 path='email_modules/preheader'
-segmentif = ["((user.CustomAttribute['Esplit'] == '8TO10_OFFER_100') && (user.CustomAttribute['SERVAPPT'] == 'NO') && (user.CustomAttribute['SYNC_Available'] == 'YES'))"] 
+segmentif = ["(user.CustomAttribute['Esplit'] == '8TO10_OFFER_100') && (user.CustomAttribute['SERVAPPT'] == 'NO') && (user.CustomAttribute['SYNC_Available'] == 'YES')"] 
 
 
 	preheader='''Don't get stuck without wheels. Book a Free Loan Car with your <%${user.CustomAttribute['Model']}%>'s scheduled service.'''
