@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU Service Reminder winback 003 '''
+title = '''AU Service Reminder winback 003 21-36months '''
 
 [[module]]
 path='email_modules/preheader'
@@ -12,7 +12,7 @@ path='email_modules/preheader'
 path='email_modules/image/banner'
 color='white'
 
-	image = '''au_edm2_pastdue_new_banner_20170926'''
+	image = '''AU_edm2_winback_21_36_20170928'''
 	url_link = '''https://www.ford.com.au/owners/service/'''
     
 [[module]]
@@ -25,13 +25,13 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />Did you know your Ford <%${user.CustomAttribute['Model']}%> is over due for it’s <%${user.CustomAttribute['Service_Interval']}%>km service? <br /><br />
-   
+	copy = '''Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />
+    Have you been seeing some one else? Our records show that it’s been a while since we’ve seen your Ford <nampelate> at one of our Service Departments.
+    <br /> <br />
+
     It’s important that your <%${user.CustomAttribute['Model']}%> is serviced regularly by our Ford trained technicians to ensure you car is running at it’s absolute best.
-    <br /><br />
-    You can book your service online at the below link. Don’t forget to also book a free loan car&#178; so we can keep you on the road. 
-    <br /><br />
-   
+    <br /> <br />
+    To book a service you can find your local Ford Dealer  <a href="https://www.ford.com.au/dealership/" name="here" style="text-decoration:underline; color:#2D96CD">here</a>. Don’t forget to also book a free loan car&#185;  so we can keep you on the road during your service.
     '''
 
 [[module]]
@@ -39,15 +39,6 @@ path='email_modules/spacer/default'
 color='white'
 
 	height="30"
-
-[[module]]
-path='email_modules/singles/ctablock'
-color='''white'''
-segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
-
-	cta1_text = '''BOOK YOUR SERVICE'''
-	cta1_url = '''https://consumer.xtime.net.au/scheduling/?company=14745&store=<%${user.CustomAttribute['DealerCode']}%>&VIN=<%${user.CustomAttribute['VIN']}%>&provider=FORD_AU_THE_BLUE_HIVE&keyword=<%${user.CustomAttribute['CampaignID']}%>&dest=&extid=<%${user.CustomAttribute['CampaignID']}%>&extctxt=FORD_AU_THE_BLUE_HIVE&cfn=<%${user.CustomAttribute['FullName']}%>&cln=<%${user['LastName']}%>&cpn=<%${user.CustomAttribute['Mobile_Phone']}%>&cem=<%${user.CustomAttribute['RealEmail']}%>&button=blue'''
-	cta1_link_name = '''service_booking'''
     
 [[module]]
 path='email_modules/spacer/default'
@@ -96,7 +87,6 @@ color='white'
 
 	text = '''DISCLAIMERS:<br /><br />
 				1) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
-                2) Available at participating Ford dealers on vehicles built from 2007. Customers will pay equal to or less than the maximum price as published by Ford for the period of the web quote for standard items in the A and B logbook services. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
                 '''
 
 [[module]] #Footer AU Online

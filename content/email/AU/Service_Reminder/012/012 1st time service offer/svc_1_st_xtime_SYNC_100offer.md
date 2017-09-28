@@ -1,7 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU Service Reminder 003 nonxtime_SYNC 100 offer '''
-
+title = '''AU Service Reminder 003 1st Service xtime_SYNC 100 offer'''
 
 [[module]]
 path='email_modules/preheader'
@@ -22,15 +21,17 @@ color='white'
 
 	height="30"
     
+     
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />This is just a friendly reminder that your Ford <%${user.CustomAttribute['Model']}%> is nearly due for its <%${user.CustomAttribute['Service_Interval']}%>km service.<br /><br />
+
+	copy = '''Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />This is just a friendly reminder that your Ford <%${user.CustomAttribute['Model']}%> is nearly due for its 15,000km service.<br /><br />
     We know how important your <%${user.CustomAttribute['Model']}%></span> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%></span> in the trusted hands of Ford trained technicians. You can even book a Free Loan Car&#185; for the day when you book your scheduled service.<br /><br />
-    Book your service and Free Loan Car&#185; with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or find your <a href="https://www.ford.com.au/dealership/" style="text-decoration:underline; color:#2D96CD">nearest dealer</a>.
-    <br /> <br /> 
-     Plus, thanks to Castrol Oils, for a limited time,  you can get $100* off your next scheduled service by presenting this email to your Service Department.
+    Book your service and Free Loan Car&#185; with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or find your <a href="https://www.ford.com.au/dealership/" style="text-decoration:underline; color:#2D96CD">nearest dealer</a>. You can even book online below.
+     <br /> <br /> 
+     Plus, thanks to Castrol Lubricants, for a limited time,  you can get $100* off your next scheduled service by presenting this email to your Service Department.
      '''
 
 [[module]]
@@ -39,6 +40,14 @@ color='white'
 
 	height="30"
 
+
+[[module]]
+path='email_modules/singles/ctablock'
+color='''white'''
+
+	cta1_text = '''BOOK YOUR SERVICE'''
+	cta1_url = '''https://consumer.xtime.net.au/scheduling/?company=14745&store=<%${user.CustomAttribute['DealerCode']}%>&VIN=<%${user.CustomAttribute['VIN']}%>&provider=FORD_AU_THE_BLUE_HIVE&keyword=<%${user.CustomAttribute['CampaignID']}%>&dest=&extid=<%${user.CustomAttribute['CampaignID']}%>&extctxt=FORD_AU_THE_BLUE_HIVE&cfn=<%${user.CustomAttribute['FullName']}%>&cln=<%${user['LastName']}%>&cpn=<%${user.CustomAttribute['Mobile_Phone']}%>&cem=<%${user.CustomAttribute['RealEmail']}%>&button=blue'''
+	cta1_link_name = '''service_booking'''
     
 [[module]]
 path='email_modules/spacer/default'
@@ -52,12 +61,13 @@ color='white'
 
 	height="20"
     
-[[module]]    
+
+[[module]]
 path='email_modules/dual/05'
 color='white'
 
-    text_box_height = '''240'''
 	title1 = '''Service Price Promise&#178;'''
+	text_box_height = '''240'''
 	copy1 = '''Know how much your standard service will cost before you even come in, with the <a href="https://www.ford.com.au/owners/service/calculator/" name="calculator" style="text-decoration:underline; color:#2D96CD"> Service Price Promise Calculator</span>.'''
 	image1 = '''au_edm2_service_price_promise_20170818'''
 	image1_link_url = '''https://www.ford.com.au/owners/service/calculator/'''
@@ -74,32 +84,32 @@ color='white'
 
 	height="20"
     
-    
 [[module]]
 path='email_modules/dual/05'
 color='white'
 
-    text_box_height = '''380'''
 	title1 = '''Auto Club Membership&#179;'''
+	text_box_height = '''380'''
 	copy1 = '''Each time you complete your standard service at a participating Ford dealer you'll receive State Auto Club Roadside Assistance and membership for up to 12 months.'''
-	image1 = '''au_edm2_auto_club_membership_20170818'''
-    image1_link_url='''https://www.ford.com.au/owners/service/roadside-assistance/'''
-    image1_name='''Some'''
-    cta1a_text = '''Learn More'''
+	cta1a_text = '''Learn More'''
 	cta1a_url = '''https://www.ford.com.au/owners/service/roadside-assistance/'''
 	cta1a_link_name = '''AutoClubMembership'''
-	title2 = '''SAT NAV Updates&#8308;'''
+	image1 = '''au_edm2_auto_club_membership_20170818'''
+	image1_link_url = '''https://www.ford.com.au/owners/service/roadside-assistance/'''
+	image1_link_name = '''Some'''
+    title2 = '''SAT NAV<br/>Updates&#8308;'''
 	copy2 = '''If you have SYNC®2 with SAT NAV, we'll help you stay on track with yearly map updates for up to 7 years when you complete your service with a participating dealer.'''
 	cta2a_text = '''Learn More'''
 	cta2a_url = '''https://www.ford.com.au/owners/service/free-sat-nav-updates/'''
 	cta2a_link_name = '''accessory'''
 	image2 = '''au_edm2_free_sat_nav_updates_20170818'''
-    image2_link_url='''https://www.ford.com.au/owners/service/free-sat-nav-updates/'''
-    image2_name='''Some'''
+	image2_link_url = '''https://www.ford.com.au/owners/service/free-sat-nav-updates/'''
+	image2_link_name = '''Some'''
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
 color='white'
+
 
 [[module]] #Footer Disclaimer 
 path='email_modules/footer/disclaimer'

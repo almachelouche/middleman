@@ -14,8 +14,8 @@ path='email_modules/header/enews'
 color='black'
 
 	title = '''Insider'''
-	date = '''date '''
-	copy = '''IN THIS ISSUE:<br /> module 1| module 2 | module 3 |module 4'''
+	date = '''October 2017 '''
+	copy = '''IN THIS ISSUE:<br /> Ranger Raptor | Ford Tyres | Engine Health | Ford Owners App'''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -43,12 +43,13 @@ color='white'
 
 	image = '''AU_edm6_raptor_20170920'''
 	url_link = '''<link>'''
-    
-    [[module]] #Split 02
+   
+
+[[module]] #Split 02
 path='email_modules/split/02'
 color='green'
 
-	title = '''Did you know Ford sells tyres?'''
+	title = '''Ford sells tyres?'''
 	copy = '''At Ford, we're committed to offering you tyres at competitive prices. That's why we're very excited to announce our Low Price Tyre Guarantee. We'll match a competitor's price on selected tyres we stock.'''
 	cta1_text =  '''LEARN MORE'''
 	cta1_url ='''https://www.ford.com.au/owners/service/low-price-tyre-guarantee/'''
@@ -57,17 +58,17 @@ color='green'
 	image = '''AU_edm6_accessories2_20170614'''
 
 
-	[[module]] #Split 01
+[[module]] #Split 01
 path='email_modules/split/01'
 color='darkblue'
 
-    title = '''Engine and Oil Health 101'''
-	copy = '''Your car's engine is the most important part of your car. It is the heart of your car, the component that help your car run smoothly. Click below to watch to learn how to keep your engine performing at its best and make sure your engine oil is okay.'''
+    title = '''Engine and Oil Health'''
+	copy = '''What’s the most important part of your Ford vehicle? The engine. When it’s not in top health, it can affect your whole vehicle. So we created a quick video to help you keep your car’s engine running at its best.'''
 	cta1_text = '''WATCH NOW'''
 	cta1_url =  '''https://youtu.be/yM6vCGm-AAQ'''
 	cta1_link_name = '''Engine and oil'''
 	cta1_icon = '''play'''
-	image = '''AU_edm6_accessories2_20170614'''
+	image = '''AU_edm6_engine_20170927'''
 
 [[module]]
 path='email_modules/spacer/platinum_20'

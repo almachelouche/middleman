@@ -27,12 +27,12 @@ color='''white'''
 
 	   copy = '''Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />Did you know your Ford <%${user.CustomAttribute['Model']}%> is over due for it’s <%${user.CustomAttribute['Service_Interval']}%>km service? <br /><br />
    
-        It’s important that your <%${user.CustomAttribute['Model']}%> is serviced regularly by our Ford trained technicians to ensure you car is running at it’s absolute best and to ensure the requirements of your warranty are honored.
-        <br /><br />
-        Your can book your service online at the below link. Don’t forget to also book a free loan car&#178; so we can keep you on the road. 
-        <br /><br />
-        Plus, thanks to Castrol Oils, for a limited time,  you can get $100* off your next scheduled service by presenting this email to your Service Department. 
-        '''
+    It’s important that your <%${user.CustomAttribute['Model']}%> is serviced regularly by our Ford trained technicians to ensure you car is running at it’s absolute best.
+    <br /><br />
+    You can book your service online at the below link. Don’t forget to also book a free loan car&#178; so we can keep you on the road. 
+    <br /><br />
+    Plus, thanks to Castrol Oils, for a limited time, you can get $100* off your next scheduled service by presenting this email to your Service Department.
+    '''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -93,6 +93,8 @@ color='white'
 [[module]] #Footer Disclaimer 
 path='email_modules/footer/disclaimer'
 color='white'
+
+
 
 	text = '''DISCLAIMERS:<br /><br />
      VIN number: <% ${user.CustomAttribute['VIN']}%>

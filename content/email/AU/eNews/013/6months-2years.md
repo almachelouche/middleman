@@ -19,13 +19,13 @@ color='''white'''
 
 	preheader='''Joining the Ford lineup in 2018, Ranger Raptor will be the ultimate performance off-road truck designed to conquer the toughest of all terrains.'''
 
-	[[module]] #Header eNews 
+[[module]] #Header eNews 
 path='email_modules/header/enews'
 color='black'
 
 	title = '''Insider'''
-	date = '''date'''
-	copy = '''IN THIS ISSUE:<br />module 1| module 2 | module 3 | module 4 '''
+	date = '''October 2017'''
+	copy = '''IN THIS ISSUE:<br />Ranger Raptor | Ford Tyres | Engine Health | Breast Cancer Support '''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -33,6 +33,7 @@ color='black'
 
 	image = '''black'''
 	url_link = '''https://www.ford.com.au/'''
+
 
 [[module]] #eNews Top Story 
 path='email_modules/custom/enews_topstory'
@@ -45,7 +46,7 @@ color='black'
 	cta1_link_name = '''RangerRaptor'''
 	cta1_icon = '''play'''
 
-	[[module]] #Banner Image #NON NSW
+[[module]] #Banner Image #NON NSW
 path='email_modules/image/banner'
 color='white'
 
@@ -57,7 +58,7 @@ color='white'
 path='email_modules/split/02'
 color='green'
 
-    title = '''Did you know Ford sells tyres?'''
+    title = '''Ford sells tyres?'''
 	copy = '''At Ford, we're committed to offering you tyres at competitive prices. That's why we're very excited to announce our Low Price Tyre Guarantee. We'll match a competitor's price on selected tyres we stock.'''
 	cta1_text = '''LEARN MORE'''
 	cta1_url = '''https://www.ford.com.au/owners/service/low-price-tyre-guarantee/'''
@@ -65,29 +66,29 @@ color='green'
 	cta1_icon = '''more'''
 	image = '''AU_edm6_ranger_20170220'''
 
-	[[module]] #Split 01
+[[module]] #Split 01
 path='email_modules/split/01'
 color='darkblue'
 
-	title = '''Engine and Oil Health 101'''
-	copy = '''Your car's engine is the most important part of your car. It is the heart of your car, the component that help your car run smoothly. Click below to watch to learn how to keep your engine performing at its best and make sure your engine oil is okay.'''
+	title = '''Engine and Oil Health'''
+	copy = '''What’s the most important part of your Ford vehicle? The engine. When it’s not in top health, it can affect your whole vehicle. So we created a quick video to help you keep your car’s engine running at its best.'''
 	cta1_text = '''WATCH NOW'''
 	cta1_url = '''https://youtu.be/yM6vCGm-AAQ'''
 	cta1_link_name = '''engineandoil'''
 	cta1_icon = '''play'''
-	image = '''AU_edm6_ranger_20170220'''
+	image = '''AU_edm6_engine_20170927'''
 
-	[[module]] #Split 02
+[[module]] #Split 02
 path='email_modules/split/02'
 color='lightblue'
 
-    title = '''Support Breast Cancer Research'''
-	copy = '''We partner with the National Breast Cancer Foundation to support life changing breast cancer research in hope of creating a brighter future. We spoke with inspiring women about their breast cancer experience, hear the words that changed their lives.'''
+    title = '''Supporting Breast Cancer'''
+	copy = '''We’re proud to announce that we have partnered up with the National Breast Cancer Foundation to support their life-changing research. We also spoke with inspiring women about their breast cancer experiences. Their words will move you.'''
 	cta1_text = '''Hear Their Experience'''
 	cta1_url = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10156683020833747/?type=2&theater'''
 	cta1_link_name = '''SBCR'''
-	cta1_icon = '''more'''
-	image = '''AU_edm6_ranger_20170220'''
+	cta1_icon = '''play'''
+	image = '''AU_edm6_nbcf_20170927'''
 
 
 [[module]] #Footer AU Social
