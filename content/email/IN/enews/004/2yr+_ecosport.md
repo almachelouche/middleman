@@ -20,7 +20,7 @@ path='email_modules/header/enews'
 color='black'
 
 	title = '''Insider'''
-	date = '''September 2017'''
+	date = '''October 2017'''
 	copy = '''IN THIS ISSUE:<br />Motorcraft&#174; Parts | Road Trip Tunes | Safety Report Cards | And more'''
 
 [[module]] # eNews Top Story
