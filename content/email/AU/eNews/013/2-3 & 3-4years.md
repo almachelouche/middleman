@@ -34,7 +34,7 @@ color='black'
 	cta1_link_name = ''''rangerRaptor'''
 	cta1_icon = '''play'''
 
-	[[module]] #Banner Image
+[[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
@@ -54,7 +54,7 @@ color='green'
 	cta1_icon = '''more'''
 	image = '''AU_edm6_accessories2_20170614'''
 
-	[[module]] #Split 01
+[[module]] #Split 01
 path='email_modules/split/01'
 color='darkblue'
 
@@ -67,7 +67,7 @@ color='darkblue'
 	image = '''AU_edm6_focus_20170927'''
 
 
-    [[module]] #Split 02
+[[module]] #Split 02
 path='email_modules/split/02'
 color='lightblue'
 
