@@ -43,12 +43,12 @@ font='th'
 		Congratulations on booking your brand new Ford [Model]! We are so excited to welcome you to the Ford Family and have you as our valued customer.
 		<br/>
 		<br/>
-		Before it arrives at [Company_Name] for your collection, we will let you know where it is at every step of its journey to you. Below are the details of your booking and expected delivery time:
+		Before it arrives at [Branch_Description] for your collection, we will let you know where it is at every step of its journey to you. Below are the details of your booking and expected delivery time:
 		<br/>
 		<br/>
 		Expected Delivery Time: [Tentative_Date]
 		<br/>
-		Model Booked: [Market_Segment_Details]
+		Model Booked: [Model_Description]
 		<br/>
 		Purchased Price: [Total_Amount]
 		<br/>
@@ -56,7 +56,7 @@ font='th'
 		If you have any questions or concerns about this booking, please don't hesitate to reach out. Here are your contacts:
 		<br/>
 		<br/>
-		Sales Consultant: [SalesPerson_Code] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>
+		Sales Consultant: [SalesPerson] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>
 		<br/>
 		Delivery Consultant: [Delivery_SalesPerson] <a href="tel:[Delivery_SalesPerson_Phone_No]" style="text-decoration: none;">[Delivery_SalesPerson_Phone_No]</a>
 		<br/>
@@ -79,7 +79,7 @@ path='email_modules/split/master/right'
 color='green'
 font='th'
 
-	title='''[Dealer_NAME]'''
+	title='''[Branch_Description]'''
 	title_align='left'
 	copy='''
 		[Location_Address]

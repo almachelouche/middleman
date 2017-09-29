@@ -43,12 +43,12 @@ font='th'
 		ขอแสดงความยินดีกับการจองรถยนต์ฟอร์ด [Model] คันใหม่ของท่านเราตื่นเต้นมากที่จะได้ต้อนรับท่านเข้าสู่ครอบครัวฟอร์ดและเป็นลูกค้าคนสำคัญของเรา
 		<br/>
 		<br/>
-		ก่อนที่รถยนต์จะมาถึง [Company_Name] เพื่อส่งมอบแก่ท่านเราจะแจ้งการจัดส่งของรถยนต์คันนี้ให้ท่านทราบในทุกขั้นตอนด้านล่างนี้เป็นข้อมูลการจองของท่านและช่วงเวลาที่คาดว่าจะมีการส่งมอบ:
+		ก่อนที่รถยนต์จะมาถึง [Branch_Description] เพื่อส่งมอบแก่ท่านเราจะแจ้งการจัดส่งของรถยนต์คันนี้ให้ท่านทราบในทุกขั้นตอนด้านล่างนี้เป็นข้อมูลการจองของท่านและช่วงเวลาที่คาดว่าจะมีการส่งมอบ:
 		<br/>
 		<br/>
 		ช่วงเวลาที่คาดว่าจะมีการส่งมอบ: [Tentative_Date]
 		<br/>
-		รุ่นที่จอง: [Market_Segment_Details]
+		รุ่นที่จอง: [Model_Description]
 		<br/>
 		ราคาซื้อ: [Total_Amount]
 		<br/>
@@ -56,7 +56,7 @@ font='th'
 		หากท่านมีคำถามหรือข้อสงสัยใดๆเกี่ยวกับการจองนี้ท่านสามารถติดต่อเราได้ทันทีข้อมูลสำหรับการติดต่อ:
 		<br/>
 		<br/>
-		พนักงานขาย: [SalesPerson_Code] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>
+		พนักงานขาย: [SalesPerson] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>
 		<br/>
 		พนักงานส่งมอบรถ: [Delivery_SalesPerson] <a href="tel:[Delivery_SalesPerson_Phone_No]" style="text-decoration: none;">[Delivery_SalesPerson_Phone_No]</a>
 		<br/>
@@ -79,7 +79,7 @@ path='email_modules/split/master/right'
 color='green'
 font='th'
 
-	title='''[Dealer_NAME]'''
+	title='''[Branch_Description]'''
 	title_align='left'
 	copy='''
 		[Location_Address]

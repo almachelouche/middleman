@@ -24,10 +24,10 @@ font='th'
 		เรียน [Name]
 		<br/>
 		<br/>
-		[Company_Name] ขอขอบพระคุณเป็นอย่างสูงที่ท่านแวะมาเยี่ยมชมโชว์รูมของเราในวันที่ [Opportunity_Creation_Date] นับเป็นเกียรติอย่างยิ่งที่มีโอกาสได้ต้อนรับและให้บริการและเรายินดีเป็นอย่างยิ่งที่ทราบว่าท่านมีความสนใจในรถยนต์ฟอร์ด [Model]
+		[Branch_Description] ขอขอบพระคุณเป็นอย่างสูงที่ท่านแวะมาเยี่ยมชมโชว์รูมของเราในวันที่ [Opportunity_Creation_Date] นับเป็นเกียรติอย่างยิ่งที่มีโอกาสได้ต้อนรับและให้บริการและเรายินดีเป็นอย่างยิ่งที่ทราบว่าท่านมีความสนใจในรถยนต์ฟอร์ด [Model]
 		<br/>
 		<br/>
-		พนักงานขายที่จะให้บริการท่านในการเดินทางอันน่าตื่นเต้นนี้คือ [SalesPerson_Code] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>.
+		พนักงานขายที่จะให้บริการท่านในการเดินทางอันน่าตื่นเต้นนี้คือ [SalesPerson] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>.
 		<br/>
 		<br/>
 		หากท่านต้องการข้อมูลหรือความช่วยเหลือเพิ่มเติมใดๆในขณะตัดสินใจซื้อรถยนต์คันนี้ท่านสามารถติดต่อเราได้ทุกเมื่อโดยไม่ต้องกังวล
@@ -55,7 +55,7 @@ path='email_modules/split/master/right'
 color='green'
 font='th'
 
-	title='''[Dealer_NAME]'''
+	title='''[Branch_Description]'''
 	title_align='left'
 	copy='''
 		[Location_Address]

@@ -22,12 +22,12 @@ font='th'
 
 	copy='''
 		Dear [Name],
+	   <br />
+       <br />
+		Greetings from [Branch_Description]. Thanks for stopping by our showroom on [Opportunity_Creation_Date]. It was great meeting you, and we're so happy to hear that you're interested in the Ford [Model]. 
 		<br/>
 		<br/>
-		Greetings from [Company_Name]. Thanks for stopping by our showroom on [Opportunity_Creation_Date]. It was great meeting you, and we're so happy to hear that you're interested in the Ford [Model]. 
-		<br/>
-		<br/>
-		Your Sales Consultant for this exciting journey will be [SalesPerson_Code] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>.
+		Your Sales Consultant for this exciting journey will be [SalesPerson] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>.
 		<br/>
 		<br/>
 		Please feel free to contact us if you need any further information or help as you make this purchase decision. 
@@ -55,7 +55,7 @@ path='email_modules/split/master/right'
 color='green'
 font='th'
 
-	title='''[Dealer_NAME]'''
+	title='''[Branch_Description]'''
 	title_align='left'
 	copy='''
 		[Location_Address]

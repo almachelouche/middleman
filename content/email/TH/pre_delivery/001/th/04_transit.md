@@ -46,7 +46,7 @@ font='th'
 		อย่าลืม หากท่านมีคำถามหรือข้อสงสัยใดๆคุณสามารถติดต่อเราได้ทันทีเราอยู่ที่นี่เพื่อคอยช่วยเหลือท่านข้อมูลสำหรับการติดต่อ:
 		<br/>
 		<br/>
-		พนักงานขาย: [SalesPerson_Code] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>
+		พนักงานขาย: [SalesPerson] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>
 		<br/>
 		พนักงานส่งมอบรถ: [Delivery_SalesPerson] <a href="tel:[Delivery_SalesPerson_Phone_No]" style="text-decoration: none;">[Delivery_SalesPerson_Phone_No]</a>
 		<br/>
@@ -67,7 +67,7 @@ path='email_modules/split/master/right'
 color='green'
 font='th'
 
-	title='''[Dealer_NAME]'''
+	title='''[Branch_Description]'''
 	title_align='left'
 	copy='''
 		[Location_Address]

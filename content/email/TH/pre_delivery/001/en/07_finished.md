@@ -33,7 +33,7 @@ font='th'
 		Firstly, big congratulations for the purchase of your new Ford [Model]. We trust that you, your family and friends will enjoy years of happy motoring and ownership as a valued member of the Ford family. 
 		<br/>
 		<br/>
-		All of us here at [Company_Name] are completely committed to providing you with the personalize relationship and experience that you want, expect and deserve from the Ford brand and our dealership service. 
+		All of us here at [Branch_Description] are completely committed to providing you with the personalize relationship and experience that you want, expect and deserve from the Ford brand and our dealership service. 
 		<br/>
 		<br/>
 		We look forward to serve and continuously exceed your expectations.
@@ -52,7 +52,7 @@ path='email_modules/split/master/right'
 color='green'
 font='th'
 
-	title='''[Dealer_NAME]'''
+	title='''[Branch_Description]'''
 	title_align='left'
 	copy='''
 		[Location_Address]
