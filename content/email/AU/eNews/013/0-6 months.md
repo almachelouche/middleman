@@ -69,10 +69,6 @@ color='darkblue'
 	cta1_icon = '''play'''
 	image = '''AU_edm6_engine_20170927'''
 
-[[module]]
-path='email_modules/spacer/platinum_20'
-color='white'
-
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
 color='black'
