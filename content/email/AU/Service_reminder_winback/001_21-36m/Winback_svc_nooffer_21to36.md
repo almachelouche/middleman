@@ -53,29 +53,6 @@ color='white'
 	height="20"
     
 
-[[module]]
-path='email_modules/dual/05'
-color='white'
-
-
-	title1 = '''Service Price Promise&#178;'''
-	text_box_height = '''240'''
-	copy1 = '''Know how much your standard service will cost before you even come in, with the <a href="https://www.ford.com.au/owners/service/calculator/" name="calculator" style="text-decoration:underline; color:#2D96CD"> Service Price Promise Calculator</span>.'''
-	image1 = '''au_edm2_service_price_promise_20170818'''
-	image1_link_url = '''https://www.ford.com.au/owners/service/calculator/'''
-	image1_link_name = '''Some'''
-	title2 = '''Free Loan Car&#185;'''
-	copy2 = '''Life shouldn't stop when you service your vehicle. That's why we offer a <a href="https://www.ford.com.au/owners/service/" name="freeloan" style="text-decoration:underline; color:#2D96CD">Free Loan Car&#185</a>  when you book a scheduled service.'''
-	image2 = '''au_edm2_free_loan_car_20170818'''
-	image2_link_url = '''https://www.ford.com.au/owners/service/'''
-	image2_link_name = '''Some'''
-
-[[module]]
-path='email_modules/spacer/platinum_20'
-color='white'
-
-	height="20"
-    
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
