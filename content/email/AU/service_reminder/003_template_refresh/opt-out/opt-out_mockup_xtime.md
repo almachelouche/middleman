@@ -68,7 +68,7 @@ color='white'
 path='email_modules/dual/05'
 color='white'
 
-    text_box_height = '''240'''
+    text_box_height = '''310'''
 	title1 = '''Genuine Service'''
 	copy1 = '''We know how important your <Nameplate> is to you, so we're sure you'll appreciate that our factory-trained technicians only use Genuine Ford parts and equipment.'''
 	cta1a_text = '''Learn More'''
