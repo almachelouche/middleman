@@ -82,13 +82,6 @@ color='white'
 path='email_modules/footer/au/social'
 color='white'
 
-[[module]]
-path='email_modules/footer/disclaimer'
-color='white'
-
-	text = '''DISCLAIMERS:
-                <br /> <br /> 
-                '''
 
 [[module]]
 path='email_modules/footer/au/online'
