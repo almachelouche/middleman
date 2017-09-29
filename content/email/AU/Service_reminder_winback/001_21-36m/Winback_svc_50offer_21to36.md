@@ -31,7 +31,7 @@ color='''white'''
 
     It’s important that your <%${user.CustomAttribute['Model']}%> is serviced regularly by our Ford trained technicians to ensure you car is running at it’s absolute best.
     <br /> <br />
-    To book a service you can find your local Ford Dealer <a href="https://www.ford.com.au/dealership/" name="here" style="text-decoration:underline; color:#2D96CD">here</a>. Don’t forget to also book a free loan car&#185;  so we can keep you on the road during your service.
+    To book a service for your <%${user.CustomAttribute['Model']}%> you can find your local Ford Dealer <a href="https://www.ford.com.au/dealership/" name="here" style="text-decoration:underline; color:#2D96CD">here</a>. Don’t forget to also book a free loan car&#185;  so we can keep you on the road during your service.
     <br /> <br />
     Plus, thanks to Castrol Oils, for a limited time, you can get $50* off your next scheduled service by presenting this email to your Service Department.
     '''
