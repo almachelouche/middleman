@@ -54,7 +54,7 @@ color='''white'''
     <br />
     <span style=" white-space:nowrap;">เรนเจอร์ แร็พเตอร์ กระบะออฟโรดประสิทธิภาพแกร่งใกล้จะพร้อมเปิดตัวแล้ว</span> 
     <br />
-    <span style=" white-space:nowrap;">เรารู้ดีว่าคุณชื่นชอบใน Ford Model ของคุณ แต่เราคิดว่าคุณน่าจะได้เห็นรถรุ่นนี้ก่อน</span>
+    <span style=" white-space:nowrap;">เรารู้ดีว่าคุณชื่นชอบใน <%${user.CustomAttribute['Model']}%> ของคุณ แต่เราคิดว่าคุณน่าจะได้เห็นรถรุ่นนี้ก่อน</span>
     <br />
     <br />
     <span style=" white-space:nowrap;">คลิกที่ลิงก์ด้านล่างเพื่อรับชมการทดสอบรถต้นแบบ</span> 
