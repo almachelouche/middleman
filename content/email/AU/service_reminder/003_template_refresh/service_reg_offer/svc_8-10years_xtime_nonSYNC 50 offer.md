@@ -37,6 +37,18 @@ path='email_modules/spacer/default'
 color='white'
 
 	height="30"
+    
+[[module]]
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+
+	image = '''AU_edm2_castrol_voucher_20171009'''
+    
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
 
 [[module]]
 path='email_modules/singles/ctablock'
