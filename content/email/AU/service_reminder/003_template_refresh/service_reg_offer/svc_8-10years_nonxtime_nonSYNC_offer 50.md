@@ -41,6 +41,12 @@ color='''white'''
         Plus, thanks to Castrol Lubricants, for a limited time,  you can get $50* off your next scheduled service by presenting this email to your Service Department. 
 
     '''
+    
+    [[module]]
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+
+	image = '''AU_edm2_castrol_20171009'''
 
 [[module]]
 path='email_modules/spacer/default'
