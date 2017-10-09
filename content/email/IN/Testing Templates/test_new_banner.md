@@ -44,6 +44,10 @@ color = '''white'''
 	url_link='''https://www.youtube.com/watch?v=rTMTBZ8W_4Y&index=1&list=PLyO4HcxK6VwoQpGqoLWYtg_bXbMo7LvnE'''
 	url_link_name='''infotainment_image'''
 
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
 [[module]] #Split 01
 path='email_modules/split/01'
 color='lightblue'
@@ -56,14 +60,6 @@ color='lightblue'
 	cta1_icon = '''play'''
 	image = '''in_edm6_service_journey_20170420'''
 
-[[module]]
-path = '''email_modules/image/mobile_cover'''
-color = '''white'''
-
-	image = '''th_edm1&4_np_ranger_20161115'''
-	url_link='''http://google.com'''
-	url_link_name='''LINKNAMEHERE'''
-
 [[module]] #Split 02
 path='email_modules/split/02'
 color='green'
@@ -75,12 +71,6 @@ color='green'
 	cta1_link_name = '''air_con_video'''
 	cta1_icon = '''play'''
 	image = '''in_edm6_drive_ac_20170809'''
-
-[[module]]
-path = '''email_modules/image/mobile_cover_nolink'''
-color = '''white'''
-
-	image = '''th_edm1&4_np_ranger_20161115'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
