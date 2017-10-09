@@ -70,7 +70,7 @@ color='white'
 
     text_box_height = '''310'''
 	title1 = '''Genuine Service'''
-	copy1 = '''We know how important your <Nameplate> is to you, so we're sure you'll appreciate that our factory-trained technicians only use Genuine Ford parts and equipment.'''
+	copy1 = '''We know how important your <%${user.CustomAttribute['Model']}%> is to you, so we're sure you'll appreciate that our factory-trained technicians only use Genuine Ford parts and equipment.'''
 	cta1a_text = '''Learn More'''
 	cta1a_url = '''http://genuineisbest.com.au/'''
 	cta1a_link_name = '''LearnMore'''
