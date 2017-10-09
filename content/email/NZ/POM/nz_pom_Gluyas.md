@@ -1,6 +1,7 @@
 +++
 markets = ["nz"]
-title = '''NZ POM 001 '''
+title = '''NZ POM 001 Gluyas Motor Group'''
+draft = true
 
 [[module]]
 path='email_modules/preheader'
@@ -40,7 +41,6 @@ color='white'
 
 	height="30"
 
-    
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
@@ -49,17 +49,6 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 	cta1_text = '''BOOK A SERVICE'''
 	cta1_url = '''http://www.gluyasford.nz/Page/4/aftersales-gluyasmotorgroup-ashburton?of=/Contact/BookService'''
 	cta1_link_name = '''service_booking'''
-    
-[[module]]
-path='email_modules/singles/ctablock'
-color='''white'''
-segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
-
-	cta1_text = '''BOOK A SERVICE'''
-	cta1_url = '''http://www.mckendryford.co.nz/Page/4/aftersales-mckendry-marlborough?of=/Contact/BookService'''
-	cta1_link_name = '''service_booking'''
-    
-    
 
 [[module]] #Footer NZ Social
 path='email_modules/footer/nz/social'

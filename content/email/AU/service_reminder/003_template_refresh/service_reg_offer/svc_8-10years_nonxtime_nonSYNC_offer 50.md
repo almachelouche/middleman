@@ -38,9 +38,21 @@ color='''white'''
     	<br />
     	Book your service and Free Loan Car&#185; with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or find your <a href="https://www.ford.com.au/dealership/" style="text-decoration:underline; color:#2D96CD">nearest dealer</a>.
         <br /> <br /> 
-        Plus, thanks to Castrol Lubricants, for a limited time,  you can get $50* off your next scheduled service by presenting this email to your Service Department. 
-
+        Plus, thanks to Castrol Lubricants, for a limited time,  you can get $50* off your next scheduled service by presenting this email to your Service Department.
     '''
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+    
+    
+    [[module]]
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+
+	image = '''AU_edm2_castrol_novoucher_20171009'''
+
 
 [[module]]
 path='email_modules/spacer/default'
