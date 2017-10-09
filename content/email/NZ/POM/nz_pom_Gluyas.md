@@ -45,7 +45,7 @@ path='email_modules/singles/ctablock'
 color='''white'''
 
 	cta1_text = '''BOOK A SERVICE'''
-	cta1_url = '''http://www.gluyasford.nz/Page/4/aftersales-gluyasmotorgroup-ashburton?of=/Contact/BookService''
+	cta1_url = '''http://www.gluyasford.nz/Page/4/aftersales-gluyasmotorgroup-ashburton?of=/Contact/BookService'''
 	cta1_link_name = '''service_booking'''
 
 [[module]] #Footer NZ Social
