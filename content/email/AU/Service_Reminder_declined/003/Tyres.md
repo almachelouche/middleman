@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU Yellow-Flag 010 Brakes'''
+title = '''AU Yellow-Flag 011 Tyres'''
 
 [[module]]
 path='email_modules/preheader'
@@ -79,8 +79,8 @@ color='white'
 
 	text = '''DISCLAIMERS 
 				<br /> <br />
-				1. Conditions and exclusions apply. For more information, see <a href="http://www.ford.com.au/ownership/genuine-parts" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/ownership/genuine-parts</a><br /><br />
-				2. Available at participating Ford Dealers. Excludes Everest, Mustang, Focus RS, F-Series, FPV, ST, XR5 and Transit models. Customers will pay equal to or less than the current maximum price as published by Ford at <a href="http://www.ford.com.au/owners/service/brakes" style="text-decoration:underline; color:#91a4b1">ford.com.au/service/t-and-c</a>. Maximum prices are subject to change. See<a href="http://www.ford.com.au/service/brakes" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/service/t-and-c</a> for full terms.<br /><br />'''
+				1. *The Low Price Tyre Guarantee offer is available to private retail and Blue Business Fleet customers on any Dunlop, Goodyear, Pirelli, Firestone, Bridgestone, Michelin, Continental, BFGoodrich, and General Tire tyre that are stocked by participating Ford dealers. Competitor tyres must be new and identical from an Australian tyre retailer. Offer includes “4 for 3” or similar competitor offers, but excludes competitor cashback offers, gift cards, “wheel and tyre bundles” tyres purchased under an instalment payment plan, clearance and liquidation stock, and any competitor quotes that cannot be verified. Customer must present a competitor quote for a competitor tyre (Competitor Tyre) that includes the date of generation, tyre specification information (i.e. brand, quality, size, speed, load, and sidewall) and price of the tyre. If the Competitor Tyre quoted price does not include fitment, the participating Ford dealer will deduct $25 from their quoted price to determine the Price Match Tyre price. For quotes or advertising from online retailers or retailers located more than 80km from the participating Ford dealer, a freight charge of $20 per tyre will be added to the quoted price to determine the Competitor Tyre price. Competitor quote date must be within 30 days of Price-Matched Tyre purchase date. Competitor quote can be presented at the time of purchase (in which case, the customer will pay the competitor price), or within 30 days of purchase (in which case, the customer will receive a refund equal to the difference between the amount paid at time of purchase, and the Competitor Tyre price). Competitor quote must be a printed quote or web-based advertisement. Ford reserves the right to call the competitor to verify the price and availability of the tyre quoted. Verbal or handwritten quotes, personal customer discounts, personal customer quotes received via email, and other quotes that cannot be verified are ineligible. Ford reserves the right to vary or withdraw the Low Price Tyre Guarantee offer at any time.
+				'''
 
 
 [[module]] #Footer AU Online
