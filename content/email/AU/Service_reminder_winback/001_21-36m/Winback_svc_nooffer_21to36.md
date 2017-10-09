@@ -26,7 +26,7 @@ path='email_modules/singles/copy'
 color='''white'''
 
 	copy = '''Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />
-    Have you been seeing someone else? Our records show that it’s been a while since we’ve seen your Ford <%${user.CustomAttribute['Model']}%> at one of our Service Departments.
+    Our records show that it’s been a while since we’ve seen your Ford <%${user.CustomAttribute['Model']}%> at one of our Service Departments.
     <br /> <br />
 
     It’s important that your <%${user.CustomAttribute['Model']}%> is serviced regularly by our Ford trained technicians to ensure you car is running at it’s absolute best.
