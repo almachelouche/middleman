@@ -21,7 +21,7 @@ color='black'
 
 	title = '''Insider'''
 	date = '''September 2017'''
-	copy = '''IN THIS ISSUE:<br />Road Trip Tunes | Service Journey with Ford | Air Con Tips & Tricks | And more'''
+	copy = '''IN THIS ISSUE:<br />Infotainment 101 | Road Trip Tunes | Safety Report Cards | And more'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
@@ -36,6 +36,13 @@ color='white_pb'
 	cta2_link_name = ''''''
 	cta1_icon = '''play'''
 
+[[module]]
+path = '''email_modules/image/mobile_cover'''
+color = '''white'''
+
+	image = '''in_edm6_infotaiment_20170830'''
+	url_link='''https://www.youtube.com/watch?v=rTMTBZ8W_4Y&index=1&list=PLyO4HcxK6VwoQpGqoLWYtg_bXbMo7LvnE'''
+	url_link_name='''infotainment_image'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
