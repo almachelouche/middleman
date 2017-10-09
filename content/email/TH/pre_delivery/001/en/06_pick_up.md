@@ -43,7 +43,7 @@ font='th'
 		The day has finally come. You can come to the dealership to pick up your new Ford [Model]. Just swing by and hop into your new ride.
 		<br/>
 		<br/>
-		If you want to customize your new [Model] to fit the way you work and play, all you have to do is contact your Ford Dealer [Company_Name] and they can teach you how to personalize your new car. 
+		If you want to customize your new [Model] to fit the way you work and play, all you have to do is contact your Ford Dealer [Branch_Description] and they can teach you how to personalize your new car. 
 		<br/>
 		<br/>
 		Visit the <a href="[DFYURL]" style="color: #006fff; text-decoration: underline;">Pre-Delivery Website</a> to select a convenient time for you to come and collect your [Model], and you can also personalize your vehicle settings and learn about your car's cool features. Please contact your Delivery Consultant [Delivery_SalesPerson] at <a href="tel:[Delivery_SalesPerson_Phone_No]" style="text-decoration: none;">[Delivery_SalesPerson_Phone_No]</a> and arrange a convenient time for you to come and collect your [Model]. 
@@ -65,7 +65,7 @@ path='email_modules/split/master/right'
 color='green'
 font='th'
 
-	title='''[Dealer_NAME]'''
+	title='''[Branch_Description]'''
 	title_align='left'
 	copy='''
 		[Location_Address]

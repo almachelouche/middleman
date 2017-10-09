@@ -12,7 +12,7 @@ path='email_modules/preheader'
 path='email_modules/image/banner'
 color='white'
 
-	image = '''au_edm2_svc_new_banner_20170926'''
+	image = '''AU_edm2_optout_20170929'''
 	url_link = '''https://www.ford.com.au/owners/service/'''
 
 [[module]]
@@ -35,7 +35,7 @@ color='''white'''
     	We know how important your <%${user.CustomAttribute['Model']}%></span> is to you, so we're sure you'll appreciate the many benefits of putting your <%${user.CustomAttribute['Model']}%></span> in the trusted hands of Ford trained technicians. 
     	<br />
     	<br />
-    	Book your service with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or find your <a href="https://www.ford.com.au/dealership/" style="text-decoration:underline; color:#2D96CD">nearest dealer</a>.
+    	Book your service with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or find your <a href="https://www.ford.com.au/dealership/" style="text-decoration:underline; color:#2D96CD">nearest dealer</a>. You can even book online below. 
     '''
 
 [[module]]
@@ -43,6 +43,14 @@ path='email_modules/spacer/default'
 color='white'
 
 	height="30"
+    
+[[module]]
+path='email_modules/singles/ctablock'
+color='''white'''
+
+	cta1_text = '''BOOK YOUR SERVICE'''
+	cta1_url = '''https://consumer.xtime.net.au/scheduling/?company=14745&store=<%${user.CustomAttribute['DealerCode']}%>&VIN=<%${user.CustomAttribute['VIN']}%>&provider=FORD_AU_THE_BLUE_HIVE&keyword=<%${user.CustomAttribute['CampaignID']}%>&dest=&extid=<%${user.CustomAttribute['CampaignID']}%>&extctxt=FORD_AU_THE_BLUE_HIVE&cfn=<%${user.CustomAttribute['FullName']}%>&cln=<%${user['LastName']}%>&cpn=<%${user.CustomAttribute['Mobile_Phone']}%>&cem=<%${user.CustomAttribute['RealEmail']}%>&button=blue'''
+	cta1_link_name = '''service_booking'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -60,7 +68,7 @@ color='white'
 path='email_modules/dual/05'
 color='white'
 
-    text_box_height = '''240'''
+    text_box_height = '''310'''
 	title1 = '''Genuine Service'''
 	copy1 = '''We know how important your <Nameplate> is to you, so we're sure you'll appreciate that our factory-trained technicians only use Genuine Ford parts and equipment.'''
 	cta1a_text = '''Learn More'''
@@ -82,13 +90,6 @@ color='white'
 path='email_modules/footer/au/social'
 color='white'
 
-[[module]]
-path='email_modules/footer/disclaimer'
-color='white'
-
-	text = '''DISCLAIMERS:
-                <br /> <br /> 
-				'''
 
 [[module]]
 path='email_modules/footer/au/online'

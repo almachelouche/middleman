@@ -52,7 +52,7 @@ path='email_modules/split/master/right'
 color='green'
 font='th'
 
-	title='''[Dealer_NAME]'''
+	title='''[Branch_Description]'''
 	title_align='left'
 	copy='''
 		[Location_Address]

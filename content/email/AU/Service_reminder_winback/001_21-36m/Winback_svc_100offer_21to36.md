@@ -26,14 +26,14 @@ path='email_modules/singles/copy'
 color='''white'''
 
 	copy = '''Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />
-    Our records show that it’s been a while since we’ve seen your Ford <nampelate> at one of our Service Departments.
+    Our records show that it’s been a while since we’ve seen your Ford <%${user.CustomAttribute['Model']}%> at one of our Service Departments.
     <br /> <br />
 
     It’s important that your <%${user.CustomAttribute['Model']}%> is serviced regularly by our Ford trained technicians to ensure you car is running at it’s absolute best.
     <br /> <br />
     To book a service you can find your local Ford Dealer <a href="https://www.ford.com.au/dealership/" name="here" style="text-decoration:underline; color:#2D96CD">here</a>. Don’t forget to also book a free loan car&#185;  so we can keep you on the road during your service.
     <br /> <br />
-    Plus, thanks to Castrol Oils, for a limited time, you can get $100* off your next scheduled service by presenting this email to your Service Department.
+    Plus, thanks to Castrol Lubricants, for a limited time, you can get $100* off your next scheduled service by presenting this email to your Service Department.
     '''
 
 [[module]]
@@ -41,6 +41,16 @@ path='email_modules/spacer/default'
 color='white'
 
 	height="30"
+    
+    
+[[module]]
+path='email_modules/singles/ctablock'
+color='''white'''
+segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
+
+	cta1_text = '''BOOK YOUR SERVICE'''
+	cta1_url = '''https://consumer.xtime.net.au/scheduling/?company=14745&store=<%${user.CustomAttribute['DealerCode']}%>&VIN=<%${user.CustomAttribute['VIN']}%>&provider=FORD_AU_THE_BLUE_HIVE&keyword=<%${user.CustomAttribute['CampaignID']}%>&dest=&extid=<%${user.CustomAttribute['CampaignID']}%>&extctxt=FORD_AU_THE_BLUE_HIVE&cfn=<%${user.CustomAttribute['FullName']}%>&cln=<%${user['LastName']}%>&cpn=<%${user.CustomAttribute['Mobile_Phone']}%>&cem=<%${user.CustomAttribute['RealEmail']}%>&button=blue'''
+	cta1_link_name = '''service_booking'''
 
    
 [[module]]
@@ -55,29 +65,6 @@ color='white'
 
 	height="20"
     
-
-[[module]]
-path='email_modules/dual/05'
-color='white'
-
-
-	title1 = '''Service Price Promise&#178;'''
-	text_box_height = '''240'''
-	copy1 = '''Know how much your standard service will cost before you even come in, with the <a href="https://www.ford.com.au/owners/service/calculator/" name="calculator" style="text-decoration:underline; color:#2D96CD"> Service Price Promise Calculator</span>.'''
-	image1 = '''au_edm2_service_price_promise_20170818'''
-	image1_link_url = '''https://www.ford.com.au/owners/service/calculator/'''
-	image1_link_name = '''Some'''
-	title2 = '''Free Loan Car&#185;'''
-	copy2 = '''Life shouldn't stop when you service your vehicle. That's why we offer a <a href="https://www.ford.com.au/owners/service/" name="freeloan" style="text-decoration:underline; color:#2D96CD">Free Loan Car&#185</a>  when you book a scheduled service.'''
-	image2 = '''au_edm2_free_loan_car_20170818'''
-	image2_link_url = '''https://www.ford.com.au/owners/service/'''
-	image2_link_name = '''Some'''
-
-[[module]]
-path='email_modules/spacer/platinum_20'
-color='white'
-
-	height="20"
     
 
 [[module]] #Footer AU Social

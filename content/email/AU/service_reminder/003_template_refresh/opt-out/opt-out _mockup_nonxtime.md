@@ -12,7 +12,7 @@ path='email_modules/preheader'
 path='email_modules/image/banner'
 color='white'
 
-	image = '''au_edm2_svc_new_banner_20170926'''
+	image = '''AU_edm2_optout_20170929'''
 	url_link = '''https://www.ford.com.au/owners/service/'''
 
 [[module]]
@@ -60,7 +60,7 @@ color='white'
 path='email_modules/dual/05'
 color='white'
 
-     text_box_height = '''240'''
+    text_box_height = '''310'''
 	title1 = '''Genuine Service'''
 	copy1 = '''We know how important your <Nameplate> is to you, so we're sure you'll appreciate that our factory-trained technicians only use Genuine Ford parts and equipment.'''
 	cta1a_text = '''Learn More'''
@@ -82,13 +82,6 @@ color='white'
 path='email_modules/footer/au/social'
 color='white'
 
-[[module]]
-path='email_modules/footer/disclaimer'
-color='white'
-
-	text = '''DISCLAIMERS:
-                <br /> <br /> 
-                '''
 
 [[module]]
 path='email_modules/footer/au/online'

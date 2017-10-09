@@ -57,7 +57,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''The world of off-road driving is about to get a little wild. The ultimate off-road performance truck; Ranger Raptor is almost ready for release. Sure, we know you love your <%${user.CustomAttribute['Model']}%>, but we thought you should see this.<br /><br />Click the link below to get a sneak peek at the prototype in action.'''
+	copy = '''The world of off-road driving is about to get a little wild. The ultimate off-road performance truck, Ranger Raptor is almost ready for release. Sure, we know you love your <%${user.CustomAttribute['Model']}%>, but we thought you should see this.<br /><br />Click the link below to get a sneak peek at the prototype in action.'''
     
 [[module]]
 path='email_modules/spacer/default'

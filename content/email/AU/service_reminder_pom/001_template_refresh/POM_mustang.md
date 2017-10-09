@@ -55,7 +55,7 @@ color='white'
 path='email_modules/cover/03'
 color='''white'''
 
-	copy='''<br />When looking to personalise your Ford Mustang there are no better accessories than Ford Genuine Accessories & Ford licenced Accessories (FLA). See a selection below or <a href="https://www.ford.com.au/cars/mustang/smart-accessories/" style="text-decoration:underline; color:#2D96CD;" >click here</a> to see the full range.'''
+	copy='''<br />When looking to personalise your Ford Mustang there are no better accessories than Ford Genuine Accessories & Ford Licensed Accessories (FLA). See a selection below or <a href="https://www.ford.com.au/cars/mustang/smart-accessories/" style="text-decoration:underline; color:#2D96CD;" >click here</a> to see the full range.'''
 
 [[module]]
 path='email_modules/spacer/platinum_20'
@@ -106,7 +106,7 @@ path='email_modules/custom/ownerapp_imgr'
 color='white'
 
 	title = '''Know your Ford'''
-	text1 = '''Did you know with the Ford Owner app, you can accesss the entire SYNC Phrasebok, read your vehicle's Owner Manual and watch useful 'How To' videos?<br/><br/>'''
+	text1 = '''Did you know with the Ford Owner app, you can accesss the entire SYNC Phrasebook, read your vehicle's Owner Manual and watch useful 'How To' videos?<br/><br/>'''
 	text2 = '''Download the Ford Owner app and get started today.<br/><br/>Just search Ford Owners in your app store.'''
 	cta1_text = '''iOS'''
 	cta1_url = '''https://itunes.apple.com/au/app/ford-owners/id990342351?mt=8'''

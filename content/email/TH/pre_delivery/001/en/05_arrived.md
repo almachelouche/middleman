@@ -40,7 +40,7 @@ font='th'
 		Dear [Name],
 		<br/>
 		<br/>
-		Your new Ford [Model] is here! It's waiting for you at the [Company_Name]. Can you smell the fresh coat of paint and new car scent already?
+		Your new Ford [Model] is here! It's waiting for you at the [Branch_Description]. Can you smell the fresh coat of paint and new car scent already?
 		<br/>
 		<br/>
 		Get ready to welcome your new Ford [Model] to your life. But before that, we suggest getting acquainted with your car's cool features by visiting our product website.
@@ -64,7 +64,7 @@ path='email_modules/split/master/right'
 color='green'
 font='th'
 
-	title='''[Dealer_NAME]'''
+	title='''[Branch_Description]'''
 	title_align='left'
 	copy='''
 		[Location_Address]

@@ -46,7 +46,7 @@ font='th'
 		Remember, if you have any questions or concerns, don't hesitate to reach out. We are here to help you. Here are your contacts:
 		<br/>
 		<br/>
-		Sales Consultant: [SalesPerson_Code] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>
+		Sales Consultant: [SalesPerson] <a href="tel:[SalesPerson_Phone_No]" style="text-decoration: none;">[SalesPerson_Phone_No]</a>
 		<br/>
 		Delivery Consultant: [Delivery_SalesPerson] <a href="tel:[Delivery_SalesPerson_Phone_No]" style="text-decoration: none;">[Delivery_SalesPerson_Phone_No]</a>
 		<br/>
@@ -67,7 +67,7 @@ path='email_modules/split/master/right'
 color='green'
 font='th'
 
-	title='''[Dealer_NAME]'''
+	title='''[Branch_Description]'''
 	title_align='left'
 	copy='''
 		[Location_Address]
