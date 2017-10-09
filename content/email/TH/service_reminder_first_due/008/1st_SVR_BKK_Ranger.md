@@ -145,7 +145,7 @@ title1='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหม�
 	cta1a_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%><br />ได้ที่ <% ${user.CustomAttribute['Dealer_Phone']} %></span>'''
 	cta1a_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''
 	cta1_link_name = ''''''
-	cta1b_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาตัวแทนจำหน่ายใกล้บ้าน<br />คุณ</span>'''
+	cta1b_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาตัวแทนจำหน่ายใกล้บ้านคุณ</span>'''
 	cta1b_url='''https://www.ford.co.th/locate-a-dealer/'''
 	cta1b_link_name = '''find_dealer'''
 	icon1='''th_edm2_call_20160801'''
