@@ -55,7 +55,7 @@ color='white'
 path='email_modules/cover/03'
 color='''white'''
 
-	copy='''<br />When looking to personalise your Ford Mustang there are no better accessories than Ford Genuine Accessories & Ford licenced Accessories (FLA). See a selection below or <a href="https://www.ford.com.au/cars/mustang/smart-accessories/" style="text-decoration:underline; color:#2D96CD;" >click here</a> to see the full range.'''
+	copy='''<br />When looking to personalise your Ford Mustang there are no better accessories than Ford Genuine Accessories & Ford Licensed Accessories (FLA). See a selection below or <a href="https://www.ford.com.au/cars/mustang/smart-accessories/" style="text-decoration:underline; color:#2D96CD;" >click here</a> to see the full range.'''
 
 [[module]]
 path='email_modules/spacer/platinum_20'
