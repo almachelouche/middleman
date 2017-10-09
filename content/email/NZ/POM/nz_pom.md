@@ -1,6 +1,6 @@
 +++
 markets = ["nz"]
-title = '''NZ POM 001'''
+title = '''NZ POM 001 '''
 
 [[module]]
 path='email_modules/preheader'

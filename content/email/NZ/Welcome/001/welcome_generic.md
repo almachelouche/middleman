@@ -131,7 +131,7 @@ color='''fordblue'''
 
 	icon='''au_edm1_welcome_icon_20161019'''
 	title='''Can we help?'''
-	copy='''Our Ford customer Relationship Centre is available to assist with any questions you may have.   Contact them on <br/><span style="color:#FFFFFF">0800 367 369</span>.'''
+	copy='''Our Ford Customer Relationship Centre is available to assist with any questions you may have.   Contact them on <br/><span style="color:#FFFFFF">0800 367 369</span>.'''
 
 
 [[module]] #Footer NZ Social
