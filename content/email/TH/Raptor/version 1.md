@@ -1,6 +1,6 @@
 +++
 markets = ["th"]
-title = '''TH Ford Ranger Raptor test'''
+title = '''TH Ford Ranger Raptor stand alone version 1'''
 
 [[module]]
 path='email_modules/preheader'
