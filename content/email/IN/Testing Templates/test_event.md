@@ -1,6 +1,6 @@
 +++
 markets = ["in"]
-title = '''Event Save Test'''
+title = '''Test Event Save'''
 
 [[module]]
 path='email_modules/preheader'

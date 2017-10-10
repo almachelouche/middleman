@@ -1,6 +1,6 @@
 +++
 markets = ["in"]
-title = '''New Banner Module Test'''
+title = '''Test New Banner Module'''
 
 [[module]]
 path='email_modules/preheader'
