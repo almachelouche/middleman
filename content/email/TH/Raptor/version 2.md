@@ -34,7 +34,7 @@ path='email_modules/singles/title'
 color='''white'''
 
 	title = '''
-    <span style="font-family:Tahoma, Verdana, Sans-serif"><strong>สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>    
+    <span style="font-family:Tahoma, Verdana, Sans-serif"><strong>เรียน <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>    
 	<span style=" white-space:nowrap;">คุณพร้อมสำหรับออฟโรดพันธุ์แกร่งหรือยัง</span>
     '''
 
@@ -50,20 +50,14 @@ color='''white'''
 
 	copy = '''
     <span style="font-family:Tahoma, Verdana, Sans-serif">
-	<span style=" white-space:nowrap;">จากข่าวลือที่คุณได้ยิน</span>
+	<span style=" white-space:nowrap;">โลกของการขับออฟโรดกำลังจะหฤโหดขึ้นอีกเล็กน้อย</span>
     <br />
-    <span style=" white-space:nowrap;">มาเตรียมตัวให้พร้อมสำหรับการพุ่งทะยานของออฟโรด 4x4 พันธุ์แกร่ง</span> 
+    <span style=" white-space:nowrap;">เรนเจอร์ แร็พเตอร์ กระบะออฟโรดประสิทธิภาพแกร่งใกล้จะพร้อมเปิดตัวแล้ว</span> 
     <br />
-    <span style=" white-space:nowrap;">เรนเจอร์</span>
-    <br />
-    <span style=" white-space:nowrap;">แร็พเตอร์รุ่นใหม่จะเปิดตัวสู่ความโลดโผนเร็วๆ นี้</span> 
-    <br />
-    <span style=" white-space:nowrap;">เรารู้ดีว่าคุณชื่นชอบใน<%${user.CustomAttribute['Model']}%>ของคุณ</span>
-    <br />
-    <span style=" white-space:nowrap;">แต่เราคิดว่าคุณน่าจะได้เห็นรถรุ่นนี้ก่อน</span>
+    <span style=" white-space:nowrap;">เรารู้ดีว่าคุณชื่นชอบใน <%${user.CustomAttribute['Model']}%> ของคุณ แต่เราคิดว่าคุณน่าจะได้เห็นรถรุ่นนี้ก่อน</span>
     <br />
     <br />
-    <span style=" white-space:nowrap;">ดังนั้น สูดหายใจให้ลึกๆ แล้วกดเพื่อรับชมรถกระบะ 4x4 ที่ทั่วโลกกำลังพูดถึง</span>
+    <span style=" white-space:nowrap;">คลิกที่ลิงก์ด้านล่างเพื่อรับชมการทดสอบรถต้นแบบ</span> 
     '''
     
 [[module]]
