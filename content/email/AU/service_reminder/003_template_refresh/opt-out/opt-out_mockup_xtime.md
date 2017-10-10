@@ -5,7 +5,7 @@ title = '''AU Service Reminder 003 opt-out mock up xtime'''
 [[module]]
 path='email_modules/preheader'
 
-	preheader='''DThis is just a friendly reminder that your Ford <%${user.CustomAttribute['Model']}%> is nearly due for its <%${user.CustomAttribute['Service_Interval']}%>km service.'''
+	preheader='''This is just a friendly reminder that your Ford <%${user.CustomAttribute['Model']}%> is nearly due for its <%${user.CustomAttribute['Service_Interval']}%>km service.'''
 
 
 [[module]]
