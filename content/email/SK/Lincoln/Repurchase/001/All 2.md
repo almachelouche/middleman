@@ -29,23 +29,20 @@ font='sk'
         <span style="white-space:nowrap;">가장 매력적인 조건으로 링컨을 다시 만나세요</span>
     '''
 	copy='''
-        <span style="white-space:nowrap;">함께 해온 소중한 인연에 다시 한번 깊은 감사를 드리며</span>
+        <span style="white-space:nowrap;">링컨 가족 여러분을 기쁜 마음으로 모십니다.</span>
 		<br/>
-		<span style="white-space:nowrap;">링컨과의 여정에 변치 않는 감동이 오래도록 함께 하기를 바랍니다</span>
+        <br/>
+		<span style="white-space:nowrap;">링컨에 보내주신 성원에 보답하고자  재구매 프로그램을 준비했습니다.</span>
 		<br/>
 		<br/>
-		<span style="white-space:nowrap;">고객님께서 보다 풍성한 링컨의 가치를 경험할 수 있도록,</span>
-		<br/>
-		<span style="white-space:nowrap;">링컨 코리아에서는 2017년 12월 31일까지</span>
-		<br/>
-		<span style="white-space:nowrap;">각 모델에 맞춘 재구매 지원금을 지원해드립니다.</span>
+		<span style="white-space:nowrap;">링컨 차량 전 품목을 재구매해주시는 고객님을 위해 2017년 12월 31일까지 최대 1,500,000원의 할인 혜택을 드립니다.</span>
         '''
 
 [[module]]
 path = 'email_modules/image/banner_nolink'
 color = 'white'
 
-	image = '''sk_edm5_lincoln_table_20171010'''
+	image = '''sk_edm5_lincoln_table_20171011'''
 
 [[module]]
 path='email_modules/cover/master'
@@ -53,11 +50,10 @@ color='''lincoln_white'''
 font='sk'
 
 copy='''
-		<span style="white-space:nowrap;">특별한 기회로 다시 한 번, 새로운 링컨의 감성을 더 가볍게 누려보세요.</span>
+		<span style="white-space:nowrap;">매장에서보유하고 계신 링컨 차량 등록증을 제시하시면 할인이 자동 적용됩니다.</span>
 		<br/>
 		<br/>
-		<span style="white-space:nowrap;">단, 상기 프로모션은 차종 및 전시장 상황에 따라 다를 수 있습니다
-        </span>
+		<span style="white-space:nowrap;">또한 가족 증빙 서류를 지참하시면 가족분께서도 동일한 혜택을 누리실 수 있습니다.</span>
         '''
 
     cta_direction = '''horizontal'''

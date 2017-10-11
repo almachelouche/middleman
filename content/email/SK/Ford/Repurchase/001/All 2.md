@@ -29,39 +29,30 @@ color='''white'''
     <span style="white-space:nowrap;">더 가볍게, 더 특별하게 포드를 다시 만나는 순간</span>
     '''
 	copy='''
-    <span style="white-space:nowrap;">포드의 오너가 되어주신 고객님께 다시 한 번 감사드리며,</span>
-    <br/>
-    <span style="white-space:nowrap;">언제나 모든 기대에 만족하는 브랜드로 오래도록 함께하겠습니다.</span>
+    <span style="white-space:nowrap;">포드 가족 여러분을 기쁜 마음으로 모십니다.</span>
     <br/>
     <br/>
-    <span style="white-space:nowrap;">새로운 포드를 부담 없는 가격으로</span>
+    <span style="white-space:nowrap;">포드에 보내주신 성원에 보답하기 위해 재구매 프로그램을 준비했습니다.</span>
     <br/>
-    <span style="white-space:nowrap;">다시 만나고 싶은 고객님을 위해</span>
     <br/>
-    <span style="white-space:nowrap;">포드 코리아에서는 2017년 12월 31일까지</span>
-    <br/>
-    <span style="white-space:nowrap;">아래의 차종에 대한 재구매 금융 프로그램을 제공하고 있습니다.
-    </span>
+    <span style="white-space:nowrap;">2017년 12월 31일까지 포드 전 품목 차종을 재구매해주시는 고객님께 최대 800,000원의 할인 혜택을 드립니다.</span>
     '''
     
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-    image = '''sk_edm5_ford_table_20171010'''
+    image = '''sk_edm5_ford_table_20171011'''
     
 [[module]]
 path='email_modules/cover/master'
 color='''white'''  
 
     copy='''
-    <span style="white-space:nowrap;">다양한 재구매 특별 혜택으로</span>
-    <br/>
-    <span style="white-space:nowrap;">포드와 함께하는 즐거움을 한번 더 경험하세요.</span>
+    <span style="white-space:nowrap;">매장에서  보유하고 계신 포드 차량 등록증을  제시하시면 할인이 자동 적용됩니다.</span>
     <br/>
     <br/>
-    <span style="white-space:nowrap;">단, 상기 프로모션은 차종 및 전시장 상황에 따라 다를 수 있습니다
-    </span>
+    <span style="white-space:nowrap;">하나 더, 가족 증빙 서류를 지참하시면 가족분도 동일한 혜택을 받으실 수 있습니다.</span>
     '''
 
 	cta_direction = '''horizontal'''
