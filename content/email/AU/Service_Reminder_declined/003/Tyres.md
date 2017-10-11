@@ -55,7 +55,6 @@ color='darkblue_au'
 path='email_modules/cover/01'
 color='white'
 
-	icon = '''in_edm2d_status_battery_black_20160801'''
 	title = '''Did you know Ford sells tyres?'''
 	copy = '''Our Ford technicians will expertly fit Genuine Ford Brake Pads. Specifically designed for your <%${user.CustomAttribute['Model']}%>'s braking system, they're fully tested to ensure long life and minimal fading and are covered under warranty for a period of 12 months or 20,000km&#185;.<br /><br />You can trust your Ford dealer to not only fit new tyres perfectly, but also offer you major brands at great prices. There's no need to shop around with Ford's Low Price Tyre Guarantee – we’ll match competitors' prices on selected tyres we stock.'''
 	cta1_url = '''http://www.ford.com.au/owners/service/brakes'''
