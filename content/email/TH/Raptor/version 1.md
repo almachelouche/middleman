@@ -78,7 +78,7 @@ color='white'
 path='email_modules/singles/ctablock'
 color='''white'''
 
-	cta1_text = '''ชมการทดสอบรถต้นแบบ'''
+	cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ชมการทดสอบรถต้นแบบ</span>'''
 	cta1_url = '''https://www.ford.co.th/trucks/ranger/raptor/?intcmp=hp-none-brand-gallery#overlay/content/ford/th/th_th/ranger-content/video-overlays/raptor-videos/video1.html'''
 	cta1_link_name = '''raptor'''
 
