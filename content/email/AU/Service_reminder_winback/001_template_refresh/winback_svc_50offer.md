@@ -30,8 +30,33 @@ color='''white'''
     It’s important that your <%${user.CustomAttribute['Model']}%> is serviced regularly by our Ford trained technicians to ensure you car is running at it’s absolute best.
     <br /><br />
     You can book your service online at the below link. Don’t forget to also book a free loan car&#185; so we can keep you on the road. 
-    <br /><br />
-    Plus, thanks to Castrol Lubricants, for a limited time, you can get $50* off your next scheduled service by presenting this email to your Service Department.
+    '''
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+    
+    
+   [[module]]
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+
+	image = '''AU_edm2_castrol_voucher_20171009'''
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+
+	copy = '''
+        Plus, thanks to Castrol Lubricants, for a limited time,  you can get $50* off your next scheduled service by presenting this email to your Service Department.
     '''
 
 [[module]]
