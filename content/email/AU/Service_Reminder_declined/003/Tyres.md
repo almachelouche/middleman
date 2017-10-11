@@ -40,7 +40,7 @@ color='''white'''
 path='email_modules/custom/svcstatus'
 color='darkblue_au'
 
-	toptitle='''Your current brakes status'''
+	toptitle='''Your current tyres status'''
 	icon1='''au_edm2d_brake1_20170417'''
 	title1='''Good <br />to go<br />'''
 	copy1='''<br /><br />Tyre Tread: <br />Above 4mm'''
