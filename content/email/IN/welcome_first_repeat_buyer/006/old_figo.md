@@ -6,7 +6,7 @@ title = '''IN Welcome 006 Old Figo All'''
 [[module]]
 path='email_modules/preheaderbefore'
 
-segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
+segmentif = ["(user.CustomAttribute['NewRepeat'] == 'Repeat')"]
 
 	preheader='''There's nothing quite like a new car. So it really means a lot to us that you chose another Ford.'''
 
