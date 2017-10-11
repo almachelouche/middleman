@@ -19,7 +19,7 @@ color='white'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image='''AU_edm2_declined_20171011_desktop'''
+	image='''AU_edm2_declined_20171011'''
 
 
 [[module]] #Cover 07
