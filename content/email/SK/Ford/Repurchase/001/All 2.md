@@ -44,7 +44,7 @@ color='''white'''
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-    image = '''sk_edm5_ford_table_20171011'''
+    image = '''sk_edm5_ford_table_20171012'''
     
 [[module]]
 path='email_modules/cover/master'
