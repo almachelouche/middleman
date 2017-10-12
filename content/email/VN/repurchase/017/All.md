@@ -69,7 +69,7 @@ color='fordblue'
     
 [[module]] #Split 03
 path='email_modules/split/03'
-color='red'
+color='black'
 
 	title = '''Tự tin hơn với má phanh chính hãng Ford Motorcraft'''
 	copy = '''Khi cần thay má phanh xe, bạn hoàn toàn yên tâm khi sử dụng phụ tùng Motorcraft. Đây là nhãn hiệu được các chuyên gia dịch vụ tại Ford khuyên dùng bởi phụ tùng chính hãng Motorcraft có chất lượng tốt mà giá rất cạnh tranh.'''
