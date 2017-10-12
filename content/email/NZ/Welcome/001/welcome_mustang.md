@@ -74,7 +74,7 @@ path='email_modules/cover/01'
 color='white'
 
 	title='''Stay connected. Everywhere.'''
-	copy='''Your <%${user.CustomAttribute['Model']}%> is equipped with Ford’s <a href="https://www.ford.co.nz/technology/sync/" name="sync" style="text-decoration:underline; color:#2D96CD">SYNC® infotainment system</a>. Use simple voice commands for hands-free control of your phone, your music, and satellite navigation. Best of all, your hands stay safely on the wheel and your eyes stay on the road ahead.<br />'''
+	copy='''Your <%${user.CustomAttribute['Model']}%> is equipped with Ford's <a href="https://www.ford.co.nz/technology/sync/" name="sync" style="text-decoration:underline; color:#2D96CD">SYNC® infotainment system</a>. Use simple voice commands for hands-free control of your phone, your music, and satellite navigation. Best of all, your hands stay safely on the wheel and your eyes stay on the road ahead.<br />'''
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
