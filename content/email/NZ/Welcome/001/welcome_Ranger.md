@@ -40,7 +40,7 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
-	copy='''Dear <%${user.CustomAttribute['FullName']}%><br /><br />Thank you for again choosing Ford. We hope you are enjoying the experience of being part of the Ford family with your new Ranger. You are now driving NZ’s #1 selling vehicle.<br /><br />'''
+	copy='''Dear <%${user.CustomAttribute['FullName']}%><br /><br />Thank you for again choosing Ford. We hope you are enjoying the experience of being part of the Ford family with your new Ranger. You are now driving NZ's #1 selling vehicle.<br /><br />'''
 
 [[module]]
 path='email_modules/singles/copy'

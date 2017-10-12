@@ -54,7 +54,7 @@ path='email_modules/singles/copy'
 color='''white'''
 
 
-    copy='''Along with driver assistance technologies, Ford also brings the latest communications technology to New Zealand drivers. Not only is your vehicle safe, it’s also smart!
+    copy='''Along with driver assistance technologies, Ford also brings the latest communications technology to New Zealand drivers. Not only is your vehicle safe, it's also smart!
     '''
 
 [[module]]
