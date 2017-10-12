@@ -86,7 +86,7 @@ color='darkblue'
 
 [[module]] #Split 02
 path='email_modules/split/02'
-color='lightblue'
+color='white'
 
 	title = '''Keep your brakes safe'''
 	copy = '''Brakes don't last forever. Over time, they wear down and can become a safety hazard for your daily commute. Learn how to keep your brakes in good health for a longer period of time, and how to identify warning signs when they might need some attention.'''
