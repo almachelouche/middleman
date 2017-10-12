@@ -13,7 +13,7 @@ color='white'
 path = 'email_modules/image/banner_nolink'
 color = 'white'
 
-	image = '''FGE_KMI_EN_Welcome_20170906'''
+	image = '''FGE_KMI_THEN_Welcome_20170906'''
 
 [[module]]
 path='email_modules/cover/master'
@@ -52,7 +52,7 @@ color = 'white'
 
 [[module]]
 path='email_modules/split/master/right'
-color='green'
+color='darkblue'
 font='th'
 
 	title='''[Branch_Description]'''
@@ -65,7 +65,7 @@ font='th'
 	copy_align='left'
 	vertical_align='middle'
 
-	image='''FGE_KMI_EN_Contact_20170905'''
+	image='''FGE_KMI_THEN_Contact_20170905'''
 
 [[module]]
 path='email_modules/footer/th/en_social'
