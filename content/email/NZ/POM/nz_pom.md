@@ -7,6 +7,11 @@ path='email_modules/preheader'
 
 	preheader='''Hi <%${user.CustomAttribute['FullName']}%>,<br/><br/>Here's a quick reminder that your new <%${user.CustomAttribute['Model']}%> is due for its complimentary 2-month/3,000 km Peace Of Mind Service Inspection.'''
     
+    
+[[module]]
+path='email_modules/body'
+
+
 [[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'
