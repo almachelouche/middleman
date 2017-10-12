@@ -71,6 +71,26 @@ color='''white_gt'''
 	title = '''Your Free First Service '''
 	copy = '''Keep your vehicle in top shape with us. Enjoy a free inspection and a car wash - on us - within the first 3 months or 2500 kilometers, whichever comes first. <br /><br />Contact <%${user.CustomAttribute['Dealer_Name']}%> on <a href="tel:<%${user.CustomAttribute['Dealer_Phone']}%>" style="text-decoration:underline; color:#2D96CD;" ><%${user.CustomAttribute['Dealer_Phone']}%></a> <%${user.CustomAttribute['Dealer_Additional_Phone']}%> for more information.'''
 
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+
+	image='''in_edm6_infotaiment_20170830'''
+	url_link='''https://www.youtube.com/watch?v=rTMTBZ8W_4Y&index=1&list=PLyO4HcxK6VwoQpGqoLWYtg_bXbMo7LvnE'''
+	url_link_name='''infotainment_image'''
+    
+[[module]]
+path='email_modules/cover/01'
+color='white'
+
+	icon=''''''
+	title='''Infotainment 101'''
+	copy='''Become a pro at using your EcoSport's Infotainment system in no time! Click on the link below to watch short videos on how to get the most out of it. From setting up the sound to pairing your phone via Bluetooth to how to use Navigation – it's all there.'''
+	cta1_url='''https://www.youtube.com/watch?v=rTMTBZ8W_4Y&index=1&list=PLyO4HcxK6VwoQpGqoLWYtg_bXbMo7LvnE'''
+	cta1_link_name = '''infotainment'''
+	cta1_text='''WATCH NOW'''
+	cta1_icon='''play'''
+
 [[module]] #Cover 05
 path='email_modules/cover/02'
 color='''green_pb'''
@@ -154,26 +174,6 @@ segmentelse = ["yes"]
 	cta1_link_name = '''owner_manual_2'''
 	cta1_text='''DOWNLOAD NOW'''
 	cta1_icon='''more'''
-    
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-
-	image='''in_edm6_infotaiment_20170830'''
-	url_link='''https://www.youtube.com/watch?v=rTMTBZ8W_4Y&index=1&list=PLyO4HcxK6VwoQpGqoLWYtg_bXbMo7LvnE'''
-	url_link_name='''infotainment_image'''
-    
-[[module]]
-path='email_modules/cover/01'
-color='white'
-
-	icon=''''''
-	title='''Infotainment 101'''
-	copy='''Become a pro at using your EcoSport's Infotainment system in no time! Click on the link below to watch short videos on how to get the most out of it. From setting up the sound to pairing your phone via Bluetooth to how to use Navigation – it's all there.'''
-	cta1_url='''https://www.youtube.com/watch?v=rTMTBZ8W_4Y&index=1&list=PLyO4HcxK6VwoQpGqoLWYtg_bXbMo7LvnE'''
-	cta1_link_name = '''infotainment'''
-	cta1_text='''WATCH NOW'''
-	cta1_icon='''play'''
 
 [[module]] #Footer 4 Icons
 path='email_modules/footer/4icons'
