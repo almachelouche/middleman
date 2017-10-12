@@ -76,7 +76,7 @@ font='th'
 
 [[module]]
 path='email_modules/split/master/right'
-color='green'
+color='darkblue'
 font='th'
 
 	title='''[Branch_Description]'''
