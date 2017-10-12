@@ -35,7 +35,9 @@ font='sk'
 		<span style="white-space:nowrap;">링컨에 보내주신 성원에 보답하고자  재구매 프로그램을 준비했습니다.</span>
 		<br/>
 		<br/>
-		<span style="white-space:nowrap;">링컨 차량 전 품목을 재구매해주시는 고객님을 위해 2017년 12월 31일까지 최대 1,500,000원의 할인 혜택을 드립니다.</span>
+		<span style="white-space:nowrap;">링컨 차량 전 품목을 재구매해주시는 고객님을 위해</span>
+        <br/>
+        <span style="white-space:nowrap;">2017년 12월 31일까지 최대 1,500,000원의 할인 혜택을 드립니다.</span>
         '''
 
 [[module]]

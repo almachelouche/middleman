@@ -35,7 +35,9 @@ color='''white'''
     <span style="white-space:nowrap;">포드에 보내주신 성원에 보답하기 위해 재구매 프로그램을 준비했습니다.</span>
     <br/>
     <br/>
-    <span style="white-space:nowrap;">2017년 12월 31일까지 포드 전 품목 차종을 재구매해주시는 고객님께 최대 800,000원의 할인 혜택을 드립니다.</span>
+    <span style="white-space:nowrap;">2017년 12월 31일까지 포드 전 일부 품목 차종을 재구매해주시는 고객님께</span>
+    <br/>
+    <span style="white-space:nowrap;">최대 800,000원의 할인 혜택을 드립니다.</span>
     '''
     
 [[module]] #Banner Image No Link
