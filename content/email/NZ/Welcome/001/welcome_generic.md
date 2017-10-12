@@ -15,7 +15,12 @@ path='email_modules/preheaderbefore'
 segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 
 	preheader='''Dear <%${user.CustomAttribute['FullName']}%>, welcome to the Ford Family.'''
-    
+ 
+ 
+[[module]]
+path='email_modules/body'
+
+
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
