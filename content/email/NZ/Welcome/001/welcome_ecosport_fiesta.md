@@ -30,33 +30,6 @@ segmentif = ["(user.CustomAttribute['MODEL'] == 'EcoSport')"]
 	url_link='''https://www.ford.co.nz/'''
 	url_link_name='''ecosport'''
 
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'Mondeo')"]
-
-	image = '''nz_edm1_mondeo_20170612'''
-    url_link='''https://www.ford.co.nz/'''
-	url_link_name='''mondeo'''
-
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'Focus')"]
-
-	image = '''nz_edm1_focus_20170612'''
-    url_link='''https://www.ford.co.nz/'''
-	url_link_name='''focus'''
-
-
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'NewEscape')"]
-
-	image = '''nz_edm1_escape_20170612'''
-    url_link='''https://www.ford.co.nz/'''
-	url_link_name='''new escape'''
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
