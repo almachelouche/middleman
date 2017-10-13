@@ -20,7 +20,7 @@ segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 [[module]]
 path='email_modules/body'
 
-'
+
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
