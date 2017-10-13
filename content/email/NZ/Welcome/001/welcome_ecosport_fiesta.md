@@ -1,6 +1,6 @@
 +++
 markets = ["nz"]
-title = '''NZ Welcome 001 transit'''
+title = '''NZ Welcome 001 EcoSport and Fiesta'''
 
 [[module]]
 path='email_modules/preheaderbefore'
@@ -15,7 +15,8 @@ path='email_modules/preheaderbefore'
 segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 
 	preheader='''Dear <%${user.CustomAttribute['FullName']}%>, welcome to the Ford Family.'''
-
+ 
+ 
 [[module]]
 path='email_modules/body'
 
@@ -23,31 +24,48 @@ path='email_modules/body'
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'TransitCustom')"]
-    
-    image='''nz_edm1_transit_custom_20170612'''
- 	url_link='''https://www.ford.co.nz/'''
- 	url_link_name='''transit'''
-    
-    
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'TourneoCustom')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'EcoSport')"]
 
-	image = '''au_edm1_tourneo_custom_20170918'''
-    url_link='''https://www.ford.co.nz/'''
-	url_link_name='''tourneo custom'''
+	image='''nz_edm1_ecosport_20170612'''
+	url_link='''https://www.ford.co.nz/'''
+	url_link_name='''ecosport'''
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'TransitCargo')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Mondeo')"]
 
-	image = '''nz_edm1_transit_cargo_20170918'''
+	image = '''nz_edm1_mondeo_20170612'''
     url_link='''https://www.ford.co.nz/'''
-	url_link_name='''transit cargo'''
-    
+	url_link_name='''mondeo'''
+
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Focus')"]
+
+	image = '''nz_edm1_focus_20170612'''
+    url_link='''https://www.ford.co.nz/'''
+	url_link_name='''focus'''
+
+
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+segmentif = ["(user.CustomAttribute['MODEL'] == 'NewEscape')"]
+
+	image = '''nz_edm1_escape_20170612'''
+    url_link='''https://www.ford.co.nz/'''
+	url_link_name='''new escape'''
+
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Fiesta')"]
+
+	image = '''nz_edm1_fiesta_20170612'''
+    url_link='''https://www.ford.co.nz/'''
+	url_link_name='''fiesta'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -60,7 +78,7 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
-	copy='''Dear <%${user.CustomAttribute['FullName']}%><br /><br />Thank you for again choosing Ford. We hope you are enjoying the experience of being part of the Ford family with your new Transit.<br/><br />'''
+	copy='''Dear <%${user.CustomAttribute['FullName']}%><br /><br />Thank you for again choosing Ford. We hope you are enjoying the experience of being part of the Ford family with your new <%${user.CustomAttribute['Model']}%>.<br /><br />'''
 
 [[module]]
 path='email_modules/singles/copy'
@@ -74,7 +92,7 @@ path='email_modules/singles/copy'
 color='''white'''
 
 
-    copy='''Did you know your new <%${user.CustomAttribute['Model']}%> is as safe as it is smart? Not only does it deliver innovative driver assistance technologies, it also brings the latest in-car communication technologies to New Zealand drivers.'''
+    copy='''Did you know your new <%${user.CustomAttribute['Model']}%> is as safe as it is smart? Not only does it deliver innovative driver assistance technologies and a 5 star <span style="font-style: italic;">ANCAP</span> safety rating, it also brings the latest in-car communication technologies to New Zealand drivers.'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -109,7 +127,8 @@ path='email_modules/cover/01'
 color='white'
 
  title='''Peace of mind comes standard'''
-	copy='''Your new <%${user.CustomAttribute['Model']}%> includes a 3-year/100,000km warranty, 3-year roadside assistance, and 12-month/30,000km service intervals (whichever occurs first).<br /><br />You will also receive an email from us within the next two months reminding you to book your Peace of Mind checkup. This is a quick, complimentary inspection to ensure that you are happy with how your vehicle is running. It also provides an opportunity to discuss any questions or concerns you may have about your new <%${user.CustomAttribute['Model']}%>.'''
+	copy='''Your new <%${user.CustomAttribute['Model']}%> includes a 3 year/100,000km warranty, 3-Year roadside assistance, and 12-month/20,000km service intervals (whichever occurs first). <br /><br />You will also receive an email from us within the next two months reminding you to book your Peace of Mind checkup. This is a quick, complimentary inspection to ensure that you are happy with how your vehicle is running. It also provides an opportunity to discuss any questions or concerns you may have about your new <%${user.CustomAttribute['Model']}%>.'''
+
 
 [[module]] #Cover 01
 path='email_modules/cover/01'
@@ -118,6 +137,7 @@ color='''fordblue'''
 	icon='''au_edm1_welcome_icon_20161019'''
 	title='''Can we help?'''
 	copy='''Our Ford Customer Relationship Centre is available to assist with any questions you may have.   Contact them on <br/><span style="color:#FFFFFF">0800 367 369</span>.'''
+
 
 [[module]] #Footer NZ Social
 path='email_modules/footer/nz/social'
