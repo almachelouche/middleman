@@ -23,7 +23,7 @@ path='email_modules/body'
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'TransitCustom')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Transit Custom')"]
     
     image='''nz_edm1_transit_custom_20170612'''
  	url_link='''https://www.ford.co.nz/'''
@@ -33,7 +33,7 @@ segmentif = ["(user.CustomAttribute['MODEL'] == 'TransitCustom')"]
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'TourneoCustom')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Tourneo Custom')"]
 
 	image = '''au_edm1_tourneo_custom_20170918'''
     url_link='''https://www.ford.co.nz/'''
@@ -42,7 +42,7 @@ segmentif = ["(user.CustomAttribute['MODEL'] == 'TourneoCustom')"]
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'TransitCargo')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Transit Cargo')"]
 
 	image = '''nz_edm1_transit_cargo_20170918'''
     url_link='''https://www.ford.co.nz/'''
@@ -93,7 +93,7 @@ path='email_modules/cover/01'
 color='white'
 
 	title='''Stay connected. Everywhere.'''
-	copy='''Your <%${user.CustomAttribute['Model']}%> is equipped with Ford’s <a href="https://www.ford.co.nz/technology/sync/" name="sync" style="text-decoration:underline; color:#2D96CD">SYNC® infotainment system</a>. Use simple voice commands for hands-free control of your phone, your music, and satellite navigation. Best of all, your hands stay safely on the wheel and your eyes stay on the road ahead.<br />'''
+	copy='''Your <%${user.CustomAttribute['Model']}%> is equipped with Ford's <a href="https://www.ford.co.nz/technology/sync/" name="sync" style="text-decoration:underline; color:#2D96CD">SYNC® infotainment system</a>. Use simple voice commands for hands-free control of your phone and your music. Best of all, your hands stay safely on the wheel and your eyes stay on the road ahead.<br />'''
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
@@ -109,7 +109,7 @@ path='email_modules/cover/01'
 color='white'
 
  title='''Peace of mind comes standard'''
-	copy='''Your new <%${user.CustomAttribute['Model']}%> includes a 3-year/100,000km warranty, 3-year roadside assistance, and 12-month/30,000km service intervals (whichever occurs first).<br /><br />You will also receive an email from us within the next two months reminding you to book your Peace of Mind checkup. This is a quick, complimentary inspection to ensure that you are happy with how your vehicle is running. It also provides an opportunity to discuss any questions or concerns you may have about your new <%${user.CustomAttribute['Model']}%>.'''
+	copy='''Your new <%${user.CustomAttribute['Model']}%> includes a 3-year/100,000km warranty, 3-year roadside assistance, and 12-month/30,000km service intervals (whichever occurs first).<br /><br />You will also receive an email from us within the next two months reminding you to book your Peace of Mind checkup. This is a quick, complimentary inspection to ensure that you are happy with how your vehicle is running. It also provides an opportunity to discuss any questions or concerns you <br /> may have about your new <%${user.CustomAttribute['Model']}%>.'''
 
 [[module]] #Cover 01
 path='email_modules/cover/01'

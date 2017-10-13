@@ -1,6 +1,6 @@
 +++
 markets = ["nz"]
-title = '''NZ Welcome 001 generic'''
+title = '''NZ Welcome 001 EcoSport and Fiesta'''
 
 [[module]]
 path='email_modules/preheaderbefore'
@@ -21,36 +21,24 @@ segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 path='email_modules/body'
 
 
-
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'Mondeo')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'EcoSport')"]
 
-	image = '''nz_edm1_mondeo_20170612'''
-    url_link='''https://www.ford.co.nz/'''
-	url_link_name='''mondeo'''
-
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'Focus')"]
-
-	image = '''nz_edm1_focus_20170612'''
-    url_link='''https://www.ford.co.nz/'''
-	url_link_name='''focus'''
+	image='''nz_edm1_ecosport_20170612'''
+	url_link='''https://www.ford.co.nz/'''
+	url_link_name='''ecosport'''
 
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'New Escape')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Fiesta')"]
 
-	image = '''nz_edm1_escape_20170612'''
+	image = '''nz_edm1_fiesta_20170612'''
     url_link='''https://www.ford.co.nz/'''
-	url_link_name='''new escape'''
-
-
+	url_link_name='''fiesta'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -96,7 +84,7 @@ path='email_modules/cover/01'
 color='white'
 
 	title='''Stay connected. Everywhere.'''
-	copy='''Your <%${user.CustomAttribute['Model']}%> is equipped with Ford's <a href="https://www.ford.co.nz/technology/sync/" name="sync" style="text-decoration:underline; color:#2D96CD">SYNC® infotainment system</a>. Use simple voice commands for hands-free control of your phone, your music, and satellite navigation. Best of all, your hands stay safely on the wheel and your eyes stay on the road ahead.<br />'''
+	copy='''Your <%${user.CustomAttribute['Model']}%> is equipped with Ford's <a href="https://www.ford.co.nz/technology/sync/" name="sync" style="text-decoration:underline; color:#2D96CD">SYNC® infotainment system</a>. Use simple voice commands for hands-free control of your phone and your music. Best of all, your hands stay safely on the wheel and your eyes stay on the road ahead.<br />'''
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
