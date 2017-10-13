@@ -20,15 +20,7 @@ segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 [[module]]
 path='email_modules/body'
 
-
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'EcoSport')"]
-
-	image='''nz_edm1_ecosport_20170612'''
-	url_link='''https://www.ford.co.nz/'''
-	url_link_name='''ecosport'''
+'
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
@@ -52,20 +44,13 @@ segmentif = ["(user.CustomAttribute['MODEL'] == 'Focus')"]
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'NewEscape')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'New Escape')"]
 
 	image = '''nz_edm1_escape_20170612'''
     url_link='''https://www.ford.co.nz/'''
 	url_link_name='''new escape'''
 
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'Fiesta')"]
 
-	image = '''nz_edm1_fiesta_20170612'''
-    url_link='''https://www.ford.co.nz/'''
-	url_link_name='''fiesta'''
 
 [[module]]
 path='email_modules/spacer/default'

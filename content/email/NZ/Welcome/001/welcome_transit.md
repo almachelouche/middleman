@@ -23,7 +23,7 @@ path='email_modules/body'
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'TransitCustom')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Transit Custom')"]
     
     image='''nz_edm1_transit_custom_20170612'''
  	url_link='''https://www.ford.co.nz/'''
@@ -33,7 +33,7 @@ segmentif = ["(user.CustomAttribute['MODEL'] == 'TransitCustom')"]
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'TourneoCustom')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Tourneo Custom')"]
 
 	image = '''au_edm1_tourneo_custom_20170918'''
     url_link='''https://www.ford.co.nz/'''
@@ -42,7 +42,7 @@ segmentif = ["(user.CustomAttribute['MODEL'] == 'TourneoCustom')"]
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'TransitCargo')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Transit Cargo')"]
 
 	image = '''nz_edm1_transit_cargo_20170918'''
     url_link='''https://www.ford.co.nz/'''
