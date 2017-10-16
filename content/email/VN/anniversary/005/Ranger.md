@@ -58,10 +58,6 @@ cta1_text='''TÌM HIỂU THÊM'''
 cta1_url='''https://www.ford.com.vn/about/news-events/2017/chuong-trinh-khuyen-mai-dich-vu-chao-thu-2017/'''
 cta1_link_name = '''autumn'''
 
-[[module]] #Dual 01
-path='email_modules/dual/01'
-color='white'
-
 [[module]] #Cover 05
 path='email_modules/cover/02'
 color='''white'''
