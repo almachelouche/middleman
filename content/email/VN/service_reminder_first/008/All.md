@@ -30,20 +30,6 @@ color='''white'''
 	cta1_url = '''https://www.ford.com.vn/owner/service-and-maintenance/quick-service/'''
 	cta1_link_name = '''express_service'''
 
-[[module]] # Owner App Image Right
-path='email_modules/custom/ownerapp_imgr'
-color='black'
-
-	title = '''Ứng dụng Chủ sở hữu xe Ford'''
-	text1 = '''Với Ứng dụng Chủ sở hữu xe Ford, sử dụng một chiếc xe Ford chưa bao giờ dễ như thế.'''
-	text2 = '''<ul style="margin: 20px; padding: 0;"><li>Quản lý "Danh mục bảo dưỡng"</li><li>Tìm hiểu các Ký hiệu trên Bảng điều khiển</li><li>Xem video "Giới thiệu các tính năng trên xe Ford"</li><li>Tìm Đại lý gần nhất</li></ul>'''
-	cta1_text = '''IPHONE'''
-	cta1_url = '''https://itunes.apple.com/vn/app/ford-owners/id990342351'''
-	cta1_link_name = '''oa_iphone'''
-	cta2_text = '''ANDROID'''
-	cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en'''
-	cta2_link_name = '''oa_android'''
-	image = '''vn_edm1a_ownerapp_20160801'''
 
 [[module]] #Custom 01
 path='email_modules/custom/3columntitle3icons'
@@ -75,7 +61,11 @@ color='green'
 	cta1_icon = '''more'''
 	image = '''vn_edm2_18off_20160801'''
 
+ [[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
 
+	image = '''vn_edm1_autumn_20171013'''
 
 [[module]]
 path='email_modules/cover/02'
@@ -86,12 +76,6 @@ copy='''Quý vị cần thay nhớt? Quý vị cần thay bộ lọc nhớt mớ
 cta1_text='''TÌM HIỂU THÊM'''
 cta1_url='''https://www.ford.com.vn/about/news-events/2017/chuong-trinh-khuyen-mai-dich-vu-chao-thu-2017/'''
 cta1_link_name = '''autumn'''
-
- [[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
-	image = '''vn_edm1_autumn_20171013'''
 
 [[module]] #Dual 01
 path='email_modules/dual/01'
