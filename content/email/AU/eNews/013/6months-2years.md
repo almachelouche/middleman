@@ -64,7 +64,7 @@ color='green'
 	cta1_url = '''https://www.ford.com.au/owners/service/tyres/'''
 	cta1_link_name = '''LPTG'''
 	cta1_icon = '''more'''
-	image = '''AU_edm6_ranger_20170220'''
+	image = '''au_edm6_tyres_16102017'''
 
 [[module]] #Split 01
 path='email_modules/split/01'

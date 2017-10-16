@@ -54,7 +54,7 @@ color='darkblue'
 	cta1_url = '''https://www.ford.com.au/suv/escape/?intcmp=bb-fau-hp-fau-vhp-ford%20escape-return'''
 	cta1_link_name = '''retail'''
 	cta1_icon = '''more'''
-	image = '''AU_edm6_awards2_20170301'''
+	image = '''au_edm6_escape_16102017'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
@@ -66,7 +66,7 @@ color='green'
 	cta1_url = '''https://www.ford.com.au/owners/service/tyres/'''
 	cta1_link_name = '''LPTG'''
 	cta1_icon = '''more'''
-	image = '''AU_edm6_ranger_20170220'''
+	image = '''au_edm6_tyres_16102017'''
 
 
 [[module]] #Split 02
