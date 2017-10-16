@@ -20,25 +20,17 @@ segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 path='email_modules/body'
 
 
+    
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'V362 Transit')"]
-    
-    image='''nz_edm1_transit_custom_20170612'''
- 	url_link='''https://www.ford.co.nz/'''
- 	url_link_name='''transit'''
-    
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Tourneo Custom')"]
 
-
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'Transit Cargo')"]
-
-	image = '''nz_edm1_transit_cargo_20170918'''
+	image = '''au_edm1_tourneo_custom_20170918'''
     url_link='''https://www.ford.co.nz/'''
-	url_link_name='''transit cargo'''
+	url_link_name='''tourneo custom'''
+
+
     
 
 [[module]]
