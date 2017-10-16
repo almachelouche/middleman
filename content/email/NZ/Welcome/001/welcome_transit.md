@@ -23,7 +23,7 @@ path='email_modules/body'
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'Transit Custom')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'V362 Transit')"]
     
     image='''nz_edm1_transit_custom_20170612'''
  	url_link='''https://www.ford.co.nz/'''
