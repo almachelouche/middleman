@@ -20,13 +20,13 @@ path='email_modules/cover/01'
 color='''white'''
  
 	title = '''Xin chào <%${user['LastName']}%>,<br /><br />Bạn có thấy tuyệt vời khi ngồi sau vô lăng?'''
-	copy = '''Có lẽ không có gì thú vị hơn khi được ngồi lái một chiếc xe mới. Và chúng tôi muốn nói lời cảm ơn bạn đã lựa chọn Ford.<br /><br />Là thành viên gia đình Ford, bạn sẽ nhận được những tin tức mới nhất từ Ford và cả những ưu đãi mà chúng tôi tin chắc bạn sẽ vui lòng đón nhận.<br /><br />Và đừng quên tận hưởng bên chiếc Everest mới của mình nhé!'''
+	copy = '''Có lẽ không có gì thú vị hơn khi được ngồi lái một chiếc xe mới. Và chúng tôi muốn nói lời cảm ơn bạn đã lựa chọn Ford.<br /><br />Là thành viên gia đình Ford, bạn sẽ nhận được những tin tức mới nhất từ Ford và cả những ưu đãi mà chúng tôi tin chắc bạn sẽ vui lòng đón nhận.<br /><br />Và đừng quên tận hưởng bên chiếc All-New Everest mới của mình nhé!'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''vn_edm1&4_np_everest_20160801'''
+	image = '''vn_edm1&4_np_allneweverest_20160801'''
 
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
@@ -89,10 +89,11 @@ path='email_modules/cover/02'
 
 color='''white'''
 title='''Chương trình ưu đãi lớn'''
-copy='''Quý vị cần thay nhớt? Quý vị cần thay bộ lọc nhớt mới? Nhanh tay hưởng ngay ưu đãi! Từ ngày 1 tháng 10 đến ngày 14 tháng 11 năm 2017, Tất cả các khách hàng của Ford sẽ được giảm 15% trên giá bán lẻ  của phụ tùng dầu (nhớt) và lọc dầu (nhớt) khi làm bảo dưỡng chính hãng tại các Trung tâm Dịch vụ Ford.  Hãy nhanh tay tìm hiểu thêm thông tin về chương trình tuyệt vời này.'''
+copy='''Quý vị cần thay nhớt? Quý vị cần thay bộ lọc nhớt mới? Nhanh tay hưởng ngay ưu đãi! Từ ngày 1 tháng 10 đến ngày 14 tháng 11 năm 2017, tất cả các khách hàng của Ford sẽ được giảm 15% trên giá bán lẻ của phụ tùng dầu (nhớt) và lọc dầu (nhớt) khi làm bảo dưỡng chính hãng tại các Trung tâm Dịch vụ Ford. Hãy nhanh tay tìm hiểu thêm thông tin về chương trình tuyệt vời này.'''
 cta1_text='''TÌM HIỂU THÊM'''
 cta1_url='''https://www.ford.com.vn/about/news-events/2017/chuong-trinh-khuyen-mai-dich-vu-chao-thu-2017/'''
 cta1_link_name = '''autumn'''
+
 
 [[module]] #VN Social
 path='email_modules/footer/vn/social'
