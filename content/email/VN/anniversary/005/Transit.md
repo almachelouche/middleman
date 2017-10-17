@@ -1,11 +1,11 @@
 +++
 markets = ["vn"]
-title = '''VN Anniversary 005 Ranger'''
+title = '''VN Anniversary 005 Transit'''
 
 [[module]]
 path='email_modules/preheader'
 
-	preheader = '''Bạn có tin đã 12 tháng trôi qua kể từ ngày bạn lái chiếc Ranger mới về nhà? Chúng tôi không thể để ngày đặc biệt này trôi qua mà không gửi lời cảm ơn tới bạn, một lần nữa, vì đã chọn Ford.'''
+	preheader = '''Bạn có tin đã 12 tháng trôi qua kể từ ngày bạn lái chiếc Transit mới về nhà? Chúng tôi không thể để ngày đặc biệt này trôi qua mà không gửi lời cảm ơn tới bạn, một lần nữa, vì đã chọn Ford.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -19,13 +19,13 @@ path='email_modules/cover/01'
 color='''white'''
  
 	title = '''Mới như ngày hôm qua'''
-	copy = '''Xin chào <%${user['LastName']}%>,<br /><br />Bạn có tin đã 12 tháng trôi qua kể từ ngày bạn lái chiếc Ranger mới về nhà? Chúng tôi không thể để ngày đặc biệt này trôi qua mà không gửi lời cảm ơn tới bạn, một lần nữa, vì đã chọn Ford. Chúng tôi sẽ còn tiếp tục cập nhật thông tin để bạn sẽ luôn là người đầu tiên được thông báo về những ưu đãi đặc biệt và các thông tin hữu ích khác từ Ford Việt Nam. Chắc chắn là như vậy.'''
+	copy = '''Xin chào <%${user['LastName']}%>,<br /><br />Bạn có tin đã 12 tháng trôi qua kể từ ngày bạn lái chiếc Transit mới về nhà? Chúng tôi không thể để ngày đặc biệt này trôi qua mà không gửi lời cảm ơn tới bạn, một lần nữa, vì đã chọn Ford. Chúng tôi sẽ còn tiếp tục cập nhật thông tin để bạn sẽ luôn là người đầu tiên được thông báo về những ưu đãi đặc biệt và các thông tin hữu ích khác từ Ford Việt Nam. Chắc chắn là như vậy.'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''vn_edm1&4_np_newranger_20160801'''
+	image = '''vn_edm1&4_np_transit_20160801'''
 
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
@@ -41,7 +41,7 @@ color='black'
 	cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en'''
 	cta2_link_name = '''oa_android'''
 	image = '''vn_edm1a_ownerapp_20160801'''
-    
+
  [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
