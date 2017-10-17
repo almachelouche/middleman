@@ -29,7 +29,15 @@ segmentif = ["(user.CustomAttribute['MODEL'] == 'V362 Transit')"]
  	url_link='''https://www.ford.co.nz/'''
  	url_link_name='''transit'''
     
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Tourneo Custom')"]
 
+	image = '''au_edm1_tourneo_custom_20170918'''
+    url_link='''https://www.ford.co.nz/'''
+	url_link_name='''tourneo custom'''
+    
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
