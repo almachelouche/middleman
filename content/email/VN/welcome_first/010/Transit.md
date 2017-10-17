@@ -65,18 +65,20 @@ color='''white'''
 	cta1_link_name = '''driving_skills'''
 	icon = '''vn_edm1a_drivingskill_20160801'''
 
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
 
-	image = '''vn_edm1_autumn_20171013'''
+	image='''vn_edm1_autumn_20171013'''
+	url_link='''https://www.ford.com.vn/about/news-events/2017/chuong-trinh-khuyen-mai-dich-vu-chao-thu-2017/'''
+	url_link_name='''autumn'''
 
 [[module]]
 path='email_modules/cover/02'
 
 color='''white'''
 title='''Chương trình ưu đãi lớn'''
-copy='''Quý vị cần thay nhớt? Quý vị cần thay bộ lọc nhớt mới? Nhanh tay hưởng ngay ưu đãi! Từ ngày 1 tháng 10 đến ngày 14 tháng 11 năm 2017, tất cả các khách hàng của Ford sẽ được giảm 15% trên giá bán lẻ  của phụ tùng dầu (nhớt) và lọc dầu (nhớt) khi làm bảo dưỡng chính hãng tại các Trung tâm Dịch vụ Ford.  Hãy nhanh tay tìm hiểu thêm thông tin về chương trình tuyệt vời này.'''
+copy='''Quý vị cần thay nhớt? Quý vị cần thay bộ lọc nhớt mới? Nhanh tay hưởng ngay ưu đãi! Từ ngày 1 tháng 10 đến ngày 14 tháng 11 năm 2017, tất cả các khách hàng của Ford sẽ được giảm 15% trên giá bán lẻ của phụ tùng dầu (nhớt) và lọc dầu (nhớt) khi làm bảo dưỡng chính hãng tại các Trung tâm Dịch vụ Ford. Hãy nhanh tay tìm hiểu thêm thông tin về chương trình tuyệt vời này.'''
 cta1_text='''TÌM HIỂU THÊM'''
 cta1_url='''https://www.ford.com.vn/about/news-events/2017/chuong-trinh-khuyen-mai-dich-vu-chao-thu-2017/'''
 cta1_link_name = '''autumn'''
