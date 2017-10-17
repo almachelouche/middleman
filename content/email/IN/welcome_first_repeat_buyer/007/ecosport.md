@@ -98,7 +98,7 @@ segmentif = ["(user.CustomAttribute['EWStatus'] == 'NO')"]
 
 
 	title = '''Extended Peace of Mind'''
-	copy = '''Extend your Ford EcoSport's warranty up to 5 years and enjoy worry-free driving. Your warranty protects your Ford against mechanical and electrical failures, and labour charges too¹.'''
+	copy = '''Extend your Ford EcoSport's warranty up to 5 years and enjoy worry-free driving. Your warranty protects your Ford against mechanical and electrical failures, and labour charges too.'''
 	cta1_text = '''GET PEACE OF MIND'''
 	cta1_url = '''https://www.india.ford.com/owner/extended-warranty/'''
 	cta1_link_name = '''warranty_info'''
@@ -192,23 +192,19 @@ color='white'
 	icon4_link_name = '''price_calculator'''
 	icon4_image='''in_svc_price_20160801'''
 
-[[module]] #Footer IN Social
-path='email_modules/footer/in/social'
-color='white'
-
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
 segmentif = ["(user.CustomAttribute['EWStatus'] == 'NO')"]
 
 
-	text='''1. Second year factory warranty is applicable for all Ford vehicles manufactured after 1st January 2008.'''
+	text='''Second year factory warranty is applicable for all Ford vehicles manufactured after 1st January 2008.'''
 
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
 
-	text='''*Content for Fly Audio only for Platinum Edition.'''
+	text='''Content for Fly Audio only for Platinum Edition.'''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
