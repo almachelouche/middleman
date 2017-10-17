@@ -54,7 +54,9 @@ color='''white'''
     <span style="white-space:nowrap;">매장에서  보유하고 계신 포드 차량 등록증을  제시하시면 할인이 자동 적용됩니다.</span>
     <br/>
     <br/>
-    <span style="white-space:nowrap;">하나 더, 가족 증빙 서류를 지참하시면 가족분도 동일한 혜택을 받으실 수 있습니다.</span>
+    <span style="white-space:nowrap;">또한 가족 증빙 서류를 지참하시면</span> 
+    <br/>
+    <span style="white-space:nowrap;">직계 가족분께도 동일한 혜택을 누리실 수 있습니다.</span>
     '''
 
 	cta_direction = '''horizontal'''

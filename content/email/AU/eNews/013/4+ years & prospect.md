@@ -51,10 +51,10 @@ color='darkblue'
 	title = '''Screen Time vs Play Time'''
 	copy = '''Our research shows that getting away from our smartphone and tablet screens is good for the whole family. What better way to get away than in the Ford Escape Trend AWD Auto, from only $34,990*?'''
 	cta1_text = '''LEARN MORE'''
-	cta1_url = '''https://www.ford.com.au/suv/escape/?intcmp=bb-fau-hp-fau-vhp-ford%20escape-return'''
+	cta1_url = '''https://www.ford.com.au/suv/escape/'''
 	cta1_link_name = '''retail'''
 	cta1_icon = '''more'''
-	image = '''AU_edm6_awards2_20170301'''
+	image = '''au_edm6_escape_16102017'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
@@ -63,10 +63,10 @@ color='green'
 	title = '''Ford sells tyres?'''
 	copy = '''At Ford, we're committed to offering you tyres at competitive prices. That's why we're very excited to announce our Low Price Tyre Guarantee. We'll match a competitor's price on selected tyres we stock.'''
 	cta1_text = '''LEARN MORE'''
-	cta1_url = '''https://www.ford.com.au/owners/service/tyres'''
+	cta1_url = '''https://www.ford.com.au/owners/service/tyres/'''
 	cta1_link_name = '''LPTG'''
 	cta1_icon = '''more'''
-	image = '''AU_edm6_ranger_20170220'''
+	image = '''au_edm6_tyres_16102017'''
 
 
 [[module]] #Split 02
@@ -92,7 +92,7 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 	text='''Disclaimers:<br /><br />
-	1. The Low Price Tyre Guarantee offer is available on selected tyres of listed brands that are stocked by participating Ford dealers. Competitor tyres must be new, identical and available from an Australian tyre retailer. Offer includes "4 for 3" or similar competitor offers, but excludes competitor cashback offers, gift cards, "wheel and tyre" bundles, tyres purchased under an instalment payment plan, clearance and liquidation stock and any competitor quotes that cannot be verified. Offer is available until 31st August 2017 at participating Ford dealers to private retail and Blue Business Fleet customers. Includes valid competitor’s quote within 30 days after purchase. Various adjustments, including fitment and freight, apply to ensure a like-for-like price comparison. See your participating Ford dealer for full terms and conditions.'''
+	1. The Low Price Tyre Guarantee offer is available on selected tyres of listed brands that are stocked by participating Ford dealers. Competitor tyres must be new, identical and available from an Australian tyre retailer. Offer includes "4 for 3" or similar competitor offers, but excludes competitor cashback offers, gift cards, "wheel and tyre" bundles, tyres purchased under an instalment payment plan, clearance and liquidation stock and any competitor quotes that cannot be verified. Includes valid competitor’s quote within 30 days after purchase. Various adjustments, including fitment and freight, apply to ensure a like-for-like price comparison. See your participating Ford dealer for full terms and conditions.'''
 
 
 [[module]] #Footer AU Online

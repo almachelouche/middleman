@@ -5,7 +5,7 @@ title = '''PH Repurchase 017 All'''
 [[module]]
 path='email_modules/preheader'
 
-	preheader = '''Join Ford as we come to your city and take you on an epic test drive!'''
+	preheader = '''Ford is having its Year-End Sale! Which means it might be time to get yourself a brand new Ford before the year ends.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -26,29 +26,11 @@ color='white'
 path='email_modules/cover/02'
 color='''white''' 
 
-	title = '''Going all-in for you and your next Ford!'''
-	copy = '''Hello <%${user['FirstName']}%><br /><br />Thanks for being such an awesome member of the Ford family! We hope you and your Ford continue your journey together for a long, long time.<br /><br />But if you've been thinking about an upgrade, there's no better time than the present for a new Ford! Before December 31, you can drive home in a brand new Ford for as little as an all-in down payment of ₱48,000 for an EcoSport, ₱88,000 for an Everest and ₱68,000 for a Ranger.<br /><br />Want to know more about the offer? Click below.'''
+	title = '''GET A FORD BEFORE THE YEAR ENDS!'''
+	copy = '''Hello <%${user['FirstName']}%><br /><br />We hope you enjoy being a proud Ford owner just as much as we enjoy having you be a part of our Ford family!<br /><br />But if you’ve been considering an upgrade, this is the best time to get a brand new Ford. Starting this October, we are unveiling great deals for our Year-End Sale!<br /><br />Drive home in a brand new <b>EcoSport</b> for as low as <b>Php 48,000</b> all-in low down payment, or an <b>Everest</b>, the reliable family SUV for just <b>Php 88,000</b> all-in low down payment, or opt for Ford’s built tough <b>Ranger</b> for only <b>Php 68,000</b> all-in low down payment.<br /><br />So, hurry and visit your preferred Ford dealership before the year ends!'''
 	cta1_text = '''FIND OUT MORE'''
 	cta1_url = '''https://www.ford.com.ph/shopping/hot-deals/2017/hot-deal-2/'''
 	cta1_link_name = '''yes_campaign'''
-
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-
-	image='''ph_edm5_fic_20170327'''
-	url_link='''https://www.ford.com.ph/ford-island-conquest/'''
-	url_link_name='''fic'''
-
-[[module]] #Cover 07
-path='email_modules/cover/02'
-color='''white''' 
-
-	title = '''Ford test drives coming to you'''
-	copy = '''Ford Island Conquest is not your ordinary test drive. Join us as Ford travels to your city this year with Ford Rangers, Everests and EcoSports geared and ready for you to hop in and take for a spin.<br /><br />You’ll also be able to enjoy giveaways and have a chance to win exclusive discounts – there’s as much as ₱100,000 cash discounts up for grabs!'''
-	cta1_text = '''DATES & LOCATIONS'''
-	cta1_url = '''https://www.ford.com.ph/ford-island-conquest/'''
-	cta1_link_name = '''fic'''
 
 [[module]] #Split 02
 path='email_modules/split/02'
