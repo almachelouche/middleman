@@ -5,7 +5,7 @@ title = '''PH Repurchase 017 All'''
 [[module]]
 path='email_modules/preheader'
 
-	preheader = '''Ford is having its Year-End Sale! Which means it might be time to get yourself a brand new Ford before the year ends.'''
+	preheader = '''We hope you enjoy being a proud Ford owner just as much as we enjoy having you be a part of our Ford family!'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
