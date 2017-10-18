@@ -66,7 +66,7 @@ color='white'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image='''au_edm2d_brake2_20161114'''
+	image='''au_edm2_declined_service_tyres_18102017'''
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
