@@ -1,31 +1,31 @@
 +++
 markets = ["vn"]
-title = '''VN Welcome Repeat 009 Ranger'''
+title = '''VN Anniversary 005 EcoSport'''
 
 [[module]]
 path='email_modules/preheader'
 
-	preheader = '''Chẳng có gì thú vị hơn được lái một chiếc xe mới, dù đó là chiếc xe đầu tiên hay thứ 10. Thế nên chúng tôi muốn nói "Cảm ơn Bạn" vì đã tiếp tục chọn Ford.'''
+	preheader = '''Bạn có tin đã 12 tháng trôi qua kể từ ngày bạn lái chiếc EcoSport mới về nhà? Chúng tôi không thể để ngày đặc biệt này trôi qua mà không gửi lời cảm ơn tới bạn, một lần nữa, vì đã chọn Ford.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'
 
 	image = '''white'''
-	url_link = '''https://www.ford.com.vn'''
+	url_link = '''https://www.ford.com.vn/'''
 
 [[module]] #Cover 01
 path='email_modules/cover/01'
 color='''white'''
  
-	title = '''Xin chào <%${user['LastName']}%>,<br /><br />Hành trình vẫn tiếp diễn'''
-	copy = '''Chẳng có gì thú vị hơn được lái một chiếc xe mới, dù đó là chiếc xe đầu tiên hay thứ 10. Thế nên chúng tôi muốn nói "Cảm ơn Bạn" vì đã tiếp tục chọn Ford.<br /><br />Là thành viên gia đình Ford, chúng tôi tiếp tục gửi tới bạn không chỉ những tin tức mới nhất từ Ford, mà cả những ưu đãi dành cho Khách hàng trung thành với thương hiệu Ford.<br /><br />Và đừng quên tận hưởng bên chiếc Ranger của bạn!'''
+	title = '''Mới như ngày hôm qua'''
+	copy = '''Xin chào <%${user['LastName']}%>,<br /><br />Bạn có tin đã 12 tháng trôi qua kể từ ngày bạn lái chiếc EcoSport mới về nhà? Chúng tôi không thể để ngày đặc biệt này trôi qua mà không gửi lời cảm ơn tới bạn, một lần nữa, vì đã chọn Ford. Chúng tôi sẽ còn tiếp tục cập nhật thông tin để bạn sẽ luôn là người đầu tiên được thông báo về những ưu đãi đặc biệt và các thông tin hữu ích khác từ Ford Việt Nam. Chắc chắn là như vậy.'''
 
-	[[module]] #Banner Image No Link
+[[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''vn_edm1&4_np_newranger_20160801'''
+	image = '''vn_edm1&4_np_ecosport_20160801'''
 
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
@@ -41,28 +41,6 @@ color='black'
 	cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en'''
 	cta2_link_name = '''oa_android'''
 	image = '''vn_edm1a_ownerapp_20160801'''
-
- [[module]]
-path='email_modules/split/07'
-color='white'
-
-title='''Cho chiếc xe của bạn thêm nổi bật'''
-copy='''Hãy trang bị cho chiếc xe của bạn phụ kiện chính hãng từ Ford. Các phụ kiện của Ford được thiết kế theo tiêu chuẩn chất lượng cao và chuyên biệt, sẵn sàng nâng cấp chiếc xe của bạn lên tầm cao mới.'''
-cta1_text='''XEM CHI TIẾT PHỤ KIỆN'''
-cta1_url='''https://www.ford.com.vn/trucks/ranger/accessories/'''
-cta1_link_name = '''acc_ranger'''
-image='''vn_edm1a_Ranger_20170324'''
-
-[[module]] #Cover 05
-path='email_modules/cover/02'
-color='''white'''
-
-	title = '''Chiếc xe của bạn được bảo vệ lâu hơn và linh hoạt hơn'''
-	copy = '''Bạn càng mua sớm gói Bảo hành Mở rộng, giá càng tốt. Ngoài ra bạn có rất nhiều lựa chọn linh hoạt: bảo vệ toàn bộ xe với gói An tâm hay chỉ bảo vệ hộp số và động cơ với gói Tiết kiệm trong thời gian 1 năm hay 2 năm. Chúng tôi luôn bảo vệ bạn trên mọi hành trình.'''
-	cta1_text = '''BẢO VỆ XẾ YÊU'''
-	cta1_url = '''https://www.ford.com.vn/owner/warranty/extended-warranty/'''
-	cta1_link_name = '''extended_warranty'''
-	icon = '''vn_edm_extendedwarranty_20160801'''
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
@@ -82,6 +60,17 @@ cta1_text='''TÌM HIỂU THÊM'''
 cta1_url='''https://www.ford.com.vn/about/news-events/2017/chuong-trinh-khuyen-mai-dich-vu-chao-thu-2017/'''
 cta1_link_name = '''autumn'''
 
+[[module]] #Cover 05
+path='email_modules/cover/02'
+color='''white'''
+
+	title = '''Thay đổi thông tin cá nhân?'''
+	copy = '''Bạn đừng quên cập nhật thông tin của mình tại đây để không bỏ lỡ thông tin mới nhất từ Ford Việt Nam.'''
+	cta1_text = '''CẬP NHẬT NGAY'''
+	cta1_url = '''https://www.ford.com.vn/#/overlay/content/ford/vn/vi_vn/site-wide-content/overlays/form-overlay/login'''
+	cta1_link_name = '''anything_changed'''
+	icon = '''vn_edm2_ownerprofile_20160801'''
+
 [[module]] #VN Social
 path='email_modules/footer/vn/social'
 color='white'
@@ -91,6 +80,5 @@ path='email_modules/footer/online'
 color='white'
 
 	copy='''Nhấp chuột <a href="<%unsubscribe_link_text%>" style="color:#91a4b1; text-decoration:underline">tại đây</a> nếu bạn muốn ngừng nhận thư từ Ford<br />Bản quyền © Công ty TNHH Ford Việt Nam <br /><br />Nếu bạn không xem đươc e-mail này, <a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#91a4b1; text-decoration:underline"><br /> xin nhấp chuột tại đây để xem phiên bản trên web</a>'''
-
 
 +++
