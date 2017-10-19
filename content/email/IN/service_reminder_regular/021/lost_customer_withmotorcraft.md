@@ -13,12 +13,6 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''in_edm2_fordsvc_20160801'''
-    
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
 
 [[module]]
 path='email_modules/singles/title'
@@ -138,6 +132,30 @@ color='white'
 path='email_modules/spacer/platinum_20'
 color='white'    
 
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
+path='email_modules/singles/title'
+color='''white'''
+
+	title = '''My Ford Profile'''
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+
+	copy = '''Name&#58; <%${user['FirstName']}%> <%${user['LastName']}%><br />Email&#58; <%${user.CustomAttribute['RealEmail']}%><br />Phone&#58; <%${user.CustomAttribute['Mobile_Phone']}%><br />Address&#58; <%${user.CustomAttribute['Address_1']}%> <%${user.CustomAttribute['Address_2']}%><br /><br />Anything changed?'''
+    
 [[module]]
 path='email_modules/spacer/default'
 color='white'
