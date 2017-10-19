@@ -55,10 +55,10 @@ segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
     
 [[module]]
 path='email_modules/singles/title'
-color='''white'''
+color='''white_ot'''
 segmentif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 
-	title = '''<span style="color:#FF6600;">Your service is now past due</span>'''    
+	title = '''Your service is now past due'''    
 
 [[module]]
 path='email_modules/spacer/default'
@@ -117,7 +117,7 @@ path='email_modules/dual/05'
 color='white'
 
 	title1 = '''Service Price Promise'''
-	text_box_height = '''320'''
+	text_box_height = '''340'''
 	copy1 = '''Get an affordable service with Ford's Integrated Calculator. Be it scheduled maintenance, part change, or both; you can calculate the all-inclusive cost online, and pay the Ford dealer exactly what you see on the screen!'''
 	cta1a_text = '''CHECK SERVICE PRICE'''
 	cta1a_url = '''https://www.fordservicepricepromise.com/'''

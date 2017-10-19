@@ -132,7 +132,7 @@ color='white'
 
 [[module]]
 path='email_modules/singles/title'
-color='''white_ot'''
+color='''white'''
 
 	title = '''Brake with confidence'''
 
@@ -156,7 +156,7 @@ color='white'
 
 [[module]]
 path='email_modules/singles/ctablock'
-color='''fordblue'''
+color='''white'''
 
 	cta1_text = '''FIND OUT MORE'''
 	cta1_url = '''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
