@@ -1,7 +1,7 @@
 
 +++
 markets = ["in"]
-title = '''IN Service Reminder Declined 014 nooffer '''
+title = '''IN Service Reminder Declined 015 MotorcraftBrake '''
 
 [[module]]
 path='email_modules/preheader'
@@ -146,7 +146,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''When it's time for a brake change, you can rely on Motorcraft brake parts. Recommended by Ford, Motorcraft parts deliver high-quality performance at a competitive price.'''    
+	copy = '''When it's time for a brake change, you can rely on Motorcraft&#174; brake parts. Recommended by Ford, Motorcraft&#174; parts deliver high-quality performance at a competitive price.'''    
 
 [[module]]
 path='email_modules/spacer/default'
