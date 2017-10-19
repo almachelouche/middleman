@@ -83,6 +83,10 @@ color='white'
 	image = '''in_edm2_save20_20170105'''
 
 [[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
+[[module]]
 path='email_modules/dual/05'
 color='white'
 
@@ -106,7 +110,7 @@ color='white'
 
 [[module]]
 path='email_modules/spacer/platinum_20'
-color='white'
+color='white'    
 
 [[module]]
 path='email_modules/dual/05'
@@ -133,6 +137,24 @@ color='white'
 [[module]]
 path='email_modules/spacer/platinum_20'
 color='white'    
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+
+[[module]]
+path='email_modules/singles/2textcta'
+color='''white'''
+
+	cta1_text = '''UPDATE DETAILS'''
+	cta1_url = '''https://www.india.ford.com/#/overlay/content/ford/in/en_in/site-wide-content/overlays/forms/profile-update-form.html?req_firstName=<%${user['FirstName']}%>&req_lastName=<%${user['LastName']}%>&req_mobileNumber=<%${user.CustomAttribute['Mobile_Phone']}%>&req_EmailID=<%${user.CustomAttribute['RealEmail']}%>&req_BuildingNo=<%${user.CustomAttribute['Address_1']}%>&req_StreetRoad=<%${user.CustomAttribute['Address_2']}%>&req_Area=<%${user.CustomAttribute['Area']}%>&req_Landmark=<%${user.CustomAttribute['Landmark']}%>&req_city=<%${user.CustomAttribute['City']}%>&req_State=<%${user.CustomAttribute['State']}%>&req_postCode=<%${user.CustomAttribute['Post_Code']}%>'''
+	cta1_link_name = '''profile_update'''
+	cta2_text = '''VISIT OWNER SITE'''
+	cta2_url = '''https://www.india.ford.com/owner/dashboard/#/overlay/content/ford/in/en_in/site-wide-content/overlays/form-overlay/login.html'''
+	cta2_link_name = '''owner_dashboard'''
+		cta1_icon='''more'''
 
 [[module]] #Footer 4 Icons
 path='email_modules/footer/4icons'
