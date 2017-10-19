@@ -38,7 +38,7 @@ segmentelseif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''in_edm2_fordsvc_20170321'''
+image = '''in_edm2_fordsvc_20160801'''
     
 [[module]]
 path='email_modules/spacer/default'
@@ -143,7 +143,7 @@ path='email_modules/dual/05'
 color='white'
 
 	title1 = '''Motorcraft&#174; is Here'''
-	text_box_height = '''320'''
+	text_box_height = '''360'''
 	copy1 = '''Motorcraft&#174; parts are now available at Ford showrooms nationwide! Recommended by Ford, Motorcraft&#174; parts deliver exceptional value and uncompromising quality. Best of all, they’re designed specifically for your Ford vehicle. So next time you service your Ford EcoSport, ask about Motorcraft&#174; parts.'''
 	cta1a_text = '''LEARN MORE'''
 	cta1a_url = '''https://www.fordservicepricepromise.com/'''
