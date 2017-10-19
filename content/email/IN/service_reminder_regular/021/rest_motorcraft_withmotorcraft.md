@@ -159,7 +159,11 @@ color='white'
 	image2 = '''in_edm5_service_journey_20170927'''
 	image2_link_url = '''https://www.fordservicepricepromise.com/'''
 	image2_link_name = '''price_calculator_image'''
-    
+
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'    
+
 [[module]] #Cover 05
 path='email_modules/cover/02'
 color='''green_pb'''
