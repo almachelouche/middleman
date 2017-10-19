@@ -103,13 +103,7 @@ color='white_in'
 		icon3red = '''in_edm2d_status_battery_white_20160801'''
 		title3red = '''Batteries'''
 		subtitle3red = '''Service immediately'''
-
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30" 
-
+        
 [[module]] #Cover 11
 path='email_modules/singles/copy'
 color='white'
@@ -121,7 +115,52 @@ path='email_modules/spacer/default'
 color='white'
 
 	height="30" 
+    
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
 
+	image='''in_edm6_motorcrafts_20170830'''
+	url_link='''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
+	url_link_name='''motorcraft_image'''
+    
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30" 
+
+[[module]]
+path='email_modules/singles/title'
+color='''white_ot'''
+
+	title = '''Brake with confidence'''
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30" 
+
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
+
+	copy = '''When it's time for a brake change, you can rely on Motorcraft brake parts. Recommended by Ford, Motorcraft parts deliver high-quality performance at a competitive price.'''    
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30" 
+
+[[module]]
+path='email_modules/singles/ctablock'
+color='''fordblue'''
+
+	cta1_text = '''FIND OUT MORE'''
+	cta1_url = '''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
+	cta1_link_name = '''motorcraft_Brake'''
 
 [[module]]
 path='email_modules/spacer/platinum_20'
@@ -131,16 +170,9 @@ color='white'
 path='email_modules/dual/05'
 color='white'
 
-	title1 = '''Service Price Promise'''
-	text_box_height = '''320'''
-	copy1 = '''Get an affordable service with Ford's Integrated Calculator. Be it scheduled maintenance, part change, or both; you can calculate the all-inclusive cost online, and pay the Ford dealer exactly what you see on the screen!'''
-	cta1a_text = '''CHECK SERVICE PRICE'''
-	cta1a_url = '''https://www.fordservicepricepromise.com/'''
-	cta1a_link_name = '''price_calculator'''
-	image1 = '''in_edm5_service_journey_20170927'''
-	image1_link_url = '''https://www.youtube.com/watch?v=EpUVjpuhxEE&t=133s/'''
-	image1_link_name = '''service_journey_image'''
-	title2 = '''Ford Genuine Parts'''
+	
+    title2 = '''Ford Genuine Parts'''
+    text_box_height = '''340'''
 	copy2 = '''Don't take chances with your family's safety. Fake parts have no guarantees, whereas Ford ensures that our parts meet every quality standard, and work together to give the best results. So, stick to Ford genuine parts from authorised Service Centers, and drive your car without any worries.'''
 	cta2a_text = '''CHECK HOW AFFORDABLE'''
 	cta2a_url = '''https://www.india.ford.com/surprisingly-affordable/'''
@@ -148,32 +180,14 @@ color='white'
 	image2 = '''in_edm6_safety_tvc_20170927'''
 	image2_link_url = '''https://www.youtube.com/watch?v=oLJOVLqzHys'''
 	image2_link_name = '''safety_video_image'''
-
-[[module]]
-path='email_modules/spacer/platinum_20'
-color='white'    
-
-[[module]]
-path='email_modules/dual/05'
-color='white'
-
-	title1 = '''Motorcraft&#174; is Here'''
-	text_box_height = '''320'''
-	copy1 = '''Motorcraft&#174; parts are now available at Ford showrooms nationwide! Recommended by Ford, Motorcraft&#174; parts deliver exceptional value and uncompromising quality. Best of all, they’re designed specifically for your Ford vehicle. So next time you service your Ford EcoSport, ask about Motorcraft&#174; parts.'''
-	cta1a_text = '''LEARN MORE'''
+    title1 = '''Service Price Promise'''
+	copy1 = '''Get an affordable service with Ford's Integrated Calculator. Be it scheduled maintenance, part change, or both; you can calculate the all-inclusive cost online, and pay the Ford dealer exactly what you see on the screen!'''
+	cta1a_text = '''CHECK SERVICE PRICE'''
 	cta1a_url = '''https://www.fordservicepricepromise.com/'''
-	cta1a_link_name = '''motorcraft'''
+	cta1a_link_name = '''price_calculator'''
 	image1 = '''in_edm5_service_journey_20170927'''
-	image1_link_url = '''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
-	image1_link_name = '''motorcraft_image'''
-	title2 = '''Service Price Promise'''
-	copy2 = '''Get an affordable service with Ford's Integrated Calculator. Be it scheduled maintenance, part change, or both; you can calculate the all-inclusive cost online, and pay the Ford dealer exactly what you see on the screen!'''
-	cta2a_text = '''CHECK SERVICE PRICE'''
-	cta2a_url = '''https://www.fordservicepricepromise.com/'''
-	cta2a_link_name = '''price_calculator'''
-	image2 = '''in_edm5_service_journey_20170927'''
-	image2_link_url = '''https://www.fordservicepricepromise.com/'''
-	image2_link_name = '''price_calculator_image'''
+	image1_link_url = '''https://www.youtube.com/watch?v=EpUVjpuhxEE&t=133s/'''
+	image1_link_name = '''service_journey_image'''
 
 [[module]] #Footer 4 Icons
 path='email_modules/footer/4icons'
