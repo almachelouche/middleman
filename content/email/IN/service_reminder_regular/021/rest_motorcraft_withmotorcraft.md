@@ -1,6 +1,6 @@
 +++
 markets = ["in"]
-title = '''IN Service Reminder Regular Due/Pdue 020 Rest'''
+title = '''IN Service Reminder Regular Due/Pdue 021 Rest'''
 
 [[module]]
 path='email_modules/preheaderbefore'
@@ -109,6 +109,10 @@ color='white'
   copy = '''VIN No: <% ${user.CustomAttribute['VIN']}%><br />Last reported service date: <%${user.CustomAttribute['Last_Reported_Service_Date']}%><br />Last reported mileage (Kms): <% ${user.CustomAttribute['Mileage']}%>'''
 
 [[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
+[[module]]
 path='email_modules/dual/05'
 color='white'
 
@@ -129,6 +133,10 @@ color='white'
 	image2 = '''in_edm6_safety_tvc_20170927'''
 	image2_link_url = '''https://www.youtube.com/watch?v=oLJOVLqzHys'''
 	image2_link_name = '''safety_video_image'''
+
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
 
 [[module]]
 path='email_modules/dual/05'
