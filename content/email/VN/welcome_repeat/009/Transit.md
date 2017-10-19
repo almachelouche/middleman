@@ -1,6 +1,6 @@
 +++
 markets = ["vn"]
-title = '''VN Welcome Repeat 009 Ranger'''
+title = '''VN Welcome Repeat 009 Transit'''
 
 [[module]]
 path='email_modules/preheader'
@@ -19,13 +19,13 @@ path='email_modules/cover/01'
 color='''white'''
  
 	title = '''Xin chào <%${user['LastName']}%>,<br /><br />Hành trình vẫn tiếp diễn'''
-	copy = '''Chẳng có gì thú vị hơn được lái một chiếc xe mới, dù đó là chiếc xe đầu tiên hay thứ 10. Thế nên chúng tôi muốn nói "Cảm ơn Bạn" vì đã tiếp tục chọn Ford.<br /><br />Là thành viên gia đình Ford, chúng tôi tiếp tục gửi tới bạn không chỉ những tin tức mới nhất từ Ford, mà cả những ưu đãi dành cho Khách hàng trung thành với thương hiệu Ford.<br /><br />Và đừng quên tận hưởng bên chiếc Ranger của bạn!'''
+	copy = '''Chẳng có gì thú vị hơn được lái một chiếc xe mới, dù đó là chiếc xe đầu tiên hay thứ 10. Thế nên chúng tôi muốn nói "Cảm ơn Bạn" vì đã tiếp tục chọn Ford.<br /><br />Là thành viên gia đình Ford, chúng tôi tiếp tục gửi tới bạn không chỉ những tin tức mới nhất từ Ford, mà cả những ưu đãi dành cho Khách hàng trung thành với thương hiệu Ford.<br /><br />Và đừng quên tận hưởng bên chiếc Transit của bạn!'''
 
 	[[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''vn_edm1&4_np_newranger_20160801'''
+	image = '''vn_edm1&4_np_transit_20160801'''
 
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
@@ -41,17 +41,6 @@ color='black'
 	cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en'''
 	cta2_link_name = '''oa_android'''
 	image = '''vn_edm1a_ownerapp_20160801'''
-
- [[module]]
-path='email_modules/split/07'
-color='white'
-
-title='''Cho chiếc xe của bạn thêm nổi bật'''
-copy='''Hãy trang bị cho chiếc xe của bạn phụ kiện chính hãng từ Ford. Các phụ kiện của Ford được thiết kế theo tiêu chuẩn chất lượng cao và chuyên biệt, sẵn sàng nâng cấp chiếc xe của bạn lên tầm cao mới.'''
-cta1_text='''XEM CHI TIẾT PHỤ KIỆN'''
-cta1_url='''https://www.ford.com.vn/trucks/ranger/accessories/'''
-cta1_link_name = '''acc_ranger'''
-image='''vn_edm1a_Ranger_20170324'''
 
 [[module]] #Cover 05
 path='email_modules/cover/02'

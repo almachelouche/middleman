@@ -5,7 +5,7 @@ title = '''PH Repurchase 017 All'''
 [[module]]
 path='email_modules/preheader'
 
-	preheader = '''Ford is having its Year-End Sale! Which means it might be time to get yourself a brand new Ford before the year ends.'''
+	preheader = '''We hope you enjoy being a proud Ford owner just as much as we enjoy having you be a part of our Ford family!'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -27,7 +27,7 @@ path='email_modules/cover/02'
 color='''white''' 
 
 	title = '''GET A FORD BEFORE THE YEAR ENDS!'''
-	copy = '''Hello <%${user['FirstName']}%><br /><br />We hope you enjoy being a proud Ford owner just as much as we enjoy having you be a part of our Ford family!<br /><br />But if you’ve been considering an upgrade, this is the best time to get a brand new Ford. Starting this October, we are unveiling great deals for our Year-End Sale!<br /><br />Drive home in a brand new <b>EcoSport</b> for as low as <b>Php 48,000</b> all-in low down payment, or an <b>Everest</b>, the reliable family SUV for just <b>Php 88,000</b> all-in low down payment, or opt for Ford’s built tough <b>Ranger</b> for only <b>Php 68,000</b> all-in low down payment.<br /><br />So, hurry and visit your preferred Ford dealership before the year ends!'''
+	copy = '''Hello <%${user['FirstName']}%><br /><br />We hope you enjoy being a Ford owner just as much as we value you.<br /><br />But if you’re considering an upgrade, check out the great deals we’re unveiling for our Year-End Sale.<br /><br />Drive home in a brand new <b>EcoSport</b> for as low as <b>Php 48,000</b> all-in low down payment, or an <b>Everest</b>, the reliable family SUV for just <b>Php 88,000</b> all-in low down payment, or opt for Ford’s built tough <b>Ranger</b> for only <b>Php 68,000</b> all-in low down payment.<br /><br />So, hurry and visit your preferred Ford dealership before the year ends!'''
 	cta1_text = '''FIND OUT MORE'''
 	cta1_url = '''https://www.ford.com.ph/shopping/hot-deals/2017/hot-deal-2/'''
 	cta1_link_name = '''yes_campaign'''
