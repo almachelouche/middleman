@@ -27,27 +27,24 @@ path='email_modules/custom/enews_topstory'
 color='black'
 
 title = '''
-<span style="font-family:Tahoma, Verdana, Sans-serif">Raptor</span>
+<span style="font-family:Tahoma, Verdana, Sans-serif">คุณพร้อมสำหรับออฟโรดพันธุ์แกร่งหรือยัง</span>
 '''
 copy = '''
 <span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style="white-space:nowrap;"></span>
-<br />
-<span style="white-space:nowrap;"></span> 
-<br />
-<span style="white-space:nowrap;"></span> 
-<br />
-<span style="white-space:nowrap;"></span>
-<br />
-<span style="white-space:nowrap;"></span>
-<br />
-<span style="white-space:nowrap;"></span> 
-<br />
-<span style="white-space:nowrap;"></span>
+<span style="white-space:nowrap;">โลกของการขับออฟโรดกำลังจะหฤโหดขึ้นอีกเล็กน้อย</span>
+<br/>
+<span style="white-space:nowrap;">เรนเจอร์ แร็พเตอร์ กระบะออฟโรดประสิทธิภาพแกร่งใกล้จะพร้อมเปิดตัวแล้ว</span> 
+<br/>
+<span style="white-space:nowrap;">เรารู้ดีว่าคุณชื่นชอบใน <%${user.CustomAttribute['Model']}%></span>
+<br/>
+<span style="white-space:nowrap;">ของคุณ แต่เราคิดว่าคุณน่าจะได้เห็นรถรุ่นนี้ก่อน</span> 
+<br/>
+<br/>
+<span style="white-space:nowrap;">คลิกที่ลิงก์ด้านล่างเพื่อรับชมการทดสอบรถต้นแบบ</span>
 '''
-cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">WATCH NOW</span>'''
-	cta1_url = ''''''
-	cta1_link_name = ''''''
+cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ชมการทดสอบรถต้นแบบ</span>'''
+	cta1_url = '''https://www.ford.co.th/trucks/ranger/raptor/?intcmp=hp-none-brand-gallery#overlay/content/ford/th/th_th/ranger-content/video-overlays/raptor-videos/video1.html'''
+	cta1_link_name = '''raptor'''
 	cta1_icon = '''play'''
 
 [[module]] #Banner Image
