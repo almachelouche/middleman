@@ -1,6 +1,6 @@
 +++
 markets = ["in"]
-title = '''IN Service Reminder Regular Due/Pdue 020 Rest'''
+title = '''IN Service Reminder Regular Due/Pdue 021 Rest'''
 
 [[module]]
 path='email_modules/preheaderbefore'
@@ -38,7 +38,7 @@ segmentelseif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-  image = '''in_edm2_fordsvc_20170321'''
+image = '''in_edm2_fordsvc_20160801'''
     
 [[module]]
 path='email_modules/spacer/default'
@@ -55,10 +55,10 @@ segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
     
 [[module]]
 path='email_modules/singles/title'
-color='''white'''
+color='''white_ot'''
 segmentif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 
-	title = '''<span style="color:#FF6600;">Your service is now past due</span>'''    
+	title = '''Your service is now past due'''    
 
 [[module]]
 path='email_modules/spacer/default'
@@ -109,11 +109,15 @@ color='white'
   copy = '''VIN No: <% ${user.CustomAttribute['VIN']}%><br />Last reported service date: <%${user.CustomAttribute['Last_Reported_Service_Date']}%><br />Last reported mileage (Kms): <% ${user.CustomAttribute['Mileage']}%>'''
 
 [[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
+[[module]]
 path='email_modules/dual/05'
 color='white'
 
 	title1 = '''Service Price Promise'''
-	text_box_height = '''320'''
+	text_box_height = '''340'''
 	copy1 = '''Get an affordable service with Ford's Integrated Calculator. Be it scheduled maintenance, part change, or both; you can calculate the all-inclusive cost online, and pay the Ford dealer exactly what you see on the screen!'''
 	cta1a_text = '''CHECK SERVICE PRICE'''
 	cta1a_url = '''https://www.fordservicepricepromise.com/'''
@@ -131,11 +135,15 @@ color='white'
 	image2_link_name = '''safety_video_image'''
 
 [[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
+[[module]]
 path='email_modules/dual/05'
 color='white'
 
 	title1 = '''Motorcraft&#174; is Here'''
-	text_box_height = '''320'''
+	text_box_height = '''360'''
 	copy1 = '''Motorcraft&#174; parts are now available at Ford showrooms nationwide! Recommended by Ford, Motorcraft&#174; parts deliver exceptional value and uncompromising quality. Best of all, they’re designed specifically for your Ford vehicle. So next time you service your Ford EcoSport, ask about Motorcraft&#174; parts.'''
 	cta1a_text = '''LEARN MORE'''
 	cta1a_url = '''https://www.fordservicepricepromise.com/'''
@@ -144,7 +152,6 @@ color='white'
 	image1_link_url = '''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
 	image1_link_name = '''motorcraft_image'''
 	title2 = '''Service Price Promise'''
-	text_box_height = '''320'''
 	copy2 = '''Get an affordable service with Ford's Integrated Calculator. Be it scheduled maintenance, part change, or both; you can calculate the all-inclusive cost online, and pay the Ford dealer exactly what you see on the screen!'''
 	cta2a_text = '''CHECK SERVICE PRICE'''
 	cta2a_url = '''https://www.fordservicepricepromise.com/'''
@@ -152,7 +159,11 @@ color='white'
 	image2 = '''in_edm5_service_journey_20170927'''
 	image2_link_url = '''https://www.fordservicepricepromise.com/'''
 	image2_link_name = '''price_calculator_image'''
-    
+
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'    
+
 [[module]] #Cover 05
 path='email_modules/cover/02'
 color='''green_pb'''
