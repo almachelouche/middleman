@@ -195,17 +195,17 @@ color='white'
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
-segmentif = ["(user.CustomAttribute['EWStatus'] == 'NO')"]
 
-
-	text='''Second year factory warranty is applicable for all Ford vehicles manufactured after 1st January 2008.'''
+	text='''Content for Fly Audio only for Platinum Edition.'''
 
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
+segmentif = ["(user.CustomAttribute['EWStatus'] == 'NO')"]
 
-	text='''Content for Fly Audio only for Platinum Edition.'''
 
+	text='''Second year factory warranty is applicable for all Ford vehicles manufactured after 1st January 2008.'''
+    
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
 color='white'
