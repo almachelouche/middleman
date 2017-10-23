@@ -52,7 +52,7 @@ color='''white'''
 segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 
 	cta1_text = '''BOOK A SERVICE'''
-	cta1_url = '''http://www.gluyasford.nz/Page/4/aftersales-gluyasmotorgroup-ashburton?of=/Contact/BookService'''
+	cta1_url = '''http://www.gluyasford.nz/Page/4/aftersales-gluyasmotorgroup-ashburton?of=/Contact/BookService/'''
 	cta1_link_name = '''service_booking'''
     
 [[module]]
@@ -61,7 +61,7 @@ color='''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
 
 	cta1_text = '''BOOK A SERVICE'''
-	cta1_url = '''http://www.mckendryford.co.nz/Page/4/aftersales-mckendry-marlborough?of=/Contact/BookService'''
+	cta1_url = '''http://www.mckendryford.co.nz/Page/4/aftersales-mckendry-marlborough?of=/Contact/BookService/'''
 	cta1_link_name = '''service_booking'''
     
     
@@ -71,7 +71,7 @@ color='''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')"]
 
 	cta1_text = '''BOOK A SERVICE'''
-	cta1_url = '''http://www.stevensford.co.nz/Page/4/aftersales-stevensmotors-lowerhutt?of=/Contact/BookService'''
+	cta1_url = '''http://www.stevensford.co.nz/Page/4/aftersales-stevensmotors-lowerhutt?of=/Contact/BookService/'''
 	cta1_link_name = '''service_booking'''
     
 
