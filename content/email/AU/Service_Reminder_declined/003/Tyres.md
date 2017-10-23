@@ -6,7 +6,7 @@ title = '''AU Yellow-Flag 011 Tyres'''
 path='email_modules/preheader'
 
 
-	preheader='''Get your brakes factory-fitted by a Ford technician.'''
+	preheader='''Hi <%${user.CustomAttribute['FullName']}%>. When you last serviced your Ford <%${user.CustomAttribute['Model']}%> with us.'''
 
 
 [[module]] #Banner Image No Link
