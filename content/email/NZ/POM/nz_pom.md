@@ -65,6 +65,15 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
 	cta1_link_name = '''service_booking'''
     
     
+[[module]]
+path='email_modules/singles/ctablock'
+color='''white'''
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')"]
+
+	cta1_text = '''BOOK A SERVICE'''
+	cta1_url = '''http://www.stevensford.co.nz/Page/4/aftersales-stevensmotors-lowerhutt?of=/Contact/BookService'''
+	cta1_link_name = '''service_booking'''
+    
 
 [[module]] #Footer NZ Social
 path='email_modules/footer/nz/social'
