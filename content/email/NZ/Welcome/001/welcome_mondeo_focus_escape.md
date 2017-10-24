@@ -7,14 +7,14 @@ path='email_modules/preheaderbefore'
 
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
-	preheader='''Dear <%${user.CustomAttribute['FullName']}%>, thank you for again choosing Ford.'''
+	preheader='''Hi <%${user.CustomAttribute['FullName']}%>, thank you for again choosing Ford.'''
 
 [[module]]
 path='email_modules/preheaderbefore'
 
 segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 
-	preheader='''Dear <%${user.CustomAttribute['FullName']}%>, welcome to the Ford Family.'''
+	preheader='''Hi <%${user.CustomAttribute['FullName']}%>, welcome to the Ford Family.'''
  
  
 [[module]]
@@ -63,14 +63,14 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
-	copy='''Dear <%${user.CustomAttribute['FullName']}%><br /><br />Thank you for again choosing Ford. We hope you are enjoying the experience of being part of the Ford family with your new <%${user.CustomAttribute['Model']}%>.<br /><br />'''
+	copy='''Hi <%${user.CustomAttribute['FullName']}%><br /><br />Thank you for again choosing Ford. We hope you are enjoying the experience of being part of the Ford family with your new <%${user.CustomAttribute['Model']}%>.<br /><br />'''
 
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 
-    copy='''Dear <%${user.CustomAttribute['FullName']}%><br /><br />Welcome to the Ford Family. We would like to thank you for choosing Ford and hope that you are enjoying the experience.<br /><br />'''
+    copy='''Hi <%${user.CustomAttribute['FullName']}%><br /><br />Welcome to the Ford Family. We would like to thank you for choosing Ford and hope that you are enjoying the experience.<br /><br />'''
 
 [[module]]
 path='email_modules/singles/copy'

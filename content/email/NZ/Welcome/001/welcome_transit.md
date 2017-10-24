@@ -7,14 +7,14 @@ path='email_modules/preheaderbefore'
 
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
-	preheader='''Dear <%${user.CustomAttribute['FullName']}%>, thank you for again choosing Ford.'''
+	preheader='''Hi <%${user.CustomAttribute['FullName']}%>, thank you for again choosing Ford.'''
 
 [[module]]
 path='email_modules/preheaderbefore'
 
 segmentelse = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 
-	preheader='''Dear <%${user.CustomAttribute['FullName']}%>, welcome to the Ford Family.'''
+	preheader='''Hi <%${user.CustomAttribute['FullName']}%>, welcome to the Ford Family.'''
 
 [[module]]
 path='email_modules/body'
@@ -23,7 +23,7 @@ path='email_modules/body'
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['MODEL'] == 'V362 Transit')"]
+segmentif = ["(user.CustomAttribute['MODEL'] == 'Transit Custom')"]
     
     image='''nz_edm1_transit_custom_20170612'''
  	url_link='''https://www.ford.co.nz/'''
@@ -60,14 +60,14 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'R')"]
 
-	copy='''Dear <%${user.CustomAttribute['FullName']}%><br /><br />Thank you for again choosing Ford. We hope you are enjoying the experience of being part of the Ford family with your new Transit.<br/><br />'''
+	copy='''Hi <%${user.CustomAttribute['FullName']}%><br /><br />Thank you for again choosing Ford. We hope you are enjoying the experience of being part of the Ford family with your new Transit.<br/><br />'''
 
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['NewRepeat'] == 'N')"]
 
-    copy='''Dear <%${user.CustomAttribute['FullName']}%><br /><br />Welcome to the Ford Family. We would like to thank you for choosing Ford and hope that you are enjoying the experience.<br /><br />'''
+    copy='''Hi <%${user.CustomAttribute['FullName']}%><br /><br />Welcome to the Ford Family. We would like to thank you for choosing Ford and hope that you are enjoying the experience.<br /><br />'''
 
 [[module]]
 path='email_modules/singles/copy'
