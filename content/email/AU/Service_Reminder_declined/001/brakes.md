@@ -27,7 +27,7 @@ path='email_modules/cover/02'
 color='''white'''
 
 	title='''Reminder: Your Brakes May Need Attention'''
-	copy='''Hi <%${user.CustomAttribute['FullName']}%><br /><br />When you last serviced your Ford <%${user.CustomAttribute['Model']}%> with us, our technician filled out a Vehicle Report Card. Your brakes were flagged as yellow, meaning they may require replacement before your next scheduled service.<br /><br />We know you are not yet due for a scheduled service, however it has been 6 months or more since we last checked your vehicle. If you would like your brakes inspected for peace of mind in the interim, please call <%${user.CustomAttribute['Dealer_Name']}%> on <%${user.CustomAttribute['Dealer_Phone']}%> to book an appointment. '''
+	copy='''Hi <%${user.CustomAttribute['FullName']}%><br /><br />When you last serviced your Ford <%${user.CustomAttribute['Model']}%> with us, our technician completed a Vehicle Report Card. Your brakes were flagged as yellow, meaning they may require replacement before your next scheduled service.<br /><br />We know you are not yet due for a scheduled service, however - if you would like your brakes inspected for peace of mind in the interim, please call <%${user.CustomAttribute['Dealer_Name']}%> on <%${user.CustomAttribute['Dealer_Phone']}%> to book an appointment. '''
 	cta1_text='''BOOK A SERVICE'''
 	cta1_url='''https://consumer.xtime.net.au/scheduling/?company=14745&store=#DealerCode#&VIN=#VIN#&provider=FORD_AU_THE_BLUE_HIVE&keyword=#Campaign_ID#&dest=&extid=#Campaign_ID#&extctxt=FORD_AU_THE_BLUE_HIVE&cfn=#FirstName#&cln=#LastName#&cpn=#CustomerPhoneT#&cem=#EmailAddr#'''
 	cta1_link_name = '''link_name_here'''
