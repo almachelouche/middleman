@@ -76,7 +76,7 @@ color='white'
 	text = '''DISCLAIMERS 
 				<br /> <br />
 				1. Conditions and exclusions apply. For more information, see <a href="http://www.ford.com.au/ownership/genuine-parts" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/ownership/genuine-parts</a><br /><br />
-				2. Available at participating Ford Dealers. Excludes Everest, Mustang, Focus RS, F-Series, FPV, ST, XR5 and Transit models. Customers will pay equal to or less than the current maximum price as published by Ford at <a href="http://www.ford.com.au/owners/service/brakes" style="text-decoration:underline; color:#91a4b1">ford.com.au/service/t-and-c</a>. Maximum prices are subject to change. See<a href="http://www.ford.com.au/service/brakes" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/service/t-and-c</a> for full terms.<br /><br />'''
+				2. Available at participating Ford Dealers. Excludes Everest, Mustang, Focus RS, F-Series, FPV, ST, XR5 and Transit models. Customers will pay equal to or less than the current maximum price as published by Ford at <a href="http://www.forßd.com.au/owners/service/brakes" style="text-decoration:underline; color:#91a4b1">ford.com.au/service/t-and-c</a>. Maximum prices are subject to change. See<a href="http://www.ford.com.au/service/brakes" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/service/t-and-c</a> for full terms.<br /><br />'''
 
 
 [[module]] #Footer AU Online
