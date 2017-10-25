@@ -1,6 +1,6 @@
 +++
 markets = ["in"]
-title = '''IN Service Reminder Regular Lost Customer 021 all Motorcraft'''
+title = '''IN Service Reminder Regular Lost Customer 021 Motorcraft'''
 
 [[module]]
 path='email_modules/preheader'
@@ -103,7 +103,7 @@ segmentif = ["(user.CustomAttribute['ModelMerge'] == 'EcoSport 2 yrs Plus owners
 	cta2a_text = '''CHECK SERVICE PRICE'''
 	cta2a_url = '''https://www.fordservicepricepromise.com/'''
 	cta2a_link_name = '''spp'''
-	image2 = '''in_edm5_service_journey_20170927'''
+	image2 = '''in_edm2_spp_20171026'''
 	image2_link_url = '''https://www.fordservicepricepromise.com/'''
 	image2_link_name = '''spp_image'''
 
@@ -126,7 +126,7 @@ segmentelseif = ["(user.CustomAttribute['ModelMerge'] == 'All Model')"]
 	cta2a_text = '''CHECK HOW AFFORDABLE'''
 	cta2a_url = '''https://www.india.ford.com/surprisingly-affordable/'''
 	cta2a_link_name = '''surprisingly_affordable'''
-	image2 = '''in_edm6_safety_tvc_20170927'''
+	image2 = '''in_edm2_ford_parts_20171026'''
 	image2_link_url = '''https://www.india.ford.com/surprisingly-affordable/'''
 	image2_link_name = '''surprisingly_affordable_image'''
 
