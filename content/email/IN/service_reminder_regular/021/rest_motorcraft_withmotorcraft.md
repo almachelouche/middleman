@@ -71,14 +71,14 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
 
-	copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Long time, no see! Your Ford <%${user.CustomAttribute['Model']}%> is due for service, and our experts can't wait to make sure it's running at its absolute best.<br /><br />Your next service is due on: <% ${user.CustomAttribute['NextServiceDate']} %> '''
+	copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Long time, no see! Your Ford <%${user.CustomAttribute['Model']}%> is due for service, and our experts can't wait to make sure it's running at its absolute best.<br /><br />Your next service is due on: <% ${user.CustomAttribute['NextServiceDate']} %><br /><br />Too busy to visit a service centre? No problem. We'll pick up your vehicle from your home, and return it to you when service is done.'''
     
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 
-	copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.<br /><br />We've got your back. Contact us today and continue to enjoy carefree driving.'''    
+	copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.<br /><br />Too busy to visit a service centre? No problem. We'll pick up your vehicle from your home, and return it to you when service is done.<br /><br />We've got your back. Contact us today and continue to enjoy carefree driving.'''    
 
 [[module]]
 path='email_modules/spacer/default'
@@ -115,6 +115,7 @@ color='white'
 [[module]]
 path='email_modules/dual/05'
 color='white'
+segmentif = ["(user.CustomAttribute['ModelMerge'] == 'EcoSport 2 yrs Plus owners')"]
 
 	title1 = '''Motorcraft&#174; is Here'''
 	text_box_height = '''360'''
@@ -135,12 +136,9 @@ color='white'
 	image2_link_name = '''spp_image'''
 
 [[module]]
-path='email_modules/spacer/platinum_20'
-color='white'
-
-[[module]]
 path='email_modules/dual/05'
 color='white'
+segmentelseif = ["(user.CustomAttribute['ModelMerge'] == 'All Model')"]
 
 	title1 = '''Service Price Promise'''
 	text_box_height = '''340'''
