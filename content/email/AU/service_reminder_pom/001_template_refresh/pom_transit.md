@@ -111,7 +111,7 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 	text = '''DISCLAIMERS:<br /><br />
-				1) ‘Peace of Mind' Service Inspection expires after 5,000km's or 4 months after delivery of your new Ford (whichever is first).<br /><br /> '''
+				1) 'Peace of Mind' Service Inspection expires after 5,000km's or 4 months after delivery of your new Ford (whichever is first).<br /><br /> '''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
