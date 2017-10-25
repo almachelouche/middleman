@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU Yellow-Flag 011 Tyres'''
+title = '''AU Yellow-Flag 011 Brakes'''
 
 [[module]]
 path='email_modules/preheader'
@@ -20,10 +20,10 @@ color = '''white'''
 path='email_modules/cover/02'
 color='''white'''
 
-	title='''Reminder: Your Tyres May Need Attention'''
+	title='''Reminder: Your Brakes May Need Attention'''
 	copy='''Hi <%${user.CustomAttribute['FullName']}%><br /><br />
-    When you last serviced your Ford <%${user.CustomAttribute['Model']}%> with us, our technician completed a Vehicle Report Card. Your tyres were flagged as yellow, meaning they may require replacement before your next scheduled service. <br /><br />
-    We know you are not yet due for a scheduled service, however if you would like your tyres checked for peace of mind in the interim, please call <%${user.CustomAttribute['Dealer_Name']}%> Ford on <%${user.CustomAttribute['Dealer_Phone']}%> to book an inspection.
+    When you last serviced your Ford <%${user.CustomAttribute['Model']}%> with us, our technician completed a Vehicle Report Card. Your brakes were flagged as yellow, meaning they may require replacement before your next scheduled service. <br /><br />
+    We know you are not yet due for a scheduled service, however if you would like your brakes checked for peace of mind in the interim, please call <%${user.CustomAttribute['Dealer_Name']}%> Ford on <%${user.CustomAttribute['Dealer_Phone']}%> to book an inspection.
     '''
     
 	
@@ -32,7 +32,7 @@ path='email_modules/singles/ctablock'
 color='''white'''
 segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
 
-	cta1_text = '''BOOK A TYRE INSPECTION'''
+	cta1_text = '''BOOK A BRAKES INSPECTION'''
 	cta1_url = '''https://consumer.xtime.net.au/scheduling/?company=14745&store=<%${user.CustomAttribute['DealerCode']}%>&VIN=<%${user.CustomAttribute['VIN']}%>&provider=FORD_AU_THE_BLUE_HIVE&keyword=<%${user.CustomAttribute['CampaignID']}%>&dest=&extid=<%${user.CustomAttribute['CampaignID']}%>&extctxt=FORD_AU_THE_BLUE_HIVE&cfn=<%${user.CustomAttribute['FullName']}%>&cln=<%${user['LastName']}%>&cpn=<%${user.CustomAttribute['Mobile_Phone']}%>&cem=<%${user.CustomAttribute['RealEmail']}%>&button=blue'''
 	cta1_link_name = '''service_booking'''
 
@@ -40,27 +40,17 @@ segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
 path='email_modules/custom/svcstatus'
 color='darkblue_au'
 
-	toptitle='''Your current tyres status'''
+	toptitle='''Your current brakes status'''
 	icon1='''au_edm2d_brake1_20170417'''
 	title1='''Good <br />to go<br />'''
-	copy1='''<br /><br />Tyre Tread: <br />Above 4mm'''
+	copy1='''<br /><br />Brake Lining: <br />Over 5mm (Disc) <br />or over 2mm (Drum)'''
 	icon2='''au_edm2d_brake3_20170417'''
 	title2='''May need replacing <br />before next service<br /> '''
-	copy2='''Tyre Tread:<br /> 3mm to 4mm '''
+	copy2='''Brake Lining:<br /> 3mm to 5mm (Disc)<br /> or 1.01 to 2mm (Drum) '''
 	icon3='''au_edm2d_brake2_20170417'''
 	title3='''Replace <br />immediately <br /> '''
-	copy3='''<br /><br />Tyre Tread:<br /> Less than 3mm'''
+	copy3='''<br /><br />Brake Lining:<br /> Less than 3mm (Disc) <br />or less than 1mm (Drum)'''
 
-[[module]] #Cover 01
-path='email_modules/cover/01'
-color='white'
-
-	title = '''Did you know Ford sells tyres?'''
-	copy = '''You can trust your Ford dealer to not only fit new tyres perfectly, but also offer you major brands at great prices. There's no need to shop around with Ford's Low Price Tyre Guarantee&#185; – we'll match competitors' prices on selected tyres we stock&#185;.'''
-	cta1_url = '''https://www.ford.com.au/owners/service/tyres/'''
-	cta1_text = '''FIND OUT MORE'''
-	cta1_icon = '''more'''
-	cta1_link_name = '''more1'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
