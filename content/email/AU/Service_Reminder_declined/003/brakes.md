@@ -13,7 +13,7 @@ path='email_modules/preheader'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image='''AU_edm2_declined_20171011'''
+	image='''au_edm2d_brake_20161114'''
 
 
 [[module]] #Cover 07
@@ -56,7 +56,7 @@ color='darkblue_au'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image='''au_edm2_declined_service_tyres_18102017'''
+	image='''au_edm2d_brake2_20161114'''
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
