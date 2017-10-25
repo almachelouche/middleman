@@ -22,10 +22,10 @@ color='''white'''
 
 	title='''Reminder: Your Tyres May Need Attention'''
 	copy='''Hi <%${user.CustomAttribute['FullName']}%><br /><br />
-    When you last serviced your Ford <%${user.CustomAttribute['Model']}%> with us, our technician filled out a Vehicle Report Card. Your tyres were flagged as yellow, meaning they may require replacement before your next scheduled service. 
- 
+    When you last serviced your Ford <%${user.CustomAttribute['Model']}%> with us, our technician completed a Vehicle Report Card. Your tyres were flagged as yellow, meaning they may require replacement before your next scheduled service. <br /><br />
     We know you are not yet due for a scheduled service, however - if you would like your tyres checked for peace of mind in the interim, please call <%${user.CustomAttribute['Dealer_Name']}%> Ford on <%${user.CustomAttribute['Dealer_Phone']}%> to book an inspection.
     '''
+    
 	
 [[module]]
 path='email_modules/singles/ctablock'
