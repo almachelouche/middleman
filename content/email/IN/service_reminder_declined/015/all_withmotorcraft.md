@@ -38,7 +38,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''We noticed that you declined an important part of your servicing at your last appointment. That's got us worried.<br /><br />When you come into a Ford service centre, you're putting your vehicle into the best hands possible. Our trained technicians know the specifics of your Ford vehicle and only use genuine Ford parts.<br /><br />As part of the Ford family, we've got your back. Visit us at a Ford dealer soon. '''
+	copy = '''We noticed that you declined an important part of your servicing at your last appointment. That's got us worried.<br /><br />When you come into a Ford service centre, you're putting your vehicle into the best hands possible. Our trained technicians know the specifics of your Ford vehicle and only use Ford Genuine Parts.<br /><br />Too busy to visit a service centre? No problem. We'll pick up your vehicle from your home, and return it to you when service is done.<br /><br />As part of the Ford family, we've got your back. Visit us at a Ford dealer soon. '''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -173,7 +173,7 @@ color='white'
 	
     title2 = '''Ford Genuine Parts'''
     text_box_height = '''340'''
-	copy2 = '''Don't take chances with your family's safety. Fake parts have no guarantees, whereas Ford ensures that our parts meet every quality standard, and work together to give the best results. So, stick to Ford genuine parts from authorised Service Centers, and drive your car without any worries.'''
+	copy2 = '''Fake parts have no guarantees, whereas Ford ensures that our parts meet every quality standard, and work together to give the best results. With Ford Genuine Parts—available at authorised Ford service centres-you can drive without any worries'''
 	cta2a_text = '''CHECK HOW AFFORDABLE'''
 	cta2a_url = '''https://www.india.ford.com/surprisingly-affordable/'''
 	cta2a_link_name = '''surprisingly_affordable'''

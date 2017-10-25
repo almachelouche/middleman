@@ -71,14 +71,14 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
 
-	copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Long time, no see! Your Ford <%${user.CustomAttribute['Model']}%> is due for service, and our experts can't wait to make sure it's running at its absolute best.<br /><br />Your next service is due on: <% ${user.CustomAttribute['NextServiceDate']} %> '''
+	copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Long time, no see! Your Ford <%${user.CustomAttribute['Model']}%> is due for service, and our experts can't wait to make sure it's running at its absolute best.<br /><br />Your next service is due on: <% ${user.CustomAttribute['NextServiceDate']} %><br /><br />Too busy to visit a service centre? No problem. We'll pick up your vehicle from your home, and return it to you when service is done.'''
     
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 
-	copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.<br /><br />We've got your back. Contact us today and continue to enjoy carefree driving.'''    
+	copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.<br /><br />Too busy to visit a service centre? No problem. We'll pick up your vehicle from your home, and return it to you when service is done.<br /><br />We've got your back. Contact us today and continue to enjoy carefree driving.'''    
 
 [[module]]
 path='email_modules/spacer/default'
@@ -115,50 +115,48 @@ color='white'
 [[module]]
 path='email_modules/dual/05'
 color='white'
-
-	title1 = '''Service Price Promise'''
-	text_box_height = '''340'''
-	copy1 = '''Get an affordable service with Ford's Integrated Calculator. Be it scheduled maintenance, part change, or both; you can calculate the all-inclusive cost online, and pay the Ford dealer exactly what you see on the screen!'''
-	cta1a_text = '''CHECK SERVICE PRICE'''
-	cta1a_url = '''https://www.fordservicepricepromise.com/'''
-	cta1a_link_name = '''price_calculator'''
-	image1 = '''in_edm5_service_journey_20170927'''
-	image1_link_url = '''https://www.youtube.com/watch?v=EpUVjpuhxEE&t=133s/'''
-	image1_link_name = '''service_journey_image'''
-	title2 = '''Ford Genuine Parts'''
-	copy2 = '''Don't take chances with your family's safety. Fake parts have no guarantees, whereas Ford ensures that our parts meet every quality standard, and work together to give the best results. So, stick to Ford genuine parts from authorised Service Centers, and drive your car without any worries.'''
-	cta2a_text = '''CHECK HOW AFFORDABLE'''
-	cta2a_url = '''https://www.india.ford.com/surprisingly-affordable/'''
-	cta2a_link_name = '''surprisingly_affordable'''
-	image2 = '''in_edm6_safety_tvc_20170927'''
-	image2_link_url = '''https://www.youtube.com/watch?v=oLJOVLqzHys'''
-	image2_link_name = '''safety_video_image'''
-
-[[module]]
-path='email_modules/spacer/platinum_20'
-color='white'
-
-[[module]]
-path='email_modules/dual/05'
-color='white'
+segmentif = ["(user.CustomAttribute['ModelMerge'] == 'EcoSport 2 yrs Plus owners')"]
 
 	title1 = '''Motorcraft&#174; is Here'''
 	text_box_height = '''360'''
-	copy1 = '''Motorcraft&#174; parts are now available at Ford showrooms nationwide! Recommended by Ford, Motorcraft&#174; parts deliver exceptional value and uncompromising quality. Best of all, they’re designed specifically for your Ford vehicle. So next time you service your Ford EcoSport, ask about Motorcraft&#174; parts.'''
+	copy1 = '''Motorcraft&#174; parts are now available at Ford showrooms nationwide! Backed by Ford, Motorcraft&#174; parts deliver exceptional value and uncompromising quality. Ask us about Motorcraft&#174; parts next time you service your EcoSport.'''
 	cta1a_text = '''LEARN MORE'''
-	cta1a_url = '''https://www.fordservicepricepromise.com/'''
+	cta1a_url = '''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
 	cta1a_link_name = '''motorcraft'''
-	image1 = '''in_edm5_service_journey_20170927'''
+	image1 = '''in_edm2_spp_20171026'''
 	image1_link_url = '''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
 	image1_link_name = '''motorcraft_image'''
 	title2 = '''Service Price Promise'''
 	copy2 = '''Get an affordable service with Ford's Integrated Calculator. Be it scheduled maintenance, part change, or both; you can calculate the all-inclusive cost online, and pay the Ford dealer exactly what you see on the screen!'''
 	cta2a_text = '''CHECK SERVICE PRICE'''
 	cta2a_url = '''https://www.fordservicepricepromise.com/'''
-	cta2a_link_name = '''price_calculator'''
+	cta2a_link_name = '''spp'''
 	image2 = '''in_edm5_service_journey_20170927'''
 	image2_link_url = '''https://www.fordservicepricepromise.com/'''
-	image2_link_name = '''price_calculator_image'''
+	image2_link_name = '''spp_image'''
+
+[[module]]
+path='email_modules/dual/05'
+color='white'
+segmentelseif = ["(user.CustomAttribute['ModelMerge'] == 'All Model')"]
+
+	title1 = '''Service Price Promise'''
+	text_box_height = '''340'''
+	copy1 = '''Get an affordable service with Ford's Integrated Calculator. Be it scheduled maintenance, part change, or both; you can calculate the all-inclusive cost online, and pay the Ford dealer exactly what you see on the screen!'''
+	cta1a_text = '''CHECK SERVICE PRICE'''
+	cta1a_url = '''https://www.fordservicepricepromise.com/'''
+	cta1a_link_name = '''spp'''
+	image1 = '''in_edm2_spp_20171026'''
+	image1_link_url = '''https://www.fordservicepricepromise.com/'''
+	image1_link_name = '''spp_image'''
+	title2 = '''Ford Genuine Parts'''
+	copy2 = '''Don't take chances with your family's safety. Ford Genuine Parts are designed specifically for your Ford vehicle, to ensure it always performs like new. So stick with Ford Genuine Parts, available at Ford service centres nationwide.'''
+	cta2a_text = '''CHECK HOW AFFORDABLE'''
+	cta2a_url = '''https://www.india.ford.com/surprisingly-affordable/'''
+	cta2a_link_name = '''surprisingly_affordable'''
+	image2 = '''in_edm6_safety_tvc_20170927'''
+	image2_link_url = '''https://www.india.ford.com/surprisingly-affordable/'''
+	image2_link_name = '''surprisingly_affordable_image'''
 
 [[module]]
 path='email_modules/spacer/platinum_20'
