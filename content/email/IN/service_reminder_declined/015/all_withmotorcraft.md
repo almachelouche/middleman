@@ -120,7 +120,7 @@ color='white'
 path='email_modules/image/banner'
 color='white'
 
-	image='''in_edm6_motorcrafts_20170830'''
+	image='''in_edm2_motorcraft_brake_20171026'''
 	url_link='''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
 	url_link_name='''motorcraft_image'''
     
