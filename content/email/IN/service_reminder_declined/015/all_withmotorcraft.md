@@ -119,7 +119,7 @@ color='white'
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['Tyre'] == 'R')"]
+segmentif = ["(user.CustomAttribute['Brake'] == 'R')"]
 
 	image='''in_edm2_motorcraft_brake_20171026'''
 	url_link='''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
@@ -128,7 +128,7 @@ segmentif = ["(user.CustomAttribute['Tyre'] == 'R')"]
 [[module]]
 path='email_modules/cover/master'
 color='''white'''
-segmentif = ["(user.CustomAttribute['Tyre'] == 'R')"]
+segmentif = ["(user.CustomAttribute['Brake'] == 'R')"]
 
 	icon=''''''
 	title='''Brake with confidence'''
