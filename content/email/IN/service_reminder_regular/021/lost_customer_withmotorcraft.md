@@ -90,12 +90,12 @@ color='white'
 segmentif = ["(user.CustomAttribute['ModelMerge'] == 'EcoSport 2 yrs Plus owners')"]
 
 	title1 = '''Motorcraft&#174; is Here'''
-	text_box_height = '''360'''
+	text_box_height = '''370'''
 	copy1 = '''Motorcraft&#174; parts are now available at Ford showrooms nationwide! Backed by Ford, Motorcraft&#174; parts deliver exceptional value and uncompromising quality. Ask us about Motorcraft&#174; parts next time you service your EcoSport.'''
 	cta1a_text = '''LEARN MORE'''
 	cta1a_url = '''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
 	cta1a_link_name = '''motorcraft'''
-	image1 = '''in_edm2_spp_20171026'''
+	image1 = '''in_edm2_motorcraft_20171026'''
 	image1_link_url = '''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
 	image1_link_name = '''motorcraft_image'''
 	title2 = '''Service Price Promise'''
@@ -113,7 +113,7 @@ color='white'
 segmentelseif = ["(user.CustomAttribute['ModelMerge'] == 'All Model')"]
 
 	title1 = '''Service Price Promise'''
-	text_box_height = '''340'''
+	text_box_height = '''370'''
 	copy1 = '''Get an affordable service with Ford's Integrated Calculator. Be it scheduled maintenance, part change, or both; you can calculate the all-inclusive cost online, and pay the Ford dealer exactly what you see on the screen!'''
 	cta1a_text = '''CHECK SERVICE PRICE'''
 	cta1a_url = '''https://www.fordservicepricepromise.com/'''
@@ -129,7 +129,7 @@ segmentelseif = ["(user.CustomAttribute['ModelMerge'] == 'All Model')"]
 	image2 = '''in_edm2_ford_parts_20171026'''
 	image2_link_url = '''https://www.india.ford.com/surprisingly-affordable/'''
 	image2_link_name = '''surprisingly_affordable_image'''
-
+    
 [[module]]
 path='email_modules/spacer/platinum_20'
 color='white'    
