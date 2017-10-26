@@ -123,44 +123,25 @@ color='white'
 	image='''in_edm2_motorcraft_brake_20171026'''
 	url_link='''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
 	url_link_name='''motorcraft_image'''
-    
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30" 
 
 [[module]]
-path='email_modules/singles/title'
+path='email_modules/cover/master'
 color='''white'''
+segmentif = ["user.CustomAttribute['Tyre'] == 'R')"]
 
-	title = '''Brake with confidence'''
+	icon=''''''
+	title='''Brake with confidence'''
+	copy='''When it's time for a brake change, you can rely on Motorcraft&#174; brake parts. Recommended by Ford, Motorcraft&#174; parts deliver high-quality performance at a competitive price.'''
+	copy_align=''
 
-[[module]]
-path='email_modules/spacer/default'
-color='white'
+	cta_direction = '''vertical'''
 
-	height="30" 
-
-[[module]]
-path='email_modules/singles/copy'
-color='''white'''
-
-	copy = '''When it's time for a brake change, you can rely on Motorcraft&#174; brake parts. Recommended by Ford, Motorcraft&#174; parts deliver high-quality performance at a competitive price.'''    
-
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30" 
-
-[[module]]
-path='email_modules/singles/ctablock'
-color='''white'''
-
-	cta1_text = '''FIND OUT MORE'''
-	cta1_url = '''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
-	cta1_link_name = '''motorcraft_Brake'''
+	cta_1_copy = '''FIND OUT MORE'''
+	cta_1_link_url = '''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
+	cta_1_link_name = '''motorcraft_Brake'''
+	cta_1_icon = ''''''
+	cta_1_type = '''block'''
+	cta_1_width = ''''''
 
 [[module]]
 path='email_modules/spacer/platinum_20'
@@ -169,7 +150,6 @@ color='white'
 [[module]]
 path='email_modules/dual/05'
 color='white'
-
 	
     title2 = '''Ford Genuine Parts'''
     text_box_height = '''370'''
@@ -186,7 +166,7 @@ color='white'
 	cta1a_url = '''https://www.fordservicepricepromise.com/'''
 	cta1a_link_name = '''spp'''
 	image1 = '''in_edm2_spp_20171026'''
-	image1_link_url = '''https://www.youtube.com/watch?v=EpUVjpuhxEE&t=133s/'''
+	image1_link_url = '''https://www.fordservicepricepromise.com/'''
 	image1_link_name = '''spp_image'''
 
 [[module]] #Footer 4 Icons

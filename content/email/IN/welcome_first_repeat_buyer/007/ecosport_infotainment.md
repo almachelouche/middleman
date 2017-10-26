@@ -82,6 +82,7 @@ color='white'
 [[module]]
 path='email_modules/cover/01'
 color='white'
+segmentif = ["(user.CustomAttribute['ModelMerge'] == 'EcoSport Titanium')"]
 
 	icon=''''''
 	title='''Touchscreen Infotainment System'''
