@@ -5,7 +5,7 @@ title = '''NZ POM 001 '''
 [[module]]
 path='email_modules/preheader'
 
-	preheader='''Hi <%${user.CustomAttribute['FullName']}%>,<br/><br/>Here's a quick reminder that your new <%${user.CustomAttribute['Model']}%> is due for its complimentary 2-month/3,000 km Peace Of Mind Service Inspection.'''
+		preheader='''Hi <%${user.CustomAttribute['FullName']}%>,<br/><br/>Here's a quick reminder that your new <%${user.CustomAttribute['Model']}%> is due for its complimentary 2-month/3,000 km Peace Of Mind Service Inspection.'''
     
     
 [[module]]
@@ -52,7 +52,7 @@ color='''white'''
 segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 
 	cta1_text = '''BOOK A SERVICE'''
-	cta1_url = '''http://www.gluyasford.nz/Page/4/aftersales-gluyasmotorgroup-ashburton?of=/Contact/BookService'''
+	cta1_url = '''http://www.gluyasford.nz/Page/4/aftersales-gluyasmotorgroup-ashburton?of=/Contact/BookService/'''
 	cta1_link_name = '''service_booking'''
     
 [[module]]
@@ -61,9 +61,18 @@ color='''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
 
 	cta1_text = '''BOOK A SERVICE'''
-	cta1_url = '''http://www.mckendryford.co.nz/Page/4/aftersales-mckendry-marlborough?of=/Contact/BookService'''
+	cta1_url = '''http://www.mckendryford.co.nz/Page/4/aftersales-mckendry-marlborough?of=/Contact/BookService/'''
 	cta1_link_name = '''service_booking'''
     
+    
+[[module]]
+path='email_modules/singles/ctablock'
+color='''white'''
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'C')"]
+
+	cta1_text = '''BOOK A SERVICE'''
+	cta1_url = '''http://www.stevensford.co.nz/Page/4/aftersales-stevensmotors-lowerhutt?of=/Contact/BookService/'''
+	cta1_link_name = '''service_booking'''
     
 
 [[module]] #Footer NZ Social

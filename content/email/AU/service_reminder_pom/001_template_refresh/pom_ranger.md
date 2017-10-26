@@ -78,12 +78,12 @@ color='white'
 	text_box_height = '''260'''
 	copy1 = '''Tackle deep-water crossings and dusty roads with Ranger's high-strength, durable, UV-resistant polyethylene snorkel.'''
 	image1 = '''au_edm2_ranger_accessories1_20170629'''
-	image1_link_url = '''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
+	image1_link_url = '''https://www.ford.com.au/commercial/ranger/smart-accessories.html#air_intake_snorkel'''
 	image1_link_name = '''link_name_here'''
 	title2 = '''Smart Tonneau Cover&#179;'''
 	copy2 = '''This UV-resistant soft tonneau cover helps protect your equipment from rain and dust, without drilling fitments, exposed straps or cotton reels.'''
 	image2 = '''au_edm2_ranger_accessories2_20170629'''
-	image2_link_url = '''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
+	image2_link_url = '''https://www.ford.com.au/commercial/ranger/smart-accessories.html#smart_tonneau_cover'''
 	image2_link_name = '''link_name_here'''
 
 [[module]]
@@ -98,12 +98,12 @@ color='white'
 	text_box_height = '''260'''
 	copy1 = '''Protect the front of your bonnet from stones, bugs and other small objects with our tough, durable, UV-resistant bonnet protector.'''
 	image1 = '''au_edm2_ranger_accessories3_20170629'''
-	image1_link_url = '''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
+	image1_link_url = '''https://www.ford.com.au/commercial/ranger/smart-accessories.html#serious_bonnet_protection'''
 	image1_link_name = '''link_name_here'''
 	title2 = '''Fully Loaded Tow Pack&#8308;'''
 	copy2 = '''The comprehensive Ford Tow Pack perfectly pairs with Ranger's Dynamic Stability Control technology for next-level towing.'''
 	image2 = '''au_edm2_ranger_accessories4_20170629'''
-	image2_link_url = '''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
+	image2_link_url = '''https://www.ford.com.au/commercial/ranger/smart-accessories.html#fully_loaded_tow_pack'''
 	image2_link_name = '''link_name_here'''
 
 [[module]]
@@ -136,9 +136,9 @@ color='white'
 	text = '''DISCLAIMERS:<br /><br />
 
 1) 'Peace of Mind' Service Inspection expires after 5,000km's or 4 months after delivery of your new Ford (whichever is first).<br /><br />
-2） 800mm water wading available on 4x2 Hi-Rider and 4x4 models only. Achieve when maintain a steady speed of 7kms/hr.<br /><br />
-3） This accessory is a Supplier Branded Accessory and is not manufactured or Warranted by Ford. The warranty is provided by the manufacturer. Contact your authorized Ford dealer for details of the accessory manufacturer’s warranty applicable to this accessory.<br /><br />
-4） Braked towing capacity when fitted with a Genuine Ford Tow pack and accessory Tow Ball, subject to State and Territory towing regulations.'''
+2) 800mm water wading available on 4x2 Hi-Rider and 4x4 models only. Achieve when maintain a steady speed of 7kms/hr.<br /><br />
+3) This accessory is a Supplier Branded Accessory and is not manufactured or Warranted by Ford. The warranty is provided by the manufacturer. Contact your authorized Ford dealer for details of the accessory manufacturer’s warranty applicable to this accessory.<br /><br />
+4）Braked towing capacity when fitted with a Genuine Ford Tow pack and accessory Tow Ball, subject to State and Territory towing regulations.'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
