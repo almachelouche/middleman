@@ -197,6 +197,7 @@ color='white'
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
+segmentif = ["(user.CustomAttribute['ModelMerge'] == 'EcoSport Titanium')"]
 
 	text='''Touchscreen Infotainment System is available only in select variants.'''
 
