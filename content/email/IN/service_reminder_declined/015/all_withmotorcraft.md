@@ -119,6 +119,7 @@ color='white'
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
+segmentif = ["(user.CustomAttribute['Tyre'] == 'R')"]
 
 	image='''in_edm2_motorcraft_brake_20171026'''
 	url_link='''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
