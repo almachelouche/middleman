@@ -161,6 +161,7 @@ segmentelseif = ["(user.CustomAttribute['ModelMerge'] == 'All Model')"]
 [[module]]
 path='email_modules/spacer/platinum_20'
 color='white'    
+segmentif = ["(user.CustomAttribute['SSPStatus'] == 'NO')"]
 
 [[module]] #Cover 05
 path='email_modules/cover/02'
