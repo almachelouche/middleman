@@ -74,6 +74,7 @@ color='''white_gt'''
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
+segmentif = ["(user.CustomAttribute['ModelMerge'] == 'EcoSport Titanium')"]
 
 	image='''in_edm6_infotaiment_20170830'''
 	url_link='''https://www.youtube.com/watch?v=rTMTBZ8W_4Y&index=1&list=PLyO4HcxK6VwoQpGqoLWYtg_bXbMo7LvnE'''
