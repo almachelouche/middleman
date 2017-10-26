@@ -66,9 +66,7 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-	text = '''DISCLAIMERS 
-				<br /> <br />
-				
+	text = '''
 				'''
 
 
