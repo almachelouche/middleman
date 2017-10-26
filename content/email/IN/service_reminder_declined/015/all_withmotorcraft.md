@@ -127,7 +127,7 @@ color='white'
 [[module]]
 path='email_modules/cover/master'
 color='''white'''
-segmentif = ["user.CustomAttribute['Tyre'] == 'R')"]
+segmentif = ["(user.CustomAttribute['Tyre'] == 'R')"]
 
 	icon=''''''
 	title='''Brake with confidence'''
