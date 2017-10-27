@@ -59,7 +59,7 @@ path='email_modules/split/01'
 color='darkblue'
 
 	title = '''RS Limited Edition'''
-	copy = '''This month, the Focus RS Limited Edition will be hitting the streets. With its unapologetic style and refined performance, the lucky few who will get to strap themselves into this beast are in for one hell of a ride.'''
+	copy = '''This month, the Focus RS Limited Edition will be hitting the streets. With its unapologetic style and refined performance, the lucky few who will get to strap themselves into this beast are in for one exhilarating ride.'''
 	cta1_text = '''LEARN MORE'''
 	cta1_url = '''https://www.ford.com.au/performance/focus-rs-special-edition'''
 	cta1_link_name = '''RS'''

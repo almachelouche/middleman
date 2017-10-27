@@ -49,7 +49,7 @@ path='email_modules/split/02'
 color='darkblue'
 
 	title = '''Screen Time vs Play Time'''
-	copy = '''Our research shows that a Sunday drive with the family does wonders in unplugging from screens and re-connecting with each other. What better way to get away than in the Ford Escape Ambiente, from $29,990 with FREE AUTO*. Or upgrade to the feature packed Titanium which includes a $2,000 saving at $45,990*. See the difference an Escape can make.'''
+	copy = '''Unplugging our screens and re-connecting with our families for a Sunday drive does wonders. What better way to get away than in a Ford Escape Ambiente, from $29,990 with FREE AUTO*. Or save $2,000 on a feature-packed titanium for just $45,990.'''
 	cta1_text = '''LEARN MORE'''
 	cta1_url = '''https://www.ford.com.au/suv/escape/'''
 	cta1_link_name = '''retail'''
