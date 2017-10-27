@@ -12,7 +12,7 @@ color='''white'''
 path='email_modules/header/enews'
 color='black'
 
-	title = '''Inside'''
+	title = '''Insider'''
     date = '''October 2017'''
 	copy = '''IN THIS ISSUE:<br />Ranger Raptor | Escape screen time for play time | Tyre Guarantee | NBCF Support '''
 
@@ -93,6 +93,9 @@ color='white'
 
 	text='''Disclaimers:<br /><br />
 	*Recommended offer available at participating Dealers. Stock may vary between dealers. Private and Blue, Silver and Gold Fleet buyers only. Eligible Free Auto vehicles must be purchased by 31/12/2017 and delivered by 3/01/2018. Ford dealers and Ford Australia can reduce or otherwise change these offers.
+    
+    <br />
+    
     1.  The Low Price Tyre Guarantee offer is available on selected tyres of listed brands that are stocked by participating Ford dealers. Competitor tyres must be new, identical and available from an Australian tyre retailer. Offer includes "4 for 3" or similar competitor offers, but excludes competitor cashback offers, gift cards, "wheel and tyre" bundles, tyres purchased under an instalment payment plan, clearance and liquidation stock and any competitor quotes that cannot be verified. Offer is available to private retail and Blue Business Fleet customers. Includes valid competitor's quote within 30 days after purchase. Various adjustments, including fitment and freight, apply to ensure a like-for-like price comparison.
     See your participating Ford dealer for full terms and conditions. Ford reserves the right to vary or withdraw the Low Price Tyre Guarantee offer at any time.'''
 
