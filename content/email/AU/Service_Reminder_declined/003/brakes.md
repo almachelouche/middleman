@@ -13,7 +13,7 @@ path='email_modules/preheader'
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image='''au_edm2d_brake_20161114'''
+	image='''au_edm2_declined_brakes_27102017'''
 
 
 [[module]] #Cover 07
