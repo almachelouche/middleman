@@ -14,7 +14,7 @@ color='black'
 
 	title = '''Insider'''
 	date = '''October 2017'''
-	copy = '''IN THIS ISSUE:<br /> Ranger Raptor | Ford Tyres | Limited Edition RS | Breast Cancer Support '''
+	copy = '''IN THIS ISSUE:<br /> Ranger Raptor | Tyre Guarantee | Limited Edition RS | NBCF Support '''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -47,7 +47,7 @@ path='email_modules/split/02'
 color='green'
 
 	title = '''Ford sells tyres?'''
-	copy = '''At Ford, we're committed to offering you tyres at competitive prices. That's why we're very excited to announce our Low Price Tyre Guarantee. We'll match a competitor's price on selected tyres we stock.'''
+	copy = '''At Ford, we're committed to offering you tyres at competitive prices. That's why we're very excited to announce our Low Price Tyre Guarantee. We'll match a competitor's price on selected tyres we stock&#185;.'''
 	cta1_text = '''LEARN MORE'''
 	cta1_url = '''https://www.ford.com.au/owners/service/tyres/'''
 	cta1_link_name = '''LPTG'''
@@ -58,12 +58,12 @@ color='green'
 path='email_modules/split/01'
 color='darkblue'
 
-	title = '''Focus RS Tearing it Up'''
-	copy = '''This November, the Focus RS Limited Edition will be hitting the streets. To celebrate its arrival and to mark the one-year anniversary since we unleashed this beast in Australia, check out the current RS in action.'''
-	cta1_text = '''WATCH NOW'''
-	cta1_url = '''https://www.facebook.com/FordAustralia/videos/vb.126096123746/10156519835473747/?type=2&theater'''
+	title = '''RS Limited Edition Arrives'''
+	copy = '''This month, the Focus RS Limited Edition will be hitting the streets. With its unapologetic style and refined performance, the lucky few who will get to strap themselves into this beast are in for one hell of a ride.'''
+	cta1_text = '''LEARN MORE'''
+	cta1_url = '''https://www.ford.com.au/performance/focus-rs-special-edition'''
 	cta1_link_name = '''RS'''
-	cta1_icon = '''play'''
+	cta1_icon = '''more'''
 	image = '''AU_edm6_focus_20170927'''
 
 
@@ -88,7 +88,8 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 	text='''Disclaimers:<br /><br />
-	1. The Low Price Tyre Guarantee offer is available on selected tyres of listed brands that are stocked by participating Ford dealers. Competitor tyres must be new, identical and available from an Australian tyre retailer. Offer includes "4 for 3" or similar competitor offers, but excludes competitor cashback offers, gift cards, "wheel and tyre" bundles, tyres purchased under an instalment payment plan, clearance and liquidation stock and any competitor quotes that cannot be verified. Includes valid competitor’s quote within 30 days after purchase. Various adjustments, including fitment and freight, apply to ensure a like-for-like price comparison. See your participating Ford dealer for full terms and conditions.'''
+	1. The Low Price Tyre Guarantee offer is available on selected tyres of listed brands that are stocked by participating Ford dealers. Competitor tyres must be new, identical and available from an Australian tyre retailer. Offer includes "4 for 3" or similar competitor offers, but excludes competitor cashback offers, gift cards, "wheel and tyre" bundles, tyres purchased under an instalment payment plan, clearance and liquidation stock and any competitor quotes that cannot be verified. Offer is available to private retail and Blue Business Fleet customers. Includes valid competitor's quote within 30 days after purchase. Various adjustments, including fitment and freight, apply to ensure a like-for-like price comparison.
+    See your participating Ford dealer for full terms and conditions. Ford reserves the right to vary or withdraw the Low Price Tyre Guarantee offer at any time.'''
 
 
 [[module]] #Footer AU Online
