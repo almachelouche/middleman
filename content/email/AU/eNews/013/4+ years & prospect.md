@@ -12,7 +12,7 @@ color='''white'''
 path='email_modules/header/enews'
 color='black'
 
-	title = '''Insider'''
+	title = '''Inside'''
     date = '''October 2017'''
 	copy = '''IN THIS ISSUE:<br />Ranger Raptor | Escape screen time for play time | Tyre Guarantee | NBCF Support '''
 
