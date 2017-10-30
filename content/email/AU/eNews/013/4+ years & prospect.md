@@ -41,7 +41,7 @@ path='email_modules/image/banner'
 color='white'
 
 	image = '''AU_edm6_raptor_20170920'''
-	url_link = '''https://www.ford.com.au/commercial/ranger/special-editions/'''
+	url_link = '''https://www.ford.com.au/commercial/ranger/raptor/?intcmp=bb-fau-vhp-ford%20ranger-fau-vhp-ford%20ranger-return#overlay/content/ford/au/en_au/ranger-content/overlay-videos/raptor-videos/video1.html'''
 
 
 [[module]] #Split 02
