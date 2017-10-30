@@ -54,7 +54,7 @@ color='darkblue'
 	cta1_url = '''https://www.ford.com.au/suv/escape/'''
 	cta1_link_name = '''retail'''
 	cta1_icon = '''more'''
-	image = '''au_edm6_escape_16102017'''
+	image = '''au_edm6_escape_30102017'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
