@@ -93,10 +93,9 @@ color='white'
     <br/>
     e) Is returned to an Authorised Ford Dealer, transportation charges prepaid.
     <br /><br />
-    2. Available at participating Ford Dealers. Excludes F-Series, FPV, ST, XR5 and Transit models. Customers will pay equal to or less than the current maximum price as published by Ford at <a href="ford.com.au/service/brakes""style="text-decoration:underline; color:#91a4b1"> ford.com.au/service/brakes</a>. Maximum prices are subject to change. See <a href="http://www.ford.com.au/service/t-and-c""style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/service/t-and-c</a> for full terms.
+    2. Available at participating Ford Dealers. Excludes F-Series, FPV, ST, XR5 and Transit models. Customers will pay equal to or less than the current maximum price as published by Ford at <a href="ford.com.au/service/brakes""style="text-decoration:underline; color:#91a4b1"> ford.com.au/service/brakes</a>. Maximum prices are subject to change. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.
     <br /><br />
 				'''
-
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
