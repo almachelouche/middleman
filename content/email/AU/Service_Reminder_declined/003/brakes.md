@@ -51,6 +51,18 @@ color='darkblue_au'
 	title3='''Replace <br />immediately <br /> '''
 	copy3='''<br /><br />Brake Lining:<br /> Less than 3mm (Disc) <br />or less than 1mm (Drum)'''
 
+[[module]] #Cover 01
+path='email_modules/cover/01'
+color='white'
+
+	icon = '''in_edm2d_status_battery_black_20160801'''
+	title = '''No one knows your Ford like we do'''
+	copy = '''Our Ford technicians will expertly fit Genuine Ford Brake Pads. Specifically designed for your <%${user.CustomAttribute['Model']}%>'s braking system, they're fully tested to ensure long life and minimal fading and are covered under warranty for a period of 12 months or 20,000km&#185;.<br /><br />With our <a href="http://www.ford.com.au/owners/service/brakes" style="text-decoration:underline; color:#2D96CD">Service Price Promise for Brakes</a>&#178;, you won't pay more than the price published online for new Ford Genuine Fitted Brake Pads at <%${user.CustomAttribute['Dealer_Name']}%>.'''
+	cta1_url = '''https://www.ford.com.au/owners/service/brakes/'''
+	cta1_text = '''FIND OUT MORE'''
+	cta1_icon = '''more'''
+	cta1_link_name = '''more1'''
+
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -67,6 +79,17 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 	text = '''
+    DISCLAIMERS 
+				<br /> <br />
+    1. Conditions apply. Warranty is applicable, provided that the part/accessory:
+    a) Was correctly installed in, affixed or attached to the product for which application, the part/accessory was designed and sold at retail;
+    b) Has not been altered, modified or repaired outside Ford's own factory or a location designated or approved by Ford, in a way which adversely affects the performance, durability, stability, reliability or safety of that part/accessory; and
+    c) Has been properly used and operated within the capacity and operating limitations as specified by Ford or the manufacturer of the part/accessory;
+    d) Has been properly maintained and cared for; and
+    e) Is returned to an Authorised Ford Dealer, transportation charges prepaid.
+    <br /><br />
+    2. Available at participating Ford Dealers. Excludes F-Series, FPV, ST, XR5 and Transit models. Customers will pay equal to or less than the current maximum price as published by Ford at ford.com.au/service/brakes. Maximum prices are subject to change. See http://www.ford.com.au/service/t-and-c for full terms.
+    <br /><br />
 				'''
 
 
