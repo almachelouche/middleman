@@ -106,11 +106,6 @@ color = '''white'''
 
 	image = '''au_edm5_focus2_20161013'''
 
-		[[module]] #Banner Image
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
-	image = '''au_edm5_focus_trend_award_20161215'''
 
 
 [[module]] #Custom 4 Icons

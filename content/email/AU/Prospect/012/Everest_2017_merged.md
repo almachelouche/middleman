@@ -104,11 +104,6 @@ color = '''white'''
 
 	image = '''au_edm5_everest3_20161013'''
 
-	[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
-	image = '''au_edm5_everest_award_20161215'''
 
 
 [[module]] #Custom 4 Icons

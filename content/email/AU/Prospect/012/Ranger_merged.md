@@ -104,12 +104,6 @@ color = '''white'''
 	image = '''au_edm5_ranger3_20161013'''
 
 
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
-	image = '''au_edm5_ranger_award_20161215'''
-
 
 [[module]] #Custom 4 Icons
 path='email_modules/custom/4icons'
