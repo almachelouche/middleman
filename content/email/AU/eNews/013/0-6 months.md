@@ -13,7 +13,7 @@ path='email_modules/header/enews'
 color='black'
 
 	title = '''Insider'''
-	date = '''October 2017 '''
+	date = '''November 2017 '''
 	copy = '''IN THIS ISSUE:<br /> Ranger Raptor | Tyre Guarantee | Engine Health | Ford Owners App'''
 
 [[module]] #Header Logo
