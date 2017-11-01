@@ -6,7 +6,7 @@ title = '''AU Enews 013 4+ years & prospect'''
 path='email_modules/preheader'
 color='''white'''
 
-	preheader='''Joining the Ford lineup in 2018, Ranger Raptor will be the ultimate performance off-road truck designed to conquer the toughest of all terrains.'''
+	preheader='''We’re taking performance to the next level off road'''
 
 [[module]] #Header eNews
 path='email_modules/header/enews'
@@ -14,7 +14,7 @@ color='black'
 
 	title = '''Insider'''
     date = '''October 2017'''
-	copy = '''IN THIS ISSUE:<br />Ranger Raptor | Escape screen time for play time | Ford Tyres | Breast Cancer Support '''
+	copy = '''IN THIS ISSUE:<br />Ranger Raptor | Escape screen time for play time | Tyre Guarantee | NBCF Support '''
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
@@ -41,7 +41,7 @@ path='email_modules/image/banner'
 color='white'
 
 	image = '''AU_edm6_raptor_20170920'''
-	url_link = '''https://www.ford.com.au/commercial/ranger/special-editions/'''
+	url_link = '''https://www.ford.com.au/commercial/ranger/raptor/?intcmp=bb-fau-vhp-ford%20ranger-fau-vhp-ford%20ranger-return#overlay/content/ford/au/en_au/ranger-content/overlay-videos/raptor-videos/video1.html'''
 
 
 [[module]] #Split 02
@@ -49,19 +49,19 @@ path='email_modules/split/02'
 color='darkblue'
 
 	title = '''Screen Time vs Play Time'''
-	copy = '''Our research shows that getting away from our smartphone and tablet screens is good for the whole family. What better way to get away than in the Ford Escape Trend AWD Auto, from only $34,990*?'''
+	copy = '''Unplugging our screens and re-connecting with our families for a Sunday drive does wonders. What better way to get away than in a Ford Escape Ambiente, from $29,990 with FREE AUTO&#185;. Or save $2,000 on a feature-packed titanium for just $45,990&#185;.'''
 	cta1_text = '''LEARN MORE'''
 	cta1_url = '''https://www.ford.com.au/suv/escape/'''
 	cta1_link_name = '''retail'''
 	cta1_icon = '''more'''
-	image = '''au_edm6_escape_16102017'''
+	image = '''au_edm6_escape_30102017'''
 
 [[module]] #Split 01
 path='email_modules/split/01'
 color='green'
 
 	title = '''Ford sells tyres?'''
-	copy = '''At Ford, we're committed to offering you tyres at competitive prices. That's why we're very excited to announce our Low Price Tyre Guarantee. We'll match a competitor's price on selected tyres we stock.'''
+	copy = '''At Ford, we're committed to offering you tyres at competitive prices. That's why we're very excited to announce our Low Price Tyre Guarantee. We'll match a competitor's price on selected tyres we stock&#178;.'''
 	cta1_text = '''LEARN MORE'''
 	cta1_url = '''https://www.ford.com.au/owners/service/tyres/'''
 	cta1_link_name = '''LPTG'''
@@ -92,7 +92,12 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 	text='''Disclaimers:<br /><br />
-	1. The Low Price Tyre Guarantee offer is available on selected tyres of listed brands that are stocked by participating Ford dealers. Competitor tyres must be new, identical and available from an Australian tyre retailer. Offer includes "4 for 3" or similar competitor offers, but excludes competitor cashback offers, gift cards, "wheel and tyre" bundles, tyres purchased under an instalment payment plan, clearance and liquidation stock and any competitor quotes that cannot be verified. Includes valid competitor’s quote within 30 days after purchase. Various adjustments, including fitment and freight, apply to ensure a like-for-like price comparison. See your participating Ford dealer for full terms and conditions.'''
+	1. Recommended offer available at participating Dealers. Stock may vary between dealers. Private and Blue, Silver and Gold Fleet buyers only. Eligible Free Auto vehicles must be purchased by 31/12/2017 and delivered by 3/01/2018. Ford dealers and Ford Australia can reduce or otherwise change these offers.
+    
+    <br /><br/>
+    
+    2. The Low Price Tyre Guarantee offer is available on selected tyres of listed brands that are stocked by participating Ford dealers. Competitor tyres must be new, identical and available from an Australian tyre retailer. Offer includes "4 for 3" or similar competitor offers, but excludes competitor cashback offers, gift cards, "wheel and tyre" bundles, tyres purchased under an instalment payment plan, clearance and liquidation stock and any competitor quotes that cannot be verified. Offer is available to private retail and Blue Business Fleet customers. Includes valid competitor's quote within 30 days after purchase. Various adjustments, including fitment and freight, apply to ensure a like-for-like price comparison.
+    See your participating Ford dealer for full terms and conditions. Ford reserves the right to vary or withdraw the Low Price Tyre Guarantee offer at any time.'''
 
 
 [[module]] #Footer AU Online

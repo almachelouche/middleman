@@ -1,7 +1,7 @@
 +++
 markets = ["au"]
 title = '''AU Prospect 012 Everest_2017-merged'''
-draft = true
+
 
 [[module]]
 path='email_modules/preheaderbefore'
@@ -104,11 +104,6 @@ color = '''white'''
 
 	image = '''au_edm5_everest3_20161013'''
 
-	[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
-	image = '''au_edm5_everest_award_20161215'''
 
 
 [[module]] #Custom 4 Icons
@@ -158,7 +153,7 @@ color='''white'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
 	title='''The service you'll love, guaranteed'''
-	copy='''We know that a new car is a big decision <%${user.CustomAttribute['FullName']}%>, so our job isn't done once you pick up your car.<br /><br />With <a href="https://www.ford.com.au/owners/service/calculator?edm" name="calculator1" style="text-decoration:underline; color:#2d96cd;">Ford's Service Price Promise</a>², you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership³ for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program&#8308;, so we can keep you on the road whilst your car is being serviced. After all, that's what service should be. <br /><br />So don't wait. Book a test drive to experience the Ford Everest today.<br /><br />'''
+	copy='''We know that a new car is a big decision <%${user.CustomAttribute['FullName']}%>, so our job isn't done once you pick up your car.<br /><br />With <a href="https://www.ford.com.au/owners/service/calculator?edm/" name="calculator1" style="text-decoration:underline; color:#2d96cd;">Ford's Service Price Promise</a>², you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership³ for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program&#8308;, so we can keep you on the road whilst your car is being serviced. After all, that's what service should be. <br /><br />So don't wait. Book a test drive to experience the Ford Everest today.<br /><br />'''
 	cta1_text='''BOOK A TEST DRIVE'''
 	cta1_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/test-drive.html/'''
 	cta1_link_name = '''moreinfo2'''
@@ -169,7 +164,7 @@ color='''white'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	title='''The service you'll love, guaranteed'''
-	copy='''We know that a new car is a big decision <%${user.CustomAttribute['FullName']}%>, so our job isn't done once you pick up your car.<br /><br />With <a href="https://www.ford.com.au/owners/service/calculator?edm" name="calculator1" style="text-decoration:underline; color:#2d96cd;">Ford's Service Price Promise</a>&#178;, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership³ for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program&#8308;, so we can keep you on the road whilst your car is being serviced. After all, that's what service should be. <br /><br />So don't wait. Check out the latest offers on Ford Everest here.'''
+	copy='''We know that a new car is a big decision <%${user.CustomAttribute['FullName']}%>, so our job isn't done once you pick up your car.<br /><br />With <a href="https://www.ford.com.au/owners/service/calculator?edm/" name="calculator1" style="text-decoration:underline; color:#2d96cd;">Ford's Service Price Promise</a>&#178;, you'll know what you're going to pay for a standard service before you go in. But the service doesn't stop there. You can get State Auto Club Roadside Assistance and Membership³ for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program&#8308;, so we can keep you on the road whilst your car is being serviced. After all, that's what service should be. <br /><br />So don't wait. Check out the latest offers on Ford Everest here.'''
 	cta1_text='''LATEST OFFER'''
 	cta1_url='''https://www.ford.com.au/latest-offer/everest-trend-4wd/'''
 	cta1_link_name = '''moreinfo2'''
@@ -186,7 +181,7 @@ color='white'
 				* Recommended driveaway price for 2017 plate models at participating Dealers. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. Ford reserves the right to further reduce recommended price, or otherwise change or extend offer.<br /><br />
 				1. Braked towing capacity when fitted with a Genuine Ford Tow Ball and Tow Pack. Subject to State and Territory Towing Regulations. <br /><br />
 				2. Available at participating Ford Dealers on vehicles built from 2007. Customers will pay equal to or less than the maximum price as published by Ford for the period of the web quote for standard items in the A and B logbook service together with selected routine maintenance items. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
-				3. Available to Private and Blue Business Fleet customers who have not reached earlier of 7 years or 105,000km, only at participating Dealers. State Auto Club Roadside Assistance & Membership is included for 12 months or until your next eligible standard service (whichever occurs first). Standard services include all A and B logbook services. Customers must comply with scheduled servicing intervals to maintain continuity of membership. See  <a href="www.ford.com.au/owners/service/t-and-c" name="term2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms. <br /><br />
+				3. Available to Private and Blue Business Fleet customers who have not reached earlier of 7 years or 105,000km, only at participating Dealers. State Auto Club Roadside Assistance & Membership is included for 12 months or until your next eligible standard service (whichever occurs first). Standard services include all A and B logbook services. Customers must comply with scheduled servicing intervals to maintain continuity of membership. See  <a href="www.ford.com.au/owners/service/t-and-c/" name="term2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms. <br /><br />
 				4. Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
