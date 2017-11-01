@@ -6,7 +6,7 @@ title = '''AU Enews 013 2-3 & 3-4 years'''
 path='email_modules/preheader'
 color='''white'''
 
-	preheader='''Joining the Ford lineup in 2018, Ranger Raptor will be the ultimate performance off-road truck designed to conquer the toughest of all terrains.'''
+	preheader='''We’re taking performance to the next level off road'''
 
 [[module]] #Header eNews
 path='email_modules/header/enews'
