@@ -90,7 +90,7 @@ color='''slatescreen'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
 	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,<br /><br />
-	Athletic and toned, the Ford Focus is a distinctive presence wherever it goes. And once you get behind the wheel, you'll be hooked for life. </span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">Right now, the Ford Focus Trend Hatch Auto is available at $24,490* Driveaway</span>'''
+	Athletic and toned, the Ford Focus is a distinctive presence wherever it goes. And once you get behind the wheel, you'll be hooked for life. </span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">Right now, the Ford Focus Trend Hatch with FREE AUTO is available at $24,490* Driveaway</span>'''
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
@@ -98,7 +98,7 @@ color='''slatescreen'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>,	<br /><br />
-	Combining innovative technology, with a sleek and sporty design, the Ford Focus is the car built for pleasure seekers.</span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">Right now, the Ford Focus Trend Hatch Auto is available at $24,490* Driveaway</span>'''
+	Combining innovative technology, with a sleek and sporty design, the Ford Focus is the car built for pleasure seekers.</span><br /><br /><span style="font-size:16px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif ;">Right now, the Ford Focus Trend Hatch with FREE AUTO is available at $24,490* Driveaway</span>'''
 
 	[[module]] #Banner Image
 path = '''email_modules/image/banner_nolink'''
@@ -200,7 +200,7 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-    text = '''* Recommended driveaway price for 2017 plate models at participating Dealers. Private and Blue, Silver and Gold Business Fleet customers only. Ford reserves the right to further reduce recommended price, or otherwise change or extend offer.<br /><br />
+    text = '''* Recommended offer available at participating dealers. Stock may vary between dealers. Private and Blue, Silver and Gold Fleet buyers only. Eligible Free Auto vehicles must be purchased by 31/12/17 and delivered by 3/01/18. Ford Dealers and Ford Australia can reduce or otherwise change these offers. <br /><br />
 	1. For SYNC® compatibility visit <a href="https://www.ford.com.au/technology/sync/" name="sync" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/technology/sync</a>.<br /><br />
 	2. Available at participating Ford Dealers on vehicles built from 2007. Customers will pay equal to or less than the maximum price as published by Ford for the period of the web quote for standard items in the A and B logbook service together with selected routine maintenance items. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="term1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
 	3. Available to Private and Blue Business Fleet customers who have not reached earlier of 7 years or 105,000km, only at participating Dealers. State Auto Club Roadside Assistance & Membership is included for 12 months or until your next eligible standard service (whichever occurs first).  Standard services include all A and B logbook services. Customers must comply with scheduled servicing intervals to maintain continuity of membership. See  <a href="www.ford.com.au/owners/service/t-and-c" name="term2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms. <br /><br />

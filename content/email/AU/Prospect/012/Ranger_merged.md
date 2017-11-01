@@ -89,14 +89,14 @@ path='email_modules/cover/03'
 color='''slatescreen'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
-	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Plenty of trucks can boast brute strength. But it's the technology behind the muscle that makes the Ford Ranger a real hero. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Ranger 4x4 XLT Double Cab Pick-Up 3.2L Diesel Manual is available at $55,490* Driveaway.</span>'''
+	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Plenty of trucks can boast brute strength. But it's the technology behind the muscle that makes the Ford Ranger a real hero. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Ranger 4x4 XLT Double Cab Pick-up 3.2L Diesel with FREE AUTO is available at $55,490* Driveaway.</span>'''
 
 [[module]] #Cover 11
 path='email_modules/cover/03'
 color='''slatescreen'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />The Ford Ranger has been tested to the limits to give you a truck that's in its element wherever you are. So when the going gets tough, the tough can get going.<br /><br /><span style="color:#FFFFFF">Right now, the Ford Ranger 4x4 XLT Double Cab Pick-Up 3.2L Diesel Manual is available at $55,490* Driveaway.</span>'''
+	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />The Ford Ranger has been tested to the limits to give you a truck that's in its element wherever you are. So when the going gets tough, the tough can get going.<br /><br /><span style="color:#FFFFFF">Right now, the Ford Ranger 4x4 XLT Double Cab Pick-up 3.2L Diesel with FREE AUTO is available at $55,490* Driveaway.</span>'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -241,7 +241,8 @@ color='white'
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	text = '''Terms & Conditions
-				<br /> <br /> * Recommended Price for private and small business buyers only at participating dealers. Ford Australia reserves the right to change or extend offers.<br /><br />
+				<br /> <br /> * Recommended offer available at participating dealers. Stock may vary between dealers. Private and Blue, Silver and Gold Fleet buyers only. Eligible Free Auto vehicles must be purchased by 31/12/17 and delivered by 3/01/18. Ford Dealers and Ford Australia can reduce or otherwise change these offers.
+                <br /><br />
                 1. Braked towing capacity when fitted with a genuine Ford towpack and towball. Subject to State and Territory regulations.<br /><br />
 				2. Achieved when maintaining a steady speed of not more than 7km per hour.<br /><br />
 				3. Bluetooth® is a registered trademark of Bluetooth SIG Inc., and is used under licence. Some phones not compatible.<br /><br />
