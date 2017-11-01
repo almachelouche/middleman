@@ -30,10 +30,17 @@ color='''white'''
 	path = '''email_modules/image/banner_nolink'''
 	color = '''white'''
 
-	image = '''<%InsertIf expression="${(user.CustomAttribute['Model'] == 'Ford Ranger')}" id="Ranger" %>th_edm1&4_np_ranger_20160801<%/InsertIf%> 
-		<%InsertElse expression="${(user.CustomAttribute['Model'] == 'Ford Focus')}" id="Focus" %>th_edm1&4_np_focus_20160801<%/InsertElse%>
-		<%InsertElse%> th_edm1&4_np_nopic_20160801 <%/InsertElse%>
-		'''
+	image_code = '''<%InsertIf expression="${(user.CustomAttribute['Model'] == 'Ford Ranger')}" id="Ranger" %>
+<img class="img_R" align="left" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/covers/th_edm1&4_np_ranger_20160801_desktop.jpg"alt="Image Banner" title="Image Banner" border="0" style="display:block;margin:0;"/>
+<%/InsertIf%> 
+		
+<%InsertElse expression="${(user.CustomAttribute['Model'] == 'Ford Focus')}" id="Focus" %>
+<img class="img_R" align="left" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/covers/th_edm1&4_np_focus_20160801_desktop.jpg"alt="Image Banner" title="Image Banner" border="0" style="display:block;margin:0;"/>
+<%/InsertElse%>
+		
+<%InsertElse%> 
+<img class="img_R" align="left" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/covers/no_img_desktop.jpg"alt="Image Banner" title="Image Banner" border="0" style="display:block;margin:0;"/>
+<%/InsertElse%>'''
 
 	[[module]] #Cover 05
 path='email_modules/cover/02'
