@@ -1,7 +1,7 @@
 +++
 markets = ["au"]
 title = '''AU Prospect 012 EcoSport-Merged'''
-draft = true
+
 [[module]]
 path='email_modules/preheaderbefore'
 

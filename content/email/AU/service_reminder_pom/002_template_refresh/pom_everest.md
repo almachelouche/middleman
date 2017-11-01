@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU POM 001 Everest '''
+title = '''AU POM 002 Everest '''
 
 [[module]]
 path='email_modules/preheader'
@@ -87,12 +87,12 @@ color='white'
 	text_box_height = '''340'''
 	copy1 = '''With up to 3,000kg&#178; towing capacity, take on the most epic journeys with the Genuine Ford towpack. The tow pack pairs perfectly with the Everest's Dynamic Stability Control, automatically adapting to changing loads for greater control.'''
 	image1 = '''au_edm2_everest_accessories2_20170629'''
-	image1_link_url = '''https://www.ford.com.au/suv/everest/smart-accessories/'''
+	image1_link_url = '''https://www.ford.com.au/suv/everest/smart-accessories.html#fully_loaded_tow_pack'''
 	image1_link_name = '''link_name_here'''
 	title2 = '''No Nonsense<br/>Nudge Bar'''
 	copy2 = '''Like our range of bull bars, the genuine Ford nudge bar provides added protection to the front of your Everest and has met Ford's stringent engineering and safety standards.'''
 	image2 = '''au_edm2_everest_accessories3_20170629'''
-	image2_link_url = '''https://www.ford.com.au/suv/everest/smart-accessories/'''
+	image2_link_url = '''https://www.ford.com.au/suv/everest/smart-accessories.html#no_nonsense_nudge_bar'''
 	image2_link_name = '''link_name_here'''
     
 [[module]]

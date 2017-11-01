@@ -92,7 +92,7 @@ color='white'
 	title2 = '''No Nonsense<br/>Nudge Bar'''
 	copy2 = '''Like our range of bull bars, the genuine Ford nudge bar provides added protection to the front of your Everest and has met Ford's stringent engineering and safety standards.'''
 	image2 = '''au_edm2_everest_accessories3_20170629'''
-	image2_link_url = '''https://www.brandauthorap.ford.com/content/ford/au/en_au/home/suv/everest/smart-accessories.html#no_nonsense_nudge_bar'''
+	image2_link_url = '''https://www.ford.com.au/suv/everest/smart-accessories.html#no_nonsense_nudge_bar'''
 	image2_link_name = '''nudge bar'''
     
 [[module]]
