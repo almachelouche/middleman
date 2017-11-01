@@ -64,7 +64,7 @@ color='darkblue'
 	cta1_url = '''https://www.ford.com.au/performance/focus-rs-limited-edition'''
 	cta1_link_name = '''RS'''
 	cta1_icon = '''more'''
-	image = '''AU_edm6_focus_20170927'''
+	image = '''au_edm6_rs_01112017'''
 
 
 [[module]] #Split 02
