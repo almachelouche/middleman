@@ -26,8 +26,8 @@ color='''white'''
     <span style=" white-space:nowrap;">ฟอร์ดสำหรับลูกค้าคนสำคัญเช่นคุณฟอร์ดจะแจ้งข่าวสารข้อเสนอพิเศษ</span><br />
     <span style=" white-space:nowrap;">และข้อมูลที่เป็นประโยชน์เพื่อให้คุณได้รับทราบอย่างต่อเนื่องก่อนใคร</span></span>'''
 
-[[module]] #Banner Image No Link
-	path = '''email_modules/image/banner_nolink'''
+[[module]] #Banner Image No Link DHTest
+	path = '''email_modules/image/banner_nolink_DHTest'''
 	color = '''white'''
 
 	image_code = '''<%InsertIf expression="${(user.CustomAttribute['Model'] == 'Ford Ranger')}" id="Ranger" %>
@@ -41,6 +41,7 @@ color='''white'''
 <%InsertElse%> 
 <img class="img_R" align="left" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/covers/no_img_desktop.jpg"alt="Image Banner" title="Image Banner" border="0" style="display:block;margin:0;"/>
 <%/InsertElse%>'''
+
 
 	[[module]] #Cover 05
 path='email_modules/cover/02'
