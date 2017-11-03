@@ -9,8 +9,6 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
 	preheader='''The Ford EcoSport is waiting for you at a nearby dealership!'''
 
-[[module]]
-path='email_modules/preheaderbefore'
 
 [[module]]
 path='email_modules/preheaderbefore'
@@ -24,7 +22,6 @@ path='email_modules/body'
 
 [[module]]
 path='email_modules/preheaderbefore'
-
 
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
