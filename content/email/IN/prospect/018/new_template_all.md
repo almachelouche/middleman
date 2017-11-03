@@ -26,7 +26,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 [[module]]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-segmentelse = ["(user.CustomAttribute['Segment'] == 'B')"]
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
 
 	image = '''in_edm5_699_20171103'''
 
@@ -72,7 +72,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
-segmentelse = ["(user.CustomAttribute['Segment'] == 'B')"]
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
 
 	copy = '''When you purchase a Ford, you aren't just buying a great vehicle - you become part of our family. And family always gets the best deals.
     <br /><br />Buy a Ford Figo or Ford Aspire and we'll give you a 6.99% interest rate, plus an exchange bonus of &#8377;15,000.
@@ -155,7 +155,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 [[module]]
 path='email_modules/footer/disclaimer'
 color='white'
-segmentif = ["(user.CustomAttribute['Segment'] == 'B')"]
+segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
 
 	text = '''
 		*Terms & conditions Apply.
