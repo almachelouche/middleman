@@ -21,14 +21,14 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 
-	image = '''in_edm5_kerala_figo_aspire_20170911'''
+	image = '''in_edm5_MegaExchange_20171103'''
 
 [[module]]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
 
-	image = '''in_edm5_kerala_figo_aspire_20170911'''
+	image = '''in_edm5_699_20171103'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -95,7 +95,7 @@ path='email_modules/dual/05'
 color='white'
 
 	title1 = '''No-Stress Service'''
-	text_box_height = '''260'''
+	text_box_height = '''230'''
 	copy1 = '''We make service simple from day one. Discover how.'''
 	image1 = '''in_edm5_service_journey_20170927'''
 	image1_link_url = '''https://www.youtube.com/watch?v=EpUVjpuhxEE&t=133s/'''
