@@ -147,10 +147,13 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
         4. Colors are indicative only and may vary due to printing constraints.
         <br />
         <br />
-        5. Mentioned offers are valid from 1st November to 30th November 2017.
+        5. Colors are indicative only and may vary due to printing constraints.
         <br />
         <br />
-        6. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.
+        6. Mentioned offers are valid from 1st November to 30th November 2017.
+        <br />
+        <br />
+        7. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.
         '''
 
 [[module]]
@@ -174,10 +177,13 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
         4. Colors are indicative only and may vary due to printing constraints.
         <br />
         <br />
-        5. Mentioned offers are valid from 1st November to 30th November 2017.
+        5. Colors are indicative only and may vary due to printing constraints.
         <br />
         <br />
-        6. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.
+        6. Mentioned offers are valid from 1st November to 30th November 2017.
+        <br />
+        <br />
+        7. Ford India reserve the right to cancel, terminate or suspend this offer at any time during the campaign period without any prior notice. For more information, please contact a Ford dealer.
         '''
 
 [[module]]
