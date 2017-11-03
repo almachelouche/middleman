@@ -143,6 +143,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
         <br />
         3. Exchange bonus will be &#8377;20,000/- on exchange of Ford Car and &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.
         <br />
+        <br />
         4. Colors are indicative only and may vary due to printing constraints.
         <br />
         <br />
@@ -168,6 +169,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
         <br />
         <br />
         3. Exchange bonus will be &#8377;20,000/- on exchange of Ford Car and &#8377;15,000/- on exchange of non-Ford car. The valuation of the old car may differ and is by the independent valuers and at the sole discretion of exchange partners.
+        <br />
         <br />
         4. Colors are indicative only and may vary due to printing constraints.
         <br />
