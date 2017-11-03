@@ -29,7 +29,9 @@ title='''
     <br/>
 '''
 copy='''
-    <span style="white-space:nowrap;">感谢您加入福特大家庭，经过这段时间的驾驶，是时候为您的爱车进行第一次免费保养。</span>
+    <span style="white-space:nowrap;">感谢您加入福特大家庭，经过这段时间的驾驶，</span>
+    <br/>
+    <span style="white-space:nowrap;">是时候为您的爱车进行第一次免费保养。</span>
     <br/>
     <span style="white-space:nowrap;">欢迎即刻使用车主免费首保赠券，兑换服务。</span>
     <br/>
@@ -81,7 +83,9 @@ copy='''
 <span style="font-family:Tahoma, Verdana, Sans-serif;">
 <span style="white-space:nowrap;">每位福特新车主，</span>
 <br/>
-<span style="white-space:nowrap;">均可在车主宣传册中获取一张免费首保赠券，</span>
+<span style="white-space:nowrap;">均可在车主宣传册中</span>
+<br/>
+<span style="white-space:nowrap;">获取一张免费首保赠券，</span>
 <br/>
 <span style="white-space:nowrap;">体验专业保养服务。</span>
 <br/>
@@ -126,10 +130,6 @@ copy='''
     <br/>
     <span style="white-space:nowrap;">800-810-0740</span>
 '''
-
-[[module]] #Footer SK Ford Social
-path='email_modules/footer/sk/ford/social'
-color='white'
 
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
