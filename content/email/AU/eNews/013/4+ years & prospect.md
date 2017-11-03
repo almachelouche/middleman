@@ -6,14 +6,14 @@ title = '''AU Enews 013 4+ years & prospect'''
 path='email_modules/preheader'
 color='''white'''
 
-	preheader='''Joining the Ford lineup in 2018, Ranger Raptor will be the ultimate performance off-road truck designed to conquer the toughest of all terrains.'''
+	preheader='''We’re taking performance to the next level off road'''
 
 [[module]] #Header eNews
 path='email_modules/header/enews'
 color='black'
 
 	title = '''Insider'''
-    date = '''October 2017'''
+    date = '''November 2017'''
 	copy = '''IN THIS ISSUE:<br />Ranger Raptor | Escape screen time for play time | Tyre Guarantee | NBCF Support '''
 
 [[module]] #Header Logo
@@ -31,7 +31,7 @@ color='black'
 	title = '''FORD RANGER RAPTOR IS COMING!'''
 	copy = '''Joining the Ford line-up in 2018, the Ford Ranger Raptor is designed to conquer the toughest of all terrain and will be the ultimate performance off-road pick-up truck. Since reveal on September 7th, the Ranger Raptor has already created quite the buzz. Click below to watch the prototype in testing and to get exclusive updates. '''
 	cta1_text = '''WATCH PROTOTYPE TESTING'''
-	cta1_url = '''https://www.ford.com.au/commercial/ranger/raptor/?intcmp=bb-fau-vhp-ford%20ranger-fau-vhp-ford%20ranger-return#overlay/content/ford/au/en_au/ranger-content/overlay-videos/raptor-videos/video1.html '''
+	cta1_url = '''https://www.ford.com.au/commercial/ranger/raptor/?intcmp=bb-fau-vhp-ford%20ranger-fau-vhp-ford%20ranger-return#overlay/content/ford/au/en_au/ranger-content/overlay-videos/raptor-videos/video1.html'''
 	cta1_link_name = ''''rangerRaptor'''
 	cta1_icon = '''play'''
 
@@ -49,7 +49,7 @@ path='email_modules/split/02'
 color='darkblue'
 
 	title = '''Screen Time vs Play Time'''
-	copy = '''Unplugging our screens and re-connecting with our families for a Sunday drive does wonders. What better way to get away than in a Ford Escape Ambiente, from $29,990 with FREE AUTO&#185;. Or save $2,000 on a feature-packed titanium for just $45,990&#185;.'''
+	copy = '''Unplugging our screens and re-connecting with our families for a Sunday drive does wonders. What better way to get away than in a Ford Escape Ambiente FWD, from $29,990 with FREE AUTO&#185;. Or save $2,000 on a feature-packed titanium for just $45,990&#185;.'''
 	cta1_text = '''LEARN MORE'''
 	cta1_url = '''https://www.ford.com.au/suv/escape/'''
 	cta1_link_name = '''retail'''
@@ -92,7 +92,7 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 	text='''Disclaimers:<br /><br />
-	1. Recommended offer available at participating Dealers. Stock may vary between dealers. Private and Blue, Silver and Gold Fleet buyers only. Eligible Free Auto vehicles must be purchased by 31/12/2017 and delivered by 3/01/2018. Ford dealers and Ford Australia can reduce or otherwise change these offers.
+	1. Recommended offer for private and small business buyers only at participating Dealers. Eligible vehicles must be purchased by 31/12/17 and delivered by 3/01/18. Driveaway price includes promotional offer whether Free Auto or $2,000 saving.  Ford Australia and Ford Dealers can further reduce recommended prices, or otherwise change or extend offers.
     
     <br /><br/>
     

@@ -6,14 +6,14 @@ title = '''AU Enews 013 2-3 & 3-4 years'''
 path='email_modules/preheader'
 color='''white'''
 
-	preheader='''Joining the Ford lineup in 2018, Ranger Raptor will be the ultimate performance off-road truck designed to conquer the toughest of all terrains.'''
+	preheader='''We’re taking performance to the next level off road'''
 
 [[module]] #Header eNews
 path='email_modules/header/enews'
 color='black'
 
 	title = '''Insider'''
-	date = '''October 2017'''
+	date = '''November 2017'''
 	copy = '''IN THIS ISSUE:<br /> Ranger Raptor | Tyre Guarantee | Limited Edition RS | NBCF Support '''
 
 [[module]] #Header Logo
@@ -30,7 +30,7 @@ color='black'
     title = '''FORD RANGER RAPTOR IS COMING!'''
 	copy = '''Joining the Ford line-up in 2018, the Ford Ranger Raptor is designed to conquer the toughest of all terrain and will be the ultimate performance off-road pick-up truck. Since reveal on September 7th, the Ranger Raptor has already created quite the buzz. Click below to watch the prototype in testing and to get exclusive updates. '''
 	cta1_text = '''WATCH PROTOTYPE TESTING'''
-	cta1_url = '''https://www.ford.com.au/commercial/ranger/raptor/?intcmp=bb-fau-vhp-ford%20ranger-fau-vhp-ford%20ranger-return#overlay/content/ford/au/en_au/ranger-content/overlay-videos/raptor-videos/video1.html '''
+	cta1_url = '''https://www.ford.com.au/commercial/ranger/raptor/?intcmp=bb-fau-vhp-ford%20ranger-fau-vhp-ford%20ranger-return#overlay/content/ford/au/en_au/ranger-content/overlay-videos/raptor-videos/video1.html'''
 	cta1_link_name = ''''rangerRaptor'''
 	cta1_icon = '''play'''
 
@@ -61,10 +61,10 @@ color='darkblue'
 	title = '''RS Limited Edition'''
 	copy = '''This month, the Focus RS Limited Edition will be hitting the streets. With its unapologetic style and refined performance, the lucky few who will get to strap themselves into this beast are in for one exhilarating ride.'''
 	cta1_text = '''LEARN MORE'''
-	cta1_url = '''https://www.ford.com.au/performance/focus-rs-special-edition'''
+	cta1_url = '''https://www.ford.com.au/performance/focus-rs-limited-edition'''
 	cta1_link_name = '''RS'''
 	cta1_icon = '''more'''
-	image = '''AU_edm6_focus_20170927'''
+	image = '''au_edm6_rs_01112017'''
 
 
 [[module]] #Split 02

@@ -6,14 +6,14 @@ title = '''AU Enews 013 0-6 month'''
 path='email_modules/preheader'
 color='''white'''
 
-	preheader='''Joining the Ford lineup in 2018, Ranger Raptor will be the ultimate performance off-road truck designed to conquer the toughest of all terrains.'''
+	preheader='''We’re taking performance to the next level off road'''
 
 	[[module]] #Header eNews #non NSW
 path='email_modules/header/enews'
 color='black'
 
 	title = '''Insider'''
-	date = '''October 2017 '''
+	date = '''November 2017 '''
 	copy = '''IN THIS ISSUE:<br /> Ranger Raptor | Tyre Guarantee | Engine Health | Ford Owners App'''
 
 [[module]] #Header Logo
@@ -30,7 +30,7 @@ color='black'
 	title = '''FORD RANGER RAPTOR IS COMING!'''
 	copy = '''Joining the Ford line-up in 2018, the Ford Ranger Raptor is designed to conquer the toughest of all terrain and will be the ultimate performance off-road pick-up truck. Since reveal on September 7th, the Ranger Raptor has already created quite the buzz. Click below to watch the prototype in testing and to get exclusive updates. '''
 	cta1_text = '''WATCH PROTOTYPE TESTING'''
-	cta1_url = '''https://www.ford.com.au/commercial/ranger/raptor/?intcmp=bb-fau-vhp-ford%20ranger-fau-vhp-ford%20ranger-return#overlay/content/ford/au/en_au/ranger-content/overlay-videos/raptor-videos/video1.html '''
+	cta1_url = '''https://www.ford.com.au/commercial/ranger/raptor/?intcmp=bb-fau-vhp-ford%20ranger-fau-vhp-ford%20ranger-return#overlay/content/ford/au/en_au/ranger-content/overlay-videos/raptor-videos/video1.html'''
 	cta1_link_name = '''RangerRaptor'''
 	cta1_icon = '''play'''
 
@@ -76,10 +76,10 @@ color='black'
 	title = '''Ford Owners App'''
 	text1 = '''Want more information, tools, and tips right at your fingertips? Try the Ford Owners App.'''
 	text2 = '''<br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Streamline service reminders<br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Locate a dealer/service centre<br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;View "how-to" videos<br />'''
-	cta1_text = '''iOS'''
+	cta1_text = '''iOS*'''
 	cta1_url = '''https://itunes.apple.com/au/app/ford-owners/id990342351?mt=8'''
 	cta1_link_name = '''ios1'''
-	cta2_text = '''ANDROID'''
+	cta2_text = '''ANDROID*'''
 	cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en/'''
 	cta2_link_name = '''android1'''
 	image = '''owner_app_20160328'''
@@ -95,6 +95,8 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 	text='''Disclaimers:<br /><br />
+    * iOS is a trademark of Apple Inc. Android is a trademark of Google Inc.
+    <br /><br />
 	1. The Low Price Tyre Guarantee offer is available on selected tyres of listed brands that are stocked by participating Ford dealers. Competitor tyres must be new, identical and available from an Australian tyre retailer. Offer includes "4 for 3" or similar competitor offers, but excludes competitor cashback offers, gift cards, "wheel and tyre" bundles, tyres purchased under an instalment payment plan, clearance and liquidation stock and any competitor quotes that cannot be verified. Offer is available to private retail and Blue Business Fleet customers. Includes valid competitor's quote within 30 days after purchase. Various adjustments, including fitment and freight, apply to ensure a like-for-like price comparison.
     See your participating Ford dealer for full terms and conditions. Ford reserves the right to vary or withdraw the Low Price Tyre Guarantee offer at any time.'''
 

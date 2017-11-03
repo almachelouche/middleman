@@ -7,7 +7,7 @@ title = '''AU Enews 013 6-2year'''
 path='email_modules/preheader'
 color='''white'''
 
-	preheader='''Joining the Ford lineup in 2018, Ranger Raptor will be the ultimate performance off-road truck designed to conquer the toughest of all terrains.'''
+	preheader='''We’re taking performance to the next level off road'''
 
 [[module]]
 path='email_modules/body'
@@ -24,7 +24,7 @@ path='email_modules/header/enews'
 color='black'
 
 	title = '''Insider'''
-	date = '''October 2017'''
+	date = '''November 2017'''
 	copy = '''IN THIS ISSUE:<br />Ranger Raptor | Tyre Guarantee | Engine Health | NBCF Support '''
 
 [[module]] #Header Logo
@@ -42,7 +42,7 @@ color='black'
     title = '''FORD RANGER RAPTOR IS COMING!'''
 	copy = '''Joining the Ford line-up in 2018, the Ford Ranger Raptor is designed to conquer the toughest of all terrain and will be the ultimate performance off-road pick-up truck. Since reveal on September 7th, the Ranger Raptor has already created quite the buzz. Click below to watch the prototype in testing and to get exclusive updates. '''
 	cta1_text = '''WATCH PROTOTYPE TESTING'''
-	cta1_url = '''https://www.ford.com.au/commercial/ranger/raptor/?intcmp=bb-fau-vhp-ford%20ranger-fau-vhp-ford%20ranger-return#overlay/content/ford/au/en_au/ranger-content/overlay-videos/raptor-videos/video1.html '''
+	cta1_url = '''https://www.ford.com.au/commercial/ranger/raptor/?intcmp=bb-fau-vhp-ford%20ranger-fau-vhp-ford%20ranger-return#overlay/content/ford/au/en_au/ranger-content/overlay-videos/raptor-videos/video1.html'''
 	cta1_link_name = '''RangerRaptor'''
 	cta1_icon = '''play'''
 

@@ -1,6 +1,6 @@
 +++
 markets = ["th"]
-title = '''TH Service Reminder First Due 008 Ecosport BKK'''
+title = '''TH Service Reminder First Due BKK mockup'''
 
 [[module]]
 path='email_modules/preheader'
@@ -47,7 +47,8 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี
 <span style="white-space:nowrap;">หากไม่ทัน</span><br />
 <span style="white-space:nowrap;">คุณจะได้รับบริการเช็คระยะครั้งนั้น "ฟรีทันที"</span><br />
 <span style="white-space:nowrap;">ขออภัยหากคุณได้เข้ารับบริการที่ศูนย์บริการแล้ว</span>
-</span>'''
+</span>
+'''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหมายตอนนี้</span>'''
 cta1_url='''https://onlinebooking.ford.co.th/'''
 cta1_link_name = '''book_now'''
@@ -59,7 +60,7 @@ color='white'
 	image='''th_60min_express_service_20170829'''
 	url_link='''https://www.ford.co.th/ford-owner/60mins-express-service/'''
 	url_link_name='''60min_express_service'''
-
+    
 [[module]] #Custom 01
 path='email_modules/custom/3columntitle3icons'
 color='white'
@@ -82,14 +83,34 @@ color='white'
 										<span style="white-space:nowrap;">ของคุณอย่างเป็นระบบ</span> 
 										<span style="white-space:nowrap;">เพื่อเพิ่มมูลค่าในการขายต่อ</span></span>'''
 
+[[module]] #Split 04
+path='email_modules/split/04'
+color='green'
+
+	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า </span>'''
+	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+<span style="white-space:nowrap;">รับส่วนลดเพิ่มสูงสุด 10%</span>
+<span style="white-space:nowrap;">หรือ 3,700 บาท</span> 
+<span style="white-space:nowrap;">กับโปรแกรมบำรุงรักษารถยนต์</span>
+<span style="white-space:nowrap;">ตามระยะ(SSP)</span>
+<span style="white-space:nowrap;">พิเศษรับสิทธิ์</span>
+<span style="white-space:nowrap;">ผ่อน 0% นาน 10 เดือน</span> 
+<span style="white-space:nowrap;">เมื่อชำระผ่าน</span>
+<span style="white-space:nowrap;">บัตรเครดิตกสิกรไทย</span> 
+<span style="white-space:nowrap;">ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span></span>'''
+	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา ></span>'''
+cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
+cta1_icon='''more'''
+cta1_link_name = '''SSP'''
+image = '''th_edm5a_specialoffer_20160801'''
+
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''th_edm2_whyfordsvc_20161115'''
 
-
-	[[module]]
+[[module]]
 path='email_modules/split/07'
 color='white'
 
@@ -138,26 +159,6 @@ color='''white'''
 	cta1_url='''https://www.ford.co.th/buying/solutions/premium-protection-plus'''
 	cta1_link_name = '''ppp'''
 
-[[module]] #Split 04
-path='email_modules/split/04'
-color='green'
-
-	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า </span>'''
-	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
-<span style="white-space:nowrap;">รับส่วนลดเพิ่มสูงสุด 10%</span>
-<span style="white-space:nowrap;">หรือ 3,700 บาท</span> 
-<span style="white-space:nowrap;">กับโปรแกรมบำรุงรักษารถยนต์</span>
-<span style="white-space:nowrap;">ตามระยะ(SSP)</span>
-<span style="white-space:nowrap;">พิเศษรับสิทธิ์</span>
-<span style="white-space:nowrap;">ผ่อน 0% นาน 10 เดือน</span> 
-<span style="white-space:nowrap;">เมื่อชำระผ่าน</span>
-<span style="white-space:nowrap;">บัตรเครดิตกสิกรไทย</span> 
-<span style="white-space:nowrap;">ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span></span>'''
-	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา ></span>'''
-cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
-cta1_icon='''more'''
-cta1_link_name = '''SSP'''
-image = '''th_edm5a_specialoffer_20160801'''
 
 [[module]]
 path='email_modules/dual/03'
@@ -165,7 +166,7 @@ color='white'
 
 title1='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหมายเข้ารับบริการ</span>'''
 	cta1a_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%><br />ได้ที่ <% ${user.CustomAttribute['Dealer_Phone']} %></span>'''
-	cta1a_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''
+	cta1a_url='''tel:<% ${user.CustomAttribute['Dealer_Phone']}%>'''
 	cta1_link_name = ''''''
 	cta1b_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาตัวแทนจำหน่ายใกล้บ้านคุณ</span>'''
 	cta1b_url='''https://www.ford.co.th/locate-a-dealer/'''

@@ -1,7 +1,7 @@
 +++
 markets = ["au"]
 title = '''AU Prospect 012 Fiesta-merged'''
-draft = true
+
 
 [[module]]
 path='email_modules/preheaderbefore'
@@ -20,7 +20,6 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 [[module]]
 path='email_modules/body'
 
-
 [[module]]
 path='email_modules/preheaderbefore'
 
@@ -34,6 +33,7 @@ path='email_modules/preheaderbefore'
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	preheader='''Click through to see the latest offers on the vivid and stylish Ford Fiesta'''
+
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -162,7 +162,7 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
 	title='''The service you'll love, guaranteed'''
 	copy='''We know that a new car is a big decision <%${user.CustomAttribute['FullName']}%>, so our job isn't done once you pick up your car. <br /><br />
-	With <a href="https://www.ford.com.au/owners/service/calculator?edm" name="calculator1" style="text-decoration:underline; color:#2d96cd">Ford's Service Price Promise</a>&#8308;, you'll know what you're going to pay
+	With <a href="https://www.ford.com.au/owners/service/calculator?edm/" name="calculator1" style="text-decoration:underline; color:#2d96cd">Ford's Service Price Promise</a>&#8308;, you'll know what you're going to pay
 	for a standard service before you go in. But the service doesn't stop there.
 	You can get State Auto Club Roadside Assistance and Membership&#8309; for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program&#8310;, so we can keep you on the road whilst your car is being serviced.
 	After all, that's what service should be.<br /><br />
@@ -178,7 +178,7 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	title='''The service you'll love, guaranteed'''
 	copy='''We know that a new car is a big decision <%${user.CustomAttribute['FullName']}%>, so our job isn't done once you pick up your car. <br /><br />
-	With <a href="https://www.ford.com.au/owners/service/calculator?edm" name="calculator1" style="text-decoration:underline; color:#2d96cd">Ford's Service Price Promise</a>&#8308;, you'll know what you're going to pay
+	With <a href="https://www.ford.com.au/owners/service/calculator?edm/" name="calculator1" style="text-decoration:underline; color:#2d96cd">Ford's Service Price Promise</a>&#8308;, you'll know what you're going to pay
 	for a standard service before you go in. But the service doesn't stop there.
 	You can get State Auto Club Roadside Assistance and Membership&#8309; for up to 7 years from Autoclub participating dealers. Ford also has a Free Loan Car program&#8310;, so we can keep you on the road whilst your car is being serviced.
 	After all, that's what service should be.<br /><br />
@@ -202,7 +202,7 @@ color='white'
 	2. Bluetooth® is a registered trademark of Bluetooth SIG Inc., and is used under licence. Some phones not compatible.<br /><br />
 	3. iPod is a trademark of Apple Inc. Requires connection cable, sold separately. Please refer to <a href="https://www.ford.com.au/" name="ford1" style="text-decoration:underline; color:#91a4b1">ford.com.au</a> for compatibility.<br /><br />
 	4. Available at participating Ford Dealers on vehicles built from 2007. Customers will pay equal to or less than the maximum price as published by Ford for the period of the web quote for standard items in the A and B logbook service together with selected routine maintenance items. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="term1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
-	5. Available to Private and Blue Business Fleet customers who have not reached earlier of 7 years or 105,000km, only at participating Dealers. State Auto Club Roadside Assistance & Membership is included for 12 months or until your next eligible standard service (whichever occurs first).  Standard services include all A and B logbook services. Customers must comply with scheduled servicing intervals to maintain continuity of membership. See  <a href="www.ford.com.au/owners/service/t-and-c" name="term2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms. <br /><br />
+	5. Available to Private and Blue Business Fleet customers who have not reached earlier of 7 years or 105,000km, only at participating Dealers. State Auto Club Roadside Assistance & Membership is included for 12 months or until your next eligible standard service (whichever occurs first).  Standard services include all A and B logbook services. Customers must comply with scheduled servicing intervals to maintain continuity of membership. See  <a href="www.ford.com.au/owners/service/t-and-c/" name="term2" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms. <br /><br />
 	6. Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="term3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
 
 [[module]] #Footer AU Online
