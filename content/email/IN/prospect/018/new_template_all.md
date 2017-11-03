@@ -95,7 +95,7 @@ path='email_modules/dual/05'
 color='white'
 
 	title1 = '''No-Stress Service'''
-	text_box_height = '''210'''
+	text_box_height = '''190'''
 	copy1 = '''We make service simple from day one. Discover how.'''
 	image1 = '''in_edm5_service_journey_20170927'''
 	image1_link_url = '''https://www.youtube.com/watch?v=EpUVjpuhxEE&t=133s/'''
