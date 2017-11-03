@@ -61,7 +61,7 @@ path='email_modules/cover/02'
 color='''white'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-		title='''The Ford Focus Trend has been named the Drive small car of 2016!'''
+		title='''You can't deny the power of attraction.'''
 		copy=''''''
 		cta1_text='''LATEST OFFER'''
 		cta1_url='''https://www.ford.com.au/latest-offer/focus-trend-hatch/'''
