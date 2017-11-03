@@ -20,7 +20,20 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 [[module]]
 path='email_modules/body'
 
+[[module]]
+path='email_modules/preheaderbefore'
 
+segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
+
+	preheader='''The Ford Focus is waiting for you at a nearby dealership!'''
+
+[[module]]
+path='email_modules/preheaderbefore'
+
+segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
+
+	preheader='''Click through to see the latest offers on the cutting edge Ford Focus'''
+    
 [[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'

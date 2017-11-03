@@ -12,12 +12,26 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 [[module]]
 path='email_modules/preheaderbefore'
 
+[[module]]
+path='email_modules/preheaderbefore'
+
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	preheader='''Click through to see the latest offers on the Ford EcoSport the city-sized SUV'''
 
 [[module]]
 path='email_modules/body'
+
+segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
+
+	preheader='''The Ford EcoSport is waiting for you at a nearby dealership!'''
+
+[[module]]
+path='email_modules/preheaderbefore'
+
+segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
+
+	preheader='''Click through to see the latest offers on the Ford EcoSport the city-sized SUV'''
 
 
 [[module]] #Header Logo

@@ -92,7 +92,7 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 	text='''Disclaimers:<br /><br />
-	1. Recommended offer available at participating Dealers. Stock may vary between dealers. Private and Blue, Silver and Gold Fleet buyers only. Eligible Free Auto vehicles must be purchased by 31/12/2017 and delivered by 3/01/2018. Ford dealers and Ford Australia can reduce or otherwise change these offers.
+	1. Recommended offer for private and small business buyers only at participating Dealers. Eligible vehicles must be purchased by 31/12/17 and delivered by 3/01/18. Driveaway price includes promotional offer whether Free Auto or $2,000 saving.  Ford Australia and Ford Dealers can further reduce recommended prices, or otherwise change or extend offers.
     
     <br /><br/>
     
