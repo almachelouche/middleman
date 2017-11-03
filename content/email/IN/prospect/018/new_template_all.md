@@ -1,7 +1,7 @@
 
 +++
 markets = ["in"]
-title = '''IN Prospect 018 new template'''
+title = '''IN Prospect 018 Figo&Aspire'''
 
 [[module]]
 path='email_modules/preheader'
@@ -26,7 +26,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 [[module]]
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
-segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
+segmentelse = ["(user.CustomAttribute['Segment'] == 'B')"]
 
 	image = '''in_edm5_699_20171103'''
 
@@ -72,7 +72,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
-segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
+segmentelse = ["(user.CustomAttribute['Segment'] == 'B')"]
 
 	copy = '''When you purchase a Ford, you aren't just buying a great vehicle - you become part of our family. And family always gets the best deals.
     <br /><br />Buy a Ford Figo or Ford Aspire and we'll give you a 6.99% interest rate, plus an exchange bonus of &#8377;15,000.
@@ -95,7 +95,7 @@ path='email_modules/dual/05'
 color='white'
 
 	title1 = '''No-Stress Service'''
-	text_box_height = '''230'''
+	text_box_height = '''210'''
 	copy1 = '''We make service simple from day one. Discover how.'''
 	image1 = '''in_edm5_service_journey_20170927'''
 	image1_link_url = '''https://www.youtube.com/watch?v=EpUVjpuhxEE&t=133s/'''
