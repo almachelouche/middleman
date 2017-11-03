@@ -147,7 +147,7 @@ segmentif = ["(user.CustomAttribute['Segment'] == 'A')"]
         4. Colors are indicative only and may vary due to printing constraints.
         <br />
         <br />
-        5. Colors are indicative only and may vary due to printing constraints.
+        5. Accessories shown may not be part of standard fitment. 
         <br />
         <br />
         6. Mentioned offers are valid from 1st November to 30th November 2017.
@@ -177,7 +177,7 @@ segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
         4. Colors are indicative only and may vary due to printing constraints.
         <br />
         <br />
-        5. Colors are indicative only and may vary due to printing constraints.
+        5. Accessories shown may not be part of standard fitment. 
         <br />
         <br />
         6. Mentioned offers are valid from 1st November to 30th November 2017.
