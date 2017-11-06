@@ -29,12 +29,6 @@ color = '''white'''
 segmentelseif = ["(user.CustomAttribute['Segment'] == 'B')"]
 
 	image = '''in_edm5_699_20171103'''
-
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="20"    
     
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
