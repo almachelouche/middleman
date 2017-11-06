@@ -9,6 +9,7 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
 	preheader='''The Ford EcoSport is waiting for you at a nearby dealership!'''
 
+
 [[module]]
 path='email_modules/preheaderbefore'
 
@@ -18,6 +19,20 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 [[module]]
 path='email_modules/body'
+
+[[module]]
+path='email_modules/preheaderbefore'
+
+segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
+
+	preheader='''The Ford EcoSport is waiting for you at a nearby dealership!'''
+
+[[module]]
+path='email_modules/preheaderbefore'
+
+segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
+
+	preheader='''Click through to see the latest offers on the Ford EcoSport the city-sized SUV'''
 
 
 [[module]] #Header Logo
@@ -81,7 +96,7 @@ path='email_modules/cover/03'
 color='''slatescreen'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Built for urban discoveries, this smart SUV makes city driving a breeze. So if you live for hustle, bustle and bright lights, the Ford EcoSport is the perfect match for you. <br /><br /><span style="color:#FFFFFF">Right now, the FordEcoSport Ambiente Manual build prior to 31/05/17 is available at $18,990* Driveaway.</span>'''
+	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Built for urban discoveries, this smart SUV makes city driving a breeze. So if you live for hustle, bustle and bright lights, the Ford EcoSport is the perfect match for you. <br /><br /><span style="color:#FFFFFF">Right now, the Ford EcoSport Ambiente Manual build prior to 31/05/17 is available at $18,990* Driveaway.</span>'''
 
 
 [[module]] #Banner Image

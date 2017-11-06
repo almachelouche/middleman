@@ -1,4 +1,4 @@
-﻿+++
++++
 markets = ["th"]
 title = '''TH Anniversary DH_Test MailMerge'''
 
@@ -19,7 +19,7 @@ path='email_modules/cover/01'
 color='''white'''
  
 	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><strong>ครบรอบ 1 ปีกับรถฟอร์ดคู่ใจของคุณ<span style=" white-space:nowrap;"></span></strong></span>'''
-	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />
+	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี -test คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />
     
     <span style=" white-space:nowrap;"> คุณคงไม่อยากเชื่อใช่ไหมว่าคุณขับรถฟอร์ด Ranger <%${user.CustomAttribute['Model']}%> คันใหม่ของคุณมาครบ1 ปีแล้ว</span><br />
     <span style=" white-space:nowrap;">ฟอร์ดอยากใช้อกาสพิเศษนี้กล่าวคำขอบคุณอีกครั้งที่คุณไว้วางใจเลือกใช้รถยนต์</span><br />

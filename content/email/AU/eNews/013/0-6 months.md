@@ -76,10 +76,10 @@ color='black'
 	title = '''Ford Owners App'''
 	text1 = '''Want more information, tools, and tips right at your fingertips? Try the Ford Owners App.'''
 	text2 = '''<br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Streamline service reminders<br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Locate a dealer/service centre<br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;View "how-to" videos<br />'''
-	cta1_text = '''iOS'''
+	cta1_text = '''iOS*'''
 	cta1_url = '''https://itunes.apple.com/au/app/ford-owners/id990342351?mt=8'''
 	cta1_link_name = '''ios1'''
-	cta2_text = '''ANDROID'''
+	cta2_text = '''ANDROID*'''
 	cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en/'''
 	cta2_link_name = '''android1'''
 	image = '''owner_app_20160328'''
@@ -95,6 +95,8 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 	text='''Disclaimers:<br /><br />
+    * iOS is a trademark of Apple Inc. Android is a trademark of Google Inc.
+    <br /><br />
 	1. The Low Price Tyre Guarantee offer is available on selected tyres of listed brands that are stocked by participating Ford dealers. Competitor tyres must be new, identical and available from an Australian tyre retailer. Offer includes "4 for 3" or similar competitor offers, but excludes competitor cashback offers, gift cards, "wheel and tyre" bundles, tyres purchased under an instalment payment plan, clearance and liquidation stock and any competitor quotes that cannot be verified. Offer is available to private retail and Blue Business Fleet customers. Includes valid competitor's quote within 30 days after purchase. Various adjustments, including fitment and freight, apply to ensure a like-for-like price comparison.
     See your participating Ford dealer for full terms and conditions. Ford reserves the right to vary or withdraw the Low Price Tyre Guarantee offer at any time.'''
 
