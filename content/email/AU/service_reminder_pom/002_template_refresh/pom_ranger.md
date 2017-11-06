@@ -127,7 +127,7 @@ color='white'
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
-color='white'
+    color='white'
 
 [[module]] #Footer Disclaimer 
 path='email_modules/footer/disclaimer'
@@ -135,10 +135,10 @@ color='white'
 
 	text = '''DISCLAIMERS:<br /><br />
 
-1) 'Peace of Mind' Service Inspection expires after 5,000km's or 4 months after delivery of your new Ford (whichever is first).<br /><br />
-2) 800mm water wading available on 4x2 Hi-Rider and 4x4 models only. Achieve when maintain a steady speed of 7kms/hr.<br /><br />
-3) This accessory is a Supplier Branded Accessory and is not manufactured or Warranted by Ford. The warranty is provided by the manufacturer. Contact your authorized Ford dealer for details of the accessory manufacturer’s warranty applicable to this accessory.<br /><br />
-4）Braked towing capacity when fitted with a Genuine Ford Tow pack and accessory Tow Ball, subject to State and Territory towing regulations.'''
+    1) 'Peace of Mind' Service Inspection expires after 5,000km's or 4 months after delivery of your new Ford (whichever is first).<br /><br />
+    2) 800mm water wading available on 4x2 Hi-Rider and 4x4 models only. Achieve when maintain a steady speed of 7kms/hr.<br /><br />
+    3) This accessory is a Supplier Branded Accessory and is not manufactured or Warranted by Ford. The warranty is provided by the manufacturer. Contact your authorized Ford dealer for details of the accessory manufacturer’s warranty applicable to this accessory.<br /><br />
+    4）Braked towing capacity when fitted with a Genuine Ford Tow pack and accessory Tow Ball, subject to State and Territory towing regulations.'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
