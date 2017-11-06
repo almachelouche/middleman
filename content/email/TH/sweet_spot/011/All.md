@@ -163,6 +163,25 @@ color='''white'''
 	cta1_url = '''https://www.ford.co.th/owner/servicecampaign/'''
 	cta1_link_name = '''commodity_offers'''
 
+	[[module]] #Cover 05
+path='email_modules/cover/02'
+color='''white'''
+
+	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
+	<span style=" white-space:nowrap;">ข้อมูลของคุณมีการ<br />
+	<span style=" white-space:nowrap;">เปลี่ยนแปลงหรือไม่</span></span>'''
+
+	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
+	<span style=" white-space:nowrap;">กรุณาอัพเดทข้อมูลของคุณ</span>
+	<span style=" white-space:nowrap;">เพื่อให้คุณไม่พลาด</span><br />
+	<span style=" white-space:nowrap;">ข้อเสนอพิเศษต่างๆ</span>
+	<span style=" white-space:nowrap;">จากฟอร์ด</span></span>'''
+
+	cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">อัพเดทข้อมูล</span>'''
+	cta1_url = '''https://www.ford.co.th/#/overlay/content/ford/th/th_th/site-wide-content/overlays/form-overlay/login/'''
+	cta1_link_name = '''anything_changed'''
+	icon = '''th_edm2_ownerprofile_20160801'''
+
 [[module]]
 path='email_modules/footer/th/social'
 color='white'

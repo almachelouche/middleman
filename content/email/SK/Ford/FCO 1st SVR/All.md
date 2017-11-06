@@ -53,7 +53,7 @@ cta1_link_name='''find_dealer'''
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''vn_edm5_osp_20170223'''
+	image = '''fco_edm3_oilpackage_20171107'''
 
 [[module]] #Cover 02
 path='email_modules/cover/02'

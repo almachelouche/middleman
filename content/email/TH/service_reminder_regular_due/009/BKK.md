@@ -168,34 +168,25 @@ color='''white'''
 	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ศึกษารายละเอียดเพิ่มเติม</span>'''
 	cta1_url='''https://www.ford.co.th/buying/solutions/premium-protection-plus'''
 	cta1_link_name = '''ppp'''
-    
-    [[module]]
+
+	[[module]] #Cover 05
 path='email_modules/cover/02'
 color='''white'''
 
-	icon='''th_edm3_extendedwarranty_20160921'''
-	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">โปรแกรมขับขี่อุ่นใจ</span>'''
-	copy='''
-		<span style="font-family:Tahoma, Verdana, Sans-serif">
-			<span style="white-space:nowrap;">สบายใจ งบไม่บานปลาย</span>  
-			<span style="white-space:nowrap;">เมื่อซื้อโปรแกรมขับขี่อุ่นใจ</span> 
-			<span style="white-space:nowrap;">ก่อนรถฟอร์ดของคุณครบ 9 เดือน</span>
-			<br /> 
-			<span style="white-space:nowrap;">หรือ 15,000 กิโลเมตร</span>   
-			<span style="white-space:nowrap;">(แล้วแต่อย่างหนึ่งอย่างใดถึงก่อน)</span><br />  
-			<span style="white-space:nowrap;">โปรแกรมนี้ช่วยเพิ่มความอุ่นใจ</span>
-			<span style="white-space:nowrap;">ในการขับขี่รถยนต์ให้คุณทุกเส้นทาง</span><br />  
-			<span style="white-space:nowrap;">โดยไม่ต้องกังวลกับค่าใช้จ่าย</span>  
-			<span style="white-space:nowrap;">หรือ</span> 
-			<span style="white-space:nowrap;">การซ่อมแซมที่ไม่คาดคิด</span>
-			<span style="white-space:nowrap;">ที่อาจเกิดขึ้นในอนาคต</span><br />   
-			<span style="white-space:nowrap;">และยังช่วยเพิ่มมูลค่า</span> 
-			<span style="white-space:nowrap;">ในการขายรถต่อในอนาคตอีกด้วย</span>
-		</span>
-	'''
-	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ศึกษารายละเอียดเพิ่มเติม</span>'''
-	cta1_url='''http://www.ford.co.th/buying/solutions/premium-protection-plus'''
-	cta1_link_name = '''ppp'''
+	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
+	<span style=" white-space:nowrap;">ข้อมูลของคุณมีการ<br />
+	<span style=" white-space:nowrap;">เปลี่ยนแปลงหรือไม่</span></span>'''
+
+	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
+	<span style=" white-space:nowrap;">กรุณาอัพเดทข้อมูลของคุณ</span>
+	<span style=" white-space:nowrap;">เพื่อให้คุณไม่พลาด</span><br />
+	<span style=" white-space:nowrap;">ข้อเสนอพิเศษต่างๆ</span>
+	<span style=" white-space:nowrap;">จากฟอร์ด</span></span>'''
+
+	cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">อัพเดทข้อมูล</span>'''
+	cta1_url = '''https://www.ford.co.th/#/overlay/content/ford/th/th_th/site-wide-content/overlays/form-overlay/login/'''
+	cta1_link_name = '''anything_changed'''
+	icon = '''th_edm2_ownerprofile_20160801'''
 
 [[module]]
 

@@ -51,7 +51,6 @@ color='white'
 	cta1_link_name = '''latest_offers'''
 	cta1_icon = '''more'''
 
-
 [[module]]
 path='email_modules/split/03'
 color='green'
@@ -106,7 +105,6 @@ color='white'
 	cta2_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">อัพเดทข้อมูล</span>'''
 	cta2_url = '''https://www.ford.co.th/#/overlay/content/ford/th/th_th/site-wide-content/overlays/form-overlay/login'''
 	cta2_link_name = '''anything_changed'''
-
 
 [[module]] #TH Social
 path='email_modules/footer/th/social'
