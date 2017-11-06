@@ -27,14 +27,6 @@ path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
 	image = '''vn_edm1&4_np_newranger_20160801'''
-    
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-
-	image='''vn_edm1_member_20171106'''
-	url_link='''https://www.ford.com.vn/'''
-	url_link_name='''member'''
 
 [[module]]
 path='email_modules/cover/02'
@@ -45,6 +37,14 @@ copy='''Quý vị có một người bạn yêu thích dòng Ford cũng như qu�
 cta1_text='''GIỚI THIỆU NGAY, GIÀNH CHIẾN THẮNG'''
 cta1_url='''https://www.ford.com.vn/'''
 cta1_link_name = '''member'''
+
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+
+	image='''vn_edm1_member_20171106'''
+	url_link='''https://www.ford.com.vn/'''
+	url_link_name='''member'''
 
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
