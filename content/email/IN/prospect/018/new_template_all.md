@@ -52,13 +52,6 @@ color='white'
 
 	height="30"
     
-    
-[[module]]
-path='email_modules/singles/title'
-color='''white'''
-
-	title = '''This deal can't last'''   
-    
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
