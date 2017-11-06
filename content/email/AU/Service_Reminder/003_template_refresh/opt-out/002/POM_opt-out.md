@@ -58,9 +58,6 @@ color='white'
                 If you would like to subscribe to receive more information like this you can do so <a href="https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/enews.html" name="terms11" style="text-decoration:underline; color:#91a4b1"> here</a>.
                 '''
 
-https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/enews.html
-
-
 [[module]]
 path='email_modules/footer/au/online'
 color='white'
