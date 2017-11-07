@@ -159,22 +159,20 @@ title1='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหม�
 	icon1='''th_edm2_call_20160801'''
 
 	title2='''<span style="font-family:Tahoma, Verdana, Sans-serif">ศูนย์ข้อมูลเจ้าของรถ</span>'''
-	copy2='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="color:#616161; font-size:16px">ทุกความช่วยเหลือที่คุณต้องการง่ายๆ</span><br /> 
-<span style="color:#616161; font-size:16px">ในที่เดียว</span> 
-<span style="white-space:nowrap; color:#616161; font-size:16px"> สำหรับเจ้าของรถฟอร์ดเท่านั้น</span></span>'''
-cta2a_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">วิดีโอสาธิตวิธีการใช้งาน<br />คุณสมบัติต่างๆ</span>'''
-	cta2a_url='''https://www.ford.co.th/owner/owner-unauthenticated/'''
-	cta2a_link_name = '''owner_center'''
-	cta2b_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ผลิตภัณฑ์และบริการของฟอร์ด</span>'''
+	copy2=''''''
+cta2a_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">กรุณาอัพเดทข้อมูลของคุณ เพื่อให้คุณไม่พลาด</span>
+<br/>
+<span style="font-family:Tahoma, Verdana, Sans-serif">ข้อเสนอพิเศษต่างๆ จากฟอร์ด</span>
+'''
+	cta2a_url='''https://www.ford.co.th/#/overlay/content/ford/th/th_th/site-wide-content/overlays/form-overlay/login/'''
+	cta2a_link_name = '''anything_changed''' 
+cta2b_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">วิดีโอสาธิตวิธีการใช้งาน<br />คุณสมบัติต่างๆ</span>'''
 	cta2b_url='''https://www.ford.co.th/owner/owner-unauthenticated/'''
 	cta2b_link_name = '''owner_center'''
+	cta2c_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ผลิตภัณฑ์และบริการของฟอร์ด</span>'''
+	cta2c_url='''https://www.ford.co.th/owner/owner-unauthenticated/'''
+	cta2c_link_name = '''owner_center'''
 	icon2='''th_edm2_ownerprofile_20160801'''
-
-copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-	<span style=" white-space:nowrap;">กรุณาอัพเดทข้อมูลของคุณ</span>
-	<span style=" white-space:nowrap;">เพื่อให้คุณไม่พลาด</span><br />
-	<span style=" white-space:nowrap;">ข้อเสนอพิเศษต่างๆ</span>
-	<span style=" white-space:nowrap;">จากฟอร์ด</span></span>'''
 
 [[module]] #TH Social
 path='email_modules/footer/th/social'
