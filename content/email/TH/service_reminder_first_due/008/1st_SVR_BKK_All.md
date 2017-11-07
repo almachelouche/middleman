@@ -160,8 +160,7 @@ title1='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหม�
 
 	title2='''<span style="font-family:Tahoma, Verdana, Sans-serif">ศูนย์ข้อมูลเจ้าของรถ</span>'''
 	copy2=''''''
-cta2a_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">กรุณาอัพเดทข้อมูลของคุณ เพื่อให้คุณไม่พลาด<br/>ข้อเสนอพิเศษต่างๆ จากฟอร์ด</span>
-'''
+cta2a_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">กรุณาอัพเดทข้อมูลของคุณ<br/>เพื่อให้คุณไม่พลาด<br/>ข้อเสนอพิเศษต่างๆ จากฟอร์ด</span>'''
 	cta2a_url='''https://www.ford.co.th/#/overlay/content/ford/th/th_th/site-wide-content/overlays/form-overlay/login/'''
 	cta2a_link_name = '''anything_changed''' 
 cta2b_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">วิดีโอสาธิตวิธีการใช้งาน<br />คุณสมบัติต่างๆ</span>'''
