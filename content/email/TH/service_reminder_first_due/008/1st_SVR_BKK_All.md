@@ -163,12 +163,9 @@ title1='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหม�
 cta2a_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">กรุณาอัพเดทข้อมูลของคุณ<br/>เพื่อให้คุณไม่พลาด<br/>ข้อเสนอพิเศษต่างๆ จากฟอร์ด</span>'''
 	cta2a_url='''https://www.ford.co.th/#/overlay/content/ford/th/th_th/site-wide-content/overlays/form-overlay/login/'''
 	cta2a_link_name = '''anything_changed''' 
-cta2b_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">วิดีโอสาธิตวิธีการใช้งาน<br />คุณสมบัติต่างๆ</span>'''
+	cta2b_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ผลิตภัณฑ์และบริการของฟอร์ด</span>'''
 	cta2b_url='''https://www.ford.co.th/owner/owner-unauthenticated/'''
 	cta2b_link_name = '''owner_center'''
-	cta2c_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ผลิตภัณฑ์และบริการของฟอร์ด</span>'''
-	cta2c_url='''https://www.ford.co.th/owner/owner-unauthenticated/'''
-	cta2c_link_name = '''owner_center'''
 	icon2='''th_edm2_ownerprofile_20160801'''
 
 [[module]] #TH Social
