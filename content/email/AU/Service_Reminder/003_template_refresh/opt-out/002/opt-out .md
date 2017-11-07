@@ -32,10 +32,10 @@ color='''white'''
 		 This is just a friendly reminder that your Ford <%${user.CustomAttribute['Model']}%> is nearly due for its <%${user.CustomAttribute['Service_Interval']}%>km service. 
 		<br />
 		<br />
-        We know how important your <%${user.CustomAttribute['Model']}%> is to you, and maintaining regular servicing intervals will ensure your Ford <%${user.CustomAttribute['Model']}%> runs at its absolute best.  
+        We know how important your <%${user.CustomAttribute['Model']}%> is to you, and maintaining regular servicing intervals will ensure your Ford runs at its absolute best.  
     	<br />
     	<br />
-    	Book your service with <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, or find your <a href="https://www.ford.com.au/dealership/" style="text-decoration:underline; color:#2D96CD">nearest dealer</a>.
+    	We invite you to consider <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> to service your vehicle. They can be contacted on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span>, or you can find another local Ford Dealer <a href="https://www.ford.com.au/dealership/" style="text-decoration:underline; color:#2D96CD">here</a>.
     '''
 
 [[module]]
@@ -61,7 +61,7 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 	text = '''DISCLAIMERS:<br /><br />
-				1) Receiving this email does not mean that you are subscribed to receive Ford marketing communications. If you have subscribed and wish to unsubscribe or change your preferences, click unsubscribe.
+                * Receiving this email does not mean that you are subscribed to receive Ford marketing communications. If you have subscribed and wish to unsubscribe or change your preferences, click below to unsubscribe.
                 <br/> <br/>
                 If you would like to subscribe to receive more information like this you can do so <a href="https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/enews.html" name="terms11" style="text-decoration:underline; color:#91a4b1"> here</a>.
                 '''
