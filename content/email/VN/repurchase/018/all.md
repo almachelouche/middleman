@@ -27,6 +27,10 @@ color='fordblue'
 	cta1_icon = '''more'''
 	image = '''vn_edm5_loyaltyoffer_20170728'''
 
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
