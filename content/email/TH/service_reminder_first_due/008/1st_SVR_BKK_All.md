@@ -170,12 +170,11 @@ cta2a_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">วิดี
 	cta2b_link_name = '''owner_center'''
 	icon2='''th_edm2_ownerprofile_20160801'''
 
-copy3='''
-<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style="color:#616161; font-size:16px">กรุณาอัพเดทข้อมูลของคุณ เพื่อให้คุณไม่พลาด</span>
-<br /> 
-<span style="color:#616161; font-size:16px">ข้อเสนอพิเศษต่างๆ จากฟอร์ด</span> 
-'''
+copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
+	<span style=" white-space:nowrap;">กรุณาอัพเดทข้อมูลของคุณ</span>
+	<span style=" white-space:nowrap;">เพื่อให้คุณไม่พลาด</span><br />
+	<span style=" white-space:nowrap;">ข้อเสนอพิเศษต่างๆ</span>
+	<span style=" white-space:nowrap;">จากฟอร์ด</span></span>'''
 
 [[module]] #TH Social
 path='email_modules/footer/th/social'
