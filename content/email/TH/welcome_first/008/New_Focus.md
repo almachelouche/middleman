@@ -115,7 +115,8 @@ color='green'
     <span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า</span>
     '''
 	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
-<span style="white-space:nowrap;">โปรแกรมบำรุงรักษารถยนต์ตามระยะ (SSP)</span>
+<span style="white-space:nowrap;">โปรแกรมบำรุงรักษ</span>
+<span style="white-space:nowrap;">ารถยนต์ตามระยะ (SSP)</span>
 <span style="white-space:nowrap;">ประหยัดสูงสุดถึง 3,000 บาท</span> 
 <span style="white-space:nowrap;">พิเศษรับสิทธิ์ผ่อน 0% นาน 10 เดือน</span>
 <span style="white-space:nowrap;">เมื่อชำระผ่านบัตรเครดิตกสิกรไทย</span>
