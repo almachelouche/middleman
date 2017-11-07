@@ -12,7 +12,7 @@ path='email_modules/preheader'
 path='email_modules/image/banner'
 color='white'
 
-	image = '''AU_edm2_optout_20171009'''
+	image = '''AU_edm2_optout_20171107'''
 	url_link = '''https://www.ford.com.au/owners/service/'''
 
 [[module]]
