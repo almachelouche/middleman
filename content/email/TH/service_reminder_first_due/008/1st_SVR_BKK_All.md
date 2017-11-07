@@ -169,8 +169,7 @@ cta2a_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">วิดี
 	cta2b_url='''https://www.ford.co.th/owner/owner-unauthenticated/'''
 	cta2b_link_name = '''owner_center'''
 	icon2='''th_edm2_ownerprofile_20160801'''
-
-copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
+    copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
 	<span style=" white-space:nowrap;">กรุณาอัพเดทข้อมูลของคุณ</span>
 	<span style=" white-space:nowrap;">เพื่อให้คุณไม่พลาด</span><br />
 	<span style=" white-space:nowrap;">ข้อเสนอพิเศษต่างๆ</span>
