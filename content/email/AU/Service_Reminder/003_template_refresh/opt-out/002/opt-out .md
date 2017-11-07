@@ -35,7 +35,7 @@ color='''white'''
         We know how important your <%${user.CustomAttribute['Model']}%> is to you, and maintaining regular servicing intervals will ensure your Ford runs at its absolute best.  
     	<br />
     	<br />
-    	We invite you to consider <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> to service your vehicle. They can be contacted on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> today, , or you can find another local Ford Dealer <a href="https://www.ford.com.au/dealership/" style="text-decoration:underline; color:#2D96CD">here</a>.
+    	We invite you to consider <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> to service your vehicle. They can be contacted on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span> , or you can find another local Ford Dealer <a href="https://www.ford.com.au/dealership/" style="text-decoration:underline; color:#2D96CD">here</a>.
     '''
 
 [[module]]
