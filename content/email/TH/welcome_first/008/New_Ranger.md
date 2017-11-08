@@ -24,11 +24,12 @@ color='''white'''
 <span style=" white-space:nowrap;">ให้เป็นเพื่อนร่วมทางของคุณ</span>
 <br />
 <br />
-<span style=" white-space:nowrap;">เราจะส่งข่าวสาร</span>
-<span style=" white-space:nowrap;">และข้อมูลกิจกรรมที่เป็นประโยชน์</span>
-<span style=" white-space:nowrap;">ให้แก่คุณอย่างต่อเนื่อง</span>
-<br />
-<span style=" white-space:nowrap;">เพราะคุณเป็นส่วนหนึ่งของครอบครัวฟอร์ด</span>
+    <span style=" white-space:nowrap;">เราจะส่งข่าวสาร</span>
+    <span style=" white-space:nowrap;">และข้อมูลกิจกรรมที่เป็นประโยชน์</span>
+    <span style=" white-space:nowrap;">ให้แก่คุณอย่างต่อเนื่อง</span>
+    <span style=" white-space:nowrap;">เพราะคุณเป็น</span>
+    <br />
+    <span style=" white-space:nowrap;">ส่วนหนึ่งของครอบครัวฟอร์ด</span>
 <br />
 <br />
 <span style=" white-space:nowrap;">ขอให้คุณมีความสุขกับการขับขี่</span> 
