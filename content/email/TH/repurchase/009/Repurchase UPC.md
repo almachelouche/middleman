@@ -62,7 +62,9 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 <br />
 <span style="white-space:nowrap;">พี่น้องร่วมบิดามารดา และบุตร)</span>
 <br /> 
-<span style="white-space:nowrap;">เมื่อซื้อรถฟอร์ดทุกรุ่น ยกเว้นฟอร์ด โฟกัส ใหม่</span>
+<span style="white-space:nowrap;">เมื่อซื้อรถฟอร์ดทุกรุ่น</span> 
+<br />
+<span style="white-space:nowrap;">ยกเว้นฟอร์ด โฟกัส ใหม่</span>
 <br />
 <span style="white-space:nowrap;">ตั้งแต่ วันที่1-30 พฤศจิกายน 2560 เท่านั้น</span>
 '''
