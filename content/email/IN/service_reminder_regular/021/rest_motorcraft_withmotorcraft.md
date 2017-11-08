@@ -14,7 +14,7 @@ path='email_modules/preheaderbefore'
 
 segmentelseif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 
-	 preheader = '''Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon. Hello <%${user.CustomAttribute['FullName']}%>Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.'''
+	 preheader = '''Your <%${user.CustomAttribute['Model']}%> was due for service on <%${user.CustomAttribute['NextServiceDate']}%>. It's important to service regularly. Hello <%${user.CustomAttribute['FullName']}%>Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.'''
 
 [[module]]
 path='email_modules/body'
@@ -32,7 +32,7 @@ path='email_modules/preheaderafter'
 
 segmentelseif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 
-    preheader = '''Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon. Hello <%${user.CustomAttribute['FullName']}%>Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.'''
+    preheader = '''Your <%${user.CustomAttribute['Model']}%> was due for service on <%${user.CustomAttribute['NextServiceDate']}%>. It's important to service regularly. Hello <%${user.CustomAttribute['FullName']}%>Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.'''
  
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -71,7 +71,7 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
 
-	copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Long time, no see! Your Ford <%${user.CustomAttribute['Model']}%> is due for service, and our experts can't wait to make sure it's running at its absolute best.<br /><br />Your next service is due on: <% ${user.CustomAttribute['NextServiceDate']} %><br /><br />Too busy to visit a service centre? No problem. We'll pick up your vehicle from your home, and return it to you when service is done.'''
+	copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Long time, no see! Your Ford <%${user.CustomAttribute['Model']}%> is due for service, and our experts can't wait to make sure it's running at its absolute best.<br /><br />Your next service is due on: <%${user.CustomAttribute['NextServiceDate']}%><br /><br />Too busy to visit a service centre? No problem. We'll pick up your vehicle from your home, and return it to you when service is done.'''
     
 [[module]]
 path='email_modules/singles/copy'
