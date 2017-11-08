@@ -26,15 +26,15 @@ color='''white'''
 	copy = '''
     <span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">ฟอร์ดขอขอบคุณที่คุณเลือกเรา</span>
     <span style="white-space:nowrap;">ให้เป็นเพื่อนร่วมทางของคุณ</span>
-    <br /><br />
-    <span style="white-space:nowrap;">เราจะส่งข่าวสาร</span>
-    <span style="white-space:nowrap;">และข้อมูลกิจกรรมที่เป็นประโยชน์</span>
     <br />
-    <span style="white-space:nowrap;">ให้แก่คุณอย่างต่อเนื่อง</span> 
-    <span style="white-space:nowrap;">เพราะคุณเป็นส่วนหนึ่ง</span>
     <br />
-    <span style="white-space:nowrap;">ของครอบครัวฟอร์ด</span>
-    <br /><br />
+    <span style=" white-space:nowrap;">เราจะส่งข่าวสาร</span>
+    <span style=" white-space:nowrap;">และข้อมูลกิจกรรมที่เป็นประโยชน์</span>
+    <span style=" white-space:nowrap;">ให้แก่คุณอย่างต่อเนื่อง</span>
+    <br />
+    <span style=" white-space:nowrap;">เพราะคุณเป็นส่วนหนึ่งของครอบครัวฟอร์ด</span>
+    <br />
+    <br />
     <span style="white-space:nowrap;">ขอให้คุณมีความสุขกับการขับขี่</span> 
     <span style="white-space:nowrap;">Everest ค่ะ </span></span>
     '''
@@ -160,20 +160,23 @@ path='email_modules/cover/01'
 
 color='slatescreen'
 title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ถาม ตอบ</span>'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style="white-space:nowrap;">Q: ทำไมจึงต้องมี</span>
-<span style="white-space:nowrap;">Ford Roadside Assistance</span>
-<span style="white-space:nowrap;">สำหรับรถใหม่</span><br /><br />
-<span style="white-space:nowrap;">A: เพราะระบบช่วยเหลือฉุกเฉินของเรา</span>
-<span style="white-space:nowrap;">ไม่เพียงครอบคลุมการคุ้มครองอะไหล่</span>
-<span style="white-space:nowrap;">และเครื่องยนต์</span>
+copy='''
+<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">Q: ทำไมจึงต้องมี</span>
+<span style=" white-space:nowrap;">Ford Roadside Assistance</span>
+<span style=" white-space:nowrap;">สำหรับรถใหม่</span>
+<br />
+<br />
+<span style=" white-space:nowrap;">A: เพราะระบบช่วยเหลือฉุกเฉินของเรา</span>
+<span style=" white-space:nowrap;">ไม่เพียงครอบคลุมการคุ้มครองอะไหล่</span>
+<span style=" white-space:nowrap;">และเครื่องยนต์</span>
 <span style="white-space:nowrap;">ตลอดอายุการใช้งานเท่านั้น</span>
-<span style="white-space:nowrap;">แต่ยังรวมถึงการช่วยเหลือ</span>
-<span style="white-space:nowrap;">ในกรณีเหตุฉุกเฉินอื่นๆ</span>
-<span style="white-space:nowrap;">เช่น</span>
-<span style="white-space:nowrap;">การลืมกุญแจไว้ในรถ</span><br />
-<span style="white-space:nowrap;">หรือเมื่อน้ำมันหมดกลางทาง เป็นต้น</span></span>'''
-cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="white-space:nowrap;">อ่านต่อ</span></span>'''
+<span style=" white-space:nowrap;">แต่ยังรวมถึงการช่วยเหลือ</span>
+<span style=" white-space:nowrap;">ในกรณีเหตุฉุกเฉินอื่นๆ</span>
+<span style=" white-space:nowrap;">เช่น</span>
+<span style=" white-space:nowrap;">การลืมกุญแจไว้ในรถ</span>
+<span style=" white-space:nowrap;">หรือเมื่อน้ำมันหมดกลางทาง เป็นต้น</span></span>
+'''
+cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">อ่านต่อ</span></span>'''
 cta1_url='''https://www.ford.co.th/owner/road-assistance/'''
 cta1_link_name = '''QA'''
 cta1_icon='''more'''
