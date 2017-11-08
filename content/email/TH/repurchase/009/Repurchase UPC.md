@@ -23,18 +23,32 @@ color='white'
 	<span style="white-space:nowrap;">ในเดือนกันยายน</span></span>'''
 	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 	สวัสดีคุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>
-	<br />ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />
-
+	<br />ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%>
+    <br />
+    <br />
 	<span style="white-space:nowrap;">เราหวังว่าคุณจะได้รับความพึงพอใจ</span>
 	<span style="white-space:nowrap;">จากการเป็นเจ้าของรถฟอร์ด</span> 
-	<span style="white-space:nowrap;"><%${user.CustomAttribute['Model']}%> </span><br />
+	<span style="white-space:nowrap;"><%${user.CustomAttribute['Model']}%> </span>
+    <br />
 	<span style="white-space:nowrap;">และได้เข้ามาร่วมเป็นส่วนหนึ่ง</span>
-	<span style="white-space:nowrap;">ในครอบครัวของเรา!</span><br /><br />
-
-	<span style="white-space:nowrap;">หากคุณกำลังพิจาร</spam>ณา<span style="white-space:nowrap;">มองหารถคันใหม่</span><br />
+	<span style="white-space:nowrap;">ในครอบครัวของเรา!</span>
+    <br />
+    <br />
+	<span style="white-space:nowrap;">หากคุณกำลังพิจาร</spam>ณา<span style="white-space:nowrap;">มองหารถคันใหม่</span>
+    <br />
 	<span style="white-space:nowrap;">เราอยากเชิญคุณ</span>
-	<span style="white-space:nowrap;">มาพบกับข้อเสนอสุดพิเศษ</span><br />
+	<span style="white-space:nowrap;">มาพบกับข้อเสนอสุดพิเศษ</span>
+    <br />
 	<span style="white-space:nowrap;">เพียงลงทะเบียนทดลองขับ ที่โชว์รูมฟอร์ด</span>
+    <br />
+    <br />
+    <span style="white-space:nowrap;">เราขอมอบข้อเสนอสุดพิเศษให้กับคุณ</span>
+    <br />
+	<span style="white-space:nowrap;">ดอกเบี้ย 0% พร้อมฟรีประกันชั้น 1</span>
+    <br />
+	<span style="white-space:nowrap;">สำหรับรถฟอร์ดเรนเจอร์ ฟอร์ดเอเวอเรสต์ ฟอร์ดเอคโค่สปอร์ต</span>
+    <br />
+	<span style="white-space:nowrap;">ตั้งแต่วันนี้ ถึง 31 ธันวาคม 2560</span>
     <br />
     <br />
 	<span style="white-space:nowrap;">หากคุณสนใจ</span>
@@ -66,7 +80,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 <br />
 <span style="white-space:nowrap;">ยกเว้นฟอร์ด โฟกัส ใหม่</span>
 <br />
-<span style="white-space:nowrap;">ตั้งแต่ วันที่1-30 พฤศจิกายน 
+<span style="white-space:nowrap;">ตั้งแต่ วันที่1-30 พฤศจิกายน
 <br />
 <span style="white-space:nowrap;">2560 เท่านั้น</span>
 '''
@@ -80,24 +94,7 @@ image = '''th_edm5a_specialoffer_20160801'''
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image=''''''
-
-[[module]] #Cover 01
-path='email_modules/cover/01'
-color='white'
-
-	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
-	<span style="white-space:nowrap;"></span> 
-	<span style="white-space:nowrap;"></span></span>'''
-	copy = '''
-	<span style="white-space:nowrap;">เราขอมอบข้อเสนอสุดพิเศษให้กับคุณ</span>
-    <br />
-	<span style="white-space:nowrap;">ดอกเบี้ย 0% พร้อมฟรีประกันชั้น 1</span>
-    <br />
-	<span style="white-space:nowrap;">สำหรับรถฟอร์ดเรนเจอร์ ฟอร์ดเอเวอเรสต์ ฟอร์ดเอคโค่สปอร์ต</span>
-    <br />
-	<span style="white-space:nowrap;">ตั้งแต่วันนี้ ถึง 31 ธันวาคม 2560</span>
-	'''
+	image='''th_edm5_yescampaign_20171108'''
 
 [[module]] #Dual 01
 path='email_modules/dual/01'
