@@ -134,7 +134,7 @@ color='green'
 <br />
 <span style="white-space:nowrap;">คลิกเพื่อดูรายละเอียดราคา</span>
 '''
-	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา ></span>'''
+	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
 cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
 cta1_icon='''more'''
 cta1_link_name = '''SSP'''

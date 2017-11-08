@@ -46,6 +46,14 @@ cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดห�
 cta1_url='''https://onlinebooking.ford.co.th/'''
 cta1_link_name = '''book_now'''
 
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+
+	image='''th_60min_express_service_20170829'''
+	url_link='''https://www.ford.co.th/ford-owner/60mins-express-service/'''
+	url_link_name='''60min_express_service'''
+
 [[module]] #Split 04
 path='email_modules/split/04'
 color='green'
@@ -68,7 +76,7 @@ color='green'
 <br />
 <span style="white-space:nowrap;">คลิกเพื่อดูรายละเอียดราคา</span>
 '''
-	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา ></span>'''
+	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
 cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
 cta1_icon='''more'''
 cta1_link_name = '''SSP'''

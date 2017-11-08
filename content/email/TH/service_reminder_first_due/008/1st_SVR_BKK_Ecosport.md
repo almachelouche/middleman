@@ -132,7 +132,7 @@ color='green'
 <br />
 <span style="white-space:nowrap;">คลิกเพื่อดูรายละเอียดราคา</span>
 '''
-	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา ></span>'''
+	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
 cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
 cta1_icon='''more'''
 cta1_link_name = '''SSP'''
@@ -166,27 +166,6 @@ color='''white'''
 	cta1_url='''https://www.ford.co.th/buying/solutions/premium-protection-plus'''
 	cta1_link_name = '''ppp'''
 
-[[module]] #Split 04
-path='email_modules/split/04'
-color='green'
-
-	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า </span>'''
-	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
-<span style="white-space:nowrap;">รับส่วนลดเพิ่มสูงสุด 10%</span>
-<span style="white-space:nowrap;">หรือ 3,700 บาท</span> 
-<span style="white-space:nowrap;">กับโปรแกรมบำรุงรักษารถยนต์</span>
-<span style="white-space:nowrap;">ตามระยะ(SSP)</span>
-<span style="white-space:nowrap;">พิเศษรับสิทธิ์</span>
-<span style="white-space:nowrap;">ผ่อน 0% นาน 10 เดือน</span> 
-<span style="white-space:nowrap;">เมื่อชำระผ่าน</span>
-<span style="white-space:nowrap;">บัตรเครดิตกสิกรไทย</span> 
-<span style="white-space:nowrap;">ตั้งแต่วันนี้ - วันที่ 31 สิงหาคม 2560</span></span>'''
-	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา ></span>'''
-cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
-cta1_icon='''more'''
-cta1_link_name = '''SSP'''
-image = '''th_edm5a_specialoffer_20160801'''
-
 [[module]]
 path='email_modules/dual/03'
 color='white'
@@ -201,12 +180,10 @@ title1='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหม�
 	icon1='''th_edm2_call_20160801'''
 
 	title2='''<span style="font-family:Tahoma, Verdana, Sans-serif">ศูนย์ข้อมูลเจ้าของรถ</span>'''
-	copy2='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="color:#616161; font-size:16px">ทุกความช่วยเหลือที่คุณต้องการง่ายๆ</span><br /> 
-<span style="color:#616161; font-size:16px">ในที่เดียว</span> 
-<span style="white-space:nowrap; color:#616161; font-size:16px"> สำหรับเจ้าของรถฟอร์ดเท่านั้น</span></span>'''
-cta2a_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">วิดีโอสาธิตวิธีการใช้งาน<br />คุณสมบัติต่างๆ</span>'''
-	cta2a_url='''https://www.ford.co.th/owner/owner-unauthenticated/'''
-	cta2a_link_name = '''owner_center'''
+	copy2=''''''
+cta2a_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">กรุณาอัพเดทข้อมูลของคุณ<br/>เพื่อให้คุณไม่พลาด<br/>ข้อเสนอพิเศษต่างๆ จากฟอร์ด</span>'''
+	cta2a_url='''https://www.ford.co.th/#/overlay/content/ford/th/th_th/site-wide-content/overlays/form-overlay/login/'''
+	cta2a_link_name = '''anything_changed''' 
 	cta2b_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ผลิตภัณฑ์และบริการของฟอร์ด</span>'''
 	cta2b_url='''https://www.ford.co.th/owner/owner-unauthenticated/'''
 	cta2b_link_name = '''owner_center'''
