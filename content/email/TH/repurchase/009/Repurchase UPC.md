@@ -66,7 +66,9 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 <br />
 <span style="white-space:nowrap;">ยกเว้นฟอร์ด โฟกัส ใหม่</span>
 <br />
-<span style="white-space:nowrap;">ตั้งแต่ วันที่1-30 พฤศจิกายน 2560 เท่านั้น</span>
+<span style="white-space:nowrap;">ตั้งแต่ วันที่1-30 พฤศจิกายน 
+<br />
+<span style="white-space:nowrap;">2560 เท่านั้น</span>
 '''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ดูเพิ่มเติม</span>'''
 cta1_url='''https://www.ford.co.th/loyaltyprogram2017/'''
