@@ -43,7 +43,7 @@ copy='''
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = ''''''
+	image = '''fco_edm1_explorer_20171109'''
 
 [[module]] #Cover 02
 path='email_modules/cover/02'
@@ -70,7 +70,7 @@ cta1_link_name='''ford_pass'''
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = ''''''
+	image = '''fco_edm1_fordpass_20171109'''
 
 [[module]]
 path='email_modules/split/master/right'
@@ -143,7 +143,7 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">道路紧急�
 	cta1c_text = ''''''
 	cta1c_url = ''''''
 	cta1c_link_name = ''''''
-	icon1 = ''''''
+	icon1 = '''fco_edm1_roadassistance_20171109'''
 	title2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif">链接SYNC3</span>'''
 	copy2 = '''
     <span style="font-family:Tahoma, Verdana, Sans-serif">
@@ -210,6 +210,7 @@ copy='''
     <br/>
     <span style="white-space:nowrap;">800-810-0740</span>
 '''
+icon2 = '''fco_edm1_phone_20171109'''
 
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
