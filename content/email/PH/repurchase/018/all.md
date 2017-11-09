@@ -44,9 +44,9 @@ color='white'
 path='email_modules/cover/02'
 color='''white''' 
 
-	title = '''No Ordinary Test Drive'''
-	copy = '''The Ford Island Conquest test drive event is coming to your city! Come along and put Ford Ranger, Everest, and EcoSport to the ultimate test. This is going to be big.'''
-	cta1_text = '''VIEW DATES'''
+	title = '''Ford test drives coming to you'''
+	copy = '''Ford Island Conquest is not your ordinary test drive. Join us as Ford travels to your city this year with Ford Rangers, Everests and EcoSports geared and ready for you to hop in and take for a spin.<br /><br />You’ll also be able to enjoy giveaways and have a chance to win exclusive discounts – there’s as much as Php 100,000 cash discounts up for grabs!'''
+	cta1_text = '''VIEW DATES & LOCATIONS'''
 	cta1_url = '''https://www.ford.com.ph/ford-island-conquest/'''
 	cta1_link_name = '''fic'''
 

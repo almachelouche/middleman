@@ -22,13 +22,16 @@ color='''white'''
 	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><strong>สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></strong><br />ยินดีต้อนรับสู่ครอบครัวฟอร์ด</span>'''
 	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">ฟอร์ดขอขอบคุณที่คุณเลือกเรา</span>
 <span style=" white-space:nowrap;">ให้เป็นเพื่อนร่วมทางของคุณ</span>
-<br /><br />
+<br />
+<br />
 <span style=" white-space:nowrap;">เราจะส่งข่าวสาร</span>
 <span style=" white-space:nowrap;">และข้อมูลกิจกรรมที่เป็นประโยชน์</span>
-<span style=" white-space:nowrap;">ให้แก่คุณอย่างต่อเนื่อง</span> 
-<span style=" white-space:nowrap;">เพราะคุณเป็นส่วนหนึ่ง</span>
-<span style=" white-space:nowrap;">ของครอบครัวฟอร์ด</span>
-<br /><br />
+<span style=" white-space:nowrap;">ให้แก่คุณอย่างต่อเนื่อง</span>
+<span style=" white-space:nowrap;">เพราะคุณเป็น</span>
+<br />
+<span style=" white-space:nowrap;">ส่วนหนึ่งของครอบครัวฟอร์ด</span>
+<br />
+<br />
 <span style=" white-space:nowrap;">ขอให้คุณมีความสุขกับการขับขี่</span> 
 <span style=" white-space:nowrap;">Fiesta ค่ะ </span></span>'''
 
@@ -111,8 +114,6 @@ color='green'
 <span style="white-space:nowrap;">เมื่อชำระผ่านบัตรเครดิตกสิกรไทย</span>
 <br />
 <span style="white-space:nowrap;">ตั้งแต่วันนี้ – วันที่ 31 ธันวาคม 2560</span>
-<br />
-<span style="white-space:nowrap;">คลิกเพื่อดูรายละเอียดราคา</span>
 '''
 	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
 cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
@@ -135,7 +136,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" whit
 <span style=" white-space:nowrap;">แต่ยังรวมถึงการช่วยเหลือ</span>
 <span style=" white-space:nowrap;">ในกรณีเหตุฉุกเฉินอื่นๆ</span>
 <span style=" white-space:nowrap;">เช่น</span>
-<span style=" white-space:nowrap;">การลืมกุญแจไว้ในรถ</span><br />
+<span style=" white-space:nowrap;">การลืมกุญแจไว้ในรถ</span>
 <span style=" white-space:nowrap;">หรือเมื่อน้ำมันหมดกลางทาง เป็นต้น</span></span>'''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">อ่านต่อ</span></span>'''
 cta1_url='''https://www.ford.co.th/owner/road-assistance/'''

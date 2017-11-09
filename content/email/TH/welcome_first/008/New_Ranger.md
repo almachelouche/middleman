@@ -22,15 +22,19 @@ color='''white'''
 	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><strong>สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></strong><br />ยินดีต้อนรับสู่ครอบครัวฟอร์ด</span>'''
 	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">ฟอร์ดขอขอบคุณที่คุณเลือกเรา</span>
 <span style=" white-space:nowrap;">ให้เป็นเพื่อนร่วมทางของคุณ</span>
-<br /><br />
-<span style=" white-space:nowrap;">เราจะส่งข่าวสาร</span>
-<span style=" white-space:nowrap;">และข้อมูลกิจกรรมที่เป็นประโยชน์</span>
-<span style=" white-space:nowrap;">ให้แก่คุณอย่างต่อเนื่อง</span> 
-<span style=" white-space:nowrap;">เพราะคุณเป็นส่วนหนึ่ง</span>
-<span style=" white-space:nowrap;">ของครอบครัวฟอร์ด</span>
-<br /><br />
+<br />
+<br />
+    <span style=" white-space:nowrap;">เราจะส่งข่าวสาร</span>
+    <span style=" white-space:nowrap;">และข้อมูลกิจกรรมที่เป็นประโยชน์</span>
+    <span style=" white-space:nowrap;">ให้แก่คุณอย่างต่อเนื่อง</span>
+    <span style=" white-space:nowrap;">เพราะคุณเป็น</span>
+    <br />
+    <span style=" white-space:nowrap;">ส่วนหนึ่งของครอบครัวฟอร์ด</span>
+<br />
+<br />
 <span style=" white-space:nowrap;">ขอให้คุณมีความสุขกับการขับขี่</span> 
-<span style=" white-space:nowrap;">Ranger ค่ะ </span></span>'''
+<span style=" white-space:nowrap;">Ranger ค่ะ </span></span>
+'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -123,17 +127,26 @@ color='white'
 title='''<span style="font-family:Tahoma, Verdana, Sans-serif">อุปกรณ์ตกแต่งสำหรับคุณ</span>'''
 copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style="white-space:nowrap;">ให้ฟอร์ด</span>
-<span style="white-space:nowrap;">เรนเจอร์ของคุณ</span> 
-<span style="white-space:nowrap;">ล้ำหน้าไปอีกขั้น</span> <br />
+<span style="white-space:nowrap;">เรนเจอร์ของคุณ</span>
+<br />
+<span style="white-space:nowrap;">ล้ำหน้าไปอีกขั้น</span>
+<br />
 <span style="white-space:nowrap;">ด้วยอุปกรณ์ตกแต่งล่าสุด</span>
-<span style="white-space:nowrap;">ฝาปิดกระบะท้าย</span> <br />
-<span style="white-space:nowrap;">พร้อมชุดติดตั้งกุญแจล๊อค</span><br />
+<br />
 <span style="white-space:nowrap;">ฝาปิดกระบะท้าย</span>
-<span style="white-space:nowrap;">มูลค่า 60,893.-</span> <br />
-<span style="white-space:nowrap;">ที่ทำ</span>จาก<span style="white-space:nowrap;">อลูมิเนียมคุณภาพสูง</span> <br />
+<br />
+<span style="white-space:nowrap;">พร้อมชุดติดตั้งกุญแจล๊อค</span>
+<br />
+<span style="white-space:nowrap;">ฝาปิดกระบะท้าย</span>
+<span style="white-space:nowrap;">มูลค่า 60,893.-</span>
+<br />
+<span style="white-space:nowrap;">ที่ทำ</span>จาก<span style="white-space:nowrap;">อลูมิเนียมคุณภาพสูง</span>
+<br />
 <span style="white-space:nowrap;">น้ำหนักเบา</span>
-<span style="white-space:nowrap;">ปกป้องสัมภาระของคุณ</span><br />
-<span style="white-space:nowrap;">ได้อย่างปลอดภัย</span></span>'''
+<span style="white-space:nowrap;">ปกป้องสัมภาระของคุณ</span>
+<br />
+<span style="white-space:nowrap;">ได้อย่างปลอดภัย</span></span>
+'''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อชมอุปกรณ์เสริมทั้งหมด</span>'''
 cta1_url='''https://www.ford.co.th/trucks/ranger/accessories/#overlay/content/ford/th/th_th/ranger-content/image-overlays/accessories/nudge-bar.html'''
 cta1_link_name = '''acc_new_ranger'''
@@ -158,8 +171,6 @@ color='green'
 <span style="white-space:nowrap;">เมื่อชำระผ่านบัตรเครดิตกสิกรไทย</span>
 <br />
 <span style="white-space:nowrap;">ตั้งแต่วันนี้ – วันที่ 31 ธันวาคม 2560</span>
-<br />
-<span style="white-space:nowrap;">คลิกเพื่อดูรายละเอียดราคา</span>
 '''
 	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
 cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
@@ -182,7 +193,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" whit
 <span style=" white-space:nowrap;">แต่ยังรวมถึงการช่วยเหลือ</span>
 <span style=" white-space:nowrap;">ในกรณีเหตุฉุกเฉินอื่นๆ</span>
 <span style=" white-space:nowrap;">เช่น</span>
-<span style=" white-space:nowrap;">การลืมกุญแจไว้ในรถ</span><br />
+<span style=" white-space:nowrap;">การลืมกุญแจไว้ในรถ</span>
 <span style=" white-space:nowrap;">หรือเมื่อน้ำมันหมดกลางทาง เป็นต้น</span></span>'''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">อ่านต่อ</span></span>'''
 cta1_url='''https://www.ford.co.th/owner/road-assistance/'''
