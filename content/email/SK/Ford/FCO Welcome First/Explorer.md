@@ -128,7 +128,7 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">道路紧急�
     <br />
     <span style=" white-space:nowrap;">随时可获得来自福特的
     <br />
-    <span style=" white-space:nowrap;">迅捷、专业、妥善的免费道路救援服务*。</span>
+    <span style=" white-space:nowrap;">迅捷、专业的免费道路救援服务*。</span>
     <br />
     <span style=" white-space:nowrap;">如有需要，请即刻拔打24小时热线。</span>
     <br />
@@ -202,7 +202,7 @@ cta1_link_name='''special_offer'''
 path='email_modules/cover/02'
 color='fordblue'
 
-icon=''''''
+icon='''fco_edm1_phone_20171109'''
 title='''<span style="white-space:nowrap;">福特进口车客户服务热线</span>'''
 copy='''
     <span style="white-space:nowrap;">以专业服务为您提供在线帮助，服务时间：8：00-20：00。如有需要，敬请致电：</span>
@@ -210,7 +210,14 @@ copy='''
     <br/>
     <span style="white-space:nowrap;">800-810-0740</span>
 '''
-icon2 = '''fco_edm1_phone_20171109'''
+
+[[module]]
+path='email_modules/footer/4icons'
+color='white'
+
+	icon1_url=''''''
+	icon1_link_name = '''fco_sinaweibo'''
+	icon1_image='''fco_edm1_weibo_201171109'''
 
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
