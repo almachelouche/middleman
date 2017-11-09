@@ -38,18 +38,23 @@ color='''white'''
     	We invite you to consider <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Name']}%></span> to service your vehicle. They can be contacted on <span style="color:#2D96CD"><%${user.CustomAttribute['Dealer_Phone']}%></span>, or you can find another local Ford Dealer <a href="https://www.ford.com.au/dealership/" style="text-decoration:underline; color:#2D96CD">here</a>.
     '''
     
-    [[module]] #Cover 13
-path='email_modules/cover/04'
-color='white'
+    
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
 
-	title = '''Cover 13'''
-	copy = '''Keep up to date with the latest news, offers, and important announcements from Ford. Re-subscribe to Ford emails.'''
+	copy = '''
+		Keep up to date with the latest news, offers, and important announcements from Ford. Re-subscribe to Ford emails.
+    '''
+    
+
+    [[module]]
+path='email_modules/singles/ctablock'
+color='''fordblue'''
+
+	cta1_text = '''Re-subscribe'''
 	cta1_url = '''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/enews.html'''
-	cta1_text = '''Re-subscribeE'''
-	cta1_icon = '''more'''
-	cta1_link_name = '''moreinfo'''
-    
-    
+	cta1_link_name = ''''''
     
 [[module]]
 path='email_modules/spacer/default'
