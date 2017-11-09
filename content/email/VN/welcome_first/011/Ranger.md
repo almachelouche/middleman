@@ -32,10 +32,10 @@ color = '''white'''
 path='email_modules/cover/02'
 
 color='''white'''
-title='''Giới thiệu và Chiến thắng'''
-copy='''Quý vị có một người bạn yêu thích dòng Ford cũng như quý vị? Hãy giới thiệu họ là Ford Lover trên trang web của chúng tôi, và quý vị có thể chiến thắng đến 2 triệu đồng trong các phiếu dịch vụ. Chương trình sẽ kết thúc vào ngày 31 tháng 12 năm 2017. '''
+title='''Giới thiệu khách hàng và nhận ngay quà tặng'''
+copy='''Quý vị có người thân và bạn bè đang có dự định mua xe Ford? Hãy giới thiệu họ với chúng tôi bằng cách điền vào "phiếu giới thiệu khách hàng tiềm năng" trên trang www.ford.com.vn, vào mục chủ xe, và quý vị có thể nhận ngay quà tặng phiếu dịch vụ trị giá đến 2 triệu đồng. Chương trình sẽ kết thúc vào ngày 31 tháng 12 năm 2017.'''
 cta1_text='''GIỚI THIỆU NGAY, GIÀNH CHIẾN THẮNG'''
-cta1_url='''https://www.ford.com.vn/'''
+cta1_url='''https://www.ford.com.vn/owner/owner-gets-owner/'''
 cta1_link_name = '''member'''
 
 [[module]] #Banner Image
