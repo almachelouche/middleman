@@ -13,7 +13,7 @@ path='email_modules/header/enews'
 color='black'
 
 	title = '''Insider'''
-	date = '''<span style="font-family:Tahoma, Verdana, Sans-serif">26 กันยายน 2560</span>'''
+	date = '''<span style="font-family:Tahoma, Verdana, Sans-serif">24 พฤศจิกายน 2560</span>'''
 	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
 	IN THIS ISSUE<br /> 
 	<span style="white-space:nowrap;">WATCH: 100 Years of Trucks</span> |<br /> 
@@ -29,16 +29,15 @@ title = '''
 '''
 copy = '''
 <span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style="white-space:nowrap;">โลกของการขับออฟโรดกำลังจะหฤโหดขึ้นอีกเล็กน้อย</span>
+<span style="white-space:nowrap;">ฟอร์ด มอเตอร์ คัมปะนี ประกาศเปิดตัวรถกระบะสายพันธุ์แกร่งรุ่นใหม่ของฟอร์ด เรนเจอร์</span>
 <br/>
-<span style="white-space:nowrap;">เรนเจอร์ แร็พเตอร์ กระบะออฟโรดประสิทธิภาพแกร่งใกล้จะพร้อมเปิดตัวแล้ว</span> 
+<span style="white-space:nowrap;">ในตระกูลรถกระบะสมรรถนะสูง</span> 
 <br/>
-<span style="white-space:nowrap;">เรารู้ดีว่าคุณชื่นชอบใน <%${user.CustomAttribute['Model']}%></span>
+<span style="white-space:nowrap;">โดยจะเปิดตัวอย่างเป็นทางการในภูมิภาคเอเชีย แปซิฟิกในปี 2561</span>
 <br/>
-<span style="white-space:nowrap;">ของคุณ แต่เราคิดว่าคุณน่าจะได้เห็นรถรุ่นนี้ก่อน</span> 
+<span style="white-space:nowrap;">มีความโดดเด่นด้านการออกแบบเพื่อมอบสมรรถนะการใช้งานขั้นขีดสุด</span> 
 <br/>
-<br/>
-<span style="white-space:nowrap;">คลิกที่ลิงก์ด้านล่างเพื่อรับชมการทดสอบรถต้นแบบ</span>
+<span style="white-space:nowrap;">พร้อมความสามารถการขับขี่แบบออฟโรดอันเหนือชั้น ภายใต้ชื่อ “ฟอร์ด เรนเจอร์ แร็พเตอร์”</span>
 '''
 
 cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ชมการทดสอบรถต้นแบบ</span>'''
