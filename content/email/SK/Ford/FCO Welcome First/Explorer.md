@@ -72,15 +72,15 @@ color = '''white'''
 
 	image = ''''''
 
-[[module]] #Split 04
-path='email_modules/split/04'
+[[module]]
+path='email_modules/split/master/right'
 color='green'
 
-title='''
-<span style="font-family:Tahoma, Verdana, Sans-serif">新车主免费首保赠券</span>
-'''
-
-copy='''
+	title='''
+    <span style="font-family:Tahoma, Verdana, Sans-serif">新车主免费首保赠券</span>
+    '''
+	title_align='center'
+	copy='''
 <span style="font-family:Tahoma, Verdana, Sans-serif;">
 <span style="white-space:nowrap;">每位福特新车主，</span>
 <br/>
@@ -96,12 +96,22 @@ copy='''
 <br/>
 <span style="white-space:nowrap;">详情请咨询当地授权经销商。</span>
 <br />
-'''
-cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">查找经销商</span>'''
-cta1_url='''https://www.ford.com.cn/locate-a-dealer/'''
-cta1_icon=''''''
-cta1_link_name = '''find_dealer'''
-image = '''fco_edm1_couponoffer_20171108'''
+    '''
+	copy_align='center'
+	vertical_align='middle'
+
+	image='''fco_edm1_couponoffer_20171108'''
+	image_link_url=''''''
+	image_link_name=''''''
+
+	cta_direction = '''vertical'''
+
+	cta_1_copy = '''查找经销商'''
+	cta_1_link_url = '''https://www.ford.com.cn/locate-a-dealer/'''
+	cta_1_link_name = '''find_dealer'''
+	cta_1_icon = ''''''
+	cta_1_type = '''block'''
+	cta_1_width = ''''''
 
 [[module]] #Dual 04
 path='email_modules/dual/04'
@@ -173,8 +183,6 @@ color='white'
 
 title='''
     <span style="white-space:nowrap;">购指定附件获免费保养[1]</span>
-    <br/>
-    <br/>
 '''
 copy='''
     <span style="white-space:nowrap;">2017年10月起至12月31日，福特现已推出探险者车主专享优惠。</span>
