@@ -42,11 +42,10 @@ color='''white'''
 [[module]] #Cover 02
 path='email_modules/cover/02'
 color='''white'''
-segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	title=''''''
-	copy='''Keep up to date with the latest news, offers, and important announcements from Ford. <br/><br/> Re-subscribe to Ford emails below.'''
-	cta1_text='''Re-subscribe'''
+	copy='''Keep up to date with the latest news, offers, and important announcements from Ford. <br/><br/> Subscribe to Ford emails below.'''
+	cta1_text='''SUBSCRIBE'''
 	cta1_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/enews.html'''
 	cta1_link_name = '''moreinfo2'''
     
