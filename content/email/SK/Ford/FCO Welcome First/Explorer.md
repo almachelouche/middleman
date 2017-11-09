@@ -128,7 +128,7 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">道路紧急�
     <br />
     <span style=" white-space:nowrap;">随时可获得来自福特的
     <br />
-    <span style=" white-space:nowrap;">迅捷、专业、妥善的免费道路救援服务*。</span>
+    <span style=" white-space:nowrap;">迅捷、专业的免费道路救援服务*</span>
     <br />
     <span style=" white-space:nowrap;">如有需要，请即刻拔打24小时热线。</span>
     <br />
@@ -149,9 +149,9 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">道路紧急�
     <span style="font-family:Tahoma, Verdana, Sans-serif">
     <span style=" white-space:nowrap;">想知道什么是SYNC 3 吗？</span>
     <br />
-    <span style=" white-space:nowrap;">通过SYNC科技，您可以双手不离方向盘，</span>
+    <span style=" white-space:nowrap;">通过SYNC科技，您可以双手不离方向盘</span>
     <br />
-    <span style=" white-space:nowrap;">通过语音指令，轻松打电话、导航，</span>
+    <span style=" white-space:nowrap;">通过语音指令，轻松打电话、导航</span>
     <br />
     <span style=" white-space:nowrap;">更可以便捷的享受音乐、</span>
     <br />
@@ -202,7 +202,7 @@ cta1_link_name='''special_offer'''
 path='email_modules/cover/02'
 color='fordblue'
 
-icon=''''''
+icon='''fco_edm1_phone_20171109'''
 title='''<span style="white-space:nowrap;">福特进口车客户服务热线</span>'''
 copy='''
     <span style="white-space:nowrap;">以专业服务为您提供在线帮助，服务时间：8：00-20：00。如有需要，敬请致电：</span>
@@ -210,7 +210,6 @@ copy='''
     <br/>
     <span style="white-space:nowrap;">800-810-0740</span>
 '''
-icon2 = '''fco_edm1_phone_20171109'''
 
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
