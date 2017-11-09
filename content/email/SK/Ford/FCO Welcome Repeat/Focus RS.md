@@ -122,7 +122,6 @@ path='email_modules/dual/04'
 color='white'
 
 title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">道路紧急救援</span>
-<br />
 '''
 	copy1 = '''
     <span style="font-family:Tahoma, Verdana, Sans-serif">
@@ -135,8 +134,6 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">道路紧急�
     <span style=" white-space:nowrap;">迅捷、专业的免费道路救援服务*</span>
     <br />
     <span style=" white-space:nowrap;">如有需要，请即刻拔打24小时热线。</span>
-    <br />
-    <br />
     '''
 	cta1a_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><br /><br />400-650-1668</span>'''
 	cta1a_url = '''https://www.ford.com.cn/service/fco/fco-roadassist/'''
@@ -162,8 +159,6 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">道路紧急�
     <span style=" white-space:nowrap;">更可以便捷的享受音乐、</span>
     <br />
     <span style=" white-space:nowrap;">娱乐及使用手机应用程序。</span>
-    <br />
-    <br />
     '''
 	cta2a_text = '''
     <span style="font-family:Tahoma, Verdana, Sans-serif">了解更多</span>'''
