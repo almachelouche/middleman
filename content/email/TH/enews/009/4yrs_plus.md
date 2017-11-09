@@ -54,6 +54,12 @@ color='white'
 	url_link = ''''''
 	cta_link_name = ''''''
 
+[[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+
+	image='''th_edm5_yescampaign_20171108'''
+
 [[module]]
 path='email_modules/spacer/platinum_20'
 color='white'
