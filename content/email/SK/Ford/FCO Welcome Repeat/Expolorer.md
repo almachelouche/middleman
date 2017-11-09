@@ -136,7 +136,6 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">道路紧急�
     <br />
     <span style=" white-space:nowrap;">如有需要，请即刻拔打24小时热线。</span>
     <br />
-    <br />
     '''
 	cta1a_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><br /><br />400-650-1668</span>'''
 	cta1a_url = '''https://www.ford.com.cn/service/fco/fco-roadassist/'''
@@ -155,14 +154,13 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">道路紧急�
     <br />
     <span style=" white-space:nowrap;">通过SYNC科技，</span>
     <br />
-    <span style=" white-space:nowrap;">您可以双手不离方向盘</span>
+    <span style=" white-space:nowrap;">您可以双手不离方向盘通过语音指令</span>
     <br />
-    <span style=" white-space:nowrap;">通过语音指令，轻松打电话、导航</span>
+    <span style=" white-space:nowrap;">轻松打电话、导航</span>
     <br />
     <span style=" white-space:nowrap;">更可以便捷的享受音乐、</span>
     <br />
     <span style=" white-space:nowrap;">娱乐及使用手机应用程序。</span>
-    <br />
     <br />
     '''
 	cta2a_text = '''
