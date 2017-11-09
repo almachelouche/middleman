@@ -90,11 +90,9 @@ color='green'
 <br/>
 <span style="white-space:nowrap;">用以体验福特专业保养服务。</span>
 <br/>
-<span style="white-space:nowrap;">在此提醒您</span>
+<span style="white-space:nowrap;">在此提醒您免费首保有效期为</span>
 <br/>
-<span style="white-space:nowrap;">免费首保有效期为新车5000公里内，</span>
-<br/>
-<span style="white-space:nowrap;">（不限时间）</span>
+<span style="white-space:nowrap;">新车5000公里内，（不限时间）</span>
 <br/>
 <span style="white-space:nowrap;">服务需提前预约并携带相关证件。</span>
 <br/>
