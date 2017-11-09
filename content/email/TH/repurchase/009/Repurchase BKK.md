@@ -20,8 +20,10 @@ color='white'
 
 	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 	<span style="white-space:nowrap;">พิเศษสำหรับคุณ</span> 
-	<span style="white-space:nowrap;">ในเดือนกันยายน</span></span>'''
-	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+	<span style="white-space:nowrap;">ในเดือนพฤศจิกายน</span>
+    '''
+	copy = '''
+    <span style="font-family:Tahoma, Verdana, Sans-serif;">
 	สวัสดีคุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>
 	<br />ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%>
     <br />
@@ -35,11 +37,6 @@ color='white'
     <br />
     <br />
 	<span style="white-space:nowrap;">หากคุณกำลังพิจาร</spam>ณา<span style="white-space:nowrap;">มองหารถคันใหม่</span>
-    <br />
-	<span style="white-space:nowrap;">เราอยากเชิญคุณ</span>
-	<span style="white-space:nowrap;">มาพบกับข้อเสนอสุดพิเศษ</span>
-    <br />
-	<span style="white-space:nowrap;">เพียงลงทะเบียนทดลองขับ ที่โชว์รูมฟอร์ด</span>
     <br />
     <br />
     <span style="white-space:nowrap;">เราขอมอบข้อเสนอสุดพิเศษให้กับคุณ</span>
@@ -134,13 +131,32 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-	text='''
-* คำนวณจากฟอร์ด เรนเจอร์ รุ่น 2.2L Wildtrak 4x2 HR MT รุ่นที่มีระบบแผนที่นำทาง ที่ดาวน์ 25% ผ่อนต่อเดือน 8,999 บาท
-สำหรับงวดที่ 1-57 และ 362,900 บาท สำหรับงวดที่ 58 ดอกเบี้ยที่ระบุในสัญญาเช่าซื้อเท่ากับ 4.6% และรับรถ
-ตั้งแต่ 15 สิงหาคม 2560 เป็นต้นไป โดยชำระค่างวดงวดแรกในเดือน มกราคม 2561 • เมื่อจัดไฟแนนซ์ผ่านฟอร์ด ลีสซิ่งเท่านั้น 
-** เงื่อนไขฟรีประกันภัยชั้นหนึ่ง เฉพาะบริษัทประกันภัย ที่เข้าร่วมรายการดังนี้ กรุงเทพประกันภัย ประกันภัยคุ้มภัย วิริยะประกันภัย 
-แอกซ่าประกันภัย และแอลเอ็มจีประกันภัย มูลค่าประกันภัยขึ้นอยู่กับรถและบริษัทประกันภัยที่เลือก 
-มูลค่าประกันภัยต่ำสุด 22,401 บาท จากแอลเอ็มจีประกันภัย โปรโมชั่นนี้ตั้งแต่ วันที่ 1 สิงหาคม 2560 – 30 กันยายน 2560 
+text='''
+<span style=" white-space:nowrap;">1 สำหรับฟอร์ดเอคโค่ สปอร์ต ทุกรุ่น • เมื่อจัดไฟแนนซ์ ผ่านฟอร์ด ลีสซิ่ง เท่านั้น • เงื่อนไขฟรีประกันภัยชั้นหนึ่ง Ford Ensure</span>
+<br />
+<span style=" white-space:nowrap;">เฉพาะบริษัทประกันภัยที่เข้าร่วมรายการ ดังนี้ วิริยะประกันภัย ประกันภัยคุ้มภัย และแอลเอ็มจีประกันภัย</span>
+<br />
+<span style=" white-space:nowrap;">มูลค่าประกันภัยขึ้นอยู่กับรุ่นรถและบริษัทประกันภัยที่เลือก • มูลค่าประกันภัยต่ำสุดเท่ากับ 18,501 บาท</span>
+<br />
+<span style=" white-space:nowrap;">จาก วิริยะประกันภัย ประกันภัยคุ้มภัย และแอลเอ็มจีประกันภัย</span>
+<br />
+<span style=" white-space:nowrap;">2 สำหรับฟอร์ด เรนเจอร์ Open Cab & Double Cab XLT ทุกรุ่น • เมื่อจัดไฟแนนซ์ ผ่านฟอร์ด ลีสซิ่ง เท่านั้น</span>
+<br />
+<span style=" white-space:nowrap;">เงื่อนไขฟรีประกันภัยชั้นหนึ่ง Ford Ensure เฉพาะบริษัทประกันภัยที่เข้าร่วมรายการ ดังนี้ วิริยะประกันภัย ประกันภัยคุ้มภัย</span>
+<br />
+<span style=" white-space:nowrap;">และแอลเอ็มจีประกันภัย • มูลค่าประกันภัยขึ้นอยู่กับรุ่นรถและบริษัทประกันภัยที่เลือก</span>
+<br />
+<span style=" white-space:nowrap;">• มูลค่าประกันภัยต่ำสุดเท่ากับ 18,800 บาท จาก วิริยะประกันภัย ประกันภัยคุ้มภัย และแอลเอ็มจีประกันภัย</span>
+<br />
+<span style=" white-space:nowrap;">3 สำหรับฟอร์ด เอเวอเรสต์ รุ่น 2.2L Titanium 4x2 AT • ชำระค่างวดงวดแรก พร้อมวันที่รับรถยนต์</span> 
+<br />
+<span style=" white-space:nowrap;">• เมื่อจัดไฟแนนซ์ ผ่านฟอร์ด ลีสซิ่ง เท่านั้น • เงื่อนไขฟรีประกันภัยชั้นหนึ่ง Ford Ensure</span> 
+<br />
+<span style=" white-space:nowrap;">เฉพาะบริษัทประกันภัยที่เข้าร่วมรายการ ดังนี้ วิริยะประกันภัย ประกันภัยคุ้มภัย และ แอลเอ็มจีประกันภัย</span> 
+<br />
+<span style=" white-space:nowrap;">มูลค่าประกันภัยขึ้นอยู่กับรุ่นรถและบริษัทประกันภัยที่เลือก • มูลค่าประกันภัยต่ำสุดเท่ากับ</span> 
+<br />
+<span style=" white-space:nowrap;">22,001 บาท จาก วิริยะประกันภัย ประกันภัยคุ้มภัย และแอลเอ็มจีประกันภัย</span>
 '''
 
 [[module]] #TH Online
