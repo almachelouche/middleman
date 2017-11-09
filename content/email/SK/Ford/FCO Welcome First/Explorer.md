@@ -211,14 +211,6 @@ copy='''
     <span style="white-space:nowrap;">800-810-0740</span>
 '''
 
-[[module]]
-path='email_modules/footer/4icons'
-color='white'
-
-	icon1_url=''''''
-	icon1_link_name = '''fco_sinaweibo'''
-	icon1_image='''fco_edm1_weibo_201171109'''
-
 [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
 color='white'
