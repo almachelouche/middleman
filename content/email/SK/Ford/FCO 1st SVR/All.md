@@ -23,8 +23,6 @@ color='white'
 icon='''th_edm2_svc_wrench_20160801''' 
 title='''
     <span style="white-space:nowrap;">呵护爱车状态，从容进无止境</span>
-    <br/>
-    <br/>
 '''
 copy='''
     <span style="white-space:nowrap;">感谢您加入福特大家庭，</span>
