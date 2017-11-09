@@ -90,7 +90,9 @@ color='green'
 <br/>
 <span style="white-space:nowrap;">用以体验福特专业保养服务。</span>
 <br/>
-<span style="white-space:nowrap;">在此提醒您免费首保有效期为新车5000公里内，</span>
+<span style="white-space:nowrap;">在此提醒您</span>
+<br/>
+<span style="white-space:nowrap;">免费首保有效期为新车5000公里内，</span>
 <br/>
 <span style="white-space:nowrap;">（不限时间）</span>
 <br/>
@@ -151,7 +153,9 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">道路紧急�
     <span style="font-family:Tahoma, Verdana, Sans-serif">
     <span style=" white-space:nowrap;">想知道什么是SYNC 3 吗？</span>
     <br />
-    <span style=" white-space:nowrap;">通过SYNC科技，您可以双手不离方向盘</span>
+    <span style=" white-space:nowrap;">通过SYNC科技，</span>
+    <br />
+    <span style=" white-space:nowrap;">您可以双手不离方向盘</span>
     <br />
     <span style=" white-space:nowrap;">通过语音指令，轻松打电话、导航</span>
     <br />
@@ -224,6 +228,7 @@ text = '''
 <br/>
 <br/>
 <span style="white-space:nowrap;">*请车主仔细阅读随车套件中的车主手册、车主手册附录、道路救援服务指南等相关资料。</span>
+<br/>
 <span style="white-space:nowrap;">[1] 2017年10月至12月31日，</span>
 <br/>
 <span style="white-space:nowrap;">探险者车主自费购买原厂认证脚踏板、太阳膜和集成式行车记录仪，</span>
