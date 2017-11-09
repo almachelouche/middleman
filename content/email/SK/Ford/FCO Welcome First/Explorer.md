@@ -92,7 +92,7 @@ color='green'
 <br/>
 <span style="white-space:nowrap;">在此提醒您免费首保有效期为</span>
 <br/>
-<span style="white-space:nowrap;">新车5000公里内，（不限时间）</span>
+<span style="white-space:nowrap;">新车5000公里内(不限时间)</span>
 <br/>
 <span style="white-space:nowrap;">服务需提前预约并携带相关证件。</span>
 <br/>
