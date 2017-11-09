@@ -1,6 +1,6 @@
 +++
-markets = ["IN"]
-title = 'ZChennaiDatahub_Testing'
+markets = ["ZCHN_TEST"]
+title = 'ZChennaiDatahub_FirstTesting'
 
 [[module]]
 path='email_modules/cover/master'
