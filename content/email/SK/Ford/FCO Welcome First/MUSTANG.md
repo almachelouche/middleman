@@ -132,7 +132,7 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">道路紧急�
     <span style=" white-space:nowrap;">如有需要，请即刻拔打24小时热线。</span>
     <br />
     '''
-	cta1a_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><br /><br />400-650-1668</span>'''
+	cta1a_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">400-650-1668</span>'''
 	cta1a_url = '''https://www.ford.com.cn/service/fco/fco-roadassist/'''
 	cta1a_link_name = '''road_assistance'''
 	cta1b_text = ''''''
