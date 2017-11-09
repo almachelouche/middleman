@@ -39,22 +39,17 @@ color='''white'''
     '''
     
     
-[[module]]
-path='email_modules/singles/copy'
+[[module]] #Cover 02
+path='email_modules/cover/02'
 color='''white'''
+segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-	copy = '''
-		Keep up to date with the latest news, offers, and important announcements from Ford. Re-subscribe to Ford emails.
-    '''
+	title=''''''
+	copy='''Keep up to date with the latest news, offers, and important announcements from Ford. Re-subscribe to Ford emails.'''
+	cta1_text='''Re-subscribe'''
+	cta1_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/enews.html'''
+	cta1_link_name = '''moreinfo2'''
     
-
-    [[module]]
-path='email_modules/singles/ctablock'
-color='''fordblue'''
-
-	cta1_text = '''Re-subscribe'''
-	cta1_url = '''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/enews.html'''
-	cta1_link_name = ''''''
     
 [[module]]
 path='email_modules/spacer/default'
