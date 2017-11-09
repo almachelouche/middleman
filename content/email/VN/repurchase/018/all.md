@@ -28,7 +28,7 @@ color='''white'''
 
 	
 	title='''Tặng Voucher 3.000.000 VNĐ thay lời cảm ơn'''
-	copy='''Hello <%${user.CustomAttribute['Title']}%> <%${user['FirstName']}%><br /><br />Sự tin tưởng và yêu mến thương hiệu Ford của Quý khách hàng là món quà vô giá đối với chúng tôi. Thế nên chúng tôi xin gửi tặng voucher 3.000.000 đồng cho mỗi xe Quý vị mua thêm thay cho lời cảm ơn chân thành từ Ford Việt Nam khi Quý vị tiếp tục đồng hành cùng chúng tôi.'''
+	copy='''Xin chào <%${user.CustomAttribute['Title']}%> <%${user['FirstName']}%><br /><br />Sự tin tưởng và yêu mến thương hiệu Ford của Quý khách hàng là món quà vô giá đối với chúng tôi. Thế nên chúng tôi xin gửi tặng voucher 3.000.000 đồng cho mỗi xe Quý vị mua thêm thay cho lời cảm ơn chân thành từ Ford Việt Nam khi Quý vị tiếp tục đồng hành cùng chúng tôi.'''
 	cta1_text='''TÌM HIỂU THÊM'''
 	cta1_url='''https://www.ford.com.vn/owner/vehicle-support/incentives/'''
 	cta1_link_name = '''loyalty_offer'''
