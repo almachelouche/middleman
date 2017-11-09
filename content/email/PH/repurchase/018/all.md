@@ -46,7 +46,7 @@ color='''white'''
 
 	title = '''Ford test drives coming to you'''
 	copy = '''Ford Island Conquest is not your ordinary test drive. Join us as Ford travels to your city this year with Ford Rangers, Everests and EcoSports geared and ready for you to hop in and take for a spin.<br /><br />You’ll also be able to enjoy giveaways and have a chance to win exclusive discounts – there’s as much as Php 100,000 cash discounts up for grabs!'''
-	cta1_text = '''VIEW DATES'''
+	cta1_text = '''VIEW DATES & LOCATIONS'''
 	cta1_url = '''https://www.ford.com.ph/ford-island-conquest/'''
 	cta1_link_name = '''fic'''
 
