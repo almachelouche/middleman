@@ -82,6 +82,18 @@ color='''white'''
 	cta1_link_name = '''extended_warranty'''
 	icon = '''vn_edm_extendedwarranty_20160801'''
 
+[[module]] #Split 03
+path='email_modules/split/03'
+color='green'
+
+	title = '''Tiết kiệm hơn, tiện lợi hơn với sản phẩm "Bảo Dưỡng Định kì trọn gói – SSP"'''
+	copy = '''Gói "Bảo Dưỡng Định kỳ Trọn gói – SSP" giúp tiết kiệm chi phí lên tới 13% so với làm bảo dưỡng thông thường. Không những thế, trong suốt thời gian tối đa 2 năm khi sử dụng gói SSP, bạn không phải lo lắng tăng giá phụ tùng hay nhân công do lạm phát. Toàn bộ quy trình bảo dưỡng được thực hiện bởi đội ngũ Kỹ thuật viên chuyên nghiệp tại các Đại lý Ủy quyền của Ford Việt Nam.'''
+	cta1_text = '''TÌM HIỂU THÊM'''
+	cta1_url = '''https://www.ford.com.vn/owner/service-and-maintenance/ssp/'''
+	cta1_link_name = '''ssp'''
+	cta1_icon = '''more'''
+	image = '''vn_edm1a_13off_20170324'''
+
 [[module]] #VN Social
 path='email_modules/footer/vn/social'
 color='white'
