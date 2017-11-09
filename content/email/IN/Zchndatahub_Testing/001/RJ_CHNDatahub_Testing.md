@@ -1,12 +1,12 @@
 +++
-markets = ["example"]
+markets = ["ChennaiDatahubTesting_Example"]
 title = 'Events Test'
 
 [[module]]
 path='email_modules/cover/master'
 color='fordblue'
 
-	title='''Events Test'''
+	title='''ChennaiDatahub_Testing_Title'''
 	copy='''The below links are for testing the calendar events links'''
 
 	cta_direction = '''vertical'''
