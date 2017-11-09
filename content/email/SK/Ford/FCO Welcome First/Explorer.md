@@ -82,15 +82,17 @@ color='green'
 	title_align='center'
 	copy='''
 <span style="font-family:Tahoma, Verdana, Sans-serif;">
-<span style="white-space:nowrap;">每位福特新车主，</span>
+<span style="white-space:nowrap;">每位福特新车主</span>
 <br/>
-<span style="white-space:nowrap;">均可在车主宣传册中</span>
+<span style="white-space:nowrap;">均可在车主手册附录中</span>
 <br/>
 <span style="white-space:nowrap;">获取一张免费首保赠券，</span>
 <br/>
-<span style="white-space:nowrap;">体验专业保养服务。</span>
+<span style="white-space:nowrap;">用以体验福特专业保养服务。</span>
 <br/>
-<span style="white-space:nowrap;">赠券有效期为新车5000公里内，</span>
+<span style="white-space:nowrap;">在此提醒您免费首保有效期为新车5000公里内，</span>
+<br/>
+<span style="white-space:nowrap;">（不限时间）</span>
 <br/>
 <span style="white-space:nowrap;">服务需提前预约并携带相关证件。</span>
 <br/>
@@ -208,7 +210,7 @@ copy='''
     <span style="white-space:nowrap;">以专业服务为您提供在线帮助，服务时间：8：00-20：00。如有需要，敬请致电：</span>
     <br/>
     <br/>
-    <span style="white-space:nowrap;">800-810-0740</span>
+    <span style="white-space:nowrap;">800-810-0740（座机拨打）</span>
 '''
 
 [[module]] #Footer Disclaimer
@@ -221,6 +223,7 @@ text = '''
 <span style="white-space:nowrap;">关注福特官方社交平台：</span>
 <br/>
 <br/>
+<span style="white-space:nowrap;">*请车主仔细阅读随车套件中的车主手册、车主手册附录、道路救援服务指南等相关资料。</span>
 <span style="white-space:nowrap;">[1] 2017年10月至12月31日，</span>
 <br/>
 <span style="white-space:nowrap;">探险者车主自费购买原厂认证脚踏板、太阳膜和集成式行车记录仪，</span>
