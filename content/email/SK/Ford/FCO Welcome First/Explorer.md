@@ -60,6 +60,7 @@ copy='''
     <span style="white-space:nowrap;">随时随地，通过手机轻松了解保养计划及历史、寻找停车位和加油站，</span>
     <br/>
     <span style="white-space:nowrap;">掌上管理福特金融账户，或联系福特大使，获得一对一帮助。</span>
+    <br />
 '''
 cta1_text='''<span style="white-space:nowrap;">下载福特派</span>'''
 cta1_url=''''''
@@ -93,7 +94,8 @@ copy='''
 <br/>
 <span style="white-space:nowrap;">服务需提前预约并携带相关证件。</span>
 <br/>
-<span style="white-space:nowrap;">详情请咨询当地授权经销商。</span> 
+<span style="white-space:nowrap;">详情请咨询当地授权经销商。</span>
+<br />
 '''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">查找经销商</span>'''
 cta1_url='''https://www.ford.com.cn/locate-a-dealer/'''
@@ -110,11 +112,17 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">道路紧急�
 '''
 	copy1 = '''
     <span style="font-family:Tahoma, Verdana, Sans-serif">
-    <span style=" white-space:nowrap;">在您购车后的两年内(不限里程)，当您在驾驶途中遭遇困境，</span>
+    <span style=" white-space:nowrap;">在您购车后的两年内(不限里程)，
     <br />
-    <span style=" white-space:nowrap;">随时可获得来自福特的迅捷、专业、妥善的免费道路救援服务*。</span>
+    <span style=" white-space:nowrap;">当您在驾驶途中遭遇困境，</span>
+    <br />
+    <span style=" white-space:nowrap;">随时可获得来自福特的
+    <br />
+    <span style=" white-space:nowrap;">迅捷、专业、妥善的免费道路救援服务*。</span>
     <br />
     <span style=" white-space:nowrap;">如有需要，请即刻拔打24小时热线。</span>
+    <br />
+    <br />
     '''
 	cta1a_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><br /><br />400-650-1668</span>'''
 	cta1a_url = '''https://www.ford.com.cn/service/fco/fco-roadassist/'''
@@ -131,9 +139,15 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">道路紧急�
     <span style="font-family:Tahoma, Verdana, Sans-serif">
     <span style=" white-space:nowrap;">想知道什么是SYNC 3 吗？</span>
     <br />
-    <span style=" white-space:nowrap;">通过SYNC科技，您可以双手不离方向盘，通过语音指令，轻松打电话、导航，</span>
+    <span style=" white-space:nowrap;">通过SYNC科技，您可以双手不离方向盘，</span>
     <br />
-    <span style=" white-space:nowrap;">更可以便捷的享受音乐、娱乐及使用手机应用程序。</span>
+    <span style=" white-space:nowrap;">通过语音指令，轻松打电话、导航，</span>
+    <br />
+    <span style=" white-space:nowrap;">更可以便捷的享受音乐、</span>
+    <br />
+    <span style=" white-space:nowrap;">娱乐及使用手机应用程序。</span>
+    <br />
+    <br />
     '''
 	cta2a_text = '''
     <span style="font-family:Tahoma, Verdana, Sans-serif">了解更多</span>'''
@@ -151,7 +165,7 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">道路紧急�
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''fco_edm2_specialoffer_20171109'''
+	image = '''fco_edm2_specialoffer_20171108'''
 
 [[module]] #Cover 02
 path='email_modules/cover/02'
@@ -170,6 +184,7 @@ copy='''
     <span style="white-space:nowrap;">太阳膜、集成式行车记录仪和脚踏板，</span>
     <br/>
     <span style="white-space:nowrap;">即可尊享一次免费车辆保养。</span>
+    <br />
 '''
 cta1_text='''<span style="white-space:nowrap;">查找经销商</span>'''
 cta1_url='''https://www.ford.com.cn/locate-a-dealer/'''
@@ -198,7 +213,15 @@ text = '''
 <span style="white-space:nowrap;">关注福特官方社交平台：</span>
 <br/>
 <br/>
-<span style="white-space:nowrap;">[1] 2017年10月至12月31日，探险者车主自费购买原厂认证脚踏板、太阳膜和集成式行车记录仪，将享一次免费保养(机油和机滤,含工时）。福特中国将在2018年第一季度统一注册活动参与用户，用户需在注册之日起6个月内使用此次保养，逾期视为弃权。</span>
+<span style="white-space:nowrap;">[1] 2017年10月至12月31日，</span>
+<br/>
+<span style="white-space:nowrap;">探险者车主自费购买原厂认证脚踏板、太阳膜和集成式行车记录仪，</span>
+<br/>
+<span style="white-space:nowrap;">将享一次免费保养(机油和机滤,含工时）。</span>
+<br/>
+<span style="white-space:nowrap;">福特中国将在2018年第一季度统一注册活动参与用户，</span>
+<br/>
+<span style="white-space:nowrap;">用户需在注册之日起6个月内使用此次保养，逾期视为弃权。</span>
 <br/>
 <br/>
 <span style="white-space:nowrap;"><a href="https://www.ford-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#91a4b1;">点击此处</a>退订福特推送邮件。</span>
