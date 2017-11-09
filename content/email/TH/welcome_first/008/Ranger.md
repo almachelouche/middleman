@@ -22,13 +22,16 @@ color='''white'''
 	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><strong>สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></strong><br />ยินดีต้อนรับสู่ครอบครัวฟอร์ด</span>'''
 	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">ฟอร์ดขอขอบคุณที่คุณเลือกเรา</span>
 <span style=" white-space:nowrap;">ให้เป็นเพื่อนร่วมทางของคุณ</span>
-<br /><br />
-<span style=" white-space:nowrap;">เราจะส่งข่าวสาร</span>
-<span style=" white-space:nowrap;">และข้อมูลกิจกรรมที่เป็นประโยชน์</span>
-<span style=" white-space:nowrap;">ให้แก่คุณอย่างต่อเนื่อง</span> 
-<span style=" white-space:nowrap;">เพราะคุณเป็นส่วนหนึ่ง</span>
-<span style=" white-space:nowrap;">ของครอบครัวฟอร์ด</span>
-<br /><br />
+<br />
+<br />
+    <span style=" white-space:nowrap;">เราจะส่งข่าวสาร</span>
+    <span style=" white-space:nowrap;">และข้อมูลกิจกรรมที่เป็นประโยชน์</span>
+    <span style=" white-space:nowrap;">ให้แก่คุณอย่างต่อเนื่อง</span>
+    <span style=" white-space:nowrap;">เพราะคุณเป็น</span>
+    <br />
+    <span style=" white-space:nowrap;">ส่วนหนึ่งของครอบครัวฟอร์ด</span>
+<br />
+<br />
 <span style=" white-space:nowrap;">ขอให้คุณมีความสุขกับการขับขี่</span> 
 <span style=" white-space:nowrap;">Ranger ค่ะ </span></span>'''
 
@@ -112,6 +115,32 @@ cta1_url='''https://www.ford.co.th/trucks/ranger/accessories/#overlay/content/fo
 cta1_link_name = '''acc_ranger'''
 image='''TH_edm1a_ranger_fender_flare_20170508'''
 
+[[module]] #Split 04
+path='email_modules/split/04'
+color='green'
+
+	title='''
+    <span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า</span>
+    '''
+	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+<span style="white-space:nowrap;">โปรแกรมบำรุงรักษารถยนต์</span>
+<br />
+<span style="white-space:nowrap;">ตามระยะ (SSP)</span>
+<br />
+<span style="white-space:nowrap;">ประหยัดสูงสุดถึง 3,000 บาท</span> 
+<br />
+<span style="white-space:nowrap;">พิเศษรับสิทธิ์ผ่อน 0% นาน 10 เดือน</span>
+<br />
+<span style="white-space:nowrap;">เมื่อชำระผ่านบัตรเครดิตกสิกรไทย</span>
+<br />
+<span style="white-space:nowrap;">ตั้งแต่วันนี้ – วันที่ 31 ธันวาคม 2560</span>
+'''
+	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
+cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
+cta1_icon='''more'''
+cta1_link_name = '''SSP'''
+image = '''th_edm5a_specialoffer_20160801'''
+
 [[module]]
 path='email_modules/cover/01'
 
@@ -127,7 +156,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" whit
 <span style=" white-space:nowrap;">แต่ยังรวมถึงการช่วยเหลือ</span>
 <span style=" white-space:nowrap;">ในกรณีเหตุฉุกเฉินอื่นๆ</span>
 <span style=" white-space:nowrap;">เช่น</span>
-<span style=" white-space:nowrap;">การลืมกุญแจไว้ในรถ</span><br />
+<span style=" white-space:nowrap;">การลืมกุญแจไว้ในรถ</span>
 <span style=" white-space:nowrap;">หรือเมื่อน้ำมันหมดกลางทาง เป็นต้น</span></span>'''
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style=" white-space:nowrap;">อ่านต่อ</span></span>'''
 cta1_url='''https://www.ford.co.th/owner/road-assistance/'''

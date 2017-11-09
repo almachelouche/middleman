@@ -105,7 +105,6 @@ text2 = '''<span style="font-family:Tahoma, Verdana, Sans-serif; font-size: 14px
 	cta2_link_name = '''oa_andriod'''
 	image = '''th_edm6_ownerapp_20160921'''
 
-
 [[module]]
 path='email_modules/split/07'
 color='white'
@@ -125,6 +124,32 @@ cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิก�
 cta1_url='''https://www.ford.co.th/suvs/everest/accessories/#'''
 cta1_link_name = '''acc_all_new_everest'''
 image='''TH_edm1a_everest_fender_flare_20170508'''
+
+[[module]] #Split 04
+path='email_modules/split/04'
+color='green'
+
+	title='''
+    <span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า</span>
+    '''
+	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+<span style="white-space:nowrap;">โปรแกรมบำรุงรักษารถยนต์</span>
+<br />
+<span style="white-space:nowrap;">ตามระยะ (SSP)</span>
+<br />
+<span style="white-space:nowrap;">ประหยัดสูงสุดถึง 3,000 บาท</span> 
+<br />
+<span style="white-space:nowrap;">พิเศษรับสิทธิ์ผ่อน 0% นาน 10 เดือน</span>
+<br />
+<span style="white-space:nowrap;">เมื่อชำระผ่านบัตรเครดิตกสิกรไทย</span>
+<br />
+<span style="white-space:nowrap;">ตั้งแต่วันนี้ – วันที่ 31 ธันวาคม 2560</span>
+'''
+	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
+cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
+cta1_icon='''more'''
+cta1_link_name = '''SSP'''
+image = '''th_edm5a_specialoffer_20160801'''
 
 [[module]] #TH Social
 path='email_modules/footer/th/social'

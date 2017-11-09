@@ -14,7 +14,7 @@ path='email_modules/preheaderbefore'
 
 segmentelseif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 
-	 preheader = '''Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon. Hello <%${user.CustomAttribute['FullName']}%>Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.'''
+	 preheader = '''Your <%${user.CustomAttribute['Model']}%> was due for service on <%${user.CustomAttribute['NextServiceDate']}%>. It's important to service regularly. Hello <%${user.CustomAttribute['FullName']}%>Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.'''
 
 [[module]]
 path='email_modules/body'
@@ -32,7 +32,7 @@ path='email_modules/preheaderafter'
 
 segmentelseif = ["(user.CustomAttribute['Esplit'] == 'PastDue')"]
 
-    preheader = '''Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon. Hello <%${user.CustomAttribute['FullName']}%>Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.'''
+    preheader = '''Your <%${user.CustomAttribute['Model']}%> was due for service on <%${user.CustomAttribute['NextServiceDate']}%>. It's important to service regularly. Hello <%${user.CustomAttribute['FullName']}%>Your Ford <%${user.CustomAttribute['Model']}%>'s service is overdue. For the wellbeing of you and your Ford, it's important that you visit a Ford service centre soon.'''
  
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
@@ -71,7 +71,7 @@ path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['Esplit'] == 'Due')"]
 
-	copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Long time, no see! Your Ford <%${user.CustomAttribute['Model']}%> is due for service, and our experts can't wait to make sure it's running at its absolute best.<br /><br />Your next service is due on: <% ${user.CustomAttribute['NextServiceDate']} %><br /><br />Too busy to visit a service centre? No problem. We'll pick up your vehicle from your home, and return it to you when service is done.'''
+	copy = '''Hello <%${user.CustomAttribute['FullName']}%><br /><br />Long time, no see! Your Ford <%${user.CustomAttribute['Model']}%> is due for service, and our experts can't wait to make sure it's running at its absolute best.<br /><br />Your next service is due on: <%${user.CustomAttribute['NextServiceDate']}%><br /><br />Too busy to visit a service centre? No problem. We'll pick up your vehicle from your home, and return it to you when service is done.'''
     
 [[module]]
 path='email_modules/singles/copy'
@@ -118,7 +118,7 @@ color='white'
 segmentif = ["(user.CustomAttribute['ModelMerge'] == 'EcoSport 2 yrs Plus owners')"]
 
 	title1 = '''Motorcraft&#174; is Here'''
-	text_box_height = '''370'''
+	text_box_height = '''375'''
 	copy1 = '''Motorcraft&#174; parts are now available at Ford showrooms nationwide! Backed by Ford, Motorcraft&#174; parts deliver exceptional value and uncompromising quality. Ask us about Motorcraft&#174; parts next time you service your EcoSport.'''
 	cta1a_text = '''LEARN MORE'''
 	cta1a_url = '''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
@@ -141,7 +141,7 @@ color='white'
 segmentelseif = ["(user.CustomAttribute['ModelMerge'] == 'All Model')"]
 
 	title1 = '''Service Price Promise'''
-	text_box_height = '''370'''
+	text_box_height = '''350'''
 	copy1 = '''Get an affordable service with Ford's Integrated Calculator. Be it scheduled maintenance, part change, or both; you can calculate the all-inclusive cost online, and pay the Ford dealer exactly what you see on the screen!'''
 	cta1a_text = '''CHECK SERVICE PRICE'''
 	cta1a_url = '''https://www.fordservicepricepromise.com/'''

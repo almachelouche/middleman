@@ -112,6 +112,32 @@ cta1_url='''https://www.ford.co.th/trucks/ranger/accessories/#overlay/content/fo
 cta1_link_name = '''acc_new_ranger'''
 image='''TH_edm1a_wildtrak_roller_shutter_20170508'''
 
+[[module]] #Split 04
+path='email_modules/split/04'
+color='green'
+
+	title='''
+    <span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า</span>
+    '''
+	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+<span style="white-space:nowrap;">โปรแกรมบำรุงรักษารถยนต์</span>
+<br />
+<span style="white-space:nowrap;">ตามระยะ (SSP)</span>
+<br />
+<span style="white-space:nowrap;">ประหยัดสูงสุดถึง 3,000 บาท</span> 
+<br />
+<span style="white-space:nowrap;">พิเศษรับสิทธิ์ผ่อน 0% นาน 10 เดือน</span>
+<br />
+<span style="white-space:nowrap;">เมื่อชำระผ่านบัตรเครดิตกสิกรไทย</span>
+<br />
+<span style="white-space:nowrap;">ตั้งแต่วันนี้ – วันที่ 31 ธันวาคม 2560</span>
+'''
+	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
+cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
+cta1_icon='''more'''
+cta1_link_name = '''SSP'''
+image = '''th_edm5a_specialoffer_20160801'''
+
 [[module]]
 path='email_modules/cover/02'
 color='''white'''
@@ -154,35 +180,14 @@ title1='''<span style="font-family:Tahoma, Verdana, Sans-serif">นัดหม�
 	icon1='''th_edm2_call_20160801'''
 
 	title2='''<span style="font-family:Tahoma, Verdana, Sans-serif">ศูนย์ข้อมูลเจ้าของรถ</span>'''
-	copy2='''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="color:#616161; font-size:16px">ทุกความช่วยเหลือที่คุณต้องการง่ายๆ</span><br /> 
-<span style="color:#616161; font-size:16px">ในที่เดียว</span> 
-<span style="white-space:nowrap; color:#616161; font-size:16px"> สำหรับเจ้าของรถฟอร์ดเท่านั้น</span></span>'''
-cta2a_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">วิดีโอสาธิตวิธีการใช้งาน<br />คุณสมบัติต่างๆ</span>'''
-	cta2a_url='''https://www.ford.co.th/owner/owner-unauthenticated/'''
-	cta2a_link_name = '''owner_center'''
+	copy2=''''''
+cta2a_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">กรุณาอัพเดทข้อมูลของคุณ<br/>เพื่อให้คุณไม่พลาด<br/>ข้อเสนอพิเศษต่างๆ จากฟอร์ด</span>'''
+	cta2a_url='''https://www.ford.co.th/#/overlay/content/ford/th/th_th/site-wide-content/overlays/form-overlay/login/'''
+	cta2a_link_name = '''anything_changed''' 
 	cta2b_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">ผลิตภัณฑ์และบริการของฟอร์ด</span>'''
 	cta2b_url='''https://www.ford.co.th/owner/owner-unauthenticated/'''
 	cta2b_link_name = '''owner_center'''
 	icon2='''th_edm2_ownerprofile_20160801'''
-
-	[[module]] #Cover 05
-path='email_modules/cover/02'
-color='''white'''
-
-	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-	<span style=" white-space:nowrap;">ข้อมูลของคุณมีการ<br />
-	<span style=" white-space:nowrap;">เปลี่ยนแปลงหรือไม่</span></span>'''
-
-	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-	<span style=" white-space:nowrap;">กรุณาอัพเดทข้อมูลของคุณ</span>
-	<span style=" white-space:nowrap;">เพื่อให้คุณไม่พลาด</span><br />
-	<span style=" white-space:nowrap;">ข้อเสนอพิเศษต่างๆ</span>
-	<span style=" white-space:nowrap;">จากฟอร์ด</span></span>'''
-
-	cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">อัพเดทข้อมูล</span>'''
-	cta1_url = '''https://www.ford.co.th/#/overlay/content/ford/th/th_th/site-wide-content/overlays/form-overlay/login/'''
-	cta1_link_name = '''anything_changed'''
-	icon = '''th_edm2_ownerprofile_20160801'''
 
 [[module]] #TH Social
 path='email_modules/footer/th/social'

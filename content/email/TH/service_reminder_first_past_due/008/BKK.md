@@ -53,27 +53,32 @@ color='white'
 	image='''th_60min_express_service_20170829'''
 	url_link='''https://www.ford.co.th/ford-owner/60mins-express-service/'''
 	url_link_name='''60min_express_service'''
-    
-[[module]]
 
-	path='email_modules/split/04'
-	color='green'
-	title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดค่าน้ำมันเครื่อง<br />สูงสุด</span>'''
-	copy='''
-	<span style="font-family:Tahoma, Verdana, Sans-serif">
-	<span style="white-space:nowrap;">เพิ่มความอุ่นใจในการขับขี่</span><br />
-	<span style="white-space:nowrap;">พิเศษ!เมื่อซื้อโปรแกรมชุด</span>
-	<span style="white-space:nowrap;">น้ำมันเครื่องสุดคุ้ม (OSP)</span>
-	<span style="white-space:nowrap;">รับส่วนลดเพิ่ม 300 บาท</span> 
-	<span style="white-space:nowrap;">สำหรับแพ็กเกจ 2 ครั้ง</span> 
-	<span style="white-space:nowrap;">และรับส่วนลดเพิ่ม</span>
-	<span style="white-space:nowrap;">500 บาท</span> 
-	<span style="white-space:nowrap;">สำหรับแพ็กเกจ 3 ครั้ง</span></span>'''
+[[module]] #Split 04
+path='email_modules/split/04'
+color='green'
+
+	title='''
+    <span style="font-family:Tahoma, Verdana, Sans-serif">ประหยัดและคุ้มค่ากว่า</span>
+    '''
+	copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
+<span style="white-space:nowrap;">โปรแกรมบำรุงรักษารถยนต์</span>
+<br />
+<span style="white-space:nowrap;">ตามระยะ (SSP)</span>
+<br />
+<span style="white-space:nowrap;">ประหยัดสูงสุดถึง 3,000 บาท</span> 
+<br />
+<span style="white-space:nowrap;">พิเศษรับสิทธิ์ผ่อน 0% นาน 10 เดือน</span>
+<br />
+<span style="white-space:nowrap;">เมื่อชำระผ่านบัตรเครดิตกสิกรไทย</span>
+<br />
+<span style="white-space:nowrap;">ตั้งแต่วันนี้ – วันที่ 31 ธันวาคม 2560</span>
+'''
 	cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกเพื่อดูรายละเอียดและราคา</span>'''
-	cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
-	cta1_icon='''more'''
-	cta1_link_name = '''OSP'''
-	image = '''th_edm2_savebigonoil_20170122'''
+cta1_url='''https://www.ford.co.th/owner/servicecampaign/'''
+cta1_icon='''more'''
+cta1_link_name = '''SSP'''
+image = '''th_edm5a_specialoffer_20160801'''
  
 	[[module]] #Cover 05
 path='email_modules/cover/02'
