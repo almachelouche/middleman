@@ -63,7 +63,7 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
     
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
-color='''fordblue'''
+color='''white'''
 
 	cta1_text = '''LATEST OFFER'''
 	cta1_url = '''https://www.ford.com.au/latest-offer/everest-trend-4wd/'''

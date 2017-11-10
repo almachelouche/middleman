@@ -1,6 +1,6 @@
 +++
 markets = ["in"]
-title = '''IN Service Reminder First Due/PDue 013 All'''
+title = '''IN Service Reminder First Due/PDue 014 All'''
 
 [[module]]
 path='email_modules/preheaderbefore'
@@ -103,30 +103,6 @@ color='white'
 [[module]]
 path='email_modules/dual/05'
 color='white'
-segmentif = ["(user.CustomAttribute['ModelMerge'] == 'EcoSport 2 yrs Plus owners')"]
-
-	title1 = '''Motorcraft&#174; is Here'''
-	text_box_height = '''375'''
-	copy1 = '''Motorcraft&#174; parts are now available at Ford showrooms nationwide! Backed by Ford, Motorcraft&#174; parts deliver exceptional value and uncompromising quality. Ask us about Motorcraft&#174; parts next time you service your EcoSport.'''
-	cta1a_text = '''LEARN MORE'''
-	cta1a_url = '''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
-	cta1a_link_name = '''motorcraft'''
-	image1 = '''in_edm2_motorcraft_20171026'''
-	image1_link_url = '''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
-	image1_link_name = '''motorcraft_image'''
-	title2 = '''Service Price Promise'''
-	copy2 = '''Get an affordable service with Ford's Integrated Calculator. Be it scheduled maintenance, part change, or both; you can calculate the all-inclusive cost online, and pay the Ford dealer exactly what you see on the screen!'''
-	cta2a_text = '''CHECK SERVICE PRICE'''
-	cta2a_url = '''https://www.fordservicepricepromise.com/'''
-	cta2a_link_name = '''spp'''
-	image2 = '''in_edm2_spp_20171026'''
-	image2_link_url = '''https://www.fordservicepricepromise.com/'''
-	image2_link_name = '''spp_image'''
-
-[[module]]
-path='email_modules/dual/05'
-color='white'
-segmentelseif = ["(user.CustomAttribute['ModelMerge'] == 'All Model')"]
 
 	title1 = '''Service Price Promise'''
 	text_box_height = '''350'''
