@@ -20,7 +20,7 @@ path='email_modules/cover/01'
 color='''white'''
  
 	title = '''Have you tried the Ford Owners App?'''
-	copy = '''Owning a Ford has never been easier, thanks to the new Owners App by Ford. It's simple, convenient and keeps you connected with Ford, anywhere and anytime.'''
+	copy = '''Rajan Testing Owning a Ford has never been easier, thanks to the new Owners App by Ford. It's simple, convenient and keeps you connected with Ford, anywhere and anytime.'''
 
 [[module]] #Custom 05
 path='email_modules/custom/4columnicon4titlescopy'
