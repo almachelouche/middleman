@@ -22,6 +22,12 @@ color='''white'''
 	title = '''Xin chào <%${user['LastName']}%>,<br /><br />Bạn có thấy tuyệt vời khi ngồi sau vô lăng?'''
 	copy = '''Có lẽ không có gì thú vị hơn khi được ngồi lái một chiếc xe mới. Và chúng tôi muốn nói lời cảm ơn bạn đã lựa chọn Ford.<br /><br />Là thành viên gia đình Ford, bạn sẽ nhận được những tin tức mới nhất từ Ford và cả những ưu đãi mà chúng tôi tin chắc bạn sẽ vui lòng đón nhận.<br /><br />Và đừng quên tận hưởng bên chiếc All-New Everest mới của mình nhé!'''
 
+[[module]] #Banner Image No Link
+path = '''email_modules/image/banner_nolink'''
+color = '''white'''
+
+	image = '''vn_edm1&4_np_allneweverest_20160801'''
+
 [[module]]
 path='email_modules/cover/02'
 
@@ -39,12 +45,6 @@ color='white'
 	image='''vn_edm1_member_20171106'''
 	url_link='''https://www.ford.com.vn/'''
 	url_link_name='''member'''
-
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
-	image = '''vn_edm1&4_np_allneweverest_20160801'''
 
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
