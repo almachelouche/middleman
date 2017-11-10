@@ -1,6 +1,6 @@
 +++
 markets = ["vn"]
-title = '''VN Welcome First 011 Ranger'''
+title = '''VN Welcome First 011 Transit'''
 
 [[module]]
 path='email_modules/preheader'
@@ -20,31 +20,13 @@ path='email_modules/cover/01'
 color='''white'''
  
 	title = '''Xin chào <%${user['LastName']}%>,<br /><br />Bạn có thấy tuyệt vời khi ngồi sau vô lăng?'''
-	copy = '''Có lẽ không có gì thú vị hơn khi được ngồi lái một chiếc xe mới. Và chúng tôi muốn nói lời cảm ơn bạn đã lựa chọn Ford.<br /><br />Là thành viên gia đình Ford, bạn sẽ nhận được những tin tức mới nhất từ Ford và cả những ưu đãi mà chúng tôi tin chắc bạn sẽ vui lòng đón nhận.<br /><br />Và đừng quên tận hưởng bên chiếc Ranger mới của mình nhé!'''
+	copy = '''Có lẽ không có gì thú vị hơn khi được ngồi lái một chiếc xe mới. Và chúng tôi muốn nói lời cảm ơn bạn đã lựa chọn Ford.<br /><br />Là thành viên gia đình Ford, bạn sẽ nhận được những tin tức mới nhất từ Ford và cả những ưu đãi mà chúng tôi tin chắc bạn sẽ vui lòng đón nhận.<br /><br />Và đừng quên tận hưởng bên chiếc Transit mới của mình nhé!'''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''vn_edm1&4_np_newranger_20160801'''
-
-[[module]]
-path='email_modules/cover/02'
-
-color='''white'''
-title='''Giới thiệu khách hàng và nhận ngay quà tặng'''
-copy='''Quý vị có người thân và bạn bè đang có dự định mua xe Ford? Hãy giới thiệu họ với chúng tôi bằng cách điền vào "phiếu giới thiệu khách hàng tiềm năng" trên trang www.ford.com.vn, vào mục chủ xe, và quý vị có thể nhận ngay quà tặng phiếu dịch vụ trị giá đến 2 triệu đồng. Chương trình sẽ kết thúc vào ngày 31 tháng 12 năm 2017.'''
-cta1_text='''XEM CHI TIẾT CHƯƠNG TRÌNH'''
-cta1_url='''https://www.ford.com.vn/owner/owner-gets-owner/'''
-cta1_link_name = '''member'''
-
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-
-	image='''vn_edm1_member_20171106'''
-	url_link='''https://www.ford.com.vn/'''
-	url_link_name='''member'''
+	image = '''vn_edm1&4_np_transit_20160801'''
 
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
@@ -71,17 +53,6 @@ color='slatescreen'
 	cta1_url = '''https://www.facebook.com/notes/ford-việt-nam/một-số-câu-hỏi-thường-gặp-liên-quan-đến-ford-và-các-sản-phẩm-của-ford/917755158249573'''
 	cta1_link_name = '''qa'''
 	cta1_icon = '''more'''
-
-  [[module]]
-path='email_modules/split/07'
-color='white'
-
-title='''Cho chiếc xe của bạn thêm nổi bật'''
-copy='''Hãy trang bị cho chiếc xe của bạn phụ kiện chính hãng từ Ford. Các phụ kiện của Ford được thiết kế theo tiêu chuẩn chất lượng cao và chuyên biệt, sẵn sàng nâng cấp chiếc xe của bạn lên tầm cao mới.'''
-cta1_text='''XEM CHI TIẾT PHỤ KIỆN'''
-cta1_url='''https://www.ford.com.vn/trucks/ranger/accessories/'''
-cta1_link_name = '''acc_ranger'''
-image='''vn_edm1a_Ranger_20170324'''
 
 [[module]] #Cover 05
 path='email_modules/cover/02'

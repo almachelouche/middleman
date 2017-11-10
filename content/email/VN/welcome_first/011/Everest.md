@@ -1,49 +1,32 @@
 +++
 markets = ["vn"]
-title = '''VN Welcome Repeat 011 Ranger'''
+title = '''VN Welcome First 011 Everest'''
 
 [[module]]
 path='email_modules/preheader'
 
-	preheader = '''Chẳng có gì thú vị hơn được lái một chiếc xe mới, dù đó là chiếc xe đầu tiên hay thứ 10. Thế nên chúng tôi muốn nói "Cảm ơn Bạn" vì đã tiếp tục chọn Ford.'''
+	preheader = '''Có lẽ không có gì thú vị hơn khi được ngồi lái một chiếc xe mới. Và chúng tôi muốn nói lời cảm ơn bạn đã lựa chọn Ford.'''
+
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'
 
 	image = '''white'''
-	url_link = '''https://www.ford.com.vn'''
+	url_link = '''https://www.ford.com.vn/'''
 
 [[module]] #Cover 01
 path='email_modules/cover/01'
 color='''white'''
  
-	title = '''Xin chào <%${user['LastName']}%>,<br /><br />Hành trình vẫn tiếp diễn'''
-	copy = '''Chẳng có gì thú vị hơn được lái một chiếc xe mới, dù đó là chiếc xe đầu tiên hay thứ 10. Thế nên chúng tôi muốn nói "Cảm ơn Bạn" vì đã tiếp tục chọn Ford.<br /><br />Là thành viên gia đình Ford, chúng tôi tiếp tục gửi tới bạn không chỉ những tin tức mới nhất từ Ford, mà cả những ưu đãi dành cho Khách hàng trung thành với thương hiệu Ford.<br /><br />Và đừng quên tận hưởng bên chiếc Ranger của bạn!'''
+	title = '''Xin chào <%${user['LastName']}%>,<br /><br />Bạn có thấy tuyệt vời khi ngồi sau vô lăng?'''
+	copy = '''Có lẽ không có gì thú vị hơn khi được ngồi lái một chiếc xe mới. Và chúng tôi muốn nói lời cảm ơn bạn đã lựa chọn Ford.<br /><br />Là thành viên gia đình Ford, bạn sẽ nhận được những tin tức mới nhất từ Ford và cả những ưu đãi mà chúng tôi tin chắc bạn sẽ vui lòng đón nhận.<br /><br />Và đừng quên tận hưởng bên chiếc All-New Everest mới của mình nhé!'''
 
-	[[module]] #Banner Image No Link
+[[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''vn_edm1&4_np_newranger_20160801'''
-
-[[module]]
-path='email_modules/cover/02'
-
-color='''white'''
-title='''Giới thiệu khách hàng và nhận ngay quà tặng'''
-copy='''Quý vị có người thân và bạn bè đang có dự định mua xe Ford? Hãy giới thiệu họ với chúng tôi bằng cách điền vào "phiếu giới thiệu khách hàng tiềm năng" trên trang www.ford.com.vn, vào mục chủ xe, và quý vị có thể nhận ngay quà tặng phiếu dịch vụ trị giá đến 2 triệu đồng. Chương trình sẽ kết thúc vào ngày 31 tháng 12 năm 2017.'''
-cta1_text='''XEM CHI TIẾT CHƯƠNG TRÌNH'''
-cta1_url='''https://www.ford.com.vn/owner/owner-gets-owner/'''
-cta1_link_name = '''member'''
-
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-
-	image='''vn_edm1_member_20171106'''
-	url_link='''https://www.ford.com.vn/'''
-	url_link_name='''member'''
+	image = '''vn_edm1&4_np_allneweverest_20160801'''
 
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
@@ -60,6 +43,17 @@ color='black'
 	cta2_link_name = '''oa_android'''
 	image = '''vn_edm1a_ownerapp_20160801'''
 
+[[module]] #Cover 01
+path='email_modules/cover/01'
+color='slatescreen'
+
+	title = '''Hỏi đáp'''
+	copy = '''Hỏi: Tại sao hộp số PowerShift phát ra tiếng kêu khi chuyển số. Tiếng kêu này có bình thường không?<br /><br />Đáp: Tiếng kêu đó bình thường vì hộp số PowerShift không phải là hộp số tự động truyền thống mà đó là hộp số được trang bị ly hợp kép...<br /><br />Hỏi: ESC dùng để làm gì?<br /><br />Đáp: ESC (Electronic Stability Control) giúp kiểm soát các hoạt động của xe và tự động điều chỉnh công suất của động cơ hoặc bổ sung thêm lực phanh...<br /><br />Hỏi: Tôi có thể liên hệ với ai nếu cần thêm trợ giúp?<br /><br />Đáp: Nếu Bạn có yêu cầu trợ giúp về kỹ thuật hay các vấn đề khác liên quan đến Ford, hãy gọi đường dây nóng <a href="tel:1800588888" style="text-decoration:none; color:#FFFFFF"><span style="color:#FFFFFF"><font color="#FFFFFF"> 1800-588888 </font></span></a> của Trung tâm Quan Hệ Khách hàng. Hoặc bạn có thể...'''
+	cta1_text = '''Xem thêm'''
+	cta1_url = '''https://www.facebook.com/notes/ford-việt-nam/một-số-câu-hỏi-thường-gặp-liên-quan-đến-ford-và-các-sản-phẩm-của-ford/917755158249573'''
+	cta1_link_name = '''qa'''
+	cta1_icon = '''more'''
+
  [[module]]
 path='email_modules/split/07'
 color='white'
@@ -67,20 +61,20 @@ color='white'
 title='''Cho chiếc xe của bạn thêm nổi bật'''
 copy='''Hãy trang bị cho chiếc xe của bạn phụ kiện chính hãng từ Ford. Các phụ kiện của Ford được thiết kế theo tiêu chuẩn chất lượng cao và chuyên biệt, sẵn sàng nâng cấp chiếc xe của bạn lên tầm cao mới.'''
 cta1_text='''XEM CHI TIẾT PHỤ KIỆN'''
-cta1_url='''https://www.ford.com.vn/trucks/ranger/accessories/'''
-cta1_link_name = '''acc_ranger'''
-image='''vn_edm1a_Ranger_20170324'''
+cta1_url='''https://www.ford.com.vn/suvs/everest/accessories/'''
+cta1_link_name = '''acc_everest'''
+image='''vn_edm1a_Everest_20170324'''
 
 [[module]] #Cover 05
 path='email_modules/cover/02'
 color='''white'''
 
-	title = '''Chiếc xe của bạn được bảo vệ lâu hơn và linh hoạt hơn'''
-	copy = '''Bạn càng mua sớm gói Bảo hành Mở rộng, giá càng tốt. Ngoài ra bạn có rất nhiều lựa chọn linh hoạt: bảo vệ toàn bộ xe với gói An tâm hay chỉ bảo vệ hộp số và động cơ với gói Tiết kiệm trong thời gian 1 năm hay 2 năm. Chúng tôi luôn bảo vệ bạn trên mọi hành trình.'''
-	cta1_text = '''BẢO VỆ XẾ YÊU'''
-	cta1_url = '''https://www.ford.com.vn/owner/warranty/extended-warranty/'''
-	cta1_link_name = '''extended_warranty'''
-	icon = '''vn_edm_extendedwarranty_20160801'''
+	title = '''Kỹ năng lái xe an toàn và tiết kiệm nhiên liệu'''
+	copy = '''Hãy xem và tải Cẩm nang "Kỹ năng lái xe an toàn và tiết kiệm nhiên liệu" của Ford: từ kỹ năng lái xe trong điều kiện thời tiết xấu đến cách sử dụng công nghệ tiên tiến trên xe.'''
+	cta1_text = '''TÌM HIỂU THÊM'''
+	cta1_url = '''https://www.ford.com.vn/content/dam/Ford/website-assets/ap/vn/home/VN-Driving-Tips-Booklet.pdf'''
+	cta1_link_name = '''driving_skills'''
+	icon = '''vn_edm1a_drivingskill_20160801'''
 
 [[module]] #Split 03
 path='email_modules/split/03'
@@ -103,6 +97,7 @@ path='email_modules/footer/online'
 color='white'
 
 	copy='''Nhấp chuột <a href="<%unsubscribe_link_text%>" style="color:#91a4b1; text-decoration:underline">tại đây</a> nếu bạn muốn ngừng nhận thư từ Ford<br />Bản quyền © Công ty TNHH Ford Việt Nam <br /><br />Nếu bạn không xem đươc e-mail này, <a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#91a4b1; text-decoration:underline"><br /> xin nhấp chuột tại đây để xem phiên bản trên web</a>'''
+
 
 
 +++
