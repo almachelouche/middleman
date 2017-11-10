@@ -148,15 +148,14 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">道路紧急�
     <span style="font-family:Tahoma, Verdana, Sans-serif">
     <span style=" white-space:nowrap;">想知道什么是SYNC 3 吗？</span>
     <br />
-    <span style=" white-space:nowrap;">通过SYNC科技，</span>
+    <span style=" white-space:nowrap;">通过SYNC科技，您能双手不离方向盘</span>
     <br />
-    <span style=" white-space:nowrap;">您可以双手不离方向盘通过语音指令</span>
-    <br />
-    <span style=" white-space:nowrap;">轻松打电话、导航</span>
+    <span style=" white-space:nowrap;">通过语音指令轻松打电话、导航</span>
     <br />
     <span style=" white-space:nowrap;">更可以便捷的享受音乐、</span>
     <br />
     <span style=" white-space:nowrap;">娱乐及使用手机应用程序。</span>
+    <br />
     <br />
     '''
 	cta2a_text = '''
