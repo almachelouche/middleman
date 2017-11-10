@@ -36,8 +36,8 @@ color='fordblue'
 path='email_modules/cover/master'
 color='fordblue'
 
-	title='''Events LAKSHMI Test'''
-	copy='''The below links are for testing the calendar events links'''
+	title='''Events Test'''
+	copy='''The below links are for testing the calendar events links by Lakshmi'''
 
 	cta_direction = '''vertical'''
 
