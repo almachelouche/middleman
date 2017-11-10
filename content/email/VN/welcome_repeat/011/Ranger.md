@@ -82,23 +82,17 @@ color='''white'''
 	cta1_link_name = '''extended_warranty'''
 	icon = '''vn_edm_extendedwarranty_20160801'''
 
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
+[[module]] #Split 03
+path='email_modules/split/03'
+color='green'
 
-	image='''vn_edm1_autumn_20171013'''
-	url_link='''https://www.ford.com.vn/about/news-events/2017/chuong-trinh-khuyen-mai-dich-vu-chao-thu-2017/'''
-	url_link_name='''autumn'''
-
-[[module]]
-path='email_modules/cover/02'
-
-color='''white'''
-title='''Chương trình ưu đãi lớn'''
-copy='''Quý vị cần thay nhớt? Quý vị cần thay bộ lọc nhớt mới? Nhanh tay hưởng ngay ưu đãi! Từ ngày 1 tháng 10 đến ngày 14 tháng 11 năm 2017, tất cả các khách hàng của Ford sẽ được giảm 15% trên giá bán lẻ của phụ tùng dầu (nhớt) và lọc dầu (nhớt) khi làm bảo dưỡng chính hãng tại các Trung tâm Dịch vụ Ford. Hãy nhanh tay tìm hiểu thêm thông tin về chương trình tuyệt vời này.'''
-cta1_text='''TÌM HIỂU THÊM'''
-cta1_url='''https://www.ford.com.vn/about/news-events/2017/chuong-trinh-khuyen-mai-dich-vu-chao-thu-2017/'''
-cta1_link_name = '''autumn'''
+	title = '''Tiết kiệm hơn, tiện lợi hơn với sản phẩm "Bảo Dưỡng Định kì trọn gói – SSP"'''
+	copy = '''Gói "Bảo Dưỡng Định kỳ Trọn gói – SSP" giúp tiết kiệm chi phí lên tới 13% so với làm bảo dưỡng thông thường. Không những thế, trong suốt thời gian tối đa 2 năm khi sử dụng gói SSP, bạn không phải lo lắng tăng giá phụ tùng hay nhân công do lạm phát. Toàn bộ quy trình bảo dưỡng được thực hiện bởi đội ngũ Kỹ thuật viên chuyên nghiệp tại các Đại lý Ủy quyền của Ford Việt Nam.'''
+	cta1_text = '''TÌM HIỂU THÊM'''
+	cta1_url = '''https://www.ford.com.vn/owner/service-and-maintenance/ssp/'''
+	cta1_link_name = '''ssp'''
+	cta1_icon = '''more'''
+	image = '''vn_edm1a_13off_20170324'''
 
 [[module]] #VN Social
 path='email_modules/footer/vn/social'

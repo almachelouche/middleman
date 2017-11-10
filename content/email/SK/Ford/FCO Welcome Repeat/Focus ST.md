@@ -1,12 +1,12 @@
 
 +++
 markets = ["sk-ford"]
-title = '''FCO Welcome First Explorer'''
+title = '''FCO Welcome Repeat Focus ST'''
 
 [[module]]
 path='email_modules/preheader'
 
-	preheader='''欢迎福特新车主加入福特大家庭。'''
+	preheader='''欢迎福特车主再次加入福特大家庭。'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -20,28 +20,32 @@ path='email_modules/cover/02'
 color='white'
 
 title='''
-    <span style="white-space:nowrap;">欢迎您开启福特进无止境之旅</span>
+    <span style="white-space:nowrap;">挚谢您再次选购福特汽车</span>
 '''
 copy='''
     <span style="white-space:nowrap;">尊敬的车主</span>
     <br/>
+    <span style="white-space:nowrap;">更多非凡体验，相伴全球之旅。</span>
     <br/>
-    <span style="white-space:nowrap;">生活，总有更远的风景等待发现。</span>
     <br/>
-    <span style="white-space:nowrap;">驾驶一辆福特，来发现更多生活乐趣。</span>
+    <span style="white-space:nowrap;">感谢您再次选购福特汽车，</span>
     <br/>
-    <span style="white-space:nowrap;">丰富的人性化功能与全方位服务，拓宽生活的半径，亦将让您的梦想从容延展。</span>
+    <span style="white-space:nowrap;">我们将以更加丰富、便捷的体验，伴您开启焕然一新的旅途。</span>
     <br/>
-    <span style="white-space:nowrap;">去经历前所未有的故事，去结识志同道合的朋友，去发现与众不同的自己。</span>
+    <span style="white-space:nowrap;">以一如既往的专业服务，助您时刻从容前行。</span>
     <br/>
-    <span style="white-space:nowrap;">一路乐享福特，我们伴您前行。</span>
+    <span style="white-space:nowrap;">让您在已知的精彩之外，发现更多未知的风景；</span>
+    <br/>
+    <span style="white-space:nowrap;">在践行梦想的路上，不断进无止境。</span>
+    <br/>
+    <span style="white-space:nowrap;">如您有任何需要，敬请随时联系我们，我们将全力为您服务。</span>
 '''
 
  [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
-	image = '''fco_edm1_explorer_20171109'''
+	image = '''fco_edm1_focusst_20171109'''
 
 [[module]] #Cover 02
 path='email_modules/cover/02'
@@ -170,33 +174,6 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">道路紧急�
 	cta2c_link_name = ''''''
 	icon2 = '''th_edm1_sync_20160801'''
 
- [[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
-	image = '''fco_edm2_specialoffer_20171108'''
-
-[[module]] #Cover 02
-path='email_modules/cover/02'
-color='white'
-
-title='''
-    <span style="white-space:nowrap;">购指定附件获免费保养[1]</span>
-'''
-copy='''
-    <span style="white-space:nowrap;">2017年10月起至12月31日，福特现已推出探险者车主专享优惠。</span>
-    <br/>
-    <span style="white-space:nowrap;">您只需在经销商处同时自费购买探险者原厂认证的</span>
-    <br/>
-    <span style="white-space:nowrap;">太阳膜、集成式行车记录仪和脚踏板，</span>
-    <br/>
-    <span style="white-space:nowrap;">即可尊享一次免费车辆保养。</span>
-    <br />
-'''
-cta1_text='''<span style="white-space:nowrap;">查找经销商</span>'''
-cta1_url='''https://www.ford.com.cn/locate-a-dealer/'''
-cta1_link_name='''special_offer'''
-
 [[module]] #Cover 01
 path='email_modules/cover/02'
 color='fordblue'
@@ -221,16 +198,6 @@ text = '''
 <br/>
 <br/>
 <span style="white-space:nowrap;">*请车主仔细阅读随车套件中的车主手册、车主手册附录、道路救援服务指南等相关资料。</span>
-<br/>
-<span style="white-space:nowrap;">[1] 2017年10月至12月31日，</span>
-<br/>
-<span style="white-space:nowrap;">探险者车主自费购买原厂认证脚踏板、太阳膜和集成式行车记录仪，</span>
-<br/>
-<span style="white-space:nowrap;">将享一次免费保养(机油和机滤,含工时）。</span>
-<br/>
-<span style="white-space:nowrap;">福特中国将在2018年第一季度统一注册活动参与用户，</span>
-<br/>
-<span style="white-space:nowrap;">用户需在注册之日起6个月内使用此次保养，逾期视为弃权。</span>
 <br/>
 <br/>
 <span style="white-space:nowrap;"><a href="https://www.ford-korea.com/privacy/" name="privacy" style="text-decoration:underline; color:#91a4b1;">点击此处</a>退订福特推送邮件。</span>

@@ -1,12 +1,12 @@
 
 +++
 markets = ["sk-ford"]
-title = '''FCO Welcome First Explorer'''
+title = '''FCO Welcome Repeat Explorer'''
 
 [[module]]
 path='email_modules/preheader'
 
-	preheader='''欢迎福特新车主加入福特大家庭。'''
+	preheader='''欢迎福特车主再次加入福特大家庭。'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -20,21 +20,25 @@ path='email_modules/cover/02'
 color='white'
 
 title='''
-    <span style="white-space:nowrap;">欢迎您开启福特进无止境之旅</span>
+    <span style="white-space:nowrap;">挚谢您再次选购福特汽车</span>
 '''
 copy='''
     <span style="white-space:nowrap;">尊敬的车主</span>
     <br/>
+    <span style="white-space:nowrap;">更多非凡体验，相伴全球之旅。</span>
     <br/>
-    <span style="white-space:nowrap;">生活，总有更远的风景等待发现。</span>
     <br/>
-    <span style="white-space:nowrap;">驾驶一辆福特，来发现更多生活乐趣。</span>
+    <span style="white-space:nowrap;">感谢您再次选购福特汽车，</span>
     <br/>
-    <span style="white-space:nowrap;">丰富的人性化功能与全方位服务，拓宽生活的半径，亦将让您的梦想从容延展。</span>
+    <span style="white-space:nowrap;">我们将以更加丰富、便捷的体验，伴您开启焕然一新的旅途。</span>
     <br/>
-    <span style="white-space:nowrap;">去经历前所未有的故事，去结识志同道合的朋友，去发现与众不同的自己。</span>
+    <span style="white-space:nowrap;">以一如既往的专业服务，助您时刻从容前行。</span>
     <br/>
-    <span style="white-space:nowrap;">一路乐享福特，我们伴您前行。</span>
+    <span style="white-space:nowrap;">让您在已知的精彩之外，发现更多未知的风景；</span>
+    <br/>
+    <span style="white-space:nowrap;">在践行梦想的路上，不断进无止境。</span>
+    <br/>
+    <span style="white-space:nowrap;">如您有任何需要，敬请随时联系我们，我们将全力为您服务。</span>
 '''
 
  [[module]] #Banner Image No Link

@@ -5,7 +5,7 @@ title = '''VN Repurchase 018 all'''
 [[module]]
 path='email_modules/preheader'
 
-	preheader = '''Tham gia lái thử xe Ford, đồng thời cơ hội trúng thưởng 28 Iphone 7.'''
+	preheader = '''Xem thông tin mới nhất chưa từng có về dòng xe Ford mới'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -14,18 +14,24 @@ color='white'
 	image = '''white'''
 	url_link = '''https://www.ford.com.vn/'''
     
-    
-[[module]] #Split 04
-path='email_modules/split/04'
-color='fordblue'
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
 
-	title = '''Tặng Voucher 3.000.000 VNĐ thay lời cảm ơn'''
-	copy = '''Sự tin tưởng và yêu mến thương hiệu Ford của Quý khách hàng là món quà vô giá đối với chúng tôi. Thế nên chúng tôi xin gửi tặng voucher 3.000.000 đồng cho mỗi xe Quý vị mua thêm thay cho lời cảm ơn chân thành từ Ford Việt Nam khi Quý vị tiếp tục đồng hành cùng chúng tôi.'''
-	cta1_text = '''TÌM HIỂU THÊM'''
-	cta1_url = '''https://www.ford.com.vn/owner/vehicle-support/incentives/'''
+	image='''vn_edm1_yes_20171106'''
+	url_link='''https://www.ford.com.vn/'''
+	url_link_name='''yes'''
+
+[[module]] #Cover 02
+path='email_modules/cover/02'
+color='''white'''
+
+	
+	title='''Tặng Voucher 3.000.000 VNĐ thay lời cảm ơn'''
+	copy='''Xin chào <%${user.CustomAttribute['Title']}%> <%${user['FirstName']}%><br /><br />Sự tin tưởng và yêu mến thương hiệu Ford của Quý khách hàng là món quà vô giá đối với chúng tôi. Thế nên chúng tôi xin gửi tặng voucher 3.000.000 đồng cho mỗi xe Quý vị mua thêm thay cho lời cảm ơn chân thành từ Ford Việt Nam khi Quý vị tiếp tục đồng hành cùng chúng tôi.'''
+	cta1_text='''TÌM HIỂU THÊM'''
+	cta1_url='''https://www.ford.com.vn/owner/vehicle-support/incentives/'''
 	cta1_link_name = '''loyalty_offer'''
-	cta1_icon = '''more'''
-	image = '''vn_edm5_loyaltyoffer_20170728'''
 
 [[module]]
 path='email_modules/spacer/platinum_20'
@@ -44,9 +50,9 @@ path='email_modules/cover/02'
 color='''white'''
 
 	
-	title='''Save 20 Million VND'''
-	copy='''Hello <%${user.CustomAttribute['Title']}%> <%${user['FirstName']}%><br /><br />We love having you in the Ford family. That’s why we’re making it easier than ever to get behind the wheel of a new Ford vehicle.<br /><>br />Take advantage of our Year-End Sale, and drive home in a Ford EcoSport Titanium 1.5L from just 599 million VND. Prefer something compact? The Ford Focus Trend 1.5L EcoBoost is yours for as low as 620 million VND.<br /><br />But that’s not all. This November only, we’re offering an additional 20 million VND off our already low sales prices.<br /><br />But get in fast. This deal ends November 30, 2017.'''
-	cta1_text='''FIND OUR MORE'''
+	title='''Tiết kiệm 20 triệu Đồng'''
+	copy='''Hãy tận dụng chương trình Khuyến mãi cuối năm, và tậu chiếc Ford EcoSport Titanium 1.5L chỉ từ 599 triệu Đồng. Quý vị thích dòng nhỏ gọn hơn? Ford Focus Trend 1.5L EcoBoost đúng ý của quý vị chỉ với 620 triệu Đồng.<br /><br />Nhưng chưa hết. Chỉ riêng tháng 11 này, chúng tôi sẽ giảm thêm 20 triệu Đồng nữa.<br /><br />Hãy nhanh tay lên. Chương trình này sẽ kết thúc vào ngày 30 tháng 11 năm 2017.'''
+	cta1_text='''TÌM HIỂU THÊM '''
 	cta1_url='''https://www.ford.com.vn/'''
 	cta1_link_name = '''retail_offer'''
   
@@ -63,15 +69,33 @@ path='email_modules/cover/02'
 color='''white'''
 
 
-	title='''Test Drive and Win'''
-	copy='''Win 1 of 28 Samsung Note 8 smartphones, just by test driving a Ford Ranger, Explorer or EcoSport at any Ford dealership nationwide. But hurry. This promotion ends December 15, 2017.'''
-	cta1_text='''VIEW DATES & LOCATIONS'''
+	title='''Lái thử và Nhận quà'''
+	copy='''Chỉ cần đến lái thử chiếc Ford Ranger, Explorer hoặc EcoSport tại bất kỳ đại lý nào của Ford trên toàn quốc, quý khách hàng sẽ có cơ hội nhận được 1 trong 28 chiếc điện thoại smartphone Samsung Note 8. Hãy nhanh chân lên. Chương trình này sẽ kết thúc vào ngày 15 tháng 12 năm 2017.'''
+	cta1_text='''XEM THÔNG TIN NGÀY & ĐỊA ĐIỂM'''
 	cta1_url='''https://www.ford.com.vn/'''
 	cta1_link_name = '''event_schedule'''
-    cta2_text='''BOOK TEST DRIVE'''
+    cta2_text='''ĐĂNG KÝ LÁI THỬ'''
 	cta2_url='''https://www.ford.com.vn/'''
 	cta2_link_name = '''test_drive'''
-    
+  
+ [[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+
+	image='''vn_edm1_autumn_20171013'''
+	url_link='''https://www.ford.com.vn/about/news-events/2017/chuong-trinh-khuyen-mai-dich-vu-chao-thu-2017/'''
+	url_link_name='''autumn'''
+
+[[module]]
+path='email_modules/cover/02'
+
+color='''white'''
+title='''Chương trình ưu đãi lớn'''
+copy='''Quý vị cần thay nhớt? Quý vị cần thay bộ lọc nhớt mới? Nhanh tay hưởng ngay ưu đãi! Từ ngày 17 tháng 11 đến ngày 31 tháng 12 năm 2017, tất cả các khách hàng của Ford sẽ được giảm 15% trên giá bán lẻ của phụ tùng dầu (nhớt) và lọc dầu (nhớt) khi làm bảo dưỡng chính hãng tại các Trung tâm Dịch vụ Ford. Hãy nhanh tay tìm hiểu thêm thông tin về chương trình tuyệt vời này.'''
+cta1_text='''TÌM HIỂU THÊM'''
+cta1_url='''https://www.ford.com.vn/about/news-events/2017/chuong-trinh-khuyen-mai-dich-vu-chao-thu-2017/'''
+cta1_link_name = '''autumn'''
+
 [[module]] #Split 03
 path='email_modules/split/03'
 color='black'
