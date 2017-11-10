@@ -22,6 +22,24 @@ color='''white'''
 	title = '''Xin chào <%${user['LastName']}%>,<br /><br />Bạn có thấy tuyệt vời khi ngồi sau vô lăng?'''
 	copy = '''Có lẽ không có gì thú vị hơn khi được ngồi lái một chiếc xe mới. Và chúng tôi muốn nói lời cảm ơn bạn đã lựa chọn Ford.<br /><br />Là thành viên gia đình Ford, bạn sẽ nhận được những tin tức mới nhất từ Ford và cả những ưu đãi mà chúng tôi tin chắc bạn sẽ vui lòng đón nhận.<br /><br />Và đừng quên tận hưởng bên chiếc All-New Everest mới của mình nhé!'''
 
+[[module]]
+path='email_modules/cover/02'
+
+color='''white'''
+title='''Giới thiệu khách hàng và nhận ngay quà tặng'''
+copy='''Quý vị có người thân và bạn bè đang có dự định mua xe Ford? Hãy giới thiệu họ với chúng tôi bằng cách điền vào "phiếu giới thiệu khách hàng tiềm năng" trên trang www.ford.com.vn, vào mục chủ xe, và quý vị có thể nhận ngay quà tặng phiếu dịch vụ trị giá đến 2 triệu đồng. Chương trình sẽ kết thúc vào ngày 31 tháng 12 năm 2017.'''
+cta1_text='''XEM CHI TIẾT CHƯƠNG TRÌNH'''
+cta1_url='''https://www.ford.com.vn/owner/owner-gets-owner/'''
+cta1_link_name = '''member'''
+
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+
+	image='''vn_edm1_member_20171106'''
+	url_link='''https://www.ford.com.vn/'''
+	url_link_name='''member'''
+
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
