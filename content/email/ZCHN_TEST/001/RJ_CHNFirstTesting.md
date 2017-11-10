@@ -4,6 +4,12 @@ title = 'ZChennaiDatahub_FirstTesting'
 
 [[module]]
 path='email_modules/cover/master'
+color='white'
+
+preheader = '''Lakshmi Owning a Ford has never been easier, thanks to the new Owners App by Ford. It's simple, convenient and keeps you connected with Ford, anywhere and anytime.'''
+
+[[module]] #Header Logo
+path='email_modules/header/logo'
 color='fordblue'
 
 	title='''ChennaiDatahub_Testing_Title'''
