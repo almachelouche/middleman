@@ -86,7 +86,7 @@ color='''white'''
     In addition to the Terrain Management System which makes light work of any terrain, Everest also delivers the smart tech and capabilities you need for better on-road driving. Enjoy an unbeatable 3,000kg towing capability and a suite of driver assist technologies, including Lane Keeping System and Adaptive Cruise Control. 
     <br/><br/>
     Right now, the Ford Everest Trend 4WD is available at $59,990* Driveaway.
-    <br/><br/>''
+    <br/><br/>'''
 
 	cta_direction = '''vertical'''
 
