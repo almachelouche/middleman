@@ -6,31 +6,19 @@ title = '''AU Prospect 013 Escape-Merged'''
 [[module]]
 path='email_modules/preheaderbefore'
 
-segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
-
-	preheader='''The Ford Escape is waiting for you at a nearby dealership!'''
-
 [[module]]
 path='email_modules/preheaderbefore'
-
-segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	preheader='''Click through to see the latest offers on the smart Ford Escape'''
 
 	[[module]]
 path='email_modules/body'
 
-[[module]]
-path='email_modules/preheaderbefore'
 
-segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
-
-	preheader='''The Ford Escape is waiting for you at a nearby dealership!'''
 
 [[module]]
 path='email_modules/preheaderbefore'
 
-segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	preheader='''Click through to see the latest offers on the smart Ford Escape'''
     
@@ -41,21 +29,11 @@ color='white'
 	image = '''white'''
 	url_link = '''https://www.ford.com.au/'''
  
-  [[module]]
-path='email_modules/image/banner'
-color='white'
-segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
-
-    image = '''au_edm5_escape1_20161223'''
-	url_link='''https://www.ford.com.au/suv/escape/'''
-	url_link_name='''p2escape''' 
-
 [[module]]
 path='email_modules/image/banner'
 color='white'
-segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-    image = '''au_edm5_escape2_20161223'''
+    image = '''au_edm1_escape_20170629'''
 	url_link='''https://www.ford.com.au/suv/escape/'''
 	url_link_name='''p1escape''' 
 
