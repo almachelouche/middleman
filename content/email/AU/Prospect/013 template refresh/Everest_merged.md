@@ -45,6 +45,7 @@ color='white'
 path='email_modules/image/banner'
 color='white'
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
+
     image = '''au_edm5_everest1_20161013'''
 	url_link='''https://www.ford.com.au/suv/everest/'''
 	url_link_name='''p2everest'''
@@ -68,25 +69,35 @@ color='''white'''
 	cta1_text = '''LATEST OFFER'''
 	cta1_url = '''https://www.ford.com.au/latest-offer/everest-trend-4wd/'''
 	cta1_link_name = ''''''
-	cta2_text = '''EVEREST FEATURES'''
+	cta2_text = '''LOCATE A DEALER'''
 	cta2_url = '''http://google.com'''
 	cta2_link_name = ''''''
 
 [[module]]
-path='email_modules/singles/copy'
+path='email_modules/cover/master'
 color='''white'''
-segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
-	copy = '''Hi <%${user.CustomAttribute['FullName']}%>
+	icon=''''''
+	title=''''''
+	copy='''Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
     Push yourself to the limit with the bold new Ford Everest 4WD, and love every minute of it. 
     <br/><br/>
     In addition to the Terrain Management System which makes light work of any terrain, Everest also delivers the smart tech and capabilities you need for better on-road driving. Enjoy an unbeatable 3,000kg towing capability and a suite of driver assist technologies, including Lane Keeping System and Adaptive Cruise Control. 
     <br/><br/>
     Right now, the Ford Everest Trend 4WD is available at $59,990* Driveaway.
-    <br/><br/>
-    '''
+    <br/><br/>''
 
+	cta_direction = '''vertical'''
+
+	cta_1_copy = '''DISCOVER MORE'''
+	cta_1_link_url = '''https://www.ford.com/1'''
+	cta_1_link_name = '''link_1_name_here'''
+	cta_1_icon = ''''''
+	cta_1_type = '''block'''
+	cta_1_width = '''240'''
+
++++
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
