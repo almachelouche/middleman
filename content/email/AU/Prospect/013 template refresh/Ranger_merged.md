@@ -91,6 +91,10 @@ color = '''white'''
 	image = '''au_edm2_svc_new_banner_20170926'''
 	url_link = '''https://www.ford.com.au/owners/service/'''
    
+
+[[module]]
+path='email_modules/dual/05'
+color='white'
     
     title1 = '''Get Accessorised'''
     text_box_height = '''310'''
