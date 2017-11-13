@@ -33,6 +33,12 @@ color = '''white'''
 	image = '''au_edm1_everest_20170629'''
     url_link='''https://www.ford.com.au/suv/everest/'''
 	url_link_name='''p1everest'''
+
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
     
     
 [[module]]
