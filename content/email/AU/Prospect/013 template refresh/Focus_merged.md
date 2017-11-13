@@ -32,6 +32,11 @@ color = '''white'''
     url_link='''https://www.ford.com.au/cars/focus/'''
 	url_link_name='''p1fiesta'''
    
+   [[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
    
     
 [[module]]

@@ -34,6 +34,12 @@ color='white'
 	url_link_name='''p1escape''' 
 
 [[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+    
+[[module]]
 path='email_modules/singles/2ctablocksideoutline'
 color='''white'''
 

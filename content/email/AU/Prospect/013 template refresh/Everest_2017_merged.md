@@ -23,6 +23,12 @@ color='white'
 	image = '''white'''
 	url_link = '''https://www.ford.com.au/'''
 
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+    
     [[module]]
 path='email_modules/image/banner'
 color='white'
