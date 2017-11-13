@@ -133,8 +133,8 @@ title1 = ''' <span style="font-family:Tahoma, Verdana, Sans-serif">道路紧急�
     <br />
     <br />
     '''
-	cta1a_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">400-650-1668</span>'''
-	cta1a_url = '''https://www.ford.com.cn/service/fco/fco-roadassist/'''
+	cta1a_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">400-650-1668<% ${user.CustomAttribute['Dealer_Phone']} %></span>'''
+	cta1a_url = '''tel:<% ${user.CustomAttribute['Dealer_Phone']}%>'''
 	cta1a_link_name = '''road_assistance'''
 	cta1b_text = ''''''
 	cta1b_url = ''''''

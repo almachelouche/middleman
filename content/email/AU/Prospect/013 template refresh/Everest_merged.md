@@ -1,10 +1,11 @@
 +++
 markets = ["au"]
 title = '''AU Prospect 013 Everest-merged'''
-draft = true
+
 
 [[module]]
 path='email_modules/preheaderbefore'
+
 
 	preheader='''Click through to see the latest offers on our most capable SUV, the Ford Everest'''
 
@@ -13,6 +14,7 @@ path='email_modules/body'
 
 [[module]]
 path='email_modules/preheaderbefore'
+
 
 	preheader='''Click through to see the latest offers on our most capable SUV, the Ford Everest'''
 
@@ -23,30 +25,20 @@ color='white'
 	image = '''white'''
 	url_link = '''https://www.ford.com.au/'''
 
+
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color = '''white'''
+
+	image = '''au_edm1_everest_20170629'''
+    url_link='''https://www.ford.com.au/suv/everest/'''
+	url_link_name='''p1everest'''
+
 [[module]]
 path='email_modules/spacer/default'
 color='white'
 
 	height="30"
-    
-    [[module]]
-path='email_modules/image/banner'
-color='white'
-segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
-    image = '''au_edm5_everest1_20161013'''
-	url_link='''https://www.ford.com.au/suv/everest/'''
-	url_link_name='''p2everest'''
-
-	
-
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color = '''white'''
-segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
-
-	image = '''au_edm5_everest1_20161013'''
-    url_link='''https://www.ford.com.au/suv/everest/'''
-	url_link_name='''p1everest'''
     
     
 [[module]]
@@ -61,17 +53,28 @@ color='''white'''
 	cta2_link_name = ''''''
 
 [[module]]
-path='email_modules/singles/copy'
+path='email_modules/cover/master'
 color='''white'''
-segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
-	copy = '''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Ever wondered what's beyond the horizon? It's time to explore it all with the new Ford Everest. Sand, snow, desert or bush - nothing gets in the way of this powerful performer. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Everest Trend 4WD is available at $59,990* Driveaway.</span>'''
 
-[[module]]
-path='email_modules/singles/copy'
-color='''white'''
-segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
-	copy = '''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Ever wondered what's beyond the horizon? It's time to explore it all with the new Ford Everest. Sand, snow, desert or bush - nothing gets in the way of this powerful performer. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Everest Trend 4WD is available at $59,990* Driveaway.</span>'''
+	icon=''''''
+	title=''''''
+	copy='''Hi <%${user.CustomAttribute['FullName']}%>
+    <br/><br/>
+    Push yourself to the limit with the bold new Ford Everest 4WD, and love every minute of it. 
+    <br/><br/>
+    In addition to the Terrain Management System which makes light work of any terrain, Everest also delivers the smart tech and capabilities you need for better on-road driving. Enjoy an unbeatable 3,000kg towing capability and a suite of driver assist technologies, including Lane Keeping System and Adaptive Cruise Control. 
+    <br/><br/>
+    Right now, the Ford Everest Trend 4WD is available at $59,990* Driveaway.
+    <br/><br/>'''
 
+	cta_direction = '''vertical'''
+
+	cta_1_copy = '''DISCOVER MORE'''
+	cta_1_link_url = '''https://www.ford.com/1'''
+	cta_1_link_name = '''link_1_name_here'''
+	cta_1_icon = ''''''
+	cta_1_type = '''block'''
+	cta_1_width = '''240'''
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
@@ -115,8 +118,9 @@ path='email_modules/dual/05'
 color='white'
 
 	title1 = '''Free Loan Car&#185;'''
+    text_box_height = '''310'''
 	copy1 = '''Life shouldn't stop when you service your vehicle. That's why we offer a <a href="https://www.ford.com.au/owners/service/" name="freeloan" style="text-decoration:underline; color:#2D96CD">Free Loan Car&#185</a>  when you book a scheduled service.'''
-	image1 = '''au_edm2_free_loan_car_20170818'''
+	image1 = '''au_edm1_service_20170629'''
 	image1_link_url = '''https://www.ford.com.au/owners/service/'''
 	image1_link_name = '''Some'''
 	title2 = '''Insurance & Warranties'''

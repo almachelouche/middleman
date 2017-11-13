@@ -1,12 +1,12 @@
 +++
 markets = ["au"]
-title = '''AU Prospect 013 Everest-merged'''
-draft = true
+title = '''AU Prospect 013 Fiesta-merged'''
+
 
 [[module]]
 path='email_modules/preheaderbefore'
 
-	preheader='''Click through to see the latest offers on our most capable SUV, the Ford Everest'''
+	preheader='''Click through to see the latest offers on the vivid and stylish Ford Fiesta'''
 
 [[module]]
 path='email_modules/body'
@@ -14,7 +14,8 @@ path='email_modules/body'
 [[module]]
 path='email_modules/preheaderbefore'
 
-	preheader='''Click through to see the latest offers on our most capable SUV, the Ford Everest'''
+	preheader='''Click through to see the latest offers on the vivid and stylish Ford Fiesta'''
+
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -22,55 +23,56 @@ color='white'
 
 	image = '''white'''
 	url_link = '''https://www.ford.com.au/'''
-
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
-    
-    [[module]]
-path='email_modules/image/banner'
-color='white'
-segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
-    image = '''au_edm5_everest1_20161013'''
-	url_link='''https://www.ford.com.au/suv/everest/'''
-	url_link_name='''p2everest'''
-
 	
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color = '''white'''
-segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-	image = '''au_edm5_everest1_20161013'''
-    url_link='''https://www.ford.com.au/suv/everest/'''
-	url_link_name='''p1everest'''
-    
+	image = '''au_edm1_fiesta_20170629'''
+    url_link='''https://www.ford.com.au/cars/fiesta/'''
+	url_link_name='''p1fiesta'''
+   
+   [[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
     
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
 color='''white'''
 
 	cta1_text = '''LATEST OFFER'''
-	cta1_url = '''https://www.ford.com.au/latest-offer/everest-trend-4wd/'''
+	cta1_url = '''https://www.ford.com.au/latest-offer/fiesta-ambiente/'''
 	cta1_link_name = ''''''
 	cta2_text = '''LOCATE A DEALER'''
 	cta2_url = '''http://google.com'''
 	cta2_link_name = ''''''
 
 [[module]]
-path='email_modules/singles/copy'
+path='email_modules/cover/master'
 color='''white'''
-segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
-	copy = '''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Ever wondered what's beyond the horizon? It's time to explore it all with the new Ford Everest. Sand, snow, desert or bush - nothing gets in the way of this powerful performer. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Everest Trend 4WD is available at $59,990* Driveaway.</span>'''
 
-[[module]]
-path='email_modules/singles/copy'
-color='''white'''
-segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
-	copy = '''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Ever wondered what's beyond the horizon? It's time to explore it all with the new Ford Everest. Sand, snow, desert or bush - nothing gets in the way of this powerful performer. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Everest Trend 4WD is available at $59,990* Driveaway.</span>'''
+	icon=''''''
+	title=''''''
+	copy='''Hi <%${user.CustomAttribute['FullName']}%>
+    <br/><br/>
+    The Ford Fiesta might be small in size, but it’s definitely not small on personality. 
+    <br/><br/>
+    It all begins with a turbocharged, award-winning EcoBoost engine that is as powerful as it is fuel efficient. Top it off with voice-activated SYNC 3 technology that allows you to make calls, take calls and control the interior climate with the sound of your voice, and it’s an impressive package for any driver.  
+    <br/><br/>
+    Right now, the Ford Fiesta Ambiente Manual is available at $15,990* Driveaway.
+    <br/><br/>'''
+
+	cta_direction = '''vertical'''
+
+	cta_1_copy = '''DISCOVER MORE'''
+	cta_1_link_url = '''https://www.ford.com/1'''
+	cta_1_link_name = '''link_1_name_here'''
+	cta_1_icon = ''''''
+	cta_1_type = '''block'''
+	cta_1_width = '''240'''
 
 
 [[module]] #Banner Image
@@ -86,7 +88,7 @@ path='email_modules/spacer/platinum_20'
 color='white'
 
 	height="20"
-
+    
 [[module]]
 path='email_modules/dual/05'
 color='white'
@@ -115,8 +117,9 @@ path='email_modules/dual/05'
 color='white'
 
 	title1 = '''Free Loan Car&#185;'''
+    text_box_height = '''310'''
 	copy1 = '''Life shouldn't stop when you service your vehicle. That's why we offer a <a href="https://www.ford.com.au/owners/service/" name="freeloan" style="text-decoration:underline; color:#2D96CD">Free Loan Car&#185</a>  when you book a scheduled service.'''
-	image1 = '''au_edm2_free_loan_car_20170818'''
+	image1 = '''au_edm1_service_20170629'''
 	image1_link_url = '''https://www.ford.com.au/owners/service/'''
 	image1_link_name = '''Some'''
 	title2 = '''Insurance & Warranties'''
@@ -135,6 +138,7 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 	text = ''''''
+
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
 color='white'
