@@ -1,12 +1,13 @@
 +++
 markets = ["au"]
-title = '''AU Prospect 013 Mustang_merged'''
+title = '''AU Prospect 013 Ranger_merged'''
 
 
 [[module]]
 path='email_modules/preheaderbefore'
 
-	preheader='''Click through to see the latest offers on the business ready Ford Mustang'''
+
+	preheader='''Click through to see the latest offers on the tough and smart Ranger'''
 
 [[module]]
 path='email_modules/body'
@@ -14,8 +15,9 @@ path='email_modules/body'
 [[module]]
 path='email_modules/preheaderbefore'
 
-	preheader='''Click through to see the latest offers on the business ready Ford Mustang'''
-    
+
+	preheader='''Click through to see the latest offers on the tough and smart Ranger'''
+
 [[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'
@@ -28,22 +30,23 @@ color='white'
 path='email_modules/image/banner'
 color = '''white'''
 
-	image = '''au_edm1_mustang01_20170629'''
-    url_link='''https://www.ford.com.au/cars/mondeo/'''
-	url_link_name='''p1Mondeo'''
-   
+	image = '''au_edm5_ranger1_20161013'''
+    url_link='''https://www.ford.com.au/commercial/ranger/'''
+	url_link_name='''p1ranger'''
+    
+    
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
 color='''white'''
 
 	cta1_text = '''LATEST OFFER'''
-	cta1_url = '''https://www.ford.com.au/performance/mustang/'''
+	cta1_url = '''https://www.ford.com.au/latest-offer/4x4-xlt-double-cab-pick-up-3-2l-diesel/'''
 	cta1_link_name = ''''''
 	cta2_text = '''LOCATE A DEALER'''
 	cta2_url = '''http://google.com'''
 	cta2_link_name = ''''''
 
-	[[module]]
+[[module]]
 path='email_modules/cover/master'
 color='''white'''
 
@@ -51,11 +54,11 @@ color='''white'''
 	title=''''''
 	copy='''Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
-    From the classic design to the pinned-to-your-seat acceleration, you never forget your first time in a Ford Mustang.
+    A truck that does tough smarter. And that’s exactly what Ford Ranger delivers.  
     <br/><br/>
-    It all begins with the iconic growl of its 5.0L V8 engine, delivering 306kW of get-up-and-gone power. Prefer something more innovative? The turbocharged 2.3L EcoBoost engine is designed to maximise power from every compression for an impressive 233kW of power.
+    Discover the brute strength and innovative technology you need to take on any challenge, whether on the worksite or the weekend. From a back-breaking 3,500kg towing capacity to intuitive features like voice-activated SYNC 3 and Adaptive Cruise Control, Ranger is built to get the job done.  
     <br/><br/>
-    Right now, the Ford Mustang is available at $xxxxx* Driveaway.
+    Right now, the Ford Ranger 4x4 XLT Double Cab Pick-up 3.2L Diesel with FREE AUTO is available at $55,490* Driveaway.
     <br/><br/>'''
 
 	cta_direction = '''vertical'''
@@ -66,15 +69,24 @@ color='''white'''
 	cta_1_icon = ''''''
 	cta_1_type = '''block'''
 	cta_1_width = '''240'''
-
+    
 
 [[module]] #Banner Image
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
-	image = '''au_edm5_transit1_20161013'''
+path='email_modules/image/banner'
+color='white'
 
 
+	image='''au_edm2_svc_new_banner_20170926'''
+	url_link='''https://www.ford.com.au/owners/service/'''
+	url_link_name="servicebanner"
+
+
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
+	height="20"
+  
 [[module]] #Banner Image
 path = '''email_modules/image/banner'''
 color = '''white'''
@@ -85,9 +97,9 @@ color = '''white'''
     
     title1 = '''Get Accessorised'''
     text_box_height = '''310'''
-	copy1 = '''Whether you need a Track Handling Pack or a Body Styling Kit, only <a href="https://www.ford.com.au/cars/mustang/smart-accessories/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a> perfectly intergrate with your Mustang.'''
-	image1 = '''au_edm1_mustang02_20170629'''
-	image1_link_url = '''https://www.ford.com.au/cars/mustang/smart-accessories/'''
+	copy1 = ''' Whether you need a tonneau cover to protect your cargo, or a tow pack for your weekend adventure, only <a href="https://www.ford.com.au/commercial/ranger/smart-accessories/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a> perfectly integrate with your Ranger.'''
+	image1 = '''au_edm1_ranger02_20170629'''
+	image1_link_url = '''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
 	image1_link_name = '''link_name_here'''
 	title2 = '''Have you seen the Ford Ranger?'''
 	copy2 = '''With its winning combination of brute strength and innovative technology. There's no stopping the Ranger from getting the job done.'''
@@ -125,9 +137,10 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-    text = '''Terms & Conditions<br /> <br />
-	* Recommended offer available at participating dealers. Stock may vary between dealers. Private and Blue, Silver and Gold Fleet buyers only. Eligible Free Auto vehicles must be purchased by 31/12/17 and delivered by 3/01/18. Ford Dealers and Ford Australia can reduce or otherwise change these offers.<br /><br />
-	'''
+	text = '''Terms & Conditions
+				<br /> <br />* Recommended offer available at participating dealers. Stock may vary between dealers. Private and Blue, Silver and Gold Fleet buyers only. Eligible Free Auto vehicles must be purchased by 31/12/17 and delivered by 3/01/18. Ford Dealers and Ford Australia can reduce or otherwise change these offers.
+                <br /><br />
+				'''
 
 
 [[module]] #Footer AU Online
