@@ -6,14 +6,10 @@ title = '''AU Prospect 013 Escape-Merged'''
 [[module]]
 path='email_modules/preheaderbefore'
 
-[[module]]
-path='email_modules/preheaderbefore'
-
 	preheader='''Click through to see the latest offers on the smart Ford Escape'''
 
 	[[module]]
 path='email_modules/body'
-
 
 
 [[module]]

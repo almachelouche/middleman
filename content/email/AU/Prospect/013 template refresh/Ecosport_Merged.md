@@ -15,8 +15,6 @@ path='email_modules/body'
 [[module]]
 path='email_modules/preheaderbefore'
 
-
-
 	preheader='''Click through to see the latest offers on the Ford EcoSport the city-sized SUV'''
 
 

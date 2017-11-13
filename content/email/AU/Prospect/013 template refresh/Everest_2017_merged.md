@@ -6,8 +6,6 @@ draft = true
 [[module]]
 path='email_modules/preheaderbefore'
 
-segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
-
 	preheader='''Click through to see the latest offers on our most capable SUV, the Ford Everest'''
 
 [[module]]
@@ -15,8 +13,6 @@ path='email_modules/body'
 
 [[module]]
 path='email_modules/preheaderbefore'
-
-segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	preheader='''Click through to see the latest offers on our most capable SUV, the Ford Everest'''
 
