@@ -72,18 +72,30 @@ color='''white'''
 	cta2_url = '''http://google.com'''
 	cta2_link_name = ''''''
 
+
 [[module]]
-path='email_modules/singles/copy'
+path='email_modules/cover/master'
 color='''white'''
 
-	copy = '''Hi <%${user.CustomAttribute['FullName']}%>
+	icon=''''''
+	title=''''''
+	copy='''Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
-    Take on any urban challenge with the city-sized Ford EcoSport SUV.
+    Take on any urban challenge with the city-sized Ford EcoSport SUV. 
     <br/><br/>
-    EcoSport delivers tonnes of space – to the tune of 705 litres of flexible cargo space, fold-down 60:40 seats, and 20 smart storage compartments. Plus, the voice-activated SYNC system lets you stay connect to your world and favourite apps, while your hands stay safely on the steering wheel. 
+     EcoSport delivers tonnes of space – to the tune of 705 litres of flexible cargo space, fold-down 60:40 seats, and 20 smart storage compartments. Plus, the voice-activated SYNC system lets you stay connect to your world and favourite apps, while your hands stay safely on the steering wheel. 
     <br/><br/>
-    <br /><br /><span style="color:#000000">Right now, the Ford EcoSport Ambiente Manual is available $18,990* Driveaway.</span>
-    '''
+    Right now, the Ford EcoSport Ambiente Manual is available $18,990* Driveaway.
+    <br/><br/>'''
+
+	cta_direction = '''vertical'''
+
+	cta_1_copy = '''DISCOVER MORE'''
+	cta_1_link_url = '''https://www.ford.com/1'''
+	cta_1_link_name = '''link_1_name_here'''
+	cta_1_icon = ''''''
+	cta_1_type = '''block'''
+	cta_1_width = '''240'''
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
