@@ -3,17 +3,9 @@ markets = ["au"]
 title = '''AU Prospect 013
 Mondeo-merged'''
 
-[[module]]
-path='email_modules/preheaderbefore'
-
-segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
-
-	preheader='''The Ford Mondeo is waiting for you at a nearby dealership!'''
 
 [[module]]
 path='email_modules/preheaderbefore'
-
-segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	preheader='''Click through to see the latest offers on the dynamic and effortless Ford Mondeo'''
 
@@ -22,15 +14,6 @@ path='email_modules/body'
 
 [[module]]
 path='email_modules/preheaderbefore'
-
-segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
-
-	preheader='''The Ford Mondeo is waiting for you at a nearby dealership!'''
-
-[[module]]
-path='email_modules/preheaderbefore'
-
-segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	preheader='''Click through to see the latest offers on the dynamic and effortless Ford Mondeo'''
 
@@ -41,24 +24,13 @@ color='white'
 
 	image = '''white'''
 	url_link = '''https://www.ford.com.au/'''
-
-  [[module]]
-path='email_modules/image/banner'
-color='white'
-segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
-
-    image = '''au_edm5_mondeo2_20161013'''
-	url_link='''https://www.ford.com.au/cars/mondeo/'''
-	url_link_name='''p2mondeo'''
-
 	
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color = '''white'''
-segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
-
-	image = '''au_edm5_mondeo2_20161013'''
+	
+    image = '''au_edm1_mondeo_20170629'''
     url_link='''https://www.ford.com.au/cars/mondeo/'''
 	url_link_name='''p1Mondeo'''
    
