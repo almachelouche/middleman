@@ -1,6 +1,6 @@
 +++
 markets = ["ZCHN_TEST"]
-title = 'ZChennaiDatahub_FirstTesting'
+title = 'ZChennaiDatahub_TitleTesting'
 
 [[module]]
 path='email_modules/preheader'
@@ -23,9 +23,6 @@ color='''white'''
 	title = '''Rajan Title and URL Testing'''
 	copy = '''Rajan Testing Owning a Ford has never been easier, thanks to the new Owners App by Ford. It's simple, convenient and keeps you connected with Ford, anywhere and anytime.'''
 
-[[module]] #Footer 4 Icons
-path='email_modules/footer/4icons'
-color='white'
 
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
