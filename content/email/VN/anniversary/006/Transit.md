@@ -1,27 +1,27 @@
 +++
 markets = ["vn"]
-title = '''VN Welcome Repeat 011 Transit'''
+title = '''VN Anniversary 006 Transit'''
 
 [[module]]
 path='email_modules/preheader'
 
-	preheader = '''Chẳng có gì thú vị hơn được lái một chiếc xe mới, dù đó là chiếc xe đầu tiên hay thứ 10. Thế nên chúng tôi muốn nói "Cảm ơn Bạn" vì đã tiếp tục chọn Ford.'''
+	preheader = '''Bạn có tin đã 12 tháng trôi qua kể từ ngày bạn lái chiếc Transit mới về nhà? Chúng tôi không thể để ngày đặc biệt này trôi qua mà không gửi lời cảm ơn tới bạn, một lần nữa, vì đã chọn Ford.'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'
 
 	image = '''white'''
-	url_link = '''https://www.ford.com.vn'''
+	url_link = '''https://www.ford.com.vn/'''
 
 [[module]] #Cover 01
 path='email_modules/cover/01'
 color='''white'''
  
-	title = '''Xin chào <%${user['LastName']}%>,<br /><br />Hành trình vẫn tiếp diễn'''
-	copy = '''Chẳng có gì thú vị hơn được lái một chiếc xe mới, dù đó là chiếc xe đầu tiên hay thứ 10. Thế nên chúng tôi muốn nói "Cảm ơn Bạn" vì đã tiếp tục chọn Ford.<br /><br />Là thành viên gia đình Ford, chúng tôi tiếp tục gửi tới bạn không chỉ những tin tức mới nhất từ Ford, mà cả những ưu đãi dành cho Khách hàng trung thành với thương hiệu Ford.<br /><br />Và đừng quên tận hưởng bên chiếc Transit của bạn!'''
+	title = '''Mới như ngày hôm qua'''
+	copy = '''Xin chào <%${user['LastName']}%>,<br /><br />Bạn có tin đã 12 tháng trôi qua kể từ ngày bạn lái chiếc Transit mới về nhà? Chúng tôi không thể để ngày đặc biệt này trôi qua mà không gửi lời cảm ơn tới bạn, một lần nữa, vì đã chọn Ford. Chúng tôi sẽ còn tiếp tục cập nhật thông tin để bạn sẽ luôn là người đầu tiên được thông báo về những ưu đãi đặc biệt và các thông tin hữu ích khác từ Ford Việt Nam. Chắc chắn là như vậy.'''
 
-	[[module]] #Banner Image No Link
+[[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
 color = '''white'''
 
@@ -60,28 +60,34 @@ color='black'
 	cta2_link_name = '''oa_android'''
 	image = '''vn_edm1a_ownerapp_20160801'''
 
+ [[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+
+	image='''vn_edm5_yesservice_20171113'''
+	url_link='''https://www.ford.com.vn/about/news-events/2017/chuong-trinh-khuyen-mai-dich-vu-chao-thu-2017/'''
+	url_link_name='''autumn'''
+
+[[module]]
+path='email_modules/cover/02'
+
+color='''white'''
+title='''Chương trình ưu đãi lớn'''
+copy='''Quý vị cần thay nhớt? Quý vị cần thay bộ lọc nhớt mới? Nhanh tay hưởng ngay ưu đãi! Từ ngày 17 tháng 11 đến ngày 31 tháng 12 năm 2017, tất cả các khách hàng của Ford được giảm 15% khi thay nhớt và bộ lọc nhớt tại các Trung tâm Dịch vụ Bảo dưỡng Ford. Hãy nhanh tay nhấp vào dưới đây để tìm hiểu thêm thông tin về chương trình tuyệt vời này.'''
+cta1_text='''TÌM HIỂU THÊM'''
+cta1_url='''https://www.ford.com.vn/about/news-events/2017/chuong-trinh-khuyen-mai-dich-vu-chao-thu-2017/'''
+cta1_link_name = '''autumn'''
+
 [[module]] #Cover 05
 path='email_modules/cover/02'
 color='''white'''
 
-	title = '''Chiếc xe của bạn được bảo vệ lâu hơn và linh hoạt hơn'''
-	copy = '''Bạn càng mua sớm gói Bảo hành Mở rộng, giá càng tốt. Ngoài ra bạn có rất nhiều lựa chọn linh hoạt: bảo vệ toàn bộ xe với gói An tâm hay chỉ bảo vệ hộp số và động cơ với gói Tiết kiệm trong thời gian 1 năm hay 2 năm. Chúng tôi luôn bảo vệ bạn trên mọi hành trình.'''
-	cta1_text = '''BẢO VỆ XẾ YÊU'''
-	cta1_url = '''https://www.ford.com.vn/owner/warranty/extended-warranty/'''
-	cta1_link_name = '''extended_warranty'''
-	icon = '''vn_edm_extendedwarranty_20160801'''
-
-[[module]] #Split 03
-path='email_modules/split/03'
-color='green'
-
-	title = '''Tiết kiệm hơn, tiện lợi hơn với sản phẩm "Bảo Dưỡng Định kì trọn gói – SSP"'''
-	copy = '''Gói "Bảo Dưỡng Định kỳ Trọn gói – SSP" giúp tiết kiệm chi phí lên tới 13% so với làm bảo dưỡng thông thường. Không những thế, trong suốt thời gian tối đa 2 năm khi sử dụng gói SSP, bạn không phải lo lắng tăng giá phụ tùng hay nhân công do lạm phát. Toàn bộ quy trình bảo dưỡng được thực hiện bởi đội ngũ Kỹ thuật viên chuyên nghiệp tại các Đại lý Ủy quyền của Ford Việt Nam.'''
-	cta1_text = '''TÌM HIỂU THÊM'''
-	cta1_url = '''https://www.ford.com.vn/owner/service-and-maintenance/ssp/'''
-	cta1_link_name = '''ssp'''
-	cta1_icon = '''more'''
-	image = '''vn_edm1a_13off_20170324'''
+	title = '''Thay đổi thông tin cá nhân?'''
+	copy = '''Bạn đừng quên cập nhật thông tin của mình tại đây để không bỏ lỡ thông tin mới nhất từ Ford Việt Nam.'''
+	cta1_text = '''CẬP NHẬT NGAY'''
+	cta1_url = '''https://www.ford.com.vn/#/overlay/content/ford/vn/vi_vn/site-wide-content/overlays/form-overlay/login'''
+	cta1_link_name = '''anything_changed'''
+	icon = '''vn_edm2_ownerprofile_20160801'''
 
 [[module]] #VN Social
 path='email_modules/footer/vn/social'
@@ -92,6 +98,5 @@ path='email_modules/footer/online'
 color='white'
 
 	copy='''Nhấp chuột <a href="<%unsubscribe_link_text%>" style="color:#91a4b1; text-decoration:underline">tại đây</a> nếu bạn muốn ngừng nhận thư từ Ford<br />Bản quyền © Công ty TNHH Ford Việt Nam <br /><br />Nếu bạn không xem đươc e-mail này, <a href="<%syslink_message_read url='/public/read_message.jsp'%>" style="color:#91a4b1; text-decoration:underline"><br /> xin nhấp chuột tại đây để xem phiên bản trên web</a>'''
-
 
 +++
