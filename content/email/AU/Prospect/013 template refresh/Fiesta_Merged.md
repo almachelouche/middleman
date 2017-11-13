@@ -6,15 +6,6 @@ title = '''AU Prospect 013 Fiesta-merged'''
 [[module]]
 path='email_modules/preheaderbefore'
 
-segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
-
-	preheader='''The Ford Fiesta is waiting for you at a nearby dealership!'''
-
-[[module]]
-path='email_modules/preheaderbefore'
-
-segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
-
 	preheader='''Click through to see the latest offers on the vivid and stylish Ford Fiesta'''
 
 [[module]]
@@ -22,15 +13,6 @@ path='email_modules/body'
 
 [[module]]
 path='email_modules/preheaderbefore'
-
-segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
-
-	preheader='''The Ford Fiesta is waiting for you at a nearby dealership!'''
-
-[[module]]
-path='email_modules/preheaderbefore'
-
-segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	preheader='''Click through to see the latest offers on the vivid and stylish Ford Fiesta'''
 
@@ -41,24 +23,13 @@ color='white'
 
 	image = '''white'''
 	url_link = '''https://www.ford.com.au/'''
-
- [[module]]
-path='email_modules/image/banner'
-color='white'
-segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
-
-    image = '''au_edm5_fiesta2_20161013'''
-	url_link='''https://www.ford.com.au/cars/fiesta/'''
-	url_link_name='''p2fiesta'''
-
 	
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color = '''white'''
-segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-	image = '''au_edm5_fiesta1_20161013'''
+	image = '''au_edm1_fiesta_20170629'''
     url_link='''https://www.ford.com.au/cars/fiesta/'''
 	url_link_name='''p1fiesta'''
    
