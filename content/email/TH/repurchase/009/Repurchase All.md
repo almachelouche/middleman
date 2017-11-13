@@ -87,11 +87,14 @@ cta1_icon='''more'''
 cta1_link_name = '''special_offer'''
 image = '''th_edm5a_specialoffer_20160801'''
 
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
+
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
 
 	image='''th_edm5_yescampaign_20171108'''
+	url_link='''https://www.ford.co.th/buying/latest-offers/'''
+	url_link_name='''latest_offer'''
 
 [[module]] #Dual 01
 path='email_modules/dual/01'

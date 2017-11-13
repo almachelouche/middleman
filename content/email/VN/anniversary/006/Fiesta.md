@@ -1,6 +1,6 @@
 +++
 markets = ["vn"]
-title = '''VN Anniversary 005 Fiesta'''
+title = '''VN Anniversary 006 Fiesta'''
 
 [[module]]
 path='email_modules/preheader'
@@ -42,7 +42,7 @@ path='email_modules/image/banner'
 color='white'
 
 	image='''vn_edm1_member_20171106'''
-	url_link='''https://www.ford.com.vn/'''
+	url_link='''https://www.ford.com.vn/owner/owner-gets-owner/'''
 	url_link_name='''member'''
 
 [[module]] # Owner App Image Right
