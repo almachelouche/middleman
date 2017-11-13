@@ -49,7 +49,7 @@ color='''white'''
 	cta1_url = '''https://www.ford.com.au/latest-offer/4x4-xlt-double-cab-pick-up-3-2l-diesel/'''
 	cta1_link_name = ''''''
 	cta2_text = '''LOCATE A DEALER'''
-	cta2_url = '''http://google.com'''
+	cta2_url = '''https://www.ford.com.au/dealership/'''
 	cta2_link_name = ''''''
 
 [[module]]
@@ -70,7 +70,7 @@ color='''white'''
 	cta_direction = '''vertical'''
 
 	cta_1_copy = '''DISCOVER MORE'''
-	cta_1_link_url = '''https://www.ford.com/1'''
+	cta_1_link_url = '''https://www.ford.com.au/commercial/ranger/'''
 	cta_1_link_name = '''link_1_name_here'''
 	cta_1_icon = ''''''
 	cta_1_type = '''block'''

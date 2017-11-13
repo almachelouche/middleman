@@ -25,7 +25,6 @@ color='white'
 	image = '''white'''
 	url_link = '''https://www.ford.com.au/'''
 
-  
 
 [[module]]
 path='email_modules/image/banner'
@@ -49,7 +48,7 @@ color='''white'''
 	cta1_url = '''https://www.ford.com.au/latest-offer/ecosport-ambiente/'''
 	cta1_link_name = ''''''
 	cta2_text = '''LOCATE A DEALER'''
-	cta2_url = '''http://google.com'''
+	cta2_url = '''https://www.ford.com.au/dealership/'''
 	cta2_link_name = ''''''
 
 
@@ -71,8 +70,8 @@ color='''white'''
 	cta_direction = '''vertical'''
 
 	cta_1_copy = '''DISCOVER MORE'''
-	cta_1_link_url = '''https://www.ford.com/1'''
-	cta_1_link_name = '''link_1_name_here'''
+	cta_1_link_url = '''https://www.ford.com.au/suv/ecosport/'''
+	cta_1_link_name = '''ecosport'''
 	cta_1_icon = ''''''
 	cta_1_type = '''block'''
 	cta_1_width = '''240'''
