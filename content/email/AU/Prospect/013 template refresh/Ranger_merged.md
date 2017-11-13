@@ -30,7 +30,7 @@ color='white'
 path='email_modules/image/banner'
 color = '''white'''
 
-	image = '''au_edm5_ranger1_20161013'''
+	image = '''au_edm1_ranger_20170629'''
     url_link='''https://www.ford.com.au/commercial/ranger/'''
 	url_link_name='''p1ranger'''
     
