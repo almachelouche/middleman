@@ -69,7 +69,7 @@ color='''white'''
 	cta_direction = '''vertical'''
 
 	cta_1_copy = '''DISCOVER MORE'''
-	cta_1_link_url = '''https://www.ford.com.au/cars/mondeo/''''
+	cta_1_link_url = '''https://www.ford.com.au/cars/mondeo/'''
 	cta_1_link_name = '''link_1_name_here'''
 	cta_1_icon = ''''''
 	cta_1_type = '''block'''
