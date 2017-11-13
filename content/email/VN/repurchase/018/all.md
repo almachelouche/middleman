@@ -33,10 +33,6 @@ color='''white'''
 	cta1_url='''https://www.ford.com.vn/owner/vehicle-support/incentives/'''
 	cta1_link_name = '''loyalty_offer'''
 
-[[module]]
-path='email_modules/spacer/platinum_20'
-color='white'
-
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
