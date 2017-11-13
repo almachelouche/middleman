@@ -1,6 +1,6 @@
 +++
 markets = ["vn"]
-title = '''VN Anniversary 005 Everest'''
+title = '''VN Anniversary 006 Everest'''
 
 [[module]]
 path='email_modules/preheader'

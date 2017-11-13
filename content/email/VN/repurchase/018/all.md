@@ -38,7 +38,7 @@ path='email_modules/image/banner'
 color='white'
 
 	image='''vn_edm1_yes_20171106'''
-	url_link='''https://www.ford.com.vn/'''
+	url_link='''https://www.ford.com.vn/promotion-corner/2017/hot-deal-1/'''
 	url_link_name='''yes'''
 
 [[module]] #Cover 02
@@ -49,7 +49,7 @@ color='''white'''
 	title='''Tiết kiệm 20 triệu Đồng'''
 	copy='''Hãy tận dụng chương trình Khuyến mãi cuối năm, và tậu chiếc Ford EcoSport Titanium 1.5L chỉ từ 599 triệu Đồng. Quý vị thích dòng nhỏ gọn hơn? Ford Focus Trend 1.5L EcoBoost đúng ý của quý vị chỉ với 620 triệu Đồng.<br /><br />Nhưng chưa hết. Chỉ riêng tháng 11 này, chúng tôi sẽ giảm thêm 20 triệu Đồng nữa.<br /><br />Hãy nhanh tay lên. Chương trình này sẽ kết thúc vào ngày 30 tháng 11 năm 2017.'''
 	cta1_text='''TÌM HIỂU THÊM '''
-	cta1_url='''https://www.ford.com.vn/'''
+	cta1_url='''https://www.ford.com.vn/promotion-corner/2017/hot-deal-1/'''
 	cta1_link_name = '''retail_offer'''
   
 [[module]] #Banner Image
@@ -57,7 +57,7 @@ path='email_modules/image/banner'
 color='white'
 
 	image='''vn_edm5_suv_20171107'''
-	url_link='''https://www.ford.com.vn/'''
+	url_link=''''''
 	url_link_name='''suv'''
   
 [[module]] #Cover 02
