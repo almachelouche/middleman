@@ -1,21 +1,21 @@
 +++
 markets = ["au"]
-title = '''AU Prospect 013 EcoSport-Merged'''
+title = '''AU Prospect 013
+Mondeo-merged'''
 
 [[module]]
 path='email_modules/preheaderbefore'
 
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
-	preheader='''The Ford EcoSport is waiting for you at a nearby dealership!'''
-
+	preheader='''The Ford Mondeo is waiting for you at a nearby dealership!'''
 
 [[module]]
 path='email_modules/preheaderbefore'
 
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-	preheader='''Click through to see the latest offers on the Ford EcoSport the city-sized SUV'''
+	preheader='''Click through to see the latest offers on the dynamic and effortless Ford Mondeo'''
 
 [[module]]
 path='email_modules/body'
@@ -25,14 +25,14 @@ path='email_modules/preheaderbefore'
 
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
-	preheader='''The Ford EcoSport is waiting for you at a nearby dealership!'''
+	preheader='''The Ford Mondeo is waiting for you at a nearby dealership!'''
 
 [[module]]
 path='email_modules/preheaderbefore'
 
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-	preheader='''Click through to see the latest offers on the Ford EcoSport the city-sized SUV'''
+	preheader='''Click through to see the latest offers on the dynamic and effortless Ford Mondeo'''
 
 
 [[module]] #Header Logo
@@ -42,38 +42,38 @@ color='white'
 	image = '''white'''
 	url_link = '''https://www.ford.com.au/'''
 
-  
   [[module]]
 path='email_modules/image/banner'
 color='white'
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
-    image = '''au_edm5_ecosport2_20161013'''
-	url_link='''https://www.ford.com.au/suv/ecosport/'''
-	url_link_name='''p2ecospott''' 
+    image = '''au_edm5_mondeo2_20161013'''
+	url_link='''https://www.ford.com.au/cars/mondeo/'''
+	url_link_name='''p2mondeo'''
 
-[[module]]
+	
+
+[[module]] #Banner Image
 path='email_modules/image/banner'
-color='white'
+color = '''white'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-    image = '''au_edm5_ecosport1_20161013'''
-	url_link='''https://www.ford.com.au/suv/ecosport/'''
-	url_link_name='''p1ecospott''' 
-
+	image = '''au_edm5_mondeo2_20161013'''
+    url_link='''https://www.ford.com.au/cars/mondeo/'''
+	url_link_name='''p1Mondeo'''
+   
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
 color='''white'''
 
 	cta1_text = '''LATEST OFFER'''
-	cta1_url = '''https://www.ford.com.au/latest-offer/ecosport-ambiente/'''
+	cta1_url = '''https://www.ford.com.au/latest-offer/mondeo-trend-hatch-petrol/'''
 	cta1_link_name = ''''''
 	cta2_text = '''LOCATE A DEALER'''
 	cta2_url = '''http://google.com'''
 	cta2_link_name = ''''''
 
-
-[[module]]
+	[[module]]
 path='email_modules/cover/master'
 color='''white'''
 
@@ -81,11 +81,11 @@ color='''white'''
 	title=''''''
 	copy='''Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
-    Take on any urban challenge with the city-sized Ford EcoSport SUV. 
+    The Ford Mondeo’s technology and design are so refined they need to be experienced to be believed.
     <br/><br/>
-     EcoSport delivers tonnes of space – to the tune of 705 litres of flexible cargo space, fold-down 60:40 seats, and 20 smart storage compartments. Plus, the voice-activated SYNC system lets you stay connect to your world and favourite apps, while your hands stay safely on the steering wheel. 
+    Like the enhanced SYNC 3 voice-activated system lets you make calls, send messages, and control SAT NAV – with just the sound of your voice. Mondeo’s design features are a master class in refinement, with heated seat, dual-zone climate control, and a panoramic glass roof that covers almost half the roof area.
     <br/><br/>
-    Right now, the Ford EcoSport Ambiente Manual is available $18,990* Driveaway.
+    Right now, the Ford Mondeo Trend Hatch Petrol Auto is available at $39,490* Driveaway. 
     <br/><br/>'''
 
 	cta_direction = '''vertical'''
@@ -110,16 +110,17 @@ path='email_modules/spacer/platinum_20'
 color='white'
 
 	height="20"
-
+    
+    
 [[module]]
 path='email_modules/dual/05'
 color='white'
 
     title1 = '''Get Accessorised'''
     text_box_height = '''310'''
-	copy1 = ''' Take your EcoSport to the next level with <a href="https://www.ford.com.au/suv/ecosport/accessories/ecosport-ambiente/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a>, designed to seamlessly integrate with your EcoSport.'''
-	image1 = '''au_edm1_ecosport02_20170629'''
-	image1_link_url = '''https://www.ford.com.au/suv/ecosport/accessories/ecosport-ambiente/'''
+	copy1 = '''Take your Focus to the next level with <a href="https://www.ford.com.au/cars/focus/accessories/focus-trend-hatch/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a>, designed to seamlessly integrate with your Focus.'''
+	image1 = '''au_edm1_everest02_20170629'''
+	image1_link_url = '''https://www.ford.com.au/cars/focus/accessories/focus-trend-hatch/'''
 	image1_link_name = '''link_name_here'''
 	title2 = '''Have you seen the Ford Ranger?'''
 	copy2 = '''With its winning combination of brute strength and innovative technology. There's no stopping the Ranger from getting the job done.'''
@@ -127,7 +128,6 @@ color='white'
 	image2_link_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
 	image2_link_name = '''link_name_here'''
 	
-  
 
 [[module]]
 path='email_modules/spacer/platinum_20'
@@ -150,7 +150,6 @@ color='white'
 	image2_link_url = '''https://www.ford.com.au/owners/service/'''
 	image2_link_name = '''link_name_here'''
 
-
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
 color='white'
@@ -159,10 +158,10 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-	text = ''''''
+	text = ''' '''
+
+
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
 color='white'
 +++
-
-

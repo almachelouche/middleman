@@ -1,23 +1,23 @@
 +++
 markets = ["au"]
-title = '''AU Prospect 013 EcoSport-Merged'''
+title = '''AU Prospect 013 Escape-Merged'''
+
 
 [[module]]
 path='email_modules/preheaderbefore'
 
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
-	preheader='''The Ford EcoSport is waiting for you at a nearby dealership!'''
-
+	preheader='''The Ford Escape is waiting for you at a nearby dealership!'''
 
 [[module]]
 path='email_modules/preheaderbefore'
 
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-	preheader='''Click through to see the latest offers on the Ford EcoSport the city-sized SUV'''
+	preheader='''Click through to see the latest offers on the smart Ford Escape'''
 
-[[module]]
+	[[module]]
 path='email_modules/body'
 
 [[module]]
@@ -25,53 +25,50 @@ path='email_modules/preheaderbefore'
 
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
-	preheader='''The Ford EcoSport is waiting for you at a nearby dealership!'''
+	preheader='''The Ford Escape is waiting for you at a nearby dealership!'''
 
 [[module]]
 path='email_modules/preheaderbefore'
 
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-	preheader='''Click through to see the latest offers on the Ford EcoSport the city-sized SUV'''
-
-
+	preheader='''Click through to see the latest offers on the smart Ford Escape'''
+    
 [[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'
 
 	image = '''white'''
 	url_link = '''https://www.ford.com.au/'''
-
-  
+ 
   [[module]]
 path='email_modules/image/banner'
 color='white'
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 
-    image = '''au_edm5_ecosport2_20161013'''
-	url_link='''https://www.ford.com.au/suv/ecosport/'''
-	url_link_name='''p2ecospott''' 
+    image = '''au_edm5_escape1_20161223'''
+	url_link='''https://www.ford.com.au/suv/escape/'''
+	url_link_name='''p2escape''' 
 
 [[module]]
 path='email_modules/image/banner'
 color='white'
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-    image = '''au_edm5_ecosport1_20161013'''
-	url_link='''https://www.ford.com.au/suv/ecosport/'''
-	url_link_name='''p1ecospott''' 
+    image = '''au_edm5_escape2_20161223'''
+	url_link='''https://www.ford.com.au/suv/escape/'''
+	url_link_name='''p1escape''' 
 
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
 color='''white'''
 
 	cta1_text = '''LATEST OFFER'''
-	cta1_url = '''https://www.ford.com.au/latest-offer/ecosport-ambiente/'''
+	cta1_url = '''https://www.ford.com.au/latest-offer/escape-ambiente-petrol-fwd/'''
 	cta1_link_name = ''''''
 	cta2_text = '''LOCATE A DEALER'''
 	cta2_url = '''http://google.com'''
 	cta2_link_name = ''''''
-
 
 [[module]]
 path='email_modules/cover/master'
@@ -81,13 +78,13 @@ color='''white'''
 	title=''''''
 	copy='''Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
-    Take on any urban challenge with the city-sized Ford EcoSport SUV. 
+    With street-smart tech and cutting-edge power, the Ford Escape is ready for anything.
     <br/><br/>
-     EcoSport delivers tonnes of space – to the tune of 705 litres of flexible cargo space, fold-down 60:40 seats, and 20 smart storage compartments. Plus, the voice-activated SYNC system lets you stay connect to your world and favourite apps, while your hands stay safely on the steering wheel. 
-    <br/><br/>
-    Right now, the Ford EcoSport Ambiente Manual is available $18,990* Driveaway.
-    <br/><br/>'''
+    Put simply, Escape is a showcase of innovation. Its turbocharged EcoBoost engine delivers the performance you need for an active lifestyle, without all those pesky visits to the petrol pump. And its voice-activated SYNC 3 system lets you make calls, take calls, and control SAT NAV totally hands-free. 
 
+    <br/><br/>
+    Right now, the Ford Escape Ambiente Petrol FWD with FREE AUTO is available at $29,990* Driveaway, with free upgrade to automatic transmission!'''
+    
 	cta_direction = '''vertical'''
 
 	cta_1_copy = '''DISCOVER MORE'''
@@ -96,6 +93,7 @@ color='''white'''
 	cta_1_icon = ''''''
 	cta_1_type = '''block'''
 	cta_1_width = '''240'''
+    
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
@@ -106,20 +104,14 @@ color='white'
 	url_link_name="servicebanner"
 
 [[module]]
-path='email_modules/spacer/platinum_20'
-color='white'
-
-	height="20"
-
-[[module]]
 path='email_modules/dual/05'
 color='white'
 
     title1 = '''Get Accessorised'''
     text_box_height = '''310'''
-	copy1 = ''' Take your EcoSport to the next level with <a href="https://www.ford.com.au/suv/ecosport/accessories/ecosport-ambiente/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a>, designed to seamlessly integrate with your EcoSport.'''
-	image1 = '''au_edm1_ecosport02_20170629'''
-	image1_link_url = '''https://www.ford.com.au/suv/ecosport/accessories/ecosport-ambiente/'''
+	copy1 = '''Take your Escape to the next level with <a href="https://www.ford.com.au/suv/escape/accessories/ambiente-ecoboost-petrol-awd/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a>,  designed to seamlessly integrate with your Escape.'''
+	image1 = '''au_edm1_escape02_20170629'''
+	image1_link_url = '''https://www.ford.com.au/suv/escape/accessories/ambiente-ecoboost-petrol-awd/'''
 	image1_link_name = '''link_name_here'''
 	title2 = '''Have you seen the Ford Ranger?'''
 	copy2 = '''With its winning combination of brute strength and innovative technology. There's no stopping the Ranger from getting the job done.'''
@@ -127,8 +119,7 @@ color='white'
 	image2_link_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
 	image2_link_name = '''link_name_here'''
 	
-  
-
+    
 [[module]]
 path='email_modules/spacer/platinum_20'
 color='white'
@@ -150,7 +141,6 @@ color='white'
 	image2_link_url = '''https://www.ford.com.au/owners/service/'''
 	image2_link_name = '''link_name_here'''
 
-
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
 color='white'
@@ -160,9 +150,8 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 	text = ''''''
+
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
 color='white'
 +++
-
-
