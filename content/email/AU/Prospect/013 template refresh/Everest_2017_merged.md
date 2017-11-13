@@ -86,15 +86,6 @@ segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 
 [[module]] #Banner Image
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
-	image = '''au_edm5_everest3_20161013'''
-
-
-
-
-[[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
 
