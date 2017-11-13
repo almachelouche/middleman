@@ -75,20 +75,16 @@ color='''white'''
 
 
 [[module]] #Banner Image
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
-
-	image = '''au_edm5_transit1_20161013'''
-
-
-[[module]] #Banner Image
 path = '''email_modules/image/banner'''
 color = '''white'''
 
 	image = '''au_edm2_svc_new_banner_20170926'''
 	url_link = '''https://www.ford.com.au/owners/service/'''
    
-    
+  [[module]]
+path='email_modules/dual/05'
+color='white'
+
     title1 = '''Get Accessorised'''
     text_box_height = '''310'''
 	copy1 = '''Whether you need a Track Handling Pack or a Body Styling Kit, only <a href="https://www.ford.com.au/cars/mustang/smart-accessories/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a> perfectly intergrate with your Mustang.'''

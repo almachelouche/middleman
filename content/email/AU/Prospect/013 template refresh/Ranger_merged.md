@@ -76,13 +76,6 @@ color='''white'''
 	cta_1_type = '''block'''
 	cta_1_width = '''240'''
     
-
-
-[[module]]
-path='email_modules/spacer/platinum_20'
-color='white'
-
-	height="20"
   
 [[module]] #Banner Image
 path = '''email_modules/image/banner'''
@@ -90,7 +83,12 @@ color = '''white'''
 
 	image = '''au_edm2_svc_new_banner_20170926'''
 	url_link = '''https://www.ford.com.au/owners/service/'''
-   
+  
+  [[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
+	height="20"
 
 [[module]]
 path='email_modules/dual/05'
