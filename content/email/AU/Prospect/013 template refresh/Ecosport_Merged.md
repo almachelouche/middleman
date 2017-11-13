@@ -47,6 +47,7 @@ color='white'
 path='email_modules/image/banner'
 color='white'
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
+
     image = '''au_edm5_ecosport2_20161013'''
 	url_link='''https://www.ford.com.au/suv/ecosport/'''
 	url_link_name='''p2ecospott''' 
@@ -55,6 +56,7 @@ segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
 path='email_modules/image/banner'
 color='white'
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
+
     image = '''au_edm5_ecosport1_20161013'''
 	url_link='''https://www.ford.com.au/suv/ecosport/'''
 	url_link_name='''p1ecospott''' 
@@ -73,22 +75,15 @@ color='''white'''
 [[module]]
 path='email_modules/singles/copy'
 color='''white'''
-segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
+
 	copy = '''Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
     Take on any urban challenge with the city-sized Ford EcoSport SUV.
     <br/><br/>
     EcoSport delivers tonnes of space – to the tune of 705 litres of flexible cargo space, fold-down 60:40 seats, and 20 smart storage compartments. Plus, the voice-activated SYNC system lets you stay connect to your world and favourite apps, while your hands stay safely on the steering wheel. 
     <br/><br/>
-    <br /><br /><span style="color:#FFFFFF">Right now, the Ford EcoSport Ambiente Manual is available $18,990* Driveaway.</span>
+    <br /><br /><span style="color:#000000">Right now, the Ford EcoSport Ambiente Manual is available $18,990* Driveaway.</span>
     '''
-
-[[module]]
-path='email_modules/singles/copy'
-color='''white'''
-segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
-	copy = '''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Built for urban discoveries, this smart SUV makes city driving a breeze. So if you live for hustle, bustle and bright lights, the Ford EcoSport is the perfect match for you. <br /><br /><span style="color:#FFFFFF">Right now, the Ford EcoSport Ambiente Manual build prior to 31/05/17 is available at $18,990* Driveaway.</span>'''
-
 
 [[module]] #Banner Image
 path='email_modules/image/banner'

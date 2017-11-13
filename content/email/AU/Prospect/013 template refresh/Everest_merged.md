@@ -1,7 +1,7 @@
 +++
 markets = ["au"]
 title = '''AU Prospect 013 Everest-merged'''
-draft = true
+
 
 [[module]]
 path='email_modules/preheaderbefore'
@@ -76,7 +76,15 @@ color='''white'''
 path='email_modules/singles/copy'
 color='''white'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
-	copy = '''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Ever wondered what's beyond the horizon? It's time to explore it all with the new Ford Everest. Sand, snow, desert or bush - nothing gets in the way of this powerful performer. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Everest Trend 4WD is available at $59,990* Driveaway.</span>'''
+
+	copy = '''Hi <%${user.CustomAttribute['FullName']}%>
+    <br/><br/>
+    Push yourself to the limit with the bold new Ford Everest 4WD, and love every minute of it. 
+    <br/><br/>
+    In addition to the Terrain Management System which makes light work of any terrain, Everest also delivers the smart tech and capabilities you need for better on-road driving. Enjoy an unbeatable 3,000kg towing capability and a suite of driver assist technologies, including Lane Keeping System and Adaptive Cruise Control. 
+    <br/><br/>
+    <span style="color:#000000">Right now, the Ford Everest Trend 4WD is available at $59,990* Driveaway.</span>
+    '''
 
 [[module]]
 path='email_modules/singles/copy'
