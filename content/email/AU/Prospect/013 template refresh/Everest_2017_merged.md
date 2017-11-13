@@ -72,19 +72,18 @@ color='''white'''
 	cta2_url = '''http://google.com'''
 	cta2_link_name = ''''''
 
-[[module]] #Cover 11
-path='email_modules/cover/03'
-color='''slatescreen'''
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
 segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
+	copy = '''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Ever wondered what's beyond the horizon? It's time to explore it all with the new Ford Everest. Sand, snow, desert or bush - nothing gets in the way of this powerful performer. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Everest Trend 4WD is available at $59,990* Driveaway.</span>'''
 
-	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Ever wondered what's beyond the horizon? It's time to explore it all with the new Ford Everest. Sand, snow, desert or bush - nothing gets in the way of this powerful performer. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Everest Trend 4WD is available at $59,990* Driveaway.</span>'''
-
-[[module]] #Cover 11
-path='email_modules/cover/03'
-color='''slatescreen'''
+[[module]]
+path='email_modules/singles/copy'
+color='''white'''
 segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
+	copy = '''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Ever wondered what's beyond the horizon? It's time to explore it all with the new Ford Everest. Sand, snow, desert or bush - nothing gets in the way of this powerful performer. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Everest Trend 4WD is available at $59,990* Driveaway.</span>'''
 
-	copy='''<br />Hi <%${user.CustomAttribute['FullName']}%>, <br /><br />Ever wondered what's beyond the horizon? It's time to explore it all with the new Ford Everest. Sand, snow, desert or bush - nothing gets in the way of this powerful performer. <br /><br /><span style="color:#FFFFFF">Right now, the Ford Everest Trend 4WD is available at $59,990* Driveaway.</span>'''
 
 [[module]] #Banner Image
 path = '''email_modules/image/banner_nolink'''
@@ -94,38 +93,6 @@ color = '''white'''
 
 
 
-[[module]] #Custom 4 Icons
-path='email_modules/custom/4icons'
-color='white'
-
-	title = '''Featuring:'''
-	icon1_url='''http://www.india.ford.com/locate-dealer'''
-	icon1_link_name = '''locate_dealer'''
-	icon1_image='''au_edm5_engine_20161013'''
-	icon1_text = '''3.2L Durotorq Turbo Diesel'''
-	icon2_url='''tel:18004252500'''
-	icon2_link_name = '''locate_dealer2'''
-	icon2_image='''au_edm5_tms_20161013'''
-	icon2_text = '''Terrain Management System - Normal, Snow/Mud/Grass, Sand, Rock'''
-	icon3_url='''tel:18002097400'''
-	icon3_link_name = '''locate_dealer3'''
-	icon3_image='''au_edm5_reversecamera_20161013'''
-	icon3_text = '''Reverse camera'''
-	icon4_url='''https://partscalculator.fordind.com:1443/Fill_Field'''
-	icon4_link_name = '''locate_dealer4'''
-	icon4_image='''au_edm5_towing_20161013'''
-	icon4_text = '''Towing Capacity of 3,000kg¹'''
-
-[[module]] #Cover 13
-path='email_modules/cover/04'
-color='white'
-
-	title = '''Cover 13'''
-	copy = '''<br />All this and more is available to you now in the Ford Everest Trend.'''
-	cta1_url = '''https://www.ford.com.au/suv/everest/'''
-	cta1_text = '''DISCOVER MORE'''
-	cta1_icon = '''more'''
-	cta1_link_name = '''moreinfo'''
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
