@@ -68,7 +68,7 @@ color='''white'''
 	cta1_text = '''LATEST OFFER'''
 	cta1_url = '''https://www.ford.com.au/latest-offer/everest-trend-4wd/'''
 	cta1_link_name = ''''''
-	cta2_text = '''EVEREST FEATURES'''
+	cta2_text = '''LOCATE A DEALER'''
 	cta2_url = '''http://google.com'''
 	cta2_link_name = ''''''
 
