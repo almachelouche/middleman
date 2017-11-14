@@ -57,7 +57,7 @@ path='email_modules/image/banner'
 color='white'
 
 	image='''vn_edm5_suv_20171107'''
-	url_link=''''''
+	url_link='''https://www.ford.com.vn/'''
 	url_link_name='''suv'''
   
 [[module]] #Cover 02
@@ -99,7 +99,7 @@ color='black'
 	title = '''Tự tin hơn với má phanh chính hãng Ford Motorcraft'''
 	copy = '''Khi cần thay má phanh xe, bạn hoàn toàn yên tâm khi sử dụng phụ tùng Motorcraft. Đây là nhãn hiệu được các chuyên gia dịch vụ tại Ford khuyên dùng bởi phụ tùng chính hãng Motorcraft có chất lượng tốt mà giá rất cạnh tranh.'''
 	cta1_text = '''TÌM HIỂU THÊM'''
-	cta1_url = '''https://www.ford.com.vn/owner/service-and-maintenance/genuine-ford-parts/ford-motorcraft-brake-pad/'''
+	cta1_url = '''https://www.ford.com.vn/owner/service-and-maintenance/genuine-ford-parts/m-b-p/'''
 	cta1_link_name = '''motorcraft'''
 	cta1_icon = '''more'''
 	image = '''vn_edm5_motorcraft_20171012'''
