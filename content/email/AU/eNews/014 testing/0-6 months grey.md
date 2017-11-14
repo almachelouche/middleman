@@ -71,7 +71,7 @@ color='slatescreen'
 
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
-color='slatescreen'
+color='white'
 
 	title = '''Ford Owners App'''
 	text1 = '''Want more information, tools, and tips right at your fingertips? Try the Ford Owners App.'''
