@@ -57,7 +57,7 @@ path='email_modules/image/banner'
 color='white'
 
 	image='''vn_edm5_suv_20171107'''
-	url_link=''''''
+	url_link='''https://www.ford.com.vn/'''
 	url_link_name='''suv'''
   
 [[module]] #Cover 02
