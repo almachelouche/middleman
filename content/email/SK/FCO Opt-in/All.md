@@ -58,8 +58,5 @@ text = '''
 <span style="white-space:nowrap;">© 2017福特汽车（中国）有限公司</span>
 <br/>
 <br/>
-<span style="white-space:nowrap;">如您无法正常浏览此邮件，请查看<a href="" name="privacy" style="text-decoration:underline; color:#91a4b1;">网站版本</a>。</span>
-<br/>
-<br/>
 '''
 +++
