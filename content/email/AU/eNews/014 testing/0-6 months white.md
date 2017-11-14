@@ -10,7 +10,7 @@ color='''white'''
 
 	[[module]] #Header eNews #non NSW
 path='email_modules/header/enews'
-color='black'
+color='white'
 
 	title = '''Insider'''
 	date = '''November 2017 '''
@@ -18,9 +18,9 @@ color='black'
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
-color='black'
+color='white'
 
-	image = '''black'''
+	image = '''white'''
 	url_link = '''https://www.ford.com.au/'''
 
 [[module]] # eNews Top Story
@@ -73,16 +73,16 @@ color='white'
 path='email_modules/custom/ownerapp_imgr'
 color='white'
 
-	title = '''Ford Owners App'''
-	text1 = '''Want more information, tools, and tips right at your fingertips? Try the Ford Owners App.'''
-	text2 = '''<br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Streamline service reminders<br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Locate a dealer/service centre<br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;View "how-to" videos<br />'''
-	cta1_text = '''iOS*'''
+	title = '''Know your Ford'''
+	text1 = '''Did you know with the Ford Owner app, you can accesss the entire SYNC Phrasebook, read your vehicle's Owner Manual and watch useful 'How To' videos?<br/><br/>'''
+	text2 = '''Download the Ford Owner app and get started today.<br/><br/>Just search Ford Owners in your app store.'''
+	cta1_text = '''iOS'''
 	cta1_url = '''https://itunes.apple.com/au/app/ford-owners/id990342351?mt=8'''
 	cta1_link_name = '''ios1'''
-	cta2_text = '''ANDROID*'''
+	cta2_text = '''ANDROID'''
 	cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en/'''
 	cta2_link_name = '''android1'''
-	image = '''owner_app_20160328'''
+	image = '''au_edm2_ownersappfinal_20170714'''
     
 
 
