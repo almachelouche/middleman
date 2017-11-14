@@ -23,7 +23,17 @@ color='grey'
 
 	image = '''black'''
 	url_link = '''https://www.ford.com.au/'''
+    
+    
+[[module]] #Banner Image	
+path='email_modules/image/banner'
+color='grey'
 
+
+	image = '''AU_edm6_raptor_20170920'''
+	url_link = '''https://www.ford.com.au/commercial/ranger/raptor/?intcmp=bb-fau-vhp-ford%20ranger-fau-vhp-ford%20ranger-return#overlay/content/ford/au/en_au/ranger-content/overlay-videos/raptor-videos/video1.html'''
+   
+   
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
 color='grey'
@@ -36,14 +46,7 @@ color='grey'
 	cta1_icon = '''play'''
 
 
-[[module]] #Banner Image	
-path='email_modules/image/banner'
-color='grey'
 
-
-	image = '''AU_edm6_raptor_20170920'''
-	url_link = '''https://www.ford.com.au/commercial/ranger/raptor/?intcmp=bb-fau-vhp-ford%20ranger-fau-vhp-ford%20ranger-return#overlay/content/ford/au/en_au/ranger-content/overlay-videos/raptor-videos/video1.html'''
-   
 
 [[module]] #Split 02
 path='email_modules/split/02'
