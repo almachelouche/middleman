@@ -19,14 +19,14 @@ color='white'
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
-color='grey_th'
+color='grey'
 
 	image = '''black'''
 	url_link = '''https://www.ford.com.au/'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
-color='grey_th'
+color='grey'
 
 	title = '''FORD RANGER RAPTOR IS COMING!'''
 	copy = '''Joining the Ford line-up in 2018, the Ford Ranger Raptor is designed to conquer the toughest of all terrain and will be the ultimate performance off-road pick-up truck. Since reveal on September 7th, the Ranger Raptor has already created quite the buzz. Click below to watch the prototype in testing and to get exclusive updates. '''
@@ -38,7 +38,7 @@ color='grey_th'
 
 [[module]] #Banner Image	
 path='email_modules/image/banner'
-color='grey_th'
+color='grey'
 
 
 	image = '''AU_edm6_raptor_20170920'''
@@ -47,7 +47,7 @@ color='grey_th'
 
 [[module]] #Split 02
 path='email_modules/split/02'
-color='grey_th'
+color='grey'
 
 	title = '''Ford sells tyres?'''
 	copy = '''At Ford, we're committed to offering you tyres at competitive prices. That's why we're very excited to announce our Low Price Tyre Guarantee. We'll match a competitor's price on selected tyres we stock&#185;.'''
@@ -60,7 +60,7 @@ color='grey_th'
 
 [[module]] #Split 01
 path='email_modules/split/01'
-color='grey_th'
+color='grey'
 
     title = '''Engine and Oil Health'''
 	copy = '''What's the most important part of your Ford vehicle? The engine. When it’s not in top health, it can affect your whole vehicle. So we created a quick video to help you keep your car’s engine running at its best.'''
@@ -89,11 +89,11 @@ color='white'
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
-color='grey_th'
+color='grey'
 
     [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
-color='grey_th'
+color='grey'
 
 	text='''Disclaimers:<br /><br />
     * iOS is a trademark of Apple Inc. Android is a trademark of Google Inc.
@@ -103,6 +103,6 @@ color='grey_th'
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
-color='grey_th'
+color='grey'
 +++
 
