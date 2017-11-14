@@ -22,12 +22,15 @@ color='white'
 title='''
     <span style="white-space:nowrap;">尊敬的车主，</span>
     <br/>
+    <br/>
     <span style="white-space:nowrap;">全方位资讯速递，尽享福特精彩</span>
 '''
 copy='''
     <span style="white-space:nowrap;">您是否想及时了解爱车的最新资讯，查看感兴趣的产品和活动？</span>
     <br/>
-    <span style="white-space:nowrap;">我们将通过邮件的方式，向您介绍福特产品特惠、近期车主活动、用车保养指南等丰富资讯，</span>
+    <span style="white-space:nowrap;">我们将通过邮件的方式，向您介绍</span>
+    <br/>
+    <span style="white-space:nowrap;">福特产品特惠、近期车主活动、用车保养指南等丰富资讯，</span>
     <br/>
     <span style="white-space:nowrap;">让您畅享福特的更多精彩。</span>
 '''
