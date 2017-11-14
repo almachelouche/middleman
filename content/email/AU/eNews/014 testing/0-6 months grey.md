@@ -8,9 +8,10 @@ color='''white'''
 
 	preheader='''We’re taking performance to the next level off road'''
 
-	[[module]] #Header eNews #non NSW
+	
+    [[module]] #Header eNews #non NSW
 path='email_modules/header/enews'
-color='slatescreen'
+color='grey_th'
 
 	title = '''Insider'''
 	date = '''November 2017 '''
@@ -18,14 +19,14 @@ color='slatescreen'
 
 [[module]] #Header Logo
 path='email_modules/header/logodesktop'
-color='slatescreen'
+color='grey_th'
 
 	image = '''black'''
 	url_link = '''https://www.ford.com.au/'''
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
-color='slatescreen'
+color='grey_th'
 
 	title = '''FORD RANGER RAPTOR IS COMING!'''
 	copy = '''Joining the Ford line-up in 2018, the Ford Ranger Raptor is designed to conquer the toughest of all terrain and will be the ultimate performance off-road pick-up truck. Since reveal on September 7th, the Ranger Raptor has already created quite the buzz. Click below to watch the prototype in testing and to get exclusive updates. '''
@@ -37,7 +38,7 @@ color='slatescreen'
 
 [[module]] #Banner Image	
 path='email_modules/image/banner'
-color='slatescreen'
+color='grey_th'
 
 
 	image = '''AU_edm6_raptor_20170920'''
@@ -46,7 +47,7 @@ color='slatescreen'
 
 [[module]] #Split 02
 path='email_modules/split/02'
-color='slatescreen'
+color='grey_th'
 
 	title = '''Ford sells tyres?'''
 	copy = '''At Ford, we're committed to offering you tyres at competitive prices. That's why we're very excited to announce our Low Price Tyre Guarantee. We'll match a competitor's price on selected tyres we stock&#185;.'''
@@ -59,7 +60,7 @@ color='slatescreen'
 
 [[module]] #Split 01
 path='email_modules/split/01'
-color='slatescreen'
+color='grey_th'
 
     title = '''Engine and Oil Health'''
 	copy = '''What's the most important part of your Ford vehicle? The engine. When it’s not in top health, it can affect your whole vehicle. So we created a quick video to help you keep your car’s engine running at its best.'''
@@ -69,30 +70,30 @@ color='slatescreen'
 	cta1_icon = '''play'''
 	image = '''AU_edm6_engine_20170927'''
 
+
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
 color='white'
 
-	title = '''Ford Owners App'''
-	text1 = '''Want more information, tools, and tips right at your fingertips? Try the Ford Owners App.'''
-	text2 = '''<br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Streamline service reminders<br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Locate a dealer/service centre<br />&nbsp;&#8226;&nbsp;&nbsp;&nbsp;View "how-to" videos<br />'''
-	cta1_text = '''iOS*'''
+	title = '''Know your Ford'''
+	text1 = '''Did you know with the Ford Owner app, you can accesss the entire SYNC Phrasebook, read your vehicle's Owner Manual and watch useful 'How To' videos?<br/><br/>'''
+	text2 = '''Download the Ford Owner app and get started today.<br/><br/>Just search Ford Owners in your app store.'''
+	cta1_text = '''iOS'''
 	cta1_url = '''https://itunes.apple.com/au/app/ford-owners/id990342351?mt=8'''
 	cta1_link_name = '''ios1'''
-	cta2_text = '''ANDROID*'''
+	cta2_text = '''ANDROID'''
 	cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en/'''
 	cta2_link_name = '''android1'''
-	image = '''owner_app_20160328'''
-    
+	image = '''au_edm2_ownersappfinal_20170714'''
 
 
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
-color='slatescreen'
+color='grey_th'
 
     [[module]] #Footer Disclaimer
 path='email_modules/footer/disclaimer'
-color='slatescreen'
+color='grey_th'
 
 	text='''Disclaimers:<br /><br />
     * iOS is a trademark of Apple Inc. Android is a trademark of Google Inc.
@@ -102,6 +103,6 @@ color='slatescreen'
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
-color='slatescreen'
+color='grey_th'
 +++
 
