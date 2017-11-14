@@ -11,7 +11,7 @@ color='''white'''
 	
     [[module]] #Header eNews #non NSW
 path='email_modules/header/enews'
-color='grey_th'
+color='white'
 
 	title = '''Insider'''
 	date = '''November 2017 '''
