@@ -58,11 +58,12 @@ color='''white'''
 
 	icon=''''''
 	title=''''''
-	copy='''Hi <%${user.CustomAttribute['FullName']}%>
+	copy='''
+    <span style="font-weight: bold;"> Not Just Another 4WD </span>
     <br/><br/>
-    Love a challenge? 
+    Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
-    Push yourself to the limit with the bold new Ford Everest 4WD, and love every minute of it. 
+    Love a challenge? Push yourself to the limit with the bold new Ford Everest 4WD, and love every minute of it. 
     <br/><br/>
     In addition to the Terrain Management System which makes light work of any terrain, Everest also delivers the smart tech and capabilities you need for better on-road driving. Enjoy an unbeatable 3,000kg towing capability and a suite of driver assist technologies, including Lane Keeping System and Adaptive Cruise Control. 
     <br/><br/> 

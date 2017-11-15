@@ -57,11 +57,12 @@ color='''white'''
 
 	icon=''''''
 	title=''''''
-	copy='''Hi <%${user.CustomAttribute['FullName']}%>
+	copy='''
+    <span style="font-weight: bold;"> Discover The Meaning Of “Refined” </span>
     <br/><br/>
-    Looking for something sophisticated? 
+    Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
-    The Ford Mondeo’s technology and design are so refined they need to be experienced to be believed.
+    Looking for something sophisticated? The Ford Mondeo’s technology and design are so refined they need to be experienced to be believed.
     <br/><br/>
     Like the enhanced SYNC 3 voice-activated system lets you make calls, send messages, and control SAT NAV – with just the sound of your voice. Mondeo’s design features are a master class in refinement, with heated seat, dual-zone climate control, and a panoramic glass roof that covers almost half the roof area.
     <br/><br/> 

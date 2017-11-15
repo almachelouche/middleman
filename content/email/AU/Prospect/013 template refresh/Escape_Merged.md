@@ -56,11 +56,12 @@ color='''white'''
 
 	icon=''''''
 	title=''''''
-	copy='''Hi <%${user.CustomAttribute['FullName']}%>
+	copy='''
+    <span style="font-weight: bold;"> Come Out And Play </span>
     <br/><br/>
-    Ready for some serious fun?
+    Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
-    With street-smart tech and cutting-edge power, the Ford Escape is ready for anything.
+    Ready for some serious fun? With street-smart tech and cutting-edge power, the Ford Escape is ready for anything.
     <br/><br/>
     Put simply, Escape is a showcase of innovation. Its turbocharged EcoBoost engine delivers the performance you need for an active lifestyle, without all those pesky visits to the petrol pump. And its voice-activated SYNC 3 system lets you make calls, take calls, and control SAT NAV totally hands-free. 
     <br/><br/> 
