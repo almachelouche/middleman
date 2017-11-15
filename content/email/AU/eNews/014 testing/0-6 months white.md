@@ -71,7 +71,7 @@ color='white'
 
 	title1 = '''Know your Ford'''
 	text_box_height = '''310'''
-	copy1 = '''Did you know with the Ford Owner app, you can accesss the entire SYNC Phrasebook, read your vehicle's Owner Manual and watch useful 'How To' videos?<br/><br/>Download the Ford Owner app and get started today.<br/><br/>Just search Ford Owners in your app store.'''
+	copy1 = '''Did you know with the Ford Owner app, you can accesss the entire SYNC Phrasebook, read your vehicle's Owner Manual and watch useful 'How To' videos? Download the Ford Owner app and get started today. Just search Ford Owners in your app store.'''
 	cta1a_text = '''iOS'''
 	cta1a_url = '''https://itunes.apple.com/au/app/ford-owners/id990342351?mt=8'''
 	cta1a_link_name = '''ios1'''
