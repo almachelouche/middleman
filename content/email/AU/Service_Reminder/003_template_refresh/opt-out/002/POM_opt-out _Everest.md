@@ -13,7 +13,7 @@ path='email_modules/image/banner'
 color='white'
 
 	image = '''AU_edm2_optout_20171107'''
-	url_link = '''https://www.ford.com.au/owners/service/'''
+	url_link = '''https://www.ford.com.au/owners/service/peace-of-mind-inspection/'''
 
 [[module]]
 path='email_modules/spacer/default'
