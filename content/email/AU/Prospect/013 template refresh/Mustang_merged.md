@@ -62,8 +62,8 @@ color='''white'''
     From the classic design to the pinned-to-your-seat acceleration, you never forget your first time in a Ford Mustang.
     <br/><br/>
     It all begins with the iconic growl of its 5.0L V8 engine, delivering 306kW of get-up-and-gone power. Prefer something more innovative? The turbocharged 2.3L EcoBoost engine is designed to maximise power from every compression for an impressive 233kW of power.
-    <br/><br/>
-    Right now, the Ford Mustang is available at $xxxxx* Driveaway.
+    <br/><br/> 
+    <span style="font-weight: bold;">Right now, the Ford Mustang is available at $xxxxx* Driveaway.</span> 
     <br/><br/>'''
 
 	cta_direction = '''vertical'''

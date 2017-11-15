@@ -63,8 +63,8 @@ color='''white'''
     The Ford Fiesta might be small in size, but it’s definitely not small on personality. 
     <br/><br/>
     It all begins with a turbocharged, award-winning EcoBoost engine that is as powerful as it is fuel efficient. Top it off with voice-activated SYNC 3 technology that allows you to make calls, take calls and control the interior climate with the sound of your voice, and it’s an impressive package for any driver.  
-    <br/><br/>
-    Right now, the Ford Fiesta Ambiente Manual is available at $15,990* Driveaway.
+    <br/><br/> 
+    <span style="font-weight: bold;">Right now, the Ford Fiesta Ambiente Manual is available at $15,990* Driveaway.</span> 
     <br/><br/>'''
 
 	cta_direction = '''vertical'''
