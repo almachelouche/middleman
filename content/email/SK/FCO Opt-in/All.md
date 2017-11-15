@@ -28,7 +28,7 @@ title='''
 copy='''
     <span style="white-space:nowrap;">您是否想及时了解爱车的最新资讯，查看感兴趣的产品和活动？</span>
     <br/>
-    <span style="white-space:nowrap;">我们将通过邮件的方式，向您介绍</span>
+    <span style="white-space:nowrap;">我们将通过短信、彩信、邮件等方式，向您介绍</span>
     <br/>
     <span style="white-space:nowrap;">福特产品特惠、近期车主活动、用车保养指南等丰富资讯，</span>
     <br/>
