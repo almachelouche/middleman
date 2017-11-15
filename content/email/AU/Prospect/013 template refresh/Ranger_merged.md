@@ -60,6 +60,8 @@ color='''white'''
 	title=''''''
 	copy='''Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
+    What’s better than a tough truck?
+    <br/><br/>
     A truck that does tough smarter. And that’s exactly what Ford Ranger delivers.  
     <br/><br/>
     Discover the brute strength and innovative technology you need to take on any challenge, whether on the worksite or the weekend. From a back-breaking 3,500kg towing capacity to intuitive features like voice-activated SYNC 3 and Adaptive Cruise Control, Ranger is built to get the job done.  
@@ -125,7 +127,7 @@ color='white'
 	image1_link_name = '''Some'''
 	title2 = '''Insurance & Warranties'''
 	copy2 = '''Ford Dealerships are your one-stop shop for insurance, warranties and finance. Drive home with peace of mind knowing you’re covered from day one.'''
-	image2 = '''au_edm1_service_20170629'''
+	image2 = '''AU_edm5_insurance_15112017'''
 	image2_link_url = '''https://www.ford.com.au/owners/service/'''
 	image2_link_name = '''link_name_here'''
 

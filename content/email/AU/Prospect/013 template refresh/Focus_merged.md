@@ -58,6 +58,8 @@ color='''white'''
 	title=''''''
 	copy='''Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
+    Want to stand out from the crowd?
+    <br/><br/>
     With an eye-catching design and award-winning engine technology, the Teched-Up Ford Focus makes it easy. 
     <br/><br/>
     It all begins with a turbocharged, award-winning EcoBoost engine that is as powerful as it is fuel efficient. Top it off with voice-activated SYNC 3 technology that allows you to make calls, take calls and control the interior climate with the sound of your voice, and it’s an impressive package for any driver. 
@@ -127,7 +129,7 @@ color='white'
 	image1_link_name = '''Some'''
 	title2 = '''Insurance & Warranties'''
 	copy2 = '''Ford Dealerships are your one-stop shop for insurance, warranties and finance. Drive home with peace of mind knowing you’re covered from day one.'''
-	image2 = '''au_edm1_service_20170629'''
+	image2 = '''AU_edm5_insurance_15112017'''
 	image2_link_url = '''https://www.ford.com.au/owners/service/'''
 	image2_link_name = '''link_name_here'''
 

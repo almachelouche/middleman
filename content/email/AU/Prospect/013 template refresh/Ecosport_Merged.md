@@ -60,6 +60,8 @@ color='''white'''
 	title=''''''
 	copy='''Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
+    Ready to get more out of city life?
+    <br/><br/>
     Take on any urban challenge with the city-sized Ford EcoSport SUV. 
     <br/><br/>
      EcoSport delivers tonnes of space – to the tune of 705 litres of flexible cargo space, fold-down 60:40 seats, and 20 smart storage compartments. Plus, the voice-activated SYNC system lets you stay connect to your world and favourite apps, while your hands stay safely on the steering wheel. 
@@ -126,7 +128,7 @@ color='white'
 	image1_link_name = '''Some'''
 	title2 = '''Insurance & Warranties'''
 	copy2 = '''Ford Dealerships are your one-stop shop for insurance, warranties and finance. Drive home with peace of mind knowing you’re covered from day one.'''
-	image2 = '''au_edm1_service_20170629'''
+	image2 = '''AU_edm5_insurance_15112017'''
 	image2_link_url = '''https://www.ford.com.au/owners/service/'''
 	image2_link_name = '''link_name_here'''
 

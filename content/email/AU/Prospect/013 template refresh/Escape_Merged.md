@@ -58,6 +58,8 @@ color='''white'''
 	title=''''''
 	copy='''Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
+    Ready for some serious fun?
+    <br/><br/>
     With street-smart tech and cutting-edge power, the Ford Escape is ready for anything.
     <br/><br/>
     Put simply, Escape is a showcase of innovation. Its turbocharged EcoBoost engine delivers the performance you need for an active lifestyle, without all those pesky visits to the petrol pump. And its voice-activated SYNC 3 system lets you make calls, take calls, and control SAT NAV totally hands-free. 
@@ -95,7 +97,7 @@ color='white'
 
     title1 = '''Get Accessorised'''
     text_box_height = '''310'''
-	copy1 = '''Take your Escape to the next level with <a href="https://www.ford.com.au/suv/escape/accessories/ambiente-ecoboost-petrol-awd/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a>,  designed to seamlessly integrate with your Escape.'''
+	copy1 = '''Take your Escape to the next level with <a href="https://www.ford.com.au/suv/escape/accessories/ambiente-ecoboost-petrol-awd/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a>, designed to seamlessly integrate with your Escape.'''
 	image1 = '''au_edm1_escape02_20170629'''
 	image1_link_url = '''https://www.ford.com.au/suv/escape/accessories/ambiente-ecoboost-petrol-awd/'''
 	image1_link_name = '''link_name_here'''
@@ -124,7 +126,7 @@ color='white'
 	image1_link_name = '''Some'''
 	title2 = '''Insurance & Warranties'''
 	copy2 = '''Ford Dealerships are your one-stop shop for insurance, warranties and finance. Drive home with peace of mind knowing you’re covered from day one.'''
-	image2 = '''au_edm1_service_20170629'''
+	image2 = '''AU_edm5_insurance_15112017'''
 	image2_link_url = '''https://www.ford.com.au/owners/service/'''
 	image2_link_name = '''link_name_here'''
 

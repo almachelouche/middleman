@@ -60,6 +60,8 @@ color='''white'''
 	title=''''''
 	copy='''Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
+    Love a challenge? 
+    <br/><br/>
     Push yourself to the limit with the bold new Ford Everest 4WD, and love every minute of it. 
     <br/><br/>
     In addition to the Terrain Management System which makes light work of any terrain, Everest also delivers the smart tech and capabilities you need for better on-road driving. Enjoy an unbeatable 3,000kg towing capability and a suite of driver assist technologies, including Lane Keeping System and Adaptive Cruise Control. 
@@ -90,13 +92,14 @@ color='white'
 
 	height="20"
 
+
 [[module]]
 path='email_modules/dual/05'
 color='white'
 
     title1 = '''Get Accessorised'''
     text_box_height = '''310'''
-	copy1 = '''Whether you need a nudge bar, or a tow pack for your weekend adventure, only <a href="https://www.ford.com.au/suv/everest/smart-accessories/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a> perfectly integrate with your Everest.'''
+	copy1 = '''Whether you need a snorkel for a water-crossing, or a tow pack for your weekend adventure, only <a href="https://www.ford.com.au/suv/everest/smart-accessories/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a> perfectly integrate with your Everest.'''
 	image1 = '''au_edm1_everest02_20170629'''
 	image1_link_url = '''https://www.ford.com.au/suv/everest/smart-accessories/'''
 	image1_link_name = '''link_name_here'''
@@ -125,7 +128,7 @@ color='white'
 	image1_link_name = '''Some'''
 	title2 = '''Insurance & Warranties'''
 	copy2 = '''Ford Dealerships are your one-stop shop for insurance, warranties and finance. Drive home with peace of mind knowing you’re covered from day one.'''
-	image2 = '''au_edm1_service_20170629'''
+	image2 = '''AU_edm5_insurance_15112017'''
 	image2_link_url = '''https://www.ford.com.au/owners/service/'''
 	image2_link_name = '''link_name_here'''
 

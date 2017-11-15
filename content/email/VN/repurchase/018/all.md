@@ -57,7 +57,7 @@ path='email_modules/image/banner'
 color='white'
 
 	image='''vn_edm5_suv_20171107'''
-	url_link='''https://www.ford.com.vn/'''
+	url_link='''https://www.ford.com.vn/about/news-events/2017/chuong-trinh-lai-thu-xe-ford-thang/'''
 	url_link_name='''suv'''
   
 [[module]] #Cover 02
@@ -68,7 +68,7 @@ color='''white'''
 	title='''Lái thử và Nhận quà'''
 	copy='''Chỉ cần đến lái thử chiếc Ford Ranger, Explorer hoặc EcoSport tại bất kỳ đại lý nào của Ford trên toàn quốc, quý khách hàng sẽ có cơ hội nhận được 1 trong 28 chiếc điện thoại smartphone Samsung Note 8. Hãy nhanh chân lên. Chương trình này sẽ kết thúc vào ngày 15 tháng 12 năm 2017.'''
 	cta1_text='''XEM THÔNG TIN NGÀY & ĐỊA ĐIỂM'''
-	cta1_url='''https://www.ford.com.vn/'''
+	cta1_url='''https://www.ford.com.vn/about/news-events/2017/chuong-trinh-lai-thu-xe-ford-thang/'''
 	cta1_link_name = '''event_schedule'''
     cta2_text='''ĐĂNG KÝ LÁI THỬ'''
 	cta2_url='''https://www.ford.com.vn/#overlay/content/ford/vn/vi_vn/site-wide-content/overlays/forms/test-drive.html'''

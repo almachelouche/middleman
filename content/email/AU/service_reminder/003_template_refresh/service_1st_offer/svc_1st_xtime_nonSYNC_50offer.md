@@ -123,10 +123,10 @@ color='white'
 	title2 = '''Vehicle Health Report'''
 	copy2 = '''To help you better understand your vehicle's condition, you'll receive a comprehensive vehicle health report every time you service.'''
 	image2 = '''au_edm2_vehicle_health_report_20170818'''
-	image2_link_url = '''https://www.ford.com.au/owners/service/vehicle-report-card'''
+	image2_link_url = '''https://www.ford.com.au/owners/service/vehicle-report-card/'''
 	image2_link_name = '''Some'''
     cta2a_text = '''Learn More'''
-	cta2a_url = '''https://www.ford.com.au/owners/service/vehicle-report-card'''
+	cta2a_url = '''https://www.ford.com.au/owners/service/vehicle-report-card/'''
 	cta2a_link_name = '''healthreport'''
 
 [[module]] #Footer AU Social
@@ -142,7 +142,7 @@ color='white'
                 <br /> <br />
                 Scheduled Service: 15,000km
                 <br /> <br />
-                * Redemption of the Ford Service Voucher is subject to certain Terms and Conditions as set out below; To take advantage of this voucher, simply print this email and take it to your local Ford Dealership when you take your Ford in for its next scheduled service. This offer is valid for a limited time only on your scheduled service above. The scheduled service must be completed by Nov 30, 2017. If you have any questions regarding this exclusive bonus, please contact your local Ford Dealership. This offer is for Private and registered Blue and Silver Fleet customers with an ABN only. The voucher provided is in the form of a discount applied to the final costs of your scheduled service as provided by the Dealer. This offer is only open to the VIN above for its next scheduled service as per details above also. One voucher per VIN.
+                * Redemption of the Ford Service Voucher is subject to certain Terms and Conditions as set out below; To take advantage of this voucher, simply print this email and take it to your local Ford Dealership when you take your Ford in for its next scheduled service. This offer is valid for a limited time only on your scheduled service above. The scheduled service must be completed by Dec 31, 2017. If you have any questions regarding this exclusive bonus, please contact your local Ford Dealership. This offer is for Private and registered Blue and Silver Fleet customers with an ABN only. The voucher provided is in the form of a discount applied to the final costs of your scheduled service as provided by the Dealer. This offer is only open to the VIN above for its next scheduled service as per details above also. One voucher per VIN.
                 <br />
 				1) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
                 2) Available at participating Ford dealers on vehicles built from 2007. Customers will pay equal to or less than the maximum price as published by Ford for the period of the web quote for standard items in the A and B logbook services. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />

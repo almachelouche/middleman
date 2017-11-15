@@ -59,6 +59,8 @@ color='''white'''
 	title=''''''
 	copy='''Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
+    Looking for something sophisticated? 
+    <br/><br/>
     The Ford Mondeo’s technology and design are so refined they need to be experienced to be believed.
     <br/><br/>
     Like the enhanced SYNC 3 voice-activated system lets you make calls, send messages, and control SAT NAV – with just the sound of your voice. Mondeo’s design features are a master class in refinement, with heated seat, dual-zone climate control, and a panoramic glass roof that covers almost half the roof area.
@@ -96,7 +98,7 @@ color='white'
 
     title1 = '''Get Accessorised'''
     text_box_height = '''310'''
-	copy1 = '''Take your Focus to the next level with <a href="https://www.ford.com.au/cars/focus/accessories/focus-trend-hatch/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a>, designed to seamlessly integrate with your Focus.'''
+	copy1 = '''Take your Mondeo to the next level with <a href="https://www.ford.com.au/cars/mondeo/accessories/mondeo-ambiente-hatch/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a>, designed to seamlessly integrate with your Mondeo.'''
 	image1 = '''au_edm1_mondeo02_20170629'''
 	image1_link_url = '''https://www.ford.com.au/cars/focus/accessories/focus-trend-hatch/'''
 	image1_link_name = '''link_name_here'''
@@ -125,7 +127,7 @@ color='white'
 	image1_link_name = '''Some'''
 	title2 = '''Insurance & Warranties'''
 	copy2 = '''Ford Dealerships are your one-stop shop for insurance, warranties and finance. Drive home with peace of mind knowing you’re covered from day one.'''
-	image2 = '''au_edm1_service_20170629'''
+	image2 = '''AU_edm5_insurance_15112017'''
 	image2_link_url = '''https://www.ford.com.au/owners/service/'''
 	image2_link_name = '''link_name_here'''
 
