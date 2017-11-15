@@ -43,53 +43,52 @@ color='white'
 	image = '''AU_edm6_raptor_20170920'''
 	url_link = '''https://www.ford.com.au/commercial/ranger/raptor/?intcmp=bb-fau-vhp-ford%20ranger-fau-vhp-ford%20ranger-return#overlay/content/ford/au/en_au/ranger-content/overlay-videos/raptor-videos/video1.html'''
 
-
-[[module]] #Split 02
-path='email_modules/split/02'
+[[module]]
+path='email_modules/dual/05'
 color='white'
 
-	title = '''Ford sells tyres?'''
-	copy = '''At Ford, we're committed to offering you tyres at competitive prices. That's why we're very excited to announce our Low Price Tyre Guarantee. We'll match a competitor's price on selected tyres we stock&#185;.'''
-	cta1_text =  '''LEARN MORE'''
-	cta1_url ='''https://www.ford.com.au/owners/service/tyres/'''
-	cta1_link_name = '''LPTG''' 
-	cta1_icon = '''more'''
-	image = '''au_edm6_tyres_16102017'''
+	title1 = '''Ford sells tyres?'''
+	text_box_height = '''310'''
+	copy1 = '''At Ford, we're committed to offering you tyres at competitive prices. That's why we're very excited to announce our Low Price Tyre Guarantee. We'll match a competitor's price on selected tyres we stock&#185;.'''
+	cta1a_text = '''LEARN MORE'''
+	cta1a_url = '''https://www.ford.com.au/owners/service/tyres/'''
+	cta1a_link_name = '''LPTG'''
+	image1 = '''au_edm6_tyres_16102017'''
+	image1_link_url = '''https://www.ford.com.au/owners/service/tyres/'''
+	image1_link_name = '''LPTGimg'''
+	title2 = '''Engine and Oil Health'''
+	copy2 = '''What's the most important part of your Ford vehicle? The engine. When it’s not in top health, it can affect your whole vehicle. So we created a quick video to help you keep your car’s engine running at its best.'''
+	cta2a_text = '''WATCH NOW'''
+	cta2a_url = '''https://youtu.be/yM6vCGm-AAQ/'''
+	cta2a_link_name = '''Engine and oil'''
+	image2 = '''AU_edm6_engine_20170927'''
+	image2_link_url = '''https://youtu.be/yM6vCGm-AAQ/'''
+	image2_link_name = '''engineandoil'''
 
-
-[[module]] #Split 01
-path='email_modules/split/01'
+[[module]]
+path='email_modules/dual/05'
 color='white'
 
-    title = '''Engine and Oil Health'''
-	copy = '''What's the most important part of your Ford vehicle? The engine. When it’s not in top health, it can affect your whole vehicle. So we created a quick video to help you keep your car’s engine running at its best.'''
-	cta1_text = '''WATCH NOW'''
-	cta1_url =  '''https://youtu.be/yM6vCGm-AAQ/'''
-	cta1_link_name = '''Engine and oil'''
-	cta1_icon = '''play'''
-	image = '''AU_edm6_engine_20170927'''
-    
-    [[module]]
-path='email_modules/spacer/platinum_20'
-color='white'
-
-	height="20"
-
-[[module]] # Owner App Image Right
-path='email_modules/custom/ownerapp_imgr'
-color='white'
-
-	title = '''Know your Ford'''
-	text1 = '''Did you know with the Ford Owner app, you can accesss the entire SYNC Phrasebook, read your vehicle's Owner Manual and watch useful 'How To' videos?<br/><br/>'''
-	text2 = '''Download the Ford Owner app and get started today.<br/><br/>Just search Ford Owners in your app store.'''
-	cta1_text = '''iOS'''
-	cta1_url = '''https://itunes.apple.com/au/app/ford-owners/id990342351?mt=8'''
-	cta1_link_name = '''ios1'''
-	cta2_text = '''ANDROID'''
-	cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en/'''
-	cta2_link_name = '''android1'''
-	image = '''au_edm2_ownersappfinal_20170714'''
-    
+	title1 = '''Know your Ford'''
+	text_box_height = '''310'''
+	copy1 = '''Did you know with the Ford Owner app, you can accesss the entire SYNC Phrasebook, read your vehicle's Owner Manual and watch useful 'How To' videos?<br/><br/>Download the Ford Owner app and get started today.<br/><br/>Just search Ford Owners in your app store.'''
+	cta1a_text = '''iOS'''
+	cta1a_url = '''https://itunes.apple.com/au/app/ford-owners/id990342351?mt=8'''
+	cta1a_link_name = '''ios1'''
+    cta1b_text = '''ANDROID'''
+	cta1b_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en/'''
+	cta1b_link_name = '''android1'''
+	image1 = '''au_edm2_ownersappfinal_20170714'''
+	image1_link_url = '''https://www.ford.com.au/owners/service/tyres/'''
+	image1_link_name = '''LPTGimg'''
+	title2 = '''Engine and Oil Health'''
+	copy2 = '''What's the most important part of your Ford vehicle? The engine. When it’s not in top health, it can affect your whole vehicle. So we created a quick video to help you keep your car’s engine running at its best.'''
+	cta2a_text = '''WATCH NOW'''
+	cta2a_url = '''https://youtu.be/yM6vCGm-AAQ/'''
+	cta2a_link_name = '''Engine and oil'''
+	image2 = '''AU_edm6_engine_20170927'''
+	image2_link_url = '''https://youtu.be/yM6vCGm-AAQ/'''
+	image2_link_name = '''engineandoil'''
 
 
 [[module]] #Footer AU Social
