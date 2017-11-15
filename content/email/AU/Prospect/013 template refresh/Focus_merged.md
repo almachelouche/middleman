@@ -56,16 +56,18 @@ color='''white'''
 
 	icon=''''''
 	title=''''''
-	copy='''Hi <%${user.CustomAttribute['FullName']}%>
+	copy='''
+    <span style="font-weight: bold;"> The Teched-Up Focus Is Here </span>
     <br/><br/>
-    Want to stand out from the crowd?
+    Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
-    With an eye-catching design and award-winning engine technology, the Teched-Up Ford Focus makes it easy. 
+    Want to stand out from the crowd? With an eye-catching design and award-winning engine technology, the Teched-Up Ford Focus makes it easy. 
     <br/><br/>
     It all begins with a turbocharged, award-winning EcoBoost engine that is as powerful as it is fuel efficient. Top it off with voice-activated SYNC 3 technology that allows you to make calls, take calls and control the interior climate with the sound of your voice, and it’s an impressive package for any driver. 
 
-    <br/><br/>
-    Right now, the Ford Focus Trend Hatch with FREE AUTO is available at $24,490* 
+    <br/><br/> 
+    <span style="font-weight: bold;">Right now, the Ford Focus Trend Hatch with FREE AUTO is available at $24,490* </span> 
+=
     <br/><br/>'''
 
 	cta_direction = '''vertical'''
