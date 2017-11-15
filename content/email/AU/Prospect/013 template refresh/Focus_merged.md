@@ -58,6 +58,8 @@ color='''white'''
 	title=''''''
 	copy='''Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
+    Want to stand out from the crowd?
+    <br/><br/>
     With an eye-catching design and award-winning engine technology, the Teched-Up Ford Focus makes it easy. 
     <br/><br/>
     It all begins with a turbocharged, award-winning EcoBoost engine that is as powerful as it is fuel efficient. Top it off with voice-activated SYNC 3 technology that allows you to make calls, take calls and control the interior climate with the sound of your voice, and it’s an impressive package for any driver. 

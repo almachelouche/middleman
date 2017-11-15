@@ -60,6 +60,8 @@ color='''white'''
 	title=''''''
 	copy='''Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
+    Ready to get more out of city life?
+    <br/><br/>
     Take on any urban challenge with the city-sized Ford EcoSport SUV. 
     <br/><br/>
      EcoSport delivers tonnes of space – to the tune of 705 litres of flexible cargo space, fold-down 60:40 seats, and 20 smart storage compartments. Plus, the voice-activated SYNC system lets you stay connect to your world and favourite apps, while your hands stay safely on the steering wheel. 
