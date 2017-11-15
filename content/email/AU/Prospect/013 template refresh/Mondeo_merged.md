@@ -127,7 +127,7 @@ color='white'
 	image1_link_name = '''Some'''
 	title2 = '''Insurance & Warranties'''
 	copy2 = '''Ford Dealerships are your one-stop shop for insurance, warranties and finance. Drive home with peace of mind knowing you’re covered from day one.'''
-	image2 = '''AU_edm5_insurance_1511'''
+	image2 = '''AU_edm5_insurance_15112017'''
 	image2_link_url = '''https://www.ford.com.au/owners/service/'''
 	image2_link_name = '''link_name_here'''
 
