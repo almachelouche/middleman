@@ -96,7 +96,7 @@ color='white'
 
     title1 = '''Get Accessorised'''
     text_box_height = '''310'''
-	copy1 = '''Whether you need a Track Handling Pack or a Body Styling Kit, only <a href="https://www.ford.com.au/cars/mustang/smart-accessories/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a> perfectly intergrate with your Mustang.'''
+	copy1 = '''Whether you need a Track Handling Pack or a Body Styling Kit, only <a href="https://www.ford.com.au/cars/mustang/smart-accessories/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a> perfectly integrate with your Mustang.'''
 	image1 = '''au_edm1_mustang02_20170629'''
 	image1_link_url = '''https://www.ford.com.au/cars/mustang/smart-accessories/'''
 	image1_link_name = '''link_name_here'''

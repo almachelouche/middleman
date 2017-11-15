@@ -97,7 +97,7 @@ color='white'
 
     title1 = '''Get Accessorised'''
     text_box_height = '''310'''
-	copy1 = '''Whether you need a nudge bar, or a tow pack for your weekend adventure, only <a href="https://www.ford.com.au/suv/everest/smart-accessories/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a> perfectly integrate with your Everest.'''
+	copy1 = '''Take your Fiesta to the next level with <a href="https://www.ford.com.au/cars/fiesta/accessories/fiesta-ambiente/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a>, designed to seamlessly integrate with your Fiesta.'''
 	image1 = '''au_edm1_fiesta02_20170629'''
 	image1_link_url = '''https://www.ford.com.au/suv/everest/smart-accessories/'''
 	image1_link_name = '''link_name_here'''

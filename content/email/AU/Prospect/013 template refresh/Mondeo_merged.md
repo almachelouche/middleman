@@ -98,7 +98,7 @@ color='white'
 
     title1 = '''Get Accessorised'''
     text_box_height = '''310'''
-	copy1 = '''Take your Focus to the next level with <a href="https://www.ford.com.au/cars/focus/accessories/focus-trend-hatch/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a>, designed to seamlessly integrate with your Focus.'''
+	copy1 = '''Take your Mondeo to the next level with <a href="https://www.ford.com.au/cars/mondeo/accessories/mondeo-ambiente-hatch/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a>, designed to seamlessly integrate with your Mondeo.'''
 	image1 = '''au_edm1_mondeo02_20170629'''
 	image1_link_url = '''https://www.ford.com.au/cars/focus/accessories/focus-trend-hatch/'''
 	image1_link_name = '''link_name_here'''

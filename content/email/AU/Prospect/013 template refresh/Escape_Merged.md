@@ -97,7 +97,7 @@ color='white'
 
     title1 = '''Get Accessorised'''
     text_box_height = '''310'''
-	copy1 = '''Take your Escape to the next level with <a href="https://www.ford.com.au/suv/escape/accessories/ambiente-ecoboost-petrol-awd/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a>,  designed to seamlessly integrate with your Escape.'''
+	copy1 = '''Take your Escape to the next level with <a href="https://www.ford.com.au/suv/escape/accessories/ambiente-ecoboost-petrol-awd/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a>, designed to seamlessly integrate with your Escape.'''
 	image1 = '''au_edm1_escape02_20170629'''
 	image1_link_url = '''https://www.ford.com.au/suv/escape/accessories/ambiente-ecoboost-petrol-awd/'''
 	image1_link_name = '''link_name_here'''
