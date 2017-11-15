@@ -64,8 +64,9 @@ color='''white'''
     The Ford Mondeo’s technology and design are so refined they need to be experienced to be believed.
     <br/><br/>
     Like the enhanced SYNC 3 voice-activated system lets you make calls, send messages, and control SAT NAV – with just the sound of your voice. Mondeo’s design features are a master class in refinement, with heated seat, dual-zone climate control, and a panoramic glass roof that covers almost half the roof area.
-    <br/><br/>
-    Right now, the Ford Mondeo Trend Hatch Petrol Auto is available at $39,490* Driveaway. 
+    <br/><br/> 
+    <span style="font-weight: bold;"> Right now, the Ford Mondeo Trend Hatch Petrol Auto is available at $39,490* Driveaway. </span> 
+   
     <br/><br/>'''
 
 	cta_direction = '''vertical'''

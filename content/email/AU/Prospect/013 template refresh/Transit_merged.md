@@ -63,8 +63,8 @@ color='''white'''
     The Ford Transit delivers efficiency without compromising its famously generous loadspace.
     <br/><br/>
      It's hardly surprising that it was awarded International Van of the Year when it was first introduced in 2013.
-    <br/><br/>
-    Right now, the Transit Custom 290S SWB Van Auto is available at $42,790.*
+    <br/><br/> 
+    <span style="font-weight: bold;">Right now, the Transit Custom 290S SWB Van Auto is available at $42,790.*</span> 
     <br/><br/>'''
 
 	cta_direction = '''vertical'''
