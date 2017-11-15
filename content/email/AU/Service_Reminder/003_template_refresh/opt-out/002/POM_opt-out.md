@@ -13,7 +13,7 @@ path='email_modules/image/banner'
 color='white'
 
 	image = '''AU_edm2_optout_20171107'''
-	url_link = '''https://www.ford.com.au/owners/service/'''
+	url_link = '''https://www.ford.com.au/owners/service/peace-of-mind-inspection/'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -65,9 +65,10 @@ color='white'
 	text = '''DISCLAIMERS:<br /><br />
                 1) 'Peace of Mind' Service Inspection expires after 5,000km's or 4 months after delivery of your new Ford (whichever is first).<br /><br />
                 
-                * Receiving this email does not mean that you are subscribed to receive Ford marketing communications. If you have subscribed and wish to unsubscribe or change your preferences, click below to unsubscribe.
-                <br/> <br/>
                 If you would like to subscribe to receive more information like this you can do so <a href="https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/enews.html" name="terms11" style="text-decoration:underline; color:#91a4b1"> here</a>.
+                <br/> <br/>
+                
+                * Receiving this email does not mean that you are subscribed to receive Ford marketing communications. If you have subscribed and wish to unsubscribe or change your preferences, click below to unsubscribe.
                 '''
 
 [[module]]

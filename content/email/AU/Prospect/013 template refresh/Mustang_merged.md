@@ -1,13 +1,12 @@
 +++
 markets = ["au"]
-title = '''AU Prospect 013
-Mondeo-merged'''
+title = '''AU Prospect 013 Mustang_merged'''
 
 
 [[module]]
 path='email_modules/preheaderbefore'
 
-	preheader='''Click through to see the latest offers on the dynamic and effortless Ford Mondeo'''
+	preheader='''Click through to see the latest offers on the business ready Ford Mustang'''
 
 [[module]]
 path='email_modules/body'
@@ -15,23 +14,22 @@ path='email_modules/body'
 [[module]]
 path='email_modules/preheaderbefore'
 
-	preheader='''Click through to see the latest offers on the dynamic and effortless Ford Mondeo'''
-
-
+	preheader='''Click through to see the latest offers on the business ready Ford Mustang'''
+    
 [[module]] #Header Logo
 path='email_modules/header/logo'
 color='white'
 
 	image = '''white'''
 	url_link = '''https://www.ford.com.au/'''
-	
+
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color = '''white'''
-	
-    image = '''au_edm1_mondeo_20170629'''
-    url_link='''https://www.ford.com.au/cars/mondeo/'''
+
+	image = '''au_edm1_mustang01_20170629'''
+    url_link='''https://www.ford.com.au/performance/mustang/'''
 	url_link_name='''p1Mondeo'''
    
    [[module]]
@@ -45,7 +43,7 @@ path='email_modules/singles/2ctablocksideoutline'
 color='''white'''
 
 	cta1_text = '''LATEST OFFER'''
-	cta1_url = '''https://www.ford.com.au/latest-offer/mondeo-trend-hatch-petrol/'''
+	cta1_url = '''https://www.ford.com.au/performance/mustang/'''
 	cta1_link_name = ''''''
 	cta2_text = '''LOCATE A DEALER'''
 	cta2_url = '''https://www.ford.com.au/dealership/'''
@@ -59,51 +57,51 @@ color='''white'''
 	title=''''''
 	copy='''Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
-    Looking for something sophisticated? 
+    Have you experienced the legend?
     <br/><br/>
-    The Ford Mondeo’s technology and design are so refined they need to be experienced to be believed.
+    From the classic design to the pinned-to-your-seat acceleration, you never forget your first time in a Ford Mustang.
     <br/><br/>
-    Like the enhanced SYNC 3 voice-activated system lets you make calls, send messages, and control SAT NAV – with just the sound of your voice. Mondeo’s design features are a master class in refinement, with heated seat, dual-zone climate control, and a panoramic glass roof that covers almost half the roof area.
+    It all begins with the iconic growl of its 5.0L V8 engine, delivering 306kW of get-up-and-gone power. Prefer something more innovative? The turbocharged 2.3L EcoBoost engine is designed to maximise power from every compression for an impressive 233kW of power.
     <br/><br/>
-    Right now, the Ford Mondeo Trend Hatch Petrol Auto is available at $39,490* Driveaway. 
+    Right now, the Ford Mustang is available at $xxxxx* Driveaway.
     <br/><br/>'''
 
 	cta_direction = '''vertical'''
 
 	cta_1_copy = '''DISCOVER MORE'''
-	cta_1_link_url = '''https://www.ford.com.au/cars/mondeo/'''
+	cta_1_link_url = '''https://www.ford.com.au/performance/mustang/'''
 	cta_1_link_name = '''link_1_name_here'''
 	cta_1_icon = ''''''
 	cta_1_type = '''block'''
 	cta_1_width = '''240'''
 
+
 [[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
+path = '''email_modules/image/banner'''
+color = '''white'''
 
-	image='''au_edm2_svc_new_banner_20170926'''
-	url_link='''https://www.ford.com.au/owners/service/'''
-	url_link_name="servicebanner"
-
+	image = '''au_edm2_svc_new_banner_20170926'''
+	url_link = '''https://www.ford.com.au/owners/service/'''
+   
+   
 [[module]]
 path='email_modules/spacer/platinum_20'
 color='white'
 
 	height="20"
     
-    
-[[module]]
+  [[module]]
 path='email_modules/dual/05'
 color='white'
 
     title1 = '''Get Accessorised'''
     text_box_height = '''310'''
-	copy1 = '''Take your Focus to the next level with <a href="https://www.ford.com.au/cars/focus/accessories/focus-trend-hatch/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a>, designed to seamlessly integrate with your Focus.'''
-	image1 = '''au_edm1_mondeo02_20170629'''
-	image1_link_url = '''https://www.ford.com.au/cars/focus/accessories/focus-trend-hatch/'''
+	copy1 = '''Whether you need a Track Handling Pack or a Body Styling Kit, only <a href="https://www.ford.com.au/cars/mustang/smart-accessories/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a> perfectly intergrate with your Mustang.'''
+	image1 = '''au_edm1_mustang02_20170629'''
+	image1_link_url = '''https://www.ford.com.au/cars/mustang/smart-accessories/'''
 	image1_link_name = '''link_name_here'''
-	title2 = '''Have you seen the Ford Focus?'''
-	copy2 = '''Sporting an eye-catching design, an award-winning EcoBoost engine and voice-activated SYNC 3 technology, the Focus is an impressive package for any driver.'''
+	title2 = '''Have you seen the Ford Everest?'''
+	copy2 = '''With its Terrain Management System, unbeatable towing capability and suite of smart tech, the Everest has everything you need for a better driving experience.'''
 	image2 = '''au_edm1_owner-app2_20170629'''
 	image2_link_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
 	image2_link_name = '''link_name_here'''
@@ -139,7 +137,9 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-	text = ''' '''
+    text = '''Terms & Conditions<br /> <br />
+	* Recommended offer available at participating dealers. Stock may vary between dealers. Private and Blue, Silver and Gold Fleet buyers only. Eligible Free Auto vehicles must be purchased by 31/12/17 and delivered by 3/01/18. Ford Dealers and Ford Australia can reduce or otherwise change these offers.<br /><br />
+	'''
 
 
 [[module]] #Footer AU Online

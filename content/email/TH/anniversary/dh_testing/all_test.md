@@ -1,6 +1,6 @@
 +++
 markets = ["th"]
-title = '''TH Anniversary DH_Test MailMerge'''
+title = '''TH Anniversary DH_Test MailMerge-Tina'''
 
 [[module]]
 path='email_modules/preheader'

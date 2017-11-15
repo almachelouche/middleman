@@ -2,18 +2,10 @@
 markets = ["au"]
 title = '''AU Prospect 013 EcoSport-Merged'''
 
-[[module]]
-path='email_modules/preheaderbefore'
-
-segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
-
-	preheader='''The Ford EcoSport is waiting for you at a nearby dealership!'''
-
 
 [[module]]
 path='email_modules/preheaderbefore'
 
-segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	preheader='''Click through to see the latest offers on the Ford EcoSport the city-sized SUV'''
 
@@ -22,15 +14,6 @@ path='email_modules/body'
 
 [[module]]
 path='email_modules/preheaderbefore'
-
-segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
-
-	preheader='''The Ford EcoSport is waiting for you at a nearby dealership!'''
-
-[[module]]
-path='email_modules/preheaderbefore'
-
-segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
 	preheader='''Click through to see the latest offers on the Ford EcoSport the city-sized SUV'''
 
@@ -42,25 +25,21 @@ color='white'
 	image = '''white'''
 	url_link = '''https://www.ford.com.au/'''
 
-  
-  [[module]]
-path='email_modules/image/banner'
-color='white'
-segmentif = ["(user.CustomAttribute['IMD'] == 'P2')"]
-
-    image = '''au_edm5_ecosport2_20161013'''
-	url_link='''https://www.ford.com.au/suv/ecosport/'''
-	url_link_name='''p2ecospott''' 
 
 [[module]]
 path='email_modules/image/banner'
 color='white'
-segmentelse = ["(user.CustomAttribute['IMD'] == 'P1')"]
 
-    image = '''au_edm5_ecosport1_20161013'''
+    image = '''au_edm1_ecosport_20170629'''
 	url_link='''https://www.ford.com.au/suv/ecosport/'''
 	url_link_name='''p1ecospott''' 
 
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+    
 [[module]]
 path='email_modules/singles/2ctablocksideoutline'
 color='''white'''
@@ -69,7 +48,7 @@ color='''white'''
 	cta1_url = '''https://www.ford.com.au/latest-offer/ecosport-ambiente/'''
 	cta1_link_name = ''''''
 	cta2_text = '''LOCATE A DEALER'''
-	cta2_url = '''http://google.com'''
+	cta2_url = '''https://www.ford.com.au/dealership/'''
 	cta2_link_name = ''''''
 
 
@@ -81,6 +60,8 @@ color='''white'''
 	title=''''''
 	copy='''Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
+    Ready to get more out of city life?
+    <br/><br/>
     Take on any urban challenge with the city-sized Ford EcoSport SUV. 
     <br/><br/>
      EcoSport delivers tonnes of space – to the tune of 705 litres of flexible cargo space, fold-down 60:40 seats, and 20 smart storage compartments. Plus, the voice-activated SYNC system lets you stay connect to your world and favourite apps, while your hands stay safely on the steering wheel. 
@@ -91,8 +72,8 @@ color='''white'''
 	cta_direction = '''vertical'''
 
 	cta_1_copy = '''DISCOVER MORE'''
-	cta_1_link_url = '''https://www.ford.com/1'''
-	cta_1_link_name = '''link_1_name_here'''
+	cta_1_link_url = '''https://www.ford.com.au/suv/ecosport/'''
+	cta_1_link_name = '''ecosport'''
 	cta_1_icon = ''''''
 	cta_1_type = '''block'''
 	cta_1_width = '''240'''
@@ -121,8 +102,8 @@ color='white'
 	image1 = '''au_edm1_ecosport02_20170629'''
 	image1_link_url = '''https://www.ford.com.au/suv/ecosport/accessories/ecosport-ambiente/'''
 	image1_link_name = '''link_name_here'''
-	title2 = '''Have you seen the Ford Ranger?'''
-	copy2 = '''With its winning combination of brute strength and innovative technology. There's no stopping the Ranger from getting the job done.'''
+	title2 = '''Have you seen the Ford Escape?'''
+	copy2 = '''Live your active lifestyle with the Escape, with a turbocharges EcoBoost engine giving you the power you need and voice-activated SYNC 3 system giving you the convenience you want'''
 	image2 = '''au_edm1_owner-app2_20170629'''
 	image2_link_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
 	image2_link_name = '''link_name_here'''
@@ -140,8 +121,9 @@ path='email_modules/dual/05'
 color='white'
 
 	title1 = '''Free Loan Car&#185;'''
+    text_box_height = '''310'''
 	copy1 = '''Life shouldn't stop when you service your vehicle. That's why we offer a <a href="https://www.ford.com.au/owners/service/" name="freeloan" style="text-decoration:underline; color:#2D96CD">Free Loan Car&#185</a>  when you book a scheduled service.'''
-	image1 = '''au_edm2_free_loan_car_20170818'''
+	image1 = '''au_edm1_service_20170629'''
 	image1_link_url = '''https://www.ford.com.au/owners/service/'''
 	image1_link_name = '''Some'''
 	title2 = '''Insurance & Warranties'''
