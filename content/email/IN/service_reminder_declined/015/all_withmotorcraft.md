@@ -132,7 +132,7 @@ segmentif = ["(user.CustomAttribute['Brake'] == 'R')"]
 
 	icon=''''''
 	title='''Brake with confidence'''
-	copy='''Motorcraft&#174; brakes are now available at Ford dealerships nationwide. Backed by Ford, Motorcraft&#174; parts deliver great value and outstanding quality. So when it's time for a change, ask us about Motorcraft&#174;.'''
+	copy='''Motorcraft&#174; brakes are now available at Ford dealerships nationwide! Backed by Ford, Motorcraft&#174; parts deliver great value and outstanding quality. So when it's time for a change, ask us about Motorcraft&#174;.'''
     
 	copy_align=''
 
