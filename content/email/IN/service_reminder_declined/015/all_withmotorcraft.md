@@ -128,7 +128,7 @@ segmentif = ["(user.CustomAttribute['Brake'] == 'R')"]
 [[module]]
 path='email_modules/cover/master'
 color='''white'''
-segmentif = ["(user.CustomAttribute['Brake'] == 'R')"]
+segmentif = ["((user.CustomAttribute['ModelMerge'] == 'EcoSport 2 yrs Plus owners')) && (user.CustomAttribute['Brake'] == 'R')"]
 
 	icon=''''''
 	title='''Brake with confidence'''
