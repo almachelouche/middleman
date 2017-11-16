@@ -65,7 +65,7 @@ copy='''
     <br />
 '''
 cta1_text='''<span style="white-space:nowrap;">下载福特派</span>'''
-cta1_url=''''''
+cta1_url='''https://lnk0.com/easylink/ELIlcQJh'''
 cta1_link_name='''ford_pass'''
 
  [[module]] #Banner Image No Link

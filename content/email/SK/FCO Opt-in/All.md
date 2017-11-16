@@ -41,13 +41,9 @@ color='white'
 
 text = '''
 <span style="font-family:'Nanum Gothic',Malgun Gothic,sans-serif">
-<span style="white-space:nowrap;">该订阅邮件可能会包含您的相关个人信息，</span>
+<span style="white-space:nowrap;">如果您想订阅邮件，无需回复，即可默认不定期地收到来自福特中国的精彩内容。</span>
 <br/>
-<span style="white-space:nowrap;">但福特仅使用这些信息进行顾客验证并且决定如何回应，</span>
-<br/>
-<span style="white-space:nowrap;">不使用要求以外的信息，详情请见福特官方网站隐私权保护声明。</span>
-<br/>
-<span style="white-space:nowrap;">如需退订，请点击邮件下方退订按钮。</span>
+<span style="white-space:nowrap;">我们不会将您的信息用于其他地方，详情请见福特官方网站隐私权保护声明。</span>
 <br/>
 <span style="white-space:nowrap;">如有任何疑问，欢迎您致电福特进口车客服热线：800-810-0740（座机拨打）</span>
 <br/>

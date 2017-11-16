@@ -58,11 +58,12 @@ color='''white'''
 
 	icon=''''''
 	title=''''''
-	copy='''Hi <%${user.CustomAttribute['FullName']}%>
+	copy='''
+    <span style="font-weight: bold;"> Tough Done Smarter<span/>
     <br/><br/>
-    What’s better than a tough truck?
+    Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
-    A truck that does tough smarter. And that’s exactly what Ford Ranger delivers.  
+    What’s better than a tough truck? A truck that does tough smarter. And that’s exactly what Ford Ranger delivers.  
     <br/><br/>
     Discover the brute strength and innovative technology you need to take on any challenge, whether on the worksite or the weekend. From a back-breaking 3,500kg towing capacity to intuitive features like voice-activated SYNC 3 and Adaptive Cruise Control, Ranger is built to get the job done.  
     <br/><br/> 

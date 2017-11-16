@@ -56,11 +56,12 @@ color='''white'''
 
 	icon=''''''
 	title=''''''
-	copy='''Hi <%${user.CustomAttribute['FullName']}%>
+	copy='''
+    <span style="font-weight: bold;"> Fun At Every Turn</span>
     <br/><br/>
-    Looking for something that packs a punch?
+    Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
-    The Ford Fiesta might be small in size, but it’s definitely not small on personality. 
+    Looking for something that packs a punch? The Ford Fiesta might be small in size, but it’s definitely not small on personality. 
     <br/><br/>
     It all begins with a turbocharged, award-winning EcoBoost engine that is as powerful as it is fuel efficient. Top it off with voice-activated SYNC 3 technology that allows you to make calls, take calls and control the interior climate with the sound of your voice, and it’s an impressive package for any driver.  
     <br/><br/> 
