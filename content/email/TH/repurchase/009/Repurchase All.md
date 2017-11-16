@@ -77,7 +77,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 <br />
 <span style="white-space:nowrap;">ยกเว้นฟอร์ด โฟกัส ใหม่</span>
 <br />
-<span style="white-space:nowrap;">ตั้งแต่ วันที่1-30 พฤศจิกายน</span>
+<span style="white-space:nowrap;">ตั้งแต่ วันที่1-31 ธันวาคม</span>
 <br />
 <span style="white-space:nowrap;">2560 เท่านั้น</span>
 '''
