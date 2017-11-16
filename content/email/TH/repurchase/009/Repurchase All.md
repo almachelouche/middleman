@@ -72,8 +72,6 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif;">
 <span style="white-space:nowrap;">(บิดามารดา, คู่สมรส,</span> 
 <br />
 <span style="white-space:nowrap;">พี่น้องร่วมบิดามารดา และบุตร)</span>
-<br /> 
-<span style="white-space:nowrap;">เมื่อซื้อรถฟอร์ดทุกรุ่น</span> 
 <br />
 <span style="white-space:nowrap;">ยกเว้นฟอร์ด โฟกัส ใหม่</span>
 <br />
