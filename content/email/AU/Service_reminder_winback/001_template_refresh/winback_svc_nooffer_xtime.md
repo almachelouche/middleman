@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU Service Reminder winback 003 '''
+title = '''AU Service Reminder winback 003 xtime '''
 
 [[module]]
 path='email_modules/preheader'
@@ -43,7 +43,6 @@ color='white'
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
-segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
 
 	cta1_text = '''BOOK YOUR SERVICE'''
 	cta1_url = '''https://consumer.xtime.net.au/scheduling/?company=14745&store=<%${user.CustomAttribute['DealerCode']}%>&VIN=<%${user.CustomAttribute['VIN']}%>&provider=FORD_AU_THE_BLUE_HIVE&keyword=<%${user.CustomAttribute['CampaignID']}%>&dest=&extid=<%${user.CustomAttribute['CampaignID']}%>&extctxt=FORD_AU_THE_BLUE_HIVE&cfn=<%${user.CustomAttribute['FullName']}%>&cln=<%${user['LastName']}%>&cpn=<%${user.CustomAttribute['Mobile_Phone']}%>&cem=<%${user.CustomAttribute['RealEmail']}%>&button=blue'''

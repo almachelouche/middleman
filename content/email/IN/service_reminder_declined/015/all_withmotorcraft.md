@@ -55,12 +55,6 @@ color='''white'''
 	cta2_text = '''&nbsp;BOOK A PICK-UP'''
 	cta2_url = '''https://www.india.ford.com/locate-dealer/'''
 	cta2_link_name = '''locate_dealer'''    
-
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30" 
     
 [[module]] #Service Status No Copy
 path='email_modules/custom/svcstatus_nocopy'
@@ -119,7 +113,7 @@ color='white'
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color='white'
-segmentif = ["(user.CustomAttribute['Brake'] == 'R')"]
+segmentif = ["((user.CustomAttribute['ModelMerge'] == 'EcoSport 2 yrs Plus owners')) && (user.CustomAttribute['Brake'] == 'R')"]
 
 	image='''in_edm2_motorcraft_brake_20171026'''
 	url_link='''https://www.india.ford.com/owner/ford-motorcraft-parts/'''

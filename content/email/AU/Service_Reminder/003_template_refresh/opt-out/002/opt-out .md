@@ -44,7 +44,7 @@ path='email_modules/cover/02'
 color='''white'''
 
 	title=''''''
-	copy='''Want to keep up to date with the latest news, offers, and important announcements from Ford? Just click below.'''
+	copy='''You are receiving this because this is important information related to your vehicle. If you would like to receive more information like this, keep up to date with the latest Ford news, offers and announcements, just click below.'''
 	cta1_text='''SUBSCRIBE NOW'''
 	cta1_url='''https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/enews.html'''
 	cta1_link_name = '''moreinfo2'''
@@ -75,7 +75,7 @@ color='white'
 	text = '''DISCLAIMERS:<br /><br />
                 If you would like to subscribe to receive more information like this you can do so <a href="https://www.ford.com.au/#overlay/content/ford/au/en_au/site-wide-content/overlays/forms/enews.html" name="terms11" style="text-decoration:underline; color:#91a4b1"> here</a>.
                 <br/><br/>
-               * Receiving this email does not mean that you are subscribed to receive Ford marketing communications. If you have subscribed and wish to unsubscribe or change your preferences, click below to unsubscribe.
+               * Receiving this email does not mean that you are subscribed to receive Ford marketing communications. If you have subscribed and wish to unsubscribe or change your preferences, click below to unsubscribe
                 '''
 
 

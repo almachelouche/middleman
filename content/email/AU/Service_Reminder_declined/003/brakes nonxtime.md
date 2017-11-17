@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU Yellow-Flag 011 Brakes'''
+title = '''AU Yellow-Flag 011 Brakes nonxtime'''
 
 [[module]]
 path='email_modules/preheader'
@@ -25,16 +25,7 @@ color='''white'''
     When you last serviced your Ford <%${user.CustomAttribute['Model']}%> with us, our technician completed a Vehicle Report Card. Your brakes were flagged as yellow, meaning they may require replacement before your next scheduled service. <br /><br />
     We know you are not yet due for a scheduled service, however if you would like your brakes checked for peace of mind in the interim, please call <%${user.CustomAttribute['Dealer_Name']}%> on <%${user.CustomAttribute['Dealer_Phone']}%> to book an inspection.
     '''
-    
-	
-[[module]]
-path='email_modules/singles/ctablock'
-color='''white'''
-segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
-
-	cta1_text = '''BOOK A BRAKES INSPECTION'''
-	cta1_url = '''https://consumer.xtime.net.au/scheduling/?company=14745&store=<%${user.CustomAttribute['DealerCode']}%>&VIN=<%${user.CustomAttribute['VIN']}%>&provider=FORD_AU_THE_BLUE_HIVE&keyword=<%${user.CustomAttribute['CampaignID']}%>&dest=&extid=<%${user.CustomAttribute['CampaignID']}%>&extctxt=FORD_AU_THE_BLUE_HIVE&cfn=<%${user.CustomAttribute['FullName']}%>&cln=<%${user['LastName']}%>&cpn=<%${user.CustomAttribute['Mobile_Phone']}%>&cem=<%${user.CustomAttribute['RealEmail']}%>&button=blue'''
-	cta1_link_name = '''service_booking'''
+ 
 
 [[module]] #AU Service Status Copy
 path='email_modules/custom/svcstatus'
@@ -81,17 +72,7 @@ color='white'
 	text = '''
     DISCLAIMERS 
 				<br /> <br />
-    1. Conditions apply. Warranty is applicable, provided that the part/accessory:
-    <br/>
-    a) Was correctly installed in, affixed or attached to the product for which application, the part/accessory was designed and sold at retail;
-    <br/>
-    b) Has not been altered, modified or repaired outside Ford's own factory or a location designated or approved by Ford, in a way which adversely affects the performance, durability, stability, reliability or safety of that part/accessory; and
-    <br/>
-    c) Has been properly used and operated within the capacity and operating limitations as specified by Ford or the manufacturer of the part/accessory;
-    <br/>
-    d) Has been properly maintained and cared for; and
-    <br/>
-    e) Is returned to an Authorised Ford Dealer, transportation charges prepaid.
+    1. Conditions apply. Warranty is applicable, provided that the part/accessory: a) Was correctly installed in, affixed or attached to the product for which application, the part/accessory was designed and sold at retail; b) Has not been altered, modified or repaired outside Ford's own factory or a location designated or approved by Ford, in a way which adversely affects the performance, durability, stability, reliability or safety of that part/accessory; and c) Has been properly used and operated within the capacity and operating limitations as specified by Ford or the manufacturer of the part/accessory; d) Has been properly maintained and cared for; and e) Is returned to an Authorised Ford Dealer, transportation charges prepaid.
     <br /><br />
     2. Available at participating Ford Dealers. Excludes F-Series, FPV, ST, XR5, RS and Transit models. Customers will pay equal to or less than the current maximum price as published by Ford at <a href="ford.com.au/service/brakes/" name="terms3" style="text-decoration:underline; color:#91a4b1">ford.com.au/service/brakes</a>. Maximum prices are subject to change. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.
     <br /><br />
