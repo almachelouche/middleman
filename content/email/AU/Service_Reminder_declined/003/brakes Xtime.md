@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU Yellow-Flag 011 Brakes'''
+title = '''AU Yellow-Flag 011 Brakes xtime'''
 
 [[module]]
 path='email_modules/preheader'
@@ -23,14 +23,12 @@ color='''white'''
 	title='''Reminder: Your Brakes May Need Attention'''
 	copy='''Hi <%${user.CustomAttribute['FullName']}%><br /><br />
     When you last serviced your Ford <%${user.CustomAttribute['Model']}%> with us, our technician completed a Vehicle Report Card. Your brakes were flagged as yellow, meaning they may require replacement before your next scheduled service. <br /><br />
-    We know you are not yet due for a scheduled service, however if you would like your brakes checked for peace of mind in the interim, please call <%${user.CustomAttribute['Dealer_Name']}%> on <%${user.CustomAttribute['Dealer_Phone']}%> to book an inspection.
+    We know you are not yet due for a scheduled service, however if you would like your brakes checked for peace of mind in the interim, please call <%${user.CustomAttribute['Dealer_Name']}%> on <%${user.CustomAttribute['Dealer_Phone']}%> to book an inspection, or book online below.
     '''
-    
 	
 [[module]]
 path='email_modules/singles/ctablock'
 color='''white'''
-segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
 
 	cta1_text = '''BOOK A BRAKES INSPECTION'''
 	cta1_url = '''https://consumer.xtime.net.au/scheduling/?company=14745&store=<%${user.CustomAttribute['DealerCode']}%>&VIN=<%${user.CustomAttribute['VIN']}%>&provider=FORD_AU_THE_BLUE_HIVE&keyword=<%${user.CustomAttribute['CampaignID']}%>&dest=&extid=<%${user.CustomAttribute['CampaignID']}%>&extctxt=FORD_AU_THE_BLUE_HIVE&cfn=<%${user.CustomAttribute['FullName']}%>&cln=<%${user['LastName']}%>&cpn=<%${user.CustomAttribute['Mobile_Phone']}%>&cem=<%${user.CustomAttribute['RealEmail']}%>&button=blue'''
