@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU Yellow-Flag 011 Tyres'''
+title = '''AU Yellow-Flag 011 Tyres nonxtime'''
 
 [[module]]
 path='email_modules/preheader'
@@ -26,15 +26,6 @@ color='''white'''
     We know you are not yet due for a scheduled service, however if you would like your tyres checked for peace of mind in the interim, please call <%${user.CustomAttribute['Dealer_Name']}%> on <%${user.CustomAttribute['Dealer_Phone']}%> to book an inspection.
     '''
     
-	
-[[module]]
-path='email_modules/singles/ctablock'
-color='''white'''
-segmentif = ["(user.CustomAttribute['SERVAPPT'] == 'YES')"]
-
-	cta1_text = '''BOOK A TYRE INSPECTION'''
-	cta1_url = '''https://consumer.xtime.net.au/scheduling/?company=14745&store=<%${user.CustomAttribute['DealerCode']}%>&VIN=<%${user.CustomAttribute['VIN']}%>&provider=FORD_AU_THE_BLUE_HIVE&keyword=<%${user.CustomAttribute['CampaignID']}%>&dest=&extid=<%${user.CustomAttribute['CampaignID']}%>&extctxt=FORD_AU_THE_BLUE_HIVE&cfn=<%${user.CustomAttribute['FullName']}%>&cln=<%${user['LastName']}%>&cpn=<%${user.CustomAttribute['Mobile_Phone']}%>&cem=<%${user.CustomAttribute['RealEmail']}%>&button=blue'''
-	cta1_link_name = '''service_booking'''
 
 [[module]] #AU Service Status Copy
 path='email_modules/custom/svcstatus'
