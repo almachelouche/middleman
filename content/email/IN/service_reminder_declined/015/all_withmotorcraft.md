@@ -55,12 +55,6 @@ color='''white'''
 	cta2_text = '''&nbsp;BOOK A PICK-UP'''
 	cta2_url = '''https://www.india.ford.com/locate-dealer/'''
 	cta2_link_name = '''locate_dealer'''    
-
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30" 
     
 [[module]] #Service Status No Copy
 path='email_modules/custom/svcstatus_nocopy'
