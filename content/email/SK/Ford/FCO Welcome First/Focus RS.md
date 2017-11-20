@@ -23,7 +23,7 @@ title='''
     <span style="white-space:nowrap;">欢迎您开启福特进无止境之旅</span>
 '''
 copy='''
-    <span style="white-space:nowrap;">尊敬的车主</span>
+    <span style="white-space:nowrap;">尊敬的福克斯RS车主</span>
     <br/>
     <br/>
     <span style="white-space:nowrap;">生活，总有更远的风景等待发现。</span>

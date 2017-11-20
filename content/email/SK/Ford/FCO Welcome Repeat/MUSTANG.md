@@ -23,7 +23,7 @@ title='''
     <span style="white-space:nowrap;">挚谢您再次选购福特汽车</span>
 '''
 copy='''
-    <span style="white-space:nowrap;">尊敬的车主</span>
+    <span style="white-space:nowrap;">尊敬的MUSTANG车主</span>
     <br/>
     <span style="white-space:nowrap;">更多非凡体验，相伴全球之旅。</span>
     <br/>
