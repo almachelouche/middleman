@@ -47,7 +47,7 @@ path='email_modules/image/banner'
 color='white'
 
 	image='''vn_edm5_yesservice_20171113'''
-	url_link='''https://www.ford.com.vn/about/news-events/2017/chuong-trinh-khuyen-mai-dich-vu-chao-thu-2017/'''
+	url_link='''https://www.ford.com.vn/about/news-events/2017/chuong-trinh-khuyen-mai-cuoi-nam-2017/'''
 	url_link_name='''autumn'''
 
 [[module]]
@@ -57,7 +57,7 @@ color='''white'''
 title='''Chương trình ưu đãi lớn'''
 copy='''Quý vị cần thay nhớt? Quý vị cần thay bộ lọc nhớt mới? Nhanh tay hưởng ngay ưu đãi! Từ ngày 17 tháng 11 đến ngày 31 tháng 12 năm 2017, tất cả các khách hàng của Ford được giảm 15% khi thay nhớt và bộ lọc nhớt tại các Trung tâm Dịch vụ Bảo dưỡng Ford. Hãy nhanh tay nhấp vào dưới đây để tìm hiểu thêm thông tin về chương trình tuyệt vời này.'''
 cta1_text='''TÌM HIỂU THÊM'''
-cta1_url='''https://www.ford.com.vn/about/news-events/2017/chuong-trinh-khuyen-mai-dich-vu-chao-thu-2017/'''
+cta1_url='''https://www.ford.com.vn/about/news-events/2017/chuong-trinh-khuyen-mai-cuoi-nam-2017/'''
 cta1_link_name = '''autumn'''
 
 [[module]] #Cover 05
