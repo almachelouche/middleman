@@ -27,24 +27,6 @@ color = '''white'''
 
 	image = '''vn_edm1&4_np_explorer_20170223'''
 
-[[module]]
-path='email_modules/cover/02'
-
-color='''white'''
-title='''Giới thiệu khách hàng và nhận ngay quà tặng'''
-copy='''Quý vị có người thân và bạn bè đang có dự định mua xe Ford? Hãy giới thiệu họ với chúng tôi bằng cách điền vào "phiếu giới thiệu khách hàng tiềm năng" trên trang www.ford.com.vn, vào mục chủ xe, và quý vị có thể nhận ngay quà tặng phiếu dịch vụ trị giá đến 2 triệu đồng. Chương trình sẽ kết thúc vào ngày 31 tháng 12 năm 2017.'''
-cta1_text='''XEM CHI TIẾT CHƯƠNG TRÌNH'''
-cta1_url='''https://www.ford.com.vn/owner/owner-gets-owner/'''
-cta1_link_name = '''member'''
-
-[[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
-
-	image='''vn_edm1_member_20171106'''
-	url_link='''https://www.ford.com.vn/owner/owner-gets-owner/'''
-	url_link_name='''member'''
-
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
 color='black'
