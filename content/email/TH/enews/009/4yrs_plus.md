@@ -14,10 +14,10 @@ color='black'
 
 	title = '''Insider'''
 	date = '''<span style="font-family:Tahoma, Verdana, Sans-serif">24 พฤศจิกายน 2560</span>'''
-	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">
-	IN THIS ISSUE<br /> 
-	<span style="white-space:nowrap;">WATCH: 100 Years of Trucks</span> |<br /> 
-	<span style="white-space:nowrap;">Vehicle Health Video</span> |
+	copy = '''
+    <span style="font-family:Tahoma, Verdana, Sans-serif">พบกับ<br />
+	<span style="white-space:nowrap;">เฉลิมฉลอง 100 ปีประวัติศาสตร์รถกระบะ</span> |    
+	<span style="white-space:nowrap;">สุขภาพรถยนต์ 101</span> |
     '''
 
 [[module]] # eNews Top Story
@@ -67,9 +67,22 @@ color='white'
 path='email_modules/split/01'
 color='green'
 
-	title = '''Celebrating 100 Years of Trucks'''
-	copy = '''Exactly 100 years ago, Ford set off on a great adventure to build the perfect truck to give people a truck that would let them achieve their dreams. Watch how Ford trucks evolved over the century.'''
-	cta1_text = '''WATCH NOW'''
+	title = '''
+    <span style="font-family:Tahoma, Verdana, Sans-serif">เฉลิมฉลอง 100 ปีประวัติศาสตร์รถกระบะ</span>
+    '''
+	copy = '''
+    <span style="white-space:nowrap;">ในวันนี้เมื่อ 100 ปีที่แล้ว</span>
+    <span style="white-space:nowrap;">ฟอร์ดได้ออก</span>
+    <br/>
+    <span style="white-space:nowrap;">เดินทางไปสู่การผจญภัยครั้งยิ่งใหญ่ใน</span>
+    <br/>
+    <span style="white-space:nowrap;">การสร้างรถกระบะที่สมบูรณ์แบบ</span>
+    <br/>
+    <span style="white-space:nowrap;">รับชมวิวัฒนาการของรถกระบะฟอร์ด</span>
+    <br/>
+    <span style="white-space:nowrap;">ตลอดหนึ่งศตวรรษ ได้ที่นี่</span>
+    '''
+    cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">รับชมได้เลย</span>'''
 	cta1_url = '''https://www.facebook.com/FordThailand/videos/1384510834936515/'''
 	cta1_link_name = '''celebrate_100_years'''
 	cta1_icon = '''play'''
@@ -78,28 +91,27 @@ color='green'
 [[module]] #Split 02
 path='email_modules/split/02'
 color='lightblue'
-    
-    title = '''<span style="font-family:Tahoma, Verdana, Sans-serif;">
-<span style=" white-space:nowrap;">Vehicle Health 101</span>'''
-copy = '''
-<span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style="white-space:nowrap;">Get expert tips on</span>
-<br />
-<span style="white-space:nowrap;">how to keep your car</span> 
-<br />
-<span style="white-space:nowrap;">in tip-top shape for longer</span> 
-<br />
-<span style="white-space:nowrap;">by watching these videos.</span>
-<br />
-<span style="white-space:nowrap;">It can help you save money</span> 
-<br />
-<span style="white-space:nowrap;">in the long run, too.</span>
+
+title = '''
+<span style="font-family:Tahoma, Verdana, Sans-serif;">
+<span style=" white-space:nowrap;">สุขภาพรถยนต์ 101</span>
 '''
-cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">WATCH NOW</span>'''
-    cta1_url = '''https://www.youtube.com/watch?v=ahI6tuHbLcY'''
-	cta1_link_name = '''Vehicle_Health_Tips'''
-	cta1_icon = '''play'''
-	image = '''th_edm6_vehicle_health_tips_20170911'''
+copy = '''
+<span style="white-space:nowrap;">รับชมวิดีโอนี้เพื่อพบเคล็ดลับดีๆ</span>
+<br/>
+<span style="white-space:nowrap;">จากผู้เชี่ยวชาญของเรา ที่จะช่วยดูแล</span>
+<br/>
+<span style="white-space:nowrap;">รักษารถของคุณ ให้อยู่ในสภาพที่ดี</span>
+<br/>
+<span style="white-space:nowrap;">ได้อย่างยาวนานและช่วยให้คุณ</span>
+<br/>
+<span style="white-space:nowrap;">ประหยัดในระยะยาวอีกด้วย</span>
+'''
+cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">รับชมได้เลย</span>'''
+cta1_url = '''https://www.youtube.com/watch?v=ahI6tuHbLcY'''
+cta1_link_name = '''vehicle_health_tips'''
+cta1_icon = '''play'''
+image = '''ph_edm6_vehiclehealthtips_20170912'''
 
 	[[module]] #Cover 05
 path='email_modules/cover/02'
