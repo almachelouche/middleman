@@ -3,13 +3,17 @@
 				<td valign="top" align="left">
 						<table width="100%" border="0" cellspacing="0" cellpadding="0">
 								<tr>
-										<td valign="top" align="left">
-												<a href="{{ .moduleinfo.url_link | safeURL }}" name="{{- .moduleinfo.url_link_name -}}" target="_blank"><img class="img_R hideOnDesktop" align="left" border="0" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/covers/{{- .moduleinfo.image -}}_desktop.jpg" style="display:block; outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;"></a>
-												<div style="display:none; font-size:0; line-height:0; mso-hide: all; max-height: 0; max-width: 0; width:0;" class="showOnMobile">
-													<a href="{{ .moduleinfo.url_link | safeURL }}" name="{{- .moduleinfo.url_link_name -}}" target="_blank"><img border="0" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/covers/{{- .moduleinfo.image -}}_mobile.jpg" style="display:none; font-size:0; line-height:0; mso-hide: all;max-height: 0; max-width: 0; width:0; -ms-interpolation-mode: bicubic;" class="showOnMobile"></a>
-												</div>
-										</td>
+                                    <td valign="bottom" align="left" style="width: 100%; overflow: hidden;" bgcolor="#F2F2F2">
+												<a href="{{ .moduleinfo.url_link | safeURL }}" name="{{- .moduleinfo.url_link_name -}}" style="width: 100%; display:block; overflow: hidden;" bgcolor="{{ .color.backgroundcolor }}" target="_blank"><img class="img_R hideOnDesktop" align="left" border="0" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/covers/{{- .moduleinfo.image -}}_desktop.jpg" style="outline:none; text-decoration:none; -ms-interpolation-mode: bicubic; display:block; "></a>
+                                    </td>
 								</tr>
+                            <tr>
+                                <td valign="bottom" align="left" style="width: 100%; overflow: hidden;" bgcolor="#F2F2F2">
+                                    <div style="display:none; font-size:0; line-height:0; mso-hide: all; max-height: 0; max-width: 0; width:0;" class="showOnMobile">
+                                    <a href="{{ .moduleinfo.url_link | safeURL }}" name="{{- .moduleinfo.url_link_name -}}" target="_blank"><img border="0" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/covers/{{- .moduleinfo.image -}}_mobile.jpg" style="display:none; font-size:0; line-height:0; mso-hide: all;max-height: 0; max-width: 0; width:0; -ms-interpolation-mode: bicubic;" class="showOnMobile"></a>
+                                    </div>
+                                </td>
+                            </tr>
 						</table>
 				</td>
 		</tr>
