@@ -16,10 +16,10 @@ color='black'
 	date = '''<span style="font-family:Tahoma, Verdana, Sans-serif">24 พฤศจิกายน 2560</span>'''
 	copy = '''
     <span style="font-family:Tahoma, Verdana, Sans-serif">พบกับ<br />
-    <span style="white-space:nowrap;">คุณพร้อมสำหรับออฟโรดพันธุ์แกร่งหรือยัง</span> | 
-    <span style="white-space:nowrap;">Ford Year End Sale</span> |
-	<span style="white-space:nowrap;">เฉลิมฉลอง 100 ปีประวัติศาสตร์รถกระบะ</span> |    
-	<span style="white-space:nowrap;">สุขภาพรถยนต์ 101</span> |
+    <span style="white-space:nowrap;">คุณพร้อมสำหรับออฟโรดพันธุ์แกร่งหรือยัง</span>| 
+    <span style="white-space:nowrap;">Ford Year End Sale</span>|
+	<span style="white-space:nowrap;">เฉลิมฉลอง 100 ปีประวัติศาสตร์รถกระบะ</span>|    
+	<span style="white-space:nowrap;">สุขภาพรถยนต์ 101</span>|
     '''
 
 [[module]] # eNews Top Story
