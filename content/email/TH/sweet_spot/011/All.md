@@ -81,11 +81,7 @@ color = '''white'''
 			<span style=" white-space:nowrap;"><%${user.CustomAttribute['Dealer_Name']}%></span>
 			<span style="white-space:nowrap;">(ระหว่างเวลาทำการ)</span>
 			<br />
-			<span style="white-space:nowrap;">หรือค้นหา</span>
-			<span style=" white-space:nowrap;">ตัวแทนจำหน่าย</span>
-			<br />
-			<span style=" white-space:nowrap;">ใกล้บ้านคุณ</span>
-		</span>
+			<span style="white-space:nowrap;">หรือค้นหาตัวแทนจำหน่ายใกล้บ้านคุณ</span>
 	'''
 
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">โทร <%${user.CustomAttribute['Dealer_Phone']}%></span>'''
@@ -143,9 +139,8 @@ color='white'
     <span style=" white-space:nowrap;">เปลี่ยนแบตเตอรี่ฟอร์ดแท้วันนี้</span>
     <br />
     <span style=" white-space:nowrap;">รับส่วนลด</span>
-    <br />
-														<span style=" white-space:nowrap;">300 บาท</span>
-                                                        '''
+    <span style=" white-space:nowrap;">300 บาท</span>
+    '''                                                   
 	icon3 = '''th_edm6_brake_20170113'''
 	text3 = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><span style="font-weight:bold">ผ้าเบรก Ford-Motorcraft สุดคุ้ม</span>
     <br />
@@ -159,7 +154,7 @@ color='white'
 path='email_modules/singles/ctablock'
 color='''white'''
 
-		cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">ค้นหาศูนย์บริการได้ที่นี่</span>'''
+		cta1_text = '''<span style="font-family:Tahoma, Verdana, Sans-serif">คลิกดูรายละเอียดเพิ่มเติม</span>'''
 	cta1_url = '''https://www.ford.co.th/owner/servicecampaign/'''
 	cta1_link_name = '''commodity_offers'''
 
