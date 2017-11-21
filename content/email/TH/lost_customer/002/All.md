@@ -25,20 +25,12 @@ copy='''
 <span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%>
 <br />
 <br />
-<span style="white-space:nowrap;">ฟอร์ดขอเสนอ</span>
-<span style="white-space:nowrap;">บริการบำรุงรักษา</span>
-<span style="white-space:nowrap;">รถยนต์</span>
+<span style="white-space:nowrap;">ฟอร์ดขอเสนอบริการบำรุงรักษารถยนต์</span>
 <br />
-<span style="white-space:nowrap;">ตามระยะที่</span>
-<span style="white-space:nowrap;">ศูนย์บริการ</span>
-<span style="white-space:nowrap;">มาตรฐานฟอร์ด</span>
-<span style="white-space:nowrap;">อย่างเต็มรูปแบบ</span>
+<span style="white-space:nowrap;">ตามระยะที่ศูนย์บริการมาตรฐานฟอร์ดอย่างเต็มรูปแบบ</span>
 <br />
-<span style="white-space:nowrap;">เพื่อการเดินทาง</span>
-<span style="white-space:nowrap;">ที่ราบรื่น</span>
-<span style="white-space:nowrap;">และ</span>
-<span style="white-space:nowrap;">มั่นใจ</span>
-<span style="white-space:nowrap;">สำหรับคุณ</span>
+<span style="white-space:nowrap;">เพื่อการเดินทางที่ราบรื่นและ</span>
+<span style="white-space:nowrap;">มั่นใจสำหรับคุณ</span>
 <br />
 <br />
 <span style="white-space:nowrap;">คุณสามารถมั่นใจกับอะไหล่แท้ฟอร์ด</span>
@@ -46,20 +38,15 @@ copy='''
 <span style="white-space:nowrap;">ที่ช่วยยืดอายุการใช้งานของรถฟอร์ดที่คุณรักได้!</span>
 <br />
 <br />
-<span style="white-space:nowrap;">หมดกังวล</span>
-<span style="white-space:nowrap;">กับทุกปัญหา </span>
-<span style="white-space:nowrap;">ให้คุณอุ่นใจ</span>
-<span style="white-space:nowrap;">ในทุกเส้นทาง</span>
-<span style="white-space:nowrap;">รีบแวะเข้ามา</span>
-<span style="white-space:nowrap;">หาเราวันนี้</span>
+<span style="white-space:nowrap;">หมดกังวลกับทุกปัญหา</span>
+<span style="white-space:nowrap;">ให้คุณอุ่นใจในทุกเส้นทาง</span>
+<span style="white-space:nowrap;">รีบแวะเข้ามาหาเราวันนี้</span>
 <br />
 <span style="white-space:nowrap;">ที่ศูนย์บริการฟอร์ด</span>
 <span style="white-space:nowrap;">ทั่วประเทศ!</span>
 <br />
 <br />
-<span style="white-space:nowrap;">นัดหมายล่วงหน้า</span>
-<span style="white-space:nowrap;">เพื่อเข้ารับบริการ</span>
-<span style="white-space:nowrap;">ได้ทันที</span>
+<span style="white-space:nowrap;">นัดหมายล่วงหน้าเพื่อเข้ารับบริการได้ทันที</span>
 <span style="white-space:nowrap;">ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%></span> 
 <span style="white-space:nowrap;">(ระหว่างเวลาทำการ)</span>
 <br />
