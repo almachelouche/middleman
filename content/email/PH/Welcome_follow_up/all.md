@@ -26,19 +26,19 @@ color='''white'''
 path='email_modules/custom/4columnicon4titlescopy'
 color='white'
 
-    title1 = '''Service Checklist'''
+    title1 = '''Service<br />Checklist'''
 	icon1 = '''in_edm1c_ownerapp_a_20160801'''
 	text1 = '''Know what to service, when.'''
 
-	title2 = '''Dealer Locator'''
+	title2 = '''Dealer<br>/Locator'''
 	icon2 = '''in_edm1c_ownerapp_d_20160801'''
 	text2 = '''Pinpoint your nearest Ford dealer.'''
 	
-    title3 = '''How-to Videos'''
+    title3 = '''How-to<br/>Videos'''
 	icon3 = '''in_edm1c_ownerapp_c_20160801'''
 	text3 = '''Step-by-step guide to Ford tech.'''
 	
-    title4 = '''Dashboard Decoder'''
+    title4 = '''Dashboard<br />Decoder'''
     icon4 = '''th_edm1c_ownerapp_dashboard_20170421'''
 	text4 = '''Find the meaning of any dashboard icon.'''
 
