@@ -53,11 +53,13 @@ color='white'
 	url_link = ''''''
 	cta_link_name = ''''''
 
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
 
-	image='''th_edm5_yescampaign_20171108'''
+	image = '''th_edm5_yescampaign_20171108'''
+	url_link = '''https://www.ford.co.th/buying/latest-offers/'''
+	cta_link_name = '''yes_campaign'''
 
 [[module]]
 path='email_modules/spacer/platinum_20'
