@@ -110,6 +110,22 @@ color='''white'''
 	cta1_link_name = '''any_questions_call'''
 	icon = '''ph_edm2_call_20160801'''
 
+[[module]] # Owner App Image Right
+path='email_modules/custom/ownerapp_imgr'
+color='black'
+
+	title = '''Ford Owners App'''
+	text1 = '''Owning a Ford has never been easier, thanks to the Ford Owners App.'''
+	text2 = '''<ul style="margin: 20px; padding: 0;"><li>Use the Service Checklist</li><li>Find dealer near you</li><li>Watch “how to” videos</li><li>Learn dashboard icons</li></ul>'''
+	cta1_text = '''iOS'''
+	cta1_url = '''https://itunes.apple.com/ph/app/ford-owners/id990342351?mt=8'''
+	cta1_link_name = '''oa_ios'''
+	cta2_text = '''ANDROID'''
+	cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en'''
+	cta2_link_name = '''oa_android'''
+	image = '''in_edm1c_ownerapp_20160801'''
+
+
 [[module]] #PH Social
 path = 'email_modules/footer/ph/social'
 color = 'white'
