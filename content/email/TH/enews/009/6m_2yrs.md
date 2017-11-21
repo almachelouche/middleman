@@ -83,8 +83,8 @@ color='green'
 	cta1_icon = '''play'''
 	image = '''th_edm6_celebrate100years_20170918'''
 
-[[module]] #Split 01
-path='email_modules/split/01'
+[[module]] #Split 02
+path='email_modules/split/02'
 color='lightblue'
 
 title = '''
