@@ -63,9 +63,7 @@ copy='''
 <span style="white-space:nowrap;">ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%></span> 
 <span style="white-space:nowrap;">(ระหว่างเวลาทำการ)</span>
 <br />
-<span style="white-space:nowrap;">หรือค้นหา</span>
-<span style="white-space:nowrap;">ตัวแทนจำหน่าย</span>
-<span style="white-space:nowrap;">ใกล้บ้านคุณ</span></span>
+<span style="white-space:nowrap;">หรือค้นหาตัวแทนจำหน่ายใกล้บ้านคุณ</span>
 '''
 
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">โทร <%${user.CustomAttribute['Dealer_Phone']}%></span>'''
