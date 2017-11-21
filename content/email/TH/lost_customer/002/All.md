@@ -21,23 +21,52 @@ path='email_modules/cover/02'
 color='''white'''
 icon='''th_edm2_svc_wrench_20170306'''
 title='''<span style="font-family:Tahoma, Verdana, Sans-serif">ถึงเวลาบำรุงรักษารถฟอร์ด<br/>ที่คุณรักอีกครั้ง</span>'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />
-<span style="white-space:nowrap;">ฟอร์ดขอเสนอ</span><span style="white-space:nowrap;">บริการบำรุงรักษา</span><span style="white-space:nowrap;">รถยนต์</span><br />
-<span style="white-space:nowrap;"> ตามระยะที่</span><span style="white-space:nowrap;">ศูนย์บริการ</span><span style="white-space:nowrap;">มาตรฐานฟอร์ด</span><span style="white-space:nowrap;">อย่างเต็มรูปแบบ</span> <br />
-<span style="white-space:nowrap;">เพื่อการเดินทาง</span><span style="white-space:nowrap;">ที่ราบรื่น</span><span style="white-space:nowrap;">และ</span>
-<span style="white-space:nowrap;">มั่นใจ</span><span style="white-space:nowrap;">สำหรับคุณ</span>
-<br /><br />
-<span style="white-space:nowrap;">คุณสามารถมั่นใจ</span><span style="white-space:nowrap;">กับอะไหล่แท้ฟอร์ด</span><br />
-<span style="white-space:nowrap;">ที่ช่วยยืดอายุ</span><span style="white-space:nowrap;">การใช้งาน</span>
-<span style="white-space:nowrap;">ของรถฟอร์ด</span><span style="white-space:nowrap;">ที่คุณรักได้!</span>
-<br /><br />
-<span style="white-space:nowrap;">หมดกังวล</span><span style="white-space:nowrap;">กับทุกปัญหา </span><span style="white-space:nowrap;">ให้คุณอุ่นใจ</span><span style="white-space:nowrap;">ในทุกเส้นทาง</span>
-<span style="white-space:nowrap;">รีบแวะเข้ามา</span><span style="white-space:nowrap;">หาเราวันนี้</span><br />
-<span style="white-space:nowrap;">ที่ศูนย์บริการฟอร์ด</span><span style="white-space:nowrap;">ทั่วประเทศ!</span><br /><br />
-<span style="white-space:nowrap;">นัดหมายล่วงหน้า</span><span style="white-space:nowrap;">เพื่อเข้ารับบริการ</span><span style="white-space:nowrap;">ได้ทันที</span>
-<span style="white-space:nowrap;">ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%></span> <span style="white-space:nowrap;">(ระหว่างเวลาทำการ)</span><br />
-<span style="white-space:nowrap;">หรือค้นหา</span><span style="white-space:nowrap;">ตัวแทนจำหน่าย</span><br />
-<span style="white-space:nowrap;">ใกล้บ้านคุณ</span></span>'''
+copy='''
+<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%>
+<br />
+<br />
+<span style="white-space:nowrap;">ฟอร์ดขอเสนอ</span>
+<span style="white-space:nowrap;">บริการบำรุงรักษา</span>
+<span style="white-space:nowrap;">รถยนต์</span>
+<br />
+<span style="white-space:nowrap;">ตามระยะที่</span>
+<span style="white-space:nowrap;">ศูนย์บริการ</span>
+<span style="white-space:nowrap;">มาตรฐานฟอร์ด</span>
+<span style="white-space:nowrap;">อย่างเต็มรูปแบบ</span>
+<br />
+<span style="white-space:nowrap;">เพื่อการเดินทาง</span>
+<span style="white-space:nowrap;">ที่ราบรื่น</span>
+<span style="white-space:nowrap;">และ</span>
+<span style="white-space:nowrap;">มั่นใจ</span>
+<span style="white-space:nowrap;">สำหรับคุณ</span>
+<br />
+<br />
+<span style="white-space:nowrap;">คุณสามารถมั่นใจกับอะไหล่แท้ฟอร์ด</span>
+<br />
+<span style="white-space:nowrap;">ที่ช่วยยืดอายุการใช้งานของรถฟอร์ดที่คุณรักได้!</span>
+<br />
+<br />
+<span style="white-space:nowrap;">หมดกังวล</span>
+<span style="white-space:nowrap;">กับทุกปัญหา </span>
+<span style="white-space:nowrap;">ให้คุณอุ่นใจ</span>
+<span style="white-space:nowrap;">ในทุกเส้นทาง</span>
+<span style="white-space:nowrap;">รีบแวะเข้ามา</span>
+<span style="white-space:nowrap;">หาเราวันนี้</span>
+<br />
+<span style="white-space:nowrap;">ที่ศูนย์บริการฟอร์ด</span>
+<span style="white-space:nowrap;">ทั่วประเทศ!</span>
+<br />
+<br />
+<span style="white-space:nowrap;">นัดหมายล่วงหน้า</span>
+<span style="white-space:nowrap;">เพื่อเข้ารับบริการ</span>
+<span style="white-space:nowrap;">ได้ทันที</span>
+<span style="white-space:nowrap;">ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%></span> 
+<span style="white-space:nowrap;">(ระหว่างเวลาทำการ)</span>
+<br />
+<span style="white-space:nowrap;">หรือค้นหา</span>
+<span style="white-space:nowrap;">ตัวแทนจำหน่าย</span>
+<span style="white-space:nowrap;">ใกล้บ้านคุณ</span></span>
+'''
 
 cta1_text='''<span style="font-family:Tahoma, Verdana, Sans-serif">โทร <%${user.CustomAttribute['Dealer_Phone']}%></span>'''
 cta1_url='''tel:<%${user.CustomAttribute['Dealer_Phone']}%>'''
