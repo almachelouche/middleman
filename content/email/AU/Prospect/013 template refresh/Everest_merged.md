@@ -106,7 +106,7 @@ color='white'
 	image1_link_name = '''link_name_here'''
 	title2 = '''Compare Models'''
 	copy2 = '''Find the Ford Everest model that suits your lifestyle with the <a href="https://www.ford.com.au/suv/everest/compare-models/" name="modelcomp" style="text-decoration:underline; color:#2D96CD">Model Compare</a> tool.'''
-	image2 = '''au_edm1_owner-app2_20170629'''
+	image2 = '''au_edm5_Everest_22112017'''
 	image2_link_url = '''https://www.ford.com.au/suv/everest/compare-models/'''
 	image2_link_name = '''link_name_here'''
 
