@@ -30,7 +30,7 @@ color='white'
 	icon1 = '''in_edm1c_ownerapp_a_20160801'''
 	text1 = '''Know what to service, when.'''
 
-	title2 = '''Dealer<br>/Locator'''
+	title2 = '''Dealer<br />Locator'''
 	icon2 = '''in_edm1c_ownerapp_d_20160801'''
 	text2 = '''Pinpoint your nearest Ford dealer.'''
 	
