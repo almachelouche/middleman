@@ -77,8 +77,6 @@ color='''white'''
 path='email_modules/cover/master'
 color='''white'''
 
-	icon=''''''
-	title=''''''
 	copy='''
     <span style="font-weight: bold;"> The Right Fit For Any Job</span>
     <br/><br/>
