@@ -6,7 +6,9 @@ title = '''TH eNews 009 2 years - 4 years'''
 path='email_modules/preheader'
 color='''white'''
 
-		preheader = '''<span style="font-family:Tahoma, Verdana, Sans-serif">และมาค้นพบกันว่าทำไมฟอร์ด เอเวอร์เรส จึงได้รับรางวัลด้านความปลอดภัยระดับ 5 ดาว </span>'''
+		preheader = '''
+        <span style="font-family:Tahoma, Verdana, Sans-serif">เคล็ดลับในการบำรุงรักษาสมรรถนะของรถยนต์แบบมืออาชีพ</span>
+        '''
 
 [[module]] #Header eNews
 path='email_modules/header/enews'
