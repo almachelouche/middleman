@@ -31,27 +31,18 @@ color = '''white'''
 	image = '''au_edm1_mustang01_20170629'''
     url_link='''https://www.ford.com.au/performance/mustang/'''
 	url_link_name='''p1Mondeo'''
-   
-     
-[[module]]
-path='email_modules/cover/master'
-color='''white'''
+  
+    [[module]]
+path='email_modules/singles/2ctablockside'
+color='''fordblue'''
 
-	cta_direction = '''Horizontal'''
+	cta1_text = '''LOCATE A DEALER'''
+	cta1_url = '''https://www.ford.com.au/dealership/'''
+	cta1_link_name = ''''''
+	cta2_text = '''LATEST OFFER'''
+	cta2_url = '''https://www.ford.com.au/performance/mustang/'''
+	cta2_link_name = ''''''
 
-	cta_1_copy = '''LOCATE A DEALER'''
-	cta_1_link_url = '''https://www.ford.com.au/dealership/'''
-	cta_1_link_name = '''link_1_name_here'''
-	cta_1_icon = ''''''
-	cta_1_type = '''block'''
-	cta_1_width = '''240'''
-
-	cta_3_copy = '''LATEST OFFER'''
-	cta_3_link_url = '''https://www.ford.com.au/performance/mustang/'''
-	cta_3_link_name = '''link_3_name_here'''
-	cta_3_icon = ''''''
-	cta_3_type = '''outline'''
-	cta_3_width = ''''''
 
 
 

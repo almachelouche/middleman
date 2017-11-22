@@ -34,15 +34,8 @@ color = '''white'''
     url_link='''https://www.ford.com.au/commercial/ranger/'''
 	url_link_name='''p1ranger'''
     
-    
-    [[module]]
-path='email_modules/spacer/default'
-color='white'
 
-	height="30"
-    
-
-  [[module]]
+[[module]]
 path='email_modules/singles/2ctablockside'
 color='''fordblue'''
 
@@ -52,6 +45,7 @@ color='''fordblue'''
 	cta2_text = '''LATEST OFFER'''
 	cta2_url = '''https://www.ford.com.au/latest-offer/4x4-xlt-double-cab-pick-up-3-2l-diesel/'''
 	cta2_link_name = ''''''
+
 
 
 
