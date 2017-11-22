@@ -67,16 +67,7 @@ color='''white'''
     <br/><br/> 
     <span style="font-weight: bold;">Right now, the Ford Escape Ambiente Petrol FWD with FREE AUTO is available at $29,990* Driveaway, with free upgrade to automatic transmission!</span> 
     '''
-    
-	cta_direction = '''vertical'''
-
-	cta_1_copy = '''DISCOVER MORE'''
-	cta_1_link_url = '''https://www.ford.com.au/suv/escape/'''
-	cta_1_link_name = '''link_1_name_here'''
-	cta_1_icon = ''''''
-	cta_1_type = '''block'''
-	cta_1_width = '''240'''
-    
+  
 
 [[module]] #Banner Image
 path='email_modules/image/banner'

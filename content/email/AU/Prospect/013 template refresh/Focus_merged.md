@@ -68,16 +68,6 @@ color='''white'''
     <span style="font-weight: bold;">Right now, the Ford Focus Trend Hatch with FREE AUTO is available at $24,490* </span> 
     <br/><br/>'''
 
-	cta_direction = '''vertical'''
-
-	cta_1_copy = '''DISCOVER MORE'''
-	cta_1_link_url = '''https://www.ford.com.au/cars/focus/'''
-	cta_1_link_name = '''link_1_name_here'''
-	cta_1_icon = ''''''
-	cta_1_type = '''block'''
-	cta_1_width = '''240'''
-
-
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
