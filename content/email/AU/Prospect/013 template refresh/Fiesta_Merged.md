@@ -104,7 +104,7 @@ color='white'
 	image1_link_name = '''link_name_here'''
 	title2 = '''Compare Models'''
 	copy2 = '''Find the Ford Fiesta model that suits your lifestyle with the <a href="https://www.ford.com.au/cars/fiesta/compare-models/" name="modelcomp" style="text-decoration:underline; color:#2D96CD">Model Compare</a> tool.'''
-	image2 = '''au_edm5_Fiesta_22112017'''
+	image2 = '''au_edm5_fiesta_22112017'''
 	image2_link_url = '''https://www.ford.com.au/cars/fiesta/compare-models/'''
 	image2_link_name = '''link_name_here'''
 
