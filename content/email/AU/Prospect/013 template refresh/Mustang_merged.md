@@ -104,7 +104,7 @@ color='white'
 	title2 = '''Model Comparison'''
 	copy2 = '''Find the Ford Mustang model that suits your lifestyle with the <a href="https://www.ford.com.au/performance/mustang/compare-models/" name="modelcomp" style="text-decoration:underline; color:#2D96CD">Model Compare</a> tool.'''
 	image2 = '''au_edm5_Mustang_22112017'''
-	image2_link_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
+	image2_link_url = '''https://www.ford.com.au/performance/mustang/compare-models/'''
 	image2_link_name = '''link_name_here'''
 	
 
