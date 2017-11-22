@@ -40,16 +40,17 @@ color='white'
 
 	height="30"
     
-[[module]]
-path='email_modules/singles/2ctablocksideoutline'
-color='''white'''
+    [[module]]
+path='email_modules/singles/2ctablockside'
+color='''fordblue'''
 
-	cta1_text = '''LATEST OFFER'''
-	cta1_url = '''https://www.ford.com.au/latest-offer/transit-custom-290s-swb-van-auto/'''
+	cta1_text = '''LOCATE A DEALER'''
+	cta1_url = '''https://www.ford.com.au/dealership/'''
 	cta1_link_name = ''''''
-	cta2_text = '''LOCATE A DEALER'''
-	cta2_url = '''https://www.ford.com.au/dealership/'''
+	cta2_text = '''LATEST OFFER'''
+	cta2_url = '''https://www.ford.com.au/latest-offer/transit-custom-290s-swb-van-auto/'''
 	cta2_link_name = ''''''
+    
 
 
 [[module]]

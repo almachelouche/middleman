@@ -34,23 +34,6 @@ color='white'
 	url_link='''https://www.ford.com.au/commercial/transit/'''
 	url_link_name='''p1transit''' 
 
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
- 
- [[module]]
-path='email_modules/singles/2ctablockside'
-color='''white'''
-
-	cta1_text = '''LOCATE A DEALER'''
-	cta1_url = '''https://www.ford.com.au/dealership/'''
-	cta1_link_name = ''''''
-	cta2_text = '''LATEST OFFER'''
-	cta2_url = ''''''
-	cta2_link_name = ''''''
- 
  
 [[module]]
 path='email_modules/cover/master'
