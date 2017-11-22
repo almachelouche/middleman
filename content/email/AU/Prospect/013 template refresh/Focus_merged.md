@@ -142,7 +142,9 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-    text = ''''''
+    text = '''
+    DISCLAIMERS:<br /><br />
+    1) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
