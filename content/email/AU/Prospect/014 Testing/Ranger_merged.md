@@ -1,12 +1,13 @@
 +++
 markets = ["au"]
-title = '''AU Prospect 013 Fiesta-merged'''
+title = '''AU Prospect 014 Ranger_merged'''
 
 
 [[module]]
 path='email_modules/preheaderbefore'
 
-	preheader='''Click through to see the latest offers on the vivid and stylish Ford Fiesta'''
+
+	preheader='''Click through to see the latest offers on the tough and smart Ranger'''
 
 [[module]]
 path='email_modules/body'
@@ -14,8 +15,8 @@ path='email_modules/body'
 [[module]]
 path='email_modules/preheaderbefore'
 
-	preheader='''Click through to see the latest offers on the vivid and stylish Ford Fiesta'''
 
+	preheader='''Click through to see the latest offers on the tough and smart Ranger'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -23,17 +24,18 @@ color='white'
 
 	image = '''white'''
 	url_link = '''https://www.ford.com.au/'''
-	
+
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
 color = '''white'''
 
-	image = '''au_edm1_fiesta_20170629'''
-    url_link='''https://www.ford.com.au/cars/fiesta/'''
-	url_link_name='''p1fiesta'''
-   
-   [[module]]
+	image = '''au_edm1_ranger_20170629'''
+    url_link='''https://www.ford.com.au/commercial/ranger/'''
+	url_link_name='''p1ranger'''
+    
+    
+    [[module]]
 path='email_modules/spacer/default'
 color='white'
 
@@ -44,7 +46,7 @@ path='email_modules/singles/2ctablocksideoutline'
 color='''white'''
 
 	cta1_text = '''LATEST OFFER'''
-	cta1_url = '''https://www.ford.com.au/latest-offer/fiesta-ambiente/'''
+	cta1_url = '''https://www.ford.com.au/latest-offer/4x4-xlt-double-cab-pick-up-3-2l-diesel/'''
 	cta1_link_name = ''''''
 	cta2_text = '''LOCATE A DEALER'''
 	cta2_url = '''https://www.ford.com.au/dealership/'''
@@ -57,56 +59,56 @@ color='''white'''
 	icon=''''''
 	title=''''''
 	copy='''
-    <span style="font-weight: bold;"> Fun At Every Turn</span>
+    <span style="font-weight: bold;"> Tough Done Smarter</span>
     <br/><br/>
     Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
-    Looking for something that packs a punch? The Ford Fiesta might be small in size, but it’s definitely not small on personality. 
+    What’s better than a tough truck? A truck that does tough smarter. And that’s exactly what Ford Ranger delivers.  
     <br/><br/>
-    It all begins with an award-winning, turbocharged EcoBoost engine that’s as powerful as it is fuel efficient. Top it off with voice-activated SYNC 3 technology that allows you to make calls, take calls and control the interior climate with the sound of your voice, and it’s an impressive package for any driver.
+    Discover the brute strength and innovative technology you need to take on any challenge, whether on the worksite or the weekend. From a back-breaking 3,500kg towing capacity to intuitive features like voice-activated SYNC 3 and Adaptive Cruise Control, Ranger is built to get the job done.  
     <br/><br/> 
-    <span style="font-weight: bold;">Right now, the Ford Fiesta Ambiente Manual is available at $15,990* Driveaway.</span> 
+    <span style="font-weight: bold;">Right now, the Ford Ranger 4x4 XLT Double Cab Pick-up 3.2L Diesel with FREE AUTO is available at $55,490* Driveaway.</span> 
     <br/><br/>'''
 
 	cta_direction = '''vertical'''
 
 	cta_1_copy = '''DISCOVER MORE'''
-	cta_1_link_url = '''https://www.ford.com.au/cars/fiesta/'''
+	cta_1_link_url = '''https://www.ford.com.au/commercial/ranger/'''
 	cta_1_link_name = '''link_1_name_here'''
 	cta_1_icon = ''''''
 	cta_1_type = '''block'''
 	cta_1_width = '''240'''
-
-
+    
+  
 [[module]] #Banner Image
-path='email_modules/image/banner'
-color='white'
+path = '''email_modules/image/banner'''
+color = '''white'''
 
-	image='''au_edm2_svc_new_banner_20170926'''
-	url_link='''https://www.ford.com.au/owners/service/'''
-	url_link_name="servicebanner"
-
-[[module]]
+	image = '''au_edm2_svc_new_banner_20170926'''
+	url_link = '''https://www.ford.com.au/owners/service/'''
+  
+  [[module]]
 path='email_modules/spacer/platinum_20'
 color='white'
 
 	height="20"
-    
+
 [[module]]
 path='email_modules/dual/05'
 color='white'
-
+    
     title1 = '''Get Accessorised'''
     text_box_height = '''310'''
-	copy1 = '''Take your Fiesta to the next level with <a href="https://www.ford.com.au/cars/fiesta/accessories/fiesta-ambiente/" name="accessory1" style="text-decoration:underline; color:#2D96CD">Ford Genuine Accessories</a>, designed to seamlessly integrate with your Fiesta.'''
-	image1 = '''au_edm1_fiesta02_20170629'''
-	image1_link_url = '''https://www.ford.com.au/suv/everest/smart-accessories/'''
+	copy1 = ''' abcd'''
+	image1 = '''au_edm1_ranger02_20170629'''
+	image1_link_url = '''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
 	image1_link_name = '''link_name_here'''
 	title2 = '''Model Comparison'''
-	copy2 = '''Find the Ford Fiesta model that suits your lifestyle with the <a href="https://www.ford.com.au/cars/fiesta/compare-models/" name="modelcomp" style="text-decoration:underline; color:#2D96CD">Model Compare</a> tool.'''
-	image2 = '''au_edm1_owner-app2_20170629'''
-	image2_link_url = '''https://www.ford.com.au/cars/fiesta/compare-models/'''
+	copy2 = '''Find the Ford Ranger model that suits your lifestyle with the <a href="https://www.ford.com.au/commercial/ranger/compare-models/" name="modelcomp" style="text-decoration:underline; color:#2D96CD">Model Compare</a> tool.'''
+	image2 = '''au_edm5_Ranger_22112017'''
+	image2_link_url = '''https://www.ford.com.au/commercial/ranger/compare-models/'''
 	image2_link_name = '''link_name_here'''
+	
 
 [[module]]
 path='email_modules/spacer/platinum_20'
@@ -130,7 +132,6 @@ color='white'
 	image2_link_url = '''https://www.ford.com.au/owners/service/'''
 	image2_link_name = '''link_name_here'''
 
-
 [[module]] #Footer AU Social
 path='email_modules/footer/au/social'
 color='white'
@@ -139,7 +140,11 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-	text = ''''''
+	text = '''Terms & Conditions
+				<br /> <br />* Recommended offer available at participating dealers. Stock may vary between dealers. Private and Blue, Silver and Gold Fleet buyers only. Eligible Free Auto vehicles must be purchased by 31/12/17 and delivered by 3/01/18. Ford Dealers and Ford Australia can reduce or otherwise change these offers.
+                <br /><br />
+				'''
+
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
