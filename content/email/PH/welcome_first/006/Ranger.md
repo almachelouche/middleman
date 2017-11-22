@@ -117,8 +117,7 @@ path='email_modules/custom/ownerapp_imgr'
 color='black'
 
 title = '''Ford Owners App'''
-text1 = '''Owning a Ford has never been easier, thanks to the Ford Owners App.<ul style="margin: 20px; padding: 0;">
-<li><span style=" white-space:nowrap;">Use the Service Checklist</li>
+text1 = '''Owning a Ford has never been easier, thanks to the Ford Owners App.<ul style="margin: 20px; padding: 0;"><li><span style=" white-space:nowrap;">Use the Service Checklist</li>
 <li><span style=" white-space:nowrap;">Find dealer near you</li>
 <li><span style=" white-space:nowrap;">Watch “how to” videos</li>
 <li><span style=" white-space:nowrap;">Learn dashboard icons</ul>'''
