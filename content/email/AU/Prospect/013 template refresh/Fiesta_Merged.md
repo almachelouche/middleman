@@ -102,12 +102,13 @@ color='white'
 	image1 = '''au_edm1_fiesta02_20170629'''
 	image1_link_url = '''https://www.ford.com.au/suv/everest/smart-accessories/'''
 	image1_link_name = '''link_name_here'''
-	title2 = '''Have you seen the Ford Focus?'''
-	copy2 = '''Sporting an eye-catching design, an award-winning EcoBoost engine and voice-activated SYNC 3 technology, the Focus is an impressive package for any driver.'''
+	title2 = '''Model Comparison'''
+	copy2 = '''Find the Ford Fiesta model that suits your lifestyle with the <a href="https://www.ford.com.au/cars/fiesta/compare-models/" name="modelcomp" style="text-decoration:underline; color:#2D96CD">Model Compare</a> tool.'''
 	image2 = '''au_edm1_owner-app2_20170629'''
 	image2_link_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
 	image2_link_name = '''link_name_here'''
 	
+    <a href="https://www.ford.com.au/suv/ecosport/compare-models/" name="modelcomp" style="text-decoration:underline; color:#2D96CD">Model Compare</a>
 
 [[module]]
 path='email_modules/spacer/platinum_20'

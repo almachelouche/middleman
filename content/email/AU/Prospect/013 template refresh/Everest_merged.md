@@ -104,12 +104,12 @@ color='white'
 	image1 = '''au_edm1_everest02_20170629'''
 	image1_link_url = '''https://www.ford.com.au/suv/everest/smart-accessories/'''
 	image1_link_name = '''link_name_here'''
-	title2 = '''Have you seen the Ford Ranger?'''
-	copy2 = '''With its winning combination of brute strength and innovative technology. There's no stopping the Ranger from getting the job done.'''
+	title2 = '''Model Comparison'''
+	copy2 = '''Find the Ford Everest model that suits your lifestyle with the <a href="https://www.ford.com.au/suv/everest/compare-models/" name="modelcomp" style="text-decoration:underline; color:#2D96CD">Model Compare</a> tool.'''
 	image2 = '''au_edm5_Ranger_22112017'''
 	image2_link_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
 	image2_link_name = '''link_name_here'''
-	
+
 
 [[module]]
 path='email_modules/spacer/platinum_20'
