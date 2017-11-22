@@ -42,8 +42,7 @@ copy='''
 <span style="white-space:nowrap;">ให้คุณอุ่นใจในทุกเส้นทาง</span>
 <span style="white-space:nowrap;">รีบแวะเข้ามาหาเราวันนี้</span>
 <br />
-<span style="white-space:nowrap;">ที่ศูนย์บริการฟอร์ด</span>
-<span style="white-space:nowrap;">ทั่วประเทศ!</span>
+<span style="white-space:nowrap;">ที่ศูนย์บริการฟอร์ดทั่วประเทศ!</span>
 <br />
 <br />
 <span style="white-space:nowrap;">นัดหมายล่วงหน้าเพื่อเข้ารับบริการได้ทันที</span>
