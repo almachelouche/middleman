@@ -108,7 +108,6 @@ color='white'
 	image2_link_url = '''https://www.ford.com.au/cars/fiesta/compare-models/'''
 	image2_link_name = '''link_name_here'''
 
-
 [[module]]
 path='email_modules/spacer/platinum_20'
 color='white'
