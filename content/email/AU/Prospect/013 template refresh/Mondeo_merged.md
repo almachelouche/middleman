@@ -64,7 +64,7 @@ color='''white'''
     <br/><br/>
     Looking for something sophisticated? The Ford Mondeo’s technology and design are so refined they need to be experienced to be believed.
     <br/><br/>
-    Mondeo’s design is a master class in refinement, with heated seats, dual-zone climate control, and a panoramic glass roof that covers almost half the roof. Plus, the enhanced SYNC 3 voice-activated system lets you make calls, send messages, and control SAT NAV – with just your voice.
+    Mondeo’s design is a master class in refinement, with heated seats, dual-zone climate control, and a panoramic glass roof that covers almost half the roof. Plus, the enhanced SYNC&#174;3 voice-activated system lets you make calls, send messages, and control SAT NAV – with just your voice.
     <br/><br/> 
     <span style="font-weight: bold;"> Right now, the Ford Mondeo Trend Hatch Petrol Auto is available at $39,490* Driveaway. </span> 
    

@@ -65,7 +65,7 @@ color='''white'''
     <br/><br/>
     Ready to get more out of city life? Take on any urban challenge with the city-sized Ford EcoSport SUV.
     <br/><br/>
-     EcoSport has room for everything. Enjoy a massive 705 litres of cargo space, fold-down 60:40 seats, and over 20 smart storage compartments. Plus, the voice-activated SYNC&#185; system lets you stay connect to your world and favourite apps, while your hands stay safely on the steering wheel.
+     EcoSport has room for everything. Enjoy a massive 705 litres of cargo space, fold-down 60:40 seats, and over 20 smart storage compartments. Plus, the voice-activated SYNC&#174;&#185; system lets you stay connect to your world and favourite apps, while your hands stay safely on the steering wheel.
     <br/><br/>
     <span style="font-weight: bold;">Right now, the Ford EcoSport Ambiente Manual is available $18,990* Driveaway.</span> 
     <br/><br/>'''
