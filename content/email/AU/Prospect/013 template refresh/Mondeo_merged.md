@@ -39,17 +39,19 @@ path='email_modules/spacer/default'
 color='white'
 
 	height="30"
-    
-[[module]]
-path='email_modules/singles/2ctablocksideoutline'
+               
+    [[module]]
+path='email_modules/singles/2ctablockside'
 color='''white'''
 
-	cta1_text = '''LATEST OFFER'''
-	cta1_url = '''https://www.ford.com.au/latest-offer/mondeo-trend-hatch-petrol/'''
+	cta1_text = '''LOCATE A DEALER'''
+	cta1_url = '''https://www.ford.com.au/dealership/'''
 	cta1_link_name = ''''''
-	cta2_text = '''LOCATE A DEALER'''
-	cta2_url = '''https://www.ford.com.au/dealership/'''
+	cta2_text = '''LATEST OFFER'''
+	cta2_url = '''https://www.ford.com.au/latest-offer/mondeo-trend-hatch-petrol/'''
 	cta2_link_name = ''''''
+
+
 
 	[[module]]
 path='email_modules/cover/master'
@@ -64,20 +66,11 @@ color='''white'''
     <br/><br/>
     Looking for something sophisticated? The Ford Mondeo’s technology and design are so refined they need to be experienced to be believed.
     <br/><br/>
-    Mondeo’s design is a master class in refinement, with heated seats, dual-zone climate control, and a panoramic glass roof that covers almost half the roof. Plus, the enhanced SYNC 3 voice-activated system lets you make calls, send messages, and control SAT NAV – with just your voice.
+    Mondeo’s design is a master class in refinement, with heated seats, dual-zone climate control, and a panoramic glass roof that covers almost half the roof. Plus, the enhanced SYNC&#174;3 voice-activated system lets you make calls, send messages, and control SAT NAV – with just your voice.
     <br/><br/> 
     <span style="font-weight: bold;"> Right now, the Ford Mondeo Trend Hatch Petrol Auto is available at $39,490* Driveaway. </span> 
    
     <br/><br/>'''
-
-	cta_direction = '''vertical'''
-
-	cta_1_copy = '''DISCOVER MORE'''
-	cta_1_link_url = '''https://www.ford.com.au/cars/mondeo/'''
-	cta_1_link_name = '''link_1_name_here'''
-	cta_1_icon = ''''''
-	cta_1_type = '''block'''
-	cta_1_width = '''240'''
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
@@ -106,7 +99,7 @@ color='white'
 	image1_link_name = '''link_name_here'''
 	title2 = '''Compare Models'''
 	copy2 = '''Find the Ford Mondeo model that suits your lifestyle with the <a href="https://www.ford.com.au/cars/mondeo/compare-models/" name="modelcomp" style="text-decoration:underline; color:#2D96CD">Model Compare</a> tool.'''
-	image2 = '''au_edm1_owner-app2_20170629'''
+	image2 = '''au_edm5_Mondeo_22112017'''
 	image2_link_url = '''https://www.ford.com.au/cars/mondeo/compare-models/'''
 	image2_link_name = '''link_name_here'''
 	
@@ -131,7 +124,7 @@ color='white'
 	title2 = '''Insurance & Warranties'''
 	copy2 = '''Ford Dealerships are your one-stop shop for insurance, warranties and finance. Drive home with peace of mind knowing you’re covered from day one.'''
 	image2 = '''AU_edm5_insurance_15112017'''
-	image2_link_url = '''https://www.ford.com.au/owners/service/'''
+	image2_link_url = '''https://www.ford.com.au/owners/'''
 	image2_link_name = '''link_name_here'''
 
 [[module]] #Footer AU Social
@@ -142,7 +135,9 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-	text = ''' '''
+	text = '''Terms & Conditions<br /> <br />
+    * Recommended driveaway price for 2017 plate models at participating Dealers. Private and Blue, Silver and Gold Business Fleet customers only. Ford reserves the right to further reduce recommended price, or otherwise change or extend offer.<br /><br />
+    1) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br /> '''
 
 
 [[module]] #Footer AU Online

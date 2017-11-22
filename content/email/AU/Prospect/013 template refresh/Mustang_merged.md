@@ -31,23 +31,26 @@ color = '''white'''
 	image = '''au_edm1_mustang01_20170629'''
     url_link='''https://www.ford.com.au/performance/mustang/'''
 	url_link_name='''p1Mondeo'''
-   
-   [[module]]
+  
+  [[module]]
 path='email_modules/spacer/default'
 color='white'
 
 	height="30"
     
-[[module]]
-path='email_modules/singles/2ctablocksideoutline'
+    [[module]]
+path='email_modules/singles/2ctablockside'
 color='''white'''
 
-	cta1_text = '''LATEST OFFER'''
-	cta1_url = '''https://www.ford.com.au/performance/mustang/'''
+	cta1_text = '''LOCATE A DEALER'''
+	cta1_url = '''https://www.ford.com.au/dealership/'''
 	cta1_link_name = ''''''
-	cta2_text = '''LOCATE A DEALER'''
-	cta2_url = '''https://www.ford.com.au/dealership/'''
+	cta2_text = '''LATEST OFFER'''
+	cta2_url = '''https://www.ford.com.au/performance/mustang/'''
 	cta2_link_name = ''''''
+
+
+
 
 	[[module]]
 path='email_modules/cover/master'
@@ -66,15 +69,6 @@ color='''white'''
     <br/><br/> 
     <span style="font-weight: bold;">Right now, the Ford Mustang is available at $xxxxx* Driveaway.</span> 
     <br/><br/>'''
-
-	cta_direction = '''vertical'''
-
-	cta_1_copy = '''DISCOVER MORE'''
-	cta_1_link_url = '''https://www.ford.com.au/performance/mustang/'''
-	cta_1_link_name = '''link_1_name_here'''
-	cta_1_icon = ''''''
-	cta_1_type = '''block'''
-	cta_1_width = '''240'''
 
 
 [[module]] #Banner Image
@@ -127,7 +121,7 @@ color='white'
 	title2 = '''Insurance & Warranties'''
 	copy2 = '''Ford Dealerships are your one-stop shop for insurance, warranties and finance. Drive home with peace of mind knowing you’re covered from day one.'''
 	image2 = '''AU_edm5_insurance_15112017'''
-	image2_link_url = '''https://www.ford.com.au/owners/service/'''
+	image2_link_url = '''https://www.ford.com.au/owners/'''
 	image2_link_name = '''link_name_here'''
 
 [[module]] #Footer AU Social
@@ -139,7 +133,7 @@ path='email_modules/footer/disclaimer'
 color='white'
 
     text = '''Terms & Conditions<br /> <br />
-	* Recommended offer available at participating dealers. Stock may vary between dealers. Private and Blue, Silver and Gold Fleet buyers only. Eligible Free Auto vehicles must be purchased by 31/12/17 and delivered by 3/01/18. Ford Dealers and Ford Australia can reduce or otherwise change these offers.<br /><br />
+    1) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
 	'''
 
 

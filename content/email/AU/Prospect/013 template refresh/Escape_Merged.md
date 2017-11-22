@@ -39,16 +39,17 @@ color='white'
 
 	height="30"
     
-[[module]]
-path='email_modules/singles/2ctablocksideoutline'
+    [[module]]
+path='email_modules/singles/2ctablockside'
 color='''white'''
 
-	cta1_text = '''LATEST OFFER'''
-	cta1_url = '''https://www.ford.com.au/latest-offer/escape-ambiente-petrol-fwd/'''
+	cta1_text = '''LOCATE A DEALER'''
+	cta1_url = '''https://www.ford.com.au/dealership/'''
 	cta1_link_name = ''''''
-	cta2_text = '''LOCATE A DEALER'''
-	cta2_url = '''https://www.ford.com.au/dealership/'''
+	cta2_text = '''LATEST OFFER'''
+	cta2_url = '''https://www.ford.com.au/latest-offer/escape-ambiente-petrol-fwd/'''
 	cta2_link_name = ''''''
+
 
 [[module]]
 path='email_modules/cover/master'
@@ -63,20 +64,11 @@ color='''white'''
     <br/><br/>
     Ready for some serious fun? With street-smart tech and cutting-edge power, the Ford Escape is ready for anything.
     <br/><br/>
-    Escape is a showcase of innovation. Its turbocharged EcoBoost engine delivers the performance you need for an active lifestyle, without all those pesky visits to the petrol pump. Plus, its voice-activated SYNC 3 system lets you make calls, take calls, and control SAT NAV totally hands-free. 
+    Escape is a showcase of innovation. Its turbocharged EcoBoost engine delivers the performance you need for an active lifestyle, without all those pesky visits to the petrol pump. Plus, its voice-activated SYNC&#174;3&#185; system lets you make calls, take calls, and control SAT NAV totally hands-free. 
     <br/><br/> 
     <span style="font-weight: bold;">Right now, the Ford Escape Ambiente Petrol FWD with FREE AUTO is available at $29,990* Driveaway, with free upgrade to automatic transmission!</span> 
     '''
-    
-	cta_direction = '''vertical'''
-
-	cta_1_copy = '''DISCOVER MORE'''
-	cta_1_link_url = '''https://www.ford.com.au/suv/escape/'''
-	cta_1_link_name = '''link_1_name_here'''
-	cta_1_icon = ''''''
-	cta_1_type = '''block'''
-	cta_1_width = '''240'''
-    
+  
 
 [[module]] #Banner Image
 path='email_modules/image/banner'
@@ -104,7 +96,7 @@ color='white'
 	image1_link_name = '''link_name_here'''
 	title2 = '''Compare Models'''
 	copy2 = '''Find the Ford Escape model that suits your lifestyle with the <a href="https://www.ford.com.au/suv/escape/compare-models/" name="modelcomp" style="text-decoration:underline; color:#2D96CD">Model Compare</a> tool.'''
-	image2 = '''au_edm1_owner-app2_20170629'''
+	image2 = '''AU_edm5_Escape_22112017'''
 	image2_link_url = '''https://www.ford.com.au/suv/escape/compare-models/'''
 	image2_link_name = '''link_name_here'''
 	
@@ -119,16 +111,16 @@ color='white'
 path='email_modules/dual/05'
 color='white'
 
-	title1 = '''Free Loan Car&#185;'''
+	title1 = '''Free Loan Car&#178;'''
     text_box_height = '''310'''
-	copy1 = '''Life shouldn't stop when you service your vehicle. That's why we offer a <a href="https://www.ford.com.au/owners/service/" name="freeloan" style="text-decoration:underline; color:#2D96CD">Free Loan Car&#185</a>  when you book a scheduled service.'''
+	copy1 = '''Life shouldn't stop when you service your vehicle. That's why we offer a <a href="https://www.ford.com.au/owners/service/" name="freeloan" style="text-decoration:underline; color:#2D96CD">Free Loan Car&#178</a>  when you book a scheduled service.'''
 	image1 = '''au_edm1_service_20170629'''
 	image1_link_url = '''https://www.ford.com.au/owners/service/'''
 	image1_link_name = '''Some'''
 	title2 = '''Insurance & Warranties'''
 	copy2 = '''Ford Dealerships are your one-stop shop for insurance, warranties and finance. Drive home with peace of mind knowing you’re covered from day one.'''
 	image2 = '''AU_edm5_insurance_15112017'''
-	image2_link_url = '''https://www.ford.com.au/owners/service/'''
+	image2_link_url = '''https://www.ford.com.au/owners/'''
 	image2_link_name = '''link_name_here'''
 
 [[module]] #Footer AU Social
@@ -139,7 +131,11 @@ color='white'
 path='email_modules/footer/disclaimer'
 color='white'
 
-	text = ''''''
+	text = '''
+    Terms & Conditions<br /> <br />
+    * Recommended offer available at participating dealers. Stock may vary between dealers. Private and Blue, Silver and Gold Fleet buyers only. Eligible Free Auto vehicles must be purchased by 31/12/17 and delivered by 3/01/18. Ford Dealers and Ford Australia can reduce or otherwise change these offers. <br /><br />
+    1) For SYNC® compatibility visit <a href="https://www.ford.com.au/technology/sync/" name="sync3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/technology/sync</a>.<br /><br />
+    2) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'

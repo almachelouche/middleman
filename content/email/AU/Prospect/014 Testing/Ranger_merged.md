@@ -65,19 +65,11 @@ color='''white'''
     <br/><br/>
     What’s better than a tough truck? A truck that does tough smarter. And that’s exactly what Ford Ranger delivers.  
     <br/><br/>
-    Discover the brute strength and innovative technology you need to take on any challenge, whether on the worksite or the weekend. From a back-breaking 3,500kg towing capacity to intuitive features like voice-activated SYNC 3 and Adaptive Cruise Control, Ranger is built to get the job done.  
+    Discover the brute strength and innovative technology you need to take on any challenge, whether on the worksite or the weekend. From a back-breaking 3,500kg&#185; towing capacity to intuitive features like voice-activated SYNC&#174;3 and Adaptive Cruise Control, Ranger is built to get the job done.  
     <br/><br/> 
     <span style="font-weight: bold;">Right now, the Ford Ranger 4x4 XLT Double Cab Pick-up 3.2L Diesel with FREE AUTO is available at $55,490* Driveaway.</span> 
     <br/><br/>'''
 
-	cta_direction = '''vertical'''
-
-	cta_1_copy = '''DISCOVER MORE'''
-	cta_1_link_url = '''https://www.ford.com.au/commercial/ranger/'''
-	cta_1_link_name = '''link_1_name_here'''
-	cta_1_icon = ''''''
-	cta_1_type = '''block'''
-	cta_1_width = '''240'''
     
   
 [[module]] #Banner Image
@@ -120,16 +112,16 @@ color='white'
 path='email_modules/dual/05'
 color='white'
 
-	title1 = '''Free Loan Car&#185;'''
+	title1 = '''Free Loan Car&#178;'''
     text_box_height = '''310'''
-	copy1 = '''Life shouldn't stop when you service your vehicle. That's why we offer a <a href="https://www.ford.com.au/owners/service/" name="freeloan" style="text-decoration:underline; color:#2D96CD">Free Loan Car&#185</a>  when you book a scheduled service.'''
+	copy1 = '''Life shouldn't stop when you service your vehicle. That's why we offer a <a href="https://www.ford.com.au/owners/service/" name="freeloan" style="text-decoration:underline; color:#2D96CD">Free Loan Car&#178;</a>  when you book a scheduled service.'''
 	image1 = '''au_edm1_service_20170629'''
 	image1_link_url = '''https://www.ford.com.au/owners/service/'''
 	image1_link_name = '''Some'''
 	title2 = '''Insurance & Warranties'''
 	copy2 = '''Ford Dealerships are your one-stop shop for insurance, warranties and finance. Drive home with peace of mind knowing you’re covered from day one.'''
 	image2 = '''AU_edm5_insurance_15112017'''
-	image2_link_url = '''https://www.ford.com.au/owners/service/'''
+	image2_link_url = '''https://www.ford.com.au/owners/'''
 	image2_link_name = '''link_name_here'''
 
 [[module]] #Footer AU Social
@@ -143,6 +135,8 @@ color='white'
 	text = '''Terms & Conditions
 				<br /> <br />* Recommended offer available at participating dealers. Stock may vary between dealers. Private and Blue, Silver and Gold Fleet buyers only. Eligible Free Auto vehicles must be purchased by 31/12/17 and delivered by 3/01/18. Ford Dealers and Ford Australia can reduce or otherwise change these offers.
                 <br /><br />
+                1) Braked towing capacity when fitted with a genuine Ford towpack and towball. Subject to State and Territory regulations.<br /><br />
+                2) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
 				'''
 
 
