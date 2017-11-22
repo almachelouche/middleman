@@ -58,11 +58,14 @@ color='''white'''
 
 	icon=''''''
 	title=''''''
-	copy='''Hi <%${user.CustomAttribute['FullName']}%>
+	copy='''
+    <span style="font-weight: bold;"> The Right Fit For Any Job<span/>
     <br/><br/>
-    The Ford Transit delivers efficiency without compromising its famously generous loadspace.
+    Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
-     It's hardly surprising that it was awarded International Van of the Year when it was first introduced in 2013.
+    Looking for a commercial vehicle that’s big on versatility? Available in 9 models and 3 body styles, the Ford Transit Custom is the ultimate business partner for any job. 
+    <br/><br/>
+     Transit’s 2.0L EcoBlue Diesel engine delivers the world-class power and efficiency you need to keep your business moving. Transit keeps you comfortable too, thanks to its car-like luxuries including heated driver and passenger seats. Best of all, Transit can be easily customised, with over 100 colours to choose from, and options like dual side-load doors and rear liftgate doors. 
     <br/><br/> 
     <span style="font-weight: bold;">Right now, the Transit Custom 290S SWB Van Auto is available at $42,790.*</span> 
     <br/><br/>'''
