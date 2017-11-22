@@ -63,7 +63,7 @@ color='''white'''
     <br/><br/>
     Ready for some serious fun? With street-smart tech and cutting-edge power, the Ford Escape is ready for anything.
     <br/><br/>
-    Put simply, Escape is a showcase of innovation. Its turbocharged EcoBoost engine delivers the performance you need for an active lifestyle, without all those pesky visits to the petrol pump. And its voice-activated SYNC 3 system lets you make calls, take calls, and control SAT NAV totally hands-free. 
+    Escape is a showcase of innovation. Its turbocharged EcoBoost engine delivers the performance you need for an active lifestyle, without all those pesky visits to the petrol pump. Plus, its voice-activated SYNC 3 system lets you make calls, take calls, and control SAT NAV totally hands-free. 
     <br/><br/> 
     <span style="font-weight: bold;">Right now, the Ford Escape Ambiente Petrol FWD with FREE AUTO is available at $29,990* Driveaway, with free upgrade to automatic transmission!</span> 
     '''
@@ -102,10 +102,10 @@ color='white'
 	image1 = '''au_edm1_escape02_20170629'''
 	image1_link_url = '''https://www.ford.com.au/suv/escape/accessories/ambiente-ecoboost-petrol-awd/'''
 	image1_link_name = '''link_name_here'''
-	title2 = '''Have you seen the Ford Focus?'''
-	copy2 = '''Sporting an eye-catching design, an award-winning EcoBoost engine and voice-activated SYNC 3 technology, the Focus is an impressive package for any driver.'''
+	title2 = '''Compare Models'''
+	copy2 = '''Find the Ford Escape model that suits your lifestyle with the <a href="https://www.ford.com.au/suv/escape/compare-models/" name="modelcomp" style="text-decoration:underline; color:#2D96CD">Model Compare</a> tool.'''
 	image2 = '''au_edm1_owner-app2_20170629'''
-	image2_link_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
+	image2_link_url = '''https://www.ford.com.au/suv/escape/compare-models/'''
 	image2_link_name = '''link_name_here'''
 	
     

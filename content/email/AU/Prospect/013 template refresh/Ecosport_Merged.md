@@ -63,9 +63,9 @@ color='''white'''
     <br/><br/>
     Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
-    Ready to get more out of city life? Take on any urban challenge with the city-sized Ford EcoSport SUV. 
+    Ready to get more out of city life? Take on any urban challenge with the city-sized Ford EcoSport SUV.
     <br/><br/>
-     EcoSport delivers tonnes of space – to the tune of 705 litres of flexible cargo space, fold-down 60:40 seats, and 20 smart storage compartments. Plus, the voice-activated SYNC system lets you stay connect to your world and favourite apps, while your hands stay safely on the steering wheel. 
+     EcoSport has room for everything. Enjoy a massive 705 litres of cargo space, fold-down 60:40 seats, and over 20 smart storage compartments. Plus, the voice-activated SYNC system lets you stay connect to your world and favourite apps, while your hands stay safely on the steering wheel.
     <br/><br/>
     <span style="font-weight: bold;">Right now, the Ford EcoSport Ambiente Manual is available $18,990* Driveaway.</span> 
     <br/><br/>'''
@@ -103,10 +103,10 @@ color='white'
 	image1 = '''au_edm1_ecosport02_20170629'''
 	image1_link_url = '''https://www.ford.com.au/suv/ecosport/accessories/ecosport-ambiente/'''
 	image1_link_name = '''link_name_here'''
-	title2 = '''Have you seen the Ford Escape?'''
-	copy2 = '''Live your active lifestyle with the Escape, with a turbocharges EcoBoost engine giving you the power you need and voice-activated SYNC 3 system giving you the convenience you want'''
+	title2 = '''Compare Models'''
+	copy2 = '''Find the Ford EcoSport model that suits your lifestyle with the <a href="https://www.ford.com.au/suv/ecosport/compare-models/" name="modelcomp" style="text-decoration:underline; color:#2D96CD">Model Compare</a> tool.'''
 	image2 = '''au_edm1_owner-app2_20170629'''
-	image2_link_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
+	image2_link_url = '''https://www.ford.com.au/suv/ecosport/compare-models/'''
 	image2_link_name = '''link_name_here'''
 	
   

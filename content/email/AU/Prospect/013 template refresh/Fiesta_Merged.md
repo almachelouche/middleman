@@ -63,7 +63,7 @@ color='''white'''
     <br/><br/>
     Looking for something that packs a punch? The Ford Fiesta might be small in size, but it’s definitely not small on personality. 
     <br/><br/>
-    It all begins with a turbocharged, award-winning EcoBoost engine that is as powerful as it is fuel efficient. Top it off with voice-activated SYNC 3 technology that allows you to make calls, take calls and control the interior climate with the sound of your voice, and it’s an impressive package for any driver.  
+    It all begins with an award-winning, turbocharged EcoBoost engine that’s as powerful as it is fuel efficient. Top it off with voice-activated SYNC 3 technology that allows you to make calls, take calls and control the interior climate with the sound of your voice, and it’s an impressive package for any driver.
     <br/><br/> 
     <span style="font-weight: bold;">Right now, the Ford Fiesta Ambiente Manual is available at $15,990* Driveaway.</span> 
     <br/><br/>'''
@@ -102,12 +102,11 @@ color='white'
 	image1 = '''au_edm1_fiesta02_20170629'''
 	image1_link_url = '''https://www.ford.com.au/suv/everest/smart-accessories/'''
 	image1_link_name = '''link_name_here'''
-	title2 = '''Have you seen the Ford Focus?'''
-	copy2 = '''Sporting an eye-catching design, an award-winning EcoBoost engine and voice-activated SYNC 3 technology, the Focus is an impressive package for any driver.'''
+	title2 = '''Compare Models'''
+	copy2 = '''Find the Ford Fiesta model that suits your lifestyle with the <a href="https://www.ford.com.au/cars/fiesta/compare-models/" name="modelcomp" style="text-decoration:underline; color:#2D96CD">Model Compare</a> tool.'''
 	image2 = '''au_edm1_owner-app2_20170629'''
-	image2_link_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
+	image2_link_url = '''https://www.ford.com.au/cars/fiesta/compare-models/'''
 	image2_link_name = '''link_name_here'''
-	
 
 [[module]]
 path='email_modules/spacer/platinum_20'

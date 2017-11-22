@@ -64,7 +64,7 @@ color='''white'''
     <br/><br/>
     Looking for something sophisticated? The Ford Mondeo’s technology and design are so refined they need to be experienced to be believed.
     <br/><br/>
-    Like the enhanced SYNC 3 voice-activated system lets you make calls, send messages, and control SAT NAV – with just the sound of your voice. Mondeo’s design features are a master class in refinement, with heated seat, dual-zone climate control, and a panoramic glass roof that covers almost half the roof area.
+    Mondeo’s design is a master class in refinement, with heated seats, dual-zone climate control, and a panoramic glass roof that covers almost half the roof. Plus, the enhanced SYNC 3 voice-activated system lets you make calls, send messages, and control SAT NAV – with just your voice.
     <br/><br/> 
     <span style="font-weight: bold;"> Right now, the Ford Mondeo Trend Hatch Petrol Auto is available at $39,490* Driveaway. </span> 
    
@@ -104,12 +104,13 @@ color='white'
 	image1 = '''au_edm1_mondeo02_20170629'''
 	image1_link_url = '''https://www.ford.com.au/cars/focus/accessories/focus-trend-hatch/'''
 	image1_link_name = '''link_name_here'''
-	title2 = '''Have you seen the Ford Focus?'''
-	copy2 = '''Sporting an eye-catching design, an award-winning EcoBoost engine and voice-activated SYNC 3 technology, the Focus is an impressive package for any driver.'''
+	title2 = '''Compare Models'''
+	copy2 = '''Find the Ford Mondeo model that suits your lifestyle with the <a href="https://www.ford.com.au/cars/mondeo/compare-models/" name="modelcomp" style="text-decoration:underline; color:#2D96CD">Model Compare</a> tool.'''
 	image2 = '''au_edm1_owner-app2_20170629'''
-	image2_link_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
+	image2_link_url = '''https://www.ford.com.au/cars/mondeo/compare-models/'''
 	image2_link_name = '''link_name_here'''
 	
+
 
 [[module]]
 path='email_modules/spacer/platinum_20'

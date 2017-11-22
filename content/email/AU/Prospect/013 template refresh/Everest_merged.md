@@ -65,7 +65,7 @@ color='''white'''
     <br/><br/>
     Love a challenge? Push yourself to the limit with the bold new Ford Everest 4WD, and love every minute of it. 
     <br/><br/>
-    In addition to the Terrain Management System which makes light work of any terrain, Everest also delivers the smart tech and capabilities you need for better on-road driving. Enjoy an unbeatable 3,000kg towing capability and a suite of driver assist technologies, including Lane Keeping System and Adaptive Cruise Control. 
+    Everest’s Terrain Management System and 3,000kg towing capacity make light work of offroad terrains and big loads. But it also delivers the smart tech you need for better on-road driving, like Lane Keeping System and Adaptive Cruise Control. How smart is that?
     <br/><br/> 
     <span style="font-weight: bold;"> Right now, the Ford Everest Trend 4WD is available at $59,990* Driveaway.</span> 
     <br/><br/>'''
@@ -104,12 +104,12 @@ color='white'
 	image1 = '''au_edm1_everest02_20170629'''
 	image1_link_url = '''https://www.ford.com.au/suv/everest/smart-accessories/'''
 	image1_link_name = '''link_name_here'''
-	title2 = '''Have you seen the Ford Ranger?'''
-	copy2 = '''With its winning combination of brute strength and innovative technology. There's no stopping the Ranger from getting the job done.'''
+	title2 = '''Compare Models'''
+	copy2 = '''Find the Ford Everest model that suits your lifestyle with the <a href="https://www.ford.com.au/suv/everest/compare-models/" name="modelcomp" style="text-decoration:underline; color:#2D96CD">Model Compare</a> tool.'''
 	image2 = '''au_edm1_owner-app2_20170629'''
-	image2_link_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
+	image2_link_url = '''https://www.ford.com.au/suv/everest/compare-models/'''
 	image2_link_name = '''link_name_here'''
-	
+
 
 [[module]]
 path='email_modules/spacer/platinum_20'

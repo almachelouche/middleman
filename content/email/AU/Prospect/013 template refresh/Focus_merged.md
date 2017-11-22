@@ -64,10 +64,8 @@ color='''white'''
     Want to stand out from the crowd? With an eye-catching design and award-winning engine technology, the Teched-Up Ford Focus makes it easy. 
     <br/><br/>
     It all begins with a turbocharged, award-winning EcoBoost engine that is as powerful as it is fuel efficient. Top it off with voice-activated SYNC 3 technology that allows you to make calls, take calls and control the interior climate with the sound of your voice, and it’s an impressive package for any driver. 
-
     <br/><br/> 
     <span style="font-weight: bold;">Right now, the Ford Focus Trend Hatch with FREE AUTO is available at $24,490* </span> 
-=
     <br/><br/>'''
 
 	cta_direction = '''vertical'''
@@ -106,10 +104,10 @@ color='white'
 	image1 = '''au_edm1_focus02_20170629'''
 	image1_link_url = '''https://www.ford.com.au/cars/focus/accessories/focus-trend-hatch/'''
 	image1_link_name = '''link_name_here'''
-	title2 = '''Have you seen the Ford Escape?'''
-	copy2 = '''Live your active lifestyle with the Escape, with a turbocharged EcoBoost engine giving you the power you need and voice-activated SYNC 3 system giving you the convenience you want.'''
+	title2 = '''Compare Models'''
+	copy2 = '''Find the Ford Focus model that suits your lifestyle with the <a href="https://www.ford.com.au/cars/focus/compare-models/" name="modelcomp" style="text-decoration:underline; color:#2D96CD">Model Compare</a> tool.'''
 	image2 = '''au_edm1_owner-app2_20170629'''
-	image2_link_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
+	image2_link_url = '''https://www.ford.com.au/cars/focus/compare-models/'''
 	image2_link_name = '''link_name_here'''
 	
 

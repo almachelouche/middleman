@@ -59,7 +59,7 @@ color='''white'''
 	icon=''''''
 	title=''''''
 	copy='''
-    <span style="font-weight: bold;"> Tough Done Smarter<span/>
+    <span style="font-weight: bold;"> Tough Done Smarter</span>
     <br/><br/>
     Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
@@ -103,10 +103,10 @@ color='white'
 	image1 = '''au_edm1_ranger02_20170629'''
 	image1_link_url = '''https://www.ford.com.au/commercial/ranger/smart-accessories/'''
 	image1_link_name = '''link_name_here'''
-	title2 = '''Have you seen the Ford Everest?'''
-	copy2 = '''With its Terrain Management System, unbeatable towing capability and suite of smart tech, the Everest has everything you need for a better driving experience.'''
-	image2 = '''au_edm1_owner-app2_20170629'''
-	image2_link_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
+	title2 = '''Compare Models'''
+	copy2 = '''Find the Ford Ranger model that suits your lifestyle with the <a href="https://www.ford.com.au/commercial/ranger/compare-models/" name="modelcomp" style="text-decoration:underline; color:#2D96CD">Model Compare</a> tool.'''
+	image2 = '''au_edm5_Ranger_22112017'''
+	image2_link_url = '''https://www.ford.com.au/commercial/ranger/compare-models/'''
 	image2_link_name = '''link_name_here'''
 	
 

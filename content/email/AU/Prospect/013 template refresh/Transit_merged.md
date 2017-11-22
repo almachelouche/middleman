@@ -58,11 +58,14 @@ color='''white'''
 
 	icon=''''''
 	title=''''''
-	copy='''Hi <%${user.CustomAttribute['FullName']}%>
+	copy='''
+    <span style="font-weight: bold;"> The Right Fit For Any Job<span/>
     <br/><br/>
-    The Ford Transit delivers efficiency without compromising its famously generous loadspace.
+    Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
-     It's hardly surprising that it was awarded International Van of the Year when it was first introduced in 2013.
+    Looking for a commercial vehicle that’s big on versatility? Available in 9 models and 3 body styles, the Ford Transit Custom is the ultimate business partner for any job. 
+    <br/><br/>
+     Transit’s 2.0L EcoBlue Diesel engine delivers the world-class power and efficiency you need to keep your business moving. Transit keeps you comfortable too, thanks to its car-like luxuries including heated driver and passenger seats. Best of all, Transit can be easily customised, with over 100 colours to choose from, and options like dual side-load doors and rear liftgate doors. 
     <br/><br/> 
     <span style="font-weight: bold;">Right now, the Transit Custom 290S SWB Van Auto is available at $42,790.*</span> 
     <br/><br/>'''
@@ -100,10 +103,10 @@ color='white'
 	image1 = '''au_edm1_transit02_20170629'''
 	image1_link_url = '''https://www.ford.com.au/commercial/transit-custom/accessories/290s-swb-van/'''
 	image1_link_name = '''link_name_here'''
-	title2 = '''Have you seen the Ford Escape?'''
-	copy2 = '''Live your active lifestyle with the Escape, with a turbocharges EcoBoost engine giving you the power you need and voice-activated SYNC 3 system giving you the convenience you want'''
-	image2 = '''au_edm1_owner-app2_20170629'''
-	image2_link_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
+	title2 = '''Compare Models'''
+	copy2 = '''Find the Ford Transit model that suits your lifestyle with the <a href="https://www.ford.com.au/commercial/transit/compare-models/" name="modelcomp" style="text-decoration:underline; color:#2D96CD">Model Compare</a> tool.'''
+	image2 = '''au_edm5_Transit_22112017'''
+	image2_link_url = '''https://www.ford.com.au/commercial/transit/compare-models/'''
 	image2_link_name = '''link_name_here'''
 	
   
