@@ -101,6 +101,21 @@ color='''slatescreen'''
 	cta1_link_name = '''extended_warranty'''
 	icon = '''ph_edm_extendedwarranty_20160801'''
 
+[[module]] # Owner App Image Right
+path='email_modules/custom/ownerapp_imgr'
+color='black'
+
+title = '''Ford Owners App'''
+text1 = '''Owning a Ford has never been easier, thanks to the Ford Owners App.'''
+text2 = '''<ul style="margin: 20px; padding: 0;"><li>Use the Service Checklist</li><li>Find dealer near you</li><li>Watch “how to” videos</li><li>Learn dashboard icons</li></ul>'''
+cta1_text = '''iOS'''
+cta1_url = '''https://itunes.apple.com/ph/app/ford-owners/id990342351?mt=8'''
+cta1_link_name = '''oa_iphone'''
+cta2_text = '''ANDRIOD'''
+cta2_url = '''https://play.google.com/store/apps/details?id=com.ford.fordowners&hl=en'''
+cta2_link_name = '''oa_andriod'''
+image = '''th_edm6_ownerapp_20160921'''
+
 [[module]] #Cover 05
 path='email_modules/cover/02'
 color='white'
