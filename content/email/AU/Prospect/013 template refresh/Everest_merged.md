@@ -106,7 +106,7 @@ color='white'
 	image1_link_name = '''link_name_here'''
 	title2 = '''Have you seen the Ford Ranger?'''
 	copy2 = '''With its winning combination of brute strength and innovative technology. There's no stopping the Ranger from getting the job done.'''
-	image2 = '''au_edm1_owner-app2_20170629'''
+	image2 = '''au_edm5_Ranger_22112017'''
 	image2_link_url = '''https://www.ford.com.au/owners/vehicle-support/app-download/'''
 	image2_link_name = '''link_name_here'''
 	
