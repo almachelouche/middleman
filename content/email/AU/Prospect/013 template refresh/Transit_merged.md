@@ -59,7 +59,7 @@ color='''white'''
 	icon=''''''
 	title=''''''
 	copy='''
-    <span style="font-weight: bold;"> The Right Fit For Any Job<span/>
+    <span style="font-weight: bold;"> The Right Fit For Any Job</span>
     <br/><br/>
     Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
