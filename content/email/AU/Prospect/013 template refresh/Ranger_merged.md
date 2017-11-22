@@ -65,7 +65,7 @@ color='''white'''
     <br/><br/>
     What’s better than a tough truck? A truck that does tough smarter. And that’s exactly what Ford Ranger delivers.  
     <br/><br/>
-    Discover the brute strength and innovative technology you need to take on any challenge, whether on the worksite or the weekend. From a back-breaking 3,500kg towing capacity to intuitive features like voice-activated SYNC 3 and Adaptive Cruise Control, Ranger is built to get the job done.  
+    Discover the brute strength and innovative technology you need to take on any challenge, whether on the worksite or the weekend. From a back-breaking 3,500kg towing capacity&#178; to intuitive features like voice-activated SYNC 3 and Adaptive Cruise Control, Ranger is built to get the job done.  
     <br/><br/> 
     <span style="font-weight: bold;">Right now, the Ford Ranger 4x4 XLT Double Cab Pick-up 3.2L Diesel with FREE AUTO is available at $55,490* Driveaway.</span> 
     <br/><br/>'''
@@ -144,6 +144,7 @@ color='white'
 				<br /> <br />* Recommended offer available at participating dealers. Stock may vary between dealers. Private and Blue, Silver and Gold Fleet buyers only. Eligible Free Auto vehicles must be purchased by 31/12/17 and delivered by 3/01/18. Ford Dealers and Ford Australia can reduce or otherwise change these offers.
                 <br /><br />
                 1) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
+                2. Braked towing capacity when fitted with a genuine Ford towpack and towball. Subject to State and Territory regulations.<br /><br />
 				'''
 
 

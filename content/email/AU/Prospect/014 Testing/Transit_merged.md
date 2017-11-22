@@ -42,8 +42,7 @@ color='white'
  
  [[module]]
 path='email_modules/cover/master'
-color='''white'''
-
+color='''Fordblue'''
 
 	cta_direction = '''horizontal'''
 
