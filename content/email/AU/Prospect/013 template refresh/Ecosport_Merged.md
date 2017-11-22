@@ -65,7 +65,7 @@ color='''white'''
     <br/><br/>
     Ready to get more out of city life? Take on any urban challenge with the city-sized Ford EcoSport SUV.
     <br/><br/>
-     EcoSport has room for everything. Enjoy a massive 705 litres of cargo space, fold-down 60:40 seats, and over 20 smart storage compartments. Plus, the voice-activated SYNC system lets you stay connect to your world and favourite apps, while your hands stay safely on the steering wheel.
+     EcoSport has room for everything. Enjoy a massive 705 litres of cargo space, fold-down 60:40 seats, and over 20 smart storage compartments. Plus, the voice-activated SYNC&#185; system lets you stay connect to your world and favourite apps, while your hands stay safely on the steering wheel.
     <br/><br/>
     <span style="font-weight: bold;">Right now, the Ford EcoSport Ambiente Manual is available $18,990* Driveaway.</span> 
     <br/><br/>'''
@@ -112,9 +112,9 @@ color='white'
 path='email_modules/dual/05'
 color='white'
 
-	title1 = '''Free Loan Car&#185;'''
+	title1 = '''Free Loan Car&#178;'''
     text_box_height = '''310'''
-	copy1 = '''Life shouldn't stop when you service your vehicle. That's why we offer a <a href="https://www.ford.com.au/owners/service/" name="freeloan" style="text-decoration:underline; color:#2D96CD">Free Loan Car&#185</a>  when you book a scheduled service.'''
+	copy1 = '''Life shouldn't stop when you service your vehicle. That's why we offer a <a href="https://www.ford.com.au/owners/service/" name="freeloan" style="text-decoration:underline; color:#2D96CD">Free Loan Car&#178</a>  when you book a scheduled service.'''
 	image1 = '''au_edm1_service_20170629'''
 	image1_link_url = '''https://www.ford.com.au/owners/service/'''
 	image1_link_name = '''Some'''
@@ -136,7 +136,8 @@ color='white'
 	text = '''
     Terms & Conditions<br /> <br />
     * Recommended driveaway price for models built prior to 31/05/17 at participating Dealers. Private and Blue, Silver and Gold Business Fleet customers only. Ford reserves the right to further reduce recommended price, or otherwise change or extend offer. <br /><br />
-    1) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
+    1) For SYNC® compatibility visit <a href="https://www.ford.com.au/technology/sync/"	name="sync1" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/technology/sync</a>.<br /><br />
+    2) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
 color='white'

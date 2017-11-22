@@ -63,7 +63,7 @@ color='''white'''
     <br/><br/>
     Want to stand out from the crowd? With an eye-catching design and award-winning engine technology, the Teched-Up Ford Focus makes it easy. 
     <br/><br/>
-    It all begins with a turbocharged, award-winning EcoBoost engine that is as powerful as it is fuel efficient. Top it off with voice-activated SYNC 3 technology that allows you to make calls, take calls and control the interior climate with the sound of your voice, and it’s an impressive package for any driver. 
+    It all begins with a turbocharged, award-winning EcoBoost engine that is as powerful as it is fuel efficient. Top it off with voice-activated SYNC 3&#185; technology that allows you to make calls, take calls and control the interior climate with the sound of your voice, and it’s an impressive package for any driver. 
     <br/><br/> 
     <span style="font-weight: bold;">Right now, the Ford Focus Trend Hatch with FREE AUTO is available at $24,490* </span> 
     <br/><br/>'''
@@ -111,9 +111,9 @@ color='white'
 path='email_modules/dual/05'
 color='white'
 
-	title1 = '''Free Loan Car&#185;'''
+	title1 = '''Free Loan Car&#178;'''
     text_box_height = '''310'''
-	copy1 = '''Life shouldn't stop when you service your vehicle. That's why we offer a <a href="https://www.ford.com.au/owners/service/" name="freeloan" style="text-decoration:underline; color:#2D96CD">Free Loan Car&#185</a>  when you book a scheduled service.'''
+	copy1 = '''Life shouldn't stop when you service your vehicle. That's why we offer a <a href="https://www.ford.com.au/owners/service/" name="freeloan" style="text-decoration:underline; color:#2D96CD">Free Loan Car&#178</a>  when you book a scheduled service.'''
 	image1 = '''au_edm1_service_20170629'''
 	image1_link_url = '''https://www.ford.com.au/owners/service/'''
 	image1_link_name = '''Some'''
@@ -135,7 +135,8 @@ color='white'
     text = '''
     Terms & Conditions<br /> <br />
     * Recommended offer available at participating dealers. Stock may vary between dealers. Private and Blue, Silver and Gold Fleet buyers only. Eligible Free Auto vehicles must be purchased by 31/12/17 and delivered by 3/01/18. Ford Dealers and Ford Australia can reduce or otherwise change these offers. <br /><br />
-    1) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
+    1) For SYNC® compatibility visit <a href="https://www.ford.com.au/technology/sync/" name="sync" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/technology/sync</a>.<br /><br />
+    2) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />'''
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'

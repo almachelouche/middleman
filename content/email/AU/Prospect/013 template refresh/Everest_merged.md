@@ -65,7 +65,7 @@ color='''white'''
     <br/><br/>
     Love a challenge? Push yourself to the limit with the bold new Ford Everest 4WD, and love every minute of it. 
     <br/><br/>
-    Everest’s Terrain Management System and 3,000kg towing capacity make light work of offroad terrains and big loads. But it also delivers the smart tech you need for better on-road driving, like Lane Keeping System and Adaptive Cruise Control. How smart is that?
+    Everest’s Terrain Management System and 3,000kg towing capacity&#185; make light work of offroad terrains and big loads. But it also delivers the smart tech you need for better on-road driving, like Lane Keeping System and Adaptive Cruise Control. How smart is that?
     <br/><br/> 
     <span style="font-weight: bold;"> Right now, the Ford Everest Trend 4WD is available at $59,990* Driveaway.</span> 
     <br/><br/>'''
@@ -112,9 +112,9 @@ color='white'
 path='email_modules/dual/05'
 color='white'
 
-	title1 = '''Free Loan Car&#185;'''
+	title1 = '''Free Loan Car&#178;'''
     text_box_height = '''310'''
-	copy1 = '''Life shouldn't stop when you service your vehicle. That's why we offer a <a href="https://www.ford.com.au/owners/service/" name="freeloan" style="text-decoration:underline; color:#2D96CD">Free Loan Car&#185</a>  when you book a scheduled service.'''
+	copy1 = '''Life shouldn't stop when you service your vehicle. That's why we offer a <a href="https://www.ford.com.au/owners/service/" name="freeloan" style="text-decoration:underline; color:#2D96CD">Free Loan Car&#178</a>  when you book a scheduled service.'''
 	image1 = '''au_edm1_service_20170629'''
 	image1_link_url = '''https://www.ford.com.au/owners/service/'''
 	image1_link_name = '''Some'''
@@ -136,7 +136,8 @@ color='white'
 	text = '''
     Terms & Conditions<br /> <br />
     * Recommended driveaway price for 2017 plate models at participating Dealers. Private and Blue, Silver and Gold Business Fleet customers only. Stock may vary between Dealers. Ford reserves the right to further reduce recommended price, or otherwise change or extend offer.<br /><br />
-    1) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
+    1) Braked towing capacity when fitted with a Genuine Ford Tow Ball and Tow Pack. Subject to State and Territory Towing Regulations. <br /><br />
+    2) Available at participating dealers on scheduled services or overnight warranty repairs. Private and Blue, Silver and Gold Business Fleet customers only. Booking may be required. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms11" style="text-decoration:underline; color:#91a4b1"> www.ford.com.au/owners/service/t-and-c</a> for full terms.<br /><br />
     '''
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
