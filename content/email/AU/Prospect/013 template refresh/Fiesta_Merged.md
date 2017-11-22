@@ -41,7 +41,7 @@ color='white'
     
            [[module]]
 path='email_modules/singles/2ctablockside'
-color='''fordblue'''
+color='''whit'''
 
 	cta1_text = '''LOCATE A DEALER'''
 	cta1_url = '''https://www.ford.com.au/dealership/'''
