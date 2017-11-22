@@ -46,7 +46,6 @@ color='darkblue_au'
 path='email_modules/cover/01'
 color='white'
 
-	icon = '''in_edm2d_status_battery_black_20160801'''
 	title = '''No one knows your Ford like we do'''
 	copy = '''Our Ford technicians will expertly fit Genuine Ford Brake Pads. Specifically designed for your <%${user.CustomAttribute['Model']}%>'s braking system, they're fully tested to ensure long life and minimal fading and are covered under warranty for a period of 12 months or 20,000km&#185;.<br /><br />With our <a href="http://www.ford.com.au/owners/service/brakes/" style="text-decoration:underline; color:#2D96CD">Service Price Promise for Brakes</a>&#178;, you won't pay more than the price published online for new Ford Genuine Fitted Brake Pads at <%${user.CustomAttribute['Dealer_Name']}%>.'''
 	cta1_url = '''https://www.ford.com.au/owners/service/brakes/'''
