@@ -32,6 +32,12 @@ color = '''white'''
     url_link='''https://www.ford.com.au/performance/mustang/'''
 	url_link_name='''p1Mondeo'''
   
+  [[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+    
     [[module]]
 path='email_modules/singles/2ctablockside'
 color='''white'''
