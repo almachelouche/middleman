@@ -1,6 +1,6 @@
 +++
 markets = ["th"]
-title = '''TH eNews 009 6 months - 2 years'''
+title = '''TH eNews 009 6 mons - 2 years'''
 
 [[module]]
 path='email_modules/preheader'
