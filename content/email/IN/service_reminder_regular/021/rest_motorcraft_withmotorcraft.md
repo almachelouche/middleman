@@ -119,7 +119,7 @@ segmentif = ["(user.CustomAttribute['ModelMerge'] == 'EcoSport 2 yrs Plus owners
 
 	title1 = '''Motorcraft&#174; is Here'''
 	text_box_height = '''375'''
-	copy1 = '''Motorcraft&#174; parts are now available at Ford showrooms nationwide! Backed by Ford, Motorcraft&#174; parts deliver exceptional value and uncompromising quality. Ask us about Motorcraft&#174; parts next time you service your EcoSport.'''
+	copy1 = '''Motorcraft&#174; parts are now available at Ford showrooms nationwide! Backed by Ford, Motorcraft&#174; parts deliver exceptional value and uncompromising quality. Ask us about Motorcraft&#174; parts next time you service your EcoSport*.'''
 	cta1a_text = '''LEARN MORE'''
 	cta1a_url = '''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
 	cta1a_link_name = '''motorcraft'''
@@ -196,6 +196,13 @@ color='white'
 path='email_modules/footer/in/social'
 color='white'
 
+[[module]]
+path='email_modules/footer/disclaimer'
+color='white'
+segmentif = ["(user.CustomAttribute['ModelMerge'] == 'EcoSport 2 yrs Plus owners')"]
+
+	text = '''*Ford Motorcraft Parts are applicable only to the post factory warranty customers.'''
+    
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
 color='white'

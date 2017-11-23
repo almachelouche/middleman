@@ -126,7 +126,7 @@ segmentif = ["((user.CustomAttribute['ModelMerge'] == 'EcoSport 2 yrs Plus owner
 
 	icon=''''''
 	title='''Brake with confidence'''
-	copy='''Motorcraft&#174; brakes are now available at Ford dealerships nationwide! Backed by Ford, Motorcraft&#174; parts deliver great value and outstanding quality. So when it's time for a change, ask us about Motorcraft&#174;.'''
+	copy='''Motorcraft&#174; brakes are now available at Ford dealerships nationwide! Backed by Ford, Motorcraft&#174; parts deliver great value and outstanding quality. So when it's time for a change, ask us about Motorcraft&#174;*.'''
     
 	copy_align=''
 
@@ -185,6 +185,13 @@ color='white'
 [[module]] #Footer IN Social
 path='email_modules/footer/in/social'
 color='white'
+
+[[module]]
+path='email_modules/footer/disclaimer'
+color='white'
+segmentif = ["((user.CustomAttribute['ModelMerge'] == 'EcoSport 2 yrs Plus owners')) && (user.CustomAttribute['Brake'] == 'R')"]
+
+	text = '''*Ford Motorcraft Parts are applicable only to the post factory warranty customers.'''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'

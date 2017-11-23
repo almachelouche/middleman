@@ -63,8 +63,9 @@ color='''white'''
     <br/><br/>
     Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
-    Love a challenge? Push yourself to the limit with the bold new Ford Everest 4WD, and love every minute of it. 
+    Love a challenge? Push yourself to the limit with the bold new Ford Everest 4WD, and love every minute.  
     <br/><br/>
+    
     Everest’s Terrain Management System and 3,000kg towing capacity&#185; make light work of offroad terrains and big loads. But it also delivers the smart tech you need for better on-road driving, like Lane Keeping System and Adaptive Cruise Control. How smart is that?
     <br/><br/> 
     <span style="font-weight: bold;"> Right now, the Ford Everest Trend 4WD is available at $59,990* Driveaway.</span> 

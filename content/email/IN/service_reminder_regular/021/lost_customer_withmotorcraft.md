@@ -71,7 +71,7 @@ path='email_modules/split/11'
 color='white'
 
 	title = '''Limited time offer'''
-	copy = '''When you come in for service between October 1 and December 31, you'll enjoy a massive 20% off all Ford parts and labour¹.'''
+	copy = '''When you come in for service between October 1 and December 31, you'll enjoy a massive 20% off all Ford parts and labour&#185;.'''
 	image_url = '''https://www.india.ford.com/locate-dealer/'''
 	image_link_name = '''locate_dealer_image'''
 	image = '''in_edm2_save20_20170105'''
@@ -87,7 +87,7 @@ segmentif = ["(user.CustomAttribute['ModelMerge'] == 'EcoSport 2 yrs Plus owners
 
 	title1 = '''Motorcraft&#174; is Here'''
 	text_box_height = '''375'''
-	copy1 = '''Motorcraft&#174; parts are now available at Ford showrooms nationwide! Backed by Ford, Motorcraft&#174; parts deliver exceptional value and uncompromising quality. Ask us about Motorcraft&#174; parts next time you service your EcoSport.'''
+	copy1 = '''Motorcraft&#174; parts are now available at Ford showrooms nationwide! Backed by Ford, Motorcraft&#174; parts deliver exceptional value and uncompromising quality. Ask us about Motorcraft&#174; parts next time you service your EcoSport&#178;.'''
 	cta1a_text = '''LEARN MORE'''
 	cta1a_url = '''https://www.india.ford.com/owner/ford-motorcraft-parts/'''
 	cta1a_link_name = '''motorcraft'''
@@ -198,6 +198,13 @@ path='email_modules/footer/disclaimer'
 color='white'
 
 	text='''1. Excludes accessories, tyres, body shop jobs covered by insurance, and VAS (accessory, exterior & interior cleaning).'''
+    
+[[module]]
+path='email_modules/footer/disclaimer'
+color='white'
+segmentif = ["(user.CustomAttribute['ModelMerge'] == 'EcoSport 2 yrs Plus owners')"]
+
+	text ='''2. Ford Motorcraft Parts are applicable only to the post factory warranty customers.'''
 
 [[module]] #Footer IN Online
 path='email_modules/footer/in/online'
