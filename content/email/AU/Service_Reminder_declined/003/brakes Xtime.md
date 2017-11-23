@@ -9,11 +9,13 @@ path='email_modules/preheader'
 	preheader='''Hi <%${user.CustomAttribute['FullName']}%>. When you last serviced your Ford <%${user.CustomAttribute['Model']}%> with us.'''
 
 
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
+   
+[[module]] #Banner Image 
+path='email_modules/image/banner'
+color='white'
 
 	image='''au_edm2_declined_brakes_27102017'''
+	url_link = '''https://www.ford.com.au/owners/service/brakes/'''
 
 
 [[module]] #Cover 07
@@ -80,9 +82,10 @@ color='white'
 				<br /> <br />
     1. Conditions apply. Warranty is applicable, provided that the part/accessory: a) Was correctly installed in, affixed or attached to the product for which application, the part/accessory was designed and sold at retail; b) Has not been altered, modified or repaired outside Ford's own factory or a location designated or approved by Ford, in a way which adversely affects the performance, durability, stability, reliability or safety of that part/accessory; and c) Has been properly used and operated within the capacity and operating limitations as specified by Ford or the manufacturer of the part/accessory; d) Has been properly maintained and cared for; and e) Is returned to an Authorised Ford Dealer, transportation charges prepaid.
     <br/><br/>
-    2. Available at participating Ford Dealers. Excludes F-Series, FPV, ST, XR5, RS and Transit models. Customers will pay equal to or less than the current maximum price as published by Ford at <a href="ford.com.au/service/brakes/" name="terms3" style="text-decoration:underline; color:#91a4b1">ford.com.au/service/brakes</a>. Maximum prices are subject to change. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.
+    2. Available at participating Ford Dealers. Excludes F-Series, FPV, ST, XR5, RS and Transit models. Customers will pay equal to or less than the current maximum price as published by Ford at <a href="https://www.ford.com.au/owners/service/brakes/" name="terms3" style="text-decoration:underline; color:#91a4b1">https://www.ford.com.au/owners/service/brakes</a>. Maximum prices are subject to change. See <a href="https://www.ford.com.au/owners/service/t-and-c/" name="terms3" style="text-decoration:underline; color:#91a4b1">www.ford.com.au/owners/service/t-and-c</a> for full terms.
     <br /><br />
 				'''
+                
 
 [[module]] #Footer AU Online
 path='email_modules/footer/au/online'
