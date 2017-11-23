@@ -25,6 +25,13 @@ color='black'
     <span style="white-space:nowrap;">รู้จักกับแอป Ford Owner</span>|
     '''
 
+[[module]] #Header Logo
+path='email_modules/header/logodesktop'
+color='black'
+
+	image = '''black'''
+	url_link = '''https://www.ford.co.th/'''
+
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
 color='black'
