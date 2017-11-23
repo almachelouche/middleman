@@ -15,7 +15,7 @@ path='email_modules/header/enews'
 color='black'
 
 	title = '''Insider'''
-	date = '''<span style="font-family:Tahoma, Verdana, Sans-serif">24 พฤศจิกายน 2560</span>'''
+	date = '''<span style="font-family:Tahoma, Verdana, Sans-serif">27 พฤศจิกายน 2560</span>'''
 	copy = '''
     <span style="font-family:Tahoma, Verdana, Sans-serif">พบกับ<br />
     <span style="white-space:nowrap;">คุณพร้อมสำหรับออฟโรดพันธุ์แกร่งหรือยัง</span>|
