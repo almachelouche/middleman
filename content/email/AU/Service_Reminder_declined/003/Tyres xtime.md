@@ -8,12 +8,13 @@ path='email_modules/preheader'
 
 	preheader='''Hi <%${user.CustomAttribute['FullName']}%>. When you last serviced your Ford <%${user.CustomAttribute['Model']}%> with us.'''
 
-
-[[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
-color = '''white'''
+   
+[[module]] #Banner Image 
+path='email_modules/image/banner'
+color='white'
 
 	image='''AU_edm2_declined_20171011'''
+	url_link = '''https://www.ford.com.au/owners/service/tyres/'''
 
 
 [[module]] #Cover 07
