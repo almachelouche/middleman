@@ -64,7 +64,7 @@ color='''white'''
     <br/><br/>
     Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
-    Looking for something sophisticated? The Ford Mondeo’s technology and design are so refined they need to be experienced to be believed.
+    Looking for something sophisticated? The Ford Mondeo is the perfect combination of style and technology.
     <br/><br/>
     Mondeo’s design is a master class in refinement, with heated seats, dual-zone climate control, and a panoramic glass roof that covers almost half the roof. Plus, the enhanced SYNC&#174;3 voice-activated system lets you make calls, send messages, and control SAT NAV – with just your voice.
     <br/><br/> 
