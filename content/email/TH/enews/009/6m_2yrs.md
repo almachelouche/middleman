@@ -41,15 +41,15 @@ title = '''
 '''
 copy = '''
 <span style="font-family:Tahoma, Verdana, Sans-serif">
-<span style="white-space:nowrap;">ฟอร์ด มอเตอร์ คัมปะนี ประกาศเปิดตัวรถกระบะสายพันธุ์แกร่งรุ่นใหม่ของฟอร์ด เรนเจอร์</span>
+<span style="white-space:nowrap;">ฟอร์ด มอเตอร์ คัมปะนี ประกาศเปิดตัวรถกระบะสายพันธุ์แกร่งรุ่นใหม่</span>
 <br/>
-<span style="white-space:nowrap;">ในตระกูลรถกระบะสมรรถนะสูง</span> 
+<span style="white-space:nowrap;">ของฟอร์ด เรนเจอร์ ในตระกูลรถกระบะสมรรถนะสูง</span> 
 <br/>
 <span style="white-space:nowrap;">โดยจะเปิดตัวอย่างเป็นทางการในภูมิภาคเอเชีย แปซิฟิกในปี 2561</span>
 <br/>
 <span style="white-space:nowrap;">มีความโดดเด่นด้านการออกแบบเพื่อมอบสมรรถนะการใช้งานขั้นขีดสุด</span> 
 <br/>
-<span style="white-space:nowrap;">พร้อมความสามารถการขับขี่แบบออฟโรดอันเหนือชั้น</span> 
+<span style="white-space:nowrap;">พร้อมความสามารถการขับขี่แบบออฟโรดอันเหนือชั้น</span>
 <br/>
 <span style="white-space:nowrap;">ภายใต้ชื่อ “ฟอร์ด เรนเจอร์ แร็พเตอร์”</span>
 '''
