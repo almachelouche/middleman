@@ -89,28 +89,38 @@ color='white'
 	icon1 = '''ico_2e_fordsvc_a'''
 	text1 = '''
 		<span style="font-family:Tahoma, Verdana, Sans-serif">
-			<span style="white-space:nowrap;">มั่นใจอะไหล่แท้</span> 
+			<span style="white-space:nowrap;">มั่นใจอะไหล่แท้</span>
+            <br />
 			<span style="white-space:nowrap;">ฟอร์ด 100%</span>
+            <br />
 			<span style="white-space:nowrap;">พร้อมการบำรุงรักษารถยนต์</span>
+            <br />
 			<span style="white-space:nowrap;">อย่างมีประสิทธิภาพเพื่อ</span>
+            <br />
 			<span style="white-space:nowrap;">สมรรถนะสูงสุดของรถคุณ</span>
 		</span>
 	'''
 	icon2 = '''ico_2e_fordsvc_b'''
 	text2 = '''
 		<span style="font-family:Tahoma, Verdana, Sans-serif">
-			<span style="white-space:nowrap;">ตรวจเช็คด้วยช่างเทคนิค</span> 
+			<span style="white-space:nowrap;">ตรวจเช็คด้วยช่างเทคนิค</span>
+            <br />
 			<span style="white-space:nowrap;">ฟอร์ดที่ผ่านการอบรม</span> 
+            <br />
 			<span style="white-space:nowrap;">รวมถึงเครื่องมือและอุปกรณ์</span> 
+            <br />
 			<span style="white-space:nowrap;">ทันสมัยที่ออกแบบมาเพื่อ</span>
+            <br />
 			<span style="white-space:nowrap;">รถฟอร์ดโดยเฉพาะ</span>
 		</span>
 	'''
 	icon3 = '''ico_2e_fordsvc_c_th'''
 	text3 = '''
 		<span style="font-family:Tahoma, Verdana, Sans-serif">
-			<span style="white-space:nowrap;">เก็บบันทึกสถิติรถฟอร์ด</span> 
+			<span style="white-space:nowrap;">เก็บบันทึกสถิติรถฟอร์ด</span>
+            <br />
 			<span style="white-space:nowrap;">ของคุณอย่างเป็นระบบ</span> 
+            <br />
 			<span style="white-space:nowrap;">เพื่อเพิ่มมูลค่าในการขายต่อ</span>
 		</span>
 	'''
@@ -131,11 +141,17 @@ color = '''white'''
 			<span style="white-space:nowrap;">เพิ่มความอุ่นใจในการขับขี่</span>
 			<br />
 			<span style="white-space:nowrap;">พิเศษ!เมื่อซื้อโปรแกรมชุด</span>
+            <br />
 			<span style="white-space:nowrap;">น้ำมันเครื่องสุดคุ้ม (OSP)</span>
-			<span style="white-space:nowrap;">รับส่วนลดเพิ่ม 300 บาท</span> 
+            <br />
+			<span style="white-space:nowrap;">รับส่วนลดเพิ่ม 300 บาท</span>
+            <br />
 			<span style="white-space:nowrap;">สำหรับแพ็กเกจ 2 ครั้ง</span> 
+            <br />
 			<span style="white-space:nowrap;">และรับส่วนลดเพิ่ม</span>
+            <br />
 			<span style="white-space:nowrap;">500 บาท</span> 
+            <br />
 			<span style="white-space:nowrap;">สำหรับแพ็กเกจ 3 ครั้ง</span>
 		</span>
 	'''
