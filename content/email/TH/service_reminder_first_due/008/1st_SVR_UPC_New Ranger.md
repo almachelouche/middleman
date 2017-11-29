@@ -37,9 +37,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี
 						<span style="white-space:nowrap;">การทำงานของรถ</span>
 						<span style="white-space:nowrap;">เมื่อออกจากโชว์รูมไปวิ่งบนท้องถนน</span>
                         <br />
-						<span style="white-space:nowrap;">เพื่อให้แน่ใจว่ารถของคุณ</span>
-                        <br />
-						<span style=" white-space:nowrap;">ทำงานอย่างเต็มสมรรถนะ</span>
+						<span style="white-space:nowrap;">เพื่อให้แน่ใจว่ารถของคุณทำงานอย่างเต็มสมรรถนะ</span>
                     <br />
                     <br />
 <span style="font-family:Tahoma, Verdana, Sans-serif"> 
