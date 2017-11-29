@@ -59,7 +59,7 @@ color='''white'''
 	icon=''''''
 	title=''''''
 	copy='''
-    <span style="font-weight: bold;"> Unleash Your Inner Mustang</span>
+    <span style="font-weight: bold;"> Unleash Your Inner Mustang.</span>
     <br/><br/>
     Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>

@@ -58,7 +58,7 @@ color='''white'''
 	icon=''''''
 	title=''''''
 	copy='''
-    <span style="font-weight: bold;"> Get Street Smart </span>
+    <span style="font-weight: bold;"> Get Street Smart. </span>
     <br/><br/>
     Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>

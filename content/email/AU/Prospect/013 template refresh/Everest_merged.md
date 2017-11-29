@@ -59,7 +59,7 @@ color='''white'''
 	icon=''''''
 	title=''''''
 	copy='''
-    <span style="font-weight: bold;"> Not Just Another 4WD </span>
+    <span style="font-weight: bold;"> Not Just Another 4WD. </span>
     <br/><br/>
     Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>

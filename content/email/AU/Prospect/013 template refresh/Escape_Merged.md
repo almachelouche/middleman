@@ -58,7 +58,7 @@ color='''white'''
 	icon=''''''
 	title=''''''
 	copy='''
-    <span style="font-weight: bold;"> Come Out And Play </span>
+    <span style="font-weight: bold;"> Come Out And Play. </span>
     <br/><br/>
     Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>

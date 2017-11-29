@@ -58,7 +58,7 @@ color='''white'''
 	icon=''''''
 	title=''''''
 	copy='''
-    <span style="font-weight: bold;"> Fun At Every Turn</span>
+    <span style="font-weight: bold;"> Fun At Every Turn.</span>
     <br/><br/>
     Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>

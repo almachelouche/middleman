@@ -60,7 +60,7 @@ color='''white'''
 	icon=''''''
 	title=''''''
 	copy='''
-    <span style="font-weight: bold;"> Discover The Meaning Of “Refined” </span>
+    <span style="font-weight: bold;"> Discover The Meaning Of “Refined”. </span>
     <br/><br/>
     Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>

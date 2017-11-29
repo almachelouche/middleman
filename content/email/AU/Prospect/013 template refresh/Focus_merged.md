@@ -57,7 +57,7 @@ color='''white'''
 	icon=''''''
 	title=''''''
 	copy='''
-    <span style="font-weight: bold;"> The Teched-Up Focus Is Here </span>
+    <span style="font-weight: bold;"> The Teched-Up Focus Is Here. </span>
     <br/><br/>
     Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>

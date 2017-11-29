@@ -61,7 +61,7 @@ color='''white'''
 	icon=''''''
 	title=''''''
 	copy='''
-    <span style="font-weight: bold;"> Tough Done Smarter</span>
+    <span style="font-weight: bold;"> Tough Done Smarter.</span>
     <br/><br/>
     Hi <%${user.CustomAttribute['FullName']}%>
     <br/><br/>
