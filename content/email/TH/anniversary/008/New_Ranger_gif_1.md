@@ -21,10 +21,14 @@ color='''white'''
 	title = '''<span style="font-family:Tahoma, Verdana, Sans-serif"><strong>ครบรอบ 1 ปีกับรถฟอร์ดคู่ใจของคุณ<span style=" white-space:nowrap;"></span></strong></span>'''
 	copy = '''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%><br /><br />
     
-    <span style=" white-space:nowrap;"> คุณคงไม่อยากเชื่อใช่ไหมว่าคุณขับรถฟอร์ด Ranger คันใหม่ของคุณมาครบ1 ปีแล้ว</span><br />
-    <span style=" white-space:nowrap;">ฟอร์ดอยากใช้โอกาสพิเศษนี้กล่าวคำขอบคุณอีกครั้งที่คุณไว้วางใจเลือกใช้รถยนต์</span><br />
-    <span style=" white-space:nowrap;">ฟอร์ดสำหรับลูกค้าคนสำคัญเช่นคุณฟอร์ดจะแจ้งข่าวสารข้อเสนอพิเศษ</span><br />
-    <span style=" white-space:nowrap;">และข้อมูลที่เป็นประโยชน์เพื่อให้คุณได้รับทราบอย่างต่อเนื่องก่อนใคร</span></span>'''
+    <span style=" white-space:nowrap;">คุณคงไม่อยากเชื่อใช่ไหมว่าคุณขับรถฟอร์ด Ranger คันใหม่ของคุณมาครบ1 ปีแล้ว</span>
+    <br />
+    <span style=" white-space:nowrap;">ฟอร์ดอยากใช้โอกาสพิเศษนี้กล่าวคำขอบคุณอีกครั้งที่คุณไว้วางใจเลือกใช้รถยนต์ฟอร์ด</span>
+    <br />
+    <span style=" white-space:nowrap;">สำหรับลูกค้าคนสำคัญเช่นคุณ ฟอร์ดจะแจ้งข่าวสารข้อเสนอพิเศษ</span>
+    <br />
+    <span style=" white-space:nowrap;">และข้อมูลที่เป็นประโยชน์เพื่อให้คุณได้รับทราบอย่างต่อเนื่องก่อนใคร</span>
+    '''
 
 [[module]] #Banner Image No Link
 path = '''email_modules/image/banner_nolink'''
