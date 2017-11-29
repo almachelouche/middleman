@@ -24,17 +24,24 @@ title='''<span style="font-family:Tahoma, Verdana, Sans-serif">
 						<span style="white-space:nowrap;">เวลาที่คุณเพลิดเพลิน</span>
 						<span style="white-space:nowrap;">ผ่านไปเร็วเสมอ</span>
 					</span>'''
-copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></span><br /><br />
+copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดีค่ะ คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>ท่านลูกค้าฟอร์ด<%/InsertIf%> <%InsertElse%> <%${user['FirstName']}%> <%/InsertElse%></span>
+<br />
+<br />
  <span style="font-family:Tahoma, Verdana, Sans-serif">
-						<span style="white-space:nowrap;">ฟอร์ดขอแจ้งให้คุณทราบ</span>ว่า<span style="white-space:nowrap;">รถคันใหม่ของคุณ</span> <br />
-						<span style="white-space:nowrap;">ถึงกำหนดตรวจเช็คระยะครั้งแรกแล้ว</span> <br />
-						<span style="white-space:nowrap;">เนื่องจากรถใหม่ทุกคัน</span>จะ<span style="white-space:nowrap;">มีระยะในการปรับสภาพ</span><br />
+						<span style="white-space:nowrap;">ฟอร์ดขอแจ้งให้คุณทราบ</span>ว่า<span style="white-space:nowrap;">รถคันใหม่ของคุณ</span>
+                        <br />
+						<span style="white-space:nowrap;">ถึงกำหนดตรวจเช็คระยะครั้งแรกแล้ว</span>
+                        <br />
+						<span style="white-space:nowrap;">เนื่องจากรถใหม่ทุกคัน</span>จะ<span style="white-space:nowrap;">มีระยะในการปรับสภาพ</span>
+                        <br />
 						<span style="white-space:nowrap;">การทำงานของรถ</span>
-						<span style="white-space:nowrap;">เมื่อออกจากโชว์รูมไปวิ่งบนท้องถนน</span> <br />
-						<span style="white-space:nowrap;">ซึ่งบริการนี้เป็นเพียงการตรวจสอบ</span> 
-						<span style="white-space:nowrap;">เพื่อให้แน่ใจว่ารถของคุณ</span><br />
+						<span style="white-space:nowrap;">เมื่อออกจากโชว์รูมไปวิ่งบนท้องถนน</span>
+                        <br />
+						<span style="white-space:nowrap;">เพื่อให้แน่ใจว่ารถของคุณ</span>
+                        <br />
 						<span style=" white-space:nowrap;">ทำงานอย่างเต็มสมรรถนะ</span>
-					</span><br /><br />
+                    <br />
+                    <br />
 <span style="font-family:Tahoma, Verdana, Sans-serif"> 
 						<span style="white-space:nowrap;">นัดหมายล่วงหน้า</span>เพื่อ<span style="white-space:nowrap;">เข้ารับบริการได้ทันที</span> <br />
 						<span style="white-space:nowrap;">ติดต่อ <%${user.CustomAttribute['Dealer_Name']}%></span> 
