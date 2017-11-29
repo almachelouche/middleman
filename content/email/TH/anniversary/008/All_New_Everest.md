@@ -27,11 +27,10 @@ color='''white'''
     <br />
     <span style=" white-space:nowrap;"> คุณคงไม่อยากเชื่อใช่ไหมว่าคุณขับรถฟอร์ด Everest คันใหม่ของคุณมาครบ1 ปีแล้ว</span>
     <br />
-    <span style=" white-space:nowrap;">ฟอร์ดอยากใช้โอกาสพิเศษนี้กล่าวคำขอบคุณอีกครั้งที่คุณไว้วางใจเลือกใช้รถยนต์</span>
+    <span style=" white-space:nowrap;">ฟอร์ดอยากใช้โอกาสพิเศษนี้กล่าวคำขอบคุณอีกครั้งที่คุณไว้วางใจเลือกใช้รถยนต์ฟอร์ด</span>
     <br />
-    <span style=" white-space:nowrap;">ฟอร์ด</span>
-    <br />
-    <span style=" white-space:nowrap;">สำหรับลูกค้าคนสำคัญเช่นคุณฟอร์ดจะแจ้งข่าวสารข้อเสนอพิเศษ</span>
+    <span style=" white-space:nowrap;">สำหรับลูกค้าคนสำคัญเช่นคุณ</span> 
+    <span style=" white-space:nowrap;">ฟอร์ดจะแจ้งข่าวสารข้อเสนอพิเศษ</span>
     <br />
     <span style=" white-space:nowrap;">และข้อมูลที่เป็นประโยชน์เพื่อให้คุณได้รับทราบอย่างต่อเนื่องก่อนใคร</span>
     '''
