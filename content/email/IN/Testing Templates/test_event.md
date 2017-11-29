@@ -62,7 +62,7 @@ color='''white'''
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''<a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Reunion&dates=20171122T150000Z/20171122T170000Z&details=For+details,+link+here:+http://www.fordindia.com&location=FordIndia&sf=true&output=xml" target="_blank"> Add to Calendar (Gmail)</a>
+	copy = '''<a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Reunion&dates=20171122T150000Z/20171122T170000Z&details=For+details,+link+here:+http://www.fordindia.com&location=FordIndia&sf=true&output=xml" target="_blank">style="text-decoration:underline; color:#2D96CD;" > Add to Calendar (Gmail)</a>
     <br />
     <a href="https://s3-ap-southeast-1.amazonaws.com/edm-images/events/test/Event_Save_Test.ics" style="text-decoration:underline; color:#2D96CD;" >Add to Calendar (iCal/Outlook)</a>'''
 
