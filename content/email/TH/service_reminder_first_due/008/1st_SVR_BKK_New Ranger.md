@@ -32,9 +32,7 @@ copy='''<span style="font-family:Tahoma, Verdana, Sans-serif">สวัสดี
 						<span style="white-space:nowrap;">ของคุณไปตรวจเช็คระยะครั้งแรกแล้ว</span> 
 						<span style="white-space:nowrap;">รับรองว่ารวดเร็วและครบครัน</span> 
 						<span style="white-space:nowrap;">ให้คุณมั่นใจว่ารถ <%${user.CustomAttribute['Model']}%></span> 
-						<span style="white-space:nowrap;">ของคุณจะพร้อมสำหรับทุกการเดินทาง</span> 
-						<span style="white-space:nowrap;">ไปกับศูนย์บริการฟอร์ดทั่วประเทศ</span>
-</span>
+						<span style="white-space:nowrap;">ของคุณจะพร้อมสำหรับทุกการเดินทางไปกับศูนย์บริการฟอร์ดทั่วประเทศ</span>
 <br /><br />
 <span style="font-family:Tahoma, Verdana, Sans-serif">
 <span style="white-space:nowrap;">บริการใหม่!!</span> 
