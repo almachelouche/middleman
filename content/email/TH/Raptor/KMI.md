@@ -34,10 +34,8 @@ path='email_modules/singles/title'
 color='''white'''
 
 	title = '''
-    <span style="font-family:Tahoma, Verdana, Sans-serif"><strong>
-    <span style=" white-space:nowrap;">เรียน <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %></span>
-    <br />
-	<span style=" white-space:nowrap;">เรนเจอร์ แร็พเตอร์การมาถึงของความยิ่งใหญ่ที่คุณรอคอย</span>
+    <span style="font-family:Tahoma, Verdana, Sans-serif"><strong>เรียน <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>    
+	<span style=" white-space:nowrap;">เรนเจอร์ แร็พเตอร์การมาถึงของความยิ่งใหญ่ที่คุณรอคอ</span>
     '''
 
 [[module]]
