@@ -10,6 +10,12 @@ color='''white'''
 
 
 [[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+    
+[[module]]
 path='email_modules/image/banner'
 color='white'
 
