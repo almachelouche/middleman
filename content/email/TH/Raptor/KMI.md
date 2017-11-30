@@ -35,7 +35,7 @@ color='''white'''
 
 	copy = '''
     <span style="font-family:Tahoma, Verdana, Sans-serif">
-	<span style=" white-space:nowrap;">เรียน</span>
+	<span style=" white-space:nowrap;">เรียน <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %></span>
     <br />
     <span style=" white-space:nowrap;">พบกัน 2018 นี้</span> 
     '''
