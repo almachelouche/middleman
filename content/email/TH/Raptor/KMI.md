@@ -19,9 +19,9 @@ color='white'
 path='email_modules/image/banner'
 color='white'
 
-	image = '''AU_edm6_raptor_20170920'''
+	image = '''th_edm6_rangerkmi_20171130'''
 		url_link=''''''
-	url_link_name=''''''
+	url_link_name='''ranger_kmi'''
 
 [[module]]
 path='email_modules/spacer/default'
@@ -30,11 +30,20 @@ color='white'
 	height="30"
 
 [[module]]
+path='email_modules/singles/copy'
+color='''white'''
+
+	copy = '''
+    <span style="font-family:Tahoma, Verdana, Sans-serif">
+	เรียน <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %></span>
+    '''
+
+[[module]]
 path='email_modules/singles/title'
 color='''white'''
 
 	title = '''
-    <span style="font-family:Tahoma, Verdana, Sans-serif">เรียน <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %>    
+    <span style="font-family:Tahoma, Verdana, Sans-serif">    
 	<span style=" white-space:nowrap;">เรนเจอร์ แร็พเตอร์การมาถึงของความยิ่งใหญ่ที่คุณรอคอ</span>
     '''
 
@@ -74,7 +83,7 @@ color='''white'''
 
 	cta1_text = '''รับชมวิดีโอที่นี่'''
 	cta1_url = ''''''
-	cta1_link_name = '''KMI'''
+	cta1_link_name = '''ranger_kmi'''
 
 [[module]] #TH Social
 path='email_modules/footer/th/social'
