@@ -1,6 +1,6 @@
 +++
 markets = ["au"]
-title = '''AU Enews 014 0-6 month testing white'''
+title = '''AU Enews 014 0-6 month testing white banner below'''
 
 [[module]]
 path='email_modules/preheader'
@@ -13,18 +13,24 @@ path='email_modules/header/enews'
 color='white'
 
 	title = '''Insider'''
-	date = '''November 2017 '''
+	date = '''Edition 1 '''
 	copy = '''IN THIS ISSUE:<br /> Ranger Raptor | Tyre Guarantee | Engine Health | Ford Owners App'''
+   	
 
-[[module]] #Header Logo
-path='email_modules/header/logodesktop'
+[[module]]
+path='email_modules/image/banner'
 color='white'
 
-	image = '''white'''
-	url_link = '''https://www.ford.com.au/'''
-    
-    	
+	image='''AU_edm6_banner_30112017'''
+	url_link='''http://ford.com.au'''
+	url_link_name='''Ford AU'''
 
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+    
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
 color='white'
@@ -43,6 +49,12 @@ color='white'
 	image = '''AU_edm6_raptor_20170920'''
 	url_link = '''https://www.ford.com.au/commercial/ranger/raptor/?intcmp=bb-fau-vhp-ford%20ranger-fau-vhp-ford%20ranger-return#overlay/content/ford/au/en_au/ranger-content/overlay-videos/raptor-videos/video1.html'''
 
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
+	height="20"
+    
 [[module]]
 path='email_modules/dual/05'
 color='white'
@@ -65,6 +77,12 @@ color='white'
 	image2_link_url = '''https://youtu.be/yM6vCGm-AAQ/'''
 	image2_link_name = '''engineandoil'''
 
+[[module]]
+path='email_modules/spacer/platinum_20'
+color='white'
+
+	height="20"
+    
 [[module]]
 path='email_modules/dual/05'
 color='white'
