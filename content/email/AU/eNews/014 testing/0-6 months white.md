@@ -8,6 +8,14 @@ color='''white'''
 
 	preheader='''We’re taking performance to the next level off road'''
 
+[[module]]
+path='email_modules/image/banner'
+color='white'
+
+	image='''AU_edm6_banner_30112017'''
+	url_link='''http://ford.com.au'''
+	url_link_name='''LINKNAMEHERE'''
+
 	[[module]] #Header eNews #non NSW
 path='email_modules/header/enews'
 color='white'
@@ -15,15 +23,7 @@ color='white'
 	title = '''Insider'''
 	date = '''November 2017 '''
 	copy = '''IN THIS ISSUE:<br /> Ranger Raptor | Tyre Guarantee | Engine Health | Ford Owners App'''
-
-[[module]] #Header Logo
-path='email_modules/header/logodesktop'
-color='white'
-
-	image = '''white'''
-	url_link = '''https://www.ford.com.au/'''
-    
-    	
+   	
 
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
