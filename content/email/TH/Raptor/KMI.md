@@ -44,7 +44,7 @@ color='''white'''
 
 	title = '''
     <span style="font-family:Tahoma, Verdana, Sans-serif">    
-	<span style=" white-space:nowrap;">เรนเจอร์ แร็พเตอร์การมาถึงของความยิ่งใหญ่ที่คุณรอคอ</span>
+	<span style=" white-space:nowrap;">เรนเจอร์ แร็พเตอร์การมาถึงของความยิ่งใหญ่ที่คุณรอคอย</span>
     '''
 
 [[module]]
