@@ -21,7 +21,7 @@ path='email_modules/header/enews'
 color='white'
 
 	title = '''Insider'''
-	date = '''November 2017 '''
+	date = '''Edition 1 '''
 	copy = '''IN THIS ISSUE:<br /> Ranger Raptor | Tyre Guarantee | Engine Health | Ford Owners App'''
    	
 
