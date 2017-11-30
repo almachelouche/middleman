@@ -30,22 +30,13 @@ color='white'
 	height="30"
 
 [[module]]
-path='email_modules/singles/copy'
-color='''white'''
-
-	copy = '''
-    <span style="font-family:Tahoma, Verdana, Sans-serif">
-	<span style=" white-space:nowrap;">เรียน <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %></span>
-    <br />
-    <span style=" white-space:nowrap;">พบกัน 2018 นี้</span> 
-    '''
-
-[[module]]
 path='email_modules/singles/title'
 color='''white'''
 
 	title = '''
     <span style="font-family:Tahoma, Verdana, Sans-serif"><strong>
+    <span style=" white-space:nowrap;">เรียน <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %></span>
+    <br />
 	<span style=" white-space:nowrap;">เรนเจอร์ แร็พเตอร์การมาถึงของความยิ่งใหญ่ที่คุณรอคอย</span>
     '''
 
