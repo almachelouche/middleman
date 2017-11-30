@@ -66,7 +66,9 @@ color='''white'''
     <br/>
     <span style=" white-space:nowrap;">คลิกลิ้งค์ด้านล่างเพื่อพิสูจน์ว่า สาวกกระบะ ทั่วภูมิภาคเอเชียเค้าพูดถึงรถคันนี้ว่าอย่างไรบ้าง</span>
     <br/>
-    <span style=" white-space:nowrap;">และเตรียมพร้อมรับการคำรามของสุดยอดรถกระบะออฟโรดฟอร์ด เรนเจอร์ แร็พเตอร์ ที่จะวางจำหน่าย</span> 
+    <span style=" white-space:nowrap;">และเตรียมพร้อมรับการคำรามของสุดยอดรถกระบะออฟโรดฟอร์ด</span> 
+    <br/>
+    <span style=" white-space:nowrap;">เรนเจอร์ แร็พเตอร์ ที่จะวางจำหน่าย</span> 
     <br/>
     <span style=" white-space:nowrap;">ในปี 2018 นี้</span>
     '''
