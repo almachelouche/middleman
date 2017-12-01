@@ -29,7 +29,7 @@ color = '''white'''
 
 	#image = '''vn_edm1&4_np_ecosport_20160801'''
 
-	image_code = '''<%InsertIf expression="${(user.CustomAttribute['Model'] == 'Ford Ecosport')}" id="Ranger" %>
+	image_code = '''<%InsertIf expression="${(user.CustomAttribute['Model'] == 'Ford Ecosport')}" id="Ecosport" %>
 <img class="img_R" align="left" src="https://s3-ap-southeast-1.amazonaws.com/edm-images/covers/vn_edm1&4_np_ecosport_20160801_desktop.jpg"alt="Image Banner" title="Image Banner" border="0" style="display:block;margin:0;"/>
 <%/InsertIf%> 
 		
