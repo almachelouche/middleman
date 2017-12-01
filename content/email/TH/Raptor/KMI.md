@@ -6,7 +6,7 @@ title = '''TH Ford Ranger Raptor KMI All'''
 path='email_modules/preheader'
 color='''white'''
 
-preheader = ''''''
+preheader = '''สุดยอดยนตรกรรมแห่งวงการกระบะออฟโรด ฟอร์ดเรนเจอร์ แร็พเตอร์'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -35,7 +35,7 @@ color='''white'''
 
 	copy = '''
     <span style="font-family:Tahoma, Verdana, Sans-serif">
-	เรียน <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %></span>
+	เรียน คุณ <%InsertIf expression="${(user['FirstName'] == null || user['FirstName'] == '-')}" id="FirstName" %></span>
     '''
 
 [[module]]
@@ -44,7 +44,9 @@ color='''white'''
 
 	title = '''
     <span style="font-family:Tahoma, Verdana, Sans-serif">    
-	<span style=" white-space:nowrap;">เรนเจอร์ แร็พเตอร์การมาถึงของความยิ่งใหญ่ที่คุณรอคอย</span>
+	<span style=" white-space:nowrap;">เรนเจอร์ แร็พเตอร์</span>
+    <br/>
+    <span style=" white-space:nowrap;">การมาถึงของความยิ่งใหญ่ที่คุณรอคอย</span>
     '''
 
 [[module]]
@@ -60,17 +62,19 @@ color='''white'''
 	copy = '''
     <span style="font-family:Tahoma, Verdana, Sans-serif">
 	<span style=" white-space:nowrap;">ตั้งแต่เราเปิดตัว เรนเจอร์ แร็พเตอร์ ทั้งโลกก็จับตามอง!  ทุกคนก็ต่างพูดถึง!</span>
-    <br />
-    <span style=" white-space:nowrap;">ก็แน่ล่ะ เพราะนี่คือที่สุดของเครื่องยนต์ความเร็วสูงแห่งวงการออฟโรดที่ยอดเยี่ยมสุดๆ</span> 
+    <br/>
+    <span style=" white-space:nowrap;">ก็แน่ล่ะ เพราะนี่คือที่สุดของเครื่องยนต์ความเร็วสูง</span>
+    <br/>
+    <span style=" white-space:nowrap;">แห่งวงการออฟโรดที่ยอดเยี่ยมสุดๆ</span> 
     <br/>
     <br/>
-    <span style=" white-space:nowrap;">คลิกลิ้งค์ด้านล่างเพื่อพิสูจน์ว่า สาวกกระบะ ทั่วภูมิภาคเอเชียเค้าพูดถึงรถคันนี้ว่าอย่างไรบ้าง</span>
+    <span style=" white-space:nowrap;">คลิกลิ้งค์ด้านล่างเพื่อพิสูจน์ว่า</span> 
     <br/>
-    <span style=" white-space:nowrap;">และเตรียมพร้อมรับการคำรามของสุดยอดรถกระบะออฟโรดฟอร์ด</span> 
+    <span style=" white-space:nowrap;">สาวกกระบะ ทั่วภูมิภาคเอเชียเค้าพูดถึงรถคันนี้ว่าอย่างไรบ้าง</span>
     <br/>
-    <span style=" white-space:nowrap;">เรนเจอร์ แร็พเตอร์ ที่จะวางจำหน่าย</span> 
+    <span style=" white-space:nowrap;">และเตรียมพร้อมรับการคำรามของสุดยอดรถกระบะออฟโรด</span> 
     <br/>
-    <span style=" white-space:nowrap;">ในปี 2018 นี้</span>
+    <span style=" white-space:nowrap;">ฟอร์ด เรนเจอร์ แร็พเตอร์ ที่จะวางจำหน่าย ในปี 2018 นี้</span> 
     '''
     
 [[module]]
