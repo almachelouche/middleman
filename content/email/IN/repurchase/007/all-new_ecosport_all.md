@@ -94,17 +94,19 @@ color='black'
 	cta1_link_name = '''6speed'''
 	cta1_icon = '''more'''
 	image2 = '''in_edm5_dtrl_20171130'''
-	cta2_text = '''LED Daytime Running Lamps'''
+	cta2_text = '''Projector Headlamps'''
 	cta2_url = '''https://www.india.ford.com/suvs/ecosport/features/style/'''
 	cta2_link_name = '''headlamps_dtrl'''
 	cta2_icon = '''more'''
 
 [[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
+path='email_modules/image/banner'
 color = '''white'''
 
 	image = '''in_edm5_newecosport_model_compare_20171130'''
-
+	url_link='''https://www.india.ford.com/'''
+	url_link_name='''model_compare_image'''
+    
 [[module]]
 path='email_modules/spacer/default'
 color='white'
@@ -128,7 +130,7 @@ path='email_modules/singles/ctablock'
 color='''white'''
 
 	cta1_text = '''MODEL COMPARE'''
-	cta1_url = ''''''
+	cta1_url = '''https://www.india.ford.com/'''
 	cta1_link_name = '''model_compare'''
 
 [[module]]
