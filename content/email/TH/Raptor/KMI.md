@@ -6,7 +6,7 @@ title = '''TH Ford Ranger Raptor KMI All'''
 path='email_modules/preheader'
 color='''white'''
 
-preheader = '''สุดยอดยนตรกรรมแห่งวงการกระบะออฟโรด ฟอร์ดเรนเจอร์ แร็พเตอร์'''
+preheader = '''สุดยอดยนตรกรรมแห่งวงการกระบะออฟโรดฟอร์ด เรนเจอร์ แร็พเตอร์'''
 
 [[module]] #Header Logo
 path='email_modules/header/logo'
@@ -20,7 +20,7 @@ path='email_modules/image/banner'
 color='white'
 
 	image = '''th_edm6_rangerkmi_20171201'''
-		url_link=''''''
+		url_link='''https://youtu.be/iiImuy6F0fs'''
 	url_link_name='''ranger_kmi'''
 
 [[module]]
@@ -88,7 +88,7 @@ path='email_modules/singles/ctablock'
 color='''white'''
 
 	cta1_text = '''รับชมวิดีโอที่นี่'''
-	cta1_url = ''''''
+	cta1_url = '''https://youtu.be/iiImuy6F0fs'''
 	cta1_link_name = '''ranger_kmi'''
 
 [[module]] #TH Social
