@@ -57,7 +57,7 @@ color='white'
 path='email_modules/singles/copy'
 color='''white'''
 
-	copy = '''Hello #Name#<br /><br />As a valued Ford owner, we want give you an exclusive look at the new Ranger Raptor. Before anyone else sees it.<br /><br />Ever since we released the Ranger Raptor into the wild, the world has been talking. No big surprise! The ultimate machine for high-speed off-roading creates quite an impression.<br /><br />Click the link below to see exactly what industry insiders and truck lovers across Asia have to say. And stand by for this off-road wonder to join the Ford lineup in 2018.'''
+	copy = '''As a valued Ford owner, we want give you an exclusive look at the new Ranger Raptor. Before anyone else sees it.<br /><br />Ever since we released the Ranger Raptor into the wild, the world has been talking. No big surprise! The ultimate machine for high-speed off-roading creates quite an impression.<br /><br />Click the link below to see exactly what industry insiders and truck lovers across Asia have to say. And stand by for this off-road wonder to join the Ford lineup in 2018.'''
     
 [[module]]
 path='email_modules/spacer/default'
