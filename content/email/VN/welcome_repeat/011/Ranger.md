@@ -27,6 +27,24 @@ color = '''white'''
 
 	image = '''vn_edm1&4_np_newranger_20160801'''
 
+[[module]]
+path='email_modules/cover/02'
+
+color='''white'''
+title='''Giới thiệu khách hàng và nhận ngay quà tặng'''
+copy='''Quý vị có người thân và bạn bè đang có dự định mua xe Ford? Hãy giới thiệu họ với chúng tôi bằng cách điền vào "Phiếu giới thiệu Khách hàng tiềm năng" trên trang <a href="https://www.ford.com.vn/" name="LINK_NAME_GOES_HERE" style="text-decoration:none; color:#2d96cd;">www.ford.com.vn</a>, vào mục ‘CHỦ XE’. Quý vị có thể nhận ngay quà tặng phiếu dịch vụ trị giá đến 2 triệu đồng. Chương trình sẽ kết thúc vào ngày 31 tháng 12 năm 2017.<sup>1</sup>'''
+cta1_text='''XEM CHI TIẾT CHƯƠNG TRÌNH'''
+cta1_url='''https://www.ford.com.vn/owner/owner-gets-owner/'''
+cta1_link_name = '''mgm'''
+
+[[module]] #Banner Image
+path='email_modules/image/banner'
+color='white'
+
+	image='''vn_edm1_member_20171106_desktop'''
+	url_link='''https://www.ford.com.vn/owner/owner-gets-owner/'''
+	url_link_name='''mgm'''
+
 [[module]] # Owner App Image Right
 path='email_modules/custom/ownerapp_imgr'
 color='black'
@@ -79,6 +97,12 @@ color='green'
 [[module]] #VN Social
 path='email_modules/footer/vn/social'
 color='white'
+
+[[module]] #Footer Disclaimer
+path='email_modules/footer/disclaimer'
+color='white'
+
+ text='''Disclaimer: <br /><br />[1] Thông tin trong Phiếu giới thiệu phải được Khách hàng tiềm năng cho phép thu thập, lưu giữ và sử dụng.'''
 
 [[module]] #Footer Online
 path='email_modules/footer/online'
