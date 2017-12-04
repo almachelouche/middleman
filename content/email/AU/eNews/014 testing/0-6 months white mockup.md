@@ -22,12 +22,10 @@ color='white'
 	image='''AU_edm6_banner_30112017'''
 	url_link='''http://ford.com.au'''
 	url_link_name='''Ford AU'''
-
-
     
 [[module]] # eNews Intro
 path='email_modules/custom/enews_intro'
-color='white'
+color='white_pb'
 
 	copy = '''IN THIS ISSUE:<br /> Ranger Raptor | Tyre Guarantee | Engine Health | Ford Owners App'''
     
