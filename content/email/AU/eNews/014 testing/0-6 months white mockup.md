@@ -22,22 +22,21 @@ color='white'
 	image='''AU_edm6_banner_30112017'''
 	url_link='''http://ford.com.au'''
 	url_link_name='''Ford AU'''
-
-   
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
     
-   [[module]]
-path='email_modules/singles/copy'
-color='''white'''
+    [[module]] # eNews Top Story
+path='email_modules/custom/enews_topstory'
+color='white_pb'
 
+	title = ''''''
 	copy = '''IN THIS ISSUE:<br /> Ranger Raptor | Tyre Guarantee | Engine Health | Ford Owners App'''
+	cta1_text = ''''''
+	cta1_url = ''''''
+	cta1_link_name = ''''''
+	cta2_text = ''''''
+	cta2_url = ''''''
+	cta2_link_name = ''''''
 
-
-
+    
 [[module]] # eNews Top Story
 path='email_modules/custom/enews_topstory'
 color='white'
