@@ -36,7 +36,7 @@ color='''white'''
 	cta1_url = '''https://www.india.ford.com/locate-dealer/'''
 	cta1_link_name = '''locate_dealer'''
 	cta2_text = '''BOOK A TEST DRIVE'''
-	cta2_url = '''https://www.india.ford.com/suvs/endeavour/?intcmp=in-hp-bb-xt-namplateexp-fordendeavour-en#overlay/content/ford/in/en_in/site-wide-content/overlays/forms/test-drive-endeavour.html?campaign=ENFWTDC&intModel=Endeavour&modelCode=EN/'''
+	cta2_url = '''https://www.india.ford.com/new-test-drive-ecosport/'''
 	cta2_link_name = '''test_drive'''
     
 [[module]]
@@ -94,17 +94,19 @@ color='black'
 	cta1_link_name = '''6speed'''
 	cta1_icon = '''more'''
 	image2 = '''in_edm5_dtrl_20171130'''
-	cta2_text = '''LED Daytime Running Lamps'''
+	cta2_text = '''Projector Headlamps'''
 	cta2_url = '''https://www.india.ford.com/suvs/ecosport/features/style/'''
 	cta2_link_name = '''headlamps_dtrl'''
 	cta2_icon = '''more'''
 
 [[module]] #Banner Image No Link
-path = '''email_modules/image/banner_nolink'''
+path='email_modules/image/banner'
 color = '''white'''
 
 	image = '''in_edm5_newecosport_model_compare_20171130'''
-
+	url_link='''https://www.india.ford.com/'''
+	url_link_name='''model_compare_image'''
+    
 [[module]]
 path='email_modules/spacer/default'
 color='white'
@@ -128,7 +130,7 @@ path='email_modules/singles/ctablock'
 color='''white'''
 
 	cta1_text = '''MODEL COMPARE'''
-	cta1_url = ''''''
+	cta1_url = '''https://www.india.ford.com/'''
 	cta1_link_name = '''model_compare'''
 
 [[module]]
@@ -136,12 +138,6 @@ path='email_modules/singles/icon'
 color='''white'''
 
 	icon = '''th_edm2_ownerprofile_20160801'''
-
-[[module]]
-path='email_modules/spacer/default'
-color='white'
-
-	height="30"
 
 [[module]]
 path='email_modules/singles/title'
@@ -153,7 +149,7 @@ color='''white'''
 path='email_modules/spacer/default'
 color='white'
 
-	height="30"
+	height="20"
 
 [[module]]
 path='email_modules/singles/copy'
@@ -165,19 +161,19 @@ color='''white'''
 path='email_modules/spacer/default'
 color='white'
 
-	height="30"
+	height="20"
 
 [[module]]
 path='email_modules/singles/2textcta'
 color='''white'''
 
 	cta1_text = '''UPDATE DETAILS'''
-	cta1_url = '''https://www.india.ford.com/#/overlay/content/ford/in/en_in/site-wide-content/overlays/forms/profile-update-form.html?req_firstName=<%${user['FirstName']}%>&req_lastName=<%${user['LastName']}%>&req_mobileNumber=<%${user.CustomAttribute['Mobile_Phone']}%>&req_EmailID=<%${user.CustomAttribute['RealEmail']}%>&req_BuildingNo=<%${user.CustomAttribute['Address_1']}%>&req_StreetRoad=<%${user.CustomAttribute['Address_2']}%>&req_Area=<%${user.CustomAttribute['Area']}%>&req_Landmark=<%${user.CustomAttribute['Landmark']}%>&req_city=<%${user.CustomAttribute['City']}%>&req_State=<%${user.CustomAttribute['State']}%>&req_postCode=<%${user.CustomAttribute['Post_Code']}%>/'''
+	cta1_url = '''https://www.india.ford.com/#/overlay/content/ford/in/en_in/site-wide-content/overlays/forms/profile-update-form.html?req_firstName=<%${user['FirstName']}%>&req_lastName=<%${user['LastName']}%>&req_mobileNumber=<%${user.CustomAttribute['Mobile_Phone']}%>&req_EmailID=<%${user.CustomAttribute['RealEmail']}%>&req_BuildingNo=<%${user.CustomAttribute['Address_1']}%>&req_StreetRoad=<%${user.CustomAttribute['Address_2']}%>&req_Area=<%${user.CustomAttribute['Area']}%>&req_Landmark=<%${user.CustomAttribute['Landmark']}%>&req_city=<%${user.CustomAttribute['City']}%>&req_State=<%${user.CustomAttribute['State']}%>&req_postCode=<%${user.CustomAttribute['Post_Code']}%>ß'''
 	cta1_link_name = '''profile_update'''
 	cta2_text = '''VISIT OWNER SITE'''
 	cta2_url = '''https://www.india.ford.com/owner/dashboard/#overlay/content/ford/in/en_in/site-wide-content/overlays/form-overlay/login.html/'''
 	cta2_link_name = '''owner_login'''
-		cta1_icon='''more'''
+    cta1_icon='''more'''
 
 [[module]]
 path='email_modules/footer/5icons'

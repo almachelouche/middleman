@@ -23,15 +23,19 @@ color='white'
 	url_link='''http://ford.com.au'''
 	url_link_name='''Ford AU'''
 
-
-	[[module]] #Header eNews #non NSW
-path='email_modules/header/enews'
+   
+[[module]]
+path='email_modules/spacer/default'
 color='white'
 
-	title = '''Insider'''
-	date = '''Edition 1 '''
+	height="30"
+    
+   [[module]]
+path='email_modules/singles/copy'
+color='''white'''
+
 	copy = '''IN THIS ISSUE:<br /> Ranger Raptor | Tyre Guarantee | Engine Health | Ford Owners App'''
-   	
+
 
 
 [[module]] # eNews Top Story
