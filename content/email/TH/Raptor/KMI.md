@@ -19,7 +19,7 @@ color='white'
 path='email_modules/image/banner'
 color='white'
 
-	image = '''th_edm6_rangerkmi_20171201'''
+	image = '''th_edm6_rangerkmi_20171204'''
 		url_link='''https://youtu.be/iiImuy6F0fs'''
 	url_link_name='''ranger_kmi'''
 
