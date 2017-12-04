@@ -72,7 +72,7 @@ cta1_link_name = '''mgm'''
 path='email_modules/image/banner'
 color='white'
 
-	image='''vn_edm1_member_20171106_desktop'''
+	image='''vn_edm1_member_20171106'''
 	url_link='''https://www.ford.com.vn/owner/owner-gets-owner/'''
 	url_link_name='''mgm'''
 
