@@ -23,6 +23,13 @@ color='white'
 	url_link='''http://ford.com.au'''
 	url_link_name='''Ford AU'''
 
+   
+[[module]]
+path='email_modules/spacer/default'
+color='white'
+
+	height="30"
+    
    [[module]]
 path='email_modules/singles/copy'
 color='''white'''
