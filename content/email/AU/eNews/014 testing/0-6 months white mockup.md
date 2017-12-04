@@ -29,7 +29,7 @@ path='email_modules/custom/enews_topstory'
 color='white_pb'
 
 	title = ''''''
-	copy = ''IN THIS ISSUE:<br /> Ranger Raptor | Tyre Guarantee | Engine Health | Ford Owners App'''
+	copy = '''IN THIS ISSUE:<br /> Ranger Raptor | Tyre Guarantee | Engine Health | Ford Owners App'''
 	cta1_text = ''''''
 	cta1_url = ''''''
 	cta1_link_name = ''''''
