@@ -159,7 +159,7 @@ color='''white'''
 path='email_modules/spacer/default'
 color='white'
 
-	height="30"
+	height="20"
 
 [[module]]
 path='email_modules/singles/2textcta'
