@@ -26,7 +26,7 @@ color='white'
 
 [[module]] # eNews Intro
 path='email_modules/custom/enews_intro'
-color='white_pd'
+color='white'
 
 	copy = '''IN THIS ISSUE:<br /> Ranger Raptor | Tyre Guarantee | Engine Health | Ford Owners App'''
     
