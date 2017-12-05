@@ -30,12 +30,6 @@ color='white_pb'
 
 	title = ''''''
 	copy = '''IN THIS ISSUE:<br /> Ranger Raptor | Tyre Guarantee | Engine Health | Ford Owners App'''
-	cta1_text = ''''''
-	cta1_url = ''''''
-	cta1_link_name = ''''''
-	cta2_text = ''''''
-	cta2_url = ''''''
-	cta2_link_name = ''''''
 
 
 
